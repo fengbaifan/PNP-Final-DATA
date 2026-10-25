@@ -2,7 +2,9 @@
 
 ### 本轮进度与后续工作（2026-10-25）
 
-**当前快照（2026-10-25，第5章Azzolini／S. Salvatore／1701展览端点批次后）：** S0已处置832段（678 complete、154 excluded）。S2为15,353 statements／26,791 mentions；统一独立逐条复核9,617/15,353（62.64%，未接收，5,736条未进入统一复核）。按每个candidate_id主决定计，S3为12,426项：same=2,054、new=5,082、conflict=9、excluded=104、undecided=5,177；26个跨来源decision差异待核。S4已映射2,121/5,082条new，待登记2,961条，其中1,247个去重候选触及直接关系端点；KU共2,905。S5字段13,361条（1,634 `unverified`）。S6已裁决1,338/10,569条（754 formal、470 pending、114 rejected），余9,231；`relations.csv`为2,010条（1,982 formal、28 pending），含1条不计入S6分母的书目派生结构性authorship关系`rel-2008`，`rel-2009`来自S2候选且计入S6 formal。另有337条关系statement至少缺一个S2端点候选ID（subject-only 45、object-only 220、both 72）。`candidate-backlog.csv`有38条记录（12 completed、26 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断为0。S2尚未接收，S3–S6未全书收口；S7、知识发现与页面均未启动。
+**当前快照（2026-10-25，第4章 Paolo Giordano II 档案端点批次后）：** S0已处置832段（678 complete、154 excluded）。S2为15,353 statements／26,791 mentions；统一独立逐条复核9,617/15,353（62.64%，未接收，5,736条未进入统一复核）。按每个candidate_id主决定计，S3为12,426项：same=2,054、new=5,082、conflict=9、excluded=104、undecided=5,177；26个跨来源decision差异待核。S4已映射2,122/5,082条new，待登记2,960条，其中1,246个去重候选触及直接关系端点；KU共2,906。S5字段13,369条（1,634 `unverified`）。S6已裁决1,341/10,572条（755 formal、472 pending、114 rejected），余9,231；`relations.csv`为2,011条（1,983 formal、28 pending），含1条不计入S6分母的书目派生结构性authorship关系`rel-2008`，以及来自S2候选的`rel-2009`与`rel-2011`。另有337条关系statement至少缺一个S2端点候选ID（subject-only 45、object-only 220、both 72）。`candidate-backlog.csv`有38条记录（12 completed、26 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断为0。S2尚未接收，S3–S6未全书收口；S7、知识发现与页面均未启动。
+
+**本批完成：第4章 Paolo Giordano II《Rime, e Satire》档案端点。** 延用 `cand-5533`／`aln-5714` 的 S3 `new` 身份组登记一个 archive KU；第4章 p.96 注5与第21章 p.433 题名形式不同，保留 “Rime, e Satire”／“Rime e Satira”，不声称已查原刊本。新增8条书内 `source_backed` 字段；3条 S6 候选逐项裁决为1 formal（`rel-2011`，`authored_by`）和2 pending（风格谓词未受控；文学史家未具名且端点未定）。新档案卡及人物卡定向渲染、写后核验通过。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-paolo-giordano-ii-rime-e-satire-archive-20261025)。
 
 **本批完成：第5章Azzolini、S. Salvatore in Lauro与1701展览。** S3将Cardinal Azzolini对应到Decio Azzolino Junior；`cand-6052`教堂和`cand-11942`展览各自登记，合计新增3个KU和10条`source_backed`字段。`cand-11941`五幅匿名画组因不等同于单件作品或已知艺术组合，继续`undecided`并进入`bl-0038`。6条关联S6均有明确去向（6 pending；其中地点候选记为`rel-2010`）。另补2条mention锚点、校正4条脚注印刷页字段。三张卡均定向预览；仅1701展览卡写入1条待证关系展示，写后字节核验通过。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp5-salvatore-azzolini-1701-20261025)。
 
@@ -19,7 +21,7 @@
 
 **后续工作规划（按当前任务优先级）：**
 
-1. **继续高关系解锁价值的 S4/S6 批次。** 当前2,961个new候选尚待S4，其中1,247个去重候选直接触及关系端点。优先选跨多条关系、证据边界明确的类型组；同批映射S4、补关键S5字段、逐条裁决S6。每批保留待证理由和重开条件。
+1. **继续高关系解锁价值的 S4/S6 批次。** 当前2,960个new候选尚待S4，其中1,246个去重候选直接触及关系端点。优先选跨多条关系、证据边界明确的类型组；同批映射S4、补关键S5字段、逐条裁决S6。每批保留待证理由和重开条件。
 2. **按类型推进S3收口。** 先核对26个跨来源decision差异，再处理9个conflict和5,177个undecided，按person、place、institution、event、work、archive等身份组逐项判定。same复用既有KU、new登记、conflict保留来源差异、excluded说明依据；缺身份或当前类型不能忠实表示的对象留在明确backlog，不强求转成已确定身份。
 3. **处理337条缺端点关系候选。** 按缺subject 45、缺object 220、两端均缺72分组；只有来源足以确定时才补候选并走S1–S4，再回到S6。端点不明则保留pending，不以缺少关系表行误作rejected。
 4. **持续按章完成S2独立语义复核。** 目前9,617/15,353（62.64%），另5,736条未进入统一逐条复核；按当前statement ID与来源版本核平，逐章记录证据、修订和真正独立的接收结果。补mention锚点或修元数据不增加复核分子。

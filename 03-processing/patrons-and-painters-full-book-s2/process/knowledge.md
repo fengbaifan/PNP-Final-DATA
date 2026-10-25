@@ -14127,3 +14127,27 @@ S5字段构建器定向预检并写入10条`source_backed`字段（enr-17266–e
 #### 定向呈现与核验（S3/S4/S5/S6 CH5 batch）
 
 字段构建器定向预检／应用均为10条source_backed、0条unverified、0警告；source registry新增3条外部来源。三张新卡均定向预览且结构有效；人物卡与教堂卡没有待写表格差异，展览卡预览仅显示1条rel-2010 pending `occurred_at` 关系；定向渲染后写入1张卡，写后字节核验通过，恢复快照已清理。`audit_tables.py --strict-stage --summary`退出码0：KU=2,905、S3候选=12,426、待S4登记=2,961、关系表=2,010、S5字段=13,361、S2 statements=15,353／mentions=26,791，`s2_missing=[]`、`errors=[]`。两条warning分别提示尚有2,961项S4登记和S2语义质量仍须审查；它们是项目未完成状态，不是本批结构错误。`audit_relation_consistency.py`退出码0：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。`git diff --check`退出码0；未运行测试，因本批只改数据与文档，没有代码变更。
+
+<a id="s4-s5-s6-paolo-giordano-ii-rime-e-satire-archive-20261025"></a>
+
+### S4/S5/S6：第4章 Paolo Giordano II《Rime, e Satire》档案端点（2026-10-25）
+
+#### S3触发复核与S4登记
+
+关系端点批次触发对 `cand-5533` 的定点身份回看。沿用既有 `aln-5714` 的 `new` 决定及 `archive-group-76cd5aefe398`，登记为一个 archive KU `units/archives/rime-e-satire-paolo-giordano-ii-1649`，未新开第二个身份。第4章印刷页96注5给出 “Rime, e Satire di Paolo Giordano II, Duca di Bracciano”，并列 Bracciano、1649；第21章印刷页433书目行给出题名变体 “Rime e Satira”，作者、地点与年份一致。撤回候选说明中“书目确认复数题名”的错误表述，保留两种书内题名，不把其差异扩成已证身份冲突；原刊本未独立查阅。
+
+第4章PDF物理页3的页顶为印刷页96，注释标记为5；S0 OCR 的注号6属识读误差。S2 statement 的 `qualifiers` 已具备 `pdf_physical_page=3`、`printed_page_locator=p.96` 和5号脚注链接；本批经页图复核，不重复改写 S2 或增加统一独立复核分子。
+
+#### S5字段
+
+`build_field_facts.py` 定向预检与应用均为8条字段、8条 `source_backed`、0条 `unverified`、0警告；复用既有 Haskell 来源，不新增来源记录。字段分别记录描述性双语标题、两种书内题名、出版物类型、来源所称作者、出版地、出版年及风格描述。中文题名明确为描述性暂译；不将任何书内题名形式升格为原刊本校定题名。
+
+#### S6逐候选裁决
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp4-sec-i-l20-24-poetry-volumes` | formal | 新增 `rel-2011`，archive → person 的 `authored_by`。第4章正文称 Paolo Giordano II 的两卷诗作，注5识别出版物；范围限于 Haskell 对该出版物的作者归属，不推至其他诗作或原刊本。 |
+| `st-chp4-sec-i-l20-24-poetry-in-style-of-marino` | pending | 原文只支持风格相似；现行受控词表没有 `in_style_of`，不以 `influenced_by` 替代。仅留本过程记录，待关系词表/新证据满足后重开。 |
+| `st-chp4-sec-i-l20-24-literary-historians-quote-poetry` | pending | “more indulgent literary historians”是未具名集合，`cand-11634` 未定类型且无独立身份锚点；不造 person/group KU 或正式边，不进入 backlog 的具名可识别端点队列。若出现可识别的具体史家及受控谓词再重开。 |
+
+三项均有明确S6去向；只有合法端点与受控谓词的作者边写入 `relations.csv`。新 archive 卡与 Paolo Giordano II 人物卡各定向预览后渲染；renderer 写后字节核验通过。严格表审计退出码0：KU=2,906、待S4登记=2,960、关系=2,011、S5=13,369、S2 statements=15,353／mentions=26,791、`s2_missing=[]`、`errors=[]`。关系一致性退出码0：broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。`git diff --check`退出码0；本批未运行测试。
