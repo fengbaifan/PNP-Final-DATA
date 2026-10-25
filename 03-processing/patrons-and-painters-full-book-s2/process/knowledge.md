@@ -14053,3 +14053,16 @@ Haskell来源卡和六张新卡逐卡预览后定向渲染；写后字节核验�
 
 批后：S2统一独立复核9,617/15,348（62.66%，未接收）；S3 same=2,054、new=5,078、conflict=9、excluded=103、undecided=5,182，另有26个跨来源decision差异；S4已映射2,105/5,078、待登记2,973，其中1,258个直接关系端点候选仍为一致的 `new` 且未映射；KU=2,889。S5=13,312（1,634 unverified）；S6已裁决1,301/10,564（737 formal、454 pending、110 rejected），余9,263。`relations.csv`和`candidate-backlog.csv`行数未变。S2 statement／mention及统一复核分子未变；S3身份决定未重开。
 ，例如 cand-6352（第6章 Portoghesi 1955书目／引注端点），每批同时完成相应S4、来源可支持的S5及已有S2候选的S6；遇到身份或端点不明则保留 undecided／pending 和待办。随后按候选类型核平26个跨来源decision差异及S3未决项；同时继续按章推进S2独立语义复核，并定点处理337条缺候选端点ID语句。S5只补有明确证据的字段，S6逐条裁决，不以端点数量替代语义判断。S7须等S4–S6具备正式收口条件后再启动；Topic/Theme/Dimension/Domain发现及页面仍需用户明确启动。
+
+
+<a id="s4-s5-s6-ch8-ch9-ch21-vincenzo-da-canal-20261025"></a>
+
+### S4/S5/S6 人物端点：Vincenzo da Canal 跨章身份与书目责任（2026-10-25）
+
+沿用 `cand-7781` 的既有 S3 `new` 身份决定，映射到[温琴佐·达·卡纳尔（Vincenzo da Canal）](../../04-knowledge/units/persons/vincenzo-da-canal.md)。第8章 p.225 注4与 p.227 注3、第9章 p.252、p.255及p.266的引注写作“da Canal”；第21章书目 p.418 L307列出完整责任形式“Canal, Vincenzo da”。这些书内姓名和引注共同支持一个来源限定人物组；没有复用的既有人物KU，也未查外部身份来源或 Da Canal 原书。人物候选与既有 archive 组 `archive-group-aa69e7e50bc3`（`cand-6593`，`units/archives/vincenzo-da-canal-vita-gregorio-lazzarini-1809`）保持分开。
+
+S4 将 `aln-7957` 映射到该人物KU；卡片只记书目责任形式。字段构建器定向预检和写入均为1行 `source_backed`（`enr-17260`）、0条 `unverified`、0警告，来源解析到既有 `haskell-1980-rev-ed`，来源登记无变化。
+
+书目行明确将该出版物列于“Canal, Vincenzo da”名下，据此新增结构性 formal `authored_by` `rel-2008`（archive → person）。该关系只记录 Haskell 的书目责任者形式；不证明被引页内容，也不扩写外部身份。此项来自书目责任字段，不是新增 S2 关系候选决定，因此 S2 statement/mention 数、统一独立复核分子及 S6 候选决定分母均不变。原有普通引证不因本批登记为人物而转成关系边。
+
+人物卡与既有书目卡定向渲染2张，写后复预览均无差异。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0；`tests/test_export_dataset.py` 4项通过。
