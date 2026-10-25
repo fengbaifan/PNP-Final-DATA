@@ -1,5 +1,13 @@
 # 第七章全书 S2 当前结果
 
+## 2026-10-26：p.192 直接关系端点与跨章身份分组
+
+复用此前第7章 p.192 页级扫描复核，不重复计入S2统一独立复核分子。结构化记录4处OCR校读（Niccolò、It was、the、country during、live）并修正注2回链：招募尝试只连注1；Zanotti引注与Franceschini拒绝叙述连至Giordano赴西班牙statement；Griseri、Longhi引注仍连风格描述。
+
+`cand-6993`跨章复用第16章威尼斯艺术传统term KU。`cand-6981`、`cand-6984`、`cand-6986`、`cand-6992`沿用`new`组登记4张KU；`cand-6978`、`cand-6979`、`cand-6987`因人群类型无法由现有taxonomy表达而由`new`重开为`undecided`，各自保留来源锚点和重开条件。8条直接关系候选均有S6结果：`i12` formal为`rel-2126 has_participant`，其余7条pending并记录谓词、类型或端点缺口。新卡和既有影响卡共6张定向渲染；写后预览均无差异。
+
+批后全书严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断均为0。S2仍为15,366 statements／26,841 mentions；统一复核9,617（62.59%，未接收，版本台账待核平）。S3为same=2,065、new=5,098、conflict=9、excluded=104、undecided=5,151；S4已映射2,206/5,098、待登记2,892；S5为13,704字段（1,634 unverified）；S6累计1,504项结果（858 formal、527 pending、119 rejected），relations.csv为2,126条（2,093 formal、33 pending）。全书当前统计见[统一结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)，本批裁决见[过程记录](../process/knowledge.md#s3-s4-s5-s6-chp7-p192-direct-endpoints-20261026)。
+
 ## 2026-10-25：p.190 独立语义复核
 
 对照印刷页190及跨页续句所在p.191扫描图，逐条复核p.190对应的43条当前statement。当前OCR订正和p.190→p.191续句链接均准确；没有需改写的claim、候选端点或statement结构，本次未写回S2表。逐条结果见[独立复核记录](../process/s2-independent-review-chp7-p190-20261025.md)。此页的43条局部审读暂不并入全书汇总分子，待全书statement ID与来源版本台账核平后再汇总。

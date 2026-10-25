@@ -14915,3 +14915,28 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 **S6逐项裁决。** `st-chp9-p265-zucchi-dedication-to-sagredo`与`st-chp9-p265-note3-correr-print-dedication`均表达同一幅版画题献给Zaccaria Sagredo；两候选合并至单条formal `rel-2125 dedicated_to`，避免重复边。关系记录限定为Haskell的书内转述，未查阅版画或题献原件。
 
 **渲染与审计。** 全卡渲染预检通过（2,984张卡、3,921张字段表）；仅对版画卡与Sagredo人物卡定向渲染，写后预览2/2无差异。严格表审计：`errors=[]`、`s2_missing=[]`、alignment未链接0；关系一致性审计broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。批后S2为15,366 statements／26,841 mentions，独立复核9,617（62.59%，未接收）；S4映射2,202/5,102、待登记2,900，未映射new直接关系端点1,190；KU=2,984；S5=13,694（1,634 unverified）；S6=1,496项（857 formal、520 pending、119 rejected）；relations.csv=2,125（2,092 formal、33 pending）。
+
+<a id="s3-s4-s5-s6-chp7-p192-direct-endpoints-20261026"></a>
+
+### S2定向修订与S3–S6：第7章 p.192 直接关系端点批次（2026-10-26）
+
+**来源复核边界。** 复用本过程前段已有的第7章 p.192（PDF物理页30）页级扫描复核记录；本批没有把同一页重复计为新的独立复核。扫描图核对了 p.192 正文与注释。本次只修订与8个直接关系候选有关的结构化校读和脚注回链；`original_quote` 保留OCR转写，不改冻结的S0来源。
+
+**S2当前版本修订。** 在 `st-chp7-p192-i09`、`i10`、`i16`、`i27` 的 `qualifiers.ocr_corrections` 中分别记录 `Niccolo→Niccolò`（L285）、`It-was→It was`（L287）、`thé→the` 与 `countryduring→country during`（L289）、`hve→live`（L291）；校读依据均为CHP-7.pdf物理页30。将 `i09` 的脚注回链限于注1 Pascoli卷一、卷二；注2的Zanotti行及Franceschini拒绝叙述不再挂到招募尝试。注2的Zanotti引注与Franceschini拒绝事实均链接到 `i12`；`i15` 仅链接注2中Griseri、Longhi的相关书目引注。第7章 p.192此前已有逐条页审记录；本次不增加S2统一独立复核分子，修改后的statement版本仍以版本台账核平结果为准。
+
+**S3跨章裁决及类型待决。** `cand-6993`（第7章“Venetian art”）与第16章 `cand-11543`（Haskell所述威尼斯艺术传统）合并到同一来源限定term身份组，复用 `units/terms/venetian-art-tradition-haskell-account`；第7章没有指出另一所流派、作品或机构。S4登记触发重新审查 `cand-6978`、`cand-6979`、`cand-6987`：三者此前均被归入term，但实际分别指未完整枚举的画家群体、贵族中的未具名部分及“Baroque masters”人群。taxonomy现有类型不能表达这些群体；保留历史new组及原来源锚点，将当前decision重开为 `undecided`，不强建term卡。分别在alignment中记录重开条件：来源定义出稳定群体、具名成员足以建立边界，或taxonomy提供合适群体类型。
+
+**S4登记与S5字段。** 沿用并登记四个清晰的S3 `new`组：`cand-6981`“new civilisation”→`units/terms/del-carpio-new-civilisation-naples-haskell`；`cand-6984`→`units/events/luca-giordano-voyage-to-spain-1692`；`cand-6986`→`units/terms/giordano-unnamed-painting-type-spain`；`cand-6992`→`units/terms/luca-giordano-darker-neapolitan-manner`。另将 `cand-6993` 映射到既有威尼斯艺术传统KU。四张新卡均有双语描述与原书证据。表格接口登记10条 `source_backed` S5字段（`enr-17609`–`enr-17618`），覆盖概念、事件年份与约略时长、未命名绘画类型和风格变化；0条unverified，0重复，0警告。不从“near ten years”推算返程年，不把Haskell对“most”的描述改成全然消失，也不从“palaces and churches”补造建筑端点。
+
+**S6逐项裁决。** 8条直接关系候选均有明确去向：
+
+- `st-chp7-p192-i07` pending：`cand-6979`为未具名人群，且“引起部分贵族敌意”不能改写为双方正式争议关系；待群体身份类型及准确谓词可用时重审。
+- `st-chp7-p192-i08` pending：`laid foundations for a new civilisation` 是带未来预测的作者论述，受控谓词没有精确表达；不把预测结果登记为已发生关系。
+- `st-chp7-p192-i09` pending：这是招募尝试而非受雇；目标群体 `cand-6978` 类型未决，受控关系中也没有精确的“尝试招募”谓词。若目标群体边界及关系表达解决后重审。
+- `st-chp7-p192-i12` formal：新增 `rel-2126 has_participant`，事件→Luca Giordano；时间限定为1692年启程及原文所报近十年停留。未补旅行路线或精确返程日期。
+- `st-chp7-p192-i14` pending：来源称引入绘画类型并提及未具名宫殿、教堂；无精确 `introduced_into` 谓词，所提建筑也未识别。待关系表达和必要端点可确定后重审。
+- `st-chp7-p192-i15` pending：绘画类型“借用Baroque masters手法”涉及未具名人群；不把人群并为Baroque术语，也不以term→人群的错误方向创建 `influenced_by`。待类型与受控关系匹配后重审。
+- `st-chp7-p192-i22` pending：Giordano欣赏威尼斯艺术不等于受其影响；当前无精确“欣赏”谓词。S3端点已复用第16章term，不据此误建影响关系。
+- `st-chp7-p192-i24` pending：保留“提香作品影响下放弃大部分残余”的作者限定；现有受控谓词不能精确表达风格变化，且该statement未将提香收藏作为确定的关系端点。待精确谓词与端点依据齐备后重审。
+
+**核验。** `build_field_facts.py` 写后复预览为 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。`build_cards.py --check` 全库预检通过（2,988张卡、3,925张表、13,704行），同时报告563个既有投影文件若全量重渲染会发生变化；本批只定向写入6张受影响卡，6/6写后预览无差异。严格表审计：KU=2,988、candidate=12,427、alignment=12,774、未链接0、S4 new待登记2,892、S5=13,704（1,634 unverified）、relations.csv=2,126（2,093 formal、33 pending）、candidate-backlog=45（13 completed、32 undecided、pending=0）、S2 statements=15,366、mentions=26,841，`errors=[]`、`s2_missing=[]`。关系一致性审计broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。批后S3为same=2,065、new=5,098、conflict=9、excluded=104、undecided=5,151；未映射new直接关系端点1,182。S6逐项裁决累计1,504（858 formal、527 pending、119 rejected），relation_candidate仍有1条历史映射差异，故不报完成率。S2统一独立复核仍为9,617/15,366（62.59%，未接收），本批修订的当前statement版本不增加复核分子。`git diff --check`通过。
