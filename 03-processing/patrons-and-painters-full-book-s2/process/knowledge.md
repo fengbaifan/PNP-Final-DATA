@@ -14694,3 +14694,31 @@ S5登记六项来源支持字段：人物的索引名及正文形式；作品的
 本批不改S2 statement／mention或统一独立复核分子；不增加S3候选数。
 
 **定向渲染与核验。** `build_field_facts.py`预览及应用均为5条`source_backed`、`unverified=0`、`warnings=0`；`build_cards.py --render`写入《赞助人与画家》、本书档案卡及Bruno Brunelli人物卡3张，写后字节核对通过，3/3复预览无差异。严格表审计退出码0：`errors=[]`、`s2_missing=[]`，KU=2,949、映射S3 new待登记=2,931、S5=13,531（1,634 unverified）、relations=2,083（2,050 formal）、backlog=45（13 completed、32 undecided，pending=0）。审计警告仅提示其余S4 new待登记及S2语义质量仍须完成，不表示全书收口。关系一致性审计中broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。
+
+
+<a id="s4-s5-s6-chp7-p182-felibien-entretiens-20261025"></a>
+
+### S4–S5–S6：第7章 Félibien《Entretiens》Trévoux 1725年六卷本（2026-10-25）
+
+**S3身份组沿用。** `cand-7077`沿用既有`archive-group-b5989be79137`及`new`决定（`aln-7253`），本批不重开身份裁决。第7章印刷页182注2列“Félibien, III, p. 530”；扫描页（`CHP-7.pdf`物理页16）核实该引注。第21章印刷页422书目（`CHP-21Bibliography.pdf`物理页12）列Félibien《Entretiens sur les vies et sur les ouvrages des plus excellens peintres anciens et modernes》新版六卷、Trévoux、1725；扫描页核实书目省略号及出版项。OCR Markdown在原题后省略号处为空格，来源文件保持不改。两处共同支持同一书目版本及所引第三卷定位；被引著作与第530页均未独立查阅。
+
+**S4登记。** `cand-7077`映射至`units/archives/felibien-entretiens-trevoux-1725-six-volume-edition`，新增档案KU并登记至accepted与manifest。书目责任者复用既有人物KU `units/persons/andre-felibien`；没有外部身份标识或传记补写。
+
+**S5字段。** 从第21章书目新增六条`source_backed`字段：文献类型、书目责任者形式、法文原题、版本／卷册、出版地、出版年。中文与英文展示名是描述性工作译名；未添加书目未载的出版者、印次细节或内容摘要。
+
+**S6裁决。** `st-chp7-p182-n2-cite-felibien`逐项formal为`rel-2084 cites`，《赞助人与画家》→该书目版本，范围限第7章注2的第三卷第530页引注。另以书目责任者事实登记结构性`rel-2085 authored_by`，不属于S2 relation-candidate裁决分母。两条关系方向分别符合archive→archive及archive→person。
+
+本批不改S2 statement／mention或统一独立复核分子。
+
+
+<a id="s3-followup-felibien-set-volume-identity-20261025"></a>
+
+### S3定点复核：Félibien六卷本与第三卷引注的身份粒度（2026-10-25）
+
+本次S4登记触发对既有未决候选`cand-11323`的定点S3复核。`cand-7077`原为第7章注2的Félibien第三卷第530页书目引注候选；`cand-11323`来自第21章p.422同一条目，表示“nouvelle édition, 6 vols., Trévoux 1725”的整套出版记录。两张页图分别确认第7章印刷页182注2（PDF物理页16）与第21章印刷页422书目（PDF物理页12）。
+
+**身份粒度裁决。** 本批S4所建KU代表Trévoux 1725年六卷本版本；`cand-7077`中的“III, p.530”保留为`cites`关系的卷／页定位。两候选指向同一版本级书目实体，因此将`aln-11486`由`undecided`定点裁为`same`并映射至`units/archives/felibien-entretiens-trevoux-1725-six-volume-edition`。这不表示第三卷物理本与六卷集合是同一件馆藏实物；项目记录的是同一出版版本，卷页仅作引注定位。未查阅被引著作或该页，也未使用外部身份记录。
+
+该决定只解决这两条书内候选的粒度差异；不改变其他Félibien候选、原书正文、S2 statement或统一独立复核分子。
+
+**批次核验。** `build_field_facts.py --apply --ku units/archives/felibien-entretiens-trevoux-1725-six-volume-edition` 新增6条`source_backed`字段，`unverified=0`、`warnings=0`、来源登记无变化。`build_cards.py --render`定向渲染《赞助人与画家》、Félibien档案卡及André Félibien人物卡3张，写后字节核对通过；3张复预览均无差异。`audit_tables.py --strict-stage --summary`退出码0：`errors=[]`、`s2_missing=[]`，KU=2,950、候选=12,427、S4 new待登记=2,930、S5=13,537（1,634 unverified）、relations=2,085（2,052 formal）、backlog=45（13 completed、32 undecided，pending=0）。当前new直接关系端点未映射1,218个（term 457、archive 256、work 195、place 162、event 82、institution 65、person 1）。关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。S2 statement／mention和统一独立复核分子未变；本批不构成S2接收或S3–S6全书收口。

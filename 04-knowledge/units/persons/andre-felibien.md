@@ -59,4 +59,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-本轮未登记正式关系。直接关系候选 st-chp4-sec-ii-p114-felibien-classical-theorist、st-chp4-sec-ii-p114-felibien-codified-enthusiasm、st-chp4-sec-ii-p115-felibien-in-rome 的人物端点已映射至本卡；评论、思想语境及罗马行踪不据此新增正式关系，仍待 S6 裁决。
+既有直接关系候选 st-chp4-sec-ii-p114-felibien-classical-theorist、st-chp4-sec-ii-p114-felibien-codified-enthusiasm、st-chp4-sec-ii-p115-felibien-in-rome 的人物端点已映射至本卡；评论、思想语境及罗马行踪仍待 S6 逐项裁决。本次另由书目责任者事实投影一条结构性 authored_by 反向入口，不替代上述候选的 S6 裁决。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《古代与现代杰出画家的生平与作品谈录》（Conversations on the Lives and Works of the Most Excellent Painters, Ancient and Modern, Trévoux 1725 edition）](../archives/felibien-entretiens-trevoux-1725-six-volume-edition.md) | Bibliographic authorship is structural and is not an S2 relation-candidate adjudication.；角色：书目责任者归属；范围：Haskell第21章印刷页422书目以‘Félibien’署名该六卷本著作；书内索引与既有人物KU记录 André Félibien。此边只记录书内书目责任者归属，不声称查阅原书。；原断言与证据见发出端卡片“《古代与现代杰出画家的生平与作品谈录》（Conversations on the Lives and Works of the Most Excellent Painters, Ancient and Modern, Trévoux 1725 edition）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；Chapter 21, printed p.422, L466; bibliography entry for Entretiens |
