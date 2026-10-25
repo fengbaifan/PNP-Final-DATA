@@ -2,6 +2,10 @@
 
 ## 2026-10-25
 
+### 清理导出包关系注释中的仓库内链接目标
+
+质量门禁发现关系注释中的相对 `02-sources/` Markdown 链接被带入可移植导出包，导致路径泄漏校验在 Python 3.10 和 3.12 均失败。导出器现在仅在导出副本中保留链接标签、移除仓库内部目标；仓库关系表的来源链接与语义记录不变。`tests/test_export_dataset.py` 定向验证通过，完整 GitHub Actions 门禁待推送后确认。
+
 ### 为剧目、演出与临时场所补充关系表达
 
 为第2章 p.58 的有据关系新增 directed_by／director_of、has_performance／performance_of、inspired_by／inspiration_for，分别表达导演、剧目与演出、作品受事件启发；将 erected_by／erector_of 的场所端点纳入域值域。关系仍须逐条以原文和可识别端点支持。过程依据见 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-p58-inondazione-20261025。

@@ -47,6 +47,18 @@ def csv_text(fields: list[str], rows: list[dict]) -> str:
     return buffer.getvalue()
 
 
+def strip_local_markdown_link_targets(value: str) -> str:
+    """Keep useful link labels while removing repository-only destinations."""
+    def replace(match: re.Match[str]) -> str:
+        label, target = match.groups()
+        normalized = target.replace("\\", "/")
+        if re.search(r"(?:^|/)(?:02-sources|03-processing|04-knowledge)/", normalized):
+            return label
+        return match.group(0)
+
+    return MARKDOWN_LINK_RE.sub(replace, value)
+
+
 def portable_reference_rows(
     enrichment: list[dict], card_path_by_ku: dict[str, str], entity_ids: set[str],
 ) -> list[dict[str, str]]:
@@ -220,6 +232,8 @@ def build_package() -> tuple[dict[str, str], dict]:
         if row.get("source_file", "").startswith("02-sources/"):
             row["source_id"] = row.get("source_id") or "haskell-1980-rev-ed"
             row["source_file"] = ""
+        if row.get("note"):
+            row["note"] = strip_local_markdown_link_targets(row["note"])
     files["relations.csv"] = csv_text(rel_fields, rel_rows)
 
     enrichment = rows_jsonl("enrichment.jsonl")
