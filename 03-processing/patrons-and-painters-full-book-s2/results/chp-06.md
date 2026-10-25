@@ -93,3 +93,7 @@ p.148将“a number of other projects”从Camillo人物候选重映射为未定
 p.157 Spon/Wheler脚注、p.161 Pascoli卷I与卷II脚注分别由Haskell原书候选`cand-2962`指向对应archive候选；卷I、卷II不再合并为一个引用statement。p.162 Clement IX的S. Maria Maggiore计划改建与墓地方案连接到新事件候选`cand-12410`（教宗去世），只表达“去世后中止”的时间关系。匿名法语见证引文的文字止于印刷p.162，日期“1685.”在p.163续接；页图校正OCR问号并链接续段。此引文属于来源归属statement，不构成实体关系，原statement改为非关系，Michaud引文仍单独记录。p.164 Ottoboni的1689年枢机任命由新事件候选`cand-12411`表达；原句未指出任命者，不从上下文推定。
 
 本批没有新增KU或正式S6关系。严格阶段审计通过；全库开放端点372，其中51条尚缺行级理由。下一条缺理由记录为第七章p.171 `st-chp7-p171-i09`。
+
+## 第六章 p.151、154、155 书目端点S3–S6（2026-10-26）
+
+`cand-6367` Norbert Wibiral与跨章候选`cand-3498` Giovanni Incisa della Rocchetta由`undecided`改判来源限定`new`人物组；`cand-6368`、`cand-6379`、`cand-6381`沿用各自既有`new`文献组并完成S4映射。五个候选对应五张新KU，新增23条source-backed字段。三条Haskell引文关系formal为`rel-2132`–`rel-2134`；外部书目支持的两条结构性`authored_by`边另列`rel-2135`、`rel-2136`。Colonna目录保留匿名；被引文章、目录和引注页未独立阅读。六张卡写后复预览均无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0。全书最新状态及后续队列见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)，完整证据见[过程记录](../process/knowledge.md#s3-s4-s5-s6-chp6-bibliographic-endpoints-20261026)。
