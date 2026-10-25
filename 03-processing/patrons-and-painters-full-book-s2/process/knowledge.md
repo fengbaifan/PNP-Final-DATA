@@ -15051,3 +15051,69 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 - `st-chp10-notes-p282n1-bettagno-indicated-manuscripts` pending：Alessandro Bettagno复用既有人物KU，1958年版已登记；“indicating”是向Haskell提示材料，当前受控词表没有准确谓词。若关系词表能表达该来源提示角色，再审；不把致谢自动转成`authored_by`或`cites`。
 
 **渲染、审计与影响。** 字段写后预览0变化；7张新卡及入城画、伯明翰机构两张关系端点卡复预览均无差异。严格表审计：KU=3,005、alignment=12,774、未链接0、new待登记2,874、S5=13,760（1,634 `unverified`）、relations.csv=2,137（2,104 formal、33既有pending）、candidate-backlog=45（13 completed、32 undecided、严格审计pending=0）、S2=15,367 statements／26,841 mentions，`errors=[]`、`s2_missing=[]`。关系一致性五类阻断均为0。S3计数不变（same=2,066、new=5,099、conflict=9、excluded=104、undecided=5,149；decision差异26项）；本批S4映射增7，本批S6新增1 formal与7 pending，累计1,528项（867 formal、542 pending、119 rejected）。当前`relation_candidate=true`为10,582，历史裁决台账与当前statement版本分母差1，仍不报全书S6完成率。S2未改statement、mention、来源版本或独立审读分子；统一复核保持9,617/15,367（62.59%，未接收）。
+
+
+<a id="s3-s4-s5-s6-chp1-p7-20-direct-endpoints-20261026"></a>
+
+### S3跨章身份分组、S4/S5登记与S6：第1章 pp.7–20（2026-10-26）
+
+**S3身份去向。** 复核第1章直接关系端点，并沿候选ID回查第2、4、10章的同一书目对象。四个候选复用既有KU：`cand-11228` → `units/archives/armanni-delle-lettere`；`cand-11346` → `units/archives/grassi-cortona-bozzetti-1957`；`cand-3485` → `units/institutions/confraternita-san-giovanni-battista-decollato-bologna`；`cand-3486` → `units/works/ricci-beheading-john-baptist-1682`。其中Grassi论文的第1章引注与第21章书目同指1957年同一篇文章；不为同一书目项重复建KU。
+
+登记以下13个既有S3 `new`候选：
+
+| candidate_id | 类型 | KU |
+|---|---|---|
+| `cand-11240` | archive | `units/archives/battisti-pascoli-vite-inedite-1953` |
+| `cand-11262` | archive | `units/archives/boyer-documents-roman-florentine-archives-1931` |
+| `cand-11315` | archive | `units/archives/derschau-irrige-zuschreibungen-ricci-1916` |
+| `cand-4564` | archive | `units/archives/incisa-notizie-inedite-andrea-sacchi-1924` |
+| `cand-5985` | archive | `units/archives/claretta-relazioni-artisti-carlo-emanuele-1885` |
+| `cand-11356` | archive | `units/archives/hoogewerff-conflict-accademia-dutch-painters-1935` |
+| `cand-11357` | archive | `units/archives/hoogewerff-die-bentveughels-1952` |
+| `cand-11408` | archive | `units/archives/narducci-artisti-campo-marzio-1870` |
+| `cand-11416` | archive | `units/archives/pevsner-academies-art-1940` |
+| `cand-11430` | archive | `units/archives/rothlisberger-pendants-claude-lorrain-1958` |
+| `cand-9458` | archive | `units/archives/bottari-ticozzi-raccolta-vol-v-1822` |
+| `cand-3484` | institution | `units/institutions/ss-i-deputati-gavasetti-commission` |
+| `cand-3489` | person | `units/persons/luigi-grassi` |
+
+`cand-3489`原为`undecided`。Haskell第1章p.12注1写作“L. Grassi”；意大利文化部刊载的1957年论文题名页署名“LUIGI GRASSI”（`src-933df2869d49c75f`，访问日期2026-09-11），足以把这个来源限定的作者身份裁为`new`。卡片只确认该署名，不推写生平或论文论证，也不与Orazio Grassi合并。其他文献以Haskell正文、注释和第21章书目形成跨章书目身份组；本批不声称独立读过未读的被引页面。保留Battisti页码OCR“Z0-4Z”和Narducci刊名OCR“II Buonarotti”，未据猜测校正；Röthlisberger作者缩写保留书目形式。
+
+**S2补充及跨章规范化。** 在Haskell第1章p.12注1新增`st-chp1-secii-p12-n1-cites-grassi-1957`，连接Haskell书与已登记的Grassi 1957论文；同步将正文statement的`linked_statement_ids`及`footnote_statement_ids`补入该ID。第2章两条Incisa引文、第4章Claretta引文及第10章Bottari引文共5条既有脚注记录改为明确的书籍→出版物`cites`关系候选，原引文、页码、章页锚和来源语境保留。此项净增1条statement、不增mention；5条规范化记录与新statement共增加6条`relation_candidate`。未计入S2独立复核分子。
+
+**S4/S5登记。** 13张双语卡登记到`ku-manifest.csv`及`accepted.yml`，四个same候选映射至现有KU。字段接口预览后写入63条`source_backed`字段（`enr-17675`–`enr-17737`），来源为Haskell和上述官方论文题名页；预览中发现的1条无证据标记的链接行已补为题名页证据，最终`unverified=0`、`warnings=0`、source registry无变化。OCR不确定项按来源原样保留。
+
+**S6逐候选裁决。** 18项引用关系为`formal`，新增`rel-2138`–`rel-2155`；各边只记录Haskell的引文行为，除`rel-2142`指向已在既有书信KU工作中直接阅读的页外，不声称核读被引材料。
+
+| statement_id | 去向 |
+|---|---|
+| `st-chp1-secii-p7-n1-cites-incisa-1924-p70` | formal `rel-2138 cites` |
+| `st-chp1-secii-p7-n6-cites-battisti-1953` | formal `rel-2139 cites` |
+| `st-chp1-secii-p8-n3-cites-rothlisberger-1958` | formal `rel-2140 cites` |
+| `st-chp1-secii-p9-n2-cites-derschau-1916-p168-169` | formal `rel-2141 cites` |
+| `st-chp1-secii-p9-n4-cites-armanni-letter-vol1-p215` | formal `rel-2142 cites` |
+| `st-chp1-secii-p11-n1-cites-claretta-p516` | formal `rel-2143 cites` |
+| `st-chp1-secii-p13-n2-cites-bottari-v-p186-quarismini-letter` | formal `rel-2144 cites` |
+| `st-chp1-secii-p14-n4-cites-boyer-p238-salviati-letter` | formal `rel-2145 cites` |
+| `st-chp1-secii-p17-n4-pevsner-p64` | formal `rel-2146 cites`；同注另引Mahon，本边只对应Pevsner |
+| `st-chp1-secii-p17-n6-hoogewerff-1935` | formal `rel-2147 cites`；同注另引Missirini，本边只对应Hoogewerff |
+| `st-chp1-secii-p20-n1-cites-narducci-1870-pp122-126` | formal `rel-2148 cites` |
+| `st-chp1-secii-p20-n2-cites-hoogewerff-1952` | formal `rel-2149 cites` |
+| `st-chp1-secii-p12-n1-cites-grassi-1957` | formal `rel-2150 cites` |
+| `st-chp2-secii-l147-193-cite-incisa1924-p60-76` | formal `rel-2151 cites` |
+| `st-chp2-seciv-l190-245-citation-40` | formal `rel-2152 cites` |
+| `st-chp2-seciv-l190-245-citation-56` | formal `rel-2153 cites`；同注另引Pollak及Posse，本边只对应Incisa |
+| `st-chp4-sec-ii-p117note-fn5-claretta` | formal `rel-2154 cites` |
+| `st-chp10-p294-note3-bottari-citation` | formal `rel-2155 cites` |
+| `st-chp1-secii-p12-n1-grassi-article-authored-by` | formal `rel-2156 authored_by`；官方题名页署名支持全名，论文论证未复核 |
+| `st-chp1-secii-p9-n2-deputati-assigned-subject` | pending：institution→person的“提供／指定题材”没有精确受控谓词；出现能表达给定题材角色的兼容谓词后重审 |
+| `st-chp1-secii-p9-n2-deputati-granted-discretion` | pending：institution→person的“允许画家在题材上构想并扩展”没有精确受控谓词；关系词表能表达该裁量角色后重审 |
+| `st-chp1-secii-p9-n2-confraternity-commissioned-ricci` | pending：institution→person的委托／雇佣角色没有精确受控谓词；既有`rel-0951`只表示作品→委托机构，不能代替善会→Ricci关系；待有兼容谓词或明确关系事件表达后重审 |
+| `st-chp1-secii-p9-n2-ricci-required-to-paint-work` | pending：Ricci→作品的“被要求绘制”不等于已完成创作，`required_to_paint`无精确受控谓词；不改写为`created_by`，待兼容谓词或证明完成创作的来源后重审 |
+
+四条pending均保留在过程记录，不写入`relations.csv`。本批无rejected项。Haskell同一段落对1682年作品的正式`commissioned_by`关系继续由`rel-0951`表示；本批两条人物端点陈述不与该边混同，也未产生重复关系行。
+
+**范围与影响。** S2新增1 statement、mentions和独立复核数不变；5条跨章脚注记录补齐relation-candidate状态。S3四项`new`改为`same`，一项`undecided`改为`new`；S4新增13个KU映射。S6新增19条formal关系记录、4项process-only pending裁决；具体全书计数以同批严格审计结果回填至当前结果文件。
+
+
+**本批结构与投影核验。** `audit_tables.py --summary`：KU=3,018，alignment=12,774，未链接alignment=0，S4 new待登记=2,858，S2 statements=15,368、mentions=26,841，S5=13,823（unverified=1,634），`s2_missing=[]`、`errors=[]`。`audit_relation_consistency.py`的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。13卡字段写后复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`；16卡定向投影首轮写入16张，复核预览`files_to_write=0`。全书卡片预检另报告571张有投影差异（545张关系视图有差异）；本批仅渲染已审阅的16张，剩余差异不在本批语义裁决范围内，后续按实际受影响卡片逐批刷新。
