@@ -14775,3 +14775,16 @@ S5登记六项来源支持字段：人物的索引名及正文形式；作品的
 本批未增加S2 statement或mention，且没有对上述当前statement版本进行独立语义复核；统一复核分子保持9,617。候选与对象对齐修订不作为独立接收。
 
 **写后核验。** `build_cards.py --render`仅渲染《赞助人与画家》、Malvasia人物卡及1841年版卡3张（7个字段表、53行、263条关系投影；3 files written，写后bytes verified；其中2张关系视图变化）。三张卡写后`--preview`均无差异；字段表复预览no_delta。`audit_tables.py --strict-stage --summary`退出码0：KU=2,954，候选=12,427，S4待登记=2,927，S5=13,553（1,634 unverified），relations=2,096（2,063 formal、33 pending），backlog=45（13 completed、32 undecided、pending=0），statements=15,363、mentions=26,841，`errors=[]`、`s2_missing=[]`。S3同=2,063、new=5,098、conflict=9、excluded=104、undecided=5,153；S4已映射2,171/5,098条new。仍有1,216个new直接关系端点未登记（term 457、archive 254、work 195、place 162、event 82、institution 65、person 1）。S6累计裁决1,443项（826 formal、499 pending、118 rejected）；当前`relation_candidate=true`为10,578，历史裁决台账与当前statement版本分母差1，故不报告完成率或精确余数。`audit_relation_consistency.py --dry-run`：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。全书S2尚未接收，S3–S6仍未收口。
+<a id="s3-s4-s5-s6-chp5-p134-beaneater-colonna-gallery-20261025"></a>
+
+### S3定点复核与S4–S5–S6：第5章 p.134《The Beaneater》及 Colonna gallery（2026-10-25）
+
+**来源依据与S3身份。** Haskell第5章印刷页134（Markdown L26；PDF物理页15）将“The Beaneater”列为Annibale Carracci绘制劳动者的作品实例，并写作“the Beaneater in the Colonna gallery, for instance”。`cand-6119`沿用已判`new`的作品组`workgrp-f52885295b8d07`，本批不重开其身份判断；没有外部作品目录身份或存世版本核验。地点候选`cand-6121`此前为`undecided`，因建筑、房间与身份范围未明而暂缓。结合`01-domain/taxonomy-registry.md`将建筑空间及内部空间归入`place`的分类边界，原文明确指称一处画廊空间，足以建立来源局部地点组`sg3-place-colonna-gallery-haskell-ch5-p134`，遂将`aln-6302`改判为`new`。原先不确定事项保留：不将其合并为`units/places/colonna-family-palace-rome`，不建立`part_of`，也不推断城市、具体建筑／房间、物理身份或地点时间。
+
+**S4登记。** `cand-6119`映射至`units/works/the-beaneater-haskell-ch5-p134`；`cand-6121`映射至`units/places/colonna-gallery-haskell-ch5-p134`。两张卡的身份范围限于本书所指的作品及画廊，不补外部标识或传记／目录事实。未改S2 statements或mentions。
+
+**S5字段。** 按Haskell第5章印刷页134 L26新增两条`source_backed`字段：`enr-17468`“作品类型=绘画（picture）”；`enr-17469`“空间类型=画廊（gallery）”。`build_field_facts.py --apply`后定向复预览为`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`，来源登记变化为0。
+
+**S6逐条裁决。** `st-chp5-p134-beaneater-created-by-annibale` formal为`rel-2097 created_by`（作品→Annibale Carracci），仅记录Haskell书内作者归属；`st-chp5-p134-beaneater-colonna-gallery-location` formal为`rel-2098 located_at`（作品→来源局部Colonna gallery），仅记录书内地点陈述。两边均以Haskell第5章p.134 L26为证。时间留空；不表示外部独立作者核验或当前所在地。两条候选均有formal去向，不增加或修改S2 statement／mention，亦不增加统一S2独立复核分子。
+
+**渲染与核验。** `build_cards.py --render`定向处理作品、画廊、Annibale Carracci三卡：预检3卡、7张字段表、39行、5条关系投影；3文件写入且写后字节核对通过。Annibale卡同时刷新一条既有关系投影所缺的来源标识，未新增该关系。三卡写后预览无差异；字段表写后预览no_delta。`audit_tables.py --strict-stage --summary`退出码0：KU=2,956、候选=12,427、S4待登记=2,926、relations=2,098（2,065 formal、33 pending）、S5=13,555（1,634 unverified）、backlog=45（13 completed、32 undecided、pending=0）、statements=15,363、mentions=26,841，`errors=[]`、`s2_missing=[]`。`audit_relation_consistency.py --dry-run`的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。本批完成两个候选的S3/S4/S5/S6去向；全书S2仍未接收，S3–S6仍未收口。

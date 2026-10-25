@@ -138,7 +138,8 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 教师（`teacher_of`，反向投影） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](giovanni-lanfranco.md) | 在Agostino Carracci处接受最初训练后，进入Annibale Carracci在罗马的工作室；本边只表达后一阶段；时间：约1602起；角色：工作室学生／助手；范围：Annibale Carracci罗马工作室阶段；不替代Agostino的早期训练；原断言与证据见发出端卡片“乔万尼·兰弗兰科（Giovanni Lanfranco）”：[来源](https://en.wikipedia.org/wiki/Giovanni_Lanfranco)；本卡 S3；Biography中early training与Roman workshop段 |
+| ← 教师（`teacher_of`，反向投影） | [乔万尼·兰弗兰科（Giovanni Lanfranco）](giovanni-lanfranco.md) | 在Agostino Carracci处接受最初训练后，进入Annibale Carracci在罗马的工作室；本边只表达后一阶段；时间：约1602起；角色：工作室学生／助手；范围：Annibale Carracci罗马工作室阶段；不替代Agostino的早期训练；原断言与证据见发出端卡片“乔万尼·兰弗兰科（Giovanni Lanfranco）”：[来源](https://en.wikipedia.org/wiki/Giovanni_Lanfranco)；src-2d805002516e7ffe；本卡 S3；Biography中early training与Roman workshop段 |
+| ← 所创作对象（`creator_of`，反向投影） | [《吃豆人》（The Beaneater）](../works/the-beaneater-haskell-ch5-p134.md) | Haskell writes “the Beaneater in the Colonna gallery” in the immediately following phrase after identifying pictures of Annibale Carracci. This edge records that source attribution only; no external catalogue identity, date, current location, or independent authorship check is asserted.；角色：书内作者归属（未独立核验）；范围：Haskell第5章印刷页134 L26以The Beaneater为Annibale Carracci绘制劳动者的作品实例。本边仅记录书内作者归属，不外推外部作品身份或独立作者核验。；原断言与证据见发出端卡片“《吃豆人》（The Beaneater）”：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p.134 L26; statement=st-chp5-p134-beaneater-created-by-annibale |
 
 ### 身份与外部链接
 
