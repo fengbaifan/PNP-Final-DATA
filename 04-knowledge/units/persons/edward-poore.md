@@ -69,7 +69,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← commentary_by（`commentary_by`，反向投影） | [G. A. 阿尔曼尼（G. A. Armanni）](g-a-armanni-painter-dealer.md) | Maps st-chp16-p374-armanni-introduces-poore; manuscript not consulted; relation is limited to the reported commentary.；角色：一次书信评论的发言者；范围：Haskell报告Armanni在第16章p.374对Mr Poore的评论；不表示持续社会关系或友谊。；原断言与证据见发出端卡片“G. A. 阿尔曼尼（G. A. Armanni）”：[来源](../../../02-sources/02-Markdown/16_CHP-16_intro.md)；haskell-1980-rev-ed；lines 21–22; print p. 374 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [G. A. 阿尔曼尼致G. M. 萨索并提及Edward Poore的1789年7月7日信（Letter of 7 July 1789 from G. A. Armanni to G. M. Sasso discussing Edward Poore）](../archives/armanni-letter-to-sasso-poore-1789-07-07.md) | Maps st-chp16-p374-note3-poore-letter-locator; archival letter not consulted.；时间：1789-07-07；角色：信中讨论对象；范围：Haskell注3称Mr Poore在这封信中被讨论；不确认此信即正文所引评论的原件。；原断言与证据见发出端卡片“G. A. 阿尔曼尼致G. M. 萨索并提及Edward Poore的1789年7月7日信（Letter of 7 July 1789 from G. A. Armanni to G. M. Sasso discussing Edward Poore）”：[来源](../../../02-sources/02-Markdown/16_CHP-16_intro.md)；haskell-1980-rev-ed；line 74; print p.374 n.3 |
+
 
 **中文：** 直接S2候选（待S6）：st-chp16-p374-armanni-introduces-poore, st-chp16-p374-note3-poore-letter-locator, st-chp16-p374-note3-poore-auction-sales。
 

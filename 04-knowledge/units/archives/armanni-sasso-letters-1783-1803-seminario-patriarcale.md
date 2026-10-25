@@ -40,6 +40,10 @@ sub_type: correspondence_collection
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 作者（`authored_by`） | [G. A. 阿尔曼尼（G. A. Armanni）](../persons/g-a-armanni-painter-dealer.md) | 书信集题名直接给出作者；source-local initials only.；时间：1783–1803；角色：书信作者；范围：Haskell称两卷数百封信由G. A. Armanni致G. M. Sasso；不展开作者全名，原件未读。；证据：[来源](../../../02-sources/02-Markdown/16_CHP-16_intro.md)；haskell-1980-rev-ed；line 74; print p. 374 n. 3 |
+| → 致函（`addressed_to`） | [乔万尼·马里亚·萨索（Giovanni Maria Sasso）](../persons/g-m-sasso.md) | 书信集题名直接给出通信对象；原件未读；时间：1783–1803；角色：收信人；范围：Haskell称两卷数百封信由G. A. Armanni致G. M. Sasso；保留来源缩写。；证据：[来源](../../../02-sources/02-Markdown/16_CHP-16_intro.md)；haskell-1980-rev-ed；line 74; print p. 374 n. 3 |
+
 
 该卷册与单封1790年信件分别保留不同文献粒度；两者是否构成可记录的部分—整体关系，本批不由相同MSS号推定。仓储定位候选的裁决见[本批过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-seminario-patriarcale-ch9-ch16-ch17-20261024).

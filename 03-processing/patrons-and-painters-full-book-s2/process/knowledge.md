@@ -1,5 +1,29 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp16-chp17-ga-armanni-20261025"></a>
+### 第16、17章 G. A. Armanni人物与1789年书信直接端点（2026-10-25）
+
+**S3跨章身份裁决。** `cand-0119` 原因来源称名只有首字母而为 `undecided`。第16章p.374 L21–22称画家、经纪人“G. A. Armanni”并记其往返Bologna与Rome；同页注3以“G. A. Armanni a G. M. Sasso”命名1783–1803年两卷数百封信；第17章p.380 L9–10再次称画家、经纪人G. A. Armanni写信给Sasso，原扫描将S0 OCR的“Armarmi”校为“Armanni”。相同缩写、职业与连续通信语境足以将两章锚点裁为同一来源局部人物组 `sg3-person-g-a-armanni-1783-1803`，由 `undecided` 改为 `new`。不展开G.A.全名；该人物与 `cand-0120`／Vincenzo Armanni及其17世纪刊本《Delle lettere...》分开。没有外部身份核验。
+
+**S2锚点与S4登记。** 在第16章p.374注3的书信集题名内为 `cand-0119` 增加mention `m-chp16-p374-armanni-note3-0001`（字符797–810），为既有 `cand-2364` 增加收信人mention `m-chp16-p374-sasso-note3-0001`（字符813–823）；两者与已有整段archive title mention重叠但实体粒度不同。将 `cand-0119` 映射至新人物KU `units/persons/g-a-armanni-painter-dealer`。沿用 `cand-10615` 既有 `new` 身份组 `archive-group-e86f2eb16778`，登记候选书信为 `units/archives/armanni-letter-to-sasso-poore-1789-07-07`；来源日期、作者、收信人和被讨论者来自Haskell注3，原件未读，具体MSS卷次不补。已有两卷通信 `cand-10614`、Seminario Patriarcale机构 `cand-6589`、Sasso `cand-2364` 与Poore `cand-1973` 均复用各自映射，不重复登记。
+
+**S5字段。** 新增9条Haskell书内 `source_backed` 字段，覆盖人物来源称名、身份、往返地点、OCR异文及单封信日期、发信人、收信人、文献类型与讨论对象；不补完整姓名、原件卷次或现今保管状态。
+
+**S6逐项裁决。**
+
+| statement_id | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp16-p374-armanni-introduces-poore` | formal | `rel-2047 commentator_on`，Armanni→Edward Poore；仅表示Haskell报告的一次书信评论，不表示社会交往或长期关系。 |
+| `st-chp16-p374-refine-armanni-travel` | rejected | 第16章所述Bologna–Rome往返作为人物活动保留在S5；当前无受控旅行谓词或具体travel event端点，不写 `located_at` 居住边。 |
+| `st-chp17-p380-armanni-writes-sasso-after-rumour` | formal | `rel-2048 corresponded_with`，Armanni↔Sasso；S2单封1790通信与注3所述1783–1803数百封信共同支持通信关系。 |
+| `st-chp16-p374-note3-poore-letter-locator` | formal | `rel-2051 has_subject`，1789-07-07书信→Edward Poore；仅按Haskell注释记载该信讨论Poore，未声称已读原件或已确定它就是p.374引文的原信。 |
+| `st-chp16-p374-note3-armanni-sasso-letters-and-poore` | pending（沿用） | archive→Seminario Patriarcale的书内仓储记载成立，但 `located_at` 的保管／物理位置边界仍为 `needs_split`；不新建平行边。 |
+| `st-chp17-p380-note1-armanni-sasso-letter-locator` | pending（沿用） | MSS. 566定位记载保留；原件未查，`located_at` 的仓储语义仍待拆分。 |
+
+**正式文献边。** 另依据书信集题名，为两卷集登记 `rel-2045 authored_by`（集→G.A. Armanni）及 `rel-2046 addressed_to`（集→G.M. Sasso）；为可定位的单封信登记 `rel-2049 authored_by`、`rel-2050 addressed_to`。这些边保留书内姓名缩写，不扩写全名；未将单封信强行写为 `part_of` 两卷集，因本批证据尚未核实该件所属卷次。
+
+**验证与边界。** 依据Haskell第16、17章既有S2锚点；S2统一独立复核分子不变。五张受影响卡均定向预览，渲染后复预览无差异。严格表审计退出码0，`errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0；规则漂移检查为0；`git diff --check`通过。未查档案原件或外部人物规范记录；本批自查不构成独立语义接收。
+
 <a id="s3-s4-s5-s6-chp9-chp14-contarini-henri-iii-fresco-20261025"></a>
 ### 第9、14章 Contarini壁画、modello与雅克马尔-安德烈机构端点（2026-10-25）
 
