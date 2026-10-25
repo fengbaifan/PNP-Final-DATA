@@ -14377,3 +14377,36 @@ S5字段构建器定向预检并写入10条`source_backed`字段（enr-17266–e
 #### 卡片投影与审计
 
 都灵宫廷与Ricci人物卡均预览后定向渲染；预检2张卡、26行表格、9行关系投影，2张卡有变化；写后字节核验通过，复预览2/2无差异。严格表审计退出码0：KU=2,926，S3候选=12,426，待S4登记 `new` 候选=2,951，S5=13,445（1,634 `unverified`），relations.csv=2,052（2,019 formal、33 pending），S2=15,356 statements／26,840 mentions，`s2_missing=[]`、`errors=[]`；`candidate-backlog.csv`=44（12 completed、32 undecided，严格审计pending=0）。本批两项S6均formal，累计台账按上一快照增至1,385（784 formal、485 pending、116 rejected）；由于历史分母10,578与当前关系候选statement数10,572仍差6，暂不据此报告完成率或余数。关系一致性五类阻断均为0；S2复核分子仍为9,617（62.63%），本批不构成S2接收或S3–S6全书收口。
+
+<a id="s3-s4-s5-s6-chp10-chatsworth-susanna-20261025"></a>
+
+### S3/S4/S5/S6：第10、13章 Ricci 两幅题名作品与 Chatsworth 跨章端点（2026-10-25）
+
+#### S3 身份组与裁决边界
+
+`cand-2177` 对应Haskell第10章印刷页280注5所列 Sebastiano Ricci《Susanna and the Elders》，并称作品于1713年纪年且当时在Chatsworth。Chatsworth House Trust《Annual Review 2022》第26页以相同作者、题名和年份记录作品借展，支持与该书内作品的身份匹配；此材料只作身份核对，不作为现时保管地点证明。当前无同作者、同题名、同类型的既有KU，故将其裁为来源局部 `new` 组 `workgrp-ricci-susanna-and-the-elders-chatsworth-1713`。
+
+`cand-9308` 指Haskell所称德文郡公爵乡间宅邸Chatsworth，沿用S3既有组 `sg3-place-cand-9308`，映射到新地点KU。第10章p.280注5所报告的“在Chatsworth”保留为来源时点陈述，不推成今日产权、馆藏或实际存放状态。
+
+`cand-2175` 的索引范围同时覆盖第10章p.280与第13章p.342，两处均指向 Ricci《The Presentation in the Temple》。p.280注5称 Ricci 在1713年为Lord Burlington标记两幅画，并报告其中《圣殿献礼》在Chatsworth；p.342注5称 Zanetti收藏中的 Ricci 画作包括同题作品，且 Pietro Monaco 曾将其制成第84号版画。Zeri目录及Christie's记录指向Chatsworth 1713年作品及相关复制版本；一份转录的Koller 2017拍卖记录则描述Zanetti来源、约1724–26年的同题画。现有材料提示版本可能不同，但未查得可核的原始拍卖目录或等价对象级记录来证明两个Haskell提及应分组为同一或不同KU。因此保留 `undecided`，明确阻断条件为核对原始目录/权威对象记录并确认画作版本；不把该候选映射到Chatsworth作品，也不把题名相同当作冲突的充分证据。参考：[Chatsworth House Trust Annual Review 2022](https://www.chatsworth.org/media/afubsjl4/chatsworth_house_trust_annual_review_2022.pdf)、[Fondazione Zeri目录](https://catalogo.fondazionezeri.unibo.it/entry/work/68402/Ricci%20Sebastiano%2C%20Presentazione%20di%20Ges%C3%B9%20al%20Tempio)、[Christie's拍卖记录](https://www.christies.com/en/lot/lot-2400831)、[Koller 2017拍卖记录转录](https://www.art.salon/artwork/sebastiano-ricci_gegenstuecke-darbringung-im-tempel-anbetung-der-koenige-um-1724-26_AID1087704)。后两条与Zeri材料用于发现版本问题，不替代原始目录核验。
+
+#### S4 登记与S5来源字段
+
+`cand-2177` 映射至新作品KU `units/works/sebastiano-ricci-susanna-and-the-elders-chatsworth-1713`；`cand-9308` 映射至新地点KU `units/places/chatsworth-country-house`。两张卡已写入 `accepted.yml` 与 `ku-manifest.csv`，工作标题与描述中英对应，均保留来源时点和对象范围。
+
+`build_field_facts.py` 定向预览后应用6条Haskell `source_backed` 字段（`enr-17360`–`enr-17365`）：作品卡4条（题名、创作者归属、纪年、书内报告地点），地点卡2条（地名、地点性质）。无 `unverified` 新增、无警告、无来源登记变化。
+
+#### S6 逐项裁决
+
+| statement_id | 决定 | 去向 | 条件或范围 |
+|---|---|---|---|
+| `st-chp10-notes-p280n5-susanna-chatsworth` | formal | `rel-2053 located_at`：Susanna and the Elders → Chatsworth | Haskell所报告的来源时点地点；Trust年报支持作品身份，不证明当前存放。 |
+| `st-chp10-notes-p280n5-presentation-chatsworth` | pending（process-only） | 不生成关系边 | `cand-2175` 的对象版本尚未与p.280 Chatsworth作品身份核平；先取得原始目录或权威对象记录。 |
+| `st-chp13-p342-notes-note5-zanetti-owned-presentation-in-temple` | pending（process-only） | 不生成关系边 | 同一作品身份及其与Chatsworth画作是否同物未定；Haskell所引Lorenzetti、Bottari页及相关实物均未查阅。 |
+| `st-chp13-p342-notes-note5-monaco-engraved-presentation-no84` | pending（process-only） | 不生成关系边 | `cand-10208`（第84号版画）虽有S3 `new`组，尚未完成S4；原画端点 `cand-2175` 的版本和关系谓词范围亦待明确。 |
+
+#### 卡片渲染与审计
+
+两张目标卡定向预览、渲染并复预览，`build_cards.py` 写后字节核验通过，2/2复预览无差异。字段表写入按官方预览/应用接口完成。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic=0`。本批未更改S2 statements/mentions，统一独立复核仍为9,617/15,356（62.63%，未接收）。
+
+本批后S3主决定12,426项：same=2,059、new=5,095、conflict=9、excluded=104、undecided=5,159；S4已映射2,145/5,095，待登记2,950，其中1,236个未映射 `new` 候选仍触及直接关系端点；KU=2,928。S5=13,451（1,634 `unverified`）；`relations.csv`=2,053（2,020 formal、33 pending）。S6累计按前快照1,385项加本批4项，现为1,389项（785 formal、488 pending、116 rejected）。历史S6分母10,578与当前 `relation_candidate=true` 数10,572仍差6，暂不报告全书完成率或余数；S2尚未接收，S3–S6未全书收口。
