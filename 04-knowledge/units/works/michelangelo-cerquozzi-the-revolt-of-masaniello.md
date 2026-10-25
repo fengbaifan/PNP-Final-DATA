@@ -160,6 +160,7 @@ relations:
 | → 由其保管（`held_by`） | [斯帕达美术馆（Galleria Spada）](../institutions/galleria-spada.md) | 角色：保管机构；范围：原书图版22b保管机构，区别斯帕达宫建筑；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 75–75; 章前：图版目录；印刷页xiii |
 | → 安置于（`installed_at`） | [斯帕达宫（Palazzo Spada）](../places/palazzo-spada.md) | 时间：2006年目录记录；角色：目录所载展陈建筑；范围：馆藏81在宫内第四室；仅采用2006年目录定位，不表示原定安置；证据：[来源](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962613)；src-a9e233657ab452fb；同源PDF第1页：LDC与LDCS Sala 4；2006更新 |
 | → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1647年底至1648年初；角色：创作城市；范围：馆方称画家未离开罗马完成本件；创作地点而非起义发生地；证据：[来源](https://galleriaspada.cultura.gov.it/capolavori/esplora-le-sale/sala-iv/cerquozzi-la-rivolta-di-masaniello/)；src-88defb079473d30b；作品说明：senza mai allontanarsi da Roma |
+| → visualizes（`visualizes`） | [马萨涅洛起义（Revolt of Masaniello）](../events/revolt-of-masaniello-1647.md) | Formal S6 decision: the work and revolt are distinct KUs; Haskell explicitly identifies the events depicted. Date pertains to the depicted episode and is not independently verified.；时间：1647年7月7日；角色：画中描绘的历史事件；范围：Haskell says that the painting portrays events of 7 July 1647; scope is limited to this source-reported depicted episode and does not imply that it spans the whole revolt.；证据：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p. 139, line 97; PDF physical p. 24; statement st-chp5-p139-objective-1647-event |
 
 ### 关系候选入口
 

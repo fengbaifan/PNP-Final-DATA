@@ -14187,3 +14187,26 @@ S5字段构建器定向预检并写入10条`source_backed`字段（enr-17266–e
 #### 卡片投影与定向核查
 
 三个新增archive及受关系影响的Swajer、Giambattista、Giandomenico、Urbani四张person卡均逐卡预览、定向渲染，写后复预览7/7无差异；renderer预检通过并核验写后字节。严格表审计退出码0：KU=2,909，待S4登记2,957，`candidate-backlog.csv`=38（pending=0），relations.csv=2,019（1,990 formal、29 pending），S5=13,389（1,634 `unverified`），S2=15,353 statements／26,791 mentions，`s2_missing=[]`、`errors=[]`。关系一致性五类阻断均为0，孤立KU=1,368、过度连接KU=2。`git diff --check`退出码0。S2 statement/mention及独立复核分子不因本批改变；本批不构成S2接收或S3–S6全书收口。
+
+<a id="s4-s5-s6-chp5-chp8-masaniello-revolt-1647-20261025"></a>
+
+### S4/S5/S6：第5、8章马萨涅洛起义事件端点（2026-10-25）
+
+#### S3身份组沿用与S4登记
+
+沿用 `cand-1559`／`aln-1894` 的既有 S3 `new` 组 `sg3-event-cand-1559`，登记 event KU `units/events/revolt-of-masaniello-1647`。第5章 p.139 L97 称切尔阔齐画作描绘“1647年7月7日的事件”；第8章 p.205 L25 将 Roomer 遇险叙述置于“1647年马萨涅洛起义”期间。事件 KU 与同名 Cerquozzi 作品 KU 分开；`cand-4150` 的 Masaniello 人物身份仍未裁，不据此建立人物边。本批未独立核验历史日期或 Haskell 转述的 Roomer 遇险因果说明。
+
+#### S5字段
+
+`build_field_facts.py` 定向预检与应用新增 `enr-17304`–`enr-17306` 三条 `source_backed` 字段、0条 `unverified`、0警告、0来源登记变更：事件性质与报告年份依据第8章 p.205 L25；画作所绘事件日期依据第5章 p.139 L97。7月7日只登记为画作所描绘的事件日期，不外推为整场起义的起止日期。
+
+#### S6逐候选裁决
+
+| statement_id | 决定 | 去向 | 边界 |
+|---|---|---|---|
+| `st-chp5-p139-objective-1647-event` | formal | `rel-2020 visualizes`：Cerquozzi 作品 → 马萨涅洛起义事件 | Haskell 明确称作品描绘1647年7月7日的事件。受控谓词 `has_subject` 的域值域表不允许 work → event，因此使用词表已有且语义准确的 `visualizes`（反向 `visualized_in`）；范围只限该书内描绘判断与具体事件日期，不声称整场起义时间或独立核验。 |
+| `st-chp8-p205-roomer-survived-masaniello-revolt` | pending | 仅保留本过程记录，不创建关系行 | 来源称 Roomer 在起义期间遇险并脱身；`has_participant`／`participated_in` 会误示其参与起义，现有受控类型没有准确表达“处于危险并幸存”的关系。若出现表达该关系的准确受控谓词，或新证据支持更具体的关系语义，再重开。 |
+
+#### 卡片投影与审计
+
+事件卡和作品卡定向预览后渲染，renderer写后字节核验通过，复预览2/2无差异。严格表审计退出码0：KU=2,910，S3候选=12,426，S4 new待登记=2,956，关系表=2,020（1,991 formal、29 pending），S5=13,392（1,634 `unverified`），S2=15,353 statements／26,791 mentions，`s2_missing=[]`、`errors=[]`。关系一致性五类阻断均为0；`git diff --check`退出码0。本批使S6新增1项formal、1项process-only pending；不改变S2复核分子、S3决定或337条缺候选端点队列，也不构成全书S2接收或S3–S6收口。
