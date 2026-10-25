@@ -17,8 +17,8 @@ sources:
       source_file: 02-sources/02-Markdown/02_CHP-2_sec_ii.md
       source_span: lines 69, 72; print pp. 37–38
 created: '2026-10-20'
-updated: '2026-10-20'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-direct-work-endpoints-four-20261020
+updated: '2026-10-25'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp2-p37-s-bibiana-endpoints-20261025
 ---
 
 ## 内容
@@ -37,10 +37,9 @@ Haskell将该像置于教堂重建后的叙述，并称Bernini收到与该像有
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [吉安·洛伦佐·贝尔尼尼（Gian Lorenzo Bernini）](../persons/gian-lorenzo-bernini.md) | 创作归属与雕像原定安置位置由两条独立S2 statement分别支持；角色：雕像创作者（Haskell书内归属）；范围：Haskell称Bernini制作该圣人雕像；此边仅表示书内创作者归属，不独立核实外部归属。；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；Chapter 2, printed p. 37, line 69; S2 statement st-chp2-secii-l62-69-berninimade-bibiana-statue |
+| ← 拟用于（`intended_for`，反向投影） | [圣比比亚娜教堂（Church of S. Bibiana, Rome）](../places/church-of-s-bibiana-rome.md) | 教堂作为place是可用site端点；“behind the High Altar”作为原定位置限定保留，祭坛候选不转为地点KU；角色：原定安置地点（主祭坛后）；范围：Haskell称雕像原定置于S. Bibiana教堂主祭坛后；只记预定安置，不表示实际安装、最终位置或现存位置。；原断言与证据见发出端卡片“圣比比亚娜教堂（Church of S. Bibiana, Rome）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；Chapter 2, printed p. 37, line 69; S2 statement st-chp2-secii-l62-69-bibiana-statue-intended-site |
 
-本次未新增正式关系。以下3条直接S2关系候选留待S6逐条裁决：
-
-- `st-chp2-secii-l62-69-berninimade-bibiana-statue`
-- `st-chp2-secii-l62-69-bibiana-statue-aesthetic-interpretation`
-- `st-chp2-secii-l71-78-bernini-first-payment-for-bibiana-statue`
+正式关系由 `relations.csv` 投影。Bernini 的书内创作归属与教堂预定安置已分别裁为 formal；Haskell 的美学解释不作为形式关系边，首笔付款叙述因付款人和受控谓词未明而 pending。逐项裁决及条件见[全书过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp2-p37-s-bibiana-endpoints-20261025)。

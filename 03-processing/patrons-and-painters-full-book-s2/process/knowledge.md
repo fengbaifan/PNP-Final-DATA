@@ -1,4 +1,32 @@
-﻿# 全书 S3 身份对齐过程
+# 全书 S3 身份对齐过程
+
+<a id="s4-s5-s6-chp2-p37-s-bibiana-endpoints-20261025"></a>
+### 第2章印刷页37 圣比比亚娜地点、工程与雕像端点批次（2026-10-25）
+
+**S4身份映射。** 沿用 `cand-4441` 的 S3 `new` 地点组 `sg3-place-cand-4441`，登记圣比比亚娜小教堂 place KU `units/places/church-of-s-bibiana-rome`；沿用 `cand-4442` 的既有 `new` 工程组 `workgrp-f3054f4421812f`，登记“圣比比亚娜教堂重建与装饰工程” work KU `units/works/reconstruction-decoration-s-bibiana`。两者均是 Haskell 第2章印刷页37、行68–69的书内对象，不声称外部地点或工程身份已核验。`cand-4445` 雕像原已登记；Urban VIII、Bernini沿用既有 person KU。
+
+**S2原子化与S5。** 将 `st-chp2-secii-l62-69-berninimade-bibiana-statue` 收窄为 Bernini 制作雕像的书内归属，移除原复合记录中属于安置／脚注的限定；新增两条关系候选 statement：`st-chp2-secii-l62-69-bibiana-statue-intended-site`（教堂→雕像，主祭坛后为预定位置）和 `st-chp2-secii-l62-69-bibiana-work-located-at-church`（重建装饰工程→教堂，工程地点）。端点沿用已有 mention 锚点，没有新增 mention；两条新增 statement 尚未进入独立语义复核，不计入9,617条复核分子。两张新卡共新增5条 Haskell 书内 `source_backed` 字段；没有外部补证。
+
+**S6逐项裁决。** 本批10条候选均有明确去向（6 formal、3 pending、1 rejected）：
+
+| S2 statement | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp2-secii-l62-69-urban-commissioned-bibiana-work` | formal | `rel-1997 commissioned_by`，重建与装饰工程→Urban VIII；只表达该工程委托，不把教堂建筑与工程对象混为一体。 |
+| `st-chp2-secii-l62-69-berninicompleted-bibiana-work` | formal | `rel-1998 contributed_by`，工程→Bernini；记录其受托并完成任务，不推断唯一设计者或全部施工参与者；“数年内”保留为相对时段。 |
+| `st-chp2-secii-l62-69-urban-rebuilt-bibiana` | formal | `rel-1999 commissioned_by`，教堂地点→Urban VIII；范围限于 Haskell 所述发现遗骸后令教堂完全重建，与工程端点上的委托边表达不同对象。 |
+| `st-chp2-secii-l62-69-bibiana-work-located-at-church` | formal | `rel-2000 located_at`，重建装饰工程→教堂；工程地点由独立 S2 statement 表达，不从限定字段推边。 |
+| `st-chp2-secii-l62-69-bibiana-body-discovered` | pending | `cand-4443` 所指遗骸的实体类型与身份未定，`cand-4444` 圣比比亚娜人物身份亦未定；不建立遗骸或圣人关系边。满足类型边界及可追溯身份依据后再重开。 |
+| `st-chp2-secii-l62-69-berninimade-bibiana-statue` | formal | `rel-2001 created_by`，雕像→Bernini；只记 Haskell 的书内作者归属，不外推为外部核验结论。 |
+| `st-chp2-secii-l62-69-bibiana-statue-aesthetic-interpretation` | rejected（关系边） | Haskell关于雕像把绘画中的 sensuality 与 mysticism 转译为雕塑的美学解释保留在 S2；不将其解释为已确立的因果影响边。 |
+| `st-chp2-secii-l62-69-bibiana-statue-intended-site` | formal | `rel-2002 intended_site_of`，教堂→雕像；scope保留“主祭坛后”，只表示原定安置，不声称已安装、最终或现存位置。 |
+| `st-chp2-seciv-l45-52-bernini-restored-s-bibiana` | pending | 印刷页47行52称 Bernini 当时“only restored” S. Bibiana；关系端点虽已映射，但当前受控谓词无精确的修复关系类型，且不把该说法与页37的重建装饰工程合并。S0 OCR `onlyTestored` 对照印刷页图校为 `only restored`，仅记入此 statement 的 `ocr_corrections`，未改写来源转录。出现可用谓词或具体工程证据后重开。 |
+| `st-chp2-secii-l71-78-bernini-first-payment-for-bibiana-statue` | pending | 原文只称 Bernini 获得与雕像有关的第一笔款项；付款人、金额和确切日期未载，且无准确的受控交易谓词。保持 S2 断言，不造付款边。 |
+
+六条 formal 边已写入 `relations.csv`。`cand-4446`（High Altar）仍为 S3 `new`，本批未映射：它只承担雕像原定位置的限定，类型为 work，不能作为 `intended_site_of` 所需的 place 端点；教堂作为 place 记录正式站点关系，祭坛只保留在 scope 与 S2 mention 中。若后续来源支持需独立表示祭坛的关系，再按其 S3 身份组登记；当前不为形成关系数量而加边。
+
+**定向呈现与审计。** 将两张新卡、雕像卡及 Urban VIII、Bernini人物卡共5张逐卡预览并定向渲染。严格表审计 `audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`；关系一致性审计：`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic=0`。批后 S2 为15,353 statements／26,789 mentions，关系候选10,569；统一独立复核仍为9,617/15,353（62.64%，未接收）。按每个 `candidate_id` 主决定口径，S3仍为12,426项：same=2,054、new=5,081、conflict=9、excluded=104、undecided=5,178；26个跨来源decision差异不变。S4为2,112/5,081条 `new` 已映射，待登记2,969条，其中1,254个未映射候选直接出现在关系端点；KU共2,896。S5为13,333字段（1,634 `unverified`）。S6为1,323/10,569已裁决（749 formal、460 pending、114 rejected，余9,246）；关系表2,002条（1,976 formal、26 pending）。backlog 37条（12 completed、25 undecided，严格 pending=0）；337条关系 statement 缺至少一个S2端点候选ID（subject-only 45、object-only 220、both 72），本批未改变该队列。两条新增 S2 statement 与本次语义修订均未增加独立复核分子。
+
+---
 
 <a id="s2-s3-s4-s5-s6-poussin-arcadian-pair-louvre-20261025"></a>
 ### 第2、4、7章普桑《阿卡迪亚牧人》版本分组与卢浮宫地点端点（2026-10-25）
