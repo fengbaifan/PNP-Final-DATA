@@ -14722,3 +14722,20 @@ S5登记六项来源支持字段：人物的索引名及正文形式；作品的
 该决定只解决这两条书内候选的粒度差异；不改变其他Félibien候选、原书正文、S2 statement或统一独立复核分子。
 
 **批次核验。** `build_field_facts.py --apply --ku units/archives/felibien-entretiens-trevoux-1725-six-volume-edition` 新增6条`source_backed`字段，`unverified=0`、`warnings=0`、来源登记无变化。`build_cards.py --render`定向渲染《赞助人与画家》、Félibien档案卡及André Félibien人物卡3张，写后字节核对通过；3张复预览均无差异。`audit_tables.py --strict-stage --summary`退出码0：`errors=[]`、`s2_missing=[]`，KU=2,950、候选=12,427、S4 new待登记=2,930、S5=13,537（1,634 unverified）、relations=2,085（2,052 formal）、backlog=45（13 completed、32 undecided，pending=0）。当前new直接关系端点未映射1,218个（term 457、archive 256、work 195、place 162、event 82、institution 65、person 1）。关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。S2 statement／mention和统一独立复核分子未变；本批不构成S2接收或S3–S6全书收口。
+
+
+<a id="s4-s5-s6-chp7-p182-bjurstrom-torelli-1961-20261025"></a>
+
+### S4–S5–S6：第7章 Bjurström《Giacomo Torelli and Baroque Stage Design》（1961）（2026-10-25）
+
+**证据与跨章身份。** `cand-7075`沿用S3身份组`archive-group-63cebb2e5e5a`的`new`决定（`aln-7251`）。第7章印刷页182注1（`CHP-7.pdf`物理页16；Markdown L343）扫描页读作“Bjurström, 1961”；第21章印刷页415书目（`CHP-21Bibliography.pdf`物理页5；L183）扫描页读作“Bjurström, Per: Giacomo Torelli and Baroque Stage Design, Stockholm 1961.” 两处支持同一专著的书目身份；专著与被引内容均未独立查阅。`cand-7076`沿用`new-person:bjurstrom-per-cf789b97bb`的person `new`身份组（`aln-7252`）；依据完整书目责任者形式以及S3已核定的章7、章10、章20姓氏引注对应，限定为书内人名，不补传记或外部身份。
+
+**S4登记。** 专著候选映射至`units/archives/giacomo-torelli-baroque-stage-design-1961`；Per Bjurström人物候选映射至`units/persons/per-bjurstrom`。均按现有S3分组执行，不变更身份决定。两卡登记至accepted与manifest。
+
+**S5字段。** 专著新增5条`source_backed`书目字段：文献类型、责任者形式、原题名、出版地、出版年；人物卡新增1条书内责任者姓名形式。中文书名与姓名为工作译名／音译，不据此声称官方译名。书目没有出版者或内容摘要，未补写。
+
+**S6裁决及statement清理。** `st-chp7-p182-n1-cite-bjurstrom`formal为`rel-2086 cites`，《赞助人与画家》→该专著，范围限Haskell第7章注1的书内引注，并用第21章书目明确作品身份。另以`rel-2087 authored_by`记录书目责任者；该结构性边不属于S2关系候选裁决分母。同步把S2引注claim中误混入的过程摘要移除，改为“Haskell’s footnote 1 cites Bjurström, 1961.”，保留原脚注和声明结构；未增加statement或mention，亦未增加S2复核分子。
+
+本批S3既有决定未重开；未查阅Bjurström专著或其引用内容。
+
+**批后核验。** `build_field_facts.py`定向应用6条字段，写后预览`record_changes=0`、`new_ids=0`、`warnings=0`，来源登记无变化。`build_cards.py --render`对《赞助人与画家》、专著卡、人物卡3张执行选定范围预检与写入，检查6个字段表、42行、252条关系投影；写后字节核对通过，3张卡再次`--preview`均无差异。`audit_tables.py --strict-stage --summary`退出码0：KU=2,952、候选=12,427、alignment=12,774、new待S4登记=2,928、S5=13,543（1,634 unverified）、relations=2,087（2,054 formal、33 pending）、backlog=45（13 completed、32 undecided，pending=0）、statements=15,363、mentions=26,841，`errors=[]`、`s2_missing=[]`。S4已映射2,169/5,097条`new`；未映射new直接关系端点1,217个（term 457、archive 255、work 195、place 162、event 82、institution 65、person 1）。S6本批新增1项formal裁决，累计1,434项（818 formal、499 pending、117 rejected）；与当前10,578条`relation_candidate=true`分母仍差1，暂不报完成率。关系一致性审计broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic均为0。S2 statement／mention及独立复核分子不变；修正的是既有引注claim中误混入的过程摘要，不代表S2独立复核。
