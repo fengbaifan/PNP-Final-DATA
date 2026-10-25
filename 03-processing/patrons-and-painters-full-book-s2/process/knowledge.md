@@ -14151,3 +14151,39 @@ S5字段构建器定向预检并写入10条`source_backed`字段（enr-17266–e
 | `st-chp4-sec-i-l20-24-literary-historians-quote-poetry` | pending | “more indulgent literary historians”是未具名集合，`cand-11634` 未定类型且无独立身份锚点；不造 person/group KU 或正式边，不进入 backlog 的具名可识别端点队列。若出现可识别的具体史家及受控谓词再重开。 |
 
 三项均有明确S6去向；只有合法端点与受控谓词的作者边写入 `relations.csv`。新 archive 卡与 Paolo Giordano II 人物卡各定向预览后渲染；renderer 写后字节核验通过。严格表审计退出码0：KU=2,906、待S4登记=2,960、关系=2,011、S5=13,369、S2 statements=15,353／mentions=26,791、`s2_missing=[]`、`errors=[]`。关系一致性退出码0：broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。`git diff --check`退出码0；本批未运行测试。
+
+<a id="s4-s5-s6-chp9-chp16-chp21-swajer-urbani-1879-20261025"></a>
+### S4/S5/S6：第9、16、21章 Swajer 往返信与 Urbani de Ghelthof 1879 年出版物（2026-10-25）
+
+#### S3身份组沿用与跨章边界
+
+本批沿用三个既有 `new` archive 决定，不重开S3、不改candidate内容，也不合并三组身份：
+
+| candidate／alignment | 既有身份组 | S4去向 |
+|---|---|---|
+| `cand-10668`／`aln-10836` | `archive-group-c2818467be3e`；Swajer致Giambattista Tiepolo的具体信件文本 | `units/archives/letter-from-amadeo-swajer-to-giambattista-tiepolo-1879` |
+| `cand-10669`／`aln-10837` | `archive-group-b87266620e41`；Giandomenico Tiepolo致Swajer的另一封具体信件文本 | `units/archives/letter-from-gian-domenico-tiepolo-to-amadeo-swajer-1879` |
+| `cand-8793`／`aln-8966` | `archive-group-040719141aa3`；1879年 *Tiepolo e la sua Famiglia* 出版物 | `units/archives/tiepolo-e-la-sua-famiglia-urbani-de-ghelthof-1879` |
+
+跨章身份锚点为：第16章印刷页377注3分别将两封信定位到该刊本第19、32页；第9章印刷页270、273、274继续引用 Urbani de Ghelthof 1879 年版的第100–117、124–126及123页；第21章印刷页439 L1182提供题名、书目责任形式、Venezia与1879年。第9、16章的简称与第21章唯一对应书目项构成该出版物的书内身份映射。本批未查原信、刊本或被引页，也未用外部身份来源。
+
+信件身份组分别保留，不与收录它们的出版物合并。`cand-2534` Amadeo Swajer、`cand-2569` Giambattista Tiepolo、`cand-2624` Gian Domenico Tiepolo及`cand-12253` Urbani de Ghelthof均沿用现有person KU映射；G. D.／Gian Domenico对应已登记的 Giandomenico Tiepolo。`cand-10671`仍为S3 `undecided`的未识别绘画候选，不为补关系强行登记。
+
+#### S4登记与S5字段
+
+新增3个archive KU并将以上三个alignment的`ku_id`写为对应固定路径；S3的`new`决定与组ID不变，`accepted.yml`和`ku-manifest.csv`已登记。字段构建器预检及应用新增20条 `source_backed` 字段（`enr-17284`–`enr-17303`），0条 `unverified`、0警告；来源仍为既有 `haskell-1980-rev-ed`，来源登记无变化。两张信卡分别记录通信双方及被引页19、32；书目卡记录原题、书目责任形式、Venezia、1879年和第9、16章的页码引注。字段仅证明 Haskell 的书内著录及定位，不表示读过被引内容或原件。
+
+#### S6逐候选裁决
+
+| statement_id | 决定 | 去向 | 边界 |
+|---|---|---|---|
+| `st-chp16-p377-note3-published-swajer-tiepolo-letter` | formal | `rel-2017 part_of`：第一封信文本 → 1879年出版物 | Haskell明确称该信刊于第19页；只表达刊本包含关系，不表达原件馆藏。 |
+| `st-chp16-p377-note3-letter-and-consaputo-quadro` | pending | 关系类型可用 `has_subject`，暂不写关系行 | 被引信提到的绘画身份未定，端点`cand-10671`无KU；保持待证，不创建缺端点占位边。若新证据识别作品后重开。 |
+| `st-chp16-p377-note3-ghelthof-provenance-claim` | pending | `rel-2019 owned_by`，关系表状态为`pending` | Haskell仅转述“被称属于其私人收藏”的权属说法，且同一注释明确提示谨慎看待其文献使用；该行不主张实际所有权。仅在独立证据解决来源可靠性与权属后重开。 |
+| `st-chp16-p377-note3-published-gian-domenico-swajer-letter` | formal | `rel-2018 part_of`：第二封信文本 → 1879年出版物 | Haskell明确称该信刊于第32页；只表达刊本包含关系，不表达原件馆藏。 |
+
+两条信件作者与收件人边分别写为`rel-2013`–`rel-2016`，出版物的书目作者边为`rel-2012`；这些是本书明示通信／书目责任的结构性记录，不额外生成或重复S2候选决定。关系表本批新增8行（7 formal、1 pending），其中5行结构边不计入S6候选决定数。四项S2关系候选均有明确裁决去向：2 formal、2 pending；缺少可识别作品KU的`has_subject`待证项只留过程记录，不写无效端点行。
+
+#### 卡片投影与定向核查
+
+三个新增archive及受关系影响的Swajer、Giambattista、Giandomenico、Urbani四张person卡均逐卡预览、定向渲染，写后复预览7/7无差异；renderer预检通过并核验写后字节。严格表审计退出码0：KU=2,909，待S4登记2,957，`candidate-backlog.csv`=38（pending=0），relations.csv=2,019（1,990 formal、29 pending），S5=13,389（1,634 `unverified`），S2=15,353 statements／26,791 mentions，`s2_missing=[]`、`errors=[]`。关系一致性五类阻断均为0，孤立KU=1,368、过度连接KU=2。`git diff --check`退出码0。S2 statement/mention及独立复核分子不因本批改变；本批不构成S2接收或S3–S6全书收口。

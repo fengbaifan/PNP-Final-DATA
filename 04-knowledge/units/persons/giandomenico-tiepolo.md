@@ -53,6 +53,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所创作对象（`creator_of`，反向投影） | [雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）](../works/tiepolo-marriage-allegory-of-the-rezzonico-family.md) | 时间：1757年冬；角色：萨堤尔绘制者；范围：婚姻寓意厅顶画；保存馆方逐人分工，不将三人都称整幅独立作者；原断言与证据见发出端卡片“雷佐尼科家族婚姻寓意（Marriage Allegory of the Rezzonico family）”：[来源](https://carezzonico.visitmuve.it/en/layout-and-collections/first-floor/)；src-3245ab17370a3933；Nuptial Allegory Room |
+| ← 所著文献（`author_of`，反向投影） | [乔万多梅尼科·提埃坡罗致阿马德奥·斯瓦耶尔的信（Letter from Giandomenico Tiepolo to Amadeo Swajer）](../archives/letter-from-gian-domenico-tiepolo-to-amadeo-swajer-1879.md) | The surrounding text identifies Gian Domenico as Giambattista Tiepolo’s son; candidate cand-2624 maps to the existing Giandomenico Tiepolo KU. The letter and cited page were not independently consulted. Structural sender relation.；角色：Sender identified as G. D. Tiepolo in note 3；范围：Sender of the letter text cited by Haskell on printed p. 377; this does not establish the form or custody of an original manuscript.；原断言与证据见发出端卡片“乔万多梅尼科·提埃坡罗致阿马德奥·斯瓦耶尔的信（Letter from Giandomenico Tiepolo to Amadeo Swajer）”：[来源](../../../02-sources/02-Markdown/16_CHP-16_intro.md)；haskell-1980-rev-ed；Chapter 16, printed p. 377, lines 49-50 and 62-63 |
 
 ### 关系候选入口
 

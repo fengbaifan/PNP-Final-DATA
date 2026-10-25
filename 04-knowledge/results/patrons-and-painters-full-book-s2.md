@@ -2,7 +2,9 @@
 
 ### 本轮进度与后续工作（2026-10-25）
 
-**当前快照（2026-10-25，第4章 Paolo Giordano II 档案端点批次后）：** S0已处置832段（678 complete、154 excluded）。S2为15,353 statements／26,791 mentions；统一独立逐条复核9,617/15,353（62.64%，未接收，5,736条未进入统一复核）。按每个candidate_id主决定计，S3为12,426项：same=2,054、new=5,082、conflict=9、excluded=104、undecided=5,177；26个跨来源decision差异待核。S4已映射2,122/5,082条new，待登记2,960条，其中1,246个去重候选触及直接关系端点；KU共2,906。S5字段13,369条（1,634 `unverified`）。S6已裁决1,341/10,572条（755 formal、472 pending、114 rejected），余9,231；`relations.csv`为2,011条（1,983 formal、28 pending），含1条不计入S6分母的书目派生结构性authorship关系`rel-2008`，以及来自S2候选的`rel-2009`与`rel-2011`。另有337条关系statement至少缺一个S2端点候选ID（subject-only 45、object-only 220、both 72）。`candidate-backlog.csv`有38条记录（12 completed、26 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断为0。S2尚未接收，S3–S6未全书收口；S7、知识发现与页面均未启动。
+**当前快照（2026-10-25，第9、16、21章 Swajer 往返信与 Urbani 1879 出版物批次后）：** S0已处置832段（678 complete、154 excluded）。S2为15,353 statements／26,791 mentions；统一独立逐条复核9,617/15,353（62.64%，未接收，5,736条未进入统一复核）。按每个candidate_id主决定计，S3为12,426项：same=2,054、new=5,082、conflict=9、excluded=104、undecided=5,177；26个跨来源decision差异待核。S4已映射2,125/5,082条new，待登记2,957条，其中1,243个去重候选触及直接关系端点；KU共2,909。S5字段13,389条（1,634 `unverified`）。S6已裁决1,345/10,576条（757 formal、474 pending、114 rejected），余9,231；`relations.csv`为2,019条（1,990 formal、29 pending；结构性边不并入S6候选决定分母）。另有337条关系statement至少缺一个S2端点候选ID（subject-only 45、object-only 220、both 72）。`candidate-backlog.csv`有38条记录（12 completed、26 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断为0。S2尚未接收，S3–S6未全书收口；S7、知识发现与页面均未启动。
+
+**本批完成：第9、16、21章两封 Swajer 往返信及 Urbani de Ghelthof 1879 年出版物。** 沿用三个互相独立的 S3 `new` archive 身份组登记3个 KU；两封信分别连接既有人物KU，并各以 `part_of` 关系正式记录其书内刊载位置（第19、32页）。新增20条 Haskell 来源 `source_backed` 字段；四条 S2 关系候选逐项裁为2 formal、2 pending，其中绘画端点仍未识别、收藏权属主张保留待证。关系表新增8行（5条结构边、2条S6正式边、1条S6待证边）；7张受影响卡片渲染并写后复预览无差异。严格表审计及关系一致性检查通过。未查原信、刊本或被引页。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-chp16-chp21-swajer-urbani-1879-20261025)。
 
 **本批完成：第4章 Paolo Giordano II《Rime, e Satire》档案端点。** 延用 `cand-5533`／`aln-5714` 的 S3 `new` 身份组登记一个 archive KU；第4章 p.96 注5与第21章 p.433 题名形式不同，保留 “Rime, e Satire”／“Rime e Satira”，不声称已查原刊本。新增8条书内 `source_backed` 字段；3条 S6 候选逐项裁决为1 formal（`rel-2011`，`authored_by`）和2 pending（风格谓词未受控；文学史家未具名且端点未定）。新档案卡及人物卡定向渲染、写后核验通过。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-paolo-giordano-ii-rime-e-satire-archive-20261025)。
 
@@ -21,12 +23,12 @@
 
 **后续工作规划（按当前任务优先级）：**
 
-1. **继续高关系解锁价值的 S4/S6 批次。** 当前2,960个new候选尚待S4，其中1,246个去重候选直接触及关系端点。优先选跨多条关系、证据边界明确的类型组；同批映射S4、补关键S5字段、逐条裁决S6。每批保留待证理由和重开条件。
+1. **继续高关系解锁价值的 S4/S6 批次。** 当前2,957个new候选尚待S4，其中1,243个去重候选直接触及关系端点。优先选跨多条关系、证据边界明确的类型组；同批映射S4、补关键S5字段、逐条裁决S6。每批保留待证理由和重开条件。
 2. **按类型推进S3收口。** 先核对26个跨来源decision差异，再处理9个conflict和5,177个undecided，按person、place、institution、event、work、archive等身份组逐项判定。same复用既有KU、new登记、conflict保留来源差异、excluded说明依据；缺身份或当前类型不能忠实表示的对象留在明确backlog，不强求转成已确定身份。
 3. **处理337条缺端点关系候选。** 按缺subject 45、缺object 220、两端均缺72分组；只有来源足以确定时才补候选并走S1–S4，再回到S6。端点不明则保留pending，不以缺少关系表行误作rejected。
 4. **持续按章完成S2独立语义复核。** 目前9,617/15,353（62.64%），另5,736条未进入统一逐条复核；按当前statement ID与来源版本核平，逐章记录证据、修订和真正独立的接收结果。补mention锚点或修元数据不增加复核分子。
 5. **定向补S5关键字段。** 1,634条`unverified`中，优先审查会改变身份、类型、端点或正式关系的字段；有充分来源才改为`source_backed`，否则保留未验证状态及具体缺口。
-6. **S7前置闭合。** S2独立接收且台账核平；S3每个候选有same/new/conflict/excluded决定或可追溯待证去向；可登记的new完成S4；关键S5字段有据或明确缺口；10,569条S6候选全部裁决；backlog不留未处理的actionable pending。达到这些条件后准备发布阶段S7。知识发现和页面仍待用户明确启动。
+6. **S7前置闭合。** S2独立接收且台账核平；S3每个候选有same/new/conflict/excluded决定或可追溯待证去向；可登记的new完成S4；关键S5字段有据或明确缺口；当前10,576项S6决定全部裁决；backlog不留未处理的actionable pending。达到这些条件后准备发布阶段S7。知识发现和页面仍待用户明确启动。
 
 **提速方式：** 以共同来源页、身份组和关系端点价值编批；只预览、渲染本批受影响卡片，并运行必要表审计。CI矩阵的执行时长与语义审读是不同成本，不通过删减Python版本门禁制造项目进度。
 
