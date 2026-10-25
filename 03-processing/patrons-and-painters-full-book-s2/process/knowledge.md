@@ -14788,3 +14788,17 @@ S5登记六项来源支持字段：人物的索引名及正文形式；作品的
 **S6逐条裁决。** `st-chp5-p134-beaneater-created-by-annibale` formal为`rel-2097 created_by`（作品→Annibale Carracci），仅记录Haskell书内作者归属；`st-chp5-p134-beaneater-colonna-gallery-location` formal为`rel-2098 located_at`（作品→来源局部Colonna gallery），仅记录书内地点陈述。两边均以Haskell第5章p.134 L26为证。时间留空；不表示外部独立作者核验或当前所在地。两条候选均有formal去向，不增加或修改S2 statement／mention，亦不增加统一S2独立复核分子。
 
 **渲染与核验。** `build_cards.py --render`定向处理作品、画廊、Annibale Carracci三卡：预检3卡、7张字段表、39行、5条关系投影；3文件写入且写后字节核对通过。Annibale卡同时刷新一条既有关系投影所缺的来源标识，未新增该关系。三卡写后预览无差异；字段表写后预览no_delta。`audit_tables.py --strict-stage --summary`退出码0：KU=2,956、候选=12,427、S4待登记=2,926、relations=2,098（2,065 formal、33 pending）、S5=13,555（1,634 unverified）、backlog=45（13 completed、32 undecided、pending=0）、statements=15,363、mentions=26,841，`errors=[]`、`s2_missing=[]`。`audit_relation_consistency.py --dry-run`的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。本批完成两个候选的S3/S4/S5/S6去向；全书S2仍未接收，S3–S6仍未收口。
+
+<a id="s3-s4-s5-s6-chp4-p115-moses-changing-aarons-rod-20261025"></a>
+
+### S3定点复核与S4–S5–S6：第4章 p.115《Moses changing Aaron’s Rod into a Serpent》（2026-10-25）
+
+**来源与身份分组。** Haskell第4章印刷页115 L181点名第二幅摩西题材画作，L184称两幅普桑作品“must have been among Camillo Massimi’s earliest commissions”。`cand-5946`沿用S3 `new`组`workgrp-4534d60d592c32`，登记为来源局部单件作品KU `units/works/poussin-moses-changing-aarons-rod-into-serpent-haskell-ch4-p115`；作者端点复用`units/persons/nicolas-poussin`，委托端点复用`units/persons/camillo-massimi`。新卡不主张外部目录身份、存世版本或当前所在地。标题采用S2已有的“OCR Aaron s Rod → printed Aaron’s Rod”更正记录；本批未重新查阅印本扫描，因此卡片来源引文仍保留Markdown中的OCR原貌。
+
+S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：索引`P.csv#220`的副题与本章p.115 L181题名逐字对应且定位同页，故由`undecided`改判`same`并映射至上述作品KU。它与第一幅《摩西践踏法老王冠》（既有图版19a作品卡）保持分立；第4章p.117的“早期作品组”是《迈达斯王》与第一版《阿卡迪亚牧人》，也不是本段的两幅摩西画。`cand-5947`仅为题名中的“Aaron”单名候选，身份未决，当前不是S2关系端点，本批不建人物KU。
+
+**S5字段。** 对新作品卡登记两条`source_backed`字段：`enr-17470`原文题名、`enr-17471`作品类型“绘画（picture）”，均由Haskell第4章p.115 L181、L184支持。字段接口预览确认2条均映射至`haskell-1980-rev-ed`、`unverified=0`、`warnings=0`；apply后复预览`record_changes=0`、`new_ids=0`，来源登记无变化。
+
+**S6逐项裁决。** `st-chp4-sec-ii-p115-second-work-created-by-poussin` formal为`rel-2099 created_by`（复用普桑人物KU）；`st-chp4-sec-ii-p115-second-work-early-commission` formal为`rel-2100 commissioned_by`（复用马西米人物KU）。第二边仅记录Haskell带“must have been”限定的推断；句子同时适用于两幅画，1644仅是相关政治背景，不作为本画的确切委托时间，`time`留空；没有声称读过委托文书或独立核实。
+
+**渲染与核验。** 关系预览显示新作品卡及普桑、马西米人物卡共3张有变化；定向渲染3卡后逐卡复预览均无差异。新作品字段写后复预览无差异。`audit_tables.py --strict-stage --summary`退出码0：KU=2,957；S4待登记=2,925；S5=13,557（1,634 `unverified`）；relations=2,100（2,067 formal、33 pending）；候选backlog=45（13 completed、32 undecided、pending=0）；S2 statements=15,363、mentions=26,841，`errors=[]`、`s2_missing=[]`。`audit_relation_consistency.py --dry-run`的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。本批未改S2 statement或mention，统一S2独立复核仍为9,617/15,363（62.60%，未接收）。
