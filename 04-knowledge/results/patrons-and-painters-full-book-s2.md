@@ -2,17 +2,18 @@
 
 ### 本轮进度与后续工作（2026-10-25）
 
-**最新批次完成：第4章跨章档案身份组 S4–S5–S6。** 沿用16个既有S3 `new` archive组，17条alignment映射全部登记；完成16张双语档案卡、97条source-backed字段和15条formal关系（14条`cites`、1条摄影副本`located_at`），另有5条关系候选分别以原因和重开条件保留process-only pending。定向渲染19张卡、写入17个文件；严格表审计与关系一致性审计通过。p.102、p.115共4条S2当前statement版本有修改，待独立复核，不增加复核分子。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp4-crosschapter-archives-20261025)。
+**最新批次完成：Bellori 1664年讲演、“理想”概念与1672年《Lives》端点。** 4个候选映射至3个KU；新增13条source-backed字段；13条S6候选逐项有去向，形成5条formal边、6条process-only pending和1条rejected。定向渲染6张卡，严格表审计与关系一致性审计通过。7条旧statement和5条mention改挂档案候选，另新增1条受众关系statement；这8个当前版本待独立复核且未计入S2分子。p.191另有3条statement完成来源对照备忘，不宣称独立验收或计入分子。详见[Bellori批次记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp6-bellori-lecture-ideal-20261025)及[p.191核对备忘](../../03-processing/patrons-and-painters-full-book-s2/process/s2-page-review-ch7-p191-bernini-self-portrait-20261025.md)。
 
-**全书当前进度与边界。** S0已完成832个源段处置（678 complete、154 excluded）。S2有15,363条statement、26,841条mention；统一独立逐条复核9,617/15,363（62.60%，未接收）。S3主决定覆盖12,427/12,427候选：same 2,064、new 5,101、conflict 9、excluded 104、undecided 5,149；另有26项跨来源decision不一致须逐来源核对。S4已登记2,193/5,101条new候选，待登记2,908条，其中1,197条触及直接关系端点。S5有13,665条字段，1,634条unverified。S6已有1,476/10,578条relation_candidate裁决（846 formal、512 pending、118 rejected），历史统计与当前候选分母仍差1；`relations.csv`为2,116条（2,083 formal、33 pending）。candidate-backlog为45条（13 completed、32 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。S7未启动，知识发现与页面仍暂停。以上表示登记与机械审计状态，不等于S2语义接收或S3–S6全书收口。
+**全书当前进度与边界。** S0已处置832个源段（678 complete、154 excluded）。S2当前15,364条statement、26,841条mention；统一逐条复核分子9,617（62.60%，未接收），版本账待核平。S3主决定覆盖12,427个候选：same 2,064、new 5,102、conflict 9、excluded 104、undecided 5,148；另有26项跨来源decision差异待逐来源核对。S4已映射2,197/5,102条new候选，仍待登记2,905条，其中1,194条触及直接关系端点。KU共2,979；S5字段13,678条（1,634条unverified）。S6有1,489条候选结果（852 formal、518 pending、119 rejected），当前relation_candidate为10,579条，仍有1条历史统计映射差待核；relations.csv共2,121条（2,088 formal、33 pending）。candidate-backlog为45条（13 completed、32 undecided，严格审计pending=0）。最近一次严格表审计errors=[]、s2_missing=[]，关系一致性五类阻断均为0。S7未启动，知识发现与页面暂停。以上不等于S2语义接收或S3–S6全书收口。
 
 **后续工作规划。**
 
-1. **先回查本批S2变更。** 对p.102两条与p.115两条当前statement版本做扫描定点独立复核；只把实际复核的版本纳入统一分子，然后继续按章推进尚未独立审阅的范围。
-2. **推进S3身份收口。** 先核平26项跨来源decision差异及9项conflict；随后按archive、person、work等类型处理5,149项undecided，优先多章复现、且会阻断直接关系端点的身份组。每候选保留可追溯的same复用、new登记、conflict、excluded或带证据条件的undecided去向。
-3. **将S4–S6合并为端点批次。** 每次先完成必要的S3身份判断，再优先登记1,197个直接关系端点中的高关系价值组；同批定向补S5关键字段，并逐条将关联S6候选写为formal、pending或rejected。pending保留原因与重开条件，不为追求数量改用泛关系或模糊身份。
-4. **定向清理S5与S6余项。** 对1,634条unverified字段，优先处理已进入正式关系或关键端点卡的事实；先核平S6分母差1，再按批次继续处理剩余候选，持续追踪S2候选与正式关系表的对应关系。
-5. **最后准备S7。** 在S4/S5/S6达到逐对象收口且阻断审计通过后，整理发布输入与可复现交付；知识发现和页面制作须等用户明确启动。
+1. **收束当前批次并同步。** 将上述过程记录、S2版本变更和当前结果对齐；再核对26项跨来源差异清单、S6历史分母差1与S2版本台账。只暂存本批明确文件，排除既有扫描图和恢复文件；检查后提交并推送main，确认远端提交与工作树状态。
+2. **按类型完成S3裁决。** 先逐来源处理26项decision差异，再核对9项conflict的证据与候选边界；随后严格按taxonomy-registry所列person、institution、place、work、archive、term、procedure、event八类推进5,148项undecided，优先处理多章复现及阻断直接关系端点者。每个候选最终保留same复用、new身份组、conflict的明确边界、excluded，或有具体证据缺口与重开条件的待证去向；不以主决定覆盖率代替逐候选可追溯性。
+3. **S4–S6按关系端点成批推进。** 以1,194个未登记的直接关系端点为队列，按可解除的关系阻断价值排序；先完成对应S3身份判断，再登记/复用KU，同批补S5必需字段并逐条裁决关联S6候选。端点不能确定时保留pending及解除条件，不强建边。
+4. **定向清理S5与S6。** 优先核实正式关系两端及关键身份字段中的unverified；不对1,634条字段做无差别重跑。逐批核平S6历史结果与10,579条当前候选的1条差异，再继续处理未裁决项。
+5. **恢复S2逐章工作，但严守复核口径。** 先处理本批8个变更／新增版本和待核平的页级复核台账，再按章接续；只有符合独立复核条件且source/version对齐的版本才进入统一分子。继续把S2语义接收状态与S3–S6登记覆盖分开报告。
+6. **满足前置条件后再交接S7。** S4/S5/S6逐对象收口、待证项有明确去向且阻断审计通过后，准备可复现的发布输入。知识发现和页面制作继续等待用户明确启动。
 
 **本批完成：第13章 p.343 Zanetti 明暗木刻组与品味术语的跨章S3裁决及S4–S6登记。** `cand-10102`沿用既有`new`组；`cand-12173`与`cand-2853`由`undecided`改判为两个来源限定`new`组，分别登记鉴赏家类别term和木刻组work KU。Liechtenstein亲王、未具名友人和制作版片三个端点各有明确待证理由，不强建KU。新增11条source-backed S5字段；9项关系候选裁决为1 formal（`rel-2101 creator_of`）和8项process-only pending。四张受影响卡写后复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0；S2 statement、mention与独立复核分子不变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp13-p343-zanetti-print-and-taste-20261025)。
 

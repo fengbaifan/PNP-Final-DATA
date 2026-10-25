@@ -88,3 +88,10 @@ English: This card is updated in place from the existing unregistered draft usin
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [圣依纳爵遗骨瓮（Urn Offered for the Remains of St Ignatius）](../works/urn-offered-for-ignatius-remains-gesu.md) | Haskell says the urn was modelled by Algardi. This records the source attribution and does not identify a surviving object.；角色：modeler (Haskell attribution)；范围：Source-reported attribution of the offered urn; no surviving version or later location is identified.；原断言与证据见发出端卡片“圣依纳爵遗骨瓮（Urn Offered for the Remains of St Ignatius）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 91 L157; statement=st-chp3-seciv-l152-163-algardi-modelled-ignatius-urn |
+| ← 为其所涉对象（`subject_of`，反向投影） | [贝洛里《Le Vite de’ Pittori . . . Moderni》（1672年出版物；Bellori's Le Vite de’ Pittori . . . Moderni, 1672 publication）](../archives/bellori-le-vite-de-pittori-moderni-1672.md) | Records Haskell’s statement about coverage; does not independently verify the biography.；角色：biographical subject；范围：Haskell says Bellori’s Lives gave Algardi a full-scale life.；原断言与证据见发出端卡片“贝洛里《Le Vite de’ Pittori . . . Moderni》（1672年出版物；Bellori's Le Vite de’ Pittori . . . Moderni, 1672 publication）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_iv.md)；haskell-1980-rev-ed；printed p.159 L34; statement=st-chp6-p159-algardi-bernini-treatment |

@@ -93,7 +93,10 @@ English: The B.csv#119 headword “Bellori, Gian Pietro” and its person-type s
 ## 关系与证据
 
 ### 关系记录
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [贝洛里《Le Vite de’ Pittori . . . Moderni》（1672年出版物；Bellori's Le Vite de’ Pittori . . . Moderni, 1672 publication）](../archives/bellori-le-vite-de-pittori-moderni-1672.md) | Two S6 candidates support one natural-key edge; no external edition or authorship source was consulted.；角色：author；范围：Haskell describes the Lives as Bellori’s book and reports publication in 1672; this records book-level authorship, not a verified physical edition.；原断言与证据见发出端卡片“贝洛里《Le Vite de’ Pittori . . . Moderni》（1672年出版物；Bellori's Le Vite de’ Pittori . . . Moderni, 1672 publication）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_iv.md)；haskell-1980-rev-ed；printed p.158 L26; p.159 L29; statements=st-chp6-p158-bellori-lives-partial,st-chp6-p159-bellori-lives-1672-preface |
+
 
 ### 身份与外部链接
 

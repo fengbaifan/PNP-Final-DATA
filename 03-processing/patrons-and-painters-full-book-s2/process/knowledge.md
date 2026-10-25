@@ -14856,3 +14856,21 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 **卡片渲染与审计。** `build_cards.py --render`定向预检19张卡（25个字段表、152行、288条关系投影），实际写入17个文件，写后字节核验通过；《赞助人与画家》、摄影副本、Warburg机构、Gaudenzi书信、Orbaan及Litta六张代表卡的写后`--preview`均无差异。预检发现本批16条`accepted.yml`路径漏写`04-knowledge/`前缀，修正为仓库根路径后复审通过。
 
 `audit_tables.py --strict-stage --summary`退出码0：KU=2,976、candidate=12,427、alignment=12,774、S4 new待登记2,908、S5=13,665（1,634 unverified）、relations=2,116（2,083 formal）、backlog=45（13 completed、32 undecided，pending=0）、statements=15,363、mentions=26,841，`errors=[]`、`s2_missing=[]`。S3主决定不变：same=2,064、new=5,101、conflict=9、excluded=104、undecided=5,149；S4已映射2,193/5,101条new，未映射new直接关系端点1,197个（term 456、archive 238、work 193、place 162、event 82、institution 65、person 1）。S6本批20项后累计1,476（846 formal、512 pending、118 rejected），与当前10,578条`relation_candidate=true`分母仍差1；relations.csv另有33条既有pending。`audit_relation_consistency.py --dry-run`五类阻断全为0；`git diff --check`通过。S2当前版本4条变更不计入统一独立复核分子；当前为9,617/15,363（62.60%，未接收）。
+
+<a id="s3-s4-s5-s6-chp6-bellori-lecture-ideal-20261025"></a>
+
+### S3定点裁决与S4–S5–S6：Bellori、1664年讲演与“理想”概念（2026-10-25）
+
+**触发与来源范围。** 本批由新档案KU登记触发S3回查。对照Haskell第2章p.28与第6章pp.158–159、当前候选、statement与mention。未查外部目录、被引书或原件。
+
+**S2边界修订。** 将第6章p.158–159中7条关于《Lives》的当前statement和5处mention从人物候选`cand-0277`改挂到书籍候选`cand-6932`；`cand-0277`仍作为Bellori人物候选，不受影响。另新增`st-chp6-p158-lecture-delivered-to-accademia`，只表达讲演面向Accademia的受众／收受关系，不推断讲演地点或保存机构。涉及的8个当前statement版本均待独立语义复核，不计入统一S2复核分子。
+
+**S3身份裁决。** `cand-6420`（第6章“the Ideal”）与既有`cand-4299`（第2章“an ideal”）由两章文本的概念连续性支持，合并至同一来源限定term组`sg3-term-cand-4299`。`cand-6932`从`undecided`改判`new`，指Haskell所述1672年《Le Vite de’ Pittori, Scultori et Architetti Moderni》版本组`archive-group-bellori-le-vite-1672`。与1931年facsimile候选`cand-4832`、1942及1976年版本保持区分；本批未据外部版本记录推断版本关系。
+
+**S4登记。** 4个候选映射至3个KU：`cand-6419`→`units/archives/bellori-1664-ideal-lecture`；`cand-6932`→`units/archives/bellori-le-vite-de-pittori-moderni-1672`；`cand-4299`与`cand-6420`→`units/terms/ideal-in-art-haskell-bellori`。新增3张双语卡、3条manifest记录。
+
+**S5字段。** 三张卡新增13条source-backed字段（`enr-17580`–`enr-17592`）。字段接口预览为13条source-backed、0条unverified、0 warning；apply后复预览`record_changes=0`、`new_ids=0`。
+
+**S6逐项裁决。** 13条候选逐项有结果：6个formal候选合并形成5条边（`rel-2117`–`rel-2121`）；6条process-only pending；1条rejected。formal边为：讲演`has_subject`理想概念；1672年书籍`authored_by` Bellori（两条作者statement合并为一条边）；讲演`part_of`该书；该书`has_subject` Algardi；该书`has_subject` Bernini。pending分别保留：讲演者与作者身份不能互推；人物以理想为criterion的关系无准确受控类型；Agucchi所阐发概念尚无可选精确类型；Poussin与该书思想关系当前谓词不精确；Accademia受众关系不能改写为地点或馆藏；Colbert题献的archive→person域值不兼容。`st-chp6-p159-bellori-selectivity`作为书籍范围描述留在S5，不建关系边。所有pending均记录重开条件；没有新增泛化关系。
+
+**渲染与核验。** 六张受影响卡定向渲染并逐卡复预览无差异；Algardi卡同时呈现了既有urn关系投影，不改变本批S6裁决。`audit_tables.py --strict-stage --summary`退出码0：KU=2,979；候选=12,427；alignment=12,774、未链接0；S4 new待登记2,905；S5=13,678（1,634 `unverified`）；relations=2,121（2,088 formal、33 pending）；backlog=45（13 completed、32 undecided、pending=0）；S2 statements=15,364、mentions=26,841，`errors=[]`、`s2_missing=[]`。`audit_relation_consistency.py --dry-run`五类阻断均为0。S3主决定：same=2,064、new=5,102、conflict=9、excluded=104、undecided=5,148；另有26项跨来源decision差异待逐来源核平。S4尚有1,194条new候选触及未登记的直接关系端点。S6当前已有1,489条候选结果（852 formal、518 pending、119 rejected）；历史候选分母与结果账仍有1条差异待核。S2统一复核为9,617/15,364（62.60%，未接收）；本批8个新／改statement版本不计入分子。p.191三条statement已作来源对照，见独立过程备忘；待统一版本账核平后再决定是否进入复核口径。
