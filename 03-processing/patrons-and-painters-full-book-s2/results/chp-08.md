@@ -2,6 +2,13 @@
 
 任务：`patrons-and-painters-full-book-s2`。截至2026-10-22，p.237当前statement已按第八章逐条复核记录处理，原“11条中3条未分类”游标是历史快照；当前p.237有39条statement，`relation_candidate=true/false/unset`为33/6/0。发现并修复一条把委托与违约、撤回赠画意图合并的statement；该新行已加入当前总数。另为Silva人物及Crespi《无辜者屠杀》补齐4条正文／注2精确mention，其S3新组、S4登记与两条S6去向已记录；S2独立复核台账仍未按当前statement ID核平，第八章暂记487/1,463；不据此接收全章。开放端点下一待复核项仍为`st-chp8-p238-note4-pictures-at-pisa-cabinet`（p.238注4，1条开放statement）。以上均不等于全书召回验收或S3交接完成。全书状态见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)，逐条复核见[记录](../process/s2-independent-review-chp8-p237-20261022.md)，跨阶段裁决见[过程记录](../process/knowledge.md)。
 
+
+## 2026-10-26：p.208 De Wael 版画组端点登记与关系裁决
+
+页图（CHP-8.pdf物理页6）确认正文写作“scenes from peasant life”，注3写明Bartsch V, pp. 5–10并报告British Museum有一组。S2更正 L55 与注3 L140 的显示引文，并将原复合关系拆分为 `st-chp8-p208-de-wael-dedicated-print-series`（dedicated_by）和新增 `st-chp8-p208-de-wael-print-series-dedicated-to-roomer`（dedicated_to）；脚注 statement 链接两条正文 statement。S0转录、mentions及统一独立复核分子不变，新增 statement 未计入独立复核。
+
+沿用 `cand-7456` 的 S3 `new` 组并登记版画组 KU。Paris Musées 的 Bartsch 1 目录记录列出一套十四幅版画；意大利国家文化遗产目录记录题献对象与De Wael署名。两条题献边据目录铭文及 Haskell 组级叙述 formal；`held_by` British Museum 只记录 Haskell 注3的来源报告。没有将De Wael推作全套创作者／刻印者，没有推定Roomer委托或拥有，也没有将目录中的单件印本等同于整套实物。详见[本批过程记录](../process/knowledge.md#s4-s5-s6-chp8-p208-de-wael-print-set-20261026)及[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
 ## 既有处理记录：p.233–236
 
 - 覆盖账本：56段`reviewed/complete`、5段`excluded/complete`，无queued或partial；这是覆盖登记，不替代statement语义裁决。

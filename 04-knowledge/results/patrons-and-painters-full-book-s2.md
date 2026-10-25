@@ -2,17 +2,20 @@
 
 ### 本轮进度与后续工作（2026-10-26）
 
-**最新批次完成：第3章 p.84 Van Dyck 圣方济各·沙勿略像端点。** 沿用 `cand-5298` 的 S3 `new` 组登记作品 KU；关联的两条 S2 关系候选分别裁为 formal `rel-2127 created_by` 与 `rel-2128 installed_at`。新增4条原书支持的S5字段；作品、范戴克人物卡、礼拜堂地点卡定向渲染，写后复预览3/3无差异。复用既有S2语义记录，不增加统一独立复核分子。作品题名、具体版本和现存位置仍未知。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-xavier-picture-20261026)。
+**最新批次完成：第8章 p.208 De Wael 题献版画组。** `cand-7456`沿用既有S3 `new`组`workgrp-a96b9bf4f60672`并登记work KU；一条原有复合statement拆为`dedicated_by`及`dedicated_to`，新增一条statement。新增4条source-backed S5字段；三项S6关系分别formal为`rel-2129`–`rel-2131`，其中British Museum边仅表示Haskell注3的馆藏报告。四张受影响卡写后复预览4/4无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0。S2统一复核分子不变。外部目录记录证明题献与版画组信息，但不证明整套存世版画的作者、日期或英国博物馆现今馆藏。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp8-p208-de-wael-print-set-20261026)。
 
-**全书当前进度与边界。** S0已处置832个源段（678 complete、154 excluded）。S2有15,366条statement、26,841条mention；统一逐条复核9,617（62.59%，未接收），statement ID/source-version台账仍待核平。S3覆盖12,427个候选：same=2,065、new=5,098、conflict=9、excluded=104、undecided=5,151；26项跨来源decision差异仍在台账，后续只在登记或新证据触发时定点复核。S4已映射2,207/5,098条new，待登记2,891条；其中1,181个未映射new候选是直接关系端点（term 447、archive 234、work 191、place 162、event 81、institution 65、person 1）。KU共2,989。S5字段13,708条（1,634条unverified）。S6已记录1,506项结果（860 formal、527 pending、119 rejected）；当前10,581条relation_candidate仍有1条历史裁决台账映射差异，核平前不报完成率。relations.csv共2,128条（2,095 formal、33 pending）。另有337条关系statement至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。candidate-backlog.csv有45条（13 completed、32 undecided，严格审计pending=0）。严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性五类阻断均为0。S2尚未接收，S4–S6尚未全书收口；S7未启动，知识发现与页面等待用户明确启动。
+**全书当前进度与边界。** S0已处置832个源段（678 complete、154 excluded）。S2有15,367条statement、26,841条mention；统一逐条复核9,617/15,367（62.59%，尚未接收），statement ID与来源版本台账未核平。S3主决定覆盖12,427个候选：same=2,065、new=5,098、conflict=9、excluded=104、undecided=5,151；另有26项跨来源decision差异，须按来源与身份语义定点核对。S4已映射2,208/5,098条new，待登记2,890条；其中1,180个未映射new候选是直接关系端点（term 447、archive 234、work 190、place 162、event 81、institution 65、person 1）。KU共2,990。S5字段13,712条（1,634条unverified）。S6已记录1,509项结果（863 formal、527 pending、119 rejected）；当前10,582条relation_candidate与历史裁决台账尚有1条映射差异，核平前不报完成率。relations.csv共2,131条（2,098 formal、33 pending）。另有337条关系statement至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。candidate-backlog.csv有45条（13 completed、32 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。S2尚未独立接收，S4–S6尚未全书收口；S7未启动，知识发现与页面等待用户明确启动。
 
-**后续工作规划（按当前依赖排序）。**
+**后续工作规划（按依赖与关系解锁价值排序）。**
 
-1. **优先完成S4直接关系端点并同批裁决S6。** 剩余1,181个已判 `new` 的直接端点，按关系解锁价值、端点类型和来源页编批；每批检查身份与来源锚点，完成KU映射、必要S5字段及关联S6结果。S3仅由具体登记或新证据触发定点复核，不回扫全量未决候选。
-2. **回源处理337条缺S2候选端点的关系statement。** 按subject缺45、object缺220、两端缺72逐项核对；只有原文能支持的对象才进入S1→S3→S4并返回S6，无法识别的端点保留具体待证原因和重开条件。
-3. **继续S2分章独立审读与修订。** 对齐当前statement ID、来源版本和已有页级记录；继续核对p.189、p.190、p.191、p.216、p.353等尚待核平的当前版本。统一复核数在版本台账核清前保持9,617，不将局部检查或改写自动计入。
-4. **定向处理S5/S6剩余项。** 围绕正式关系端点与关键身份字段审理1,634条unverified；核平S6历史台账与当前relation_candidate的1条映射差异后再报告裁决余数。
-5. **满足收口条件后准备S7。** S2完成独立接收，S3已有决定或具条件待证去向，可登记new完成映射，关键S5字段有据或明示缺口，S6逐项有去向且pending可重开，并清除结构阻断后再准备发布输入。知识发现和页面仍等待用户明确启动。
+1. **推进S4直接关系端点，并同批完成S6。** 按来源页、跨章身份组和端点类型编批，优先处理1,180个已判`new`的直接端点；每个对象必须有可回溯的same复用、new登记、冲突说明或待证去向。完成S4映射后，仅补关系所需且有来源支撑的S5字段，并逐条裁决关联S6。
+2. **回源处理337条缺S2候选端点的关系statement。** 分别核查仅缺subject 45条、仅缺object 220条、两端皆缺72条；原文可识别的对象按S1→S3→S4登记并返回S6，证据不足的保留具体待证理由与重开条件。
+3. **核平S2版本台账并继续独立语义审读。** 按当前statement ID、来源版本与既有页级记录逐项对账；优先解决p.189、p.190、p.191、p.216、p.353等当前版本待核项，并将本次新增的p.208 statement纳入后续复核。局部审读、改写或本批自查不自动计入9,617条统一复核数。
+4. **定向清理S3差异与S5/S6余项。** 对26项跨来源decision差异按身份语义核平；围绕关系端点和关键身份字段审理1,634条unverified，不做无目标的全量补足；核平S6历史台账与当前relation_candidate之间的1条映射差异后，再报告S6完成率。
+5. **满足阶段门槛后准备S7。** S2完成独立接收；S3每个候选均有可追溯决定或带重开条件的待证去向；所有需登记的new候选已映射；关键S5字段有据或明示缺口；S6每项有明确去向且pending可追踪；结构审计无阻断。满足后准备发布输入，知识发现和页面仍以用户明确启动为前提。
+
+**提速安排。** 语义批次按同页／同来源和跨章身份组聚合，集中处理已知关系端点；脚本只用于批量写回、受影响卡片定向渲染和阶段审计。每批完成后再做一次严格表审计与关系一致性检查，保持Python 3.10/3.12 CI矩阵，不用降低检查范围换取表面速度。
+
 
 **本批完成：第13章 p.343 Zanetti 明暗木刻组与品味术语的跨章S3裁决及S4–S6登记。** `cand-10102`沿用既有`new`组；`cand-12173`与`cand-2853`由`undecided`改判为两个来源限定`new`组，分别登记鉴赏家类别term和木刻组work KU。Liechtenstein亲王、未具名友人和制作版片三个端点各有明确待证理由，不强建KU。新增11条source-backed S5字段；9项关系候选裁决为1 formal（`rel-2101 creator_of`）和8项process-only pending。四张受影响卡写后复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0；S2 statement、mention与独立复核分子不变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp13-p343-zanetti-print-and-taste-20261025)。
 

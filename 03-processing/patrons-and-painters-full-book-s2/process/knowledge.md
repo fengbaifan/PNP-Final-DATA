@@ -1,5 +1,28 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp8-p208-de-wael-print-set-20261026"></a>
+### 第8章 p.208 De Wael 题献版画组端点（2026-10-26）
+
+**触发与S2校读。** 物理扫描页确认正文为“scenes from peasant life”，注3为Bartsch V, pp. 5–10，并报告British Museum有一组。OCR显示引文中的“peasant Use”与“set tn”由页图校正为“peasant life”与“There is a set”；来源资产和S0原始转录保持不变，`original_quote`仍按S0转录逐字保留，校读记在S2元数据。将原来合并的题献断言拆为版画组→Jean-Baptiste de Wael（`dedicated_by`）及版画组→Gaspar Roomer（`dedicated_to`）两个statement；注3保留馆藏报告并链接正文statement。新增1条statement、mentions不变；新statement未进入统一独立复核分子。
+
+**S3跨来源身份裁决。** `cand-7456`沿用`workgrp-a96b9bf4f60672`中的`new`决定。[Paris Musées的Bartsch 1目录记录](https://www.parismuseescollections.paris.fr/en/node/237699)将版画组描述为十四幅；[意大利国家文化遗产目录的单件版画记录](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900452178)提供Gasparo de Roomer题献铭文及Joannes Baptista de Wael署名。后两条记录是目录中的题名页／单件印本证据，不与全套版画组或现存英国博物馆实物视为同一对象，故不改变组级`new`决定，也不把外部目录ID写成该系列KU的标识。
+
+| 候选 | S3决定与身份组 | S4去向 |
+|---|---|---|
+| `cand-7456` | 沿用`new`；`workgrp-a96b9bf4f60672` | `units/works/jean-baptiste-de-wael-print-series-gaspar-roomer` |
+
+**S4与S5。** 登记一张work KU，新增4条有来源支撑的字段，分别覆盖书内描述、Paris Musées目录的系列题名与十四幅范围、Haskell对农民生活场景的描述。来源登记新增Paris Musées与意大利国家文化遗产目录记录；没有补写完整十四幅题名、制作日期、全套创作者／刻印者、Roomer委托或拥有、以及英国博物馆当前持有状态。新卡为[De Wael版画组](../../../04-knowledge/units/works/jean-baptiste-de-wael-print-series-gaspar-roomer.md)。
+
+**S6逐项裁决。** 三条当前关系候选均有明确去向：
+
+| statement_id | S6裁决 | relations.csv | 证据与边界 |
+|---|---|---|---|
+| `st-chp8-p208-de-wael-dedicated-print-series` | formal | `rel-2129 dedicated_by` | 版画组→De Wael；目录署名与Haskell组级叙述支持题献关系，不据签名认定其为全套制作人。 |
+| `st-chp8-p208-de-wael-print-series-dedicated-to-roomer` | formal | `rel-2130 dedicated_to` | 版画组→Roomer；目录铭文与正文回指支持题献对象判断。 |
+| `st-chp8-p208-n3-set-reported-at-british-museum` | formal | `rel-2131 held_by` | 版画组→British Museum；仅表示Haskell注3的馆藏报告，不指定报告日期或现今馆藏状态。 |
+
+**核验与边界。** 严格表审计`errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。作品、De Wael、Roomer、British Museum四张卡定向渲染后复预览均无差异。S2独立复核数不变；本批S4映射增加1、S5字段增加4、S6 formal裁决增加3。
+
 <a id="s4-s5-s6-chp6-p147-ciampi-brigante-citations-20261025"></a>
 ### 第6章 p.147 注1：Ciampi 与 Brigante Colonna 书目端点（2026-10-25）
 
