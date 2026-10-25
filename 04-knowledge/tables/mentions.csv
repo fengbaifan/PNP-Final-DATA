@@ -26239,7 +26239,7 @@ Kunstsammlungen,
 m-chp21-bib-l928-983-032,chp-21:21_CHP-21Bibliography:l928-983,cand-11421,"Pollak, O.: Die Kunsttätigkeit unter Urban VIII, 2 vols., Wien 1927 and 1931.",2904,2981,S0 bibliography entry; page-image readings and S3 comparisons are recorded on its statement.
 m-chp21-bib-l985-1020-001,chp-21:21_CHP-21Bibliography:l985-1020,cand-11422,"Pöllnitz, Baron Charles Louis de: Memories contenant les observations qu’il a faites dans ses voyages, 3 vols., Liège 1734.",11,134,S0 bibliography entry; page-image readings and S3 comparisons are recorded on its statement.
 m-chp21-bib-l985-1020-002,chp-21:21_CHP-21Bibliography:l985-1020,cand-5151,"Ponnelle, L. and Bordet, L.: St Philip Neri and the Roman society of his times, London 1932.",135,227,S0 bibliography entry; page-image readings and S3 comparisons are recorded on its statement.
-m-chp21-bib-l985-1020-003,chp-21:21_CHP-21Bibliography:l985-1020,cand-10513,"Ponte, Lorenzo da: Memorie, Milano i960.",228,268,S0 bibliography entry; page-image readings and S3 comparisons are recorded on its statement.
+m-chp21-bib-l985-1020-003,chp-21:21_CHP-21Bibliography:l985-1020,cand-10513,"Memorie, Milano i960.",247,268,S0 bibliography title/publication details; the author name is a separate non-overlapping mention.
 m-chp21-bib-l985-1020-004,chp-21:21_CHP-21Bibliography:l985-1020,cand-4372,"Pope-Hennessy, J. : ‘Two portraits ofDomenichino’ in Burlington Magazine, 1946, pp. 186-191.",269,361,S0 bibliography entry; page-image readings and S3 comparisons are recorded on its statement.
 m-chp21-bib-l985-1020-005,chp-21:21_CHP-21Bibliography:l985-1020,cand-5158,"Pope-Hennessy, J. : Domenichino drawings in the Royal Library at Windsor Castle, London
 1948.",362,455,S0 bibliography entry; page-image readings and S3 comparisons are recorded on its statement.
@@ -27510,3 +27510,4 @@ m-chp8-p236-note2-fresco,chp-8:08_CHP-8_sec_ii:l372-461,cand-7989,this fresco,10
 m-chp8-p236-note2-museum,chp-8:08_CHP-8_sec_ii:l372-461,cand-7999,Orleans Museum,10043,10057,Institutional label as printed by Haskell; no current official name asserted.
 m-chp16-p374-armanni-note3-0001,chp-16:16_CHP-16_intro:l69-89,cand-0119,G. A. Armanni,797,810,Exact person-name span within existing archive title mention m-chp16-p374-sasso-0044; S0 transcription retained.
 m-chp16-p374-sasso-note3-0001,chp-16:16_CHP-16_intro:l69-89,cand-2364,G. M Sasso,813,823,"Exact addressee span within existing archive title mention m-chp16-p374-sasso-0044; S0 omits the period after M, while the printed reading is G. M. Sasso."
+m-chp21-bib-l985-1020-entry-03-author,chp-21:21_CHP-21Bibliography:l985-1020,cand-12449,"Ponte, Lorenzo da",228,245,Author form printed in the Haskell bibliography entry for Memorie.

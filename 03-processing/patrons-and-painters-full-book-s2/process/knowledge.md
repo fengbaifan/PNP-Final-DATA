@@ -14662,3 +14662,18 @@ S5登记六项来源支持字段：人物的索引名及正文形式；作品的
 本批未改S2 statement或mention；S2独立复核分子不变。
 
 **定向渲染与机械核验：** `build_cards.py --render` 对《赞助人与画家》与新手稿卡完成定向预检并写入2张卡（5张表、38条字段、245条投影关系）；渲染器核对写后字节。预览发现来源书卡还缺少上一批已入 `relations.csv` 的 `rel-2076`、`rel-2077` 两条 `cites` 视图，本次一并投影；不重裁决、不重复计数。两张卡写后复预览2/2无差异。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`，KU=2,945、relations=2,078（2,045 formal）、S5=13,514（1,634 unverified）；`audit_relation_consistency.py` 的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0；`git diff --check`退出码0。机械检查不构成S2独立语义接收。
+
+### S4-S5-S6 chp15 Neu-Mayr Da Ponte 20261025
+
+**S3分组与S4登记。** `cand-10479` 沿用跨章档案组 `archive-group-c8faf880aceb`，将第15章p.365注2的“Neu-Mayr, 1807”与第21章p.431的 Neu-Mayr 书目项识别为同一出版物；`cand-10513` 沿用 `archive-group-7e201dbe015a`，将第15章p.368注4的“Lorenzo da Ponte, p. 52”与第21章p.434的 *Memorie* 书目项合并为同一出版物。两项均为既有 S3 `new`，不重开身份决定。书目责任者方面，因登记字段和 `authored_by` 需要独立端点，将“Lorenzo da Ponte”与倒置书目形式“Ponte, Lorenzo da”作为来源限定 person 候选 `cand-12449`，S3新组 `person-group-316566ee4af4`，登记为 `units/persons/lorenzo-da-ponte`，backlog `bl-0045` 标记 completed；不作外部身份、传记或生卒年断言。Neu-Mayr 只见首字母“A.”，保留书目责任形式，不扩写人物、不登记人物端点。共新增3个KU；两部被引书本身未独立查阅。
+
+**S5字段。** 两张档案卡各登记作者书目形式、原题、出版地、出版年和书目文献类型；人物卡只登记书内正序及倒置姓名形式。字段仅由 Haskell 书内注释和书目支持；Neu-Mayr 中文题名与 Da Ponte 的 Memoirs 为描述性工作译名。Da Ponte 页图将书目 OCR 的“i960”校读为“1960”。未补写被引著作内容或未核事实。共新增12条 `source_backed` 字段。
+
+**S6裁决。**
+- `st-chp15-p365-note2-neu-mayr-1807`：formal `rel-2079 cites`，范围仅到 Haskell 注2所示雕像、铭文引注及第21章书目身份；不表示项目查阅该书。
+- `st-chp15-p368-note4-open-house-reference`：formal `rel-2080 cites`，注4引《Memorie》第52页；不表示该书或第52页已查阅。
+- 第21章书目责任者事实以结构性 `rel-2081 authored_by` 记录；此边由书目 `author_as_printed` 支持，不属于 S2 `relation_candidate=true` 裁决分母。
+
+**S1提及锚点与S2状态。** 原书目条目提及 `m-chp21-bib-l985-1020-003` 从整条条目区间228–268改为作品与出版信息区间247–268（“Memorie, Milano i960.”）；新增人物提及 `m-chp21-bib-l985-1020-entry-03-author` 区间228–245（“Ponte, Lorenzo da”）。两段不重叠，冒号和空格未分配。第15章脚注中姓名与作品引注共用同一词段，保留原档案提及，不新增重叠提及。`book-statements.jsonl` 未改，statement数15,363不变；mentions增1至26,841；统一独立S2复核分子不变。来源Markdown未改。
+
+**定向渲染与机械核验。** `build_cards.py --render` 定向写入《赞助人与画家》、Neu-Mayr档案、Da Ponte档案与Da Ponte人物卡共4张；写后字节核对通过，4/4复预览无差异。严格表审计：`errors=[]`、`s2_missing=[]`，KU=2,948、候选=12,427、映射S3 new待登记=2,932、mentions=26,841、statements=15,363、relations=2,081（formal=2,048）、S5=13,526（unverified=1,634）、candidate-backlog=45（completed=13、undecided=32）。关系一致性检查的 broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0；`git diff --check`退出码0。未改S2 statement或独立复核分子；本批不构成S2接收或S3–S6全书收口。
