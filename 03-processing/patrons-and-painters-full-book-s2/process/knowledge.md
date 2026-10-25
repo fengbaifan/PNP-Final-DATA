@@ -15030,3 +15030,24 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 - st-chp8-p203-naples-school-support pending：土地所有者社会类别term→绘画学校term的“gave lavish support”有明确原文，但supported_by和patronized_by的域值域均不接受此term-to-term组合。待类别／画派具有可用关系类型后重审。
 
 **渲染与当前核验。** 三卡按字段接口定向渲染，渲染前预览仅有关系记录固定表述差异；写入后3/3卡片预览无差异。字段写后预览为0变化。严格表审计：KU=2,998、候选=12,427、alignment=12,774、未链接0、S4 new待登记2,881、S5=13,744（1,634 unverified）、relations.csv=2,136（2,103 formal、33 pending）、candidate-backlog=45（13 completed、32 undecided、pending=0）、S2 statements=15,367、mentions=26,841，errors=[]、s2_missing=[]。关系一致性审计broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。S3主决定计数不变：same=2,066、new=5,099、conflict=9、excluded=104、undecided=5,149；跨来源decision差异仍26项。S4已映射2,218/5,099；未映射new直接关系端点1,171（term 442、archive 231、work 190、place 162、event 81、institution 64、person 1）。S6新增7项pending，累计1,520（866 formal、535 pending、119 rejected）；relation_candidate历史映射差异仍1项，暂不报完成率。S2 statement、mention及统一独立复核分子未变，复核仍为9,617/15,367（62.59%，未接收）。
+
+<a id="s3-s4-s5-s6-chp10-p276-282-direct-endpoints-20261026"></a>
+
+### S4直接关系端点与S6：第10章 pp.276–282（2026-10-26）
+
+**S3身份边界与S4登记。** 本批沿用7个既有S3 `new`决定，不改候选身份组或S3主决定：`cand-12401`（哈斯克尔所述圭多·雷尼晚期“chalky”画风，term）、`cand-9283`（Birmingham City Art Gallery，institution）、`cand-0471`（伯灵顿勋爵的奇西克别墅，place）、`cand-9306`（National Gallery of Art, Washington，institution）、`cand-9307`（Sotheby’s，institution）、`cand-9319`（Great Witley，place）、`cand-9329`（*Die Rapparini-Handschrift* 1958年版，archive）各映射至一张新KU。S3的26项跨来源decision差异不由本批重开。别墅与候选`cand-8938`的奇西克地理位置分开；Great Witley不与身份和物理范围未决的Canons礼拜堂`cand-8942`合并；National Gallery of Art, Washington与已登记的伦敦、爱尔兰、苏格兰及Victoria机构区分；1958年版与Rapparini本人及已登记的1709年颂词分别建模。没有独立核查Nisser 1937、拍卖记录、1958年版或原稿。
+
+**S4与S5产物。** 七张双语卡登记到`ku-manifest.csv`及`accepted.yml`；alignment沿用每个候选原行并记录新KU路径和过程锚点。`enr-17659`–`enr-17674`共16条字段，均由Haskell第10章注释或第21章书目支持。1958年版的题名、出版地依据书目p.435页图转录，年份同时由第10章p.282注1及书目支持；编辑者仅在来源摘录中保留，不额外建立人物端点或编辑字段。字段接口写后预览为0变化、0重复、0警告，来源登记无变化。
+
+**S6逐项裁决。** 八条关系候选均有明确去向；仅一条写入formal关系表，其余七条保留process-only `pending`：
+
+- `st-chp10-notes-p276n1-guido-manner-interpretation` pending：目标画风已登记，但“Crespi must have been thinking of”是哈斯克尔对Crespi意图的推测，当前受控类型不能准确表达人物对术语的意指关系。若出现能保留该解释层次且端点类型兼容的关系表达，再重审；不把推测转成Crespi的已证意图。
+- `st-chp10-notes-p276n2-manchester-entry-location` → `rel-2137 located_at`：`units/works/carlevarijs-manchester-entry-1707` 指向伯明翰机构。`scope`保留哈斯克尔“now”的来源时间语境，观察日期未载；不表示当前馆藏已核实。Nisser 1937只作为书内引注，未独立查阅。
+- `st-chp10-notes-p276n1-guido-manner-connoisseur-reception` pending：18世纪鉴赏家是未具名、未设类型的广义群体，来源没有成员表；目前没有兼容term→群体的受控谓词。群体边界或可用关系类型成立后再审。
+- `st-chp10-notes-p280n3-baptism-sketch-sale` pending：`cand-9307`已登记为拍卖机构，但素描`cand-9305`仍S3 `undecided`，且没有准确的work→auction-house受控“sold at”关系类型；不替换为`sold_by`或`held_by`。若对象身份及兼容谓词得到支持，再审。
+- `st-chp10-notes-p280n3-lastsupper-sketch-location` pending：华盛顿机构已登记，素描`cand-9304`仍S3 `undecided`；未确定对象前不建立`located_at`。需先有对象身份，并保留原注未给地点报告日期、未核实当前保管的边界。
+- `st-chp10-notes-p280n7-probable-transfer-to-chiswick` pending：别墅已登记，但作品组`cand-8923`仍未决；来源仅称“probable”转移，属于不确定的历史转移/来源过程，不能代作静态`located_at`。待作品身份和可表达该转移的关系类型明确后重审。
+- `st-chp10-notes-p281n2-chapel-great-witley-use` pending：Great Witley地点已登记，但Canons礼拜堂`cand-8942`的物理范围及迁移对象未定；来源“to this day”不是当前状态核验。待礼拜堂身份和迁移／位置端点明确后重审。
+- `st-chp10-notes-p282n1-bettagno-indicated-manuscripts` pending：Alessandro Bettagno复用既有人物KU，1958年版已登记；“indicating”是向Haskell提示材料，当前受控词表没有准确谓词。若关系词表能表达该来源提示角色，再审；不把致谢自动转成`authored_by`或`cites`。
+
+**渲染、审计与影响。** 字段写后预览0变化；7张新卡及入城画、伯明翰机构两张关系端点卡复预览均无差异。严格表审计：KU=3,005、alignment=12,774、未链接0、new待登记2,874、S5=13,760（1,634 `unverified`）、relations.csv=2,137（2,104 formal、33既有pending）、candidate-backlog=45（13 completed、32 undecided、严格审计pending=0）、S2=15,367 statements／26,841 mentions，`errors=[]`、`s2_missing=[]`。关系一致性五类阻断均为0。S3计数不变（same=2,066、new=5,099、conflict=9、excluded=104、undecided=5,149；decision差异26项）；本批S4映射增7，本批S6新增1 formal与7 pending，累计1,528项（867 formal、542 pending、119 rejected）。当前`relation_candidate=true`为10,582，历史裁决台账与当前statement版本分母差1，仍不报全书S6完成率。S2未改statement、mention、来源版本或独立审读分子；统一复核保持9,617/15,367（62.59%，未接收）。

@@ -78,3 +78,9 @@ English: Index candidate cand-0557 and prose candidate cand-8839 refer to the sa
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [伯明翰市立美术馆（Birmingham City Art Gallery）](../institutions/birmingham-city-art-gallery-haskell-account.md) | 哈斯克尔引注Nisser 1937；本项目未独立查阅该文献，也未核查当前美术馆记录；角色：哈斯克尔脚注报告的地点；范围：仅记录哈斯克尔第10章注2所称该画作“当时”位于此馆；观察日期未给出，不表示当前馆藏。；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p. 276, note 2, L493; statement=st-chp10-notes-p276n2-manchester-entry-location |
