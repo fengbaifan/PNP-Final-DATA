@@ -1,5 +1,9 @@
 # 第3章语义处理记录
 
+## 2026-10-26：p.84 作品端点登记与S6裁决
+
+沿用既有S2记录 `st-chp3-seciv-l75-81-xavier-picture-painted-by-van-dyck` 与 `st-chp3-seciv-l75-81-xavier-picture-placed-in-chapel`，将 `cand-5298` 的既有S3 `new` 组登记为作品 KU。两项关系分别写入 formal `created_by` 和历史语境限定的 `installed_at`；新增4条Haskell原书支持字段。未修改statement、mention或S2统一复核分子。三张受影响卡写后复预览无差异；严格表审计与关系一致性检查通过。详见[本批过程记录](../process/knowledge.md#s4-s5-s6-chp3-xavier-picture-20261026)。
+
 状态：**处理中**。规范范围47段；当前42段reviewed/complete、0段reviewed/partial、5段有理由排除、0段queued。
 
 ## 来源范围与去重

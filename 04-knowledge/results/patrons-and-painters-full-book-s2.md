@@ -2,18 +2,17 @@
 
 ### 本轮进度与后续工作（2026-10-26）
 
-**最新批次完成：第7章 p.192 直接关系端点与身份分组。** 复用既有页级扫描复核，不重复计入S2独立复核分子；修正4处结构化OCR校读和注2回链。8个关系端点中4个沿用`new`组登记为新KU，`cand-6993`与第16章威尼斯艺术传统合并复用，3个人群候选因类型边界未决而重开`undecided`并记录重开条件。8条S6候选逐项有去向：1条formal（`rel-2126 has_participant`）、7条pending；新增10条source-backed S5字段。6张受影响卡定向渲染，写后复预览无差异。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-p192-direct-endpoints-20261026)。
+**最新批次完成：第3章 p.84 Van Dyck 圣方济各·沙勿略像端点。** 沿用 `cand-5298` 的 S3 `new` 组登记作品 KU；关联的两条 S2 关系候选分别裁为 formal `rel-2127 created_by` 与 `rel-2128 installed_at`。新增4条原书支持的S5字段；作品、范戴克人物卡、礼拜堂地点卡定向渲染，写后复预览3/3无差异。复用既有S2语义记录，不增加统一独立复核分子。作品题名、具体版本和现存位置仍未知。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-xavier-picture-20261026)。
 
-**全书当前进度与边界。** S0已处置832个源段（678 complete、154 excluded）。S2有15,366条statement、26,841条mention；统一逐条复核9,617（62.59%，未接收），statement ID/source-version台账仍待核平。S3覆盖12,427个候选：same=2,065、new=5,098、conflict=9、excluded=104、undecided=5,151；另有26项跨来源decision差异待逐项核对。S4已映射2,206/5,098条new，待登记2,892条；其中1,182个未映射new候选是直接关系端点（term 447、archive 234、work 192、place 162、event 81、institution 65、person 1）。KU共2,988。S5字段13,704条（1,634条unverified）。S6已记录1,504项结果（858 formal、527 pending、119 rejected）；当前relation_candidate为10,581条，历史裁决台账与当前statement版本仍有1条映射差异，核平前不报完成率。relations.csv共2,126条（2,093 formal、33 pending）。另有337条关系statement至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。candidate-backlog.csv有45条（13 completed、32 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`，关系一致性五类阻断均为0。S2尚未接收，S3–S6尚未全书收口；S7未启动，知识发现与页面等待用户明确启动。
+**全书当前进度与边界。** S0已处置832个源段（678 complete、154 excluded）。S2有15,366条statement、26,841条mention；统一逐条复核9,617（62.59%，未接收），statement ID/source-version台账仍待核平。S3覆盖12,427个候选：same=2,065、new=5,098、conflict=9、excluded=104、undecided=5,151；26项跨来源decision差异仍在台账，后续只在登记或新证据触发时定点复核。S4已映射2,207/5,098条new，待登记2,891条；其中1,181个未映射new候选是直接关系端点（term 447、archive 234、work 191、place 162、event 81、institution 65、person 1）。KU共2,989。S5字段13,708条（1,634条unverified）。S6已记录1,506项结果（860 formal、527 pending、119 rejected）；当前10,581条relation_candidate仍有1条历史裁决台账映射差异，核平前不报完成率。relations.csv共2,128条（2,095 formal、33 pending）。另有337条关系statement至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。candidate-backlog.csv有45条（13 completed、32 undecided，严格审计pending=0）。严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性五类阻断均为0。S2尚未接收，S4–S6尚未全书收口；S7未启动，知识发现与页面等待用户明确启动。
 
-**后续工作规划（按依赖与阻断价值排序）。**
+**后续工作规划（按当前依赖排序）。**
 
-1. **先核平可疑裁决和版本台账。** 逐项复核26项跨来源decision差异与9项conflict；核对S6历史候选账和当前10,581条`relation_candidate=true`的1条映射差异；对齐S2 statement ID/source-version，尤其Bellori 8个版本变化、p.190页级43条复核、p.191三条来源对照及本批更新的p.192 statement版本。核平前不扩增9,617复核分子。
-2. **按对象类型跨章节裁决S3，优先处理关系端点。** 当前5,151项undecided按候选类型为：work 1,575、person 1,060、archive 675、term 660、place 304、event 113、institution 118、family 18、procedure 2；另有626项`suggested_type`为空，须先根据语境判型或说明不适用，不能视作新类型。沿直接端点队列按work、archive、term、place、event、institution、person推进；family和procedure小批收尾。每个候选落到same复用、new身份组、conflict边界、excluded依据，或有重开条件的具体待证去向。
-3. **每批将S3决定接到S4–S6。** 当前2,892个new候选尚待登记，其中1,182个是未映射直接关系端点；same复用既有KU，新对象逐组登记。只补必要且有据的S5字段；每条关联S6候选明确formal、具条件pending或rejected去向。337条缺少S2候选端点的关系statement逐项回原文，按subject缺45、object缺220、两端缺72核验后再补候选、拆分statement或保持待证。
-4. **继续S2逐章来源审读。** 与S3身份批次并行推进，但按当前statement ID和来源版本留痕；先解决版本对照与页级审读如何进入统一台账的问题，再沿章次审读。局部检查不自动并入统一分子或替代独立接收。
-5. **定向清理S5/S6。** 只围绕正式关系端点和关键身份字段处理1,634条unverified，不全表重跑；保持每批受影响卡片定向渲染与写后复预览。
-6. **满足收口条件后准备S7。** S2完成语义接收，S3每个候选都有可追溯决定或具条件待证去向，S4可登记对象已映射，关键S5字段有证据或明确缺口，S6逐项有去向且pending具重开条件，且结构阻断清零后再准备发布输入。知识发现和页面制作仍等待用户明确启动。
+1. **优先完成S4直接关系端点并同批裁决S6。** 剩余1,181个已判 `new` 的直接端点，按关系解锁价值、端点类型和来源页编批；每批检查身份与来源锚点，完成KU映射、必要S5字段及关联S6结果。S3仅由具体登记或新证据触发定点复核，不回扫全量未决候选。
+2. **回源处理337条缺S2候选端点的关系statement。** 按subject缺45、object缺220、两端缺72逐项核对；只有原文能支持的对象才进入S1→S3→S4并返回S6，无法识别的端点保留具体待证原因和重开条件。
+3. **继续S2分章独立审读与修订。** 对齐当前statement ID、来源版本和已有页级记录；继续核对p.189、p.190、p.191、p.216、p.353等尚待核平的当前版本。统一复核数在版本台账核清前保持9,617，不将局部检查或改写自动计入。
+4. **定向处理S5/S6剩余项。** 围绕正式关系端点与关键身份字段审理1,634条unverified；核平S6历史台账与当前relation_candidate的1条映射差异后再报告裁决余数。
+5. **满足收口条件后准备S7。** S2完成独立接收，S3已有决定或具条件待证去向，可登记new完成映射，关键S5字段有据或明示缺口，S6逐项有去向且pending可重开，并清除结构阻断后再准备发布输入。知识发现和页面仍等待用户明确启动。
 
 **本批完成：第13章 p.343 Zanetti 明暗木刻组与品味术语的跨章S3裁决及S4–S6登记。** `cand-10102`沿用既有`new`组；`cand-12173`与`cand-2853`由`undecided`改判为两个来源限定`new`组，分别登记鉴赏家类别term和木刻组work KU。Liechtenstein亲王、未具名友人和制作版片三个端点各有明确待证理由，不强建KU。新增11条source-backed S5字段；9项关系候选裁决为1 formal（`rel-2101 creator_of`）和8项process-only pending。四张受影响卡写后复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0；S2 statement、mention与独立复核分子不变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp13-p343-zanetti-print-and-taste-20261025)。
 
@@ -88,15 +87,6 @@
 **本批完成：第2章印刷页37 圣比比亚娜端点组。** 沿用 `cand-4441` place 与 `cand-4442` work 的既有S3 `new`身份组，完成2项S4映射、2张新卡和5条书内 `source_backed` S5字段；将雕像创作与教堂预定安置拆为独立S2关系statement，并为重建工程补一条地点statement。10项相关S6均有去向：6 formal（`rel-1997`–`rel-2002`）、3 pending、1 rejected。五张受影响卡定向渲染并写后复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性五类阻断均为0。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp2-p37-s-bibiana-endpoints-20261025)。
 
 **前批完成（Giustiniani跨章术语）：** 沿用 `cand-4337` 的既有 S3 `new` 身份组，登记一个来源局部术语 KU 并新增6条书内 `source_backed` 字段；四条直接关系候选均 pending，理由分别为两条文献端点身份未定、两条 person→term 观点缺少准确受控谓词。详见[知识过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp2-chp4-giustiniani-eclecticism-20261025)。
-
-**后续工作规划（按当前任务优先级）：**
-
-1. **以S4/S6直接关系端点批次为主，定点触发S3复核。** 逐批检查当前端点及其跨章身份、粒度和来源锚点；不脱离登记与新证据对全量S3未决项做扫表。决策不足时保留undecided及解除条件，不强判。
-2. **同批完成S4、关键S5与关联S6。** 当前尚有1,213条已判new但未映射的关系直接端点，按类型为term 456、archive 254、work 193、place 162、event 82、institution 65、person 1。同步补有来源支持的关键S5字段，并将每条关联S6候选裁为formal、具解除条件的pending或rejected。
-3. **回源处理337条缺S2候选端点的关系statement。** 按subject缺45、object缺220、两端缺72分批；可识别对象进入S1→S3→S4，再返回S6，不能识别时保留明确待证去向。
-4. **继续S2分章独立审读。** 复核p.189、p.191、p.216、p.353共12条当前版本statement，并将p.190的43条页内复核与统一台账核平；之后沿书序继续p.192。局部审读不计为全书接收，除非当前版本与来源记录核对并入台账。
-5. **定向清理S5及S6台账差异。** 先审与关系端点和证据边界有关的1,634条unverified字段；按statement ID核平S6台账与当前relation_candidate=true的1项分母差异后再报告余数。
-6. **保持S7门槛。** S2完成独立接收，S3候选有可追溯决定或具条件待证去向，可登记的new完成映射，关键S5字段有证据或明确缺口，S6逐条裁决且pending有解除条件后，再准备S7。知识发现和页面仍等待用户明确启动。
 
 **提速方式：** 以共同来源页、身份组和关系端点价值编批；只预览、渲染本批受影响卡片，并运行必要表审计。CI矩阵的执行时长与语义审读是不同成本，不通过删减Python版本门禁制造项目进度。
 

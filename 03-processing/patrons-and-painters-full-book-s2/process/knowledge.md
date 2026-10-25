@@ -14940,3 +14940,20 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 - `st-chp7-p192-i24` pending：保留“提香作品影响下放弃大部分残余”的作者限定；现有受控谓词不能精确表达风格变化，且该statement未将提香收藏作为确定的关系端点。待精确谓词与端点依据齐备后重审。
 
 **核验。** `build_field_facts.py` 写后复预览为 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。`build_cards.py --check` 全库预检通过（2,988张卡、3,925张表、13,704行），同时报告563个既有投影文件若全量重渲染会发生变化；本批只定向写入6张受影响卡，6/6写后预览无差异。严格表审计：KU=2,988、candidate=12,427、alignment=12,774、未链接0、S4 new待登记2,892、S5=13,704（1,634 unverified）、relations.csv=2,126（2,093 formal、33 pending）、candidate-backlog=45（13 completed、32 undecided、pending=0）、S2 statements=15,366、mentions=26,841，`errors=[]`、`s2_missing=[]`。关系一致性审计broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。批后S3为same=2,065、new=5,098、conflict=9、excluded=104、undecided=5,151；未映射new直接关系端点1,182。S6逐项裁决累计1,504（858 formal、527 pending、119 rejected），relation_candidate仍有1条历史映射差异，故不报完成率。S2统一独立复核仍为9,617/15,366（62.59%，未接收），本批修订的当前statement版本不增加复核分子。`git diff --check`通过。
+
+<a id="s4-s5-s6-chp3-xavier-picture-20261026"></a>
+
+### S4–S6：第3章 p.84 Van Dyck 圣方济各·沙勿略像端点（2026-10-26）
+
+**S2输入与边界。** 复用当前表中的 `st-chp3-seciv-l75-81-xavier-picture-painted-by-van-dyck`、`st-chp3-seciv-l75-81-xavier-picture-placed-in-chapel`，以及圣方济各·沙勿略人物卡对Haskell第3章印刷页84、L79的既有来源记录。原句称“a picture of the saint”，由Van Dyck绘制，并在1623年册封语境下安置于耶稣堂右横翼礼拜堂。此批不改statement、mention或S0原文；不重复计入S2独立复核分子。
+
+**S3／S4身份与登记。** `cand-5298`的既有S3决定为 `new`，身份组 `workgrp-63db1c760ef1b3`；检查当前work KU后未发现同一作品卡。保留该组，不重开S3，映射到 `units/works/van-dyck-picture-st-francis-xavier-gesu`，并加入accepted.yml与ku-manifest.csv。新卡题名为描述性暂题；不将它与耶稣堂建筑、礼拜堂、圣人本人或其他Van Dyck画作合并。原书没有正式题名、具体版本或现存位置。
+
+**S5字段。** 卡内登记题名性质、作品类型与题材、Haskell所述作者归属、书内安置语境4项；`build_field_facts.py --apply`生成 `enr-17619`–`enr-17622`，均为 `source_backed`，无unverified、重复或警告。原文虽称其为圣人像，但受控关系词表没有 `depicts` 谓词；题材保存在作品字段中，不追加无谓词关系边。
+
+**S6逐项裁决。** 两项关联候选均有原书直接证据和现有KU端点：
+
+- `st-chp3-seciv-l75-81-xavier-picture-painted-by-van-dyck` formal：`rel-2127 created_by`，work→Van Dyck。只记录Haskell的作者归属陈述，不表示本轮独立核验。
+- `st-chp3-seciv-l75-81-xavier-picture-placed-in-chapel` formal：`rel-2128 installed_at`，work→耶稣堂右横翼圣方济各·沙勿略礼拜堂；时间限定为1623年册封语境，具体安置日期不详。该边表示书中历史安置，不表示现存或现藏地点。
+
+**投影与核验。** 定向渲染作品、Van Dyck人物、礼拜堂地点三卡；人物卡同时补显两条已存在于relations.csv的逆向投影（`rel-1374`、`rel-1376`），未改动这两条正式边。三卡写后复预览均无差异。字段复预览为 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。严格表审计：KU=2,989、candidate=12,427、alignment=12,774、S4 new待登记2,891、S5=13,708（1,634 unverified）、relations.csv=2,128（2,095 formal、33 pending）、candidate-backlog=45（13 completed、32 undecided、pending=0）、S2 statements=15,366、mentions=26,841，`errors=[]`、`s2_missing=[]`。关系一致性审计broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。S3决定计数不变；未映射new直接关系端点1,181（term 447、archive 234、work 191、place 162、event 81、institution 65、person 1）。S6累计1,506项结果（860 formal、527 pending、119 rejected）；历史relation_candidate映射差异仍为1，暂不报完成率。S2统一独立复核仍为9,617/15,366（62.59%，未接收）。

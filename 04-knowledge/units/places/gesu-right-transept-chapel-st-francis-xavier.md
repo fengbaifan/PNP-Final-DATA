@@ -77,4 +77,10 @@ English: Candidate cand-5237’s Gaulli-commission passage and cand-5300’s ded
 
 ## 关系与证据
 
-当前没有登记正式关系。S2 中有据的相关关系候选仍待 S6 按端点、方向、语境和证据逐条审查。
+Haskell 第3章 p.84 所述的圣像安置记作历史关系；不表示当前现存或现藏位置。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 安置地点（`installation_site_of`，反向投影） | [范戴克绘圣方济各·沙勿略像（Van Dyck’s Picture of St Francis Xavier in the Gesù）](../works/van-dyck-picture-st-francis-xavier-gesu.md) | The edge records Haskell's report and does not assert a present-day location or a specific surviving version.；时间：1623 canonisation context; exact installation date unspecified；范围：Haskell says the picture was placed in the chapel when it was dedicated to St Francis Xavier upon his canonisation in 1623; this is a historical, source-reported location.；原断言与证据见发出端卡片“范戴克绘圣方济各·沙勿略像（Van Dyck’s Picture of St Francis Xavier in the Gesù）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 84, L79; statement=st-chp3-seciv-l75-81-xavier-picture-placed-in-chapel |
