@@ -1,6 +1,7 @@
 import csv
 import io
 import json
+import re
 
 from scripts.export_dataset import build_package, source_citation_link_rows, validate_package
 
@@ -130,7 +131,10 @@ def test_draft_export_includes_portable_s2_evidence_and_current_coverage_state()
     assert '"source_asset":"01_CHP-1.md"' in statements[0]
     assert "source_file" not in statements[0]
     assert "04-knowledge" not in files["segments.csv"]
-    assert "zero files to write across all 1,019 cards" in files["validation-report.md"]
+    assert re.search(
+        r"zero files to write across all [\d,]+ cards",
+        files["validation-report.md"],
+    )
     assert "differs from the CSV-backed preview" not in files["validation-report.md"]
     assert "--full" in files["example_query.py"]
     assert '"fields_omitted"' in files["example_query.py"]

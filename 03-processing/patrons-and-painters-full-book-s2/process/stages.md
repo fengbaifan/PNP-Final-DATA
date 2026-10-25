@@ -13649,3 +13649,8 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 ### 2026-10-24 第7章 p.191 注5、注9迁入与正文引注修复
 
 对照本页图像、来源行L279–280及第21章书目L883–926，补入 Pascoli 卷I、卷II及 Pacichelli 的三条注释引证 statement，并登记卷级 mention。同步修复 p.191 i12、i23、i30 的脚注引用和转述范围，清除12条引用 statement 中的编辑性总结后缀；修正 i01、i03 的准确措辞/引用链接。注5原合卷候选 cand-6972 在 S3 排除为单一身份，两个已登记卷级 archive KU 分别复用；注9复用 Pacichelli archive KU。三条直接 S6 引证分别复用 rel-1862、新增 rel-1914、复用 rel-1738。新增3条 statement、2条 mention，统一独立复核分子不变。被引页未独立核读。残余 st-chp7-p191-i07 关系端点及 cand-6955 类型问题继续待处理；本页和第7章均未接收。过程详见 [knowledge.md](knowledge.md#s2-s3-s4-s6-ch7-p191-notes5-9-migration-20261024)。
+
+<a id="s2-mention-crlf-offset-normalization-20261025"></a>
+### 2026-10-25：跨行mention的CRLF/LF字符偏移校正
+
+严格表审计定位622条mention的surface_form与段落字符区间不一致。逐条回到segments.jsonl对应的S0源段后，确认622条surface_form均在跨行处存储为CRLF，而审计按物理来源行拼接为LF；每条存储的start_char均指向同一规范化文本，换行统一为LF后与S0段落精确匹配。仅将这622条surface_form的CRLF改为LF，并把end_char设为start_char加规范化字符串长度；start_char、候选身份、mention语义和S0来源资产不变。校正后mention总数仍为26,789，无区间交叉；严格表审计errors=[]、s2_missing=[]。这是机械格式修复，不计入S2独立语义复核分子，也不构成语义接收。

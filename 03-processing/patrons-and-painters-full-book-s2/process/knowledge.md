@@ -1,5 +1,17 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp17-correr-archival-endpoints-20261025"></a>
+### 第17章 p.381、p.383 科雷尔档案端点组（2026-10-25）
+
+**S4身份映射。** 将四个既有S3 new档案候选分别登记为来源限定KU，不合并为同一件档案：cand-10697 → units/archives/correr-paper-on-sacrifices-of-the-ancients-1768；cand-10698 → units/archives/correr-letter-to-doge-treviso-1787；cand-10699 → units/archives/correr-archivio-1468-10；cand-10730 → units/archives/correr-civic-guard-exemption-correspondence。修正cand-10697名称和mention说明：第381页原文是paper on “The Sacrifices of the Ancients”，不是经核实的正式题名，也不证明Correr为作者。
+
+**S5来源字段。** 为四张卡登记12条Haskell书内source_backed字段（3、4、2、3条）。保留朗读年份与创作年代的区别；1787年信的收件人只记来源称谓Doge，不确定其个人身份；档案组仅记录第381页注4的6 a-d、注5的第5项和第383页注2的第9a项，不推断目录层级或现存保管状态。
+
+**S6逐项裁决。** 六条关系候选均有决定：4 formal、2 pending。新增rel-2003 authored_by（1787年信→Teodoro Correr）、rel-2004 part_of（1787年信→1468/10来源定位，第5项）、rel-2005 authored_by（免卫队通信→Teodoro Correr）、rel-2006 part_of（免卫队通信→1468/10来源定位，第9a项）。rel-2007 part_of（1768年paper→1468/10来源定位）为pending：注4列出6 a-d但未指明哪件是该paper。st-chp17-p381-correr-paper-read-1768也为pending，但不写入关系表，因为当前受控谓词没有准确的“阅读者—文献”类型；保留书内断言，不推为作者边。未具名Doge和new democratic rulers均不建立人物关系；不把书内档案定位写成当前保管机构关系。
+
+**证据与边界。** 对照CHP-17.pdf实体页：物理页3／印刷页381确认注4的6 a-d、注5的第5项；物理页5／印刷页383确认注2的第9a项，且正文为Libertà。S0来源转录及六条statement的original_quote均不改；相关OCR纠正已记在S2。未查原件或Archivio Correr目录，故以上外部档案身份及当前存放情况均未验证。此定点语义工作不计入S2统一独立复核分子。
+
+
 <a id="s4-s5-s6-chp2-p37-s-bibiana-endpoints-20261025"></a>
 ### 第2章印刷页37 圣比比亚娜地点、工程与雕像端点批次（2026-10-25）
 
