@@ -14410,3 +14410,17 @@ S5字段构建器定向预检并写入10条`source_backed`字段（enr-17266–e
 两张目标卡定向预览、渲染并复预览，`build_cards.py` 写后字节核验通过，2/2复预览无差异。字段表写入按官方预览/应用接口完成。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic=0`。本批未更改S2 statements/mentions，统一独立复核仍为9,617/15,356（62.63%，未接收）。
 
 本批后S3主决定12,426项：same=2,059、new=5,095、conflict=9、excluded=104、undecided=5,159；S4已映射2,145/5,095，待登记2,950，其中1,236个未映射 `new` 候选仍触及直接关系端点；KU=2,928。S5=13,451（1,634 `unverified`）；`relations.csv`=2,053（2,020 formal、33 pending）。S6累计按前快照1,385项加本批4项，现为1,389项（785 formal、488 pending、116 rejected）。历史S6分母10,578与当前 `relation_candidate=true` 数10,572仍差6，暂不报告全书完成率或余数；S2尚未接收，S3–S6未全书收口。
+
+<a id="s4-s5-s6-chp13-p342-monaco-engraving-no84-20261025"></a>
+
+### S4/S5/S6跟进：第13章 p.342 Pietro Monaco 第84号《圣殿献礼》版画（2026-10-25）
+
+接续[第10、13章 Ricci 两幅题名作品与 Chatsworth 跨章端点批次](#s3-s4-s5-s6-chp10-chatsworth-susanna-20261025)，完成其中已有 S3 `new` 身份组 `workgrp-14b6a3c5a2e312` 的直接端点 `cand-10208`（`aln-10380`）S4登记。候选映射至 `units/works/pietro-monaco-engraving-presentation-in-temple-no-84`，仅记录Haskell第13章 p.342注5所述 No. 84 版画；不把版画与其底稿画作混为一物。底稿候选 `cand-2175` 涉及第10章 Chatsworth 画作与第13章 Zanetti 藏画，身份仍为 `undecided`，继续作为后续取得原始目录或权威对象级记录的待证对象。
+
+**S5字段：** 依 Haskell p.342 n.5 L232 为版画KU新增5条 `source_backed` 字段（`enr-17366`–`enr-17370`），记录版画类型、编号、底稿题名、书内版画师归属及书内所列出版物；未查原版画、出版版本或存本，也未增加 `unverified` 字段。
+
+**S6跟进裁决：** 将此前 `st-chp13-p342-notes-note5-monaco-engraved-presentation-no84` 的process-only pending改为formal，新增 `rel-2054 created_by`（No. 84版画 → Pietro Monaco）。范围仅为Haskell明确记载的版画师归属；未据此连接未定版本的底稿，亦未新增 `model_for`。因此前批4项直接候选现有2项formal（`rel-2053 located_at`、`rel-2054 created_by`）、2项仍pending（Chatsworth归属候选与Zanetti所有权候选，均因 `cand-2175` 版本身份未决）；原决定变化及理由在此追记，不抹去前批状态。
+
+**卡片、台账与验证：** 新版画卡及Pietro Monaco人物卡定向预览后渲染，写后复预览无差异；5字段走定向预览／应用，写后预览无待写变化。严格表审计：KU=2,929，S3候选=12,426，待S4登记 `new`=2,949，`candidate-backlog.csv`=44（严格审计pending=0），`relations.csv`=2,054（2,021 formal），S5=13,456（1,634 `unverified`），S2=15,356 statements／26,840 mentions，`errors=[]`、`s2_missing=[]`。关系一致性五类阻断均为0；孤立KU=1,365、高连接数KU=2，为诊断项。`git diff --check`通过。S2 statement及mention未改，统一独立复核仍为9,617/15,356（62.63%，未接收）；本批不增加S2复核计数，也不代表第13章已接收。
+
+批后S4已映射2,146/5,095条 `new`，待登记2,949条。未映射直接关系端点为1,235个候选／1,235组、1,241条组成员映射，类型按组／候选计为term 457、archive 265、work 200、place 165、event 82、institution 65、person 1。S6累计记录1,390项（786 formal、487 pending、116 rejected）；历史分母10,578与当前 `relation_candidate=true` 的10,572项仍相差6，不报告全书完成率或余数。
