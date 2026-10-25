@@ -64,4 +64,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-当前没有登记正式关系。涉及该人物的 19 条 S2 关系候选留待 S6 逐条审查；正文共现、艺术比较或索引定位不自动成为正式关系。[第5章 p.128](../../../02-sources/02-Markdown/05_CHP-5_sec_i.md)（L85–87） [第8章 p.216](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)（L31） [第10章 p.284](../../../02-sources/02-Markdown/10_CHP-10_intro.md)（L168）
+第8章 p.216 将《无辜者屠杀》称为对 Paolo Veronese 的 rehash；本批仅按该书内风格判断登记一条 influenced_by。其余涉及该人物的 S2 关系候选仍待逐条 S6 裁决；正文共现、索引定位或未经裁决的比较不自动成为正式关系。[第5章 p.128](../../../02-sources/02-Markdown/05_CHP-5_sec_i.md)（L85–87） [第8章 p.216](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)（L31） [第10章 p.284](../../../02-sources/02-Markdown/10_CHP-10_intro.md)（L168）
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← influenced（`influenced`，反向投影） | [马西莫神父《无辜者屠杀》（圣母玛利亚大殿南耳堂）（Padre Massimo's Massacre of the Innocents for Santa Maria Maggiore）](../works/padre-massimo-massacre-of-the-innocents-santa-maria-maggiore.md) | 将范围限定为Haskell对风格的表述，不推断外部作品身份；角色：Haskell的风格判断；范围：Haskell称作品是对Paolo Veronese的有力而有效的重述；仅记录书内风格判断，不据此断言Veronese创作、确定直接影响史或外部归属。；原断言与证据见发出端卡片“马西莫神父《无辜者屠杀》（圣母玛利亚大殿南耳堂）（Padre Massimo's Massacre of the Innocents for Santa Maria Maggiore）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 216, L31; statement=st-chp8-p216-massacre-rehash-of-paolo-veronese |

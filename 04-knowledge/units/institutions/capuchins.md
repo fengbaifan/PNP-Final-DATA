@@ -124,3 +124,4 @@ Religionis zelus、早期会宪、Michele da Bergamo的建筑Memoria及会史是
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 委托者（`commissioner_of`，反向投影） | [《牧羊人朝拜》（Adoration of the Shepherds）](../works/caravaggio-adoration-shepherds.md) | 来源明确该端点承担Adoration of the Shepherds的委托角色；不由委托推定当前所有权；时间：1609；角色：委托人／委托机构；范围：为墨西拿天使圣母教堂的嘉布遣会而作；现藏博物馆。；原断言与证据见发出端卡片“《牧羊人朝拜》（Adoration of the Shepherds）”：[来源](https://en.wikipedia.org/wiki/Adoration_of_the_Shepherds_(Caravaggio))；src-4f239ae64ea97bbc；本卡S2；有S4时并参委托／历史段 |
+| ← 包含成员（`contains`，反向投影） | [马西莫神父（Padre Massimo）](../persons/padre-massimo.md) | 来源内人物身份；未推断外部生平；角色：Haskell称其为Capuchin修士；范围：Haskell以Capuchin称Padre Massimo；原文未指出具体修院或职务。；原断言与证据见发出端卡片“马西莫神父（Padre Massimo）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 216, L30; statement=st-chp8-p216-massimo-capuchin-member |

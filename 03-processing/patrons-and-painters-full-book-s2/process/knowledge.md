@@ -14525,3 +14525,31 @@ cand-6958/aln-7134 由 undecided 改为来源局部 new 组 workgrp-bernini-self
 | st-chp7-p191-i07-has-subject | formal | rel-2062 has_subject | work → Gian Lorenzo Bernini；由 Haskell 的 self-portrait 描述识别对象。 |
 
 三条 S6 行均以 Haskell p.191 L271–272 和对应 statement 为具体证据。新卡及 Del Carpio、Gian Lorenzo Bernini 两张受影响人物卡通过同一关系表投影更新；Domenico 卡不新增正式关系边。原书没有交易日期、作品正式题名或可核的馆藏版本，本批均不补造。cand-6955 所指三十卷素描收藏仍类型未决，不在本批变更范围内。
+
+### S3/S4/S5/S6：第8章 p.216 Padre Massimo《无辜者屠杀》及南耳堂端点（2026-10-25）
+
+本批因关系端点登记触发对 cand-1576 的定点 S3 复核。索引 M.csv#115 将 “Massimo, Padre” 定位到 p.216；正文同一段两次称 “Padre Massimo”，并将其写为 Capuchin pupil of Brusasorci 及受托画家。当前全书没有可精确复用的同一人物 KU；与 Massimo Stanzione（cand-2506）不同。S3 从 undecided 改为 new，仅表示按本书索引和上下文建立 source-local person；不补全历史全名或外部身份。
+
+| 候选 | S3决定 | S4去向 | 范围 |
+|---|---|---|---|
+| cand-1576 | new（本批重开） | units/persons/padre-massimo | 索引名及书内身份；全名待证 |
+| cand-7653 | new（沿用） | units/works/padre-massimo-massacre-of-the-innocents-santa-maria-maggiore | 单一委托作品；区别于泛题材和其他同题作品 |
+| cand-7643 | new（沿用） | units/places/santa-maria-maggiore-southern-transept | 教堂内部南耳堂；右墙为计划位置，不证明安装 |
+
+S5登记六项来源支持字段：人物的索引名及正文形式；作品的项目题名、题名性质和类型；地点性质。描述性作品名不充作原作正式题名。关系端点以当前既有KU复用：decoration committee、Capuchins、Felice Brusasorci、Paolo Veronese。未新增 mention，复用 p.216 已核定 mention。
+
+| S2 statement | S6裁决 | 正式关系 |
+|---|---|---|
+| st-chp8-p216-padre-massimo-massacre-commission | formal | Padre Massimo creator_of specific work；按“commissioned ... from Padre Massimo”记录来源所称创作者 |
+| st-chp8-p216-massacre-commissioned-by-committee | formal | work commissioned_by Santa Maria Maggiore decoration committee |
+| st-chp8-p216-massacre-intended-for-southern-transept | formal | work intended_for southern transept；不是 installed_at |
+| st-chp8-p216-massimo-capuchin-member | formal | Padre Massimo member_of Capuchins |
+| st-chp8-p216-massimo-pupil-of-brusasorci | formal | Padre Massimo trained_by Brusasorci；无训练时间地点断言 |
+| st-chp8-p216-massacre-rehash-of-paolo-veronese | formal | work influenced_by Paolo Veronese；范围限 Haskell 的风格判断，不作作者归属 |
+| st-chp8-p216-massimo-prior-altar-paintings-veneto | pending | 作品未具名，不造画作组端点，也不把地点共现转成正式边 |
+| st-chp8-p216-governors-pleased-with-massacre | pending | “they”施事沿用既有独立审读的 open endpoint，不指定为 committee、council 或全城 |
+| st-chp8-p216-governors-request-massimo-leave | pending | 同一 open endpoint；请求未成，且当前无精确受控谓词，不能记录为已获准或已迁居 |
+
+现有独立审读已要求后两项保留施事未决，本批没有改写。原 S2 commission statement 的关系谓词已原子化为 person-to-work creator_of，新加两条 S2 statement 分别承载委托者和计划位置；修改后的原 statement 与两条新增 statement 均待纳入后续独立 S2 复核，不增加已审读分子。其他未改动的当前审核状态沿用原记录。
+
+定向验证完成：scripts/audit_tables.py --strict-stage --summary返回errors=[]、s2_missing=[]；audit_relation_consistency.py的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。build_cards.py定向渲染7/7张卡并逐卡复预览，7/7无差异；git diff --check无空白错误。上述机械检查不构成S2独立语义复核；本批修订/新增的三条statement仍待独立复核。

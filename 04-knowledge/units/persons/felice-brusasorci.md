@@ -55,6 +55,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 教师（`teacher_of`，反向投影） | [马西莫神父（Padre Massimo）](padre-massimo.md) | 保留书内师生关系，不补训练时间或地点；角色：Haskell所称Brusasorci的学生；范围：Haskell称Padre Massimo是Brusasorci的学生；未给训练日期或地点。；原断言与证据见发出端卡片“马西莫神父（Padre Massimo）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 216, L30–31; statement=st-chp8-p216-massimo-pupil-of-brusasorci |
 
-当前没有登记在 relations.csv 中的正式关系。直接S2候选 `st-chp8-p216-massimo-pupil-of-brusasorci`, `st-chp8-p216-brusasorci-described-as-veronese` 留待S6审查；本次S4登记不裁决或创建正式关系。
+现已登记一条 source-backed teacher_of 反向关系：Haskell称Padre Massimo为Brusasorci的学生；其他正文导航与共现不自动形成关系边。
+
+直接S2候选 `st-chp8-p216-massimo-pupil-of-brusasorci` 已按Haskell的师生表述登记为 formal；`st-chp8-p216-brusasorci-described-as-veronese` 仍待S6审查，不从地域形容词推断出生地或居住地。
