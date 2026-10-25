@@ -2,6 +2,18 @@
 
 ### 本轮进度与后续工作（2026-10-25）
 
+**最新批次完成：第4章跨章档案身份组 S4–S5–S6。** 沿用16个既有S3 `new` archive组，17条alignment映射全部登记；完成16张双语档案卡、97条source-backed字段和15条formal关系（14条`cites`、1条摄影副本`located_at`），另有5条关系候选分别以原因和重开条件保留process-only pending。定向渲染19张卡、写入17个文件；严格表审计与关系一致性审计通过。p.102、p.115共4条S2当前statement版本有修改，待独立复核，不增加复核分子。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp4-crosschapter-archives-20261025)。
+
+**全书当前进度与边界。** S0已完成832个源段处置（678 complete、154 excluded）。S2有15,363条statement、26,841条mention；统一独立逐条复核9,617/15,363（62.60%，未接收）。S3主决定覆盖12,427/12,427候选：same 2,064、new 5,101、conflict 9、excluded 104、undecided 5,149；另有26项跨来源decision不一致须逐来源核对。S4已登记2,193/5,101条new候选，待登记2,908条，其中1,197条触及直接关系端点。S5有13,665条字段，1,634条unverified。S6已有1,476/10,578条relation_candidate裁决（846 formal、512 pending、118 rejected），历史统计与当前候选分母仍差1；`relations.csv`为2,116条（2,083 formal、33 pending）。candidate-backlog为45条（13 completed、32 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。S7未启动，知识发现与页面仍暂停。以上表示登记与机械审计状态，不等于S2语义接收或S3–S6全书收口。
+
+**后续工作规划。**
+
+1. **先回查本批S2变更。** 对p.102两条与p.115两条当前statement版本做扫描定点独立复核；只把实际复核的版本纳入统一分子，然后继续按章推进尚未独立审阅的范围。
+2. **推进S3身份收口。** 先核平26项跨来源decision差异及9项conflict；随后按archive、person、work等类型处理5,149项undecided，优先多章复现、且会阻断直接关系端点的身份组。每候选保留可追溯的same复用、new登记、conflict、excluded或带证据条件的undecided去向。
+3. **将S4–S6合并为端点批次。** 每次先完成必要的S3身份判断，再优先登记1,197个直接关系端点中的高关系价值组；同批定向补S5关键字段，并逐条将关联S6候选写为formal、pending或rejected。pending保留原因与重开条件，不为追求数量改用泛关系或模糊身份。
+4. **定向清理S5与S6余项。** 对1,634条unverified字段，优先处理已进入正式关系或关键端点卡的事实；先核平S6分母差1，再按批次继续处理剩余候选，持续追踪S2候选与正式关系表的对应关系。
+5. **最后准备S7。** 在S4/S5/S6达到逐对象收口且阻断审计通过后，整理发布输入与可复现交付；知识发现和页面制作须等用户明确启动。
+
 **本批完成：第13章 p.343 Zanetti 明暗木刻组与品味术语的跨章S3裁决及S4–S6登记。** `cand-10102`沿用既有`new`组；`cand-12173`与`cand-2853`由`undecided`改判为两个来源限定`new`组，分别登记鉴赏家类别term和木刻组work KU。Liechtenstein亲王、未具名友人和制作版片三个端点各有明确待证理由，不强建KU。新增11条source-backed S5字段；9项关系候选裁决为1 formal（`rel-2101 creator_of`）和8项process-only pending。四张受影响卡写后复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0；S2 statement、mention与独立复核分子不变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp13-p343-zanetti-print-and-taste-20261025)。
 
 **本批完成：第4章 p.115 Poussin 第二幅摩西题材作品端点登记及S6裁决。** `cand-5946`沿用`new`组登记为独立work KU；索引候选`cand-2017`因与p.115同页题名相符，定点由`undecided`改判`same`并映射。复用普桑、马西米人物KU；新增2条source-backed S5字段，2项关系候选逐项formal为`rel-2099 created_by`、`rel-2100 commissioned_by`，后者保留Haskell“must have been”的推断限定且不指定委托年份。三张受影响卡渲染后复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0。未改S2 statement／mention或独立复核分子。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp4-p115-moses-changing-aarons-rod-20261025)。

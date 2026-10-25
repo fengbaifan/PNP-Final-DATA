@@ -108,6 +108,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | 角色：第4章脚注中的书目或档案引注；范围：书内引注定位：Orbaan, 1920, pp. 515-22。仅记录Haskell的引用；被引材料未独立查阅，不据此确认其内容。；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；Chapter 4, printed p.115 footnote, Markdown L293–293; statement=st-chp4-sec-ii-p115-fn2-inventory-cites-orbaan |
+
 
 以下6条S2关系候选将本出版物列作引文对象或刊录来源，仍待S6逐条审查：`st-chp2-seci-l124-157-cite-orbaan`、`st-chp2-seci-l124-157-cite-orbaan-p237`、`st-chp2-secii-l147-193-gregory-quotation-chain`、`st-chp2-seciv-l139-152-orbaan-partly-publishes-1631-inventory`、`st-chp4-sec-ii-p115-fn2-inventory`、`st-chp4-sec-ii-p115-fn2-inventory-cites-orbaan`。本批不把书内引文直接转换为正式关系，也不将Haskell的书目记载视为所引原书页的独立核验。

@@ -14832,3 +14832,27 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 以上 pending 项不写入 `relations.csv`；待端点身份／类型补足，或出现准确、受控且方向兼容的关系表达后再评估。未添加 `associated_*` 泛边。
 
 **渲染与核验。** 对木刻组、两个 term 及 Zanetti 人物卡定向渲染；四卡写后 preview 均无差异，渲染事务完成字节核验。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run` 五类阻断均为0。S2 statement／mention和统一独立复核分子不变。本批后：S2 15,363／26,841，独立复核 9,617（62.60%，未接收）；S3 same=2,064、new=5,101、conflict=9、excluded=104、undecided=5,149；S4映射2,177/5,101，待登记2,924，KU=2,960；未映射new直接关系端点1,213（term456、archive254、work193、place162、event82、institution65、person1）；S5 13,568（1,634 unverified）；S6累计1,456（831 formal、507 pending、118 rejected），当前10,578条 `relation_candidate=true` 与历史裁决分母仍相差1；`relations.csv` 2,101（2,068 formal、33 pending）；backlog 45（13 completed、32 undecided、严格审计pending=0）。
+
+<a id="s3-s4-s5-s6-chp4-crosschapter-archives-20261025"></a>
+
+### S3既有档案组的跨章登记与第4章引注关系裁决（2026-10-25）
+
+**批次范围与身份边界。** 沿用16个既有S3 `new` archive身份组，覆盖`cand-4635`、`cand-4828`、`cand-4842`、`cand-5609`、`cand-5711`、`cand-5792`、`cand-5805`、`cand-5837`、`cand-5839`、`cand-5873`、`cand-5875`、`cand-5905`、`cand-5917`、`cand-5958`、`cand-5959`、`cand-5960`；`cand-4635`有本地书目及CiNii两条alignment，共17条映射，均指向同一KU。16张archive卡写入accepted与manifest。复用Warburg Institute既有机构KU；原始清单与其摄影副本分为两个archive对象。`cand-4380` Biblioteca Vaticana、`cand-5646` Barberini household及`cand-5713` A. Matteoli均维持各自未决S3边界；本批不强行建KU，也不重开上述已裁定身份组。
+
+**S2当前版本修订。** 根据既有第4章扫描复核，将p.102印刷注号补为4并记录OCR `1→4`；将p.115清单statement扩至L188、链接注2的L293、补入Capponi Lat. 260扫描校正及Warburg摄影副本候选；另把Litta、Moroni与Giustiniani的合并卷页限定为无法唯一配给单一出版物。相应4条statement现版本未作独立复核；S2 statement与mention数量不变，统一独立复核分子不增加。原始OCR quote保持不覆盖。
+
+**S4与S5。** 16张新archive卡各有中英文题名／描述、可追溯来源及来源范围限定；不声称已查阅被引书、文章、档案原件或被引页。定向`build_field_facts.py --apply`新增97条source-backed字段：16卡均含表格，0条unverified、0重复、0警告，来源登记未变；复跑预览为`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。
+
+**S6逐候选决定。** 本批20条直接关联候选各有去向：15条formal（14条`cites`，另1条摄影副本`located_at`），写入`rel-2102`–`rel-2116`；全部`cites`边仅记录Haskell书内引注，未据此核实被引内容。5条保留process-only pending：
+
+- `st-chp4-sec-ii-p115-fn2-sources`：Litta、Moroni与Giustiniani同列并共用“III, p.319”定位，不能唯一匹配到《Famiglie celebri italiane》；待完整被引书目或原文消歧后再判断是否为`cites`。
+- `st-chp4-sec-ii-p102-footnote4-matteoli-edited-carteggio`：仅“A. Matteoli”，人物身份未达可复用边界；待有可靠全名/同一身份依据后重审编辑关系。
+- `st-chp4-sec-ii-p115-fn2-inventory`：来源仅报告清单“published in part”，当前受控谓词不能准确表达部分刊布；待关系词表支持该语义，不能替换成`part_of`。
+- `st-chp4-sec-ii-p115-inventory-original-vatican-library`：原件Capponi Lat. 260的机构候选仍未决，且archive→institution没有与本次断言精确匹配的`held_by`用法；待机构身份及适用关系表达解决。不得与Warburg摄影副本合并。
+- `st-chp4-sec-ii-notes-p112-fn6-payment-records`：记录只称Cassiano列于未识别Cardinal Barberini的`famiglia`，未指明职位；household实体与其类型仍待证，不改写为任职关系。
+
+另外，Rinehart／Mahon引注旁的作品关系断言属于不同端点的S6候选，不并入本次档案引用边；后续按其自身statement与端点另行裁决，不以本批`cites`代替。
+
+**卡片渲染与审计。** `build_cards.py --render`定向预检19张卡（25个字段表、152行、288条关系投影），实际写入17个文件，写后字节核验通过；《赞助人与画家》、摄影副本、Warburg机构、Gaudenzi书信、Orbaan及Litta六张代表卡的写后`--preview`均无差异。预检发现本批16条`accepted.yml`路径漏写`04-knowledge/`前缀，修正为仓库根路径后复审通过。
+
+`audit_tables.py --strict-stage --summary`退出码0：KU=2,976、candidate=12,427、alignment=12,774、S4 new待登记2,908、S5=13,665（1,634 unverified）、relations=2,116（2,083 formal）、backlog=45（13 completed、32 undecided，pending=0）、statements=15,363、mentions=26,841，`errors=[]`、`s2_missing=[]`。S3主决定不变：same=2,064、new=5,101、conflict=9、excluded=104、undecided=5,149；S4已映射2,193/5,101条new，未映射new直接关系端点1,197个（term 456、archive 238、work 193、place 162、event 82、institution 65、person 1）。S6本批20项后累计1,476（846 formal、512 pending、118 rejected），与当前10,578条`relation_candidate=true`分母仍差1；relations.csv另有33条既有pending。`audit_relation_consistency.py --dry-run`五类阻断全为0；`git diff --check`通过。S2当前版本4条变更不计入统一独立复核分子；当前为9,617/15,363（62.60%，未接收）。

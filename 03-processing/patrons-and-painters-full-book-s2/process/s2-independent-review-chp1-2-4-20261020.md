@@ -1876,3 +1876,7 @@ capuchin-introduction-forecast、committee-lists-amended、committee-preferred-o
 - 新增：`st-chp2-seciv-l181-188-bernini-wrote-play-group`、`st-chp2-seciv-l181-188-bernini-often-acted-in-play-group`、`st-chp2-seciv-l181-188-bernini-authored-inondazione`、`st-chp2-seciv-l181-188-bernini-directed-inondazione`、`st-chp2-seciv-l181-188-inondazione-performance-at-provisional-theatre`。
 
 这8条暂不计入统一独立复核分子；S2全库分母因新增5条由15,343增至15,348，现为9,617/15,348（62.66%）。本记录只界定回看范围，不把编辑者自查称为独立复核，也不据此接收S2。
+
+## 2026-10-25：第4章 p.102 与 p.115 当前statement版本变更
+
+依据本文件既有扫描复核（2026-10-20记录中的p.102及p.115项）更新4条当前statement：`st-chp4-sec-ii-p102-footnote4-cigoli-galilei`、`st-chp4-sec-ii-p102-footnote4-matteoli-edited-carteggio`补印刷注号4及OCR `1→4`；`st-chp4-sec-ii-p115-inventory-original-vatican-library`扩展来源行至L188、链接注2并记录`Capponi Lat. 260`扫描校正，区分Warburg摄影副本；`st-chp4-sec-ii-p115-fn2-sources`明确该注把Litta、Moroni、Giustiniani及“III, p.319”合列，卷页暂不能唯一分派到特定作品。改动不覆盖S0原始OCR quote，不新增statement或mention。以上4条当前版本待逐条回看后纳入复核；当前统一独立复核分子不增加，S2不因此接收。
