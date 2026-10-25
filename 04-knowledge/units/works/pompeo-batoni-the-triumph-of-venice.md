@@ -161,6 +161,7 @@ relations:
 | 书中收藏／保管者 | [北卡罗来纳艺术博物馆](../institutions/north-carolina-museum-of-art.md) | S1 |
 | 书中位置 | [罗利](../places/raleigh.md) | S1 |
 | 收藏来源 | Samuel H. Kress Collection | S1 |
+| 哈斯克尔第9章注6所报告的位置 | Kress Foundation at New York | S1；哈斯克尔第9章印刷页259注6；仅记录其书内位置报告。 |
 
 ### 基本信息
 

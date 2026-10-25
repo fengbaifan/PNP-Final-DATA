@@ -49,6 +49,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [彼得罗·维斯孔蒂致吉安·皮耶特罗·利加里信（Letter from Pietro Visconti to Gian Pietro Ligari）](../archives/pietro-visconti-letter-to-gian-pietro-ligari.md) | S6 formal; the Chapter 10 date and participants resolve the cross-chapter letter identity; publication locator is separately recorded by rel-2188.；时间：1749-12-19；角色：发信人；范围：Haskell dates the same Visconti-to-Ligari letter to 19 December 1749; Chapter 9 n.3 matches the sender, recipient and Arslan 1952 p.63 locator. Neither letter nor cited page was independently consulted.；原断言与证据见发出端卡片“彼得罗·维斯孔蒂致吉安·皮耶特罗·利加里信（Letter from Pietro Visconti to Gian Pietro Ligari）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_sec_ii.md)；haskell-1980-rev-ed；Chapter 10, printed p.323 n.6, L323; statement=st-chp10-p320-323-n06-visconti-letter-via-crucis-report |
+
 
 当前没有正式关系。`st-chp9-p259-visconti-1749-wealth-quotation`与`st-chp9-p262-note1-visconti-income-source`两条S2关系候选留待S6逐项审查；本次登记人物身份，不把书内转述转为正式关系或独立验证事实。

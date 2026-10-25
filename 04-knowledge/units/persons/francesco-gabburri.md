@@ -73,4 +73,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [安东尼奥·玛丽亚·扎内蒂致弗朗切斯科·加布里耶利信（1728年1月11日）（Letter from A. M. Zanetti to Francesco Gabburri (11 January 1728)）](../archives/zanetti-letter-to-gabburri-1728-01-11.md) | S6 formal; records only the source-named addressee.；时间：1728-01-11；角色：addressee named in Haskell's note；范围：Haskell identifies Francesco Gabburri as recipient of the 11 January 1728 letter. The letter was not independently consulted.；原断言与证据见发出端卡片“安东尼奥·玛丽亚·扎内蒂致弗朗切斯科·加布里耶利信（1728年1月11日）（Letter from A. M. Zanetti to Francesco Gabburri (11 January 1728)）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.266 n.6, L438; statement=st-chp9-p266-note6-zanetti-letter-citation |
+
 目前没有登记在 relations.csv 中的正式关系。直接 S2 候选 st-chp8-p241-note5-gabburri-correspondence 留待 S6；注释称其与未具名 Venetian artists 书信往来，未在本卡补造对应个人端点。相关 Bottari 文献仅按 Haskell 的引用记录，未独立查阅。逐组记录见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-francesco-gabburri-20261018)。

@@ -15235,3 +15235,88 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 被引书、告示、手稿和图版均未独立查阅；脚注可支持书内引注关系，不等同于核读被引内容。未对 `cand-5478`（Blood of Christ图稿）添加地点关系，也未把两个城市关系指派给特定图稿。pending与rejected只记录在本过程账和statement台账，不写成formal关系行。
 
 **渲染与机械核验（2026-10-26）。** `build_cards.py --render` 对22张受影响卡完成预检（28张字段表、170行、381条关系投影），写入22张卡并通过写后字节校验；同一目标集合复预览 `cards_with_relation_changes=0`、`files_to_write=0`。`build_field_facts.py` 定向预览14张新卡共51行，`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。严格表审计：KU=3,042，alignment=12,774，S4待登记new=2,834，S2 statements=15,370、mentions=26,843，S5=13,913（1,634 unverified），relations.csv=2,187（2,154 formal、33 pending），backlog=46（13 completed、33 undecided、pending=0），`errors=[]`、`s2_missing=[]`。关系一致性五类阻断均为0；另有1,364个孤立KU及2个过度连接对象留作全库诊断。
+
+### S3/S4/S5/S6：第九章跨章端点与关系（2026-10-26）
+
+<a id="s3-s4-s5-s6-ch9-notes-endpoints-20261026"></a>
+
+**批次边界。** 本批核查段 `chp-9:09_CHP-9_intro:l323-445` 中53条 relation-candidate 陈述及相邻页段共用端点；确认20个段内直接端点，连同5条跨段 relation-candidate 陈述，逐项处理25项S6决定。S3仅因本次登记和书目证据触发，不重扫无关候选。
+
+**S3身份与S4去向。** 以下25个候选沿用既有 new 身份组并完成KU登记：
+
+| candidate_id | S4目标KU |
+|---|---|
+| cand-2336 | units/events/sagredo-collection-dispersal-plans |
+| cand-8368 | units/events/first-world-war |
+| cand-8397 | units/events/amphion-builds-thebes-walls |
+| cand-8398 | units/events/hercules-and-chained-cecrops |
+| cand-8399 | units/events/orpheus-claims-eurydice |
+| cand-8382 | units/archives/la-rappresentanza-del-vero-merito-1724 |
+| cand-8383 | units/archives/padua-orazione-antonio-loredan-regiment |
+| cand-8466 | units/archives/pietro-visconti-letter-to-gian-pietro-ligari |
+| cand-8469 | units/archives/pietro-foscarini-will-correr |
+| cand-8470 | units/archives/pietro-foscarini-picture-inventory-correr |
+| cand-8538 | units/archives/pietro-ercole-gherardi-letter-to-muratori-1745-02-20 |
+| cand-8548 | units/archives/labia-inventory-1749 |
+| cand-8577 | units/archives/barbaro-arbori-de-patritri-veneti |
+| cand-8594 | units/archives/zaccaria-sagredo-will-1729 |
+| cand-8598 | units/archives/sagredo-archive-document-blunt-1957-p24 |
+| cand-8599 | units/archives/sagredo-picture-list-1762-correr |
+| cand-8640 | units/archives/alessandro-marchesini-letter-to-conti-1725-08-11 |
+| cand-8641 | units/archives/alessandro-marchesini-letter-to-conti-1725-12-01 |
+| cand-8653 | units/archives/zanetti-letter-to-gabburri-1728-01-11 |
+| cand-11230 | units/archives/arslan-quattro-lettere-visconti-ligari-1952 |
+| cand-8467 | units/persons/w-arslan-source-local |
+| cand-1408 | units/persons/gian-pietro-ligari |
+| cand-8592 | units/institutions/archivio-di-stato-di-venezia |
+| cand-8593 | units/persons/pietro-grigis |
+| cand-7790 | units/archives/stefano-conti-patron-canaletto-haskell-1956 |
+
+以下候选复用既有或本批新登记的同类型身份；不重复建卡：
+
+| candidate_id | S3决定 | 目标KU | 依据与边界 |
+|---|---|---|---|
+| cand-8473 | same | units/institutions/samuel-h-kress-foundation | Repository identity reused; the contradictory current-location claim remains pending. |
+| cand-12386 | same | units/archives/arslan-quattro-lettere-visconti-ligari-1952 | Chapter 9 p.259 n.3 p.63 matches the exact title and pp.63-72 at Chapter 21 L78. |
+| cand-8642 | same | units/archives/stefano-conti-patron-canaletto-haskell-1956 | Chapter 9 p.265 n.4 p.298 falls within the article pp.296-300 at Chapter 21 L581. |
+| cand-9882 | same | units/archives/stefano-conti-patron-canaletto-haskell-1956 | Chapter 10 p.312 n.2 locator resolves to the same article identified at Chapter 21 L581. |
+
+`cand-8467` 保留为来源限定人物 W. Arslan，不推断全名。`cand-8357` 的索德里尼别墅仍未具名；`cand-8597` 的 Posse letter identity 仍为 undecided，均不强行登记。Kress 的机构身份复用不解决其位置陈述的S6来源冲突。
+
+`cand-8466` 与 `cand-8465`、`cand-1408` 的跨章指涉以同一发信人、收信人、Arslan 1952 p.63 定位及第10章注6给出的1749-12-19日期对应；第9章注3与第10章注6共同支持此书信身份。新卡日期字段据第10章注6登记，不把第9章“Visconti在1749年任职”误作日期。
+
+**S4/S5与S2增补。** 25张新KU卡共登记75条有来源的字段事实，均限于 Haskell 书内引注、书目、页图校读或明确的对象边界；没有把被引原件或页面标为已独立查阅。Visconti致Ligari信件的1749-12-19日期依据第10章注6新增字段 `enr-17902`；第9章注3与第10章注6共同支持该跨章书信身份。为两条第21章书目责任陈述新增S2原子statement并复用现有mention；这两条 relation_candidate=false 的书目事实未增加独立复核分子。
+
+**S6逐项裁决。** 25项候选中11项为 formal、14项为 pending、0项 rejected。待证项均保留在本过程账，不把未知谓词、缺失来源端点或身份冲突写入 relations.csv。Udney 清单的‘被寻求’关系为 pending，但其独立且明确的 Correr 档案定位以 rel-2198 formal 登记。
+
+| statement_id | S6去向 | 正式边／待证理由 |
+|---|---|---|
+| st-chp9-p250-labia-inventory-title-list | pending | Inventory titles are not individually identified works; candidate cand-1182 remains unresolved as a person or work group. |
+| st-chp9-p255-note3-soderini-villa-destroyed | pending | The villa is unnamed and the controlled vocabulary has no exact destroyed_in predicate; do not invent a site. |
+| st-chp9-p256-note2-amphion-story | pending | No controlled depicts/has_subject relation expresses this work-to-mythic-narrative claim. |
+| st-chp9-p256-note2-hercules-cecrops-story | pending | No controlled depicts/has_subject relation expresses this work-to-mythic-narrative claim. |
+| st-chp9-p256-note2-orpheus-eurydice-story | pending | No controlled depicts/has_subject relation expresses this work-to-mythic-narrative claim. |
+| st-chp9-p256-note6-pietro-loredan-orazione | pending | The cited oration object is registered, but the source-book endpoint is absent from S2; do not invent a book-to-citation edge. |
+| st-chp9-p256-note7-antonio-loredan-orazione | pending | The cited oration object is registered, but the source-book endpoint is absent from S2; do not infer a departure from Padua. |
+| st-chp9-p259-note3-visconti-letter-citation | formal | rel-2188 part_of, rel-2212 authored_by, rel-2213 addressed_to: Chapter 9 gives the article locator and both participants; Chapter 10 n.6 identifies the same letter and date 1749-12-19. |
+| st-chp9-p259-visconti-1749-wealth-quotation | pending | This is Visconti's reported assessment of Foscarini wealth, not a defined relation between the painter and family; no controlled predicate captures the source-attributed comment. |
+| st-chp9-p259-note4-pietro-picture-inventory-location | formal | rel-2189 located_at: Haskell gives the Biblioteca Correr locator. |
+| st-chp9-p259-note4-pietro-will-inventory-location | formal | rel-2190 located_at: Haskell gives the Biblioteca Correr locator. |
+| st-chp9-p259-note6-kress-location | pending | Haskell reports Kress Foundation, New York, while the Foundation record gives NCMA as repository and a 1961 gift; retain the source conflict and do not assert current custody. |
+| st-chp9-p261-note5-gherardi-letter | formal | rel-2191 authored_by, rel-2192 addressed_to, rel-2193 located_at: sender, recipient, date and cited repository are explicit. |
+| st-chp9-p262-note1-visconti-income-source | pending | The estimate is said to derive from the letter, but no exact controlled predicate captures that dependency. |
+| st-chp9-p262-note5-labia-inventory | pending | The family-to-inventory wording does not establish a controlled family/archive relation or the source-book citation endpoint. |
+| st-chp9-p263264-barbaro-genealogy | formal | rel-2194 has_subject and rel-2195 located_at: the record names Zaccaria and Haskell supplies the archive locator. |
+| st-chp9-p263264-gherardo-death-and-dispersal | pending | The plan following Gherardo's death is distinct from the later dispersal; no controlled predicate states this relation. |
+| st-chp9-p263264-posse-complete-sale-report | pending | The Posse letter identity remains undecided and no controlled predicate states the reported sale intention. |
+| st-chp9-p263264-smith-purchases-document | formal | rel-2196 has_subject and rel-2197 published_by: the document reports Smith's 1751-1752 purchases and Blunt's publication. |
+| st-chp9-p263264-udney-1762-list | pending | The person-to-list sought relation has no controlled predicate; rel-2198 records only the independent Correr shelfmark locator. |
+| st-chp9-p263264-will-archival-locator | formal | rel-2199 located_at: Haskell supplies the Archivio di Stato locator for the dated will. |
+| st-chp9-p265-note4-marchesini-letter-1725-08-11 | formal | rel-2200 authored_by, rel-2201 addressed_to, rel-2202 part_of: letter roles and article locator are explicit. |
+| st-chp9-p265-note4-marchesini-letter-1725-12-01 | formal | rel-2203 authored_by, rel-2204 addressed_to, rel-2205 part_of: scan confirms 1 December and Haskell gives the article locator. |
+| st-chp9-p266-note6-zanetti-letter-citation | formal | rel-2207 authored_by, rel-2208 addressed_to, rel-2209 part_of: sender, recipient and Bottari II locator are explicit. |
+| st-chp9-p270-n06 | formal | rel-2206 located_at: Haskell's later note supplies a second source-reported locator for the August 1725 letter. |
+
+另以 rel-2210 和 rel-2211 记录第21章书目明确署名的 Arslan 1952、Haskell 1956 两篇文章的结构性 authored_by 关系；它们的statement为 relation_candidate=false，不计入上述25项S6决定。除Udney locator这一独立子关系外，本批未将pending结果写为formal边。所有新增正式边均限于 Haskell 报告的关系、时间、角色、范围和来源定位；书目页、手稿、信件及所引论文均未被本批独立查阅。
+
+**渲染与审计（2026-10-26）。** 41张受影响卡完成定向预览，31张需更新；预览差异只新增关系投影行，并从Pietro Visconti人物卡移除已被新关系表替代的“当前没有正式关系”占位句。定向渲染写入31张卡；复跑同一目标集合 `files_to_write=0`，写后字节校验通过。26张相关卡的 `build_field_facts.py` 预览覆盖94行，`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。严格表审计：KU=3,067，主候选=12,427，alignment=12,774，S4待登记new=2,809，S2 statements=15,372、mentions=26,845，S5=13,988（1,634 unverified），relations.csv=2,213（2,180 formal、33 pending），backlog=46（13 completed、33 undecided、pending=0），`errors=[]`、`s2_missing=[]`。关系一致性五类阻断均为0；另有1,371个孤立KU及2个过度连接对象留作全库诊断。S3唯一主记录决定为same=2,075、new=5,096、conflict=9、excluded=104、undecided=5,143；另有26个候选的跨来源decision差异仍待按身份语义核对。全局S6累计1,616项（931 formal、564 pending、121 rejected）；与当前relation_candidate分母仍差1项历史statement映射，故不报全书完成率。

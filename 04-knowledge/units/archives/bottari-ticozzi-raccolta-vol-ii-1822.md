@@ -67,5 +67,6 @@ Haskell 在不同章节以第二卷及具体页码定位该书；这些是书内
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | 角色：Haskell书内脚注引用；范围：p.241脚注5指出 Gabburri 书信刊于 Bottari 第II卷；书信与该卷未独立查阅。；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；line 461; printed p.241, note 5; st-chp8-p241-note5-gabburri-bottari-citation |
+| ← 包含成员（`contains`，反向投影） | [安东尼奥·玛丽亚·扎内蒂致弗朗切斯科·加布里耶利信（1728年1月11日）（Letter from A. M. Zanetti to Francesco Gabburri (11 January 1728)）](zanetti-letter-to-gabburri-1728-01-11.md) | S6 formal; textual publication relation only, not physical custody.；角色：cited publication volume；范围：Haskell cites Bottari, volume II, p.186 as the publication locator for the Zanetti letter used for the preceding quotation. The cited volume and page were not independently consulted.；原断言与证据见发出端卡片“安东尼奥·玛丽亚·扎内蒂致弗朗切斯科·加布里耶利信（1728年1月11日）（Letter from A. M. Zanetti to Francesco Gabburri (11 January 1728)）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.266 n.6, L438; statement=st-chp9-p266-note6-zanetti-letter-citation |
 
 本次登记未新增正式关系。五条以本卷为端点的 S2 关系候选仍待 S6 按原句、角色与证据范围逐条裁决；卷册身份登记本身不确认被引历史文件的内容。

@@ -56,6 +56,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [亚历山德罗·马尔凯西尼致斯特凡诺·孔蒂信（1725年8月11日）（Letter from Alessandro Marchesini to Stefano Conti (11 August 1725)）](../archives/alessandro-marchesini-letter-to-conti-1725-08-11.md) | S6 formal; second source locator for the same letter, retained as a distinct location assertion.；角色：source-reported archival locator；范围：Haskell's Chapter 9 p.270 n.6 locates the same 11 August 1725 letter in Biblioteca Governativa Lucca. The library locator is reported from the book; current custody was not independently checked.；原断言与证据见发出端卡片“亚历山德罗·马尔凯西尼致斯特凡诺·孔蒂信（1725年8月11日）（Letter from Alessandro Marchesini to Stefano Conti (11 August 1725)）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)；haskell-1980-rev-ed；Chapter 9, printed p.270 n.6, L101; statement=st-chp9-p270-n06 |
+
 ### 身份与外部链接
 
 - **S3 identity group:** sg3-institution-cand-7803; source candidate mapped to this KU.
