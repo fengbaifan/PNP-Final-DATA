@@ -2,7 +2,9 @@
 
 ### 本轮进度与后续工作（2026-10-25）
 
-**当前快照（2026-10-25，Correr、Da Canal与Richeôme文献端点批次后）：** S0已处置832段（678 complete、154 excluded）。S2为15,353 statements／26,789 mentions；统一独立逐条复核9,617/15,353（62.64%，未接收，5,736条未进入统一复核）。按每个candidate_id主决定计，S3为12,426项：same=2,054、new=5,081、conflict=9、excluded=104、undecided=5,178；26个跨来源decision差异待定点核对。S4已映射2,118/5,081条new，尚未映射2,963条，其中1,249个去重候选触及直接关系端点；KU共2,902。S5字段13,351条（1,634 unverified）。S6关系候选已裁决1,332/10,569条（754 formal、464 pending、114 rejected），余9,237；relations.csv为2,009条（1,982 formal、27 pending），另含1条不计入上述S6候选分母的书目派生结构性 authorship 关系（rel-2008）；`rel-2009`来自S2候选并已计入S6 formal。另有337条关系statement至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端均缺72）。candidate-backlog.csv有37条记录（12 completed、25 undecided，严格pending=0）。严格表审计errors=[]、s2_missing=[]；关系一致性五类阻断均为0。S2尚未接收，S3–S6未全书收口；S7、知识发现与页面均未启动。
+**当前快照（2026-10-25，第5章Azzolini／S. Salvatore／1701展览端点批次后）：** S0已处置832段（678 complete、154 excluded）。S2为15,353 statements／26,791 mentions；统一独立逐条复核9,617/15,353（62.64%，未接收，5,736条未进入统一复核）。按每个candidate_id主决定计，S3为12,426项：same=2,054、new=5,082、conflict=9、excluded=104、undecided=5,177；26个跨来源decision差异待核。S4已映射2,121/5,082条new，待登记2,961条，其中1,247个去重候选触及直接关系端点；KU共2,905。S5字段13,361条（1,634 `unverified`）。S6已裁决1,338/10,569条（754 formal、470 pending、114 rejected），余9,231；`relations.csv`为2,010条（1,982 formal、28 pending），含1条不计入S6分母的书目派生结构性authorship关系`rel-2008`，`rel-2009`来自S2候选且计入S6 formal。另有337条关系statement至少缺一个S2端点候选ID（subject-only 45、object-only 220、both 72）。`candidate-backlog.csv`有38条记录（12 completed、26 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断为0。S2尚未接收，S3–S6未全书收口；S7、知识发现与页面均未启动。
+
+**本批完成：第5章Azzolini、S. Salvatore in Lauro与1701展览。** S3将Cardinal Azzolini对应到Decio Azzolino Junior；`cand-6052`教堂和`cand-11942`展览各自登记，合计新增3个KU和10条`source_backed`字段。`cand-11941`五幅匿名画组因不等同于单件作品或已知艺术组合，继续`undecided`并进入`bl-0038`。6条关联S6均有明确去向（6 pending；其中地点候选记为`rel-2010`）。另补2条mention锚点、校正4条脚注印刷页字段。三张卡均定向预览；仅1701展览卡写入1条待证关系展示，写后字节核验通过。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp5-salvatore-azzolini-1701-20261025)。
 
 **本批完成：第3章 Richeôme《La peinture spirituelle》档案端点组。** 沿用 `cand-5024` 既有 S3 `new` 组，登记为 archive KU `units/archives/la-peinture-spirituelle-1611`；第3章叙述与第21章书目支持作者、题名、Lyon和1611年。新增5条书内 `source_backed` 字段；3条相关S6候选分别为1 formal（`rel-2009`，`authored_by`）和2 pending（题献关系超出现行 archive 域值域；绘画组候选 `cand-12315` 边界未定）。定向渲染新 archive 与 Louis Richeôme 人物卡，写后复预览无差异；严格表审计与关系一致性检查通过，导出测试4项通过。未查原书、被引页或外部目录。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch3-richeome-la-peinture-spirituelle-20261025)。
 
@@ -17,12 +19,12 @@
 
 **后续工作规划（按当前任务优先级）：**
 
-1. **继续高价值S4端点组并同批裁决S6。** 2,963条S3 new尚未映射，其中1,249个去重候选直接出现在关系候选端点。按共同来源页、对象类型、可解锁关系数和身份确定度排序；每批确认身份组后登记KU、补关键S5字段，并逐条记录formal／pending／rejected及重开条件。
-2. **按类型和跨章身份组收口S3。** 定点核对26个跨来源decision差异、9个conflict及5,178个undecided候选，先处理与关系端点相连者。same明确复用的KU；new登记独立对象；conflict说明来源与身份冲突；excluded写依据；undecided保留证据缺口及重开条件。
-3. **按章继续S2独立语义复核并核平台账。** 统一复核为9,617/15,353（62.64%），5,736条尚未进入统一逐条复核。以当前statement ID和来源版本对账，完成一章后只更新该章复核证据；本批语义修改和局部检查不增加独立复核分子。
-4. **定点修复337条缺S2端点候选ID的关系statement。** 回看对应来源段和mention；只有来源足以确定时才补候选ID，身份仍不明则保留pending及重开条件。
-5. **S5定向补足。** 对1,634条unverified字段优先审查会改变人物／文献身份、端点类型或formal关系的项目；只有取得足够支持时才改为source_backed，其余记录具体缺口。
-6. **所有阶段满足闭合条件后再准备S7。** S2独立接收且台账核平；S3候选都有可追溯决定；有效new完成S4；S5关键字段有据或明确缺口；S6候选均有去向；backlog无未处理actionable pending。知识发现和页面仍需用户明确启动。
+1. **继续高关系解锁价值的 S4/S6 批次。** 当前2,961个new候选尚待S4，其中1,247个去重候选直接触及关系端点。优先选跨多条关系、证据边界明确的类型组；同批映射S4、补关键S5字段、逐条裁决S6。每批保留待证理由和重开条件。
+2. **按类型推进S3收口。** 先核对26个跨来源decision差异，再处理9个conflict和5,177个undecided，按person、place、institution、event、work、archive等身份组逐项判定。same复用既有KU、new登记、conflict保留来源差异、excluded说明依据；缺身份或当前类型不能忠实表示的对象留在明确backlog，不强求转成已确定身份。
+3. **处理337条缺端点关系候选。** 按缺subject 45、缺object 220、两端均缺72分组；只有来源足以确定时才补候选并走S1–S4，再回到S6。端点不明则保留pending，不以缺少关系表行误作rejected。
+4. **持续按章完成S2独立语义复核。** 目前9,617/15,353（62.64%），另5,736条未进入统一逐条复核；按当前statement ID与来源版本核平，逐章记录证据、修订和真正独立的接收结果。补mention锚点或修元数据不增加复核分子。
+5. **定向补S5关键字段。** 1,634条`unverified`中，优先审查会改变身份、类型、端点或正式关系的字段；有充分来源才改为`source_backed`，否则保留未验证状态及具体缺口。
+6. **S7前置闭合。** S2独立接收且台账核平；S3每个候选有same/new/conflict/excluded决定或可追溯待证去向；可登记的new完成S4；关键S5字段有据或明确缺口；10,569条S6候选全部裁决；backlog不留未处理的actionable pending。达到这些条件后准备发布阶段S7。知识发现和页面仍待用户明确启动。
 
 **提速方式：** 以共同来源页、身份组和关系端点价值编批；只预览、渲染本批受影响卡片，并运行必要表审计。CI矩阵的执行时长与语义审读是不同成本，不通过删减Python版本门禁制造项目进度。
 

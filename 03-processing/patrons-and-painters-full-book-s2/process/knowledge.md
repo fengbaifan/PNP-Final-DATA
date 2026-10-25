@@ -14078,3 +14078,52 @@ S4 将 `aln-5207` 映射至新 archive KU；既有 Louis Richeôme（`cand-2192`
 三条相关 S2 关系候选逐条裁决：`st-chp3-secii-l19-31-richeome-wrote-book-1611` 为 formal，新增 `rel-2009`（archive → person，`authored_by`），只记录 Haskell 的书内作者称述；`st-chp3-secii-l19-31-richeome-dedicated-book-to-aquaviva` 为 pending，原文明确题献，但现行受控 `dedicated_to` 域值域只容纳 work → person，而项目类型表将书籍归为 archive，未为适配此例扩展关系规则；`st-chp3-secii-l33-38-richeome-book-topic-paintings` 为 pending，因候选 `cand-12315` 仍是边界未定的绘画组，不能假作单件或封闭组端点。两条 pending 的理由及重开条件留在本记录，不造缺端点或非法类型关系行。
 
 新 archive 卡及 Louis Richeôme 人物卡定向渲染2张，写后复预览均无差异。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0；`tests/test_export_dataset.py` 4项通过。
+
+
+<a id="s3-s4-s5-s6-chp5-salvatore-azzolini-1701-20261025"></a>
+
+### S3身份复核及S4/S5/S6：第5章Azzolini、S. Salvatore in Lauro与1701展览（2026-10-25）
+
+#### S3触发复核与身份边界
+
+`cand-0153` 的索引仅作 “Azzolini, Cardinal”，正文第5章p.128 L92–93称Cardinal Azzolini于1669年为罗马的Marchigian colony购置S. Salvatore in Lauro教堂。Treccani《Dizionario Biografico degli Italiani》“Azzolini, Decio”条目称Decio Azzolini是红衣主教、Nazione Picena保护人，并将其学院由S. Maria Lauretana迁往S. Salvatore in Lauro（L59、L69）；2024年研究明确识别Cardinal Decio Azzolino Junior（1623–1689），称其1668年任Natio Picena保护人，并在1669年推动迁址购置。身份、年代、职务与地点相合，未发现同类型已登记人物KU，故将`aln-0488`由`undecided`改为`new`，登记source-local人物组`sg3-person-cand-0153`。此比对只裁决人物身份，不把教堂产权或购置代理关系归给Cardinal。
+
+罗马教区页面的教会沿革称，S. Salvatore in Lauro由Piceni的Arciconfraternita della Madonna di Loreto della Nazione Picena购得；2024年研究则将购置／迁址与Cardinal Azzolino的行动相连。两条来源没有充分区分法律买受、代表团体办理和出资角色。因此保留`cand-6054`（Marchigian colony）身份未决，不将其等同于官方页面的具名confraternity，也不以`owned_by`或其他不准确谓词建立购置边。参考：[Treccani](https://www.treccani.it/enciclopedia/decio-azzolini_(Dizionario-Biografico)/)、[罗马教区名录](https://www.diocesidiroma.it/phpenti/ente/?ID=29)、[2024年研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC11629343/)。
+
+`cand-6052`仍为Church of S. Salvatore in Lauro place新对象，与内部回廊`cand-6053`及索引类目`cand-0720`分开。`cand-11942`仍为1701年具体展览event，独立于1675、1697场次及常规十二月系列`cand-6051`；不推定它属于该系列。
+
+为`cand-11941`及`cand-11942`补充两条S2 mention锚点：`m-chp5-note-143-061`精确覆盖“cinque quadri bellissimi bislunghi tutti d’una misura”（segment chars 2690–2743）；`m-chp5-note-143-062`覆盖“the exhibition at S. Salvatore in Lauro”（chars 2762–2801）。由此修复缺失的S2 mention-level锚点。五幅画仍是五件个别身份未知的作品；共同借展不证明它们构成一件作品或稳定艺术组合。`cand-11941`继续S3 `undecided`，新增`bl-0038`记录类型／聚合边界、三条待决S6端点关系及重开条件，不伪造work KU。
+
+#### S2定位元数据校正
+
+将四条脚注2 statements（`st-chp5-notes-l126-165-l143-raggi-loaned-five-pictures`、`...five-pictures-exhibited`、`...exhibition-at-san-salvatore`、`...five-pictures-by-cerquozzi`）的`printed_page`从137校正为140。依据是来源脚注所在印刷页与现有Ferdinando Raggi卡对同一L143／注2定位；PDF物理页22不变。仅改页码元数据，不改变statement主张或S2独立复核分子。
+
+#### S4登记与S5字段
+
+- `cand-0153` → `units/persons/decio-azzolino-junior`；
+- `cand-6052` → `units/places/s-salvatore-in-lauro-rome`；
+- `cand-11942` → `units/events/s-salvatore-in-lauro-exhibition-1701`。
+
+S5字段构建器定向预检并写入10条`source_backed`字段（enr-17266–enr-17275）：人物5条、教堂2条、1701展览3条；0条`unverified`，0警告。`sources.csv`新增Treccani、2024年研究及罗马教区3项来源记录。未为无确证的画作组或confraternity新增KU。
+
+#### S6逐条裁决
+
+| S2关系候选 | 决定 | 理由与记录去向 |
+|---|---|---|
+| `st-chp5-p128-azzolini-purchased-church` | pending | Cardinal身份已解，但“为社群购置”与法律买受／代理／出资角色未区分；不登记`owned_by`。理由与重开条件见本节及Azzolino卡。 |
+| `st-chp5-p128-salvatore-exhibition-purpose` | pending | 来源说明1675年展览有装饰教堂的意图；现行受控谓词没有可准确表达的event→place意图关系，不强套`intended_for`。 |
+| `st-chp5-notes-l126-165-l143-exhibition-at-san-salvatore` | pending | 1701注释只称展览“在S. Salvatore in Lauro”；未区分教堂本体与内部回廊。将候选`occurred_at`记为`rel-2010` pending，待精确空间证据。 |
+| `st-chp5-notes-l126-165-l143-raggi-loaned-five-pictures` | pending | `cand-11941`聚合边界未定；另`lent_by`当前值域为institution，而来源端点是person Ferdinando Raggi，不能强改类型。 |
+| `st-chp5-notes-l126-165-l143-five-pictures-exhibited` | pending | 作品组没有可忠实表示的work KU；`shown_at_exhibition`也未列入现行受控关系类型。 |
+| `st-chp5-notes-l126-165-l143-five-pictures-by-cerquozzi` | pending | `created_by`本可表达work→person，但组端点尚未建立且五件作品不能分别识别；随`bl-0038`待证。 |
+
+六项均计入S6决定分子；除有合法端点与谓词但空间范围待定的`rel-2010`外，其余待决只在本过程记录中保留，不造缺端点或不受控类型的关系表行。S2共15,353 statements不变，mentions增加2至26,791；新增mention和页码修订不增加独立逐条语义复核分子。
+
+#### 本批累计状态
+
+本批后S0为832段（678 complete、154 excluded）；S2为15,353 statements／26,791 mentions，独立逐条复核9,617/15,353（62.64%，未接收）；S3主决定12,426项（same 2,054、new 5,082、conflict 9、excluded 104、undecided 5,177），26个跨来源decision差异仍待逐项核对；S4已映射2,121/5,082条new、待登记2,961条，其中1,247个去重候选仍触及直接关系端点；KU共2,905。S5为13,361字段（1,634 `unverified`）。S6已裁决1,338/10,569（754 formal、470 pending、114 rejected），余9,231；`relations.csv`共2,010条（1,982 formal、28 pending）。`candidate-backlog.csv`为38条（12 completed、26 undecided，严格审计pending=0）。全书另有337条关系statement至少缺一个S2端点候选ID（subject-only 45、object-only 220、both 72）；本批未改变该缺端点队列。S2仍未独立接收，S3–S6未全书收口，S7未启动。
+
+
+#### 定向呈现与核验（S3/S4/S5/S6 CH5 batch）
+
+字段构建器定向预检／应用均为10条source_backed、0条unverified、0警告；source registry新增3条外部来源。三张新卡均定向预览且结构有效；人物卡与教堂卡没有待写表格差异，展览卡预览仅显示1条rel-2010 pending `occurred_at` 关系；定向渲染后写入1张卡，写后字节核验通过，恢复快照已清理。`audit_tables.py --strict-stage --summary`退出码0：KU=2,905、S3候选=12,426、待S4登记=2,961、关系表=2,010、S5字段=13,361、S2 statements=15,353／mentions=26,791，`s2_missing=[]`、`errors=[]`。两条warning分别提示尚有2,961项S4登记和S2语义质量仍须审查；它们是项目未完成状态，不是本批结构错误。`audit_relation_consistency.py`退出码0：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。`git diff --check`退出码0；未运行测试，因本批只改数据与文档，没有代码变更。
