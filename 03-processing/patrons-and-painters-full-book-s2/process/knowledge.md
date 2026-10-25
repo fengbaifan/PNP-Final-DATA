@@ -14802,3 +14802,33 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 **S6逐项裁决。** `st-chp4-sec-ii-p115-second-work-created-by-poussin` formal为`rel-2099 created_by`（复用普桑人物KU）；`st-chp4-sec-ii-p115-second-work-early-commission` formal为`rel-2100 commissioned_by`（复用马西米人物KU）。第二边仅记录Haskell带“must have been”限定的推断；句子同时适用于两幅画，1644仅是相关政治背景，不作为本画的确切委托时间，`time`留空；没有声称读过委托文书或独立核实。
 
 **渲染与核验。** 关系预览显示新作品卡及普桑、马西米人物卡共3张有变化；定向渲染3卡后逐卡复预览均无差异。新作品字段写后复预览无差异。`audit_tables.py --strict-stage --summary`退出码0：KU=2,957；S4待登记=2,925；S5=13,557（1,634 `unverified`）；relations=2,100（2,067 formal、33 pending）；候选backlog=45（13 completed、32 undecided、pending=0）；S2 statements=15,363、mentions=26,841，`errors=[]`、`s2_missing=[]`。`audit_relation_consistency.py --dry-run`的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。本批未改S2 statement或mention，统一S2独立复核仍为9,617/15,363（62.60%，未接收）。
+
+<a id="s3-s4-s5-s6-chp13-p343-zanetti-print-and-taste-20261025"></a>
+
+### S3 定点复核与 S4–S5–S6：第13章 p.343 Zanetti 明暗木刻与品味术语（2026-10-25）
+
+**来源范围。** 本批核读 Haskell 第13章印刷页343 L112–113，以及当前 `mentions.csv` 和 `book-statements.jsonl` 中锚定该段的候选。原文支持组作、技术与品味类别；未补外部作品目录、存世版本或未具名对象的身份。
+
+**S3 身份裁决。** `cand-10102` 沿用既有 `new` 组 `sg3-term-cand-10102`，指该段特定的洛可可—新古典风格综合，不与一般风格术语合并。`cand-12173` 由 `undecided` 改判 `new`，组为 `sg3-term-cand-12173`：L112–113 明确描述 Zanetti 与其他相近欧洲业余鉴赏家的学识／奇想品味，随后用 “these men” 回指；这是来源定义的 term 类别，不是正式组织或有完整名册的社群。它与同页另一个偏好鲜明笔触的群体 `cand-10099` 保持区分。`cand-2853` 由 `undecided` 改判 `new`，组为 `sg3-work-cand-2853`：四处正文提及分别指向约五十幅木刻、图样来源、“the set as a whole”和单幅木刻；原文明确区分整组与单幅。索引锚点 `UVWXYZ.csv#190` 保留为候选来源，不作为作品身份；该组作区别于既有明暗木刻技法 procedure KU，不声称单幅存世或外部目录身份。原对齐备注称该候选没有可核正文提及，但当前四条正文 mention 提供了直接来源依据，故按正文对象边界更新决定。
+
+三个待证端点维持各自边界：`cand-10094` 的 Prince of Liechtenstein 身份未明，`cand-10101` 仅是未具名的英／法／威尼斯友人类别，`cand-12174` 指制作版片而非成品木刻，现有 taxonomy 未定义该物件类型。三者不强建 KU；相关 S6 候选保留待证及解除条件。
+
+**S4 登记。** 新增三张来源限定 KU：
+- `cand-10102` → `units/terms/rococo-neoclassical-synthesis-haskell-zanetti-taste`
+- `cand-12173` → `units/terms/zanetti-similar-european-amateurs-scholarly-fanciful-taste`
+- `cand-2853` → `units/works/zanetti-chiaroscuro-woodcut-set-ch13-p343`
+
+**S5 字段。** 三卡新增 11 条 source-backed 字段：作品组 9 条（`enr-17472`–`enr-17480`），风格综合 1 条（`enr-17481`），来源定义的鉴赏家类别 1 条（`enr-17482`）。字段涵盖描述性题名、作品类型、技法、数量、图样来源、制版状态、整组／单幅题献及哈斯克尔评价；每行指向 Haskell p.343 对应 statement。三次 apply 后逐卡 preview 均为 `record_changes=0`、`new_ids=0`、`warnings=0`。
+
+**S6 逐条裁决。** 本批审查 9 条关联候选：1 formal，8 process-only pending。`st-chp13-p343-zanetti_revived_technique_and_made_about_fifty_cuts` formal 为 `rel-2101 creator_of`（Zanetti → 木刻组），只记录原文“produced about fifty cuts”，不把技法复兴合并入创作者边；精确年份留空。其余逐条为待证：
+- `st-chp13-p343-algarotti_retained_style_synthesis_but_worried`：人物对风格综合的立场，没有准确的受控关系类型。
+- `st-chp13-p343-rococo_and_neo_classical_not_in_conflict`：term–term 的“不冲突”是来源解释性命题，不伪装为一般比较边。
+- `st-chp13-p343-zanetti_felt_no_style_qualms`、`st-chp13-p343-algarotti_worried_about_style_contradictions`：人物审美态度目前没有精确受控谓词。
+- `st-chp13-p343-haskell_on_woodcuts_and_scholarly_fanciful_taste`：木刻组“反映”品味类别的解释性命题，当前谓词不能准确表达。
+- `st-chp13-p343-zanetti_destroyed_plates_and_dedicated_woodcut_set`：候选收受者 `cand-10094` 身份未定，不写 `dedicated_to`。
+- `st-chp13-p343-zanetti_dedicated_individual_sheets_to_friends`：收受者未具名；现有候选是群体类别，不满足 `dedicated_to` 的 person 值域。
+- `st-chp13-p343-zanetti_destroyed_printing_plates`：目标 `cand-12174` 是独立制作版片且类型待定；不与木刻成品组等同。
+
+以上 pending 项不写入 `relations.csv`；待端点身份／类型补足，或出现准确、受控且方向兼容的关系表达后再评估。未添加 `associated_*` 泛边。
+
+**渲染与核验。** 对木刻组、两个 term 及 Zanetti 人物卡定向渲染；四卡写后 preview 均无差异，渲染事务完成字节核验。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run` 五类阻断均为0。S2 statement／mention和统一独立复核分子不变。本批后：S2 15,363／26,841，独立复核 9,617（62.60%，未接收）；S3 same=2,064、new=5,101、conflict=9、excluded=104、undecided=5,149；S4映射2,177/5,101，待登记2,924，KU=2,960；未映射new直接关系端点1,213（term456、archive254、work193、place162、event82、institution65、person1）；S5 13,568（1,634 unverified）；S6累计1,456（831 formal、507 pending、118 rejected），当前10,578条 `relation_candidate=true` 与历史裁决分母仍相差1；`relations.csv` 2,101（2,068 formal、33 pending）；backlog 45（13 completed、32 undecided、严格审计pending=0）。
