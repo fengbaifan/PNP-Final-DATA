@@ -16050,3 +16050,12 @@ S5字段预览／应用、8张新增或关联人物卡的关系投影预览及7�
 八张新卡的字段提取预览为13条source-backed记录、0条unverified；apply后复预览`record_changes=0`、`new_ids=0`。`build_cards.py --preview`先核对programme卡关系投影，随后定向`--render`预检并写入11张受影响卡（8张新卡及Henry Portland、George Vertue、Sebastiano Ricci三张既有端点卡）；预检`cards=11`、`tables=17`、`rows=39`、`projected_relation_rows=34`通过，写后字节核验通过。
 
 批后严格表审计：KU=3,167；候选=12,431；alignment=12,778且`alignments_unlinked=0`；S4 `new`待登记=2,701；S2 statements=15,419、mentions=26,861；S5=14,335（1,627 `unverified`）；S6候选=10,635；`relations.csv`=2,334（2,298 formal、36 pending）；backlog=49（14 completed、35 undecided、严格pending=0）；`errors=[]`、`s2_missing=[]`。S2统一独立复核分子仍为9,617，约62.37%；新增的11条S2 statement未计入分子。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；另有1,371个零关系KU与2个超50连接对象，均为非阻断诊断。未登记的2,701个`new`候选中，1,020个为关系statement直接端点、1,681个为其他候选。机械审计通过不代表S2独立语义接收。
+
+<a id="s4-s5-s6-chp3-p67-torture-term-20261026"></a>
+### S4/S5/S6：S. Vitale 壁画组酷刑题材端点（2026-10-26）
+
+保留 `cand-12313` 的现有 S3 `new` 决定及身份组 `sg3-term-cand-12313`，映射至新 term KU `units/terms/torture-subject-s-vitale-frescoes`。候选标题把“酷刑”限定为 S. Vitale 壁画组的书内图像题材；与 S. Stefano Rotondo 的较早壁画组、S. Vitale 作品组、教堂地点及具体受刑事件分开。查验现有 term KU 后未发现同一来源限定题材卡；本批没有重开 S3。
+
+回核第3章印刷 p.67、PDF physical p.5、S2 statement `st-chp3-secii-l19-31-vitale-subjects-mostly-torture` 与 mention `m-chp3-secii-l19-31-0043`。原文“Once again the subjects were almost exclusively concerned with torture”支持壁画组级 `has_subject`，保留“almost exclusively”限定；不据此断言每幅单景或某个具体受刑者。本次是 S4 触发的定点来源核对，S2 statement、mention及统一独立复核分子均未更改。
+
+S4 新增1个 term KU，并将 `aln-12476` 映射至该卡。S5 字段预览后应用2条书内 `source_backed` 记录：作品主题 `enr-18250`，术语来源实例 `enr-18251`；0条 `unverified`，来源复用 `haskell-1980-rev-ed`。S6 将该 statement 裁决为 formal `rel-2335 has_subject`，方向为壁画组 work → 酷刑题材 term，域值域匹配；其他受难作品或个体事件未补入此边。对作品卡与新 term 卡执行关系预览后定向渲染，并在批后复核预览无剩余差异。

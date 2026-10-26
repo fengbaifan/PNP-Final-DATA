@@ -65,15 +65,19 @@ The bilingual display names appear in the card title; the Chinese name is a desc
 
 ### 作品信息
 
+| 字段 | 内容 | 依据 |
+|---|---|---|
+| 主题／题材 | 哈斯克尔称该壁画组的题材几乎全都涉及酷刑；仅作书内题材归纳，不推定具体受难者或单幅场景。 | S1，第3章 p.67 L26；statement=st-chp3-secii-l19-31-vitale-subjects-mostly-torture |
+
 - 对象类型：圣维塔莱堂内一组以早期基督教殉道者受刑为主题的壁画；原书未给出确切绘制、完成日期或逐幅清单。
 - 装饰统筹：Haskell 称 Jesuit 画家 Giovanni Battista Fiammeri 负责装饰，Claudio Aquaviva 总会长直接监督，对方案有强烈个人兴趣并提出建议。
-- 题材与呈现：受刑是主要题材；一般画面以牧歌式风景表现酷刑，观看者需结合画面和题铭辨认受难者。唱诗班中的画家被鼓励减少克制，更直接展示施刑方式。
+- 呈现方式：一般画面以牧歌式风景呈现酷刑，观看者需结合画面和题铭辨认受难者；唱诗班中的画家被鼓励减少克制，更直接展示施刑方式。
 - 归属限定：Haskell 说这些作品在19世纪曾被归于 Gaspard Poussin；本卡不将此历史误归属当作认可归属。
 - 后记讨论：Haskell 转述 Thomas Buser 对 S. Vitale“牧歌式”酷刑场景的评论，并报告 Buser 推测其风格可能受罗马壁画启发、意在营造古代感；这是被转述的解释，不是本轮独立核验的结论。
 
 - Object type: a group of frescoes at S. Vitale depicting the tortures of early Christian martyrs; Haskell supplies no exact production or completion dates and no itemized list.
 - Direction: Haskell says the Jesuit painter Giovanni Battista Fiammeri directed the decoration under the immediate control of Superior General Claudio Aquaviva, who took a strong personal interest and made suggestions.
-- Subjects and presentation: torture predominates. The scenes often place it in pastoral landscapes, with inscriptions helping identify the victims; in the choir, painters were encouraged to show the mechanisms of torture more directly.
+- Presentation: the scenes often place torture in pastoral landscapes, with inscriptions helping identify the victims; in the choir, painters were encouraged to show the mechanisms of torture more directly.
 - Attribution qualification: Haskell says the works were attributed to Gaspard Poussin in the nineteenth century; this historical misattribution is not adopted as the card’s attribution.
 - Postscript discussion: Haskell reports Thomas Buser’s comments on the “pastoral” torture scenes and his suggestion that their style may have been influenced by Roman wall painting to give the victims’ suffering an antique feeling. This is a reported interpretation, not independently verified here.
 
@@ -92,3 +96,4 @@ English: This unit is the fresco group, not the church building, the choir space
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 位于（`located_at`） | [圣维塔莱堂（S. Vitale）](../places/s-vitale-rome.md) | Evidence: S2 statement st-chp3-secii-l19-31-vitale-frescoes-located-at-vitale.；角色：location of fresco decoration；范围：Haskell names S. Vitale then describes its decoration and fresco subjects; no exact room or present condition is inferred.；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；Chapter 3 print p. 67 L24–25; PDF physical p. 5 |
+| → 所涉对象（`has_subject`） | [S. Vitale壁画组的酷刑题材（Torture as a predominant subject in the S. Vitale fresco cycle）](../terms/torture-subject-s-vitale-frescoes.md) | S6裁决：Haskell直接描述该壁画组的题材；has_subject符合work→term域值域。“almost exclusively”不表示每一单幅场景都相同；角色：壁画组的题材（原文限定为“几乎全都”）；范围：哈斯克尔称S. Vitale壁画组的题材几乎全都涉及酷刑；保留组级、来源限定表述，不据此识别具体受难者或单幅场景。；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；Chapter 3, printed p. 67, L26; PDF physical p. 5; statement=st-chp3-secii-l19-31-vitale-subjects-mostly-torture |
