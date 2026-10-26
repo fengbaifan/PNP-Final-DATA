@@ -69,7 +69,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [费迪南多·拉吉报告（Ferdinando Raggi report）](../archives/ferdinando-raggi-report-quoted-by-achille-neri.md) | S6 formal: Chapter 5, printed p.140 n.2, L155; explicit “report by Ferdinando Raggi”, known second-hand. Source attribution is limited to Haskell’s book; cited works and pages were not independently consulted.；范围：Chapter 5, printed p.140 n.2, L155; explicit “report by Ferdinando Raggi”, known second-hand.；原断言与证据见发出端卡片“费迪南多·拉吉报告（Ferdinando Raggi report）”：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；S2 statement: st-chp5-note-raggi-report-authored-by |
+
 
 **中文：** 直接S2候选（待S6）：st-chp5-notes-l143-raggi-patronage-loan, st-chp5-notes-l126-165-l143-raggi-loaned-five-pictures。
 

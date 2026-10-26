@@ -54,7 +54,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [巴尔塔扎·德·蒙科尼《旅行日记》（Balthazar de Monconys, Journal des Voyages）](../archives/monconys-journal-des-voyages-1665-1666.md) | S6 formal: Chapter 21 bibliography, printed p.430, L832; author form as listed. Source attribution is limited to Haskell’s book; cited works and pages were not independently consulted.；范围：Chapter 21 bibliography, printed p.430, L832; author form as listed.；原断言与证据见发出端卡片“巴尔塔扎·德·蒙科尼《旅行日记》（Balthazar de Monconys, Journal des Voyages）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；S2 statement: st-chp21-bib-pub-author-monconys-1665 |
+
 
 **中文：** S2直接关系候选st-chp5-p124-monconys-rome-visit, st-chp5-p124-monconys-visited-rome, st-chp5-p124-monconys-picture-sale保留待S6逐条裁决；本批不新增正式关系。
 

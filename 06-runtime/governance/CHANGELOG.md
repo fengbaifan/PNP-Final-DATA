@@ -272,3 +272,7 @@ The relation-domain-range.yml contract states that a controlled, non-deprecated 
 
 - S6 新增受控关系 `entrusted_to_build`／`entrusted_with_building_of`，用于保留“某建筑被委托给某建筑师建造”的明确角色；方向为 place → person，反向仅作导航，不代表实际开工或完工。同步更新域值域、关系语义说明和关系视图标签。
 - `build_cards.py` 增加重复 `--ku` 的定向渲染入口；每次写回仍经过预检和恢复快照，避免为小批次重写所有关系视图。
+
+## 2026-10-26
+
+- 首次登记来源明确的 `quoted_in` 正式关系，域值域限定为 archive → archive；协议分别更新至 `relation-types` v6 与 `relation-domain-range` v4。同时将 Haskell 报告的 Raggi 报告与 Neri 1883 年出版物之间的转述链登记为来源限定关系。

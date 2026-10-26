@@ -87,4 +87,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-当前没有登记正式关系。涉及该人物的 27 条 S2 关系候选留待 S6 逐条审查；本卡只整理来源支持的身份与书内语境。[第4章 p.114](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)（L173–174） [第5章 p.124及注释](../../../02-sources/02-Markdown/05_CHP-5_sec_i.md)（L38–49） [第8章 p.207](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)（L44） [第9章 pp.266–267](../../../02-sources/02-Markdown/09_CHP-9_intro.md)（L309–321）
+已审查并登记的正式关系见下表；另有 27 条涉及该人物的 S2 关系候选留待 S6 逐条审查。本卡只整理来源支持的身份与书内语境。[第4章 p.114](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)（L173–174） [第5章 p.124及注释](../../../02-sources/02-Markdown/05_CHP-5_sec_i.md)（L38–49） [第8章 p.207](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)（L44） [第9章 pp.266–267](../../../02-sources/02-Markdown/09_CHP-9_intro.md)（L309–321）
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [卡斯蒂廖内《戴欧真尼寻觅诚实者》版画（Castiglione print of Diogenes searching for one honest man）](../works/castiglione-print-diogenes-honest-man.md) | Formal S6: Haskell's possessive apposition identifies the print as Castiglione's work. Source-limited attribution only; neither the print nor cited references were independently consulted.；范围：Chapter 5, printed p.124, L38-L39; Haskell's narrative attributes the print to Castiglione.；原断言与证据见发出端卡片“卡斯蒂廖内《戴欧真尼寻觅诚实者》版画（Castiglione print of Diogenes searching for one honest man）”：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_i.md)；haskell-1980-rev-ed；S2 statement: st-chp5-p124-castiglione-print-created-by |

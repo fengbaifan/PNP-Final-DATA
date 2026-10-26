@@ -1,4 +1,4 @@
-version: 5
+version: 6
 authority: controlled-relation-vocabulary
 types:
   - associated_institution
@@ -104,6 +104,7 @@ types:
   - procedure_used_by
   - published_by
   - publisher_of
+  - quoted_in
   - employed_by
   - educated_at
   - education_of

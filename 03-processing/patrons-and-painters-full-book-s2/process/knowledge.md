@@ -15387,3 +15387,55 @@ cand-9422 → units/institutions/kings-college-cambridge为same。cand-9430（Ne
 S5新增10条书内 `source_backed` 字段 `enr-17968`–`enr-17977`，未做外部独立核验。S6五项关系候选逐项formal：`rel-2226 variant_of`、`rel-2227 located_at`、`rel-2228 acquired_by`、`rel-2229 created_by`、`rel-2230 created_by`；关系类型、方向与端点均通过domain/range检查，证据回链至具体S2 statement及Haskell p.212 n.3。五张受影响卡定向渲染写入5张，复跑 `files_to_write=0`。
 
 严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性 `broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed` 均为0。未新增mention；新增及修订statement不计入9,617条S2统一独立复核分子。
+
+<a id="s3-s4-s5-s6-chp5-p120-p131-publication-endpoints-20261026"></a>
+## S3–S6：第5章书目出版物与人物端点跨章登记（2026-10-26）
+
+**证据范围。** 核对第5章 p.120、p.123–125、p.131、p.140正文／注释与第21章书目，并回查对应S2候选、mention、KU和全书S3对齐。七种出版物均按Haskell书内引文或书目登记；未独立查阅被引文章、图书、报告或原件。
+
+**S3跨章身份与去向。** 七个出版物分别进入各自archive身份组。cand-0605是Giovanni Benedetto Castiglione的索引人物子目，不是版画；cand-6022是独立work组。cand-6197为Achille Neri source-local person组；cand-12450按重复出现的全名登记为Angelo Borzelli source-local person。cand-12451仅有Berthier姓氏及J. J. initials，保留undecided，不建人物KU。
+
+| 候选 | S3决定／身份组 | S4知识元 |
+|---|---|---|
+| cand-11251 | new；archive-group-b5e21b14aa2d | units/archives/blunt-annunciation-by-nicolas-poussin-1947 |
+| cand-11403 | new；archive-group-7b3182e4d60b | units/archives/monconys-journal-des-voyages-1665-1666 |
+| cand-11355 | new；archive-group-9b9efbd4db2c | units/archives/haskell-art-exhibitions-seventeenth-century-rome-1960 |
+| cand-11246 | new；archive-group-8fe0e0ebf1f1 | units/archives/berthier-eglise-sainte-sabine-rome-1910 |
+| cand-6210 | new；archive-group-5cc19c6b581f | units/archives/ferdinando-raggi-report-quoted-by-achille-neri |
+| cand-11259 | new；archive-group-0d56b3434c4b | units/archives/borzelli-assunta-del-lanfranco-1910 |
+| cand-6198 | new；archive-group-bb82d2b45804 | units/archives/achille-neri-costumanze-e-sollazzi-1883 |
+| cand-6022 | new；workgrp-37741c813f5fb2 | units/works/castiglione-print-diogenes-honest-man |
+| cand-6197 | new；new-person:achille-neri-3f3b965fb5 | units/persons/achille-neri |
+| cand-12450 | new；new-person:angelo-borzelli-72227a1d24 | units/persons/angelo-borzelli |
+| cand-12451 | undecided；作者身份待证 | 不建KU；bl-0048 |
+
+**S2/S4/S5。** 十个new候选均完成S4；cand-0602复用units/persons/giovanni-benedetto-castiglione。修正cand-6022对齐说明以区分艺术家索引子目与版画。新增8条原子statement（7条书目作者关系及版画created_by）和8条mention。created_by复用m-chp5-p124-0011、-0012、-0013。新增及修订statement未计入S2独立复核分子。十个KU新增41条Haskell书内source_backed字段，未独立核验被引出版物。
+
+| Backlog | 处置 |
+|---|---|
+| bl-0047 Angelo Borzelli | completed；书目三处全名支持source-local作者端点，已登记人物KU |
+| bl-0048 Berthier, J. J. | undecided；待完整姓名或唯一权威身份记录 |
+
+**S6。** 16项formal；Berthier作者statement process-only pending。新增quoted_in并将relation-types.yml更新到v6、relation-domain-range.yml更新到v4，限定archive → archive。版画created_by仅表达Haskell叙述中的来源归属。
+
+| S2 statement | 裁决 |
+|---|---|
+| st-chp5-p120-cites-blunt-article | rel-2231 cites formal |
+| st-chp5-note-p123-n2-cites-borzelli | rel-2232 cites formal |
+| st-chp5-note-p124-n1-monconys-1664 | rel-2233 cites formal |
+| st-chp5-p124-simonelli-castiglione-print | rel-2234 dedicated_to formal |
+| st-chp5-note-p125-n1-citation | rel-2235 cites formal |
+| st-chp5-note-p131-n2-citation | rel-2236 cites formal |
+| st-chp5-notes-l155-raggi-report-citation | rel-2237 cites formal |
+| st-chp5-notes-l126-165-l155-neri-citation | rel-2238 cites formal |
+| st-chp5-notes-l126-165-l155-raggi-report-quoted-in-neri | rel-2239 quoted_in formal |
+| st-chp21-bib-pub-author-blunt-1947 | rel-2240 authored_by formal |
+| st-chp21-bib-pub-author-monconys-1665 | rel-2241 authored_by formal |
+| st-chp21-bib-pub-author-haskell-1960 | rel-2242 authored_by formal |
+| st-chp21-bib-pub-author-borzelli-1910 | rel-2243 authored_by formal |
+| st-chp21-bib-pub-author-neri-1883 | rel-2244 authored_by formal |
+| st-chp5-note-raggi-report-authored-by | rel-2245 authored_by formal |
+| st-chp5-p124-castiglione-print-created-by | rel-2246 created_by formal |
+| st-chp21-bib-pub-author-berthier-1910 | pending；cand-12451未定，不建正式边 |
+
+**卡片与核验。** 十个新KU、Haskell来源卡及五个人物端点卡已在本批定向渲染；版画与Castiglione人物卡因新增created_by再次渲染，写后字节核验通过，复跑预览均无差异。41条S5字段写入后预览为record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0、warnings=0。audit_tables.py --strict-stage --summary退出码0：KU=3,096、候选=12,429、alignments=12,776、S4待登记=2,780、S2 statements=15,385、mentions=26,853、S5=14,104（1,634 unverified）、relations.csv=2,246（2,213 formal、33 pending）、backlog=48（14 completed、34 undecided、pending=0），errors=[]、s2_missing=[]。audit_relation_consistency.py的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。新增statement未计入9,617条S2统一独立复核分子。本批未独立核验被引出版物；S2仍未独立接收，S3–S6仍未全书收口。

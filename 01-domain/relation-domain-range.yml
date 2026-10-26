@@ -1,9 +1,10 @@
-version: 3
-authority: relation-domain-range-v3
-status: draft-v3
+version: 4
+authority: relation-domain-range-v4
+status: draft-v4
 note: |
   本文件定义每个受控关系类型的合法 (domain, range)，供 S6 关系放行条件使用。
   v1 为与既有 relation-index.yml 的 1227 条边做只读一致性校验后的修正版：
+  v4 新增 quoted_in（archive → archive），限于来源明确记载的转引关系；不表示被引原件已被独立查阅。
   domain/range 覆盖当前实际用法，逐谓词直接存（不做 inverse 规范化）。
   未列入 domain_range 且不在 deprecated 列表的类型，默认不约束（允许，待首次使用后补入）。
   same_as 额外约束：两端必须同类型（由 S6 检查单独实现，不靠本表表达）。
@@ -88,6 +89,7 @@ domain_range:
   patronized_by:    {domain: [person, work], range: [family, person]}
   pendant_of:       {domain: [work], range: [work]}
   published_by:     {domain: [archive], range: [institution, person]}
+  quoted_in:        {domain: [archive], range: [archive]}
   sibling_of:       {domain: [person], range: [person]}
   spouse_of:        {domain: [person], range: [person]}
   supplied_by:      {domain: [work], range: [institution, person]}
