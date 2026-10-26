@@ -15785,3 +15785,39 @@ PDF图像复核将S0 OCR中的`lais`校读为`his`、`Use Antonio`校读为`life
 登记5张archive KU（Moschini四卷本、Correr手稿、两条Inquisitori登记、Tassini第四版），将3条历史S3-new决定与2条undecided决定改判为same；其中3条复用本来已存在的人员/机构KU，另2条复用本批登记的Moschini出版物KU。新卡27条Haskell来源S5字段；既有pamphlet卡7条字段补入来源标记并按印本页图更新。source corpus及原始OCR未改写。
 
 **批后审计（2026-10-26）：** S2共15,406条statement、26,861条mention；统一独立复核仍为9,617条（62.42%），新增/修订statement未计入分子。`alignment.csv`现有12,411条候选主决定：same 2,090、new 5,068、conflict 9、excluded 104、undecided 5,140。另有20个`status=open`候选没有主决定行（6个早期候选、14个body-mention补录），类型为person 8、archive 3、place 3、institution 3、work 3；其中16个是S2关系端点（person 4、archive 3、place 3、institution 3、work 3），其余4个均为person。严格表审计未报告此覆盖差异，故不得以候选总数宣称S3决定全覆盖。S4共3,146个KU，new候选已映射2,348/5,068，待映射2,720（直接S2关系端点1,031、非直接1,689）。S5共14,294条字段，unverified 1,627。S6已裁决1,753/10,622条（formal 1,015、pending 613、rejected 125）；`relations.csv`有2,308行（formal 2,273、pending 35）。字段预览覆盖6张卡、34行，`warnings=0`、写回后`record_changes=0`；8张受影响卡逐张渲染并复预览均无差异。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。关系位置、Tassini作者身份、gallery类型及1810文献身份共7项保持pending；没有因审计通过宣称S2独立接收或全书S3–S6收口。
+
+<a id="s3-s4-s6-chp10-p313-p316-guardi-attributions-20261026"></a>
+### S3–S4–S6：第10章 p.313、p.316 Guardi 与作品端点（2026-10-26）
+
+#### S3 身份组裁决
+
+| 候选 | 决定与去向 | 依据与边界 |
+|---|---|---|
+| `cand-9903` Museo Correr | `new` → `same`；复用 `units/institutions/museo-correr` | 第10章 p.313 n.1 明指威尼斯 Museo Correr；同名同类型机构已登记。此决定不独立核验 Pignatti 引文或现今馆藏。 |
+| `cand-1241` Francesco Guardi | `undecided` → `same`；复用 `units/persons/francesco-guardi` | S2 p.316 n.2 具名艺术家 mention 与 attribution endpoint 均指向 Francesco Guardi；将索引误标的候选类型由 `work` 更正为 `person`。 |
+| `cand-1249` Gianantonio Guardi | `undecided` → `same`；复用 `units/persons/gian-antonio-guardi` | S2 p.316 n.2 具名艺术家 mention 与 attribution endpoint 指向 Gianantonio Guardi；与已映射该 KU 的 `cand-1245` 为同一人。将候选类型由 `work` 更正为 `person`。 |
+| `cand-9902` Schulenburg portrait | 保持 `new`；映射 `units/works/portrait-of-schulenburg-museo-correr-pignatti-1960` | Haskell p.313 n.1 报告 Museo Correr 有一幅归于 Gian Antonio Guardi 的舒伦堡肖像；不等同于图版53a骑马肖像。Pignatti 1960 p.105 与馆方目录未独立核查。 |
+| `cand-9916` painting referred to as “Sala del Maggior Consiglio” | 保持 `new`；映射 `units/works/sala-del-maggior-consiglio-painting-haskell-p316` | Haskell p.316 n.2 转引 Zimmermann pp.199–203 将该画归于两位 Guardi；区分同名大厅地点。印本/OCR差异沿用现有 S2 校读记录，本批未重新核看页图；未确认目录身份、年代或现藏地点。 |
+
+本批新建2张 works KU；Museo Correr 与两位 Guardi 复用既有 KU。所有变更在 `alignment.csv` 保留原决定、候选映射、来源和本记录引用。未新增身份冲突或外部身份标识。
+
+#### p.316 attribution 旧分类更正
+
+较早的第10章 p.316 处理记录将 Francesco 与 Gianantonio 两条 statement 描述为相互冲突的归属报告。本批对照现存 Haskell 注2转录，句中把 “Gianantonio and Francesco Guardi” 并列为一件画的归属对象；因此两条 S2 statement 是同一书内联合归属的两个艺术家端点，不是两项相斥归属。本更正限于 Haskell 的转述；Zimmermann pp.199–203 未独立核阅，印本/OCR读法本批也未重新核看页图。相关历史判断保留，本说明取代其“相互冲突”分类。
+
+#### S6 关系候选去向
+
+| S2 statement | 去向 | 理由 |
+|---|---|---|
+| `st-chp10-p313-n01-portrait-attribution` | pending（process-only） | 当前受控关系类型不含 `attributed_to`；不改写成 `created_by`。作者归属仅保留为 Haskell 转述 Pignatti 的书内断言。 |
+| `st-chp10-p313-n01-portrait-museum-location` | pending `rel-2309 located_at` | 表中地点只记录 Haskell 所报位置；`located_at` 需拆分语境，不能据此表达已核实的现今馆藏。 |
+| `st-chp10-p316-n02-sala-attributed-to-francesco-guardi` | pending（process-only） | 受控类型不含 `attributed_to`；保留原 attribution assertion，不映射为 `created_by`。 |
+| `st-chp10-p316-n02-sala-attributed-to-gianantonio-guardi` | pending（process-only） | 同上；对象和两位艺术家身份已可映射，但关系谓词仍未受控。 |
+
+#### 写回与验证范围
+
+已更新两张 works 卡、`accepted.yml`、`ku-manifest.csv`、候选类型及对应 `alignment.csv` 决定；新增一条 pending `located_at` 关系行。没有增加 `attributed_to` 到受控 schema，也没有批量更改关系投影。卡片只记录来源描述及其证据限度。批后指标与严格表审计、关系一致性审计结果在全书结果文件更新。
+
+#### 批后审计与接续基线（2026-10-26）
+
+全书S2仍为15,406条statement、26,861条mention，统一独立复核9,617条（62.42%），本批未改S2及其复核分子。S3主决定12,411/12,431（same 2,093、new 5,067、conflict 9、excluded 104、undecided 5,138）；仍有20个候选缺主决定行，其中16个为关系端点。S4已映射2,350/5,067个new候选，待登记2,717个（直接关系端点1,028，非直接1,689）；KU共3,148个。S5字段14,294条，unverified 1,627。S6裁决1,757/10,622条（formal 1,015、pending 617、rejected 125），尚余8,865条；relations.csv 2,309行（formal 2,273、pending 36）。candidate-backlog.csv有49条（14 completed、35 undecided，严格pending=0）。严格表审计：errors=[]、s2_missing=[]、alignment_new_pending_registration=2,717；关系一致性五类阻断均为0。两张新卡复预览均无差异；肖像卡新增一行pending located_at投影。S7未启动。
