@@ -43,12 +43,14 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有新增正式关系。以下7条直接S2关系候选继续待S6逐条核对；其中雕塑方案的放弃、作者限定及作品组成保持各自范围：
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [圣依纳爵生平与奇迹浅浮雕组（Bas-reliefs of the Life and Miracles of St Ignatius）](gesu-st-ignatius-bas-reliefs-life-miracles.md) | The two source statements support one containment edge; the page break is preserved in their source anchors.；角色：Decorative relief group within the altar；范围：Records Haskell’s description of the relief group within the altar and embedded in its colour and ornament; no individual panel, material, completion, survival, or independent location is asserted.；原断言与证据见发出端卡片“圣依纳爵生平与奇迹浅浮雕组（Bas-reliefs of the Life and Miracles of St Ignatius）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p.92 L177 continuing at p.93 L180; PDF physical pp.34–35; statements=st-chp3-seciv-l165-177-subtle-basreliefs-described-across-page;st-chp3-seciv-l179-187-altar-reliefs-embedded-in-ornament |
+
+当前有1条formal关系：祭坛包含圣依纳爵生平与奇迹浅浮雕组（反向投影`contains`），对应两条S2断言复用同一`part_of`边；另有5条直接S2关系候选待S6。方案放弃、耶稣会资助权、谈判过程、Tirso决定和禁评均保留各自范围；浅浮雕只记录为祭坛组成部分，不识别单幅作品：
 
 - `st-chp3-seciv-l165-177-doctors-figures-scheme-abandoned`
 - `st-chp3-seciv-l165-177-jesuits-had-money-and-patronage-rights`
 - `st-chp3-seciv-l165-177-pozzo-threatened-withdrawal-and-debates-continued`
-- `st-chp3-seciv-l165-177-subtle-basreliefs-described-across-page`
 - `st-chp3-seciv-l165-177-tirso-final-decision-may-1695`
 - `st-chp3-seciv-l165-177-tirso-forbade-further-criticism`
-- `st-chp3-seciv-l179-187-altar-reliefs-embedded-in-ornament`

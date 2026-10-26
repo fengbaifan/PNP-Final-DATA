@@ -16315,3 +16315,24 @@ S2 statements/mentions 与统一独立复核分子均未改变；本批不计作
 #### 定向投影与批后状态
 
 新关系影响圣人、作品、作者、St Peter’s及Lanfranco壁画五张卡。五卡逐张预览后定向渲染；Lanfranco卡原“当前没有登记正式关系”占位句已移除，再由关系表生成 `has_subject` 正向投影。批后 `build_field_facts.py` 复预览为 `record_changes=0`、`new_ids=0`、`source_registry_changes=0`；五卡复预览均无差异。严格表审计通过：KU=3,185，alignment=12,780且 `alignments_unlinked=0`，S2 statements=15,432、mentions=26,861，S5=14,402（1,627 `unverified`），relations.csv=2,366（2,330 formal、36 pending），backlog=49（14 completed、35 undecided、严格pending=0），`errors=[]`、`s2_missing=[]`。关系一致性阻断 `broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed` 均为0；另有1,364个零关系KU及2个超50连接对象，属全库非阻断诊断。批后S3有效决定12,431/12,431（same 2,098、new 5,086、conflict 9、excluded 106、undecided 5,132）；S4映射2,404/5,086，待登记2,682（直接关系端点1,006、其他1,676）；S6裁决1,820/10,647（1,070 formal、624 pending、126 rejected），余8,827。S2统一独立复核仍为9,617条（62.32%，未接收）；本批新增statement及本批自查不计入分子。S3–S6全书阶段仍未收口。
+
+<a id="s4-s5-s6-chp3-p92-93-st-ignatius-altar-basreliefs-20261027"></a>
+### 第3章 pp.92–93圣依纳爵祭坛浅浮雕组端点（2026-10-27）
+
+**S4复用既有身份组。** `cand-5436`沿用S3 `new`组`workgrp-0a86089876cb01`；把`aln-5617`映射至[圣依纳爵生平与奇迹浅浮雕组](../../../04-knowledge/units/works/gesu-st-ignatius-bas-reliefs-life-miracles.md)。对象边界为原书所述一组浅浮雕，不拆成单幅，也不推断材质、年代、完工、存世或外部实物身份。关联祭坛KU `cand-5420` 已指向[耶稣堂圣依纳爵小堂大祭坛方案](../../../04-knowledge/units/works/gesu-st-ignatius-great-altar-project.md)；圣依纳爵 `cand-1309` 复用既有人物KU。
+
+**S2定向补关系。** 两条既有statement分别记祭坛包含浮雕组（`st-chp3-seciv-l165-177-subtle-basreliefs-described-across-page`）及浮雕嵌于祭坛色彩与装饰（`st-chp3-seciv-l179-187-altar-reliefs-embedded-in-ornament`）。二者保留原方向与跨页续句锚点；新增`st-chp3-seciv-l165-177-bas-reliefs-have-subject-ignatius`，以第93页L180的“miracles of St Ignatius”为主锚，并显式链接回第92页L177的句首。新statement复用已有`cand-5436`与圣依纳爵mention，不增加mention；不计S2统一独立复核分子。
+
+**S5来源字段。** 新卡记录原书描述性称名及“浅浮雕组”类型两项source-backed字段（`enr-18317`–`enr-18318`），来源均为Haskell第3章pp.92–93；不填未见的材质或正式单幅题名。
+
+**S6逐项裁决。**
+
+| S2关系候选 | 决定 | 正式关系及理由 |
+|---|---|---|
+| `st-chp3-seciv-l165-177-subtle-basreliefs-described-across-page` | formal | 复用`rel-2367 part_of`（浮雕组→祭坛）；原statement是祭坛→其浅浮雕特征，正式边按对象包含方向记录。 |
+| `st-chp3-seciv-l179-187-altar-reliefs-embedded-in-ornament` | formal | 复用`rel-2367 part_of`；“嵌于祭坛色彩与装饰”支持同一组成关系，不重复建边。 |
+| `st-chp3-seciv-l165-177-bas-reliefs-have-subject-ignatius` | formal | `rel-2368 has_subject`（浮雕组→圣依纳爵·罗耀拉）；完整被表现内容由跨页句支持，不分配具体场景。 |
+
+`rel-2367`–`rel-2368`是两条新增正式边，对应三项formal决定。祭坛卡已有的七项直接待裁候选中，两条浅浮雕候选已关闭，另五条仍逐项待S6：雕像方案放弃、耶稣会经费及赞助权、Pozzo撤回威胁与持续争论、Tirso的1695年决定、禁止继续批评。
+
+**定向投影和核对。** 只渲染浅浮雕组、祭坛及圣依纳爵三张卡；写后字节核验通过，三卡复预览无差异。S5复预览`record_changes=0`、`new_ids=0`、来源注册变更0。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性五类阻断均为0。批后S2为15,433 statements／26,861 mentions，统一独立复核仍9,617条、未接收；S3决定未改。S4映射2,405/5,086；S5 14,404条（1,627条unverified）；S6 1,823/10,648（1,073 formal、624 pending、126 rejected）；relations.csv 2,368条（2,332 formal、36 pending）。详见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。

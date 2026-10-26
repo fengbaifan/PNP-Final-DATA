@@ -70,7 +70,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [圣依纳爵故居连廊装饰（Decoration of the Corridor Linking St Ignatius’s Former Rooms）](../works/pozzo-corridor-decoration-s-ignazio.md) | Evidence: In them he depicted various aspects of St Ignatius’s sojourn in this world and the next. S2 statement: st-chp3-seciv-l130-139-scenes-depict-ignatius.；角色：题材人物；范围：走廊场景描绘圣依纳爵此世与来世经历。；原断言与证据见发出端卡片“圣依纳爵故居连廊装饰（Decoration of the Corridor Linking St Ignatius’s Former Rooms）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；line 132; print p. 89; PDF physical p. 31 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [圣依纳爵生平与奇迹浅浮雕组（Bas-reliefs of the Life and Miracles of St Ignatius）](../works/gesu-st-ignatius-bas-reliefs-life-miracles.md) | The subject identity reuses the existing Ignatius of Loyola KU; no separate panel-level subjects are inferred.；角色：Saint represented by the relief group；范围：The group depicts the life and miracles of St Ignatius, as stated across p.92 L177 and p.93 L180; individual scenes are not identified.；原断言与证据见发出端卡片“圣依纳爵生平与奇迹浅浮雕组（Bas-reliefs of the Life and Miracles of St Ignatius）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p.92 L177 continuing at p.93 L180; PDF physical pp.34–35; statement=st-chp3-seciv-l165-177-bas-reliefs-have-subject-ignatius |
+
 
 **中文：** 直接S2候选（待S6）：st-chp3-seci-l16-24-gregory-canonisation-ignatius, st-chp3-seciv-l130-139-scenes-depict-ignatius, st-chp3-seciv-l141-150-pozzo-adapted-reference-to-ignatius, st-chp3-seciv-l141-150-pozzo-explained-honour-to-ignatius, st-chp3-seciv-l152-163-chapel-conceived-for-founder, st-chp20-p399-nadal-engravings-commission-and-influence, st-chp3-seciv-l141-150-ignatius-encouraged-disciples-rhetorical-question, st-chp3-seciv-l141-150-fresco-depicts-ignatius-transmitting-ray。
 
