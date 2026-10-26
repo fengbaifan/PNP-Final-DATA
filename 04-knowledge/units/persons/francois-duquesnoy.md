@@ -99,5 +99,6 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 所创作对象（`creator_of`） | [弗朗索瓦·迪凯努瓦在圣玛丽亚·迪·洛雷托教堂的《圣苏珊娜》（St Susanna by François Duquesnoy at S. Maria di Loreto）](../works/francois-duquesnoy-st-susanna-s-maria-di-loreto.md) | 角色：Haskell书内归属陈述中的创作者；范围：仅限第4章所称 St Susanna；未指认具体馆藏版本。；证据：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；line 58; print p. 104; PDF physical p. 11; S2 statement: st-chp4-sec-ii-l53-63-duquesnoy-created-st-susanna |
+| ← 所创作对象（`creator_of`，反向投影） | [弗朗索瓦·迪凯努瓦所雕的圣安德烈像（St Andrew carved by François Duquesnoy）](../works/francois-duquesnoy-st-andrew-st-peters.md) | Formal direction is work → person; the S2 source statement is person → work.；角色：Sculptor named by Haskell；范围：Haskell says Duquesnoy carved a St Andrew. This records the book’s authorship attribution; no date or specific physical version is asserted.；原断言与证据见发出端卡片“弗朗索瓦·迪凯努瓦所雕的圣安德烈像（St Andrew carved by François Duquesnoy）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；Chapter 2, printed p.36 L54; PDF physical p.17; statement=st-chp2-secii-l52-60-duquesnoy-carves-andrew |
 
 本书语境中已登记 Duquesnoy → St Susanna 的正式 `creator_of` 关系，范围限于哈斯克尔的书内归属陈述。涉及 cand-0952 的其他 S2 关系候选仍按各自端点与证据逐项裁决。

@@ -97,4 +97,8 @@ English: This unit is the painting inside the dome, not the church or architectu
 
 ## 关系与证据
 
-当前没有登记正式关系。S2 中有据的相关关系候选仍待 S6 按端点、方向、语境和证据逐条审查。
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 所涉对象（`has_subject`） | [圣安德烈宗徒（Saint Andrew the Apostle）](../persons/andrew-the-apostle.md) | S3 identity grouping separates this St Andrew from St Andrew Avellino (cand-5069).；角色：Adoring iconographic figure beside the Virgin；范围：Haskell identifies St Andrew among the figures on either side of the Virgin in the dome composition. The “sponsors S. Gaetano” wording is iconographic, not a historical patronage relation.；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；Chapter 3, printed p.72 L79; PDF physical p.10; statement=st-chp3-secii-l74-81-lanfranco-dome-depicts-st-andrew |

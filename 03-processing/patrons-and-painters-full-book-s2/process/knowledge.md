@@ -16264,10 +16264,54 @@ S2 statements/mentions 与统一独立复核分子均未改变；本批不计作
 
 **范围和口径。** 以当前`entity-candidates.csv`与`alignment.csv`按`candidate_id`连接。每个候选优先采用`external_source`为空的主行；只有单条来源限定记录的候选以该行作当前决定。逐条比较主行与外部来源行的decision和KU目标；组字段复扫仅识别`resolution_note`开头或分号后明确的`group=`赋值，不将`prior_group`、`previous_group`或历史段落中的组名直接当作当前组。
 
-**跨来源差异结果。** 当前有26个候选、33条来源限定记录的decision与主行不同：person 24、archive 1、work 1。其中25个主行`new`候选对应32条外部`same`记录，全部指向主行已经映射的同一KU；没有目标不一致。25个候选为：person `cand-0024`、`cand-0265`、`cand-0266`、`cand-0449`、`cand-0453`、`cand-0459`、`cand-0461`、`cand-0473`、`cand-0639`、`cand-0674`、`cand-0867`、`cand-0952`、`cand-0995`、`cand-1116`、`cand-1339`、`cand-1379`、`cand-1879`、`cand-1880`、`cand-2093`、`cand-2326`、`cand-2327`、`cand-2783`、`cand-12426`；work `cand-7308`；archive `cand-7349`。这些行表达“先登记书内new身份组，外部来源随后确认同一KU”，不是身份冲突。
+**跨来源差异结果。** 当前有28个候选、35条来源限定记录的decision与主行不同：person 25、archive 1、work 2。其中27个主行`new`候选对应34条外部`same`记录，全部指向主行已经映射的同一KU；没有目标不一致。27个候选为：person `cand-0024`、`cand-0265`、`cand-0266`、`cand-0449`、`cand-0453`、`cand-0459`、`cand-0461`、`cand-0473`、`cand-0639`、`cand-0674`、`cand-0867`、`cand-0952`、`cand-0995`、`cand-1116`、`cand-1339`、`cand-1379`、`cand-1879`、`cand-1880`、`cand-2093`、`cand-2326`、`cand-2327`、`cand-2783`、`cand-12426`、`cand-4412`；work `cand-7308`、`cand-4413`；archive `cand-7349`。其中`cand-4412`与`cand-4413`的外部`same`行分别映射至圣安德烈宗徒KU和Duquesnoy圣安德烈像KU，表达外部身份确认，不是同既有主对象合并。
 
 唯一未平差异为`cand-2328`：主行保留来源局部`new`组并映射到Stefano Sagredo KU；Princeton University Art Museum对象8051的来源限定行`aln-12663`保持`undecided`、无KU目标。现有记录以“possibly”表述其关联，且出生年份出现1633与1653之差；在来源关联证据足以消除该差异前，不把外部记录改为`same`，也不撤销候选的书内身份组。
 
-**身份组字段扫描。** 当前5,085条`new`主决定中，5,007条至少有一个可解析`group=`赋值；78条没有（person 30、archive 41、work 4、place 3）。14条注记解析出多个不同组字符串，须结合`prior_resolution_note`、旧决定及后续S4登记文字辨认当前值，不能仅按字符串数量判为多组。按首个显式当前`group=`赋值作结构筛查，共4,772个不同组标签；本次未发现同一标签跨越不同候选类型或指向多个KU。该筛查只检查记录一致性，不代替身份语义审核；78条缺组和14条多字符串记录保留为后续逐项核实对象。2026-10-23的53条缺组、33条多组为历史快照，不再作为当前计数。
+**身份组字段扫描。** 当前5,086条`new`主决定中，5,007条至少有一个可解析`group=`赋值；79条没有（person 31、archive 41、work 4、place 3）。14条注记解析出多个不同组字符串，须结合`prior_group`、旧决定及后续S4登记文字辨认当前值，不能仅按字符串数量判为多组。按首个显式当前`group=`赋值作结构筛查，共4,773个不同组标签；本批为`cand-4412`补入单一人物组，不改变其他组标签；未发现同一标签跨越不同候选类型或指向多个KU。该筛查只检查记录一致性，不代替身份语义审核；79条缺组和14条多字符串记录保留为后续逐项核实对象。2026-10-23的53条缺组、33条多组为历史快照，不再作为当前计数。
 
 **结论与交接。** 本次只核对alignment表与已有KU目标，未修改任何alignment决定、组标签或S2判断；S2独立复核状态不变。跨来源decision差异共26项，其中25项已解释为new/same且同一KU；仅cand-2328的外部身份关系仍待证。下一步先按类型补核缺组及历史标签记录，再处理S3 undecided；直接关系端点按当前结果页所列优先序交接S4/S6。
+
+<a id="s3-s4-s5-s6-andrew-endpoints-chp2-p36-20261027"></a>
+### S3–S6：第2章 p.36 Duquesnoy 圣安德烈像与跨章圣人身份（2026-10-27）
+
+#### 触发、分组与身份决定
+
+本批从未登记作品候选 `cand-4413` 的 S4 关系端点触发，并一并处理其主语所指的圣人候选 `cand-4412`。后者在第2章 p.36、第3章 pp.71–72及p.87 共5处以 “St Andrew” 出现；同一候选分别指Amalfi主保、S. Gaetano旁的图像人物、被描绘生平的圣人及S. Andrea della Valle图像语境中的人物。Comune di Amalfi 官方页面称Sant’Andrea Apostolo为Amalfi主保（网页标题及第8、10行），因此这组跨章来源锚点归入圣安德烈宗徒，而非只以同名作合并。书中另有全名“St Andrew Avellino”候选 `cand-5069`（mention `m-chp3-secii-l74-81-0038`），保持独立，不并入本组。无证据支持补写宗徒生平或年代。
+
+- `cand-4412`：由 `undecided` 改为 `new`，身份组 `new-person:andrew-apostle-11d9641a3b`，登记至 `units/persons/andrew-the-apostle`。本书没有精确匹配的既有Saint Andrew Apostle KU；Comune 记录用于消歧 Amalfi 主保的单名指称。来源限定外部行 `aln-12782` 标 `same` 并指向该KU，表达外部记录核实身份，主行仍保留书内新组决定。
+- `cand-4413`：沿用既有 `new` 组 `workgrp-dc86e847553771`，登记到 `units/works/francois-duquesnoy-st-andrew-st-peters`。Zeri目录80210（Fototeca Zeri，Università di Bologna）记录题名 *Sant’Andrea*、对象类型 statua、主体 Sant’Andrea、作者 Du Quesnoy François、最后已知地点 Basilica di S. Pietro；上述对象、作者及地点特征与Haskell所述作品相合。来源限定外部行 `aln-12783` 标 `same` 并指向该KU，范围是身份核对，不表示Zeri条目证明Haskell的具体委托或关系表述。
+- Zeri 同一条目把年代列作“sec. XVII, terzo quarto”，又在起止日期栏写“1633 ca. – 1639 ca.”，两栏互不一致。记录保留这项目录内部冲突，不用任一栏给本作定年；也不把作者个人生卒年误作作品年代。条目所记材质为 marmo（大理石），Haskell未给材质。
+
+本批另外复用既有的 François Duquesnoy 人物KU、St Peter’s Basilica 地点KU、Lanfranco穹顶壁画KU，以及原有 mention 和 S2 创作statement。没有把圣人并入作品，也没有把“last known location”改写为当前所在地。
+
+#### S2 定向补录
+
+沿用 p.36 L53–54 的既有 mentions 和原书版面核对结果，新建2条 statement：
+
+| statement | 端点 | 原文范围与边界 |
+|---|---|---|
+| `st-chp2-secii-l52-60-andrew-intended-for-st-peters-niche-programme` | `cand-4413` → `cand-3135` | p.36 L53–54先述圣彼得大殿四圣人壁龛委托、受选雕塑家，继而称Duquesnoy雕刻St Andrew；仅记委托语境，不指明具体壁龛或实际安装。 |
+| `st-chp2-secii-l52-60-andrew-work-has-subject-saint` | `cand-4413` → `cand-4412` | p.36 L54“carved a St Andrew”；作品和被表现的圣人分别建模，不推断其他图像属性。 |
+
+两条新增statement均有稳定source span，复用原 mentions；不计入统一S2独立复核分子，也不表示第2或第3章已完成独立语义接收。既有 `st-chp2-secii-l52-60-andrew-controversy-barque-touchstone` 保留争议及未具名评论者对作品的使用这一接受史断言，不将Baroque术语误作批评者端点。
+
+#### S4 / S5
+
+新增两个 KU：人物 `units/persons/andrew-the-apostle`、作品 `units/works/francois-duquesnoy-st-andrew-st-peters`；均登记进manifest与accepted范围。两卡字段表提取并写入 `enrichment.jsonl` 七条 source-backed 记录 `enr-18310`–`enr-18316`，包含人物身份消歧、作品书内称名及类型、Haskell接受史、Zeri目录身份、材质和年代栏位冲突。无unverified字段；来源注册表新增 Comune 与 Zeri 两条记录。Zeri链接为 [条目80210](https://catalogo.fondazionezeri.unibo.it/scheda.v2.jsp?apply=true&decorator=layout_resp&id=82055&locale=en&tipo_scheda=OA)，Amalfi市府链接为 [Sant’Andrea Apostolo页面](https://comune.amalfi.sa.it/Vivere-il-comune/Eventi/Celebrazioni-in-onore-di-Sant-Andrea-Apostolo3)；均访问于2026-10-27。Zeri页面字段身份、材质、地点和内部年代不一致分别按其记录原样限定。
+
+#### S6 逐候选裁决
+
+| relation candidate | 决定 | 关系边或理由 |
+|---|---|---|
+| `st-chp2-secii-l52-60-duquesnoy-carves-andrew` | formal | `rel-2363 created_by`：作品 → François Duquesnoy；只记录Haskell的作者归属，不推定日期或具体实物版本。 |
+| `st-chp2-secii-l52-60-andrew-work-has-subject-saint` | formal | `rel-2364 has_subject`：作品 → 圣安德烈宗徒；p.36原句支持作品表现St Andrew，跨章身份由Amalfi主保语境消歧。 |
+| `st-chp2-secii-l52-60-andrew-intended-for-st-peters-niche-programme` | formal | `rel-2365 intended_for`：作品 → St Peter’s Basilica；相邻句支持四圣人壁龛委托语境，不主张确切壁龛或完工安装。 |
+| `st-chp3-secii-l74-81-lanfranco-dome-depicts-st-andrew` | formal | `rel-2366 has_subject`：Lanfranco穹顶壁画 → 圣安德烈宗徒；第3章 p.72 L79的图像描述直接支持。 |
+| `st-chp2-secii-l52-60-andrew-controversy-barque-touchstone` | rejected（不建图谱边） | 接受史断言仍保存在S2；关系候选的现有端点为作品和Baroque术语，不能表达“未具名且立场明确的批评者将作品当作论争触点”这一命题。没有适配的受控谓词或已识别批评者端点，故拒绝图谱边，不删原断言、不把评论者并入Baroque。 |
+
+四条formal决定各有Haskell具体页行与对应statement证据；拒绝项保留S2来源断言及S6理由。没有待证关系；对年代矛盾的处理属于S5来源字段限制，不改写身份为conflict。
+
+#### 定向投影与批后状态
+
+新关系影响圣人、作品、作者、St Peter’s及Lanfranco壁画五张卡。五卡逐张预览后定向渲染；Lanfranco卡原“当前没有登记正式关系”占位句已移除，再由关系表生成 `has_subject` 正向投影。批后 `build_field_facts.py` 复预览为 `record_changes=0`、`new_ids=0`、`source_registry_changes=0`；五卡复预览均无差异。严格表审计通过：KU=3,185，alignment=12,780且 `alignments_unlinked=0`，S2 statements=15,432、mentions=26,861，S5=14,402（1,627 `unverified`），relations.csv=2,366（2,330 formal、36 pending），backlog=49（14 completed、35 undecided、严格pending=0），`errors=[]`、`s2_missing=[]`。关系一致性阻断 `broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed` 均为0；另有1,364个零关系KU及2个超50连接对象，属全库非阻断诊断。批后S3有效决定12,431/12,431（same 2,098、new 5,086、conflict 9、excluded 106、undecided 5,132）；S4映射2,404/5,086，待登记2,682（直接关系端点1,006、其他1,676）；S6裁决1,820/10,647（1,070 formal、624 pending、126 rejected），余8,827。S2统一独立复核仍为9,617条（62.32%，未接收）；本批新增statement及本批自查不计入分子。S3–S6全书阶段仍未收口。
