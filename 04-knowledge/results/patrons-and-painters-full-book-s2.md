@@ -1,6 +1,8 @@
 # 《赞助人与画家》全书 S2 语义处理、S3 身份对齐与交接结果
 
 ### 近期批次记录（2026-10-27）
+
+**本批完成：第13章 p.338 注2《Lettera Giustificativa di Antonio Zatta》直接档案端点（2026-10-27）。** `cand-10179` 经新目录证据触发定点 S3 复核，仍为 `new`，映射至新 archive KU `units/archives/zatta-lettera-giustificativa-1761`；Librinlinea `UBOE004259` 与 ADABI `1059964` 支持其独立书目身份，并与同注的致未具名公爵书信区分。S5新增9条有来源的目录字段；唯一相关S6候选裁为范围限定的formal并新增 `rel-2371 authored_by`。两张受影响卡定向渲染并复预览无差异；严格表审计与关系一致性阻断均为0。S2内容及独立复核覆盖不变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-archive-zatta-lettera-giustificativa-20261027)。
 **本批完成：第3章 pp.92–93圣依纳爵祭坛浅浮雕组端点。** 沿用`cand-5436`既有S3 `new`组，登记1个作品KU并将`aln-5617`映射至该组；圣依纳爵与祭坛复用既有KU。新增1条S2 has-subject statement、无新增mention；补2条Haskell source-backed字段。三项S6决定均formal，共新增`rel-2367 part_of`、`rel-2368 has_subject`两条边；祭坛卡所列七项直接候选中另五项仍待S6。三张受影响卡定向渲染、复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断均为0。新增statement不计入独立复核分子；未推断材质、年代、单幅作品或外部实物身份。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-p92-93-st-ignatius-altar-basreliefs-20261027)。
 
 
@@ -3641,10 +3643,10 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
 | S2 | 15,433 statements、26,861 mentions；统一独立复核9,617/15,433（62.31%） | 尚未独立接收；简单相减的5,816条只表示未进入当前统一分子的数量差，不等同连续待审游标。本批不新增statement或mention，不计入独立复核分子。 |
 | S3 | 主决定12,431/12,431（100%）：same 2,099、new 5,085、conflict 9、excluded 106、undecided 5,132 | 28个候选存在跨来源decision差异（person 25、archive 1、work 2）：其中27个new/same候选的34条外部same记录均指向主行相同KU；cand-2328的Princeton来源记录aln-12663仍为undecided，身份对应及1633/1653年差异尚待证。当前new组字段扫描：5,006条有可解析group赋值、79条缺少（person 31、archive 41、work 4、place 3），另14条注记含多个不同组字符串；按首个显式当前group计4,772个不同标签。详见[S3复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-cross-source-and-group-reconciliation-20261027)。 |
-| S4 | new候选已映射2,405/5,085（47.30%）；待映射2,680，其中直接关系端点1,004、其他1,676；KU共3,186 | 直接端点口径为关系候选subject/object候选ID且有效S3决定为`new`、尚无KU；优先采用`external_source`为空的主行。22个仅有来源限定行的候选各有唯一决定。 |
-| S5 | 14,404条字段，1,627条unverified | 本批无字段增量；既有unverified记录未减少。 |
-| S6 | 已裁决1,826/10,648（17.15%）：formal 1,075、pending 624、rejected 127；尚余8,822 | 本批新增2项formal、1项rejected决定及2条正式`held_office`边；拒绝项保留在S2断言与过程记录中。 |
-| 正式关系表 | 2,370行：2,334 formal、36 pending | 最新新增`rel-2369`–`rel-2370`；此前圣依纳爵浅浮雕批次新增`rel-2367`–`rel-2368`，第2章p.36新增`rel-2363`–`rel-2366`。 |
+| S4 | new候选已映射2,406/5,085（47.31%）；待映射2,679，其中直接关系端点1,003、其他1,676；KU共3,187 | 直接端点口径为关系候选subject/object候选ID且有效S3决定为`new`、尚无KU；优先采用`external_source`为空的主行。23个仅有来源限定行的候选各有唯一决定。 |
+| S5 | 14,413条字段，1,627条unverified | 本批新增9条外部source-backed书目字段（`enr-18319`–`enr-18327`）；unverified计数未变。 |
+| S6 | 已裁决1,827/10,648（17.16%）：formal 1,076、pending 624、rejected 127；尚余8,821 | 本批新增1项范围限定formal决定及`rel-2371 authored_by`；S2断言保留来源归属边界。 |
+| 正式关系表 | 2,371行：2,335 formal、36 pending | 最新新增`rel-2371 authored_by`；此前新增`rel-2369`–`rel-2370`、圣依纳爵浅浮雕批次`rel-2367`–`rel-2368`及第2章p.36的`rel-2363`–`rel-2366`。 |
 | 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 49条（14 completed、35 undecided） | 严格审计backlog pending=0；未决端点或backlog项须有明确待证理由和解除条件。 |
 
 S3未决候选与S4未映射直接关系端点的类型分布：

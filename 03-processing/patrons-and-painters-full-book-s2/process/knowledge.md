@@ -16368,3 +16368,29 @@ S4把`cand-8450`登记为指向既有总督职务KU的`same`映射；无需新�
 预览后定向渲染Marco Foscarini、Paolo Renier及总督职务3张卡；写后3卡预览均无差异。批后全书：S3主决定12,431/12,431，same 2,099、new 5,085、conflict 9、excluded 106、undecided 5,132；new组5,006条有可解析group、79条缺group、14条注记含多个组字符串、4,772个不同标签。S4 new映射2,405/5,085，待映射2,680（直接关系端点1,004、其他1,676），KU=3,186。S5为14,404条字段、1,627条unverified。S6已裁决1,826/10,648（formal 1,075、pending 624、rejected 127），未裁决8,822；`relations.csv`共2,370条（formal 2,334、pending 36）。
 
 严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断`broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed`均为0。S2 statement/mention数量及独立复核分子未变。
+
+<a id="s3-s4-s5-s6-archive-zatta-lettera-giustificativa-20261027"></a>
+### S3/S4/S5/S6：第13章 p.338 注2《Lettera Giustificativa di Antonio Zatta》书目端点（2026-10-27）
+
+#### 触发与身份复核
+
+- S4直接关系端点 `cand-10179`（`archive`）已有 S3 `new` 决定和组 `archive-group-3f9a2704ed51`，对应S2关系候选 `st-chp13-p338-note2-zatta-justificatory-letter`。原书 p.338 注2 L210 记作 “Lettera Giustificativa di Antonio Zatta, Venezia, 1761.”
+- 该候选与同一注所列的 Zatta 致未具名公爵书信是两个分别点名的出版物。既有[书信卡](../../../04-knowledge/units/archives/zatta-letter-to-unnamed-duke-1761.md)也明确将二者区分；不得因作者、年份相同而合并。
+- 新证据触发定点 S3 复核。Librinlinea 书目项 `UBOE004259` 单列为 Antonio Zatta 名下的 1761 专著；ADABI / Biblioteca Palafoxiana 记录 `1059964` 列出完整题名、Zatta 主责任者、Venezia／presso Antonio Zatta／1761 及 83 页、八开本。Librinlinea 详情页未能由当前网页读取器载入，故题名完整形式、出版细节以 ADABI 记录为准；本批未读取刊本正文。
+- 复核后 `aln-10351` 保留 `new`，将 `external_source=Librinlinea`、`external_id=UBOE004259`、`accessed_date=2026-10-27` 登记为本候选的书目身份入口；S4映射到新卡 `units/archives/zatta-lettera-giustificativa-1761`。不映射到公爵书信 KU，也不为出版地点另造关系端点。
+
+#### S4与S5
+
+新登记 archive KU `units/archives/zatta-lettera-giustificativa-1761`，类型为已出版书籍。卡片保留完整目录题名及描述性双语显示题名，区分题名所指辩护信与该书目题名所称附载答复信。新增9条外部 source-backed 字段（`enr-18319`–`enr-18327`）：描述性题名、原题、文献类型、责任者著录、出版者、出版地、出版年、物理形态及两个书目身份入口。外部来源为 Librinlinea `UBOE004259`（`src-562401e45fc11527`）与 ADABI `1059964`（`src-79f74dc0801018a6`）；字段预检 `unverified=0`、重复 occurrence=0，写入 `sources.csv` 两条新来源。没有声称全文已读，也没有加入 catalog record 的馆藏持有信息。
+
+#### S6逐项裁决
+
+| S2关系候选 | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp13-p338-note2-zatta-justificatory-letter` | formal | 新增 `rel-2371 authored_by`（辩护信书目对象→Antonio Zatta）。ADABI将Zatta列为该书目记录的主责任者，Librinlinea独立列出同名专著；关系范围限于题名所指的 *Lettera giustificativa*，不宣称Zatta独自撰写全册或另一封答复信。1761为刊本出版年，不编码为成文时间。未读取刊本正文，形式记录的是目录著录与题名责任归属。 |
+
+S2 statement、mention及独立复核分子均未改。S6 本批只处理上述一个既有候选；未从目录中递归扩展新的作者、收信人或政治关系。
+
+#### 卡片与批后核验
+
+预览后仅定向渲染新档案卡与 Antonio Zatta 人物卡；两卡写后字节核验通过，复预览均无差异。`build_field_facts.py --ku units/archives/zatta-lettera-giustificativa-1761` 复预览 `record_changes=0`、`new_ids=0`、`source_registry_changes=0`。全库严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。批后快照与阶段增量见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。

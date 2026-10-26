@@ -55,7 +55,7 @@ sources:
     source_file: 02-sources/02-Markdown/13_CHP-13_intro.md
     source_span: lines 70–77; print p. 339; “two centuries”及“first”均为原书评价，未作外部书目核验。
 created: '2026-10-16'
-updated: '2026-10-16'
+updated: '2026-10-27'
 process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md
 ---
 
@@ -81,10 +81,16 @@ The person main entry is `UVWXYZ.csv#202`, indexed at pp. 335, 338, and 339. Cha
 
 ### 身份边界
 
-中文：卡片限于本书对出版商 Antonio Zatta 的称名与叙述，不补写生卒年或外部身份核验。关于同时代人称其为耶稣会平信徒成员的内容明确保留为转述；相关注释所引材料未独立查阅。作品、版次、书目记录与政治关系保持独立候选，不因出版行为自动登记关系；S2 关系候选留待 S6，本卡未新增正式关系。
+中文：卡片限于本书对出版商 Antonio Zatta 的称名与叙述，不补写生卒年或外部人物身份核验。关于同时代人称其为耶稣会平信徒成员的内容明确保留为转述；相关注释所引材料未独立查阅。作品、版次、书目记录与政治关系仍须按各自证据判断。本轮只新增一条由书目目录支持、范围限于《Zatta辩护信》题名所指文本的正式关系；其余 S2 关系候选仍须逐项审查。
 
-English: This card is limited to the book's account of publisher Antonio Zatta and adds no birth or death dates or external identity check. The statement that contemporaries regarded him as a lay member of the Society of Jesus remains explicitly reported; the cited materials in the note were not independently consulted. Works, editions, bibliographic records, and political ties remain separate candidates; publishing activity does not automatically create formal relations. S2 relation candidates remain for S6, and no formal relations are added here.
+English: This card remains limited to the book's account of publisher Antonio Zatta and adds no birth or death dates or external biographical identity claims. The statement that contemporaries regarded him as a lay member of the Society of Jesus remains explicitly reported; the cited materials in the note were not independently consulted. Works, editions, bibliographic records, and political ties are assessed on their own evidence. This update adds one catalogue-supported formal relation, limited to the text named by the title of Zatta's justificatory letter; the remaining S2 relation candidates still require individual review.
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 逐项审查。仅有一条正式关系已登记：题名所指辩护信的书目作者归属；来源及范围见下表。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《Zatta辩护信》（Zatta's Justificatory Letter, 1761）](../archives/zatta-lettera-giustificativa-1761.md) | S6 formal：目录记录支持题名所指辩护信的书目责任归属；刊本文字未读。与同注所列致未具名公爵书信为不同出版物；角色：题名中辩护信作者／目录主责任者；范围：仅指合册题名中的 Lettera giustificativa；不将附载的答复信归于 Zatta。出版年1761不作为成文时间。；原断言与证据见发出端卡片“《Zatta辩护信》（Zatta's Justificatory Letter, 1761）”：[来源](https://www.adabi.org.mx/vufind/Record/1059964)；src-79f74dc0801018a6；ADABI record 1059964, title and principal-author fields; Librinlinea record UBOE004259, title and imprint; S2 statement=st-chp13-p338-note2-zatta-justificatory-letter |
