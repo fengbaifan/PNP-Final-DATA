@@ -16514,3 +16514,34 @@ S5新增12条来源字段：Ceci、Vaes 1924与1925文章的期刊／年份／�
 裁决链：第8章p.229（L220）称Francesco Maria为Ferdinand的叔父；p.241（L364）将进一步借出的威尼斯画作归于“Cardinal Medici”。Treccani《意大利人传记辞典》Francesco Maria条记载其为Ferdinand的叔父，1686年受任枢机，至1708年仍任教廷职务，并于1709年离开枢机身份；这些年代覆盖1706年展览。[Francesco Maria de' Medici 条目](https://www.treccani.it/enciclopedia/francesco-maria-de-medici_(Dizionario-Biografico)/)（访问日期：2026-10-27）。Leopoldo条记载其于1675年去世，[Leopoldo de' Medici 条目](https://www.treccani.it/enciclopedia/leopoldo-de-medici_(Dizionario-Biografico)/)（访问日期：2026-10-27），故不能作为1706年出借者。索引M.csv#169虽把p.241列在Cardinal Leopoldo名下，但p.241正文并未点名Leopoldo；该页码作为定位信息，与正文亲属语境及权威年代相冲突，按索引定位异常处理，不据此拆分或回并到Leopoldo。
 
 身份比较仅将本书的称谓锚点匹配至Francesco Maria；不把外部传记倒填为原文姓名，也不证明他实际出借了特定画作。`st-chp8-p241-cardinal-medici-loan` 的S6仍为pending：原文未识别“further Venetian paintings”的具体对象，身份匹配不消除作品端点缺口，也不自动确认关系事实。旧的未决理由保留作历史，本节为当前裁决。
+
+
+<a id="s4-s5-s6-ch8-p238-filza-5904-20261027"></a>
+### S3/S4/S5/S6：第8章 p.238 Archivio Mediceo, Filza 5904 档案组（2026-10-27）
+
+#### S3 身份组核对
+
+本批依据第8章印刷页238注1、注3、注6（源文件L443、L445、L448；PDF物理页44）处理三个尚未登记的archive候选。扫描页核对了案卷号和各注定位。检索现有同类型KU，未发现代表Filza 5904系列本身的卡；已登记的Filza 5904 No.299及其他编号均为不同具体文献件，不与本系列或No.475、No.272合并。
+
+- `cand-8040`：维持S3 `new`，身份组 `archive-group-79f3fc310645`，只表示Haskell所载档案定位“Archivio Mediceo, Filza 5904”；不据此认定现代保管机构或案卷层级。
+- `cand-8038`：维持S3 `new`，身份组 `archive-group-6bedb73d4b31`，对应Filza 5904, No.475所指来信底稿。No.475与已登记的No.299是不同文献件；收信人、日期及原件身份未证。
+- `cand-8039`：维持S3 `new`，身份组 `archive-group-38fd2a2d3aeb`，对应Filza 5904, No.272来信。Haskell将3 November 1709作为来信日期并称其报告Crespi返Bologna；不将该日期改写为返程日期。
+
+#### S4/S5 登记
+
+新增3个来源限定archive KU并写入 `ku-manifest.csv` 与 `accepted.yml`；将 `aln-8213`、`aln-8214`、`aln-8215` 分别映射至No.475底稿、No.272来信及Filza 5904定位卡。S5新增7条字段 `enr-18354`–`enr-18360`，均以书内Haskell第8章注释为 `source_backed`。未查阅原件、Crespi刊本或外部档案目录；没有补入保管地、收信人或未见于书内的信件内容。
+
+#### S6 逐条裁决
+
+| S2 statement | 决定 | 写入或保留理由 |
+|---|---|---|
+| `st-chp8-p238-note1-march-april-letter-locators` | formal | Haskell明确以Filza 5904定位1708年3、4月来信；新增 `rel-2392 cites`（《赞助人与画家》→Filza 5904定位卡），范围仅为书目引用，不表示查阅各封信或确认现今保管机构。 |
+| `st-chp8-p238-note3-ferdinand-letter-draft` | formal | Haskell明确称原始底稿在Filza 5904 No.475；新增 `rel-2393 part_of`（No.475底稿→Filza 5904定位卡），范围仅为书内案卷定位。 |
+| `st-chp8-p238-note3-ferdinand-letter-published-by-crespi` | pending | “刊于Crespi p.203”不能在当前受控关系中等同于 `quoted_in`；不以近似谓词改变出版断言。待有合适受控谓词，或刊本/底稿核读后可精确表述时重开。 |
+| `st-chp8-p238-note6-return-letter` | pending | 原文将No.272来信说成“报告”Crespi返博洛尼亚；当前受控关系无法表达“文献报告某事实”而不把二手转述升级为人物—地点事实，且未查阅原件。待出现可准确表达来源报告的关系类型，或取得并核读原件后重开。 |
+
+另记录由同一页引文明确支持的书目/定位边：`rel-2394 cites`（《赞助人与画家》→No.272来信）与 `rel-2395 part_of`（No.272来信→Filza 5904定位卡）。这两条只表达Haskell的引文及Filza定位，不将No.272所报告的返程断言判为formal。除上述4条S2关系候选外，本批未增加statement或mention，也未改变S2统一独立复核分子。
+
+#### 写后核验
+
+三张新卡的字段重提取预览为 `record_changes=0`、`new_ids=0`、`unverified=0`、`warnings=0`；《赞助人与画家》及三张新卡定向渲染后复预览均无差异。严格表审计：KU 3,206；S3候选12,432；alignment未链接0、new待登记2,664；S2 statements 15,442、mentions 26,868、`s2_missing=[]`；S5 14,446字段、1,627条unverified；relations.csv 2,395行（2,358 formal、37 pending）；backlog 49条、pending 0，`errors=[]`。关系一致性五类阻断均为0。本批S2语义处理和统一独立复核覆盖不变。
