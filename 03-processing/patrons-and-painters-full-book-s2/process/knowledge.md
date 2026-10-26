@@ -15695,3 +15695,35 @@ PDF图像复核将S0 OCR中的`lais`校读为`his`、`Use Antonio`校读为`life
 **S4与S5。** 新建五张KU卡并登记manifest与accepted路径；五卡增加17条Haskell `source_backed`字段（作品8、文章5、Maria 1、John 1、Schloss 2），字段预览`warnings=0`、`unverified=0`，应用后复预览`record_changes=0`。未补造墓画作者、文章内容、后续收藏日期或更具体的Oxford机构。
 
 **定向投影与审计。** 对11张受影响卡（5张新卡及Haskell书、Burlington Magazine、墓葬、Oxford、Berlin、Bernhard Rode）定向渲染；所选渲染预检通过，`files_written=11`，写后字节校验通过，11张卡复预览均无差异。全库`build_cards.py --check`仍报`files_to_write=542`，本批未执行全库渲染，故全书投影尚未同步。`audit_tables.py --strict-stage --summary`退出码0，`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py`的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic均为0。新增6条statement不计入统一S2独立复核分子。
+<a id="s3-s4-s5-s6-chp14-p354-tiepolo-algarotti-20261026"></a>
+## S3–S6：第14章 p.354《Bath of Diana》、牛顿光学与1756年书信端点（2026-10-26）
+
+**范围与证据。** 本批按第14章印刷页354 L76–80及注3 L188，核对对应S2 statements、mentions、全书S3映射和现有KU。被引Levey论文、Algarotti书信及 *Opere* 刊本未独立查阅；关系和字段仅表达Haskell的书内报告，不作为外部作品归属或原始文献核验。
+
+**S3跨章身份分组及去向。** S4登记前，重开 `cand-2580` 的 `undecided`：旧理由认为索引候选没有可核的S2正文提及，但当前S2已有同页四条作品提及及两条明确指向该作品的关系候选（委托、Tiepolo归属），旧前提已被更新的S2材料推翻。对照S2原句“a picture by Tiepolo for himself—the Bath of Diana”及同类型KU后，未找到同一作品卡，故裁为来源限定的 `new`，沿用组 `workgrp-cand-2580-bath-of-diana`；不把 `Bath of Diana` 当作经核定的原作正式题名或存世作品，不并入人物候选 `cand-3781`。其余三个S3 `new`决定保持原值，只补充S4映射。跨章比较确认：本批 `cand-12196` 的牛顿光学发现不同于第10章色彩和谐候选 `cand-9939`；1756-05-13致Eustachio Zanotti书信 `cand-10303` 不同于1734年致多名收信人的书信组 `cand-10252`。未据书内书目定位宣称查阅原信、刊本或外部记录。
+
+| 候选 | S3决定／身份组 | S4去向 |
+|---|---|---|
+| `cand-2580` | `new`；`workgrp-cand-2580-bath-of-diana`；由 `undecided` 定点重开 | `units/works/tiepolo-bath-of-diana` |
+| `cand-10303` | 沿用 `new`；`archive-group-e81d4ec423a2` | `units/archives/letter-to-eustachio-zanotti-1756-05-13` |
+| `cand-12196` | 沿用 `new`；`sg3-term-cand-12196` | `units/terms/newton-optical-discoveries-in-painting` |
+| `cand-12198` | 沿用 `new`；`sg3-term-cand-12198` | `units/terms/white-ground-painting-proposal` |
+
+**S4/S5登记。** 四张卡均已加入 `ku-manifest.csv` 与 `accepted.yml`，S3候选逐项映射到各自KU，未声明外部标识。`build_field_facts.py` 预览／应用新增11条Haskell来源支持字段：作品3条、书信3条、牛顿光学术语3条、白底提议2条；均为 `source_backed`，本批字段 `unverified=0`。写入后定向字段预览为 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。
+
+**S2原子statement与S6逐项裁决。** 第14章注3称该信“a letter to Eustachio Zanotti of 13 May 1756”，据此新增一条S2原子statement `st-chp14-p354-note3-letter-addressed-to-eustachio`，主体为该书信候选、客体为既有人物 `cand-2863`，不从收信人推断作者。原信未查阅；新statement不计入S2独立语义复核分子。对与本批四个端点直接关联的8条S6候选逐项裁决：
+
+| S2 statement | S6去向 |
+|---|---|
+| `st-chp14-p354-bath-of-diana-commissioned-for-algarotti` | formal `rel-2298 commissioned_by`：作品→Algarotti；Haskell称其为Algarotti本人委托，未载委托日期或存世版本 |
+| `st-chp14-p354-bath-of-diana-tiepolo-attribution` | formal `rel-2299 created_by`：作品→Tiepolo；只记录Haskell的作者归属，不声称外部核验 |
+| `st-chp14-p354-bath-of-diana-boucher-style` | pending，process-only：这是Haskell的风格比较；不转写成Boucher与Tiepolo直接接触或影响关系，当前无准确受控谓词 |
+| `st-chp14-p354-bath-of-diana-reflects-algarotti-tastes` | pending，process-only：保留Haskell对作品反映Algarotti品味的解释；不改写成委托条件或影响事实 |
+| `st-chp14-p354-algarotti-advocated-study-of-newton-optics` | pending，process-only：当前关系域值域没有准确表达人物倡议研习术语的谓词；不声称艺术家实际采纳 |
+| `st-chp14-p354-new-scientific-knowledge-justifies-practice` | pending，process-only：保留Haskell对Algarotti认识论立场的转述；无准确受控谓词，不泛化为一般科学知识事实 |
+| `st-chp14-p354-note3-white-ground-proposal` | formal `rel-2300 has_subject`：书信→白底绘画提议；限于Haskell注释所述，不核定提议的发明者或起始时间 |
+| `st-chp14-p354-note3-letter-addressed-to-eustachio` | formal `rel-2301 addressed_to`：书信→Eustachio Zanotti；日期照注释书内日期1756-05-13，不据此断言作者 |
+
+以上4项formal写入 `relations.csv`；4项pending保留于本过程记录，不造不准确关系行。另有同一S2段落中其他关系候选不在这四个新登记端点触发范围内，本批未据此宣称第14章 p.354 的S6全部收口。
+
+**定向投影与审计。** 四张新卡及Algarotti、Tiepolo、Eustachio Zanotti三张端点卡先逐卡预览，再定向渲染7张；`files_written=7`，写后字节核验通过，渲染后7张预览均无差异。严格表审计：KU=3,141，候选=12,431，alignment=12,778，new待S4登记=2,727，S2 statements=15,400，mentions=26,861，S5=14,267（1,634 `unverified`），relations.csv=2,301（2,266 formal、35 pending），backlog=49（14 completed、35 undecided、严格审计pending=0），`errors=[]`、`s2_missing=[]`。S3首条主决定为same=2,088、new=5,088、conflict=9、excluded=104、undecided=5,142。S6累计按本批增量更新为1,737/10,616（1,006 formal、606 pending、125 rejected、8,879 undecided）；旧S6映射差异仍为1条。关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。S2统一独立复核仍为9,617条；新增statement尚未复核。本批不改变全书S2、S3–S6未收口及S7未启动的阶段状态。

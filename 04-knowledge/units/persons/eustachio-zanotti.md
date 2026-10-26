@@ -43,9 +43,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡登记书后索引主条“Zanotti, Eustachio”及第14章第348、354页脚注中的Eustachio Zanotti。两处脚注仅提供Algarotti书信的书目定位；中文显示名为项目工作音译。
+**中文：** 本卡登记书后索引主条“Zanotti, Eustachio”及第14章脚注中的Eustachio Zanotti。第354页注3明确将一封1756年5月13日的信称为致其书信；中文显示名为项目工作音译。
 
-**English:** This card records Eustachio Zanotti, indexed as “Zanotti, Eustachio” and named in Chapter 14 footnotes on pages 348 and 354. Both notes provide bibliographic locators for Algarotti's letters; the Chinese display name is a project working transliteration.
+**English:** This card records Eustachio Zanotti, indexed as “Zanotti, Eustachio” and named in Chapter 14 footnotes. Chapter 14, page 354 note 3 explicitly identifies a letter dated 13 May 1756 as addressed to him; the Chinese display name is a project working transliteration.
 
 ### 姓名
 
@@ -57,12 +57,14 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书相关内容
 
-**中文：** 书信内容及Opere卷册未独立查阅；本卡只保留脚注的姓名和书目定位，不转写通信内容，也不据此新增正式关系。
+**中文：** 第14章p.354注3支持该1756年书信至Eustachio Zanotti的收信关系；原信与所引Opere刊本未独立查阅，因此不据此断言作者或信件内容。
 
-**English:** The letters and cited Opere volumes were not independently consulted. This card records only the names and bibliographic locators in the notes, adds no letter content, and creates no formal relation.
+**English:** Chapter 14, page 354 note 3 supports the 1756 letter's addressee relation to Eustachio Zanotti. The letter and cited Opere edition were not independently consulted, so this card does not assert authorship or letter contents.
 
 ## 关系与证据
 
 ### 关系记录
 
-当前没有登记在 relations.csv 中的正式关系。本卡未关联到可归于该身份组的S2关系候选；不从同段共现或索引提及生成正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为收信人（`addressee_of`，反向投影） | [致尤斯塔基奥·扎诺蒂的信（Letter to Eustachio Zanotti, 13 May 1756）](../archives/letter-to-eustachio-zanotti-1756-05-13.md) | No authorship is inferred from the addressee statement.；时间：1756-05-13；角色：addressee；范围：Haskell's note identifies Eustachio Zanotti as addressee; the original letter was not consulted.；原断言与证据见发出端卡片“致尤斯塔基奥·扎诺蒂的信（Letter to Eustachio Zanotti, 13 May 1756）”：[来源](../../../02-sources/02-Markdown/14_CHP-14_intro.md)；haskell-1980-rev-ed；S2 statement: st-chp14-p354-note3-letter-addressed-to-eustachio |
