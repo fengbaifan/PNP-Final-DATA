@@ -15500,3 +15500,52 @@ Francesco Marucelli、Don Antonio Ruffo、Biblioteca Marucelliana及Ruffo 1916�
 **S2、S5与S6。** 新增3条书目责任statement和3条mention，包含cand-12452作者形式及“Marucelli, Francesco / a cura di Guido Biagi”书目子提及；新增4条外部来源记录和31条source-backed字段。四条既有关系候选statement逐项formal：`st-chp6-p158-notes-p158-n1-biagi-mare-magnum`（cites、authored_by）、`st-chp6-p159-note1-schlosser-magnino`（cites）、`st-chp6-p160-note1-avvisi-roma-1941`（cites、part_of）、`st-chp6-p160-note2-jacomo-letter-ruffo`（cites、authored_by、addressed_to、part_of），合计9条候选关系边。另有4条结构性书目责任或馆藏位置边：`rel-2250 authored_by`、`rel-2257 authored_by`、`rel-2258 compiled_by`、`rel-2259 located_at`；因此本批共新增13条formal关系`rel-2247`–`rel-2259`。新statement未计入S2独立复核分子。
 
 **卡片与核验。** 定向渲染15张受影响卡并完成写后字节核验；同目标复跑`files_written=0`。`audit_tables.py --strict-stage --summary`退出码0：KU=3,105、候选=12,430、alignments=12,777、S4待登记=2,771、S2 statements=15,388、mentions=26,856、S5=14,135（1,634 unverified）、relations.csv=2,259（2,226 formal、33 pending）、backlog=48（14 completed、34 undecided、pending=0），`errors=[]`、`s2_missing=[]`。`audit_relation_consistency.py`中broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。本批S2语义修订未增加统一独立复核数，S2仍未独立接收，S3–S6仍未全书收口。
+
+
+<a id="s3-s4-s5-s6-chp6-p164-ottoboni-waterhouse-20261026"></a>
+## S3跨章身份分组与S4–S6：第6章 p.164 奥托博尼端点及 Waterhouse（2026-10-26）
+
+**证据范围。** 核对第6章印刷页164正文及注2、注3、注5，第21章 p.435、p.440 书目条目，以及对应 S2 候选、mention 和 statement。外部核对限于 [JSTOR《The Burlington Magazine》95(601)目录](https://www.jstor.org/stable/i236434)、[National Gallery Archive NGA16](https://www.nationalgallery.org.uk/research/research-centre/archive/record/NGA16)、[Bowes Museum Ottoboni作品页](https://thebowesmuseum.org.uk/collections/cardinal-pietro-ottoboni/)、[Trevisani DBI](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)及[Ottoboni DBI](https://www.treccani.it/enciclopedia/pietro-ottoboni_(Dizionario-Biografico)/)。Waterhouse 文章正文、Haskell 所引 p.120、de Caesaris 清单及 Rava 文章均未在本批阅读。
+
+**S3跨章身份与S4去向。** JSTOR 当期目录将精确文章题名、作者形式 E. K. Waterhouse 与 pp.120–123 对应；NGA16 行政史将馆藏记录中的 Waterhouse 明确为 Sir Ellis Kirkham Waterhouse。`cand-2802` 因此由 `undecided` 改为 `same`，复用 `units/persons/ellis-waterhouse`。NGA16 是档案集合记录，不作为人物外部标识写入 `external_id`。Rava 1942 文章按独立出版物登记，但书目只印 `Rava, A.`；新候选 `cand-12453` 保持 `undecided`，进入 `bl-0049`，不扩写姓名、不与其他首字母相同的 Rava 合并，也不建人物 KU 或 formal 作者边。
+
+| 候选 | S3决定／身份组 | S4去向 |
+|---|---|---|
+| cand-5962 | new；sg3-institution-cand-5962 | units/institutions/archivio-di-stato-rome |
+| cand-6539 | new；archive-group-06d638201954 | units/archives/libro-doro-venetian-register |
+| cand-6542 | new；sg3-term-cand-6542 | units/terms/cardinal-nephew-role-haskell |
+| cand-6543 | new；sg3-term-cand-6543 | units/terms/papal-vice-chancellorship-haskell |
+| cand-6544 | new；sg3-place-cand-6544 | units/places/palace-of-the-cancelleria |
+| cand-6577 | new；archive-group-ba8466b0b85f | units/archives/ottoboni-picture-inventory-1740-protocols-1838-1839 |
+| cand-6579 | new；archive-group-6dca896a39ba | units/archives/rava-il-teatro-ottoboni-1942 |
+| cand-6580 | new；archive-group-53040af8f1ef | units/archives/waterhouse-old-masters-bowes-museum-1953 |
+| cand-6581 | new；sg3-institution-cand-6581 | units/institutions/bowes-museum |
+| cand-6582 | new；workgrp-459dd079aa2aad | units/works/trevisani-portrait-pietro-ottoboni-bowes-bm70 |
+| cand-2802 | same | units/persons/ellis-waterhouse |
+| cand-12453 | undecided；仅有作者形式 Rava, A. | 不建 KU；bl-0049 |
+
+`cand-6538`（未具名父亲）、`cand-6578`（de Caesaris 的个人身份）与 `cand-6545`（未具名剧场）继续未决，不登记为人物或作品 KU。它们分别缺少可识别人物身份、唯一权威身份依据及具体作品／场所身份；本批不以邻近语境填补缺口。
+
+**S2、S5与端点。** 新增5条原子 statement 和4条 mention：补足档案清单→Archivio di Stato 的书内保管定位、Trevisani 肖像的创作者与描绘对象，以及 Rava／Waterhouse 两条第21章书目责任。新 statement 不增加 S2 独立复核分子。十张新 KU 卡生成37条 `source_backed` 字段 `enr-18056`–`enr-18092`，均有来源且未触发字段警告；另将 Trevisani 人物卡 B.M.70 作品行的链接同步至既有字段 `enr-10651`，无新增字段。Bowes 页面分别写有标题约1690与正文约1689；Trevisani DBI 将 B.M.70 记约1692；Ottoboni DBI 称约1698。四条年代记录各自保留在作品字段并标记 `dispute=true`，未选定单一日期。`bl-0049` 的解锁条件为取得作者全名或唯一权威身份记录。
+
+**S6逐项裁决。** 本批对10条既有 p.164 关系候选及5条新候选共15项逐条定案：9 formal、5 process-only pending、1 rejected。formal 新增 `rel-2260`–`rel-2268`；待证项不写缺端点或越域关系占位行。
+
+| S2 statement | S6去向 |
+|---|---|
+| st-chp6-p164-n2-cite | formal：rel-2260 cites；只记录注2对清单的引注 |
+| st-chp6-p164-n3-cite | formal：rel-2261 cites；只记录注3对 Rava 1942 的引注 |
+| st-chp6-p164-n5-cite | formal：rel-2262 cites；只记录注5对 Waterhouse 1953 p.120 的引注 |
+| st-chp6-p164-n5-portrait | formal：rel-2263 held_by；Haskell 1980 印本称“现藏”，Bowes 馆藏页支持当前馆藏，不推定取得时间 |
+| st-chp6-p164-v1-04 | pending：端点已分组，但 `temporarily_struck_off_register_for_foreign_stipends` 不在受控类型中；不以 ownership 等类型替代 |
+| st-chp6-p164-v1-04b | pending：父亲身份未明，且临时除名角色无准确受控谓词 |
+| st-chp6-p164-v1-06 | pending：cardinal-nephew 是 term 端点，当前没有可准确表达 person→term 任职／角色的受控谓词 |
+| st-chp6-p164-v1-07 | pending：Vice-Chancellorship 是 term 端点，当前没有可准确表达 person→office 的受控谓词 |
+| st-chp6-p164-v1-08 | formal：沿用决定并登记 rel-2264 located_at，限定为 Haskell 所述历史居所，不推定产权 |
+| st-chp6-p164-v1-09 | rejected：宫殿“patronage 中心”是作者评价，不是足以建图的明确关系断言；原 statement 保留 |
+| st-chp6-p164-n2-inventory-located-at | formal：rel-2265 located_at；仅登记 Haskell 的档案定位，未查阅清单原件 |
+| st-chp6-p164-n5-portrait-created-by | formal：rel-2266 created_by；来源归属，不表示材料或技术鉴定 |
+| st-chp6-p164-n5-portrait-has-subject | formal：rel-2267 has_subject；来源明确称其为 Ottoboni 肖像 |
+| st-chp21-bib-l1022-1057-author-07 | pending：书目确有作者形式 Rava, A.，但人物身份未决，故无 formal authored_by |
+| st-chp21-bib-l1220-1259-author-09 | formal：rel-2268 authored_by；作者形式经独立 S3 决定映射到 Ellis Kirkham Waterhouse |
+
+**投影与核验。** 14张相关卡逐卡预览；定向渲染11张，包含9张关系视图更新，写后字节核验通过。严格表审计：KU=3,118、候选=12,431、alignment=12,778、S4 new待登记=2,757、S2 statements=15,393、mentions=26,860、S5=14,178（1,634 `unverified`）、relations.csv=2,268（2,235 formal、33 pending）、backlog=49（14 completed、35 undecided、严格审计pending=0），`errors=[]`、`s2_missing=[]`。本次按每个候选首条主决定核算，S3 为 same=2,079、new=5,095、conflict=9、excluded=104、undecided=5,144；26项跨来源决定差异不变。S4 已映射2,338/5,095条 `new`；未映射new直接关系端点1,062（term 435、archive 157、work 181、place 157、event 76、institution 55、person 1）。`relation_candidate=true` 为10,609；旧 S6 台账映射差异仍1项，故不报全书完成率。关系一致性审计中 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。S2统一复核仍为9,617/15,393（62.48%，未接收）；S2–S6均未全书收口，S7未启动。

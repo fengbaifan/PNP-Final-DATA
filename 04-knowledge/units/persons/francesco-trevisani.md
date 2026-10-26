@@ -96,7 +96,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 |---|---|---|
 | 家户条件 | DBI称Ottoboni保留对作品优先选择的权利；不解释为画家此后不能为别人作画 | S6；另有外部委托实例 |
 | 《三位一体与圣伯尔纳和圣加大利纳》／Trinity with Saints Bernard and Catherine of Siena | 1684，Cetinale，Flavio Chigi委托 | S4、S6 |
-| 《奥托博尼枢机肖像》／Portrait of Cardinal Ottoboni | Bowes Museum B.M.70；DBI Trevisani约1692，DBI Ottoboni或约1698，WP1700–09，年代保留冲突 | S4、S6、S7；非人物卡即可解决版本问题 |
+| 《奥托博尼枢机肖像》／Portrait of Cardinal Ottoboni | Bowes Museum [B.M.70](../works/trevisani-portrait-pietro-ottoboni-bowes-bm70.md)；DBI Trevisani约1692，DBI Ottoboni或约1698，WP1700–09，年代保留冲突 | S4、S6、S7；非人物卡即可解决版本问题 |
 | 《死去的基督与天使》／Dead Christ with Angels | 1698的Stanford对象与Vienna等版本分开 | S6 |
 | 圣彼得洗礼堂工程 | 大幅绘制设计稿；实际镶嵌由工匠实施，不把全部镶嵌手工制作归本人 | S4、S6 |
 | 晚期自作 | 去世前未完成的《圣米迦勒》由Moücke叙述，不能登记为已完成委托 | S6 |
@@ -109,10 +109,11 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1697年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；本卡 S6；1697年入会段 |
-| → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1712年加入Arcadia；此前接触与称赞不等于正式入会；证据：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；本卡 S6；1712年入会段 |
+| → 隶属／任职于（`member_of`） | [圣路加学院（Accademia di S. Luca）](../institutions/accademia-di-san-luca.md) | 1697年加入圣路加学院；证据：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；src-e22688a5aa1e5b6a；本卡 S6；1697年入会段 |
+| → 隶属／任职于（`member_of`） | [阿尔卡迪亚学会（Society of Arcadia）](../institutions/arcadia.md) | 1712年加入Arcadia；此前接触与称赞不等于正式入会；证据：[来源](https://www.treccani.it/enciclopedia/francesco-trevisani_(Dizionario-Biografico)/)；src-e22688a5aa1e5b6a；本卡 S6；1712年入会段 |
 | ← 受其赞助／保护（`patronized_by`，反向投影） | [彼得罗·奥托博尼（Pietro Ottoboni）](pietro-ottoboni.md) | 本章未展开全名的 Ottoboni 枢机为同乡 Trevisani 提供住处；角色：提供住处的同乡枢机与保护人；范围：第一章未展开Ottoboni全名；原断言与证据见发出端卡片“彼得罗·奥托博尼（Pietro Ottoboni）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 220–223; print pp. 7 |
 | ← 为其所涉对象（`subject_of`，反向投影） | [帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）](../archives/pascoli-trevisani-life-ms1383.md) | 这篇未刊传记的传主为 Trevisani；原断言与证据见发出端卡片“帕斯科利《特雷维萨尼传》手稿（MS.1383）（Pascoli’s Manuscript Life of Francesco Trevisani (MS.1383)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 236–237; print pp. 7 |
+| ← 所创作对象（`creator_of`，反向投影） | [奥托博尼枢机肖像（Portrait of Cardinal Pietro Ottoboni）](../works/trevisani-portrait-pietro-ottoboni-bowes-bm70.md) | S2 statement: st-chp6-p164-n5-portrait-created-by. Attribution is source-backed; authorship was not independently tested materially.；角色：creator attribution；范围：Haskell calls this Trevisani’s portrait; the Trevisani DBI entry identifies portrait B.M.70 at Bowes. This is a source attribution, not a technical examination.；原断言与证据见发出端卡片“奥托博尼枢机肖像（Portrait of Cardinal Pietro Ottoboni）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；line 64; printed p. 164 n. 5 |
 
 ### 身份与外部链接
 

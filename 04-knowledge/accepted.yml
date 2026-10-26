@@ -145,6 +145,7 @@ units:
 - 04-knowledge/units/archives/letter-johann-philip-franz-schonborn-to-friedrich-karl-schonborn-1723-07-12.md
 - 04-knowledge/units/archives/letters-from-simon-vouet-to-cassiano-1621.md
 - 04-knowledge/units/archives/lhoggidi-1627.md
+- 04-knowledge/units/archives/libro-doro-venetian-register.md
 - 04-knowledge/units/archives/lione-pascoli-vite-dei-pittori-vol-i.md
 - 04-knowledge/units/archives/lione-pascoli-vite-dei-pittori-vol-ii.md
 - 04-knowledge/units/archives/lodoli-apologhi-1787.md
@@ -177,6 +178,7 @@ units:
 - 04-knowledge/units/archives/nota-delli-musei-roma-1664-appendix.md
 - 04-knowledge/units/archives/novetti-ruffo-letter-1670.md
 - 04-knowledge/units/archives/osservatore-veneto-periodical.md
+- 04-knowledge/units/archives/ottoboni-picture-inventory-1740-protocols-1838-1839.md
 - 04-knowledge/units/archives/ottonelli-cortona-treatise-1652.md
 - 04-knowledge/units/archives/papal-nuncio-report-1729-08-20.md
 - 04-knowledge/units/archives/pascoli-trevisani-life-ms1383.md
@@ -197,6 +199,7 @@ units:
 - 04-knowledge/units/archives/quarisimini-carrara-letter-1696.md
 - 04-knowledge/units/archives/ranuzzi-letter-introducing-crespi-to-ferdinand-1708.md
 - 04-knowledge/units/archives/rava-contributo-alla-biografia-di-pietro-longhi-1911.md
+- 04-knowledge/units/archives/rava-il-teatro-ottoboni-1942.md
 - 04-knowledge/units/archives/redig-de-campos-van-dyck-gesu-article-1936.md
 - 04-knowledge/units/archives/relatione-della-corte-di-roma.md
 - 04-knowledge/units/archives/relazione-per-le-riforme-1772.md
@@ -241,6 +244,7 @@ units:
 - 04-knowledge/units/archives/venice-scalzi-pamphlet-1734.md
 - 04-knowledge/units/archives/vincenzo-da-canal-vita-gregorio-lazzarini-1809.md
 - 04-knowledge/units/archives/voyage-pittoresque-greece-sicily.md
+- 04-knowledge/units/archives/waterhouse-old-masters-bowes-museum-1953.md
 - 04-knowledge/units/archives/waterhouse-rome-painting-1971.md
 - 04-knowledge/units/archives/wilhelm-liechtenstein-art-collection-1911.md
 - 04-knowledge/units/archives/wittkower-art-architecture-italy-1600-1750-1958.md
@@ -443,6 +447,7 @@ units:
 - 04-knowledge/units/institutions/american-academy-of-arts-and-sciences.md
 - 04-knowledge/units/institutions/apostolic-chamber.md
 - 04-knowledge/units/institutions/arcadia.md
+- 04-knowledge/units/institutions/archivio-di-stato-rome.md
 - 04-knowledge/units/institutions/art-institute-of-chicago.md
 - 04-knowledge/units/institutions/austrian-government.md
 - 04-knowledge/units/institutions/barberini-household.md
@@ -455,6 +460,7 @@ units:
 - 04-knowledge/units/institutions/biblioteca-marciana.md
 - 04-knowledge/units/institutions/biblioteca-marucelliana.md
 - 04-knowledge/units/institutions/bibliotheque-nationale.md
+- 04-knowledge/units/institutions/bowes-museum.md
 - 04-knowledge/units/institutions/british-academy.md
 - 04-knowledge/units/institutions/british-museum.md
 - 04-knowledge/units/institutions/ca-foscari-university-venice.md
@@ -1793,6 +1799,7 @@ units:
 - 04-knowledge/units/places/oxford.md
 - 04-knowledge/units/places/padua.md
 - 04-knowledge/units/places/paese.md
+- 04-knowledge/units/places/palace-of-the-cancelleria.md
 - 04-knowledge/units/places/palais-mazarin.md
 - 04-knowledge/units/places/palatinate.md
 - 04-knowledge/units/places/palazzo-barberini.md
@@ -1950,6 +1957,7 @@ units:
 - 04-knowledge/units/terms/bozzetto.md
 - 04-knowledge/units/terms/bracciolini-barberini-ceiling-iconographic-programme.md
 - 04-knowledge/units/terms/caparra.md
+- 04-knowledge/units/terms/cardinal-nephew-role-haskell.md
 - 04-knowledge/units/terms/casual-saints-day-fairs.md
 - 04-knowledge/units/terms/cavaliere-abito-cristo.md
 - 04-knowledge/units/terms/cerquozzi-patrons-spanish-sphere-context.md
@@ -1994,6 +2002,7 @@ units:
 - 04-knowledge/units/terms/official-artistic-patronage-after-alexander-vii.md
 - 04-knowledge/units/terms/ottoboni-influence-style-haskell-account.md
 - 04-knowledge/units/terms/painters-in-s-rocco-exhibition-reports.md
+- 04-knowledge/units/terms/papal-vice-chancellorship-haskell.md
 - 04-knowledge/units/terms/patriarchate-of-aquileia-office.md
 - 04-knowledge/units/terms/patronage-by-religious-orders.md
 - 04-knowledge/units/terms/pendant-pictures.md
@@ -2319,6 +2328,7 @@ units:
 - 04-knowledge/units/works/titian-worship-of-venus.md
 - 04-knowledge/units/works/tomb-of-francesco-algarotti.md
 - 04-knowledge/units/works/tomb-of-urban-viii-st-peters.md
+- 04-knowledge/units/works/trevisani-portrait-pietro-ottoboni-bowes-bm70.md
 - 04-knowledge/units/works/valentin-allegory-of-rome.md
 - 04-knowledge/units/works/valentin-genre-commission.md
 - 04-knowledge/units/works/van-dyck-cardinal-bentivoglio.md
