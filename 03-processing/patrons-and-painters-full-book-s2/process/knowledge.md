@@ -1,5 +1,41 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s6-chp6-p159-mannerism-renaissance-20261026"></a>
+### 第6章 p.159 Mannerism、Renaissance及相关术语端点跨章对齐（2026-10-26）
+
+**来源与同一性。** 对照第6章印刷页159、`06_CHP-6_sec_iv.md` L28–38。第4章p.104的Mannerism候选`cand-1516`已映射至`units/terms/mannerist-painting-haskell-context`；该卡汇集第2、4、8章的同类用法，明确保留各处语境且不设统一年代边界。第6章`cand-6426`的“mannerism”仍是同类型艺术倾向，故将原S3 `new`更正为`same`并复用该卡；卡片补入第6章p.159用例。没有把“Reformed Mannerists”、未具名追随者、Naturalism或“回归自然”合并为同一对象。`cand-3578`（Renaissance）、`cand-6428`（回归自然倾向）、`cand-6011`（classical antiquity）沿用各自已有S3 `new`身份组；章页证据分别来自第1章p.16／第6章p.159、第6章p.159，以及第4章p.119／第6章p.159。第6章cand-6427只表示Carracci的未具名Bolognese followers；材料未列成员或证明其具有组织身份，故维持`undecided`，不硬归为institution、family或term。其重开条件为来源明确列出成员、支持人物身份，或证明该集体具有正式组织身份。
+
+| 候选 | S3决定及身份组 | S4去向 |
+|---|---|---|
+| `cand-0576` Annibale Carracci | same；既有person KU | `units/persons/annibale-carracci` |
+| `cand-1516` Mannerist painting | same；既有跨章术语组 | `units/terms/mannerist-painting-haskell-context` |
+| `cand-6426` Mannerism | 原`new`更正为same；复用既有跨章术语组 | `units/terms/mannerist-painting-haskell-context` |
+| `cand-3578` Renaissance | 沿用`new`；`sg3-term-cand-3578` | `units/terms/renaissance-haskell-account` |
+| `cand-6428` Return to nature in painting | 沿用`new`；`sg3-term-cand-6428` | `units/terms/return-to-nature-in-painting-haskell-account` |
+| `cand-6011` Classical antiquity | 沿用`new`；`sg3-term-cand-6011` | `units/terms/classical-antiquity-haskell-account` |
+| `cand-5739` Naturalism | 沿用`new` | `units/terms/naturalism-haskell-account`（既有映射） |
+| `cand-6427` Bolognese followers | undecided；`sg3-untyped-cand-6427` | 暂无KU；等待成员或组织身份证据 |
+
+**S4与S5。** 新登记Renaissance、“回归自然”及古典古代3张term卡，并把`cand-6426`映射到既有Mannerism卡。四张受影响卡的字段预检共12行，6条新source-backed字段，单一来源`haskell-1980-rev-ed`，unverified=0、重复occurrence=0、warnings=0。仅采用《赞助人与画家》书内证据，不声称外部术语定义、年代边界或身份核验。`accepted.yml`与`ku-manifest.csv`登记3个新KU；四卡定向预览后渲染，写后字节核验通过。
+
+**S6逐项裁决。** 本身份组涉及9条关系候选；其中`st-chp6-p159-extremes-dangerous`此前已有pending记录，本批保留该结果，新增8条process-only pending。没有关系行可忠实表达以下源文语义，故不写入`relations.csv`：
+
+| statement_id | S6裁决 | relations.csv | 证据与边界 |
+|---|---|---|---|
+| `st-chp6-p159-carracci-rescue` | pending | 无边 | “credited with rescuing”不等于受控的influenced或其他现有person→term谓词。 |
+| `st-chp6-p159-bolognese-followers-rescued-mannerism` | pending | 无边 | 主体是未具名且未定型的集体；救援谓词也无精确受控类型。 |
+| `st-chp6-p159-carracci-return-to-models` | pending | 无边 | 受益式描述不等于已有term关系；主体集体身份仍未决。 |
+| `st-chp6-p159-bolognese-followers-studied-antiquity` | pending | 无边 | “研究古代”是person/group→term含义，当前无对应受控关系类型，且主体未定型。 |
+| `st-chp6-p159-bolognese-followers-studied-raphael` | pending | 无边 | “研究Raphael”不能改写成师承或影响关系；主体集体身份未决。 |
+| `st-chp6-p159-extremes-dangerous` | 保留既有pending | 无边 | Naturalism与Mannerism的作者评价性term→term比较不符合`compared_with`域值；本批不重复计为新裁决。 |
+| `st-chp6-p159-mannerism-decline` | pending | 无边 | 保留Haskell的艺术史解释；当前没有表达该term→term“文艺复兴后退化为矫饰主义”的精确谓词。 |
+| `st-chp7-p194-cross-page-renaissance` | pending | 无边 | 自p.193续至p.194的一般化未命名具体统治者；主体候选仍undecided且谓词只保存原句含义。 |
+| `st-chp14-p350-collections-precursors-of-renaissance` | pending | 无边 | 未点名的收藏类别仍无类型／对象端点，且“被视为文艺复兴先驱”无当前精确关系类型。 |
+
+以上pending均有可重开的具体条件：出现可支持的受控谓词与合法端点，或来源补足当前未定主体的身份。不得为满足形式覆盖而把“研究”“救援”“评价比较”改写成师承、影响、赞助或泛关联。
+
+**批后状态。** 本批未增删S2 statements或mentions，未改变统一S2复核分子；其余未涉及的候选保持原决定。当前S3–S6总量、严格表审计及关系一致性状态以[全书当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)为准。
+
 <a id="s4-s5-s6-chp8-p208-de-wael-print-set-20261026"></a>
 ### 第8章 p.208 De Wael 题献版画组端点（2026-10-26）
 

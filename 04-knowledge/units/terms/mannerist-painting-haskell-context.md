@@ -70,18 +70,29 @@ sources:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/08_CHP-8_sec_i.md
       source_span: "lines 111–112; print p. 213"
+  - citation: "Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)."
+    location: "第6章，印刷页159，来源段落 L28–38"
+    sentence_summary: "Haskell称文艺复兴之后的艺术被其批评为退化为无意义的矫饰主义，并称极端矫饰主义同样危险。"
+    original_quotes:
+      - source_span: "lines 31–33; print p. 159"
+        text: >-
+          After the Renaissance, art had degenerated into senseless mannerism
+    evidence_ref:
+      doc_id: patrons-and-painters
+      source_file: 02-sources/02-Markdown/06_CHP-6_sec_iv.md
+      source_span: "lines 31–33; print p. 159"
 created: '2026-10-24'
-updated: '2026-10-24'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp4-p104-endpoints-20261024
+updated: '2026-10-26'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp6-p159-mannerism-renaissance-20261026
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本卡归纳Haskell跨第2、4、8章使用的Mannerist／Mannerism表达，保留其各处对绘画、艺术家群体和风格倾向的不同描述；不为术语补入统一年代边界或百科式定义。
+**中文：** 本卡归纳Haskell跨第2、4、6、8章使用的Mannerist／Mannerism表达，保留其各处对绘画、艺术家群体和风格倾向的不同描述；不为术语补入统一年代边界或百科式定义。
 
-**English:** This unit records Haskell’s uses of Mannerist/Mannerism across Chapters 2, 4, and 8, preserving the differing contexts of painting, artist groups, and stylistic tendencies. It does not impose a single date boundary or an encyclopedic definition.
+**English:** This unit records Haskell’s uses of Mannerist/Mannerism across Chapters 2, 4, 6, and 8, preserving the differing contexts of painting, artist groups, and stylistic tendencies. It does not impose a single date boundary or an encyclopedic definition.
 
 ### 书内用法
 
@@ -93,6 +104,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 | 书内用法 | 在伽利略论述中作为古典绘画的对照项。 | S4；第4章，印刷页103，L46–51。 |
 | 书内用法 | 与自然主义并列，作为古典绘画路径的比较对象。 | S5；第4章，印刷页104，L59–60。 |
 | 书内用法 | 用于说明 del Rosso 收藏中对矫饰主义的兴趣。 | S6；第8章，印刷页213，L111–112。 |
+| 书内用法 | Haskell将文艺复兴后的艺术变化置于其对矫饰主义的批评叙述中。 | S7；第6章，印刷页159，L31–33。 |
 
 ## 关系与证据
 

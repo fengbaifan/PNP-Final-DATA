@@ -2,17 +2,17 @@
 
 ### 本轮进度与后续工作（2026-10-26）
 
-**最新批次完成：第6章 pp.158–160及第21章书目中的文献与人物端点。** 新增9个S3 `new`候选并完成S4映射，新增候选cand-12452登记为Julius von Schlosser来源限定人物；`cand-6452`改判`same`并复用既有Roma XIX (1941)期刊卷KU。另新增3条statement、3条mention、4条外部来源登记及31条source-backed S5字段；13条正式关系写入`rel-2247`–`rel-2259`，其中四条既有S2关系候选全部formal。年款异文、导论身份和相邻未具名著作均保留为有明确理由的待证边界。严格表审计与关系一致性阻断检查通过。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp6-p158-160-endpoints-20261026)。
+**最新批次完成：第6章 p.159 术语跨章身份归组与关系裁决。** 将`cand-6426`从`new`修正为`same`，复用已覆盖第2、4、8章Mannerist/Mannerism用法的既有术语KU；沿用三个既有S3 `new`组，登记Renaissance、绘画回归自然、Classical Antiquity 3张term卡，并保留未具名Bolognese followers `cand-6427`为有类型理由及重开条件的`undecided`。4张卡共新增6条source-backed字段；9条相关S6候选逐项有去向，其中8条本批process-only pending、1条保留先前pending，无formal边或新关系行。定向卡预览／写入／复预览及严格表审计、关系一致性检查通过。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp6-p159-mannerism-renaissance-20261026)。
 
-**全书当前进度。** S0处理832个源段（678 complete、154 excluded）。S2有15,388条statement、26,856条mention；统一逐条独立复核9,617/15,388（62.50%，尚未接收），statement ID与来源版本台账仍待核平。S3主决定覆盖12,430个候选：same=2,077、new=5,096、conflict=9、excluded=104、undecided=5,144；另有26个候选跨来源decision值不同（person 24、work 1、archive 1），须按各自证据核实，不能直接当成26个实体冲突。S4已映射2,325/5,096个new候选，仍待映射2,771个；其中1,075个未映射候选直接触及关系端点（term 441、work 182、archive 161、place 158、event 76、institution 56、person 1）。KU共3,105个。S5字段14,135条（1,634条unverified）。S6过程台账累计1,658项（967 formal、570 pending、121 rejected）；10,604条relation_candidate statement中仍有1条旧台账映射差异，核平前不报完成率。`relations.csv`有2,259条（2,226 formal、33 pending）。另有337条关系statement至少缺一个S2端点候选ID。`candidate-backlog.csv`有48条（14 completed、34 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性结构阻断均为0。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现与页面尚未启动。
+**全书当前进度。** S0处理832个源段（678 complete、154 excluded）。S2有15,388条statement、26,856条mention；统一逐条独立复核9,617/15,388（62.50%，尚未接收），statement ID与来源版本台账仍待核平。S3主决定覆盖12,430个候选：same=2,078、new=5,095、conflict=9、excluded=104、undecided=5,144；另有26个候选跨来源decision值不同（person 24、work 1、archive 1），须按各自证据核实，不能直接视为26个实体冲突。S4已映射2,328/5,095个new候选，仍待映射2,767个；其中1,071个未映射候选直接触及关系端点（term 437、work 182、archive 161、place 158、event 76、institution 56、person 1）。KU共3,108个。S5字段14,141条（1,634条unverified）。S6过程台账累计1,666项（967 formal、578 pending、121 rejected）；10,604条relation_candidate statement中仍有1条旧台账映射差异，核平前不报完成率。`relations.csv`有2,259条（2,226 formal、33 pending）。另有337条关系statement至少缺一个S2端点候选ID。`candidate-backlog.csv`有48条（14 completed、34 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性结构阻断均为0。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现与页面尚未启动。
 
 **后续工作规划（按依赖与关系解锁排序）。**
 
-1. **清理跨来源异值并完成类型判定。** 先逐条核对26个跨来源decision值不同的候选，记录来源、各自所指对象及采纳的主决定。再处理626个类型未定的undecided候选，优先看其中471个关系直接端点；类型判定后分别并入对应类型批次。S3按一类一批推进：先处理直接关系端点量较高的term（660个undecided、441个未映射直接端点）、work（1,575、182）、archive（672、161）、place（304、158）、event（113、76）、institution（118、56）、person（1,056、1），最后family（18）和procedure（2）。每个候选要留来源锚点、同一或区分依据，以及same复用、新建身份组、冲突双方、排除理由或未决缺证与解除条件。
+1. **清理跨来源异值并按类型完成S3。** 逐条核对26个跨来源decision值不同的候选，记录来源、各自所指对象及采纳的主决定；再处理626个类型未定的undecided候选，优先看其中471个关系直接端点。cand-6427继续待证，只有来源列出成员或证明正式组织身份时才重开。其余S3按一类一批推进：term（660个undecided、437个未映射直接端点）、work（1,575、182）、archive（672、161）、place（304、158）、event（113、76）、institution（118、56）、person（1,056、1），最后family（18）和procedure（2）。每个候选留来源锚点、同一／区分依据及明确去向：same复用、新建身份组、冲突双方、排除理由或未决缺证与解除条件。
 
-2. **先解锁关系端点，再完成其余S4。** 对1,075个直接端点候选逐批完成S3身份核实和KU映射；其后处理剩余1,696个未映射new候选。每批同步补齐必要S5字段并逐项裁决S6；337条缺候选端点ID的statement转为可识别候选或保留明确pending理由，核平旧台账的1条statement映射差异，同时更新34条未决backlog的实际去向。
+2. **先解锁关系端点，再完成其余S4。** 对1,071个未映射直接端点候选逐批完成S3身份核实和KU映射；其后处理剩余1,696个未映射new候选。每批同步补齐必要S5字段并逐项裁决S6；337条缺候选端点ID的statement转为可识别候选或保留明确pending理由，核平旧台账的1条statement映射差异，同时更新34条未决backlog的实际去向。
 
-3. **并行继续S2独立复核并核平台账。** 沿书序从第7章p.192继续，按当前statement ID和来源版本复核；核对既有待复审项及本批3条新增statement。只按当前版本实际完成的独立复核更新分子，不把定向修订或机械审计计入接收数。
+3. **继续S2独立复核并核平台账。** 先完成第7章p.191整页：当前有54条statement，现存定点审读只覆盖i07及其两条拆分关系（3条），其余51条没有本页逐条复核记录；复核后再前进p.192。按当前statement ID和来源版本逐条对照扫描页，先核平既有复核台账。只在当前版本确已独立复核且台账可追溯时更新9,617的分子；本批没有改S2，不把定向修订或机械审计计入接收数。
 
 4. **按当前数据重建卡片投影基线。** 上次全库预检的545个待写文件来自更早快照，不能作为当前数量。S3/S4批次推进中先针对本批端点定向预览、渲染和写后复核；阶段性再跑全库差异预检，按章节和关系端点分批清理投影差异。
 
