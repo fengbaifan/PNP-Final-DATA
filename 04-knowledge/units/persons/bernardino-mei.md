@@ -46,16 +46,20 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书语境
 
-**中文：** Haskell称Flavio Chigi委托Bernardino Mei绘制天花板壁画，并在列举的Chigi宫殿寓意画中提到《正义与和平》及《从维纳斯的欢愉中救出的青年》。 本批只登记人物身份；直接关系候选st-chp6-p154-mei-allegories, st-chp6-p154-mei-paints-fortune-fresco, st-chp6-p154-mei-youth-rescued-allegory均保留待S6，不因建立KU而判定关系成立。
+**中文：** Haskell称Flavio Chigi委托Bernardino Mei绘制天顶壁画，并在列举的Chigi宫殿寓意画中提到《正义与和平》及《从维纳斯的欢愉中救出的青年》。第6章 p.154 的委托与《受美德节制的命运》壁画创作者归属已分别登记为正式关系；其他寓意画仍按各自对象边界审查。
 
-**English:** Haskell says Flavio Chigi commissioned Bernardino Mei to paint a ceiling fresco and lists Justice and Peace and Youth rescued from the Pleasures of Venus among Mei’s allegories in the Chigi palace. The direct S2 relation candidates st-chp6-p154-mei-allegories, st-chp6-p154-mei-paints-fortune-fresco, st-chp6-p154-mei-youth-rescued-allegory remain for S6; registration itself creates no edge.
+**English:** Haskell says Flavio Chigi commissioned Bernardino Mei to paint a ceiling fresco and lists Justice and Peace and Youth rescued from the Pleasures of Venus among Mei’s allegories in the Chigi palace. The Chapter 6 p.154 commission and creator-attribution statements for the Fortune ceiling fresco are now formal relations; the other allegories remain separate objects for review.
 
 ## 关系与证据
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [受美德节制的命运天顶壁画（Ceiling fresco of Fortune under the Control of Virtue）](../works/fortune-under-control-of-virtue-ceiling-fresco.md) | S2 statement st-chp6-p154-mei-paints-fortune-fresco; direction follows controlled created_by schema; decision is limited to Haskell’s reported passage.；角色：来源记载的创作者；范围：Haskell lists Fortune under the control of Virtue among Mei’s allegories; this is the book’s attribution, with no external catalogue check or surviving version identification.；原断言与证据见发出端卡片“受美德节制的命运天顶壁画（Ceiling fresco of Fortune under the Control of Virtue）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_i.md)；haskell-1980-rev-ed；Chapter 6, printed p.154, lines 95–97; PDF physical p.9; statement=st-chp6-p154-mei-paints-fortune-fresco |
 
-**中文：** S2直接关系候选st-chp6-p154-mei-allegories, st-chp6-p154-mei-paints-fortune-fresco, st-chp6-p154-mei-youth-rescued-allegory保留待S6逐条裁决；本批不新增正式关系。
+正式关系由 `relations.csv` 维护；本卡展示由该表定向生成。
 
-**English:** The direct S2 relation candidates st-chp6-p154-mei-allegories, st-chp6-p154-mei-paints-fortune-fresco, st-chp6-p154-mei-youth-rescued-allegory remain for individual S6 review; this registration adds no formal relations.
+**中文：** `st-chp6-p154-mei-paints-fortune-fresco` 已裁为 `created_by` 正式关系；Flavio Chigi 的委托关系另见对应工作卡。`st-chp6-p154-mei-allegories` 与 `st-chp6-p154-mei-youth-rescued-allegory` 仍待 S6 逐项裁决，涉及的作品保持独立。
+
+**English:** `st-chp6-p154-mei-paints-fortune-fresco` is now a formal `created_by` relation; the related commission edge is shown on the corresponding work card. `st-chp6-p154-mei-allegories` and `st-chp6-p154-mei-youth-rescued-allegory` remain for individual S6 review and concern separate works.

@@ -70,6 +70,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 赞助者／保护人（`patron_of`） | [马里奥·努齐（Mario Nuzzi）](mario-de-fiori.md) | 每月 30 scudi 津贴的脚注例；不把津贴等同作品已经全部买断；角色：每月津贴提供者；范围：每月30 scudi；不表示作品全部买断；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 282–283; print pp. 8 |
+| ← 委托者（`commissioner_of`，反向投影） | [受美德节制的命运天顶壁画（Ceiling fresco of Fortune under the Control of Virtue）](../works/fortune-under-control-of-virtue-ceiling-fresco.md) | S2 statement st-chp6-p154-don-mario-mei-fresco; direction follows controlled commissioned_by schema; decision is limited to Haskell’s reported passage.；角色：委托人；范围：Haskell reports Cardinal Flavio Chigi commissioning the ceiling fresco; no commission date, exact building, or surviving version is specified.；原断言与证据见发出端卡片“受美德节制的命运天顶壁画（Ceiling fresco of Fortune under the Control of Virtue）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_i.md)；haskell-1980-rev-ed；Chapter 6, printed p.154, lines 95–96; PDF physical p.9; statement=st-chp6-p154-don-mario-mei-fresco |
 
 ### 身份与外部链接
 

@@ -16191,3 +16191,29 @@ S2 新增三条 statement（两处宅邸的 source-local possessive attribution�
 #### 批后核对
 
 S2 statements/mentions 与统一独立复核分子均未改变；本批不计作 S2 独立审读。严格表审计：KU=3,180，alignment=12,778，`alignments_unlinked=0`，S4 new待登记2,687，关系=2,357（formal 2,321），enrichment=14,387（unverified 1,627），`errors=[]`、`s2_missing=[]`、backlog pending=0。S6候选10,643条，已裁决1,809条（formal 1,060、pending 624、rejected 125），未裁决8,834条。关系一致性阻断 `broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed` 均为0。
+
+<a id="s3-s4-s5-s6-chp6-p154-mei-fresco-20261027"></a>
+### S4/S5/S6：第6章 p.154 Mei《受美德节制的命运》天顶壁画（2026-10-27）
+
+#### S3 身份组与对象边界
+
+本批从两项直接 S6 关系候选共同阻塞的 `cand-6326` 开始：沿用已有 S3 `new` 身份组 `workgrp-f7088acb7bae7b`，映射为一个来源限定 work KU。没有重开 S3，也没有把 Mei 名下其他寓意画或 `cand-6327` 的美德人格化候选并入本作。第6章印刷页154／PDF物理页9的页图支持原书关于委托、创作者及寓意题材的读法。原书未给作品正式题名、确切建筑、委托年份或现藏地；脚注所引 Golzio 1939 p.14 未查。
+
+#### S4 与 S5
+
+`aln-6507`（`cand-6326`）映射到 [`fortune-under-control-of-virtue-ceiling-fresco`](../../../04-knowledge/units/works/fortune-under-control-of-virtue-ceiling-fresco.md)。描述性题名不声称是原题，Haskell 对画家水平的评价未作为客观作品属性。字段表生成并应用三条 source-backed 字段：`enr-18302` 描述性题名、`enr-18303` 作品类型（天顶壁画）、`enr-18304` 主题／题材；三条均引用 `haskell-1980-rev-ed` 第6章 p.154 lines 95–97。预览确认无 unverified 项、无警告，来源登记无变化。
+
+#### S6 逐项裁决
+
+| S2 statement | 决定 | relation | 判断范围 |
+|---|---|---|---|
+| `st-chp6-p154-don-mario-mei-fresco` | formal | `rel-2358 commissioned_by` | 方向归一为 work → Flavio Chigi；原文明确记其委托该天顶壁画，不推定委托年份、具体建筑或存世版本。 |
+| `st-chp6-p154-mei-paints-fortune-fresco` | formal | `rel-2359 created_by` | 方向归一为 work → Bernardino Mei；依据 Haskell 将该题材列为 Mei 的寓意画之一，仅代表书内创作者归属，未作外部目录核验。 |
+
+两条边的类型及方向均通过受控 domain/range。没有把 Haskell 所引 Golzio 研究当作已读证据，也没有用本作题材推建独立 `has_subject` 关系。
+
+#### 卡片与批后核验
+
+字段表预览后写入；作品卡、Bernardino Mei 人物卡及 Flavio Chigi 人物卡均先预览再定向渲染，三卡二次预览均无差异。渲染批次为3卡、4个属性表、15行、5条关系投影；写后字节核验通过。批后严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。S2 statements、mentions及统一独立复核分子不变。
+
+批后全书：KU=3,181；S4 new待登记2,686；S5字段=14,390（unverified=1,627）；S6候选10,643条，已裁决1,811条（formal 1,062、pending 624、rejected 125），未裁决8,832条；`relations.csv`=2,359（formal 2,323、pending 36）。backlog=49（14 completed、35 undecided；严格 pending=0）。本批登记1个S4 work、3条source-backed字段，并完成2项formal S6裁决；不计入S2独立审读。
