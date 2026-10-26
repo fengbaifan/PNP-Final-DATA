@@ -15562,3 +15562,29 @@ Francesco Marucelli、Don Antonio Ruffo、Biblioteca Marucelliana及Ruffo 1916�
 **覆盖边界。** 本记录只处理上述两个已有作品候选和一项直接关系候选。第2章 p.46 的 Germanicus 多作品／馆藏复合注释以及 p.46 的出版、展览复合注释仍需拆分和核对；第2章 p.49 的 Claude 馆藏清单与 Bentivoglio 宫殿壁画、Carro della Notte 候选另批处理。
 
 **投影与审计。** `build_field_facts.py --ku units/works/van-dyck-cardinal-bentivoglio` 预览为既有字段改动0、新增1条`source_backed`记录；`enr-18093`的来源映射为Haskell（来源序号S1），apply后复预览一致。目标卡`build_cards.py --preview`无差异。严格表审计：KU=3,118、候选=12,431、alignment=12,778、S4待登记new=2,755、S2 statements=15,393、mentions=26,860、S5=14,179（1,634 unverified）、relations.csv=2,268（2,235 formal、33 pending）、backlog=49（14 completed、35 undecided、pending=0），`errors=[]`、`s2_missing=[]`。S3主决定same=2,081、new=5,093、conflict=9、excluded=104、undecided=5,144；未映射new直接端点1,060。S6过程台账累计1,683项（977 formal、584 pending、122 rejected）；旧映射差异仍1项。关系一致性阻断：broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。全库`build_cards.py --check`预检显示543个文件待写（519张卡有关系投影变化），本批未执行全库写回。
+
+<a id="s3-s4-s5-s6-chp2-p60-portrait-cross-chapter-20261026"></a>
+## S3–S6：第2章印刷页60枢机肖像与美术馆跨章端点（2026-10-26）
+
+**来源范围与S3身份。** 核对《赞助人与画家》第2章印刷页60 L24–L30、注3 L46（PDF物理页49）、关联S2 statements及第3章同名机构提及。`cand-4922`沿用身份组`workgrp-eb83bdf95a69e3`及既有S3 `new`决定；L30明确称图版3b诺森伯兰公爵版本与上文描述的肖像“rather different”，故登记为另一件来源所述作品，不并入`units/works/carlo-maratta-cardinal-antonio-barberini`。本批没有识别存世原件，也不根据前后Carlo Maratta语境断定该画像作者。可能与Palomino混淆的另一画像仍保留原身份范围；本段没有证据将其连至此件作品。
+
+`cand-4142`由`undecided`裁为`same`，复用`units/institutions/galleria-nazionale-arte-antica`。跨章同名提及包括第2章注3的完整形式、第3章同一机构的完整形式，以及图版清单中罗马机构简称；机构类型、全名变体与Rome地点一致。Soprintendenza Speciale di Roma的官方机构页题为“Galleria Nazionale d’Arte Antica in Palazzo Barberini”，并列Roma为所在地（https://lazio.cultura.gov.it/?p=163；访问2026-10-26）；Ministero della Cultura机构页亦用于核对机构名称（https://cultura.gov.it/ente/gallerie-nazionali-d-arte-antica）。此身份裁决不把图版清单所列作品推定为该机构当前藏品。
+
+| 候选 | S3决定／身份组 | S4去向 |
+|---|---|---|
+| `cand-4142` | same；跨章复用 | `units/institutions/galleria-nazionale-arte-antica` |
+| `cand-4922` | new；沿用`workgrp-eb83bdf95a69e3` | `units/works/antonio-barberini-portrait-described-p60` |
+
+**S4–S5登记。** 新作品卡用来源定位式描述标题，不把该标题称为原作题名；`ku-manifest.csv`与`accepted.yml`登记同一路径，S4映射保留S3身份组。作品卡只记肖像类型和描绘对象Antonio Barberini，不补作者或外部作品身份。新增4条source-backed字段：机构全名变体1条、作品描述性题名1条、肖像类型1条、描绘对象1条；均回指Haskell具体行段或官方机构页。字段预览确认既有记录无改动，新增`enr-18094`–`enr-18097`；应用后再预览`record_changes=0`、`new_ids=0`、`warnings=0`。
+
+**S6逐项裁决。** 关联的三条原书关系候选逐项裁为formal，写入`relations.csv`：
+
+| S2 statement | S6决定 |
+|---|---|
+| `st-chp2-secvii-l21-30-described-portrait-visual-and-symbolic-description` | `rel-2269 has_subject`：只记录画像描绘Antonio Barberini，不把视觉及象征阐释扩作人物事实 |
+| `st-chp2-secvii-l21-30-duke-version-differs-from-described-portrait` | `rel-2270 compared_with`：只保留原文明确比较，不主张复制、变体或身份相同 |
+| `st-chp2-secvii-l38-54-fn-p60-3a-described-portrait-location` | `rel-2271 located_at`：限定为Haskell出版语境中的位置；“now”不表示当前馆藏，Lombardo 1959 p.2未独立查阅 |
+
+PDF图像复核将S0 OCR中的`lais`校读为`his`、`Use Antonio`校读为`life Antonio`、`Jt`校读为`It`；仅在本批引文解释中使用校正，S0文本和S2 `original_quote`均未改写。未新增或修订S2 statement／mention；统一S2独立复核分子不变。
+
+**定向验证。** `build_field_facts.py`应用后复预览为`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`；两张目标卡定向渲染2/2，写后字节核验通过，渲染后复预览均无差异。`audit_tables.py --strict-stage --summary`退出码0：KU=3,119、候选=12,431、alignment=12,778、new待S4登记=2,754、S2 statements=15,393、mentions=26,860、S5=14,183（1,634 unverified）、relations.csv=2,271（2,238 formal、33 pending）、backlog=49（14 completed、35 undecided、pending=0），`errors=[]`、`s2_missing=[]`。`audit_relation_consistency.py`的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。全书S2独立复核分子未变；S2仍未独立接收，S3–S6仍未全书收口。

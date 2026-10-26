@@ -35,6 +35,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 机构性质 | 意大利国家艺术博物馆 | S2–S3；无独立页面时据S1限定 |
 | 所在地／服务范围 | 罗马，意大利 | S2–S3 |
 | 本轮职能 | 具体作品的展陈宫殿另用地点关系表达。 | S1 |
+| 书中完整名称形式 | Galleria Nazionale di Arte Antica | S1；第2章印刷页60注3 L46 |
 
 ### 收藏、管理与使用边界
 
@@ -47,6 +48,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 |---|---|---|
 | ← 保管对象（`holder_of`，反向投影） | [《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）](../works/caravaggio-judith-barberini.md) | 当前对象记录将Judith Beheading Holofernes (Palazzo Barberini version)列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；原断言与证据见发出端卡片“《朱迪斯斩杀赫罗弗尼斯》（巴贝里尼宫版本）（Judith Beheading Holofernes (Palazzo Barberini version)）”：[来源](https://www.barberinicorsini.org/en/opera/judith-beheading-holofernes/)；src-b49484843a38d61f；本卡S2；有S4时并参对象字段 |
 | ← 保管对象（`holder_of`，反向投影） | [《水仙》（Narcissus）](../works/caravaggio-narcissus.md) | 当前对象记录将Narcissus列由该机构保管；保管不自动等于产权；时间：本轮来源访问时；角色：保管机构；范围：现存；卡拉瓦乔归属有争议；原断言与证据见发出端卡片“《水仙》（Narcissus）”：[来源](https://en.wikipedia.org/wiki/Narcissus_(Caravaggio))；src-b4507ad8f7e293ca；本卡S2；有S4时并参对象字段 |
+| ← 所在地（`location_of`，反向投影） | [安东尼奥·巴贝里尼枢机肖像（《赞助人与画家》第2章印刷页60所述）（Portrait of Cardinal Antonio Barberini described on printed p. 60 of Patrons and Painters）](../works/antonio-barberini-portrait-described-p60.md) | S2 statement: st-chp2-secvii-l38-54-fn-p60-3a-described-portrait-location. Lombardo 1959 p. 2 cited there was not independently consulted.；时间：at publication (1980 revised edition; 2006 printing)；角色：location reported at publication；范围：Haskell footnote 3 reports the portrait as then in the named Rome gallery; this is publication-relative and does not assert current custody.；原断言与证据见发出端卡片“安东尼奥·巴贝里尼枢机肖像（《赞助人与画家》第2章印刷页60所述）（Portrait of Cardinal Antonio Barberini described on printed p. 60 of Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_vii.md)；haskell-1980-rev-ed；line 46; printed p. 60 n. 3; PDF physical p. 49 |
 
 ### 身份与外部链接
 

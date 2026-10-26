@@ -2,15 +2,15 @@
 
 ### 本轮进度与后续工作（2026-10-26）
 
-**最新批次完成：第2章 p.46《Allegory of Rome》与 p.48 本蒂沃利奥肖像的跨章复用及S3–S6裁决。** `cand-4880`、`cand-4885`由`new`改为`same`，分别复用既有Valentin与Van Dyck作品KU；新增1条Haskell原书年代字段`enr-18093`；2项S6候选裁为1 formal（复用既有`rel-1042 located_at`）和1 pending（p.46复合脚注待拆分），未新建重复边。定向卡片预览无差异，字段预览无既有记录改动；严格表审计与关系一致性阻断检查通过。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-p48-bentivoglio-portrait-20261026)。
+**最新批次完成：第2章 p.60 枢机肖像与 Galleria 跨章端点。** `cand-4142`由`undecided`裁为`same`并复用既有机构KU；`cand-4922`沿用S3 `new`身份组并登记来源定位式肖像KU。S5新增4条source-backed字段；3项S6候选均formal（`rel-2269 has_subject`、`rel-2270 compared_with`、`rel-2271 located_at`），分别保留描绘对象、来源明确的版本比较及Haskell出版时位置，不主张该画作者或当前馆藏。两张受影响卡定向渲染并复预览无差异；字段预览幂等；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0。S2 statement／mention未改，独立复核分子不变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-p60-portrait-cross-chapter-20261026)。
 
-**全书当前进度。** S0处理832个源段（678 complete、154 excluded）。S2有15,393条statement、26,860条mention；统一逐条独立复核9,617/15,393（62.48%，尚未接收），statement ID与来源版本台账仍待核平。S3主决定覆盖12,431个候选：same=2,081、new=5,093、conflict=9、excluded=104、undecided=5,144；另有26个候选跨来源decision值不同（person 24、work 1、archive 1），须按各自证据核实，不能直接视为26个实体冲突。S4已映射2,338/5,093个new候选，仍待映射2,755个；其中1,060个未映射候选直接触及关系端点（term 435、archive 157、work 179、place 157、event 76、institution 55、person 1）。KU共3,118个。S5字段14,179条（1,634条unverified）。S6过程台账累计1,683项（977 formal、584 pending、122 rejected）；10,609条relation_candidate statement中仍有1条旧台账映射差异，核平前不报完成率。`relations.csv`有2,268条（2,235 formal、33 pending）。另有337条关系statement至少缺一个S2端点候选ID。`candidate-backlog.csv`有49条（14 completed、35 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性结构阻断均为0。全库卡片投影预检需写543个文件，其中519张卡有关系投影变化；本批目标卡无需写回。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现与页面尚未启动。
+**全书当前进度。** S0处理832个源段（678 complete、154 excluded）。S2有15,393条statement、26,860条mention；统一逐条独立复核9,617/15,393（62.48%，尚未接收），statement ID与来源版本台账仍待核平。S3主决定覆盖12,431个候选：same=2,082、new=5,093、conflict=9、excluded=104、undecided=5,143；另有26个候选跨来源decision值不同（person 24、work 1、archive 1），须按各自证据核实，不能直接视为26个实体冲突。S4已映射2,339/5,093个new候选，仍待映射2,754个；其中1,059个未映射候选直接触及关系端点（term 435、archive 157、work 178、place 157、event 76、institution 55、person 1）。KU共3,119个。S5字段14,183条（1,634条unverified）。S6过程台账累计1,686项（980 formal、584 pending、122 rejected）；10,609条relation_candidate statement中仍有1条旧台账映射差异，核平前不报完成率。`relations.csv`有2,271条（2,238 formal、33 pending）。另有337条关系statement至少缺一个S2端点候选ID。`candidate-backlog.csv`有49条（14 completed、35 undecided，严格审计pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性结构阻断均为0。最近一次全库卡片投影预检（本批前）需写543个文件，其中519张卡有关系投影变化；本批已定向渲染2张受影响卡。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现与页面尚未启动。
 
 **后续工作规划（按依赖与关系解锁排序）。**
 
 1. **清理跨来源异值并按类型完成S3。** 逐条核对26个跨来源decision值不同的候选，记录来源、各自所指对象及采纳的主决定；再处理626个类型未定的undecided候选，优先看其中471个关系直接端点。cand-6427继续待证，只有来源列出成员或证明正式组织身份时才重开。其余S3按一类一批推进：term（660个undecided、435个未映射直接端点）、work（1,575、179）、archive（672、157）、place（304、157）、event（113、76）、institution（118、55）、person（1,056、1），最后family（18）和procedure（2）。每个候选留来源锚点、同一／区分依据及明确去向：same复用、新建身份组、冲突双方、排除理由或未决缺证与解除条件。
 
-2. **先解锁关系端点，再完成其余S4。** 对1,060个未映射直接端点候选逐批完成S3身份核实和KU映射；其后处理剩余1,695个未映射new候选。每批同步补齐必要S5字段并逐项裁决S6；337条缺候选端点ID的statement转为可识别候选或保留明确pending理由，核平旧台账的1条statement映射差异，同时更新35条未决backlog的实际去向。
+2. **先解锁关系端点，再完成其余S4。** 对1,059个未映射直接端点候选逐批完成S3身份核实和KU映射；其后处理剩余1,695个未映射new候选。每批同步补齐必要S5字段并逐项裁决S6；337条缺候选端点ID的statement转为可识别候选或保留明确pending理由，核平旧台账的1条statement映射差异，同时更新35条未决backlog的实际去向。
 
 3. **继续S2独立复核并核平台账。** 先完成第7章p.191整页：当前有54条statement，现存定点审读只覆盖i07及其两条拆分关系（3条），其余51条没有本页逐条复核记录；复核后再前进p.192。按当前statement ID和来源版本逐条对照扫描页，先核平既有复核台账。只在当前版本确已独立复核且台账可追溯时更新9,617的分子；本批未增改statement或mention，独立复核分子不变。
 
