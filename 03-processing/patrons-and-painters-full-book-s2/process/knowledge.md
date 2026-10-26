@@ -15997,3 +15997,56 @@ S5字段预览／应用、8张新增或关联人物卡的关系投影预览及7�
 严格表审计：KU=3,159；候选=12,431；alignment=12,778；S4 new待登记=2,709；S2 statements=15,408、mentions=26,861；S5=14,322（1,627 `unverified`）；`relations.csv`=2,321（2,285 formal、36 pending）；backlog=49（14 completed、35 undecided、严格pending=0）；`errors=[]`、`s2_missing=[]`。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0；另有1,373个零关系KU与2个超50连接对象，均为非阻断诊断。
 
 批后全书：S2统一独立复核仍为9,617/15,408（62.42%，未接收）。S3主决定12,411/12,431：same=2,093、new=5,070、conflict=9、excluded=104、undecided=5,135；缺主决定候选20个、跨来源决定差异26个。S4已映射2,361/5,070，待映射2,709（直接关系端点1,021、其他1,688）。S6已裁决1,773/10,624（1,027 formal、621 pending、125 rejected），尚余8,851。`candidate-backlog.csv`仍为49条（14 completed、35 undecided，严格pending=0）。本批不表示S2独立接收或全书S3–S6收口。
+
+### S3–S6：第10章 p.280 Bulstrode Park 礼拜堂画组（2026-10-26）
+
+#### 来源范围与身份分组
+
+本批按第10章印刷页280（`CHP-10.pdf`物理页5）处理。扫描页支持 Portland 为乡间宅邸礼拜堂委托 Ricci 绘制四幅画、四项题名，以及 Vertue 约二十年后看见并称赞这些画。p.280 注3所述《The Last Supper》素描与《The Baptism of Christ》素描是另两个对象；其地点／拍卖信息不映射到最终画作。本批未使用外部身份记录。
+
+`cand-1981` 的 `P.csv#183` 索引子项为 `Bulstrode Park`，类型已为 place；其 `canonical_name` 误复制父索引标题“Portland, Henry, first Duke of”。现改为子项“Bulstrode Park”并在 detail 保留父项与子项关系。既有 S3 `new` 决定及地点身份组不变，登记卡按原文描述波特兰在 Bulstrode Park 的乡间宅邸。`cand-1979` 仍复用 Henry, first Duke of Portland；`cand-8933` 仍复用 George Vertue；`cand-2154` 仍复用 Sebastiano Ricci。
+
+四件画作各自沿用既有 S3 `new` 组：`cand-8912` The Ascension、`cand-8913` The Last Supper、`cand-8914` The Baptism of Christ、`cand-8915` The Visitation。`cand-8916` 是这四件画作的来源限定 programme 组，不是第五件画。`cand-8936` 是礼拜堂内部空间，`cand-1981` 是 Bulstrode Park 乡间宅邸地点，`cand-8937` 是 Haskell 所载 Buckinghamshire 区位。八项 S3 决定均已存在且均为 `new`；本批按原决定登记，没有重开身份裁决、借关系推造身份或声称外部对象已识别。
+
+#### S4 登记与 S5 字段
+
+新增八张来源限定 KU：
+
+| 候选 | KU | 登记范围 |
+|---|---|---|
+| `cand-8912` | `units/works/ricci-ascension-bulstrode-park-chapel` | Haskell所列画作 The Ascension；不指认存世实物 |
+| `cand-8913` | `units/works/ricci-last-supper-bulstrode-park-chapel` | Haskell所列最终画作；与注3素描分开 |
+| `cand-8914` | `units/works/ricci-baptism-of-christ-bulstrode-park-chapel` | Haskell所列最终画作；与注3拍卖素描分开 |
+| `cand-8915` | `units/works/ricci-visitation-bulstrode-park-chapel` | Haskell所列画作 The Visitation；不指认存世实物 |
+| `cand-8916` | `units/works/bulstrode-park-chapel-painting-programme` | 四幅画的来源限定组，不另计独立第五件作品 |
+| `cand-8936` | `units/places/bulstrode-park-country-house-chapel` | 书中可区分的宅邸礼拜堂空间；不声称建筑现存身份已核实 |
+| `cand-1981` | `units/places/bulstrode-park-portland-country-house` | 索引子项 Bulstrode Park 与书中所述乡间宅邸；不与 Henry Portland 人物合并 |
+| `cand-8937` | `units/places/buckinghamshire` | Haskell 所载郡级区位；未外部核验边界 |
+
+卡片中13条字段均有 Haskell p.280 的具体页行支持，状态 `source_backed`；没有把未查媒材、尺寸或存世位置补成事实。字段经 `build_field_facts.py` 针对八卡预览后写入。
+
+#### S2 关系候选与 S6 逐条裁决
+
+原有两条候选与本批新增11条原子陈述共13条；逐项以书内陈述裁定如下。`created_by` 表示 Haskell 所述“commissioned paintings from Ricci”中的具名受托画家，不指认今天可见的馆藏实物；`commentator_on` 保留为 Vertue 的转引评价，未称已直接阅读 Vertue 原卷。
+
+| S2 statement | S6 去向 | 语义范围 |
+|---|---|---|
+| `st-chp10-p280-portland-bulstrode-chapel-programme` | formal，`rel-2322 commissioned_by` | programme组→Henry, Duke of Portland；不补确切委托年份 |
+| `st-chp10-p280-vertue-praises-portland-paintings` | formal，`rel-2323 commentator_on` | Vertue→画组；约二十年后、引文经 Haskell 转述，注4所引 Vertue 卷册未独立查阅 |
+| `st-chp10-p280-programme-intended-for-chapel` | formal，`rel-2324 intended_for` | 四画 programme→宅邸礼拜堂；不从“any Catholic church”类比推定礼拜堂宗派 |
+| `st-chp10-p280-chapel-part-of-country-house` | formal，`rel-2325 part_of` | 礼拜堂→波特兰乡间宅邸；记录来源空间表述，不确认现存建筑身份 |
+| `st-chp10-p280-country-house-located-in-buckinghamshire` | formal，`rel-2326 located_at` | 乡间宅邸→Buckinghamshire；地理信息仅按 Haskell 转录 |
+| `st-chp10-p280-ascension-part-of-programme` | formal，`rel-2327 part_of` | The Ascension→四画 programme |
+| `st-chp10-p280-last-supper-part-of-programme` | formal，`rel-2328 part_of` | The Last Supper→四画 programme；不含注3素描 |
+| `st-chp10-p280-baptism-of-christ-part-of-programme` | formal，`rel-2329 part_of` | The Baptism of Christ→四画 programme；不含注3素描 |
+| `st-chp10-p280-visitation-part-of-programme` | formal，`rel-2330 part_of` | The Visitation→四画 programme |
+| `st-chp10-p280-ascension-created-by-ricci` | formal，`rel-2331 created_by` | The Ascension→Sebastiano Ricci；限于 Haskell 的委托叙述 |
+| `st-chp10-p280-last-supper-created-by-ricci` | formal，`rel-2332 created_by` | The Last Supper→Sebastiano Ricci；限于 Haskell 的委托叙述 |
+| `st-chp10-p280-baptism-of-christ-created-by-ricci` | formal，`rel-2333 created_by` | The Baptism of Christ→Sebastiano Ricci；限于 Haskell 的委托叙述 |
+| `st-chp10-p280-visitation-created-by-ricci` | formal，`rel-2334 created_by` | The Visitation→Sebastiano Ricci；限于 Haskell 的委托叙述 |
+
+本批保留 S2 `original_quote` 的 OCR 层原文：天主教类比句仍记作 `Cathode`，印本扫描读作 `Catholic` 的校正保存在该 statement 的 `qualifiers.ocr_corrections`；S0/OCR来源文件未改。commission段的破折号与 Vertue 引文的引号字符依据印本扫描校正。Vertue 引文仍明确标作 Haskell 引用 Vertue；p.280 注4提供的页码不是本批独立查阅记录。
+
+八张新卡的字段提取预览为13条source-backed记录、0条unverified；apply后复预览`record_changes=0`、`new_ids=0`。`build_cards.py --preview`先核对programme卡关系投影，随后定向`--render`预检并写入11张受影响卡（8张新卡及Henry Portland、George Vertue、Sebastiano Ricci三张既有端点卡）；预检`cards=11`、`tables=17`、`rows=39`、`projected_relation_rows=34`通过，写后字节核验通过。
+
+批后严格表审计：KU=3,167；候选=12,431；alignment=12,778且`alignments_unlinked=0`；S4 `new`待登记=2,701；S2 statements=15,419、mentions=26,861；S5=14,335（1,627 `unverified`）；S6候选=10,635；`relations.csv`=2,334（2,298 formal、36 pending）；backlog=49（14 completed、35 undecided、严格pending=0）；`errors=[]`、`s2_missing=[]`。S2统一独立复核分子仍为9,617，约62.37%；新增的11条S2 statement未计入分子。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；另有1,371个零关系KU与2个超50连接对象，均为非阻断诊断。未登记的2,701个`new`候选中，1,020个为关系statement直接端点、1,681个为其他候选。机械审计通过不代表S2独立语义接收。

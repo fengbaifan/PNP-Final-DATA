@@ -59,4 +59,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 委托者（`commissioner_of`，反向投影） | [布尔斯特罗德公园礼拜堂四幅画组（Four-Painting Programme for the Bulstrode Park Chapel）](../works/bulstrode-park-chapel-painting-programme.md) | S6 formal: source-limited relation based on st-chp10-p280-portland-bulstrode-chapel-programme; no external object identity or present location is inferred.；角色：Henry, Duke of Portland, commissioner；范围：Haskell says Portland commissioned paintings from Ricci for his town house and especially for the chapel at his country house in Bulstrode Park; the four named paintings form this source-bounded group. No exact commission date is supplied.；原断言与证据见发出端卡片“布尔斯特罗德公园礼拜堂四幅画组（Four-Painting Programme for the Bulstrode Park Chapel）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p.280, lines 53–55; statement=st-chp10-p280-portland-bulstrode-chapel-programme |
+
 目前没有登记在 `relations.csv` 中的正式关系。直接 S2 关系候选共 5 条（st-chp10-p279-portland-early-employer-open, st-chp10-p280-portland-bulstrode-chapel-programme, st-chp10-p280-portland-commissioned-pellegrini, st-chp10-p280-portland-ricci-townhouse, st-chp10-p280-portland-son-of-bentinck），保留待 S6 审查；本卡登记不等于关系裁决。

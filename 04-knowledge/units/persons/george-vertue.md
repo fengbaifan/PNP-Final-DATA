@@ -47,6 +47,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → commentator_on（`commentator_on`） | [布尔斯特罗德公园礼拜堂四幅画组（Four-Painting Programme for the Bulstrode Park Chapel）](../works/bulstrode-park-chapel-painting-programme.md) | S6 formal: source-limited relation based on st-chp10-p280-vertue-praises-portland-paintings; no external object identity or present location is inferred.；角色：quoted commentator；范围：Haskell reports that Vertue saw the paintings about twenty years later and quotes his praise. The appraisal is mediated by Haskell; Vertue’s cited volume IV, p.48 was not independently consulted.；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p.280, line 55; statement=st-chp10-p280-vertue-praises-portland-paintings |
+
 
 当前没有正式关系。`st-chp10-p280-vertue-praises-portland-paintings` 与 `st-chp10-p289-note2-vertue-goodwood-list` 两条S2关系候选保留待S6审查；Haskell转述与所引Vertue原作不等同于独立核验。
