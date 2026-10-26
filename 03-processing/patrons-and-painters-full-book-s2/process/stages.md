@@ -13669,3 +13669,7 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 按当前候选、关系statement及CHP-17印本扫描逐项复核。S0源文件只读。p.379–381图像将多处OCR差异校正记入statement qualifiers；p.379注1/注2/注3/注4/注5/注6新增独立Haskell-cites statements共6条。p.380注4的quoted source端点改为Moschini出版物→Manfrin gallery候选；p.380注6改为书信→Epistolario系列；p.381注1改为Haskell书→1806出版物，1810未识别文献保持candidate端点并转为Haskell书→候选文献。反转p.379注2/注4/注5的档案位置statement方向。新增statement不增加mention，不计入S2统一独立复核分子；本次不宣称第17章或S2独立接收。
 
 详见[第17章来源端点过程记录](knowledge.md#s3-s4-s5-s6-chp17-p379-p381-manfrin-sources-20261026)。批后S2为15,406 statements、26,861 mentions；统一独立复核仍为9,617条，新增/修订statement未计入。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五项阻断均为0。8张受影响卡已定向渲染，逐张复预览无差异；该批次不构成章节或全书独立语义接收。
+
+### 2026-10-27：第3章 pp.76–77 穹顶图稿关系端点定向补充
+
+为S4/S6复用既有两条跨页创作者 statement 的mention锚点，并新增 `st-chp3-seciv-l3-6-cartoons-intended-for-cupola` 与 `st-chp3-seciv-l3-6-cupola-part-of-chiesa-nuova` 两条关系statement。后者在 p.76 L6 建立原引文锚点，使用 `continuation_to` 指向 p.77 L9 完成“cupola of the Chiesa Nuova”短语。新增2条statement、无新增mention；不计入统一S2独立复核分子。跨章建筑复用、两项新KU及四项S6逐条去向见[知识过程记录](knowledge.md#s3-s4-s5-s6-chp3-p76-77-cupola-cartoons-20261027)。

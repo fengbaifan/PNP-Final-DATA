@@ -64,6 +64,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [鲁本斯《教皇圣格里高利与诸圣朝拜瓦利切拉圣母像》（Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella）](../works/rubens-chiesa-nuova-altarpiece-1606.md) | 委托指定的教堂场所；原断言与证据见发出端卡片“鲁本斯《教皇圣格里高利与诸圣朝拜瓦利切拉圣母像》（Rubens’s Saint Gregory with Saints Venerating the Madonna della Vallicella）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 402–404; print pp. 11 |
+| ← 包含成员（`contains`，反向投影） | [耶稣新堂穹顶（Cupola of Chiesa Nuova, Rome）](chiesa-nuova-cupola.md) | Cross-page source phrase directly identifies the cupola as belonging to Chiesa Nuova.；角色：Architectural cupola space；范围：The source phrase “cupola of the Chiesa Nuova” identifies this architectural interior as part of the church; dimensions and present condition are not stated.；原断言与证据见发出端卡片“耶稣新堂穹顶（Cupola of Chiesa Nuova, Rome）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p.76 L6 continuing at p.77 L9; PDF physical pp.18–19; statement=st-chp3-seciv-l3-6-cupola-part-of-chiesa-nuova |
 
 ### 身份与外部链接
 

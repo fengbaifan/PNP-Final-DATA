@@ -16217,3 +16217,44 @@ S2 statements/mentions 与统一独立复核分子均未改变；本批不计作
 字段表预览后写入；作品卡、Bernardino Mei 人物卡及 Flavio Chigi 人物卡均先预览再定向渲染，三卡二次预览均无差异。渲染批次为3卡、4个属性表、15行、5条关系投影；写后字节核验通过。批后严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。S2 statements、mentions及统一独立复核分子不变。
 
 批后全书：KU=3,181；S4 new待登记2,686；S5字段=14,390（unverified=1,627）；S6候选10,643条，已裁决1,811条（formal 1,062、pending 624、rejected 125），未裁决8,832条；`relations.csv`=2,359（formal 2,323、pending 36）。backlog=49（14 completed、35 undecided；严格 pending=0）。本批登记1个S4 work、3条source-backed字段，并完成2项formal S6裁决；不计入S2独立审读。
+
+<a id="s3-s4-s5-s6-chp3-p76-77-cupola-cartoons-20261027"></a>
+### S3–S6：第3章 p.76–77 穹顶图稿与建筑空间端点（2026-10-27）
+
+#### 跨章身份组与候选去向
+
+本批从穹顶图稿与空间两个直接关系端点开始，并对端点登记触发的同名教堂候选作定点 S3 复核：
+
+- `cand-5182` 沿用 `workgrp-fe570da6cfa693` 的 S3 `new` 身份组，登记为[耶稣新堂穹顶图稿](../../../04-knowledge/units/works/pietro-da-cortona-chiesa-nuova-cupola-cartoons.md)。描述性题名只记录 Haskell 所述 cartoons，不声称正式原题、图稿数量、完成、存世或现藏；与后文穹隅壁画分别建模。
+- `cand-5181` 沿用 `sg3-place-cand-5181` 的 S3 `new` 组，登记为[耶稣新堂穹顶空间](../../../04-knowledge/units/places/chiesa-nuova-cupola.md)。穹顶是教堂内部空间，不与整座 Chiesa Nuova 合并。
+- `cand-5450` 的“Church of the Chiesa Nuova (Rome)”触发 S3 定点复核，由 `new` 改为 `same`，复用跨章已登记的 `units/places/chiesa-nuova`（组 `sg3-ku-units-places-chiesa-nuova`）。第3章 p.92 所称教堂与第1章既有 Chiesa Nuova 建筑是同一对象；它不是穹顶空间。没有另建重复建筑 KU。
+
+#### S2 定向补关系端点
+
+对照 `02-sources/02-Markdown/03_CHP-3_sec_iv.md` p.76 L6 与 p.77 L9 的跨页句，新增两条原子关系 statement：
+
+| 新statement | 主体候选 | 客体候选 | 原书断言 |
+|---|---|---|---|
+| `st-chp3-seciv-l3-6-cartoons-intended-for-cupola` | `cand-5182` | `cand-5181` | Pietro 开始为穹顶绘制 cartoons；只记录图稿的原定对象，不表示有存世图纸实际安装于穹顶。 |
+| `st-chp3-seciv-l3-6-cupola-part-of-chiesa-nuova` | `cand-5181` | `cand-3110` | “cupola of the”由 p.77 L9 的“Chiesa Nuova”续完，记录穹顶空间属于教堂。statement 主锚点保留 p.76 L6 的精确片段，`continuation_to`及关系证据指向 p.77 L9。 |
+
+两条 statement 复用既有 mention 锚点；mention 总数不变。本次定向 S2 新增未计入统一独立复核分子，也不构成第3章或全书接收。
+
+#### S4 与 S5
+
+`aln-5365` 映射到 work `units/works/pietro-da-cortona-chiesa-nuova-cupola-cartoons`；`aln-5364` 映射到 place `units/places/chiesa-nuova-cupola`；`aln-5631` 更新为 `same` 并复用 `units/places/chiesa-nuova`。两张新卡共抽取5条 source-backed S5 字段（`enr-18305`–`enr-18309`），0条 `unverified`，0条警告；来源均为 Haskell 第3章 pp.76–77。未作外部身份或作品存世核查。
+
+#### S6 逐项裁决
+
+| S2 statement | 决定 | relation | 裁决范围 |
+|---|---|---|---|
+| `st-chp3-seciv-l3-6-cupola-cartoons-started` | formal | `rel-2360 created_by` | Haskell 记 Pietro 开始绘制图稿；来源限定的创作者归属。 |
+| `st-chp3-seciv-l8-14-cupola-cartoons-date` | formal | 复用 `rel-2360 created_by` | 同一跨页创作事实的日期陈述；relation 保留 November 1646 作为开始时间，不推定完成。 |
+| `st-chp3-seciv-l3-6-cartoons-intended-for-cupola` | formal | `rel-2361 intended_for` | cartoons 为穹顶绘制；不表示图稿存世或已安装。 |
+| `st-chp3-seciv-l3-6-cupola-part-of-chiesa-nuova` | formal | `rel-2362 part_of` | p.76–77 跨页短语明确穹顶属于 Chiesa Nuova；未补尺寸、建造时间或现状。 |
+
+三条关系边与 S2 statement 及精确书页跨度相连。`rel-2360` 的一条正式边复用于两项逐 statement 决定，避免为相同的 work–person 自然关系重复建边。
+
+#### 批后核对
+
+两张新卡的 S5 字段先预览再写入；作品卡、穹顶卡、Pietro 人物卡和 Chiesa Nuova 建筑卡定向预览后渲染，写后四卡复预览均无差异。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。S2 新增2条 statement，mentions 与独立复核分子不变。S3、S4、S5、S6全书快照见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
