@@ -106,3 +106,9 @@ English: This card represents the sole candidate `cand-1554` in S3 group `new-pe
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《Mare Magnum索引》（Index to the Mare Magnum）](../archives/indice-del-mare-magnum-biagi-1888-catalog-record.md) | The publication-year discrepancy is preserved separately; this edge asserts bibliographic responsibility only.；角色：書目責任者；范围：Haskell’s bibliography names Marucelli, Francesco as author; external catalogues support the 1888 publication identity.；原断言与证据见发出端卡片“《Mare Magnum索引》（Index to the Mare Magnum）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；S2 statement: st-chp21-bib-pub-author-indice-mare-magnum |

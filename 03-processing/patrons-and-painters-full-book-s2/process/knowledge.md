@@ -15439,3 +15439,28 @@ S5新增10条书内 `source_backed` 字段 `enr-17968`–`enr-17977`，未做外
 | st-chp21-bib-pub-author-berthier-1910 | pending；cand-12451未定，不建正式边 |
 
 **卡片与核验。** 十个新KU、Haskell来源卡及五个人物端点卡已在本批定向渲染；版画与Castiglione人物卡因新增created_by再次渲染，写后字节核验通过，复跑预览均无差异。41条S5字段写入后预览为record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0、warnings=0。audit_tables.py --strict-stage --summary退出码0：KU=3,096、候选=12,429、alignments=12,776、S4待登记=2,780、S2 statements=15,385、mentions=26,853、S5=14,104（1,634 unverified）、relations.csv=2,246（2,213 formal、33 pending）、backlog=48（14 completed、34 undecided、pending=0），errors=[]、s2_missing=[]。audit_relation_consistency.py的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。新增statement未计入9,617条S2统一独立复核分子。本批未独立核验被引出版物；S2仍未独立接收，S3–S6仍未全书收口。
+
+
+<a id="s3-s4-s5-s6-chp6-p158-160-endpoints-20261026"></a>
+## S3–S6：第6章 pp.158–160 文献与人物端点跨章登记（2026-10-26）
+
+**证据范围与对象区分。** 对照第6章 p.158 n.1、p.159 n.1、p.160 nn.1–2和第21章 pp.429、436书目。Internet Culturale将Mare Magnum描述为Biblioteca Marucelliana保存的手稿书目，并称Guido Biagi于1888年出版该书目索引；Marucelliana馆藏清单将手稿与1888年印本索引分列；SBN LO10478587记录该索引为Biagi编辑的1888年出版物。Haskell第21章p.429印作Roma 1882，外部目录为1888，保留为出版年异文，不据此拆分出版物身份或裁为实体冲突。Biagi为Mare Magnum撰写的导论、原始手稿、Biagi整理的印本索引各自独立；导论是否收入印本索引没有证据，未建part_of。旁邻未具名学术著作cand-6409仍undecided。SBN EC00021521将书目形式“Schlosser-Magnino, J.”对应到Julius von Schlosser；仅据此建立本书目作者端点，不扩写传记。目录证据：[Internet Culturale](https://www.internetculturale.it/it/41/collezioni-digitali/26172/mare-magnum)、[Marucelliana馆藏清单 p.31](https://marucelliana.cultura.gov.it/wp-content/uploads/2025/01/Bibliografia_materiale_mss_al_31_dic_2024.pdf)、[SBN LO10478587](https://opacnow.provincia.rovigo.it/it/now/concordi/record/LO10478587)、[SBN EC00021521](https://opacnow.provincia.rovigo.it/it/now/concordi/record/EC00021521)。
+
+| 候选 | S3决定／身份组 | S4知识元 |
+|---|---|---|
+| cand-6410 | new；`archive-group-4a6631726b0f` | `units/archives/mare-magnum-manuscript-bibliography` |
+| cand-6411 | new；`new-person:biagi-guido-8e6ac6d855` | `units/persons/guido-biagi` |
+| cand-6412 | new；`archive-group-0eabccd3d92d` | `units/archives/guido-biagi-introduction-to-mare-magnum` |
+| cand-11394 | new；`archive-group-e7faaaa88355` | `units/archives/indice-del-mare-magnum-biagi-1888-catalog-record` |
+| cand-6440 | new；`archive-group-1023c3ab5d82` | `units/archives/la-letteratura-artistica-second-edition-1956` |
+| cand-6451 | new；`archive-group-b86cf413bf12` | `units/archives/avvisi-roma-xix-1941-gaulli-gesu` |
+| cand-6453 | new；`archive-group-58020a154e06` | `units/archives/jacomo-di-castro-letter-to-antonio-ruffo-1670-09-20` |
+| cand-0606 | new；`new-person:castro-di-jacomo-125a7610a0` | `units/persons/jacomo-di-castro` |
+| cand-12452 | new；`new-person:julius-von-schlosser-afd064fd1b` | `units/persons/julius-von-schlosser` |
+| cand-6452 | same | 复用`units/archives/roma-volume-xix-1941` |
+
+Francesco Marucelli、Don Antonio Ruffo、Biblioteca Marucelliana及Ruffo 1916出版物复用既有KU。被引导论、书籍、告示、书信及Ruffo页未在本批独立查阅；对应卡只记录Haskell书内来源或目录所直接支持的字段。
+
+**S2、S5与S6。** 新增3条书目责任statement和3条mention，包含cand-12452作者形式及“Marucelli, Francesco / a cura di Guido Biagi”书目子提及；新增4条外部来源记录和31条source-backed字段。四条既有关系候选statement逐项formal：`st-chp6-p158-notes-p158-n1-biagi-mare-magnum`（cites、authored_by）、`st-chp6-p159-note1-schlosser-magnino`（cites）、`st-chp6-p160-note1-avvisi-roma-1941`（cites、part_of）、`st-chp6-p160-note2-jacomo-letter-ruffo`（cites、authored_by、addressed_to、part_of），合计9条候选关系边。另有4条结构性书目责任或馆藏位置边：`rel-2250 authored_by`、`rel-2257 authored_by`、`rel-2258 compiled_by`、`rel-2259 located_at`；因此本批共新增13条formal关系`rel-2247`–`rel-2259`。新statement未计入S2独立复核分子。
+
+**卡片与核验。** 定向渲染15张受影响卡并完成写后字节核验；同目标复跑`files_written=0`。`audit_tables.py --strict-stage --summary`退出码0：KU=3,105、候选=12,430、alignments=12,777、S4待登记=2,771、S2 statements=15,388、mentions=26,856、S5=14,135（1,634 unverified）、relations.csv=2,259（2,226 formal、33 pending）、backlog=48（14 completed、34 undecided、pending=0），`errors=[]`、`s2_missing=[]`。`audit_relation_consistency.py`中broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。本批S2语义修订未增加统一独立复核数，S2仍未独立接收，S3–S6仍未全书收口。

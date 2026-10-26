@@ -27523,3 +27523,6 @@ m-chp21-bib-borzelli-author-1910,chp-21:21_CHP-21Bibliography:l207-241,cand-1245
 m-chp21-bib-haskell-author-1960,chp-21:21_CHP-21Bibliography:l577-614,cand-9423,"Haskell, F.",152,163,Author form for the cited article.
 m-chp21-bib-monconys-author,chp-21:21_CHP-21Bibliography:l808-844,cand-1685,"Monconys, Balthazar de",1799,1821,Author form for the cited journal.
 m-chp21-bib-neri-author-1883,chp-21:21_CHP-21Bibliography:l846-881,cand-6197,"Neri, A.",1835,1843,Bibliography author form linked to the full name in Chapter 5 note 6.
+m-chp21-bib-l1059-1100-023-author,chp-21:21_CHP-21Bibliography:l1059-1100,cand-12452,"Schlosser-Magnino, J.",2714,2735,Bibliography author form resolved to the SBN authority record EC00021521; identity remains scoped to this publication.
+m-chp21-bib-l756-806-010-author,chp-21:21_CHP-21Bibliography:l756-806,cand-1554,"Marucelli, Francesco",996,1016,Author sub-mention in the Indice del Mare Magnum bibliography entry.
+m-chp21-bib-l756-806-010-editor,chp-21:21_CHP-21Bibliography:l756-806,cand-6411,Guido Biagi,1075,1086,Editorial responsibility sub-mention in the Indice del Mare Magnum bibliography entry.
