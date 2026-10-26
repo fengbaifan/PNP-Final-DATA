@@ -2,15 +2,15 @@
 
 ### 本轮进度与后续工作（2026-10-26）
 
-**最新批次完成：第10章 p.290–306 文献、人物、作品与机构端点及S6裁决。** 完成16个S3 new身份组的S4映射；将King’s College候选cand-9422校正为same并复用既有机构KU。新增65条Haskell来源字段。16项S6候选statement逐项裁为11 formal、5 pending、0 rejected，新增12条正式关系边；pending项分别保留未定端点、类型域值域、无受控回复谓词和未识别作品的理由。22张相关卡检查、19张更新，复跑无差异。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch10-notes-endpoints-20261026)。
+**最新批次完成：第8章 p.212 注3 Cortona 两个作品版本、地点端点与S6裁决。** 沿用3个既有S3 `new`身份组完成3项S4映射，复用Pietro da Cortona、Del Rosso family及Luca Giordano既有KU；新增10条书内`source_backed`字段。修订1条并新增4条S2 statement，未新增mention，定向修改未计入S2独立复核分子。5项S6候选均formal，新增`rel-2226`–`rel-2230`；5张相关卡渲染后复跑无差异。严格表审计及关系一致性阻断审计通过。未作外部独立核验。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch8-p212-cortona-version-20261026)。
 
-**全书当前进度与边界。** S0已处置832个源段（678 complete、154 excluded）。S2有15,373条statement、26,845条mention；统一逐条独立复核9,617/15,373（62.56%，尚未接收），statement ID与来源版本台账待核平。S3唯一主记录覆盖12,427个候选：same=2,076、new=5,095、conflict=9、excluded=104、undecided=5,143。另有26个候选含补充外部对齐行；主决定和补充证据行分开统计，不把跨来源decision差异直接当作主决定冲突。S4已映射2,303/5,095条new，待登记2,792条；其中1,088个未映射new候选触及relation_candidate直接端点。KU共3,083。S5字段14,053条（1,634条unverified）。S6过程记录累计1,632项结果（942 formal、569 pending、121 rejected）；当前10,592条relation_candidate与历史裁决台账仍有1条statement映射差异，核平前不报完成率。relations.csv共2,225条（2,192 formal、33 pending）。另有337条关系statement至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端皆缺72）。candidate-backlog.csv有46条（13 completed、33 undecided，严格审计pending=0）。严格表审计errors=[]、s2_missing=[]；关系一致性五类阻断均为0。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现与页面等待用户明确启动。
+**全书当前进度与边界。** S0已处置832个源段（678 complete、154 excluded）。S2有15,377条statement、26,845条mention；统一逐条独立复核9,617/15,377（62.54%，尚未接收），statement ID与来源版本台账待核平。S3唯一主记录覆盖12,427个候选：same=2,076、new=5,095、conflict=9、excluded=104、undecided=5,143。另有26个候选含补充外部对齐行；主决定和补充证据行分开统计，不把跨来源decision差异直接当作主决定冲突。S4已映射2,306/5,095条new，待登记2,789条；此前1,088个触及直接关系端点的未映射候选中，本批完成3个，剩余全局数尚未复算。KU共3,086。S5字段14,063条（1,634条unverified）。S6过程记录累计1,637项结果（947 formal、569 pending、121 rejected）；当前10,596条relation_candidate与历史裁决台账仍有1条statement映射差异，核平前不报完成率。relations.csv共2,230条（2,197 formal、33 pending）。另有337条关系statement至少缺一个S2端点候选ID（仅缺subject 45、仅缺object 220、两端皆缺72）；本批修订和新增statement后的缺端点数尚未复算。candidate-backlog.csv有46条（13 completed、33 undecided，严格审计pending=0）。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现与页面等待用户明确启动。
 
 **后续工作规划（以S3逐类型收口为主线）。**
 
 1. **先裁类型未定候选并建跨章身份组。** 现有626个类型未定候选中471个触及关系端点；优先结合所在页段、提及跨度及相邻statement确定对象类型，再对全书候选按work、person、archive、term、place、institution、event、family、procedure逐类建组。当前各类型undecided为work 1,575、person 1,055、archive 672、term 660、place 304、institution 118、event 113、family 18、procedure 2。每个组保留候选来源、跨章同一/区分依据和唯一去向；书信、版本、合集及单件作品不因题名或共现合并。
 
-2. **直接关系端点优先接入S4/S6。** 当前2,792个new尚未映射KU，其中1,088个触及直接关系端点。第10章本批已完成16个新映射及16项S6决定。下一批按关系解锁量、端点身份确定度和来源锚点集中度选择章节页段；先完成S3判断，再登记KU/S5字段，逐项裁S6。无可用端点或受控谓词时，留pending并写明解除条件。
+2. **直接关系端点优先接入S4/S6。** 当前2,789个new尚未映射KU；此前1,088个触及直接关系端点的候选中，最近一批已清除3个，未映射端点总数待按当前数据复算。第8章本批完成3个S4映射及5项S6裁决。下一批按关系解锁量、端点身份确定度和来源锚点集中度选择章节页段；先完成必要的S3定点判断，再登记KU/S5字段，逐项裁S6。无可用端点或受控谓词时，留pending并写明解除条件。
 
 3. **核平关系候选与待办。** 按来源页分组处理337条缺少S2端点候选ID的statement；对backlog中33条undecided，逐项指定回到S1→S3→S4或明确待证条件。核平S6历史台账与当前relation_candidate之间的1条statement映射差异。1,634条unverified字段先查直接端点和formal关系依赖事实。
 

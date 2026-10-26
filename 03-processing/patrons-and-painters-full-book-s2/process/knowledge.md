@@ -15376,3 +15376,14 @@ cand-9422 → units/institutions/kings-college-cambridge为same。cand-9430（Ne
 | st-chp10-p304-note7-christies-sale-catalogue | pending：十四幅画未识别，cand-9544未定且无可用KU |
 
 **渲染与审计。** 22张相关卡定向检查，19张需更新并完成渲染；复跑相同目标files_to_write=0。King’s College卡同时同步两条已有教育关系的来源ID投影。严格表审计：KU=3,083、statement=15,373、mention=26,845、S5=14,053、relations.csv=2,225（2,192 formal、33 pending），errors=[]、s2_missing=[]；关系一致性五类阻断均为0。全库卡片预检仍有545个文件待渲染，其中522张存在关系视图差异，属于本批范围以外的渲染待办，须分批核对。S2独立复核分子仍为9,617；全书S3–S6及S2语义验收均未收口。
+
+<a id="s4-s5-s6-ch8-p212-cortona-version-20261026"></a>
+### 2026-10-26：第8章 p.212 注3 Cortona 两个《Madonna and Four Saints》作品端点及关系裁决
+
+对照第8章 p.212 注3页图，区分 Del Rosso 家取得的较小版本与 S. Agostino, Cortona 的较早作品；“in-Naples”按书中文字保留为 acquisition 叙述，不据此推定现藏地、当前所有权或购藏日期。S3 沿用既有 `new` 身份组：`cand-7608`→`workgrp-60359e58af8f6e`（较小版本）、`cand-7609`→`workgrp-edd0a261971500`（较早作品）、`cand-7610`→`sg3-place-cand-7610`（S. Agostino, Cortona），未重开主决定；Pietro da Cortona、Del Rosso family、Luca Giordano 复用既有KU。对应 `aln-7784`–`aln-7786` 完成S4映射，新增3个KU与双语卡。
+
+修订 `st-chp8-p212-n3-cortona-madonna-four-saints`，使其只表达较小版本为 Del Rosso 家取得的书内报告；新增4条原子S2关系statement，分别表达版本关系、较早作品的 S. Agostino 地点及两件作品的创作者。复用既有mention锚点，mentions不变；statement净增4。该修订对应既有S2问题 #374，属定向修订，不计入统一独立复核分子。
+
+S5新增10条书内 `source_backed` 字段 `enr-17968`–`enr-17977`，未做外部独立核验。S6五项关系候选逐项formal：`rel-2226 variant_of`、`rel-2227 located_at`、`rel-2228 acquired_by`、`rel-2229 created_by`、`rel-2230 created_by`；关系类型、方向与端点均通过domain/range检查，证据回链至具体S2 statement及Haskell p.212 n.3。五张受影响卡定向渲染写入5张，复跑 `files_to_write=0`。
+
+严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性 `broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed` 均为0。未新增mention；新增及修订statement不计入9,617条S2统一独立复核分子。

@@ -13659,3 +13659,7 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 ### 2026-10-25：第七章 p.191 Bernini 自画像素描关系端点修订
 
 依2026-10-20的逐条审读记录，纠正 st-chp7-p191-i07 的 subject/object 与 acquired_by 方向，保留 Domenico 作为原文所称转移来源；将 self-portrait 语义拆为创作者与被表现者两条来源限定关系候选。cand-6958 经 S3 定点复核登记为来源局部作品组，并在同批完成 S4/S5/S6。此前核读覆盖不能自动延伸到改写后的 statement 版本：i07 及新增两条候选仍待独立复审，不记入统一 S2 复核分子。详见 [知识过程](knowledge.md#s3-s4-s5-s6-ch7-p191-bernini-self-portrait-20261025)。
+
+### 2026-10-26：第8章 p.212 注3 S2 定向修订记录
+
+处理既有问题 #374：根据印刷页图，将原 statement 限定为 Del Rosso 家取得较小版本的书内报告；另立较早的 S. Agostino 作品、两件作品间的版本关系、地点与创作者关系statement。原判断的复核覆盖不自动继承至修订版本；本次为端点修订，未计入9,617条统一独立复核分子，章节及全书仍未接收。
