@@ -27531,3 +27531,8 @@ m-chp6-fn-0036-subject,chp-6:06_CHP-6_sec_v:l47-70,cand-6536,Ottoboni,1418,1426,
 m-chp21-bib-l1022-1057-author-07,chp-21:21_CHP-21Bibliography:l1022-1057,cand-12453,"Rava, A.",927,935,Exact printed author form at the 1942 bibliography entry; person identity remains undecided.
 m-chp21-bib-l1220-1259-author-09,chp-21:21_CHP-21Bibliography:l1220-1259,cand-2802,"Waterhouse, E. K.",680,697,Exact printed author form; S3 links it to the existing Ellis Kirkham Waterhouse person KU.
 m-chp20-p409-055,chp-20:20_CHP-20Postscript:l187-199,cand-4107,Algarotti’s tomb,2466,2482,"Nested mention for the depicted tomb; reuse existing tomb candidate cand-4107, distinct from the painting and the Volpato print."
+m-chp8-p205-note-vaes-person,chp-8:08_CHP-8_sec_i:l126-157,cand-6386,Vaes,651,655,Surname within Haskell's p.205 n.1 author citation; resolved to Maurice Vaes in S3.
+m-chp21-bib-l1179-1218-029,chp-21:21_CHP-21Bibliography:l1179-1218,cand-6386,"Vaes, M.",309,317,Author form in the Haskell bibliography entry for the 1924 Van Dyck article; S3 resolves the identity to Maurice Vaes.
+m-chp21-bib-l1179-1218-030,chp-21:21_CHP-21Bibliography:l1179-1218,cand-6386,"Vaes, M.",412,420,Author form in the Haskell bibliography entry for the 1925 Corneille de Wael article; S3 resolves the identity to Maurice Vaes.
+m-chp21-bib-l1179-1218-031,chp-21:21_CHP-21Bibliography:l1179-1218,cand-6386,"Vaes, M.",513,521,Author form in the Haskell bibliography entry for the 1931 Van Mander article; S3 resolves the identity to Maurice Vaes.
+m-chp21-bib-l295-334-032,chp-21:21_CHP-21Bibliography:l295-334,cand-12454,"Ceci, Giuseppe",2362,2376,Author form in the Haskell bibliography entry for the 1920 Roomer article; source spelling retained.

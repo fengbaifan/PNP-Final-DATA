@@ -42,6 +42,7 @@ units:
 - 04-knowledge/units/archives/caravaggio-altarpieces-contract-1600.md
 - 04-knowledge/units/archives/carlevarijs-le-fabriche-1703.md
 - 04-knowledge/units/archives/carriera-journal-vianello-1793.md
+- 04-knowledge/units/archives/ceci-un-mercante-mecenate-gaspare-roomer-1920.md
 - 04-knowledge/units/archives/cellini-autobiography.md
 - 04-knowledge/units/archives/christies-bernard-sale-lot-68-1789.md
 - 04-knowledge/units/archives/cinelli-del-rosso-collection-account-1677.md
@@ -246,6 +247,8 @@ units:
 - 04-knowledge/units/archives/torcellan-andrea-memmo-1963.md
 - 04-knowledge/units/archives/trattato-sopra-gli-errori-degli-architetti-1767.md
 - 04-knowledge/units/archives/us-copyright-law.md
+- 04-knowledge/units/archives/vaes-corneille-de-wael-1925.md
+- 04-knowledge/units/archives/vaes-le-sejour-van-dyck-1924.md
 - 04-knowledge/units/archives/vasalli-testimony-mola-pamfili.md
 - 04-knowledge/units/archives/vatican-library-ms-barb-lat-6463.md
 - 04-knowledge/units/archives/venice-scalzi-pamphlet-1734.md
@@ -1127,6 +1130,7 @@ units:
 - 04-knowledge/units/persons/giulio-romano.md
 - 04-knowledge/units/persons/giulio-savelli.md
 - 04-knowledge/units/persons/giuseppe-baretti.md
+- 04-knowledge/units/persons/giuseppe-ceci.md
 - 04-knowledge/units/persons/giuseppe-fossati.md
 - 04-knowledge/units/persons/giuseppe-gambarini.md
 - 04-knowledge/units/persons/giuseppe-manini.md
@@ -1421,6 +1425,7 @@ units:
 - 04-knowledge/units/persons/matthaeus-kusel.md
 - 04-knowledge/units/persons/mattia-de-rossi.md
 - 04-knowledge/units/persons/mattia-preti.md
+- 04-knowledge/units/persons/maurice-vaes.md
 - 04-knowledge/units/persons/maurizio-di-savoia.md
 - 04-knowledge/units/persons/mauro-antonio-tesi.md
 - 04-knowledge/units/persons/maximilian-ii-emanuel-of-bavaria.md
@@ -1603,6 +1608,7 @@ units:
 - 04-knowledge/units/persons/romanelli.md
 - 04-knowledge/units/persons/rosalba-carriera.md
 - 04-knowledge/units/persons/rudolf-wittkower.md
+- 04-knowledge/units/persons/saint-januarius.md
 - 04-knowledge/units/persons/saint-luke.md
 - 04-knowledge/units/persons/saint-peter-the-apostle.md
 - 04-knowledge/units/persons/salvator-rosa.md
@@ -1616,6 +1622,7 @@ units:
 - 04-knowledge/units/persons/scipione-pulzone.md
 - 04-knowledge/units/persons/sebastiano-bombelli.md
 - 04-knowledge/units/persons/sebastiano-conca.md
+- 04-knowledge/units/persons/sebastiano-marcotti.md
 - 04-knowledge/units/persons/sebastiano-molino.md
 - 04-knowledge/units/persons/sebastiano-resta.md
 - 04-knowledge/units/persons/sebastiano-ricci.md
@@ -1733,6 +1740,7 @@ units:
 - 04-knowledge/units/places/castello-sforzesco.md
 - 04-knowledge/units/places/castle-howard.md
 - 04-knowledge/units/places/cerasi-chapel.md
+- 04-knowledge/units/places/chicago.md
 - 04-knowledge/units/places/chiesa-de-servi-bologna.md
 - 04-knowledge/units/places/chiesa-nuova-chapel-of-the-visitation.md
 - 04-knowledge/units/places/chiesa-nuova.md
@@ -2196,6 +2204,7 @@ units:
 - 04-knowledge/units/works/ferri-sant-agnese-cupola.md
 - 04-knowledge/units/works/ferri-sant-agnese-modello.md
 - 04-knowledge/units/works/fiammeri-s-vitale-martyrdom-frescoes.md
+- 04-knowledge/units/works/flaying-of-marsyas-san-martino-1637.md
 - 04-knowledge/units/works/fortune-salvator-rosa.md
 - 04-knowledge/units/works/forty-two-doric-columns-from-temple-dea-concordia.md
 - 04-knowledge/units/works/francesco-algarotti.md
@@ -2248,7 +2257,9 @@ units:
 - 04-knowledge/units/works/marco-pitteri-flaminio-corner.md
 - 04-knowledge/units/works/marco-ricci-an-operatic-rehearsal.md
 - 04-knowledge/units/works/marco-ricci-village-scene.md
+- 04-knowledge/units/works/marcotti-januarius-print-1665.md
 - 04-knowledge/units/works/marieschi-picture-exhibition-at-church-of-s-rocco.md
+- 04-knowledge/units/works/marriage-at-cana-c-1686.md
 - 04-knowledge/units/works/massimo-stanzione-jerome-bankes.md
 - 04-knowledge/units/works/mattia-preti-allegorical-portrait-louis-xiv-gift.md
 - 04-knowledge/units/works/mazarin-gallery-vault-decoration.md

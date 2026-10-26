@@ -64,6 +64,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← influenced（`influenced`，反向投影） | [《迦拿婚宴》（The Marriage at Cana；约1686）](../works/marriage-at-cana-c-1686.md) | S6 formal; sibling statement splits Veronese and Barocci into separate person endpoints.；角色：Stylistic influence；范围：Haskell's stylistic assessment says the painting shows the impact of Barocci; neither the cited publication nor the painting was independently consulted.；原断言与证据见发出端卡片“《迦拿婚宴》（The Marriage at Cana；约1686）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)；haskell-1980-rev-ed；Chapter 8 printed p.204 n.2 L128; statement=st-chp8-p204-marriage-at-cana-influence-barocci |
+
 ### 关系登记
 
 目前尚无 relations.csv 中的正式关系。S2 标记为直接关系候选的 4 条断言 (st-chp2-seci-l55-69-barocci-picture-request、st-chp3-secii-l137-142-borromini-barocci-sensibility、st-chp3-secii-l40-52-barocci-painted-commission、st-chp3-secii-l40-52-oratorians-sought-more-barocci) 留待 S6 逐条审查；S4 登记不预先将其确认为关系。

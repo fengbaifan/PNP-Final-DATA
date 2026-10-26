@@ -16462,4 +16462,35 @@ S2 statement、mention及独立复核分子均未改。S6 本批只处理上述�
 
 定向预览作品卡、Pietro Longhi人物卡及Zaccaria Sagredo人物卡；渲染作品卡与Pietro Longhi人物卡，Zaccaria卡无需变化。两张渲染卡复预览无差异。`build_field_facts.py`复预览为`record_changes=0`、`new_ids=0`、`source_registry_changes=0`、`warnings=0`。批后S3主决定same 2,100、new 5,085、conflict 9、excluded 106、undecided 5,131；S4映射2,407/5,085，未登记2,678，其中直接关系端点1,002；KU=3,188。S5共14,418条，1,627条`unverified`；S6已裁决1,830/10,649（1,077 formal、626 pending、127 rejected），余8,819；`relations.csv`共2,373行（2,336 formal、37 pending）。S2为15,434 statements／26,861 mentions，统一独立复核仍9,617条（62.31%），未接收；新增statement不计入复核分子。`audit_tables.py --strict-stage --summary`通过：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、严格backlog pending=0；关系一致性检查五项阻断均为0。全库仍有2,678条new alignment待S4登记，S2语义接收未完成；机械检查通过不改变该状态。
 
-\n
+
+<a id="s3-s4-s5-s6-chp8-p204-p205-roomer-endpoints-20261027"></a>
+### S3/S4/S5/S6：第8章 pp.204–205 Gaspar Roomer、Maurice Vaes与作品端点（2026-10-27）
+
+#### S3跨章身份分组与候选去向
+
+本批从第8章 p.204–205 已采纳陈述及其关系端点出发，并回查第2、6、7、21章和书目。cand-6386（书中Vaes／M. Vaes）依据 Haskell 书目、Académie royale de Belgique《Biographie Nationale》作者条目，以及 Heidelberg/Bibliotheca Hertziana 的1931年书目记录，合并为 Maurice Vaes 跨章人物组；此为作者身份对齐，不表示已阅读其论文或核实 Haskell 的引文内容。cand-6387（第8章p.207提及的 Corn. de Wael 论文）改判 same，复用既有1925年作品候选cand-7584：该页属于第21章书目所列 pp.137–247 论文范围，不另造出版物。cand-7591作为圣雅努阿里乌斯人物新组；cand-12454为书目明确署名的 Giuseppe Ceci 新人物候选。
+
+本批新增登记11个KU：archives ceci-un-mercante-mecenate-gaspare-roomer-1920、vaes-corneille-de-wael-1925、vaes-le-sejour-van-dyck-1924；persons giuseppe-ceci、maurice-vaes、saint-januarius、sebastiano-marcotti；place chicago；works flaying-of-marsyas-san-martino-1637、marcotti-januarius-print-1665、marriage-at-cana-c-1686。不同《迦拿婚宴》候选保持分立；Haskell对版画的描述没有被扩张为现存版次身份。
+
+两个重要候选保留待证：cand-7412所指 Roomer 1634年清单中的《剥皮的马尔西亚斯》尚无法与具体作品唯一对应；需有可核的库存、对象或版本证据后重开。cand-7595是藏品集合，但当前taxonomy不提供足以表达其边界的类型，保持未决且不登记为work/family KU；相关S6候选保留待证并链接bl-0016。这两个未决项均有明确原因与解除条件，不强行并入已识别作品。
+
+#### S2语义变更与复核边界
+
+新增7条statement、5条mention，包括p.204《迦拿婚宴》的位置与年代拆分、分别指向Veronese和Barocci的影响断言、Marcotti版画创作者与圣雅努阿里乌斯题材，以及第21章书目中Ceci、Vaes 1924/1925/1931的作者归属。另修订7条既有statement：4条关于文章研究方法、1634年清单缺载、两件《剥皮的马尔西亚斯》是否同一对象、Haskell对Vaes证据立场的语句，恢复为无端点的来源主张并设relation_candidate=false；它们不再进入当前S6分母，也不形成正式边。其余变更将断言拆分到语义适当的对象和关系端点。S2统一独立复核分子未增加；本批新增及自查内容均不计作独立接收。脚注所列两篇文献均保留在原引用数组，未把含混的括号年份改写成确定的作者—作品事实。
+
+#### S5字段与S6裁决
+
+S5新增12条来源字段：Ceci、Vaes 1924与1925文章的期刊／年份／页码信息，以及三件作品的来源所报年代。Vaes身份与1925文章页码范围另有Académie作者书目支持；未登记无依据的传记细节。字段预览及写入后复预览均为零未核实、零重复、零警告和零新增差异。
+
+| statement／对象 | S6决定与正式去向 |
+|---|---|
+| Marriage at Cana p.204注2 | rel-2377 located_at（作品→Chicago，仅记录Haskell当时所报位置）；rel-2378、rel-2379 influenced_by（分别为Veronese、Barocci，来源限定为Haskell判断） |
+| Marcotti版画 p.205注4 | rel-2380 created_by（版画→Sebastiano Marcotti）；rel-2381 has_subject（版画→Saint Januarius）；rel-2382 dedicated_to（版画→Gaspar Roomer） |
+| 第21章书目 Ceci／Vaes 1924、1925、1931 | rel-2383–rel-2386 authored_by，依次对应Ceci 1920及Vaes 1924、1925、1931论文→各作者；rel-2387 cites记录Haskell第6章p.156注2所引Vaes 1925 p.171。现有rel-1331关于1931年论文p.202的引用边未变。被引论文原文均未据此视为已读。 |
+| Roomer收藏的作品 | rel-2388 held_by记录Haskell对Ribera《醉酒的西勒诺斯》的收藏报告；不据此声称其列入1634清单。 |
+| 1634清单中的《剥皮的马尔西亚斯》 | 保持pending／待身份识别；没有可登记的唯一作品KU，故不写缺端点正式关系行。 |
+| 未定类型的cast collection | 维持与bl-0016关联的待证状态；不以集合名替代端点身份。 |
+
+#### 批后状态
+
+受影响卡片定向预览与渲染后复预览无差异；build_field_facts.py复预览record_changes=0、new_ids=0、source_registry_changes=0、warnings=0。本批后严格表审计：errors=[]、s2_missing=[]、alignments_unlinked=0、backlog pending=0；关系一致性阻断项均为0。当前总量为S2 15,441 statements／26,866 mentions（统一独立复核9,617，未接收）；S3主决定12,432项，其中same 2,101、new 5,089、conflict 9、excluded 106、undecided 5,127；S4已映射2,421/5,089个new候选，另有2,668个未映射；S5共14,436字段、1,627条unverified；S6关系候选10,652项，formal 1,092、pending 628、rejected 128，已裁决1,848项；relations.csv为2,388行（2,351 formal、37 pending）。以上结构审计不代表S2独立接收或S3–S6全书收口。
