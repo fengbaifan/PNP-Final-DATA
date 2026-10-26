@@ -83,6 +83,7 @@ relations:
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 由其供应（`supplied_by`） | [国家摄影室（Gabinetto Fotografico Nazionale）](../institutions/gabinetto-fotografico-nazionale.md) | 角色：本书复制图像供片者；范围：《赞助人与画家》图版12的复制图像；不表示作品创作者、所有者或保管者；证据：[来源](../../../02-sources/01-book/CHP-0Cover.pdf)；haskell-1980-rev-ed；PDF13；印刷xvi；图片来源；lines 165–166 |
+| → 所涉对象（`has_subject`） | [巴贝里尼太阳纹章（Barberini Sun Emblem）](../terms/barberini-sun-emblem.md) | S2 statement: st-chp2-seciv-l91-94-wisdom-figure-emits-sun. Haskell source-scoped relation; see 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-emblems-endpoints-20261026.；角色：智慧人格化形象胸前发出的太阳纹章；范围：Haskell将该太阳称为 Wisdom 的惯用象征及 Barberini 家族标识；仅记录萨基作品中的图像描述。；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)；haskell-1980-rev-ed；line 92; print p. 51; PDF physical p. 36 |
 
 ### 关系候选入口
 

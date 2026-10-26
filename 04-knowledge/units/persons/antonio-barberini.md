@@ -85,7 +85,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 父亲 | Carlo Barberini | S5、S7 |
 | 母亲 | Costanza Magalotti | S5、S7 |
 | 兄弟 | Francesco、Taddeo Barberini；WP记六名子女中最幼，未据此补齐所有姓名 | S5、S7 |
-| 叔伯 | 教皇Urban VIII；年长枢机Antonio Marcello Barberini | S5、S7 |
+| 叔伯 | 教皇Urban VIII；[年长枢机Antonio Barberini（受洗名Marcello）](antonio-barberini-senior.md) | S1、S5、S7 |
 | 母系舅辈 | Lorenzo Magalotti | S5 |
 | 配偶／子女 | 本轮没有可独立核定条目；不将论战小册子的私生活传闻填入确定亲缘 | S5、S7 |
 
@@ -135,9 +135,7 @@ Alberto Merola的1964年专业传记与英文百科对生卒日、任职年有�
 |---|---|---|
 | ← 雇主（`employer_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi）](andrea-sacchi.md) | 1637–1640 年在 Antonio 家户服务，1640 年升入最高受俸者等级；时间：1637–1640；角色：家户受俸画家；范围：1640年升入最高受俸者等级；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 195–198; print pp. 7 |
 | ← 参与事件（`participated_in`，反向投影） | [萨基在巴贝里尼家户内晋级（1640）（Sacchi's Promotion in the Barberini Household (1640)）](../events/sacchi-household-promotion-1640.md) | 晋级发生于 Antonio 的家户；时间：1640；角色：家户主持者；范围：Sacchi家户薪俸等级晋升；原断言与证据见发出端卡片“萨基在巴贝里尼家户内晋级（1640）（Sacchi's Promotion in the Barberini Household (1640)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 195–198; print pp. 7 |
-| ← 供应者（`supplier_of`，反向投影） | [十二支木制烛台（A Dozen Wooden Candlesticks）](../works/dozen-wooden-candlesticks.md) | S2 statement: st-chp2-secii-l141-145-s-onofrio-orders-candlesticks；角色：Haskell所述订置并送达该组物件的提供者；范围：Haskell称Cardinal S. Onofrio订置并将物件送往the church；只记录来源所述的提供关系，不推定制造者、创作者或安装状态。；原断言与证据见发出端卡片“十二支木制烛台（A Dozen Wooden Candlesticks）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；L143; printed p. 43; PDF physical p. 28 |
-| ← 供应者（`supplier_of`，反向投影） | [两件木制十字架（Two Wooden Crucifixes）](../works/two-wooden-crucifixes.md) | S2 statement: st-chp2-secii-l141-145-s-onofrio-orders-crucifixes；角色：Haskell所述订置并送达该组物件的提供者；范围：Haskell称Cardinal S. Onofrio订置并将物件送往the church；只记录来源所述的提供关系，不推定制造者、创作者或安装状态。；原断言与证据见发出端卡片“两件木制十字架（Two Wooden Crucifixes）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；L143; printed p. 43; PDF physical p. 28 |
-| ← 委托者（`commissioner_of`，反向投影） | [圣母无原罪始胎堂祭坛画委托组（Altar Pictures Commissioned for S. Maria della Concezione）](../works/altar-pictures-commissioned-for-s-maria-della-concezione.md) | 角色：co-commissioner；范围：Haskell says Urban VIII and his brother commissioned altar pictures; Antonio Barberini is identified as the brother in the S2 evidence. Total and complete membership remain unknown.；原断言与证据见发出端卡片“圣母无原罪始胎堂祭坛画委托组（Altar Pictures Commissioned for S. Maria della Concezione）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；Chapter 2, printed p. 43, PDF physical p. 28; S2 statement: st-chp2-secii-l141-145-barberini-altar-pictures-commission |
+| ← 为其所涉对象（`subject_of`，反向投影） | [安东尼奥·巴贝里尼枢机肖像（《赞助人与画家》第2章印刷页60所述）（Portrait of Cardinal Antonio Barberini described on printed p. 60 of Patrons and Painters）](../works/antonio-barberini-portrait-described-p60.md) | S2 statement: st-chp2-secvii-l21-30-described-portrait-visual-and-symbolic-description.；角色：portrait sitter；范围：Only the identification of Antonio Barberini as the portrait subject is formalized; the visual and symbolic description remains in the source statement.；原断言与证据见发出端卡片“安东尼奥·巴贝里尼枢机肖像（《赞助人与画家》第2章印刷页60所述）（Portrait of Cardinal Antonio Barberini described on printed p. 60 of Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_vii.md)；haskell-1980-rev-ed；lines 24-25; printed p. 60 |
 
 ### 身份与外部链接
 

@@ -1,5 +1,77 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp2-emblems-endpoints-20261026"></a>
+### 第2章华盖、巴贝里尼纹章及年长 Antonio Barberini 跨章身份端点（2026-10-26）
+
+**S3 身份分组。** 对读第2章印刷页35、42–43、51–53及相关索引／S2 mention。华盖螺旋柱、所罗门圣殿地点、蜜蜂／太阳／月桂纹章概念、Sacchi《神圣智慧》周围饰带、Love人格化形象、Senigallia、神意人格化、丰饶人格化及翻滚巨人群像沿用各自的 `new` 身份组并完成S4映射；它们是不同类型或不同作品中的符号实例，不合并为同一物件。`cand-4522`沿用既有`new`修道院地点组。五个图像候选由`new`改判`same`，分别复用蜜蜂、太阳、月桂概念KU，同时保留出现作品和语境：`cand-4675`→`cand-4399`（太阳），`cand-4676`、`cand-4721`→`cand-4398`（蜜蜂），`cand-4677`、`cand-4722`→`cand-4400`（月桂）。
+
+| 候选 | S3决定／身份组 | S4去向 |
+|---|---|---|
+| `cand-4394` | 沿用`new`，华盖螺旋柱构件组 | `units/works/baldacchino-twisted-columns` |
+| `cand-4395` | 沿用`new`，所罗门圣殿地点 | `units/places/solomons-temple` |
+| `cand-4398` | 沿用`new`，Barberini蜜蜂纹章概念 | `units/terms/barberini-bee-emblem` |
+| `cand-4399` | 沿用`new`，Barberini太阳纹章概念 | `units/terms/barberini-sun-emblem` |
+| `cand-4400` | 沿用`new`，Barberini月桂纹章概念 | `units/terms/barberini-laurel-emblem` |
+| `cand-4692` | 沿用`new`，Sacchi《神圣智慧》周边饰带组 | `units/works/sacchi-divine-wisdom-friezes` |
+| `cand-4681` | 沿用`new`，特定画作中的Love人格化形象 | `units/terms/love-personified-sacchi-divine-wisdom` |
+| `cand-4702` | 沿用`new`；Treccani《意大利百科全书》支持Sinigaglia/Senigallia为同一城市名称 | `units/places/senigallia-sinigaglia` |
+| `cand-4704` | 沿用`new`，科尔托纳天顶中的神意人格化形象 | `units/terms/divine-providence-personified-barberini-ceiling` |
+| `cand-4720` | 沿用`new`，科尔托纳天顶中的丰饶人格化形象；不等同年轻Antonio | `units/terms/abundance-personified-barberini-ceiling` |
+| `cand-4724` | 沿用`new`，科尔托纳天顶中的翻滚巨人群像 | `units/terms/tumbling-giants-barberini-ceiling` |
+| `cand-4675` | `new`更正为`same`→太阳纹章；图像出现仍按p.51语境区分 | `units/terms/barberini-sun-emblem` |
+| `cand-4676` | `new`更正为`same`→蜜蜂纹章；图像出现仍按p.51语境区分 | `units/terms/barberini-bee-emblem` |
+| `cand-4677` | `new`更正为`same`→月桂纹章；图像出现仍按p.51语境区分 | `units/terms/barberini-laurel-emblem` |
+| `cand-4721` | `new`更正为`same`→蜜蜂纹章；保留天顶作品语境 | `units/terms/barberini-bee-emblem` |
+| `cand-4722` | `new`更正为`same`→月桂纹章；保留天顶作品语境 | `units/terms/barberini-laurel-emblem` |
+| `cand-0186` | 原错误`same`（并入侄辈KU）更正为`new`；`new-person:antonio-barberini-elder-cand-0186-20261026` | `units/persons/antonio-barberini-senior` |
+| `cand-0187` | 保持`same`；年轻枢机Antonio Barberini（1607–1671） | `units/persons/antonio-barberini` |
+| `cand-4522` | 沿用既有`new`修道院地点组，完成S4登记 | `units/places/capuchin-monastery-on-the-pincio` |
+
+`cand-0186`索引把人物标作Urban VIII的兄弟与Cardinal di S. Onofrio；Haskell第2章pp.31、42–43、52的枢机、亲属、修会、建堂、供物及秘书语境互相吻合。Alberto Merola的DBI传记条目记此人受洗名Marcello、1569–1646年生卒，并将其兄Maffeo与Urban VIII对应，支持与侄辈1607–1671年的年轻Antonio区分。原S3同一决定及其内部名称匹配理由保留在`aln-0521`的修订说明中；本次不将年长者的关系继续留在侄辈卡。DBI记其1625年获任Senigallia主教并于1627年主持教区会议；Haskell称其1627年成为主教，卡中保留两种来源日期，不合并为单一年份。详情见[年长 Antonio Barberini 卡](../../../04-knowledge/units/persons/antonio-barberini-senior.md)。
+
+**S4与S5。** 本批登记13张新KU（11个既有`new`候选、`cand-0186`年长人物及`cand-4522`修道院地点），新增56条source-backed字段`enr-18098`–`enr-18153`，覆盖13张卡；唯一外部身份来源为Treccani Senigallia条目与DBI Barberini传记。字段预览／应用为`record_changes=0`、`new_ids=56`、`unverified=0`、`duplicate_occurrences=0`、`warnings=0`；修订侄辈卡中的叔伯链接后，仅同步更新既有字段`enr-01860`，原有1条unverified状态不变。建堂与修道院仅记1626年计划，未称已完工；Senigallia来源只支持同名地点身份，不证明Bracciolini滞留事件。
+
+**S6逐项裁决。** 本批新增裁决34条：16 formal、15 pending、3 rejected。15条formal进入`relations.csv`（`rel-2272`–`rel-2286`）；两处Capuchin membership statement共用一条formal边。既有`rel-1390`、`rel-1391`、`rel-1674`的枢机端点从侄辈更正到年长者，不新增S6计数。
+
+| S2 relation candidate | S6裁决 | 正式边／去向 |
+|---|---|---|
+| `st-chp2-seciv-l91-94-wisdom-figure-emits-sun` | formal | `rel-2272 has_subject`；Sacchi《神圣智慧》中的太阳图像 |
+| `st-chp2-seciv-l91-94-bees-feature-in-surrounding-friezes` | formal | `rel-2273 has_subject`；饰带中的蜜蜂 |
+| `st-chp2-seciv-l91-94-laurel-features-in-surrounding-friezes` | formal | `rel-2274 has_subject`；饰带中的月桂 |
+| `st-chp2-seciv-l96-104-bee-emblem-ceiling-theme` | formal | `rel-2275 has_subject`；科尔托纳天顶中的蜜蜂主题 |
+| `st-chp2-seciv-l96-104-laurel-emblem-ceiling-theme` | formal | `rel-2276 has_subject`；科尔托纳天顶中的月桂主题 |
+| `st-chp2-seciv-l96-104-central-providence-composition` | formal | `rel-2277 has_subject`；天顶中的神意人格化形象 |
+| `st-chp2-seciv-l96-104-giants-conflict-continuation` | formal | `rel-2278 has_subject`；天顶中的翻滚巨人群像 |
+| `st-chp2-seciv-l96-104-bracciolini-stranded-sinigaglia` | formal | `rel-2279 located_at`；来源报告的临时滞留地点，不推定具体日期 |
+| `st-chp8-p203-bologna-second-capital` | formal | `rel-2280 part_of`；仅保留Haskell的历史性“第二首都”语境 |
+| `st-chp2-sec-ii-l3-8-antonio-brother-cardinal` | formal | `rel-2281 appointed_by`；授任日期据DBI；Haskell的施事者为上下文隐含 |
+| `st-chp2-secii-l127-139-antonio-decides-church` | formal | `rel-2282 commissioned_by`；1626兴建决定，不证明完工 |
+| `st-chp2-secii-l127-139-antonio-decides-monastery` | formal | `rel-2283 commissioned_by`；1626计划，不证明完工或精确地块 |
+| `st-chp2-secii-l127-139-antonio-urban-sibling` | formal | `rel-2284 sibling_of`；Urban VIII的弟弟 |
+| `st-chp2-secii-l127-139-antonio-capuchin-membership` | formal | `rel-2285 member_of`；与p.52的同身份陈述共用边 |
+| `st-chp2-seciv-l96-104-antonio-capuchin` | formal | `rel-2285 member_of`；重复来源陈述独立裁决，复用同一事实边 |
+| `st-chp2-seciv-l96-104-bracciolini-secretary-to-antonio` | formal | `rel-2286 employed_by`；秘书工作关系；不推定任命日期 |
+| `st-chp2-secii-l42-50-barberini_bees_decoration` | pending | 蜜蜂攀柱、垂于檐口的图像装饰语义无精确受控谓词 |
+| `st-chp2-secii-l42-50-barberini_sun_decoration` | pending | 华盖柱头上方太阳图像无精确受控装饰谓词 |
+| `st-chp2-secii-l42-50-laurel_instead_of_vine` | pending | 月桂与柱构件的装饰关系无精确受控谓词 |
+| `st-chp2-secii-l42-50-solomon_temple_precedent` | pending | Haskell保留“被认为源自”的传统说法；不以现有谓词断言历史影响或来源事实 |
+| `st-chp2-seciv-l91-94-bees-are-barberini-family-insignia` | pending | 纹章概念与家族之间没有适用的受控身份关系类型 |
+| `st-chp2-seciv-l91-94-laurel-is-barberini-family-insignia` | pending | 纹章概念与家族之间没有适用的受控身份关系类型 |
+| `st-chp2-seciv-l91-94-sun-is-barberini-family-insignia` | pending | 纹章概念与家族之间没有适用的受控身份关系类型 |
+| `st-chp2-seciv-l91-94-sun-conventional-emblem-for-wisdom` | pending | 象征惯例不等同于现有`has_subject`或其他关系类型 |
+| `st-chp2-seciv-l91-94-love-and-fear-control-lust-and-wrath` | pending | 寓意角色间的行动语义超出当前受控关系类型 |
+| `st-chp2-seciv-l96-104-antonio-bishop-sinigaglia` | pending | `cand-4702`为城市，不是主教职位／教区对象；职位端点与日期未建 |
+| `st-chp2-seciv-l96-104-bracciolini-complaint-letters` | pending | 本句未识别具体信件对象，也无准确关系谓词；保留S2叙述 |
+| `st-chp2-sec-ii-l3-8-sovereignty` | pending | 作者性政治解释不能被现有一般人物—政治实体谓词精确表达 |
+| `st-chp2-sec-ii-l10-18-urban-professed-wealth-policy` | pending | 政策意向并非现有关系类型；不建立笼统控制边 |
+| `st-chp2-sec-ii-l10-18-urban-role-absolute-monarch` | pending | 来源称谓为政治解释；现有谓词不能表达其范围限定 |
+| `st-chp6-p149-italian-economic-collapse` | pending | 宏观经济影响解释无精确受控谓词；不建立弱关联 |
+| `st-chp2-secii-l42-50-cost_reported` | rejected | 200,000 scudi为造价／收入比例断言，不是知识元间关系；保留S2陈述 |
+| `st-chp2-sec-ii-l10-18-venetian-income-estimate` | rejected | 年收入估值是数值断言，不是Venetian ambassadors与Papal States间关系 |
+| `st-chp2-seciv-l96-104-abundance-younger-antonio` | rejected | “丰饶”是对年轻枢机的图像解释，不是寓意形象与人物的身份边 |
+
+**呈现与核查。** 13张新卡及12张既有端点卡共25张定向渲染；渲染预检通过，25张写入并通过写后字节核验。结构审计和关系一致性结果见当前全书结果文件。没有新增S2 statement或mention，也不增加S2独立复核分子。
+
 <a id="s3-s4-s6-chp6-p159-mannerism-renaissance-20261026"></a>
 ### 第6章 p.159 Mannerism、Renaissance及相关术语端点跨章对齐（2026-10-26）
 

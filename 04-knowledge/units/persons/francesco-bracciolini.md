@@ -86,3 +86,10 @@ English: This card represents `cand-0440` and `cand-0441` in the same S3 person 
 ## 关系与证据
 
 本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [西尼加利亚（Senigallia (Sinigaglia)）](../places/senigallia-sinigaglia.md) | S2 statement: st-chp2-seciv-l96-104-bracciolini-stranded-sinigaglia. Haskell source-scoped relation; see 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-emblems-endpoints-20261026.；角色：来源报告的暂时滞留地点；范围：Haskell称 Bracciolini 被困于该亚得里亚海港口；确切日期、地点边界和滞留原因未明。；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)；haskell-1980-rev-ed；line 99; print p. 52; PDF physical p. 37 |
+| → 受雇于（`employed_by`） | [安东尼奥·巴贝里尼（年长者）（Antonio Barberini senior）](antonio-barberini-senior.md) | S2 statement: st-chp2-seciv-l96-104-bracciolini-secretary-to-antonio. Appointer is Urban VIII; no date is supplied; see 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-emblems-endpoints-20261026.；角色：秘书；范围：Haskell称Urban VIII令Bracciolini担任其嘉布遣会兄弟Antonio的秘书；记录工作对象和角色，不推定任命日期。；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)；haskell-1980-rev-ed；Chapter 2, print p. 52, line 99 |

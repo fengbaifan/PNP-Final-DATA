@@ -50,7 +50,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 由其供应（`supplied_by`） | [安东尼奥·巴贝里尼（Antonio Barberini）](../persons/antonio-barberini.md) | S2 statement: st-chp2-secii-l141-145-s-onofrio-orders-candlesticks；角色：Haskell所述订置并送达该组物件的提供者；范围：Haskell称Cardinal S. Onofrio订置并将物件送往the church；只记录来源所述的提供关系，不推定制造者、创作者或安装状态。；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；L143; printed p. 43; PDF physical p. 28 |
+| → 由其供应（`supplied_by`） | [安东尼奥·巴贝里尼（年长者）（Antonio Barberini senior）](../persons/antonio-barberini-senior.md) | S2 statement: st-chp2-secii-l141-145-s-onofrio-orders-candlesticks；角色：年长Cardinal S. Onofrio为订置并送达物件的提供者；范围：Haskell称年长Antonio Barberini订置并将该组物件送往the church；不推定制造者、创作者或安装状态。；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；L143; printed p. 43; PDF physical p. 28 |
 
 - S6待证：Capuchin修士退回该组烛台，以及Urban VIII坚持后烛台被接受；两项事实暂缺准确的受控关系谓词，未生成正式边。
 
