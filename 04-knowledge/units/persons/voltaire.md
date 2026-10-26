@@ -33,9 +33,9 @@ sources:
   location: 第15章，印刷页369–370，L52、67
   sentence_summary: Haskell叙述Querini于1777年拜访Voltaire，并提到一幅Voltaire肖像版画。
   original_quotes:
-  - source_span: lines 52 and 67; printed pp. 369–370
+  - source_span: line 52; printed p. 369
     text: In 1777 he went to Switzerland and visited Voltaire. He presented the philosopher with a medal he had had specially
-      coined depicting Philosophy destroying Superstition surrounded by a text from Lucretius exaequat vincendo sidera cursus.
+      coined depicting Philosophy destroying Superstition surrounded by a text from Lucretius exaequat victoria coelo.
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/15_CHP-15_sec_ii.md

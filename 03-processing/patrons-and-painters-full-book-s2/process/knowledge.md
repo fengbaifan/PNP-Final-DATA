@@ -15961,3 +15961,39 @@ S5字段预览／应用、8张新增或关联人物卡的关系投影预览及7�
 新增两张KU卡，更新Dionisio Dolfin、Udine与Niccolo Bambini三张既有卡的关系投影。五张受影响卡均定向预览；`build_cards.py --render` 预检5卡、13张表、27行，关系投影14行；应用通过写后字节核验，五卡复预览无差异。S5字段构建复预览无改动。严格表审计：`errors=[]`、`s2_missing=[]`、`alignment_new_pending_registration=2,710`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。本批未改S2 statements／mentions，统一S2独立复核分子不变；两个候选原本已有undecided对齐行，本次不改变S3主决定覆盖数。
 
 批后全书：S2 15,408 statements、26,861 mentions，统一独立复核9,617/15,408；S3主决定12,411/12,431（same 2,093、new 5,069、conflict 9、excluded 104、undecided 5,136）；S4映射2,359/5,069，待映射2,710（直接关系端点1,020、其他1,688），KU共3,157；S5字段14,317（1,627 unverified）；S6裁决1,770/10,624（1,026 formal、619 pending、125 rejected）；`relations.csv` 2,320行（2,284 formal、36 pending）；`candidate-backlog.csv` 49行（14 completed、35 undecided、pending=0）。
+
+
+### S3–S6：第15章 p.369 Querini 奖章及 Lucretius 端点登记（2026-10-26）
+
+#### 触发与身份判定
+
+本批围绕 `cand-10530` 的直接关系端点登记。该候选原有 S3 `new` 决定与身份组 `workgrp-16988a58e29594`，本次不重开；按原书 p.369 将其登记为一枚来源限定的 medal work。`cand-10531` 原为 `undecided`，因本次 S4/S6 端点处理和新增身份来源定点重开为 `new`。BnF《De rerum natura : Libri VI》书目记录 FRBNF45724468 将 Lucrèce 列为作者，并在该版本题名责任者中使用 Titus Lucretius Carus；该书目记录支持本章所称 Lucretius 的名称对应，但不是人物规范记录。全库候选及人物KU检索未发现其他 Lucretius 候选或可复用人物KU。铭文所取作品及版本仍未由本章指出。
+
+| 候选 | S3决定与身份组 | S4去向及边界 |
+|---|---|---|
+| `cand-10530` | 沿用 `new`，`workgrp-16988a58e29594` | 映射至[奎里尼为伏尔泰特铸、描绘哲学摧毁迷信的奖章](../../../04-knowledge/units/works/querini-medal-for-voltaire-philosophy-destroying-superstition.md)。题名为描述性暂题；不推定存世实物、铸币厂、制作人、材质或尺寸。 |
+| `cand-10531` | `undecided` → `new`，`new-person:lucretius-titus-lucretius-carus-20261026` | 映射至[卢克莱修](../../../04-knowledge/units/persons/lucretius.md)。BnF依据是作品书目条目，不记录为人物规范ID；不据此补充本章未提供的引文版本或位置。 |
+
+#### S4与S5登记
+
+两项映射已写入 `alignment.csv`、`ku-manifest.csv` 和 `accepted.yml`，对应两张新卡。S5新增 `enr-18232`–`enr-18236` 共5条 source-backed 字段：Lucretius 名称与身份对应各1条，奖章描述性暂题、类型与描述3条。`build_field_facts.py --apply` 后定向复预览为 `record_changes=0`、`new_ids=0`、`warnings=0`；本批字段 `unverified=0`。
+
+另将[伏尔泰卡](../../../04-knowledge/units/persons/voltaire.md)第15章来源摘录中的误录 `exaequat vincendo sidera cursus` 校正为原书页图所见 `exaequat victoria coelo`，并将引文定位限定到 p.369 L52。原始 S2 statement 已含正确文字，本批未修改 S2 statements／mentions，也未改变 S2 独立复核分子。
+
+#### S6逐候选裁决
+
+| S2 statement | 去向 | 依据与范围 |
+|---|---|---|
+| `st-chp15-p369-querini-had-medal-coined` | formal，`rel-2321 commissioned_by` | Haskell称Querini“had [the medal] specially coined”。建立奖章作品→Querini的委托边；1777年是瑞士访问语境，不据此指定准确委托年份；不推定铸币厂或奖章制作者。 |
+| `st-chp15-p369-querini-medal-gift-to-voltaire` | pending（过程记录） | Haskell明确说Querini把奖章赠予Voltaire，但受控词表没有表达已完成“presented to”的对应类型；`intended_gift_to`会把已发生的赠予误写为意图，故不伪造正式边。 |
+| `st-chp15-p369-medal-depiction-and-lucretius-text` | pending（过程记录） | statement把图像描绘与铭文来源合在同一断言中。把奖章 `has_subject` 连到Lucretius会错误地表示人物是图像主题；`text_authored_by`会错误地把奖章整体当作文本文本。Haskell未给出具体引文作品，且无适用的 `quotes`／`inscribed_with` 类型；身份映射不消除这一谓词边界问题。 |
+
+只有 `rel-2321` 写入 `relations.csv`；两项无法忠实表达的候选保留为有理由的 process-only pending，不增写错误端点或谓词。
+
+#### 卡片投影与审计
+
+`build_cards.py --render` 定向预检3张卡、3张表、5行、8条关系投影，3张卡有投影变化；奖章、Querini、Lucretius三卡写入并通过写后字节核验。写后对三卡及Voltaire卡分别预览均无差异；字段复预览无改动。
+
+严格表审计：KU=3,159；候选=12,431；alignment=12,778；S4 new待登记=2,709；S2 statements=15,408、mentions=26,861；S5=14,322（1,627 `unverified`）；`relations.csv`=2,321（2,285 formal、36 pending）；backlog=49（14 completed、35 undecided、严格pending=0）；`errors=[]`、`s2_missing=[]`。关系一致性审计：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0；另有1,373个零关系KU与2个超50连接对象，均为非阻断诊断。
+
+批后全书：S2统一独立复核仍为9,617/15,408（62.42%，未接收）。S3主决定12,411/12,431：same=2,093、new=5,070、conflict=9、excluded=104、undecided=5,135；缺主决定候选20个、跨来源决定差异26个。S4已映射2,361/5,070，待映射2,709（直接关系端点1,021、其他1,688）。S6已裁决1,773/10,624（1,027 formal、621 pending、125 rejected），尚余8,851。`candidate-backlog.csv`仍为49条（14 completed、35 undecided，严格pending=0）。本批不表示S2独立接收或全书S3–S6收口。
