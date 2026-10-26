@@ -56,6 +56,7 @@ The city is distinct from the Patriarchate of Aquileia; the Cathedral, archiepis
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [迪奥尼西奥·多尔芬（Dionisio Dolfin）](../persons/dionisio-dolfin.md) | 两条S2陈述共同支持同一条城市级居住关系。时间与时长保留哈斯克尔的书内表述；不计算终止年，不推定具体建筑或现今地点。外部身份研究不作为该居住关系的证据；时间：1698年（哈斯克尔记述）；另称36年居住，未据此推算终止年；角色：居住；范围：仅为Udine城市级居住地；未指明具体住所，不表示现今地址；原断言与证据见发出端卡片“迪奥尼西奥·多尔芬（Dionisio Dolfin）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；第9章印刷页252，行121–122；S2 statements st-chp9-p252-dionisio-moved-to-udine 与 st-chp9-p252-dionisio-residence-records |
+| ← 所在地（`location_of`，反向投影） | [迪奥尼西奥·多尔芬在乌迪内的图书馆（Dionisio Dolfin's Library at Udine）](dionisio-dolfin-library-udine.md) | 沿用已复核的S2主张library in Udine；地点依据相邻段落语境，未外推精确位置或现存建筑身份；时间：1708年建造记述的语境；角色：城市级书内位置；范围：Haskell在同段先记Dionisio赴Udine居住，随后叙述其于1708年建造图书馆；仅保留Udine城市语境，不指具体地块、建筑或存世状态。；原断言与证据见发出端卡片“迪奥尼西奥·多尔芬在乌迪内的图书馆（Dionisio Dolfin's Library at Udine）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；第9章印刷页252行121–122；statement=st-chp9-p252-dionisio-library-and-bambini |
 
 正式关系由 `relations.csv` 定向渲染；本批 S6 逐条裁决见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-udine-city-20261026)。
 

@@ -106,6 +106,7 @@ Haskell第9章p.252将任职起点表述为1698年；外部传记把该年对应
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 位于（`located_at`） | [乌迪内（Udine）](../places/udine-city.md) | 两条S2陈述共同支持同一条城市级居住关系。时间与时长保留哈斯克尔的书内表述；不计算终止年，不推定具体建筑或现今地点。外部身份研究不作为该居住关系的证据；时间：1698年（哈斯克尔记述）；另称36年居住，未据此推算终止年；角色：居住；范围：仅为Udine城市级居住地；未指明具体住所，不表示现今地址；证据：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；第9章印刷页252，行121–122；S2 statements st-chp9-p252-dionisio-moved-to-udine 与 st-chp9-p252-dionisio-residence-records |
+| → erector_of（`erector_of`） | [迪奥尼西奥·多尔芬在乌迪内的图书馆（Dionisio Dolfin's Library at Udine）](../places/dionisio-dolfin-library-udine.md) | 按“In 1708 he built a sumptuous library”记录书内建造关系；对象范围限定于来源报告，不代表独立身份或建筑现状核验；时间：1708年（Haskell记述）；角色：书内所报建造者；范围：仅指第9章p.252所述图书馆空间；不推定其为现存独立建筑、精确地址或后世身份。；证据：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；第9章印刷页252行122；statement=st-chp9-p252-dionisio-library-and-bambini |
 
 本卡新增一条来源限定的居住地点关系：Haskell称Dionisio在1698年获任后赴Udine居住，并报告其三十六年居住经历；不据此推定具体宅邸或现今地址。与Daniele Dolfin等人的亲属关系、Tiepolo委托及作品地点主张仍待S6逐条审查。
 

@@ -15928,3 +15928,36 @@ S5字段预览／应用、8张新增或关联人物卡的关系投影预览及7�
 已新增城市卡及 manifest、accepted 路径，并将 `cand-2666` 的既有 `new` 对齐映射到该卡；`relations.csv` 新增一条 formal 边。`build_cards.py --render` 定向渲染 Dionisio 与 Udine 两卡，预检为2卡、5张表、13行、2条关系投影；写入2卡并通过写后字节核验，复预览均无差异。字段复预览无改动。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。本批未改 S2 statements／mentions，统一 S2 独立复核分子不变，也未重开 S3。
 
 批后全书：S2 15,408 statements、26,861 mentions，统一独立复核9,617/15,408；S3主决定12,411/12,431；S4映射2,357/5,067，待映射2,710；S5字段14,315（1,627 unverified）；S6裁决1,767/10,624（1,023 formal、619 pending、125 rejected）；`relations.csv` 2,316行（2,280 formal、36 pending）；`candidate-backlog.csv` 49行（14 completed、35 undecided、pending=0）。本批处理两条S6候选，共复用一条formal关系边。
+
+
+<a id="s3-s4-s5-s6-chp9-p252-library-frescoes-20261026"></a>
+### S3–S6：第9章 p.252 Dionisio Dolfin 图书馆与 Niccolo Bambini 壁画组（2026-10-26）
+
+#### 触发与S3身份组
+
+本批针对直接关系端点 cand-8249（图书馆）与 cand-8250（Bambini壁画组）完成S4登记，因此按登记需要定点复核S3。既有决定均为undecided，且已有具体理由：图书馆的精确建筑身份和存世情况未确认；壁画没有逐件题名、场景清单或闭合系列边界。本次没有声称解决这些未决事实；改以Haskell p.252的来源限定对象登记，分别保留未确认的建筑／系列边界。跨章核查未发现可复用的同类型accepted KU：既有Udine城市、Alticchiero房间及其他壁画作品均为不同对象。
+
+| 候选 | S3决定与身份组 | 决定范围与保留项 |
+|---|---|---|
+| `cand-8249` | `new`，`sg3-place-cand-8249` | Haskell称Dionisio于1708年建造的图书馆空间；不声称精确建筑身份、存世状态或地址。保留原undecided理由。 |
+| `cand-8250` | `new`，`sg3-work-cand-8250` | Haskell称装饰图书馆的Niccolo Bambini复数壁画组；不声称单幅题名、数量或完整系列边界。保留原undecided理由。 |
+
+#### S4与S5登记
+
+`cand-8249`映射至[图书馆地点KU](../../../04-knowledge/units/places/dionisio-dolfin-library-udine.md)，`cand-8250`映射至[壁画组作品KU](../../../04-knowledge/units/works/dionisio-dolfin-library-frescoes-bambini.md)。两项均写入accepted清单、manifest和alignment，并保留上述稳定身份组。S5新增 `enr-18230`–`enr-18231` 两条有原书依据字段，来源均为Haskell第9章印刷页252行122；没有补入原书未提供的地址、单件目录、数量或存世信息。字段构建应用后预览无变化、无警告。
+
+#### S6逐候选裁决
+
+| S2 statement | 去向 | 依据与范围 |
+|---|---|---|
+| `st-chp9-p252-dionisio-library-and-bambini` | formal，`rel-2317 erector_of`及`rel-2318 located_at` | Haskell称Dionisio于1708年建造图书馆；同段前文给出Udine城市语境。只记录来源所报建造者和城市级语境，不指现存独立建筑或精确地址。 |
+| `st-chp9-p252-bambini-painted-library-frescoes` | formal，`rel-2319 creator_of` | 只记录Haskell将Niccolo Bambini归为装饰该图书馆的复数壁画组创作者；不外推完整目录或单件身份。 |
+| `st-chp9-p252-library-decorated-with-bambini-frescoes` | formal，`rel-2320 located_at` | 记录壁画组装饰图书馆；不外推数量、墙面、精确布置或存世状态。 |
+
+三条关系候选形成四条formal边；每条边保留对应S2 statement及Haskell第9章p.252证据。城市级位置关系来自同段语境。无关系文字被转作独立事实，也未把壁画归属扩大为已外部核验的作品目录。
+
+#### 写回与核验
+
+新增两张KU卡，更新Dionisio Dolfin、Udine与Niccolo Bambini三张既有卡的关系投影。五张受影响卡均定向预览；`build_cards.py --render` 预检5卡、13张表、27行，关系投影14行；应用通过写后字节核验，五卡复预览无差异。S5字段构建复预览无改动。严格表审计：`errors=[]`、`s2_missing=[]`、`alignment_new_pending_registration=2,710`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。本批未改S2 statements／mentions，统一S2独立复核分子不变；两个候选原本已有undecided对齐行，本次不改变S3主决定覆盖数。
+
+批后全书：S2 15,408 statements、26,861 mentions，统一独立复核9,617/15,408；S3主决定12,411/12,431（same 2,093、new 5,069、conflict 9、excluded 104、undecided 5,136）；S4映射2,359/5,069，待映射2,710（直接关系端点1,020、其他1,688），KU共3,157；S5字段14,317（1,627 unverified）；S6裁决1,770/10,624（1,026 formal、619 pending、125 rejected）；`relations.csv` 2,320行（2,284 formal、36 pending）；`candidate-backlog.csv` 49行（14 completed、35 undecided、pending=0）。

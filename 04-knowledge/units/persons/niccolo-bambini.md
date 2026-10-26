@@ -113,6 +113,7 @@ relations:
 | → 位于（`located_at`） | [罗马（Rome）](../places/rome.md) | 时间：1672；角色：有文献记录的活动城市；范围：受训后生涯的罗马记录；证据：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；艺术家生涯段：威尼斯训练及1672罗马记录 |
 | ← 所创作对象（`creator_of`，反向投影） | [埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）](../works/bambini-aeneas-tells-dido-fall-of-troy.md) | 时间：1712；角色：画家；范围：馆藏131a；原断言与证据见发出端卡片“埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；作者字段及归属说明 |
 | ← 所创作对象（`creator_of`，反向投影） | [威尼斯寓意（Allegory of Venice）](../works/niccolo-bambini-allegory-of-venice.md) | 角色：原书署名作者；范围：图版42b；原断言与证据见发出端卡片“威尼斯寓意（Allegory of Venice）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 115–115; 章前：图版目录；印刷页xiv |
+| → 所创作对象（`creator_of`） | [迪奥尼西奥·多尔芬图书馆的尼科洛·班比尼壁画组（Niccolo Bambini's Frescoes at Dionisio Dolfin's Library）](../works/dionisio-dolfin-library-frescoes-bambini.md) | ‘frescoes by Niccolo Bambini’为Haskell书内归属；不表示已完成外部作品目录或单件身份核验；角色：Haskell书内归属的壁画创作者；范围：只记录来源将装饰图书馆的复数壁画归于Bambini；没有单幅作品题名、场景清单或完整系列边界。；证据：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；第9章印刷页252行122；statement=st-chp9-p252-bambini-painted-library-frescoes |
 
 ### 关系候选入口
 
