@@ -16161,3 +16161,33 @@ S2 新增三条 statement（两处宅邸的 source-local possessive attribution�
 #### 核对结果
 
 `build_field_facts.py` 定向预览为8条 source-backed 字段、0条无来源字段、0条警告；预览后按接口写入。三张相关卡定向渲染3张，二次渲染 `files_to_write=0`。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。全局卡片预检中其它待投影卡片不在本批渲染范围内。
+<a id="s4-s5-s6-archive-endpoints-chp2-p59-p60-20261027"></a>
+### S4/S5/S6：第2章 p.59–60 引用出版物端点（2026-10-27）
+
+本批沿用既有 S3 `new` 身份组，没有重开身份决定。Haskell 第21章书目及第2章脚注足以登记三个不同的 archive 书目对象，并裁决书中引用路径；没有据书目著录扩展作者身份，也没有声称查阅被引材料。
+
+| candidate | alignment / S3 group | S4 KU | 书内身份依据与边界 |
+|---|---|---|---|
+| `cand-4576` | `aln-4759` / `archive-group-4b1145497ea2` | `units/archives/feliciangeli-il-cardinale-angelo-giori-da-camerino-e-g-l-bernini-1917` | 第21章印刷p.422，lines 468–469；注4仅列姓氏，未给出引文页码。责任者保留书目形式“B. Feliciangeli”。 |
+| `cand-4948` | `aln-5131` / `archive-group-9b875bf06e11` | `units/archives/mezzetti-contributi-a-carlo-maratti-1955` | 第21章印刷p.429，lines 804–806；页图恢复期刊名和“A. Mezzetti”，第2章印刷p.60注2亦读作 Mezzetti，S0 OCR 为 Mozzetti。论文及第253页未独立查阅。 |
+| `cand-4953` | `aln-5136` / `archive-group-3f9c4a3db1d4` | `units/archives/hanotaux-recueil-des-instructions-vol-6-1888` | 第21章印刷p.424，line 565；责任者保留“G. Hanotaux”。第2章印刷p.60注4引第8页及第12–13页；所引页面和底层部长文件未独立查阅。 |
+
+`cand-4953` 另有第5章印刷p.139注3的 print-only 引文线索，已记录在 `st-chp5-p139-spanish-veto` 的 `print_only_footnote_text` 中，并明确标记为 S0 未转录。按该记录不制造新的 S0 statement 或 mention offset；本批只为已有的三个 S2 `cites` 候选建立正式边，不把 print-only 线索另造为 S6 候选。
+
+#### S5 字段
+
+三张卡共抽取21条 `source_backed` 字段（Feliciangeli 6、Mezzetti 7、Hanotaux 8），依据限于 Haskell 书目和相应注释的具体页行。没有新增 `unverified` 字段；`build_field_facts.py` 写回后二次预览 `record_changes=0`、警告0。未建立作者人物 KU，未填外部标识或虚构访问日期。
+
+#### S6 逐项裁决
+
+| statement | 决定 | relation | 范围 |
+|---|---|---|---|
+| `st-chp2-secvii-l38-54-fn-p59-4-feliciangeli-citation` | formal | `rel-2355 cites` | Haskell 第2章p.59注4；仅记录书目引用，脚注没有被引页码。 |
+| `st-chp2-secvii-l38-54-fn-p60-2-mezzetti-full-history-citation` | formal | `rel-2356 cites` | Haskell 第2章p.60注2；引用论文第253页，未查论文或该页。 |
+| `st-chp2-secvii-l38-54-fn-p60-4-hanotaux-citation` | formal | `rel-2357 cites` | Haskell 第2章p.60注4；引用第8页及第12–13页，未查所引页面或底层文件。 |
+
+三条边均为《赞助人与画家》→被引 archive，`source_id=haskell-1980-rev-ed`，保留 Markdown 行、印刷页、PDF物理页和 statement ID。`cites` 的域和值域为 archive→archive；逐项查重无重复自然键。三张新卡及《赞助人与画家》卡定向渲染，四卡预览均先审；新卡各有一条 `cited_by` 投影，Haskell 卡有三条对应 `cites` 边。
+
+#### 批后核对
+
+S2 statements/mentions 与统一独立复核分子均未改变；本批不计作 S2 独立审读。严格表审计：KU=3,180，alignment=12,778，`alignments_unlinked=0`，S4 new待登记2,687，关系=2,357（formal 2,321），enrichment=14,387（unverified 1,627），`errors=[]`、`s2_missing=[]`、backlog pending=0。S6候选10,643条，已裁决1,809条（formal 1,060、pending 624、rejected 125），未裁决8,834条。关系一致性阻断 `broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed` 均为0。

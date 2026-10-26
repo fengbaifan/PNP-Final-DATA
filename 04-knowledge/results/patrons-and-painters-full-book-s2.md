@@ -3626,17 +3626,17 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 
 ### 当前进度与后续工作规划（截至2026-10-27）
 
-本快照纳入第10章 p.327 Giampiccoli 版画端点及此前 p.279、p.278、p.280、第3章 p.67 批次。p.327 新增3个 S4 KU 和8条 source-backed 字段，新增3条 S2 statement；候选 cand-9810 经端点登记触发后定为 new，cand-9811 未识别宫邸仍待证。四项关联 S6 均 formal，三张相关卡定向更新。阶段覆盖描述当前工件及决定覆盖，不等同语义接收或整体完成。详见[p.327过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp10-p327-giampiccoli-print-20261027)及此前各批过程记录。
+本快照纳入第10章 p.327 Giampiccoli 版画端点及此前 p.279、p.278、p.280、第3章 p.67 批次，并纳入第2章 p.59–60 三项 archive 引用端点。p.327 新增3个 S4 KU、8条 source-backed 字段及3条 S2 statement；cand-9810 经端点登记触发后定为 new，cand-9811 未识别宫邸仍待证。第2章批次沿用3个既有 S3 new 组，新增3个 S4 KU、21条 source-backed 字段和3条 formal cites 关系；没有新增 S2 statement 或独立审读计数。两批均定向更新相关卡片。阶段覆盖描述当前工件及决定覆盖，不等同语义接收或整体完成。详见[p.327过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp10-p327-giampiccoli-print-20261027)、[第2章 p.59–60过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-archive-endpoints-chp2-p59-p60-20261027)及此前各批过程记录。
 
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
 | S2 | 15,428 statements、26,861 mentions；统一独立复核9,617/15,428（62.33%） | 尚未独立接收；5,811条尚未进入统一独立复核。p.327新增statement及本批定向修订均未计入分子。 |
 | S3 | 主决定12,431/12,431（100%）：same 2,097、new 5,086、conflict 9、excluded 106、undecided 5,133 | 26个候选存在跨来源decision差异（person 24、archive 1、work 1），其中25组为new/same、1组为new/undecided；按来源逐项核对，不自动视为身份冲突。 |
-| S4 | new候选已映射2,396/5,086（47.11%）；待映射2,690，其中直接关系端点1,038、其他约1,652；KU共3,177 | 直接端点按关系候选中所有来源decision为new且未映射的候选ID回算；26个跨来源差异仍按来源核平。 |
-| S5 | 14,366条字段，1,627条unverified | p.327新增8条source-backed字段，未减少既有unverified记录。 |
-| S6 | 已裁决1,806/10,643（16.97%）：formal 1,057、pending 624、rejected 125；尚余8,837 | p.327批次4项formal；各决定均保留逐项理由。 |
-| 正式关系表 | 2,354行：2,318 formal、36 pending | p.327新增 `rel-2351`–`rel-2354`。 |
+| S4 | new候选已映射2,399/5,086（47.17%）；待映射2,687，其中直接关系端点1,035、其他约1,652；KU共3,180 | 直接端点按关系候选中所有来源decision为new且未映射的候选ID回算；26个跨来源差异仍按来源核平。 |
+| S5 | 14,387条字段，1,627条unverified | p.327新增8条、第2章批次新增21条source-backed字段；既有unverified记录未减少。 |
+| S6 | 已裁决1,809/10,643（17.00%）：formal 1,060、pending 624、rejected 125；尚余8,834 | p.327四项及第2章三项新增formal cites决定；各决定均保留逐项理由。 |
+| 正式关系表 | 2,357行：2,321 formal、36 pending | p.327新增 `rel-2351`–`rel-2354`；第2章批次新增 `rel-2355`–`rel-2357`。 |
 | 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 49条（14 completed、35 undecided） | 严格审计backlog pending=0；未决端点或backlog项须有明确待证理由和解除条件。 |
 
 S3未决候选与S4未映射直接关系端点的类型分布：
@@ -3645,7 +3645,7 @@ S3未决候选与S4未映射直接关系端点的类型分布：
 |---|---:|---:|
 | person | 1,053 | 16 |
 | work | 1,571 | 165 |
-| archive | 671 | 158 |
+| archive | 671 | 155 |
 | term | 660 | 419 |
 | place | 302 | 150 |
 | institution | 117 | 54 |
@@ -3653,7 +3653,7 @@ S3未决候选与S4未映射直接关系端点的类型分布：
 | family | 18 | 0 |
 | procedure | 2 | 0 |
 | 类型尚未确定 | 626 | 0 |
-| **合计** | **5,133** | **1,038** |
+| **合计** | **5,133** | **1,035** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。另有零关系KU及超50连接对象属于非阻断诊断。结构通过不等于S2独立语义接收。当前S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面仍等待用户明确启动。
 
