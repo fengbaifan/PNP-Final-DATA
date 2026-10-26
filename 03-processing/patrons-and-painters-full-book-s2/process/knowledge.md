@@ -16118,3 +16118,46 @@ Castle Howard 卡补入第10章 p.279 的身份依据。七条新增字段限定
 以上三项不写入 `relations.csv`，因为当前受控关系表不能在不猜测艺术家与具体住所配对、完工状态或离英事件端点的情况下忠实表达。无正式边不否定原书说法。
 
 S2 新增三条 statement（两处宅邸的 source-local possessive attribution、一条 Vanbrugh 重建）；没有新增 mention，且未计入统一 S2 独立复核分子。第10章 p.279 其余正文未在本批宣称完成独立语义接收。
+
+<a id="s3-s4-s5-s6-chp10-p327-giampiccoli-print-20261027"></a>
+
+### S3–S6：第10章 p.327 Giampiccoli 广场景观版画端点（2026-10-27）
+
+#### 触发与身份去向
+
+本批从 `cand-9809` 的 S4 登记触发：该来源局部作品候选 `workgrp-b5b5ef4eaa579d` 已由 S3 判为 `new`，并直接阻塞 p.327 的委托／作品关系。相邻书页也直接提及未登记的 Giampiccoli 人物组，因此同批登记两端；为表达版画所描绘的具名广场，再定点复核地点候选。
+
+- `cand-9809`：沿用既有 `new` 身份组，映射到[圣玛丽亚·福尔莫萨广场景观版画](../../../04-knowledge/units/works/giampiccoli-view-of-campo-santa-maria-formosa.md)。没有将来源描述匹配到某一存世印张、版本或正式题名。
+- `cand-1163`：沿用 `new-person:giampiccoli-giuliano-5815bd3fd7`，映射到[Giuliano Giampiccoli 人物卡](../../../04-knowledge/units/persons/giuliano-giampiccoli.md)。依据仅限索引姓名及 p.327 的 engraver 称述；未补生卒年或外部人物身份。
+- `cand-9810`：S4 端点登记触发 S3 定点复核，从 `undecided` 改为 `new`，沿用 `sg3-place-cand-9810`，映射到[Campo Santa Maria Formosa 地点卡](../../../04-knowledge/units/places/campo-santa-maria-formosa.md)。Haskell p.327 将其明确称为版画的景观对象；Comune di Venezia 的官方地点页使用 Campo Santa Maria Formosa 名称并提供现行平面图（访问日期 2026-10-27）。该外部记录只核对当代地名和地点范围，不推定18世纪地界。
+- `cand-9811` 仍为 `undecided`：来源没有识别 Pisani 宫邸的具体建筑；不与广场合并，不为其建 KU，也不增加宫邸位置边。
+
+#### S2 原子化修订
+
+检查 Haskell 第10章印刷页327及 `CHP-10.pdf` PDF物理页60。扫描确认委托、版画基部题铭和撤版叙述；OCR 原文保持不改，既有 OCR 校正留在撤版 statement。S2 表作三项新增 statement（0 新 mention）：
+
+- 保留 `st-chp10-p327-giampiccoli-print-commission`，把谓词从包含创作者名的复合表述收窄为委托断言；S6 用 `commissioned_by` 标准方向记录作品 → Pisani。
+- 新增 `st-chp10-p327-giampiccoli-print-created-by`，只记录来源将版画制作委托给版画家 Giampiccoli 的来源限定归属。
+- 新增 `st-chp10-p327-giampiccoli-print-depicts-campo`，把作品所描绘的广场与未识别宫邸分开。
+- 将既有 `st-chp10-p327-print-inscription-and-withdrawal` 收窄为题铭赞颂 Pisani 的断言，并保留稳定 ID；新增 `st-chp10-p327-giampiccoli-print-withdrawal`，单独记录被撤版这一作品史实，`relation_candidate=false`。题铭含义仅作 Haskell 的转述，不称为已独立核验的拉丁文翻译，也不推作正式题献。
+
+本批的定向 S2 修订和新 statement 未计入统一独立语义复核分子。
+
+#### S4 / S5 登记
+
+新增3个来源限定 KU：work `units/works/giampiccoli-view-of-campo-santa-maria-formosa`、person `units/persons/giuliano-giampiccoli`、place `units/places/campo-santa-maria-formosa`。人物中文展示名为项目工作音译；作品题名为描述性工作题名。8条结构化 S5 字段已由卡片表抽取：人物2条、地点2条、作品4条；均有来源支持，未增加 `unverified`。地点卡另保存市政府地点页与现行平面图链接。
+
+#### S6 逐项裁决
+
+| statement | 决定 | relation |
+|---|---|---|
+| `st-chp10-p327-giampiccoli-print-commission` | formal；作品由 Giorgio Pisani 委托 | `rel-2351 commissioned_by` |
+| `st-chp10-p327-giampiccoli-print-created-by` | formal；按 Haskell 的委托措辞及 engraver 角色作来源限定创作者归属 | `rel-2352 created_by` |
+| `st-chp10-p327-giampiccoli-print-depicts-campo` | formal；描绘地点为 Campo Santa Maria Formosa，不表示印张现藏地 | `rel-2353 has_subject` |
+| `st-chp10-p327-print-inscription-and-withdrawal` | formal；只表达题铭赞颂对象，不称 Pisani 为画面人物或正式题献对象 | `rel-2354 has_subject` |
+
+四条边均以 `haskell-1980-rev-ed` 为 `source_id`，保留精确章页、PDF页、来源行及 S2 statement ID。撤版是作品史实，不产生关系边；未识别的 palace 候选不阻塞上述四条边。
+
+#### 核对结果
+
+`build_field_facts.py` 定向预览为8条 source-backed 字段、0条无来源字段、0条警告；预览后按接口写入。三张相关卡定向渲染3张，二次渲染 `files_to_write=0`。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。全局卡片预检中其它待投影卡片不在本批渲染范围内。
