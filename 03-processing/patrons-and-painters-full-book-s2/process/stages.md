@@ -13663,3 +13663,9 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 ### 2026-10-26：第8章 p.212 注3 S2 定向修订记录
 
 处理既有问题 #374：根据印刷页图，将原 statement 限定为 Del Rosso 家取得较小版本的书内报告；另立较早的 S. Agostino 作品、两件作品间的版本关系、地点与创作者关系statement。原判断的复核覆盖不自动继承至修订版本；本次为端点修订，未计入9,617条统一独立复核分子，章节及全书仍未接收。
+
+### 2026-10-26：第17章p.379–381引注页图触发的S2修订与S3–S6端点批次
+
+按当前候选、关系statement及CHP-17印本扫描逐项复核。S0源文件只读。p.379–381图像将多处OCR差异校正记入statement qualifiers；p.379注1/注2/注3/注4/注5/注6新增独立Haskell-cites statements共6条。p.380注4的quoted source端点改为Moschini出版物→Manfrin gallery候选；p.380注6改为书信→Epistolario系列；p.381注1改为Haskell书→1806出版物，1810未识别文献保持candidate端点并转为Haskell书→候选文献。反转p.379注2/注4/注5的档案位置statement方向。新增statement不增加mention，不计入S2统一独立复核分子；本次不宣称第17章或S2独立接收。
+
+详见[第17章来源端点过程记录](knowledge.md#s3-s4-s5-s6-chp17-p379-p381-manfrin-sources-20261026)。批后S2为15,406 statements、26,861 mentions；统一独立复核仍为9,617条，新增/修订statement未计入。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五项阻断均为0。8张受影响卡已定向渲染，逐张复预览无差异；该批次不构成章节或全书独立语义接收。

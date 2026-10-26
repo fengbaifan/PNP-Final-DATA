@@ -60,6 +60,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《莫斯基尼《十八世纪至今的威尼斯文学》》（Della letteratura veneziana nel secolo XVIII fino a’ nostri giorni (1806)）](../archives/della-letteratura-veneziana-moschini-1806.md) | S2 candidate: st-chp17-pi-note1-meschini-account; cited title and p.431 bibliography cross-check the same 1806 publication.；角色：書目責任者；范围：Haskell第17章p.379注1把G. A. Moschini列为Manfrin及其画廊唯一通论的作者；只记录来源归属，不表示已查阅原书。；原断言与证据见发出端卡片“《莫斯基尼《十八世纪至今的威尼斯文学》》（Della letteratura veneziana nel secolo XVIII fino a’ nostri giorni (1806)）”：[来源](../../../02-sources/02-Markdown/17_CHP-17_intro.md)；haskell-1980-rev-ed；printed p.379 n.1, L8; statement=st-chp17-pi-note1-meschini-account |
+
 
 本批未写入正式关系。与此身份组相关的3条S2关系候选继续留待S6逐项审查；原书陈述、页码和限定见`book-statements.jsonl`。

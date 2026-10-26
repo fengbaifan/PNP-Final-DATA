@@ -15727,3 +15727,61 @@ PDF图像复核将S0 OCR中的`lais`校读为`his`、`Use Antonio`校读为`life
 以上4项formal写入 `relations.csv`；4项pending保留于本过程记录，不造不准确关系行。另有同一S2段落中其他关系候选不在这四个新登记端点触发范围内，本批未据此宣称第14章 p.354 的S6全部收口。
 
 **定向投影与审计。** 四张新卡及Algarotti、Tiepolo、Eustachio Zanotti三张端点卡先逐卡预览，再定向渲染7张；`files_written=7`，写后字节核验通过，渲染后7张预览均无差异。严格表审计：KU=3,141，候选=12,431，alignment=12,778，new待S4登记=2,727，S2 statements=15,400，mentions=26,861，S5=14,267（1,634 `unverified`），relations.csv=2,301（2,266 formal、35 pending），backlog=49（14 completed、35 undecided、严格审计pending=0），`errors=[]`、`s2_missing=[]`。S3首条主决定为same=2,088、new=5,088、conflict=9、excluded=104、undecided=5,142。S6累计按本批增量更新为1,737/10,616（1,006 formal、606 pending、125 rejected、8,879 undecided）；旧S6映射差异仍为1条。关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。S2统一独立复核仍为9,617条；新增statement尚未复核。本批不改变全书S2、S3–S6未收口及S7未启动的阶段状态。
+
+<a id="s3-s4-s5-s6-chp17-p379-p381-manfrin-sources-20261026"></a>
+
+### S3–S6：第17章印刷页379–381 Manfrin引注、来源身份及关系端点（2026-10-26）
+
+#### 来源证据与S3跨章身份裁决
+
+复核第17章印刷页379–381（CHP-17.pdf物理页1–3）及第21章印刷页431书目。页图确认p.379注1、p.380注4、p.381注1印作Moschini；OCR的Meschini仅为转录误差。第21章书目OCR同作Meschini，但p.431页图列出G. A. Moschini四卷本 *Della letteratura veneziana nel secolo XVIII fino a’ nostri giorni*，Venezia 1806。原书及其第II卷第107页未查阅。p.379注2印本题名为 *Sonetti XVI, ossiano Satire contro il Manfrin, Impressario di Tabacchi*；注3印本为 *imparziale*、注号3；注4登记册为538；注5、注6的印本注号分别为5、6。
+
+| 候选 | 原决定 | 当前决定与S4去向 | 依据 |
+|---|---|---|---|
+| cand-10172 | new | same → units/institutions/archivio-di-stato-di-venezia | p.379注4、5的Archivio di Stato, Venice与现有同类型机构KU相同。|
+| cand-10680 | undecided | same → units/persons/giannantonio-moschini | p.379页图读G. A. Moschini；跨章姓名、Abate称谓及现有Treccani DBI身份记录支持同一人物；本句仍保留缩写。|
+| cand-8332 | new | new → units/archives/della-letteratura-veneziana-moschini-1806 | p.431四卷书目与第17章卷页引注对应。|
+| cand-10681 | new，archive-group-d0625ba01f90 | same → units/archives/della-letteratura-veneziana-moschini-1806 | 1806，II卷，p.107，与cand-8332同一出版物；保留原组及其历史裁决。|
+| cand-10700 | undecided | same → units/archives/della-letteratura-veneziana-moschini-1806 | p.381印本与p.379、p.380引注为同一书卷页；无印本拼写冲突。|
+| cand-10682 | new，archive-group-0f7c84cf9d11 | new → units/archives/sonetti-xvi-satire-contro-manfrin-correr-2947-18 | 独立手稿题名与Cod. Cicogna 2947/18。|
+| cand-10684 | new，archive-group-39b63d8c65b3 | new → units/archives/inquisitori-register-538-p43-1770-01-29 | register 538，p.43，29 Genaro 1770。|
+| cand-10685 | new，archive-group-45869cfd5312 | new → units/archives/inquisitori-register-540-p6-1786-06-12 | register 540，p.6，12 Giugno 1786；与538册记录分开。|
+| cand-10687 | new，archive-group-0a001fb5d548 | new → units/archives/curiosita-veneziane-tassini-fourth-edition-1887 | 第四版1887，与既有第五版1915候选cand-8428保持分开。|
+| cand-9448 | new | same → units/institutions/biblioteca-marciana | p.379注3的同名机构已由该候选映射；更正决策与既有KU不一致的问题。|
+
+`cand-10686`（Tassini，仅姓氏）继续undecided；`cand-1513`（Manfrin gallery/collection）继续untyped/undecided；`cand-10701`（Moschini, 1810，无题名或页码）继续undecided。未据此创建作者或馆藏推断。`cand-8262`及`cand-10605`沿用Correr Library与Epistolario Moschini既有KU。
+
+#### S2定位和原子关系修订
+
+保留S0原文和现有`original_quote`；把图像校读作为qualifier记录。修正p.379注1与p.380注4的Meschini→Moschini，p.379注2的题名空格与Impressario、p.379注3的imparziale及注号3、p.379注4的538、p.379注5和注6的注号。修正关系方向：手稿/小册子/档案记录指向书内所报机构；p.380注4为Moschini出版物`has_subject` Manfrin gallery候选；p.380注6为1793书信`part_of` Epistolario Moschini；p.381注1以Haskell书为subject记录对1806书的`cites`，1810未识别文献同样以Haskell书为subject。
+
+新增6条独立citation statement，分别将Haskell书与p.379注1–6各自具名引注相连；不新增mention。全部新增statement及本批修订均不计入S2独立复核分子。书内地点定位candidate保留为独立S2声明，不因新增citation statement而合并。
+
+#### S6逐项裁决
+
+| S2 statement | 决定与去向 |
+|---|---|
+| st-chp17-pi-note1-meschini-account | formal rel-2302 `authored_by`：1806出版物→Giannantonio Moschini；只表达Haskell的作者归属。|
+| st-chp17-pi-note1-cites-moschini-1806 | formal rel-2303 `cites`：Haskell→1806出版物。|
+| st-chp17-pi-note2-correr-manuscript-locator | pending `located_at`：端点齐全；关系词表将located_at标为needs_split，书内馆藏定位尚无可用的独立谓词。|
+| st-chp17-pi-note2-cites-correr-sonetti | formal rel-2304 `cites`：Haskell→手稿；不表示已查阅手稿。|
+| st-chp17-pi-note3-pamphlet-locator | pending `located_at`：Marciana身份与小册子KU已映射，但档案馆藏定位的谓词语义待拆分。|
+| st-chp17-pi-note3-cites-manfrin-pamphlet | formal rel-2305 `cites`：Haskell→1797小册子。|
+| st-chp17-pi-note4-1770-archive-locator | pending `located_at`：ASV机构与register 538 KU已映射；needs_split阻止把书内档案定位冒充为已定义位置关系。|
+| st-chp17-pi-note4-cites-inquisitori-538 | formal rel-2306 `cites`：Haskell→register 538记录。|
+| st-chp17-pi-note5-1786-archive-locator | pending `located_at`：ASV机构与register 540 KU已映射；needs_split阻止地点关系写回。|
+| st-chp17-pi-note5-cites-inquisitori-540 | formal rel-2307 `cites`：Haskell→register 540记录。|
+| st-chp17-pi-note6-tassini-locator | pending `authored_by`：书已登记；姓氏人物身份未决，不连接作者KU。|
+| st-chp17-pi-note6-cites-tassini-1887 | formal rel-2308 `cites`：Haskell→第四版1887图书。|
+| st-chp17-p380-note4-meschini-gallery-description | pending `has_subject`：引用书映射已完成；gallery/collection候选cand-1513仍无支持类型。|
+| st-chp17-p380-note6-edwards-letter-source | formal reuse rel-1593 `part_of`：Manfrin–Edwards书信→Epistolario Moschini；不重复造边。|
+| st-chp17-p381-note1-moschini-1806 | formal reuse rel-2303 `cites`：同一1806出版物及卷页。|
+| st-chp17-p381-note1-moschini-1810 | pending `cites`：只给年份与same-author，没有题名、卷页或可识别出版物KU。|
+
+不新增`located_at`关系行；其物理/书内馆藏定位候选保留pending与解除条件。`rel-1592`记录Epistolario系列→Correr Library的既有边；本批对书信本身复用rel-1593的series membership。
+
+#### S4/S5写回范围
+
+登记5张archive KU（Moschini四卷本、Correr手稿、两条Inquisitori登记、Tassini第四版），将3条历史S3-new决定与2条undecided决定改判为same；其中3条复用本来已存在的人员/机构KU，另2条复用本批登记的Moschini出版物KU。新卡27条Haskell来源S5字段；既有pamphlet卡7条字段补入来源标记并按印本页图更新。source corpus及原始OCR未改写。
+
+**批后审计（2026-10-26）：** S2共15,406条statement、26,861条mention；统一独立复核仍为9,617条（62.42%），新增/修订statement未计入分子。`alignment.csv`现有12,411条候选主决定：same 2,090、new 5,068、conflict 9、excluded 104、undecided 5,140。另有20个`status=open`候选没有主决定行（6个早期候选、14个body-mention补录），类型为person 8、archive 3、place 3、institution 3、work 3；其中16个是S2关系端点（person 4、archive 3、place 3、institution 3、work 3），其余4个均为person。严格表审计未报告此覆盖差异，故不得以候选总数宣称S3决定全覆盖。S4共3,146个KU，new候选已映射2,348/5,068，待映射2,720（直接S2关系端点1,031、非直接1,689）。S5共14,294条字段，unverified 1,627。S6已裁决1,753/10,622条（formal 1,015、pending 613、rejected 125）；`relations.csv`有2,308行（formal 2,273、pending 35）。字段预览覆盖6张卡、34行，`warnings=0`、写回后`record_changes=0`；8张受影响卡逐张渲染并复预览均无差异。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。关系位置、Tassini作者身份、gallery类型及1810文献身份共7项保持pending；没有因审计通过宣称S2独立接收或全书S3–S6收口。
