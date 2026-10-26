@@ -16504,3 +16504,13 @@ S5新增12条来源字段：Ceci、Vaes 1924与1925文章的期刊／年份／�
 第6章 p.146 注2 与第7章 p.169 注2 各形成Haskell原书`cites`该文章的formal边`rel-2389`、`rel-2390`；文章`authored_by` Francis Haskell 的书目断言写入formal边`rel-2391`。新增statement `st-chp21-bib-l577-614-haskell-1959-authored-by`及mention `m-chp21-bib-haskell-1959-article-author`各1条。S5新增期刊、日期和页码3个有书目定位的字段；文章卡已登记，Haskell书卡同步呈现两条引证。定向卡片写入后复预览无差异，字段默认预览`record_changes=0`、`new_ids=0`、`warnings=0`。
 
 批后严格表审计：KU 3,203；候选12,432；alignment行12,782、未链接0、new待登记2,667；S2 15,442 statements、26,867 mentions、`s2_missing=[]`、结构错误0；S5 14,439字段、1,627 unverified；relations.csv 2,391行（2,354 formal、37 pending）；backlog 49行、pending 0。S3主决定same 2,102、new 5,089、conflict 9、excluded 106、undecided 5,126；S4 new已映射2,422/5,089。与文章相关的三项S6决定均formal。关系一致性五类阻断均为0。统一S2独立复核分子维持9,617；本批为身份对齐及登记，不构成独立复核。
+
+
+<a id="s3-person-cardinal-medici-identity-chp8-20261027"></a>
+### S3跨章人物身份裁决：Cardinal Medici（2026-10-27）
+
+`cand-8074`（第8章印刷页241，L364）原决定为 `undecided`，原因是本页只写“Cardinal Medici”，且 `mentions.csv` 当时没有对应mention。现补入 `m-chp8-p241-cardinal-medici`（`chp-8:08_CHP-8_sec_ii:l361-370`，chars 829–844），并将 `aln-8249` 改为 `same`，映射到已登记的 `units/persons/francesco-maria-de-medici`，复用 `cand-1626` 的既有人物组和KU。
+
+裁决链：第8章p.229（L220）称Francesco Maria为Ferdinand的叔父；p.241（L364）将进一步借出的威尼斯画作归于“Cardinal Medici”。Treccani《意大利人传记辞典》Francesco Maria条记载其为Ferdinand的叔父，1686年受任枢机，至1708年仍任教廷职务，并于1709年离开枢机身份；这些年代覆盖1706年展览。[Francesco Maria de' Medici 条目](https://www.treccani.it/enciclopedia/francesco-maria-de-medici_(Dizionario-Biografico)/)（访问日期：2026-10-27）。Leopoldo条记载其于1675年去世，[Leopoldo de' Medici 条目](https://www.treccani.it/enciclopedia/leopoldo-de-medici_(Dizionario-Biografico)/)（访问日期：2026-10-27），故不能作为1706年出借者。索引M.csv#169虽把p.241列在Cardinal Leopoldo名下，但p.241正文并未点名Leopoldo；该页码作为定位信息，与正文亲属语境及权威年代相冲突，按索引定位异常处理，不据此拆分或回并到Leopoldo。
+
+身份比较仅将本书的称谓锚点匹配至Francesco Maria；不把外部传记倒填为原文姓名，也不证明他实际出借了特定画作。`st-chp8-p241-cardinal-medici-loan` 的S6仍为pending：原文未识别“further Venetian paintings”的具体对象，身份匹配不消除作品端点缺口，也不自动确认关系事实。旧的未决理由保留作历史，本节为当前裁决。
