@@ -36,17 +36,17 @@ sources:
     source_url: https://www.npg.org.uk/collections/search/person/mp02960/sarah-churchill-nee-jenyns-jennings-duchess-of-marlborough?wPage=1
     source_span: Person record mp02960, heading and biographical entry, lines 61–68.
 created: '2026-10-18'
-updated: '2026-10-18'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-person-m-index-endpoints-20261018
+updated: '2026-10-26'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp10-p278-manchester-letter-20261026
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本卡登记索引“Marlborough, Duchess of”所指人物。第10章p.278称Marlborough公爵夫人写信给Lord Manchester；同段说明Manchester曾于1709年出使威尼斯。National Portrait Gallery的mp02960记录将Sarah Churchill（née Jenyns/Jennings）列为Marlborough公爵夫人，身份与书内语境相合。书中未给这封信的日期；关于音乐评论的关系候选仍待S6审查。中文名为项目工作音译。
+**中文：** 本卡登记索引“Marlborough, Duchess of”所指人物。第10章p.278称Marlborough公爵夫人写信给Lord Manchester；NPG的mp02960记录将Sarah Churchill（née Jenyns/Jennings）列为Marlborough公爵夫人，身份与书内语境相合。该信仍未见原件、日期或保管信息；Haskell所归述的作者关系现已按书内证据登记为正式关系，不表示独立查阅原信。中文名为项目工作音译。
 
-**English:** This card records the person indexed as “Marlborough, Duchess of.” Chapter 10, p. 278, says the Duchess of Marlborough wrote to Lord Manchester; the same passage notes Manchester's 1709 embassy to Venice. The National Portrait Gallery's record mp02960 identifies Sarah Churchill (née Jenyns/Jennings) as Duchess of Marlborough, matching the book's context. Haskell does not date the letter, and the statement about the music commentary remains for S6 review. The Chinese display name is a project working transliteration.
+**English:** This card records the person indexed as “Marlborough, Duchess of.” Chapter 10, p. 278, says the Duchess of Marlborough wrote to Lord Manchester; the National Portrait Gallery's record mp02960 identifies Sarah Churchill (née Jenyns/Jennings) as the Duchess, matching the book's context. The letter itself, its date, and its repository have not been verified. The author attribution is now recorded as a formal, source-limited relation based on Haskell's account; the original letter was not independently consulted. The Chinese display name is a project working transliteration.
 
 ### 姓名
 
@@ -58,9 +58,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书相关内容
 
-**中文：** 第10章p.278引述公爵夫人写给Lord Manchester的音乐评论；书中没有给信件日期，原始关系陈述留待S6。 相关statement：`st-chp10-p278-duchess-wrote-manchester-music-letter`。
+**中文：** 第10章p.278引述公爵夫人写给Lord Manchester的音乐评论；书中没有给信件日期。相关statement：`st-chp10-p278-duchess-wrote-manchester-music-letter`。
 
-**English:** Chapter 10, p. 278, quotes a music commentary in a letter from the Duchess to Lord Manchester. The book gives no letter date; the source statement remains for S6. Related statements: `st-chp10-p278-duchess-wrote-manchester-music-letter`.
+**English:** Chapter 10, p. 278, quotes a music commentary in a letter from the Duchess to Lord Manchester. The book gives no letter date. Related statement: `st-chp10-p278-duchess-wrote-manchester-music-letter`.
 
 ## 关系与证据
 
@@ -70,4 +70,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有登记在 `relations.csv` 中的正式关系。直接S2关系候选 `st-chp10-p278-duchess-wrote-manchester-music-letter` 留待S6审查；本次S4登记不创建正式边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [马尔伯勒公爵夫人致曼彻斯特勋爵谈音乐的书信（Letter from the Duchess of Marlborough to Lord Manchester about music）](../archives/letter-sarah-churchill-to-lord-manchester-music.md) | S6 formal: records Haskell’s attribution only; it does not assert direct consultation of the original letter.；角色：Haskell-attributed writer；范围：Haskell introduces the p.278 quotation as a letter by the Duchess of Marlborough. The identity is aligned to Sarah Churchill; the original letter, date and repository remain unverified.；原断言与证据见发出端卡片“马尔伯勒公爵夫人致曼彻斯特勋爵谈音乐的书信（Letter from the Duchess of Marlborough to Lord Manchester about music）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p.278, lines 36–39; PDF physical p.3; statement=st-chp10-p278-duchess-wrote-manchester-music-letter |
+
+正式关系及边界见 `relations.csv`；关系仅记录Haskell对该书信作者的归属，不表示原件已核。

@@ -16059,3 +16059,18 @@ S5字段预览／应用、8张新增或关联人物卡的关系投影预览及7�
 回核第3章印刷 p.67、PDF physical p.5、S2 statement `st-chp3-secii-l19-31-vitale-subjects-mostly-torture` 与 mention `m-chp3-secii-l19-31-0043`。原文“Once again the subjects were almost exclusively concerned with torture”支持壁画组级 `has_subject`，保留“almost exclusively”限定；不据此断言每幅单景或某个具体受刑者。本次是 S4 触发的定点来源核对，S2 statement、mention及统一独立复核分子均未更改。
 
 S4 新增1个 term KU，并将 `aln-12476` 映射至该卡。S5 字段预览后应用2条书内 `source_backed` 记录：作品主题 `enr-18250`，术语来源实例 `enr-18251`；0条 `unverified`，来源复用 `haskell-1980-rev-ed`。S6 将该 statement 裁决为 formal `rel-2335 has_subject`，方向为壁画组 work → 酷刑题材 term，域值域匹配；其他受难作品或个体事件未补入此边。对作品卡与新 term 卡执行关系预览后定向渲染，并在批后复核预览无剩余差异。
+
+<a id="s3-s4-s5-s6-chp10-p278-manchester-letter-20261026"></a>
+### S3–S6：第10章 p.278 曼彻斯特书信与脚注书目端点（2026-10-26）
+
+本批按印刷页 p.278（PDF physical p.3）和第21章书目 p.428 建立人物、单件书信与被引出版物三个不同身份组。页面扫描显示引文为“‘Music’, wrote the Duchess of Marlborough to Lord Manchester,⁶”；印刷注5为“See Duke of Manchester, II, passim.”，注6为“ibid., p. 140.”。OCR Markdown 的注号将这两条录作注6/注8，本次按扫描校正引注对应关系；不改写来源OCR原文件。书目条目明确为《Court and Society from Elizabeth to Anne》2卷、London 1864。本批不据同姓/头衔将书中人物与书目责任者合并。
+
+S3 将人物候选 `cand-1504` 从 `undecided` 定点改判为 `new`，映射至 `units/persons/charles-montagu-first-duke-of-manchester`。National Portrait Gallery 人物记录 mp02931 与 Treccani 的 Marco Ricci 传记分别提供查理·蒙塔古及其赴威尼斯使节、接引 Marco Ricci 与 G. A. Pellegrini赴英的身份线索，支持书中 Lord Manchester 指查理·蒙塔古、第一代曼彻斯特公爵；无既有KU可复用。外部来源所载使节及艺术家赴英年份与 Haskell p.278 的1709年叙述不完全一致，保留各来源原值，不用外部年表改写Haskell。本次身份裁决不证明引文所据原信已查。
+
+S4 沿用书信候选 `cand-8877` 的既有 `new` 组 `archive-group-4afad4d696d0`，登记至 `units/archives/letter-sarah-churchill-to-lord-manchester-music`；沿用书目候选 `cand-9299` 的既有 `new` 组 `archive-group-a373cf3e7058`，登记至 `units/archives/court-and-society-from-elizabeth-to-anne-1864`。书目责任项“Duke of Manchester”未落实为个人，不链接到 `cand-1504`。三个候选均保留各自S3决定和KU去向。
+
+将原 statement `st-chp10-p278-duchess-wrote-manchester-music-letter` 的关系方向与对象改为“书信 `authored_by` Sarah Churchill”，只记录Haskell归属；新增 `st-chp10-p278-music-letter-addressed-to-manchester` 及注5、注6两条 `cites` statement。S2 statements增至15,422、mentions仍为26,861；这些新增和修订记录不计入统一独立复核分子，复核仍为9,617条。两条脚注只建立书目引注路径，未查被引卷册或第140页；原信的日期、原件与保管地点保持未证。
+
+S5 对三张新卡应用14条具体页行支持的 `source_backed` 字段，0条 `unverified`，复用3个来源记录；字段写回后二次预览 `record_changes=0`、警告0。S6 将本批四个关系候选逐条裁为formal：`rel-2336 authored_by`（书信→Sarah Churchill）、`rel-2337 addressed_to`（书信→Charles Montagu）、`rel-2338 cites`（Haskell→被引书，注5）和 `rel-2339 cites`（Haskell→被引书，注6）。定向渲染三张新卡及Sarah Churchill和Haskell书籍两张现有端点卡，共5张；渲染后预览均无差异。
+
+批后严格表审计：KU=3,171；候选=12,431；alignment=12,778且 `alignments_unlinked=0`；S3主决定覆盖12,431/12,431（same 2,096、new 5,088、conflict 9、excluded 104、undecided 5,134），另有26个跨来源decision差异待逐项核对；S4 new待登记2,698，直接关系端点未映射1,018；S5字段=14,351（1,627 `unverified`）；S6候选=10,638，已裁决1,791（1,045 formal、621 pending、125 rejected），尚余8,847；`relations.csv`=2,339（2,303 formal、36 pending）；缺至少一个S2候选端点ID的关系statement=337；backlog=49（14 completed、35 undecided，严格pending=0）。审计 `errors=[]`、`s2_missing=[]`；关系一致性五项阻断均为0。S2仍未独立接收，计数和结构审计不替代逐条语义接收。
