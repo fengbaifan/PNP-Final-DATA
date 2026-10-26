@@ -75,6 +75,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所创作对象（`creator_of`，反向投影） | [阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）](../works/canova-amadeo-swajer.md) | 角色：肖像作者；范围：原书该图版明确列出的作者；原断言与证据见发出端卡片“阿马德奥·斯瓦耶尔肖像（Portrait of Amadeo Swajer）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 137–137; 章前：图版目录；印刷页xv |
+| → 所创作对象（`creator_of`） | [卡诺瓦早期的两篮水果与鲜花（Canova’s first works: two baskets of fruit and flowers）](../works/two-baskets-fruit-flowers-canova-palazzo-farsetti.md) | S6 formal; the relative clause “whose first works” attributes the baskets to Canova.；角色：Creator reported by Haskell；范围：Haskell identifies the two baskets as Canova’s first works. This records the book’s source-limited attribution; no date, commission, separate formal titles, or independent surviving-object identification is claimed.；证据：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_i.md)；haskell-1980-rev-ed；Chapter 15 printed p.363 L33–34; PDF physical p.3; statement=st-chp15-p363-canova-created-first-baskets |
+| → 位于（`located_at`） | [法尔塞蒂家族宫邸（Farsetti family palace near the Rialto）](../places/palazzo-farsetti.md) | S6 formal; source-limited use of located_at as a reported study venue.；角色：Student at a reported study venue；范围：Haskell says Canova was among those who studied in Palazzo Farsetti. This records the reported place of study, not enrolment at a named institution, regular attendance, or dates.；证据：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_i.md)；haskell-1980-rev-ed；Chapter 15 printed p.363 L33–34; PDF physical p.3; statement=st-chp15-p363-canova-most-famous-student |
 
 ### 关系候选入口
 

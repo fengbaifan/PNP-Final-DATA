@@ -1,5 +1,43 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-ch15-p362-p363-farsetti-palace-20261027"></a>
+### S3/S4/S5/S6：第15章 pp.362–363 Farsetti 家族宫邸及 Canova 两篮作品（2026-10-27）
+
+#### S3 身份复核与分组
+
+依据原书连续语境复核地点 `cand-1010`：p.362 L18 的“family palace near the Rialto”与 p.363 L33 的“Palazzo Farsetti”指同一书内地点；它与同段另述的 S. Maria di Sala 乡间别墅、未实施的 Padua 建造计划分别处理。`cand-1010`沿用`new`组`sg3-place-farsettifilippo`，映射至`units/places/palazzo-farsetti`。`cand-10461`沿用`new`组`sg3-term-cand-10461`，登记为本段关于追随古典范例理论的来源限定术语，不并入一般新古典主义或具名著作。此前`undecided`的`cand-10458`由p.363 L33–34明示的“两篮水果与鲜花是Canova的first works”及其安置叙述支持，改判为来源限定`new`组`sg3-work-cand-10458`，只登记这一对书内描述的作品，不声称其外部存世身份、单件正式题名、材质或日期。
+
+| 候选 | S3 决定／身份组 | S4 去向 |
+|---|---|---|
+| `cand-1010` | 沿用`new`；`sg3-place-farsettifilippo` | `units/places/palazzo-farsetti` |
+| `cand-10461` | 沿用`new`；`sg3-term-cand-10461` | `units/terms/classical-models-followed-in-art-farsetti-p363` |
+| `cand-10458` | `undecided`定点改判`new`；`sg3-work-cand-10458` | `units/works/two-baskets-fruit-flowers-canova-palazzo-farsetti` |
+| `cand-1005` | 保留`undecided`：cast collection 类型及对象边界未定 | 暂不登记；`bl-0016`同时跟踪其别墅内容与宫邸收藏关系待证状态 |
+
+更新 mention `m-chp15-p362-0019` 的来源交叉指称说明，明确 p.363 续文完成宫邸名称核对；更新 `aln-1345`、`aln-10628`、`aln-10631` 的 S4 映射及决定说明。没有其他可核证据触发的跨章 S3 重开。
+
+#### S4 登记与 S5 字段
+
+新增地点、术语和作品组3个KU；S5新增6条Haskell原书字段`enr-18333`–`enr-18338`，均有页码及对应 statement/原文锚点。Palazzo 卡记录原书名称、家族宫邸类型及“near the Rialto”相对位置；术语卡保留 Algarotti 与其他未具名倡导者的范围；作品卡记录来源描述对象及其创作次序。未补宫邸具体地址、现状或机构身份，也未补作品材质、日期、委托、安装者或当前地点。
+
+#### S6 逐项裁决
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp15-p362-cast-collection-assembled-in-family-palace` | pending | `cand-1005`类型／对象边界未定；保留`bl-0016`及本条 statement ID，不建立缺端点关系行。 |
+| `st-chp15-p363-palace-centre-for-classical-model-theories` | rejected | 原文是宫邸作为未具名学习者吸收理论的中心；现有端点却把术语作为对象，不能表达该断言，故不建立 palace→term 边。来源断言与术语定义保留在相应卡片。 |
+| `st-chp15-p363-canova-most-famous-student` | formal | `rel-2375 located_at`（Canova→palace）；限于 Haskell 所报学习地点，不推断入学机构、持续就读或日期。 |
+| `st-chp15-p363-canova-created-first-baskets` | formal | `rel-2374 creator_of`（Canova→两篮作品组）；原文直接称其为 Canova 的 first works，不推断正式题名、日期或存世身份。 |
+| `st-chp15-p363-canova-first-baskets-placed-in-palace` | formal | `rel-2376 installed_at`（两篮作品组→palace）；只记录 Haskell 所报历史安置，不推断安置者、日期或目前陈列。 |
+
+#### 卡片与批后核验
+
+四张受影响卡（Palazzo、古典范例术语、作品组、Canova 人物）预览后定向渲染；渲染预检`cards=4`、`tables=7`、`projected_relation_rows=7`、`files_to_write=3`，写后字节核验通过。S5复预览`record_changes=0`、`new_ids=0`、`source_registry_changes=0`、`warnings=0`。本批未增删S2 statement或mention，S2分母及统一独立复核分子不变。
+
+批后S3主决定为same 2,100、new 5,086、conflict 9、excluded 106、undecided 5,130；S4映射2,410/5,086，未登记2,676，其中直接关系端点1,000；KU=3,191。S5共14,424条，1,627条`unverified`。S6新增5项裁决（3 formal、1 pending、1 rejected），累计1,835/10,649（1,080 formal、627 pending、128 rejected），未裁决8,814；`relations.csv`共2,376行（2,339 formal、37 pending）。`candidate-backlog.csv`仍49条（14 completed、35 undecided），`bl-0016`保留为未决。
+
+严格表审计通过：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`alignment_new_pending_registration=2676`、严格backlog pending=0。关系一致性检查`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。S2仍未独立接收；本批没有扩增 S2 复核分子。
+
 <a id="s3-s4-s5-s6-chp2-emblems-endpoints-20261026"></a>
 ### 第2章华盖、巴贝里尼纹章及年长 Antonio Barberini 跨章身份端点（2026-10-26）
 
