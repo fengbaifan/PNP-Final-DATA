@@ -113,4 +113,8 @@ The index main entry and its two subentries point to different passages in Chapt
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [牛顿肖像章与黄道十二宫图案设计（Newton Medallion and Zodiac Design above Fontenelle’s Eloge）](../works/newton-medallion-zodiac-design-boucher.md) | Formal S6: records the stated drawing attribution, distinct from the inscription plate.；角色：Drawing attribution reported by Haskell；范围：Haskell says Boucher drew the Newton medallion and Zodiac signs above the Fontenelle extracts on a separate page; that page was not independently examined.；原断言与证据见发出端卡片“牛顿肖像章与黄道十二宫图案设计（Newton Medallion and Zodiac Design above Fontenelle’s Eloge）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p.291, note 1, line 551; S2 statement st-chp10-p291-note1-boucher-medallion |
+
 本轮未新增正式关系。三条索引候选映射至同一人物KU；7条直接S2陈述中的关系候选仍待S6审查。

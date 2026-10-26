@@ -92,9 +92,10 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 提供教育（`education_of`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](../persons/francis-haskell.md) | 时间：1948年入学；角色：本科：前两年历史，末年英语；范围：就读机构；不混为受雇、组织院士或个人师承；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)；实际读取PDF2–3、7–8、10、15–17；本轮采用印刷pp.227–228、232–233、242 |
-| ← 提供教育（`education_of`，反向投影） | [乔治·汉弗莱·沃尔弗斯坦·赖兰兹（George Humphrey Wolferstan Rylands）](../persons/g-h-w-rylands.md) | 时间：1921年入学；角色：入学；不表示Fellow任命；范围：就读机构；不混为受雇、组织院士或个人师承；原断言与证据见发出端卡片“乔治·汉弗莱·沃尔弗斯坦·赖兰兹（George Humphrey Wolferstan Rylands）”：[来源](https://www.kings.cam.ac.uk/guide-modern-archives)；档案指南说明及GHWR完整条目 |
+| ← 提供教育（`education_of`，反向投影） | [弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）](../persons/francis-haskell.md) | 时间：1948年入学；角色：本科：前两年历史，末年英语；范围：就读机构；不混为受雇、组织院士或个人师承；原断言与证据见发出端卡片“弗朗西斯·詹姆斯·赫伯特·哈斯克尔（Francis James Herbert Haskell）”：[来源](https://www.thebritishacademy.ac.uk/documents/366/115p227.pdf)；src-82db5ffb1f42b5b4；实际读取PDF2–3、7–8、10、15–17；本轮采用印刷pp.227–228、232–233、242 |
+| ← 提供教育（`education_of`，反向投影） | [乔治·汉弗莱·沃尔弗斯坦·赖兰兹（George Humphrey Wolferstan Rylands）](../persons/g-h-w-rylands.md) | 时间：1921年入学；角色：入学；不表示Fellow任命；范围：就读机构；不混为受雇、组织院士或个人师承；原断言与证据见发出端卡片“乔治·汉弗莱·沃尔弗斯坦·赖兰兹（George Humphrey Wolferstan Rylands）”：[来源](https://www.kings.cam.ac.uk/guide-modern-archives)；src-4cad74d877e67ff9；档案指南说明及GHWR完整条目 |
 | ← supports_claim（`supports_claim`，反向投影） | [《赞助人与画家》（Patrons and Painters）](../archives/patrons-and-painters.md) | 角色：研究持续开展支持；范围：第一版序言my own College由同序King’s College署名落实；院长与院士未逐人具名；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/00_03_Preface_1st_Ed.md)；haskell-1980-rev-ed；lines 22–29; 章前：第一版序言；印刷页ix；PDF 7 |
+| ← 所在地（`location_of`，反向投影） | [康杜伊特档案群（Conduitt Papers）](../archives/conduitt-papers.md) | Formal S6: source-reported location only.；角色：Source-reported repository locator；范围：Haskell reports the Conduitt Papers in the Library of King's College, Cambridge; present custody is not independently established.；原断言与证据见发出端卡片“康杜伊特档案群（Conduitt Papers）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p.290, note 1, line 545; S2 statement st-chp10-p290-note1-collection-located-at |
 
 ### 关系候选入口
 

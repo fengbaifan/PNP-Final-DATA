@@ -63,6 +63,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [约翰·康杜伊特致欧文·麦克斯温尼信（1729年6月4日）（Letter from John Conduitt to Owen McSwiny (4 June 1729)）](../archives/conduitt-to-mcswiny-letter-1729-06-04.md) | Formal S6 decomposition of the explicit sender claim.；时间：1729-06-04；角色：Letter sender；范围：Haskell reports a letter from John Conduitt to Owen McSwiny dated 4 June 1729; the manuscript was not independently consulted.；原断言与证据见发出端卡片“约翰·康杜伊特致欧文·麦克斯温尼信（1729年6月4日）（Letter from John Conduitt to Owen McSwiny (4 June 1729)）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p.290, note 1, line 545; S2 statement st-chp10-p290-note1-letter-direction |
+
 
 当前没有登记在 relations.csv 中的正式关系。直接S2候选 `st-chp10-p290-note1-letter-direction`, `st-chp10-p304-note4-conduitt-procurement-request` 留待S6审查；本次S4登记不裁决或创建正式关系。

@@ -1208,7 +1208,7 @@ m-chp10-p300-smith-connoisseur-coreference,chp-10:10_CHP-10_intro:l368-380,cand-
 m-chp10-p300-zeno,chp-10:10_CHP-10_intro:l368-380,cand-2869,Apostolo Zeno,2483,2496,Connoisseur and Smith’s friendly contact in the passage.
 m-chp10-p300-algarotti,chp-10:10_CHP-10_intro:l368-380,cand-0041,Francesco Algarotti,2498,2517,Use the index candidate covering p.300; cross-index identity remains for S3.
 m-chp10-p300-zanetti,chp-10:10_CHP-10_intro:l368-380,cand-2838,Antonio Maria Zanetti,2522,2543,The Elder candidate from the p.300 index context is reused.
-m-chp10-p300-goldoni,chp-10:10_CHP-10_intro:l368-380,cand-1207,Goldoni,2549,2556,Carlo Goldoni; index subentry covers the dedication to Smith.
+m-chp10-p300-goldoni,chp-10:10_CHP-10_intro:l368-380,cand-1205,Goldoni,2549,2556,Carlo Goldoni; index subentry covers the dedication to Smith.
 m-chp10-p300-play,chp-10:10_CHP-10_intro:l368-380,cand-9184,one of his plays,2587,2603,"Footnote 2 identifies Il Filosofo Inglese; the body title is resolved by the note, not inferred from this phrase alone."
 m-chp10-p300-n1-archivio,chp-10:10_CHP-10_intro:l368-380,cand-8592,Arcbivio di Stato,2614,2631,S0 OCR spelling; the printed page reads Archivio.
 m-chp10-p300-n1-esposizione,chp-10:10_CHP-10_intro:l368-380,cand-9505,Esposizione Principi,2640,2660,Additional source in the p.300 note 1 continuation.
@@ -2163,7 +2163,7 @@ m-chp10-p299-n4-florence,chp-10:10_CHP-10_intro:l491-634,cand-3397,Florence,1165
 m-chp10-p299-n4-shelfmark,chp-10:10_CHP-10_intro:l491-634,cand-9229,"MSS. B. Vin, 4",11660,11674,"Canonical OCR reads B. Vin, 4; the printed page reads MSS. B. VIII, 4."
 m-chp10-p300-n1-state-papers,chp-10:10_CHP-10_intro:l491-634,cand-9495,State Papers 99/70,11699,11717,Archival locator; letters unread.
 m-chp10-p300-n1-dates,chp-10:10_CHP-10_intro:l491-634,cand-9495,"10 and 31 January, 10 May and 10 June 1766",11729,11771,Dates as cited by Haskell.
-m-chp10-p300-n2-goldoni,chp-10:10_CHP-10_intro:l491-634,cand-1207,Goldoni,11779,11786,Index candidate covers the p.300 dedication context.
+m-chp10-p300-n2-goldoni,chp-10:10_CHP-10_intro:l491-634,cand-1205,Goldoni,11779,11786,Index candidate covers the p.300 dedication context.
 m-chp10-p300-n2-recipient,chp-10:10_CHP-10_intro:l491-634,cand-2440,him,11803,11806,Recipient of Goldoni's dedication in the source context.
 m-chp10-p300-n2-play-title,chp-10:10_CHP-10_intro:l491-634,cand-9184,Filososo Inglese,11813,11829,S0 OCR reads 'Filososo'; p.300 scan reads 'Il Filosofo Inglese'.
 m-chp10-p300-n2-opere-v,chp-10:10_CHP-10_intro:l491-634,cand-9496,"Opere, V, p. 259",11833,11849,Citation locator; edition identity remains open.

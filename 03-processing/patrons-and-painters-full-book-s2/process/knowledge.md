@@ -15320,3 +15320,59 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 另以 rel-2210 和 rel-2211 记录第21章书目明确署名的 Arslan 1952、Haskell 1956 两篇文章的结构性 authored_by 关系；它们的statement为 relation_candidate=false，不计入上述25项S6决定。除Udney locator这一独立子关系外，本批未将pending结果写为formal边。所有新增正式边均限于 Haskell 报告的关系、时间、角色、范围和来源定位；书目页、手稿、信件及所引论文均未被本批独立查阅。
 
 **渲染与审计（2026-10-26）。** 41张受影响卡完成定向预览，31张需更新；预览差异只新增关系投影行，并从Pietro Visconti人物卡移除已被新关系表替代的“当前没有正式关系”占位句。定向渲染写入31张卡；复跑同一目标集合 `files_to_write=0`，写后字节校验通过。26张相关卡的 `build_field_facts.py` 预览覆盖94行，`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。严格表审计：KU=3,067，主候选=12,427，alignment=12,774，S4待登记new=2,809，S2 statements=15,372、mentions=26,845，S5=13,988（1,634 unverified），relations.csv=2,213（2,180 formal、33 pending），backlog=46（13 completed、33 undecided、pending=0），`errors=[]`、`s2_missing=[]`。关系一致性五类阻断均为0；另有1,371个孤立KU及2个过度连接对象留作全库诊断。S3唯一主记录决定为same=2,075、new=5,096、conflict=9、excluded=104、undecided=5,143；另有26个候选的跨来源decision差异仍待按身份语义核对。全局S6累计1,616项（931 formal、564 pending、121 rejected）；与当前relation_candidate分母仍差1项历史statement映射，故不报全书完成率。
+
+
+
+
+<a id="s4-s5-s6-ch10-notes-endpoints-20261026"></a>
+## S3–S6 第10章注释端点与关系裁决（2026-10-26）
+
+**范围与证据。** 本批按第10章 p.290–306 的注释端点裁决，不扩展整段244个候选行。核对 Haskell 书内注释、S2锚点及现存KU；p.290、p.291、p.300–301、p.303–304、p.306页图用于辨认题名、脚注编号和定位。被引原件、手稿及论文未在本批独立查阅。
+
+**S3身份分组与去向。** 16个new候选各自进入唯一身份组并完成S4映射；跨章书目对象cand-9428对应第21章书目条目。cand-9422由new校正为same，复用既有King’s College机构KU。
+
+| 候选 | 身份组 | S4 KU |
+|---|---|---|
+| cand-9184 | archive-group-6620ecd06f05 | units/archives/il-filosofo-inglese-goldoni-play |
+| cand-9420 | archive-group-6aa8fe871405 | units/archives/conduitt-to-mcswiny-letter-1729-06-04 |
+| cand-9421 | archive-group-a702ae319fe2 | units/archives/conduitt-papers |
+| cand-9428 | archive-group-60399a18960e | units/archives/chaloner-egertons-italy-netherlands-1729-1734 |
+| cand-9431 | workgrp-35c6aadf4fbfdb | units/works/newton-monument-inscription-plate |
+| cand-9432 | workgrp-acbbb0befe9c23 | units/works/newton-medallion-zodiac-design-boucher |
+| cand-9512 | archive-group-ff4429d1490e | units/archives/joseph-smith-to-giovanni-poleni-letter-1747-04-14 |
+| cand-9527 | archive-group-997d0ef11c7f | units/archives/carriera-account-entry-1726-05-21 |
+| cand-9528 | workgrp-0f310d04aa0e8f | units/works/carriera-le-quattro-stagioni-1726-account |
+| cand-9530 | archive-group-b14b03e53c47 | units/archives/joseph-smith-to-rosalba-carriera-undated-ashburn-1781 |
+| cand-9531 | sg3-institution-cand-9531 | units/institutions/biblioteca-laurenziana |
+| cand-9542 | archive-group-b8d4dc352305 | units/archives/joseph-smith-to-samuel-hill-letter-1730-07-17 |
+| cand-9543 | archive-group-8d4eb5911267 | units/archives/christies-joseph-smith-picture-sale-catalogue-1776-05-16 |
+| cand-9547 | archive-group-2ff9aaf55bae | units/archives/joseph-smith-to-gori-letter-1737-03-30 |
+| cand-9550 | archive-group-ceddb5f530d5 | units/archives/girolamo-zanetti-letter-1751-08-21-marucelliana |
+| cand-9551 | archive-group-388eb7736207 | units/archives/joseph-smith-to-gori-letter-1737-04-13 |
+
+cand-9422 → units/institutions/kings-college-cambridge为same。cand-9430（Newton monument）、cand-9544（未识别的十四幅画）和cand-9427（Chaloner人物身份）继续undecided；cand-1207索引子目继续excluded。cand-9528与较宽泛的cand-9103 Four Seasons allegories暂不合并；账目只支持拟寄往伦敦，不证明实寄或付款。
+
+**S2修正与S5写入。** 将p.300题献statement的错误Goldoni索引端点改为戏剧文本cand-9184，人物对象保持Joseph Smith；将p.301复合陈述的主体改为Goldoni人物cand-1205，并修正相应mention映射。p.290“信件在Conduitt Papers中”改列为关系候选，并将“档案群位于King’s College Library”原子化为新statement st-chp10-p290-note1-collection-located-at，复用既有mention；statement净增1、mention不变。页图确认p.306注3、注5、注6的S2 printed_page/pdf_physical_page从307/36改为306/35。上述更新未计入S2独立复核分子。16张新KU新增65条Haskell来源字段（enr-17903–enr-17967），均为source_backed。
+
+**S6逐项裁决。** 16项候选statement均有去向：11项formal生成12条正式边；5项pending保留在本过程记录，没有写入不满足端点或受控域值域的边。
+
+| S2 statement | 结果 |
+|---|---|
+| st-chp10-p290-note1-letter-direction | formal：rel-2214 authored_by、rel-2215 addressed_to；时间1729-06-04 |
+| st-chp10-p290-note1-letter-location | formal：rel-2216 part_of，信件→Conduitt Papers |
+| st-chp10-p290-note1-collection-located-at | formal：rel-2217 located_at，Conduitt Papers→King’s College；书内报告定位 |
+| st-chp10-p291-note1-boucher-medallion | formal：rel-2218 created_by |
+| st-chp10-p291-note1-plate-designer | formal：rel-2219 designed_by |
+| st-chp10-p303-note3-account-entry | formal：rel-2220 has_subject；仅记录账目条目所涉作品及拟寄意图 |
+| st-chp10-p303-note5-letter-locator | formal：rel-2221 located_at；书内报告定位 |
+| st-chp10-p304-note5-smith-hill-letter | formal：rel-2222 part_of；1730-07-17信件刊载于Chaloner文章 |
+| st-chp10-p306-note3-gori-letter | formal：rel-2223 located_at |
+| st-chp10-p306-note5-zanetti-letter-citation | formal：rel-2224 located_at；架号依页图校读 |
+| st-chp10-p306-note6-smith-gori-letter | formal：rel-2225 located_at |
+| st-chp10-p291-note1-plate-monument | pending：目标cand-9430身份未定，component边暂不建 |
+| st-chp10-p300-note2-goldoni-dedication | pending：文本按taxonomy归archive，而dedicated_to当前只允许work→person |
+| st-chp10-p301-goldoni-and-smith-will | pending：复合陈述不据此推定friend_of |
+| st-chp10-p301-note4-smith-replied-to-poleni | pending：回复指向另一封信，当前无受控reply_to谓词 |
+| st-chp10-p304-note7-christies-sale-catalogue | pending：十四幅画未识别，cand-9544未定且无可用KU |
+
+**渲染与审计。** 22张相关卡定向检查，19张需更新并完成渲染；复跑相同目标files_to_write=0。King’s College卡同时同步两条已有教育关系的来源ID投影。严格表审计：KU=3,083、statement=15,373、mention=26,845、S5=14,053、relations.csv=2,225（2,192 formal、33 pending），errors=[]、s2_missing=[]；关系一致性五类阻断均为0。全库卡片预检仍有545个文件待渲染，其中522张存在关系视图差异，属于本批范围以外的渲染待办，须分批核对。S2独立复核分子仍为9,617；全书S3–S6及S2语义验收均未收口。

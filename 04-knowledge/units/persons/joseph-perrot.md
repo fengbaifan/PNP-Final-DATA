@@ -44,4 +44,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← designer_of（`designer_of`，反向投影） | [牛顿纪念碑铭文牌（Inscription Plate to Sir Isaac Newton’s Monument）](../works/newton-monument-inscription-plate.md) | Formal S6: source-attributed design role.；角色：Design attribution reported by Haskell；范围：Haskell says Joseph Perrot designed the inscription plate; neither the plate nor corroborating evidence was independently examined.；原断言与证据见发出端卡片“牛顿纪念碑铭文牌（Inscription Plate to Sir Isaac Newton’s Monument）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p.291, note 1, line 551; S2 statement st-chp10-p291-note1-plate-designer |
+
 目前没有 S6 正式关系。S2 候选 `st-chp10-p291-note1-plate-designer` 保留待 S6 逐条裁决；本次人物登记不表示该关系已成立。
