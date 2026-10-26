@@ -15851,3 +15851,54 @@ PDF图像复核将S0 OCR中的`lais`校读为`his`、`Use Antonio`校读为`life
 #### 写回与待办
 
 已更新两条主 `alignment.csv` 映射、`accepted.yml`、`ku-manifest.csv`、两张 works 卡、8条 S5 字段及两条 S6 formal 关系；Pietro 人物卡关系视图先预览后定向渲染。S2 statements/mentions及统一独立复核分子未改。`build_cards.py --render` 定向预检通过（3张卡、10个表、52行、22条关系投影），3张卡写后字节核验通过，逐卡复预览无差异。字段复预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。严格表审计 `errors=[]`、`s2_missing=[]`、`alignment_new_pending_registration=2,715`；批后 KU=3,150、S5=14,302（unverified=1,627）、S6已裁决1,759/10,622。关系一致性审计 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。下一批优先处理已具类型匹配另一端的直接 S4 端点组，并在同批逐项裁决由新映射触发的 S6；其余待登记组和未决关系保留原状。
+
+
+<a id="s4-s5-s6-direct-works-ch3-ch15-ch20-20261026"></a>
+
+### S3身份组沿用、S4作品／人物端点与S6：第3、15、20章（2026-10-26）
+
+#### S3与S4身份决定
+
+| 候选 | 保留的S3决定／身份组 | S4去向 | 边界 |
+|---|---|---|---|
+| `cand-5245` | `new`；`workgrp-3948aef67b38df` | `units/works/painted-conch-gesu-apse` | 第3章所称耶稣堂后殿 conch 绘饰；作为被绘制对象，与后殿空间区分；不补图像、材料或年代。 |
+| `cand-10518` | `new`；`workgrp-c862b229caeec4` | `units/works/memmo-palace-frescoed-gallery-classical-figures` | 第15章所称Memmo家族宫邸壁画廊饰，不将宫邸本身当作作品，也不推定画家。 |
+| `cand-11136` | `new`；`workgrp-cbc08f62b55de8` | `units/works/schmidt-etching-felice-salimbeni-for-algarotti-1753` | 第20章为Felice Salimbeni蚀刻的肖像；1753年仅由“1752年之后一年”推算。 |
+| `cand-2345` | `new`；`new-person:felice-salimbeni-ea3c867c8e` | `units/persons/felice-salimbeni` | 只登记哈斯克尔称为歌手的Felice Salimbeni；未作外部同名身份配对。 |
+
+四组均沿用既有S3 `new` 决定，未重开身份裁决；新增4张KU卡、manifest行、accepted路径及4条alignment映射。来源支持只限Haskell第3章印刷页81 L49、PDF物理页23；第15章印刷页368 L41、PDF物理页8；第20章后记印刷页409 L197、PDF物理页18。未增加外部来源记录。
+
+#### S2原子化补录
+
+`st-chp20-p409-schmidt-salimbeni-etching`原有 `created_by` 陈述保留；补入已有候选 `cand-2345` 及人物关系后，另加两条独立statement：
+
+| 新statement | 原子断言 | 来源定位 |
+|---|---|---|
+| `st-chp20-p409-schmidt-salimbeni-etching-subject` | 蚀刻像 `has_subject` Felice Salimbeni | 第20章后记，印刷页409 L197；PDF物理页18 |
+| `st-chp20-p409-algarotti-etching-recipient` | S2候选谓词 `etched_for`：蚀刻像为Francesco Algarotti制作 | 同上；保留来源的“for Algarotti”措辞，不改写为委托或赠礼 |
+
+二者复用已有S2 mention/candidate锚点，没有新增mention，也不计入统一S2独立复核分子。
+
+#### S5书内字段
+
+四张卡通过 `build_field_facts.py` 定向预览后应用11条来源支持字段 `enr-18217`–`enr-18227`；预览为 `unverified=0`、`duplicate_occurrences=0`、`warnings=0`、`source_registry_changes=0`。字段分别记录后殿半穹顶绘饰的描述性名称、作品类型与位置；Memmo家族宫邸壁画廊饰的描述性名称、类型和表现对象；Salimbeni蚀刻像的名称、类型、表现对象及相对推算日期；人物卡只记录来源所称歌手身份。没有补入未载明的作品媒介、画家、确切日期、现存状况或人物生平。
+
+#### S6逐候选裁决
+
+| S2 statement | 决定 | 证据及范围 |
+|---|---|---|
+| `st-chp3-seciv-l48-56-apse-conch-painted` | formal `rel-2312 creator_of`：Giovan Battista Gaulli → 后殿conch绘饰 | Haskell明言Gaulli绘制后殿conch；不扩大到整座后殿或上方拱顶，也不推定图像、材质和年代。 |
+| `st-chp15-p368-memmo-palace-frescoed-gallery` | formal `rel-2313 commissioned_by`：壁画廊饰 → Andrea Memmo | “He had had the family palace decorated”支持书内委托／促成角色；不声称合同、画家或具体日期。 |
+| `st-chp15-p368-note2-gallery-destruction` | pending（process-only） | 注2称“这些”约于1960年毁坏，但复数指代不能确定是壁画、人物像还是另一组对象；不称整个宫邸或廊饰已毁，不创建控制词表之外的关系边。 |
+| `st-chp20-p409-schmidt-salimbeni-etching` | formal `rel-2314 created_by`：Salimbeni蚀刻像 → Georg Friedrich Schmidt | Haskell明确报告蚀刻者；没有把相对推算的1753年写入关系时间，也未作外部作品目录核验。 |
+| `st-chp20-p409-schmidt-salimbeni-etching-subject` | formal `rel-2315 has_subject`：蚀刻像 → Felice Salimbeni | “features of a singer called Felice Salimbeni”支持描绘对象；身份范围限本段。 |
+| `st-chp20-p409-algarotti-etching-recipient` | pending（process-only；S2谓词 `etched_for`） | 来源称蚀刻像“for Algarotti”，但现有 `intended_recipient_of` 仅用于拟议赠礼，`intended_for` 值域限机构／地点；原文不足以推为正式委托。保留原断言待词表语义可表达时再审，不强行入边。 |
+
+其中4条formal边写入 `relations.csv`；两条pending候选因缺少明确对象边界或适用的受控谓词而只记过程裁决，不伪造关系表值。此前另有 `st-chp20-p409-santifaller-algarotti-portraits-schmidt-print`，涉及尚未登记的1752年版画及Santifaller研究文章，不属于本批；保持原未决状态，待两端类型与来源边界另行处理。
+
+#### 预览与交接
+
+S5字段预览／应用、8张新增或关联人物卡的关系投影预览及7张有变化卡的定向渲染完成；第20章新statement保持未复核。严格表审计、关系一致性和批后全书计数见当前结果文件。本批只解决上述四个S3组及六条关系候选，不表示S2独立接收或S3–S6全库收口。
+
+
+批后审计曾发现alignment首轮重写按candidate_id索引会覆盖该候选的多条外部对齐行，且4个新增卡路径最初插入accepted.yml的claims列表。已从本批前恢复快照还原这两表，改按唯一alignment_id更新4行，并将4条路径写入units列表。随后严格表审计errors=[]、s2_missing=[]，关系一致性五类阻断均为0；首轮错误写回未保留。
