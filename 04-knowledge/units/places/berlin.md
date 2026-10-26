@@ -50,6 +50,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）](../works/amigoni-sigismund-streit.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版53b目录的历史记载；与S2所载1964起借展关系分开；原断言与证据见发出端卡片“西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 131–131; 章前：图版目录；印刷页xv |
+| ← 所在地（`location_of`，反向投影） | [夏洛滕堡宫（Schloss Charlottenburg）](schloss-charlottenburg.md) | S2 statement st-chp20-p409-schloss-charlottenburg-located-berlin; the source identifies the building as a place; see 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp20-p409-algarotti-tomb-20261026.；角色：city stated by Haskell；范围：Haskell names Schloss Charlottenburg as being in Berlin.；原断言与证据见发出端卡片“夏洛滕堡宫（Schloss Charlottenburg）”：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；Chapter 20 print p.409 line 199; PDF physical p.18 |
 
 ### 关系候选入口
 

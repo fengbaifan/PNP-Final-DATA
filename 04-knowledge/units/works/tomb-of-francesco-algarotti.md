@@ -144,6 +144,7 @@ relations:
 | → 安置于（`installed_at`） | [比萨坎波桑托（Camposanto, Pisa）](../places/camposanto-pisa.md) | 角色：墓所在场所；范围：墓本体；证据：[来源](https://www.metmuseum.org/art/collection/search/335623)；src-a06ab511c67aedf6；题名及墓建造说明 |
 | → 所涉对象（`has_subject`） | [弗朗切斯科·阿尔加罗蒂（Francesco Algarotti）](../persons/francesco-algarotti.md) | 角色：纪念对象；范围：图版60所绘墓；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 138–138; 章前：图版目录；印刷页xv |
 | → 位于（`located_at`） | [比萨（Pisa）](../places/pisa.md) | 时间：本书所述时点；角色：墓所在城市；范围：图版60所绘墓；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 138–138; 章前：图版目录；印刷页xv |
+| ← 为其所涉对象（`subject_of`，反向投影） | [阿尔加罗蒂墓画（Painting of Francesco Algarotti’s Tomb in the Campo Santo, Pisa）](francesco-algarotti-tomb-painting-campo-santo-pisa.md) | S2 statement st-chp20-p409-painting-depicts-algarotti-tomb; nested source mention m-chp20-p409-055 uses existing candidate cand-4107 mapped to the tomb KU; see 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp20-p409-algarotti-tomb-20261026.；角色：depicted monument；范围：The painting is described as a painting of Algarotti's tomb in Campo Santo in Pisa; the tomb is distinct from the painting and the Volpato print.；原断言与证据见发出端卡片“阿尔加罗蒂墓画（Painting of Francesco Algarotti’s Tomb in the Campo Santo, Pisa）”：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；Chapter 20 print p.409 line 199; PDF physical p.18 |
 
 ### 关系候选入口
 

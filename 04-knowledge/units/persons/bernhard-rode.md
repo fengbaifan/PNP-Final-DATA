@@ -55,6 +55,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
+当前没有正式关系。正文中的导航与线索不自动形成关系边。
+
 当前没有登记在 `relations.csv` 的正式关系。以下直接关系候选仍待S6逐条审查：
 
 - [`st-chp14-p356-rode-influence-tiepolo-prospective`](../../tables/book-statements.jsonl)：S2直接关系候选，待S6审查。

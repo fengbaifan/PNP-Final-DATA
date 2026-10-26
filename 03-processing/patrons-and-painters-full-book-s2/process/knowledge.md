@@ -15660,3 +15660,38 @@ Francesco Marucelli、Don Antonio Ruffo、Biblioteca Marucelliana及Ruffo 1916�
 PDF图像复核将S0 OCR中的`lais`校读为`his`、`Use Antonio`校读为`life Antonio`、`Jt`校读为`It`；仅在本批引文解释中使用校正，S0文本和S2 `original_quote`均未改写。未新增或修订S2 statement／mention；统一S2独立复核分子不变。
 
 **定向验证。** `build_field_facts.py`应用后复预览为`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`；两张目标卡定向渲染2/2，写后字节核验通过，渲染后复预览均无差异。`audit_tables.py --strict-stage --summary`退出码0：KU=3,119、候选=12,431、alignment=12,778、new待S4登记=2,754、S2 statements=15,393、mentions=26,860、S5=14,183（1,634 unverified）、relations.csv=2,271（2,238 formal、33 pending）、backlog=49（14 completed、35 undecided、pending=0），`errors=[]`、`s2_missing=[]`。`audit_relation_consistency.py`的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。全书S2独立复核分子未变；S2仍未独立接收，S3–S6仍未全书收口。
+### S3–S6：第20章 p.409–410 阿尔加罗蒂墓画与第21章书目跨章端点（2026-10-26）
+
+**来源与身份范围。** 核对第20章印刷页409 L199、页410 L202–203与注9 L275，以及第21章书目印刷页436 L1089–1091。Haskell称Maria Santifaller讨论阿尔加罗蒂墓画；墓画“probably”取法于Volpato图版60；1963年位于John Bryson collection、Oxford，随后在Schloss Charlottenburg（Berlin）。第410页记Santifaller沿用Bernhard Rode归属，Marianne Roland-Michel认为更可能出自一位未具名意大利艺术家，故作者归属未解决。第21章书目给出Santifaller文章题名、作者、期刊和1978年2月广告增刊信息；注9仅作书内引注，文章全文未独立查阅。
+
+**S3跨章分组及去向。** 本批在S4登记时重开有新证据触发的两个决定：`cand-11142`由`new`改为`same`，复用图版目录中G. Volpato《Mourners at Tomb of Francesco Algarotti in Pisa》对应的`units/works/g-volpato-mourners-at-tomb-of-francesco-algarotti-in-pisa`；它是版画，与墓画`cand-11141`分开。`cand-11144`由`new`改为`same`，复用唯一同类型Oxford地点KU，不推断更具体机构。以下五个既有`new`身份组登记为新KU：
+
+| 候选 | 类型与跨章身份组 | S4去向 |
+|---|---|---|
+| `cand-11134` | person；`new-person:maria-santifaller-db243b693a` | `units/persons/maria-santifaller` |
+| `cand-11141` | work；`workgrp-dcf768ab2319b6` | `units/works/francesco-algarotti-tomb-painting-campo-santo-pisa` |
+| `cand-11143` | person；`new-person:bryson-john-1ad2d48970` | `units/persons/john-bryson` |
+| `cand-11145` | place；`sg3-place-cand-11145` | `units/places/schloss-charlottenburg` |
+| `cand-11146` | archive；`archive-group-3e57125882d5` | `units/archives/santifaller-rode-algarotti-tomb-article-1978` |
+
+`Schloss Charlottenburg`按地点词表归为宫殿建筑`place`，Berlin沿用现有地点KU。为绘画中的墓葬新增嵌套提及`m-chp20-p409-055`，准确范围为`[2466,2482)`，但复用已映射墓葬KU的既有候选`cand-4107`；没有创建重复候选。占用中的`m-chp20-p409-053`保持原状。
+
+**S2原子化与S6逐项裁决。** 将原复合statement `st-chp20-p409-santifaller-algarotti-tomb-painting-partial`收窄为文章以墓画为主题的书内报告，并新增六条独立statement：
+
+| S2 statement | S6去向 |
+|---|---|
+| `st-chp20-p409-santifaller-algarotti-tomb-painting-partial` | formal `rel-2290 has_subject`：Santifaller文章→墓画；限于Haskell报告及书目题名，未读文章 |
+| `st-chp20-p409-painting-probably-derived-from-volpato-engraving` | pending `rel-2296 derived_from`：保留原文“probably”，不升级为确定来源 |
+| `st-chp20-p409-painting-held-by-john-bryson-1963` | formal `rel-2292 held_by`：1963年John Bryson collection语境，不断言产权 |
+| `st-chp20-p409-painting-located-oxford-1963` | formal `rel-2293 located_at`：限定1963年地点，不推断机构 |
+| `st-chp20-p409-painting-located-schloss-charlottenburg` | formal `rel-2294 located_at`：晚于1963年的Haskell所报地点，确切日期未载 |
+| `st-chp20-p409-painting-depicts-algarotti-tomb` | formal `rel-2291 has_subject`：墓画→阿尔加罗蒂墓，端点复用`cand-4107` |
+| `st-chp20-p409-schloss-charlottenburg-located-berlin` | formal `rel-2295 located_at`：宫殿建筑→Berlin |
+| `st-chp20-p410-tomb-painting-attribution-dispute` | pending `rel-2297 created_by`：Rode传统归属与未具名意大利艺术家意见冲突，不接受任何作者结论 |
+| `st-chp20-p410-tomb-detail-dust-jacket` | pending，process-only：封底／护封细节没有独立端点，当前受控关系不能精确表达，不建关系行 |
+
+另登记三条书目结构边：`rel-2287 cites`（Haskell书→Santifaller文章，注9）；`rel-2288 part_of`（文章→Burlington Magazine）；`rel-2289 authored_by`（文章→Maria Santifaller）。故本批九项S6候选为6 formal、3 pending；连同三条书目结构边共新增11行关系，9 formal、2 pending。
+
+**S4与S5。** 新建五张KU卡并登记manifest与accepted路径；五卡增加17条Haskell `source_backed`字段（作品8、文章5、Maria 1、John 1、Schloss 2），字段预览`warnings=0`、`unverified=0`，应用后复预览`record_changes=0`。未补造墓画作者、文章内容、后续收藏日期或更具体的Oxford机构。
+
+**定向投影与审计。** 对11张受影响卡（5张新卡及Haskell书、Burlington Magazine、墓葬、Oxford、Berlin、Bernhard Rode）定向渲染；所选渲染预检通过，`files_written=11`，写后字节校验通过，11张卡复预览均无差异。全库`build_cards.py --check`仍报`files_to_write=542`，本批未执行全库渲染，故全书投影尚未同步。`audit_tables.py --strict-stage --summary`退出码0，`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py`的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic均为0。新增6条statement不计入统一S2独立复核分子。

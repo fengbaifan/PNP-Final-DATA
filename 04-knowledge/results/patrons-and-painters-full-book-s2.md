@@ -2,19 +2,23 @@
 
 ### 本轮进度与后续工作（2026-10-26）
 
-**最新批次完成：第2章华盖、巴贝里尼纹章与 Antonio Barberini 长幼身份裁决。** 11个既有S3 `new`候选完成S4映射，5个图像候选由`new`更正为与跨章纹章概念`same`；`cand-0186`从误并侄辈的`same`更正为年长者独立`new`组，`cand-0187`继续映射年轻Antonio，`cand-4522`沿用既有`new`组完成地点KU登记。共新增13个KU、56条source-backed字段；34条S6候选新增裁决为16 formal、15 pending、3 rejected，写入15条正式边；另将三条旧formal关系的人员端点由侄辈更正到年长者。Treccani DBI支持年长者受洗名Marcello、与Urban VIII的兄弟身份及1569–1646生卒；Haskell与DBI所记主教年份分别保留。25张相关卡定向渲染并复核`files_to_write=0`；字段预览`record_changes=0`；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性五项阻断均为0。过程及逐候选去向见[本批记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-emblems-endpoints-20261026)。未改S2 statements／mentions或独立复核分子。
+**最新批次完成：第20章 p.409–410 墓画及第21章书目跨章端点。** 复用既有`cand-4107`为墓葬提及端点，不制造重复对象；`cand-11142`（Volpato图版60）与`cand-11144`（Oxford）由`new`更正为复用现有KU，其余五个既有new组完成S4。新增五张卡、17条source-backed字段和六条原子S2 statement；9项S6候选裁为6 formal、3 pending，新增三条结构边，关系表共增11行。11张受影响卡定向渲染并复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断均为0。全库`build_cards --check`仍有542张卡待投影，本批没有全库渲染。新增statement未计入S2独立复核分子。详见[本批过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp20-p409-algarotti-tomb-20261026)。
 
-**全书当前进度。** S0有832个源段（678 complete、154 excluded）。S2有15,393条statement、26,860条mention；统一逐条独立复核9,617/15,393（62.48%，尚未接收），台账仍待按当前statement ID与来源版本核平。S3主决定覆盖12,431/12,431：same=2,086、new=5,089、conflict=9、excluded=104、undecided=5,143；另有26个候选跨来源decision值不同，须逐项核实，不能自动视为26个实体冲突。`undecided`按类型为untyped 626、term 660、work 1,575、archive 672、place 304、event 113、institution 117、person 1,056、family 18、procedure 2；其中3,014个当前直接出现在S2关系端点（untyped 471、term 446、work 1,086、archive 293、person 427、event 66、place 129、institution 81、family 13、procedure 2）。S4已映射2,352/5,089个new候选，仍待映射2,737个，其中1,042个是关系直接端点（term 423、archive 157、work 176、place 154、event 76、institution 55、person 1），另有1,695个非直接端点；KU共3,132个。S5字段14,239条（1,634条unverified）。S6累计裁决1,720/10,609条relation-candidate statement（996 formal、599 pending、125 rejected），尚余8,889条；`relations.csv`有2,286条（2,253 formal、33 pending）。另有337条关系statement至少缺一个S2端点候选ID，另有1条旧S6 statement映射差异待核平。`candidate-backlog.csv`有49条（14 completed、35 undecided，严格pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性审计`broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic`均为0。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现与页面仍暂停。
+**此前完成：第2章华盖、巴贝里尼纹章与 Antonio Barberini 长幼身份裁决。** 11个既有S3 `new`候选完成S4映射，5个图像候选由`new`更正为与跨章纹章概念`same`；`cand-0186`从误并侄辈的`same`更正为年长者独立`new`组，`cand-0187`继续映射年轻Antonio，`cand-4522`沿用既有`new`组完成地点KU登记。共新增13个KU、56条source-backed字段；34条S6候选新增裁决为16 formal、15 pending、3 rejected，写入15条正式边；另将三条旧formal关系的人员端点由侄辈更正到年长者。Treccani DBI支持年长者受洗名Marcello、与Urban VIII的兄弟身份及1569–1646生卒；Haskell与DBI所记主教年份分别保留。25张相关卡定向渲染并复核`files_to_write=0`；字段预览`record_changes=0`；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性五项阻断均为0。过程及逐候选去向见[本批记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-emblems-endpoints-20261026)。未改S2 statements／mentions或独立复核分子。
 
-**后续工作规划（按依赖与端点解锁排序）。**
+**全书当前进度。** S0有832个源段（678 complete、154 excluded）。S2有15,399条statement、26,861条mention；统一逐条独立复核9,617/15,399（62.45%，尚未接收），台账仍待按当前statement ID与来源版本核平。S3主决定覆盖12,431/12,431：same=2,088、new=5,087、conflict=9、excluded=104、undecided=5,143；另有26个候选跨来源decision值不同，须随当前登记或新证据逐项核实，不能自动视为冲突。undecided按类型为untyped 626、term 660、work 1,575、archive 672、place 304、event 113、institution 117、person 1,056、family 18、procedure 2；其中3,014个当前直接出现在S2关系端点。S4已映射2,357/5,087个new候选，仍待映射2,730个（1,040个直接关系端点：term 423、work 175、archive 156、place 154、event 76、institution 55、person 1；另1,690个非直接端点）；KU共3,137个。S5字段14,256条（1,634条unverified）。S6累计裁决1,729/10,615条relation-candidate statement（1,002 formal、602 pending、125 rejected），尚余8,886条；`relations.csv`有2,297条（2,262 formal、35 pending）。另有337条关系statement至少缺一个S2端点候选ID，另有1条旧S6 statement映射差异待核平。`candidate-backlog.csv`有49条（14 completed、35 undecided，严格pending=0）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五项阻断均为0。全库`build_cards.py --check`仍列出542张卡待投影，不能据本批定向渲染宣称全书卡片已同步。S2尚未独立接收，S3–S6未全书收口；S7未启动，知识发现与页面仍暂停。
 
-1. **清理跨来源差异并按类型裁决S3。** 先核对26个decision值不同的候选；再优先处理untyped 626项（其中471项直接进入关系端点），每项保留来源锚点、对象类型依据及same/new/conflict/excluded/undecided的明确去向。随后依当前队列分类型推进term、work、archive、place、event、institution、person，最后处理family与procedure；类型无证据时保留待决及解除条件，不强行归类。
+**后续工作规划（按关系解锁与阶段依赖排序）。**
 
-2. **先映射新身份中的关系端点，再完成其余S4与S6。** 当前2,737个待登记new候选中，先处理1,042个直接关系端点，再处理1,695个其余候选。每批同步完成必要S5字段、逐项裁决S6、定向渲染受影响卡并更新候选backlog。把337条缺候选端点ID的statement转为有证据的端点映射，或保留可解除的pending理由；同时核平1条旧S6映射差异及35条未决backlog的实际去向。
+1. **继续已裁为`new`的S4直接端点，并同批完成S6。** 当前2,730个new候选待登记，其中1,040个直接关系端点。按来源页与身份组分批，为每组完成KU映射、必要S5字段、关联statement裁决与受影响卡投影；同步处理337条缺端点候选ID的statement、1条旧S6映射差异及35条backlog undecided的实际去向。对确需待证的关系保留依据与解除条件。
 
-3. **继续S2独立复核并核平台账。** 第7章p.191仍有54条statement，当前定点审读覆盖i07及其两条拆分关系共3条，其余51条缺本页逐条复核记录；补完后再前进p.192。逐条按当前statement ID与来源版本对照扫描页；只有当前版本确实独立复核且台账可追溯时才增加9,617的分子。
+2. **S3按触发条件逐类处理。** 只在当前S4登记或新证据触发时，核对对应候选及跨章身份组；same复用唯一KU，new完成映射，conflict保留双方证据，excluded说明理由，undecided记录缺证与解除条件。26个跨来源decision差异在涉及候选进入批次时逐项核平；不因统计存在而全库重跑身份对齐。
 
-4. **在批次节点核对全书投影并准备S3–S6收口。** 本批已对25张直接相关卡定向渲染并通过写后复核；阶段性按当前数据运行全库投影预检，再分批清理差异。S3的候选级证据与决定、S4映射、关键S5、S6、backlog及缺端点statement和旧映射差异均有明确结果后，才确认S3–S6全书收口；S2独立语义接收仍是知识阶段的单独前置条件，S7及发现／呈现继续暂停。
+3. **继续S2独立语义审读并核平台账。** 第7章p.191共54条statement，现有定点记录覆盖3条，余51条待逐条对照页图与OCR；完成后再前进p.192。新增或修订的statement不计入复核分子，直至当前ID、来源版本和独立审读记录可追溯。
+
+4. **定向处理S5关键缺口并分段清理投影。** 当前1,634条字段仍为unverified；仅按对象缺口和可得证据补足，不做全库无目标填充。全库`build_cards.py --check`报告542张卡有投影差异；先按实际关系/字段改动确定卡片范围，分批预览和渲染，阶段节点复核全库投影。严格表审计与关系一致性审计通过不等于卡片投影已经全书同步。
+
+5. **S7保持待启动。** 在S0–S6交付、S2独立接收及全书关系/端点收口条件满足前，不制作发布快照；知识发现与页面继续等待用户明确启动。
 
 **提速做法。** 把语义工作按类型和直接关系端点分批，优先处理能解锁最多关系的候选；同一批复用已核过的来源与稳定KU，不反复全库抽取字段或渲染卡片。每批只预览、写回和复核受影响对象，在里程碑运行全库结构与投影检查；语义裁决仍逐候选留证，不用自动匹配结果替代判断。
 

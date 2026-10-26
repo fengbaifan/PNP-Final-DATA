@@ -51,6 +51,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [赫拉克勒斯的选择（阿什莫林藏本）（The Choice of Hercules, Ashmolean version）](../works/paolo-de-matteis-choice-of-hercules-ashmolean-wa1980-92.md) | 角色：当前馆藏城市；范围：馆方网页，2026-09-25访问；原断言与证据见发出端卡片“赫拉克勒斯的选择（阿什莫林藏本）（The Choice of Hercules, Ashmolean version）”：[来源](https://ashmoleanprints.com/products/pod439947)；src-bc471e965a48b4e6；additional information |
 | ← 所在地（`location_of`，反向投影） | [安德烈亚·萨基（Andrea Sacchi, Harris 1977）](../archives/harris-andrea-sacchi-1977.md) | 时间：1977；角色：联合目录所载出版地；范围：CiNii所列英国版出版地；保留校方书目的London异文，未以目录替代题名页核对；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi, Harris 1977）”：[来源](https://ci.nii.ac.jp/ncid/BA09957781)；src-4e7ff45d2197fbee；BA09957781：出版地Oxford；Phaidon 1977；ISBN0714815276 |
+| ← 所在地（`location_of`，反向投影） | [阿尔加罗蒂墓画（Painting of Francesco Algarotti’s Tomb in the Campo Santo, Pisa）](../works/francesco-algarotti-tomb-painting-campo-santo-pisa.md) | S2 statement st-chp20-p409-painting-located-oxford-1963; see 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp20-p409-algarotti-tomb-20261026.；时间：1963；角色：collection location；范围：Haskell says the painting was in the John Bryson collection in Oxford in his 1963 account; no more precise institution is named.；原断言与证据见发出端卡片“阿尔加罗蒂墓画（Painting of Francesco Algarotti’s Tomb in the Campo Santo, Pisa）”：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；Chapter 20 print p.409 line 199; PDF physical p.18 |
 
 ### 关系候选入口
 

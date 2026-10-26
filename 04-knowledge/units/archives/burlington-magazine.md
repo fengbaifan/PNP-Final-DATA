@@ -66,6 +66,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 包含成员（`contains`，反向投影） | [皮埃尔·勒格罗与晚期巴洛克罗马雕塑家的设计师角色（Pierre Legros and the role of Sculptors as Designers in late Baroque Rome）](conforti-legros-designers-1977.md) | 时间：1977-08；角色：刊载期刊；范围：1977年8月，119卷893期；正文页码另见本书书目；原断言与证据见发出端卡片“皮埃尔·勒格罗与晚期巴洛克罗马雕塑家的设计师角色（Pierre Legros and the role of Sculptors as Designers in late Baroque Rome）”：[来源](https://www.burlington.org.uk/archive/back-issues/197708)；src-b4a24d415e52b15d；本期目录及Conforti论文条；未读付费论文正文 |
+| ← 包含成员（`contains`，反向投影） | [玛丽亚·桑蒂法莱《罗德的阿尔加罗蒂墓画》（Christian Bernhard Rode’s painting of Francesco Algarotti’s tomb in the Camposanto of Pisa at the beginning of neo-classicism）](santifaller-rode-algarotti-tomb-article-1978.md) | S2 statement st-chp21-bib-l1059-1100-entry-19; supplement retained as publication detail; article not independently consulted; see 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp20-p409-algarotti-tomb-20261026.；角色：periodical container；范围：Haskell lists the article in Burlington Magazine in the February 1978 advertising supplement.；原断言与证据见发出端卡片“玛丽亚·桑蒂法莱《罗德的阿尔加罗蒂墓画》（Christian Bernhard Rode’s painting of Francesco Algarotti’s tomb in the Camposanto of Pisa at the beginning of neo-classicism）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；Chapter 21 bibliography print p.436 lines 1089-1091 |
 
 ### 关系候选入口
 
