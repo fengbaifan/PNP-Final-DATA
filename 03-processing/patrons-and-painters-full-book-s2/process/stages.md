@@ -13673,3 +13673,8 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 ### 2026-10-27：第3章 pp.76–77 穹顶图稿关系端点定向补充
 
 为S4/S6复用既有两条跨页创作者 statement 的mention锚点，并新增 `st-chp3-seciv-l3-6-cartoons-intended-for-cupola` 与 `st-chp3-seciv-l3-6-cupola-part-of-chiesa-nuova` 两条关系statement。后者在 p.76 L6 建立原引文锚点，使用 `continuation_to` 指向 p.77 L9 完成“cupola of the Chiesa Nuova”短语。新增2条statement、无新增mention；不计入统一S2独立复核分子。跨章建筑复用、两项新KU及四项S6逐条去向见[知识过程记录](knowledge.md#s3-s4-s5-s6-chp3-p76-77-cupola-cartoons-20261027)。
+
+
+### 2026-10-27：第8章 p.241 statement 来源对照核读
+
+对照《CHP-8.pdf》物理页47及当前53条statement：41条 `relation_candidate=true` 均已在既有S6记录中落到formal、pending或rejected，12条 `false` 保留为书内非关系断言。检查页内引文、人物／作品／书目端点、限定与注号；Cardinal Medici仍未具名，Marco Ricci风景画仍保留概率限定，后续展览不拆成未识别单次事件。页图确认注5末尾缩写印为`Boll.`，在`st-chp8-p241-note5-haskell-cites-article.qualifiers.ocr_corrections`补记S0 OCR `Boll,`→印本`Boll.`。其余本页校读（包括注5印刷编号5与OCR 6）已有结构化记录。S0不改；不新增statement/mention，不更改S3/S4/S6；本次局部核读未计入统一独立复核分子。详见[本页复核](s2-review-chp8-p241-20261027.md)。

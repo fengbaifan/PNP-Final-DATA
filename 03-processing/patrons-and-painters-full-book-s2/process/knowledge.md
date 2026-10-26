@@ -16494,3 +16494,13 @@ S5新增12条来源字段：Ceci、Vaes 1924与1925文章的期刊／年份／�
 #### 批后状态
 
 受影响卡片定向预览与渲染后复预览无差异；build_field_facts.py复预览record_changes=0、new_ids=0、source_registry_changes=0、warnings=0。本批后严格表审计：errors=[]、s2_missing=[]、alignments_unlinked=0、backlog pending=0；关系一致性阻断项均为0。当前总量为S2 15,441 statements／26,866 mentions（统一独立复核9,617，未接收）；S3主决定12,432项，其中same 2,101、new 5,089、conflict 9、excluded 106、undecided 5,127；S4已映射2,421/5,089个new候选，另有2,668个未映射；S5共14,436字段、1,627条unverified；S6关系候选10,652项，formal 1,092、pending 628、rejected 128，已裁决1,848项；relations.csv为2,388行（2,351 formal、37 pending）。以上结构审计不代表S2独立接收或S3–S6全书收口。
+
+
+<a id="s3-s4-s5-s6-chp6-chp7-haskell-1959-article-20261027"></a>
+### 2026-10-27：第6章、第7章短引文与第21章书目所指Haskell 1959年文章
+
+第7章 p.169 注2 的短引文“Haskell, 1959”由原书书目中唯一同年Haskell条目和相邻的外国赞助／艺术市场语境核实，指向F. Haskell, “The market for Italian art in the 17th century”（Past and Present, April 1959, pp.48–59），与署名不同的L. Stone 1959文章区分。`cand-6606`由`undecided`定点复核为`same`，复用`cand-6240`的`archive-group-a25e2f75ce65`；该组新登记为`units/archives/haskell-market-for-italian-art-1959`。第21章书目作者候选`cand-9423`复用`units/persons/francis-haskell`。未查阅文章正文，身份决定限于原书短引、邻接语境及书目记录。
+
+第6章 p.146 注2 与第7章 p.169 注2 各形成Haskell原书`cites`该文章的formal边`rel-2389`、`rel-2390`；文章`authored_by` Francis Haskell 的书目断言写入formal边`rel-2391`。新增statement `st-chp21-bib-l577-614-haskell-1959-authored-by`及mention `m-chp21-bib-haskell-1959-article-author`各1条。S5新增期刊、日期和页码3个有书目定位的字段；文章卡已登记，Haskell书卡同步呈现两条引证。定向卡片写入后复预览无差异，字段默认预览`record_changes=0`、`new_ids=0`、`warnings=0`。
+
+批后严格表审计：KU 3,203；候选12,432；alignment行12,782、未链接0、new待登记2,667；S2 15,442 statements、26,867 mentions、`s2_missing=[]`、结构错误0；S5 14,439字段、1,627 unverified；relations.csv 2,391行（2,354 formal、37 pending）；backlog 49行、pending 0。S3主决定same 2,102、new 5,089、conflict 9、excluded 106、undecided 5,126；S4 new已映射2,422/5,089。与文章相关的三项S6决定均formal。关系一致性五类阻断均为0。统一S2独立复核分子维持9,617；本批为身份对齐及登记，不构成独立复核。
