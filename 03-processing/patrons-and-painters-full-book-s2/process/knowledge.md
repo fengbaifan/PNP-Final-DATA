@@ -15549,3 +15549,16 @@ Francesco Marucelli、Don Antonio Ruffo、Biblioteca Marucelliana及Ruffo 1916�
 | st-chp21-bib-l1220-1259-author-09 | formal：rel-2268 authored_by；作者形式经独立 S3 决定映射到 Ellis Kirkham Waterhouse |
 
 **投影与核验。** 14张相关卡逐卡预览；定向渲染11张，包含9张关系视图更新，写后字节核验通过。严格表审计：KU=3,118、候选=12,431、alignment=12,778、S4 new待登记=2,757、S2 statements=15,393、mentions=26,860、S5=14,178（1,634 `unverified`）、relations.csv=2,268（2,235 formal、33 pending）、backlog=49（14 completed、35 undecided、严格审计pending=0），`errors=[]`、`s2_missing=[]`。本次按每个候选首条主决定核算，S3 为 same=2,079、new=5,095、conflict=9、excluded=104、undecided=5,144；26项跨来源决定差异不变。S4 已映射2,338/5,095条 `new`；未映射new直接关系端点1,062（term 435、archive 157、work 181、place 157、event 76、institution 55、person 1）。`relation_candidate=true` 为10,609；旧 S6 台账映射差异仍1项，故不报全书完成率。关系一致性审计中 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。S2统一复核仍为9,617/15,393（62.48%，未接收）；S2–S6均未全书收口，S7未启动。
+
+<a id="s3-s4-s5-s6-chp2-p48-bentivoglio-portrait-20261026"></a>
+### S3–S6：第2章 p.46《Allegory of Rome》与 p.48 本蒂沃利奥肖像跨章复用及年代字段（2026-10-26）
+
+**S3／S4。** `cand-4880`（第2章注2的 Valentin《Allegory of Rome》）由原 `new` 改为 `same`，映射至既有 `units/works/valentin-allegory-of-rome`；`cand-4885`（第2章注3的 Van Dyck《Portrait of Cardinal Guido Bentivoglio》）由原 `new` 改为 `same`，映射至既有 `units/works/van-dyck-cardinal-bentivoglio`。两项均按同类型、标题与人物／作者锚点复用章前已有卡；原 work group ID 保留在裁决说明中作为历史候选组，不建立重复 KU。`cand-4885` 同时有第20章提及；本决定只判定作品身份，不重新核验外部归属或该画所有历次位置。
+
+**S5。** 在 Van Dyck 肖像卡增记“Haskell所引述：早期1623年”，定位第2章注3、印刷页48、L212。该字段保留 Haskell 引 Bellori 与 Vaes 的报告，不把引文提升为独立查阅；与外部来源所报 1623、1622–1623 并列。
+
+**S6。** `st-chp2-seciv-l190-245-portrait-location-and-date` 裁为 `formal`：脚注称该肖像“now in the Pitti”，对应已登记的 `located_at` 边 `rel-1042`（作品 → Palazzo Pitti；本书所述时点；图版04a）。本批复用既有边，不重复新增同义关系；“early 1623”作为作品年代字段而非关系时间。未据此推断馆内具体房间。 `st-chp2-seciv-l190-245-valentin-picture-location`裁为`pending`：该statement把Barberini清单、Thuillier发表、1961年展览及场馆、现藏地点合并；作品与芬兰研究所端点已映射，但出版物、展览／目录与场馆子主张未原子化，不能用一个边代替。解除条件是拆分有据子断言并逐一核定端点及类型。
+
+**覆盖边界。** 本记录只处理上述两个已有作品候选和一项直接关系候选。第2章 p.46 的 Germanicus 多作品／馆藏复合注释以及 p.46 的出版、展览复合注释仍需拆分和核对；第2章 p.49 的 Claude 馆藏清单与 Bentivoglio 宫殿壁画、Carro della Notte 候选另批处理。
+
+**投影与审计。** `build_field_facts.py --ku units/works/van-dyck-cardinal-bentivoglio` 预览为既有字段改动0、新增1条`source_backed`记录；`enr-18093`的来源映射为Haskell（来源序号S1），apply后复预览一致。目标卡`build_cards.py --preview`无差异。严格表审计：KU=3,118、候选=12,431、alignment=12,778、S4待登记new=2,755、S2 statements=15,393、mentions=26,860、S5=14,179（1,634 unverified）、relations.csv=2,268（2,235 formal、33 pending）、backlog=49（14 completed、35 undecided、pending=0），`errors=[]`、`s2_missing=[]`。S3主决定same=2,081、new=5,093、conflict=9、excluded=104、undecided=5,144；未映射new直接端点1,060。S6过程台账累计1,683项（977 formal、584 pending、122 rejected）；旧映射差异仍1项。关系一致性阻断：broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。全库`build_cards.py --check`预检显示543个文件待写（519张卡有关系投影变化），本批未执行全库写回。

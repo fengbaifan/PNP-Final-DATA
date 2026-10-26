@@ -227,6 +227,7 @@ relations:
 | 库存号 | Palatina 82 | S3 |
 | 国家目录号 | 0900129521 | S3 |
 | 现保管机构 | [帕拉蒂纳画廊](../institutions/galleria-palatina.md) | S2、S3、S4 |
+| 制作时间（Haskell所引述） | 早期1623年（注释引Bellori、Vaes） | S1：第2章注3；印刷页48；L212 |
 
 ### 赠送与流传
 
