@@ -3630,13 +3630,13 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 
 ### 当前进度与后续工作规划（截至2026-10-27）
 
-本快照纳入第3章穹顶图稿端点、第6章 p.154 Mei 壁画端点、第10章 p.327 版画端点，以及此前 p.279、p.278、p.280、第3章 p.67、第2章 p.59–60 等批次。第3章批次复用1个跨章建筑KU，登记2个新KU、5条source-backed字段、2条S2 statement及4项formal S6决定（3条正式关系边）；p.154批次登记1个work KU、3条source-backed字段及2条formal关系；p.327新增3个S4 KU、8条source-backed字段及3条S2 statement；cand-9810经端点登记触发后定为new，cand-9811未识别宫邸仍待证。第2章批次沿用3个既有S3 new组，新增3个S4 KU、21条source-backed字段和3条formal cites关系；没有新增S2 statement或独立审读计数。阶段数据是不同口径的覆盖指标，不能相加为单一项目完成百分比；结构覆盖不等同语义接收。详见[第3章本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp3-p76-77-cupola-cartoons-20261027)、[p.154过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp6-p154-mei-fresco-20261027)、[p.327过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp10-p327-giampiccoli-print-20261027)、[第2章 p.59–60过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-archive-endpoints-chp2-p59-p60-20261027)及此前各批过程记录。
+本快照纳入第3章穹顶图稿端点、第6章 p.154 Mei 壁画端点、第10章 p.327 版画端点，以及此前 p.279、p.278、p.280、第3章 p.67、第2章 p.59–60 等批次。第3章批次复用1个跨章建筑KU，登记2个新KU、5条source-backed字段、2条S2 statement及4项formal S6决定（3条正式关系边）；p.154批次登记1个work KU、3条source-backed字段及2条formal关系；p.327新增3个S4 KU、8条source-backed字段及3条S2 statement；cand-9810经端点登记触发后定为new，cand-9811未识别宫邸仍待证。第2章批次沿用3个既有S3 new组，新增3个S4 KU、21条source-backed字段和3条formal cites关系；没有新增S2 statement或独立审读计数。阶段数据是不同口径的覆盖指标，不能相加为单一项目完成百分比；结构覆盖不等同语义接收。详见[第3章本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp3-p76-77-cupola-cartoons-20261027)、[p.154过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp6-p154-mei-fresco-20261027)、[p.327过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp10-p327-giampiccoli-print-20261027)、[第2章 p.59–60过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-archive-endpoints-chp2-p59-p60-20261027)及此前各批过程记录。S3跨来源差异和身份组标签扫描见[当前S3复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-cross-source-and-group-reconciliation-20261027)。
 
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
 | S2 | 15,430 statements、26,861 mentions；统一独立复核9,617/15,430（62.33%） | 尚未独立接收；5,813条是未进入当前统一分子的规模估计，不等同连续待审游标。第3章新增2条定向statement未计入分子。 |
-| S3 | 主决定12,431/12,431（100%）：same 2,098、new 5,085、conflict 9、excluded 106、undecided 5,133 | 26个候选存在跨来源decision差异（person 24、archive 1、work 1），其中25组为new/same、1组为new/undecided；按来源逐项核对，不自动视为身份冲突。 |
+| S3 | 主决定12,431/12,431（100%）：same 2,098、new 5,085、conflict 9、excluded 106、undecided 5,133 | 26个候选存在跨来源decision差异（person 24、archive 1、work 1）：25个new/same候选的32条外部same记录均指向主行相同KU；cand-2328的Princeton来源记录aln-12663仍为undecided，身份对应及1633/1653年差异尚待证。当前new组字段扫描另发现78条缺少可解析group字段、14条注记含多个不同组字符串（需按语境区分当前值与保留历史），详见[S3复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-cross-source-and-group-reconciliation-20261027)。 |
 | S4 | new候选已映射2,402/5,085（47.24%）；待映射2,683，其中直接关系端点1,007、其他1,676；KU共3,183 | 直接端点口径为关系候选的subject/object候选ID，且有效S3决定为`new`、尚无KU；优先采用`external_source`为空的主行。22个仅有来源限定行的候选各有唯一决定。旧快照1,034与该明确口径不一致，现不再用于排序。 |
 | S5 | 14,395条字段，1,627条unverified | 第3章本批新增5条、第6章p.154新增3条、第10章p.327新增8条、第2章批次新增21条source-backed字段；既有unverified记录未减少。 |
 | S6 | 已裁决1,815/10,645（17.05%）：formal 1,066、pending 624、rejected 125；尚余8,830 | 第3章本批新增4项formal决定；p.154两项、p.327四项及第2章三项formal决定均保留逐项理由。 |
@@ -3663,7 +3663,7 @@ S3未决候选与S4未映射直接关系端点的类型分布：
 
 #### 后续工作顺序
 
-1. **按类型推进S3跨章身份分组，逐候选关闭去向。** 先核平26个跨来源decision差异（person 24、archive 1、work 1），再按类型形成可审查批次，首批优先 person、work、archive 中与关系端点相连的候选，随后处理 place、institution、term、event、family、procedure 和类型未定。5,133项当前为 `undecided`，每项须落到可追溯的 `same`（目标KU）、`new`（稳定身份组）、`conflict`（冲突来源及双方）、`excluded`（理由）或保留 `undecided`（具体缺口、待找证据和解除条件）；不以候选数推算实体数，不为清零强并或新建。
+1. **按类型推进S3跨章身份分组，逐候选关闭去向。** 已复核并归类26个跨来源decision差异：25个new/same候选的32条外部same记录均映射至其主行KU；cand-2328的Princeton来源对照继续undecided，待解决来源所称“possibly”与1633/1653年差异。先逐条补核78条new决定中缺少可解析`group=`的记录，并区分14条保留历史注记中的多组字符串；不以文本解析异常直接改身份。随后处理5,133条当前undecided：先厘清626条类型未定候选，再按类型形成跨章身份组批次；已知直接关系端点优先次序为term（419）、work（163）、place（149）、archive（146）、event（76）、institution（53）、person（1），其余类型随后处理。每项须有`same`目标KU、`new`稳定身份组、`conflict`双方来源及理由、`excluded`理由，或带明确证据缺口与解除条件的`undecided`去向；不为清零而强并或新建。
 2. **每批S3之后优先登记可解锁关系的S4端点，并同批做S5/S6。** 当前尚有1,007个未映射直接关系端点；以可释放的待裁决关系数量、来源证据充足度及能否一次补齐两端排序。完成身份组核对、KU映射、关键S5字段、端点齐备的S6逐项裁决和定向卡片更新；保留仍待证对象的明确去向。
 3. **清理缺失端点与backlog。** 针对337条关系statement至少缺一个S2端点候选ID、35条backlog未决项，确认是否存在已采纳正文中必需的具名对象。满足条件者按S1→S3→S4补齐，端点齐备后回到S6；身份、版本、语境或关系类型不足者保留pending并写明缺口和解除条件。
 4. **恢复逐章S2独立审读前先核平当前ID台账。** 全书登记15,430条statement，统一独立复核9,617条；简单相减的5,813条是未进入当前统一分子范围的规模估计，不等同可直接领取的连续游标。先按当前statement ID、来源版本和审读记录核对覆盖，确认首个未复核单元后逐章继续；新建/修订statement、批次自查和机械审计不计入复核分子。

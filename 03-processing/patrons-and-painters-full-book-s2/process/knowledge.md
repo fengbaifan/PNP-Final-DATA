@@ -16258,3 +16258,16 @@ S2 statements/mentions 与统一独立复核分子均未改变；本批不计作
 #### 批后核对
 
 两张新卡的 S5 字段先预览再写入；作品卡、穹顶卡、Pietro 人物卡和 Chiesa Nuova 建筑卡定向预览后渲染，写后四卡复预览均无差异。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。S2 新增2条 statement，mentions 与独立复核分子不变。S3、S4、S5、S6全书快照见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+<a id="s3-cross-source-and-group-reconciliation-20261027"></a>
+### S3跨来源裁决与身份组字段复核（2026-10-27）
+
+**范围和口径。** 以当前`entity-candidates.csv`与`alignment.csv`按`candidate_id`连接。每个候选优先采用`external_source`为空的主行；只有单条来源限定记录的候选以该行作当前决定。逐条比较主行与外部来源行的decision和KU目标；组字段复扫仅识别`resolution_note`开头或分号后明确的`group=`赋值，不将`prior_group`、`previous_group`或历史段落中的组名直接当作当前组。
+
+**跨来源差异结果。** 当前有26个候选、33条来源限定记录的decision与主行不同：person 24、archive 1、work 1。其中25个主行`new`候选对应32条外部`same`记录，全部指向主行已经映射的同一KU；没有目标不一致。25个候选为：person `cand-0024`、`cand-0265`、`cand-0266`、`cand-0449`、`cand-0453`、`cand-0459`、`cand-0461`、`cand-0473`、`cand-0639`、`cand-0674`、`cand-0867`、`cand-0952`、`cand-0995`、`cand-1116`、`cand-1339`、`cand-1379`、`cand-1879`、`cand-1880`、`cand-2093`、`cand-2326`、`cand-2327`、`cand-2783`、`cand-12426`；work `cand-7308`；archive `cand-7349`。这些行表达“先登记书内new身份组，外部来源随后确认同一KU”，不是身份冲突。
+
+唯一未平差异为`cand-2328`：主行保留来源局部`new`组并映射到Stefano Sagredo KU；Princeton University Art Museum对象8051的来源限定行`aln-12663`保持`undecided`、无KU目标。现有记录以“possibly”表述其关联，且出生年份出现1633与1653之差；在来源关联证据足以消除该差异前，不把外部记录改为`same`，也不撤销候选的书内身份组。
+
+**身份组字段扫描。** 当前5,085条`new`主决定中，5,007条至少有一个可解析`group=`赋值；78条没有（person 30、archive 41、work 4、place 3）。14条注记解析出多个不同组字符串，须结合`prior_resolution_note`、旧决定及后续S4登记文字辨认当前值，不能仅按字符串数量判为多组。按首个显式当前`group=`赋值作结构筛查，共4,772个不同组标签；本次未发现同一标签跨越不同候选类型或指向多个KU。该筛查只检查记录一致性，不代替身份语义审核；78条缺组和14条多字符串记录保留为后续逐项核实对象。2026-10-23的53条缺组、33条多组为历史快照，不再作为当前计数。
+
+**结论与交接。** 本次只核对alignment表与已有KU目标，未修改任何alignment决定、组标签或S2判断；S2独立复核状态不变。跨来源decision差异共26项，其中25项已解释为new/same且同一KU；仅cand-2328的外部身份关系仍待证。下一步先按类型补核缺组及历史标签记录，再处理S3 undecided；直接关系端点按当前结果页所列优先序交接S4/S6。
