@@ -3631,3 +3631,28 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 ### S4 institution：Inquisitori di Stato 跨章身份组（2026-10-20）
 
 `cand-9739` 与 `cand-10464` 已按第10章 p.320 及第15章 p.364 注1的同名机构锚点合并登记至[知识卡](../units/institutions/inquisitori-di-stato-venice.md)。后者从 S3 `undecided` 改列 `new`；官方威尼斯国家档案指南用于核对同名机构及档案层级，机构、保管机构和档案记录仍分开。相关四条 S2 关系候选中三条的 KU 端点已齐但均待 S6，另有一条因 `cand-9807` 未决而阻断；本批未新增正式关系或 S5 字段。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-institution-inquisitori-di-stato-20261020)。当前 S4 已登记1,292/4,806组、1,494/5,029条映射；待登记3,514组/3,535条映射。
+
+### 当前进度与后续工作规划（2026-10-26）
+
+本轮按第3章印刷页77批量登记两组作品：四先知穹顶穹隅壁画组与后殿《圣母升天》；沿用各自既有 S3 `new` 身份组，新建2张 KU，补入8条 Haskell 来源支持的 S5 字段，并对2条直接 S2 创作者候选分别裁决为 formal `creator_of`。记录见[过程包](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-p77-prophets-assumption-20261026)。字段复预览 `record_changes=0`、`new_ids=0`、`warnings=0`；三张受影响卡定向渲染后复预览无差异。
+
+| 阶段 | 当前快照 | 解释 |
+|---|---:|---|
+| S0 | 832段：678 complete、154 excluded | 机械处置覆盖完整。 |
+| S2 | 15,406 statements、26,861 mentions；统一独立复核9,617/15,406（62.42%） | 未独立接收；章节局部复核不计入统一分子。 |
+| S3 | 主决定12,411/12,431：same 2,093、new 5,067、conflict 9、excluded 104、undecided 5,138 | 另有20个open候选缺主决定行，其中16个是S2关系端点；不能以主表覆盖率代替全候选覆盖。 |
+| S4 | new候选已映射2,352/5,067；待映射2,715，其中直接关系端点1,026、非直接1,689；KU共3,150 | 本轮直接端点登记2项。 |
+| S5 | 14,302条字段，1,627条unverified | 本轮新增8条有来源字段；未作全量外部补足。 |
+| S6 | 已裁决1,759/10,622：formal 1,017、pending 617、rejected 125；undecided 8,863 | 本轮新增2项formal决定。 |
+| 正式关系表 | 2,311行：2,275 formal、36 pending | 审计阻断计数均为0。 |
+| Candidate backlog | 49条：14 completed、35 undecided；严格pending=0 | 仍需按端点和证据触发处理。 |
+
+严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性审计 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。这些只证明表结构和关系一致性门槛通过，不代表全书语义接收。
+
+**接续顺序：**
+
+1. 按章节和对象类型继续处理 S4 直接关系端点；每批只取身份边界清楚的候选组，并在同批为新解锁的 S2 关系候选确定 formal、pending、rejected 或既有关系复用去向。优先使用已具类型匹配另一端的关系候选，避免只增加 KU 而留下关系去向不明。
+2. 对20个缺少 S3 主决定行的候选做定点清理，先处理16个关系端点，再给其余4个人物候选明确 same/new/conflict/excluded/undecided 去向；没有身份依据的继续待证，不自动建卡。
+3. 沿用现有分章 S2 独立语义审读，记录新增复核分子、可定位修订与未解决项；仅在新证据或端点登记触发时重开相应 S3 组，不全库重跑。
+4. 对 S5 `unverified` 字段按研究用途、关系端点和证据可得性排序，逐项补证或保留明确未决状态；不把字段行数增长当作补足完成。
+5. 只有 S4 登记、S5 关键字段处置及 S6 关系候选均有可追溯去向后，才评估 S7 准备条件。知识发现与页面继续暂停，等待用户明确启动。

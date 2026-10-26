@@ -15821,3 +15821,33 @@ PDF图像复核将S0 OCR中的`lais`校读为`his`、`Use Antonio`校读为`life
 #### 批后审计与接续基线（2026-10-26）
 
 全书S2仍为15,406条statement、26,861条mention，统一独立复核9,617条（62.42%），本批未改S2及其复核分子。S3主决定12,411/12,431（same 2,093、new 5,067、conflict 9、excluded 104、undecided 5,138）；仍有20个候选缺主决定行，其中16个为关系端点。S4已映射2,350/5,067个new候选，待登记2,717个（直接关系端点1,028，非直接1,689）；KU共3,148个。S5字段14,294条，unverified 1,627。S6裁决1,757/10,622条（formal 1,015、pending 617、rejected 125），尚余8,865条；relations.csv 2,309行（formal 2,273、pending 36）。candidate-backlog.csv有49条（14 completed、35 undecided，严格pending=0）。严格表审计：errors=[]、s2_missing=[]、alignment_new_pending_registration=2,717；关系一致性五类阻断均为0。两张新卡复预览均无差异；肖像卡新增一行pending located_at投影。S7未启动。
+
+<a id="s4-s5-s6-chp3-p77-prophets-assumption-20261026"></a>
+
+### S4–S5–S6：第3章 p.77 耶稣新堂两组壁画端点登记（2026-10-26）
+
+#### S4 跨章身份组登记
+
+| 候选 | S3决定／身份组 | S4去向 | 身份边界 |
+|---|---|---|---|
+| `cand-5185` | 保持 `new`；`workgrp-7ebab08fc7f26b` | `units/works/four-prophets-chiesa-nuova-cupola-pendentives` | 以穹顶穹隅、四位先知和共同题材作为一组作品；不拆成四件，不推原题、精确年代或现存状态。 |
+| `cand-5186` | 保持 `new`；`workgrp-3a0fd2dc53944e` | `units/works/assumption-of-virgin-chiesa-nuova-apse` | 独立单件作品，位于后殿；与“圣母升天”主题／奉献称谓知识元分开。原文所述圣徒称颂不被改写为画中人物。 |
+
+两候选均有对应的 S2 body-mention 与直接 S2 statement，既有 manifest 无可复用作品 KU；各自保留原 S3 `new` 组并登记新 KU。Pietro da Cortona 复用既有人物 KU `units/persons/pietro-da-cortona`。复读第3章 p.77 L11 时发现 `aln-5368` 的既有裁决说明误称“四福音作者”；来源明确写“四位先知”。已在映射说明中追加纠正，保持 S3 `new` 决定与身份组不变。本批不新增外部标识，不表示现存作品身份已核。
+
+#### S5 书内字段
+
+两张卡的描述、描述性名称及基本信息表均锚定 Haskell 第3章印刷页77 L11（PDF物理页19）。`build_field_facts.py` 定向预览显示8条新增字段均可回溯至 `haskell-1980-rev-ed`，`unverified=0`、`warnings=0`；审阅后仅对本批两个 KU 应用。记录为 `enr-18209`–`enr-18216`。未补精确年代、当前馆藏或作品外部身份。
+
+#### S6 关系逐项裁决
+
+| S2 statement | 决定 | 依据与边界 |
+|---|---|---|
+| `st-chp3-seciv-l8-14-four-prophets-pendentives` | formal `rel-2310 creator_of`：Pietro da Cortona → 四先知壁画组 | Haskell 明言 Pietro “painted” 穹顶穹隅的四先知；方向及 person→work 值域匹配。时间留空，不从前文“1654年底后恢复工作”换算该组完成日期。仅记录书内报告，未作外部作品目录核验。 |
+| `st-chp3-seciv-l8-14-assumption-apse` | formal `rel-2311 creator_of`：Pietro da Cortona → 后殿《圣母升天》 | 同句明言其在后殿绘制《圣母升天》；方向及值域匹配。时间留空；“受圣徒称颂”不据以新增圣徒描绘关系。仅记录书内报告，未作外部作品目录核验。 |
+
+两条 formal 边写入 `relations.csv`，具体范围、来源与 statement ID 保留在各行。没有另造 `has_subject` 边，也没有将 source-reported attribution 表述为外部独立认证。
+
+#### 写回与待办
+
+已更新两条主 `alignment.csv` 映射、`accepted.yml`、`ku-manifest.csv`、两张 works 卡、8条 S5 字段及两条 S6 formal 关系；Pietro 人物卡关系视图先预览后定向渲染。S2 statements/mentions及统一独立复核分子未改。`build_cards.py --render` 定向预检通过（3张卡、10个表、52行、22条关系投影），3张卡写后字节核验通过，逐卡复预览无差异。字段复预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。严格表审计 `errors=[]`、`s2_missing=[]`、`alignment_new_pending_registration=2,715`；批后 KU=3,150、S5=14,302（unverified=1,627）、S6已裁决1,759/10,622。关系一致性审计 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。下一批优先处理已具类型匹配另一端的直接 S4 端点组，并在同批逐项裁决由新映射触发的 S6；其余待登记组和未决关系保留原状。
