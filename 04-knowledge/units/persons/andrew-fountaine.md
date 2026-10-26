@@ -64,4 +64,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-目前没有登记在 relations.csv 中的正式关系。Narford Hall 与 Fountaine 的乡间居所关系候选 st-chp10-p279-narford-seat-fountaine 留待 S6；第13章受赠者名单陈述 st-chp13-p343-notes-note3-named-dedicatees 不将个人与具体图版配对，暂不据此建立逐件关系。逐组记录见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-andrew-fountaine-20261017)。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [纳福德堂（Narford Hall）](../places/narford-hall.md) | S2 statement=st-chp10-p279-narford-seat-fountaine；时间：时间未载；角色：country seat, as described by Haskell；范围：Haskell calls Narford Hall the country seat of Sir Andrew Fountaine. This preserves the source-local relationship; it does not independently verify legal title or present-day use.；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；p.279, OCR L45–46; PDF physical p.4 |
+
+Narford Hall 与 Fountaine 的乡间居所关系已依据 Haskell 第10章 p.279 记入 `relations.csv`。第13章受赠者名单陈述 `st-chp13-p343-notes-note3-named-dedicatees` 未将个人与具体图版配对，仍不据此建立逐件关系。逐组记录见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp10-p279-residences-20261026)。

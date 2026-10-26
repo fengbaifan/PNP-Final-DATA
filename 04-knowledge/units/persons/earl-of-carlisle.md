@@ -55,14 +55,18 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书相关内容
 
-**中文：** 两条S2候选共享“two Venetian artists”这一集体表述；端点分别映射至Marco Ricci与Pellegrini，但不据此拆定个人合同或工作范围，均留待S6。 [C.csv#83](../../../02-sources/03-Index/03-2-Index-CSV/C.csv) [第10章导论 p.279；OCR L44](../../../02-sources/02-Markdown/10_CHP-10_intro.md) [第10章导论 p.305；OCR L433](../../../02-sources/02-Markdown/10_CHP-10_intro.md)
+**中文：** Haskell第10章 p.279称 Carlisle 大量雇用了两位威尼斯画家；两条关系现以 `employed_by` 记录到 Marco Ricci 与 Pellegrini。原文未给具体委托、作品、个人分工或雇佣年份，本卡不补写这些信息。 [C.csv#83](../../../02-sources/03-Index/03-2-Index-CSV/C.csv) [第10章导论 p.279；OCR L44](../../../02-sources/02-Markdown/10_CHP-10_intro.md) [第10章导论 p.305；OCR L433](../../../02-sources/02-Markdown/10_CHP-10_intro.md)
 
-**English:** Both S2 candidates share the collective wording “two Venetian artists”; their endpoints map to Marco Ricci and Pellegrini, but no individual contract or scope of work is inferred. Both remain for S6. [C.csv#83](../../../02-sources/03-Index/03-2-Index-CSV/C.csv) [第10章导论 p.279；OCR L44](../../../02-sources/02-Markdown/10_CHP-10_intro.md) [第10章导论 p.305；OCR L433](../../../02-sources/02-Markdown/10_CHP-10_intro.md)
+**English:** Haskell says in chapter 10, p.279, that Carlisle extensively employed the two Venetian artists; the two `employed_by` relations are now recorded for Marco Ricci and Pellegrini. The book supplies no specific commission, work, individual assignment, or employment year, and none is added here. [C.csv#83](../../../02-sources/03-Index/03-2-Index-CSV/C.csv) [第10章导论 p.279；OCR L44](../../../02-sources/02-Markdown/10_CHP-10_intro.md) [第10章导论 p.305；OCR L433](../../../02-sources/02-Markdown/10_CHP-10_intro.md)
 
 ## 关系与证据
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 雇主（`employer_of`，反向投影） | [马尔科·里奇（Marco Ricci）](marco-ricci.md) | S2 statement=st-chp10-p279-carlisle-employs-marco-ricci；时间：时间未载；角色：artist；范围：Haskell says Lord Carlisle extensively employed Marco Ricci. Specific commissions, works, and dates are not supplied and are not inferred.；原断言与证据见发出端卡片“马尔科·里奇（Marco Ricci）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；p.279, OCR L44; PDF physical p.4 |
+| ← 雇主（`employer_of`，反向投影） | [乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）](pellegrini.md) | S2 statement=st-chp10-p279-carlisle-employs-pellegrini；时间：时间未载；角色：artist；范围：Haskell says Lord Carlisle extensively employed Pellegrini. Specific commissions, works, and dates are not supplied and are not inferred.；原断言与证据见发出端卡片“乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；p.279, OCR L44; PDF physical p.4 |
 
-当前没有登记在 relations.csv 中的正式关系。直接S2候选 `st-chp10-p279-carlisle-employs-marco-ricci`, `st-chp10-p279-carlisle-employs-pellegrini` 留待S6审查；本次S4登记不裁决或创建正式关系。
+
+第10章 p.279 的两条一般雇佣关系已按 Haskell 的直接表述写入 `relations.csv`；具体作品、委托和年份仍未载。

@@ -71,18 +71,21 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本章相关内容
 
-**中文：** 第10章 p.278 将 Vanbrugh 与 Manchester、Carlisle 等人的乡间住宅建造联系起来。p.279 记述曼彻斯特的宅邸由他重建，并称“同一位建筑师”曾为 Lord Carlisle 在约克郡营建乡间住宅；同页后文提到 Castle Howard，但本卡不据相邻叙述消解该住宅与地名候选之间仍待核的映射。p.309 又在建筑图像清单中提到一幅表现 Vanbrugh 作品的图像。以上均为哈斯克尔的书内叙述，不作为独立核实的建筑史事实。
+**中文：** 第10章 p.278 将 Vanbrugh 与 Manchester、Carlisle 等人的乡间住宅建造联系起来。p.279 称他为 Lord Manchester 重建金博尔顿宅邸，并说“同一位建筑师”曾为 Lord Carlisle 在约克郡营建乡间宅邸；同页紧接着写两位画家从 Castle Howard 前往 Narford Hall。本批据这一局部语境将 Castle Howard 复用为既有地点 KU，并在 relations.csv 记录其与 Vanbrugh 的建造关系。p.309 又在建筑图像清单中提到一幅表现 Vanbrugh 作品的图像。以上均为哈斯克尔的书内叙述，不作为独立核实的建筑史事实。
 
-**English:** On p. 278, Haskell associates Vanbrugh with the country houses of Manchester, Carlisle, and others. On p. 279, he says Manchester’s mansions were rebuilt by Vanbrugh and that “the same architect” had been erecting a country house for Lord Carlisle in Yorkshire. Castle Howard is named later on that page, but this card does not resolve the still-pending mapping between the house description and the place candidate from adjacent prose. On p. 309, Haskell also mentions an image representing a work by Vanbrugh. These are Haskell’s source-local statements, not independently verified architectural history.
+**English:** On p. 278, Haskell associates Vanbrugh with the country houses of Manchester, Carlisle, and others. On p. 279, he says Vanbrugh rebuilt Manchester’s Kimbolton residence and that “the same architect” had been erecting a country house for Lord Carlisle in Yorkshire. The page then says the two artists moved from Castle Howard to Narford Hall. This batch maps Castle Howard to the existing place KU on that local evidence and records its construction relationship with Vanbrugh in `relations.csv`. On p. 309, Haskell also mentions an image representing a work by Vanbrugh. These are Haskell’s source-local statements, not independently verified architectural history.
 
 ## 关系与证据
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← erector_of（`erector_of`，反向投影） | [霍华德城堡（Castle Howard）](../places/castle-howard.md) | S2 statement=st-chp10-p279-vanbrugh-carlisle-castle-howard；时间：Haskell p.279 says ‘for some years’; calendar years are not stated；角色：builder；范围：Haskell says Vanbrugh had been erecting Lord Carlisle’s Yorkshire country house and then names Castle Howard as the artists’ point of departure. This records Haskell’s local identification; no construction dates or wider architectural history are inferred.；原断言与证据见发出端卡片“霍华德城堡（Castle Howard）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；p.279, OCR L44; PDF physical p.4 |
+| ← erector_of（`erector_of`，反向投影） | [曼彻斯特勋爵的金博尔顿宅邸（Lord Manchester’s Kimbolton Residence）](../places/lord-manchester-kimbolton-residence.md) | S2 statement=st-chp10-p279-kimbolton-residence-rebuilt-by-vanbrugh；时间：时间未载；角色：rebuilder；范围：Haskell says the Kimbolton residence was rebuilt for Lord Manchester by Vanbrugh. This records rebuilding only, not the original construction; no date is supplied.；原断言与证据见发出端卡片“曼彻斯特勋爵的金博尔顿宅邸（Lord Manchester’s Kimbolton Residence）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；p.279, OCR L44; PDF physical p.4 |
+
 
 以下书内关系候选留待 S6 逐项裁决：
 
 - `st-chp10-p278-vanbrugh-built-friends-country-houses`
-- `st-chp10-p279-vanbrugh-carlisle-castle-howard`
 - `st-chp10-p309-one-picture-after-vanbrugh`

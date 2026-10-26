@@ -16074,3 +16074,47 @@ S4 沿用书信候选 `cand-8877` 的既有 `new` 组 `archive-group-4afad4d696d
 S5 对三张新卡应用14条具体页行支持的 `source_backed` 字段，0条 `unverified`，复用3个来源记录；字段写回后二次预览 `record_changes=0`、警告0。S6 将本批四个关系候选逐条裁为formal：`rel-2336 authored_by`（书信→Sarah Churchill）、`rel-2337 addressed_to`（书信→Charles Montagu）、`rel-2338 cites`（Haskell→被引书，注5）和 `rel-2339 cites`（Haskell→被引书，注6）。定向渲染三张新卡及Sarah Churchill和Haskell书籍两张现有端点卡，共5张；渲染后预览均无差异。
 
 批后严格表审计：KU=3,171；候选=12,431；alignment=12,778且 `alignments_unlinked=0`；S3主决定覆盖12,431/12,431（same 2,096、new 5,088、conflict 9、excluded 104、undecided 5,134），另有26个跨来源decision差异待逐项核对；S4 new待登记2,698，直接关系端点未映射1,018；S5字段=14,351（1,627 `unverified`）；S6候选=10,638，已裁决1,791（1,045 formal、621 pending、125 rejected），尚余8,847；`relations.csv`=2,339（2,303 formal、36 pending）；缺至少一个S2候选端点ID的关系statement=337；backlog=49（14 completed、35 undecided，严格pending=0）。审计 `errors=[]`、`s2_missing=[]`；关系一致性五项阻断均为0。S2仍未独立接收，计数和结构审计不替代逐条语义接收。
+
+<a id="s3-s4-s5-s6-chp10-p279-residences-20261026"></a>
+
+### S3–S6：第10章 p.279 住所、Castle Howard 与 Narford Hall 端点（2026-10-26）
+
+#### S3 身份去向
+
+- `cand-8888`：因本批 S4 登记触发身份复核。Haskell先称 Vanbrugh 为 Lord Carlisle 在 Yorkshire 营建乡间宅邸，紧接着写两位画家从 Castle Howard 前往 Narford Hall；结合同句语境，该候选复用既有 [Castle Howard](../../../04-knowledge/units/places/castle-howard.md)，由 `new` 改为 `same`，不重复建卡。
+- `cand-8884`、`cand-8885`、`cand-8890`：沿用既有 `new` 组，分别登记阿灵顿街宅邸、金博尔顿宅邸和 Narford Hall。
+- `cand-8891`：改为 `excluded`。它是两处住所的集合称呼，不是单一建筑；两个组成地点分别保留为 `cand-8884`、`cand-8885`。
+- `cand-8902`：改为 `excluded`。‘the two Venetian artists’指 Pellegrini 和 Marco Ricci 的集合称呼，不是独立术语或实体；两人的移动关系通过既有人物 KU 记录。‘Both left England’仍保留为一个未正式映射的 S2 关系候选，理由见下。
+
+#### S4 / S5 登记与来源字段
+
+新增三个来源限定地点 KU：
+
+- [曼彻斯特勋爵的阿灵顿街宅邸](../../../04-knowledge/units/places/lord-manchester-arlington-street-residence.md)（`cand-8884`）
+- [曼彻斯特勋爵的金博尔顿宅邸](../../../04-knowledge/units/places/lord-manchester-kimbolton-residence.md)（`cand-8885`）
+- [纳福德堂（Narford Hall）](../../../04-knowledge/units/places/narford-hall.md)（`cand-8890`）
+
+Castle Howard 卡补入第10章 p.279 的身份依据。七条新增字段限定名称、对象性质和原文所给地点；不补写精确门牌、现存状态或未给出的建造年代。Vanbrugh 重建 Kimbolton 宅邸及两处宅邸归 Lord Manchester 的断言只限于 Haskell 的 possessive / rebuilding 表述。
+
+#### S6 逐项裁决
+
+**formal：**
+- `st-chp10-p279-vanbrugh-carlisle-castle-howard`：formal，`rel-2340`。
+- `st-chp10-p279-carlisle-employs-marco-ricci`：formal，`rel-2341`。
+- `st-chp10-p279-carlisle-employs-pellegrini`：formal，`rel-2342`。
+- `st-chp10-p279-venetian-artists-move-castle-howard-narford`：formal，`rel-2343, rel-2344, rel-2345, rel-2346`。
+- `st-chp10-p279-narford-seat-fountaine`：formal，`rel-2347`。
+- `st-chp10-p279-arlington-mansion-owned-by-manchester`：formal，`rel-2348`。
+- `st-chp10-p279-kimbolton-mansion-owned-by-manchester`：formal，`rel-2349`。
+- `st-chp10-p279-kimbolton-residence-rebuilt-by-vanbrugh`：formal，`rel-2350`。
+
+两名画家从 Castle Howard 前往 Narford Hall 的复数表述拆解为 Marco Ricci 与 Pellegrini 各自的出发地点、到达地点四条 `located_at` 边；来源不提供迁移年份或停留时长。Carlisle 对两人的一般雇佣关系使用受控类型 `employed_by`，不附会具体合同、作品或日期。两处住所的 `owned_by` 只记录 Haskell 的‘his mansions’说法，不宣称另有产权文书。
+
+**process-only pending：**
+- `st-chp10-p279-marco-ricci-manchester-decorate-mansions`：process-only pending: the source jointly assigns the two named artists to two residences but does not specify artist-to-residence pairings or completed decoration; no controlled predicate captures this assignment without overclaiming.
+- `st-chp10-p279-pellegrini-manchester-decorate-mansions`：process-only pending: the source jointly assigns the two named artists to two residences but does not specify artist-to-residence pairings or completed decoration; no controlled predicate captures this assignment without overclaiming.
+- `st-chp10-p279-both-artists-leave-england`：process-only pending: ‘both left England’ is a group-level departure statement with unresolved temporal/location semantics; the source-local group is not a standalone KU and cand-4439 denotes England as a political realm in another context, so no formal edge is created here.
+
+以上三项不写入 `relations.csv`，因为当前受控关系表不能在不猜测艺术家与具体住所配对、完工状态或离英事件端点的情况下忠实表达。无正式边不否定原书说法。
+
+S2 新增三条 statement（两处宅邸的 source-local possessive attribution、一条 Vanbrugh 重建）；没有新增 mention，且未计入统一 S2 独立复核分子。第10章 p.279 其余正文未在本批宣称完成独立语义接收。
