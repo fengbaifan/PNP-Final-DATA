@@ -15902,3 +15902,29 @@ S5字段预览／应用、8张新增或关联人物卡的关系投影预览及7�
 
 
 批后审计曾发现alignment首轮重写按candidate_id索引会覆盖该候选的多条外部对齐行，且4个新增卡路径最初插入accepted.yml的claims列表。已从本批前恢复快照还原这两表，改按唯一alignment_id更新4行，并将4条路径写入units列表。随后严格表审计errors=[]、s2_missing=[]，关系一致性五类阻断均为0；首轮错误写回未保留。
+
+<a id="s4-s5-s6-chp9-udine-city-20261026"></a>
+### S4–S5–S6：第9章 p.252 Udine 城市端点（2026-10-26）
+
+#### S4 身份组与登记
+
+`cand-2666` 沿用既有 S3 `new` 决定及身份组 `sg3-place-cand-2666`，登记为 [乌迪内（Udine）](../../../04-knowledge/units/places/udine-city.md)。以 S2 的城市提及与同章跨页语境确认对象范围；清单中的 Udine 主教座堂、主教宫、礼拜堂和内部作品仍为不同地点或作品，没有并入城市卡。S3 决定及理由未重开，只补入既有 `aln-3001` 的 S4 `ku_id`。
+
+#### S5 书内字段
+
+新增两条 source-backed 字段 `enr-18228`–`enr-18229`：地点性质为城市；历史角色记录 Haskell 对 Udine “the seat of the bishopric”的表述及其关于 Dionisio 赴此居住的报告。字段来源为 Haskell 第9章印刷页252。未补行政边界、坐标或现状；字段预览显示 `unverified=0`、`warnings=0`，应用后再预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`。
+
+#### S6 逐候选裁决
+
+| S2 statement | 去向 | 依据与范围 |
+|---|---|---|
+| `st-chp9-p252-dionisio-moved-to-udine` | formal，`rel-2316 located_at` | Haskell称 Dionisio 在1698年获任后赴 Udine 居住。人物与城市两端已映射；`role=居住`，时间保留书内1698年语境。 |
+| `st-chp9-p252-dionisio-residence-records` | formal，复用 `rel-2316` | 同段明确称其有三十六年居住经历，与前一statement指向同一人物、同一城市和同一居住关系；合并为同一条边，不重复造边。保留来源的三十六年表述，不计算终止年。 |
+
+该边限定为城市级历史居住关系；不指具体住所、主教宫或现今地址。外部人物身份来源没有作为该居住关系的证据。其他关系类型和值域不适用的候选未借此扩展。
+
+#### 写回与核验
+
+已新增城市卡及 manifest、accepted 路径，并将 `cand-2666` 的既有 `new` 对齐映射到该卡；`relations.csv` 新增一条 formal 边。`build_cards.py --render` 定向渲染 Dionisio 与 Udine 两卡，预检为2卡、5张表、13行、2条关系投影；写入2卡并通过写后字节核验，复预览均无差异。字段复预览无改动。严格表审计 `errors=[]`、`s2_missing=[]`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。本批未改 S2 statements／mentions，统一 S2 独立复核分子不变，也未重开 S3。
+
+批后全书：S2 15,408 statements、26,861 mentions，统一独立复核9,617/15,408；S3主决定12,411/12,431；S4映射2,357/5,067，待映射2,710；S5字段14,315（1,627 unverified）；S6裁决1,767/10,624（1,023 formal、619 pending、125 rejected）；`relations.csv` 2,316行（2,280 formal、36 pending）；`candidate-backlog.csv` 49行（14 completed、35 undecided、pending=0）。本批处理两条S6候选，共复用一条formal关系边。
