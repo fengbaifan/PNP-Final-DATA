@@ -1,4 +1,4 @@
-version: 6
+version: 7
 authority: controlled-relation-vocabulary
 types:
   - associated_institution
@@ -55,6 +55,7 @@ types:
   - handled_by
   - handler_of
   - held_by
+  - held_office
   - holder_of
   - host_of
   - hosted_by
@@ -82,6 +83,7 @@ types:
   - model_for
   - merged_into
   - name_authority_for
+  - office_held_by
   - occurred_at
   - operated_by
   - operates
@@ -204,6 +206,8 @@ inverse:
   handler_of: handled_by
   held_by: holder_of
   holder_of: held_by
+  held_office: office_held_by
+  office_held_by: held_office
   host_of: hosted_by
   hosted_by: host_of
   honoured_by: honourer_of

@@ -58,6 +58,7 @@ relations:
 | 借入／出借 | `borrowed_by`、`lent_by` | work／archive → 借入者／出借者；保存具体借存或借阅的时间、对象与角色，不能据出借身份推定所有权；`borrower_of`、`lender_of`只作对应反向导航 |
 | 亲缘／家族 | `parent_of`、`child_of`、`spouse_of`、`sibling_of`、`kin_of`、`member_of` | 具体亲属关系优先；只能确认一般亲族时才用`kin_of`并在role中保存原称 |
 | 任命／荣衔／特权 | `appointed_by`、`honoured_by`、`privilege_granted_by` | 受任人／受荣人／机构 → 授予者；事件节点同时可用`has_participant`保存具体角色 |
+| 职位任职 | `held_office`（反向 `office_held_by`） | person → institution；仅记录来源明确表明该人物已担任该机构职位的事实，不用于被拒绝的机会、提名或尚未落实的任命；反向只作导航 |
 | 文书／借阅／证词／建议 | `issued_by`、`borrowed_by`、`contributed_by`、`testified_about`、`advised` | 文书→发布主体、文献→借阅人、证词→发言者、证人→被证事项人物、建议者→受建议者；对象与事件仍须分别判断 |
 
 `time`可以是有据日期、年份、区间或来源时点；`role`保存该端点在关系中的职责；`scope`保存具体作品版本、项目、地点作用或事实边界。投影的反向边必须原样保留这些限定，并标明其来源关系，不能把反向导航显示成另一张卡的本地S编号。

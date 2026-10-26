@@ -276,3 +276,7 @@ The relation-domain-range.yml contract states that a controlled, non-deprecated 
 ## 2026-10-26
 
 - 首次登记来源明确的 `quoted_in` 正式关系，域值域限定为 archive → archive；协议分别更新至 `relation-types` v6 与 `relation-domain-range` v4。同时将 Haskell 报告的 Raggi 报告与 Neri 1883 年出版物之间的转述链登记为来源限定关系。
+
+## 2026-10-27
+
+- 新增受控 S6 关系 `held_office`／`office_held_by`，方向为 person → institution，用于来源明确记载已经担任的机构职位；拒绝的任职机会不建立该关系。同步更新类型词表、域值域与关系视图标签。

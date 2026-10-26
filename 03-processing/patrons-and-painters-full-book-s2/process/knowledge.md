@@ -16336,3 +16336,35 @@ S2 statements/mentions 与统一独立复核分子均未改变；本批不计作
 `rel-2367`–`rel-2368`是两条新增正式边，对应三项formal决定。祭坛卡已有的七项直接待裁候选中，两条浅浮雕候选已关闭，另五条仍逐项待S6：雕像方案放弃、耶稣会经费及赞助权、Pozzo撤回威胁与持续争论、Tirso的1695年决定、禁止继续批评。
 
 **定向投影和核对。** 只渲染浅浮雕组、祭坛及圣依纳爵三张卡；写后字节核验通过，三卡复预览无差异。S5复预览`record_changes=0`、`new_ids=0`、来源注册变更0。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性五类阻断均为0。批后S2为15,433 statements／26,861 mentions，统一独立复核仍9,617条、未接收；S3决定未改。S4映射2,405/5,086；S5 14,404条（1,627条unverified）；S6 1,823/10,648（1,073 formal、624 pending、126 rejected）；relations.csv 2,368条（2,332 formal、36 pending）。详见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+<a id="s3-s4-s6-doge-office-chp9-chp15-20261027"></a>
+### S3/S4/S6：第9章与第15章威尼斯总督职务端点（2026-10-27）
+
+#### S3定点复核与跨章身份
+
+**触发范围。** S4直接端点队列中的`cand-8450`原决定为`new`、类型为`term`，但它在第9章p.258–259、第10章p.278及第15章p.365、p.372泛指威尼斯总督职务；现有`cand-8728`已映射至[威尼斯总督职务](../../../04-knowledge/units/institutions/doge-of-venice-office.md)，并由第9章p.272及第10章p.331记录同一制度性职务。端点登记预检因此触发一次定点S3复核，不扩展为全库重跑。
+
+- 将`cand-8450`类型由`term`修正为`institution`，规范候选名为“Office of the Doge of Venice”。其对象是制度性职位，不是抽象概念，也不是任职者个人。
+- 将`aln-8623`由`new`修正为`same`，复用`units/institutions/doge-of-venice-office`，与`cand-8728`归并至同一跨章身份组；没有新增KU或改动accepted范围。
+- Marco Foscarini、Paolo Renier仍各为独立person KU。第17章书信中未具名Doge的任职者候选继续保持未识别；此处仅复用职位端点，不据职务反推个人身份。
+
+#### S4复用与S5检查
+
+S4把`cand-8450`登记为指向既有总督职务KU的`same`映射；无需新卡、manifest行或accepted条目。Marco卡已有总督任职履历，Renier卡已有1779年任职陈述，职务卡已有跨章制度描述。本批S5为`no_delta`：不增加重复字段，不补造任期或就任日期；两条正式关系各自保留Haskell页行证据。
+
+#### S6逐条裁决
+
+新增受控`held_office`（person→institution）与反向投影`office_held_by`，并更新关系词表、域值域和视图标签。`member_of`表达组织成员身份，不用于替代具体职位任职。
+
+| S2 statement | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp9-p258-marco-held-doge-office` | formal | `rel-2369 held_office`（Marco Foscarini→威尼斯总督职务）；时间限定为“1763年去世前数月”，不补确切就任日期。p.259关于任职方式可疑的说法不转换成确定原因。 |
+| `st-chp15-p365-memmo-career-and-doge` | rejected（不建图谱边） | Haskell只说Andrea Memmo拒绝了几乎确定的出任机会，并未说他实际任职。保留S2断言，不将机会或拒绝改写为任职关系。 |
+| `st-chp15-p372-renier-became-doge-1779` | formal | `rel-2370 held_office`（Paolo Renier→威尼斯总督职务，1779）；Haskell称其竞选成功。本边只记录书内任职，不编码对竞选腐败的评价或推定任期。 |
+
+关系来源均为`haskell-1980-rev-ed`，分别锚定第9章印刷页258 L186与第15章印刷页372 L86。Renier其余4条直接S2关系候选仍待各自S6裁决。
+
+#### 卡片与批后核验
+
+预览后定向渲染Marco Foscarini、Paolo Renier及总督职务3张卡；写后3卡预览均无差异。批后全书：S3主决定12,431/12,431，same 2,099、new 5,085、conflict 9、excluded 106、undecided 5,132；new组5,006条有可解析group、79条缺group、14条注记含多个组字符串、4,772个不同标签。S4 new映射2,405/5,085，待映射2,680（直接关系端点1,004、其他1,676），KU=3,186。S5为14,404条字段、1,627条unverified。S6已裁决1,826/10,648（formal 1,075、pending 624、rejected 127），未裁决8,822；`relations.csv`共2,370条（formal 2,334、pending 36）。
+
+严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断`broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed`均为0。S2 statement/mention数量及独立复核分子未变。

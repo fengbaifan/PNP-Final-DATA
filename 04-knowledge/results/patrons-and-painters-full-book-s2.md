@@ -3632,17 +3632,19 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 
 ### 当前进度与后续工作规划（截至2026-10-27）
 
-本快照纳入第3章p.92–93圣依纳爵浅浮雕组、第3章穹顶图稿、第6章p.154 Mei壁画、第10章p.327版画，以及此前p.279、p.278、p.280、第3章p.67、第2章p.59–60和p.36等批次。最新浅浮雕批次沿用既有S3组，登记1个S4 KU、补2条source-backed字段并为3项S6决定形成2条正式关系边；新增1条S2 statement，不新增mention。阶段指标口径不同，不能相加成单一完成百分比；结构覆盖不等同语义接收。详见[浅浮雕组过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-p92-93-st-ignatius-altar-basreliefs-20261027)、[穹顶图稿过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp3-p76-77-cupola-cartoons-20261027)、[p.154过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp6-p154-mei-fresco-20261027)、[p.327过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp10-p327-giampiccoli-print-20261027)、[第2章p.59–60过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-archive-endpoints-chp2-p59-p60-20261027)及[第2章p.36过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-andrew-endpoints-chp2-p36-20261027)。S3跨来源差异及身份组扫描见[S3复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-cross-source-and-group-reconciliation-20261027)。
+**新增批次：第9章p.258–259、第10章p.278及第15章p.365、p.372总督职务端点（2026-10-27）。** S4预检触发对`cand-8450`的定点S3复核：由`new term`修正为复用现有机构KU；三项S6候选裁为2项formal、1项rejected，新增`rel-2369`–`rel-2370`。S5无字段增量；新增受控`held_office`关系类型。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-doge-office-chp9-chp15-20261027)。
+
+本快照纳入第3章p.92–93圣依纳爵浅浮雕组、第3章穹顶图稿、第6章p.154 Mei壁画、第10章p.327版画，以及此前p.279、p.278、p.280、第3章p.67、第2章p.59–60和p.36等批次。圣依纳爵浅浮雕批次沿用既有S3组，登记1个S4 KU、补2条source-backed字段并为3项S6决定形成2条正式关系边；新增1条S2 statement，不新增mention。阶段指标口径不同，不能相加成单一完成百分比；结构覆盖不等同语义接收。详见[浅浮雕组过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-p92-93-st-ignatius-altar-basreliefs-20261027)、[穹顶图稿过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp3-p76-77-cupola-cartoons-20261027)、[p.154过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp6-p154-mei-fresco-20261027)、[p.327过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp10-p327-giampiccoli-print-20261027)、[第2章p.59–60过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-archive-endpoints-chp2-p59-p60-20261027)及[第2章p.36过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-andrew-endpoints-chp2-p36-20261027)。S3跨来源差异及身份组扫描见[S3复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-cross-source-and-group-reconciliation-20261027)。
 
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
-| S2 | 15,433 statements、26,861 mentions；统一独立复核9,617/15,433（62.31%） | 尚未独立接收；简单相减的5,816条只表示未进入当前统一分子的数量差，不等同连续待审游标。本批新增1条statement、无新增mention，未计入独立复核分子。 |
-| S3 | 主决定12,431/12,431（100%）：same 2,098、new 5,086、conflict 9、excluded 106、undecided 5,132 | 28个候选存在跨来源decision差异（person 25、archive 1、work 2）：其中27个new/same候选的34条外部same记录均指向主行相同KU；cand-2328的Princeton来源记录aln-12663仍为undecided，身份对应及1633/1653年差异尚待证。当前new组字段扫描：5,007条有可解析group赋值、79条缺少（person 31、archive 41、work 4、place 3），另14条注记含多个不同组字符串；按首个显式当前group计4,773个不同标签。详见[S3复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-cross-source-and-group-reconciliation-20261027)。 |
-| S4 | new候选已映射2,405/5,086（47.29%）；待映射2,681，其中直接关系端点1,005、其他1,676；KU共3,186 | 直接端点口径为关系候选subject/object候选ID且有效S3决定为`new`、尚无KU；优先采用`external_source`为空的主行。22个仅有来源限定行的候选各有唯一决定。 |
-| S5 | 14,404条字段，1,627条unverified | 最新浅浮雕组批次新增2条source-backed字段；既有unverified记录未减少。 |
-| S6 | 已裁决1,823/10,648（17.12%）：formal 1,073、pending 624、rejected 126；尚余8,825 | 浅浮雕组批次新增3项formal决定、2条正式边；其中两条既有statement复用同一`part_of`边。 |
-| 正式关系表 | 2,368行：2,332 formal、36 pending | 最新新增`rel-2367`–`rel-2368`；此前第2章p.36新增`rel-2363`–`rel-2366`，第3章图稿批次新增`rel-2360`–`rel-2362`。 |
+| S2 | 15,433 statements、26,861 mentions；统一独立复核9,617/15,433（62.31%） | 尚未独立接收；简单相减的5,816条只表示未进入当前统一分子的数量差，不等同连续待审游标。本批不新增statement或mention，不计入独立复核分子。 |
+| S3 | 主决定12,431/12,431（100%）：same 2,099、new 5,085、conflict 9、excluded 106、undecided 5,132 | 28个候选存在跨来源decision差异（person 25、archive 1、work 2）：其中27个new/same候选的34条外部same记录均指向主行相同KU；cand-2328的Princeton来源记录aln-12663仍为undecided，身份对应及1633/1653年差异尚待证。当前new组字段扫描：5,006条有可解析group赋值、79条缺少（person 31、archive 41、work 4、place 3），另14条注记含多个不同组字符串；按首个显式当前group计4,772个不同标签。详见[S3复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-cross-source-and-group-reconciliation-20261027)。 |
+| S4 | new候选已映射2,405/5,085（47.30%）；待映射2,680，其中直接关系端点1,004、其他1,676；KU共3,186 | 直接端点口径为关系候选subject/object候选ID且有效S3决定为`new`、尚无KU；优先采用`external_source`为空的主行。22个仅有来源限定行的候选各有唯一决定。 |
+| S5 | 14,404条字段，1,627条unverified | 本批无字段增量；既有unverified记录未减少。 |
+| S6 | 已裁决1,826/10,648（17.15%）：formal 1,075、pending 624、rejected 127；尚余8,822 | 本批新增2项formal、1项rejected决定及2条正式`held_office`边；拒绝项保留在S2断言与过程记录中。 |
+| 正式关系表 | 2,370行：2,334 formal、36 pending | 最新新增`rel-2369`–`rel-2370`；此前圣依纳爵浅浮雕批次新增`rel-2367`–`rel-2368`，第2章p.36新增`rel-2363`–`rel-2366`。 |
 | 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 49条（14 completed、35 undecided） | 严格审计backlog pending=0；未决端点或backlog项须有明确待证理由和解除条件。 |
 
 S3未决候选与S4未映射直接关系端点的类型分布：
@@ -3652,14 +3654,14 @@ S3未决候选与S4未映射直接关系端点的类型分布：
 | person | 1,052 | 1 |
 | work | 1,571 | 161 |
 | archive | 671 | 146 |
-| term | 660 | 419 |
+| term | 660 | 418 |
 | place | 302 | 149 |
 | institution | 117 | 53 |
 | event | 113 | 76 |
 | family | 18 | 0 |
 | procedure | 2 | 0 |
 | 类型尚未确定 | 626 | 0 |
-| **合计** | **5,132** | **1,005** |
+| **合计** | **5,132** | **1,004** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。另有零关系KU及超50连接对象属于非阻断诊断。结构通过不等于S2独立语义接收。当前S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面仍等待用户明确启动。
 

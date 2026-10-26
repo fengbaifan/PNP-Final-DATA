@@ -74,6 +74,8 @@ LABELS = {
     "handler_of": "经手者",
     "held_by": "由其保管",
     "holder_of": "保管对象",
+    "held_office": "担任职务",
+    "office_held_by": "任职者",
     "has_participant": "参与者",
     "participated_in": "参与事件",
     "has_subject": "所涉对象",

@@ -47,12 +47,16 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** Haskell引述 Paolo Renier 于1772年关于自由共和国、公民身份与臣属服务的论说，并记其于1779年成为威尼斯总督。有关其政治立场及与 Querini 的交往按书内叙述保留；关系候选尚待 S6 审查。中文名为项目工作音译。〔[第9章印刷页257；第15章印刷页371–372；Markdown L170、83、86–87](../../../02-sources/02-Markdown/09_CHP-9_intro.md)〕
+**中文：** Haskell引述 Paolo Renier 于1772年关于自由共和国、公民身份与臣属服务的论说，并记其于1779年成为威尼斯总督。有关其政治立场及与 Querini 的交往按书内叙述保留；总督任职关系见下方记录。中文名为项目工作音译。〔[第9章印刷页257；第15章印刷页371–372；Markdown L170、83、86–87](../../../02-sources/02-Markdown/09_CHP-9_intro.md)〕
 
-**English:** Haskell quotes Paolo Renier in 1772 on the distinction between serving a prince as a subject and living as a citizen of a free republic, and records that he became Doge in 1779. Accounts of his political positions and association with Querini remain attributed to the book; their relation candidates await S6 review. The Chinese name is a project working transliteration. ([第9章印刷页257；第15章印刷页371–372；Markdown L170、83、86–87](../../../02-sources/02-Markdown/09_CHP-9_intro.md))
+**English:** Haskell quotes Paolo Renier in 1772 on the distinction between serving a prince as a subject and living as a citizen of a free republic, and records that he became Doge in 1779. His political positions and association with Querini remain attributed to the book; the officeholding relation is recorded below. The Chinese name is a project working transliteration. ([第9章印刷页257；第15章印刷页371–372；Markdown L170、83、86–87](../../../02-sources/02-Markdown/09_CHP-9_intro.md))
 
 ## 关系与证据
 
 ### 关系记录
 
-目前没有登记在 `relations.csv` 中的正式关系。直接 S2 关系候选共 5 条（st-chp15-p372-renier-became-doge-1779, st-chp15-p372-renier-compromised-with-opposing-forces, st-chp15-p371-querini-associated-with-paolo-renier, st-chp15-p371-renier-bust-portrayed-paolo-renier, st-chp9-p247-renier-avoid-novelty），保留待 S6 审查；本卡登记不等于关系裁决。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 担任职务（`held_office`） | [威尼斯总督职务（Office of the Doge of Venice）](../institutions/doge-of-venice-office.md) | S6 formal；Querini的反应及后续政治分歧仍是独立断言；时间：1779；角色：威尼斯总督；范围：Haskell称Renier竞选总督成功；本边只记录书内所报的任职，不编码对竞选腐败的评价或推定任期。；证据：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；Chapter 15, printed p.372 L86; statement=st-chp15-p372-renier-became-doge-1779 |
+
+已登记1条 S6 formal 任职关系（`rel-2370 held_office`）；另有4条直接 S2 关系候选待 S6：`st-chp15-p372-renier-compromised-with-opposing-forces`、`st-chp15-p371-querini-associated-with-paolo-renier`、`st-chp15-p371-renier-bust-portrayed-paolo-renier`、`st-chp9-p247-renier-avoid-novelty`。

@@ -68,6 +68,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 委托者（`commissioner_of`，反向投影） | [威尼斯的胜利（The Triumph of Venice）](../works/pompeo-batoni-the-triumph-of-venice.md) | 时间：1737年完成作品；角色：委托人；范围：K2149；原断言与证据见发出端卡片“威尼斯的胜利（The Triumph of Venice）”：[来源](https://www.kressfoundation.org/kress-collection/artwork/84f51f076ea69e90ef971adebc587d9802d0a5f3d6888bb5d9f5554435356c3f)；src-2e8388db8c6e300f；Provenance：Foscarini委托 |
+| → 担任职务（`held_office`） | [威尼斯总督职务（Office of the Doge of Venice）](../institutions/doge-of-venice-office.md) | S6 formal；第259页关于任职方式可疑的说法单独保留，不转换成确定原因；时间：1763年去世前数月；角色：威尼斯总督；范围：Haskell称其在去世前数月曾任总督；原书未给确切就任日期，入职方式另见第259页而不推演其原因。；证据：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.258 L186; statement=st-chp9-p258-marco-held-doge-office |
 
 ### 关系候选入口
 
