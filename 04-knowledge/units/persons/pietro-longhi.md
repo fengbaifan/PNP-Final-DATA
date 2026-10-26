@@ -101,10 +101,16 @@ English: The Chinese display name is a working transliteration for readability; 
 
 ### 身份边界
 
-中文：本卡只指索引和正文明确称 Pietro Longhi 的威尼斯画家。第15、17章称 Alessandro Longhi 为其子；本批将 Alessandro 与 Pietro 区分，亲缘断言留待 S6 审查，不新增正式关系。第10章注释转述 Paoletti 将画家称作“Antonio”Longhi，Haskell 认为该来源不完全可靠；本卡不将该称呼当作可靠异名，也不据此创建第二人物。cand-1432（L.csv#89，p.323–324，“Gasparo Gozzi and”）现 same 映射至本 KU，依据为同名索引子项和 p.323 的 Pietro Longhi 正文锚点；该索引语境不单独确立人物关系。cand-1431、cand-1434 仍按既有 S3 决定待证。
+中文：本卡只指索引和正文明确称 Pietro Longhi 的威尼斯画家。第15、17章称 Alessandro Longhi 为其子；本批将 Alessandro 与 Pietro 区分，亲缘断言留待 S6 审查，不新增正式关系。第10章注释转述 Paoletti 将画家称作“Antonio”Longhi，Haskell 认为该来源不完全可靠；本卡不将该称呼当作可靠异名，也不据此创建第二人物。cand-1432（L.csv#89，p.323–324，“Gasparo Gozzi and”）现 same 映射至本 KU，依据为同名索引子项和 p.323 的 Pietro Longhi 正文锚点；该索引语境不单独确立人物关系。cand-1431现作为作品候选same映射至《The Fall of the Giants》壁画KU；第9章p.265的Pietro Longhi提及映射到本人物KU。cand-1434仍按既有S3决定待证。
 
-English: This card refers only to the Venetian painter explicitly named Pietro Longhi in the index and body. Chapters 15 and 17 call Alessandro Longhi his son; this batch keeps Alessandro distinct, leaves the kinship claim for S6 review, and adds no formal relation. A Chapter 10 note reports that Paoletti calls the artist 'Antonio' Longhi, which Haskell says is not wholly reliable; this is not adopted as a reliable alias and does not create a second person. Candidate cand-1432 (L.csv#89, pp.323–324, “Gasparo Gozzi and”) now maps as same to this KU based on the index subentry and p.323 body anchor naming Pietro Longhi; the index context alone does not establish a relation. Candidates cand-1431 and cand-1434 retain their existing S3 unresolved decisions.
+English: This card refers only to the Venetian painter explicitly named Pietro Longhi in the index and body. Chapters 15 and 17 call Alessandro Longhi his son; this batch keeps Alessandro distinct, leaves the kinship claim for S6 review, and adds no formal relation. A Chapter 10 note reports that Paoletti calls the artist 'Antonio' Longhi, which Haskell says is not wholly reliable; this is not adopted as a reliable alias and does not create a second person. Candidate cand-1432 (L.csv#89, pp.323–324, “Gasparo Gozzi and”) now maps as same to this KU based on the index subentry and p.323 body anchor naming Pietro Longhi; the index context alone does not establish a relation. Candidate cand-1431 is a work-index candidate now aligned as same to the KU for The Fall of the Giants fresco; the Chapter 9 p.265 mention of Pietro Longhi maps to this person KU. Candidate cand-1434 retains its existing S3 unresolved decision.
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+本卡关系视图由relations.csv生成；本轮S6裁定的作品创作关系见下表。其他关系候选仍按对应过程记录保留待证或待裁状态。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [《巨人坠落》壁画（The Fall of the Giants fresco）](../works/pietro-longhi-fall-of-the-giants-palazzo-sagredo-staircase.md) | S6 formal; the explicit phrase which he painted supports this source-limited creator relation.；角色：Painter reported by Haskell；范围：Haskell explicitly says Longhi painted this fresco. Records the book attribution only; no independent attribution or survival claim.；原断言与证据见发出端卡片“《巨人坠落》壁画（The Fall of the Giants fresco）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9 printed p.265 L295; PDF physical p.31; statement=st-chp9-p265-longhi-painted-fall-of-giants |

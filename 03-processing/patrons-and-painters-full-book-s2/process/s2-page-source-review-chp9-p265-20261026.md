@@ -48,3 +48,7 @@
 34/34条均与扫描页核对；未发现需要改写的claim、原文引句、mention或来源定位。本页复核保存在过程记录，不据此改动统一S2独立复核分子；全书statement ID与来源版本台账仍待核平。
 
 本页触发的S3 new候选 cand-8639 在S4登记为单件work KU。其两条关系候选指向同一题献事实，S6各自完成裁决并映射到一个正式关系行；不从页内语境推定版画作者或现今保管地。
+
+## 2026-10-27 定向补充
+
+后续S4端点登记复核发现，原本已核对的34条p.265 statement中，没有单独记录“Pietro Longhi … the fresco … which he painted”所支持的作品创作者关系。新增statement st-chp9-p265-longhi-painted-fall-of-giants，主体为The Fall of the Giants壁画、客体为Pietro Longhi，谓词created_by，锚定第9章印刷页265 L295（PDF物理页31）。此前34条逐条核对结论保留；这条新增statement不属于原34条，也未计入统一S2独立复核分子。原文对1734年完成时间的判断与对Zaccaria Sagredo委托的推测仍分别保留限定。

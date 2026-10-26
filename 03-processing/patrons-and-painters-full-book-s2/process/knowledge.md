@@ -16394,3 +16394,34 @@ S2 statement、mention及独立复核分子均未改。S6 本批只处理上述�
 #### 卡片与批后核验
 
 预览后仅定向渲染新档案卡与 Antonio Zatta 人物卡；两卡写后字节核验通过，复预览均无差异。`build_field_facts.py --ku units/archives/zatta-lettera-giustificativa-1761` 复预览 `record_changes=0`、`new_ids=0`、`source_registry_changes=0`。全库严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。批后快照与阶段增量见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+<a id="s3-s4-s5-s6-ch9-p265-fall-of-the-giants-20261027"></a>
+### S3/S4/S5/S6：第9章 p.265《The Fall of the Giants》壁画（2026-10-27）
+
+#### S3定点身份复核
+
+本批由直接关系端点cand-8613登记触发，只复核其必要的跨来源身份对应。cand-8613沿用既有new组workgrp-04dc7798469146；新KU仅指Haskell第9章印刷页265所述Pietro Longhi壁画。索引候选cand-1431（L.csv#88，“Longhi, Pietro”下的“Fall of the Giants”，页265）与正文同名作品对应，aln-1766由undecided改为same，映射到本批登记的作品KU。此判断只解决作品身份，不将索引中的作者名称作为人物mention。
+
+原mention m-chp9-p265-longhi 表面文本为Pietro Longhi，按语义改映射至既有人物候选cand-1429及其KU units/persons/pietro-longhi；作品提及m-chp9-p265-fall-giants仍映射至cand-8613。地点候选cand-8614继续undecided，不与第9章p.263未具名S. Sofia宫殿合并，也不据此创建place KU或located_at正式边。
+
+#### S2创作者关系补录
+
+此前第9章p.265页审读逐条核对34条statement，但未拆出原句中明确的作品创作者关系。依据来源文件09_CHP-9_intro.md L295“Pietro Longhi put the date 1734 on the clumsy fresco of The Fall of the Giants which he painted”，新增原子statement st-chp9-p265-longhi-painted-fall-of-giants：subject cand-8613，predicate created_by，object cand-1429；claim限定为Haskell将Pietro Longhi指认为该壁画的画家。statement保留原文引句及第9章印刷页265 L295、PDF物理页31定位，不新增mention。p.265既有34条的来源复核结论保留；本条新增statement未独立复核，不计入9,617条统一S2复核分子。S2分母增加1。
+
+#### S4登记与S5字段
+
+新建作品KU units/works/pietro-longhi-fall-of-the-giants-palazzo-sagredo-staircase，`aln-8786`将cand-8613映射至该KU；`aln-1766`将cand-1431以same决定复用该KU。显示中文题名“《巨人坠落》壁画”为工作暂译；Haskell所用The Fall of the Giants作为来源称名，未声称是已核实正式题名。S5只记录Haskell第9章p.265所载名称、fresco类型、画上1734年（Haskell认为指完成时间）及Palazzo Sagredo楼梯这一来源所报位置，字段ID为`enr-18328`–`enr-18332`。未核查独立馆藏身份，未确定楼梯所属建筑的精确身份，未推断开工或委托日期。
+
+#### S6逐项裁决
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| st-chp9-p265-longhi-painted-fall-of-giants | formal | 新增rel-2372 created_by（壁画→Pietro Longhi）；“which he painted”直接支持Haskell的书内作者归属，不表示外部归属验证。 |
+| st-chp9-p265-longhi-fall-of-giants-location-and-date | pending | 位置端点cand-8614仍未完成身份对齐，且当前statement将地点与画上日期合并；不建缺端点关系行。1734年作为来源所载日期已单独保留在S5。 |
+| st-chp9-p265-zaccaria-possible-longhi-commission | pending | 新增rel-2373 commissioned_by（作品→Zaccaria Sagredo，status=pending）；Haskell称“just possible”并以早期创作年代为推断依据，不能作formal事实。 |
+
+#### 卡片与批后核验
+
+定向预览作品卡、Pietro Longhi人物卡及Zaccaria Sagredo人物卡；渲染作品卡与Pietro Longhi人物卡，Zaccaria卡无需变化。两张渲染卡复预览无差异。`build_field_facts.py`复预览为`record_changes=0`、`new_ids=0`、`source_registry_changes=0`、`warnings=0`。批后S3主决定same 2,100、new 5,085、conflict 9、excluded 106、undecided 5,131；S4映射2,407/5,085，未登记2,678，其中直接关系端点1,002；KU=3,188。S5共14,418条，1,627条`unverified`；S6已裁决1,830/10,649（1,077 formal、626 pending、127 rejected），余8,819；`relations.csv`共2,373行（2,336 formal、37 pending）。S2为15,434 statements／26,861 mentions，统一独立复核仍9,617条（62.31%），未接收；新增statement不计入复核分子。`audit_tables.py --strict-stage --summary`通过：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、严格backlog pending=0；关系一致性检查五项阻断均为0。全库仍有2,678条new alignment待S4登记，S2语义接收未完成；机械检查通过不改变该状态。
+
+\n
