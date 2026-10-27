@@ -49,4 +49,11 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-当前没有已登记的正式关系。相关 S2 关系候选留待 S6 核对端点、方向、语境和证据；本次不将断言转换为关系边，不新增 S5 enrichment。
+本壁画组与 S. Vitale 壁画组的代际比较、以及位于 S. Stefano Rotondo 的来源限定地点关系见下方表格。匿名校长委托和其他未决候选仍按 S6 过程记录保留待证去向；不由正文提及自动生成关系边。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← compared_with（`compared_with`，反向投影） | [圣维塔莱堂早期基督教殉道题材壁画组（Early Christian Martyrdom Frescoes at S. Vitale）](fiammeri-s-vitale-martyrdom-frescoes.md) | Formal as an authorial comparison between two fresco cycles; mention m-chp3-secii-l19-31-0025 denotes the earlier decoration rather than the church building.；角色：later cycle compared with earlier decoration；范围：Haskell's generational comparison of the S. Vitale frescoes with the earlier S. Stefano Rotondo decoration; no exact dates or causal influence are asserted.；原断言与证据见发出端卡片“圣维塔莱堂早期基督教殉道题材壁画组（Early Christian Martyrdom Frescoes at S. Vitale）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；Chapter 3 printed p.67 L26; statement=st-chp3-secii-l19-31-vitale-generation-atmosphere-relaxed |
+| → 位于（`located_at`） | [罗马圣斯特凡诺圆形堂（Church of S. Stefano Rotondo, Rome）](../places/s-stefano-rotondo-rome.md) | Formal for the source-reported site only; Haskell reports this in his account of Buser and Buser's cited article was not independently consulted.；角色：one reported location；范围：Haskell reports S. Stefano Rotondo as one location for Circignani's martyrdom scenes; “and elsewhere” makes the location non-exclusive and no exact room or present display is asserted.；证据：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；Chapter 20 printed p.399 L40-L41; statement=st-chp20-p399-stefano-cycle-located-at-church |

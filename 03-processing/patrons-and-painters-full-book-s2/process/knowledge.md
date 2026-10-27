@@ -16599,3 +16599,26 @@ S5从上述六张卡提取17条字段，全部`source_backed`；没有把首字�
 定向预览并渲染8张受影响卡（六张新卡、《赞助人与画家》、Bologna地点卡）；渲染预检覆盖8卡、13张关系表、74条字段行及362条投影关系行，写后字节核验通过。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py`的broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。非阻断诊断为isolated units 1,360、isolated preview rows 100、over-connected 2。
 
 批后当前量：S2为15,447 statements／26,870 mentions，统一独立复核仍9,617条（62.26%，未接收）；S3主决定仍12,432项（same 2,103、new 5,089、conflict 9、excluded 106、undecided 5,125）；S4已映射2,431/5,089，待登记2,658，其中直接关系端点986、其他1,672，KU共3,212；S5为14,463条字段、1,627条`unverified`；S6已裁决1,864/10,658（1,103 formal、633 pending、128 rejected），尚余8,794；`relations.csv`为2,401行（2,364 formal、37 pending）；缺至少一个S2端点候选ID的statement仍337条；backlog 52条（14 completed、38 undecided，严格审计pending=0）。直接端点分布按主S3记录与S2关系候选交集重算，以主决定行（`external_source`为空）为准；本次修正旧摘要与类型分布小计不一致的问题。以上机械核验不代表S2独立接收或S3–S6全书收口。
+<a id="s3-s4-s6-stefano-church-endpoint-reconciliation-20261027"></a>
+
+### S3–S6：S. Stefano Rotondo 跨章地点端点与壁画关系修复（2026-10-27）
+
+S4 端点复核发现第3章 `cand-0722` 与后记 `cand-10924` 都指向罗马 S. Stefano Rotondo 教堂。后者已映射至 `units/places/s-stefano-rotondo-rome`；第3章 p.66–67 的续句与后记 p.399 的具名表述支持同一建筑身份。因此将 `aln-1057` 从 `new` 改为 `same`，复用该 place KU，并以 `cand-10924` 的 `sg3-place-cand-10924` 作为跨章同一身份组依据。不新建地点卡；Circignani 壁画组 `cand-5019` 与教堂仍为不同类型和对象。
+
+第3章 p.67 L26 原 statement 将 “the decoration of S. Stefano Rotondo” 映射为地点 `cand-0722`。结合前文刚介绍的 Circignani 殉道壁画组，按此处转喻语义将 mention `m-chp3-secii-l19-31-0025` 改映射至 work `cand-5019`，并将 `st-chp3-secii-l19-31-vitale-generation-atmosphere-relaxed` 的对象端点修正为该壁画组、predicate 改为 `compared_with`。claim 保留 Haskell 所述代际差异和氛围变化；不推定确切年代、因果影响或整个建筑的全部装饰。后记 p.399 L40–41 新增 statement `st-chp20-p399-stefano-cycle-located-at-church`，复用已有壁画与教堂 mention，记录 Haskell 转述 Buser 时明确给出的一个非排他性地点；Buser 原文未独立查阅。
+
+#### S6逐项裁决
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp3-secii-l19-31-vitale-generation-atmosphere-relaxed` | formal | `rel-2402 compared_with`：S. Vitale 后期壁画组与此前 Circignani 壁画装饰的作者比较；不作因果或确切年代断言。 |
+| `st-chp20-p399-stefano-cycle-located-at-church` | formal | `rel-2403 located_at`：只记录后记所述 S. Stefano Rotondo 为壁画组的一个地点；“and elsewhere”排除排他性地点解释。 |
+| `st-chp3-secii-l19-31-jesuit-style-first-brought-into-being` | pending | `cand-5021` 仍未决且无可兼容的 term→place 受控谓词；不把作者的风格表述强制建成 KU 或图谱边。加入 `bl-0054`，待术语边界与有效谓词明确后重开。 |
+| `st-chp3-secii-l19-31-stefano-allotted-to-jesuits` | pending | 原文支持 Gregory XIII 将教堂分配给 Jesuits，但当前受控词表不能准确表达该分配关系；不推成产权、管理权或持续使用。当前 S6 无可忠实编码的关系表谓词，保留本过程记录中的待证决定。 |
+| `st-chp3-secii-l19-31-stefano-given-to-german-college` | pending | `cand-5017` 的正式机构身份未明，且 “given” 不足以区分产权、使用或管理。加入 `bl-0053`；待身份与关系语义有据后重开，不建立缺端点边。 |
+
+S4 本批复用1个既有 place KU，不新增 KU。S5 `no_delta`：既有地点卡已覆盖第3章和后记的来源限定信息，无需新增字段。S2 新增1条 statement、重映射1条 mention，mention 总数不变；本批属于定向关系审查和修订，不计入统一 S2 独立复核分子。三项 S6 pending 均不写入 `relations.csv`：两项没有可忠实使用的受控谓词；German College 一项还缺可登记的端点 KU。避免以错误谓词或缺端点制造可查询关系；待办与重开条件见 backlog 和本节。
+
+#### 写后核验
+
+`audit_tables.py --strict-stage --summary` 通过：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`candidate-backlog.csv` 为54项（14 completed、40 undecided、pending=0）；`relations.csv` 为2,403行（2,366 formal、37 pending）；S2 为15,448 statements、26,870 mentions。`audit_relation_consistency.py` 的 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。三张受影响卡片预览后定向渲染，renderer 预检3卡、1表、1字段行、6条投影关系行；写后字节核验通过。上述检查不提升 S2 独立复核分子，也不表示全书阶段收口。

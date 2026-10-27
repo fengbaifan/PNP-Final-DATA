@@ -45,4 +45,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-当前没有已登记的正式关系。相关 S2 关系候选留待 S6 核对端点、方向、语境和证据；本次不将断言转换为关系边，不新增 S5 enrichment。
+本建筑与 Circignani 殉道壁画组的来源限定地点关系见下方表格。教堂分配给 Jesuits、交给 German College 及“耶稣会风格”在此形成等候选仍待 S6；受控谓词或接收机构身份未解决，不推为产权或管理权。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所在地（`location_of`，反向投影） | [圣斯特凡诺圆形堂殉道题材壁画组（Circignani’s Martyrdom Fresco Cycle at S. Stefano Rotondo）](../works/circignani-martyrdom-fresco-cycle-s-stefano-rotondo.md) | Formal for the source-reported site only; Haskell reports this in his account of Buser and Buser's cited article was not independently consulted.；角色：one reported location；范围：Haskell reports S. Stefano Rotondo as one location for Circignani's martyrdom scenes; “and elsewhere” makes the location non-exclusive and no exact room or present display is asserted.；原断言与证据见发出端卡片“圣斯特凡诺圆形堂殉道题材壁画组（Circignani’s Martyrdom Fresco Cycle at S. Stefano Rotondo）”：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；Chapter 20 printed p.399 L40-L41; statement=st-chp20-p399-stefano-cycle-located-at-church |
