@@ -17273,3 +17273,17 @@ S2 端点纠正：`m-chp3-secii-l74-81-0043`及`st-chp3-secii-l74-81-evangelist-
 S4 新登记 `units/works/domenichino-evangelist-figures-sant-andrea-della-valle`，范围为一个来源描述的四像组，不拆成四件作品，不补作品原题、具体人物名单、媒材、精确年代、现存状态或现藏地。S5 新增4条 Haskell 书内 `source_backed` 字段（描述性名称、作品类型／组范围、表现对象、书中位置；`enr-18507`–`enr-18510`）。
 
 S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Domenichino 的书内创作者归属；`rel-2469 influenced_by`记录 Haskell“clearly derived from Michelangelo”的作者解释，不表示独立核实了实际影响路径。两条均以第3章 p.72 L80 对应 statement 为证据，时间未载，不推定。卡片定向渲染预检通过（1卡、2表、4字段、2条关系投影），写后字节核验通过；复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。批后S2仍为15,467 statements／26,872 mentions、统一复核台账9,622条；S3主决定12,432项（same 2,110、new 5,089、conflict 9、excluded 106、undecided 5,118）；S4已映射2,477/5,089，待映射2,612（直接关系端点945，其中work 148），KU=3,257；S5字段14,596（1,627 `unverified`）；S6裁决1,978项（formal 1,168、pending 679、rejected 131），`relations.csv` 2,468行（2,430 formal、38 pending）。修订的当前S2 statement版本未计入独立复核台账；S2尚未接收，S3–S6未全书收口。
+
+
+<a id="s2-s4-s5-s6-chp2-castel-fusano-country-house-decoration-20261028"></a>
+### S2–S4–S5–S6：第2章 p.39 Castel Fusano 乡间别墅装饰工程（2026-10-28）
+
+**S2修复依据与范围。** 接续 `s2-independent-review-chp1-2-4-20261020.md` 对第2章 p.39 的差异意见：原雇用statement把Marcello接到工程候选、仅在艺术家字段中提Pietro；现将直接受雇者改为已映射人物候选 `cand-0342`（Pietro），将工程 `cand-4481` 保留为项目范围，并将地点候选 `cand-4480` 和未解决的可能同楼身份 `cand-4458` 分开保留。设计statement保留Haskell对Pietro诠释题材、调整装饰方案的表述；“found his true road”另立为作者生涯评价statement，不作为关系边。新增工程位于Castel Fusano的地点statement。两处建筑不因近Ostia而合并；`cand-4458` 仍待证。
+
+**S3与S4身份去向。** `cand-4480` 沿用S3 `new` 组 `sg3-place-cand-4480`，登记到[Castel Fusano 地点卡](../../../04-knowledge/units/places/castel-fusano.md)；`cand-4481` 沿用既有S3 `new` 组 `workgrp-fae124b86a40d2`，登记为[乡间别墅装饰工程卡](../../../04-knowledge/units/works/marcello-sacchetti-country-house-decoration-castel-fusano.md)。不把工程误作建筑实体或存世单件作品，不推断完成或Pietro独自施工，也不与早先 `cand-4458` 合并。
+
+**S5与S6。** 新增4条Haskell书内 `source_backed` 字段（`enr-18511`–`enr-18514`），分别记录工程描述性名称、工程范围与职责、地点性质。三项关系候选均有正式去向：`rel-2470 employed_by`（Pietro → Marcello，限于此工程，不推定长期雇佣）；`rel-2471 designed_by`（工程 → Pietro，记录书内设计归属，不推定独自施工）；`rel-2472 located_at`（工程 → Castel Fusano，限于项目地点）。关系范围、方向、来源行和statement ID均写入正式表与卡片投影。
+
+**渲染与审计。** 两张卡片定向预览后渲染，预检2卡、3张字段表、4行字段和3条关系投影；写后字节核验由渲染器通过。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。本批更改及新增的S2当前statement版本待独立差异复核，不计入统一复核台账。
+
+**批后状态。** S2为15,469 statements／26,872 mentions；统一独立复核台账仍为9,622条，statement ID／版本尚未核平。S3主决定12,432项（same 2,110、new 5,089、conflict 9、excluded 106、undecided 5,118），本批未改S3决定。S4已映射2,479/5,089条new候选，未映射2,610条，其中直接关系端点944、其他1,666；KU共3,259。S5字段14,600（1,627 `unverified`）。S6裁决记录1,981项（formal 1,171、pending 679、rejected 131）；当前 `relation_candidate=true` 为10,672项，历史裁决台账与当前statement版本仍差1，不报告完成率。`relations.csv` 共2,471行（2,433 formal、38 pending）；缺至少一个S2端点候选ID的关系statement为337条；backlog为58条（14 completed、44 undecided）。
