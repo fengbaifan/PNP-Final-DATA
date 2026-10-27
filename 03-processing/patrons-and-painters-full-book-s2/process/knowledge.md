@@ -16545,3 +16545,57 @@ S5新增12条来源字段：Ceci、Vaes 1924与1925文章的期刊／年份／�
 #### 写后核验
 
 三张新卡的字段重提取预览为 `record_changes=0`、`new_ids=0`、`unverified=0`、`warnings=0`；《赞助人与画家》及三张新卡定向渲染后复预览均无差异。严格表审计：KU 3,206；S3候选12,432；alignment未链接0、new待登记2,664；S2 statements 15,442、mentions 26,868、`s2_missing=[]`；S5 14,446字段、1,627条unverified；relations.csv 2,395行（2,358 formal、37 pending）；backlog 49条、pending 0，`errors=[]`。关系一致性五类阻断均为0。本批S2语义处理和统一独立复核覆盖不变。
+
+
+<a id="s3-s4-s5-s6-ch8-p203-b109-citation-endpoints-20261027"></a>
+### S3/S4/S5/S6：第8章 p.203 两条书目引文、手稿 B.109 与博洛尼亚图书馆跨章组（2026-10-27）
+
+#### S3身份分组与去向
+
+本批按主S3决定核对六个既有 `new` 候选并完成S4登记；没有改写S3主决定：
+
+| 候选 | 类型／决定／身份组 | KU与身份边界 |
+|---|---|---|
+| `cand-7261` | archive／new／`archive-group-e64bd92953e8` | 1734年Ferrara书目所列Agnelli出版物；仅据原书书目与引文定位登记。 |
+| `cand-7388` | archive／new／`archive-group-6e4d15a4b304` | Maresca di Serracapriola文章；书目和引文页码不证明文章内容。 |
+| `cand-7387` | archive／new／`archive-group-9c9077e96bde` | B.109手稿组；题名据第8章p.203扫描页校读，未查阅手稿。 |
+| `cand-7385` | person／new／`new-person:marcello-oretti-51412c00e5` | Marcello Oretti的来源署名；不补写生平或外部身份。 |
+| `cand-7386` | institution／new／`sg3-institution-cand-7386` | “Biblioteca Comunale, Bologna”书内机构组。p.203、p.225、第14章p.358、第19章p.392及书目地点相互支持同一来源限定分组；不映射到未经核实的当代机构或现藏。 |
+| `cand-7390` | term／new／`sg3-term-cand-7390` | B.109所涉博洛尼亚家族收藏的复数范围；不代表单一家族、完整成员表或穷尽性。 |
+
+关联的待证对象保留明确去向：`cand-7389`（A. Maresca di Serracapriola）与`cand-7709`（J. Agnelli）只见首字母，维持S3 `undecided`，不建人物KU；`cand-2307`为Cardinal Tommaso Ruffo绘画收藏集合，现有taxonomy没有足以表达该集合边界的类型，维持`undecided`。分别新增`bl-0051`、`bl-0052`、`bl-0050`，均标注解除条件。
+
+#### S2补录与S4/S5登记
+
+为原文已出现但未拆为原子关系的端点新增5条statement：B.109题名署名`authored_by` Marcello Oretti、B.109书内所在机构、该机构的书内城市、J. Agnelli诗体评注责任形式、以及书目所列A. Maresca文章责任形式。新增`m-chp8-p222-n2-agnelli-person`和`m-chp21-bib-l756-806-maresca-author`两条mention；将书目statement的mentioned-candidate列表补入`cand-7389`。这些是新增／定向整理的S2记录，不计入统一独立复核。
+
+六个既有S3 `new` 候选映射至六个KU：
+
+- `units/archives/agnelli-galleria-pitture-card-tomm-ruffo-1734`
+- `units/archives/maresca-il-museo-del-duca-di-martina-1893`
+- `units/archives/oretti-descrizione-pitture-bologna-ms-b109`
+- `units/persons/marcello-oretti`
+- `units/institutions/biblioteca-comunale-bologna-source-form`
+- `units/terms/bolognese-family-collections-ms-b109-scope`
+
+S5从上述六张卡提取17条字段，全部`source_backed`；没有把首字母扩写为全名，也没有把书内机构定位写成当代保管声明。字段首次预览`new_ids=17`、`unverified=0`、`warnings=0`；写入后复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。
+
+#### S6逐项裁决
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp8-p203-n4-ruffo-citation` | formal | `rel-2396 cites`：《赞助人与画家》→Agnelli 1734书；仅记录Haskell的pp.122–123引文定位。 |
+| `st-chp8-p203-n2-cite-maresca` | formal | `rel-2397 cites`：《赞助人与画家》→Maresca 1893文章；仅记录p.49引文，不声称已读文章。 |
+| `st-chp8-p203-n5-zanotti-and-b109` | formal | `rel-2398 has_subject`：B.109→来源限定的复数收藏范围，不扩展为完整家族表。 |
+| `st-chp8-p203-b109-authored-by-oretti` | formal | `rel-2399 authored_by`：仅记录Haskell题名末尾“Opera di Marcello Oretti Bolognese.”署名。 |
+| `st-chp8-p203-b109-repository` | formal | `rel-2400 located_at`：仅为Haskell所列B.109书内所在机构，不表示现今保管状态。 |
+| `st-chp8-p203-library-located-bologna` | formal | `rel-2401 located_at`：仅为书内机构名称所带城市定位，不推定现代机构沿革。 |
+| `st-chp8-p222-n2-agnelli-publication` | pending | 复合陈述包含未定类型的Ruffo画作集合；保留`cand-2307`与`bl-0050`，不以部分可识别出版物替代整个关系对象。 |
+| `st-chp8-p222-n2-agnelli-contributed-commentaries` | pending | `cand-7709`只有首字母J.；待全名或唯一权威身份记录出现后重开。 |
+| `st-chp21-bib-l756-806-author-maresca` | pending | `cand-7389`只有首字母A.；待全名或唯一权威身份记录出现后重开。 |
+
+#### 写后核验与状态
+
+定向预览并渲染8张受影响卡（六张新卡、《赞助人与画家》、Bologna地点卡）；渲染预检覆盖8卡、13张关系表、74条字段行及362条投影关系行，写后字节核验通过。`audit_tables.py --strict-stage --summary`通过，`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py`的broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。非阻断诊断为isolated units 1,360、isolated preview rows 100、over-connected 2。
+
+批后当前量：S2为15,447 statements／26,870 mentions，统一独立复核仍9,617条（62.26%，未接收）；S3主决定仍12,432项（same 2,103、new 5,089、conflict 9、excluded 106、undecided 5,125）；S4已映射2,431/5,089，待登记2,658，其中直接关系端点986、其他1,672，KU共3,212；S5为14,463条字段、1,627条`unverified`；S6已裁决1,864/10,658（1,103 formal、633 pending、128 rejected），尚余8,794；`relations.csv`为2,401行（2,364 formal、37 pending）；缺至少一个S2端点候选ID的statement仍337条；backlog 52条（14 completed、38 undecided，严格审计pending=0）。直接端点分布按主S3记录与S2关系候选交集重算，以主决定行（`external_source`为空）为准；本次修正旧摘要与类型分布小计不一致的问题。以上机械核验不代表S2独立接收或S3–S6全书收口。
