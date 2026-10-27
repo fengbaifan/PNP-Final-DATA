@@ -1,5 +1,37 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp2-p36-integrated-st-peters-programme-20261027"></a>
+### S3触发复核／S4/S5/S6：第2章 p.36 圣彼得大殿整体装饰方案端点（2026-10-27）
+
+#### S3复核、S4登记与S2定向修订
+
+直接关系端点`cand-4433`沿用既有S3 `new`身份组`sg3-term-cand-4433`。核对第2章印刷页36、PDF物理页17：Haskell把完成后的整体装饰方案描述为使整座教堂获得新意义、诸要素在风格与主题上相互呼应，并综合宗教意象、教宗权势与其家族主题。此对象是来源限定的解释性整体方案，区别于具象作品巴尔达基诺及其独立图像方案；没有外部统一对象身份，故不合并或替换已有作品/术语组。登记至`units/terms/st-peters-integrated-decorative-programme-haskell-account`并更新`aln-4616`。卡片的S5名称与定义字段为`enr-18418`、`enr-18419`，均由S1原书段落支持；无unverified增量。
+
+复核`st-chp2-secii-l52-60-programme-duration`时，原statement把整项工程时长误挂到Urban VIII人物端点。p.36 L59只把教宗在位末期作为时间参照，没有断言该人物是作品或方案的时长关系端点。因此将object候选改为null、增加`duration`“A large number of years; no exact duration is stated.”、保留“Almost until the end of Urban VIII’s pontificate”时间限定并设`relation_candidate=false`。此为定向语义修订，不新增statement/mention，也不增加统一S2独立复核分子。
+
+#### S6逐项裁决
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp2-secii-l52-60-completed-scheme-new-meaning` | formal | `rel-2431 manifested_at`：来源所述整体方案→圣彼得大殿。范围只表示Haskell将方案呈现于整座教堂，不断言每件组成作品的物理位置，也不把作者解释写成独立测得的意义变化。 |
+| `st-chp2-secii-l52-60-papacy-and-house-reminder` | pending | 保留Haskell将整体方案解释为教宗权势及巴贝里尼家族提醒的断言。当前受控谓词不能准确表达“解释性方案提醒多个政治/家族对象”的语义与方向；不改写成赞助、主题或人物关系边。 |
+| `st-chp2-secii-l52-60-religious-elements-hymn` | pending | 保留Haskell把诸要素比作赞颂基督殉道、圣徒与使徒的“赞歌”之解释。现有受控类型不能忠实表达术语与一组宗教对象间的隐喻性图像解释；不把它压缩为对单一人物的`has_subject`边。 |
+
+原先四项S6候选中的时长statement经S2修订后不再是relation candidate，不计作rejected或S6决定。两项pending保留statement ID、具体类型缺口及不误用现有谓词的理由，后续仅在出现兼容受控谓词或更直接的端点证据时重开。
+
+#### 写后状态与核验
+
+| 阶段 | 批后状态 |
+|---|---|
+| S2 | 15,454 statements／26,870 mentions；统一独立复核仍9,622/15,454（62.26%，未接收）。 |
+| S3 | 主决定12,432/12,432：same 2,106、new 5,090、conflict 9、excluded 106、undecided 5,121；本批沿用`new`身份组。 |
+| S4 | 已映射2,452/5,090个new候选；待映射2,638，其中直接关系端点966、其他1,672；KU共3,233。 |
+| S5 | 14,505条字段，其中1,627条unverified；本批新增2条source-backed字段。 |
+| S6 | 1,908/10,663（formal 1,133、pending 646、rejected 129），尚余8,755；本批1 formal、2 pending。分母按当前relation_candidate标记重算。 |
+| 正式关系表 | 2,431行：2,394 formal、37 pending；新增`rel-2431`。 |
+
+新术语卡与圣彼得大殿卡定向预览均无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、backlog pending=0；关系一致性阻断`broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`及`unbaselined generic evidence-backed`均为0。backlog仍56条（14 completed、42 undecided）；缺至少一个S2端点候选ID的关系statement仍337条。本批未新增backlog。
+
 <a id="s3-s4-s5-s6-chp13-p342-tessin-bathsheba-gai-20261027"></a>
 ### S3/S4/S5/S6：第13章 p.342 Tessin、Gai 与 Bathsheba 作品端点（2026-10-27）
 
