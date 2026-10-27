@@ -17262,3 +17262,14 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 **投影、审计与批后状态。** 两张受影响卡定向渲染（预检2卡、3张表、8行字段、3条关系投影）；写后字节核验通过，两卡复预览无差异。S5定向预览8行，`record_changes=0`、`warnings=0`。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。
 
 批后状态：S2为15,467 statements／26,872 mentions，统一独立复核台账仍记9,622条，statement ID／来源版本尚未核平，本批无S2变更。S3主决定12,432项（same 2,110、new 5,088、conflict 9、excluded 106、undecided 5,119）。S4已映射2,476/5,088条new候选，待映射2,612，其中直接关系端点946（term 404、work 149、archive 125、place 143、event 74、institution 50、person 1），其他1,666；KU共3,256。S5字段14,592（1,627 `unverified`）。S6裁决记录1,976项（formal 1,166、pending 679、rejected 131）；当前`relation_candidate=true`为10,671项，历史裁决台账与当前statement版本仍差1项，不报告完成率。`relations.csv`共2,466行（2,428 formal、38 pending）；缺至少一个S2端点候选ID的关系statement仍337条；backlog 58条（14 completed、44 undecided，严格审计pending=0）。S2仍未独立接收，S3–S6未全书收口，S7未启动。
+
+
+### S3—S6 第3章 p.72 Domenichino 穹隅四福音书作者像（2026-10-28）
+
+来源 L80 明确说 Domenichino 在 S. Andrea della Valle 的穹隅制作四位纪念性福音书作者像，并称其明显源自 Michelangelo。检查现有 works 后未发现该作品组的同一 KU；S. Andrea della Valle 建筑地点、Lanfranco 穹顶、祭坛席与穹顶整体装饰、Domenichino 在 S. Carlo ai Catinari 的枢德寓意壁画及耶稣新堂四先知组均为不同对象。`cand-5066`沿用 `workgrp-7a7cc80a0bb94c` 的 S3 `new` 决定，登记为[圣安德烈堂穹隅四福音书作者像](../../../04-knowledge/units/works/domenichino-evangelist-figures-sant-andrea-della-valle.md)。
+
+S2 端点纠正：`m-chp3-secii-l74-81-0043`及`st-chp3-secii-l74-81-evangelist-figures-derived-from-michelangelo`原误挂到索引作品候选 `cand-1661`；该处 Michelangelo 是艺术家，mention、statement object 与 `interpretation_by_candidate_id` 均改指已映射人物卡的 `cand-1660`。原 statement 的当前版本因此改变，仍待独立差异复核，不计入9,622条统一复核台账。`cand-1661`的 M.csv#201 子项实际指第15章 p.362 的《复活基督》；与正文候选 `cand-10437` 的作品名及 Santa Maria sopra Minerva 地点相合，故两者共用`workgrp-115824c7c6bcea`，均为来源限定 `new`，待该组进入 S4；未声称外部作品目录已核实。
+
+S4 新登记 `units/works/domenichino-evangelist-figures-sant-andrea-della-valle`，范围为一个来源描述的四像组，不拆成四件作品，不补作品原题、具体人物名单、媒材、精确年代、现存状态或现藏地。S5 新增4条 Haskell 书内 `source_backed` 字段（描述性名称、作品类型／组范围、表现对象、书中位置；`enr-18507`–`enr-18510`）。
+
+S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Domenichino 的书内创作者归属；`rel-2469 influenced_by`记录 Haskell“clearly derived from Michelangelo”的作者解释，不表示独立核实了实际影响路径。两条均以第3章 p.72 L80 对应 statement 为证据，时间未载，不推定。卡片定向渲染预检通过（1卡、2表、4字段、2条关系投影），写后字节核验通过；复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。批后S2仍为15,467 statements／26,872 mentions、统一复核台账9,622条；S3主决定12,432项（same 2,110、new 5,089、conflict 9、excluded 106、undecided 5,118）；S4已映射2,477/5,089，待映射2,612（直接关系端点945，其中work 148），KU=3,257；S5字段14,596（1,627 `unverified`）；S6裁决1,978项（formal 1,168、pending 679、rejected 131），`relations.csv` 2,468行（2,430 formal、38 pending）。修订的当前S2 statement版本未计入独立复核台账；S2尚未接收，S3–S6未全书收口。
