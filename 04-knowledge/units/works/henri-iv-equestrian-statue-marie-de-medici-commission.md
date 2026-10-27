@@ -35,7 +35,7 @@ sources:
     source_file: 02-sources/02-Markdown/07_CHP-7_sec_i.md
     source_span: lines 310; print p. 174
 created: '2026-10-17'
-updated: '2026-10-17'
+updated: '2026-10-28'
 process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-five-direct-endpoint-works-20261017
 ---
 
@@ -43,9 +43,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡对应哈斯克尔第7章所述亨利四世骑马纪念像。作者称 Marie de Medici 于1604年说服叔父斐迪南大公委托 Giambologna 制作该像，计划安置在 Pont Neuf；纪念像后来由 Pietro Tacca 与 Francavilla 完成，约十年后才运抵。书下注称该纪念像于1792年被毁。这些时间与制作细节均按哈斯克尔的书内记述保存。
+**中文：** 本卡对应哈斯克尔第7章所述亨利四世骑马纪念像。作者称 Marie de Medici 于1604年说服叔父斐迪南大公委托 Giambologna 制作该像，计划安置在 Pont Neuf；纪念像后来由 Pietro Tacca 与 Francavilla 完成，约十年后才运抵。书下注称该纪念像于1792年被毁；该毁损事件另见[亨利四世骑马像毁损事件（Destruction of the Henri IV Equestrian Statue）](../events/henri-iv-statue-destruction-1792.md)。这些时间与制作细节均按哈斯克尔的书内记述保存。
 
-**English:** This card represents the equestrian monument of Henri IV discussed in Chapter 7. Haskell says that in 1604 Marie de Medici persuaded her uncle, Grand Duke Ferdinando, to commission Giambologna to make it for the Pont Neuf; the monument was later completed by Pietro Tacca and Francavilla and arrived about ten years later. A note says it was destroyed in 1792. These dates and production details are retained as Haskell’s account.
+**English:** This card represents the equestrian monument of Henri IV discussed in Chapter 7. Haskell says that in 1604 Marie de Medici persuaded her uncle, Grand Duke Ferdinando, to commission Giambologna to make it for the Pont Neuf; the monument was later completed by Pietro Tacca and Francavilla and arrived about ten years later. A note says it was destroyed in 1792; the event has a separate [destruction record](../events/henri-iv-statue-destruction-1792.md). These dates and production details are retained as Haskell’s account.
 
 ### 名称与身份边界
 
@@ -59,7 +59,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-未建立正式关系。该候选有 6 条 `relation_candidate=true` 的直接 S2 关系候选：`st-chp7-p174-i12`、`st-chp7-p174-i13`、`st-chp7-p174-i16`、`st-chp7-p174-i17`、`st-chp7-p174-i18`、`st-chp7-p174-n2-monument-destroyed`。这些候选均保留待 S6 逐条审查；本次只完成 S4 身份登记，没有写入 `relations.csv`。
+当前没有正式关系。正文中的导航与线索不自动形成关系边。
+
+该作品有6条直接S2关系候选：`st-chp7-p174-i12`、`st-chp7-p174-i13`、`st-chp7-p174-i16`、`st-chp7-p174-i17`、`st-chp7-p174-i18`、`st-chp7-p174-n2-monument-destroyed`。注2毁损事件候选现记为process-only pending，原因是受控谓词不能精确表达毁损事件与作品的关系；前5条正文候选仍待S6逐条裁决。该事件的来源及范围见[亨利四世骑马像毁损事件卡](../events/henri-iv-statue-destruction-1792.md)和本批过程记录。
 
 ### 身份与外部链接
 

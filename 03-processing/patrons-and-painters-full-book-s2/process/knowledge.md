@@ -1,3 +1,35 @@
+<a id="s3-s4-s5-s6-chp7-p174-n2-endpoints-20261028"></a>
+### S3/S4/S5/S6：第7章 p.174 注2人物、作品与毁损事件端点（2026-10-28）
+
+**来源与S2当前版本。** 对照印刷页图复核注2：文字为“Henri II”，S0 Markdown OCR误作“Henri ll”；S0来源文件保持不变。全书候选和已登记人物KU中未发现其他Henri II/Henry II对象；`cand-1294`为Henri III，身份不同。为把“an equestrian statue of Henri II”从委托断言中拆为可审查的独立端点，新增`st-chp7-p174-n2-statue-subject-henri-ii`（work `cand-7037`→person `cand-7035`），复用既有mentions，并将其加入正文p.174脚注2的双向statement索引；同时修订`st-chp7-p174-n2-commissioned-from-michelangelo`的qualifier，移除Michelangelo身份仍待S3的过时表述，明确“commissioned from”不证明完成作品或创作者身份。S2净增1条statement，mention不变；本次新增／修订的3个当前statement版本待独立差异复核，不计入统一复核台账，也不构成第7章或S2接收。
+
+**S3身份决定。** 对`cand-7035`（Henri II人物）和`cand-7037`（1559年未执行骑马像方案）复核并沿用既有`new`组；工作组`workgrp-2a6ac484bc0165`与毁损的Henri IV纪念像分开。`cand-12413`（1792毁损事件）沿用S3 `new`事件组`sg3-event-cand-12413`。同页作品身份冲突单独保留未决：Haskell注2说Tacca后来为Philip III制作“similar monument”；索引`P.csv#98`却把p.174n的Tacca骑马像列在Philip IV下。`cand-7038`与索引候选`cand-1897`可能相关，但相同页码与作者不足以判定同一；受领者不一致也不足以断定不同。两项均保持`undecided`，不合并、不注册KU；相关Tacca关系维持S6 pending，待有能识别作品身份的证据再重开。
+
+| 候选 | 类型 | S3决定与组 | S4去向 |
+|---|---|---|---|
+| `cand-7035` | person | 沿用`new-person:henri-ii-93dcea63a8`；仅据来源名称登记，不补王国或生平 | `units/persons/henri-ii` |
+| `cand-7037` | work | 沿用`new`，组`workgrp-2a6ac484bc0165`；限于未执行的1559骑马像方案 | `units/works/proposed-equestrian-statue-henri-ii-1559` |
+| `cand-12413` | event | 沿用`new`，组`sg3-event-cand-12413`；只记录1792年毁损 | `units/events/henri-iv-statue-destruction-1792` |
+| `cand-7038` | work | `undecided`；Philip III正文与Philip IV索引对象同一性未明 | 不注册；保留候选 |
+| `cand-1897` | work | `undecided`；索引项无S2正文锚点且归属与正文不一致 | 不注册；保留索引候选 |
+
+**S5字段。** 三张来源限定卡新增8项Haskell字段：`enr-18534`为Henri II印本名称校读；`enr-18535`–`enr-18538`记录作品描述性题名性质、类型、1559年委托年份及从未执行；`enr-18539`–`enr-18541`记录毁损事件性质、1792年和所涉Henri IV骑马像。未补责任人、地点、原题或已完成作品归属。
+
+**S6逐项裁决。** 当前六项可裁决的`relation_candidate=true`语句均有明确去向：
+
+| S2关系候选 | 决定 | 去向及理由 |
+|---|---|---|
+| `st-chp7-p174-n2-catherine-commission` | formal | `rel-2484 commissioned_by`：骑马像方案→Catherine de’ Medici；限定为1559年未执行委托。 |
+| `st-chp7-p174-n2-statue-subject-henri-ii` | formal | `rel-2485 has_subject`：未执行方案→Henri II；只表示原定表现对象。 |
+| `st-chp7-p174-n2-commissioned-from-michelangelo` | pending（process-only） | 当前受控谓词没有准确表达“委托自某艺术家”的类型；不改写为`created_by`或`designed_by`。虽已明确Michelangelo人物端点，不据未执行方案推定完成作品或设计归属。 |
+| `st-chp7-p174-n2-monument-destroyed` | pending（process-only） | 毁损事件已作为S4 event登记；当前关系词表没有准确表达“作品被毁于某事件”的受控边，不用泛化`has_subject`替代。 |
+| `st-chp7-p174-n2-monument-for-philip-iii` | pending（process-only） | S2明确说作品为Philip III制作，但work `cand-7038`与Philip IV索引候选`cand-1897`的身份冲突尚未解决。 |
+| `st-chp7-p174-n2-tacca-made-monument` | pending（process-only） | 同一未定作品端点阻断Tacca创作者边；不将来源叙述硬写入另一件Tacca骑马像。 |
+
+既有引注`st-chp7-p174-n2-cite-desjardins`仍为`rel-1341 cites` formal，无变化。`st-chp7-p174-n2-statue-not-executed`当前为`relation_candidate=false`，作为作品状态字段处理，不计作关系裁决。四项pending仅记在本过程记录，不新增不受控或缺端点的`relations.csv`行；只有谓词语义或作品身份证据实际变化时才重开。
+
+三张新卡定向渲染及写后字节核验通过；既有Henri IV作品卡增加毁损事件导航链接。新增3张卡、8行S5字段投影、2条正式边。严格表审计和关系一致性审计通过，见本批结果记录。本批限于注2的三对象语境；同页正文关系候选`st-chp7-p174-i12`、`-i13`、`-i16`、`-i17`、`-i18`仍需后续S6逐条裁决，不能因本注裁决完成而视为第7章p.174关系整体收口。S7与知识发现、页面制作均不在本批范围。
+
 # 全书 S3 身份对齐过程
 
 <a id="s4-s5-s6-chp2-p56-tessin-traveller-account-20261028"></a>

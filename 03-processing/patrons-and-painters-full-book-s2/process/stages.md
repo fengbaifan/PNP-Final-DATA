@@ -13689,3 +13689,7 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 ## 2026-10-28：第2章印刷页57注3的S2错位修订
 
 重读第2章来源段与PDF物理页46图像：印刷页57注3末尾确有“In the Nota dei Musei Bellori mentions that Rospigliosi also owned a Rest on the Flight into Egypt by Poussin”；第2章OCR段L179保存了该句。p.58注8（OCR段L242）实际谈《人间生命之舞》《阿卡迪亚牧人》与《真理与时间》，不支持《逃往埃及途中的休息》的所有权。本次保留有效所有权statement `st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned`，将其文本层改为注释、补注号3及精确提及端点；删除错挂到p.58注8的重复statement `st-chp2-seciv-l190-245-rest-flight-owned-by-rospigliosi`，并以同一p.57注3来源新增原子创作者表述statement `st-chp2-seciv-l171-179-rest-flight-attributed-to-poussin`。复用现有mention `m-chp2-seciv-l171-179-0057`、`-0058`、`-0059`，未新增mention。statement净数不变；新改版本尚待独立差异复核，不增加S2统一复核台账分子，也不宣称第2章或全书独立接收。
+
+### 2026-10-28：第7章 p.174 注2语义校读、S3对齐及端点裁决
+
+对照印刷页图确认“Henri II”（S0 OCR为“Henri ll”），来源资产不改。S2新增“未执行方案的表现对象”为Henri II的独立statement，修订Michelangelo commission qualifier，并更新正文脚注索引；新增／修订的3个当前statement版本待独立差异复核，不计统一台账。S3沿用Henri II人物、未执行骑马像方案和1792毁损事件的既有new组；Tacca作品候选与索引Philip IV候选因正文Philip III／索引Philip IV冲突仍为undecided。三项S4登记、S5八字段；六项当前关系候选分别为2 formal、4 process-only pending。Desjardins引注既有formal不变，非执行状态statement不作关系处理。
