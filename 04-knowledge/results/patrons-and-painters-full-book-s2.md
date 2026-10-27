@@ -2,6 +2,10 @@
 
 ### 近期批次记录（2026-10-27）
 
+**第7章 p.192 当前 statement 版本定向修订。** 根据既有逐条复核意见，补足`st-chp7-p192-i01`对“local artists”及“hideously corrupt administration”的具体限定，并把`st-chp7-p192-i27`的OCR校正定位从错误的L291改为L290。statement与mention总数不变；两条当前版本待独立差异复核，不增加9,622条统一复核台账分子，不构成p.192或第七章接收。详见[阶段过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
+
+**本批完成：第8章 p.231 威尼斯传统与佛罗伦萨文艺复兴端点及 S6 裁决。** `cand-7875`经触发式S3复核改判same并复用`units/terms/venetian-painting-tradition`；`cand-12094`保留既有new组并新登记term KU。两张术语卡补入5条Haskell书内`source_backed`字段。3项直接S6候选逐条有去向：Ferdinand的审美吸引与复兴意愿formal为`rel-2459 influenced_by`；“在作品中看见传统”及term-to-term“对立面”因无忠实受控谓词process-only pending。三张受影响卡定向渲染并复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性五类阻断均为0。批后S3为same 2,110、new 5,087；S4待映射2,618，其中直接关系端点950；S5字段14,561；S6决策记录1,962项。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp8-p231-venetian-florentine-terms-20261027)。
+
 **本批完成：威尼斯绘画传统跨章身份组及直接关系裁决。** 将第10章 p.283 `cand-12112` 与既有第4、6、7、8章 `cand-5756` 归入同一S3 `new`组`sg3-term-cand-5756`，共同登记1个term KU；明确`cand-7014`是罗马绘画，不因p.172并列而合并。补入9条Haskell书内S5字段（`enr-18462`–`enr-18470`）。三项直接S6候选均有去向：Van Dyck与Rubens各formal为`rel-2457`、`rel-2458 influenced_by`；Mola“继承威尼斯传统”因无忠实受控谓词process-only pending。三张受影响卡定向渲染、复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性五类阻断均为0。批后S4待映射2,620条，其中直接关系端点952；S5字段14,556；S6裁决记录1,959项。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp10-p283-venetian-painting-tradition-20261027)。
 
 **本批完成：第2章两处机构Church跨章身份复核及关系端点裁决。** `cand-4244`（p.24 Church government）与`cand-4654`（p.48 Ferrara succession）由S3 `new`定点复核为`same`，复用既有 institutional Church KU；与教宗、罗马教廷及教堂建筑保持区分。四项相关S6候选均有去向：Guido的教会生涯记为`rel-2456 member_of`；Church治理变化及Enzo、Guido对Church’s cause的政治结盟因现有受控谓词不忠实而保留process-only pending。S5、S2为no_delta。教会机构、Guido、Enzo、Sixtus V四卡预览无剩余差异，定向渲染两卡；严格表审计和关系一致性五项阻断均为0。批后主S3计数为same 2,109、new 5,088；S4待映射2,622；S6记录1,956项（1,156 formal、671 pending、129 rejected）；关系表2,455行（2,418 formal、37 pending）。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp2-church-institution-20261027)。
@@ -3705,12 +3709,12 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
-| S2 | 15,461 statements、26,872 mentions；统一复核台账记录9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平，9,622不作为当前版本精确覆盖率。p.189五条修订后statement已复核；p.162两条当前版本已独立差异复核但未并入台账；本批S2 statement、mention及复核台账no_delta。第13章收据—卷册、拱顶—祭坛席statement仍待独立复核；第10章p.281七个当前版本、p.384五个当前版本及p.286一个当前版本仍待差异复核。 |
-| S3 | 主决定12,432/12,432（100%）：same 2,109、new 5,088、conflict 9、excluded 106、undecided 5,120 | 100%仅指每个候选都有主决定行，不等于语义收口；5,120项仍undecided。另有28个候选的35条来源限定记录与主行决定不同；cand-2328/aln-12663保持undecided并有重开条件。身份组覆盖仍需按有效决定核对：当前77条new主行缺可解析组、14条注记含多个组字符串；不能仅凭历史注记自动归组。 |
-| S4 | new候选已映射2,468/5,088；待映射2,620，其中直接关系端点952、其他1,668；KU共3,248 | 本批沿用2个S3 `new`决定、合并到同一身份组并新增1个KU；登记cand-5756与cand-12112。 |
-| S5 | 14,556条字段，1,627条unverified | 本批新增9条书内`source_backed`字段；不引入外部未核实字段。 |
-| S6 | 裁决记录1,959项：formal 1,158、pending 672、rejected 129；当前relation_candidate=true为10,666条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | 本批3项逐条裁决：2 formal、1 process-only pending；无法用受控谓词忠实表达的“继承传统”不伪造正式关系。 |
-| 正式关系表 | 2,457行：2,420 formal、37 pending | 最新有效新增`rel-2457`–`rel-2458 influenced_by`；此前`rel-2449`因archive→event的`has_subject`违反值域规则已删除，该候选改记process-only pending。 |
+| S2 | 15,461 statements、26,872 mentions；统一复核台账记录9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平，9,622不作为当前版本精确覆盖率。p.189五条修订后statement已复核；p.162两条当前版本已独立差异复核但未并入台账；第7章p.192 i01、i27本批定向修订后待独立差异复核，未计入台账。第13章收据—卷册、拱顶—祭坛席statement仍待独立复核；第10章p.281七个当前版本、p.384五个当前版本及p.286一个当前版本仍待差异复核。 |
+| S3 | 主决定12,432/12,432（100%）：same 2,110、new 5,087、conflict 9、excluded 106、undecided 5,120 | 100%仅指每个候选都有主决定行，不等于语义收口；5,120项仍undecided。另有28个候选的35条来源限定记录与主行决定不同；cand-2328/aln-12663保持undecided并有重开条件。身份组覆盖仍需按有效决定核对：当前77条new主行缺可解析组、14条注记含多个组字符串；不能仅凭历史注记自动归组。 |
+| S4 | new候选已映射2,469/5,087；待映射2,618，其中直接关系端点950、其他1,668；KU共3,249 | 本批`cand-7875`转为same并复用既有KU；`cand-12094`沿用S3 new组并登记1个term KU。 |
+| S5 | 14,561条字段，1,627条unverified | 本批新增5条书内`source_backed`字段；未引入外部未核实字段。 |
+| S6 | 裁决记录1,962项：formal 1,159、pending 674、rejected 129；当前relation_candidate=true为10,666条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | 本批3项逐条裁决：1 formal、2 process-only pending；两项因受控谓词不能忠实表达而不写正式关系行。 |
+| 正式关系表 | 2,458行：2,421 formal、37 pending | 最新新增`rel-2459 influenced_by`；此前`rel-2449`因archive→event的`has_subject`违反值域规则已删除，该候选改记process-only pending。 |
 | 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 57条（14 completed、43 undecided） | 严格审计backlog pending=0；最近一批新增`bl-0057`，记录Lord Powis身份与赞助关系待证条件。 |
 
 S3 undecided候选与S4未映射直接关系端点的类型分布：
@@ -3720,14 +3724,14 @@ S3 undecided候选与S4未映射直接关系端点的类型分布：
 | person | 1,048 | 1 |
 | work | 1,567 | 151 |
 | archive | 668 | 127 |
-| term | 660 | 406 |
+| term | 660 | 404 |
 | place | 302 | 143 |
 | institution | 117 | 50 |
 | event | 112 | 74 |
 | family | 18 | 0 |
 | procedure | 2 | 0 |
 | 类型尚未确定 | 626 | 0 |
-| **合计** | **5,120** | **952** |
+| **合计** | **5,120** | **950** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。另有零关系KU及超50连接对象属于非阻断诊断。结构通过不等于S2独立语义接收。当前S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面仍等待用户明确启动。
 

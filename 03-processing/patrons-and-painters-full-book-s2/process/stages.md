@@ -13682,3 +13682,7 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 ### 2026-10-27：第10章 p.279–281 S2 关系陈述原子化与 S3–S6 端点批次
 
 为 S4/S6 端点登记，将第10章 p.279“二人离开英格兰”拆为 Pellegrini 与 Marco Ricci 两条个人离境地点陈述；p.280将 Bellucci“抵达”与“受到欢迎”分开；p.281将 Damini 与 Leoni 的抵达分别记录。原 statement 3条修订、新增4条，mentions未变，当前7个statement版本待独立差异复核，未计入统一独立复核分子。两项既有 S3 `new` 身份组完成 S4 登记；5条地点关系 formal，1条群体支持候选因 term 端点／受控谓词域和未具名支持者待证。详见[知识过程记录](knowledge.md#s3-s4-s5-s6-chp10-england-leoni-endpoints-20261027)。
+
+### 2026-10-27：第7章 p.192 当前 statement 版本定向修订
+
+依据既有 p.192 逐条复核意见修订两条当前 statement：`st-chp7-p192-i01` 的 claim 补明“commissioned from local artists”及 Haskell 对“hideously corrupt administration”的具体表述，保留与 p.191 `st-chp7-p191-i32` 的跨页续接；`st-chp7-p192-i27` 的 OCR 校正定位从错误的 Markdown L291 改为 L290，与该 statement 当前来源跨度及原文所在行一致。S0 来源不改，statement ID、mention 和候选映射不变。两条当前版本发生变化，须经独立差异复核后才能计入统一复核台账；本次不增加独立复核分子，也不接收 p.192 或第七章。

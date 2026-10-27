@@ -1,5 +1,24 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp8-p231-venetian-florentine-terms-20261027"></a>
+### S3/S4/S5/S6：第8章 p.231 威尼斯绘画传统与佛罗伦萨文艺复兴端点（2026-10-27）
+
+**来源与端点。** 第8章 p.231 L241–242 记费迪南德在提香、委罗内塞和巴萨诺的作品中看到一种绘画传统，称其长期被视作伟大的佛罗伦萨文艺复兴的对立面，并说费迪南德希望使该传统复兴。候选为`cand-7875`（Venetian sixteenth-century painting tradition）与`cand-12094`（Florentine Renaissance in Haskell’s comparison）。
+
+**S3身份裁决。** `cand-7875`／`aln-8050`因当前威尼斯传统KU登记而触发复核，改为`same → units/terms/venetian-painting-tradition`，并加入`sg3-term-cand-5756`身份组；原`sg3-term-cand-7875`作为历史组名留在裁决注记。p.231的“tradition of painting”由威尼斯16世纪画家作品举例，是既有广义威尼斯绘画传统的时间／语境限定用例；现有卡未规定固定流派边界。该身份不同于`cand-12094`所指的佛罗伦萨文艺复兴概念。`cand-12094`／`aln-12257`保留S3 `new`及组`sg3-term-cand-12094`，与城市佛罗伦萨和泛指的Renaissance条目区分，S4新登记为[佛罗伦萨文艺复兴术语卡](../../../04-knowledge/units/terms/florentine-renaissance-haskell-p231.md)。
+
+**S5书内字段。** 威尼斯传统卡追加p.231来源、双语描述中的实例和一个来源实例字段；新佛罗伦萨术语卡以p.231 L241–242建立原文词组、书内定义、Haskell所述历史用法和概念边界。未做外部时期划分或外部事实核验。`build_field_facts.py`预览／应用新增5条`source_backed`字段`enr-18471`–`enr-18475`，0条`unverified`、0重复、0警告。
+
+**S6逐项裁决。** 三项直接关系候选均有明确去向：
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp8-p231-ferdinand-seduced-by-venetian-tradition` | formal | 新增`rel-2459 influenced_by`：Grand Prince Ferdinand → 威尼斯绘画传统。范围限于Haskell对其审美吸引及复兴意愿的解释，不表示已完成委托、具体作品或可证的传播路径。 |
+| `st-chp8-p231-hosts-titian-veronese-bassano` | pending（process-only） | 原文是费迪南德在未具名东道主宫邸中的大师作品里“看见”一种传统；当前受控谓词不能忠实表达对艺术史概念的识别，具体作品与宫邸亦未指明。不改写为影响、所有权或收藏关系。 |
+| `st-chp8-p231-venetian-tradition-antithesis-florentine-renaissance` | pending（process-only） | 两个term端点均已映射，但`compared_with`的域值只允许place/work，现行词表没有term→term的`contrasted_with`。保留Haskell的“长期被视为对立面”书内判断，不绕过受控域值。若词表日后允许忠实的term比较谓词，再重开。 |
+
+**卡片投影与机械核对。** `build_cards.py --render`定向渲染威尼斯绘画传统、佛罗伦萨文艺复兴、Grand Prince Ferdinand三张卡，写后字节核验通过；三卡再次`--preview`均无差异。`build_field_facts.py`复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。严格表审计：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`alignment_new_pending_registration=2618`、`candidate_backlog_pending=0`；关系一致性：`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。`git diff --check`退出码0。S2 statement、mention及独立复核台账本批`no_delta`。
+
 <a id="s3-s4-s5-s6-chp10-p283-venetian-painting-tradition-20261027"></a>
 ### S3跨章术语身份组／S4／S5／S6：威尼斯绘画传统（2026-10-27）
 

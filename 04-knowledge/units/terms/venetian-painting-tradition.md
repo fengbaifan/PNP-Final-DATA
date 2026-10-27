@@ -66,6 +66,18 @@ sources:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/15_CHP-15_sec_i.md
       source_span: lines 27–36; print p. 363
+  - citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006).'
+    location: 第8章，印刷页231，PDF物理页33，来源转录 L241–242
+    sentence_summary: Haskell称费迪南德在提香、委罗内塞和巴萨诺的作品中看到一种绘画传统，并说该传统长期被视为伟大的佛罗伦萨文艺复兴的对立面；费迪南德希望使这一传统复兴。
+    original_quotes:
+      - source_span: lines 241–242; print p. 231
+        text: |-
+          In the masterpieces of Titian, Veronese and Bassano which filled the palaces of his hosts he saw a tradition of painting which had long been considered the antithesis to the great
+          Florentine Renaissance. Ferdinand, like many other lively spirits of the early years of the eighteenth century, was seduced by this tradition and longed to make it live again.
+    evidence_ref:
+      doc_id: patrons-and-painters
+      source_file: 02-sources/02-Markdown/08_CHP-8_sec_ii.md
+      source_span: lines 241–242; print p. 231; PDF physical p. 33
 created: '2026-10-27'
 updated: '2026-10-27'
 process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp10-p283-venetian-painting-tradition-20261027
@@ -75,9 +87,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本条目记录哈斯克尔跨第4、6、7、8、10章对“Venetian painting／Venetian tradition”的相关用法：第4章称罗马鉴赏家帮助开启对威尼斯绘画的风尚；第6章称 Pierfrancesco Mola 为威尼斯传统的“最真实继承者”；第7章将威尼斯绘画与罗马绘画并列为蒙特雷所欣赏的对象；第8章记 Gabbiani 宣称依恋威尼斯绘画，并以“Venetian painterly quality”描述库克肖像；第10章称凡·戴克与鲁本斯都对威尼斯绘画有所承继。这里仅保留哈斯克尔的书内用法，不指定具体画作、传播路径、固定成员或统一风格属性；与罗马绘画传统、当代威尼斯绘画、威尼斯绘画与雕塑的合称、威尼斯城市及威尼斯画家集合分别区分。[第4章 p.105](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md#L82)；[第6章 p.161](../../../02-sources/02-Markdown/06_CHP-6_sec_iv.md#L53)；[第7章 p.172](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md#L301)；[第8章 pp.233–234](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md#L275)；[第10章 p.283](../../../02-sources/02-Markdown/10_CHP-10_intro.md#L153)
+**中文：** 本条目记录哈斯克尔跨第4、6、7、8、10章对“Venetian painting／Venetian tradition”的相关用法：第4章称罗马鉴赏家帮助开启对威尼斯绘画的风尚；第6章称 Pierfrancesco Mola 为威尼斯传统的“最真实继承者”；第7章将威尼斯绘画与罗马绘画并列为蒙特雷所欣赏的对象；第8章 p.231 记费迪南德在提香、委罗内塞和巴萨诺的作品中看到一种绘画传统，并希望其复兴；第8章 pp.233–234 记 Gabbiani 宣称依恋威尼斯绘画，并以“Venetian painterly quality”描述库克肖像；第10章称凡·戴克与鲁本斯都对威尼斯绘画有所承继。这里仅保留哈斯克尔的书内用法，不指定具体画作、传播路径、固定成员或统一风格属性；与罗马绘画传统、当代威尼斯绘画、威尼斯绘画与雕塑的合称、威尼斯城市及威尼斯画家集合分别区分。[第4章 p.105](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md#L82)；[第6章 p.161](../../../02-sources/02-Markdown/06_CHP-6_sec_iv.md#L53)；[第7章 p.172](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md#L301)；[第8章 p.231](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md#L241)；[第8章 pp.233–234](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md#L275)；[第10章 p.283](../../../02-sources/02-Markdown/10_CHP-10_intro.md#L153)
 
-**English:** This unit records Haskell’s related uses of “Venetian painting” and “Venetian tradition” across Chapters 4, 6, 7, 8, and 10. He credits Roman connoisseurs with helping launch a vogue for Venetian painting; calls Pierfrancesco Mola the “most genuine heir” to the Venetian tradition; pairs Venetian with Roman painting among the traditions admired by Monterey; reports Gabbiani’s attachment to Venetian painting and describes a Cook portrait’s “Venetian, ‘painterly’ quality”; and says Van Dyck and Rubens owed a debt to Venetian painting. The unit preserves these book-level usages without identifying particular works, a transmission route, fixed membership, or one style profile. It distinguishes the tradition from Roman painting, contemporary Venetian painting, the broader field of painting and sculpture, the city of Venice, and a collective of Venetian painters. [Chapter 4, p.105](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md#L82); [Chapter 6, p.161](../../../02-sources/02-Markdown/06_CHP-6_sec_iv.md#L53); [Chapter 7, p.172](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md#L301); [Chapter 8, pp.233–234](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md#L275); [Chapter 10, p.283](../../../02-sources/02-Markdown/10_CHP-10_intro.md#L153)
+**English:** This unit records Haskell’s related uses of “Venetian painting” and “Venetian tradition” across Chapters 4, 6, 7, 8, and 10. He credits Roman connoisseurs with helping launch a vogue for Venetian painting; calls Pierfrancesco Mola the “most genuine heir” to the Venetian tradition; pairs Venetian with Roman painting among the traditions admired by Monterey; reports Ferdinand’s perception of a painting tradition in works by Titian, Veronese, and Bassano and his wish to revive it; reports Gabbiani’s attachment to Venetian painting and describes a Cook portrait’s “Venetian, ‘painterly’ quality”; and says Van Dyck and Rubens owed a debt to Venetian painting. The unit preserves these book-level usages without identifying particular works, a transmission route, fixed membership, or one style profile. It distinguishes the tradition from Roman painting, contemporary Venetian painting, the broader field of painting and sculpture, the city of Venice, and a collective of Venetian painters. [Chapter 4, p.105](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md#L82); [Chapter 6, p.161](../../../02-sources/02-Markdown/06_CHP-6_sec_iv.md#L53); [Chapter 7, p.172](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md#L301); [Chapter 8, p.231](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md#L241); [Chapter 8, pp.233–234](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md#L275); [Chapter 10, p.283](../../../02-sources/02-Markdown/10_CHP-10_intro.md#L153)
 
 ### 名称
 
@@ -102,6 +114,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 | 来源实例 | 第8章：Gabbiani 宣称依恋威尼斯绘画 | S4；印刷页233 L275 |
 | 来源实例 | 第8章：库克肖像被描述为具有“Venetian, ‘painterly’ quality” | S4；印刷页234 L287 |
 | 来源实例 | 第10章：Van Dyck 与 Rubens 都对威尼斯绘画有所承继 | S5；印刷页283 L153–154 |
+| 来源实例 | 第8章：费迪南德在提香、委罗内塞和巴萨诺的作品中看到一种绘画传统，并希望该传统复兴 | S7；印刷页231 L241–242 |
 
 ### 术语范围与边界
 
@@ -115,3 +128,4 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 |---|---|---|
 | ← influenced（`influenced`，反向投影） | [安东尼·范·戴克（Anthony van Dyck）](../persons/van-dyck.md) | S6 formal; joint source sentence is represented as one edge for each named artist.；角色：Haskell's account of artistic influence；范围：Haskell says Van Dyck owed a debt to Venetian painting; no specific work, transmission route, or style component is identified. This records the author's broad art-historical judgment only.；原断言与证据见发出端卡片“安东尼·范·戴克（Anthony van Dyck）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p. 283, lines 153–154; statement=st-chp10-p283-van-dyck-debt-to-venetian-painting |
 | ← influenced（`influenced`，反向投影） | [彼得·保罗·鲁本斯（Peter Paul Rubens）](../persons/peter-paul-rubens.md) | S6 formal; joint source sentence is represented as one edge for each named artist.；角色：Haskell's account of artistic influence；范围：Haskell says Rubens owed a debt to Venetian painting; no specific work, transmission route, or style component is identified. This records the author's broad art-historical judgment only.；原断言与证据见发出端卡片“彼得·保罗·鲁本斯（Peter Paul Rubens）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p. 283, lines 153–154; statement=st-chp10-p283-rubens-debt-to-venetian-painting |
+| ← influenced（`influenced`，反向投影） | [托斯卡纳大公子费迪南多（Grand Prince Ferdinand of Tuscany）](../persons/ferdinand-grand-prince-tuscany.md) | Haskell's source-level interpretation only.；角色：Haskell's account of aesthetic attraction and revival intent；范围：This records Haskell's interpretation that Ferdinand was seduced by the Venetian painting tradition and wished to revive it; it does not assert a completed commission, a specific work, or a documented transmission path.；原断言与证据见发出端卡片“托斯卡纳大公子费迪南多（Grand Prince Ferdinand of Tuscany）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 231, lines 241–242; statement=st-chp8-p231-ferdinand-seduced-by-venetian-tradition |
