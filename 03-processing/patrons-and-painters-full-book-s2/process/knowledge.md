@@ -16660,3 +16660,18 @@ S4 本批复用1个既有 place KU，不新增 KU。S5 `no_delta`：既有地点
 定向预览后渲染七张新 archive 卡、Haskell 书卡、Mario Minnitti 卡与 Giovanni Bottari 卡，共10张；renderer 预检 `cards=10`、`projected_relation_rows=362`、`files_to_write=10`，写后字节核验通过。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic=0`。
 
 批后 S2 仍为15,448 statements／26,870 mentions，统一独立复核仍为9,617条（62.25%，未接收）；S3决定不变。S4映射2,438/5,088条 `new`，尚有2,650条待映射；KU共3,219。S5仍为14,463条字段，其中1,627条 `unverified`。S6裁决1,876/10,659（1,112 formal、636 pending、128 rejected），未裁决8,783；`relations.csv`共2,410行（2,373 formal、37 pending）。至少缺一个S2端点候选ID的statement仍337条；backlog仍54项（14 completed、40 undecided，严格审计pending=0）。本批未改变S2独立复核分子、S3决定、S5字段或 backlog。
+
+
+### S3-S4-S5-S6-chp2-p426-domenico-isnello-study-20261027
+
+**批次目标与触发。** 从未映射的关系直接端点中处理第2章p.42注1所指、并在第21章书目著录的《Il convento della Santissima Concezione de’ Padri Cappuccini in Piazza Barberini di Roma》。`cand-4581`已有S3 `new` archive组；其`authored_by`端点`cand-4536`此前为`undecided`，因本次端点登记需要完成身份核对而定点重开S3。
+
+**S3身份判断。** 对照第2章注1 L191及其续文L139、第21章书目p.426 L633–634，脚注中的“P. Domenico da Isnello”与完整题名“Isnello, P. Domenico da”指向同一书目责任者形式；当前人物KU中无同名同类型对象。ICCU Biblioteca Vallicelliana历史作者目录列有“Domenico (P.) da Isnello”词头，但对应详情页在本次检索中无法打开；Treccani《意大利人传记辞典》Casoni条目书目也列出此书。两者仅用于核对姓名形式／书目线索，不推定生卒、完整俗名或权威标识。故将`cand-4536`由`undecided`改为来源限定`new`组`new-person:domenico-da-isnello`；旧待决理由和本次触发均保留在alignment决议中。外部记录：[ICCU作者目录](https://cataloghistorici.bdi.sbn.it/int_catalogo.php?IDCAT=101&IDGRP=1010004&LEVEL=&OB=PAGINA_ID%2CID&OM=&PADRE=&PR=Tutti)，[Treccani DBI Casoni条目](https://www.treccani.it/enciclopedia/antonio-casoni_%28Dizionario-Biografico%29/)。
+
+**S4登记。** `cand-4581`沿用`archive-group-5e82dd7f11eb`映射到`units/archives/domenico-da-isnello-convento-santissima-concezione-1923`；`cand-4536`映射到`units/persons/p-domenico-da-isnello`。两张卡加入`accepted.yml`及`ku-manifest.csv`。文献卡只登记Haskell书目所载类型、原题名、出版地Viterbo和年份1923；原书、具体版本、出版者、馆藏和全文均未独立核查。
+
+**S5补足。** 新增5条source-backed字段：文献4项（文献类型、原题名、出版地、出版年），人物1项（原文姓名）。均回指Haskell第21章书目；未将ICCU目录页当作个人生平或稳定标识来源。
+
+**S6裁决。** `st-chp2-secii-l147-193-domenico-study-cross-segment`逐项formal为`rel-2411 authored_by`（ archive→person ）。关系范围限于Haskell的脚注及书目责任归属，不表示本项目读过该1923年出版物，也不补写作者生平。
+
+**复核。** S2 statements、mentions及统一独立复核覆盖不变。严格表审计：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；backlog pending=0。关系一致性：broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic evidence-backed=0。两张卡定向渲染写入并通过写后字节核验，随后分别预览均无差异。

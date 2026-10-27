@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-27）
 
+**本批完成：第2章p.42注1／第21章p.426《Il convento della Santissima Concezione》作者端点（2026-10-27）。** `cand-4581`沿用既有archive `new`组完成S4；关联作者`cand-4536`由`undecided`在登记触发下重开为来源限定person `new`组并登记KU。新增5条Haskell书目支持的S5字段；1项S6候选formal为`rel-2411 authored_by`，范围仅限Haskell书目归属。ICCU作者目录只核对名称词头，详情记录未打开；不补作者生平或稳定authority ID。两张关系端点卡定向渲染并复预览无差异；S2内容和统一复核分子未变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-p426-domenico-isnello-study-20261027)。
+
 **本批完成：第8章 p.238 Filza 5904 档案组。** `cand-8040`案卷定位、`cand-8038` No.475来信底稿及`cand-8039` No.272来信均沿用各自既有S3 `new`身份组，登记3个来源限定archive KU；S5新增7条Haskell书内来源字段。4条S2关系候选逐条裁为2 formal、2 pending；formal关系为`rel-2392`–`rel-2393`，另记录No.272的书目引用与案卷定位边`rel-2394`–`rel-2395`，不把“来信报告返程”升级为人物事实。4张受影响卡渲染并复预览无差异；S2 statements、mentions及独立复核分子未变。批后S4映射2,425/5,089；S6裁决1,855/10,653。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`，关系一致性五类阻断均为0。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch8-p238-filza-5904-20261027)。
 
 **本批完成：第6章 p.146注2、第7章 p.169注2及第21章书目的Haskell 1959年文章跨章对齐。** `cand-6606`由`undecided`定点复核为`same`，复用`cand-6240`已登记的文章组；`cand-9423`复用Francis Haskell人物KU。新增来源限定archive KU `units/archives/haskell-market-for-italian-art-1959`，依据书目与短引文完成S5三字段，并为两处`cites`及文章`authored_by`登记`rel-2389`–`rel-2391`。新增1条书内作者statement及1条mention；文章原文未查。严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp6-chp7-haskell-1959-article-20261027)。
@@ -3660,20 +3662,20 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
 | S2 | 15,448 statements、26,870 mentions；统一独立复核9,617/15,448（62.25%） | 尚未独立接收；5,831条未进入当前统一复核分子，不等同连续待审游标。最近的S. Stefano批次新增1条statement并修订1条既有statement，均未计入统一复核分子；本批S2无变化。 |
-| S3 | 主决定12,432/12,432（100%）：same 2,104、new 5,088、conflict 9、excluded 106、undecided 5,125 | 100%仅指主行均有决定值，仍有5,125项undecided。另有28个候选的35条来源限定记录与主行决定不同；cand-2328的Princeton来源记录aln-12663仍未决。new组扫描随本批移除1个已复用地点组后为5,009条可解析、79条缺组（person 31、archive 41、work 4、place 3），14条注记含多个组字符串；按首个显式group计4,775个标签。 |
-| S4 | new候选已映射2,438/5,088（47.92%）；待映射2,650，其中直接关系端点978、其他1,672；KU共3,219 | 本批登记7个archive直接端点；剩余端点按跨章身份风险、来源锚点、S6解锁量及关系类型域／值域兼容性排序。 |
-| S5 | 14,463条字段，1,627条unverified | 最近批次未增加字段；仅在身份区分、关系端点解释或作品版本判断需要且有可靠来源时补录。 |
-| S6 | 已裁决1,876/10,659（17.60%）：formal 1,112、pending 636、rejected 128；尚余8,783 | 本批7项均formal；其他待证项继续保留证据缺口与重开条件，不以建立关系边为目标。 |
-| 正式关系表 | 2,410行：2,373 formal、37 pending | 最新新增`rel-2404`–`rel-2410`；pending关系仍逐条保留理由和解除条件。 |
+| S3 | 主决定12,432/12,432（100%）：same 2,104、new 5,089、conflict 9、excluded 106、undecided 5,124 | 100%仅指主行均有决定值，仍有5,124项undecided。另有28个候选的35条来源限定记录与主行决定不同；cand-2328的Princeton来源记录aln-12663仍未决。new组扫描随本批新增1个来源限定person组后为5,010条可解析、79条缺组（person 31、archive 41、work 4、place 3），14条注记含多个组字符串；按首个显式group计4,776个标签。
+| S4 | new候选已映射2,440/5,089（47.95%）；待映射2,649，其中直接关系端点977、其他1,672；KU共3,221 | 本批登记1个archive与1个人物直接端点；剩余端点按跨章身份风险、来源锚点、S6解锁量及关系类型域／值域兼容性排序。
+| S5 | 14,468条字段，1,627条unverified | 本批新增5条Haskell书目支持的字段；继续优先处理身份区分、关系端点解释或作品版本判断所需字段。
+| S6 | 已裁决1,877/10,659（17.61%）：formal 1,113、pending 636、rejected 128；尚余8,782 | 本批1项候选formal为rel-2411；其他待证项继续保留证据缺口与重开条件，不以建立关系边为目标。
+| 正式关系表 | 2,411行：2,374 formal、37 pending | 最新新增`rel-2411`；pending关系仍逐条保留理由和解除条件。
 | 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 54条（14 completed、40 undecided） | 严格审计backlog pending=0；缺端点与backlog逐项记录来源、阻断原因和重开条件。 |
 
 S3 undecided候选与S4未映射直接关系端点的类型分布：
 
 | 类型 | S3 undecided | S4未映射的直接关系端点 |
 |---|---:|---:|
-| person | 1,049 | 1 |
+| person | 1,048 | 1 |
 | work | 1,569 | 157 |
-| archive | 669 | 129 |
+| archive | 669 | 128 |
 | term | 660 | 416 |
 | place | 302 | 146 |
 | institution | 117 | 53 |
@@ -3681,7 +3683,7 @@ S3 undecided候选与S4未映射直接关系端点的类型分布：
 | family | 18 | 0 |
 | procedure | 2 | 0 |
 | 类型尚未确定 | 626 | 0 |
-| **合计** | **5,125** | **978** |
+| **合计** | **5,124** | **977** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。另有零关系KU及超50连接对象属于非阻断诊断。结构通过不等于S2独立语义接收。当前S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面仍等待用户明确启动。
 
