@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-28）
 
+**本批完成：第7章 p.201 Lower Belvedere 地点端点。** `bl-0026`据Haskell对Upper／Lower Belvederes的并列记载及Belvedere object 3013 `Standort`字段，新增单体地点候选`cand-12455`并登记KU；不与既有“两座Belvederes”集合合并。S5新增1条Haskell来源字段`enr-18530`；对象3013的目录地点关系新增`rel-2482 located_at`（external、formal），不延伸为当前展陈或具体房间断言。定向卡片预览、字段复预览、严格表审计与关系一致性审计通过；S2未变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-p201-lower-belvedere-endpoint-20261028)。
+
 **本批完成：第7章 p.196 图版29 Verrio 壁画跨章身份复用与 S6 裁决。** `cand-2763`、`cand-7213`经正文“(Plate 29)”与图版目录标题交叉核对，触发S3定点复核并改为`same`，均映射至既有Verrio楼梯壁画KU；未新建对象。S5新增1条来源字段`enr-18529`。两条关系候选均有去向：William III题材关系`rel-2480 has_subject` formal；Shaftesbury参与多幅壁画方案的推测`rel-2481 designed_by` pending。卡片字段与关系投影定向渲染并复预览无差异；严格表审计与关系一致性阻断均为0。批后12,432个候选均有S3决定；其中5,118项仍为`undecided`，另有28个候选的35条来源限定决定与候选级决定不同，故S3语义尚未收口。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-plate29-verrio-reconciliation-20261028)。
 
 **本批完成：第3章 p.72 Domenichino 穹隅四福音书作者像及 S3 索引候选归组。** `cand-5066`沿用`workgrp-7a7cc80a0bb94c`并登记作品KU；索引作品候选`cand-1661`依据第15章p.362正文题名与地点匹配`cand-10437`，并入其同一来源限定`new`组`workgrp-115824c7c6bcea`，待S4登记。第3章Michelangelo artist mention及关系statement端点从误挂的work候选`cand-1661`改指已复用人物KU的`cand-1660`；当前statement版本待独立差异复核，不计入S2台账。新增4条Haskell书内S5字段；两条S6分别formal为`rel-2468 created_by`与`rel-2469 influenced_by`，明确仅记录Haskell的创作者归属与艺术史解释，未作外部事实核验。新卡定向渲染、写后字节核验通过，复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp3-p72-domenichino-evangelist-figures-20261028)。
@@ -3730,12 +3732,12 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
 | S2 | 15,469 statements、26,872 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。p.57注3批次修订一条当前statement版本并新增原子创作者statement；p.326批次新增6条、修订现有statement；p.72批次修订Michelangelo艺术家端点；p.39批次修订雇用、设计statement并新增地点和生涯评价statement；以上当前版本均未计入台账。p.189五条已复核；p.162两条已差异复核但未并入台账；第7章p.192 i01、i27待独立差异复核；第13章收据—卷册、拱顶—祭坛席statement仍待复核；第10章p.281七条、p.384五条及p.286一条当前版本仍待差异复核。 |
-| S3 | 按候选ID计12,432/12,432均有决定：same 2,112、new 5,087、conflict 9、excluded 106、undecided 5,118 | 12,407项有`external_source`为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。另有28个候选的35条来源决定与候选级决定不同；决定行覆盖完整不等于语义收口。 |
-| S4 | new候选已映射2,483/5,087；待映射2,604，其中直接关系端点939、其他1,665；KU共3,263 | 直接端点队列按候选级决定重算：term 404、place 143、archive 125、work 142、event 74、institution 50、person 1。 |
-| S5 | 14,615条字段，1,627条unverified | p.91批次新增3条、图版29批次新增1条Haskell来源字段；全书尚有字段待证。 |
+| S3 | 按候选ID计12,433/12,433均有决定：same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118 | 12,408项有`external_source`为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。另有28个候选的35条来源决定与候选级决定不同；决定行覆盖完整不等于语义收口。 |
+| S4 | new候选已映射2,484/5,088；待映射2,604，其中直接关系端点939、其他1,665；KU共3,264 | 直接端点队列按候选级决定重算：term 404、place 143、archive 125、work 142、event 74、institution 50、person 1。 |
+| S5 | 14,616条字段，1,627条unverified | p.91批次新增3条、图版29批次新增1条Haskell来源字段；本批新增1条Haskell来源字段；全书尚有字段待证。 |
 | S6 | 裁决记录1,991项：formal 1,178、pending 681、rejected 132；当前relation_candidate=true为10,672条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | 图版29批次新增1项formal、1项pending；历史裁决台账和statement版本差异仍待核平。 |
-| 正式关系表 | 2,480行：2,440 formal、40 pending | 图版29批次新增`rel-2480`–`rel-2481`。 |
-| 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 58条（14 completed、44 undecided） | 严格审计backlog pending=0；`bl-0058`记录未识别Montesquieu作品的待证条件。 |
+| 正式关系表 | 2,481行：2,441 formal、40 pending | 图版29批次新增`rel-2480`–`rel-2481`；本批新增`rel-2482`。 |
+| 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 58条（15 completed、43 undecided） | 严格审计backlog pending=0；`bl-0058`记录未识别Montesquieu作品的待证条件。 |
 
 S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按类型分布。直接端点按当前`relation_candidate=true`语句的 subject/object candidate ID 去重；S4列仅计`new`且尚未映射 KU 的候选。
 

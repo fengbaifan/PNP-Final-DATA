@@ -1,5 +1,16 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp7-p201-lower-belvedere-endpoint-20261028"></a>
+### S3/S4/S5/S6：第7章 p.201 Lower Belvedere 地点端点（2026-10-28）
+
+**触发与S3身份裁决。** backlog `bl-0026`指向Belvedere object 3013 的地点字段。Haskell第7章印刷页201 L46–50（PDF物理页43）将 Upper 与 Lower Belvederes 分别列为意大利画家绘制壁画的地点；馆方 object 3013 的 `Standort` 字段标为 `Unteres Belvedere`，并于本日复查。故新增地点候选`cand-12455`并裁为`new`单体地点组，不复用表示两座建筑集合的`cand-7307`；不推断具体房间、单件壁画或当前展陈位置。
+
+**S4与S5。** `cand-12455`登记为[下贝尔维德宫地点KU](../../../04-knowledge/units/places/lower-belvedere-vienna.md)，新增`enr-18530`记录Haskell所述的壁画绘制语境，原文并未逐项分配画家或作品到其中一座建筑。作品KU已有馆藏目录地点字段，本批不增补其S5字段。英文地点介绍页访问返回403，本批未据此写入建筑年代或建筑史字段。
+
+**S6与backlog。** 新增`rel-2482 located_at`（`external`、`formal`），仅表达 object 3013 的`Standort`字段将该作品列在 Unteres Belvedere；不表示当前展厅、房间或本次访问时作品在场。`bl-0026`由`undecided`改为`completed`，候选与KU明确回链。本批不改S2 statement、mention或独立复核台账。
+
+**投影与核验。** 地点卡预览仅显示预期反向`location_of`投影；作品卡预览仅显示新增`located_at`边，未见其他差异。`build_field_facts.py`复预览：`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。严格表审计：KU=3,264、候选=12,433、new待登记=2,604、S5=14,616（1,627条`unverified`）、relations=2,481（2,441 formal）、backlog=58（pending=0）、`s2_missing=[]`、`errors=[]`；关系一致性五类阻断均为0。S2仍为15,469 statements／26,872 mentions，台账仍9,622条且ID与来源版本未核平；S3候选级决定总数12,433，new=5,088；S4映射2,484/5,088，直接关系端点待映射939；本批不改变S6语句候选裁决台账1,991项。
+
 <a id="s3-s4-s5-s6-chp7-plate29-verrio-reconciliation-20261028"></a>
 ### S3/S4/S5/S6：第7章 p.196 图版29 Verrio 壁画身份复用与端点裁决（2026-10-28）
 
