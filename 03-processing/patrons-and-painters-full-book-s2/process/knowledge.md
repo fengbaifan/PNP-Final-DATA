@@ -17332,3 +17332,23 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 **投影与审计。** 新卡包含3行字段和2条关系投影；定向预览无差异，渲染器预检通过且无待写文件。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断五项均为0。
 
 **批后状态。** S2、S3及独立复核分子无变化。S4已映射2,482/5,089条 `new` 候选，未映射2,607条，其中直接关系端点941、其他1,666；KU共3,262。S5字段14,611条（1,627 `unverified`）。S6裁决记录1,987项（formal 1,175、pending 680、rejected 132）；当前 `relation_candidate=true` 为10,672项，历史裁决台账与当前statement版本仍差1，不报告完成率。`relations.csv` 共2,476行（2,437 formal、39 pending）；缺至少一个S2端点候选ID的关系statement仍337条；backlog为58条（14 completed、44 undecided）。
+
+<a id="s4-s5-s6-chp3-p91-vandyck-ignatius-canonisation-picture-20261028"></a>
+### S4–S6 第3章 p.91 Van Dyck 圣依纳爵册封礼图像（2026-10-28）
+
+**S3身份与S4登记。** `cand-5400`沿用既有`new`决定和`workgrp-3ccf5ad12afead`，登记为[范戴克为圣依纳爵1622年册封礼所绘之图像](../../../04-knowledge/units/works/van-dyck-canonisation-picture-ignatius-1622.md)。不与已登记的圣方济各·沙勿略图像合并；不把描述性名称当作原题，也不推断明确题材、版本或现藏地。Van Dyck候选`cand-0960`已由`aln-1295`映射到人物KU；礼拜堂提及`m-chp3-seciv-l152-163-0029`（“this chapel”）沿用`cand-5236`及`units/places/gesu-chapel-st-ignatius`。本批未改变S3决定或重开身份组。
+
+**S5字段。** 新增3条Haskell书内`source_backed`字段（`enr-18526`–`enr-18528`）：描述性名称、作品类型和关联场合（1622年圣依纳爵册封）。Haskell未提供作品正式题名、明确描绘题材、版本或现藏地；卡片如实保留这些边界。
+
+**S6逐项裁决。** 两条直接关系候选均为formal，方向和证据范围各自记录：
+
+| S2关系候选 | 决定 | 去向与范围 |
+|---|---|---|
+| `st-chp3-seciv-l152-163-van-dyck-painted-canonisation-picture` | formal | `rel-2478 created_by`：作品 → Van Dyck。只记录Haskell对绘制者的表述；作者归属未经本批外部独立核验。 |
+| `st-chp3-seciv-l152-163-jesuits-placed-canonisation-picture-above-remains` | formal | `rel-2479 installed_at`：作品 → 耶稣堂圣依纳爵礼拜堂；时间限定为1622年册封语境。以同段“this chapel”提及和现有S3地点映射为端点依据；不表示现藏地，也不把遗骨作为独立关系端点。 |
+
+本批未修改S2 statement、mention及独立复核台账；未改写候选`cand-5220`的未定类型状态。
+
+**投影与审计。** 单卡定向预览显示3条字段和2条formal关系投影；定向渲染1卡、1张表、3行字段和2条关系投影，写后字节核验通过，复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。
+
+**批后状态。** S2、S3及独立复核分子无变化。S4已映射2,483/5,089条`new`候选，未映射2,606条，其中直接关系端点940、其他1,666；KU共3,263。S5字段14,614条（1,627 `unverified`）。S6裁决记录1,989项（formal 1,177、pending 680、rejected 132）；当前`relation_candidate=true`为10,672项，历史裁决台账与当前statement版本仍差1，不据此报告完成率。`relations.csv`共2,478行（2,439 formal、39 pending）；缺至少一个S2端点候选ID的关系statement仍337条；backlog仍为58条（14 completed、44 undecided）。

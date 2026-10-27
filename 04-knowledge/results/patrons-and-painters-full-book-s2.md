@@ -3722,15 +3722,17 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 
 **2026-10-28完成：第4章 p.97 Paolo Giordano II 肖像奖章端点。** 沿用 `cand-5549` 的既有 `new`组并登记work KU；新增3条Haskell来源字段。`rel-2476 has_subject` formal记录Paolo Giordano II为被表现者；原文以“perhaps”限定Giulio della Greca的制作归属，`rel-2477 created_by` 保留pending。奖章与同段后文的大理石胸像组区分，描述性卡名不当作原题。定向预览无差异，渲染器预检通过；严格表审计及关系一致性阻断均为0。S2和独立复核分子未变化，未独立核验奖章实物或目录身份。
 
+**2026-10-28完成：第3章 p.91 Van Dyck 圣依纳爵册封礼图像端点。** 沿用`cand-5400`既有`new`身份组，新登记1个work KU，新增3条Haskell书内字段；`rel-2478 created_by`与`rel-2479 installed_at`均formal，后者限定于1622年历史安置。原书未提供原题、明确描绘题材、版本或现藏地；S2与S3未改。定向卡片渲染、严格表审计及关系一致性审计通过；详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-p91-vandyck-ignatius-canonisation-picture-20261028)。
+
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
 | S2 | 15,469 statements、26,872 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。p.57注3批次修订一条当前statement版本并新增原子创作者statement；p.326批次新增6条、修订现有statement；p.72批次修订Michelangelo艺术家端点；p.39批次修订雇用、设计statement并新增地点和生涯评价statement；以上当前版本均未计入台账。p.189五条已复核；p.162两条已差异复核但未并入台账；第7章p.192 i01、i27待独立差异复核；第13章收据—卷册、拱顶—祭坛席statement仍待复核；第10章p.281七条、p.384五条及p.286一条当前版本仍待差异复核。 |
 | S3 | 主决定12,432/12,432（100%）：same 2,110、new 5,089、conflict 9、excluded 106、undecided 5,118 | 100%仅指每个候选都有主决定行，不等于语义收口；5,118项仍undecided。另有28个候选的35条来源限定记录与主行决定不同；cand-2328/aln-12663保持undecided并有重开条件。身份组覆盖仍需按有效决定核对：当前77条new主行缺可解析组、14条注记含多个组字符串；不能仅凭历史注记自动归组。 |
-| S4 | new候选已映射2,482/5,089；待映射2,607，其中直接关系端点941、其他1,666；KU共3,262 | p.39地点与工程、p.83穹隅人物组、p.42青铜像及p.97奖章已登记；直接端点队列按当前S2候选重新计算。 |
-| S5 | 14,611条字段，1,627条unverified | p.97批次新增3条Haskell来源字段；全书尚有字段待证。 |
-| S6 | 裁决记录1,987项：formal 1,175、pending 680、rejected 132；当前relation_candidate=true为10,672条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | p.97批次新增1项formal、1项pending；历史裁决台账和statement版本差异仍待核平。 |
-| 正式关系表 | 2,476行：2,437 formal、39 pending | p.97批次新增`rel-2476`–`rel-2477`。 |
+| S4 | new候选已映射2,483/5,089；待映射2,606，其中直接关系端点940、其他1,666；KU共3,263 | p.39地点与工程、p.83穹隅人物组、p.42青铜像、p.97奖章及p.91册封礼图像已登记；直接端点队列按主决定行重新计算。 |
+| S5 | 14,614条字段，1,627条unverified | p.91批次新增3条Haskell来源字段；全书尚有字段待证。 |
+| S6 | 裁决记录1,989项：formal 1,177、pending 680、rejected 132；当前relation_candidate=true为10,672条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | p.91批次新增2项formal；历史裁决台账和statement版本差异仍待核平。 |
+| 正式关系表 | 2,478行：2,439 formal、39 pending | p.91批次新增`rel-2478`–`rel-2479`。 |
 | 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 58条（14 completed、44 undecided） | 严格审计backlog pending=0；`bl-0058`记录未识别Montesquieu作品的待证条件。 |
 
 S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按类型分布。直接端点按当前`relation_candidate=true`语句的 subject/object candidate ID 去重；S4列仅计`new`且尚未映射 KU 的候选。
@@ -3738,7 +3740,7 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 | 类型 | S3 undecided | S3未决直接关系端点 | S4未映射的直接关系端点 |
 |---|---:|---:|---:|
 | person | 1,047 | 422 | 1 |
-| work | 1,566 | 1,078 | 145 |
+| work | 1,566 | 1,078 | 143 |
 | archive | 668 | 289 | 125 |
 | term | 660 | 445 | 404 |
 | place | 302 | 128 | 143 |
@@ -3747,13 +3749,13 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 | family | 18 | 13 | 0 |
 | procedure | 2 | 2 | 0 |
 | 类型尚未确定 | 626 | 471 | 0 |
-| **合计** | **5,118** | **2,994** | **942** |
+| **合计** | **5,118** | **2,994** | **940** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。另有零关系KU及超50连接对象属于非阻断诊断。结构通过不等于S2独立语义接收。当前S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面仍等待用户明确启动。
 
 #### 后续工作顺序
 
-1. **按关系解锁价值和证据成熟度推进 S4 直接端点。** 当前待映射new候选2,607项，其中直接关系端点941项；先选另一端已映射、来源角色明确且可一次解除多条关系阻断的对象组。按类型滚动重算队列：work 144、term 404、place 143、archive 125、event 74、institution 50、person 1。数量用于排队，不替代逐对象的证据判断。
+1. **按关系解锁价值和证据成熟度推进 S4 直接端点。** 当前待映射new候选2,606项，其中直接关系端点940项；先选另一端已映射、来源角色明确且可一次解除多条关系阻断的对象组。按类型滚动重算队列：work 143、term 404、place 143、archive 125、event 74、institution 50、person 1。数量用于排队，不替代逐对象的证据判断。
 2. **在当前端点触发范围内复核 S3 身份组。** `same`须唯一映射既有KU；`new`须有稳定组并登记或写清阻断；`conflict`保留两侧证据；`excluded`记录理由；`undecided`列出待证对象、缺证点和重开条件。遇到类型未定的关系端点时，按证据定类或保留未定。全书另有9项conflict（6项直接端点）、28个候选的35条来源限定决定与主行不同、77条new主行缺可解析组、14条注记含多个组字符串；逐批触及时定点核平，后续用受控全量扫描检查残留，不据名称相似度自动归组。`cand-2328`无新证据时继续保持`undecided`。
 3. **每批联动S5、S6并记录关系缺口。** 只补影响身份、版本、角色、时间、地点判断的关键字段；对应每条关系候选明确formal、pending或rejected。当前337条关系statement至少缺一个S2端点候选ID，backlog 58条（44条undecided）；按已采纳内容和关系所需定向补端点，不用不支持的谓词或未分类对象强行闭合。
 4. **核平S2独立复核台账并继续章次审读。** 15,469条statement对应的统一台账记录9,622条，但ID与版本尚未核平，不能把差额当作待审游标或精确覆盖率。先绑定既有逐条意见与当前statement版本，再处理p.192、第13章收据—卷册及拱顶—祭坛席statement，并复核p.281七条、p.384五条、p.286一条及p.72、p.39等批次中修订或新增的当前版本。S2未独立接收前不增加复核分子。
