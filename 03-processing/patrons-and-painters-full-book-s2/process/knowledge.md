@@ -1,5 +1,24 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp10-p283-venetian-painting-tradition-20261027"></a>
+### S3跨章术语身份组／S4／S5／S6：威尼斯绘画传统（2026-10-27）
+
+**S3身份组与S4登记。** `cand-5756`／`aln-5937`原为S3 `new`术语组`sg3-term-cand-5756`，出自第4章 p.105 的“vogue for Venetian painting”；其既有提及还包括第6章 p.161 的“Venetian tradition”、第7章 p.172 的Monterey品味，以及第8章 pp.233–234 对Gabbiani依恋威尼斯绘画与库克肖像“Venetian, ‘painterly’ quality”的叙述。第10章 p.283 `cand-12112`／`aln-12275`所记Van Dyck与Rubens对Venetian painting的“debt”指向同一广义艺术史传统；两候选保留各自S3 `new`决定，并共用身份组`sg3-term-cand-5756`。`cand-12112`原组`sg3-term-cand-12112`作为历史去向保留在其裁决注记中。两条映射均登记至[威尼斯绘画传统术语卡](../../../04-knowledge/units/terms/venetian-painting-tradition.md)。第7章 p.172 的`cand-7014`指Roman painting，不因同句并列而合并；第10章 p.295、p.297 的 contemporary Venetian painting、以及第15章 p.363 的 Venetian painting and sculpture 亦保持范围区分。未指认具体画作、固定流派边界或传递路径。
+
+**S5来源字段。** 卡片以Haskell书内原文记录术语词形、描述性定义和概念边界，并列出第4、6、7、8、10章六处来源实例；第15章 p.363 用于区分更宽的“painting and sculpture”表达。`build_field_facts.py --ku units/terms/venetian-painting-tradition`预览9条`source_backed`字段（`enr-18462`–`enr-18470`）、0条`unverified`、0警告；应用后复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。无外部核验或外部来源字段。
+
+**S6逐项裁决。** 对三个直接关系候选逐条给出去向：
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp6-p161-mola-heir-venetian-tradition` | pending（process-only） | Haskell称Mola为威尼斯传统“最真实的继承者”，这是关于继承／延续传统的评价性表述。当前受控谓词没有忠实表达person→term的传统继承关系；改写为`influenced_by`会把继承评价压成直接影响，故不写正式关系行。若将来有忠实谓词或支持直接影响的新证据，再重开。 |
+| `st-chp10-p283-van-dyck-debt-to-venetian-painting` | formal | 新增`rel-2457 influenced_by`，Van Dyck → 威尼斯绘画传统。范围限于Haskell关于其对该传统有所承继的概括性艺术史判断；不指定作品、传递路径或具体风格因素。 |
+| `st-chp10-p283-rubens-debt-to-venetian-painting` | formal | 新增`rel-2458 influenced_by`，Rubens → 威尼斯绘画传统；与Van Dyck分别建边，保留原文对两位艺术家的共同归述及相同限制。 |
+
+**渲染与核验。** 术语卡、Van Dyck卡、Rubens卡定向渲染及复预览均无剩余差异；S5复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。严格表审计：`kus=3,248`、`candidates=12,432`、`alignments=12,782`、`alignment_new_pending_registration=2,620`、`candidate_backlog_pending=0`、S5字段`14,556`（1,627 `unverified`）、`relations=2,457`、`s2_missing=[]`、`errors=[]`。关系一致性五类阻断均为0。
+
+批后状态：S2为15,461 statements／26,872 mentions，统一独立复核台账仍记9,622条且ID／来源版本未核平，本批不改statement／mention或复核分子。S3主决定12,432项（same 2,109、new 5,088、conflict 9、excluded 106、undecided 5,120）；两候选均保持new。S4已映射2,468/5,088条new候选，待映射2,620，其中直接关系端点952（term 406、work 151、archive 127、place 143、event 74、institution 50、person 1）、其他1,668；KU共3,248。S5字段14,556（1,627 `unverified`）。S6裁决记录1,959项（1,158 formal、672 pending、129 rejected）；当前`relation_candidate=true`为10,666条，历史裁决台账与当前statement版本仍差1项，不报告完成率。`relations.csv`共2,457行（2,420 formal、37 pending）。缺至少一个S2端点候选ID的关系statement仍337条；backlog 57条（14 completed、43 undecided，严格审计pending=0）。S2尚未接收，S7未启动。
+
 <a id="s4-s5-s6-ch10-powis-house-decoration-20261027"></a>
 ### S4/S5/S6：第10章 p.286 Powis House 装饰方案端点（2026-10-27）
 
