@@ -114,4 +114,6 @@ Wikipedia书目列Rhoda Eitel-Porter关于建筑装饰协作的研究、Richard 
 ## 关系与证据
 
 ### 关系记录
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [罗马圣母大殿祭坛席（Tribune of Santa Maria Maggiore in Rome）](tribune-of-santa-maria-maggiore-rome.md) | S6 formal: the source explicitly calls the space “the tribune of S. Maria Maggiore”; no claim is made about the proposed alteration being executed.；角色：Interior architectural space；范围：The source-named tribune of Santa Maria Maggiore; exact architectural boundaries and present fabric are not specified.；原断言与证据见发出端卡片“罗马圣母大殿祭坛席（Tribune of Santa Maria Maggiore in Rome）”：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_v.md)；haskell-1980-rev-ed；Chapter 6, printed p.162 L18; PDF physical p.17; statement=st-chp6-p162-tribune-part-of-santa-maria-maggiore |

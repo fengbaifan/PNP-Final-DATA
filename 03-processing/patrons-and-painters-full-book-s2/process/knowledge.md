@@ -17088,3 +17088,30 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 **写后核验与状态。** 新拱顶卡和`units/places/tribune-of-gesu.md`定向渲染，后者投影反向`contains`关系；两卡预览均无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、backlog pending=0；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。批次过程修正alignment note中未转义逗号引发的CSV字段错位；全表结构复核后无剩余CSV错误。
 
 批后状态：S2为15,452 statements／26,870 mentions；统一独立复核仍9,622/15,452（62.27%，未接收）。S3主决定12,432/12,432（same 2,106、new 5,089、conflict 9、excluded 106、undecided 5,122）。S4已映射2,449/5,089条new候选（48.12%）；待映射2,640，其中直接关系端点968、其他1,672；KU共3,230。S5字段14,498（1,627 unverified）。S6裁决1,899/10,665（formal 1,128、pending 642、rejected 129），尚余8,766；`relations.csv`共2,426行（2,389 formal、37 pending）。缺端点关系statement为337条；backlog为56条（14 completed、42 undecided；严格审计pending=0）。S7未启动。
+
+<a id="s4-s5-s6-chp6-p162-clement-ix-burial-scheme-20261027"></a>
+### S3–S6：第6章 p.162 克勉九世墓地方案与祭坛席端点（2026-10-27）
+
+**来源核对与触发式 S3。** 对照第6章印刷页162、PDF物理页17的页图与正文，原文称 Clement IX 拟改建 S. Maria Maggiore 的 tribune，为本人设置比同教堂西克斯图斯五世、保罗五世墓地更宏大的安葬地点；方案在其去世后被放弃。原文没有说明死亡导致方案中止，也没有说工程已开始或墓地建成。S4登记前，复核索引子项 cand-0712（C.csv#236，“S. Maria Maggiore”，索引页5、27、84、162）及既有 mention m-chp6-p162-v-023；它与现有罗马圣母大殿KU一致，故将 aln-1047 从 new 定点改为 same，复用 units/places/santa-maria-maggiore。该变化由本次直接端点登记触发；未进行全库 S3 重开。
+
+**S4 登记与身份边界。** 沿用既有 S3 new 决定与组，填写原有主 alignment 行，不新增重复 candidate/external-source 行：
+- cand-6496 / aln-6674 → units/events/clement-ix-proposed-burial-scheme-santa-maria-maggiore。记录来源所述的未实施方案，不创建已建成的墓碑作品；cand-6498 原 excluded 决定不变。
+- cand-12410 / aln-12573 → units/events/death-of-pope-clement-ix。只记录本页明确提及的死亡事件，不补造日期、地点或经过。
+- cand-6497 / aln-6675 → units/places/tribune-of-santa-maria-maggiore-rome。记录为教堂内部祭坛席空间；本段不提供精确边界或现状。
+- cand-0712 / aln-1047 → same，复用圣母大殿KU。cand-6495 的“反对奢侈艺术赞助”术语仍 undecided，不再作为该方案的关系对象。
+
+**S2 定向修订。** 修正 st-chp6-p162-v1-12 的错误对象：从相邻段落术语 cand-6495 改为计划归属及预期安葬者 cand-2263。原书计划陈述与引文保持不变；当前版本须作独立差异复核，不计入统一复核分子。新增 st-chp6-p162-tribune-part-of-santa-maria-maggiore，以现有 mention m-chp6-p162-v-022（祭坛席）及 m-chp6-p162-v-023（圣母大殿）记录原文短语所支持的 place-to-place 部分关系；没有重复 mention。新 statement 同样未进入 S2 独立复核分子。
+
+**S5 定向字段。** 三张新卡新增10条 Haskell 书内 source-backed 字段 enr-18449–enr-18458：方案卡5条、死亡事件卡2条、祭坛席地点卡3条。字段分别保留方案状态、目标空间、安葬意图、时序限定、来源边界及对象粒度；原书未载的死亡日期、地点、工程执行与建筑边界均不补值。build_field_facts 定向预览／应用均为10条、source_backed 10、unverified 0、warnings 0。
+
+**S6 逐项裁决。** 本段四项原有 relation candidate 与一项新增空间候选均有去向：
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| st-chp6-p162-v1-12 | formal | rel-2447 has_participant：方案事件 → Clement IX。角色限定为 Haskell 将计划归于该教宗并称墓地意在供其本人使用；不声称他是设计者、实际委托施工者或工程已经开始。 |
+| st-chp6-p162-v1-13 | pending | 方案在 Clement IX 去世后被放弃，支持先后顺序但不支持因果；受控关系词表和 domain/range 没有忠实的 event-to-event temporal predicate，不使用 predecessor_of 等不匹配类型。 |
+| st-chp6-p162-v1-14 | pending | Rospigliosi family 对方案费用的担忧有原文支持，但没有准确表达“担忧承担费用”的受控谓词；不伪装成 patronage、ownership 或 participant 边。家族候选仍复用既有KU。 |
+| st-chp6-p162-v1-15 | pending | 未具名 clergy 集体的类型未定，mosaics 作品身份也未定；端点和精确受控关系均不足，不登记不完整关系。cand-6500、cand-6501 保留原S3待决。 |
+| st-chp6-p162-tribune-part-of-santa-maria-maggiore | formal | rel-2448 part_of：祭坛席地点 → 圣母大殿地点。依据原文“the tribune of S. Maria Maggiore”；不声称改建方案实际实施。 |
+
+**卡片投影与核验。** build_cards 预览确认 event、tribune place、Clement IX 人物卡、Santa Maria Maggiore 教堂卡均仅有预期新增关系行；定向渲染4张，写后字节核验通过。死亡事件卡预览无差异，不需关系投影写回。严格表审计 errors=[]、s2_missing=[]、alignments_unlinked=0、backlog pending=0；关系一致性 broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic evidence-backed=0。S3未全库重开；S2仍未接收。脚注3所引 Pastor XIV, p.558 未独立查阅，不能将书内转引误记为已核外部事实。
