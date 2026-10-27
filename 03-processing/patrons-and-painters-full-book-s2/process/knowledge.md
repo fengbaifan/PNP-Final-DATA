@@ -17457,3 +17457,23 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 **投影与审计。** Pont Neuf与纪念像两卡定向渲染共2卡、2张S5表、4行字段、3条formal关系和1条反向投影；写后字节校验通过，复预览无差异。字段表复预览 `record_changes=0`。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。本批未改S2 statements、mentions或独立差异复核台账。
 
 **批后状态。** S2为15,470 statements／26,872 mentions；统一独立复核台账9,622条，statement ID／来源版本尚未核平。本批S3决定无变化：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4已映射2,490/5,088条`new`候选，未映射2,598条，其中直接关系端点935、其他1,663；KU共3,270。S5字段14,631条（1,627 `unverified`）。S6裁决记录2,004项（formal 1,184、pending 687、rejected 133）；当前`relation_candidate=true`为10,673项，历史裁决台账与当前statement版本仍差1，不据此报告完成率。`relations.csv`共2,487行（2,447 formal、40 pending）；缺至少一个S2端点候选ID的关系statement仍337条；backlog为58条（15 completed、43 undecided）。
+
+<a id="s4-s5-s6-chp3-p87-borgognone-andrew-high-altar-20261028"></a>
+### S4–S6 第3章 p.87 Guglielmo Borgognone《圣安德烈殉难》与高祭坛端点（2026-10-28）
+
+**来源与范围。** 对照第3章分节 `03_CHP-3_sec_iv.md` 印刷页87 L112–113（PDF物理页29）。Haskell称 Guglielmo Borgognone 于1668年受委托绘制 *The Martyrdom of St. Andrew*，并说该画是为 High Altar 而作。原句未说明该画是否实际绘成、完成、存世或现藏，也未在作品句中明指委托人。来源上下文另称耶稣会士直接安排艺术家、潘菲利亲王的继承人支付艺术家费用；这些集体安排候选仍指向已登记的委托活动事件，不能据此把出资者改作委托人，也未新增作品专属委托边。
+
+**S4身份与粒度。** 沿用 `cand-5330` 的 S3 `new` 决定和作品组 `workgrp-da860b0dbf8d1e`，登记至[《圣安德烈殉难》作品卡](../../../04-knowledge/units/works/guglielmo-borgognone-martyrdom-st-andrew-s-andrea-al-quirinale.md)。现有作品KU中无同一件作品卡；作品卡记录Haskell的描述性称名和委托，不把Guglielmo受委托绘制写成已证实完成作者身份。沿用 `cand-5331` 的S3 `new` 决定和地点组 `sg3-place-cand-5331`，登记至[奎里纳尔圣安德烈堂高祭坛地点卡](../../../04-knowledge/units/places/high-altar-s-andrea-al-quirinale.md)。此处按原句的室内目的地角色归入place；不并入整座教堂或整间内部空间KU，也不另立未被单独描述的祭坛作品。两项S3决定及分组均未改变，未作外部身份或实物核验。
+
+**S5字段。** `enr-18546`–`enr-18551`新增6条Haskell书内 `source_backed` 字段：作品称名、作品类型、1668委托年份、原书所称受委托绘制者，以及地点性质和原书所称地点。受委托绘制者字段保留S3 `cand-0402`至既有人物KU的身份映射，同时明确未确认实际完成或作者归属。
+
+**S6逐项裁决。** 两条直接关系候选各有去向：
+
+| S2关系候选 | 决定 | 去向与范围 |
+|---|---|---|
+| `st-chp3-seciv-l106-116-guglielmo-commissioned-martyrdom-1668` | pending | `rel-2489 created_by`：作品 → Guglielmo Cortese。Haskell只报告1668年受委托绘制，未报告实际执行或完成；不作为确定作者边展示。出现执行证据或可靠作品归属证据时重审。 |
+| `st-chp3-seciv-l106-116-martyrdom-for-high-altar` | formal | `rel-2490 intended_for`：作品 → S. Andrea al Quirinale高祭坛。只记录原定用途地点，不表示已安装、存世或现藏。 |
+
+**投影与审计。** 两张目标卡预览分别显示待证 `created_by` 与正式 `intended_for`，地点卡显示反向投影；定向渲染写入2卡并通过写后字节核验，复预览无差异。字段表复预览 `record_changes=0`、`new_ids=0`。`audit_tables.py --strict-stage --summary` 退出码0，`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性审计的 `broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed` 均为0。本批未改S2 statements、mentions或独立复核台账，故不增加S2独立复核分子。
+
+**批后状态。** S2仍为15,470 statements／26,872 mentions；统一独立复核台账9,622条且statement ID／来源版本未核平。S3仍为12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4新增2个已映射KU：2,492/5,088条 `new` 候选已登记，未登记2,596条；直接关系端点933、其他1,663；KU共3,272。S5新增6条字段，当前共14,637条（1,627 `unverified`）。S6裁决历史台账新增1 formal和1 pending，累计2,006项（formal 1,185、pending 688、rejected 133）；当前relation_candidate=true与历史台账仍差1项，不报告完成率。`relations.csv`现有2,489行（2,448 formal、41 pending）；缺少至少一个S2端点候选ID的statement仍337条，backlog仍58条（15 completed、43 undecided）。

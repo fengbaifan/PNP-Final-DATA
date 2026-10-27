@@ -3734,15 +3734,17 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 
 **2026-10-28完成：第3章 p.91 Van Dyck 圣依纳爵册封礼图像端点。** 沿用`cand-5400`既有`new`身份组，新登记1个work KU，新增3条Haskell书内字段；`rel-2478 created_by`与`rel-2479 installed_at`均formal，后者限定于1622年历史安置。原书未提供原题、明确描绘题材、版本或现藏地；S2与S3未改。定向卡片渲染、严格表审计及关系一致性审计通过；详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-p91-vandyck-ignatius-canonisation-picture-20261028)。
 
+**2026-10-28完成：第3章 p.87《圣安德烈殉难》及高祭坛端点。** 沿用`cand-5330`作品组与`cand-5331`地点组，登记2个KU并新增6条Haskell来源字段。`rel-2490 intended_for` formal记录原定高祭坛目的地；`rel-2489 created_by` pending，因为来源只证实Guglielmo Borgognone受委托绘制，未证明实际完成。S3、S2 statements/mentions及独立复核台账均未改；两卡定向渲染、字段复预览、严格表审计和关系一致性审计通过。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-p87-borgognone-andrew-high-altar-20261028)。
+
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
 | S2 | 15,470 statements、26,872 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。p.174本批新增1条并修订／互链2条当前statement，共3个当前版本待独立差异复核，未计入台账；p.56 Tessin等既往批次也有待差异复核版本。其他待差异复核项包括p.57注3、p.326、p.72、p.39等批次中修订或新增的当前版本；p.189五条已复核；p.162两条已差异复核但未并入台账；第7章p.192 i01、i27待复核；第13章收据—卷册、拱顶—祭坛席statement待复核；第10章p.281七条、p.384五条及p.286一条待差异复核。 |
 | S3 | 按候选ID计12,433/12,433均有决定：same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118 | 12,408项有`external_source`为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。另有28个候选的35条来源决定与候选级决定不同；决定行覆盖完整不等于语义收口。 |
-| S4 | new候选已映射2,490/5,088；待映射2,598，其中直接关系端点935、其他1,663；KU共3,270 | 直接端点待映射按类型：term 404、place 142、archive 124、work 141、event 73、institution 50、person 1。 |
-| S5 | 14,631条字段，1,627条unverified | p.174 Pont Neuf批次新增4条Haskell来源字段；全书仍有字段待证。unverified数不是缺失字段数，后续按类型必需字段及关系影响度定向处理。 |
-| S6 | 裁决记录2,004项：formal 1,184、pending 687、rejected 133；当前relation_candidate=true为10,673条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | p.174本批5条正文候选为3 formal、1 process-only pending、1 rejected；注2毁损候选仍pending。
-| 正式关系表 | 2,487行：2,447 formal、40 pending | p.174新增`rel-2486 intended_for`及`rel-2487`–`rel-2488 created_by`；此前p.174注2关系为`rel-2484`–`rel-2485`。 |
+| S4 | new候选已映射2,492/5,088；待映射2,596，其中直接关系端点933、其他1,663；KU共3,272 | 直接端点待映射按类型：term 404、place 141、archive 124、work 140、event 73、institution 50、person 1。 |
+| S5 | 14,637条字段，1,627条unverified | 第3章p.87批次新增6条Haskell来源字段；全书仍有字段待证。unverified数不是缺失字段数，后续按类型必需字段及关系影响度定向处理。 |
+| S6 | 裁决记录2,006项：formal 1,185、pending 688、rejected 133；当前relation_candidate=true为10,673条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | 本批新增1 formal、1 pending；p.174正文5项及注2毁损候选的去向见各批过程记录。 |
+| 正式关系表 | 2,489行：2,448 formal、41 pending | 本批新增`rel-2489 created_by` pending及`rel-2490 intended_for` formal。 |
 | 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 58条（15 completed、43 undecided） | 本批未改变缺端点或backlog；严格审计backlog pending=0，`bl-0058`待证条件保留。 |
 
 S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按类型分布。直接端点按当前`relation_candidate=true`语句的 subject/object candidate ID 去重；S4列仅计`new`且尚未映射 KU 的候选。
@@ -3750,10 +3752,10 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 | 类型 | S3 undecided | S3未决直接关系端点 | S4未映射的直接关系端点 |
 |---|---:|---:|---:|
 | person | 1,047 | 422 | 1 |
-| work | 1,566 | 1,078 | 141 |
+| work | 1,566 | 1,078 | 140 |
 | archive | 668 | 289 | 124 |
 | term | 660 | 445 | 404 |
-| place | 302 | 128 | 142 |
+| place | 302 | 128 | 141 |
 | institution | 117 | 81 | 50 |
 | event | 112 | 65 | 73 |
 | family | 18 | 13 | 0 |
@@ -3767,9 +3769,9 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 
 1. **先核平S2复核台账与当前statement版本。** 目前15,470条statement对应9,622条统一复核记录，但statement ID与来源版本未核平；先逐条确认哪些意见对应当前版本、哪些只对应旧版本、哪些尚未匹配，暂不报告覆盖率。已有章节审读可以继续推进，任何修改过的当前版本都单独标明待差异复核，不增加复核分子。
 2. **先收口S3身份分组与类型未定项。** 5,118项`undecided`中有2,994项直接出现在关系端点；另有28个候选的35条来源限定决定与候选级决定不同。按类型先审类型未定的626项（471个直接端点），再按work、term、person、archive、place、institution、event、family、procedure推进；逐批保存跨章同一／新增／冲突／排除／待证理由。第7章p.174的Tacca作品 `cand-7038`／索引 `cand-1897` 是当前待证实例，只有新身份材料能触发改判，不靠同页码或相同作者强行合并。
-3. **按关系解锁价值批量推进S4，并同步S5/S6。** 现有S3 `new`但未登记的直接端点为935个。依据本轮候选ID×关系statement排序，下一批优先核查第3章 p.106–116 `cand-5330`（Guglielmo Borgognone《圣安德烈殉难》）及其直接地点端点 `cand-5331`（S. Andrea al Quirinale 高祭坛）：两条关系候选中，艺术家端点已复用人物KU，高祭坛候选为S3 `new`；还需与教堂／内部空间卡核对粒度。若同一性成立，登记work及place端点，formal裁决“原定用于高祭坛”候选；对“受委托绘制”statement单独判断是否足以支持创作边，不能把委托自动当成完成归属，也不臆造委托方。随后按每批KU可解锁的候选数、证据成熟度和身份组边界继续排序。S5只补影响身份、版本、角色、时间、地点判断的字段；1,627条`unverified`不是1,627个必补缺口。无法精确表达的关系保持process-only pending，不写入受控边表。
+3. **按关系解锁价值批量推进S4，并同步S5/S6。** 现有S3 `new`但未登记的直接端点为933个。刚完成第3章 `cand-5330`／`cand-5331`批次。下一批按候选×关系statement排序为人物 `cand-2189`（Richelieu, Cardinal）：关联16条关系候选，其中13条另一端已有KU。该候选当前为S3 `new`；S4登记前先检查是否存在准确同类型人物KU，只有注册检查发现身份重合时才重开该候选的S3决定。随后逐条裁决可解锁的S6候选，并补影响身份、角色、时间判断的必要S5字段。S5只补影响身份、版本、角色、时间、地点判断的字段；1,627条`unverified`不是1,627个必补缺口。无法精确表达的关系保持process-only pending，不写入受控边表。
 4. **把337条缺少S2端点候选ID的关系statement纳入对应章次审读。** 有来源定位且可确认提及者再补映射；不可确认的保留缺口及具体原因。backlog当前58条（15 completed、43 undecided，机械pending=0）；未决项需有证据触发条件，不把它们当结构审计错误，也不为清零强建KU。
-5. **继续分章S2审读并记录可复核交接。** p.174正文的5项候选已裁决，Pont Neuf端点已登记；`cand-6668` Grand Duke Ferdinand因当前身份材料不足继续S3 `undecided`，只在出现新跨章索引或权威身份材料时重开。下一组S2差异工作按已标记的当前statement版本推进：第7章p.192 i01/i27、第13章收据—卷册与拱顶—祭坛席statement、第10章p.281七条、p.384五条及p.286一条；每条修订须保留原文版本、记录具体问题和依据，并由独立复核后才计入统一台账。与此同时按S4关系杠杆排序挑选下一直接端点批次。
+5. **继续分章S2审读并记录可复核交接。** 第3章p.87本批未改S2 statements/mentions；p.174正文的5项候选已裁决，Pont Neuf端点已登记；`cand-6668` Grand Duke Ferdinand因当前身份材料不足继续S3 `undecided`，只在出现新跨章索引或权威身份材料时重开。下一组S2差异工作按已标记的当前statement版本推进：第7章p.192 i01/i27、第13章收据—卷册与拱顶—祭坛席statement、第10章p.281七条、p.384五条及p.286一条；每条修订须保留原文版本、记录具体问题和依据，并由独立复核后才计入统一台账。与此同时按S4关系杠杆排序挑选下一直接端点批次。
 6. **S7保持后置。** 只有S2独立审读完成并接收，S3身份决定有证据、S4的`new`已登记或明确阻断、关键S5缺口有去向、S6每个当前候选均有决定、直接端点与backlog可追溯后，才做发布预检。知识发现与页面继续等待用户明确启动。
 
 #### 提速安排
