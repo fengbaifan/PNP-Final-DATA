@@ -16772,3 +16772,22 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 **写后核验与状态。** 三张受影响卡（收据、Zanetti卷册、Zanetti人物）定向渲染，写入3张并通过写后字节核验；随后三卡预览均无差异。全库卡片预检cards=3,227、tables=4,198、rows=14,489、projected_relation_rows=4,785通过；定向渲染后仍有531张既有卡片存在待生成差异，本批未作全库写回，作为S7准备项继续核查。严格表审计errors=[]、s2_missing=[]、alignments_unlinked=0；关系一致性broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic evidence-backed=0。审计诊断另有1,353个零关系KU及2个超过50连接的KU，不构成阻断。
 
 批后状态：S2为15,451 statements／26,870 mentions；统一独立复核分子仍9,617（62.24%，未接收）。S3主决定仍12,432/12,432（same 2,105、new 5,090、conflict 9、excluded 106、undecided 5,122）。S4已映射2,446/5,090个new候选；待映射2,644，其中未映射直接关系端点972、其他1,672；KU共3,227。S5字段14,489（1,627 unverified）。S6裁决1,888/10,661（1,121 formal、639 pending、128 rejected），尚余8,773；关系表共2,419行（2,382 formal、37 pending）。backlog为56条（14 completed、42 undecided；严格审计pending=0）。本批未改变S3决定或backlog；S7未启动。
+
+<a id="s4-s5-s6-chp3-p93-jesuit-universal-theme-20261027"></a>
+### S4/S5/S6：第3章 p.93 Gesù 与 S. Ignazio 天顶的普遍参与主题（2026-10-27）
+
+**S3身份与S4登记。** `cand-5449`沿用S3 `new`决定及`sg3-term-cand-5449`组，映射到新术语KU `units/terms/universal-participatory-theme-gesu-s-ignazio`（`aln-5630`）。该来源限定主题记录哈斯克尔对观者参与主题展开的解释，区别于同段另一候选`cand-5444`所指的耶稣会幻觉式艺术倾向；不将其登记为单件作品或固定教义名称。本批不重开S3，也不增加候选。
+
+**S5字段。** 依第3章印刷页93 L184新增3条Haskell来源支持字段`enr-18407`–`enr-18409`，分别记录来源表达、两座教堂的天顶语境和作者解释。字段保留“观者参与”为哈斯克尔阐释，不声称独立证实历史观众行为。写入后定向预览为`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。
+
+**S6逐项裁决。**
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp3-seciv-l179-187-jesuit-ceilings-universal-participation` | rejected | 不登记耶稣会机构→主题关系：该候选主体`cand-3403`是机构，而原文具体把该主题放在Gesù与S. Ignazio两座教堂的天顶语境中；两个子statement已分别指向教堂与主题，父级候选不形成额外的机构关系事实。 |
+| `st-chp3-seciv-l179-187-gesu-ceiling-universal-theme` | formal | `rel-2424 site_of_manifestation`：Gesù为哈斯克尔所述普遍主题的呈现场所；不识别具体画作，不把观者参与当作独立核实的历史行为。 |
+| `st-chp3-seciv-l179-187-s-ignazio-ceiling-universal-theme` | formal | `rel-2425 site_of_manifestation`：S. Ignazio为哈斯克尔所述普遍主题的呈现场所，范围同上。 |
+
+**写后核验与状态。** 新术语、Gesù及S. Ignazio三张卡预览后定向渲染，`files_written=3`且写后字节核验通过；三卡复预览均无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、backlog pending=0；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。本批S2 statement、mention及独立复核分子不变，也未新增backlog。
+
+批后状态：S2为15,451 statements／26,870 mentions；统一独立复核9,622/15,451（62.27%，未接收）。S3主决定12,432/12,432（same 2,106、new 5,089、conflict 9、excluded 106、undecided 5,122）。S4已映射2,448/5,089条new候选；待映射2,641，其中直接关系端点969、其他1,672；KU共3,229。S5字段14,495（1,627 unverified）。S6裁决1,895/10,661（1,127 formal、639 pending、129 rejected），尚余8,766；`relations.csv`共2,425行（2,388 formal、37 pending）。backlog为56条（14 completed、42 undecided；严格审计pending=0）。S7未启动。
