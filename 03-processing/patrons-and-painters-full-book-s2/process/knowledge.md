@@ -16709,3 +16709,17 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 **当前外部记录。** Princeton 将x1948-601著录为1594年、归于Girolamo Bassano的双面素描；provenance写明一条带有possible限定的沿革，列Nicolò Sagredo、其弟Stefano Sagredo（1626–1685）、Stefano之子Zaccaria（1633–1729）及后续Gherardo。馆方为该沿革列引Rearick 1995，本次未读取该论文。Haskell p.263 n.1转引Barbaro称Zaccaria为Stessano Sagredo之子并生于1653；candidate页图校读为Steffano。姓名和父子关系与馆藏记录相合，但对方记录以possible限定物件传承，且Zaccaria生年1633与1653不一；本次没有独立人物规范记录或原始家族文书消除差异。
 
 **决定。** 主行aln-2663继续保持new → units/persons/stefano-sagredo，代表书内身份组；来源行aln-12663继续保持undecided且不映射KU。这表示外部对象沿革不足以确认同一人，不否定书内索引、注释和页图支持的source-local人物身份。已将来源行accessed_date更新为2026-10-27并将本复核设为process_ref。仅在出现直接人物authority记录或原始家族证据能解决身份/年代问题时重开；本轮不改S2、主行身份组或S4人物卡。
+
+
+<a id="s4-s5-s6-chp13-p332-traveller-audience-20261027"></a>
+### S4/S5/S6：第13章 p.332 旅行者预期受众端点；定向修订版权市场statement（2026-10-27）
+
+**S3/S4身份与登记。** `cand-12119`沿用既有S3 `new`决定和`sg3-term-cand-12119`跨章组，不重开S3；登记术语KU `units/terms/travellers-as-readers-of-illustrated-venetian-publications`，并将`aln-12282`映射至该KU。卡片把来源所述“旅行者”限定为出版物的预期受众类别，区别于实际读者、外国旅行者、个体身份及旅行行为。`cand-9977`（Marieschi 1741年views）继续保持S3 `undecided`：原文没有题名、单幅或稳定版本边界，不创建临时作品KU；两个直接关系候选分别追踪于`bl-0055`和`bl-0056`，均保留待证理由与重开条件。
+
+**关系类型与S6裁决。** 受`intended_for`仅适用于work→institution/place且其反向`intended_site_of`属地点语义所限，新增受控类型`designed_for_audience`／`intended_audience_of`（archive/work↔term），仅记来源明确说明的预期受众，不推定实际阅读；另新增`appealed_to`／`found_appealing`（work↔person），限于来源明确报告的作品审美吸引，不推定购买、接触、所有权或影响。同步更新`relation-types.yml` v8、域值域矩阵v6、双语显示标签和语义说明。`st-chp13-p332-le-fabriche-designed-for-travellers`与`st-chp13-p332-gran-teatro-designed-for-travellers`逐条裁为formal，登记`rel-2416`、`rel-2417`。`st-chp13-p332-marieschi-views-designed-for-travellers`及`st-chp13-p332-marieschi-views-appealed-to-fragonard`裁为pending；因Marieschi作品候选尚无KU，遵守关系表端点完整性，不在`relations.csv`写入无效边，由backlog与本记录保留对应S6决定。
+
+**S2定向修订。** 按2026-10-20独立复核记录，将`st-chp13-p332-copyright-effects-on-local-and-export-books`拆为`st-chp13-p332-copyright-effects-on-local-books`与`st-chp13-p332-luxury-export-editions-gained`。前者保留Haskell关于二十年垄断与威尼斯市场书籍质量的因果陈述；后者单独保留奢华出口版及英、法、德受众市场获益的陈述，不把后者强推为法律的因果结果或出版社关系。引文按当前源Markdown逐字保存；印本标点校读仍保留于原`ocr_corrections`。此修复使当前statement总数增加1；两条修订statement不计入统一独立复核分子，既有第13章复核表保留为历史快照。
+
+**S5与当前字段。** 新术语卡加入一行Haskell原书支持的“来源实例”字段；`build_field_facts.py --ku ...` 预览确认1条新增`source_backed`记录`enr-18396`，随后应用成功，来源注册无增量。
+
+**首轮验证。** 严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。三张受影响卡预览后定向渲染，files_written=3、写后字节核验通过；随后对三张卡复预览均无差异。S5定向复预览record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0、warnings=0。严格表审计汇总为kus=3,226、alignment_new_pending_registration=2,645、backlog=56（pending=0）、relations=2,417（formal=2,380）、enrichment=14,482（unverified=1,627）、statements=15,450、mentions=26,870，errors=[]、s2_missing=[]；关系一致性阻断五项均为0。

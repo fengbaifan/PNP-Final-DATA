@@ -54,6 +54,7 @@ relations:
 | 安置／保管／位置 | `installed_at`、`held_by`、`located_at` | work → 安置建筑／保管机构／物理地点；建筑／地点place → 其所在的更大地点place。须保留适用时间或来源时点 |
 | 配对作品 | `pendant_of` | work ↔ work；来源明确两件作品构成配对，单侧保存事实、反向仅作投影；同作者、同题材或同尺寸不构成配对依据 |
 | 明确比较 | `compared_with` | place／work ↔ place／work；仅记录来源明确的比较判断，scope注明比较者及语境，不表示同一、来源、复制或物理联系 |
+| 预期受众／审美接受 | `designed_for_audience`（反向 `intended_audience_of`）、`appealed_to`（反向 `found_appealing`） | archive／work → term 记录来源明确说明的预期受众类别，不证明实际读者；work → person 记录来源明确报告的作品审美吸引，不推定购买、所有权、接触或影响。反向只作导航。 |
 | 预备模型／样稿 | `model_for` | work → 为之准备的work；来源明确具体两件作品的模型／样稿关系，`modeled_by`为反向导航；同题材、年代先后或外观相近不证明预备关系 |
 | 借入／出借 | `borrowed_by`、`lent_by` | work／archive → 借入者／出借者；保存具体借存或借阅的时间、对象与角色，不能据出借身份推定所有权；`borrower_of`、`lender_of`只作对应反向导航 |
 | 亲缘／家族 | `parent_of`、`child_of`、`spouse_of`、`sibling_of`、`kin_of`、`member_of` | 具体亲属关系优先；只能确认一般亲族时才用`kin_of`并在role中保存原称 |

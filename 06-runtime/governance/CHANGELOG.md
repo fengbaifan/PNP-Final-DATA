@@ -1,5 +1,11 @@
 ﻿# 规则变更日志
 
+## 2026-10-27
+
+### 区分出版物预期受众与作品审美接受
+
+受第13章印刷页332直接关系端点登记触发，受控词表新增 `designed_for_audience`／`intended_audience_of`（archive/work → term）及 `appealed_to`／`found_appealing`（work ↔ person）。前者只表达来源明确说明的预期受众类别，不推定实际读者；后者只表达来源所述审美吸引，不推定购买、所有权、接触或影响。同步更新域值域、关系显示标签与类型语义说明；按来源为两项已登记出版物裁决受众边，未识别的 Marieschi 1741 views 保持 S3 未决及 S6 待证。过程见 `03-processing/patrons-and-painters-full-book-s2/process/knowledge.md`。
+
 ## 2026-10-25
 
 ### 补充拟赠对象与作品出售者关系类型

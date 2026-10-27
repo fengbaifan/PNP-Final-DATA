@@ -1,4 +1,4 @@
-﻿---
+---
 title: 《威尼斯建筑与景观图》（1703）（Le Fabriche e Vedute di Venetia (1703)）
 name_en: Le Fabriche e Vedute di Venetia (1703)
 type: archive
@@ -63,4 +63,10 @@ English: The title and year follow the book. Haskell’s possessive wording does
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+S6 已依据第13章 p.332 L12 登记本出版物面向旅行者的受众边（rel-2416）。创作者候选 cand-0554 的身份和关系仍需单独审查，不由本次受众判断带出。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 预期受众（`designed_for_audience`） | [图文威尼斯出版物的旅行者预期受众（Travellers as intended readers of illustrated Venetian publications）](../terms/travellers-as-readers-of-illustrated-venetian-publications.md) | S6裁定为formal：原文明确称该出版物面向旅行者；角色：Haskell所述的预期读者类别；范围：原文称《Le Fabriche e Vedute di Venetia》“为旅行者设计”；本边仅记录来源所述预期受众类别，不证明实际读者、国籍、成员身份或阅读接受。；证据：[来源](../../../02-sources/02-Markdown/13_CHP-13_intro.md)；haskell-1980-rev-ed；Chapter 13, printed p.332 L12; statement=st-chp13-p332-le-fabriche-designed-for-travellers |

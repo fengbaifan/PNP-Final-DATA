@@ -1,4 +1,4 @@
-﻿---
+---
 title: 《威尼斯绘画与透视大剧场》（The Grand Theatre of Painting and Perspectives of Venice）
 name_en: The Grand Theatre of Painting and Perspectives of Venice
 type: archive
@@ -54,4 +54,10 @@ S3 新身份组 `archive-group-9db379e0572e` 仅含 archive 候选 `cand-1453`�
 
 ## 关系与证据
 
-当前没有登记正式关系。与出版者、插图艺术家及受众有关的4条直接 S2 关系候选留待 S6；本次只登记出版物身份，不把来源字段或正文叙述转为正式关系。[第13章 p.332](../../../02-sources/02-Markdown/13_CHP-13_intro.md)（L12） [第13章 p.333](../../../02-sources/02-Markdown/13_CHP-13_intro.md)（L16）
+S6 已依据第13章 p.332 L12 登记本出版物面向旅行者的受众边（rel-2417）。有关出版者、插图艺术家及赞助语境的其余 S2 关系候选仍待逐项裁决；本次不把来源字段或正文叙述自动转为关系。[第13章 p.332](../../../02-sources/02-Markdown/13_CHP-13_intro.md)（L12） [第13章 p.333](../../../02-sources/02-Markdown/13_CHP-13_intro.md)（L16）
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 预期受众（`designed_for_audience`） | [图文威尼斯出版物的旅行者预期受众（Travellers as intended readers of illustrated Venetian publications）](../terms/travellers-as-readers-of-illustrated-venetian-publications.md) | S6裁定为formal：原文明确称该出版物面向旅行者；角色：Haskell所述的预期读者类别；范围：原文称《Il Gran Teatro delle Pitture e Prospettive di Venezia》“为旅行者设计”；本边仅记录来源所述预期受众类别，不证明实际读者、国籍、成员身份或阅读接受。；证据：[来源](../../../02-sources/02-Markdown/13_CHP-13_intro.md)；haskell-1980-rev-ed；Chapter 13, printed p.332 L12; statement=st-chp13-p332-gran-teatro-designed-for-travellers |

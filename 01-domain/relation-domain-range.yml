@@ -1,11 +1,12 @@
-version: 5
-authority: relation-domain-range-v5
-status: draft-v5
+version: 6
+authority: relation-domain-range-v6
+status: draft-v6
 note: |
   本文件定义每个受控关系类型的合法 (domain, range)，供 S6 关系放行条件使用。
   v1 为与既有 relation-index.yml 的 1227 条边做只读一致性校验后的修正版：
   v4 新增 quoted_in（archive → archive），限于来源明确记载的转引关系；不表示被引原件已被独立查阅。
   v5 新增 held_office（person → institution）及其反向 office_held_by，限于来源明确记载已经担任的职位。
+  v6 新增 appealed_to（work → person）／found_appealing（person → work），记录来源明确报告的作品审美吸引关系，不表示购买、接触或影响；新增 designed_for_audience（archive/work → term）及反向 intended_audience_of，记录来源明确陈述的出版物预期受众类别，不证明实际读者或接受。
   domain/range 覆盖当前实际用法，逐谓词直接存（不做 inverse 规范化）。
   未列入 domain_range 且不在 deprecated 列表的类型，默认不约束（允许，待首次使用后补入）。
   same_as 额外约束：两端必须同类型（由 S6 检查单独实现，不靠本表表达）。
@@ -23,6 +24,8 @@ domain_range:
   addressed_to:     {domain: [archive], range: [person]}
   advised:          {domain: [person], range: [person]}
   advised_by:       {domain: [person], range: [person]}
+  appealed_to:      {domain: [work], range: [person]}
+  found_appealing:  {domain: [person], range: [work]}
   appointed_by:     {domain: [person], range: [person]}
   appointer_of:     {domain: [person], range: [person]}
   authored_by:      {domain: [archive], range: [person]}
@@ -38,6 +41,7 @@ domain_range:
   created_by:       {domain: [work], range: [person]}
   creator_of:       {domain: [person], range: [work]}
   designed_by:      {domain: [work], range: [person]}
+  designed_for_audience: {domain: [archive, work], range: [term]}
   directed_by:      {domain: [work], range: [person]}
   director_of:      {domain: [person], range: [work]}
   designer_of:      {domain: [person], range: [work]}
@@ -73,6 +77,7 @@ domain_range:
   inspiration_for:  {domain: [event], range: [work]}
   installed_at:     {domain: [work], range: [place]}
   intended_for:     {domain: [work], range: [institution, place]}
+  intended_audience_of: {domain: [term], range: [archive, work]}
   intended_site_of: {domain: [place], range: [work]}
   introduced_by:    {domain: [person], range: [person]}
   issued_by:        {domain: [archive], range: [person]}

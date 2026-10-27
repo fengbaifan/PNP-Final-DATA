@@ -1,4 +1,4 @@
-version: 7
+version: 8
 authority: controlled-relation-vocabulary
 types:
   - associated_institution
@@ -8,6 +8,7 @@ types:
   - acquirer_of
   - advised
   - advised_by
+  - appealed_to
   - addressed_to
   - addressee_of
   - appointed_by
@@ -37,6 +38,7 @@ types:
   - created_by
   - creator_of
   - designed_by
+  - designed_for_audience
   - directed_by
   - director_of
   - designer_of
@@ -139,7 +141,9 @@ types:
   - teacher_of
   - trained_by
   - friend_of
+  - found_appealing
   - intended_for
+  - intended_audience_of
   - intended_gift_to
   - intended_recipient_of
   - intended_site_of
@@ -159,6 +163,8 @@ inverse:
   pendant_of: pendant_of
   advised: advised_by
   advised_by: advised
+  appealed_to: found_appealing
+  found_appealing: appealed_to
   acquired_by: acquirer_of
   acquirer_of: acquired_by
   addressed_to: addressee_of
@@ -189,6 +195,8 @@ inverse:
   created_by: creator_of
   creator_of: created_by
   designed_by: designer_of
+  designed_for_audience: intended_audience_of
+  intended_audience_of: designed_for_audience
   directed_by: director_of
   director_of: directed_by
   designer_of: designed_by
