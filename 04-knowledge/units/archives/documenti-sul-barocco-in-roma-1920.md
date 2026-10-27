@@ -42,7 +42,7 @@ sources:
     sentence_summary: Haskell称Orbaan 1920年部分刊布一份1631年清单，并在注释中引该书第506页；原清单和被引页未查阅。
     original_quotes:
       - source_span: lines 150–150
-        text: "An inventory of 1631 was published in part by Orbaan, 1920, pp. 495-513, and ofthe many travellers’ accounts the fullest is that by Nicodemus Tessin the Younger and must date from 1687-8—Stockholm,"
+        text: "An inventory of 1631 was published in part by Orbaan, 1920, pp. 495-513, and of the many travellers’ accounts the fullest is that by Nicodemus Tessin the Younger and must date from 1687-8—Stockholm,"
       - source_span: lines 202–202
         text: "2 This picture, now in the Finnish Institute in Rome, was first recorded in the Barberini inventory of 1631—Orbaan, 1920, p. 506. It was published by J. Thuillier in 1958 and exhibited in Les Français à Rome (No. 250), held at the Archives Nationales in Paris, 1961."
     evidence_ref:

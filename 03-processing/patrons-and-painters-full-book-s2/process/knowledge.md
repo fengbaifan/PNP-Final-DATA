@@ -1,5 +1,24 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp2-p56-tessin-traveller-account-20261028"></a>
+### S3沿用／S4／S5／S6：第2章 p.56 Tessin 旅行记与图书馆定位（2026-10-28）
+
+**来源校读与S2当前版本。** 对照 Haskell 印刷页56注2（PDF物理页41）后，确认纸本写作“and of the many travellers’ accounts … Stockholm, Kungliga Biblioteket, Handskriftsavd. S.41.”；Markdown OCR 对应两处为“and ofthe”和“Handskriftsand”。来源资产保持不变。修订两条现有 statement 的 `mentioned_candidate_ids`：Montagu 致谢段为 `cand-1687`、`cand-4784`；Tessin 旅行记段为 `cand-2555`、`cand-4784`、`cand-4788`、`cand-4790`。没有新增 mention 或 statement。第二条 `original_quote` 保留与不可改写 Markdown 源段一致的 OCR 原文，印刷校读及其限定写入 qualifier；卡片的书内 locator 字段采用纸本实际拼写。两个当前 statement 版本均待独立差异复核，不计入S2统一复核分子，也不构成本节或第2章接收。
+
+**S3与S4。** 不触发S3重开：`cand-4784` 已有 archive `new` 组 `archive-group-ab2eafb3a9e7`，`cand-4788` 已有 institution `new` 组 `sg3-institution-cand-4788`，本批分别完成 `aln-4967`、`aln-4971` 的S4映射。`cand-4790` 复用已登记 Stockholm place KU。两项新增知识元分别为[泰辛旅行记 archive 卡](../../../04-knowledge/units/archives/nicodemus-tessin-traveller-account-barberini-palace.md)与[Kungliga Biblioteket institution 卡](../../../04-knowledge/units/institutions/kungliga-biblioteket-stockholm.md)；描述性文献名不是原题，未把它并入 Orbaan 1920 文集或人物 KU。
+
+**S5字段。** 新增 `enr-18531`–`enr-18533` 三条 Haskell 书内字段：文献类型为旅行记／旅行者记述；年代约1687–1688年，明确保留“must date from”的推测语气；副本 locator 按纸本原样保留“Stockholm, Kungliga Biblioteket, Handskriftsavd. S.41.”。缩写未扩展为现代索书号；没有声称已查阅原件、确认确切年代或核实当前馆藏。
+
+**S6逐项去向。**
+
+| 候选及原书命题 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp2-seciv-l139-152-montagu-points-author-to-tessin-account`：Haskell感谢Jennifer Montagu指给他该记述并展示影印件 | pending（process-only） | 现行受控谓词没有忠实表达这次学术来源指引的类型与方向；不推成作者、所有者、保管者或持续合作关系，不写正式边。 |
+| `st-chp2-seciv-l139-152-tessin-account-locator-and-date`：Haskell将该记述归于Tessin，并称其为所述旅行记中最完整者 | formal `rel-2483 authored_by` | archive→Nicodemus Tessin the Younger；只记录第2章注2的书内作者归属，不独立确认原件作者身份。推测年代转入S5字段。 |
+| 同一复合语境中的“Stockholm, Kungliga Biblioteket, Handskriftsavd. S.41.”定位子命题 | pending；不单列为新增S2 statement或额外S6台账项 | 作为S5书内locator保留。`held_by`的domain不允许archive主体；`located_at`在`01-domain/relation-domain-range.yml`标记`needs_split`。没有增加archive→institution正式边，也不声称副本目前仍在馆。 |
+
+**投影与核验。** 定向卡片预览确认 archive 卡新增 `authored_by` 出边、人物卡新增反向投影；institution 卡没有被错误投影为正式保管边。S5复预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。严格表审计：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性五类阻断均为0。S2总量不变为15,469 statements／26,872 mentions；统一独立复核台账9,622条且ID与来源版本仍未核平。批后KU=3,266；S4映射2,486/5,088；S5=14,619（1,627条`unverified`）；S6裁决记录1,993项（1,179 formal、682 pending、132 rejected），当前`relation_candidate=true`为10,672，历史裁决台账与当前statement版本差1，不据此报告完成率；关系表2,482行（2,442 formal、40 pending）；backlog 58条（15 completed、43 undecided）。S3主决定及28个候选／35条来源决定差异不变；337条关系statement至少缺一个S2端点候选ID。结构审计不构成S2独立接收或全书S3–S6收口。
+
 <a id="s3-s4-s5-s6-chp7-p201-lower-belvedere-endpoint-20261028"></a>
 ### S3/S4/S5/S6：第7章 p.201 Lower Belvedere 地点端点（2026-10-28）
 
