@@ -1,5 +1,23 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-ch10-powis-house-decoration-20261027"></a>
+### S4/S5/S6：第10章 p.286 Powis House 装饰方案端点（2026-10-27）
+
+**S4登记。** `cand-8996`／`aln-9168`沿用既有S3 `new`组`workgrp-79cd3709a7e81c`，不重开S3，映射至[Amigoni在Powis House的装饰方案卡](../../../04-knowledge/units/works/amigoni-powis-house-seasons-judith-holofernes-decoration.md)。根据Haskell同一叙述，将the Seasons及Judith and Holofernes记录为一个装饰方案，涉及Powis House的天花板、墙面与楼梯；不拆成未命名画布，也不据此推断完成、存世或正式题名。
+
+**S2端点锚点。** `st-chp10-p286-powis-patron-uncertain`原断言和引文未变；将已有作品候选`cand-8996`补入`mentioned_candidate_ids`，明确“his patron here”所指向的装饰方案。没有新增statement或mention。此statement当前版本因端点锚点修订尚待独立差异复核，本批不计入S2统一独立复核分子。
+
+**S5字段。** 新卡按Haskell p.286 L199–201记录作品类型、装饰部位、题材、创作者及赞助人状态5条字段（`enr-18444`–`enr-18448`）。`build_field_facts.py --ku units/works/amigoni-powis-house-seasons-judith-holofernes-decoration`预览为5条`source_backed`、0条`unverified`、0警告；应用后复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。来源为Haskell书内记录；注2所引Vertue页未独立查阅。
+
+**S6逐项裁决。** 两项直接候选分别为formal与pending：
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp10-p286-powis-house-decoration` | formal | 新增`rel-2446 creator_of`，由既有人物KU Amigoni指向新作品KU。Haskell明确称Amigoni画了该装饰方案，人物→作品符合当前域值；只记录来源所载创作，不拆分作品、不推定委托或存世。 |
+| `st-chp10-p286-powis-patron-uncertain` | pending | Haskell明说无法确定赞助人，仅条件性提出Lord Powis。`cand-2031`目前只有头衔、S3仍`undecided`且无KU；不写不完整关系行。新增`bl-0057`保留待证对象；重开须同时有唯一身份及独立赞助证据。 |
+
+**渲染与核验。** 对新作品卡及Amigoni人物卡定向`build_cards.py --render --ku ...`，2张卡写后字节核验通过；两卡复预览均无差异。S5复预览`record_changes=0`。严格表审计：KU=3,242、未登记`new`=2,629、backlog=57（pending=0）、S5=14,534（1,627 unverified）、`errors=[]`、`s2_missing=[]`。关系一致性`broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed`均为0。S2仍15,460 statements／26,870 mentions，统一独立复核台账9,622条且ID／来源版本未核平；本批statement锚点修订不计复核。S3主决定12,432项（same 2,106、new 5,090、conflict 9、excluded 106、undecided 5,121）。S4已映射2,461/5,090条new，其中直接关系端点尚余959；S6裁决记录1,938项（1,147 formal、662 pending、129 rejected），当前`relation_candidate=true`为10,665条，不据此报告完成率。`relations.csv`为2,446行（2,409 formal、37 pending）；缺至少一个S2端点候选ID的关系statement仍337条。S2尚未接收，S7未启动。
+
 <a id="s4-s5-s6-chp10-p281-venetian-painters-group-20261027"></a>
 ### 沿用 S3 身份组／S4／S5／S6：第10章 p.281 威尼斯历史画家群体（2026-10-27）
 

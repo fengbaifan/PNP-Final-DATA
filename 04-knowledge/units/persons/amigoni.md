@@ -86,6 +86,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 所创作对象（`creator_of`，反向投影） | [西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）](../works/amigoni-sigismund-streit.md) | 时间：1739；角色：画家；范围：Streit.1／obj:863940单件肖像；原断言与证据见发出端卡片“西吉斯蒙德·施特赖特肖像（Portrait of Sigismund Streit）”：[来源](https://search.smb.museum/en/object/obj-863940?objectType=Gem%C3%A4lde&sammlungen=Gem%C3%A4ldegalerie)；src-92917519320c0cc2；Details、Object Description：Streit.1／obj:863940，1739委托、1758赠校、1964起借存 |
+| → 所创作对象（`creator_of`） | [哈斯克尔所述 Amigoni 在 Powis House 的季节与犹滴装饰方案（Amigoni’s Seasons and Judith and Holofernes decoration at Powis House as described by Haskell）](../works/amigoni-powis-house-seasons-judith-holofernes-decoration.md) | S6 formal: Haskell directly says Amigoni painted the ceiling, walls, and staircase with the Seasons and the story of Judith and Holofernes. Records source-reported creation of one descriptive programme; no title, separate canvas, patron, completion, or survival is inferred.；角色：Source-reported painter；范围：The single described Powis House decorative programme; the passage does not separate individual canvases.；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p.286 L199–200; PDF physical p.15; statement=st-chp10-p286-powis-house-decoration |
 
 ### 关系候选入口
 
