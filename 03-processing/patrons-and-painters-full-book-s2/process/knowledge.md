@@ -17300,3 +17300,24 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 **渲染与审计。** 定向卡片预览确认4条字段与1条关系投影；渲染器预检1卡、2张表、4行字段、1条关系，写后字节核验通过，复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。
 
 **批后状态。** S2为15,469 statements／26,872 mentions；统一独立复核台账9,622条，statement ID／版本尚未核平，本批无S2修订。S3主决定12,432项（same 2,110、new 5,089、conflict 9、excluded 106、undecided 5,118）。S4已映射2,480/5,089条new候选，未映射2,609条，其中直接关系端点943、其他1,666；KU共3,260。S5字段14,604（1,627 `unverified`）。S6裁决记录1,983项（formal 1,172、pending 679、rejected 132）；当前`relation_candidate=true`为10,672项，历史裁决记录与当前statement版本仍差1项，不报告完成率。`relations.csv`共2,472行（2,434 formal、38 pending）；缺至少一个S2端点候选ID的关系statement为337条；backlog为58条（14 completed、44 undecided）。
+
+
+<a id="s4-s5-s6-chp2-p42-urban-viii-bronze-figure-20261028"></a>
+### S3–S6 第2章 p.42 乌尔班八世墓中的祝福姿态教宗巨型青铜像（2026-10-28）
+
+**S3身份与S4登记。** `cand-4532`为`work`，其S3主决定为`new`，身份组`workgrp-9139fbaec4193a`，已有第2章p.42 L128的正文锚点，且manifest中无可对应的同范围作品KU。本批沿用该组，不重开S3；新建[乌尔班八世墓中的祝福姿态教宗巨型青铜像](../../../04-knowledge/units/works/urban-viii-tomb-blessing-bronze-figure.md)。它与`units/works/tomb-of-urban-viii-st-peters`为部分与整体关系，不与墓葬合并；原书未指明铸造者，不由墓葬总工程的Bernini受托关系推定该像为Bernini铸造。
+
+**S5字段。** 新增4条Haskell书内`source_backed`字段（`enr-18519`–`enr-18522`）：描述性名称、作品类型、青铜材质、铸造技法，均定位第2章印刷页42 L128。未补铸造者、精确年代或独立核验的作品目录信息。
+
+**S6逐项裁决。** 两条直接关系候选均为formal，方向及范围各自记录：
+
+| S2关系候选 | 决定 | 去向与范围 |
+|---|---|---|
+| `st-chp2-secii-l127-139-urban-tomb-bronze-figure-cast` | formal | `rel-2474 part_of`：青铜像 → 乌尔班八世墓葬纪念碑。结合p.42墓葬工程叙述及其后“墓葬停滞八年”的上下文，记录作品组成关系；不据此指定铸造者。 |
+| `st-chp2-secii-l127-139-urban-tomb-bronze-figure-interpretation` | formal | `rel-2475 has_subject`：青铜像 → Urban VIII。按“祝福教宗”及乌尔班八世墓葬语境识别表现对象；Haskell对姿势、威仪与象征意义的阐释仍归于作者。 |
+
+本批未改S2 statement、mention或统一独立复核分子。该两项关系均满足受控词表与work→work、work→person域值域。
+
+**投影与审计。** 定向卡片预览识别1张卡、1张S5表、4条字段和2条formal关系投影；渲染后写入字节核验通过，复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。
+
+**批后状态。** S2为15,469 statements／26,872 mentions；统一独立复核台账9,622条，statement ID／版本仍未核平，本批无S2修订。S3主决定12,432项（same 2,110、new 5,089、conflict 9、excluded 106、undecided 5,118）。S4已映射2,481/5,089条new候选，未映射2,608条，其中直接关系端点942、其他1,666；KU共3,261。S5字段14,608（1,627 `unverified`）。S6裁决记录1,985项（formal 1,174、pending 679、rejected 132）；当前`relation_candidate=true`为10,672项，历史裁决记录与当前statement版本仍差1项，不报告完成率。`relations.csv`共2,474行（2,436 formal、38 pending）；缺至少一个S2端点候选ID的关系statement仍337条；backlog为58条（14 completed、44 undecided）。
