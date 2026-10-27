@@ -18,7 +18,7 @@
 
 **卡片投影与机械核对。** 定向表写回脚本[reconcile_s3_s5_s6_chp7_plate29_verrio_20261028.py](reconcile_s3_s5_s6_chp7_plate29_verrio_20261028.py)先以`--dry-run`核对候选、端点、字段和关系ID，再以`--apply`写回。首次渲染预检因enrichment已增一行而来源字段表尚未同步，按接口保护停止；将同一来源字段行同步至卡片后，`build_cards.py --render --ku ...`通过：1卡、3个表、8行、5条投影关系，写后字节核验通过、恢复快照已清理。复预览无差异。严格表审计：KU=3,263、候选=12,432、`alignment_new_pending_registration`=2,604、S5=14,615（1,627条`unverified`）、relations=2,480、formal relations=2,440、`s2_missing=[]`、`errors=[]`；关系一致性五类阻断均为0。未映射的直接关系端点为939：term 404、place 143、archive 125、work 142、event 74、institution 50、person 1；另1,665条new待登记候选不触及当前直接关系端点。
 
-**当前全书快照与未决覆盖。** S2为15,469 statements／26,872 mentions；独立复核台账9,622条，ID与来源版本仍未核平，S2未接收。S3候选12,432条，但当前主alignment仅有12,407条，决定分布为same 2,109、new 5,065、conflict 9、excluded 106、undecided 5,118；25个候选尚无主决定行（person 10、archive 5、place 4、work 3、institution 3），其中21个还是当前关系statement端点。故本批虽完成两项复用裁决，S3并未收口。S6裁决记录1,991项（1,178 formal、681 pending、132 rejected）；当前`relation_candidate=true`为10,672条，历史台账仍与当前statement版本差1项，不报告完成率。关系statement中337条至少缺一个S2端点候选ID；backlog为58条（14 completed、44 undecided，严格审计pending=0）。
+**当前全书快照与未决覆盖。** S2为15,469 statements／26,872 mentions；独立复核台账9,622条，ID与来源版本仍未核平，S2未接收。12,432个候选ID均有alignment决定。其间12,407个有`external_source`为空的候选级行；其余25个仅有外部来源行（new 22、same 3），每项仍带决定、KU及可追溯过程／证据，不视为缺失决定，也不重复补建空来源行。按候选ID汇总后，S3为same 2,112、new 5,087、conflict 9、excluded 106、undecided 5,118。另有28个候选的35条外部来源行与候选级决定不同；S3语义收口仍需处理5,118项待证去向、来源差异及new身份组边界。S6裁决记录1,991项（1,178 formal、681 pending、132 rejected）；当前`relation_candidate=true`为10,672条，历史台账仍与当前statement版本差1项，不报告完成率。关系statement中337条至少缺一个S2端点候选ID；backlog为58条（14 completed、44 undecided，严格审计pending=0）。
 
 <a id="s3-s4-s5-s6-chp8-p231-venetian-florentine-terms-20261027"></a>
 ### S3/S4/S5/S6：第8章 p.231 威尼斯绘画传统与佛罗伦萨文艺复兴端点（2026-10-27）

@@ -2,7 +2,7 @@
 
 ### 近期批次记录（2026-10-28）
 
-**本批完成：第7章 p.196 图版29 Verrio 壁画跨章身份复用与 S6 裁决。** `cand-2763`、`cand-7213`经正文“(Plate 29)”与图版目录标题交叉核对，触发S3定点复核并改为`same`，均映射至既有Verrio楼梯壁画KU；未新建对象。S5新增1条来源字段`enr-18529`。两条关系候选均有去向：William III题材关系`rel-2480 has_subject` formal；Shaftesbury参与多幅壁画方案的推测`rel-2481 designed_by` pending。卡片字段与关系投影定向渲染并复预览无差异；严格表审计与关系一致性阻断均为0。批后全库仍有25个候选缺S3主决定行，其中21个是关系端点；因此不据局部批次宣称S3收口。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-plate29-verrio-reconciliation-20261028)。
+**本批完成：第7章 p.196 图版29 Verrio 壁画跨章身份复用与 S6 裁决。** `cand-2763`、`cand-7213`经正文“(Plate 29)”与图版目录标题交叉核对，触发S3定点复核并改为`same`，均映射至既有Verrio楼梯壁画KU；未新建对象。S5新增1条来源字段`enr-18529`。两条关系候选均有去向：William III题材关系`rel-2480 has_subject` formal；Shaftesbury参与多幅壁画方案的推测`rel-2481 designed_by` pending。卡片字段与关系投影定向渲染并复预览无差异；严格表审计与关系一致性阻断均为0。批后12,432个候选均有S3决定；其中5,118项仍为`undecided`，另有28个候选的35条来源限定决定与候选级决定不同，故S3语义尚未收口。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-plate29-verrio-reconciliation-20261028)。
 
 **本批完成：第3章 p.72 Domenichino 穹隅四福音书作者像及 S3 索引候选归组。** `cand-5066`沿用`workgrp-7a7cc80a0bb94c`并登记作品KU；索引作品候选`cand-1661`依据第15章p.362正文题名与地点匹配`cand-10437`，并入其同一来源限定`new`组`workgrp-115824c7c6bcea`，待S4登记。第3章Michelangelo artist mention及关系statement端点从误挂的work候选`cand-1661`改指已复用人物KU的`cand-1660`；当前statement版本待独立差异复核，不计入S2台账。新增4条Haskell书内S5字段；两条S6分别formal为`rel-2468 created_by`与`rel-2469 influenced_by`，明确仅记录Haskell的创作者归属与艺术史解释，未作外部事实核验。新卡定向渲染、写后字节核验通过，复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp3-p72-domenichino-evangelist-figures-20261028)。
 
@@ -3730,8 +3730,8 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
 | S2 | 15,469 statements、26,872 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。p.57注3批次修订一条当前statement版本并新增原子创作者statement；p.326批次新增6条、修订现有statement；p.72批次修订Michelangelo艺术家端点；p.39批次修订雇用、设计statement并新增地点和生涯评价statement；以上当前版本均未计入台账。p.189五条已复核；p.162两条已差异复核但未并入台账；第7章p.192 i01、i27待独立差异复核；第13章收据—卷册、拱顶—祭坛席statement仍待复核；第10章p.281七条、p.384五条及p.286一条当前版本仍待差异复核。 |
-| S3 | 12,432个候选中有12,407条主决定行：same 2,109、new 5,065、conflict 9、excluded 106、undecided 5,118；另25个候选缺主决定行 | 25项缺行按类型为person 10、archive 5、place 4、work 3、institution 3；其中21项触及当前关系statement端点。另有28个候选的35条来源限定决定与主行不同。每行覆盖和语义去向须分别核实；S3未收口。 |
-| S4 | new候选已映射2,461/5,065；待映射2,604，其中直接关系端点939、其他1,665；KU共3,263 | 直接端点队列按主决定行重算：term 404、place 143、archive 125、work 142、event 74、institution 50、person 1。 |
+| S3 | 按候选ID计12,432/12,432均有决定：same 2,112、new 5,087、conflict 9、excluded 106、undecided 5,118 | 12,407项有`external_source`为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。另有28个候选的35条来源决定与候选级决定不同；决定行覆盖完整不等于语义收口。 |
+| S4 | new候选已映射2,483/5,087；待映射2,604，其中直接关系端点939、其他1,665；KU共3,263 | 直接端点队列按候选级决定重算：term 404、place 143、archive 125、work 142、event 74、institution 50、person 1。 |
 | S5 | 14,615条字段，1,627条unverified | p.91批次新增3条、图版29批次新增1条Haskell来源字段；全书尚有字段待证。 |
 | S6 | 裁决记录1,991项：formal 1,178、pending 681、rejected 132；当前relation_candidate=true为10,672条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | 图版29批次新增1项formal、1项pending；历史裁决台账和statement版本差异仍待核平。 |
 | 正式关系表 | 2,480行：2,440 formal、40 pending | 图版29批次新增`rel-2480`–`rel-2481`。 |
@@ -3757,8 +3757,8 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 
 #### 后续工作顺序
 
-1. **补齐S3主决定行。** 逐项核查缺行的25个候选（person 10、archive 5、place 4、work 3、institution 3），其中21个触及关系statement端点。依据现有来源与上下文给出`same`、`new`、`conflict`、`excluded`或有明确缺证与重开条件的`undecided`；不得仅为填满表格而推断身份。
-2. **按类型核平S3决定与跨章身份组。** 对5,118条`undecided`检查待证对象、缺证点和重开条件；优先处理其中2,994个关系直接端点。`same`须唯一映射既有KU，`new`须有稳定身份组，`conflict`保留双方证据，`excluded`写明依据。另核对28个候选的35条来源限定决定与主行分歧，并检查new组成员、缺失组与冲突组；不按名称相似度自动归组。`cand-2328`无新证据时继续保持`undecided`。
+1. **按类型收口S3待证项。** 对5,118条`undecided`逐项记录对象、具体缺证点、待证位置和重开条件；优先处理其中2,994个关系直接端点。证据不足时保留有理由的`undecided`，不为了减少未决数推断身份。
+2. **核对跨章身份组与来源决定差异。** 对28个候选的35条来源限定决定与候选级决定逐项复核；检查`new`组成员、缺失组和冲突组边界。`same`须唯一映射同类型KU，`new`须归入稳定身份组，`conflict`保留双方证据，`excluded`写明依据；不按名称相似度自动归组。`cand-2328`无新证据时继续保持`undecided`。
 3. **对有可追溯S3决定的new组推进S4，并联动S5/S6。** 先处理939个未映射直接关系端点，再处理其他1,665个new候选；按跨章身份组审查，不把候选数当KU数。仅补影响身份、版本、角色、时间、地点判断的来源字段；每条关系候选明确formal、pending或rejected。337条关系statement至少缺一个S2端点候选ID，backlog 58条（44条undecided）；保持缺口可追溯，不用不支持的谓词或未分类对象强行闭合。
 4. **核平S2独立复核台账并继续章次审读。** 15,469条statement对应的统一台账记录9,622条，但ID与版本尚未核平，不能把差额当作待审游标或精确覆盖率。先绑定既有逐条意见与当前statement版本，再处理p.192、第13章收据—卷册及拱顶—祭坛席statement，并复核p.281七条、p.384五条、p.286一条及p.72、p.39等批次中修订或新增的当前版本。S2未独立接收前不增加复核分子。
 5. **满足阶段前置条件后再准备S7。** S4新候选须已登记或有明确阻断，关键S5字段已核实或注明具体缺口，S6每项关系有去向，缺端点与backlog可追溯，S2独立审读完成并接收。届时再做全库卡片预检；旧有531张派生差异不能替代当前检查。知识发现和页面仍等待用户明确启动。
