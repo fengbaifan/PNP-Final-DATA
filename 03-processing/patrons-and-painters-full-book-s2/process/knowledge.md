@@ -33,6 +33,22 @@
 
 `build_field_facts.py`预览／应用均识别2条新字段、warnings=0；Italy与新术语两张卡定向渲染，预检2张卡、3张表、12行及2个关系投影，写入2张卡后复预览无差异。`audit_tables.py --strict-stage --summary`：errors=[]、s2_missing=[]、alignments_unlinked=0、alignment_new_pending_registration=2,637、backlog pending=0。`audit_relation_consistency.py`五类阻断均为0；`git diff --check`通过。backlog仍56条（14 completed、42 undecided）；至少缺一个S2端点候选ID的关系statement仍337条。结构与卡片检查不代表S2独立接收或S3–S6全书收口。
 
+#### S2语义修订与当前版S6重裁决（2026-10-27）
+
+以下修订覆盖上方本批首次写入时的S2/S6状态与计数。依据本任务此前记录的结论页独立逐条复核（p.384–385，24/24；见 `s2-independent-review-chp13-17-20261020.md`），修订以下当前statement版本；原独立复核记录保留为历史快照，不把本次自查称为独立验收。
+
+| Statement | 当前处理 | S6去向 |
+|---|---|---|
+| `st-chp18-conclusion-p384-social-demands-and-originality` | 去掉 Italy 与社会压力因果作用之间的端点；保留Haskell关于天赋分布可能性、原创表达与社会要求、超出“national character”解释的开放式作者论断。 | 不再是关系候选。新增 `st-chp18-conclusion-p384-italian-art-context-social-conformity`，只记录 Italy 作为艺术例证的地域／文化范围；`rel-2432 site_of_manifestation` 改以该statement为证据。 |
+| `st-chp18-conclusion-p384-bamboccianti` | 保留其接近新现实主义后转向田园感伤主义的来源层轨迹；移除社会趋同术语作为“结果”端点。该例证可留在段落解释语境，不据此建立实体关系。 | 移出S6关系候选，不记为rejected。 |
+| `st-chp18-conclusion-p384-crespi-and-medici-prince` | 限定为Crespi“带动”一位未具名Medici王子的第一项评价；保留Crespi人物与王子候选，不推断委托、赞助或具体身份。 | pending：原文习语没有忠实的受控关系谓词，王子仍未具名／未映射。 |
+| `st-chp18-conclusion-p384-crespi-humour-and-genre-painting`（新增） | 独立记录Haskell关于Crespi幽默及其未提升genre painting地位的作者评价；不转写为Crespi自述意图。复用已有候选锚点，无新增mention。 | pending：没有忠实谓词表达“未准备好提升其地位”；`cand-9606`仍为S3 `new`、S4未映射，列入直接端点队列。 |
+| `st-chp18-conclusion-p384-salvator-rosa`、`st-chp18-conclusion-p384-historians-and-writers` | 语义与端点不变。 | 均维持pending：分别因作者评价缺少忠实谓词、以及未具名史家端点／谓词缺口。 |
+
+当前p.384共有5项S6关系候选：1 formal（`rel-2432`）和4 pending（Rosa、未具名史家与作家、Crespi／未具名王子、Crespi／genre painting），无rejected。formal边的`source_span`现指向地域语境statement；pending只保留在过程记录，不写成误导性正式边。`relations.csv`行数仍2,432（2,395 formal、37 pending）。
+
+本次修订3条既有statement并新增2条；S2当前为15,456 statements、26,870 mentions。统一复核台账仍记录9,622条旧版本审读；这5条当前statement版本须做差异复核并与statement ID／来源版本台账核平，因此不将9,622/15,456称作当前版本准确覆盖率，也未增加独立复核分子。结论页的其他问题仍待处理：p.384 L7／p.385 L22赞助人群体候选误用，以及p.385 L20、L23复合断言；不据本次局部修订接收全页。S3、S4、S5登记计数未变；S4待登记new仍2,637条，其中直接关系端点966（term 412、work 153、place 144、archive 127、event 76、institution 53、person 1），`cand-9606`列入其中。`relation_candidate=true`仍为10,663。S6当前为1,913/10,663（formal 1,134、pending 650、rejected 129），尚余8,750。Italy与术语卡已定向渲染，写后字节核验通过，复预览无差异。严格表审计errors=[]、s2_missing=[]、alignments_unlinked=0；关系一致性五项阻断均为0。
+
 <a id="s3-s4-s5-s6-chp2-p36-integrated-st-peters-programme-20261027"></a>
 ### S3触发复核／S4/S5/S6：第2章 p.36 圣彼得大殿整体装饰方案端点（2026-10-27）
 
