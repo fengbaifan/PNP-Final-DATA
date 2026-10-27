@@ -17501,3 +17501,13 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 **卡片投影与审计。** 四张受影响卡（两个新term、Andrea Sacchi、Raphael）均定向预览；复预览均无差异。渲染器预检4卡、12张表、55行字段及13条关系投影，写入3张有变化卡片并通过写后字节核验。严格表审计退出码0，`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。零关系单位及超50边数诊断为非阻断项。
 
 **批后状态。** S2仍为15,470 statements／26,872 mentions；统一独立复核台账9,622条，statement ID与来源版本仍未核平。本批S3无决定值变化：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4新增2个term KU：已映射2,494/5,088条new候选，待映射2,594条，其中直接关系端点931、其他1,663；KU共3,274。S5为14,644条字段（1,627条`unverified`）。S6历史裁决累计2,011项（formal 1,186、pending 691、rejected 134）；当前relation_candidate=true为10,673项，历史裁决台账与当前statement版本仍有1项差异，不据此报告完成率。`relations.csv`共2,491行（2,450 formal、41 pending）。缺至少一个S2端点候选ID的statement为337条；backlog共58条（15 completed、43 undecided）。
+
+
+<a id="s3-type-clarification-chp17-manfrin-collection-20261028"></a>
+### S3 类型与跨章边界复核：Manfrin collection（2026-10-28）
+
+**候选边界。** 索引 `M.csv#49` 的 `cand-1512` 明确指 Girolamo Manfrin 人物，已沿用其S3 `new`决定并映射到[人物KU](../../../04-knowledge/units/persons/girolamo-manfrin.md)。紧邻的 `M.csv#50` 是其 `collection` 子条目，生成独立候选 `cand-1513`；第17章 p.380–381 及附录第7信 p.395 的14条关系候选把该候选用作画作集合／gallery的端点。它与人物候选是不同对象，不因所有者相同或名称相连而合并。
+
+**S3决定与待证条件。** 保持 `cand-1513` 的 `undecided`，不建KU。证据明确支持“Manfrin的画作收藏／gallery”作为不同于人物的对象，但同段在藏品集合、展示用途与实体gallery空间之间交替用语；当前taxonomy无独立的私人艺术收藏类型，也没有足够证据将全部指称定为组织型institution或单一physical place。若仅按当前候选标题强制归类，会把收藏对象和空间边界混为一体。重开条件为：项目类型规则明确增加适用的collection类型，或逐条来源核查足以将画作集合与物理gallery拆分为不同候选。待定期间，14条相关关系保持端点未决，不由人物KU代替。
+
+本批仅完善既有S3裁决理由；未更改 `cand-1512` 或 `cand-1513` 的决定值、S2 mentions／statements、S4映射及S6关系表。当前类型未定数及S4直接端点数不变。
