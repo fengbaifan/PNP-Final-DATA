@@ -17241,3 +17241,24 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 正式写入3条 `published_by`，另将有两端但需语义拆分的集合馆藏主张保留为1条pending关系行；3条题名—事件候选作为process-only pending，2条图像／接受断言拒绝图边。`bl-0058` 明确保留Montesquieu作品端点未决和重开条件。
 
 **卡片投影与结构审计。** build_cards 全量只读预检通过（3,254 cards、4,235 tables、14,584 rows）；对三册、Antonio Paluello、Carlo Palese、Stamperia Albrizziana、宣传册集合及Marciana卡完成定向预览。对7张受影响投影卡定向渲染，写后字节核验通过；7张复预览均无差异。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。审计发现并按受控矩阵修正了三条不合法的 archive→event `has_subject` 关系候选：将它们保留为process-only pending，不变更S2题名断言；因此正式新增关系为3条 `published_by`，另有1条 `located_at` pending。S2仍未独立接收，S3–S6未全书收口，S7未启动。
+
+
+<a id="s3-s4-s5-s6-chp4-p97-paolo-isabella-busts-20261028"></a>
+### S3–S4–S5–S6：第4章 p.97 Paolo Giordano II 与 Isabella 大理石胸像组（2026-10-28）
+
+**S3触发式复核与跨章身份边界。** 为登记 `cand-5551` 的直接人物端点，重开此前因只载名“Isabella”、缺少外部身份依据而保持 `undecided` 的 `cand-5550`／`aln-5731`。Haskell 第4章印刷页97 L28称胸像表现 Paolo Giordano II 与其妻 Isabella；同章印刷页98注3 L66另称 Paolo Giordano I 之妻为 Isabella de’ Medici，并报告其被绞杀。依两处不同丈夫及来源报告的不同结局，将 p.97 的 Isabella 裁为来源限定的 `new` 人物，组 `sg3-person-paolo-giordano-ii-wife-isabella-chp4-p97`，与已登记的 Isabella de’ Medici 区分；本批不补全名、姓氏或外部生平。`cand-5551` 原有 `new` 组 `workgrp-12bfa862c03e6f`，登记为两件胸像的来源限定作品组，不推断具体实物版本、创作者或现藏。Simon Vouet portrait 候选 `cand-5552` 仍为 `undecided`，与本批胸像组分开处理。
+
+**S4登记与S5字段。** 新建[Paolo Giordano II 与 Isabella 大理石胸像组](../../../04-knowledge/units/works/paolo-giordano-ii-isabella-marble-busts.md)及[书内所称 Paolo Giordano II 之妻 Isabella](../../../04-knowledge/units/persons/isabella-wife-paolo-giordano-ii-as-reported.md)两张 KU。为两卡新增8条 Haskell 书内 `source_backed` 字段（`enr-18499`–`enr-18506`）：作品描述性题名、题名性质、作品类型、正文相对年代、注3所引断代、创作者未具名，以及人物书内称名和身份限定。正文称奖章后一两年；注3转引 Faldi（1955, pp.13–15）称约1630年，保留两说并存，未裁定或填入正式关系时间。未独立查阅 Faldi。
+
+**S6逐项裁决。** 两项关系候选均正式登记为 `has_subject`，由作品组指向各被表现者；时间字段留空。
+
+| S2关系候选 | 决定 | 去向与范围 |
+|---|---|---|
+| `st-chp4-sec-i-l26-33-marble-busts` | formal | `rel-2466 has_subject`：胸像组 → Paolo Giordano II。仅记录 Haskell 对被表现者的表述；保留正文相对年代与注3转引断代的差异。 |
+| `st-chp4-sec-i-l26-33-isabella-marble-bust` | formal | `rel-2467 has_subject`：胸像组 → 来源限定的 Isabella。与 Paolo Giordano I 之妻 Isabella de’ Medici 区分；不补全名。 |
+
+`st-chp4-sec-i-l42-67-fn97-bust-dating` 的 `relation_candidate=false`，因此不进入S6关系候选分母。两条关系的来源、statement ID、语境及身份限制均写入正式关系行和本过程记录。
+
+**投影、审计与批后状态。** 两张受影响卡定向渲染（预检2卡、3张表、8行字段、3条关系投影）；写后字节核验通过，两卡复预览无差异。S5定向预览8行，`record_changes=0`、`warnings=0`。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。
+
+批后状态：S2为15,467 statements／26,872 mentions，统一独立复核台账仍记9,622条，statement ID／来源版本尚未核平，本批无S2变更。S3主决定12,432项（same 2,110、new 5,088、conflict 9、excluded 106、undecided 5,119）。S4已映射2,476/5,088条new候选，待映射2,612，其中直接关系端点946（term 404、work 149、archive 125、place 143、event 74、institution 50、person 1），其他1,666；KU共3,256。S5字段14,592（1,627 `unverified`）。S6裁决记录1,976项（formal 1,166、pending 679、rejected 131）；当前`relation_candidate=true`为10,671项，历史裁决台账与当前statement版本仍差1项，不报告完成率。`relations.csv`共2,466行（2,428 formal、38 pending）；缺至少一个S2端点候选ID的关系statement仍337条；backlog 58条（14 completed、44 undecided，严格审计pending=0）。S2仍未独立接收，S3–S6未全书收口，S7未启动。
