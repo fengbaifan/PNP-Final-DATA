@@ -46,3 +46,9 @@ The institution is supported by an explicit printing imprint. It remains separat
 ## 关系与证据
 
 4条直接 S2 `relation_candidate` 留待 S6：`st-chp13-p336-albrizzi-shop-flourishing-artistic-centre`, `st-chp13-p336-longhi-provided-drawings-for-albrizzi-firm`, `st-chp13-p336-novelli-provided-drawings-for-albrizzi-firm`, `st-chp13-p336-zais-provided-drawings-for-albrizzi-firm`。未新增正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← publisher_of（`publisher_of`，反向投影） | [《爱国主义：乔治·皮萨尼入城颂诗》（Patriotism: A Poem for Giorgio Pisani’s Entry）](../archives/il-patriotismo-pisani-entry-poem.md) | 依Haskell引文所列印刷所；保留含混日期字符串，不代表独立查阅原册；角色：引文印记所列印刷所；范围：Haskell注1引文列Nella Stamperia Albrizziana；不与Accademia Albrizziana合并。；原断言与证据见发出端卡片“《爱国主义：乔治·皮萨尼入城颂诗》（Patriotism: A Poem for Giorgio Pisani’s Entry）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_sec_ii.md)；haskell-1980-rev-ed；Chapter 10, printed p. 326, note 1, L220; statement=st-chp10-p326-n01-pamphlet3-published-by |

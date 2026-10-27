@@ -17213,3 +17213,31 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 未建立commission、委托、存放或当前馆藏关系。三张受影响卡预览确认只新增对应关系投影，已定向渲染作品、Poussin与Rospigliosi三卡；写后字节核验通过，复预览无差异。S5字段复预览`rows=3`、`record_changes=0`、`warnings=0`。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断五项均为0。
 
 **批后状态。** S2为15,461 statements／26,872 mentions；统一独立复核台账仍为9,622条且ID／版本未核平，本批修订statement不计入。S3主决定12,432项（same 2,110、new 5,087、conflict 9、excluded 106、undecided 5,120），本批无S3决定变化。S4已映射2,470/5,087条new候选，待映射2,617；直接关系端点949（term 404、work 150、archive 127、place 143、event 74、institution 50、person 1）；KU=3,250。S5字段14,564（1,627 unverified）。S6裁决记录1,964项（formal 1,161、pending 674、rejected 129）；当前relation_candidate=true为10,666项，历史裁决台账与当前statement版本仍差1，不报告完成率。`relations.csv`共2,460行（2,423 formal、37 pending）；缺端点statement 337条；backlog 57条（14 completed、43 undecided，严格审计pending=0）。S2尚未独立接收，S3–S6未全书收口，S7未启动。
+
+<a id="s3-s4-s5-s6-ch10-p326-pisani-entry-pamphlets-20261028"></a>
+### S3–S4–S5–S6：第10章印刷页326皮萨尼入城宣传册身份、端点与关系裁决（2026-10-28）
+
+**S2定向修订与页图核对。** 复核CHP-10.pdf physical p.59（印刷页326）及注1续引：注1列三册出版物，并称Biblioteca Marciana, Misc. 212所藏“这一组”带有十八世纪手写批语；它没有说明两幅frontispiece分别属于哪一册，也没有提供逐册馆藏清单。将 `st-chp10-p326-montesquieu-frontispiece` 与 `st-chp10-p326-justice-temple-frontispiece` 的主题载体从两册单件候选改为既有集合候选 `cand-12115`，保留来源实际只称“pamphlets / one frontispiece / another frontispiece”的粒度。`st-chp10-p326-n01-marciana-set` 改用 `located_at`，claim与quote限于注1的集合馆藏位置；另增一条非关系statement记录手写批语。增添第二、第三册的题名对象候选statement及三条印记责任statement，第一册题名statement `st-chp10-p326-n01-pamphlet-titles` 保持原位。新增6条statement，mention数未变；修订过的当前版本不加入统一S2独立复核分子。页图显示第三册出版日期字符串为 `CID ID CCLXXX`，未作罗马数字换算或更正。
+
+**S3与S4登记。** 维持既有S3 `new` 决定和身份组：`cand-9794` → `archive-group-1098577d24e3`，`cand-9795` → `archive-group-23ba852bf432`，`cand-9796` → `archive-group-423a2df94ebc`，`cand-9797` → `new-person:antonio-paluello-3f853839e5`。本批为三册宣传册和Antonio Paluello各建一个KU，不把三册合并为集合卡，也不把集合记录拆成逐册馆藏项。cand-9796的规范名称保留日期不明；出版社／印刷者身份没有外部核验。cand-9798 Carlo Palese与cand-9799 Stamperia Albrizziana复用既有KU；印刷所与Accademia Albrizziana保持区分。城市沿用已有cand-9209（Trevigi→Treviso）和cand-2719（Veneria→Venice）身份对齐，只用于书内出版地字段，不声称独立校勘原册。
+
+**S5字段。** 四张新卡共新增20条Haskell书内 `source_backed` 字段 `enr-18479`–`enr-18498`：三册各6项书目／核验范围字段，Antonio Paluello两项姓名与印记语境字段。MDCCLXXX仅在两册引文明载处规范为1780；第三册日期字符串原样保留，不填出版年。`presso`及印刷所称谓按Haskell引文记录，不独立裁定印刷者与出版者的区别。被引原册和Marciana目录均未独立查阅。
+
+**S6逐项裁决。** 本批10项关系候选各有去向：
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp10-p326-n01-pamphlet-titles` | pending（process-only） | Haskell题名明确写诗册“为Pisani庄严入城”而作，但受控矩阵没有 archive → event 的忠实谓词；不能把事件改成个人，也不改用通用谓词。题名断言保留在S2。 |
+| `st-chp10-p326-n01-pamphlet2-has-subject` | pending（process-only） | 与第一册相同，原题将诗册关联到Pisani入城事件；矩阵不允许 archive → event 的 `has_subject`。保留S2题名与事件断言，不登记不兼容关系。 |
+| `st-chp10-p326-n01-pamphlet3-has-subject` | pending（process-only） | 题名称长诗为Giorgio Pisani入城而作；矩阵不允许 archive → event 的 `has_subject`。含混印记日期也不扩写到关系时间。 |
+| `st-chp10-p326-n01-pamphlet1-published-by` | formal | `rel-2462 published_by`：第一册 → Antonio Paluello。只按Haskell引文记“presso”印记称谓。 |
+| `st-chp10-p326-n01-pamphlet2-published-by` | formal | `rel-2463 published_by`：第二册 → Carlo Palese。只按Haskell引文记“presso”印记称谓。 |
+| `st-chp10-p326-n01-pamphlet3-published-by` | formal | `rel-2464 published_by`：第三册 → Stamperia Albrizziana。保留日期字符串，不扩展到Accademia Albrizziana。 |
+| `st-chp10-p326-n01-marciana-set` | pending | `rel-2465 located_at`：整组宣传册 → Biblioteca Marciana。关系端点与引文范围明确，但该谓词将书中馆藏与一般位置合并，矩阵标为 `needs_split`；不提升为正式关系，也不推断每册均在该馆。 |
+| `st-chp10-p326-montesquieu-frontispiece` | pending | 载有Montesquieu作品的frontispiece及被描绘作品未达到稳定单件／版本粒度；S3候选 `cand-12116` 保持undecided，写入待办 `bl-0058`，不建KU或不完整关系。待证条件为作品组能按稳定书目粒度识别。 |
+| `st-chp10-p326-justice-temple-frontispiece` | rejected | 保留Haskell的“presumably”解释与其关于Pisani攀登正义神殿的寓意断言；它不是可忠实归类的受控实体关系，且包含推测性图像解读，不登记图边。 |
+| `st-chp10-p326-pamphlet-prints-hostility` | rejected | 保留Haskell称寓意版画引起bienpensants反感的原书断言；当前没有能准确表示“引起反感”的受控关系，群体也未被识别为稳定端点，不为建立边而登记term KU。 |
+
+正式写入3条 `published_by`，另将有两端但需语义拆分的集合馆藏主张保留为1条pending关系行；3条题名—事件候选作为process-only pending，2条图像／接受断言拒绝图边。`bl-0058` 明确保留Montesquieu作品端点未决和重开条件。
+
+**卡片投影与结构审计。** build_cards 全量只读预检通过（3,254 cards、4,235 tables、14,584 rows）；对三册、Antonio Paluello、Carlo Palese、Stamperia Albrizziana、宣传册集合及Marciana卡完成定向预览。对7张受影响投影卡定向渲染，写后字节核验通过；7张复预览均无差异。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。审计发现并按受控矩阵修正了三条不合法的 archive→event `has_subject` 关系候选：将它们保留为process-only pending，不变更S2题名断言；因此正式新增关系为3条 `published_by`，另有1条 `located_at` pending。S2仍未独立接收，S3–S6未全书收口，S7未启动。

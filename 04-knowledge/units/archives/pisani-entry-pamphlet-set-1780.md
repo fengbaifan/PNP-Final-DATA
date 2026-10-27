@@ -81,6 +81,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 待证：位于（`located_at`） | [马尔恰纳图书馆（Biblioteca Marciana）](../institutions/biblioteca-marciana.md) | 状态：待证；Needs split: distinguish archival holding/custody from generic located_at before formalizing this archive-to-institution claim.；角色：注1所述整组宣传册的馆藏位置；范围：Haskell称该组在Biblioteca Marciana, Misc. 212；未逐册核对。archive馆藏语义在当前located_at谓词中尚需拆分，故保留pending，不用于正式关系投影。；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_sec_ii.md)；haskell-1980-rev-ed；Chapter 10, printed p. 326, note 1, L221; statement=st-chp10-p326-n01-marciana-set |
+
 
 S2 的馆藏定位关系候选 st-chp10-p326-n01-marciana-set 留待 S6；机构身份现可连到[Biblioteca Marciana](../institutions/biblioteca-marciana.md)。本批没有正式关系。
