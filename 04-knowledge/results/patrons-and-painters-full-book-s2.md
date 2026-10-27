@@ -3761,7 +3761,7 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 | family | 18 | 13 | 0 |
 | procedure | 2 | 2 | 0 |
 | 类型尚未确定 | 626 | 471 | 0 |
-| **合计** | **5,118** | **2,994** | **935** |
+| **合计** | **5,118** | **2,994** | **933** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。另有零关系KU及超50连接对象属于非阻断诊断。结构通过不等于S2独立语义接收。当前S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面仍等待用户明确启动。
 
