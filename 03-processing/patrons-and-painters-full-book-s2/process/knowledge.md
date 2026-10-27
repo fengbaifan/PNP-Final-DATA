@@ -17100,7 +17100,7 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 - cand-6497 / aln-6675 → units/places/tribune-of-santa-maria-maggiore-rome。记录为教堂内部祭坛席空间；本段不提供精确边界或现状。
 - cand-0712 / aln-1047 → same，复用圣母大殿KU。cand-6495 的“反对奢侈艺术赞助”术语仍 undecided，不再作为该方案的关系对象。
 
-**S2 定向修订。** 修正 st-chp6-p162-v1-12 的错误对象：从相邻段落术语 cand-6495 改为计划归属及预期安葬者 cand-2263。原书计划陈述与引文保持不变；当前版本须作独立差异复核，不计入统一复核分子。新增 st-chp6-p162-tribune-part-of-santa-maria-maggiore，以现有 mention m-chp6-p162-v-022（祭坛席）及 m-chp6-p162-v-023（圣母大殿）记录原文短语所支持的 place-to-place 部分关系；没有重复 mention。新 statement 同样未进入 S2 独立复核分子。
+**S2 定向修订与独立差异复核。** 修正 st-chp6-p162-v1-12 的错误对象：从相邻段落术语 cand-6495 改为计划归属及预期安葬者 cand-2263。独立审读指出其claim漏写墓所与同一教堂中西克斯图斯五世、保罗五世墓所的比较；已补入“more imposing than the tombs of Sixtus V and Paul V in the same church”，随后对修订后的当前版本复核通过。新增 st-chp6-p162-tribune-part-of-santa-maria-maggiore，以现有 mention m-chp6-p162-v-022（祭坛席）及 m-chp6-p162-v-023（圣母大殿）记录原文短语所支持的 place-to-place 部分关系；独立审读确认 claim、端点、锚点和 relation_candidate 标记适当，没有重复 mention。两条当前statement版本均已独立审读；全书复核台账仍须按statement ID和版本核平，本批不增加9,622条统一分子，也不构成S2接收。逐条结论与版本指纹见[本页独立复核记录](s2-independent-review-chp6-p162-20261027.md)。
 
 **S5 定向字段。** 三张新卡新增10条 Haskell 书内 source-backed 字段 enr-18449–enr-18458：方案卡5条、死亡事件卡2条、祭坛席地点卡3条。字段分别保留方案状态、目标空间、安葬意图、时序限定、来源边界及对象粒度；原书未载的死亡日期、地点、工程执行与建筑边界均不补值。build_field_facts 定向预览／应用均为10条、source_backed 10、unverified 0、warnings 0。
 
