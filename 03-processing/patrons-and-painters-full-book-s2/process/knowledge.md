@@ -1,5 +1,43 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp13-p342-tessin-bathsheba-gai-20261027"></a>
+### S3/S4/S5/S6：第13章 p.342 Tessin、Gai 与 Bathsheba 作品端点（2026-10-27）
+
+#### 身份组与触发式 S3 复核
+
+S4 直接端点登记触发复核 `cand-10082`。第13章 p.342 L101 报告 Tessin 经 Zanetti 之手委托雕塑家 Gai 制作一件形象，并说明预期题材为“从浴池中走出的维纳斯”。该来源足以建立一件来源限定的计划作品身份；是否完成或存世不决定其是否可被区分为作品候选。故将 `aln-10254` 从 `undecided` 改为 `new`，身份组 `sg3-work-cand-10082`，并登记为 `units/works/gai-venus-emerging-from-baths-for-tessin`。不声称已有完成实物、媒材或外部馆藏版本。
+
+`cand-10083` 沿用既有 `new` 身份组 `workgrp-5a34e5c0b4f7fc`，登记为 `units/works/tessins-bathsheba-giovanni-da-bologna`。原文将 Bathsheba 与拟议的 Gai 形象分开；其正式题名、媒材和具体版本未载。`cand-10084`（Giovanni da Bologna）继续为 `undecided`，无 KU。该称名可能涉及索引候选 `cand-1160` Giambologna，但本书当前称名与既有材料不足以证明同一；仅在权威身份记录直接支持名称对应后重开，不将可能性转为正式创作者边。
+
+#### S4 与 S5
+
+登记上述两张 work KU，更新 `aln-10254`、`aln-10255`；为 `aln-10256` 记录未决人物端点及重开条件。两卡新增五条 Haskell 来源字段：Gai 形象的来源所述作品类型、预期题材、完成／存世状态未载，以及 Bathsheba 的来源称名与归属用语（`enr-18413`–`enr-18417`）。没有增加 mention。Gai 形象和 Bathsheba 的双语描述均保留来源限定，不声称作品已完成、现存或经外部验证。
+
+#### S6 逐项裁决
+
+| S2 关系候选 | 决定 | 去向与范围 |
+|---|---|---|
+| `st-chp13-p342-zanetti_facilitated_gai_commission` | formal | `rel-2427 commissioned_by`：Gai 形象 → Tessin。仅记录 Haskell 所述经 Zanetti 促成的委托，不表示形象已制作。 |
+| `st-chp13-p342-venus-figure-attributed-to-gai` | formal | `rel-2428 created_by`：仅记录 Haskell 将受委托形象称为“雕塑家 Gai 的作品”；不表示已经执行或存世。此原文归属另增为独立 S2 claim，复用既有 Gai mention。 |
+| `st-chp13-p342-gai_figure_intended_to_pair_with_tessins_bathsheba` | formal | `rel-2429 pendant_of`：仅记录该形象拟与 Tessin 的 Bathsheba 同场；不推断完成或实际共同展示。维纳斯题材作为 S5 字段保存。 |
+| `st-chp13-p342-tessin_owned_giovanni_da_bologna_bathsheba` | formal | `rel-2430 owned_by`：记录 Tessin 在 Haskell 所引第三封信语境中的自述；信件准确日期、法律权利范围及后续所有权未核实。 |
+| `st-chp13-p342-tessin_assessed_gai_as_half_michelangelo` | pending | Tessin 对 Gai 的评价没有准确对应的受控关系类型；保留原判断及评价来源，不强转为赞助或友谊关系。 |
+| `st-chp13-p342-bathsheba-attributed-to-giovanni-da-bologna` | pending | 引文的创作者称名是 Giovanni da Bologna，但人物端点 `cand-10084` 尚无可确认身份或 KU；待直接身份依据后再决定是否可 formal。 |
+
+本批没有 rejected 项。两条新增关系候选 statement 不增加 mention，也不计入 S2 独立复核分子；`cand-10084` 不新建人物 KU。当前 S2 共 15,454 statements、26,870 mentions；统一独立复核仍为 9,622 条，覆盖 62.26%，S2 尚未独立接收。
+
+#### 批后状态与检查
+
+| 阶段 | 批后状态 |
+|---|---|
+| S3 | 主决定 12,432/12,432：same 2,106、new 5,090、conflict 9、excluded 106、undecided 5,121。 |
+| S4 | 已映射 2,451/5,090 个 new 候选；待映射 2,639，其中直接关系端点 967、其他 1,672；KU 共 3,232。 |
+| S5 | 字段 14,503 条，其中 1,627 条 unverified。 |
+| S6 | 新裁 6 项（4 formal、2 pending、0 rejected）；累计 1,905/10,664（formal 1,132、pending 644、rejected 129），尚余 8,759。`10,664` 按当前 `book-statements.jsonl` 中 `relation_candidate=true` 逐条重算；上一版结果摘要的 10,665 与当时的原始标记数不符。 |
+| 正式关系表 | 2,430 行：2,393 formal、37 pending；新增 `rel-2427`–`rel-2430`。 |
+
+两张新卡定向渲染后复预览无差异。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py` 五类阻断均为 0。未改变 candidate-backlog；此前 56 条（14 completed、42 undecided）继续保留。
+
 <a id="s4-s5-s6-chp3-p93-jesuit-illusionistic-art-20261027"></a>
 ### 第3章印刷页93 耶稣会幻觉式艺术端点登记与S6裁决（2026-10-27）
 
