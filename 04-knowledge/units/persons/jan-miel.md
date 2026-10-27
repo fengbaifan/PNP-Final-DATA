@@ -71,4 +71,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-当前没有登记正式关系。涉及 Jan Miel 的 13 条 S2 关系候选均保留待 S6 逐条裁决；本卡的合作、成员、遗嘱、风格与购藏语境仅作为来源限定的身份说明，不构成正式关系边。[第5章 p.126](../../../02-sources/02-Markdown/05_CHP-5_sec_i.md)（L74） [第5章 pp.137、140](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)（L72、75–76、112） [第8章 p.207](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)（L44）
+涉及 Jan Miel 的13条S2关系候选中，`st-chp5-p137-miel-contributed-to-de-bello-illustrations`已裁决为formal；其余12条仍按各自端点和证据待S6逐项处理。本卡的其他合作、成员、遗嘱、风格与购藏语境仅作为来源限定的身份说明，不自动构成关系边。[第5章 p.126](../../../02-sources/02-Markdown/05_CHP-5_sec_i.md)（L74） [第5章 pp.137、140](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)（L72、75–76、112） [第8章 p.207](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)（L44）
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 贡献者（`contributor_to`，反向投影） | [《比利时战争》（The Belgian War）](../archives/de-bello-belgico.md) | S2 statement: st-chp5-p137-miel-contributed-to-de-bello-illustrations; source-limited disposition in 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp5-p137-campaigns-low-countries-20261027.；时间：1647；角色：插图合作画家；范围：第二卷插图；1647为合作时间，不是出版年。；原断言与证据见发出端卡片“《比利时战争》（The Belgian War）”：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p. 137 L72–73 |

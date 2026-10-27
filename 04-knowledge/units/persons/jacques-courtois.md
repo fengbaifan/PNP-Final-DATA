@@ -93,4 +93,11 @@ English: This card refers to Jacques Courtois / Giacomo Borgognone and remains s
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+`st-chp5-p137-borgognone-contributed-to-de-bello-illustrations`已裁决为formal插图合作关系，按本卡既有身份判断对应Giacomo Borgognone／Jacques Courtois；范围限于第二卷插图，不指定单幅作品或个人分工。其他S2关系候选仍按各自端点与证据处理。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [圣依纳爵故居连廊装饰（Decoration of the Corridor Linking St Ignatius’s Former Rooms）](../works/pozzo-corridor-decoration-s-ignazio.md) | Evidence: The task of decorating this corridor had been begun by Giacomo Borgognone, and left incomplete at his death. S2 statement: st-chp3-seciv-l130-139-giacomo-began-decoration.；角色：开始装饰者；未完成；范围：仅记 Borgognone 开始该装饰且至其去世时未完成；不表示唯一创作者或已完成。；原断言与证据见发出端卡片“圣依纳爵故居连廊装饰（Decoration of the Corridor Linking St Ignatius’s Former Rooms）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；lines 132; print p. 89; PDF physical p. 31 |
+| ← 贡献者（`contributor_to`，反向投影） | [《比利时战争》（The Belgian War）](../archives/de-bello-belgico.md) | S2 statement: st-chp5-p137-borgognone-contributed-to-de-bello-illustrations; source-limited disposition in 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp5-p137-campaigns-low-countries-20261027.；时间：1647；角色：插图合作画家；该段称Giacomo Borgognone；范围：第二卷插图；1647为合作时间，不是出版年。；原断言与证据见发出端卡片“《比利时战争》（The Belgian War）”：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p. 137 L72–73 |

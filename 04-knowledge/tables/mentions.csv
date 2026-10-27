@@ -27540,3 +27540,5 @@ m-chp21-bib-haskell-1959-article-author,chp-21:21_CHP-21Bibliography:l577-614,ca
 m-chp8-p241-cardinal-medici,chp-8:08_CHP-8_sec_ii:l361-370,cand-8074,Cardinal Medici,829,844,The p.241 source names only the title and family name; the S3 identity comparison is recorded in the linked process decision.
 m-chp8-p222-n2-agnelli-person,chp-8:08_CHP-8_sec_ii:l372-461,cand-7709,J. Agnelli,1942,1952,Verse-commentary contributor form in Haskell's p.222 note 2; the initial does not resolve the person's forename.
 m-chp21-bib-l756-806-maresca-author,chp-21:21_CHP-21Bibliography:l756-806,cand-7389,"Maresca di Serracapriola, A.",97,125,Author form in Haskell's p.429 bibliography entry; only initial A. is printed.
+m-chp5-sec-iii-l70-80-048,chp-5:05_CHP-5_sec_iii:l70-80,cand-11927,Alessandro Farnese’s campaigns,279,309,Direct S2 anchor for the campaign group named in the De Bello Belgico and location statements; no campaign date or individual battle is implied.
+m-chp5-sec-iii-l70-80-049,chp-5:05_CHP-5_sec_iii:l70-80,cand-11930,and others,172,182,"Direct S2 span for the additional unnamed collaborators; the referent remains an open-ended, untyped group."

@@ -49,10 +49,16 @@ English: External identity references: [Treccani DBI](<https://www.treccani.it/e
 
 ### 身份边界
 
-中文：本卡指低地国家战役语境中的 Alessandro Farnese，即帕尔马公爵；与枢机 Alessandro Farnese（cand-0995）不同。Treccani 与 Strada 题名只用于身份消歧，不把战役叙述的谓词或其他事实外推。该人物是1条 S2 关系候选的端点，留待 S6 审查；本卡未新增正式关系。
+中文：本卡指低地国家战役语境中的 Alessandro Farnese，即帕尔马公爵；与枢机 Alessandro Farnese（cand-0995）不同。Treccani 与 Strada 题名只用于身份消歧，不把战役叙述的谓词或其他事实外推。该人物是1条 S2 关系候选的端点；S6已将其记为战役参与者，角色仅限来源所表达的归属，不推定具体指挥职衔。
 
-English: This card identifies the Alessandro Farnese in the Low Countries campaign context as the Duke of Parma, distinct from Cardinal Alessandro Farnese (`cand-0995`). Treccani and Strada's title are used only to disambiguate identity, not to expand the source's predicates or other claims. He is the endpoint of one S2 relation candidate, retained for S6 review. No formal relation is added.
+English: This card identifies the Alessandro Farnese in the Low Countries campaign context as the Duke of Parma, distinct from Cardinal Alessandro Farnese (`cand-0995`). Treccani and Strada's title are used only to disambiguate identity, not to expand the source's predicates or other claims. He is the endpoint of one S2 relation candidate, now recorded in S6 as a campaign participant; the role is limited to the source's attribution and does not infer a specific command title.
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+`st-chp5-p137-farnese-named-as-campaign-leader`已裁决为formal `has_participant`关系，限定为Haskell将战役称作Farnese的战役；不补具体战役或指挥职衔。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 参与事件（`participated_in`，反向投影） | [亚历山德罗·法尔内塞的低地国家战役（Alessandro Farnese’s campaigns in the Low Countries）](../events/alessandro-farnese-campaigns-low-countries.md) | S2 statement: st-chp5-p137-farnese-named-as-campaign-leader; source-limited disposition in 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp5-p137-campaigns-low-countries-20261027.；角色：原文以Alessandro Farnese’s campaigns指称该战役组；不补具体指挥头衔。；范围：来源关联到公爵，但没有列出单场战役或具体职衔。；原断言与证据见发出端卡片“亚历山德罗·法尔内塞的低地国家战役（Alessandro Farnese’s campaigns in the Low Countries）”：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p. 137 L72–73 |

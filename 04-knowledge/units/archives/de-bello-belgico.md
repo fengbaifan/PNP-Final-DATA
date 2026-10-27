@@ -36,9 +36,18 @@ sub_type: book
 - **中文工作译名：** 《比利时战争》；仅作项目展示名，不声称是正式中文书名。
 - **英文工作译名：** *The Belgian War*；仅作项目展示名。
 - **文献类型与粒度：** 书籍；本卡记录书名层级身份。第5章提到第二卷，但本段未给出该书的出版地、出版者、版次或出版年；不把插图合作年1647写成出版年。
-- **责任者记载：** Haskell称其为Famiano Strada之书，身份入口见[Famiano Strada人物卡](../persons/famiano-strada.md)；该关系候选留待S6，不表示本项目独立查阅或核实作者归属。
-- **书内语境：** 第5章以Cerquozzi的合作为例，提到Jan Miel、Giacomo Borgognone及未具名的其他艺术家参与第二卷插图。姓名链接仅作身份入口，具体角色候选仍待S6。
+- **责任者记载：** Haskell称其为Famiano Strada之书；S6已将书内作者关系裁决为formal。该决定只记录Haskell的归属表述，本项目未独立查阅原书；身份入口见[Famiano Strada人物卡](../persons/famiano-strada.md)。
+- **书内语境：** 第5章以Cerquozzi的合作为例，提到他、Jan Miel、Giacomo Borgognone及未具名的其他艺术家参与第二卷插图。S6已formal记录Cerquozzi、Miel与Borgognone的插图合作关系；未具名者仍待证，不推定其人数或名单。
 
 ## 关系与证据
 
-当前没有正式关系。以下S2关系候选全部留待S6：`st-chp5-p137-de-bello-farnese-campaigns`、`st-chp5-p137-miel-borgognone-strada-collaboration`、`st-chp5-p137-miel-contributed-to-de-bello-illustrations`、`st-chp5-p137-borgognone-contributed-to-de-bello-illustrations`、`st-chp5-p137-unnamed-artists-contributed-to-de-bello-illustrations`、`st-chp5-p137-de-bello-authored-by-famiano-strada`。相关事件端点`cand-11927`和未具名艺术家组`cand-11930`仍为S3未决，不据此猜造实体或正式边。
+本卡现有4条formal关系：三位插图合作画家及作者。`st-chp5-p137-de-bello-farnese-campaigns`保留为pending，因为当前受控`has_subject`不允许archive→event，且没有其他准确匹配的受控谓词；不为一条证据改写关系本体。`st-chp5-p137-unnamed-artists-contributed-to-de-bello-illustrations`也为pending，因其他合作者未具名。`cand-11927`已恢复直接S2锚点并按source-local event组进入S4；不据此补战役细节。未具名合作者`cand-11930`仍为S3 undecided，不推定身份、类型或人数。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 由其贡献（`contributed_by`） | [米开朗基罗·切尔阔齐（Michelangelo Cerquozzi）](../persons/michelangelo-cerquozzi.md) | S2 statement: st-chp5-p137-miel-borgognone-strada-collaboration; source-limited disposition in 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp5-p137-campaigns-low-countries-20261027.；时间：1647；角色：插图合作画家；范围：第二卷插图；1647为合作时间，不是出版年。；证据：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p. 137 L72–73 |
+| → 由其贡献（`contributed_by`） | [扬·米尔（Jan Miel）](../persons/jan-miel.md) | S2 statement: st-chp5-p137-miel-contributed-to-de-bello-illustrations; source-limited disposition in 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp5-p137-campaigns-low-countries-20261027.；时间：1647；角色：插图合作画家；范围：第二卷插图；1647为合作时间，不是出版年。；证据：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p. 137 L72–73 |
+| → 由其贡献（`contributed_by`） | [雅克·库尔图瓦（Jacques Courtois / Giacomo Borgognone）](../persons/jacques-courtois.md) | S2 statement: st-chp5-p137-borgognone-contributed-to-de-bello-illustrations; source-limited disposition in 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp5-p137-campaigns-low-countries-20261027.；时间：1647；角色：插图合作画家；该段称Giacomo Borgognone；范围：第二卷插图；1647为合作时间，不是出版年。；证据：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p. 137 L72–73 |
+| → 作者（`authored_by`） | [法比亚诺·斯特拉达（Famiano Strada）](../persons/famiano-strada.md) | S2 statement: st-chp5-p137-de-bello-authored-by-famiano-strada; source-limited disposition in 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp5-p137-campaigns-low-countries-20261027.；角色：作者；范围：Haskell称De Bello Belgico为Famiano Strada之作；不推出版时间。；证据：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p. 137 L72–73 |

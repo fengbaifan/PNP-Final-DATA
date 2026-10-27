@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-27）
 
+**本批完成：第5章 p.137《De Bello Belgico》插图合作与低地国家战役端点（2026-10-27）。** 修补cand-11927与cand-11930的两个直接mention；statement数与S2独立复核台账不变。cand-11927从undecided定点改为source-local event `new`；Low Countries地点沿用跨第2、5、8章的place组。新增2个KU及3条书内S5字段。9条关系候选逐项裁决为6 formal、3 pending（含archive→event谓词域值不允许、受益者群体未定、其他画家未具名）；正式行`rel-2450`–`rel-2455`。八张受影响卡已定向渲染；首次严格审计发现并删除非法`rel-2449 has_subject`，修正后结构与关系审计通过。S2仍未接收，S3–S6仍未全书收口。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp5-p137-campaigns-low-countries-20261027)。
+
 **本批完成：第6章 p.162 克勉九世方案、死亡事件及圣母大殿祭坛席端点与S6裁决。** 沿用 cand-6496、cand-12410、cand-6497 的既有 S3 new 组登记2个event KU和1个place KU；触发 cand-0712 定点重开为 same，复用 Santa Maria Maggiore KU。修正 v1-12 错误对象并新增祭坛席 part_of statement；两条当前statement版本经独立差异复核。复核发现 v1-12 claim 漏写与西克斯图斯五世、保罗五世墓所的比较，已补入并复核通过。新增10条Haskell来源字段（enr-18449–enr-18458）。5项S6候选逐条有去向：formal rel-2447 has_participant、rel-2448 part_of；3项因事件时序谓词缺失、家族费用担忧无对应谓词、教士与镶嵌画端点未决而pending。4张关系投影卡定向渲染；严格表审计 errors=[]，关系一致性阻断均为0。该两条审读结果待与全书statement ID／版本台账核平后再计入统一复核数。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp6-p162-clement-ix-burial-scheme-20261027)。
 
 
@@ -3699,12 +3701,12 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
-| S2 | 15,461 statements、26,870 mentions；统一复核台账记录9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平，9,622不作为当前版本精确覆盖率。p.189五条修订后statement已复核；本批p.162两条当前版本已独立差异复核，但尚未与统一台账核平，因此不计入9,622。第13章收据—卷册、拱顶—祭坛席statement仍待独立复核；第10章p.281七个当前版本、p.384五个当前版本及p.286一个当前版本仍待差异复核。结论页其他已记录的赞助人群体端点和p.385复合断言仍未修复，不能据p.384局部修订接收全页。 |
-| S3 | 主决定12,432/12,432（100%）：same 2,107、new 5,089、conflict 9、excluded 106、undecided 5,121 | 100%仅指每个候选都有主决定行，不等于语义收口；5,121项仍undecided。另有28个候选的35条来源限定记录与主行决定不同；cand-2328/aln-12663 已于2026-10-27复核，外部比对保持undecided，理由及重开条件已记录。身份组覆盖需要按当前有效决定重核：alignment注记包含prior_resolution_note等历史组字符串，直接扫描可能把旧组当成当前组；先前扫描数字不作为当前收口指标。 |
-| S4 | new候选已映射2,464/5,089；待映射2,625，其中直接关系端点957、其他1,668；KU共3,245 | 本批登记2个event KU、1个place KU；cand-0712由new定点改为same并复用既有教堂KU。 |
-| S5 | 14,544条字段，1,627条unverified | 本批新增10条Haskell来源支持字段；只对身份、关系或作品版本判断有用的字段做定向补足。 |
-| S6 | 裁决记录1,943项：formal 1,149、pending 665、rejected 129；当前relation_candidate=true为10,666条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | 本批5项逐条裁决，2 formal、3 pending；未用不匹配谓词伪造事件时序或费用关系。 |
-| 正式关系表 | 2,448行：2,411 formal、37 pending | 最新新增rel-2447 has_participant、rel-2448 part_of；不能忠实表达或关键端点待证的pending决定保存在过程记录／backlog中，不写入不完整关系。 |
+| S2 | 15,461 statements、26,872 mentions；统一复核台账记录9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平，9,622不作为当前版本精确覆盖率。p.189五条修订后statement已复核；p.162两条当前版本已独立差异复核但未并入台账；本批只补mention、不改statement，也不增加复核数。第13章收据—卷册、拱顶—祭坛席statement仍待独立复核；第10章p.281七个当前版本、p.384五个当前版本及p.286一个当前版本仍待差异复核。 |
+| S3 | 主决定12,432/12,432（100%）：same 2,107、new 5,090、conflict 9、excluded 106、undecided 5,120 | 100%仅指每个候选都有主决定行，不等于语义收口；5,120项仍undecided。另有28个候选的35条来源限定记录与主行决定不同；cand-2328/aln-12663保持undecided并有重开条件。身份组覆盖仍需按有效决定核对：已有79条new主行缺当前可解析组、14条注记含多个组字符串；不能仅凭历史注记自动归组。 |
+| S4 | new候选已映射2,466/5,090；待映射2,624，其中直接关系端点956、其他1,668；KU共3,247 | 本批新增1个event KU、1个place KU并完成两条映射；Low Countries沿用跨章place组。 |
+| S5 | 14,547条字段，1,627条unverified | 本批新增3条Haskell书内source-backed字段；仅定向补足关系和身份判断所需信息。 |
+| S6 | 裁决记录1,952项：formal 1,155、pending 668、rejected 129；当前relation_candidate=true为10,666条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | 本批9项逐条裁决，6 formal、3 pending；谓词域值不允许或端点未决的候选不写成不完整关系。 |
+| 正式关系表 | 2,454行：2,417 formal、37 pending | 最新有效新增rel-2450–2455；rel-2449因archive→event的`has_subject`违反值域规则已删除，该候选改记process-only pending。 |
 | 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 57条（14 completed、43 undecided） | 严格审计backlog pending=0；本批新增`bl-0057`，记录Lord Powis身份与赞助关系待证条件。 |
 
 S3 undecided候选与S4未映射直接关系端点的类型分布：
@@ -3715,23 +3717,23 @@ S3 undecided候选与S4未映射直接关系端点的类型分布：
 | work | 1,567 | 151 |
 | archive | 668 | 127 |
 | term | 660 | 408 |
-| place | 302 | 144 |
+| place | 302 | 143 |
 | institution | 117 | 52 |
-| event | 113 | 74 |
+| event | 112 | 74 |
 | family | 18 | 0 |
 | procedure | 2 | 0 |
 | 类型尚未确定 | 626 | 0 |
-| **合计** | **5,121** | **957** |
+| **合计** | **5,120** | **956** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。另有零关系KU及超50连接对象属于非阻断诊断。结构通过不等于S2独立语义接收。当前S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面仍等待用户明确启动。
 
 #### 后续工作顺序
 
-1. **优先登记高解锁 S4 直接端点，并在同批完成 S6。** 当前2,625条S3 `new`候选待登记，957条是直接关系端点（term 408、work 151、place 144、archive 127、event 74、institution 52、person 1）。按当前`relation_candidate=true`陈述逐候选计数，19个端点各连接3条候选（14 term、2 place、3 institution），另有135个连接2条、803个连接1条；该排序只用于批次优先级。先核证据成熟度与实际解锁对象，再登记／复用KU、补关系判断必需的S5字段，并逐条记录formal、pending或rejected；关键身份冲突才触发S3重开。cand-6496、cand-12410、cand-6497已登记，cand-0712已复用。
-2. **校准 S2 独立复核台账并继续章次审读。** 当前15,461条statement；台账记9,622条，但statement ID和来源版本未核平，不把差额当作待审游标或精确覆盖率。p.162两条当前版本已独立复核，先在台账核平时精确绑定statement ID和当前版本，再对照去重p.281七条、p.384五条、p.286一条当前版本；核平已逐条审读但未并入台账的p.190共43条，并复审p.191、p.216、p.353共7条当前版本；随后按书序继续p.192。p.189五条已复核。第13章收据—卷册、拱顶—祭坛席statement也仍待独立复核；每次修订只复核受影响当前版本，未独立接收前不计入分子。
-3. **按触发条件完成 S3 跨章身份分组与类型裁决。** 已核对28个候选／35条来源限定记录：27个主行`new`与34条外部`same`均指向主行已映射的同一KU；cand-2328外部记录因关联与年代差异仍为`undecided`，不改主行书内组。另有79条`new`主行缺当前可解析组、14条注记含多个组字符串；这些不能仅靠历史字符串自动归组。优先随高解锁S4端点按类型审理；随后处理work、person、archive、term、place、institution、event、family、procedure及类型未定候选。保留same唯一目标、new稳定组、conflict竞争对象、excluded理由和undecided缺证／重开条件，不为清零批量改判。当前5,121条undecided的类型分布见上表。
-4. **联动消化缺端点关系、backlog与关键 S5 缺口。** 当前337条关系statement至少缺一个S2端点候选ID；backlog 57条（43条undecided）。已有S1候选走S3→S4；真正新增端点才进入`candidate-backlog.csv`，按S1→S3→S4处理。`cand-2031`（Lord Powis）需唯一身份和独立赞助证据；Marieschi 1741年views的身份／版本仍待证。S5有14,544条字段、1,627条`unverified`，只补能改变身份、作品版本、关系角色、时间或地点判断的字段；其余保留具体缺口。
-5. **达到前置收口门槛后再准备 S7。** 要求每个new候选已登记或有明确阻断，关键字段已核实或保留具体缺口，每项关系有formal/pending/rejected去向，缺端点与backlog可追溯，且S2独立审读完成并接收。此前全库卡片预检的531张派生差异不是本轮现状，须在S7准备时重跑；知识发现与页面建设仍等待用户明确启动。
+1. **先核平 S3 决定与身份组的可追溯性。** 主决定行已覆盖12,432个候选，但5,120仍为undecided；先逐条确认9个conflict的竞争对象和去向，再清查28个候选／35条外部来源限定记录，尤其cand-2328仍有来源差异。另复核79条new主行缺当前可解析组和14条注记含多个组字符串的记录；仅从当前有效证据建立组，不从历史注记自动继承。所有same须有唯一复用目标，new须有稳定组及登记或明确阻断，undecided须写明缺口与重开证据。
+2. **按类型和解锁价值分批完成 S3，并联动 S4/S6。** 先处理当前2,624条未映射new中的956个直接关系端点（term 408、work 151、archive 127、place 143、event 74、institution 52、person 1），核验候选身份后登记或复用KU；端点有证据时在同一批逐条裁决S6。随后按跨章复用和来源成熟度处理其余类型：work 1,567、person 1,048、archive 668、term 660、place 302、institution 117、event 112、family 18、procedure 2、类型未定626。未具名群体或谓词域值不匹配时保留明确pending条件，不为清零强行定型。
+3. **校准 S2 独立复核台账并继续章次审读。** 当前15,461条statement；台账记9,622条，但statement ID和来源版本未核平，不把差额当作待审游标或精确覆盖率。p.162两条当前版本已独立复核，先精确绑定台账中的statement ID和版本；再对照去重p.281七条、p.384五条、p.286一条当前版本，核平已逐条审读但未并入台账的p.190共43条，并复审p.191、p.216、p.353共7条当前版本；随后按书序继续p.192。p.189五条已复核；第13章收据—卷册、拱顶—祭坛席statement仍待独立复核。修订后只复核受影响版本，未独立接收前不计入统一复核数。
+4. **定向处理关系缺端点、backlog与S5关键字段。** 当前337条关系statement至少缺一个S2端点候选ID；backlog 57条（43条undecided）。已有S1候选走S3→S4；确属新对象才进入`candidate-backlog.csv`。`cand-2031`（Lord Powis）仍需唯一身份与独立赞助证据；Marieschi 1741年views身份／版本仍待证。S5现有14,547条字段、1,627条`unverified`，只补会影响身份、作品版本、关系角色、时间或地点判断的字段。
+5. **满足阶段前置条件后再准备 S7。** 每个new候选须已登记或有明确阻断，关键字段已核实或有具体缺口，每项关系已有formal、pending或rejected去向，缺端点与backlog可追溯，且S2独立审读完成并接收。届时重跑全库卡片预检；旧有531张派生差异不代表当前状态。知识发现和页面仍等待用户明确启动。
 
 #### 提速安排
 

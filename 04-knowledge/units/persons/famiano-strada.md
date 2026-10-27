@@ -36,4 +36,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-当前没有正式关系。`st-chp5-p137-de-bello-authored-by-famiano-strada`记录哈斯克尔的书内归属陈述，留待S6审查；相关文献身份入口见[De Bello Belgico文献卡](../archives/de-bello-belgico.md)。
+`st-chp5-p137-de-bello-authored-by-famiano-strada`已裁决为formal `author_of`关系，依据限于Haskell将De Bello Belgico称为Strada之作；本项目未独立查阅原书。相关文献身份入口见[De Bello Belgico文献卡](../archives/de-bello-belgico.md)。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《比利时战争》（The Belgian War）](../archives/de-bello-belgico.md) | S2 statement: st-chp5-p137-de-bello-authored-by-famiano-strada; source-limited disposition in 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp5-p137-campaigns-low-countries-20261027.；角色：作者；范围：Haskell称De Bello Belgico为Famiano Strada之作；不推出版时间。；原断言与证据见发出端卡片“《比利时战争》（The Belgian War）”：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iii.md)；haskell-1980-rev-ed；Chapter 5, printed p. 137 L72–73 |

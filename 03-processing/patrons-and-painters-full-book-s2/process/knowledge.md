@@ -17115,3 +17115,28 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 | st-chp6-p162-tribune-part-of-santa-maria-maggiore | formal | rel-2448 part_of：祭坛席地点 → 圣母大殿地点。依据原文“the tribune of S. Maria Maggiore”；不声称改建方案实际实施。 |
 
 **卡片投影与核验。** build_cards 预览确认 event、tribune place、Clement IX 人物卡、Santa Maria Maggiore 教堂卡均仅有预期新增关系行；定向渲染4张，写后字节核验通过。死亡事件卡预览无差异，不需关系投影写回。严格表审计 errors=[]、s2_missing=[]、alignments_unlinked=0、backlog pending=0；关系一致性 broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic evidence-backed=0。S3未全库重开；S2仍未接收。脚注3所引 Pastor XIV, p.558 未独立查阅，不能将书内转引误记为已核外部事实。
+
+<a id="s3-s4-s5-s6-chp5-p137-campaigns-low-countries-20261027"></a>
+### S3–S4–S5–S6：第5章 p.137《De Bello Belgico》战役身份组与关系裁决（2026-10-27）
+
+**S2直接锚点修补与S3触发式复核。** 为cand-11927补录直接mention `m-chp5-sec-iii-l70-80-048`（“Alessandro Farnese’s campaigns”，segment offsets 279–309），使战役组拥有原文锚点；该对象此前因无直接mention而留在undecided。现按原句及第5章上下文裁为source-local `new`，沿用`sg3-event-cand-11927`；不拆分单场战役，不补日期、边界或行动。另为cand-11930补录`m-chp5-sec-iii-l70-80-049`（“and others”，offsets 172–182），但其仍是未具名、未定类型的其他合作者，维持S3 `undecided`。本批statement总数和S2独立复核台账均未增加；mentions增加2条。既有`cand-4342` Low Countries 继续使用`sg3-place-cand-4342`，按第2、5、8章重复语境作跨章复核，不与现代国家或更窄政治实体等同。
+
+**S4登记与S5补足。** 新建[战役事件KU](../../04-knowledge/units/events/alessandro-farnese-campaigns-low-countries.md)并映射cand-11927；新建[Low Countries地点KU](../../04-knowledge/units/places/low-countries.md)并映射cand-4342。事件与人物、文献及地名分别保留，不因同句关系合并身份。两张卡共新增3条Haskell书内source-backed字段`enr-18459`–`enr-18461`，只记事件类型、原语地名及地点性质；未加入外部事实或未验证字段。
+
+**S6逐项裁决。** 九项关系候选全部有明确去向：6项formal、3项pending。正式行`rel-2450`–`rel-2455`；其余三个决定保留在本过程记录，不写违反类型矩阵或缺少端点的关系行。
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp5-p137-miel-borgognone-strada-collaboration` | formal | `rel-2450 contributed_by`：De Bello Belgico → Michelangelo Cerquozzi；“he”承接本段主语Cerquozzi，范围仅为第二卷插图合作。 |
+| `st-chp5-p137-miel-contributed-to-de-bello-illustrations` | formal | `rel-2451 contributed_by`：De Bello Belgico → Jan Miel；原文未指出具体版面或个人分工。 |
+| `st-chp5-p137-borgognone-contributed-to-de-bello-illustrations` | formal | `rel-2452 contributed_by`：De Bello Belgico → Giacomo Borgognone／Jacques Courtois；按已有身份对齐复用人物KU，不指定具体版面。 |
+| `st-chp5-p137-de-bello-authored-by-famiano-strada` | formal | `rel-2453 authored_by`：仅保留Haskell书内作者归属；项目未独立查阅原书。 |
+| `st-chp5-p137-farnese-campaigns-in-low-countries` | formal | `rel-2454 occurred_at`：战役组 → Low Countries；不推断更窄地理边界。 |
+| `st-chp5-p137-farnese-named-as-campaign-leader` | formal | `rel-2455 has_participant`：战役组 → Alessandro Farnese（帕尔马公爵）；仅记录来源归属，不推断具体指挥职衔或单场战役。 |
+| `st-chp5-p137-farnese-campaigns-were-on-behalf-of-spaniards` | pending | `cand-11928`是未指明个人或机构身份的集体受益者，类型未定且无可复用KU；不创建不完整边。若来源提供可识别且可分类的对象或新的直接证据，再重开。 |
+| `st-chp5-p137-unnamed-artists-contributed-to-de-bello-illustrations` | pending | `cand-11930`无姓名、数量和稳定群体类型；不造人物或临时集体KU。仅在来源新增可识别成员／组织或可靠外部证据改变身份粒度后重开。 |
+| `st-chp5-p137-de-bello-farnese-campaigns` | pending | Haskell称第二卷颂扬该战役组，但当前受控`has_subject`不允许archive→event，且无其他准确匹配的受控谓词；保留端点和原文陈述，不为单条边扩张本体。只有在规则升级增加合适的领域／值域或出现另一条受控且忠实的表达时重开。 |
+
+**卡片投影、审计与批后状态。** 预览并按需修订八张受影响卡（De Bello Belgico、战役事件、Low Countries、Cerquozzi、Jan Miel、Giacomo Borgognone／Jacques Courtois、Famiano Strada、Alessandro Farnese）；移除已裁决为formal关系仍被旧卡标作“待S6”的陈旧文字。第一次严格审计发现`rel-2449 has_subject`违反archive→event值域；已删除该非法formal行，将同一S2候选记录为pending并保留重开条件，后续有效关系ID沿用`rel-2450`–`rel-2455`。修正后的选定渲染预检通过（8卡、5张表、17行、20条投影关系），最终写入2张受关系删除影响的卡；八张卡复预览均无差异。S5字段复预览3行`record_changes=0`、`warnings=0`。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、backlog pending=0；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。`git diff --check`通过。
+
+批后状态：S2为15,461 statements／26,872 mentions；统一独立复核台账仍记9,622条，ID／版本尚未核平，本批未增加复核数。S3主决定12,432/12,432（same 2,107、new 5,090、conflict 9、excluded 106、undecided 5,120）。S4已映射2,466/5,090条new候选；待映射2,624，其中直接关系端点956、其他1,668；KU共3,247。S5字段14,547（1,627 unverified）。S6裁决记录1,952项（formal 1,155、pending 668、rejected 129）；当前relation_candidate=true为10,666项，历史裁决台账与当前statement版本仍差1项。`relations.csv`共2,454行（2,417 formal、37 pending）；缺端点关系statement为337条；backlog为57条（14 completed、43 undecided，严格审计pending=0）。S2未独立接收，S3–S6未全书收口，S7未启动。
