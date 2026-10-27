@@ -17287,3 +17287,16 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 **渲染与审计。** 两张卡片定向预览后渲染，预检2卡、3张字段表、4行字段和3条关系投影；写后字节核验由渲染器通过。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。本批更改及新增的S2当前statement版本待独立差异复核，不计入统一复核台账。
 
 **批后状态。** S2为15,469 statements／26,872 mentions；统一独立复核台账仍为9,622条，statement ID／版本尚未核平。S3主决定12,432项（same 2,110、new 5,089、conflict 9、excluded 106、undecided 5,118），本批未改S3决定。S4已映射2,479/5,089条new候选，未映射2,610条，其中直接关系端点944、其他1,666；KU共3,259。S5字段14,600（1,627 `unverified`）。S6裁决记录1,981项（formal 1,171、pending 679、rejected 131）；当前 `relation_candidate=true` 为10,672项，历史裁决台账与当前statement版本仍差1，不报告完成率。`relations.csv` 共2,471行（2,433 formal、38 pending）；缺至少一个S2端点候选ID的关系statement为337条；backlog为58条（14 completed、44 undecided）。
+
+<a id="s4-s5-s6-chp3-p83-gaulli-gesu-pendentive-figures-20261028"></a>
+### S4–S6 第3章 p.83 耶稣堂穹顶穹隅人物组（2026-10-28）
+
+**身份与对象边界。** `cand-5271`沿用既有S3 `new`决定及身份组`workgrp-d7414b802d0064`；既有《双重代求》穹顶构图、整项穹顶与拱顶装饰委托、耶稣堂中殿窗龛十六尊灰泥像均为不同粒度或不同空间对象。没有发现同范围既有work KU，本批未触发S3重开。新增[耶稣堂穹顶穹隅人物组](../../../04-knowledge/units/works/gaulli-gesu-dome-pendentive-figures.md)，只记录Haskell所述的群组；单一穹隅中的四个人物不外推为穹顶总数，不补具体人物身份。
+
+**S5字段。** 新增4条Haskell书内`source_backed`字段（`enr-18515`–`enr-18518`）：描述性名称、作品类型、来源所述范围和两位人物的不同职责。未补媒材、总人数或未具来源支持的个体名单。
+
+**S6裁决。** `st-chp3-seciv-l69-73-gaulli-four-figures-in-pendentives`裁为`rel-2473 designed_by` formal：Haskell将单一穹隅中四个人物的构图解决方案归于Gaulli；边界不延伸至整项装饰工程或所有施工。`st-chp3-seciv-l69-73-oliva-added-judges`裁为rejected（仅否决正式关系编码，不否定S2原书断言）：来源明确Oliva选择图像群组，但受控词表没有可表达此角色、且不与设计或委托混同的谓词；该陈述仍保留在S2及卡片叙述中。对应的term候选继续各自保持既有S3 `new`，未因本作品卡而擅自登记或建立新增边。
+
+**渲染与审计。** 定向卡片预览确认4条字段与1条关系投影；渲染器预检1卡、2张表、4行字段、1条关系，写后字节核验通过，复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。
+
+**批后状态。** S2为15,469 statements／26,872 mentions；统一独立复核台账9,622条，statement ID／版本尚未核平，本批无S2修订。S3主决定12,432项（same 2,110、new 5,089、conflict 9、excluded 106、undecided 5,118）。S4已映射2,480/5,089条new候选，未映射2,609条，其中直接关系端点943、其他1,666；KU共3,260。S5字段14,604（1,627 `unverified`）。S6裁决记录1,983项（formal 1,172、pending 679、rejected 132）；当前`relation_candidate=true`为10,672项，历史裁决记录与当前statement版本仍差1项，不报告完成率。`relations.csv`共2,472行（2,434 formal、38 pending）；缺至少一个S2端点候选ID的关系statement为337条；backlog为58条（14 completed、44 undecided）。
