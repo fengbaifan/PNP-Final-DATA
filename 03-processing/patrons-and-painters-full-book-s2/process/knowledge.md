@@ -16723,3 +16723,24 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 **S5与当前字段。** 新术语卡加入一行Haskell原书支持的“来源实例”字段；`build_field_facts.py --ku ...` 预览确认1条新增`source_backed`记录`enr-18396`，随后应用成功，来源注册无增量。
 
 **首轮验证。** 严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。三张受影响卡预览后定向渲染，files_written=3、写后字节核验通过；随后对三张卡复预览均无差异。S5定向复预览record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0、warnings=0。严格表审计汇总为kus=3,226、alignment_new_pending_registration=2,645、backlog=56（pending=0）、relations=2,417（formal=2,380）、enrichment=14,482（unverified=1,627）、statements=15,450、mentions=26,870，errors=[]、s2_missing=[]；关系一致性阻断五项均为0。
+
+<a id="s4-s5-s6-chp13-p341-zanetti-receipt-20261027"></a>
+### S4/S5/S6：第13章 p.341 注4 Zanetti收据archive端点与关系裁决（2026-10-27）
+
+**S3身份与S4登记。** cand-10200沿用aln-10372既有S3 new决定及archive-group-afd4c9dbfcdc身份组，不重开S3。Haskell第13章p.341注4将该收据描述在Biblioteca Marciana的A. M. Zanetti卷册著录语境中，日期、地点和签署人均可从书内文本限定；收据原件和外部目录未查。登记archive KU units/archives/zanetti-receipt-1736-08-10-vienna，与容器卷册units/archives/zanetti-marciana-manuscript-volume-cxvi-7356分立，aln-10372指向新卡。身份来源仍仅限书内描述，不另造外部档号或叶码。
+
+**S2定向补录。** 复用现有mention m-s2-ch13-notes-20261014-173，新增statement st-chp13-p341-receipt-within-zanetti-volume，对象为既有候选cand-10199。该statement将注4中的卷册定位及随后所述收据明确为单件文书与容器卷册的从属关系；不补造叶码或收据专属号。没有新增mention。此新增statement未进入统一S2独立复核分子，且不表示p.341已完成独立复核。
+
+**S5补足。** 新卡表格经build_field_facts.py预览后应用7条Haskell source_backed字段：中英文描述性题名、文献类型、收据日期、收据地点、Haskell所报签署人、所述交易内容。所有字段指向Haskell p.341 n.4 L226；明确保留原件未查、卖方未名、作品身份与宝石清单未确定。apply后定向复预览record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0、warnings=0。
+
+**S6逐项决定。**
+
+| statement | 决定 | 去向 |
+|---|---|---|
+| st-chp13-p341-receipt-within-zanetti-volume | formal | rel-2418 part_of：收据属于注4所定位的Zanetti卷册语境；不表示已查原件或知道叶码。 |
+| st-chp13-p341-notes-note4-receipt-records-items-sold-to-zanetti | formal | rel-2419 has_subject：只表达Haskell所述收据涉及的买方A. M. Zanetti；卖方未具名，画作版本和物品清单未核。 |
+| st-chp13-p341-notes-note4-receipt-date-place-signatory | pending | 现有受控谓词没有“签署人”语义；不将authored_by、issued_by或has_subject误作签署边，也不据签署推断卖方。签署人仅作为S5来源字段保留；目前没有可合法写入关系表的谓词，因此决定及理由保存在本过程记录。 |
+
+**写后核验与状态。** 三张受影响卡（收据、Zanetti卷册、Zanetti人物）定向渲染，写入3张并通过写后字节核验；随后三卡预览均无差异。全库卡片预检cards=3,227、tables=4,198、rows=14,489、projected_relation_rows=4,785通过；定向渲染后仍有531张既有卡片存在待生成差异，本批未作全库写回，作为S7准备项继续核查。严格表审计errors=[]、s2_missing=[]、alignments_unlinked=0；关系一致性broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic evidence-backed=0。审计诊断另有1,353个零关系KU及2个超过50连接的KU，不构成阻断。
+
+批后状态：S2为15,451 statements／26,870 mentions；统一独立复核分子仍9,617（62.24%，未接收）。S3主决定仍12,432/12,432（same 2,105、new 5,090、conflict 9、excluded 106、undecided 5,122）。S4已映射2,446/5,090个new候选；待映射2,644，其中未映射直接关系端点972、其他1,672；KU共3,227。S5字段14,489（1,627 unverified）。S6裁决1,888/10,661（1,121 formal、639 pending、128 rejected），尚余8,773；关系表共2,419行（2,382 formal、37 pending）。backlog为56条（14 completed、42 undecided；严格审计pending=0）。本批未改变S3决定或backlog；S7未启动。

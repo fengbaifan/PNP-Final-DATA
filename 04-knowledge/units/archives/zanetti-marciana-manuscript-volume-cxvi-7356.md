@@ -83,6 +83,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [1736年8月10日维也纳收据（Receipt recording items sold to A. M. Zanetti in Vienna on 10 August 1736）](zanetti-receipt-1736-08-10-vienna.md) | S6 formal：按Haskell注4的卷册定位，将收据映射为卷册中的单件文书；不推定具体叶码或原件核验；角色：收据在该卷册著录语境中被描述；范围：仅记录Haskell第13章p.341注4给出的卷册上下文；未查原件，未提供叶码。；原断言与证据见发出端卡片“1736年8月10日维也纳收据（Receipt recording items sold to A. M. Zanetti in Vienna on 10 August 1736）”：[来源](../../../02-sources/02-Markdown/13_CHP-13_intro.md)；haskell-1980-rev-ed；Chapter 13, printed p.341, note 4 L226; statement=st-chp13-p341-receipt-within-zanetti-volume |
 
-书内馆藏定位的 S2 候选关系留待 S6；机构身份入口为[Biblioteca Marciana](../institutions/biblioteca-marciana.md)。包含的七封 Tessin 来信另属候选 cand-10205，不作为本卷册的同一身份或正式边。本批没有正式关系。
+
+Haskell对本卷册的 Biblioteca Marciana 馆藏定位仍为待裁关系候选，不据此确认现今保管状态；机构身份入口为[Biblioteca Marciana](../institutions/biblioteca-marciana.md)。卷册与其所述单件文书的正式从属边由关系表呈现。包含的七封 Tessin 来信另属候选 cand-10205，不作为本卷册的同一身份或正式边。
