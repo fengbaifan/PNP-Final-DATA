@@ -228,7 +228,7 @@ relations:
 |---|---|---|
 | 全名／常用名 | Ottavio Leoni | S3；S5 |
 | 异拼 | Ottavio Lioni | S5 |
-| 称谓／别称 | Cavaliere Ottavio；il Padovano；il Padovanino；Cavaliere Padovano | S5；按Wikipedia的称呼记录，不据此推定正式贵族爵位 |
+| 称谓／别称 | Cavaliere Ottavio；il Padovano；il Padovanino；Cavaliere Padovano | S1；第4章 p.100 注2（Padovano）；S5；按Wikipedia的称呼记录，不据此推定正式贵族爵位 |
 
 ### 基本信息
 
@@ -304,6 +304,6 @@ relations:
 | ← 所创作对象（`creator_of`，反向投影） | [格列高利十五世肖像（万神殿Virtuosi学院本，1628–1630）（Portrait of Gregory XV, Virtuosi al Pantheon version, 1628–1630）](../works/ottavio-leoni-portrait-of-gregory-xv-academy-copy.md) | 时间：1628年（DBI）；馆方著录1628–1630年；角色：创作者；范围：学院委托的布面复制品；不与约1621年已佚原作合并；原断言与证据见发出端卡片“格列高利十五世肖像（万神殿Virtuosi学院本，1628–1630）（Portrait of Gregory XV, Virtuosi al Pantheon version, 1628–1630）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 48–48 |
 | ← 所创作对象（`creator_of`，反向投影） | [格列高利十五世肖像（约1621年原作，已佚）（Portrait of Gregory XV, lost original, c. 1621）](../works/ottavio-leoni-portrait-of-gregory-xv-original-1621.md) | 时间：约1621年；角色：创作者；范围：约1621年绘制的原作；与学院委托的后续布面复制品分开；原断言与证据见发出端卡片“格列高利十五世肖像（约1621年原作，已佚）（Portrait of Gregory XV, lost original, c. 1621）”：[来源](https://www.treccani.it/enciclopedia/ottavio-leoni_(Dizionario-Biografico)/)；src-adf95aa0c6eb0d49；lines 48–48 |
 | ← 所创作对象（`creator_of`，反向投影） | [烛光下的马达莱娜·泰利肖像（Portrait of Maddalena Telli by Candlelight）](../works/ottavio-leoni-portrait-of-maddalena-telli-by-candlelight.md) | 时间：1617；角色：素描创作者；范围：RISD Museum馆藏对象52.195；原断言与证据见发出端卡片“烛光下的马达莱娜·泰利肖像（Portrait of Maddalena Telli by Candlelight）”：[来源](https://risdmuseum.org/art-design/collection/portrait-maddalena-telli-candlelight-52195)；src-a1801a0540e76324；Maker、Year、Object Number：52.195 |
-| ← 所创作对象（`creator_of`，反向投影） | [希皮奥内·博尔盖塞枢机肖像（Portrait of Cardinal Scipione Borghese, Musée Fesch version）](../works/ottavio-leoni-portrait-of-scipione-borghese-ajaccio.md) | 时间：Treccani记1609–1610；Zeri目录跨度1598–1630；角色：馆方列明的创作者；DBI按两版本叙述；范围：Musée Fesch馆藏油画，MFA 852.1.265；与Louvre 1617年纸本素描分立；原断言与证据见发出端卡片“希皮奥内·博尔盖塞枢机肖像（Portrait of Cardinal Scipione Borghese, Musée Fesch version）”：[来源](https://www.musee-fesch.com/peintures-du-xviieme-siecle/portrait-du-cardinal-scipione-borghese-576250)；lines 190–199 |
+| ← 所创作对象（`creator_of`，反向投影） | [希皮奥内·博尔盖塞枢机肖像（Portrait of Cardinal Scipione Borghese, Musée Fesch version）](../works/ottavio-leoni-portrait-of-scipione-borghese-ajaccio.md) | 时间：Treccani记1609–1610；Zeri目录跨度1598–1630；角色：馆方列明的创作者；DBI按两版本叙述；范围：Musée Fesch馆藏油画，MFA 852.1.265；与Louvre 1617年纸本素描分立；原断言与证据见发出端卡片“希皮奥内·博尔盖塞枢机肖像（Portrait of Cardinal Scipione Borghese, Musée Fesch version）”：[来源](https://www.musee-fesch.com/peintures-du-xviieme-siecle/portrait-du-cardinal-scipione-borghese-576250)；src-f77bfd2512df8ba1；lines 190–199 |
 | ← 所创作对象（`creator_of`，反向投影） | [《苏珊娜与长老》（Susanna and the Elders）](../works/ottavio-leoni-susanna-and-the-elders-1620.md) | 时间：约1616–1620；DIA标约1620，Zeri目录另标约1610–1615；角色：馆藏记录列明的创作者；Zeri以签名为归属依据；范围：Detroit Institute of Arts对象41.89；保留Zeri所载文献归属史；原断言与证据见发出端卡片“《苏珊娜与长老》（Susanna and the Elders）”：[来源](https://dia.org/collection/susanna-and-elders/52211)；src-cf55d5621e9f7106；Artist、Markings；对象41.89 |
 正式亲缘、朋友、任职与作品关系见本卡关系展示。

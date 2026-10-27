@@ -1,5 +1,48 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp4-p100-padovno-inventory-portrait-20261027"></a>
+### 沿用 S3 身份组／S4／S5／S6：第4章 p.100 目录肖像与 “Padov.no” 归属标记（2026-10-27）
+
+#### 身份分组与 S4 登记
+
+沿用 `cand-5659`／`aln-5840` 的 S3 `new` 作品组 `workgrp-291d018466b75f`，登记至 `units/works/haskell-rinehart-inventory-cassiano-portrait-padovno`。此 KU 只记录 Haskell 转述目录中的卡西亚诺肖像条目；不与图版17a贝尔尼尼讽刺像合并，也不据此判定其是否为 Dati 颂诗集扉页像。
+
+沿用 `cand-5661`／`aln-5842` 的 S3 `new` 术语组 `sg3-term-cand-5661`，登记至 `units/terms/padovno-attribution-label-haskell-p100`。标记本身不是人物；Haskell 报告目录作者假定其指 Alessandro Varotari，并提出更可能指 Ottavio Leoni。两种解释均留在来源判断层，不把术语组并入任一人物。
+
+#### S5 来源字段
+
+新工作卡记录对象类型、描绘对象及书中所载归属标记；新术语卡记录原拼法 `Padov.no` 与文中关联拼法 `Padovano`，共新增5条 `source_backed` 字段（`enr-18426`–`enr-18430`）。既有 Ottavio Leoni 称谓字段 `enr-11567` 增加 Haskell 第4章 p.100 注2作为 `Padovano` 的书内证据，保留既有 Wikipedia 来源及其爵位限制。未新增重复别名行。
+
+#### S6 逐项裁决
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp4-sec-ii-p100-inventory-portrait` | formal | `rel-2438 has_subject`：已登记的 Haskell 与 Rinehart 文章 → 目录肖像。只记录 Haskell 对目录条目的转述，不表示已查阅原文章或确定作者。 |
+| `st-chp4-sec-ii-notes-l255-259-fn256-inventory-citation` | formal | `rel-2439 cites`：Haskell 的第105页注256引用该文章并回指 p.100 注2；只记录印本文献引用。 |
+| `st-chp4-sec-ii-p100-haskell-rinehart-citation` | formal | `rel-2440 cites`：p.100 注2的明确书目引用；原文章未独立查阅。 |
+| `st-chp4-sec-ii-p103-footnote1-cites-haskell-rinehart` | formal | `rel-2441 cites`：p.103 注1的明确书目引用；扫描页读作1960，保留 S0 OCR 的 `i960` 差异记录。 |
+| `st-chp4-sec-ii-notes-p113-fn3-rinehart-citation` | formal | `rel-2442 cites`：p.113 注3在未完成肖像讨论后引用该文章；原文章未独立查阅。 |
+| `st-chp4-sec-ii-notes-p113-fn4-rinehart-citation` | formal | `rel-2443 cites`：p.113 注4在藏画散佚叙述中引用该文章；原文章未独立查阅。 |
+| `st-chp4-sec-ii-p100-leoni-hypothesis` | pending | `alternative_attribution` 不在受控词表内；“seems far more likely”是 Haskell 的假设，不能建成身份等同或已确定归属。 |
+| `st-chp4-sec-ii-p100-varotari-assumption` | pending | `assumed_attribution` 不在受控词表内；来源报告目录作者的假定，不证明该标签确指 Varotari。 |
+| `st-chp4-sec-ii-p100-portrait-attribution-label` | pending | `attributed_to_label` 不在受控词表内；肖像归属写作一个标签，未识别为人物归属。 |
+| `st-chp4-sec-ii-p100-leoni-alias` | pending | `also_known_as` 不在受控词表内；Haskell 对 Leoni 称谓的文字支持已补到其 S5 字段，但不能把本术语候选等同于 Leoni 身份。 |
+
+10项关联S6候选均有明确去向：6 formal 写入 `relations.csv`，4 pending 保留本过程记录；不以临时关系类型绕过词表。
+
+#### 批后状态与核验
+
+| 阶段 | 批后状态 |
+|---|---|
+| S2 | 15,460 statements／26,870 mentions；本批未增改 statement 或 mention，统一独立复核台账仍记9,622条且 statement ID／来源版本尚未核平。 |
+| S3 | 主决定12,432/12,432：same 2,106、new 5,090、conflict 9、excluded 106、undecided 5,121；本批沿用2项既有 `new` 决定。 |
+| S4 | 已映射2,457/5,090；待映射2,633，其中直接关系端点963、其他1,670；KU共3,238。 |
+| S5 | 14,516条字段，其中1,627条 `unverified`；本批新增5条来源字段并更新1条既有字段。 |
+| S6 | 裁决记录1,929项（formal 1,145、pending 655、rejected 129）；当前 `relation_candidate=true` 为10,665条。历史裁决台账与当前 statement 版本仍差1项，暂不报告完成率或剩余数。 |
+| 正式关系表 | 2,443行：2,406 formal、37 pending；新增 `rel-2438`–`rel-2443`。 |
+
+严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性五类阻断均为0。backlog仍56条（14 completed、42 undecided）；至少缺一个S2端点候选ID的关系 statement 仍337条。机械检查不构成S2独立接收或S3–S6全书收口。
+
 <a id="s3-s4-s5-s6-chp10-england-leoni-endpoints-20261027"></a>
 ### S3触发复核／S4／S5／S6：第10章 p.279–281 英格兰与 Giacomo Leoni 端点（2026-10-27）
 
