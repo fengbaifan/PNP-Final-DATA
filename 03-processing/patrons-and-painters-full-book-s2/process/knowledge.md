@@ -17477,3 +17477,27 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 **投影与审计。** 两张目标卡预览分别显示待证 `created_by` 与正式 `intended_for`，地点卡显示反向投影；定向渲染写入2卡并通过写后字节核验，复预览无差异。字段表复预览 `record_changes=0`、`new_ids=0`。`audit_tables.py --strict-stage --summary` 退出码0，`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性审计的 `broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed` 均为0。本批未改S2 statements、mentions或独立复核台账，故不增加S2独立复核分子。
 
 **批后状态。** S2仍为15,470 statements／26,872 mentions；统一独立复核台账9,622条且statement ID／来源版本未核平。S3仍为12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4新增2个已映射KU：2,492/5,088条 `new` 候选已登记，未登记2,596条；直接关系端点933、其他1,663；KU共3,272。S5新增6条字段，当前共14,637条（1,627 `unverified`）。S6裁决历史台账新增1 formal和1 pending，累计2,006项（formal 1,185、pending 688、rejected 133）；当前relation_candidate=true与历史台账仍差1项，不报告完成率。`relations.csv`现有2,489行（2,448 formal、41 pending）；缺少至少一个S2端点候选ID的statement仍337条，backlog仍58条（15 completed、43 undecided）。
+
+
+<a id="s4-s5-s6-chp2p46-chp8p210-chp9p256-term-endpoints-20261028"></a>
+### S4–S6 第2、8、9章术语端点及关系候选逐项裁决（2026-10-28）
+
+**S3身份复核与S4登记。** `cand-4628`沿用S3 `new`组`sg3-term-cand-4628`，依据第2章p.46与第8章p.210共同使用的Roman classicism／classicist doctrines登记为同一来源限定term KU。定点检查了第10章洛多利论述中的威尼斯建筑古典主义和Neo-classicism；现有证据只表明概念相邻，未证明同一，故不合并。`cand-8372`沿用S3 `new`组`sg3-term-cand-8372`，按第9章p.256的profession of the law／lawyers登记为社会职业term，不归为机构。两项均未改变既有S3决定值或S3身份组。
+
+**S5字段。** 新增7条Haskell来源支持字段：`enr-18552`–`enr-18554`记录罗马古典主义术语的范围及第2、8章两个来源实例；`enr-18555`–`enr-18558`记录法律职业范围及Sandi家族财富、Goldoni回忆录转述、Carlo Cordellina职业称谓。所有字段限于哈斯克尔所述；Goldoni原始回忆录未独立查阅，也未据Sandi家族财富关联推定家族成员从业。
+
+**S6逐项裁决。** 五项直接statement候选均有明确去向。Sacchi一条关系候选的复合表述包含Raphael与Roman classicism两个灵感对象，因此同一statement支持两条端点明确、语境相同的formal边。
+
+| S2关系候选 | 决定 | 去向及理由 |
+|---|---|---|
+| `st-chp2-seciv-l31-43-sacchi-turns-to-raphael-and-classicism` | formal | `rel-2491 influenced_by`：Andrea Sacchi → Raphael；`rel-2492 influenced_by`：Andrea Sacchi → Roman Classicism in Haskell's Account。候选subject/object及qualifier中的Raphael分别映射到既有KU。记录哈斯克尔对Sacchi寻求灵感的叙述，不声称具体作品、传播路径、日期或独立核实的影响关系。 |
+| `st-chp8-p210-ruffo-comparatively-unaffected-by-classicism` | rejected | 拒绝把“相对不受影响”写成正向`influenced_by`边；保留S2的比较限定与原断言，不以否决关系编码否定原文。 |
+| `st-chp9-p256-cordellina-described-as-leading-advocate` | process-only pending | 人物被描述为法律职业中的leading advocate；当前词表无忠实表达person→profession角色的谓词。待增加准确角色谓词或出现其他可用语义结构后重审。 |
+| `st-chp9-p256-goldoni-lawyers-status` | process-only pending | 哈斯克尔转述Goldoni回忆录对律师社会地位的比较；当前无忠实表达profession→social-rank comparison的谓词。触发条件为受控谓词可准确表达该比较并保留嵌套来源归属，或获得可用的来源／对象建模。 |
+| `st-chp9-p256-sandi-fortunes-linked-to-law` | process-only pending | 哈斯克尔明确关联Sandi家族财富与有利可图的法律职业，但当前无忠实的family→profession经济联系谓词；不据此推断家族成员本人从业。待准确谓词或经证实的可用对象结构后重审。 |
+
+因此本批新增5项S6历史裁决（formal 1、rejected 1、pending 3），对应relations.csv新增2条formal边；未使用`related_to`近似替代。S2 statement、mention与统一独立复核分子均未改。
+
+**卡片投影与审计。** 四张受影响卡（两个新term、Andrea Sacchi、Raphael）均定向预览；复预览均无差异。渲染器预检4卡、12张表、55行字段及13条关系投影，写入3张有变化卡片并通过写后字节核验。严格表审计退出码0，`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。零关系单位及超50边数诊断为非阻断项。
+
+**批后状态。** S2仍为15,470 statements／26,872 mentions；统一独立复核台账9,622条，statement ID与来源版本仍未核平。本批S3无决定值变化：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4新增2个term KU：已映射2,494/5,088条new候选，待映射2,594条，其中直接关系端点931、其他1,663；KU共3,274。S5为14,644条字段（1,627条`unverified`）。S6历史裁决累计2,011项（formal 1,186、pending 691、rejected 134）；当前relation_candidate=true为10,673项，历史裁决台账与当前statement版本仍有1项差异，不据此报告完成率。`relations.csv`共2,491行（2,450 formal、41 pending）。缺至少一个S2端点候选ID的statement为337条；backlog共58条（15 completed、43 undecided）。

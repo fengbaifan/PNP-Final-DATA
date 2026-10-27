@@ -70,7 +70,10 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ## 关系与证据
 
 ### 关系记录
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← influenced（`influenced`，反向投影） | [安德烈亚·萨基（Andrea Sacchi）](andrea-sacchi.md) | Source-level account of Sacchi turning to Raphael for inspiration; the graph records Haskell's interpretation, not an independently verified transmission path.；角色：Haskell-reported source of artistic inspiration；范围：Haskell says Sacchi increasingly turned to Raphael for inspiration after an early Baroque manner; no specific work, transmission route, or calendar date is supplied.；原断言与证据见发出端卡片“安德烈亚·萨基（Andrea Sacchi）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)；haskell-1980-rev-ed；Chapter 2, printed p. 46, line 34; statement=st-chp2-seciv-l31-43-sacchi-turns-to-raphael-and-classicism |
+
 
 ### 身份与外部链接
 
