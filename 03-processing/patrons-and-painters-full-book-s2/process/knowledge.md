@@ -1,5 +1,26 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp10-p281-venetian-painters-group-20261027"></a>
+### 沿用 S3 身份组／S4／S5／S6：第10章 p.281 威尼斯历史画家群体（2026-10-27）
+
+**身份分组与 S4 登记。** `cand-8948`／`aln-9121`沿用既有S3 `new`身份组`sg3-term-cand-8948`，不重开S3；本段没有同类型精确重复KU。登记为来源限定term [威尼斯历史画家群体卡](../../../04-knowledge/units/terms/venetian-history-painters-in-england-haskell-ch10-p281.md)。与第7章广义英格兰影响意大利艺术术语`units/terms/italian-art-english-patronage-impact`的范围不同，不合并。第10章p.281先说威尼斯历史画家在英格兰获得支持，再举英国作品并转到“更具冒险精神的威尼斯艺术家”及Düsseldorf、London、Paris。卡片保留相邻语词与范围的差别，不把两种作者描述写成同一封闭成员名单，也不把term误作正式组织。未具名精英赞助人`cand-8949`及三城市集体`cand-11967`仍各自保持原S3边界；`cand-11967`的身份／类型仍未决。
+
+**S5字段。** 卡片记录描述性名称、英格兰支持与雇用语境、Pellegrini／Ricci／Bellucci作品举例、相邻艺术家类别及范围边界。`build_field_facts.py`预览5条Haskell书内`source_backed`字段`enr-18439`–`enr-18443`，unverified=0、warnings=0；应用后复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。
+
+**S6逐项裁决。** 以`cand-8948`为直接主／客体端点的3项关系候选均有明确去向。既有英文支持陈述继续pending，更新理由以反映端点现已映射；另两条在本批新增pending裁决：
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp10-p281-english-support-venetian-painters` | pending（既有） | Haskell称群体在英格兰获广泛支持，但没有具名支持者；term不能作为`supported_by`的domain，England是叙述语境而非已识别赞助者端点。登记term后也不推定人物或国家行动者。 |
+| `st-chp10-p281-european-centres-venetian-artists` | pending（新增） | `cand-11967`仍为S3 `undecided`／未定类型；受控谓词没有忠实表达三个城市作为一个艺术家类别短期活动中心的语义。不改成`located_at`，也不推定正式城市组织。 |
+| `st-chp10-p281-patronage-and-mansions` | pending（新增） | `cand-8949`与`cand-8948`都是来源限定term；原文所说未具名精英雇用画家装饰新宅，不能用term-to-term端点满足`employed_by`或`patronized_by`的域值限制，且没有具体建筑端点。“these men seem to have inspired”是Haskell带限定语的作者推断，不能据此补建人物因果边。不补造个人赞助人或宅邸。 |
+
+三项均不新增`relations.csv`行；对应statement只更新或补充S6理由，不改原书claim、endpoint或候选标记。p.281原先修订／新增的7个当前statement版本仍未独立差异复核，本批不增加统一复核分子。
+
+**写后核验与状态。** 新term卡定向渲染1张、1个字段表、5行，写后字节核验通过；复预览无差异。严格表审计：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`alignment_new_pending_registration=2630`、`candidate_backlog_pending=0`；关系一致性阻断`broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`及`unbaselined generic evidence-backed`均为0。
+
+批后状态：S2为15,460 statements／26,870 mentions；统一复核台账仍记9,622条且未核平ID／来源版本，S2未接收。S3主决定仍12,432项（same 2,106、new 5,090、conflict 9、excluded 106、undecided 5,121）。S4已映射2,460/5,090条new候选，待映射2,630条，其中直接关系端点960（term 408、work 152、place 144、archive 127、event 76、institution 52、person 1）、其他1,670；KU共3,241。S5字段14,529（1,627 `unverified`）。S6裁决记录1,936项（1,146 formal、661 pending、129 rejected）；当前`relation_candidate=true`为10,665条，历史裁决记录与当前statement版本不作完成率分母。`relations.csv`共2,445行（2,408 formal、37 pending）。缺至少一个S2端点候选ID的关系statement仍337条；backlog为56条（14 completed、42 undecided，严格审计pending=0）。S7未启动。
+
 <a id="s4-s5-s6-chp10-p314-p316-chp18-p384-genre-painting-20261027"></a>
 ### 沿用 S3 身份组／S4／S5／S6：第10章 pp.314、316 与第18章 p.384 风俗画术语（2026-10-27）
 
