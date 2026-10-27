@@ -16791,3 +16791,25 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 **写后核验与状态。** 新术语、Gesù及S. Ignazio三张卡预览后定向渲染，`files_written=3`且写后字节核验通过；三卡复预览均无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、backlog pending=0；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。本批S2 statement、mention及独立复核分子不变，也未新增backlog。
 
 批后状态：S2为15,451 statements／26,870 mentions；统一独立复核9,622/15,451（62.27%，未接收）。S3主决定12,432/12,432（same 2,106、new 5,089、conflict 9、excluded 106、undecided 5,122）。S4已映射2,448/5,089条new候选；待映射2,641，其中直接关系端点969、其他1,672；KU共3,229。S5字段14,495（1,627 unverified）。S6裁决1,895/10,661（1,127 formal、639 pending、129 rejected），尚余8,766；`relations.csv`共2,425行（2,388 formal、37 pending）。backlog为56条（14 completed、42 undecided；严格审计pending=0）。S7未启动。
+
+<a id="s4-s5-s6-chp3-p80-gesu-tribune-vault-20261027"></a>
+### S4/S5/S6：第3章 p.80–81 Gesù 祭坛席拱顶空间端点与关系裁决（2026-10-27）
+
+**触发式S3复核与S4登记。** 直接关系端点`cand-5223`沿用既有S3 `new`决定及`sg3-place-cand-5223`身份组，复核后登记为地点KU `units/places/gesu-tribune-vault`，并将`aln-5406`映射至新卡。第3章p.80 L43称“vault of the tribune”，p.81 L49又将该处与Gaulli绘制的穹顶和后殿圆顶区分。此处是祭坛席内部空间，区别于较大的`cand-5000`祭坛席空间、Gaulli装饰工程/穹顶作品及后殿圆顶；不推断精确建筑边界、实际完成情况或现状。S3仍为source-local new，不合并到父空间或作品组。
+
+**S2定向修订与补录。** 将`st-chp3-seciv-l35-46-tribune-vault-reserved`的主体从错误的人物候选`cand-1117`改为承接Gesù委托的作品/工程候选`cand-5232`，对象保持`cand-5223`；该statement表达的是委托范围排除关系。新增`st-chp3-seciv-l35-46-tribune-vault-part-of-tribune`，使用既有mention，记录`cand-5223 part_of cand-5000`；不增加mention。新statement未纳入S2统一独立复核分子。
+
+**S5补足。** `units/places/gesu-tribune-vault.md`登记3条Haskell来源支持字段`enr-18410`–`enr-18412`，分别界定地点标题、空间描述与范围边界；明确不把“保留给Borgognone”误写成其完成绘饰的事实。应用后复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。
+
+**S6逐项裁决。** 四个关系候选均有明确去向：
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp3-seciv-l35-46-tribune-vault-reserved` | pending | 端点已映射，但当前受控谓词无“作品工程范围排除该地点”的精确语义；保留Haskell关于Gaulli受托范围的陈述，不误作`part_of`、`intended_for`或空间作品边。出现合适的范围谓词及兼容证据时重开。 |
+| `st-chp3-seciv-l35-46-tribune-vault-reserved-for-borgognone` | pending | 原文明确称该空间“being kept for Borgognone”，但当前受控谓词无地点→人物的保留/预留语义；不误套委托、预期地点或创作关系，也不推断Borgognone实际绘制。出现兼容谓词或可区分的来源陈述时重开。 |
+| `st-chp3-seciv-l48-56-small-vault-area-painted` | pending | 原文称Gaulli只绘制其上方拱顶的一小部分；当前关系类型不能忠实表示人物对地点局部的绘饰活动，且没有可由此句稳定识别的独立作品端点。保留原书陈述，不虚构作品或`creator_of`边；出现作品端点或合适谓词时重开。 |
+| `st-chp3-seciv-l35-46-tribune-vault-part-of-tribune` | formal | `rel-2426 part_of`：只记录Haskell所称祭坛席拱顶与较大祭坛席空间的部分关系，不外推详细建筑边界或绘饰结果。 |
+
+**写后核验与状态。** 新拱顶卡和`units/places/tribune-of-gesu.md`定向渲染，后者投影反向`contains`关系；两卡预览均无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、backlog pending=0；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。批次过程修正alignment note中未转义逗号引发的CSV字段错位；全表结构复核后无剩余CSV错误。
+
+批后状态：S2为15,452 statements／26,870 mentions；统一独立复核仍9,622/15,452（62.27%，未接收）。S3主决定12,432/12,432（same 2,106、new 5,089、conflict 9、excluded 106、undecided 5,122）。S4已映射2,449/5,089条new候选（48.12%）；待映射2,640，其中直接关系端点968、其他1,672；KU共3,230。S5字段14,498（1,627 unverified）。S6裁决1,899/10,665（formal 1,128、pending 642、rejected 129），尚余8,766；`relations.csv`共2,426行（2,389 formal、37 pending）。缺端点关系statement为337条；backlog为56条（14 completed、42 undecided；严格审计pending=0）。S7未启动。

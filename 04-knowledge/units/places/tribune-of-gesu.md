@@ -36,3 +36,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 ## 关系与证据
 
 当前没有已登记的正式关系。7条关系候选 `st-chp3-seciv-l152-163-borgognone-was-to-decorate-tribune, st-chp3-seciv-l16-24-cardinal-reserved-decoration, st-chp3-seciv-l16-24-farnese-heirs, st-chp3-seciv-l165-177-duke-refused-tribune-permission, st-chp3-seciv-l165-177-members-and-architects-preferred-tribune, st-chp3-seciv-l26-33-duke-professed-anxiety, st-chp3-seciv-l75-81-farnese-tribune-mosaic-intention` 留待 S6 核对端点与证据。其中继承人候选 `cand-5007` 与参与决策的群体候选 `cand-5427` 仍为 S3 undecided；相关关系不得因本地点登记而提前成立。未新增 S5 enrichment。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [耶稣堂祭坛席拱顶空间（Vault of the Gesù Tribune）](gesu-tribune-vault.md) | Haskell将该拱顶称为祭坛席的拱顶；此边表示空间部分关系，不说明最终绘饰状态；角色：耶稣堂祭坛席的拱顶子空间；范围：仅按Haskell所称“vault of the tribune”记录拱顶与祭坛席空间的部分关系；不推断精确建筑边界、绘饰范围或现状。；原断言与证据见发出端卡片“耶稣堂祭坛席拱顶空间（Vault of the Gesù Tribune）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p.80 L43; PDF physical p.22; statement=st-chp3-seciv-l35-46-tribune-vault-part-of-tribune |
