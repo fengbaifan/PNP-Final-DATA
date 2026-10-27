@@ -1,5 +1,27 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp7-p172-landscape-figure-balanced-type-20261027"></a>
+### S4/S5/S6：第7章 p.172 山水与人物平衡构图类型端点与关系裁决（2026-10-27）
+
+**候选身份与S4登记。** `cand-6652`沿用既有S3 `new`决定及`sg3-term-cand-6652`身份组，不重开S3。原书第7章印刷页172、PDF物理页6的扫描页与转录共同支持此术语端点：Haskell描述一类山水与人物在构图上平衡、情绪上呼应的画面类型。登记为来源限定term `units/terms/landscape-figure-balanced-picture-type-haskell-p172`，更新`aln-6829`；该名称是描述性标签，不声称是原书专名、固定画派或组织。已登记地点 Venice（`cand-3401`）与 Rome（`cand-4490`）分别作为来源中的起始形成地点与后续再现地点；不据此识别任何单件画作。另定点复核`cand-6653`、`cand-6654`的主行及现存mentions：两者目前分别仅锚定本页的未具名“Northern artists”与“Flemish painters”群体表述，没有成员名录或跨页身份依据可解除既有边界问题，故保持`undecided`，不新建KU或重开其S3决定。
+
+**S5字段。** 卡片记录描述性名称、定义及范围边界三项，`build_field_facts.py --ku units/terms/landscape-figure-balanced-picture-type-haskell-p172`预览为新增3条`source_backed`字段`enr-18431`–`enr-18433`；应用后定向复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。没有新增外部事实或未验证字段。
+
+**S6逐项裁决。** 本批直接以`cand-6652`为主/客体端点的4项候选均有去向；一项来源陈述拆为两个地点限定的正式边：
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp7-p172-i08` | formal | 新增`rel-2444 manifested_at`（该类型据Haskell称于16世纪初形成的Venice）及`rel-2445 manifested_at`（约一世纪后在Rome再现）。分别保存原始形成与再现的地点角色、约略时间；两条边均不表示任何单件作品的物理位置。 |
+| `st-chp7-p172-i09` | pending | 原文区分Carracci与Domenichino提供复兴的“initial impulse”及北方艺术家对convention的“enriched contributions”；现行受控谓词不能忠实表达人物／群体对术语的这两种贡献，不以`influenced`等相反或过宽语义代替。重开条件：出现可用的精确受控谓词，或新证据使该断言可由现有受控关系类型忠实表示。 |
+| `st-chp7-p172-i10` | pending | “almost a monopoly”是Haskell对1620s–1630s北方画家的程度限定判断；`cand-6653`仍为S3 `undecided`，且现行受控谓词无“近乎垄断该画类”的语义。不得把它改写为成员、创作或影响关系。重开条件：群体身份有可用证据且关系可由受控谓词准确表达。 |
+| `st-chp7-p172-i11` | pending | “practised mainly by”涉及Claude、未具名佛兰德画家群、Jan Both（“probably”最突出）及较小程度的Poussin；现行受控谓词不能忠实表示“实践某画面类型”，且`cand-6654`未决、`cand-0416`尚未登记。保留各自语气和群体边界，不合并成员。重开条件：端点身份可用且有合适受控谓词。 |
+
+`st-chp7-p172-i12`的主语为Philip IV、客体未定，`cand-6652`只在`mentioned_candidate_ids`中出现，故不作为本term的直接S6候选；该“王室转向艺术家”断言留在其自身端点批次处理，不与画类本体合并。S2 statements、mentions及独立复核分子本批均未改变。
+
+**写后核验与状态。** 新term、Venice、Rome三张受影响卡的定向预览均显示两条正式关系及其反向投影；定向渲染后复预览无差异。S5定向复预览零差异；严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、backlog pending=0；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。
+
+批后状态：S2为15,460 statements／26,870 mentions；统一独立复核台账仍记录9,622条，但statement ID与来源版本尚未核平，S2未接收。S3主决定仍12,432/12,432（same 2,106、new 5,090、conflict 9、excluded 106、undecided 5,121）。S4已映射2,458/5,090条new候选；待映射2,632，其中直接关系端点962、其他1,670；KU共3,239。S5字段14,519（1,627 `unverified`）。S6裁决记录1,933项（1,146 formal、658 pending、129 rejected）；当前`relation_candidate=true`为10,665条，历史裁决台账与当前statement版本仍差1项，不报告完成率。`relations.csv`共2,445行（2,408 formal、37 pending）。至少缺一个S2端点候选ID的关系statement为337条；backlog为56条（14 completed、42 undecided，严格审计pending=0）。S7未启动。
+
 <a id="s3-s4-s5-s6-chp4-p100-padovno-inventory-portrait-20261027"></a>
 ### 沿用 S3 身份组／S4／S5／S6：第4章 p.100 目录肖像与 “Padov.no” 归属标记（2026-10-27）
 
