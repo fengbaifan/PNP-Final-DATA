@@ -86,6 +86,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [盖乌利耶稣堂拱顶壁画工程（Gaulli’s vault fresco project at the Gesù）](../works/gaulli-gesu-vaults.md) | 工程在罗马 Gesù 教堂；原断言与证据见发出端卡片“盖乌利耶稣堂拱顶壁画工程（Gaulli’s vault fresco project at the Gesù）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 447–452; print pp. 12 |
 | ← 所在地（`location_of`，反向投影） | [耶稣圣名的胜利（Triumph of The Name of Jesus）](../works/gaulli-triumph-name-jesus.md) | 时间：本书所述时点；角色：书中建筑位置；范围：图版14；原书目录未在此行声明技法、具体天顶范围或委托者；原断言与证据见发出端卡片“耶稣圣名的胜利（Triumph of The Name of Jesus）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 61–62; 章前：图版目录；印刷页xii |
+| → 表现地点（`site_of_manifestation`） | [哈斯克尔所述耶稣会教堂的幻觉式艺术（Illusionistic Art Fostered by the Jesuits in Roman Churches）](../terms/jesuit-illusionistic-art-in-roman-churches.md) | 哈斯克尔将 Gesù 列为该艺术倾向的呈现场所；不据此识别具体作品或其存续状态；时间：17世纪后半；来源未给具体年份；角色：Haskell所述耶稣会幻觉式艺术的来源限定角色；范围：仅记录Haskell第3章p.93 L182对该艺术倾向及场所的陈述；不识别具体作品，不推断存续、创作者或完整艺术流派。；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p.93 L182; PDF physical p.35; statement=st-chp3-seciv-l179-187-illusionistic-art-in-gesu |
 
 ### 身份与外部链接
 

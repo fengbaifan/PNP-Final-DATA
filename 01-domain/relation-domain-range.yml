@@ -1,12 +1,13 @@
-version: 6
-authority: relation-domain-range-v6
-status: draft-v6
+version: 7
+authority: relation-domain-range-v7
+status: draft-v7
 note: |
   本文件定义每个受控关系类型的合法 (domain, range)，供 S6 关系放行条件使用。
   v1 为与既有 relation-index.yml 的 1227 条边做只读一致性校验后的修正版：
   v4 新增 quoted_in（archive → archive），限于来源明确记载的转引关系；不表示被引原件已被独立查阅。
   v5 新增 held_office（person → institution）及其反向 office_held_by，限于来源明确记载已经担任的职位。
   v6 新增 appealed_to（work → person）／found_appealing（person → work），记录来源明确报告的作品审美吸引关系，不表示购买、接触或影响；新增 designed_for_audience（archive/work → term）及反向 intended_audience_of，记录来源明确陈述的出版物预期受众类别，不证明实际读者或接受。
+  v7 新增 fosters（institution → term）／fostered_by（term → institution），限于来源明确记载机构培育某种艺术倾向或实践；新增 site_of_manifestation（place → term）／manifested_at（term → place），记录来源明确指出概念或倾向呈现的场所，不表示作品实体的物理位置。
   domain/range 覆盖当前实际用法，逐谓词直接存（不做 inverse 规范化）。
   未列入 domain_range 且不在 deprecated 列表的类型，默认不约束（允许，待首次使用后补入）。
   same_as 额外约束：两端必须同类型（由 S6 检查单独实现，不靠本表表达）。
@@ -26,6 +27,8 @@ domain_range:
   advised_by:       {domain: [person], range: [person]}
   appealed_to:      {domain: [work], range: [person]}
   found_appealing:  {domain: [person], range: [work]}
+  fostered_by:      {domain: [term], range: [institution]}
+  fosters:          {domain: [institution], range: [term]}
   appointed_by:     {domain: [person], range: [person]}
   appointer_of:     {domain: [person], range: [person]}
   authored_by:      {domain: [archive], range: [person]}
@@ -85,6 +88,7 @@ domain_range:
   lent_by:          {domain: [work], range: [institution]}
   located_at:       {domain: [archive, institution, person, place, work], range: [institution, place]}
   location_of:      {domain: [place], range: [work]}
+  manifested_at:    {domain: [term], range: [place]}
   member_of:        {domain: [person], range: [family, institution]}
   model_for:        {domain: [work], range: [work]}
   occurred_at:      {domain: [event], range: [place]}
@@ -99,6 +103,7 @@ domain_range:
   published_by:     {domain: [archive], range: [institution, person]}
   quoted_in:        {domain: [archive], range: [archive]}
   sibling_of:       {domain: [person], range: [person]}
+  site_of_manifestation: {domain: [place], range: [term]}
   spouse_of:        {domain: [person], range: [person]}
   supplied_by:      {domain: [work], range: [institution, person]}
   supported_by:     {domain: [archive, institution, person], range: [institution, person]}

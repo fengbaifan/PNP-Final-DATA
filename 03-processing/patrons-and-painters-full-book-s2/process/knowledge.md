@@ -1,5 +1,33 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp3-p93-jesuit-illusionistic-art-20261027"></a>
+### 第3章印刷页93 耶稣会幻觉式艺术端点登记与S6裁决（2026-10-27）
+
+#### S3触发复核与S4登记
+
+核对第3章印刷页93 L182的四个直接关系端点。`cand-5149`的S4预检触发S3定点复核：该候选此前的`new`决定对应现有奎里纳尔圣安德烈堂地点KU；原注只区分该堂与较早、据称已拆毁的前身，并未指向另一个同类型对象。因此将`cand-5149`改判为`same`，复用`units/places/s-andrea-al-quirinale`，不重复建卡。`cand-5444`沿用既有`new`术语组`sg3-term-cand-5444`，登记为书内描述的耶稣会教堂幻觉式艺术倾向；不把它归为单件作品、完整艺术流派或外部定义的概念。Gesù、S. Ignazio和耶稣会均复用既有KU。
+
+新增术语KU `units/terms/jesuit-illusionistic-art-in-roman-churches`。S5由卡片来源表提取并应用3条`source_backed`字段：`enr-18404`来源表达、`enr-18405`来源范围、`enr-18406`作者解释，均指向Haskell第3章印刷页93 L182；不将作者的教义解释提升为独立确认的一般因果规律。
+
+#### S6逐项裁决
+
+| S2关系候选 | 决定 | 正式边与范围 |
+|---|---|---|
+| `st-chp3-seciv-l179-187-illusionistic-art-motivated-by-doctrine` | formal | `rel-2420 fosters`：Jesuits→术语；只记录Haskell对培育者及艺术倾向的叙述。 |
+| `st-chp3-seciv-l179-187-illusionistic-art-in-s-andrea` | formal | `rel-2421 site_of_manifestation`：S. Andrea al Quirinale→术语；不识别具体作品或其存续状态。 |
+| `st-chp3-seciv-l179-187-illusionistic-art-in-gesu` | formal | `rel-2422 site_of_manifestation`：Gesù→术语；范围同上。 |
+| `st-chp3-seciv-l179-187-illusionistic-art-in-s-ignazio` | formal | `rel-2423 site_of_manifestation`：S. Ignazio→术语；保留Haskell“尤其”强调此处的语境。 |
+
+为准确表达“机构培育艺术倾向”和“艺术倾向呈现于某场所”，新增`fosters`/`fostered_by`与`site_of_manifestation`/`manifested_at`两组互逆受控类型，并在域值域表中限定机构—术语、地点—术语方向；不以`located_at`误表概念与物理空间的关系。规则更新见[CHANGELOG](../../../06-runtime/governance/CHANGELOG.md)。
+
+#### 卡片与批后核验
+
+术语、耶稣会及三处地点共5张卡逐卡预览后定向渲染；写后字节核验通过，复预览均无差异。S5复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。本批未修改S2 statement或mention，也未改变S2独立复核分子。
+
+批后S3主决定为same 2,106、new 5,089、conflict 9、excluded 106、undecided 5,122；S4已映射2,447/5,089，尚未登记2,642，其中直接关系端点970、其他1,672；KU共3,228。S5字段14,492条，1,627条`unverified`。S6已裁决1,892/10,661（1,125 formal、639 pending、128 rejected），尚余8,769；`relations.csv`共2,423行（2,386 formal、37 pending）。backlog仍56条（14 completed、42 undecided），严格审计pending=0。S2为15,451条statement、26,870条mention，统一独立复核9,617条，仍未独立接收。
+
+严格表审计：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`。关系一致性阻断均为0：`broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`、`unbaselined generic evidence-backed`。非阻断诊断仍包括1,353个零关系KU、100条孤立预览行及2个超过50条关系的对象。
+
 <a id="s3-s4-s5-s6-ch15-p362-p363-farsetti-palace-20261027"></a>
 ### S3/S4/S5/S6：第15章 pp.362–363 Farsetti 家族宫邸及 Canova 两篮作品（2026-10-27）
 

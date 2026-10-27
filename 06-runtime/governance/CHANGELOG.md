@@ -286,3 +286,4 @@ The relation-domain-range.yml contract states that a controlled, non-deprecated 
 ## 2026-10-27
 
 - 新增受控 S6 关系 `held_office`／`office_held_by`，方向为 person → institution，用于来源明确记载已经担任的机构职位；拒绝的任职机会不建立该关系。同步更新类型词表、域值域与关系视图标签。
+- 新增受控 S6 关系 `fosters`／`fostered_by`（institution ↔ term）和 `site_of_manifestation`／`manifested_at`（place ↔ term），分别记录来源明确说明的机构培育艺术倾向，以及概念或倾向呈现的场所；后者不表达作品实体的位置。同步更新类型词表、域值域、语义说明与关系视图标签。

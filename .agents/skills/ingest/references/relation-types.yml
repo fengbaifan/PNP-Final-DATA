@@ -1,4 +1,4 @@
-version: 8
+version: 9
 authority: controlled-relation-vocabulary
 types:
   - associated_institution
@@ -80,6 +80,7 @@ types:
   - kin_of
   - located_at
   - location_of
+  - manifested_at
   - member_of
   - modeled_by
   - model_for
@@ -126,6 +127,7 @@ types:
   - sold_by
   - seller_of
   - source_of
+  - site_of_manifestation
   - subject_of
   - successor_of
   - sibling_of
@@ -142,6 +144,8 @@ types:
   - trained_by
   - friend_of
   - found_appealing
+  - fostered_by
+  - fosters
   - intended_for
   - intended_audience_of
   - intended_gift_to
@@ -165,6 +169,8 @@ inverse:
   advised_by: advised
   appealed_to: found_appealing
   found_appealing: appealed_to
+  fosters: fostered_by
+  fostered_by: fosters
   acquired_by: acquirer_of
   acquirer_of: acquired_by
   addressed_to: addressee_of
@@ -243,6 +249,8 @@ inverse:
   kin_of: kin_of
   located_at: location_of
   location_of: located_at
+  manifested_at: site_of_manifestation
+  site_of_manifestation: manifested_at
   member_of: contains
   modeled_by: model_for
   model_for: modeled_by

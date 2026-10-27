@@ -127,6 +127,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 |---|---|---|
 | ← 包含成员（`contains`，反向投影） | [安德烈亚·波佐（Andrea Pozzo）](../persons/andrea-pozzo.md) | 1665年12月在米兰加入耶稣会；23日／25日异文保留；原断言与证据见发出端卡片“安德烈亚·波佐（Andrea Pozzo）”：[来源](https://www.treccani.it/enciclopedia/andrea-pozzo_(Dizionario-Biografico)/)；src-2642ba9e6dd62200；本卡 S6；入会与誓愿段 |
 | ← 收藏者／所有者（`owner_of`，反向投影） | [圣维塔莱堂（S. Vitale）](../places/s-vitale-rome.md) | Evidence: S2 statement st-chp3-secii-l19-31-vitale-owned-by-jesuits; ownership is historical source wording only.；时间：Historical account; date not stated；角色：historical owner as described by Haskell；范围：Haskell identifies S. Vitale as a church owned by the Jesuits in Rome; transfer terms and current ownership are not established.；原断言与证据见发出端卡片“圣维塔莱堂（S. Vitale）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；Chapter 3 print p. 67 L23; PDF physical p. 5 |
+| → 培育／推动（`fosters`） | [哈斯克尔所述耶稣会教堂的幻觉式艺术（Illusionistic Art Fostered by the Jesuits in Roman Churches）](../terms/jesuit-illusionistic-art-in-roman-churches.md) | 哈斯克尔称耶稣会培育了这种艺术倾向，并将其联系到教义因素；仅记录作者的概括，不指认具体作品或普遍因果规律；时间：17世纪后半；来源未给具体年份；角色：Haskell所述耶稣会幻觉式艺术的来源限定角色；范围：仅记录Haskell第3章p.93 L182对该艺术倾向及场所的陈述；不识别具体作品，不推断存续、创作者或完整艺术流派。；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p.93 L182; PDF physical p.35; statement=st-chp3-seciv-l179-187-illusionistic-art-motivated-by-doctrine |
 
 ### 身份与外部链接
 
