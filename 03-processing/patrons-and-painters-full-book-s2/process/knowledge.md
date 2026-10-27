@@ -1,5 +1,18 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp10-p314-p316-chp18-p384-genre-painting-20261027"></a>
+### 沿用 S3 身份组／S4／S5／S6：第10章 pp.314、316 与第18章 p.384 风俗画术语（2026-10-27）
+
+**身份分组与 S4 登记。** `cand-9606`／`aln-9778`沿用既有S3 `new`身份组`sg3-term-cand-9606`，不重开S3。第10章印刷页314的“genre pictures”、p.316的“mawkish genre”及第18章结论p.384的“genre painting”共同记录Haskell书内相关用法；现有卡片中没有同类型精确重复项。登记为来源限定term [`genre painting`术语卡](../../../04-knowledge/units/terms/genre-painting-as-used-by-haskell-ch10-ch18.md)，不主张存在外部统一实体。与收藏偏好、具名画家／画家群体、单件作品及其他特定画类分别保留；不将相关候选`cand-11919`、`cand-9644`、`cand-9784`、`cand-9788`并入此术语组。
+
+**S5字段。** 卡片记录描述性名称、p.314与p.316书内用例、p.384作者评价及明确范围边界。`build_field_facts.py`定向预览识别5条Haskell书内`source_backed`字段`enr-18434`–`enr-18438`，未发现unverified项或警告；应用后复预览为`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。
+
+**S6逐项裁决。** 当前唯一以`cand-9606`为直接主／客体端点且标为关系候选的statement为`st-chp18-conclusion-p384-crespi-humour-and-genre-painting`。端点登记后，该候选仍为pending：现行受控谓词不能忠实表达Haskell关于Crespi“未准备好提升风俗画地位”的否定性评价；不改写为影响、客观效果或Crespi自述。已将statement中的过时理由“术语端点未映射”改为端点已登记、谓词仍不足，并保留重开条件。该更新只修正S6理由，没有改变原书claim、mentions、关系候选标记或S2独立复核分子；当前statement版本仍待独立差异复核，不能将本批自查计入复核。第10章p.314／p.316其他含术语mention但不以术语为端点的statement不计入本批S6分母。
+
+**写后核验与状态。** 新术语卡定向渲染1张、1个字段表、5行，写后字节核验通过；复预览无差异。严格表审计：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target`、`invalid relation_type`、`missing inverse`、`weak evidence`及`unbaselined generic evidence-backed`均为0。没有新增正式关系行。
+
+批后状态：S2为15,460 statements／26,870 mentions；统一复核台账仍记录9,622条，statement ID与来源版本尚待核平，S2未接收。S3主决定仍12,432项（same 2,106、new 5,090、conflict 9、excluded 106、undecided 5,121）。S4已映射2,459/5,090条new候选，待映射2,631条，其中直接关系端点961、其他1,670；KU共3,240。S5字段14,524（1,627 `unverified`）。S6裁决记录1,934项（1,146 formal、659 pending、129 rejected）；当前`relation_candidate=true`为10,665条，历史裁决记录与当前statement版本不作完成率分母。`relations.csv`共2,445行（2,408 formal、37 pending）。缺至少一个S2端点候选ID的关系statement仍337条；backlog为56条（14 completed、42 undecided，严格审计pending=0）。S7未启动。
+
 <a id="s4-s5-s6-chp7-p172-landscape-figure-balanced-type-20261027"></a>
 ### S4/S5/S6：第7章 p.172 山水与人物平衡构图类型端点与关系裁决（2026-10-27）
 
