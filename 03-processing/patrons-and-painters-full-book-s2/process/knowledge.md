@@ -17531,3 +17531,26 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 **投影与审计。** 三张目标卡定向渲染，预检`cards=3`、`tables=8`、`rows=27`、`projected_relation_rows=13`；渲染器写后字节核验通过。三卡复预览无差异。字段复预览无新增变更；严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。未修改S2 statements、mentions或独立复核台账。
 
 **批后状态。** S2仍为15,470 statements／26,872 mentions，统一独立复核台账9,622条且statement ID／来源版本未核平。S3决定值无变化：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4新增1条new候选映射：2,495/5,088已登记，待映射2,593；直接关系端点930、其他1,663；KU共3,275。S5共14,647条字段（1,627条`unverified`）。S6历史裁决累计2,015项（formal 1,189、pending 692、rejected 134），当前`relation_candidate=true`仍为10,673项，历史台账与当前statement版本差1，不据此报告完成率。`relations.csv`共2,493行（2,452 formal、41 pending）。337条关系statement仍缺至少一个S2端点候选ID；backlog 58条（15 completed、43 undecided）。
+
+<a id="s4-s5-s6-chp2-p50-wisdom-of-solomon-20261028"></a>
+### S4–S6 第2章 p.50《所罗门智训》直接端点及智慧关系（2026-10-28）
+
+**S3身份与S4登记。** `cand-4669`沿用既有S3 `new`身份组`archive-group-d21828827741`，登记为[《所罗门智训》](../../../04-knowledge/units/archives/wisdom-of-solomon.md)。按原书指称，archive文本与作品`cand-4003`及智慧概念`cand-4672`分开；本次未重开S3、未查外部目录或原典，也未补作者、年代、版本或具体经节。
+
+**S5字段。** 新增`enr-18562`–`enr-18563`两条Haskell来源支持字段，记录其书内称谓与文本转述内容。第2章印刷页50 L87称“Apocryphal Wisdom of Solomon”；L89称该经文劝勉王侯尊崇智慧以永享王权。Haskell未给出章节或经节。字段复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`；来源登记无变化。
+
+**S6逐项裁决。** 本批对新登记archive端点及其同章智慧概念关联逐条裁决。作品到文本用`derived_from`；原文说的是壁画主题来源，不推定版本或经节。另把作品主题与文本所谈及的智慧分别用`has_subject`表达；三条作品statement共同支持同一条work→term自然边，避免重复建边。
+
+| S2关系候选 | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp2-seciv-l79-89-divine-wisdom-fresco-derived-from-wisdom-of-solomon` | formal | `rel-2495 derived_from`：萨基《神圣智慧寓意》→《所罗门智训》。仅记录Haskell称壁画主题源自该文本。 |
+| `st-chp2-seciv-l79-89-wisdom-of-solomon-calls-princes-to-honour-wisdom` | formal | `rel-2496 has_subject`：《所罗门智训》→萨基《神圣智慧》中的智慧概念。限于Haskell转述的劝勉内容；未声称该段是文献的全部主题。 |
+| `st-chp2-seciv-l79-89-divine-wisdom-artwork-personifies-concept`、`st-chp2-seciv-l79-89-divine-wisdom-central-figure-description-continues`、`st-chp2-seciv-l91-94-wisdom-attributes-personified-as-maidens` | formal | 三项共同支持`rel-2497 has_subject`：萨基《神圣智慧寓意》→智慧概念。范围限于第2章pp.50–51的书内图像解释。 |
+| `st-chp2-seciv-l91-94-love-and-fear-control-lust-and-wrath` | process-only pending | 当前受控谓词不能准确表达寓意角色对诸激情的控制关系；不近似编码。 |
+| `st-chp2-seciv-l91-94-sun-conventional-emblem-for-wisdom` | process-only pending | 当前受控词表没有忠实的象征关系谓词；保留Haskell的象征判断，不强套`has_subject`。 |
+
+上述智慧概念卡的六项直接S2关系候选现为4项formal、2项process-only pending，均有可追溯去向。
+
+**卡片与审计。** 《所罗门智训》、萨基《神圣智慧寓意》及智慧概念三卡均先预览后定向渲染；渲染预检`cards=3`、`tables=4`、`rows=9`、`projected_relation_rows=8`，写后字节核验通过。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。未修改S2 statements、mentions或独立复核台账。
+
+**批后状态。** S2仍为15,470 statements／26,872 mentions，统一独立复核台账9,622条且statement ID／来源版本未核平。S3决定值无变化：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4新增1条new候选映射：2,496/5,088已登记，待映射2,592；直接关系端点929、其他1,663；KU共3,276。S5共14,649条字段（1,627条`unverified`）。S6历史裁决累计2,020项（formal 1,194、pending 692、rejected 134），当前`relation_candidate=true`仍为10,673项，历史台账与当前statement版本差1，不据此报告完成率。`relations.csv`共2,496行（2,455 formal、41 pending）。337条关系statement仍缺至少一个S2端点候选ID；backlog 58条（15 completed、43 undecided）。

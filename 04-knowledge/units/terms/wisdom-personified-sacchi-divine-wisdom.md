@@ -59,7 +59,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-未建立正式关系。该身份组有 6 条 `relation_candidate=true` 的直接 S2 关系候选：`st-chp2-seciv-l79-89-divine-wisdom-artwork-personifies-concept`、`st-chp2-seciv-l79-89-divine-wisdom-central-figure-description-continues`、`st-chp2-seciv-l79-89-wisdom-of-solomon-calls-princes-to-honour-wisdom`、`st-chp2-seciv-l91-94-love-and-fear-control-lust-and-wrath`、`st-chp2-seciv-l91-94-sun-conventional-emblem-for-wisdom`、`st-chp2-seciv-l91-94-wisdom-attributes-personified-as-maidens`。这些候选均保留待 S6 逐条审查；本次只完成 S4 身份登记，没有写入 `relations.csv`。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [《所罗门智训》（Wisdom of Solomon）](../archives/wisdom-of-solomon.md) | subject=archive；object=term。来源是Haskell对经文的转述，不表示已核对原典；角色：书内转述所谈及的智慧概念；范围：哈斯克尔转述该文本劝勉王侯尊崇智慧以永享王权；未给出章节或经节。概念端点限于本书S3组cand-4672，不推广为该文献的全部主题。；原断言与证据见发出端卡片“《所罗门智训》（Wisdom of Solomon）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)；haskell-1980-rev-ed；Chapter 2, printed p. 50, line 89; statement=st-chp2-seciv-l79-89-wisdom-of-solomon-calls-princes-to-honour-wisdom |
+| ← 为其所涉对象（`subject_of`，反向投影） | [神圣智慧寓意（Allegory of Divine Wisdom）](../works/andrea-sacchi-allegory-of-divine-wisdom.md) | subject=work；object=term。三条statement共同支持同一作品主题边；不再为同一端点对拆成重复关系行；角色：壁画所表现的智慧主题；范围：哈斯克尔将作品说明为智慧的颂扬与人格化，并以中心女性形象及其属性展开图像描述；范围限于第2章pp.50–51的书内解释。；原断言与证据见发出端卡片“神圣智慧寓意（Allegory of Divine Wisdom）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)；haskell-1980-rev-ed；Chapter 2, printed p. 50, lines 87–89 and p. 51, line 92; statements=st-chp2-seciv-l79-89-divine-wisdom-artwork-personifies-concept; st-chp2-seciv-l79-89-divine-wisdom-central-figure-description-continues; st-chp2-seciv-l91-94-wisdom-attributes-personified-as-maidens |
+
+该身份组的 6 条 `relation_candidate=true` 直接 S2 候选现均有逐项去向：`st-chp2-seciv-l79-89-divine-wisdom-artwork-personifies-concept`、`st-chp2-seciv-l79-89-divine-wisdom-central-figure-description-continues` 与 `st-chp2-seciv-l91-94-wisdom-attributes-personified-as-maidens` 共同支持作品到智慧概念的 `has_subject` 正式边；`st-chp2-seciv-l79-89-wisdom-of-solomon-calls-princes-to-honour-wisdom` 支持《所罗门智训》到智慧概念的 `has_subject` 正式边。`st-chp2-seciv-l91-94-love-and-fear-control-lust-and-wrath` 与 `st-chp2-seciv-l91-94-sun-conventional-emblem-for-wisdom` 仍为 process-only pending：当前词表没有忠实表达寓意角色控制行为或象征关系的受控谓词。裁决范围及证据见 [本批过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp2-p50-wisdom-of-solomon-20261028)。
 
 ### 身份与外部链接
 
