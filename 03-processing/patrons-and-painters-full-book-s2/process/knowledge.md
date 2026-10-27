@@ -17140,3 +17140,22 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 **卡片投影、审计与批后状态。** 预览并按需修订八张受影响卡（De Bello Belgico、战役事件、Low Countries、Cerquozzi、Jan Miel、Giacomo Borgognone／Jacques Courtois、Famiano Strada、Alessandro Farnese）；移除已裁决为formal关系仍被旧卡标作“待S6”的陈旧文字。第一次严格审计发现`rel-2449 has_subject`违反archive→event值域；已删除该非法formal行，将同一S2候选记录为pending并保留重开条件，后续有效关系ID沿用`rel-2450`–`rel-2455`。修正后的选定渲染预检通过（8卡、5张表、17行、20条投影关系），最终写入2张受关系删除影响的卡；八张卡复预览均无差异。S5字段复预览3行`record_changes=0`、`warnings=0`。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、backlog pending=0；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。`git diff --check`通过。
 
 批后状态：S2为15,461 statements／26,872 mentions；统一独立复核台账仍记9,622条，ID／版本尚未核平，本批未增加复核数。S3主决定12,432/12,432（same 2,107、new 5,090、conflict 9、excluded 106、undecided 5,120）。S4已映射2,466/5,090条new候选；待映射2,624，其中直接关系端点956、其他1,668；KU共3,247。S5字段14,547（1,627 unverified）。S6裁决记录1,952项（formal 1,155、pending 668、rejected 129）；当前relation_candidate=true为10,666项，历史裁决台账与当前statement版本仍差1项。`relations.csv`共2,454行（2,417 formal、37 pending）；缺端点关系statement为337条；backlog为57条（14 completed、43 undecided，严格审计pending=0）。S2未独立接收，S3–S6未全书收口，S7未启动。
+
+### S3-S4-S6-chp2-church-institution-20261027
+
+**跨章身份复核与S4复用。** 当前端点批次触发复核：第2章 p.24 L5 的 `cand-4244`（Church government）与 p.48 L58 的 `cand-4654`（Ferrara succession）都指向哈斯克尔叙述中的广义教会机构。与已登记的 `units/institutions/church-as-patron-in-venice-haskell-account` 及其第1、2、3、4、8、9、10章来源比较后，两项均由 `new` 改为 `same`，复用同一 KU；该身份仍与 Papacy、Roman Court、政治地域及实体教堂建筑区分。未新增 KU，也未补外部标识；原 new 决定及旧理由保留在 alignment 行的历史注记中。
+
+**S6逐项裁决。** 四条当前关系候选均有去向：
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp2-seci-l3-7-church-government` | pending（process-only） | Haskell称教宗改变教会治理结构，但现行受控关系类型没有忠实表达治理行为的谓词。不得以 `office_held_by` 替代，因为原断言不是教会由谁任职，也不以 `supported_by` 表示。待有合适受控谓词或新的具体证据时重开。 |
+| `st-chp2-seciv-l54-63-enzo-rallies-to-church-cause` | pending（process-only） | “rallied to the Church’s cause”表达Enzo对机构事业的政治结盟。当前 `supported_by` 的反向投影是 `supports_claim`，只能表达断言／证据支持，不能表示人物支持机构事业；不改写为成员关系、任职或赞助。 |
+| `st-chp2-seciv-l54-63-guido-rallies-to-church-cause` | pending（process-only） | Guido对Church’s cause的政治结盟与Enzo相同；没有可忠实表达的现行实体关系谓词。 |
+| `st-chp2-seciv-l54-63-guido-career-in-church` | formal | `rel-2456 member_of`：Guido → institutional Church。原文明确称Guido在教会有成功事业；与既有“entered the Church”用例一致，不推断入教日期、具体修会或任职起止。 |
+
+三项pending只保留在过程记录，不写入会造成谓词／反向投影误读的关系表行。正式关系仅有 `rel-2456`，证据为Haskell第2章印刷页48 L59，来源 `haskell-1980-rev-ed`。
+
+**S5与S2。** S5 `no_delta`：复用已有机构KU，本批没有新增字段事实。S2 statement、mention、来源版本与独立审读台账均未改变。
+
+**卡片投影与审计。** 对教会机构、Guido、Enzo、Sixtus V 四张卡逐卡预览；最终只有教会机构卡与Guido卡因 `member_of` 边出现投影差异。Enzo卡说明Church’s cause候选的pending理由；Sixtus V卡没有新增关系投影。定向渲染两张卡后，四张卡复预览均无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`alignment_new_pending_registration=2622`、`candidate_backlog_pending=0`；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`；`git diff --check`无空白错误。

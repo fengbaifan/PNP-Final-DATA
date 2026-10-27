@@ -82,6 +82,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）](../works/van-dyck-cardinal-bentivoglio.md) | 角色：肖像人物；范围：Palatina82；原断言与证据见发出端卡片“圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）”：[来源](https://opificiodellepietredure.cultura.gov.it/attivita/antoon-van-dyck-il-ritratto-del-cardinale-bentivoglio-1623-galleria-palatina-le-gallerie-degli-uffizi-firenze/)；src-36e508bc620bf581；题名与Informazioni sull’opera |
 | ← 委托者（`commissioner_of`，反向投影） | [圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）](../works/van-dyck-cardinal-bentivoglio.md) | 时间：1623；角色：委托人；范围：在罗马委托肖像；原断言与证据见发出端卡片“圭多·本蒂沃利奥枢机肖像（Portrait of Cardinal Guido Bentivoglio）”：[来源](https://opificiodellepietredure.cultura.gov.it/attivita/antoon-van-dyck-il-ritratto-del-cardinale-bentivoglio-1623-galleria-palatina-le-gallerie-degli-uffizi-firenze/)；src-36e508bc620bf581；Informazioni sull’opera：1623委托 |
+| → 隶属／任职于（`member_of`） | [哈斯克尔叙述中的教会机构（The Church as an institution in Haskell's account）](../institutions/church-as-patron-in-venice-haskell-account.md) | 原文明确称Guido在Church拥有成功的career；按现有Church机构卡与rel-1436、rel-1437的entered the Church用例记录成员归属，不添加起止日期；角色：宗教机构成员归属；范围：Haskell所述成功的教会生涯；不推定加入日期、具体修会或未记载职务。；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)；haskell-1980-rev-ed；Chapter 2, printed p. 48 L59; S2 statement st-chp2-seciv-l54-63-guido-career-in-church |
 
 ### 关系候选入口
 

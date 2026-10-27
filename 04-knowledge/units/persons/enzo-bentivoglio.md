@@ -53,4 +53,4 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-当前没有登记正式关系。涉及 Enzo 的 11 条 S2 关系候选保留待 S6 逐条裁决；其中正文关于1619年 Borghese 宫购买者的引句定位已在过程记录中更正，脚注归属差异仍按原记录保留。[第2章 p.48](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)（L57–62）
+当前没有登记正式关系。S2中的“Enzo rallied to the Church’s cause”候选已于2026-10-27裁为pending：原文支持其对教会事业的政治结盟，但现行关系类型不能忠实表达人物对机构事业的支持；不改写为成员关系、任职或教会赞助。其余Enzo关系候选的裁决状态见[全书关系处理过程](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp2-church-institution-20261027)。正文关于1619年Borghese宫购买者的引句定位已在过程记录中更正，脚注归属差异仍按原记录保留。[第2章 p.48](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)（L57–62）
