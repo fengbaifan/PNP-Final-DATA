@@ -1,5 +1,44 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp10-england-leoni-endpoints-20261027"></a>
+### S3触发复核／S4／S5／S6：第10章 p.279–281 英格兰与 Giacomo Leoni 端点（2026-10-27）
+
+#### 身份判定与 S4 登记
+
+`cand-4439`／`aln-4622` 沿用 S3 `new` 决定及 `sg3-institution-cand-4439`，登记为来源限定的 institution KU `units/institutions/england-political-realm-haskell-account`。第10章 p.279–281 将英格兰作为画家离境、抵达及获得支持的政治共同体；既有 `units/places/england` 是地理地点，不因同名而复用。第2章 p.67 及第10章 p.278 为本卡提供额外书内锚点。本卡不声称当前位置或一般政治史。
+
+`cand-1394`／`aln-1729` 沿用 S3 `new` 人物组 `new-person:giacomo-leoni-fcf1d1aff3`，登记为 `units/persons/giacomo-leoni`。索引 `L.csv#51` 列名 Giacomo Leoni 并指向第281、286页；与既有人物卡 Ottavio Leoni 分开。关系主体 Pellegrini、Marco Ricci、Antonio Bellucci、Vincenzo Damini 均复用对应既有 person KU；Pellegrini 的实际路径为 `units/persons/pellegrini`。
+
+#### S2 原子化与逐条裁决
+
+为避免把复合主语、抵达行为和未具名接待者混成关系端点，限定修改 3 条既有 statement，并增加 4 条来源限定 statement。复用既有 mentions；总 mentions 不变。7 个新增／修订后的当前 statement 版本均未增加独立复核分子，待独立差异复核。
+
+| Statement | 处理与 S6 去向 |
+|---|---|
+| `st-chp10-p279-both-artists-leave-england` | 保留“Pellegrini 与 Marco Ricci 均离开英格兰”的书内综合叙述，移除集体候选端点并设 `relation_candidate=false`。 |
+| `st-chp10-p279-pellegrini-departure-location`（新增） | 单列 Pellegrini 的离境地点，以 p.279 的离开英格兰及 p.281 的1712年赴 Düsseldorf 叙述限定时间；`located_at` formal，`rel-2433`。 |
+| `st-chp10-p279-marco-ricci-departure-location`（新增） | 单列 Marco Ricci 的离境地点；只保留“1712年争执后、返英一年内”相对叙述，不推定具体日期；`located_at` formal，`rel-2434`。 |
+| `st-chp10-p280-bellucci-arrives-after-ricci` | 限定为 Bellucci 在 Sebastiano Ricci 1716年离开数月后抵达英格兰；不含接待判断；`located_at` formal，`rel-2435`。 |
+| `st-chp10-p280-bellucci-equally-well-received`（新增） | 单列“同样受到欢迎”；原文没有指明接待者，故 `relation_candidate=false`，不建立人物关系。 |
+| `st-chp10-p281-damini-leoni-arrivals` | 限定为 Damini 从 Düsseldorf 抵达英格兰；保留日期未载；`located_at` formal，`rel-2436`。 |
+| `st-chp10-p281-leoni-arrived-in-england-from-dusseldorf`（新增） | 单列 Leoni 从 Düsseldorf 抵达英格兰；保留日期未载；`located_at` formal，`rel-2437`。 |
+| `st-chp10-p281-english-support-venetian-painters` | 保留 Haskell 对威尼斯历史画家在英格兰获得广泛支持的概括。`cand-8948` 是尚未 S4 登记的来源限定 term，且 `supported_by` 不接受 term 作为 domain；来源也未指名赞助者。S6 pending，不推定人物端点或正式关系。 |
+
+前五条正式边都限于来源明确的“离境时所在地”或“历史抵达目的地”；不表达长期居留、当前所在地或未载明的精确日期。`cand-8948` 仍是待登记直接端点；即使完成其 S4，亦不会单独解决谓词域值限制和未具名赞助者问题。
+
+#### 批后状态与核验
+
+| 阶段 | 批后状态 |
+|---|---|
+| S2 | 15,460 statements／26,870 mentions；统一独立复核台账仍记9,622条，statement ID／来源版本尚未核平。本批7条新增或修订当前版本未计入复核分子。 |
+| S3 | 主决定12,432/12,432：same 2,106、new 5,090、conflict 9、excluded 106、undecided 5,121；本批沿用2项既有 new 组，未改主决定总数。 |
+| S4 | 已映射2,455/5,090；待映射2,635，其中直接关系端点964、其他1,671；KU共3,236。本批新增2个KU与2条映射。 |
+| S5 | 14,511条字段，其中1,627条 `unverified`；`enr-18422`–`enr-18425` 四项均为 `source_backed`。 |
+| S6 | 裁决记录1,919项（formal 1,139、pending 651、rejected 129）；当前 `relation_candidate=true` 为10,665条，历史裁决台账与当前statement版本仍差1项，暂不报告完成率或剩余数；本批5 formal、1 pending。 |
+| 正式关系表 | 2,437行：2,400 formal、37 pending；新增 `rel-2433`–`rel-2437`。 |
+
+`build_field_facts.py` 定向预览与应用均为4条source-backed、unverified=0、warnings=0。六张受影响卡定向渲染并逐张复预览无差异；严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`alignment_new_pending_registration=2,635`；关系一致性五类阻断均为0。backlog仍56条（14 completed、42 undecided），至少缺一端 S2 候选ID的关系 statement 仍337条。机械检查不构成S2独立接收或S3–S6全书收口。
+
 <a id="s4-s5-s6-chp18-p384-social-conformity-20261027"></a>
 ### S3定点复核／S4／S5／S6：第18章 p.384 哈斯克尔所述社会趋同议题（2026-10-27）
 

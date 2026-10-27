@@ -39,16 +39,14 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 本书相关内容
 
-S2关系候选 `st-chp10-p281-damini-leoni-arrivals` 保留待S6；Leoni候选cand-1394与England候选cand-4439仍待各自S4登记。 [第10章；印刷页281；OCR L135-L137](../../../02-sources/02-Markdown/10_CHP-10_intro.md)
+第10章 p.281 将 Damini 与 Leoni 并列为从 Düsseldorf 抵达英格兰的两人；两人的地点关系现分别记录于下方关系表。 [第10章；印刷页281；OCR L135-L137](../../../02-sources/02-Markdown/10_CHP-10_intro.md)
 
-S2 relation candidate `st-chp10-p281-damini-leoni-arrivals` remains for S6; Leoni candidate cand-1394 and England candidate cand-4439 still await their own S4 registration. [第10章；印刷页281；OCR L135-L137](../../../02-sources/02-Markdown/10_CHP-10_intro.md)
+Chapter 10, p.281 names Damini and Leoni as the two artists who arrived in England from Düsseldorf; their location relations are recorded separately in the table below. [Chapter 10; printed p.281; OCR L135–137](../../../02-sources/02-Markdown/10_CHP-10_intro.md)
 
 ## 关系与证据
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
-
-S2关系候选 `st-chp10-p281-damini-leoni-arrivals` 保留待S6审查；S2关系候选 `st-chp10-p281-damini-leoni-arrivals` 保留待S6；Leoni候选cand-1394与England候选cand-4439仍待各自S4登记。
-
-No formal relation is recorded. S2 relation candidate `st-chp10-p281-damini-leoni-arrivals` remains for S6 review; S2 relation candidate `st-chp10-p281-damini-leoni-arrivals` remains for S6; Leoni candidate cand-1394 and England candidate cand-4439 still await their own S4 registration.
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 位于（`located_at`） | [哈斯克尔所述英格兰政治实体（England as a Political Realm in Haskell’s Account）](../institutions/england-political-realm-haskell-account.md) | “So too did” carries forward the preceding Düsseldorf origin; the source gives no exact date.；时间：Exact date not stated; narrated after Bellucci's arrival.；角色：Historical arrival destination.；范围：Records only England as the destination of Damini's reported arrival from Düsseldorf; no current location or long-term residence is asserted.；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p.281 L135–136; statement=st-chp10-p281-damini-leoni-arrivals |

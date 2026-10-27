@@ -13678,3 +13678,7 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 ### 2026-10-27：第8章 p.241 statement 来源对照核读
 
 对照《CHP-8.pdf》物理页47及当前53条statement：41条 `relation_candidate=true` 均已在既有S6记录中落到formal、pending或rejected，12条 `false` 保留为书内非关系断言。检查页内引文、人物／作品／书目端点、限定与注号；Cardinal Medici仍未具名，Marco Ricci风景画仍保留概率限定，后续展览不拆成未识别单次事件。页图确认注5末尾缩写印为`Boll.`，在`st-chp8-p241-note5-haskell-cites-article.qualifiers.ocr_corrections`补记S0 OCR `Boll,`→印本`Boll.`。其余本页校读（包括注5印刷编号5与OCR 6）已有结构化记录。S0不改；不新增statement/mention，不更改S3/S4/S6；本次局部核读未计入统一独立复核分子。详见[本页复核](s2-review-chp8-p241-20261027.md)。
+
+### 2026-10-27：第10章 p.279–281 S2 关系陈述原子化与 S3–S6 端点批次
+
+为 S4/S6 端点登记，将第10章 p.279“二人离开英格兰”拆为 Pellegrini 与 Marco Ricci 两条个人离境地点陈述；p.280将 Bellucci“抵达”与“受到欢迎”分开；p.281将 Damini 与 Leoni 的抵达分别记录。原 statement 3条修订、新增4条，mentions未变，当前7个statement版本待独立差异复核，未计入统一独立复核分子。两项既有 S3 `new` 身份组完成 S4 登记；5条地点关系 formal，1条群体支持候选因 term 端点／受控谓词域和未具名支持者待证。详见[知识过程记录](knowledge.md#s3-s4-s5-s6-chp10-england-leoni-endpoints-20261027)。
