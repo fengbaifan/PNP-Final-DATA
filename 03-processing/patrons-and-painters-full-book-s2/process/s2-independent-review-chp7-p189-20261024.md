@@ -62,3 +62,17 @@
 ## 2026-10-25：p.189 Preti 肖像statement版本更新
 
 2026-10-25依据同一页扫描图修订 `st-chp7-p189-i25`、`st-chp7-p189-i26`，并调整 `st-chp7-p189-i27` 的资格字段（移除把未知买家／去向误作本条卖方关系缺端点的标记）；另新增 `st-chp7-p189-i25-subject`、`st-chp7-p189-i25-intended-gift`。此前表格对旧版 i25、i26、i27 的复核结论保留为历史版本记录，不覆盖当前statement语义／关系候选状态。五条当前statement（i25、i25-subject、i25-intended-gift、i26、i27）须重新完成独立逐条复核后方可纳入统一复核分子。本记录只标注版本变化，不构成这五条的独立复核；本批S4/S5/S6处理不增加S2复核计数。
+
+## 2026-10-27：p.189 Preti肖像五条当前statement独立复核
+
+独立复核者从当前statement版本和原始扫描页重新核对：第七章印刷页189、PDF物理页27，来源Markdown L255–256，并检查相应mention与候选端点。复核未采纳旧版本的逐条结论，也未阅读注6所引出版物。
+
+| 当前statement | 当前版本复核结论 | S6对应状态 |
+|---|---|---|
+| `st-chp7-p189-i25` | 准确：Preti制作寓意肖像；端点为Preti→作品。 | formal `rel-2056 created_by` |
+| `st-chp7-p189-i25-subject` | 准确：肖像描绘Louis XIV；不声称特定存世版本或相似度。 | formal `rel-2057 has_subject` |
+| `st-chp7-p189-i25-intended-gift` | 准确：拟将肖像赠给Louis XIV；仅为意图，不表示交付、接受或所有权转移。 | formal `rel-2058 intended_gift_to` |
+| `st-chp7-p189-i26` | 准确：这是Haskell所述Preti的判断；敌对行动标示重新考虑赠礼的叙述时点，赠礼不合宜的理由是Preti在Malta的处境。未具名、未定年的敌对行动不作为独立原因或正式关系端点。 | 非关系候选；`relation_candidate=false` |
+| `st-chp7-p189-i27` | 准确：Preti随后在他处卖掉该画；买方、具体地点与日期未载。卖方端点为Preti，不能指向Louis XIV。 | formal `rel-2059 sold_by` |
+
+按独立复核意见修订i26资格字段，以区分叙述时点与作者明示的理由；将i27 claim中的“最终”改为“随后”，并在`mentioned_candidate_ids`补入已由`m-chp7-p189-060`锚定的卖方`cand-2056`。独立复核者复核修订后版本，确认五条当前statement均准确、可计入统一复核分子。没有新增statement或mention。全书统一复核计数由9,617增至9,622/15,451（62.27%）；仍不构成第七章或全书S2接收。
