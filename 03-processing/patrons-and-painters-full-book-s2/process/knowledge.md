@@ -16622,3 +16622,41 @@ S4 本批复用1个既有 place KU，不新增 KU。S5 `no_delta`：既有地点
 #### 写后核验
 
 `audit_tables.py --strict-stage --summary` 通过：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`candidate-backlog.csv` 为54项（14 completed、40 undecided、pending=0）；`relations.csv` 为2,403行（2,366 formal、37 pending）；S2 为15,448 statements、26,870 mentions。`audit_relation_consistency.py` 的 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0。三张受影响卡片预览后定向渲染，renderer 预检3卡、1表、1字段行、6条投影关系行；写后字节核验通过。上述检查不提升 S2 独立复核分子，也不表示全书阶段收口。
+
+<a id="s4-s5-s6-archive-citation-endpoints-20261027"></a>
+
+### S4/S5/S6：跨章书目引注与档案端点（2026-10-27）
+
+本批接续书目和注释中的直接 archive 端点。七个候选均保留已有 S3 `new` 决定及其身份组；没有因为登记 S4 而重开或改写 S3。候选按 Haskell 的书目、注释和附录定位落入七张来源限定 archive 卡，其中 `cand-4845` 的主行 `aln-5028` 与 Biblioteca Baldini 来源行 `aln-12683` 一并映射至同一 Callari 第三版 KU。该外部目录记录此前已存在，本批未增加外部核验结论。
+
+| 候选／身份组 | S4 去向 | 本批范围限定 |
+|---|---|---|
+| `cand-11439`／`archive-group-de0d85f3325d` | 新建 `units/archives/de-tipaldo-biografia-italiani-1834-1845` | Haskell 书目确认十卷本《Biografia》，1834–1845；第15章注2指向该书讨论 De Non 与 Querini。与 de Tipaldo 1833 年 Sala 别墅出版物分开；所引书未查。 |
+| `cand-12278`／`archive-group-a9d72a5461e5` | 新建 `units/archives/agnello-minnitti-contract-terms-augusta-1617` | 只登记 Haskell 提到的 Minnitti 1617 年契约条款及其称 Agnello 刊布；不识别原件、委托者、作品或馆藏。 |
+| `cand-4845`／`archive-group-callari-i-palazzi-di-roma-3ed-1944` | 新建 `units/archives/callari-i-palazzi-di-roma-1944` | Haskell 书目和既有 Biblioteca Baldini 目录记录支持罗马 1944 年修订第三版；p.298 未读。第2章相同页码引注不是独立 `relation_candidate`。 |
+| `cand-5690`／`archive-group-82e36a0388ab` | 新建 `units/archives/vermeule-dal-pozzo-albani-drawings-1956` | 依据 Haskell 书目登记 C. Vermeule 1956 年文章；不将首字母扩写为全名，文章未查。 |
+| `cand-5906`／`archive-group-99c5a0553f5e` | 新建 `units/archives/testa-prison-letters-september-1637-bottari` | 只记录 Haskell 所称 Testa 1637 年9月狱中书信由 Bottari 刊布；不推定刊本题名、信件数量或原件馆藏。 |
+| `cand-7352`／`archive-group-c0179ab7c569` | 新建 `units/archives/ritschl-harrach-gallery-catalogue-1926` | 依据 Haskell 书目登记 1926 年 Harrach 绘画目录；作者保留首字母 H. Ritschl，目录未查。 |
+| `cand-8015`／`archive-group-4371d038ae44` | 新建 `units/archives/crespi-letter-1708-02-26-filza-5904-no-22` | 依据第8章注释和第19章附录登记 1708-02-26 信件及书内 Filza 5904 No.22 定位；不推断收信人或现今保管状态，原件未查。 |
+
+七张新卡加入 `accepted.yml` 和 `ku-manifest.csv`；八条 alignment 行更新为对应 KU（Callari 两条来源行共用同一卡）。S5 `no_delta`：本批依据均为已有 Haskell 原书记录及此前已有的 Callari 目录证据，没有新增外部来源字段。
+
+#### S6逐项裁决
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp15-p371-note2-de-non-citation-chain` | formal | `rel-2404 cites`：Haskell 第15章注2指向 de Tipaldo；只记录引注，不将被引书内容作为已核实事实。 |
+| `st-chp1-secii-notes-local-commissions-minnitti-1617` | formal | `rel-2405 has_subject`：契约条款以 Minnitti 为所涉人物；不补出原件、委托或作品关系。 |
+| `st-chp7-p183-n2-cite-callari` | formal | `rel-2406 cites`：记录 Callari p.298 引注；第2章相同页码记录不另计 S6 候选。 |
+| `st-chp4-sec-ii-l24-31-vermeule-citation` | formal | `rel-2407 cites`：只记录 C. Vermeule 文章书目引注，不声称查阅文章。 |
+| `st-chp4-sec-ii-notes-p111-fn3-letters-published-by-bottari` | formal | `rel-2408 published_by`：按 Haskell 的明确措辞，将书信组连至既有 Giovanni Bottari 人物 KU；刊本未独立核查。 |
+| `st-chp7-p200-n7-cite-ritschl` | formal | `rel-2409 cites`：记录 Ritschl 目录的 passim 引注；不扩展作者身份或目录内容。 |
+| `st-chp8-p237-note1-letter-citation` | formal | `rel-2410 cites`：记录 Haskell 对来信的档案定位和附录指引；不声称已查阅手稿或信件全文。 |
+
+七项均有明确端点、受控谓词及来源限定范围，本批无待证 S6 项。未将 `st-chp8-p239-note2-cross-reference` 计入；该 statement 的 `relation_candidate` 为 false。
+
+#### 写后核验与状态
+
+定向预览后渲染七张新 archive 卡、Haskell 书卡、Mario Minnitti 卡与 Giovanni Bottari 卡，共10张；renderer 预检 `cards=10`、`projected_relation_rows=362`、`files_to_write=10`，写后字节核验通过。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic=0`。
+
+批后 S2 仍为15,448 statements／26,870 mentions，统一独立复核仍为9,617条（62.25%，未接收）；S3决定不变。S4映射2,438/5,088条 `new`，尚有2,650条待映射；KU共3,219。S5仍为14,463条字段，其中1,627条 `unverified`。S6裁决1,876/10,659（1,112 formal、636 pending、128 rejected），未裁决8,783；`relations.csv`共2,410行（2,373 formal、37 pending）。至少缺一个S2端点候选ID的statement仍337条；backlog仍54项（14 completed、40 undecided，严格审计pending=0）。本批未改变S2独立复核分子、S3决定、S5字段或 backlog。

@@ -39,6 +39,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← publisher_of（`publisher_of`，反向投影） | [彼得罗·泰斯塔1637年9月狱中书信（Pietro Testa’s Letters from Prison, September 1637）](../archives/testa-prison-letters-september-1637-bottari.md) | S6 formal for Haskell’s attributed publication statement; the letters and edition were not independently checked.；角色：Publisher identified in Haskell note 3；范围：Haskell states that Pietro Testa’s prison letters from September 1637 were published by Bottari. Bottari maps to the existing Giovanni Bottari person KU; no edition title, letter count, or original holding is inferred.；原断言与证据见发出端卡片“彼得罗·泰斯塔1637年9月狱中书信（Pietro Testa’s Letters from Prison, September 1637）”：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；Chapter 4, printed p.111 note 3 L279; statement=st-chp4-sec-ii-notes-p111-fn3-letters-published-by-bottari |
+
 ### 关系登记
 
 目前尚无 relations.csv 中的正式关系。S2 标记为直接关系候选的 2 条断言 (st-chp14-p348-bottari-correspondence、st-chp14-p348-roman-scholars) 留待 S6 逐条审查；S4 登记不预先将其确认为关系。

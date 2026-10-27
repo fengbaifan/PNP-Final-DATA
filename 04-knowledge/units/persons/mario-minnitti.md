@@ -82,8 +82,9 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 朋友（`friend_of`，反向投影） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 页面将明尼蒂列为朋友、同住者或模特的相关叙述；本边只采用朋友关系；时间：1590年代；角色：朋友；范围：模特身份逐件作品另判；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](https://en.wikipedia.org/wiki/Caravaggio)；Beginnings in Rome与Models段 |
+| ← 朋友（`friend_of`，反向投影） | [卡拉瓦乔（Caravaggio）](caravaggio.md) | 页面将明尼蒂列为朋友、同住者或模特的相关叙述；本边只采用朋友关系；时间：1590年代；角色：朋友；范围：模特身份逐件作品另判；原断言与证据见发出端卡片“卡拉瓦乔（Caravaggio）”：[来源](https://en.wikipedia.org/wiki/Caravaggio)；src-e6ff280a587b5a1d；Beginnings in Rome与Models段 |
 | ← 为其所涉对象（`subject_of`，反向投影） | [明尼蒂在奥古斯塔的委托条款刊录（1617）（Published Terms for Minnitti's Augusta Commission (1617)）](../archives/minnitti-augusta-terms-1617.md) | 条款所涉画家为 Minnitti；时间：1617；角色：受条款约束的画家；范围：Augusta委托条款；原断言与证据见发出端卡片“明尼蒂在奥古斯塔的委托条款刊录（1617）（Published Terms for Minnitti's Augusta Commission (1617)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 321–322; print pp. 9 |
+| ← 为其所涉对象（`subject_of`，反向投影） | [1617年马里奥·米尼蒂奥古斯塔契约条款（Contract terms for Mario Minnitti in Augusta, Sicily, 1617）](../archives/agnello-minnitti-contract-terms-augusta-1617.md) | S6 formal for the explicit source-stated subject; the original contract and Agnello publication were not independently consulted.；时间：1617；角色：Person named in the published contract terms；范围：Haskell refers to contract terms for Mario Minnitti in Augusta in 1617 and says Giuseppe Agnello published them. This records the source-stated subject of the cited documentary text; it does not identify the commissioner, work, original item, or its holding.；原断言与证据见发出端卡片“1617年马里奥·米尼蒂奥古斯塔契约条款（Contract terms for Mario Minnitti in Augusta, Sicily, 1617）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；Chapter 1, sec. ii L321-L322; statement=st-chp1-secii-notes-local-commissions-minnitti-1617 |
 
 ### 身份与外部链接
 
