@@ -17434,3 +17434,26 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 **投影与审计。** 单卡定向预览显示3条字段和2条formal关系投影；定向渲染1卡、1张表、3行字段和2条关系投影，写后字节核验通过，复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。
 
 **批后状态。** S2、S3及独立复核分子无变化。S4已映射2,483/5,089条`new`候选，未映射2,606条，其中直接关系端点940、其他1,666；KU共3,263。S5字段14,614条（1,627 `unverified`）。S6裁决记录1,989项（formal 1,177、pending 680、rejected 132）；当前`relation_candidate=true`为10,672项，历史裁决台账与当前statement版本仍差1，不据此报告完成率。`relations.csv`共2,478行（2,439 formal、39 pending）；缺至少一个S2端点候选ID的关系statement仍337条；backlog仍为58条（14 completed、44 undecided）。
+
+
+<a id="s4-s5-s6-chp7-p174-pont-neuf-completion-attribution-20261028"></a>
+### S4–S6 第7章 p.174 Pont Neuf 安置地与纪念像完成者（2026-10-28）
+
+**S4端点登记。** 沿用 `cand-6677` 的既有S3 `new`决定和身份组 `sg3-place-cand-6677`，登记[新桥（Pont Neuf）](../../../04-knowledge/units/places/pont-neuf.md)为地点KU。印本图确认名称为Pont Neuf，S0 OCR仍保留Pont Neus；本卡只记录命名地点和原定安置角色，不宣称雕像实际安装。S3其他决定未改；`cand-6668`“Grand Duke Ferdinand”仍为`undecided`，本批未以外部常识补其完整身份。
+
+**S5字段。** 通过字段表预览与定向写入新增4条Haskell书内 `source_backed` 字段（`enr-18542`–`enr-18545`）：纪念像的1604委托语境、委托者原文称谓、相对抵达间隔，以及Pont Neuf在本段中的地点角色。未推定委托合同具体日期、委托者完整姓名、抵达年份、抵达地点或实际安装。
+
+**S6逐项裁决。** 五条正文候选各有明确去向；与此前注2毁损候选合计六项：
+
+| S2关系候选 | 决定 | 去向与范围 |
+|---|---|---|
+| `st-chp7-p174-i12` | process-only pending | 句子同时写Marie劝说和叔父Grand Duke Ferdinand实际委托，不能把Marie误记为委托人；委托者候选`cand-6668`仍S3 `undecided`，尚无有效人物KU。待身份证据确定后再评估作品→委托者`commissioned_by`；现不写缺端点关系行。 |
+| `st-chp7-p174-i13` | formal | `rel-2486 intended_for`：纪念像 → Pont Neuf。仅记录Haskell所述原定安置地；时间为1604委托语境，不表示安装或抵达日期。 |
+| `st-chp7-p174-i16` | formal | `rel-2487 created_by`：纪念像 → Pietro Tacca。`role`限定为Haskell所述完成者，不归属初始设计或模型。 |
+| `st-chp7-p174-i17` | formal | `rel-2488 created_by`：纪念像 → Pietro Francavilla。`role`限定为Haskell所述完成者，不归属初始设计或模型。 |
+| `st-chp7-p174-i18` | rejected | 否决将“另十年才抵达”的相对时间断言编码为实体关系；原断言仍保留在S2，S5字段记其相对间隔，不推定年份、地点或安装。 |
+| `st-chp7-p174-n2-monument-destroyed` | process-only pending（既有） | 1792毁损事实及事件KU已有记载，但当前受控谓词不能精确表示作品与毁损事件的关系；不建立近似边。 |
+
+**投影与审计。** Pont Neuf与纪念像两卡定向渲染共2卡、2张S5表、4行字段、3条formal关系和1条反向投影；写后字节校验通过，复预览无差异。字段表复预览 `record_changes=0`。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。本批未改S2 statements、mentions或独立差异复核台账。
+
+**批后状态。** S2为15,470 statements／26,872 mentions；统一独立复核台账9,622条，statement ID／来源版本尚未核平。本批S3决定无变化：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4已映射2,490/5,088条`new`候选，未映射2,598条，其中直接关系端点935、其他1,663；KU共3,270。S5字段14,631条（1,627 `unverified`）。S6裁决记录2,004项（formal 1,184、pending 687、rejected 133）；当前`relation_candidate=true`为10,673项，历史裁决台账与当前statement版本仍差1，不据此报告完成率。`relations.csv`共2,487行（2,447 formal、40 pending）；缺至少一个S2端点候选ID的关系statement仍337条；backlog为58条（15 completed、43 undecided）。
