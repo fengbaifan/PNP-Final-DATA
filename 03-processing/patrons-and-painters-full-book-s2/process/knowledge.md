@@ -17321,3 +17321,14 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 **投影与审计。** 定向卡片预览识别1张卡、1张S5表、4条字段和2条formal关系投影；渲染后写入字节核验通过，复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。
 
 **批后状态。** S2为15,469 statements／26,872 mentions；统一独立复核台账9,622条，statement ID／版本仍未核平，本批无S2修订。S3主决定12,432项（same 2,110、new 5,089、conflict 9、excluded 106、undecided 5,118）。S4已映射2,481/5,089条new候选，未映射2,608条，其中直接关系端点942、其他1,666；KU共3,261。S5字段14,608（1,627 `unverified`）。S6裁决记录1,985项（formal 1,174、pending 679、rejected 132）；当前`relation_candidate=true`为10,672项，历史裁决记录与当前statement版本仍差1项，不报告完成率。`relations.csv`共2,474行（2,436 formal、38 pending）；缺至少一个S2端点候选ID的关系statement仍337条；backlog为58条（14 completed、44 undecided）。
+
+<a id="s4-s5-s6-chp4-p97-paolo-giordano-ii-medal-20261028"></a>
+### S4–S6 第4章 p.97 Paolo Giordano II 肖像奖章（2026-10-28）
+
+**S3身份与S4登记。** 沿用 `cand-5549` 的既有 `new` 决定及身份组 `workgrp-d9b4a51552812a`，登记为[保罗·焦尔达诺二世肖像奖章（1631）](../../../04-knowledge/units/works/paolo-giordano-ii-medal-portrait-1631.md)。第4章 p.97 L28 将其与同段后文的Paolo及Isabella大理石胸像组区分；本卡是描述性暂题，不是原题。未重开S3，也未独立核验奖章实物或目录身份。
+
+**S5字段与S6裁决。** 新增3条Haskell书内 `source_backed` 字段（`enr-18523`–`enr-18525`）：描述性名称、肖像奖章类型及原书所述1631年。两条关系候选逐项裁决：`rel-2476 has_subject` formal，记录奖章表现Paolo Giordano II；`rel-2477 created_by` pending，因原文以“perhaps”限定Giulio della Greca的制作者归属。待证关系不作为确定作者事实。
+
+**投影与审计。** 新卡包含3行字段和2条关系投影；定向预览无差异，渲染器预检通过且无待写文件。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断五项均为0。
+
+**批后状态。** S2、S3及独立复核分子无变化。S4已映射2,482/5,089条 `new` 候选，未映射2,607条，其中直接关系端点941、其他1,666；KU共3,262。S5字段14,611条（1,627 `unverified`）。S6裁决记录1,987项（formal 1,175、pending 680、rejected 132）；当前 `relation_candidate=true` 为10,672项，历史裁决台账与当前statement版本仍差1，不报告完成率。`relations.csv` 共2,476行（2,437 formal、39 pending）；缺至少一个S2端点候选ID的关系statement仍337条；backlog为58条（14 completed、44 undecided）。
