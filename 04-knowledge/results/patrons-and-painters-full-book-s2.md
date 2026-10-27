@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-27）
 
+**跨来源 S3 复核更新：cand-2328 / aln-12663（2026-10-27）。** 复核 Princeton University Art Museum object 8051 当前馆藏沿革后，外部身份比对仍为 undecided：该记录将 Stefano–Zaccaria 传承标为 possible，且Zaccaria生年为1633，与Haskell转引Barbaro的1653不合。cand-2328主行仍为来源局部 new → Stefano Sagredo KU；不把外部沿革不确定升级为主行身份冲突。详见[复核过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-external-recheck-cand2328-princeton-20261027)。
+
 **本批完成：第2章 p.49 Giovanni da San Giovanni 人物、书信及三幅场景跨章身份组（2026-10-27）。** 将索引候选 cand-2350 从错误的 work 类型/undecided 定点改为 person same，复用既有人物 KU；cand-4664 按原文单数来信对象判为来源局部 archive new。沿用三个独立 work new 组，四项 S4 映射完成。S2新增1条书信 authored_by statement，不计入统一独立复核；S5新增13条 source_backed 字段；六项S6逐条裁为4 formal（rel-2412–rel-2415）和2 pending。五张受影响卡定向渲染并复预览无差异，严格表审计与关系一致性阻断均为0。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-p49-borghese-scenes-20261027)。
 
 **本批完成：第2章p.42注1／第21章p.426《Il convento della Santissima Concezione》作者端点（2026-10-27）。** `cand-4581`沿用既有archive `new`组完成S4；关联作者`cand-4536`由`undecided`在登记触发下重开为来源限定person `new`组并登记KU。新增5条Haskell书目支持的S5字段；1项S6候选formal为`rel-2411 authored_by`，范围仅限Haskell书目归属。ICCU作者目录只核对名称词头，详情记录未打开；不补作者生平或稳定authority ID。两张关系端点卡定向渲染并复预览无差异；S2内容和统一复核分子未变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-p426-domenico-isnello-study-20261027)。
@@ -3664,7 +3666,7 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
 | S2 | 15,449 statements、26,870 mentions；统一独立复核9,617/15,449（62.25%） | 尚未独立接收；5,832条未进入当前统一复核分子，不等同连续待审游标。S. Stefano批次及本批新增statement均未计入统一复核分子。 |
-| S3 | 主决定12,432/12,432（100%）：same 2,105、new 5,090、conflict 9、excluded 106、undecided 5,122 | 100%仅指每个候选都有主决定行，不等于语义收口；5,122项仍undecided。另有28个候选的35条来源限定记录与主行决定不同；cand-2328的Princeton来源记录aln-12663仍未决。按既有身份组扫描口径，new组当前5,011条可解析、79条缺组（person 31、archive 41、work 4、place 3），14条注记含多个组字符串；按首个显式group计4,777个标签。
+| S3 | 主决定12,432/12,432（100%）：same 2,105、new 5,090、conflict 9、excluded 106、undecided 5,122 | 100%仅指每个候选都有主决定行，不等于语义收口；5,122项仍undecided。另有28个候选的35条来源限定记录与主行决定不同；cand-2328/aln-12663 已于2026-10-27复核，外部比对保持undecided，理由及重开条件已记录。按既有身份组扫描口径，new组当前5,011条可解析、79条缺组（person 31、archive 41、work 4、place 3），14条注记含多个组字符串；按首个显式group计4,777个标签。
 | S4 | new候选已映射2,444/5,090（48.02%）；待映射2,646，其中直接关系端点974、其他1,672；KU共3,225 | 本批映射3个work与1个archive；其余按跨章身份风险、来源锚点、S6解锁量及关系类型域／值域兼容性排序。
 | S5 | 14,481条字段，1,627条unverified | 本批新增13条Haskell正文支持字段；继续优先处理身份区分、关系端点解释或作品版本判断所需字段。
 | S6 | 已裁决1,881/10,660（17.65%）：formal 1,117、pending 636、rejected 128；尚余8,779 | 本批新增4项formal，另2项保留pending；待证项继续保留证据缺口与重开条件，不以建立关系边为目标。
@@ -3693,7 +3695,7 @@ S3 undecided候选与S4未映射直接关系端点的类型分布：
 
 S3逐类型收口的判定口径是：`same`须指向已识别身份组及可复用KU；`new`须有稳定跨章组和S4登记去向，或写明对象阻断；`conflict`须保留双方证据及差异；`excluded`须给出排除依据；`undecided`须列明证据缺口、当前不裁决原因和重开条件。主行均有决定值不等于语义收口；当前5,122项`undecided`要逐项核对其待证理由和去向，不为降低数字而强行改判。
 
-1. **先核平S3跨来源台账，再逐类型收束身份裁决。** 当前`undecided`为person 1,048、archive 668、work 1,568、place 302、term 660、institution 117、event 113、family 18、procedure 2及类型未定626。先处理79条`new`缺身份组标签、14条多组注记、28个候选35条来源限定记录与主行的决定差异，以及`cand-2328`／`aln-12663`未决状态；差异不可自动当作冲突。随后先为类型未定的626项建立有据类型或保留类型缺口，再按person、archive、work、term、place、institution、event、family、procedure分类型核对跨章身份组。每个候选须有复用、新增、冲突、排除或待证去向；`undecided`需写明缺证与重开条件，不为压低未决数强制合并。
+1. **先核平S3跨来源台账，再逐类型收束身份裁决。** 当前`undecided`为person 1,048、archive 668、work 1,568、place 302、term 660、institution 117、event 113、family 18、procedure 2及类型未定626。先处理79条`new`缺身份组标签、14条多组注记及其余来源差异候选；28个候选共35条来源限定记录与主行的决定差异不可自动当作冲突。cand-2328/aln-12663已复核，仍保留外部比对undecided，只有出现直接人物规范记录或原始家族证据再重开。随后先为类型未定的626项建立有据类型或保留类型缺口，再按person、archive、work、term、place、institution、event、family、procedure分类型核对跨章身份组。每个候选须有复用、新增、冲突、排除或待证去向；`undecided`需写明缺证与重开条件，不为压低未决数强制合并。
 2. **S4与S6按同一对象批次推进，并明确保持与S3总收口的关系。** 当前2,646条`new`候选待映射，其中974条触及直接关系（work 154、archive 128、place 146、term 416、institution 53、event 76、person 1）。本批完成3个work与1个archive映射，六项S6候选为4 formal、2 pending。后续每批按跨章身份风险、来源锚点、可解锁S6数量和关系类型域／值域兼容性选择对象；完成S3身份判定后再复用／登记KU，并把每项关系裁为`formal`、`pending`或`rejected`。这类端点批次只处理被证据触发的S3个案，不代替逐类型审查全部未决候选。
 3. **对直接端点补S5关键字段。** 当前14,481条字段中有1,627条`unverified`。先处理会改变身份区分、作品版本、关系端点解释或时间／地点语境的字段；字段级保留来源及验证状态。最新批次新增13条来源字段；找到可靠证据再更新，证据不足就写清缺口，不以字段填满为目标。
 4. **继续S2逐章语义复核，并先核清覆盖台账。** 当前15,449条statement中，统一独立复核9,617条（62.25%）；5,832条未进入该分子，但这不等于连续待审游标。先用章节过程记录核对statement ID、来源版本、已经逐条读过的范围与统一计数口径，再选下一段确实未审的原书连续范围。第5章p.125已有75条逐条复核记录，不重复阅读或重复计数；局部定点审查及本批新增／修订statement也不自动增加统一复核分子。S2仍未独立接收。

@@ -16702,3 +16702,10 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 **写后核验与状态。** 四张新卡及 Giovanni 人物卡共五卡定向渲染；renderer预检5卡、4个表、13行字段和8条关系投影，写后字节校验通过。字段复预览 record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0、warnings=0；五卡复预览均无差异。严格表审计：errors=[]、s2_missing=[]、alignments_unlinked=0、backlog pending=0。关系一致性：broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic evidence-backed=0。
 
 批后状态：S2为15,449 statements／26,870 mentions，统一独立复核仍9,617条（62.25%，未接收）；S3主决定12,432/12,432（same 2,105、new 5,090、conflict 9、excluded 106、undecided 5,122）；S4已映射2,444/5,090，待映射2,646，其中直接关系端点974、其他1,672，KU共3,225；S5字段14,481（1,627 unverified）；S6裁决1,881/10,660（formal 1,117、pending 636、rejected 128），尚余8,779；relations.csv共2,415行（2,378 formal、37 pending）；candidate-backlog.csv为54条（14 completed、40 undecided，严格审计pending=0）。S7未启动。
+### S3-external-recheck-cand2328-princeton-20261027
+
+**复核范围。** 重新打开 alignment 的来源限定行 aln-12663，并对照主行 aln-2663、候选 cand-2328、第9章p.263注1及官方 [Princeton University Art Museum object 8051](https://artmuseum.princeton.edu/art/collections/objects/8051)，访问日期2026-10-27。
+
+**当前外部记录。** Princeton 将x1948-601著录为1594年、归于Girolamo Bassano的双面素描；provenance写明一条带有possible限定的沿革，列Nicolò Sagredo、其弟Stefano Sagredo（1626–1685）、Stefano之子Zaccaria（1633–1729）及后续Gherardo。馆方为该沿革列引Rearick 1995，本次未读取该论文。Haskell p.263 n.1转引Barbaro称Zaccaria为Stessano Sagredo之子并生于1653；candidate页图校读为Steffano。姓名和父子关系与馆藏记录相合，但对方记录以possible限定物件传承，且Zaccaria生年1633与1653不一；本次没有独立人物规范记录或原始家族文书消除差异。
+
+**决定。** 主行aln-2663继续保持new → units/persons/stefano-sagredo，代表书内身份组；来源行aln-12663继续保持undecided且不映射KU。这表示外部对象沿革不足以确认同一人，不否定书内索引、注释和页图支持的source-local人物身份。已将来源行accessed_date更新为2026-10-27并将本复核设为process_ref。仅在出现直接人物authority记录或原始家族证据能解决身份/年代问题时重开；本轮不改S2、主行身份组或S4人物卡。
