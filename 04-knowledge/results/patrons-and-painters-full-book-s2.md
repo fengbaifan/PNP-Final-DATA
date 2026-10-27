@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-28）
 
+**本批完成：第7章 p.196 图版29 Verrio 壁画跨章身份复用与 S6 裁决。** `cand-2763`、`cand-7213`经正文“(Plate 29)”与图版目录标题交叉核对，触发S3定点复核并改为`same`，均映射至既有Verrio楼梯壁画KU；未新建对象。S5新增1条来源字段`enr-18529`。两条关系候选均有去向：William III题材关系`rel-2480 has_subject` formal；Shaftesbury参与多幅壁画方案的推测`rel-2481 designed_by` pending。卡片字段与关系投影定向渲染并复预览无差异；严格表审计与关系一致性阻断均为0。批后全库仍有25个候选缺S3主决定行，其中21个是关系端点；因此不据局部批次宣称S3收口。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp7-plate29-verrio-reconciliation-20261028)。
+
 **本批完成：第3章 p.72 Domenichino 穹隅四福音书作者像及 S3 索引候选归组。** `cand-5066`沿用`workgrp-7a7cc80a0bb94c`并登记作品KU；索引作品候选`cand-1661`依据第15章p.362正文题名与地点匹配`cand-10437`，并入其同一来源限定`new`组`workgrp-115824c7c6bcea`，待S4登记。第3章Michelangelo artist mention及关系statement端点从误挂的work候选`cand-1661`改指已复用人物KU的`cand-1660`；当前statement版本待独立差异复核，不计入S2台账。新增4条Haskell书内S5字段；两条S6分别formal为`rel-2468 created_by`与`rel-2469 influenced_by`，明确仅记录Haskell的创作者归属与艺术史解释，未作外部事实核验。新卡定向渲染、写后字节核验通过，复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断为0。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp3-p72-domenichino-evangelist-figures-20261028)。
 
 **本批完成：第4章 p.97 Paolo Giordano II 与妻子 Isabella 大理石胸像组。** 为登记直接关系端点，触发 `cand-5550` 的S3复核并作来源限定 `new`，与 Paolo Giordano I 之妻 Isabella de’ Medici 区分，未补全名；沿用 `cand-5551` 的既有 `new` 作品组登记两张KU。新增8条Haskell书内S5字段；正文相对年代与注3转引Faldi的约1630年说法并列保留。两项关系均formal为 `has_subject`（`rel-2466`–`rel-2467`）；Simon Vouet portrait候选 `cand-5552` 仍未决且不并入胸像组。两张卡定向渲染、复预览无差异；严格表审计与关系一致性阻断均为0；S2未变。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp4-p97-paolo-isabella-busts-20261028)。
@@ -3728,11 +3730,11 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
 | S2 | 15,469 statements、26,872 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。p.57注3批次修订一条当前statement版本并新增原子创作者statement；p.326批次新增6条、修订现有statement；p.72批次修订Michelangelo艺术家端点；p.39批次修订雇用、设计statement并新增地点和生涯评价statement；以上当前版本均未计入台账。p.189五条已复核；p.162两条已差异复核但未并入台账；第7章p.192 i01、i27待独立差异复核；第13章收据—卷册、拱顶—祭坛席statement仍待复核；第10章p.281七条、p.384五条及p.286一条当前版本仍待差异复核。 |
-| S3 | 主决定12,432/12,432（100%）：same 2,110、new 5,089、conflict 9、excluded 106、undecided 5,118 | 100%仅指每个候选都有主决定行，不等于语义收口；5,118项仍undecided。另有28个候选的35条来源限定记录与主行决定不同；cand-2328/aln-12663保持undecided并有重开条件。身份组覆盖仍需按有效决定核对：当前77条new主行缺可解析组、14条注记含多个组字符串；不能仅凭历史注记自动归组。 |
-| S4 | new候选已映射2,483/5,089；待映射2,606，其中直接关系端点940、其他1,666；KU共3,263 | p.39地点与工程、p.83穹隅人物组、p.42青铜像、p.97奖章及p.91册封礼图像已登记；直接端点队列按主决定行重新计算。 |
-| S5 | 14,614条字段，1,627条unverified | p.91批次新增3条Haskell来源字段；全书尚有字段待证。 |
-| S6 | 裁决记录1,989项：formal 1,177、pending 680、rejected 132；当前relation_candidate=true为10,672条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | p.91批次新增2项formal；历史裁决台账和statement版本差异仍待核平。 |
-| 正式关系表 | 2,478行：2,439 formal、39 pending | p.91批次新增`rel-2478`–`rel-2479`。 |
+| S3 | 12,432个候选中有12,407条主决定行：same 2,109、new 5,065、conflict 9、excluded 106、undecided 5,118；另25个候选缺主决定行 | 25项缺行按类型为person 10、archive 5、place 4、work 3、institution 3；其中21项触及当前关系statement端点。另有28个候选的35条来源限定决定与主行不同。每行覆盖和语义去向须分别核实；S3未收口。 |
+| S4 | new候选已映射2,461/5,065；待映射2,604，其中直接关系端点939、其他1,665；KU共3,263 | 直接端点队列按主决定行重算：term 404、place 143、archive 125、work 142、event 74、institution 50、person 1。 |
+| S5 | 14,615条字段，1,627条unverified | p.91批次新增3条、图版29批次新增1条Haskell来源字段；全书尚有字段待证。 |
+| S6 | 裁决记录1,991项：formal 1,178、pending 681、rejected 132；当前relation_candidate=true为10,672条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | 图版29批次新增1项formal、1项pending；历史裁决台账和statement版本差异仍待核平。 |
+| 正式关系表 | 2,480行：2,440 formal、40 pending | 图版29批次新增`rel-2480`–`rel-2481`。 |
 | 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 58条（14 completed、44 undecided） | 严格审计backlog pending=0；`bl-0058`记录未识别Montesquieu作品的待证条件。 |
 
 S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按类型分布。直接端点按当前`relation_candidate=true`语句的 subject/object candidate ID 去重；S4列仅计`new`且尚未映射 KU 的候选。
@@ -3749,15 +3751,15 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 | family | 18 | 13 | 0 |
 | procedure | 2 | 2 | 0 |
 | 类型尚未确定 | 626 | 471 | 0 |
-| **合计** | **5,118** | **2,994** | **940** |
+| **合计** | **5,118** | **2,994** | **939** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。另有零关系KU及超50连接对象属于非阻断诊断。结构通过不等于S2独立语义接收。当前S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面仍等待用户明确启动。
 
 #### 后续工作顺序
 
-1. **按关系解锁价值和证据成熟度推进 S4 直接端点。** 当前待映射new候选2,606项，其中直接关系端点940项；先选另一端已映射、来源角色明确且可一次解除多条关系阻断的对象组。按类型滚动重算队列：work 143、term 404、place 143、archive 125、event 74、institution 50、person 1。数量用于排队，不替代逐对象的证据判断。
-2. **在当前端点触发范围内复核 S3 身份组。** `same`须唯一映射既有KU；`new`须有稳定组并登记或写清阻断；`conflict`保留两侧证据；`excluded`记录理由；`undecided`列出待证对象、缺证点和重开条件。遇到类型未定的关系端点时，按证据定类或保留未定。全书另有9项conflict（6项直接端点）、28个候选的35条来源限定决定与主行不同、77条new主行缺可解析组、14条注记含多个组字符串；逐批触及时定点核平，后续用受控全量扫描检查残留，不据名称相似度自动归组。`cand-2328`无新证据时继续保持`undecided`。
-3. **每批联动S5、S6并记录关系缺口。** 只补影响身份、版本、角色、时间、地点判断的关键字段；对应每条关系候选明确formal、pending或rejected。当前337条关系statement至少缺一个S2端点候选ID，backlog 58条（44条undecided）；按已采纳内容和关系所需定向补端点，不用不支持的谓词或未分类对象强行闭合。
+1. **补齐S3主决定行。** 逐项核查缺行的25个候选（person 10、archive 5、place 4、work 3、institution 3），其中21个触及关系statement端点。依据现有来源与上下文给出`same`、`new`、`conflict`、`excluded`或有明确缺证与重开条件的`undecided`；不得仅为填满表格而推断身份。
+2. **按类型核平S3决定与跨章身份组。** 对5,118条`undecided`检查待证对象、缺证点和重开条件；优先处理其中2,994个关系直接端点。`same`须唯一映射既有KU，`new`须有稳定身份组，`conflict`保留双方证据，`excluded`写明依据。另核对28个候选的35条来源限定决定与主行分歧，并检查new组成员、缺失组与冲突组；不按名称相似度自动归组。`cand-2328`无新证据时继续保持`undecided`。
+3. **对有可追溯S3决定的new组推进S4，并联动S5/S6。** 先处理939个未映射直接关系端点，再处理其他1,665个new候选；按跨章身份组审查，不把候选数当KU数。仅补影响身份、版本、角色、时间、地点判断的来源字段；每条关系候选明确formal、pending或rejected。337条关系statement至少缺一个S2端点候选ID，backlog 58条（44条undecided）；保持缺口可追溯，不用不支持的谓词或未分类对象强行闭合。
 4. **核平S2独立复核台账并继续章次审读。** 15,469条statement对应的统一台账记录9,622条，但ID与版本尚未核平，不能把差额当作待审游标或精确覆盖率。先绑定既有逐条意见与当前statement版本，再处理p.192、第13章收据—卷册及拱顶—祭坛席statement，并复核p.281七条、p.384五条、p.286一条及p.72、p.39等批次中修订或新增的当前版本。S2未独立接收前不增加复核分子。
 5. **满足阶段前置条件后再准备S7。** S4新候选须已登记或有明确阻断，关键S5字段已核实或注明具体缺口，S6每项关系有去向，缺端点与backlog可追溯，S2独立审读完成并接收。届时再做全库卡片预检；旧有531张派生差异不能替代当前检查。知识发现和页面仍等待用户明确启动。
 

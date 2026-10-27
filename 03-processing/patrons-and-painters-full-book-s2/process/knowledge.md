@@ -1,5 +1,25 @@
 # 全书 S3 身份对齐过程
 
+<a id="s3-s4-s5-s6-chp7-plate29-verrio-reconciliation-20261028"></a>
+### S3/S4/S5/S6：第7章 p.196 图版29 Verrio 壁画身份复用与端点裁决（2026-10-28）
+
+**触发与身份判断。** 第7章 p.196 L59 的正文称 Verrio 在汉普顿宫绘制一幅取材于 Julian the Apostate 著作的复杂寓意壁画，并以“(Plate 29)”收尾；同章前图版目录 Plate 29 的标题为“Antonio Verrio: Fresco on staircase of Hampton Court Palace”。索引主候选`cand-2763`／`aln-3098`与正文候选`cand-7213`／`aln-7389`已在S3组`workgrp-f05ecf107cead1`交叉指向同一作品。与已接收图版目录作品卡及`ku-manifest.csv`逐项核对后，二者是既有[图版29作品KU](../../../04-knowledge/units/works/antonio-verrio-fresco-on-staircase-of-hampton-court-palace.md)的书内同一对象；两条主决定由`new`定点改为`same`并指向该KU。组名及原决定理由保留在裁决行作历史溯源。此决定只连结Haskell书内正文与图版目录，不声称外部实物、所在楼梯的具体壁画或现存对象已独立核实；未新建KU。William III端点复用`units/persons/william-iii-of-england`，Shaftesbury复用`units/persons/anthony-ashley-cooper-3rd-earl`。
+
+**S5来源字段。** 新增`enr-18529`，在作品既有“内容 / 来源所载信息”表补入`主题／题材`：Haskell称该复杂寓意壁画表现William III战胜以法国为首的天主教势力，题材取自Julian the Apostate著作。字段严格限于第7章印刷页196 L59（PDF物理页34），不作外部题材核验。
+
+**S6逐项裁决。** 两条直接候选均有明确去向：
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp7-p196-hampton_fresco_subject` | formal | 新增`rel-2480 has_subject`：图版29壁画 → William III。范围仅为Haskell所述表现对象，不改写成独立历史事件或外部核实事实。 |
+| `st-chp7-p198-shaftesbury-verrio-programme` | pending | 新增`rel-2481 designed_by`待证记录。Haskell使用“in all probability”，并谈Verrio在汉普顿宫的多幅壁画方案；Shaftesbury贡献程度及图版29作品是否属于该方案均未确定，故不作确定设计归属。 |
+
+作品既有`rel-0413`–`rel-0415`供片者、创作者、地点关系保持不变。未修订S2 statement／mention或独立复核台账。
+
+**卡片投影与机械核对。** 定向表写回脚本[reconcile_s3_s5_s6_chp7_plate29_verrio_20261028.py](reconcile_s3_s5_s6_chp7_plate29_verrio_20261028.py)先以`--dry-run`核对候选、端点、字段和关系ID，再以`--apply`写回。首次渲染预检因enrichment已增一行而来源字段表尚未同步，按接口保护停止；将同一来源字段行同步至卡片后，`build_cards.py --render --ku ...`通过：1卡、3个表、8行、5条投影关系，写后字节核验通过、恢复快照已清理。复预览无差异。严格表审计：KU=3,263、候选=12,432、`alignment_new_pending_registration`=2,604、S5=14,615（1,627条`unverified`）、relations=2,480、formal relations=2,440、`s2_missing=[]`、`errors=[]`；关系一致性五类阻断均为0。未映射的直接关系端点为939：term 404、place 143、archive 125、work 142、event 74、institution 50、person 1；另1,665条new待登记候选不触及当前直接关系端点。
+
+**当前全书快照与未决覆盖。** S2为15,469 statements／26,872 mentions；独立复核台账9,622条，ID与来源版本仍未核平，S2未接收。S3候选12,432条，但当前主alignment仅有12,407条，决定分布为same 2,109、new 5,065、conflict 9、excluded 106、undecided 5,118；25个候选尚无主决定行（person 10、archive 5、place 4、work 3、institution 3），其中21个还是当前关系statement端点。故本批虽完成两项复用裁决，S3并未收口。S6裁决记录1,991项（1,178 formal、681 pending、132 rejected）；当前`relation_candidate=true`为10,672条，历史台账仍与当前statement版本差1项，不报告完成率。关系statement中337条至少缺一个S2端点候选ID；backlog为58条（14 completed、44 undecided，严格审计pending=0）。
+
 <a id="s3-s4-s5-s6-chp8-p231-venetian-florentine-terms-20261027"></a>
 ### S3/S4/S5/S6：第8章 p.231 威尼斯绘画传统与佛罗伦萨文艺复兴端点（2026-10-27）
 
