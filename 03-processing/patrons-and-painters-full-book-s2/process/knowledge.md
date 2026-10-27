@@ -16675,3 +16675,30 @@ S4 本批复用1个既有 place KU，不新增 KU。S5 `no_delta`：既有地点
 **S6裁决。** `st-chp2-secii-l147-193-domenico-study-cross-segment`逐项formal为`rel-2411 authored_by`（ archive→person ）。关系范围限于Haskell的脚注及书目责任归属，不表示本项目读过该1923年出版物，也不补写作者生平。
 
 **复核。** S2 statements、mentions及统一独立复核覆盖不变。严格表审计：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；backlog pending=0。关系一致性：broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic evidence-backed=0。两张卡定向渲染写入并通过写后字节核验，随后分别预览均无差异。
+### S3-S4-S5-S6-chp2-p49-borghese-scenes-20261027
+
+
+**触发与跨章身份裁决。** 本批从未映射直接端点扫描中发现第2章印刷页49的三个宫殿场景及相关人物/书信候选。cand-2350 原由索引 S.csv#38 引入，规范名为“San Giovanni, Giovanni da”，但 suggested_type 错标为 work；旧决定因缺少可核正文提及而为 undecided。当前第2章 L72 正文明称“Florentine painter Giovanni da San Giovanni”，且该名与既有 Giovanni da San Giovanni 人物 KU 完全相同；第4章 p.95亦以同名列举该人。故将候选类型改为 person，aln-2685 定点改判 same → units/persons/giovanni-da-san-giovanni。保留旧待决理由及本次关系端点触发；不写外部标识。
+
+三个作品候选 cand-4661、cand-4662、cand-4663 分别对应原文列出的普洛塞庇娜被劫、安菲特里忒和欧罗巴场景，沿用各自的 S3 new 组，不合并成一件作品或艺术家组。当前 work manifest 无精确同一对象；已知 Sebastiano Ricci 的《Rape of Europa》位于不同艺术家及地点，排除为同物。作品名称采用描述性题名，原书未载正式题名；不把索引子目推成具体 frescos 技法，不主张存世或现今位置。
+
+cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录Cardinal Guido的宫殿巡视及未完工拱顶装饰要求。旧理由指出缺少日期、收信人、手稿及正式题名；经 archive 类型边界复核，单数信件及内容可从原书段落区分，故定为来源局部 archive new 组 archive-group-chp2-p49-giovanni-letter，aln-4847 映射至新 KU。该决定仅识别 Haskell 所描述的文献对象，不主张原件、版本、现藏或外部身份。
+
+既有候选 cand-0291 Cardinal Guido、cand-0398 Borghese Palace 均复用已登记的同类型 KU。没有由“request”反推三件完成作品各自的 commissioned_by，也没有从段落地点描述新增作品到宫殿的 located_at 边；相关S2注记明确要求不要把装饰要求直接映射到后一句列出的三件作品。
+
+**S4与S5。** 三件 work KU 映射到 units/works/borghese-palace-proserpina-scene、units/works/borghese-palace-amphitrite-scene、units/works/borghese-palace-europa-scene；archive KU 为 units/archives/giovanni-da-san-giovanni-letter-guido-tour。四卡加入 accepted.yml 与 ku-manifest.csv。字段接口预览后写入 13 条 source_backed 字段：每件作品各有描述性题名、作品类型、主题/题材；书信有描述性题名、文献类型、责任者及所载内容摘要。所有字段回指 Haskell 第2章 p.49 L72；对书信内容的说明仍标作 Haskell 报告，未称本项目查阅了信件。
+
+**S2补录与S6逐项去向。** 为原文明确的书信作者归属新增原子 statement st-chp2-seciv-l65-77-giovanni-letter-authored-by，复用现有 mention，不增加 mention；新增 statement 不计入统一独立 S2 复核。五条既有关联候选与新增 authored_by 候选共六项均有明确决定：
+
+| S2 relation candidate | 决定 | 去向 |
+|---|---|---|
+| st-chp2-seciv-l65-77-giovanni-paints-proserpina-scene | formal | rel-2412 creator_of，Haskell书内归属范围。 |
+| st-chp2-seciv-l65-77-giovanni-paints-amphitrite-scene | formal | rel-2413 creator_of，Haskell书内归属范围。 |
+| st-chp2-seciv-l65-77-giovanni-paints-europa-scene | formal | rel-2414 creator_of，Haskell书内归属范围。 |
+| st-chp2-seciv-l65-77-giovanni-letter-authored-by | formal | rel-2415 authored_by，仅记录Haskell称书信来自Giovanni。 |
+| st-chp2-seciv-l65-77-enzo-sends-giovanni-to-decorate-palace | pending | 仅有“送画家协助装饰宫殿”的人物对人物语义，当前受控关系类型不能忠实表达；不强套 employed_by 等谓词。待有兼容谓词或更细原子声明及直接证据后重开。 |
+| st-chp2-seciv-l65-77-giovanni-letter-describes-guido-tour | pending | 该statement合并巡视与装饰要求，并以书信作报告来源；现有受控类型不能表达“来源转述此请求”而不升级为人物或作品事实。保留letter候选和已拆分的正式书信责任者边，不把请求投射到三件完成作品。待predicate适配或可验证原件后重开。 |
+
+**写后核验与状态。** 四张新卡及 Giovanni 人物卡共五卡定向渲染；renderer预检5卡、4个表、13行字段和8条关系投影，写后字节校验通过。字段复预览 record_changes=0、new_ids=0、removed_ids=0、source_registry_changes=0、warnings=0；五卡复预览均无差异。严格表审计：errors=[]、s2_missing=[]、alignments_unlinked=0、backlog pending=0。关系一致性：broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic evidence-backed=0。
+
+批后状态：S2为15,449 statements／26,870 mentions，统一独立复核仍9,617条（62.25%，未接收）；S3主决定12,432/12,432（same 2,105、new 5,090、conflict 9、excluded 106、undecided 5,122）；S4已映射2,444/5,090，待映射2,646，其中直接关系端点974、其他1,672，KU共3,225；S5字段14,481（1,627 unverified）；S6裁决1,881/10,660（formal 1,117、pending 636、rejected 128），尚余8,779；relations.csv共2,415行（2,378 formal、37 pending）；candidate-backlog.csv为54条（14 completed、40 undecided，严格审计pending=0）。S7未启动。
