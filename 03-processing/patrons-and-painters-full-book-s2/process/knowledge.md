@@ -17511,3 +17511,23 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 **S3决定与待证条件。** 保持 `cand-1513` 的 `undecided`，不建KU。证据明确支持“Manfrin的画作收藏／gallery”作为不同于人物的对象，但同段在藏品集合、展示用途与实体gallery空间之间交替用语；当前taxonomy无独立的私人艺术收藏类型，也没有足够证据将全部指称定为组织型institution或单一physical place。若仅按当前候选标题强制归类，会把收藏对象和空间边界混为一体。重开条件为：项目类型规则明确增加适用的collection类型，或逐条来源核查足以将画作集合与物理gallery拆分为不同候选。待定期间，14条相关关系保持端点未决，不由人物KU代替。
 
 本批仅完善既有S3裁决理由；未更改 `cand-1512` 或 `cand-1513` 的决定值、S2 mentions／statements、S4映射及S6关系表。当前类型未定数及S4直接端点数不变。
+
+
+<a id="s4-s5-s6-chp4-p112-tiber-direct-endpoint-20261028"></a>
+### S4–S6 第2、4、5章台伯河跨章身份与关系端点（2026-10-28）
+
+**S3身份与S4登记。** `cand-4453`沿用S3 `new`决定和身份组`sg3-place-cand-4453`，映射至新地点KU [台伯河](../../../04-knowledge/units/places/tiber-river.md)。对照第2章p.38 L75、第4章p.112 L154及第5章p.133 L15，三处均指同一台伯河；现有地点KU没有同一对象，故登记新对象，不补外部标识。第2章“宫殿位于河流附近”用于跨章身份核对，不近似增加建筑位置关系。
+
+**S5字段。** 新增`enr-18559`–`enr-18561`三条Haskell来源支持字段：来源名称、河流类型及第5章反复决堤／罗马低地受洪水影响的书内记载。未推定具体河段或单次洪水年份。字段复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。
+
+**S6逐项裁决。** 第4章自尽断言中日期与参与者statement共同支持一条边；地点statement独立支持事件地点边。第5章水患断言因受控词表没有准确的河流洪水影响谓词而保留process-only pending，不近似编码为`located_at`。
+
+| S2关系候选 | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp4-sec-ii-p112-suicide-date`、`st-chp4-sec-ii-p112-testa-suicide` | formal | `rel-2493 has_participant`：Testa自尽事件 → Pietro Testa。两项候选共享同一自然关系边；1650年作为Haskell所报时间限定，不拆成另一条关系。 |
+| `st-chp4-sec-ii-p112-tiber-suicide-location` | formal | `rel-2494 occurred_at`：Testa自尽事件 → 台伯河。仅记Haskell报告地点，具体河段未载。 |
+| `st-chp5-p133-tiber-floods` | process-only pending | 原文称河水屡次决堤并影响罗马低地；无忠实受控谓词，不建立近似关系行。原断言及水患字段继续保留。谓词或事件化结构能准确表达该影响时重审。 |
+
+**投影与审计。** 三张目标卡定向渲染，预检`cards=3`、`tables=8`、`rows=27`、`projected_relation_rows=13`；渲染器写后字节核验通过。三卡复预览无差异。字段复预览无新增变更；严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。未修改S2 statements、mentions或独立复核台账。
+
+**批后状态。** S2仍为15,470 statements／26,872 mentions，统一独立复核台账9,622条且statement ID／来源版本未核平。S3决定值无变化：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4新增1条new候选映射：2,495/5,088已登记，待映射2,593；直接关系端点930、其他1,663；KU共3,275。S5共14,647条字段（1,627条`unverified`）。S6历史裁决累计2,015项（formal 1,189、pending 692、rejected 134），当前`relation_candidate=true`仍为10,673项，历史台账与当前statement版本差1，不据此报告完成率。`relations.csv`共2,493行（2,452 formal、41 pending）。337条关系statement仍缺至少一个S2端点候选ID；backlog 58条（15 completed、43 undecided）。

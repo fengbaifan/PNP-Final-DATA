@@ -37,4 +37,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-直接 S2 关系候选 st-chp4-sec-ii-p112-suicide-date、st-chp4-sec-ii-p112-testa-suicide 与 st-chp4-sec-ii-p112-tiber-suicide-location 留待 S6 逐项裁决；本卡未新增正式关系。
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 参与者（`has_participant`） | [皮埃特罗·泰斯塔（Pietro Testa）](../persons/pietro-testa.md) | 哈斯克尔先叙Testa投身台伯河，再称自尽发生于1650年。两条S2候选共同支持同一event→person参与边；日期作为时间限定，不另建关系；时间：1650年（哈斯克尔记载）；角色：自尽者；范围：仅记录Haskell关于Testa自尽与年份的叙述；未作独立事实核实。；证据：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；Chapter 4, printed p.112, lines 154–155; statements=st-chp4-sec-ii-p112-suicide-date; st-chp4-sec-ii-p112-testa-suicide |
+| → 发生于（`occurred_at`） | [台伯河（Tiber River）](../places/tiber-river.md) | Haskell locates Testa’s reported suicide in the Tiber; this records the book’s account, not independent verification of the event.；时间：1650年（哈斯克尔记载）；角色：哈斯克尔所述地点；范围：具体河段未载；只表示原书所报事件地点。；证据：[来源](../../../02-sources/02-Markdown/04_CHP-4_sec_ii.md)；haskell-1980-rev-ed；Chapter 4, printed p.112, lines 154–155; statement=st-chp4-sec-ii-p112-tiber-suicide-location |
