@@ -1,5 +1,38 @@
 # 全书 S3 身份对齐过程
 
+<a id="s4-s5-s6-chp18-p384-social-conformity-20261027"></a>
+### S3定点复核／S4／S5／S6：第18章 p.384 哈斯克尔所述社会趋同议题（2026-10-27）
+
+#### 来源、身份组与登记
+
+核对第18章印刷页384及 `CHP-18Conclusion.pdf` PDF物理页1。扫描页确认S0转录L11的“Efe becomes buried”应为“life becomes buried”。在四条含该行引文的既有 statement qualifier 中增加 `ocr_corrections`（`Efe`→`life`）；不改来源Markdown、S0转录或 `original_quote`，不改 claim，也不新增statement／mention。该校正仅记录印本读法，不把未校的OCR冒称原书原文。
+
+直接端点 `cand-10735`／`aln-10903` 保留S3 `new` 身份组 `sg3-term-cand-10735`。对照现有同类型的 artistic independence、artistic temperament 与 mid-eighteenth-century painting social significance 术语，其定义边界分别是个人不受预先承诺约束、历史性的灵感艺术家观念及绘画社会价值论述；均不等同于Haskell在此处解释“社会要求压过新鲜原创表达”的问题。故不并入既有KU，登记为来源限定术语 `units/terms/social-conformity-in-italian-art-haskell-account`。卡片以中英文说明这是本书论题的描述性名称，不是Haskell设定的固定术语，也不概括所有意大利艺术／文学。S5两项source-backed字段为 `enr-18420`、`enr-18421`，分别记录论题及其延伸至当时意大利作家的语境；无unverified增量。
+
+#### S6逐项裁决
+
+| S2关系候选 | 决定 | 去向与理由 |
+|---|---|---|
+| `st-chp18-conclusion-p384-social-demands-and-originality` | formal | `rel-2432 site_of_manifestation`：意大利→术语。Haskell明确将相关现象置于意大利艺术语境；只记录作者所述地域范围，不表示单件作品的物理位置，也不概括整体发生率。 |
+| `st-chp18-conclusion-p384-bamboccianti` | pending | Haskell把Bamboccianti趋向感伤化作为该论题的例子。现有 `exemplified_by` 仅适用于procedure→event，没有忠实的term→term例证谓词；不改成影响关系。 |
+| `st-chp18-conclusion-p384-salvator-rosa` | pending | 保留Haskell对Rosa“以天赋气质服务艺术趋同”的评价；该句不证明Rosa受某术语影响或自述此意图，现有受控谓词不能忠实表达person→term评价命题。 |
+| `st-chp18-conclusion-p384-historians-and-writers` | pending | `cand-10737` 是未具名史家群体，S3仍undecided且未登记；来源说史家注意并不满于作家中的趋同，当前既缺稳定端点，也无忠实的报告／评价谓词。身份或词表解决前不建边。 |
+
+四项S6候选均有明确去向；仅正式关系写入 `relations.csv`，三项无忠实受控类型或有效端点的pending保留在本过程记录，不写成误导性边。本批未新增backlog，也未改变S2 statement／mention数或统一独立复核分子。
+
+#### 批后状态与核验
+
+| 阶段 | 批后状态 |
+|---|---|
+| S2 | 15,454 statements／26,870 mentions；统一独立复核9,622/15,454（62.26%，未接收）；四条引文增加印本校正元数据。 |
+| S3 | 主决定12,432/12,432：same 2,106、new 5,090、conflict 9、excluded 106、undecided 5,121；本批沿用既有new组。 |
+| S4 | 已映射2,453/5,090；待映射2,637，其中直接关系端点965、其他1,672；KU共3,234。 |
+| S5 | 14,507条字段，其中1,627条unverified；本批增加2条source-backed字段。 |
+| S6 | 1,912/10,663（formal 1,134、pending 649、rejected 129），尚余8,751；本批1 formal、3 pending。 |
+| 正式关系表 | 2,432行：2,395 formal、37 pending；新增 `rel-2432`。 |
+
+`build_field_facts.py`预览／应用均识别2条新字段、warnings=0；Italy与新术语两张卡定向渲染，预检2张卡、3张表、12行及2个关系投影，写入2张卡后复预览无差异。`audit_tables.py --strict-stage --summary`：errors=[]、s2_missing=[]、alignments_unlinked=0、alignment_new_pending_registration=2,637、backlog pending=0。`audit_relation_consistency.py`五类阻断均为0；`git diff --check`通过。backlog仍56条（14 completed、42 undecided）；至少缺一个S2端点候选ID的关系statement仍337条。结构与卡片检查不代表S2独立接收或S3–S6全书收口。
+
 <a id="s3-s4-s5-s6-chp2-p36-integrated-st-peters-programme-20261027"></a>
 ### S3触发复核／S4/S5/S6：第2章 p.36 圣彼得大殿整体装饰方案端点（2026-10-27）
 

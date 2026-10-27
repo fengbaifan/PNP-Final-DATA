@@ -137,4 +137,6 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ## 关系与证据
 
 ### 关系记录
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 表现地点（`site_of_manifestation`） | [哈斯克尔所述意大利艺术的社会趋同问题（Social conformity in Italian art as discussed by Haskell）](../terms/social-conformity-in-italian-art-haskell-account.md) | S6 formal as a source-local site of manifestation; retain Haskell’s interpretive scope.；角色：Italian art as the source-reported regional context of the phenomenon；范围：Records Haskell’s claim that social demands buried fresh and original approaches in Italian art; does not generalize to all Italian art or literature, identify a physical location for any work, or assert an independently measured frequency.；证据：[来源](../../../02-sources/02-Markdown/18_CHP-18Conclusion.md)；haskell-1980-rev-ed；Chapter 18, printed p.384 L10–11; PDF physical p.1; statement=st-chp18-conclusion-p384-social-demands-and-originality |
