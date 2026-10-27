@@ -13686,3 +13686,6 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 ### 2026-10-27：第7章 p.192 当前 statement 版本定向修订
 
 依据既有 p.192 逐条复核意见修订两条当前 statement：`st-chp7-p192-i01` 的 claim 补明“commissioned from local artists”及 Haskell 对“hideously corrupt administration”的具体表述，保留与 p.191 `st-chp7-p191-i32` 的跨页续接；`st-chp7-p192-i27` 的 OCR 校正定位从错误的 Markdown L291 改为 L290，与该 statement 当前来源跨度及原文所在行一致。S0 来源不改，statement ID、mention 和候选映射不变。两条当前版本发生变化，须经独立差异复核后才能计入统一复核台账；本次不增加独立复核分子，也不接收 p.192 或第七章。
+## 2026-10-28：第2章印刷页57注3的S2错位修订
+
+重读第2章来源段与PDF物理页46图像：印刷页57注3末尾确有“In the Nota dei Musei Bellori mentions that Rospigliosi also owned a Rest on the Flight into Egypt by Poussin”；第2章OCR段L179保存了该句。p.58注8（OCR段L242）实际谈《人间生命之舞》《阿卡迪亚牧人》与《真理与时间》，不支持《逃往埃及途中的休息》的所有权。本次保留有效所有权statement `st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned`，将其文本层改为注释、补注号3及精确提及端点；删除错挂到p.58注8的重复statement `st-chp2-seciv-l190-245-rest-flight-owned-by-rospigliosi`，并以同一p.57注3来源新增原子创作者表述statement `st-chp2-seciv-l171-179-rest-flight-attributed-to-poussin`。复用现有mention `m-chp2-seciv-l171-179-0057`、`-0058`、`-0059`，未新增mention。statement净数不变；新改版本尚待独立差异复核，不增加S2统一复核台账分子，也不宣称第2章或全书独立接收。

@@ -17197,3 +17197,19 @@ cand-4664 为一封正文称“来自 Giovanni da San Giovanni”的信，记录
 **S5与S2。** S5 `no_delta`：复用已有机构KU，本批没有新增字段事实。S2 statement、mention、来源版本与独立审读台账均未改变。
 
 **卡片投影与审计。** 对教会机构、Guido、Enzo、Sixtus V 四张卡逐卡预览；最终只有教会机构卡与Guido卡因 `member_of` 边出现投影差异。Enzo卡说明Church’s cause候选的pending理由；Sixtus V卡没有新增关系投影。定向渲染两张卡后，四张卡复预览均无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`alignment_new_pending_registration=2622`、`candidate_backlog_pending=0`；关系一致性`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`；`git diff --check`无空白错误。
+### S3-S4-S5-S6-chp2-p57-rest-flight-poussin-20261028
+
+**身份与S4登记。** 本批由直接关系端点队列触发，复用既有S3 `new`组`workgrp-a2a224329bda33`（`aln-4989`/`cand-4806`），不重开S3。既有同名《逃往埃及途中的休息》卡分别对应Caravaggio与Pietro Testa，不能与本条Haskell所报Poussin作品身份合并。登记一个来源限定work KU：`units/works/poussin-rest-flight-egypt-bellori-report`；卡片只表示Haskell所指的作品对象，不识别存世实物或具体版本，不独立核验Poussin归属。Haskell第2章印刷页57注3转述Bellori《Nota dei Musei》；Bellori原件及同注所引Richard卷VI pp.57–62未独立查阅。
+
+**S2修订与S5字段。** S2错位重复项及修订状态见[阶段记录](stages.md#2026-10-28-第2章印刷页57注3的s2错位修订)。卡内新增三条`origin=book`、`evidence_status=source_backed`字段（`enr-18476`–`enr-18478`）：描述性英文题名、Haskell来源所报Poussin创作者表述、Haskell转述Bellori所报Rospigliosi历史所有权。三项均限定为本书记录，不扩写为独立外部验证、现存实物身份、现时产权或现藏。
+
+**S6逐项裁决。** 两项候选均有可用端点，且受控谓词域值域匹配：
+
+| S2候选 | 去向 | 范围 |
+|---|---|---|
+| `st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned` | formal `rel-2460 owned_by`：作品→Giulio Rospigliosi | 仅记录Haskell转述Bellori的历史所有权，不表示现时产权或现藏。 |
+| `st-chp2-seciv-l171-179-rest-flight-attributed-to-poussin` | formal `rel-2461 created_by`：作品→Nicolas Poussin | 仅记录Haskell句中“by Poussin”的书内作者表述，不表示独立归属核验或实物识别。 |
+
+未建立commission、委托、存放或当前馆藏关系。三张受影响卡预览确认只新增对应关系投影，已定向渲染作品、Poussin与Rospigliosi三卡；写后字节核验通过，复预览无差异。S5字段复预览`rows=3`、`record_changes=0`、`warnings=0`。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断五项均为0。
+
+**批后状态。** S2为15,461 statements／26,872 mentions；统一独立复核台账仍为9,622条且ID／版本未核平，本批修订statement不计入。S3主决定12,432项（same 2,110、new 5,087、conflict 9、excluded 106、undecided 5,120），本批无S3决定变化。S4已映射2,470/5,087条new候选，待映射2,617；直接关系端点949（term 404、work 150、archive 127、place 143、event 74、institution 50、person 1）；KU=3,250。S5字段14,564（1,627 unverified）。S6裁决记录1,964项（formal 1,161、pending 674、rejected 129）；当前relation_candidate=true为10,666项，历史裁决台账与当前statement版本仍差1，不报告完成率。`relations.csv`共2,460行（2,423 formal、37 pending）；缺端点statement 337条；backlog 57条（14 completed、43 undecided，严格审计pending=0）。S2尚未独立接收，S3–S6未全书收口，S7未启动。
