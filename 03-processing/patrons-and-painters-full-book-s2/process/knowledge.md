@@ -17741,3 +17741,26 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 作品卡预览只显示一条新增的rel-2507关系行，定向渲染仅写入该作品卡；写后复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；仅保留2587条new候选待S4登记及S2语义质量需持续人工审读两项既有warning。关系一致性阻断均为0（broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed）。
 
 批后状态：S2仍为15,471 statements／26,872 mentions；两条当前statement版本待独立差异复核，统一台账仍9,622且statement ID／版本未核平。S3共12,433项：same 2,111、new 5,088、conflict 9、excluded 106、undecided 5,119；28个候选的35条来源决定差异仍待触发式核对。S4已映射2,501/5,088个new候选，待映射2,587，其中直接关系端点924、其他1,663；KU共3,281。S5仍为14,669字段、1,625条`unverified`。S6历史裁决2,037项（formal 1,204、pending 699、rejected 134），当前`relation_candidate=true`仍10,674，历史台账与当前statement版本分母差1，不据此报告完成率。`relations.csv`为2,506行（2,465 formal、41 pending）。缺少至少一个S2端点候选ID的关系statement仍337条；candidate-backlog仍58条（15 completed、43 undecided），严格审计pending=0。
+
+<a id="s4-s5-s6-ch2-p57-poussin-dance-wallace-20261028"></a>
+### S4–S6 第2章 p.57《The Dance of Human Life》与Wallace Collection端点（2026-10-28）
+
+#### S3身份复用与S4登记
+
+沿用`cand-4798`（workgrp-a5567f81356ec5）与`cand-4894`（sg3-institution-cand-4894）的既有S3 `new`决定，分别登记至[《The Dance of Human Life》KU](../../../04-knowledge/units/works/dance-of-human-life-poussin.md)和[Wallace Collection KU](../../../04-knowledge/units/institutions/wallace-collection.md)。`cand-1984`复用Nicolas Poussin人物KU。未重开S3，未查外部目录；作品、收藏与年代信息均限定为Haskell书内表述。
+
+#### S2原子化与证据范围
+
+新增`st-chp2-seciv-l190-245-dance-of-human-life-held-by-wallace`，将第2章p.57注3 L242明确说出的“《The Dance of Human Life》在Wallace Collection”单独作为作品→收藏机构statement；提及两端已有原文锚点，未新增mention。原聚合statement`st-chp2-seciv-l190-245-poussin-work-locations-and-dedications`的S6 rejected裁决保留：它把多件作品位置、版画、题献及解释混在一起。本批不把版画或题献归给原画；涉及版画对象的S2拆分仍待后续语义审读。创作者事实继续采用正文已有statement`st-chp2-seciv-l171-179-poussin-painted-dance-of-human-life`；是否由Rospigliosi委托仍不确定。
+
+#### S5与S6
+
+两个新KU新增5条`source_backed`字段（`enr-18617`–`enr-18621`），包括作品描述性暂题、绘画性质、Haskell所述约1637年，以及收藏名称与性质；`unverified=0`。字段预览后应用，复预览`record_changes=0`、`warnings=0`。
+
+| S6决定 | 去向与边界 |
+|---|---|
+| `rel-2515 created_by` | 《The Dance of Human Life》→Nicolas Poussin；仅限Haskell第2章p.57 L175–176的书内作者表述，委托关系未定。 |
+| `rel-2516 held_by` | 作品→Wallace Collection；仅记Haskell注3称作品在该收藏，不推断法律产权、入藏时间或当前保管。 |
+| 原聚合statement | 既有rejected决定不变；版画／题献对象不并入绘画，不据此添加创作者或题献关系。 |
+
+作品、收藏机构及Poussin三张卡分别预览并定向渲染，写后复预览均无差异。批后S2为15,477 statements／26,873 mentions；独立复核台账仍9,622，本批新增statement未独立复核。S3总决定未变。S4为2,508/5,088已映射、2,580待映射（直接端点922、其他1,658），KU共3,288；S5为14,702条字段（1,625条`unverified`）；S6历史裁决2,047项（formal 1,213、pending 700、rejected 134），当前`relation_candidate=true`为10,680条；`relations.csv` 2,515条（2,474 formal、41 pending）。缺少候选端点ID的关系statement为338条，backlog 58条（15 completed、43 undecided）。严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断项为0；这些结构检查不构成S2独立接收。
