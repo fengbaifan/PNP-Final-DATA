@@ -18299,3 +18299,26 @@ Treccani DBI（2026-10-28访问）将该刊出版责任记于Giambattista，并�
 `st-chp14-p349-not-altogether-well-received` 与 `st-chp14-p350-not-yet-published` 的 `relation_candidate=false`，分别是评价与状态断言，未列为S6关系，也不判作rejected。上述六项关系候选无一被事实反证，故没有rejected；原relations表中没有这些statement对应的既有formal行，本批未撤销或重写历史关系。除 `rel-2558` 外均未新增formal边；受控谓词或版次端点未解决的项目保留process-only pending。历史S6裁决分子与当前statement版本核平仍未完成，不能以本批定点裁决代替全表台账审计。
 
 S2 statement、mention及统一独立复核台账均未改变；本批没有S2语义修订，也不构成S2独立接收。
+
+
+<a id="s3-s4-s6-chp13-zanetti-memorie-1736-20261028"></a>
+### 第13章 Zanetti 1736 年购藏记身份与关系裁决（2026-10-28）
+
+#### S3身份与S4登记
+
+以第13章印刷页341、注4、L226（PDF物理页10）为原文依据。扫描页完整印出 `Memorie de gl'acquisti fatti da me Antonio Mra Zanetti q Girolamo in Vienna dall' Heredita del Principe Eugenio di Savoia, l'Anno 1736`；称记录提到 Castiglione 而未提收据中的 Poussin。S0 Markdown/OCR 将 `Principe` 识作 `Pncipe`；本卡依印刷页校读标题，未改写来源本体。正文同页 L90 已写全名 Antonio Maria Zanetti the Elder，对齐到现有 `units/persons/a-m-zanetti-the-elder`；未把 `Mra` 或 `q` 扩展成额外人物身份。
+
+`cand-10201` 已有 S3 `new` 决定及组 `archive-group-8dedf989f735`。本次保留该组，不另建或合并候选：本地没有与该完整题名同粒度的现有 KU。其身份边界是 Haskell 所引的题名级购藏记录，不是具体抄本或已知卷册。与同注卷册候选 `cand-10199`（Biblioteca Marciana, MSS. Italiani, Cl. XI, Cod. CXVI, 7356）及收据 `cand-10200` 分开；没有证据断言此 `Memorie` 是否属于该卷。另与跨章 `cand-9279`（Abate N.N.所写 Rosalba Carriera 传记，Padova 1843版）、`cand-10158`（Albrizzi短题引文）和 `cand-10228`（Michelessi的Memorie）区分；责任者、题名、文类及年代均不同，不做同名误合。未查外部目录或原件。
+
+按来源限定范围登记 archive `units/archives/zanetti-memorie-acquisti-vienna-1736`，并将 `aln-10373` 映射到该卡。卡内记录完整原题、Haskell所称责任者、题名所述地点和购藏年度，以及“提及Castiglione、未提Poussin”的限定；不声称该年就是写作日期，也不确定媒介、独立卷册或收藏定位。六行字段事实均由Haskell第13章原文支持，不含外部核验。
+
+#### S6逐项去向与历史影响
+
+新增 `rel-2559 authored_by`（购藏记 → Anton Maria Zanetti the Elder）。依据同一题名中的 `da me Antonio Mra Zanetti q Girolamo` 及同页 L90 的全名；只记录Haskell所报作者责任，不代表已查阅原件。此具体题名责任与 `st-chp13-p341-zanetti_1736_acquisitions_from_eugene_heirs` 所述从 Eugene 继承人处购画的交易关系不同；后者的群组与作品身份决定不变。
+
+| statement | 裁决 | 依据与重审条件 |
+|---|---|---|
+| `st-chp13-p341-notes-note4-memorie-mentions-castiglione-not-poussin` | **process-only pending** | 目标 `cand-10070` 仍为S3 `undecided`，其同章记录与购画组 `cand-10067` 的成员对应未定；题名和单件作品身份不足。原文“提到Castiglione而未提Poussin”也无忠实受控谓词，不改成笼统 `cites`。新增 `bl-0060` 跟踪该作品端点。 |
+| `st-chp13-p341-notes-note4-memorie-describes-copper-pastoral-by-epithet` | **process-only pending** | `cand-10203` 仅为 `lo Spagnolo di Bologna`，S3仍 `undecided`；Haskell明确不能据此等同 Crespi。画作无稳定题名/身份，不能建 `created_by` 正式边。新增 `bl-0061` 跟踪未定作者端点。 |
+
+另核 `relations.csv` 与已有过程记录：上述两个statement先前无formal关系行或已记录的否决；本次未撤销或改写历史S6裁决。第一项与第二项均未被事实反证，故不是 `rejected`；除新建作者边外，均留待证。没有新增“Memorie 属于 Cod. CXVI, 7356”关系，因原注未明确该文本与卷册的包含关系。S2 statement、mention及9,622条统一复核台账不变，本批未作S2修订或独立复核。
