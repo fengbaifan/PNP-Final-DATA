@@ -17770,3 +17770,32 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 对当前`alignment.csv`按候选ID连接空`external_source`主行和来源限定行，重新核查28个候选、35条来源行的决定差异。34条来源行（覆盖27个候选）均为`same`并指向候选主行的同一KU，是来源记录对书内新建KU的身份确认，不表示把书内候选并回其他既有对象。唯一仍待证的是`cand-2328`的Princeton University Art Museum来源行：主行仍为`new`并登记至`units/persons/stefano-sagredo`；Princeton记录关系仅称“possibly”，且现有生年信息1633与1653不一致。故外部行保留`undecided`、无KU目标；在来源关联或年代差异得到直接证据澄清前不改为`same`。未改写以上裁决。
 
 另按现行候选主行显式`group=`字段复扫S3 `new`决定，并统计来源限定的new-only候选。共有87个候选未检出显式组字段：候选主行79个，加仅有来源限定`new`行且无组字段8个；按候选类型为person 36、archive 42、work 6、place 3。主行另有21个候选解析出多个不同组字符串，其中8组差异仅为尾随句点，规范化该标点后仍有13个候选存在多个不同组标签。未组候选中65个、剩余13个中的9个与当前S2关系候选端点集相交。此为字段结构筛查，不等于身份组裁决；应核对当前组与历史组、对象类型及跨章来源后再修改。上述本次复核为只读审计，没有写回alignment或改变S3决定。
+
+<a id="s4-s5-s6-chp3-p89-pozzo-spaces-20261028"></a>
+### S4–S6 第3章 p.89 Pozzo祭坛席与后殿空间端点（2026-10-28）
+
+#### S3/S4 身份去向
+
+沿用`cand-5372`（`aln-5553`，`sg3-place-cand-5372`）及`cand-5096`（`aln-5279`，`sg3-place-cand-5096`）既有S3 `new`决定，分别登记[圣依纳爵堂祭坛席空间](../../../04-knowledge/units/places/tribune-of-s-ignazio.md)及[圣依纳爵堂后殿空间](../../../04-knowledge/units/places/apse-of-s-ignazio.md)。两者类型均为place建筑内部空间；分别区别于耶稣堂祭坛席、耶稣堂后殿及作为另一作品对象的Pozzo壁画组。后殿跨第3章p.74和p.89出现：p.74将仿祭坛定位于S. Ignazio后殿内墙；p.89将Pozzo壁画组定位于祭坛席和后殿。这两处同名空间的连续一致性由共同建筑、对象类型和语境支持，不把仿祭坛与Pozzo壁画混成同一作品。另沿用`cand-5374`（`aln-5555`，`sg3-place-cand-5374`）的S3 `new`决定，将书中宗教叙事所称地点登记为来源限定的[拉斯托尔塔](../../../04-knowledge/units/places/la-storta.md)place KU；未作外部地理定位。未加入未有独立statement的空间`part_of`边，也不推断现状或精确建筑边界。
+
+沿用已有映射：壁画组`cand-5373`→`units/works/pozzo-fresco-cycle-tribune-apse-s-ignazio`，Andrea Pozzo `cand-2034`→`units/persons/andrea-pozzo`，La Storta应许叙事`cand-5375`→`units/events/la-storta-promise-to-st-ignatius`，耶稣会`cand-3403`→`units/institutions/jesuits`，Baroque文化范畴`cand-4500`→`units/terms/baroque-cultural-category-haskell`。比较对象`cand-5244`仍S3 `undecided`且未登记KU。
+
+#### S5 来源字段
+
+后殿与祭坛席两张内部空间卡各新增一条source-backed `空间类型`字段；后殿字段由第3章p.74 L122及p.89 L138共同支持，祭坛席字段据p.89 L138。La Storta地点卡只登记来源明示的名称和叙事定位，没有另造S5属性。字段仅记录来源支持内容，不添加建筑归属关系或空间边界断言。
+
+#### S6 逐项裁决
+
+| S2关系候选 | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp3-seciv-l130-139-pozzo-painted-later-cycle` | formal | `rel-2517 created_by`：Pozzo壁画组→Andrea Pozzo；时间保留“1685年后若干年”，不造精确年份。 |
+| `st-chp3-seciv-l130-139-pozzo-painted-frescoes-in-tribune` | formal | `rel-2518 located_at`：壁画组→S. Ignazio祭坛席；同上来源时段限定。 |
+| `st-chp3-seciv-l130-139-pozzo-painted-frescoes-in-apse` | formal | `rel-2519 located_at`：壁画组→S. Ignazio后殿；同上来源时段限定。 |
+| `st-chp3-seciv-l130-139-cycle-culminates-in-la-storta-promise` | pending（process-only） | Haskell明确称该叙事为壁画高潮；但当前domain-range契约不允许`work has_subject event`。保留作品与事件卡的书内叙述，不造关系类型；仅在受控schema出现准确的作品表现事件关系时重审。 |
+| `st-chp3-seciv-l130-139-promise-event-at-la-storta` | formal | `rel-2521 occurred_at`：La Storta应许叙事→拉斯托尔塔；范围限定为Haskell所述宗教叙事场景，不构成独立历史事实或现代地点定位。 |
+| `st-chp3-seciv-l130-139-cycle-depicts-early-society-events` | rejected | 句子说壁画表现耶稣会早期历史中的若干事件，但当前对象端点是耶稣会机构本身；无具名事件群组KU。保留来源描述及单独识别的La Storta叙事地点关系，不把机构编码成被表现事件。 |
+| `st-chp3-seciv-l141-150-cycle-compared-with-gaulli` | pending（process-only） | 比较对象`cand-5244`仍S3 `undecided`、无KU；待作品身份／版本确定后重审，不把后文单件《The Adoration of the Lamb》替代原文泛称的Gaulli壁画。 |
+| `st-chp3-seciv-l141-150-cycle-reaction-against-baroque` | rejected | Haskell明确限定为“in some ways”的艺术史判断；现有受控关系无“对广义文化范畴的反动”这一精确谓词。保留在作品描述中，不替换成`influenced_by`或中性分类。 |
+| `st-chp3-seciv-l141-150-jesuits-welcomed-different-work` | rejected | Haskell记载耶稣会接受并欢迎作品，但无受控谓词能表达机构接纳而不暗示赞助、委托或支持。保留接受／欢迎及作者提出的二择解释，不形成正式边。 |
+
+审计与修订：初次严格表审计发现`has_subject`的domain-range不允许work→event；按受控契约移除误写的`rel-2520`，将该候选保留process-only pending，原编号留空不重用。修订后严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性审计`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。三张新地点卡、壁画组、Andrea Pozzo和La Storta叙事卡共6张定向渲染写入并复预览无差异；两条S5字段复预览`record_changes=0`、warnings=0。无S2新增或修订，statement／mention与独立复核台账不变。批后KU 3,291，S4已映射2,511/5,088（直接端点919待映射），S5 14,704条字段（1,625条unverified），S6历史裁决2,056项（formal 1,217、pending 702、rejected 137）；正式关系表2,519行（2,478 formal、41 pending）。远端提交与CI结果见同步记录。

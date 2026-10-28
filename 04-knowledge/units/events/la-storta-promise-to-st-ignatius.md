@@ -40,4 +40,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-两条直接 S2 关系候选（`st-chp3-seciv-l130-139-cycle-culminates-in-la-storta-promise`、`st-chp3-seciv-l130-139-promise-event-at-la-storta`）留待 S6 逐项裁决。本卡未新增正式关系。
+### 关系候选入口
+
+两项直接S2候选逐项裁决：壁画组以本叙事为高潮的候选因当前domain-range契约不允许`work has_subject event`而保留pending；La Storta场景关系formal，但仅限Haskell所述宗教叙事，不构成独立历史验证。依据见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-p89-pozzo-spaces-20261028)。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 发生于（`occurred_at`） | [拉斯托尔塔（La Storta）](../places/la-storta.md) | Haskell 于第3章 p.89 L138–139 将 La Storta 称作该宗教叙事的地点；本边只记录书内叙事定位；角色：Haskell 所述宗教叙事的场景；范围：仅记录 Haskell 叙事中该应许场景位于 La Storta；不构成独立历史事实或现代地点定位。；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 89, lines 138–139; statement=st-chp3-seciv-l130-139-promise-event-at-la-storta |

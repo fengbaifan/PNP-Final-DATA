@@ -83,4 +83,18 @@ English: This unit is the fresco group in the tribune and apse, not those archit
 
 ## 关系与证据
 
-当前没有登记正式关系。S2 中有据的相关关系候选仍待 S6 按端点、方向、语境和证据逐条审查。
+### 身份入口
+
+- **S3身份组：** `workgrp-b9528b8c029410`；候选：`cand-5373`；KU：`units/works/pozzo-fresco-cycle-tribune-apse-s-ignazio`。
+
+### 关系候选入口
+
+本卡正式关系见下方投影。La Storta叙事作为壁画主题的候选因当前domain-range契约不允许`work has_subject event`而保留pending；比较、风格史和接受史候选的其余S6去向见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp3-p89-pozzo-spaces-20261028)。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 创作者（`created_by`） | [安德烈亚·波佐（Andrea Pozzo）](../persons/andrea-pozzo.md) | Haskell 于第3章 p.89 L138 明确称 Pozzo 绘制了该壁画组；时间：1685年后若干年（确切年份未载）；角色：壁画作者；范围：仅记录 Haskell 对该壁画组的创作者归属和宽泛时间；不推断精确创作或完工年份。；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 89, lines 138–139; statement=st-chp3-seciv-l130-139-pozzo-painted-later-cycle |
+| → 位于（`located_at`） | [圣依纳爵堂祭坛席空间（Tribune of S. Ignazio）](../places/tribune-of-s-ignazio.md) | Haskell 于第3章 p.89 L138 将该壁画组定位在 S. Ignazio 祭坛席；时间：1685年后若干年（确切年份未载）；角色：壁画所在空间；范围：Haskell 所述 Pozzo 壁画组位于 S. Ignazio 的祭坛席；不推断现状或精确建筑边界。；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 89, lines 138–139; statement=st-chp3-seciv-l130-139-pozzo-painted-frescoes-in-tribune |
+| → 位于（`located_at`） | [圣依纳爵堂后殿空间（Apse of S. Ignazio）](../places/apse-of-s-ignazio.md) | Haskell 于第3章 p.89 L138 将该壁画组定位在 S. Ignazio 后殿；时间：1685年后若干年（确切年份未载）；角色：壁画所在空间；范围：Haskell 所述 Pozzo 壁画组位于 S. Ignazio 的后殿；不推断现状或精确建筑边界。；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 89, lines 138–139; statement=st-chp3-seciv-l130-139-pozzo-painted-frescoes-in-apse |
