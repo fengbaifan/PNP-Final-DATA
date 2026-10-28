@@ -62,6 +62,7 @@ LABELS = {
     "creator_of": "所创作对象",
     "religiously_dedicated_to": "宗教奉献对象",
     "religious_dedication_of": "奉献于该对象的场所／祭坛",
+    "near": "附近地点",
     "travelled_from": "行程出发地",
     "departure_place_of": "从此地出发的人物",
     "travelled_to": "行程目的地",

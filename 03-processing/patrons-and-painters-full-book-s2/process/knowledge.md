@@ -17859,6 +17859,11 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 以上三项为process-only pending，不新建正式边；S2及统一独立复核台账未变。S4登记与结构检查不代表建筑外部身份核验或全书语义接收。
 
+<a id="s6-giustiniani-palace-near-church-20261028"></a>
+### 宫邸与教堂的邻近关系重审（2026-10-28）
+
+第2章p.29 L99–101明确称Vincenzo Giustiniani的宫邸“near S. Luigi dei Frances!”；既有印本校读为Francesi，宫邸`cand-4310`及教堂`cand-0706`分别已映射不同place KU。新增仅用于来源明确近邻的对称谓词`near`后，将`st-chp2-seci-l95-106-palace-near-church`从process-only pending重裁为formal，登记`rel-2539`。仅记录Haskell历史叙述中两地点相近，不推定精确距离、直接相邻、包含或当前状态；反向视图是导航而非新增来源事实。宫邸正式建筑名称及其余两项有关画家群体的关系仍待证。S2、S3、S4及独立复核台账不变。
+
 <a id="s3-existing-place-endpoint-reuse-20261028"></a>
 ### 两个地点候选复用既有KU（2026-10-28）
 

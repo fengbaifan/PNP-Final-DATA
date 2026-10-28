@@ -2,7 +2,9 @@
 
 ### 近期批次记录（2026-10-28）
 
-**本批完成：朱斯蒂尼亚尼宫邸直接端点。** 沿用`cand-4310`既有`new`组，登记第2章p.29教堂附近的来源限定宫邸KU，新增1条书内支持字段；正式建筑名称及现状未独立核实。3项关联关系均为process-only pending，分别待近邻谓词、群体类型及程度／居住范围解决。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-giustiniani-palace-p29-20261028)。
+**本批完成：宫邸与教堂的邻近关系。** 新增来源限定的`near`对称类型，将第2章p.29宫邸靠近S. Luigi dei Francesi的候选从pending重裁为formal，登记`rel-2539`；不推定距离、直接相邻、包含或现状。详见[关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-giustiniani-palace-near-church-20261028)。
+
+**上批完成：朱斯蒂尼亚尼宫邸直接端点。** 沿用`cand-4310`既有`new`组，登记第2章p.29教堂附近的来源限定宫邸KU，新增1条书内支持字段；正式建筑名称及现状未独立核实。两项画家群体关系仍为process-only pending，待群体类型及程度／居住范围解决。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-giustiniani-palace-p29-20261028)。
 
 **上批完成：S2基线版本差异重算。** 当前15,480条与9,622条复核记录首次出现时的版本比较，仍为新增30条、删除1条、同ID变化41条。第10章两条近期锚点修订分别已包含在新增及变化集合中，不能额外累加；两条当前版本仍待独立差异复核，和此前21条清单的重叠尚待核平。详见[版本核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-baseline-9622-20261028)。
 
@@ -3796,8 +3798,8 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | S3 | 按候选ID计12,433/12,433均有决定：same 2,117、new 5,086、conflict 9、excluded 106、undecided 5,115 | 12,408项有external_source为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。28个候选的35条来源决定虽与主行不同，当前复核确认其中34条（27个候选）均为same且目标与候选主行KU一致；唯一待证来源行是cand-2328的Princeton关联（“possibly”，1633/1653生年差异），主行new决定保持。先前结构筛查有87个无显式组，其后5个主行补组；另21个多标签中8个仅尾随句点不同、13个仍需按原筛查口径核平。余项需按当前数据复扫。 |
 | S4 | new候选已映射2,519/5,086；待映射2,567，其中直接关系端点909、其他1,658；KU共3,299 | 直接端点待映射按类型：term 401、work 136、place 129、archive 120、event 73、institution 49、person 1。 |
 | S5 | 14,731条字段，1,628条unverified | 本批新增1条Haskell来源支持字段。 |
-| S6 | 裁决记录2,076项：formal 1,227、pending 714、rejected 135；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批3项宫邸关联候选为process-only pending；礼拜堂选址及社群赞助仍pending。 |
-| 正式关系表 | 2,536行：2,495 formal、41 pending | 本批对既有2项formal候选补充4条有据行程方向边；文献题献待具体题记或馆藏目录证据。 |
+| S6 | 裁决记录2,076项：formal 1,228、pending 713、rejected 135；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批1项宫邸近邻候选由pending重裁formal；两项画家群体候选、礼拜堂选址及社群赞助仍pending。 |
+| 正式关系表 | 2,537行：2,496 formal、41 pending | 本批新增1条有据邻近边；文献题献待具体题记或馆藏目录证据。 |
 | 缺端点与backlog | 338条关系statement至少缺一个S2端点候选ID；backlog 58条（15 completed、43 undecided） | 未具名Paceco画作的开放端点已保留待证；严格审计backlog pending=0，`bl-0058`待证条件保留。 |
 
 S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按类型分布。

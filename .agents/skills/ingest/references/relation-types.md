@@ -56,6 +56,7 @@ relations:
 | 人物行程 | `travelled_from`／`departure_place_of`、`travelled_to`／`travel_destination_of` | person → place/institution；仅记录来源明确的出发地和目的地。保留时间、近似程度及同一行程的配对语境；不由目的地推断实际到达、居住或活动。 |
 | 配对作品 | `pendant_of` | work ↔ work；来源明确两件作品构成配对，单侧保存事实、反向仅作投影；同作者、同题材或同尺寸不构成配对依据 |
 | 明确比较 | `compared_with` | place／work ↔ place／work；仅记录来源明确的比较判断，scope注明比较者及语境，不表示同一、来源、复制或物理联系 |
+| 相对邻近 | `near` | place ↔ place；仅记录来源明确描述的相近位置，保留时间和来源语境，不推定精确距离、直接相邻或空间包含。反向只作导航。 |
 | 预期受众／审美接受 | `designed_for_audience`（反向 `intended_audience_of`）、`appealed_to`（反向 `found_appealing`） | archive／work → term 记录来源明确说明的预期受众类别，不证明实际读者；work → person 记录来源明确报告的作品审美吸引，不推定购买、所有权、接触或影响。反向只作导航。 |
 | 艺术倾向的培育／呈现 | `fosters`（反向 `fostered_by`）、`site_of_manifestation`（反向 `manifested_at`） | institution → term 仅记录来源明确称某机构培育艺术倾向或实践；place → term 记录来源明确指出概念或倾向呈现于该场所，不表示某件作品的物理位置。反向只作导航。 |
 | 预备模型／样稿 | `model_for` | work → 为之准备的work；来源明确具体两件作品的模型／样稿关系，`modeled_by`为反向导航；同题材、年代先后或外观相近不证明预备关系 |

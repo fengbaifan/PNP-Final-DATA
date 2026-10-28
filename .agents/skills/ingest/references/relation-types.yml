@@ -1,4 +1,4 @@
-version: 11
+version: 12
 authority: controlled-relation-vocabulary
 types:
   - associated_institution
@@ -31,6 +31,7 @@ types:
   - compiler_of
   - collaborated_with
   - compared_with
+  - near
   - corresponded_with
   - contains
   - contributed_by
@@ -295,6 +296,7 @@ inverse:
   erected_by: erector_of
   erector_of: erected_by
   compared_with: compared_with
+  near: near
   scene_of: occurred_at
   sent_by: sender_of
   sender_of: sent_by

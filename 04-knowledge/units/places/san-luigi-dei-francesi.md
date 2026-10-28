@@ -47,6 +47,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 包含成员（`contains`，反向投影） | [孔塔雷利礼拜堂（Contarelli Chapel）](contarelli-chapel.md) | 孔塔雷利礼拜堂位于法国圣路易堂内；范围：建筑内部礼拜堂；原断言与证据见发出端卡片“孔塔雷利礼拜堂（Contarelli Chapel）”：[来源](https://en.wikipedia.org/wiki/Contarelli_Chapel)；src-bf7256294c8171b5；正文导言与位置段 |
+| ← 附近地点（`near`，反向投影） | [圣路易法国教堂附近的温琴佐·朱斯蒂尼亚尼宫邸（Vincenzo Giustiniani’s Palace near S. Luigi dei Francesi）](vincenzo-giustiniani-palace-near-san-luigi.md) | 原文near；OCR中的Frances!按既有印本校读为Francesi；时间：原书历史叙述时点；角色：来源所述相对位置；范围：Haskell称Vincenzo Giustiniani的宫邸位于S. Luigi dei Francesi附近；不推定距离、直接相邻、建筑包含或现状。；原断言与证据见发出端卡片“圣路易法国教堂附近的温琴佐·朱斯蒂尼亚尼宫邸（Vincenzo Giustiniani’s Palace near S. Luigi dei Francesi）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_i.md)；haskell-1980-rev-ed；Chapter 2, printed p.29 L99–101; statement=st-chp2-seci-l95-106-palace-near-church |
 
 ### 身份与外部链接
 

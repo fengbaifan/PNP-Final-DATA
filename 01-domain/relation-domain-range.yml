@@ -1,6 +1,6 @@
-version: 9
-authority: relation-domain-range-v9
-status: draft-v9
+version: 10
+authority: relation-domain-range-v10
+status: draft-v10
 note: |
   本文件定义每个受控关系类型的合法 (domain, range)，供 S6 关系放行条件使用。
   v1 为与既有 relation-index.yml 的 1227 条边做只读一致性校验后的修正版：
@@ -10,6 +10,7 @@ note: |
   v7 新增 fosters（institution → term）／fostered_by（term → institution），限于来源明确记载机构培育某种艺术倾向或实践；新增 site_of_manifestation（place → term）／manifested_at（term → place），记录来源明确指出概念或倾向呈现的场所，不表示作品实体的物理位置。
   v8 将题献对象 dedicated_to 的域扩至 archive/work；另增宗教奉献关系 religiously_dedicated_to 与反向 religious_dedication_of，记录来源明确的场所或祭坛对宗教对象的奉献，不推定具体奉献仪式。
   v9 新增 travelled_from／departure_place_of 与 travelled_to／travel_destination_of，分别记录人物有据移动的出发地和目的地；时间及同一行程关联须保留限定。
+  v10 新增对称关系 near（place ↔ place），仅表达来源明确称两地点相近，不推定距离、相邻或包含。
   domain/range 覆盖当前实际用法，逐谓词直接存（不做 inverse 规范化）。
   未列入 domain_range 且不在 deprecated 列表的类型，默认不约束（允许，待首次使用后补入）。
   same_as 额外约束：两端必须同类型（由 S6 检查单独实现，不靠本表表达）。
@@ -43,6 +44,7 @@ domain_range:
   cites:            {domain: [archive], range: [archive]}
   collaborated_with: {domain: [person], range: [person]}
   compared_with:   {domain: [place, work], range: [place, work]}
+  near:             {domain: [place], range: [place]}
   commissioned_by:  {domain: [place, work], range: [family, institution, person]}
   compiled_by:      {domain: [archive], range: [person]}
   contributed_by:   {domain: [archive, work], range: [institution, person]}

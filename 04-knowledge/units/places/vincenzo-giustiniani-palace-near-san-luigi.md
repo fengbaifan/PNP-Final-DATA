@@ -37,6 +37,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 附近地点（`near`） | [法国圣路易堂（San Luigi dei Francesi）](san-luigi-dei-francesi.md) | 原文near；OCR中的Frances!按既有印本校读为Francesi；时间：原书历史叙述时点；角色：来源所述相对位置；范围：Haskell称Vincenzo Giustiniani的宫邸位于S. Luigi dei Francesi附近；不推定距离、直接相邻、建筑包含或现状。；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_i.md)；haskell-1980-rev-ed；Chapter 2, printed p.29 L99–101; statement=st-chp2-seci-l95-106-palace-near-church |
+
 ### 身份与外部链接
 
 本卡限于原书描述的宫邸，尚未以建筑目录确认正式名称或现状。
