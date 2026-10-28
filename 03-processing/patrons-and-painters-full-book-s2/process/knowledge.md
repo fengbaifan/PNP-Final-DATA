@@ -18411,3 +18411,26 @@ S2 statement、mention及统一独立复核台账均未改变；本批没有S2�
 **S6影响与关系决定。** 对照提交前的`relations.csv`，上述两个statement ID没有既有正式或待证关系行；过程记录中也未发现相反裁决。现将 `st-chp2-seci-l124-157-cite-agucchi-popehennessy` 与 `st-chp7-p178-n6-cite-pope-hennessy` 分别登记为 `rel-2565`、`rel-2566`，均为Haskell书目引文 `cites` 关系，身份与两端点已由注释和书目定位。第21章两个书目statement仅作身份依据，其中第二条本身标记`relation_candidate=false`，不是额外的引文关系。没有为文章内容、作者人物身份、所引艺术作品或艺术家推导关系；相关身份或端点若仍不明，继续按原决定待证。本批无S2 statement/mention改写，也未更新9,622项S2独立复核台账。全书历史S6裁决与当前statement版本的核平仍未完成，本批核查不替代该工作。
 
 定向检查：14项字段均为`source_backed`且`unverified=0`；两张卡渲染后复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断计数均为0。文章未独立阅读，书目对应与引文端点以外的事实未核实。
+
+<a id="s3-s4-s5-s6-golzio-pergola-archives-20261028"></a>
+### 第1、2、5、6、21章 Pergola 与 Golzio 文献的跨章身份组、端点登记及引文裁决（2026-10-28）
+
+**原文证据与校读。** 第2章印刷页27注4（Markdown L139；PDF物理页8）原文为 `4 For both these instances and a general account of Scipione’s collecting see Paola della Pergola, Vol. I and II, 1955-59.`；第2章印刷页49注8（Markdown L220；PDF物理页34）另记 `8 Paola della Pergola, I, p. 152, with documents.`；第21章印刷页433（Markdown L947）列 `Pergola, Paola della: Galleria Borghese—I Dipinti, 2 vols., Roma 1955-9.`。书目与脚注相互对应两卷目录，但目录未独立查阅。
+
+第1章印刷页8注2（Markdown L282；PDF物理页7）原文为 `2 Cardinal Flavio Chigi gave Mario de’ Fiori a monthly allowance of 30 scudi—Golzio, 1939, p. 267.`；第6章印刷页154注2、注4（Markdown L148、L150；PDF物理页9）分别为 `2 Golzio, 1939, p. 14.` 与 `4 Apart from Golzio, 1939, see also for Flavio’s collecting Incisa della Rocchetta, 1925, pp. 539-44.`。第5章Markdown L154关于Chigi与Colonna的脚注语境还引用 `Golzio, 1939, p. 3.`；该引用作为cand-6196的来源锚点保留，但现有S2未将它建成单独的citation relation statement。第21章印刷页423（Markdown L536）列 `Golzio, V.: Documenti artistici sul Seicento nell’Archivio Chigi, Roma 1939.`。
+
+第1章印刷页12注3（Markdown L470；PDF物理页11）原文为 `3 Golzio, 1933-4, pp. 301-2.`；第6章印刷页149注5（Markdown L127；PDF物理页4）S0转录为 `6 Passeri, p. 337, and Golzio, 1933-4, p. 304. ,`。扫描校读显示脚注号为5，S2已有 `ocr_correction` 保留“6→印本5”的判断变化。第21章印刷页423（Markdown L534–L535）书目原文为 `Golzio, V.: ‘Pittori e scultori nella chiesa di S. Agnese a Piazza Navona in Roma’ in Archivi, 1933-4, PP300-310.`；现有书目statement记录页图校读将`PP300-310`读为印本`pp. 300-310`，原始S0转录未改写。三种出版物和其所引内容均未独立查阅。
+
+| 候选 | 跨章身份比较 | S3 / S4 决定 |
+|---|---|---|
+| `cand-4369` | 第2章两处均指向Pergola的卷I／II，年份和卷数与第21章书目中的 *Galleria Borghese—I Dipinti* 相符；书目题名使未具题名的短引可定位至同一目录。 | `undecided → new`；组 `archive-group-pergola-galleria-borghese-i-dipinti-1955-1959`；登记 `units/archives/pergola-galleria-borghese-i-dipinti-1955-1959`。该archive是馆藏目录出版物，与机构KU `units/institutions/galleria-borghese` 区分。 |
+| `cand-6196` | 第1章与第6章多条Golzio 1939年短引，以及第5章来源锚点p.3，均与第21章所列同作者、同题名、同年份的 *Documenti artistici sul Seicento nell’Archivio Chigi* 相符；引文页码跨章不同不拆成多部作品。 | `undecided → new`；组 `archive-group-golzio-documenti-artistici-chigi-1939`；登记 `units/archives/golzio-documenti-artistici-chigi-1939`。书目没有给出版本或出版者，本批不补猜。 |
+| `cand-6356` | 第1章pp.301–302与第6章p.304的1933–34年引注，均落在第21章所列同题名、同刊、pp.300–310的文章范围内。 | `undecided → new`；组 `archive-group-golzio-pittori-scultori-sant-agnese-1933-1934`；登记 `units/archives/golzio-pittori-scultori-sant-agnese-1933-1934`。与Golzio 1939年图书 `cand-6196` 保持分组。 |
+
+三组均为本书内部脚注与书目互证后的题名级archive身份，不代表外部目录核验或原刊／原书阅读。提交前manifest未见同题archive KU；三张新卡已分别登记。字段表新增22项，均为Haskell书内的题名、著录责任者形式、类型、刊物／出版地、年份、卷数、页码及引注范围；没有将作者著录形式扩成未经识别的人物关系。
+
+**S6裁决与受影响关系。** 依据`01-domain/relation-domain-range.yml`，`cites`允许archive→archive。提交前的`relations.csv`中，六条引用statement ID均无对应formal或pending行；本批新增六条formal引文：`rel-2567`为第2章注4引用Pergola目录；`rel-2568`、`rel-2569`为第1章注3及第6章注5引用Golzio 1933–34年文章；`rel-2570`、`rel-2571`、`rel-2572`为第1章注2及第6章注2、注4引用Golzio 1939年图书。每条只记录Haskell引文，不证明被引来源的内容。第2章p.49注8的statement标记`relation_candidate=false`，作为卷I、p.152的补充书目定位，不另建形式边；第5章p.3引用未形成独立S2 citation relation statement，本批也不据该行新造第七条边。第6章p.154注4的既有`rel-2133`指向Incisa della Rocchetta 1925年文献，与新增Golzio边的对象不同，保持分开；第6章p.149注5中的Passeri也不并入Golzio边。
+
+第5章关于若干画作、Chigi所有权／购入与Colonna可能来源的关系statement不因Golzio文献身份得到证明。作品集合候选`cand-6164`仍因单件身份和集合边界不清保持S3 `undecided`；其可能Colonna来源、Chigi所有权、inventory listing与1661年购入四项工作关系现以`bl-0062`–`bl-0065`分别留在backlog，均不生成`relations.csv` formal边；端点未注册期间，S6仍待作品身份和忠实关系类型裁决。第5章另一个Chigi购买SS. Apostoli宫殿的statement指向地点候选`cand-6211`，其S3 `new`但尚未S4登记；相关地点待办记作`bl-0066`。本批未用Golzio出版物替代该地点端点，也未将Chigi购买归属强配给人物或家族，保留S4/S6待处理。其他有关这些段落的历史关系行未作改动。本批未改写S2 statements、mentions或9,622项复核台账。
+
+定向检查：22项字段均为`source_backed`且`unverified=0`；三张卡完成关系投影并复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断计数均为0。出版物原文内容、目录／文章所述事实和引注页均未核实。
