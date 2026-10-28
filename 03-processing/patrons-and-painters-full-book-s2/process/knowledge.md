@@ -17786,6 +17786,29 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 其中Faldi与另一候选共享既有组；另两个人物的新增组号仅标记既有局部对象，并不声称已完成外部身份核验。未对其他无组或多标签候选作批量推断；S2、S4及S6决定不变。
 
+<a id="s3-group-label-history-audit-20261028"></a>
+### S3多标签候选的当前组与历史组核查（2026-10-28）
+
+对候选主行`new`备注作宽口径结构检索：提取每行所有独立`group=`标记并去除组号末尾句点，得到47个包含不同标签的候选。该宽口径包含历史裁决全文和旁述其他对象的标签，不等于47项真实身份冲突，也不能直接与先前13项的不同筛查口径相减。本次逐条阅读其中15项的现行备注、历史说明和KU映射，区分：
+
+| 候选 | 当前组与身份 | 其他标签的实际含义 |
+|---|---|---|
+| `cand-0280` | `sg3-work-bellotto-cross-church-ruins`；Bellotto教堂废墟画作 | 旧人物组在类型纠正前的历史裁决中，画家与作品分开。 |
+| `cand-0283`、`cand-0284` | 分别为`sg3-work-bellucci-canons-descent-from-cross`及`sg3-work-bellucci-canons-nativity` | 旧Bellucci人物组为历史记录；两画作亦各自独立。 |
+| `cand-0428` | `new-person:bracciano-giordona-ii-of-orsini-paolo-502da19f7d`；Paolo Giordano II | 旧`sg3-ku-units-persons-duke-bracciano-mulier`是被保留的先前same判断；现行理由明确Mulier赞助人身份未定，不能据旧标签合并。 |
+| `cand-2279` | `new-person:andrea-del-rosso-grandfather-2279`；祖父 | 旧`new-person:andrea-del-rosso-670cf89453`混合祖父与同名兄弟之一；现行裁决按代际分开。 |
+| `cand-4520` | `sg3-place-cand-4520`；圣彼得堂后殿壁龛空间 | 旧`workgrp-5dffc49f474c5d`是类型更正前的作品组。 |
+| `cand-5237` | `sg3-place-cand-5300`；Gesù右横翼礼拜堂 | 原`sg3-place-cand-5237`为合组前编号，现行裁决记录其已被取代；奉献名称变化不另建空间。 |
+| `cand-6466` | `workgrp-dcc68e6b1d53c2`；Altieri主厅《仁慈寓意》壁画 | 旧`workgrp-7e3280ce8bb7fd`为跨章合组前编号；现已登记至同一作品KU。 |
+| `cand-6997` | `archive-group-a0ddb6d233ff`；Vaes 1931《Appunti》 | `new-person:maurice-vaes`指该文献作者的另一个人物身份组，不是此archive候选的第二组，也不证明文章内容。 |
+| `cand-7071`、`cand-7100` | `archive-group-brienne-memoires-1916-1919`；Brienne回忆录1916–1919多卷版 | 各自旧书目组为合组前历史编号；卷号和页码保留作引用定位，不据此拆成两个版本。 |
+| `cand-7301` | `new-person:admiral-byng-817cd89b59` | 原`new-person:admiral-binchs-admiral-binchs-english-a1fee8a9dc`已由书内注5的身份判断取代；该判断归Haskell，不等于外部核验。 |
+| `cand-8097` | `new-person:pietro-leopoldo-grand-duke-of-tuscany-20261018` | 旧`new-person:1767-archduke-austria-catalogue-exhibition-64bf9475e7`保存在更正前理由中；现行组与登记KU一致。 |
+| `cand-10781` | `new-person:388-on-p-printed-read-signature-domenico-f-70bba5a5d9`；Fedini来源限定签名者 | OCR的Pedini旧组因印本签名校读被撤销；不补未核实的外部身份。 |
+| `cand-11231` | `archive-group-daumale-inventaire-1653-1861`；1861年D’Aumale版 | 旧`archive-group-1d71af235d8f`是合组前编号；BnF目录用于书目身份，不代表已读全文。 |
+
+以上15项的旧标签或旁述标签均不能作为这些候选的当前第二身份组；本次没有删除历史文本、变更S3决定、改写KU、S2或S6。宽口径剩余32项尚待逐条核查，先前筛查报告的13项不能视作已全部解决。后续自动解析须有明确的当前组与历史边界，不能将备注中所有`group=`视为并列当前组。
+
 <a id="s4-s5-s6-chp3-p89-pozzo-spaces-20261028"></a>
 ### S4–S6 第3章 p.89 Pozzo祭坛席与后殿空间端点（2026-10-28）
 
