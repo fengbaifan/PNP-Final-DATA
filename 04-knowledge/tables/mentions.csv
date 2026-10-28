@@ -3054,7 +3054,7 @@ m-s2-ch10-p325-0022,chp-10:10_CHP-10_sec_ii:l203-208,cand-1803,Padua,1418,1423,"
 m-s2-ch10-p325-0023,chp-10:10_CHP-10_sec_ii:l203-208,cand-4244,Church,1456,1462,Institutional Church; distinct from the Arena chapel building.
 m-s2-ch10-p325-0025,chp-10:10_CHP-10_sec_ii:l203-208,cand-1803,Padua,2083,2088,
 m-s2-ch10-p325-0024,chp-10:10_CHP-10_sec_ii:l203-208,cand-1642,Andrea Memmo,2097,2109,
-m-s2-ch10-p325-0054,chp-10:10_CHP-10_sec_ii:l203-208,cand-1650,scheme very similar to the one he was calling for,2136,2185,"The p.325 note 3 points to Chapter 15, which describes the related Prà della Valle plan; this identifies the contextual referent without altering the source wording."
+m-s2-ch10-p325-0054,chp-10:10_CHP-10_sec_ii:l203-208,cand-1650,scheme very similar to the one he was calling for,2136,2185,The definite referent ‘the one he was calling for’ points to the Chapter 15 Prà plan via p.325 n.3. The 1782 scheme is described as similar; the source does not say it is the same scheme.
 m-s2-ch10-p325-0026,chp-10:10_CHP-10_sec_ii:l203-208,cand-1220,Gozzi,2448,2453,
 m-s2-ch10-p325-0027,chp-10:10_CHP-10_sec_ii:l203-208,cand-1942,Giorgio Pisani,2584,2598,
 m-s2-ch10-p325-0028,chp-10:10_CHP-10_sec_ii:l203-208,cand-0246,Barnabotti,2642,2652,Indexed social class; its identity and scope remain for S3.
@@ -3893,7 +3893,7 @@ m-s2-ch13-p333-016,chp-13:13_CHP-13_intro:l14-19,cand-9985,collections of poems 
 m-s2-ch13-p333-015,chp-13:13_CHP-13_intro:l14-19,cand-8108,the nobility,1890,1902,
 m-s2-ch13-p333-017,chp-13:13_CHP-13_intro:l14-19,cand-2068,the publisher,2238,2251,
 m-s2-ch13-p333-018,chp-13:13_CHP-13_intro:l14-19,cand-0182,Caterina Barbarigo,2339,2357,
-m-s2-ch13-p333-019,chp-13:13_CHP-13_intro:l14-19,cand-9979,Gaspara Gozzi,2384,2397,"OCR surface retained; printed p.333 reads Gasparo Gozzi; aligned to index candidate cand-1220 and its existing person KU."
+m-s2-ch13-p333-019,chp-13:13_CHP-13_intro:l14-19,cand-9979,Gaspara Gozzi,2384,2397,OCR surface retained; printed p.333 reads Gasparo Gozzi; aligned to index candidate cand-1220 and its existing person KU.
 m-s2-ch13-p333-020,chp-13:13_CHP-13_intro:l14-19,cand-9980,the Zorzi,2626,2635,Family name in the coat-of-arms instruction; branch and members unspecified.
 m-s2-ch13-p333-022,chp-13:13_CHP-13_intro:l14-19,cand-9985,These collections,2706,2723,Anaphoric reference to the commemorative poem and eulogy category.
 m-s2-ch13-p333-021,chp-13:13_CHP-13_intro:l14-19,cand-2719,Venetian,2750,2758,Adjectival reference to the poets' city context.
@@ -22036,8 +22036,6 @@ m-chp15-p365-memmo-0017,chp-15:15_CHP-15_sec_ii:l6-12,cand-3960,Pra della Valle,
 m-chp15-p365-memmo-0018,chp-15:15_CHP-15_sec_ii:l6-12,cand-4014,Plate 62,1181,1189,Reuses the existing Canaletto/Prà della Valle plate candidate and caption.
 m-chp15-p365-memmo-0019,chp-15:15_CHP-15_sec_ii:l6-12,cand-1642,Memmo,1192,1197,Names Andrea Memmo as the actor deciding to reclaim the land.
 m-chp15-p365-memmo-0020,chp-15:15_CHP-15_sec_ii:l6-12,cand-3960,this land,1217,1226,
-m-chp15-p365-memmo-0021,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,a canal,1297,1304,
-m-chp15-p365-memmo-0022,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,an island,1337,1346,
 m-chp15-p365-memmo-0023,chp-15:15_CHP-15_sec_ii:l6-12,cand-12228,the traders,1370,1381,Unnamed trader group described as the intended users of the proposed central island.
 m-chp15-p365-memmo-0024,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,an oval plan,1394,1406,
 m-chp15-p365-memmo-0025,chp-15:15_CHP-15_sec_ii:l6-12,cand-5766,Colosseum,1421,1430,Reuse the named monument candidate; no specific view or work is inferred.
@@ -22046,19 +22044,17 @@ m-chp15-p365-memmo-0027,chp-15:15_CHP-15_sec_ii:l6-12,cand-0623,Abate Cerate,149
 m-chp15-p365-memmo-0028,chp-15:15_CHP-15_sec_ii:l6-12,cand-4031,Plate 63,1535,1543,Reuses the existing Cerato proposal drawing candidate.
 m-chp15-p365-memmo-0029,chp-15:15_CHP-15_sec_ii:l6-12,cand-3461,Italy,1635,1640,
 m-chp15-p365-memmo-0030,chp-15:15_CHP-15_sec_ii:l6-12,cand-4490,Rome,1668,1672,
-m-chp15-p365-memmo-0031,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,the scheme,2022,2032,The scheme is the Prà della Valle project designed to raise funds.
+m-chp15-p365-memmo-0031,chp-15:15_CHP-15_sec_ii:l6-12,cand-12456,the scheme,2022,2032,"S3/S2 referent correction 2026-10-29: this phrase denotes the planned Prà statue programme, not Memmo’s oval urban-planning scheme."
 m-chp15-p365-memmo-0032,chp-15:15_CHP-15_sec_ii:l6-12,cand-3461,Italy,2166,2171,
 m-chp15-p365-memmo-0033,chp-15:15_CHP-15_sec_ii:l6-12,cand-3462,Europe,2184,2190,
-m-chp15-p365-memmo-0034,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,a scries of statues,2237,2256,OCR reads ‘scries’; p.365 print reads ‘series’. The S0 source is unchanged.
+m-chp15-p365-memmo-0034,chp-15:15_CHP-15_sec_ii:l6-12,cand-12456,a scries of statues,2237,2256,"S3/S2 referent correction 2026-10-29: this phrase denotes the planned Prà statue programme, not Memmo’s oval urban-planning scheme."
 m-chp15-p365-memmo-0035,chp-15:15_CHP-15_sec_ii:l6-12,cand-1411,Lodoli,2398,2404,
-m-chp15-p365-memmo-0036,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,a plan,2369,2375,The plan is the project under discussion; the pupil reference is recorded separately.
-m-chp15-p365-memmo-0037,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,the foundations of the statues,2591,2621,
-m-chp15-p365-memmo-0038,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,a public gallery,2659,2675,
+m-chp15-p365-memmo-0036,chp-15:15_CHP-15_sec_ii:l6-12,cand-12456,a plan,2369,2375,"S3/S2 referent correction 2026-10-29: this phrase denotes the planned Prà statue programme, not Memmo’s oval urban-planning scheme."
 m-chp15-p365-memmo-0039,chp-15:15_CHP-15_sec_ii:l6-12,cand-8107,the Enlightenment,2742,2759,
 m-chp15-p365-memmo-0040,chp-15:15_CHP-15_sec_ii:l6-12,cand-3398,Bologna,2806,2813,
 m-chp15-p365-memmo-0041,chp-15:15_CHP-15_sec_ii:l6-12,cand-2769,Vicenza,2818,2825,
 m-chp15-p365-memmo-0042,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,Memmo’s plan,2761,2773,
-m-chp15-p365-memmo-0043,chp-15:15_CHP-15_sec_ii:l6-12,cand-1650,eighty-eight statues,3050,3070,
+m-chp15-p365-memmo-0043,chp-15:15_CHP-15_sec_ii:l6-12,cand-12456,eighty-eight statues,3050,3070,"S3/S2 referent correction 2026-10-29: this phrase denotes the planned Prà statue programme, not Memmo’s oval urban-planning scheme."
 m-chp15-p365-memmo-0044,chp-15:15_CHP-15_sec_ii:l6-12,cand-8107,Venetian Enlightenment,3175,3197,The phrase begins with ‘the’ at the p.365 page break; the content-bearing name is anchored on p.366 continuation line L11 in the Markdown segment.
 m-chp15-p365-memmo-0045,chp-15:15_CHP-15_sec_ii:l6-12,cand-12230,Only nobles,3199,3210,Generic noble class in the p.365-366 statue eligibility rules; not identified as exclusively Venetian.
 m-chp15-p365-memmo-0046,chp-15:15_CHP-15_sec_ii:l6-12,cand-10479,"Neu-Mayr, 1807",3262,3276,Printed footnote 2 continues here; note 2’s opening citation is at consolidated L92.
@@ -22070,19 +22066,9 @@ m-chp15-p366-memmo-0001,chp-15:15_CHP-15_sec_ii:l14-28,cand-3944,city,10,14,Clos
 m-chp15-p366-memmo-0002,chp-15:15_CHP-15_sec_ii:l14-28,cand-10489,important churchmen,129,148,
 m-chp15-p366-memmo-0003,chp-15:15_CHP-15_sec_ii:l14-28,cand-10490,university teachers,200,219,
 m-chp15-p366-memmo-0004,chp-15:15_CHP-15_sec_ii:l14-28,cand-12230,nobles,119,125,Generic noble class in the statue eligibility rules; the passage does not specify a Venetian or Paduan boundary.
-m-chp15-p366-memmo-0005,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,opportunity to raise a statue,277,306,
 m-chp15-p366-memmo-0006,chp-15:15_CHP-15_sec_ii:l14-28,cand-12232,the rich,339,347,Source-defined wealthy contributor class that Memmo reportedly did not want to be the only group with access.
-m-chp15-p366-memmo-0007,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,precious marbles,352,368,
-m-chp15-p366-memmo-0008,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,famous sculptors,373,389,
-m-chp15-p366-memmo-0009,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,135 zecchini,511,523,
-m-chp15-p366-memmo-0010,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,150,557,560,
-m-chp15-p366-memmo-0011,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,standard of quality,572,591,
 m-chp15-p366-memmo-0012,chp-15:15_CHP-15_sec_ii:l14-28,cand-12234,a committee,612,623,Unnamed committee appointed to enforce the scheme's statue-quality standard.
-m-chp15-p366-memmo-0013,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,The same kind of stone,669,691,
-m-chp15-p366-memmo-0014,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,inscriptions,727,739,
-m-chp15-p366-memmo-0015,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,Latin,751,756,
-m-chp15-p366-memmo-0016,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,pedestals,841,850,
-m-chp15-p366-memmo-0017,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,the scheme,912,922,
+m-chp15-p366-memmo-0017,chp-15:15_CHP-15_sec_ii:l14-28,cand-12456,the scheme,912,922,"S3/S2 referent correction 2026-10-29: this phrase denotes the planned Prà statue programme, not Memmo’s oval urban-planning scheme."
 m-chp15-p366-memmo-0018,chp-15:15_CHP-15_sec_ii:l14-28,cand-10484,a statue,935,943,The proposed work offered to inaugurate the scheme.
 m-chp15-p366-memmo-0019,chp-15:15_CHP-15_sec_ii:l14-28,cand-1642,Memmo himself,886,899,
 m-chp15-p366-memmo-0020,chp-15:15_CHP-15_sec_ii:l14-28,cand-0104,Francesco Andreosi,959,977,The p.366 index subentry identifies this candidate with the statue of Antenor; S3 alignment remains pending.
@@ -22099,24 +22085,20 @@ m-chp15-p366-memmo-0030,chp-15:15_CHP-15_sec_ii:l14-28,cand-10487,a fourteenth c
 m-chp15-p366-memmo-0031,chp-15:15_CHP-15_sec_ii:l14-28,cand-1642,he had turned down their proposal,1344,1377,‘he’ is Andrea Memmo; the proposal was that he himself be represented.
 m-chp15-p366-memmo-0032,chp-15:15_CHP-15_sec_ii:l14-28,cand-1642,he himself,1383,1393,
 m-chp15-p366-memmo-0033,chp-15:15_CHP-15_sec_ii:l14-28,cand-10502,new Athens,1563,1573,Poetic comparison reported by Haskell; not a literal place identity.
-m-chp15-p366-memmo-0034,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,19 statues,1593,1603,
+m-chp15-p366-memmo-0034,chp-15:15_CHP-15_sec_ii:l14-28,cand-12456,19 statues,1593,1603,"S3/S2 referent correction 2026-10-29: this phrase denotes the planned Prà statue programme, not Memmo’s oval urban-planning scheme."
 m-chp15-p366-memmo-0035,chp-15:15_CHP-15_sec_ii:l14-28,cand-1642,Memmo left,1614,1624,
 m-chp15-p366-memmo-0036,chp-15:15_CHP-15_sec_ii:l14-28,cand-10492,Ambassador,1643,1653,
 m-chp15-p366-memmo-0037,chp-15:15_CHP-15_sec_ii:l14-28,cand-10491,Constantinople,1657,1671,
 m-chp15-p366-memmo-0038,chp-15:15_CHP-15_sec_ii:l14-28,cand-10498,another six,1702,1713,The source’s syntactic relation to the preceding 19 statues is retained as uncertain.
 m-chp15-p366-memmo-0039,chp-15:15_CHP-15_sec_ii:l14-28,cand-4490,Rome,1717,1721,
 m-chp15-p366-memmo-0040,chp-15:15_CHP-15_sec_ii:l14-28,cand-3960,Prato della Valle,1745,1762,OCR reads Prato; p.366 print reads Prà della Valle.
-m-chp15-p366-memmo-0041,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,Debts,1794,1799,
 m-chp15-p366-memmo-0042,chp-15:15_CHP-15_sec_ii:l14-28,cand-11529,the councillors,1810,1825,Unidentified councillors; kept distinct from the City of Padua civic-body candidate.
-m-chp15-p366-memmo-0043,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,work,1851,1855,
 m-chp15-p366-memmo-0044,chp-15:15_CHP-15_sec_ii:l14-28,cand-1642,Memmo remained,1898,1912,
-m-chp15-p366-memmo-0045,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,put up statues,1981,1995,
 m-chp15-p366-memmo-0046,chp-15:15_CHP-15_sec_ii:l14-28,cand-11527,his friends,1966,1977,"Unidentified friends; retained as a group endpoint, not mapped to Memmo."
 m-chp15-p366-memmo-0047,chp-15:15_CHP-15_sec_ii:l14-28,cand-1642,his plans,2069,2078,
 m-chp15-p366-memmo-0048,chp-15:15_CHP-15_sec_ii:l14-28,cand-2532,Giuseppe Subleyras,2088,2106,
 m-chp15-p366-memmo-0049,chp-15:15_CHP-15_sec_ii:l14-28,cand-8108,the nobility,2193,2205,
 m-chp15-p366-memmo-0050,chp-15:15_CHP-15_sec_ii:l14-28,cand-10493,the Pope,2272,2280,The passage does not name the Pope.
-m-chp15-p366-memmo-0051,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,a statue,2297,2305,"A general contribution to the scheme, not an identified individual work."
 m-chp15-p366-memmo-0052,chp-15:15_CHP-15_sec_ii:l14-28,cand-1397,Grand Duke of Tuscany,2311,2332,"The p.366 index names Leopold I; the passage itself gives only the title, to be checked at S3."
 m-chp15-p366-memmo-0053,chp-15:15_CHP-15_sec_ii:l14-28,cand-1893,Petrarch,2346,2354,
 m-chp15-p366-memmo-0054,chp-15:15_CHP-15_sec_ii:l14-28,cand-1105,Galileo,2359,2366,
@@ -22127,11 +22109,9 @@ m-chp15-p366-memmo-0058,chp-15:15_CHP-15_sec_ii:l14-28,cand-10495,engraved,2440,
 m-chp15-p366-memmo-0059,chp-15:15_CHP-15_sec_ii:l14-28,cand-10494,Subleyras’s drawing,2449,2468,
 m-chp15-p366-memmo-0060,chp-15:15_CHP-15_sec_ii:l14-28,cand-2089,Don Vincenzo Radicchio,2512,2534,
 m-chp15-p366-memmo-0061,chp-15:15_CHP-15_sec_ii:l14-28,cand-10495,the engraving,2566,2579,
-m-chp15-p366-memmo-0062,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,the original eighty-eight,2662,2687,
-m-chp15-p366-memmo-0063,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,fifty-three,2719,2730,
-m-chp15-p366-memmo-0064,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,in situ,2744,2751,
+m-chp15-p366-memmo-0062,chp-15:15_CHP-15_sec_ii:l14-28,cand-12456,the original eighty-eight,2662,2687,"S3/S2 referent correction 2026-10-29: this phrase denotes the planned Prà statue programme, not Memmo’s oval urban-planning scheme."
+m-chp15-p366-memmo-0063,chp-15:15_CHP-15_sec_ii:l14-28,cand-12456,fifty-three,2719,2730,"S3/S2 referent correction 2026-10-29: this phrase denotes the planned Prà statue programme, not Memmo’s oval urban-planning scheme."
 m-chp15-p366-memmo-0065,chp-15:15_CHP-15_sec_ii:l14-28,cand-1642,Memmo’s reputation,2753,2771,
-m-chp15-p366-memmo-0066,chp-15:15_CHP-15_sec_ii:l14-28,cand-1650,expert and patron,2778,2795,
 m-chp15-p366-memmo-0067,chp-15:15_CHP-15_sec_ii:l14-28,cand-1204,The Duke of Gloucester,2832,2854,
 m-chp15-p366-memmo-0068,chp-15:15_CHP-15_sec_ii:l14-28,cand-3944,Padua,2862,2867,
 m-chp15-p366-memmo-0069,chp-15:15_CHP-15_sec_ii:l14-28,cand-1204,he fell ill,2875,2886,

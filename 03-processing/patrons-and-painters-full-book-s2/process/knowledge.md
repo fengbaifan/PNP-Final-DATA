@@ -18490,3 +18490,69 @@ cand-6212由“SS. Apostoli”位置候选按第6章p.154的明确写法对齐�
 三条formal作者边均不表示已查阅文献。对应注释及书目statement的S2 `relation_candidate=false`状态保留，未额外建立`cites`边；本批没有反证，因此没有`rejected`决定。尚待解决的题材、比较评价和雕像端点均明确留在process-only pending，后续取得作品身份或忠实关系谓词后再重开。`candidate-backlog.csv`不重复登记已有候选。
 
 **定向写回与验证。** 新卡、Robert Enggass人物卡按预览渲染共4张；写后字节核验通过。`build_cards.py`预览显示3条预期的`authored_by`边及人物卡反向投影；`build_field_facts.py`预检20行，0条`unverified`、0重复、0警告。S2 statements、mentions及9,622条统一复核记录本批无变化；S2 ID／来源版本核平、独立语义复核和全书S6历史台账核平仍未完成。本批定向机械校验不构成阶段接收。
+
+<a id="s3-s4-s6-pra-della-valle-plan-statue-scope-20261029"></a>
+### 第10、15章 Prà 规划指代纠正、跨章身份分组与直接关系裁决（2026-10-29）
+
+**原文与纠错。** 第10章印刷页325注3及上下文把1782年在Padua实施的方案称为“a scheme very similar to the one he was calling for”，注释指向第15章；这里“the one”指向Memmo在Prà提出的规划，1782年的方案只与之相似。第15章印刷页365 L8称Memmo绘制“an oval plan, based on the Colosseum”；L9–10另述为雕像筹款、订制和安置设计的项目，并称需88尊；p.366 L17–23叙述具体雕像和实施进度；p.367 L30–36述质量与风格差异。S0来源原文未改写。
+
+此前`cand-1650`以索引`M.csv#190`父条目“Memmo, Andrea”作为候选名，且S3未决记录以“no verifiable S2 body mention”为由；这个理由错误：第10章交叉注和第15章正文均有直接指代与实体提及。将候选改名为“Andrea Memmo’s plan for Prà della Valle”，并把原裁决`undecided`改为`new`。为避免把名称相近的方案并为同一对象，分别保留以下身份：
+
+| 候选 | 当前决定／跨章组 | S4去向 | 边界 |
+|---|---|---|---|
+| `cand-1650` | `new`；`workgrp-andrea-memmo-pra-della-valle-plan` | `units/works/andrea-memmo-pra-della-valle-plan` | Memmo的Prà椭圆城市规划；1782年相似方案不并入。 |
+| `cand-12456` | 新增`new`；`workgrp-pra-della-valle-statue-series-88` | `units/works/pra-della-valle-statue-series-88` | 围绕中央岛的雕像项目；88是原文计划数量，成员表不封闭，也不表示全部完成。 |
+| `cand-10494` | 既有`new`身份组不变 | `units/works/subleyras-pra-della-valle-plan-drawings` | Subleyras绘制的plans图稿组；与规划本身、Piranesi后来刻制的单张drawing分开。 |
+| `cand-10486` | 既有`new`雕像身份组不变 | `units/works/statue-of-azzo-marchese-deste-pra-della-valle` | Azzo雕像保留独立作品身份；本批仅依据其在早期雕像序列中的位置建立项目组成关系。 |
+| `cand-5766` | 既有`new` place组`sg3-place-cand-5766`不变 | `units/places/colosseum` | 第4章引文与第15章所称Colosseum同为地点；不推断任何具体图稿描绘它。 |
+| `cand-2769` | 原`new`改为`same`；`sg3-ku-units-places-vicenza` | 复用`units/places/vicenza` | 跨第9、10、14、15、20章的12处提及均为城市Vicenza；不另建同名地点KU。 |
+
+原`cand-1650`下31条mention中，8条计划中的雕像项目提及转到`cand-12456`，20条非实体属性提及移出实体mention表，3条城市规划提及留在`cand-1650`。本批有41条statement JSON记录发生当前版本变化，涉及端点重指、错误端点清空、待证理由补记和两条王室订阅statement的身份限定更新；这些当前版本须独立复核，不计入既有9,622条。第10章statement继续把`cand-1650`作为1782年相似方案的比较参照；没有把1782方案改写成同一work。另将`st-chp15-p367-results-difficult-to-assess`的主语与提及候选改为既有地点`cand-3960`，不再指向作品规划。
+
+**S3未决对象的明确去向。** 未具名的Abate Cerato（`cand-0623`）、Antenor雕像及人物（`cand-10484`／`cand-10483`）、Memmo祖先雕像及人物（`cand-10488`／`cand-10487`）、“another six in Rome”（`cand-10498`）、游客（`cand-11528`）、议员（`cand-11529`）、委员会（`cand-12234`）、商人／中央岛使用者（`cand-12228`）及Memmo的朋友群（`cand-11527`）均保留S3 `undecided`，分别留在`bl-0070`–`bl-0080`。没有姓名、类型、作品成员边界或地点端点依据时，不新建KU或正式边。`cand-12229`的donor是规则中的泛称角色而非已识别行动者，继续S3 `undecided`；候选记录保留，不将抽象资格规则登记成个体关系。`cand-12230`、`cand-12231`及`cand-10489`仍是各自的S3 `new`术语候选；它们在资格规则statement中出现，但原文没有命名的presenter端点，本批不为建立虚假关系而登记KU。
+
+**S6逐项裁决与历史影响。** 下表逐条覆盖修订前直接带有`cand-1650`的37个`relation_candidate=true` statements。`formal`仅表示表列关系；同一statement的其他动作、比较或解释仍按表中边界保持pending或不建边。关系表是正式边权威；pending或rejected但无可写关系行的判断保存在本过程。既有formal行未被改写。
+
+| S2 statement | 去向 | 理由／关系记录 |
+|---|---|---|
+| `st-chp10-p325-haskell-says-memmo-implemented-similar-padua-scheme` | pending | `cand-1650`是1782年方案的比较参照，不是该方案本身；新方案未独立识别，且相似性不是受控关系边。 |
+| `st-chp15-p365-memmo-reclamation-canal-island` | pending | 人物与广场端点可定位，但现有谓词不能忠实表达Memmo决定的土地改造及筑渠行动；不以物理位置边替代。 |
+| `st-chp15-p365-memmo-oval-plan-colosseum` | formal＋pending | 新增`rel-2580 designed_by`（规划→Memmo）；“based on the Colosseum”保留为来源断言，当前受控`inspired_by`不接受work→place，其他谓词也不忠实表达此依据关系。 |
+| `st-chp15-p365-memmo-summoned-cerato-to-implement-plan` | pending | `cand-0623`仍未识别到S4人物KU，且“summoned to implement”无可准确替代谓词；留`bl-0070`。 |
+| `st-chp15-p365-commercial-not-religious-or-family-glory-motive` | rejected（不建边） | 这是对项目动机的解释，不是两个知识元间的关系事实；S2主张保留。 |
+| `st-chp15-p365-subscriptions-for-statue-series` | formal＋pending | 新增`rel-2582 part_of`（雕像项目→总体规划）与`rel-2583 intended_for`（项目→Prà地点）。邀请公众认捐的行为本身仍pending：没有具名认捐者，也不能从subscription推出已完成付款。 |
+| `st-chp15-p365-lodoli-plan-functional-commercial` | rejected（不建边） | “严格功能性／商业创意”是对项目的属性评价，不是关系边。 |
+| `st-chp15-p365-statue-foundations-strengthen-canal-banks` | pending | 运河岸基础与加固效果没有独立端点KU，受控谓词也不能表达该功能关系；不把它当雕像个体位置。 |
+| `st-chp15-p365-statues-as-civic-virtue-gallery` | pending | 纠正错误对象`cand-8107`，清空`object_candidate_id`；公民美德是雕像项目的教育目的，需忠实概念和关系类型后再裁决。 |
+| `st-chp15-p365-pra-plan-inspired-by-bologna-vicenza` | pending | 此statement实际只称Bologna的建筑实例；`cand-3398`是城市而非被识别的建筑作品，不能作为城市级`inspired_by`边。 |
+| `st-chp15-p365-plan-inspired-by-vicenza` | pending | `cand-2769`现复用Vicenza城市KU；原文指城中的建筑实例，未识别具体作品，故不建立城市级设计影响边。 |
+| `st-chp15-p365-memmo-representation-eligibility-partial` | rejected（不建边） | 这是谁可被表现的资格限制，不是已发生的人物—作品关系；相关类别候选不映射为实际人物。 |
+| `st-chp15-p365-memmo-central-island-for-traders` | pending | 规划特征与使用者类别`cand-12228`尚未形成可用KU和关系边界；留`bl-0080`。 |
+| `st-chp15-p365-pra-opposition-negotiation` | rejected（不建边） | 叙述项目需克服反对并经协商说服，未识别反对者或具体事件，不建立抽象参与边。 |
+| `st-chp15-p365-pra-fundraising-required` | rejected（不建边） | 筹资是项目要求，不是独立关系事实。 |
+| `st-chp15-p365-statue-donor-choice` | rejected（不建边） | 这是捐赠规则；没有具体donor、statue subject或artist，S3 `cand-12229`继续未决。 |
+| `st-chp15-p365-memmo-pupil-of-lodoli` | 保持既有formal | 既有`rel-0013 trained_by`记录Memmo受Lodoli教导；其身份和谓词不因本批计划分组而改变。 |
+| `st-chp15-p366-eligible-presenters` | rejected（不建边） | 贵族可署名呈献是资格规则，不表示某位贵族实际呈献某像。 |
+| `st-chp15-p366-eligible-churchmen` | rejected（不建边） | 重要教士是可呈献的类别，不是已识别行动者或关系端点。 |
+| `st-chp15-p366-eligible-old-professions` | rejected（不建边） | 大学教师等职业属于规则类别，不据此建立work关系。 |
+| `st-chp15-p366-memmo-not-only-rich` | rejected（不建边） | 这是可及性目标，不是已发生的赞助或呈献边。 |
+| `st-chp15-p366-poets-new-athens` | rejected（不建边） | “新雅典”是诗人反问式比喻，不是地点身份或图谱关系。 |
+| `st-chp15-p366-another-six-in-rome-ambiguous` | pending | “another six in Rome”无法判断是否属于Prà系列或为独立组；`cand-10498`留`bl-0075`，不并入88尊范围。 |
+| `st-chp15-p366-memmo-urges-friends-for-statues` | pending | “friends”未具名且无确定类型；候选`cand-11527`留`bl-0078`。 |
+| `st-chp15-p366-pope-and-visitors-contribute` | pending | 项目端点已映射，但游客是未识别群体，个体雕像也未定位；留`bl-0076`。 |
+| `st-chp15-p366-poland-sweden-subscriptions` | pending（复核既有裁决） | 波兰国王及瑞典国王现分别对齐到Poniatowski、Gustav III；沿用历史pending：订阅不证明款项已付或对应哪尊雕像。 |
+| `st-chp15-p366-committee-appointed-for-quality` | pending | 未名质量委员会`cand-12234`无身份或所属机构证据，留`bl-0079`。 |
+| `st-chp15-p366-councillors-objected-to-expense` | pending | `cand-11529`议员群体未识别，也不等同City of Padua机构；留`bl-0077`。 |
+| `st-chp15-p366-memmo-proposed-subjects-to-friends` | pending | 提议对象不明且朋友群未识别；沿用`cand-11527`／`bl-0078`，不从文本描述推出formal委托。 |
+| `st-chp15-p366-memmo-remained-enthusiastic-in-rome` | rejected（不建边） | 热忱是人物态度，不是Memmo与项目间的受控关系。 |
+| `st-chp15-p366-memmo-spread-ideas` | rejected（不建边） | “传播想法”未说明具体接收人、作品或可用受控影响关系；保留原断言。 |
+| `st-chp15-p366-subleyras-drew-pra-plans` | 保持既有formal | 既有`rel-1707 created_by`记录Subleyras为图稿组绘制者。本批另加`rel-2584 visualized_in`连接规划与plans组；不把后文单数drawing认作组内某张具体图。 |
+| `st-chp15-p366-king-of-sweden-subscribed` | pending（复核既有裁决） | `cand-1283`现对齐Gustav III；沿用历史pending，订阅不等于已完成贡献或具体雕像归属。 |
+| `st-chp15-p367-prato-utilitarian-basis-tribute-to-lodoli` | rejected（不建边） | 这是Haskell对Lodoli影响的解释，不据此建立计划与人物间的历史事实关系。 |
+| `st-chp15-p367-panegyric-praise-and-memmo-dissatisfaction` | rejected（不建边） | 该statement记录颂词的评价内容，不足以形成work与项目KU间的受控关系。 |
+| `st-chp15-p367-memmo-dissatisfied-with-progress` | rejected（不建边） | 不满是人物态度，不能转写为人物—项目正式边。 |
+| `st-chp15-p367-patronage-and-speed-caused-variation` | rejected（不建边） | 这是Haskell关于质量与风格变化的因果解释；保留S2，不把抽象赞助和速度因素强行实体化。 |
+
+另有历史pending `st-chp15-p366-subleyras-plans-displayed`继续待证：原文只说图稿挂在Memmo的apartments，没有可识别地点KU；不改写为图稿位于人物KU。候选`cand-10484` Antenor像的呈献、制作者、题材三项关系，`cand-10488`祖先像呈献与`cand-10487`人物题材，以及“another six”均保留pending；尚无对应works身份时不建边。现有Azzo `rel-1702`、`rel-1703`、`rel-1704`及Subleyras `rel-1707`不撤销或替换。
+
+**S5、验证与交接。** 三张新卡按Haskell原书建立，S5新增5条`source_backed`字段（规划形制、雕像项目计划数量、1777与1786年进度、来源所述风格差异）；未加入外部验证事实。`relations.csv`新增`rel-2580`–`rel-2585`共6条formal边。涉及的当前S2版本需另行独立语义复核，9,622项统一复核台账不因本批增加。S2 statement数量、来源版本核平和历史S6裁决分母仍待全书核对；本批不宣称S2接收或S3–S6全书收口。

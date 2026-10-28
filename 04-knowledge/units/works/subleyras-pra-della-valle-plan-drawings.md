@@ -45,6 +45,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 创作者（`created_by`） | [朱塞佩·苏布莱拉斯（Giuseppe Subleyras）](../persons/giuseppe-subleyras.md) | Haskell says Subleyras drew the plans. The KU represents the source-defined plan group; no count, title, or individual sheet is claimed.；角色：draughtsman；范围：Haskell’s plans for Memmo’s Prà scheme；证据：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；Chapter 15, printed p.366, L20–21; statement=st-chp15-p366-subleyras-drew-pra-plans |
+| ← visualizes（`visualizes`，反向投影） | [安德烈亚·梅莫的普拉广场规划（Andrea Memmo’s plan for Prà della Valle）](andrea-memmo-pra-della-valle-plan.md) | Haskell says Memmo had his plans drawn by Giuseppe Subleyras. The relation connects the plan and source-defined drawing group without identifying an individual sheet or equating it with Piranesi's engraving source.；角色：source-mentioned drawings；范围：Memmo's plans drawn by Subleyras; the particular sheet later engraved by Piranesi is not identified within this group；原断言与证据见发出端卡片“安德烈亚·梅莫的普拉广场规划（Andrea Memmo’s plan for Prà della Valle）”：[来源](../../../02-sources/02-Markdown/15_CHP-15_sec_ii.md)；haskell-1980-rev-ed；Chapter 15, printed p.366 L20-L22; statement=st-chp15-p366-subleyras-drew-pra-plans |
 
 ### 身份与外部链接
 
