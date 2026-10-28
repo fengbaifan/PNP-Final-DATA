@@ -13724,3 +13724,11 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 - 本文件先前 p.185 记录将两项误归 Mazarin，作为历史审读记录保留，以本更正为准；历史分类脚本 `classify_chp7_seci_p185_l205_213_relation_candidates_20261013.py` 同样含旧解释，不应作为当前判断重新运行。旧对齐注记中提及该 mention 的历史快照不改写；当前映射以 `mentions.csv` 为准。
 - 检索 `relations.csv` 和过程 Markdown，未发现直接引用这两个 statement ID 的既有正式边或 S6 裁决；这一检索不证明不存在所有间接受影响的关系。`cand-7092` 为来源限定 new、尚待登记，`cand-1999` 为 undecided；两项委托关系待对象身份及 KU 端点成立后逐项裁决，不计入已裁决数。
 - 两条当前 statement 及两条 mention 的本次修改尚待独立差异复核，不增加统一复核台账。与9,622条台账首次出现时的基线 `1a6313c8654280a9b71187fc08522098626e734e` 按ID比较，当前为新增30、同ID内容变化46、删除1；此机械差异不等于未复核数。
+
+
+<a id="s2-ch13-p333-gozzi-print-20261028"></a>
+### 第13章p.333 Gozzi姓名印本校读（2026-10-28）
+
+直接查看 `02-sources/01-book/CHP-13.pdf` physical p.2、印刷p.333：代理人姓名印为“Gasparo Gozzi”；S0 Markdown L19和原始mention表面写作“Gaspara Gozzi”，是OCR字母误识别。保留S0、`original_quote`和mention表面及字符跨度；在 `st-chp13-p333-barbarigo-1765-pamphlet-instructions-through-gozzi` 的claim、speaker、qualification与ocr_corrections记录印本读法，并修正mention描述。Roberti 1900 pp.326–35未独立查阅；引文继续为Haskell转引，不扩大为通行印刷合约。
+
+与统一复核台账首次出现的基线 `1a6313c8654280a9b71187fc08522098626e734e` 比较：当前新增30、删除1、同ID变化47；本条当前statement和mention版本须独立差异复核，不增加9,622条复核数。
