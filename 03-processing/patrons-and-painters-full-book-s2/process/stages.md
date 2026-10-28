@@ -13751,3 +13751,15 @@ S2 statement为同ID内容变化，mention新增1条；9,622条统一独立复�
 对读 `CHP-14.pdf` PDF物理页3、印刷页349注3，扫描印字明确为“12 April 1738”；S0 Markdown L176和此前S2 statement写作“12 April 1758”。因此把 `st-chp14-p349-note3-albrizzi-issue` 当前claim中的年份由1758改为1738，并新增精确的 `ocr_corrections` 依据。原 `original_quote`、S0转录、mention表面及字符跨度均保留，不将校读冒充为原始OCR。将期号候选 `cand-10261` 同步改名为1738年4月12日号；其S3 `new`决定与身份组不变，当前未发现可复用的同刊同日archive对象。
 
 该statement、候选和alignment注记已关联到单独的1738年4月12日期号archive卡；不与《Novelle》期刊本体或1736年9月8日期号合并。原书只由Haskell转引该刊警示，刊物原件未读；目标作品候选 `cand-10258` 仍为S3 `undecided`，`warned_readers_about` 不是受控谓词，所以相关S6保持process-only pending。当前关系账本无该statement formal行，本批不新增或改写历史裁决。S2统一复核台账9,622不变，此修订后的statement版本等待独立差异复核；详见[关系与S4记录](knowledge.md#s2-s4-s6-ch14-p349-novelle-issue-1738-20261028)。
+
+
+<a id="s2-version-diff-reconciliation-9622-20261028"></a>
+### S2版本差异与既有独立审读核平（2026-10-28）
+
+以9,622条统一复核计数首次出现的基线提交 `1a6313c8654280a9b71187fc08522098626e734e`（2026-10-27）对当前提交 `cfd1c428` 的 `book-statements.jsonl` 解析后完整对象逐 `statement_id` 比较：基线15,451、当前15,480；新增30、删除1、同ID内容变化49，共有80个ID与基线不同。49条同ID变化的章节分布为：第10章11、第7章6、第8章5、第2章8、第18章4、第3章4、第13章2、第6章2、第5章2、第14/20/21/章9章各1，另有1条非标准章节前缀。此重算更新前文41、43、44、46、47等历史快照数；那些数值保留为当时状态，不再代表当前版本。
+
+对 `process/` 中现存的S2逐条独立复核Markdown核对到：第6章p.162的 `st-chp6-p162-v1-12` 与 `st-chp6-p162-tribune-part-of-santa-maria-maggiore` 当前对象与复核提交 `a98887c3` 逐字段相同，来源Markdown自该复核后未变，可追溯为现版本独立审读。第2章复核记录列有7条当前变化statement（`st-chp2-secii-l52-60-programme-duration`、`st-chp2-secii-l80-89-country-house-decoration-employed`、`st-chp2-secii-l80-89-pietro-interpreted-decoration-themes`、`st-chp2-seciv-l139-152-montagu-points-author-to-tessin-account`、`st-chp2-seciv-l139-152-tessin-account-locator-and-date`、`st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned`、`st-chp2-secvii-l3-3-parma-consequences-fragment`），第18章记录列有3条（`st-chp18-conclusion-p384-bamboccianti`、`st-chp18-conclusion-p384-crespi-and-medici-prince`、`st-chp18-conclusion-p384-social-demands-and-originality`）；这10条现行完整对象均不同于其复核记录提交时的对象，旧审读不能覆盖当前版本，须做独立差异复核。另37条同ID变化未在现存逐条复核Markdown中定位；新增30条亦不在基线版本。它们是否已被纳入9,622总数不能仅凭总数判断，需取得或重建行级ID／来源版本台账后核验，当前不宣称已复核或未复核。
+
+结果文件此前提到的“近期21条”在已检查的受版本控制结果与过程记录中没有逐项ID清单；因此无法可靠计算它与新增30、变化49及已定位复核记录的交集。不得把21与79相加为未审量。删除的旧ID为 `st-chp2-seciv-l190-245-rest-flight-owned-by-rospigliosi`；它的现行替代statement及原文错位理由见本文件上方第2章p.57注3记录，台账是否曾收录该旧ID仍待行级核验。
+
+对当前代词更正另查：`st-chp13-p334-albrizzi-edited-weekly-bulletin` 没有 `relations.csv` 正式边；当前过程裁决保持pending，未发现需撤销或重写的既有S6正式决定。相关process-only pending理由见[关系影响记录](knowledge.md#s2-s6-ch13-p334-novelle-anaphor-20261028)。本次差异核平不改statement、mention、9,622计数或任何S6决定；同代理的版本比对不构成独立语义复核，全书S2仍未接收。

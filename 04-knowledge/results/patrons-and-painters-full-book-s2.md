@@ -6,7 +6,9 @@
 
 **本批完成：第13章 Zanetti 1736 年购藏记端点。** 按 p.341 注4扫描校读完整题名（S0 OCR 的 `Pncipe` 更正为印本 `Principe`，未改来源本体）；保留 `cand-10201` 的既有 `archive-group-8dedf989f735`，作为题名级文本身份登记，不推断载体或是否属于 `Cod. CXVI, 7356`。新增6条Haskell来源支持字段及 `rel-2559 authored_by`；同注两个未识别作品/作者关系候选保持process-only pending，并新增 `bl-0060`、`bl-0061`。相关卡渲染后复预览无差异；没有改动S2 statement、mention或独立复核台账。详见[身份与关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp13-zanetti-memorie-1736-20261028)。
 
-**当前机械快照（2026-10-28，按本批后实表核算）：** S2为15,480条statement、26,874条mention；统一复核台账9,622条，版本差异与重叠尚未核平，本批不构成独立语义接收。S3候选12,433项，主决定same 2,120、new 5,096、conflict 8、excluded 106、undecided 5,103；28个候选仍有不同来源决定。S4已映射2,537/5,096个new，尚有2,559个待登记；其中按主决定且确为S2主客体端点统计，901个仍未映射（term 400、work 134、place 128、archive 117、event 72、institution 49、person 1）。S4实际KU 3,316。S5共14,774行（1,632条unverified）。`relations.csv`有2,557行（2,516 formal、41 pending）；历史S6裁决表与当前statement版本仍未核平，故不据此计算可靠覆盖率。`candidate-backlog.csv`共61行，pending=0；`bl-0059`、`bl-0060`、`bl-0061`均保留明确undecided端点。严格表审计另有S4待映射与S2语义质量提示；这些机械数字不代表语义接收。
+**本批完成：第3章 Gaulli《圣方济各·沙勿略之死》祭坛画及原定祭坛端点。** 沿用 `cand-5347`、`cand-5340` 的既有 `new` 身份组，新增2个KU及5条Haskell书内字段；`rel-2560 created_by` 与 `rel-2561 intended_for` 依第3章p.88原文裁为formal。保留印本“Giacomo. Gaulli”字样，不作外部作品目录核验；不与Maratta同名作品或S. Andrea高祭坛合并。两幅未名场景 `cand-5342` 仍为待证，本批无S2改动。详见[身份与关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp3-gaulli-xavier-altarpiece-20261028)。
+
+**当前机械快照（2026-10-28，按本批后实表核算）：** S2为15,480条statement、26,874条mention；统一复核台账9,622条，版本差异与重叠尚未核平，本批不构成独立语义接收。S3候选12,433项，主决定same 2,120、new 5,096、conflict 8、excluded 106、undecided 5,103；28个候选仍有不同来源决定。S4已映射2,539/5,096个new，尚有2,557个待登记；其中按主决定且确为S2主客体端点统计，899个仍未映射（term 400、work 133、place 127、archive 117、event 72、institution 49、person 1）。S4实际KU 3,318。S5共14,779行（1,632条unverified）。`relations.csv`有2,559行（2,518 formal、41 pending）；历史S6裁决表与当前statement版本仍未核平，故不据此计算可靠覆盖率。`candidate-backlog.csv`共61行，pending=0；`bl-0059`、`bl-0060`、`bl-0061`均保留明确undecided端点。严格表审计另有S4待映射与S2语义质量提示；这些机械数字不代表语义接收。
 
 **本批更正：第13章p.334《Novelle》编辑者代词。** 将 `he himself edited` 按最近的并列主语由Giambattista调整为Almorò Albrizzi；原引文不变，新增一条anaphoric mention。Treccani区分两兄弟的出版／编辑记录，但未独立解决Haskell所述编辑职责；相关S6关系继续pending，S2当前版本待独立差异复核，不增加9,622条台账。详见[S2校读](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)及[关系影响](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s6-ch13-p334-novelle-anaphor-20261028)。
 
@@ -48,7 +50,7 @@
 
 **上批完成：朱斯蒂尼亚尼宫邸直接端点。** 沿用`cand-4310`既有`new`组，登记第2章p.29教堂附近的来源限定宫邸KU，新增1条书内支持字段；正式建筑名称及现状未独立核实。两项画家群体关系仍为process-only pending，待群体类型及程度／居住范围解决。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-giustiniani-palace-p29-20261028)。
 
-**上批完成：S2基线版本差异重算。** 当前15,480条与9,622条复核记录首次出现时的版本比较，仍为新增30条、删除1条、同ID变化41条。第10章两条近期锚点修订分别已包含在新增及变化集合中，不能额外累加；两条当前版本仍待独立差异复核，和此前21条清单的重叠尚待核平。详见[版本核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-baseline-9622-20261028)。
+**S2版本核平进展。** 当前15,480条statement与9,622首次计数基线相比，新增30、删除1、同ID变化49。现有逐条复核文档支持2条现行版本；另10条旧审读后内容变化，37条变化及30条新增尚不能与行级复核台账核平。被提及的“近期21条”没有逐项ID清单，交集无法计算；不据总数宣称覆盖或接收。详见[版本差异与审读核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-reconciliation-9622-20261028)。
 
 **上批完成：Damini及Leoni行程方向补全。** 第10章p.281原文指两人从杜塞尔多夫到英格兰，分别新增出发及目的地边`rel-2535`–`rel-2538`；不推定具体年份、目的城镇或同行。修正两条S2 statement对杜塞尔多夫的候选锚点，保留Leoni句中有原文依据的Palladianism术语；两条当前版本待独立差异复核。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-damini-leoni-travel-p281-20261028)。
 

@@ -18322,3 +18322,24 @@ S2 statement、mention及统一独立复核台账均未改变；本批没有S2�
 | `st-chp13-p341-notes-note4-memorie-describes-copper-pastoral-by-epithet` | **process-only pending** | `cand-10203` 仅为 `lo Spagnolo di Bologna`，S3仍 `undecided`；Haskell明确不能据此等同 Crespi。画作无稳定题名/身份，不能建 `created_by` 正式边。新增 `bl-0061` 跟踪未定作者端点。 |
 
 另核 `relations.csv` 与已有过程记录：上述两个statement先前无formal关系行或已记录的否决；本次未撤销或改写历史S6裁决。第一项与第二项均未被事实反证，故不是 `rejected`；除新建作者边外，均留待证。没有新增“Memorie 属于 Cod. CXVI, 7356”关系，因原注未明确该文本与卷册的包含关系。S2 statement、mention及9,622条统一复核台账不变，本批未作S2修订或独立复核。
+
+
+<a id="s3-s4-s5-s6-chp3-gaulli-xavier-altarpiece-20261028"></a>
+### 第3章 p.88 Gaulli祭坛画与预定祭坛端点（2026-10-28）
+
+**原文与身份边界。** 直接查看 `CHP-3.pdf` PDF物理页30、印刷页88及当前S0段 `chp-3:03_CHP-3_sec_iv:l118-128`。印本写作：“Giacomo. Gaulli was an equally obvious choice. In 1676 he painted the Death of St Francis Xavier for the altar dedicated to that saint ...”。保留印本中“Giacomo. Gaulli”的原貌，不把这一姓名问题改写为S0校勘；S2现有作者候选 `cand-1117` 已经由G.csv#24及跨章书内锚点对齐到 Giovanni Battista Gaulli。该身份沿用既有S3决定，未作外部作者或作品核验。
+
+沿用 `cand-5347` 的S3 `new`组 `workgrp-211368442eb758`，登记作品 `units/works/gaulli-death-of-st-francis-xavier`。既有作品 `units/works/maratta-death-of-st-francis-xavier` 同题但由Carlo Maratta绘制，作品身份与作者不同，明确保持分立；本候选不与之复用或合并。沿用 `cand-5340` 的S3 `new`组 `sg3-place-cand-5340`，登记来源所称的圣方济各·沙勿略奉献祭坛 `units/places/altar-dedicated-to-st-francis-xavier`；它既不是同教堂的高祭坛，也不等于较大教堂或礼拜堂空间。未推断实物存续、精确建筑位置或安装状态。作品与地点主决定、组号均未修改。
+
+**S5。** 两张卡新增5项Haskell书内来源字段，均为 `source_backed`；没有外部目录事实或验证状态写回。作品卡把题名作为Haskell称名记录，不宣称馆藏正式题名；地点卡只记录祭坛奉献对象与其作为预定目的地的语境。
+
+**S6逐项裁决。** 目标 `relations.csv` 来源范围未发现与下列statement对应的既有正式边；过程记录与历史说明中也未找到先前撤销或相反裁决。两项均依现行域值域与反向投影规则裁为formal：
+
+| statement | 裁决 | 关系与边界 |
+|---|---|---|
+| `st-chp3-seciv-l118-128-gaulli-painted-death-of-xavier-1676` | formal `rel-2560 created_by` | 作品 → Gaulli；Haskell称其于1676年绘制该作品。仅记录Haskell的书内归属，不是外部作品目录确认。 |
+| `st-chp3-seciv-l118-128-death-altarpiece-for-dedicated-altar` | formal `rel-2561 intended_for` | 作品 → 圣方济各·沙勿略奉献祭坛；原文“for the altar”支持原定地点，不推断已安装、存世或现藏。 |
+
+`st-chp3-seciv-l118-128-gaulli-paid-100-scudi` 的关系候选标记为false，不将未指明的付款者补成边。`st-chp3-seciv-l118-128-gaulli-painted-two-further-scenes` 仍是关系候选，但其作品对象 `cand-5342` 当前为 `undecided`，只有未命名的“两幅更多场景”范围，故不登记KU或正式创作边，继续process-only pending；不将它们并入《Death of St Francis Xavier》单件作品。
+
+两张受影响卡定向预览后渲染，写后复预览无差异；S5预览 `record_changes=0`、`warnings=0`。本批不改S2 statements、mentions或统一独立复核台账；pending的两幅未名场景不因本次登记被关闭。
