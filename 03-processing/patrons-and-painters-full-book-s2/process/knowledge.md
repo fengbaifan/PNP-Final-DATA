@@ -17809,6 +17809,21 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 以上15项的旧标签或旁述标签均不能作为这些候选的当前第二身份组；本次没有删除历史文本、变更S3决定、改写KU、S2或S6。宽口径剩余32项尚待逐条核查，先前筛查报告的13项不能视作已全部解决。后续自动解析须有明确的当前组与历史边界，不能将备注中所有`group=`视为并列当前组。
 
+<a id="s3-plate-works-reuse-20261028"></a>
+### 五件作品的正文—图版身份复用（2026-10-28）
+
+逐项比较索引子项、正文中明确的图版号、图版目录和既有作品KU；五项均由`undecided`改为`same`，原理由保留在alignment备注。本次是原书内部对象身份对齐，不自动确认相关关系、外部归属或年代。
+
+| 候选 | 既有KU | 身份依据与边界 |
+|---|---|---|
+| `cand-1136` | `units/works/orazio-gentileschi-public-felicity-triumphant-over-dangers` | 第7章p.175明确称Public Felicity triumphant over Dangers并指图版25；图版目录25署Orazio Gentileschi、同题名。 |
+| `cand-1425` | `units/works/alessandro-longhi-carlo-lodoli` | 第10章p.322称Longhi为Lodoli画肖像并指图版48c；目录48c署Alessandro Longhi及Carlo Lodoli。后刻版画另为`cand-9765`，不与画作合并。 |
+| `cand-2119` | `units/works/rembrandt-aristotle-contemplating-the-bust-of-homer` | 第8章p.209称Rembrandt的同题画现藏大都会博物馆，p.210指图版35a；目录35a题名、作者和机构相合。 |
+| `cand-2600` | `units/works/tiepolo-neptune-paying-homage-to-venice` | 第9章p.246明确指图版42a；目录42a署Tiepolo并列总督宫。Haskell约1745的日期与既有馆藏记录1757–1758不同，保留来源分歧，不由身份复用裁定年代。 |
+| `cand-2678` | `units/works/valentin-allegory-of-rome` | 第2章p.46称Valentin的同题画并指图版I；目录I作者、题名及图版一致。 |
+
+另检查`cand-2661`：索引T.csv#124及第7章p.185记Alessandro Turchi的《The Death of Cleopatra》；同名既有KU为图版28a的Guido Cagnacci作品，作者与来源不同。仅凭同题不能合并，保留`undecided`，后续按作者、版本及馆藏补证。以上五个已复用候选关联的S6语句仍需逐条裁决，图版身份匹配不自动验证作者以外的委托、地点、解释或历史事件；S2和独立复核台账未变。
+
 #### 余下32项当前组核对
 
 继续逐行核对现行备注中当前组、历史理由与已登记KU。以下每个候选的另一标签均出现在先前裁决或历史理由中；未发现应把它当作该候选第二个当前组的依据。归组结论仍受原来源范围限制，历史备注保留原文：
