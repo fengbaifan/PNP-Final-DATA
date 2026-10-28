@@ -18772,3 +18772,24 @@ S0及页图为依据，本批不改写来源。保留statement ID和历史裁决
 | st-chp14-p352-tiepolo-decorated-villa-cordellina | pending（process-only） | Haskell直接称Tiepolo装饰此建筑；当前受控谓词无忠实的person-to-place装饰角色。三条work installed_at边不代替该关系。 |
 
 **批后状态与验证。** 本记录完成后按当前表格重算S2/S3/S4/S5/S6/backlog；针对六张受影响卡（3张新work、Tiepolo、Carlo Cordellina、Villa Cordellina）执行关系预览与渲染。结构审计与关系一致性仅证明格式、外键和表间约束；S2统一ID/来源版本核平、全书独立语义接收及S6历史裁决分母核平仍未解决。
+<a id="s3-s4-s5-s6-chp2-matilda-tomb-20261029"></a>
+### 2026-10-29：第2章印刷页36 Matilda墓、主浮雕及未定大理石浮雕端点
+
+**原文依据与语义边界。** 核对 Haskell 第2章印刷页36（PDF物理页17；`02_CHP-2_sec_ii.md` OCR L55–56）及扫描页。L55将附近两个对象分开叙述：Urban VIII 对 St Peter’s 的两项 further direct commissions，其中 Bernini 与助手于1633年底开始的大理石浮雕；同句另称 Bernini 同时为 Countess Matilda 设计一座位于右侧走道的墓。L56接着称“the principal relief on the tomb”呈现 Henry IV 在 Canossa 跪于 Gregory VII 面前的场景。故此处有三项不同对象：版本未明的大理石浮雕、墓葬纪念碑、墓的主浮雕。原文图像说明不独立证明 Canossa 历史事件；不把邻近句的大理石材质或 Bernini 与助手的开工信息转给墓主浮雕，也不把墓的设计归属当作主浮雕作者归属。
+
+**S3 跨章身份与S4登记。** 沿用已有 S3 `new`组，不改身份决定及组号：`cand-4420`／`workgrp-873402fbe8c99e`登记为 `units/works/matilda-tomb-st-peters`；`cand-4421`／`workgrp-b4a9e1f3fed11d`登记为 `units/works/matilda-principal-relief-canossa-tomb`；`cand-4422`／`sg3-place-cand-4422`登记为 `units/places/st-peters-right-aisle`。墓与浮雕分作work，右侧走道作place，并与整座大殿及后殿左侧壁龛区分。`cand-4428`复用既有坎诺莎场景事件KU `units/events/canossa-scene-on-matildas-tomb-relief`，其范围只限原书描述的图像场景。`cand-4417`仍为版本不明的大理石浮雕，保留S3 `undecided`，不注册KU；`cand-4419` Countess Matilda 的人物身份亦仍未解决，不映射为现有人物KU。此批不按 Henry IV、Gregory VII 或 Canossa 单名另造端点，也不合并两墓、墓与浮雕或两件浮雕。
+
+**S5 来源字段。** 三张新卡共增加5条Haskell书内字段（`enr-18843`–`enr-18847`）：两件作品各记描述性题名性质，墓与主浮雕各记作品类型，走道记地点性质。主浮雕材质为未载；没有外部版本、实物、现藏或墓葬建成状态资料。
+
+**S6逐项去向。** 新增6条 formal 关系（`rel-2631`–`rel-2636`）：墓 `designed_by` Bernini；墓 `commissioned_by` Urban VIII（与范围句合读，指两项direct commissions之一；无合同、具体日期或Matilda委托）；墓 `located_at` 右侧走道（只表示Haskell的设计位置，不称现址或已建成）；右侧走道 `part_of` St Peter’s Basilica；主浮雕 `part_of` 墓；主浮雕 `has_subject` 来源所述Canossa场景（不是历史核验）。
+
+| S2候选／陈述 | 裁决与去向 | 理由 |
+|---|---|---|
+| `st-chp2-secii-l52-60-matilda-tomb-designed` | formal：`rel-2631 designed_by`、`rel-2633 located_at`；与scope句合读另支持 `rel-2632 commissioned_by` | 分开设计者、直接委托人和原文所述方位；不将“for the Countess”改写为委托人边。 |
+| `st-chp2-secii-l52-60-matilda-relief-depicts-canossa` | formal：`rel-2635 part_of`、`rel-2636 has_subject` | 原文明确称主浮雕“on the tomb”并说明画面；不确定浮雕作者、材质或历史事件真伪。 |
+| `st-chp2-secii-l52-60-marble-relief-started-1633` | pending；端点 `cand-4417` 留 backlog `bl-0091` | 仅有 Bernini 与若干助手于1633年底开始工作的记述；具体作品/版本身份未定，不能形成 created_by。把 Bernini 作为唯一作者的 proposed edge 拒绝。 |
+| `st-chp2-secii-l52-60-relief-location-subject` | pending；同由 `bl-0091` 追踪 | 单条statement合并 intended interior location、Haskell写作时的portico位置、描绘对象及“foundation stone”比喻；当前作品端点又未定。先不写现址、subject或解释性正式边。 |
+| `st-chp2-secii-l52-60-two-further-direct-commissions` | Urban VIII→Matilda墓的 commission formal；对 `cand-4417` 所指另一件commission pending，见 `bl-0091` | 原文范围句明确涵盖两项，但第二件作品身份尚未解决；此句不是 Urban VIII 与 St Peter’s 的独立关系边。 |
+| 墓“for the Countess Matilda”的受益／纪念对象表达 | 不建立 formal person edge；S3人物端点继续 undecided | `cand-4419`身份未明，且“for the Countess”不足以单独支撑 has_subject 或需题记／目录依据的 dedicated_to。作为关系表示问题待证，不否认原文叙述。 |
+
+**受影响项与验证范围。** 批前未见以上Matilda墓及主浮雕statement在 `relations.csv` 的裁决行；本批不改写既有关系历史行，也不改变 S2 statements、mentions、来源版本或9,622条统一独立复核台账。定向检查三张新卡及Bernini、Urban VIII、St Peter’s Basilica、Canossa场景四张既有卡的关系投影；严格表审计、关系一致性和S3/S4/S5/S6/backlog统计在应用后记录于当前结果页。机械检查不等于S2独立语义验收；`cand-4417`、`cand-4419`及其关系仍待决。

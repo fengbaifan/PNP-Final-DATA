@@ -38,3 +38,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 ## 关系与证据
 
 暂无已登记的正式关系。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [玛蒂尔达墓主浮雕：坎诺莎场景（Principal Relief on Matilda’s Tomb: Canossa Scene）](../works/matilda-principal-relief-canossa-tomb.md) | S6 formal; has_subject records the reported depiction only. See 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-matilda-tomb-20261029.；角色：depicted scene on the tomb relief；范围：Haskell says the principal relief showed Henry IV kneeling before Gregory VII at Canossa to convey the implications of Matilda's bequest. This is the work's depicted subject, not independent verification of the historical episode.；原断言与证据见发出端卡片“玛蒂尔达墓主浮雕：坎诺莎场景（Principal Relief on Matilda’s Tomb: Canossa Scene）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；Chapter 2, printed p.36, line 56; PDF physical p.17; statement=st-chp2-secii-l52-60-matilda-relief-depicts-canossa |
