@@ -109,6 +109,7 @@ relations:
 | → 创作者（`created_by`） | [奥拉齐奥·真蒂莱斯基（Orazio Gentileschi）](../persons/orazio-gentileschi.md) | 角色：原书署名作者；范围：图版25；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 78–78; 章前：图版目录；印刷页xiii |
 | → 由其保管（`held_by`） | [卢浮宫博物馆（Louvre Museum）](../institutions/louvre-museum.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版25；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 78–78; 章前：图版目录；印刷页xiii |
 | → 由其供应（`supplied_by`） | [阿格拉西摄影商号（Agraci — Arts Graphiques de la Cité）](../institutions/agraci.md) | 时间：本书图片来源所载时点；角色：本书复制图像供片者；范围：图版25；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 164–164; 章前：图片来源；印刷页xvi |
+| → 由其委托（`commissioned_by`） | [玛丽·德·美第奇（Marie de Medici）](../persons/marie-de-medici.md) | 仅表达Haskell来源限定的委托判断；时间：具体日期未载；角色：来源认为有确证的委托人；范围：Haskell称图版25为Marie de Medici唯一有确证的存世委托；这一限定不排除其他委托曾存在。；证据：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.175 L63; statement=st-chp7-p175-i05 |
 
 ### 关系候选入口
 

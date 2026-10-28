@@ -53,4 +53,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有登记在 `relations.csv` 中的正式关系。S2关系候选 `st-chp10-p322-moscheni-commissioned-longhi-portrait`、`st-chp10-p322-moscheni-friend-of-lodoli` 保留来源归因并留待S6裁决；本次S4身份登记不将其转为正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 委托者（`commissioner_of`，反向投影） | [卡洛·洛多利肖像（Portrait of Carlo Lodoli）](../works/alessandro-longhi-carlo-lodoli.md) | 书内委托陈述；画作与随后雕刻的版画分开；时间：具体日期未载；角色：肖像委托人；范围：Haskell称图版48c肖像由Lodoli的朋友Pietro Moscheni委托；不推定委托日期。；原断言与证据见发出端卡片“卡洛·洛多利肖像（Portrait of Carlo Lodoli）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_sec_ii.md)；haskell-1980-rev-ed；Chapter 10, printed p.322 L182; statement=st-chp10-p322-moscheni-commissioned-longhi-portrait |
+
+S2关系候选 `st-chp10-p322-moscheni-friend-of-lodoli` 保留来源归因并留待S6裁决。

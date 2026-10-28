@@ -17824,6 +17824,28 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 另检查`cand-2661`：索引T.csv#124及第7章p.185记Alessandro Turchi的《The Death of Cleopatra》；同名既有KU为图版28a的Guido Cagnacci作品，作者与来源不同。仅凭同题不能合并，保留`undecided`，后续按作者、版本及馆藏补证。以上五个已复用候选关联的S6语句仍需逐条裁决，图版身份匹配不自动验证作者以外的委托、地点、解释或历史事件；S2和独立复核台账未变。
 
+<a id="s6-plate-works-reuse-20261028"></a>
+### 已复用作品的关系与图版署名端点（2026-10-28）
+
+复读五件作品相应正文、注释与图版后，逐项裁决13条关系候选；新建4条formal边，3项formal复用已有边，6项保留process-only pending：
+
+| statement | 决定与边界 |
+|---|---|
+| `st-chp10-p322-moscheni-commissioned-longhi-portrait` | **formal** `rel-2540 commissioned_by`；图版48c肖像由Pietro Moscheni委托，日期未载，画作与版画不合并。 |
+| `st-chp7-p175-i05` | **formal** `rel-2541 commissioned_by`；Haskell称这是Marie de Medici唯一有确证的存世委托，不排除曾有其他委托。 |
+| `st-chp8-p210-ruffo-bought-three-rembrandt-pictures` | **formal** `rel-2542 acquired_by`；该画为Ruffo约十二年间购得的三画之一，不推断该件具体购买年份。 |
+| `st-chp9-p246-veronese-inspiration` | **formal** `rel-2543 influenced_by`；限定为Haskell对Veronese作为灵感来源的艺术史解释，不推定直接传承。 |
+| `st-chp9-p247-tiepolo-palazzo` | **formal**复用`rel-1018 located_at`；图版42a及注释均标总督宫，既有边的馆方来源及其时点仍保留，不冒称馆方记录即Haskell。 |
+| `st-chp2-seci-l9-10-plate-i-credit`、`st-fm-pl-p01-credit` | **formal**复用图版I已有`rel-1026 created_by`；均为原书印刷署名，不声称独立作者核验。两语句原subject误映射到作品候选`cand-4108`，现更正为人物`cand-2677`；相应`m-chp2-seci-l9-10-0001`和`m-fm-pl-p01-creator`亦从作品误挂改为人物。作品候选`cand-2678`保持object。两个当前statement与两条mention修订待独立差异复核，不增加统一复核分子。 |
+| `st-chp10-p320-323-n04-portrait-location-accademia` | **pending**：当前statement两端为画家与画作，而陈述涉及书内注释所称机构；待核对注释、馆藏版本及适用机构端点后重审，不把Accademia直接等同图版目录所列Museo Correr。 |
+| `st-chp10-p322-longhi-painting-engraved-as-separate-print` | **pending**：画作身份已定，版画`cand-9765`仍未决；待独立版画身份及适用谓词。 |
+| `st-chp2-seciv-l31-43-valentin-allegory-assessment` | **pending**：书内风格判断的term端点`cand-4629`尚未映射，需保留Haskell评价及语境。 |
+| `st-chp7-p175-i07` | **pending**：作品被认为符合Marie的兴趣，现行谓词不应近似为委托或赞助；待准确受控谓词。 |
+| `st-chp8-p209-guercino-picture-required-to-match-rembrandt-aristotle` | **pending**：原文说Guercino索要粗略图稿、其画需匹配Rembrandt作品；不能把Guercino本人写成两件画的对应关系，待另一画作端点与谓词确定。 |
+| `st-chp9-p246-tiepolo-confidence` | **pending**：Haskell将画解读为威尼斯自信的表达，不能将这种解释强套为作品与政体的一般关系；年代分歧另保留。 |
+
+本批没有以身份复用或图版号自动转正其余事实。两条S2 statement及两条mention发生版本变化，来源文本与统一独立复核分子不变；需与先前版本差异清单核平。
+
 #### 余下32项当前组核对
 
 继续逐行核对现行备注中当前组、历史理由与已登记KU。以下每个候选的另一标签均出现在先前裁决或历史理由中；未发现应把它当作该候选第二个当前组的依据。归组结论仍受原来源范围限制，历史备注保留原文：

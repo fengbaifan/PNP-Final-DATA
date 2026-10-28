@@ -134,6 +134,7 @@ relations:
 | → 由其保管（`held_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 时间：本书所述时点；角色：书中保管机构；范围：图版35a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 97–99; 章前：图版目录；印刷页xiv |
 | → 位于（`located_at`） | [纽约（New York）](../places/new-york.md) | 时间：本书所述时点；角色：书中所在城市；范围：图版35a；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 97–99; 章前：图版目录；印刷页xiv |
 | → 由其取得（`acquired_by`） | [大都会艺术博物馆（Metropolitan Museum of Art）](../institutions/metropolitan-museum-of-art.md) | 时间：1961；角色：购入机构；范围：图版35a所列购入记录；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 97–99; 章前：图版目录；印刷页xiv |
+| → 由其取得（`acquired_by`） | [安东尼奥·鲁福（Don Antonio Ruffo）](../persons/antonio-ruffo.md) | 原书报告购买；不推定价格或其他两画的购入日期；时间：约十二年购买期内；该画单独购买日期未载；角色：来源所述购入者；范围：Haskell将该画列为Ruffo约十二年间购入的三幅Rembrandt作品之一；不为此画推定具体购入年份。；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_i.md)；haskell-1980-rev-ed；Chapter 8, printed p.210 L73; statement=st-chp8-p210-ruffo-bought-three-rembrandt-pictures |
 
 ### 关系候选入口
 

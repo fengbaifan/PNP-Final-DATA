@@ -93,4 +93,11 @@ English: This card refers only to the person named Marie de Medici in the book a
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+S2 中尚未裁决的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 委托者（`commissioner_of`，反向投影） | [卢森堡宫（Palais du Luxembourg）](../places/palais-du-luxembourg.md) | S2 statement: st-chp7-p174-i24. Haskell reports an order to build the palace for Marie; no completion date is asserted.；时间：1611；角色：委托人；范围：Marie de Medici 命 Salomon de Brosse 为其建造新宫；该关系不确认完工状态；原断言与证据见发出端卡片“卢森堡宫（Palais du Luxembourg）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；line 57; print p. 174 |
+| ← 委托者（`commissioner_of`，反向投影） | [公共幸福战胜危难（Public Felicity triumphant over Dangers）](../works/orazio-gentileschi-public-felicity-triumphant-over-dangers.md) | 仅表达Haskell来源限定的委托判断；时间：具体日期未载；角色：来源认为有确证的委托人；范围：Haskell称图版25为Marie de Medici唯一有确证的存世委托；这一限定不排除其他委托曾存在。；原断言与证据见发出端卡片“公共幸福战胜危难（Public Felicity triumphant over Dangers）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.175 L63; statement=st-chp7-p175-i05 |

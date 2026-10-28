@@ -104,6 +104,7 @@ relations:
 | → 所涉对象（`has_subject`） | [卡洛·洛多利（Carlo Lodoli）](../persons/carlo-lodoli.md) | 角色：肖像对象；范围：原书该图版明确列出的肖像对象；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
 | → 由其保管（`held_by`） | [科雷尔博物馆（Museo Correr）](../institutions/museo-correr.md) | 时间：本书所述时点；角色：书中保管者；范围：书中图版目录记载，不以此声称已核2026年现藏；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
 | → 位于（`located_at`） | [威尼斯（Venice）](../places/venice.md) | 时间：本书所述时点；角色：书中保管地点；范围：书中馆藏地点，不表示作品创作地点；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 126–126; 章前：图版目录；印刷页xv |
+| → 由其委托（`commissioned_by`） | [皮耶特罗·莫斯凯尼（Pietro Moscheni）](../persons/pietro-moscheni.md) | 书内委托陈述；画作与随后雕刻的版画分开；时间：具体日期未载；角色：肖像委托人；范围：Haskell称图版48c肖像由Lodoli的朋友Pietro Moscheni委托；不推定委托日期。；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_sec_ii.md)；haskell-1980-rev-ed；Chapter 10, printed p.322 L182; statement=st-chp10-p322-moscheni-commissioned-longhi-portrait |
 
 ### 关系候选入口
 

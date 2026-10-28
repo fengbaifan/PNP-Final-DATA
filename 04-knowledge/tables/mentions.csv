@@ -5491,7 +5491,7 @@ m-chp2-seci-l82-93-0050,chp-2:02_CHP-2_sec_i:l82-93,cand-4302,"the Grand
 Duke of Tuscany",3106,3131,Unnamed title-holder; preserve the line break and unresolved identity.
 m-chp2-seci-l82-93-0051,chp-2:02_CHP-2_sec_i:l82-93,cand-4303,the splendid official residence,3146,3177,Unnamed residence behind Piazza Navona.
 m-chp2-seci-l82-93-0052,chp-2:02_CHP-2_sec_i:l82-93,cand-3455,the Piazza Navona,3185,3202,Location of the unnamed residence.
-m-chp2-seci-l9-10-0001,chp-2:02_CHP-2_sec_i:l9-10,cand-2678,Valentin,9,17,"Artist named in the inserted Plate I caption; reuse index candidate, identity to be resolved in S3."
+m-chp2-seci-l9-10-0001,chp-2:02_CHP-2_sec_i:l9-10,cand-2677,Valentin,9,17,Artist named in the inserted Plate I caption; mapped to the Valentin person candidate.
 m-chp2-seci-l9-10-0002,chp-2:02_CHP-2_sec_i:l9-10,cand-4108,Allegory of Rome,19,35,Work shown on inserted Plate I; reuse accepted-KU candidate and work recorded in the plate list.
 m-chp2-seci-l95-106-0001,chp-2:02_CHP-2_sec_i:l95-106,cand-1691,his,94,97,Anaphoric reference to del Monte from the preceding segment.
 m-chp2-seci-l95-106-0002,chp-2:02_CHP-2_sec_i:l95-106,cand-1691,he,146,148,Anaphoric subject of the continued passage on del Monte.
@@ -22908,7 +22908,7 @@ m-fm-2ed-l198-001,front-matter:00_05_List_of_Plates:l198-198,cand-3605,"1 Montai
 m-fm-2ed-l198-002,front-matter:00_05_List_of_Plates:l198-198,cand-3706,Montaiglon,2,12,"Cited editor/author surname; use the existing candidate, while the exact responsibility for the series remains governed by its source record."
 m-fm-2ed-l198-003,front-matter:00_05_List_of_Plates:l198-198,cand-3601,2 Gilmartin.,27,39,Citation 2 points to the Gilmartin source for the San Clemente decoration discussion; the footnote itself gives surname only.
 m-fm-2ed-l198-004,front-matter:00_05_List_of_Plates:l198-198,cand-3814,Gilmartin,29,38,Cited author surname; reuse the existing person candidate.
-m-fm-pl-p01-creator,front-matter:00_05_List_of_Plates:l32-65,cand-2678,Valentin,47,55,Printed creator attribution; this is the Valentin index subentry for Allegory of Rome.
+m-fm-pl-p01-creator,front-matter:00_05_List_of_Plates:l32-65,cand-2677,Valentin,47,55,Printed creator attribution; mapped to the Valentin person candidate.
 m-fm-pl-p01-work,front-matter:00_05_List_of_Plates:l32-65,cand-4108,Valentin: Allegory of Rome,47,73,Work caption; plate number omitted from span.
 m-fm-pl-p01-institution,front-matter:00_05_List_of_Plates:l32-65,cand-3638,Finnish Institute,75,92,Printed parenthetical institution label.
 m-fm-pl-p01-city,front-matter:00_05_List_of_Plates:l32-65,cand-3126,Rome,94,98,"Second Rome occurrence is the printed location of the Finnish Institute, not the allegorical subject."
