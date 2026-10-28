@@ -17825,3 +17825,12 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 | `st-chp8-p224-dardani-summoned-to-paint-apotheosis` | process-only pending | 同上，记录Dardani受召任务；不写为`created_by`。 |
 
 三条process-only pending保留在本过程记录；无S6正式边被降格。作品、画廊、两位画家及Raimondo共5张卡定向渲染，写后预览无差异。批后S2为15,480 statements／26,873 mentions；S3候选决定same 2,114、new 5,089、conflict 9、excluded 106、undecided 5,115；S4已映射2,514/5,089，待映射2,575（直接关系端点917）；KU 3,294。S5为14,721条字段（1,628条unverified）；S6本批2 formal、3 pending，当前relation_candidate=true共10,682；`relations.csv`为2,521行（2,480 formal、41 pending）。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性五类阻断均为0。此批S2修订未独立接收；结构审计不构成章节验收。
+
+<a id="s4-s5-s6-ch3-resurrection-dedication-20261028"></a>
+### S4–S6 第3章 p.84 耶稣堂右横翼礼拜堂的复活奉献对象（2026-10-28）
+
+沿用 `cand-11609` 的 S3 `new` 决定与 `sg3-term-cand-11609` 身份组，登记[来源限定的奉献主题](../../../04-knowledge/units/terms/resurrection-dedication-gesu-right-transept.md)。Haskell 第3章印刷页84、OCR L79 称礼拜堂原奉献于救世主，随后奉献于复活；未给出改奉日期。此术语记录该段奉献对象，与 `cand-5013` 的 Baglione 同名绘画分开；未作外部身份或事实核验。S4 将 `aln-11772` 映射到新 KU，S3决定值、S2 statement与mention未改。S5 预览并写入 `enr-18641`、`enr-18642` 两条 Haskell 书内来源支持字段，中文名称为工作译名。
+
+S6：`st-chp3-seciv-l75-81-chapel-dedicated-to-resurrection` 为既有地点 KU `units/places/gesu-right-transept-chapel-st-francis-xavier` → 新术语 KU 的奉献候选。原文支持奉献事实，但当前 `dedicated_to` 的域值域仅为 work → person，不能表达 place → term；因此保留 process-only `pending`。待受控词表和域值域能准确表达地点对奉献对象的关系后，按原文及其无日期限定重审；不以 `has_subject` 或其他近似谓词代替。未写入 `relations.csv`。本次不构成S2独立语义接收。
+
+字段复预览无变化且 warnings=0；新卡关系与字段投影预览无差异。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性五类阻断均为0。批后 KU 3,295，S4 new候选已映射2,515/5,089，待映射2,574；S5 14,723条字段（1,628条unverified）。S6历史裁决2,062项（formal 1,219、pending 706、rejected 137），与当前statement版本尚未核平，不报告完成率。
