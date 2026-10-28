@@ -17846,6 +17846,16 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 相关宫殿`cand-4310`仍是未登记的独立place候选；第2章p.29只说宫殿位于教堂附近，不能把宫殿并入教堂或将“附近”改写成`located_at`。另两条宫殿关联候选涉及未定类型的画家群体`cand-4339`、`cand-4341`，应在身份及谓词条件满足后裁决。此次未修改S2 statement、创建关系或完成S6裁决。
 
+<a id="s3-existing-place-endpoint-reuse-20261028"></a>
+### 两个地点候选复用既有KU（2026-10-28）
+
+| 候选 | 身份比较与决定 | 关联关系的后续条件 |
+|---|---|---|
+| `cand-0697` | 索引C.csv#221的教堂子项“S. Andrea della Valle”含p.25；第2章p.25称罗马这座Theatine教堂。既有`units/places/sant-andrea-della-valle`为同名罗马教堂建筑，改`same`复用；教堂与独立的Barberini礼拜堂不合并。 | `st-chp2-seci-l44-53-chapel-site`中礼拜堂已有KU，但“选择作为礼拜堂地点”须与现有关系类型及具体证据核对；`st-chp2-seci-l44-53-florentine-patronage`的佛罗伦萨社群`cand-4253`仍未决，不能推成确定机构。 |
+| `cand-0955` | 索引D.csv#57与第10章p.281–284指杜塞尔多夫城市；既有`units/places/dusseldorf`记录第3章p.82注3所称同一城市层级，改`same`复用。S0拼写与已记录的印本校读不改；不把城市当作宫廷或馆藏机构。 | `st-chp10-p281-pellegrini-bellucci-dusseldorf-movements`合述Pellegrini和Bellucci两人的不同移动，须保留方向、时间及近似限定；既有`rel-2433`仅记录Pellegrini从英格兰出发时的位置，不能当成到达杜塞尔多夫的裁决。 |
+
+两项均保留原`new`理由及组号；只改候选级S3决定和KU映射，不新建KU或改S2/S6。本次书内身份比较不声称独立外部核验。
+
 <a id="s4-s5-s6-chp3-p89-pozzo-spaces-20261028"></a>
 ### S4–S6 第3章 p.89 Pozzo祭坛席与后殿空间端点（2026-10-28）
 
