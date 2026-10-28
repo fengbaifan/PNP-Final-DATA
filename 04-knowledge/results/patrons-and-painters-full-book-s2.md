@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-29）
 
+**本批完成：Barozzi—Berchet《Relazioni degli Stati Europei》两卷本跨章身份及引文端点（2026-10-29）。** `cand-11238`沿用既有S3 `new`组并完成S4登记；第2章卷I候选`cand-4365`及第4、6章卷II候选`cand-6006`从`undecided`改判为同一档案KU的`same`，卷次与页码留在各自引文范围。核对第21章印本p.413（PDF物理页3）书目，新增5条Haskell原书字段，均为`source_backed`；14条`cites`逐条formal为`rel-2589`–`rel-2602`。未推断作者边、外部身份或具体印本。Contarini报告仍不能与人物及出版容器拆分识别，新增`bl-0081`保留archive待证，相关关系不强行formal。本批未改S2 statement、mention或独立复核台账。详见[身份与关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch21-barozzi-berchet-multivolume-work-20261029)。
+
 **本批完成：第15章两篇期刊文献跨章身份组与引用端点。** `cand-10515`、`cand-10516`从 `undecided` 分别裁为独立的 archive `new` 组并完成S4登记；页图核对第21章p.416、p.417书目身份，不将 Bozzòla 与1956年 *Casanova illuminista* 合并。新增14条Haskell书内S5字段，全部source-backed；三条第15章 `cites` 候选均formal为 `rel-2586`–`rel-2588`，未增加作者边或推断文章内容。S2语句、提及与9,622条复核台账不变。详见[身份与关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-ch15-bozzola-brunelli-articles-20261029)。
 
 **本批完成：第10、15章 Prà规划与雕像项目指代纠正。** `cand-1650`从错误的“Memmo, Andrea”索引父条目身份改为Prà椭圆规划`new`，新建并分别映射雕像项目`cand-12456`；Colosseum地点组完成映射，12处Vicenza城市提及改为`same`并复用既有KU。8条雕像项目mention转组、20条非实体mention移出；未名人物、雕像、游客、朋友、委员会、议员及“罗马另六尊”保留S3未决和backlog。新增6条formal关系`rel-2580`–`rel-2585`；比较、资格规则、捐赠行为及缺端点关系依证据分别pending或不建边，历史波兰／瑞典订阅pending继续保留。S5新增5条书内字段；修订后的S2 statement版本未计入9,622条独立复核台账。严格表审计`errors=[]`、`s2_missing=[]`，关系一致性五项阻断为0。详见[本批身份、S2修订与关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-pra-della-valle-plan-statue-scope-20261029)。
@@ -27,7 +29,7 @@
 
 **本批完成：跨章登记Pergola与Golzio三项文献端点。** `cand-4369`对应1955–1959年两卷目录；`cand-6356`对应1933–34年 *Archivi* 文章；`cand-6196`对应1939年Chigi档案文献图书。三者各立独立archive身份组并完成S4；另为六条有S2 `relation_candidate=true`依据的引文建formal `cites`边。第2章p.49卷I引注的S2标志为非关系候选，Golzio p.3也没有独立S2引文关系statement，因此未另建formal边。第5章中身份未定的画作集合`cand-6164`及其所有权／购入／委托相关候选以`bl-0062`–`bl-0065`保留待证；宫殿购买端点`cand-6211`以`bl-0066`记录，待完成S4和关系主客体辨析。本批未将这些关系升为formal。未独立查阅三种出版物；S2 statement、mention和9,622项复核台账未改。详见[跨章身份及关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-golzio-pergola-archives-20261028)。
 
-**当前机械快照（2026-10-29，按当前实表核算）：** S2为15,480条statement、26,861条mention；统一复核台账9,622条，statement ID、来源版本和变更重叠仍未核平。S3按候选ID计12,434项：same 2,124、new 5,103、conflict 8、excluded 106、undecided 5,093；28个候选仍有来源决定差异。S3未决直接关系端点2,976项（work 1,066、archive 280、term 445、person 424、place 128、institution 82、event 65、family 13、procedure 2、类型未定471）。S4已映射2,560/5,103个new，待登记2,543个；new直接关系端点待登记889项（term 400、work 129、place 124、archive 114、event 72、institution 49、person 1）。KU共3,339。S5有14,886行，其中1,632条`unverified`。`relations.csv`有2,586行（2,545 formal、41 pending）；当前`relation_candidate=true` statement为10,682条。339条关系statement至少缺一个S2端点候选ID（仅有subject 221、仅有object 46、两端均缺72）；backlog 80条（16 completed、64 undecided，机械pending=0）。历史S6裁决与当前statement版本尚未核平，不报告覆盖率。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断为0。
+**当前机械快照（2026-10-29，按当前实表核算）：** S2为15,480条statement、26,861条mention；统一复核台账9,622条，statement ID、来源版本和变更重叠仍未核平。S3按候选ID计12,434项：same 2,126、new 5,103、conflict 8、excluded 106、undecided 5,091；28个候选仍有来源决定差异。S3未决直接关系端点2,974项（work 1,066、archive 278、term 445、person 424、place 128、institution 82、event 65、family 13、procedure 2、类型未定471）。S4已映射2,561/5,103个new，待登记2,542个；new直接关系端点待登记889项（term 400、work 129、place 124、archive 114、event 72、institution 49、person 1）。KU共3,340。S5有14,891行，其中1,632条`unverified`。`relations.csv`有2,600行（2,559 formal、41 pending）；当前`relation_candidate=true` statement为10,682条。339条关系statement至少缺一个S2端点候选ID（仅有subject 221、仅有object 46、两端均缺72）；backlog 81条（16 completed、65 undecided，机械pending=0）。历史S6裁决与当前statement版本尚未核平，不报告覆盖率。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断为0。
 
 **本批更正：第13章p.334《Novelle》编辑者代词。** 将 `he himself edited` 按最近的并列主语由Giambattista调整为Almorò Albrizzi；原引文不变，新增一条anaphoric mention。Treccani区分两兄弟的出版／编辑记录，但未独立解决Haskell所述编辑职责；相关S6关系继续pending，S2当前版本待独立差异复核，不增加9,622条台账。详见[S2校读](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)及[关系影响](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s6-ch13-p334-novelle-anaphor-20261028)。
 
@@ -248,7 +250,7 @@
 
 **S2分章审读：** 第七章p.190的43条statement已逐条对照印本扫描复核，未发现需改写项；该页局部复核仍待按当前statement ID与来源版本核平后并入统一台账。p.189五条、p.191三条、p.216三条及p.353新增一条当前statement版本，合计12条，均须重新独立逐条复核，尚未计入全书分子。下一项沿书序处理p.192，并在推进中回收这些待复审项。见[p.190逐条记录](../../03-processing/patrons-and-painters-full-book-s2/process/s2-independent-review-chp7-p190-20261025.md)、[p.191本批记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch7-p191-bernini-self-portrait-20261025)、[p.216关系端点批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp8-p216-massacre-20261025)及[p.353 Brühl端点批次](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp10-chp14-bruhl-letter-neptune-20261025)。
 
-**后续工作规划：** 当前阶段指标、类型队列、具体端点排序与收口门槛统一见文末[当前进度与后续工作规划](#当前进度与后续工作规划截至2026-10-28)；旧批次规划不作为当前队列。
+**后续工作规划：** 当前阶段指标、类型队列、具体端点排序与收口门槛统一见文末[当前进度与后续工作规划](#当前进度与后续工作规划截至2026-10-29)；旧批次规划不作为当前队列。
 
 **本批完成：第1章 p.12 Ferri Sant’Agnese 彩色稿候选复用及关系裁决。** `cand-11835` 从 S3 `new` 改为 `same`，复用 `cand-3192`／`units/works/ferri-sant-agnese-modello`；彩色稿与穹顶壁画 `cand-3191` 保持分立。关联 statement `st-chp1-secii-l62-71-03` formal复用既有 `rel-0684 created_by`，关系证据入口补入statement ID；不新建KU、字段或重复关系边。两张受影响卡定向渲染并复预览无差异；严格表审计 `errors=[]`、`s2_missing=[]`，关系一致性五类阻断均为0。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp1-ferri-sant-agnese-modello-reuse-20261025)。
 
@@ -3858,11 +3860,11 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 处置覆盖完成，不代表S2语义接收。 |
 | S2 | 15,480 statements、26,861 mentions；统一复核台账9,622条 | 尚未独立接收。与台账首次出现时的statement基线比对：新增30、同ID变更49、删除1（共80个ID不同）；10个ID有旧独立复核但当时版本不同，不能覆盖当前版本；另37条变化未在现有逐条记录中定位，30条新增与台账的重叠无法由总数判定。先前“近期21条”缺可复现ID清单，不能与差异数相加。 |
-| S3 | 12,434项：same 2,124、new 5,103、conflict 8、excluded 106、undecided 5,093 | 28个候选存在35条来源限定决定差异；已核34条与主行目标一致，`cand-2328`的Princeton来源限定行仍待直接身份／年代证据。50个多标签主行已复核；历史13项筛查口径尚未找回。 |
-| S4 | 已映射2,560/5,103个new；待登记2,543个；KU共3,339 | 889个new直接关系端点尚未登记：term 400、work 129、place 124、archive 114、event 72、institution 49、person 1。 |
-| S5 | 14,886条字段；1,632条unverified | 以具体关系缺口排序定向补证；本批新字段14条均source-backed。 |
-| S6 | `relations.csv` 2,586行：2,545 formal、41 pending；当前`relation_candidate=true`为10,682条 | 历史裁决台账与当前statement版本未核平；不报告完成率。缺端点statement 339条：仅有subject候选221、仅有object候选46、两端均缺72。 |
-| Backlog | 80条：16 completed、64 undecided | 机械pending=0不表示待证对象已解决；逐条检查其S1→S3/S4覆盖和最小待证条件。 |
+| S3 | 12,434项：same 2,126、new 5,103、conflict 8、excluded 106、undecided 5,091 | 28个候选存在35条来源限定决定差异；已核34条与主行目标一致，`cand-2328`的Princeton来源限定行仍待直接身份／年代证据。50个多标签主行已复核；历史13项筛查口径尚未找回。 |
+| S4 | 已映射2,561/5,103个new；待登记2,542个；KU共3,340 | 889个new直接关系端点尚未登记：term 400、work 129、place 124、archive 114、event 72、institution 49、person 1。 |
+| S5 | 14,891条字段；1,632条unverified | 以具体关系缺口排序定向补证；本批新字段5条均source-backed。 |
+| S6 | `relations.csv` 2,600行：2,559 formal、41 pending；当前`relation_candidate=true`为10,682条 | 历史裁决台账与当前statement版本未核平；不报告完成率。缺端点statement 339条：仅有subject候选221、仅有object候选46、两端均缺72。 |
+| Backlog | 81条：16 completed、65 undecided | 机械pending=0不表示待证对象已解决；逐条检查其S1→S3/S4覆盖和最小待证条件。 |
 
 S3未决候选、未决直接关系端点及S4待登记直接关系端点按类型交叉统计：
 
@@ -3870,7 +3872,7 @@ S3未决候选、未决直接关系端点及S4待登记直接关系端点按类�
 |---|---:|---:|---:|
 | person | 1,047 | 424 | 1 |
 | work | 1,552 | 1,066 | 129 |
-| archive | 658 | 280 | 114 |
+| archive | 656 | 278 | 114 |
 | term | 660 | 445 | 400 |
 | place | 301 | 128 | 124 |
 | institution | 117 | 82 | 49 |
@@ -3878,7 +3880,7 @@ S3未决候选、未决直接关系端点及S4待登记直接关系端点按类�
 | family | 18 | 13 | 0 |
 | procedure | 2 | 2 | 0 |
 | 类型尚未确定 | 626 | 471 | 0 |
-| **合计** | **5,093** | **2,976** | **889** |
+| **合计** | **5,091** | **2,974** | **889** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。零关系KU和2个超50连接对象属于非阻断诊断。机械通过不等于独立语义接收。S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面尚未开展。
 
@@ -3886,6 +3888,6 @@ S3未决候选、未决直接关系端点及S4待登记直接关系端点按类�
 
 1. **继续处理直接关系端点。** 按类型和解锁关系价值，完成当前new未映射端点登记；每批同时将关联S6候选裁为formal、pending或rejected。已缺作品身份或端点的关系保留待证。
 2. **核平S2版本并继续独立语义复核。** 先核对30条新增、49条同ID变化、1条删除与9,622条台账的ID/来源版本重叠；将当前修订版本另行独立审读，再按章节阅读正文、注释和必要图像。未独立审读不计为接收。
-3. **按类型推进S3跨章身份组。** 优先裁决2,976个未决直接关系端点，再处理同类型其他未决对象；逐项记录复用、新增、冲突或带明确证据条件的待证去向，不误合并同名对象或范围不同的集合。
+3. **按类型推进S3跨章身份组。** 优先裁决2,974个未决直接关系端点，再处理同类型其他未决对象；逐项记录复用、新增、冲突或带明确证据条件的待证去向，不误合并同名对象或范围不同的集合。
 4. **定向补S5并核平S6台账。** 按关系所需的身份、版本、角色、时间和地点处理字段证据；核对历史裁决与当前statement版本后再报告覆盖。缺少忠实谓词或具体证据的关系保持pending。
-5. **收束缺端点与backlog。** 逐项审查339条缺端点statement及64条undecided backlog；具名对象可识别时补进S1→S3→S4，身份或类型不足时保留最小待证条件。以上收口前不启动S7。
+5. **收束缺端点与backlog。** 逐项审查339条缺端点statement及65条undecided backlog；具名对象可识别时补进S1→S3→S4，身份或类型不足时保留最小待证条件。以上收口前不启动S7。

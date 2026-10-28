@@ -18587,3 +18587,35 @@ cand-6212由“SS. Apostoli”位置候选按第6章p.154的明确写法对齐�
 三项中无pending或rejected；第21章两个 `bibliography_lists_publication` statement 均为 `relation_candidate=false`，不额外生成 `cites` 边。作者边不在现有S2关系候选内，且缺已确认的人物端点，因此不造边；第15章关于防洪、1761年危机及相关人物的内容关系不由书目身份推断。全书S6历史裁决与当前statement版本仍未核平，本批三条边不用于计算覆盖率。
 
 **S2影响、渲染与校验。** 本批不改 `book-statements.jsonl`、`mentions.csv` 或来源版本；9,622条统一独立复核计数不变，不构成S2独立复核。字段预览/写入后二次预览为14条、0条 `unverified`、0重复、0警告、`record_changes=0`。三张受影响卡定向渲染并复预览无差异；《赞助人与画家》主卡一并投影了9条先前已入 `relations.csv`、但卡片尚未显示的旧引文边，以保持关系视图与表一致。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。机械通过不表示文章内容或作者身份已验证，也不表示全书S2–S6收口。
+
+<a id="s3-s4-s5-s6-ch21-barozzi-berchet-multivolume-work-20261029"></a>
+### 2026-10-29：跨第2、4、6、7、21章对齐 Barozzi–Berchet 两卷出版物
+
+**原文依据。** 第21章书目第413页（本地 CHP-21Bibliography.pdf physical p.3）页图核对印本条目：“Barozzi, Niccolò e Berchet, Guglielmo: Relazioni degli Stati Europei lette al Senato dagli Ambasciatori Veneti del secolo decimosettimo, Serie III—Italia Relazioni di Roma, 2 vols., 1877-8.” OCR 的主书目行在 “Roma,” 处断开；相邻的 “2 vols., 1877-8” 已由S2链接至同一书目条目。章节引注将 cand-4365 定位到卷I（第2、7章），将 cand-6006 定位到卷II（第4、6章所引的卷II材料；直接关系候选集中在第6章）。本次只查阅Haskell书目页图与本书引注，不查阅被引出版物或其中报告。
+
+**身份决定变化。** cand-11238 保持既有 S3 new 组 archive-group-69b61394b081，现在按该组登记为两卷出版物KU units/archives/barozzi-berchet-relazioni-stati-europei-serie-iii-roma-1877-1878。cand-4365、cand-6006的主行各自此前为 undecided，各只有一条来源决定行；没有额外 source-level 反向决定或 relations.csv 历史边。两者现改为 same 并复用 cand-11238 的KU。身份粒度是书目列出的多卷出版物；卷I/卷II只是被引卷次定位，仍分别保留在statement和关系语境中，不代表两个具体馆藏印本。核对现有KU后未找到这条完整题名对应的既有archive对象；未加外部标识，也没有把书目责任者的署名擅自裁作 authored_by 或 compiled_by。本批不因同姓合并人物身份。
+
+**S4/S5。** 新建双语archive卡并写入 ku-manifest.csv、accepted.yml；enrichment.jsonl由卡片字段抽取5条 source_backed 记录（原题名、书目责任者著录、系列范围、卷数、书目年份），全部映射到 haskell-1980-rev-ed，unverified=0，二次预览 record_changes=0。来源给出的出版年份保留为1877–1878；卡片没有声称核对具体版次或实体印本。
+
+**S6逐项去向。** 原有相关statement在 relations.csv 中没有先前裁决。本批将14条 relation-candidate 引文formal为 cites（Haskell书 → 两卷出版物），并在各边保留章、印刷页、注号、被引卷次和页码：
+
+| 关系 | S2 statement |
+|---|---|
+| rel-2589 | st-chp2-seci-l124-157-cite-barozzi-contarini |
+| rel-2590 | st-chp2-seci-l124-157-cite-barozzi-p157 |
+| rel-2591 | st-chp2-seci-l124-157-cite-barozzi-p162 |
+| rel-2592 | st-chp2-seci-l124-157-cite-renier-p158 |
+| rel-2593 | st-chp2-seci-l124-157-cite-renier-p174 |
+| rel-2594 | st-chp2-seci-l124-157-cite-scipione-barozzi |
+| rel-2595 | st-chp7-p173-n1-cite-barozzi |
+| rel-2596 | st-chp6-notes-l124-p149-n2 |
+| rel-2597 | st-chp6-notes-l130-p150-n1 |
+| rel-2598 | st-chp6-notes-l140-p152-n1-citation |
+| rel-2599 | st-chp6-notes-l141-p152-n2 |
+| rel-2600 | st-chp6-notes-l142-p152-n3 |
+| rel-2601 | st-chp6-notes-l151-p155-n1 |
+| rel-2602 | st-chp6-p162-n2-cite |
+
+没有将 relation_candidate=false 的脚注定位扩建为额外引用边；也不据本书的书目署名推断作者／编者关系。另一条当前候选 st-chp2-seciv-l190-245-contarini-report 说 Angelo Contarini 的1627–1629年报告见卷I第257页。既有S2独立复核已指出原 statement 把报告者、报告文书和后世出版容器压成了“人→出版物”端点关系。本批不把它改成formal引文边，也不使用不忠实的关系谓词；新加 bl-0081，将报告文书身份和出版关系留待证，并与Contarini人物及两卷容器分开。卷I第257页另有脚注定位 statement st-chp2-seciv-l190-245-citation-51（relation_candidate=false）；本批不据此重复建引文边，报告文书身份与其出版关系仍保持待证。
+
+**S2影响与机械校验。** 未修改 book-statements.jsonl、mentions.csv 或来源版本；15,480条statement、26,861条mention和9,622条统一独立复核台账不变，修订版本仍需单独复核。两张受影响卡定向渲染后复预览均无差异；字段二次预览无变化。严格表审计 errors=[]、s2_missing=[]、alignments_unlinked=0、candidate_backlog_pending=0；关系一致性阻断 broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic evidence-backed=0。机械通过不表示所引多卷本、其内容、具体印本或报告文书已独立验证，也不表示全书S2–S6收口。
