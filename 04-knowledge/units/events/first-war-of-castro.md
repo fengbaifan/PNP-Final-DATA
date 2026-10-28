@@ -31,8 +31,8 @@ sources:
     source_file: 02-sources/02-Markdown/06_CHP-6_sec_i.md
     source_span: lines 5–8; print p. 146
 created: '2026-10-17'
-updated: '2026-10-17'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-first-war-of-castro-20261017
+updated: '2026-10-28'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-parma-dukes-letter-20261028
 ---
 
 ## 内容
@@ -61,8 +61,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有已登记的正式关系。五条直接 S2 关系候选留待 S6 审查战争与帕尔马公爵、巴贝里尼及其他行动方之间的关系、方向和限定。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 参与者（`has_participant`） | [帕尔马公爵奥多阿尔多·法尔内塞（Odoardo Farnese, Duke of Parma）](../persons/odoardo-farnese-duke-of-parma.md) | Haskell introduces the War of Castro in 1641 and calls it a dispute with the Duke of Parma. Index F.csv#11 identifies the duke at p.58 as Odoardo; this edge preserves only the stated dispute role.；角色：Party to the dispute named by Haskell；范围：Records only Haskell's characterization of the War of Castro as a dispute with the Duke of Parma; it does not assign military command, excommunication, occupation, territorial authority, or ownership to Odoardo.；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_vii.md)；haskell-1980-rev-ed；Chapter 2, printed p.58, line 3; PDF physical p.47; statement=st-chp2-secvii-l3-3-parma-consequences-fragment |
+
+Haskell将该战争称为与帕尔马公爵之间的争端；其索引把第2章p.58的公爵指认为Odoardo Farnese。正式边仅记录这项争端角色，不扩写为军事指挥、绝罚或占领行为。
 
 ### 关系候选入口
 
-[本次 S3/S4 裁决与未决战争候选](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-first-war-of-castro-20261017)
+[本次帕尔马公爵身份分组与战争关系裁决](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-parma-dukes-letter-20261028)

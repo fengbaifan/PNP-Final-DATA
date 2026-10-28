@@ -994,9 +994,9 @@ cand-0992,F.csv#7,Fantasy and reason,"318, 320",term,open,F.csv,18th century dis
 cand-0993,F.csv#8,"Fanti, Gaetano",201,person,open,F.csv,,,,,
 cand-0994,F.csv#9,"Fanzago, Cosimo",172,person,open,F.csv,,,,,
 cand-0995,F.csv#10,"Farnese, Cardinal Alessandro","65, 66, 69, 78, 84, 137, 398, 399, 400",person,open,F.csv,,,,,
-cand-0996,F.csv#11,"Farnese, Odoardo, Duke of Parma","58, 146",person,open,F.csv,,,,,
+cand-0996,F.csv#11,"Farnese, Odoardo, Duke of Parma","58, 146",person,open,F.csv,,"Haskell index F.csv#11 names Odoardo Farnese, Duke of Parma, at printed pp.58 and 146; the title-only references at those locators are aligned to this person.",,,
 cand-0997,F.csv#12,"Farnese, Ranuccio II, Duke of Parma","19, 84, 92",person,open,F.csv,,,,,
-cand-0998,F.csv#13,"Farnese, Ranuccio II, Duke of Parma","79, 80, 81",place,open,F.csv,and Gesù,,,,
+cand-0998,F.csv#13,"Farnese, Ranuccio II, Duke of Parma","79, 80, 81",place,open,F.csv,and Gesù,"Index sub-entry 'and Gesù' under Ranuccio II; at pp.79-81 it points to the Church of the Gesù, not to a separate person or a relation object.",,,
 cand-0999,F.csv#14,Farnese Palace,250,place,open,F.csv,,,,,
 cand-1000,F.csv#15,"Farsetti, Anton Francesco",364,person,open,F.csv,,,,,
 cand-10000,,Collection of Giovanni Battista Piazzetta’s academic drawings,,work,open,,,A collection of drawings prefaced by Giambattista Albrizzi’s account of Piazzetta’s life. The collection title and format are not given in this passage.,,body-mention,chp-13:13_CHP-13_intro:l41-50#L45
@@ -7012,7 +7012,7 @@ cand-4901,,Tavole Barberini (group of paintings from Urbino),,work,open,,,"The n
 cand-4902,,Bellori’s account of Rospigliosi selecting Poussin picture subjects,,archive,open,,,The note describes Bellori’s account as somewhat confused and says the engravings seem to confirm it.,,body-mention,chp-2:02_CHP-2_sec_iv:l190-245#L242
 cand-4903,,Francesco Angeloni letter dated 1640-09-01,,archive,open,,,The note says Bellori published this letter; its contents are not summarized in this citation note.,,body-mention,chp-2:02_CHP-2_sec_iv:l190-245#L230
 cand-4904,,War of Castro (outbreak in 1641),,event,open,,,Named conflict in Haskell's narrative; this passage does not specify the disputed legal claim.,,body-mention,chp-2:02_CHP-2_sec_vii:l3-3#L3
-cand-4905,,Duke of Parma (identity unspecified in this passage),,person,open,,,Haskell names only the office/title; do not choose between index candidates without a supported identity decision.,,body-mention,chp-2:02_CHP-2_sec_vii:l3-3#L3
+cand-4905,,Duke of Parma (identity unspecified in this passage),,person,open,,,"Haskell names only the office/title in the p.91 passage. The p.58 title-only mention maps to Odoardo by F.csv#11 and the p.92 mentions map to Ranuccio II by F.csv#12; the p.91 mention has no direct index locator, so its personal identity remains unresolved.",,body-mention,chp-3:03_CHP-3_sec_iv:l152-163#L162
 cand-4906,,Two Barberini Cardinals in the Pamfili election and exile account (members unspecified),,,open,,,A collective reference to two cardinals. The passage does not name both members; preserve the group and do not infer its membership from nearby people.,,body-mention,chp-2:02_CHP-2_sec_vii:l5-19#L8
 cand-4907,,Taddeo Barberini's wife (not named in this passage),,person,open,,,A particular woman is referred to through her marriage to Taddeo; keep her identity unresolved until evidence names her.,,body-mention,chp-2:02_CHP-2_sec_vii:l5-19#L10
 cand-4908,,Unspecified Barberini tapestries illustrating the life of Christ,,work,open,,,An unnamed tapestry series still being woven in exile; later footnote gives its dispersal and cartoon history.,,body-mention,chp-2:02_CHP-2_sec_vii:l5-19#L15
@@ -7345,7 +7345,7 @@ cand-5234,,"Main vault of the Gesù, including its window recesses",,place,open,
 cand-5235,,Transept vaults of the Gesù above the named chapels,,place,open,,,The transept vaults included in Gaulli's scope above the chapels of St Ignatius and St Francis Xavier.,,body-mention,chp-3:03_CHP-3_sec_iv:l35-46#L42
 cand-5236,,Chapel of St Ignatius in the Gesù,,place,open,,,One of the two Gesù chapels named beneath the transept vaults in the commission scope.,,body-mention,chp-3:03_CHP-3_sec_iv:l35-46#L42
 cand-5237,,Chapel of St Francis Xavier in the Gesù,,place,open,,,The second Gesù chapel named beneath the transept vaults in the commission scope.,,body-mention,chp-3:03_CHP-3_sec_iv:l35-46#L42
-cand-5238,,Oliva's letter to the Duke of Parma (September 1679),,archive,open,,,Letter quoted by Haskell during renewed negotiations over the Gesù tribune; the surviving quotation continues in the next source segment.,,body-mention,chp-3:03_CHP-3_sec_iv:l35-46#L46
+cand-5238,,Haskell-quoted excerpt from Gian Paolo Oliva's September 1679 letter to the Duke of Parma,,archive,open,,,"Source-bounded letter excerpt quoted across printed pp.80-81. The quoted text is not the complete letter and no manuscript, edition, repository, or original title is identified.",,body-mention,chp-3:03_CHP-3_sec_iv:l35-46#L46
 cand-5239,,Private showing of Gaulli's Gesù work,,event,open,,,A private showing attended by invited experts after the dome and vault work; the exact date is not given in this segment.,,body-mention,chp-3:03_CHP-3_sec_iv:l35-46#L45
 cand-5240,,Gaulli's proposed decoration of the Gesù tribune (1679),,work,open,,,Further tribune decoration proposed during Oliva’s 1679 negotiations with Ranuccio II. Distinct from the 1672 Gesù commission and Jacques Courtois’s earlier intended tribune work; this passage says it was not carried out as proposed.,,body-mention,chp-3:03_CHP-3_sec_iv:l48-56#L49
 cand-5241,,Unidentified avviso of 1675 on the Gesù dome,,archive,open,,,An avviso quoted in Haskell’s footnote 1 as reporting the Jesuit dome unveiling and contemporary criticism; not independently identified or inspected here.,,body-mention,chp-3:03_CHP-3_sec_iv:l48-56#L55

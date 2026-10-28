@@ -783,7 +783,7 @@ units/persons/duchess-of-bagnara,person,巴尼亚拉公爵夫人,Duchess of Bagn
 units/persons/duke-bracciano-mulier,person,布拉恰诺公爵（穆利耶尔的雇主）,Duke of Bracciano (Mulier’s patron),chp-1,04-knowledge/units/persons/duke-bracciano-mulier.md
 units/persons/duke-mantua-reni-1617,person,费迪南多·贡扎加,Ferdinando Gonzaga,chp-1,04-knowledge/units/persons/duke-mantua-reni-1617.md
 units/persons/duke-of-richmond-mcswiny-british-worthies,person,里士满公爵（Duke of Richmond）,Duke of Richmond,patrons-and-painters-full-book-s2,04-knowledge/units/persons/duke-of-richmond-mcswiny-british-worthies.md
-units/persons/duke-parma-ghezzi,person,帕尔马公爵（盖齐授衔语境）,Duke of Parma (Ghezzi’s honorary appointment),chp-1,04-knowledge/units/persons/duke-parma-ghezzi.md
+units/persons/duke-parma-ghezzi,person,帕尔马公爵拉努乔二世·法尔内塞,"Ranuccio II Farnese, Duke of Parma",chp-1,04-knowledge/units/persons/duke-parma-ghezzi.md
 units/persons/earl-of-carlisle,person,卡莱尔伯爵,Earl of Carlisle,patrons-and-painters-full-book-s2,04-knowledge/units/persons/earl-of-carlisle.md
 units/persons/earl-of-halifax-source-local,person,哈利法克斯伯爵（原书未具名）,Earl of Halifax (unnamed in the source),patrons-and-painters-full-book-s2,04-knowledge/units/persons/earl-of-halifax-source-local.md
 units/persons/eberhard-zwicker,person,埃伯哈德·茨维克,Eberhard Zwicker,front-matter,04-knowledge/units/persons/eberhard-zwicker.md
@@ -3278,3 +3278,5 @@ units/archives/wisdom-of-solomon,archive,《所罗门智训》（Wisdom of Solom
 units/places/udine-cathedral,place,乌迪内主教座堂（Udine Cathedral）,Udine Cathedral,patrons-and-painters-full-book-s2,04-knowledge/units/places/udine-cathedral.md
 units/works/zompini-iconographic-proposal-scuola-del-carmine,work,卡尔米内学院装饰竞赛中的佐姆皮尼图像方案,Gaetano Zompini's Iconographic Proposal for the Scuola del Carmine Decoration Competition,patrons-and-painters-full-book-s2,04-knowledge/units/works/zompini-iconographic-proposal-scuola-del-carmine.md
 units/archives/alexander-vii-diary-extracts-haskell-report,archive,哈斯克尔所述亚历山大七世日记相关摘录出版,Publication of Relevant Extracts from Pope Alexander VII's Diary as Reported by Haskell,patrons-and-painters-full-book-s2,04-knowledge/units/archives/alexander-vii-diary-extracts-haskell-report.md
+units/archives/oliva-letter-to-ranuccio-parma-september-1679-excerpt,archive,吉安·保罗·奥利瓦致帕尔马公爵拉努乔二世书信节录,"Excerpt from Gian Paolo Oliva's letter to Ranuccio II, Duke of Parma (September 1679)",patrons-and-painters-full-book-s2,04-knowledge/units/archives/oliva-letter-to-ranuccio-parma-september-1679-excerpt.md
+units/persons/odoardo-farnese-duke-of-parma,person,帕尔马公爵奥多阿尔多·法尔内塞,"Odoardo Farnese, Duke of Parma",patrons-and-painters-full-book-s2,04-knowledge/units/persons/odoardo-farnese-duke-of-parma.md

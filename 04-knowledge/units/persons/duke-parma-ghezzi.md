@@ -1,64 +1,66 @@
 ---
-title: "帕尔马公爵（盖齐授衔语境）（Duke of Parma (Ghezzi’s honorary appointment)）"
-name_en: "Duke of Parma (Ghezzi’s honorary appointment)"
+title: "帕尔马公爵拉努乔二世·法尔内塞（Ranuccio II Farnese, Duke of Parma）"
+name_en: "Ranuccio II Farnese, Duke of Parma"
 type: person
 created: 2026-09-09
-updated: 2026-09-14
+updated: 2026-10-28
 evidence_status: source_backed
 relations:
-  - {"relation_type":"honourer_of","target":"persons/giuseppe-ghezzi.md","note":"授予 gentiluomo d’onore 荣衔；授予者的全名及日期未明。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 771–773; print pp. 19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"gentiluomo d’onore荣衔授予者","scope":"授予者全名及日期未明"}
+  - {"relation_type":"honourer_of","target":"persons/giuseppe-ghezzi.md","note":"Haskell称帕尔马公爵授予gentiluomo d’onore荣衔；索引F.csv#12将第1章p.19的公爵指认为Ranuccio II，授予日期未载。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1_sec_ii.md","source_span":"lines 132–133; print p.19"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false,"role":"gentiluomo d’onore荣衔授予者","scope":"本书索引将第1章p.19的公爵指认为Ranuccio II；授予日期未载。"}
 sources:
-- citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 19.'
-  location: 第一章；印刷页 19；OCR L770–773
-  sentence_summary: 授 Giuseppe Ghezzi gentiluomo d’onore 的公爵；具体人名、时间未在本章给出。
-  evidence_ref:
-    doc_id: patrons-and-painters
-    source_file: 02-sources/02-Markdown/01_CHP-1.md
-    source_span: lines 770–773; print pp. 19
-  original_quotes:
-  - source_span: "lines 770–773"
-    text: |2-
-      out Giuseppe Ghezzi for drives. Ghezzi was a well-educated man, and he was elected
-      a member of the distinguished Society of Arcadia, besides being given a benefice in
-      St Peter’s by Clement XI and being made a master of ceremonies by Innocent XIII
-      and a ‘gentiluomo d’onore’ by the Duke of Parma.3 The practice of giving titles to
-- citation: "Rossella Faraglia, “GHEZZI, Giuseppe”, Dizionario Biografico degli Italiani 53 (2000). https://www.treccani.it/enciclopedia/giuseppe-ghezzi_(Dizionario-Biografico)/. Accessed 2026-09-11."
-  location: "传记正文和书目全文，21160字符；未读其引用的原始档案"
-  sentence_summary: "生卒、父母配偶及子女、法律职业、学院职责、展览与绘画、Arcadia别名和晚年。"
-- citation: "Treccani, “GHEZZI, Pier Leone”, Dizionario Biografico degli Italiani 53 (2000). https://www.treccani.it/enciclopedia/pier-leone-ghezzi_(Dizionario-Biografico)/. Accessed 2026-09-11."
-  location: "选读1705入会至1710受衔及1712委托段；未读整篇"
-  sentence_summary: "1710年2月11日帕尔马公爵授骑士十字给Pier Leone；与Giuseppe的gentiluomo d’onore不是同一事例。"
-process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-072-persons-duke-parma-ghezzi
+  - citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, p. 19.'
+    location: "第1章；印刷页19；分节文件L132–133。"
+    sentence_summary: "Haskell称Giuseppe Ghezzi受任master of ceremonies并获帕尔马公爵授予gentiluomo d’onore；本段未写授予日期。"
+    original_quotes:
+      - source_span: "lines 132–133; print p.19"
+        text: "and being made a master of ceremonies by Innocent XIII and a ‘gentiluomo d’onore’ by the Duke of Parma."
+    evidence_ref:
+      doc_id: patrons-and-painters
+      source_file: 02-sources/02-Markdown/01_CHP-1_sec_ii.md
+      source_span: "lines 132–133; print p.19"
+  - citation: "Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (Yale University Press, 1980; this printing 2006), index, F.csv#12."
+    location: "索引条目Ranuccio II Farnese, Duke of Parma；印刷页19、84、92。"
+    sentence_summary: "Haskell索引将Ranuccio II条目定位到第1章p.19及第3章pp.84、92。"
+    original_quotes:
+      - source_span: "F.csv#12"
+        text: "Farnese, Ranuccio II, Duke of Parma; 19, 84, 92."
+    evidence_ref:
+      doc_id: patrons-and-painters
+      source_file: 02-sources/03-Index/03-2-Index-CSV/F.csv
+      source_span: "F.csv#12"
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-parma-dukes-letter-20261028
 ---
 
 ## 内容
 
 ### 描述
 
-**中文：** 本卡保留第一章所记授予朱塞佩·盖齐 gentiluomo d’onore 的帕尔马公爵。现有检索尚未确定其姓名及授予日期；其子皮耶尔·莱昂内另获帕尔马骑士十字的事例，不能用来补定本卡身份。
+**中文：** Haskell索引将第1章p.19及第3章pp.84、92出现的帕尔马公爵指向Ranuccio II Farnese；第3章p.84正文亦直接称Ranuccio。第1章记其向Giuseppe Ghezzi授予gentiluomo d’onore，但未提供授予日期。本卡不补充生卒、家族履历或其他外部事实。
 
-**English:** This record preserves the Duke of Parma whom Haskell identifies as granting Giuseppe Ghezzi the title gentiluomo d’onore. The duke’s personal identity and the grant’s date remain unresolved. A separate grant of a Parma knighthood to Ghezzi’s son Pier Leone cannot establish this duke’s identity.
+**English:** Haskell’s index identifies the Duke of Parma at chapter 1, p. 19, and chapter 3, pp. 84 and 92, as Ranuccio II Farnese; the chapter 3 passage on p. 84 also names Ranuccio directly. Chapter 1 says he granted Giuseppe Ghezzi the title gentiluomo d’onore but gives no date. This card adds no lifespan, family history, or other external facts.
 
-### 已知信息与缺口
+### 姓名与头衔
 
-| 字段 | 当前结论 | 依据 |
+| 字段 | 值 | 依据 |
 |---|---|---|
-| 章内称谓 | Duke of Parma／帕尔马公爵 | S1 |
-| 受衔者 | Giuseppe Ghezzi／朱塞佩·盖齐 | S1 |
-| 所授称号 | gentiluomo d’onore | S1 |
-| 个人全名、生卒、父母配偶 | 尚未确认，不能以当时某位公爵猜填 | 本次检索未解决 |
-| 授予日期 | 未确认 | 同上 |
+| 个人姓名 | Ranuccio II Farnese | S2 |
+| 头衔 | Duke of Parma／帕尔马公爵 | S2；S1 |
+| 受荣人 | Giuseppe Ghezzi／朱塞佩·盖齐 | S1 |
+| 所授荣衔 | gentiluomo d’onore | S1 |
+| 授予日期 | Haskell本段未载 | S1 |
 
-### 消歧结果
+### 本章相关内容
 
-- 已完整阅读Giuseppe Ghezzi的DBI传记；该文支持其生平及任职背景，但没有明确本次帕尔马荣誉侍从授予者姓名。[S2]
-- 另读Pier Leone传记相关段，1710年2月11日获帕尔马公爵授骑士十字者是儿子Pier Leone。受衔人和荣誉均与本卡不同，不用该日期推定Giuseppe的授衔。[S3]
-- 英文、Giuseppe全名与意大利语duca／gentiluomo／onore组合查询仍未解决具体身份，未证明无条目。
-- 不采用确认QID或某位公爵的Wikipedia链接；后续需本章所引Pascoli相应段及授予文书，不能用爵位列表代替。
+Haskell在第3章描述Ranuccio对耶稣堂tribune装饰计划的回应，并称他同意聘用Gaulli、提出支付3,000 scudi。相关书信节录仅保存于[哈斯克尔引述的书信知识元](../archives/oliva-letter-to-ranuccio-parma-september-1679-excerpt.md)，不表示原信手稿已查阅。
 
 ## 关系与证据
 
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → 荣衔授予者（`honourer_of`） | [朱塞佩·盖齐（Giuseppe Ghezzi）](giuseppe-ghezzi.md) | 授予 gentiluomo d’onore 荣衔；授予者的全名及日期未明；角色：gentiluomo d’onore荣衔授予者；范围：授予者全名及日期未明；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 771–773; print pp. 19 |
+| → 荣衔授予者（`honourer_of`） | [朱塞佩·盖齐（Giuseppe Ghezzi）](giuseppe-ghezzi.md) | Haskell says the Duke of Parma made Giuseppe Ghezzi a gentiluomo d’onore; index F.csv#12 identifies the p.19 Duke as Ranuccio II. No grant date is inferred.；角色：gentiluomo d’onore荣衔授予者；范围：Haskell's index identifies the title-only Duke on p.19 as Ranuccio II; the grant date remains unspecified.；证据：[来源](../../../02-sources/02-Markdown/01_CHP-1_sec_ii.md)；haskell-1980-rev-ed；Chapter 1, printed p.19, lines 132-133; Haskell index F.csv#12, Ranuccio II entry including p.19 |
+| ← 为收信人（`addressee_of`，反向投影） | [哈斯克尔引述吉安·保罗·奥利瓦致帕尔马公爵拉努乔二世的书信节录（Excerpt from Gian Paolo Oliva's letter to Ranuccio II, Duke of Parma, September 1679）](../archives/oliva-letter-to-ranuccio-parma-september-1679-excerpt.md) | The passage addresses the Duke of Parma; Haskell's text names Ranuccio's reaction immediately after the quotation, and index F.csv#12 locates Ranuccio II at pp.80-81.；时间：September 1679 (Haskell's report)；角色：Addressee；范围：Records the Duke of Parma addressed in Oliva's quoted letter; the letter excerpt is not represented as a complete document.；原断言与证据见发出端卡片“哈斯克尔引述吉安·保罗·奥利瓦致帕尔马公爵拉努乔二世的书信节录（Excerpt from Gian Paolo Oliva's letter to Ranuccio II, Duke of Parma, September 1679）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed pp.80-81, lines 46 and 49; PDF physical pp.22-23; statements=st-chp3-seciv-l35-46-oliva-september-1679-letter-fragment,st-chp3-seciv-l48-56-letter-foundation-claim |
+
+### 身份与外部链接
+
+本卡的姓名与跨页身份对应依据Haskell索引；本批未新增外部身份标识。

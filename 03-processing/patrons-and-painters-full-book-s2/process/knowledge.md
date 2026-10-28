@@ -17636,3 +17636,48 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 新archive卡、Alexander VII人物卡与Bernini人物卡均先单卡预览，再定向渲染；预检`cards=3`、`tables=7`、`rows=32`、`projected_relation_rows=38`、`files_to_write=3`。写后字节核验通过，三卡复预览无差异。`build_field_facts.py`复预览`record_changes=0`、`warnings=0`。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。关系诊断仍列出孤立KU及2个超过50条边的对象，这些不是本批阻断项。
 
 **批后状态。** S2为15,471 statements／26,872 mentions；统一独立复核台账仍为9,622条且statement ID／来源版本未核平，本批2个当前statement版本待独立差异复核。S3决定不变：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4已登记2,499/5,088个new候选，待映射2,589，其中直接关系端点926、其他1,663；KU共3,279。S5共14,661条字段（1,627条`unverified`）。S6历史裁决2,028项（formal 1,200、pending 694、rejected 134），当前`relation_candidate=true`为10,674项；历史裁决台账与当前statement版本仍差1，不据此报告完成率。`relations.csv`共2,501行（2,460 formal、41 pending）。337条关系statement仍缺至少一个S2端点候选ID；backlog 58条（15 completed、43 undecided）。
+
+<a id="s3-s4-s6-parma-dukes-letter-20261028"></a>
+### S3–S6 第1、2、3、6、7章帕尔马公爵身份分组与奥利瓦书信节录端点（2026-10-28）
+
+#### S3跨章身份决定
+
+| 候选 | 决定与组 | 依据及去向 |
+|---|---|---|
+| cand-0996 | new；sg3-person-cand-0996 | Haskell索引F.csv#11将第2章p.58及第6章p.146的帕尔马公爵标为Odoardo Farnese；登记至[奥多阿尔多·法尔内塞KU](../../../04-knowledge/units/persons/odoardo-farnese-duke-of-parma.md)。该索引条目与Ranuccio II条目分列。 |
+| cand-0997 | same；sg3-ku-units-persons-duke-parma-ghezzi | 索引F.csv#12列Ranuccio II及pp.19、84、92；第3章p.84正文亦直接称Ranuccio。复用稳定KU units/persons/duke-parma-ghezzi；以姓名更新其当前显示名，不改路径和ID。第1章p.19授予Ghezzi的日期仍未给出。 |
+| cand-3027 | same；同上 | Haskell索引F.csv#12将第1章p.19的title-only公爵指向Ranuccio II；更新原S3理由，不从Ghezzi儿子获骑士十字的记录推定授予日期。 |
+| cand-0998 | same；sg3-ku-units-places-gesu-rome | F.csv#13是Ranuccio II下的索引子条目“and Gesù”，定位pp.79–81；该段具体指罗马Gesù教堂。复用既有place KU；子条目不是另一人物，也不是正式关系断言。 |
+| cand-4905 | undecided；sg3-person-cand-4905 | 原候选中p.58标题移至cand-0996，p.92两处标题移至cand-0997；仅保留p.91匿名“Duke of Parma”。p.91未列在上述索引定位中，不能仅凭相邻页将其并入Ranuccio。无KU，待直接身份依据。 |
+| cand-6788 | undecided；sg3-person-cand-6788 | 第7章p.182仅称1645年派Torelli赴巴黎的“Duke of Parma”；F.csv#11/#12均不列p.182，Haskell未给姓名。无KU；不按年代推定Odoardo或Ranuccio。 |
+| cand-5238 | new；既有archive-group-35967258e350 | 第3章pp.80–81的Oliva 1679年9月书信节录可区别为来源限定archive对象；Haskell注6仅给Tacchi-Venturi 1935, pp.154–155定位，本批未读被引文献或查阅原信。登记为[书信节录KU](../../../04-knowledge/units/archives/oliva-letter-to-ranuccio-parma-september-1679-excerpt.md)。 |
+
+本批据索引页定位将Odoardo（第2、6章）与Ranuccio（第1、3章）拆为不同人物身份组；不将所有“Duke of Parma”合并为同一人物。
+
+#### S2当前版本与提及映射
+
+三条提及重新映射：第2章p.58公爵→cand-0996；第3章p.92两处公爵→cand-0997；第6章p.146称谓说明同步为cand-0996的索引身份。修订四条当前statement版本：st-chp2-secvii-l3-3-parma-consequences-fragment、st-chp3-seciv-l165-177-duke-refused-tribune-permission、st-chp3-seciv-l165-177-letters-carried-complaints-to-duke及st-chp6-p146-castro-location。statement／mention总数不变；四条当前statement版本待独立差异复核，不计入统一S2复核台账。
+
+#### S4与S5
+
+新增2个KU及映射：Odoardo人物与Oliva书信节录archive。既有Ranuccio稳定路径改为实名展示；正式名单与manifest同步更新。S5新增13条Haskell来源字段enr-18576–enr-18588，其中Ranuccio 5条、书信节录6条、Odoardo 2条。未增加外部身份标识，也未登记完整人物生平、原信版本或收藏信息。
+
+#### S6逐项裁决
+
+| S2关系候选 | 决定 | 去向与边界 |
+|---|---|---|
+| st-chp2-secvii-l3-3-parma-consequences-fragment | formal | rel-2506 has_participant：第一次卡斯特罗战争→Odoardo，role限为Haskell所称争端一方；不归给他军事指挥、绝罚、占领或领土所有权。 |
+| st-chp3-seciv-l35-46-oliva-september-1679-letter-fragment | formal | rel-2503 authored_by：书信节录→Oliva；rel-2504 addressed_to：书信节录→Ranuccio II。仅记录Haskell转引的作者及收信人，不表示原信已查。 |
+| st-chp3-seciv-l48-56-letter-foundation-claim | formal | rel-2505 has_subject：书信节录→Gesù；仅记录节录谈及教堂及tribune。书信中的建堂权利主张仍是Oliva的修辞，不作为独立核实事实。 |
+| st-chp3-seciv-l152-163-duke-delay-made-plan-impossible | process-only pending | p.91公爵身份未定，且当前无精确受控谓词；不建立近似边。 |
+| st-chp3-seciv-l165-177-duke-refused-tribune-permission | process-only pending | 身份现映射Ranuccio，但缺少忠实表达拒绝许可的受控关系类型；不替换为其他人物关系。 |
+| st-chp3-seciv-l165-177-letters-carried-complaints-to-duke | process-only pending | 受告知者现映射Ranuccio；来源未给出告知者，主语端点仍缺。 |
+| st-chp7-p182-i10 | process-only pending | Duke身份未定；受控关系类型亦不能直接表示person→person“派往巴黎”。不登记正式边。 |
+
+保留此前p.146裁决：st-chp6-p146-castro-dispute仍为rejected（复合叙述未支持特定二元边）；st-chp6-p146-castro-location仍pending（“belonging”在领土权属与所有权之间未能区分）。本批只澄清其公爵身份为Odoardo，不改变这两项关系结论或重复计数。新增正式关系仅为rel-2503–rel-2506。
+
+#### 检查与批后状态
+
+定向渲染6张受影响卡；写后字节核验通过，六卡复预览均无差异。`build_field_facts.py --apply`后复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。严格表审计通过：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断均为0（broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed）。非阻断诊断仍列1,330个零关系KU及2个超50连接对象。
+
+批后全书状态：S2为15,471 statements／26,872 mentions，统一独立复核台账9,622条，statement ID与来源版本仍未核平；本批修订的4条当前statement版本待独立差异复核，不计入台账。S3按候选ID计12,433项均有决定：same 2,110、new 5,089、conflict 9、excluded 106、undecided 5,119；另有28个候选的35条来源限定决定与候选级决定不同。S4已登记2,501/5,089个new候选，待映射2,588项，其中直接关系端点925项、其他1,663项；KU共3,281。S5共14,669条字段，1,625条`unverified`。S6历史裁决2,035项（formal 1,203、pending 698、rejected 134）；当前`relation_candidate=true`为10,674项，历史裁决台账与当前statement版本仍差1项，不据此报告完成率。正式关系表2,505行（2,464 formal、41 pending）。337条关系statement仍缺至少一个S2端点候选ID；backlog 58条（15 completed、43 undecided），严格审计pending=0。

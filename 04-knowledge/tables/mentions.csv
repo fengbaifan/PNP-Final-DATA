@@ -7724,7 +7724,7 @@ m-chp2-secvii-l21-30-0085,chp-2:02_CHP-2_sec_vii:l21-30,cand-4134,the Duke of No
 m-chp2-secvii-l21-30-0086,chp-2:02_CHP-2_sec_vii:l21-30,cand-4922,the one described above,2688,2711,The portrait that the unnumbered note distinguishes from the Duke version.
 m-chp2-secvii-l3-19-0001,chp-2:02_CHP-2_sec_vii:l3-3,cand-4904,War of Castro,12,25,Named conflict; the source line is continued across the page break.
 m-chp2-secvii-l3-19-0002,chp-2:02_CHP-2_sec_vii:l3-3,cand-4904,this absurd dispute,63,82,Anaphoric description of the War of Castro.
-m-chp2-secvii-l3-19-0004,chp-2:02_CHP-2_sec_vii:l3-3,cand-4905,Duke of Parma,92,105,Only the title is given; do not resolve the individual here.
+m-chp2-secvii-l3-19-0004,chp-2:02_CHP-2_sec_vii:l3-3,cand-0996,Duke of Parma,92,105,Title-only Duke of Parma; Haskell index F.csv#11 identifies Odoardo Farnese at printed p.58.
 m-chp2-secvii-l3-19-0003,chp-2:02_CHP-2_sec_vii:l3-3,cand-4904,its,130,133,Possessive refers to the War of Castro's effects on the Barberini.
 m-chp2-secvii-l3-19-0005,chp-2:02_CHP-2_sec_vii:l3-3,cand-0198,Barberini,149,158,Collective family reference.
 m-chp2-secvii-l32-36-0001,chp-2:02_CHP-2_sec_vii:l32-36,cand-0199,Francesco,18,27,Commissioner’s insistence on wool from his own flocks.
@@ -9210,7 +9210,7 @@ m-chp3-seciv-l165-177-0012,chp-3:03_CHP-3_sec_iv:l165-177,cand-3403,Society,486,
 m-chp3-seciv-l165-177-0014,chp-3:03_CHP-3_sec_iv:l165-177,cand-5427,architects,514,524,Unidentified architects consulted about the tribune and altar project.
 m-chp3-seciv-l165-177-0016,chp-3:03_CHP-3_sec_iv:l165-177,cand-1775,Oliva,565,570,Reuses the existing index-derived candidate for Gian Paolo Oliva.
 m-chp3-seciv-l165-177-0017,chp-3:03_CHP-3_sec_iv:l165-177,cand-5000,the tribune,586,597,"Gesù tribune, the alternative location still preferred by some members and architects."
-m-chp3-seciv-l165-177-0018,chp-3:03_CHP-3_sec_iv:l165-177,cand-4905,Duke of Parma,674,687,The source gives only the title; leave identity unresolved.
+m-chp3-seciv-l165-177-0018,chp-3:03_CHP-3_sec_iv:l165-177,cand-0997,Duke of Parma,674,687,Title-only Duke of Parma; Haskell index F.csv#12 identifies Ranuccio II at printed p.92.
 m-chp3-seciv-l165-177-0010,chp-3:03_CHP-3_sec_iv:l165-177,cand-3403,the Jesuits,722,733,The Society of Jesus; preserve Haskell's collective attribution.
 m-chp3-seciv-l165-177-0020,chp-3:03_CHP-3_sec_iv:l165-177,cand-5236,left transept,773,786,Location of the St Ignatius chapel in the Gesù.
 m-chp3-seciv-l165-177-0021,chp-3:03_CHP-3_sec_iv:l165-177,cand-5421,competition,790,801,The altar project competition; exact procedural stages remain as described in the passage.
@@ -9220,7 +9220,7 @@ m-chp3-seciv-l165-177-0032,chp-3:03_CHP-3_sec_iv:l165-177,cand-2034,Pozzo,1017,1
 m-chp3-seciv-l165-177-0028,chp-3:03_CHP-3_sec_iv:l165-177,cand-5422,Pozzo’s plans,1017,1030,The altar plans selected for the project.
 m-chp3-seciv-l165-177-0029,chp-3:03_CHP-3_sec_iv:l165-177,cand-5424,"Letters, signed and anonymous",1066,1095,Plural correspondence; neither individual letters nor senders are identified.
 m-chp3-seciv-l165-177-0030,chp-3:03_CHP-3_sec_iv:l165-177,cand-5425,the unfortunate father in charge of the arrangements,1110,1162,Unidentified Jesuit recipient; keep distinct from Pozzo and the General.
-m-chp3-seciv-l165-177-0019,chp-3:03_CHP-3_sec_iv:l165-177,cand-4905,Duke of Parma,1168,1181,The source gives only the title; leave identity unresolved.
+m-chp3-seciv-l165-177-0019,chp-3:03_CHP-3_sec_iv:l165-177,cand-0997,Duke of Parma,1168,1181,Title-only Duke of Parma; Haskell index F.csv#12 identifies Ranuccio II at printed p.92.
 m-chp3-seciv-l165-177-0031,chp-3:03_CHP-3_sec_iv:l165-177,cand-5200,the church,1196,1206,"The Gesù, identified from the immediate chapel and altar context."
 m-chp3-seciv-l165-177-0033,chp-3:03_CHP-3_sec_iv:l165-177,cand-2034,Pozzo,1383,1388,Andrea Pozzo; the index candidate covers p.92.
 m-chp3-seciv-l165-177-0035,chp-3:03_CHP-3_sec_iv:l165-177,cand-5437,a statue or a picture,1454,1475,"General debate over devotional media, not a reference to the specific Ignatius statue below."
@@ -13037,7 +13037,7 @@ m-chp6-p146-021,chp-6:06_CHP-6_sec_i:l3-11,cand-6252,changes of fashion,708,726,
 m-chp6-p146-022,chp-6:06_CHP-6_sec_i:l3-11,cand-6267,The decline,729,740,Anaphoric reference to the chapter’s Roman patronage decline framing.
 m-chp6-p146-023,chp-6:06_CHP-6_sec_i:l3-11,cand-4904,War of Castro,808,821,Named conflict; its precise relation to the previous chapter’s 1641 dating is retained as an approximate chronology for review.
 m-chp6-p146-024,chp-6:06_CHP-6_sec_i:l3-11,cand-6257,Castro,815,821,Town nested within the named War of Castro reference.
-m-chp6-p146-025,chp-6:06_CHP-6_sec_i:l3-11,cand-0996,Duke of Parma,854,867,Duke identified by the index as Odoardo Farnese; identity must still be checked in S3.
+m-chp6-p146-025,chp-6:06_CHP-6_sec_i:l3-11,cand-0996,Duke of Parma,854,867,Haskell index F.csv#11 identifies the title-only Duke at printed p.146 as Odoardo Farnese.
 m-chp6-p146-026,chp-6:06_CHP-6_sec_i:l3-11,cand-1831,papal territory,893,908,Territorial reference mapped to the Papal States index candidate.
 m-chp6-p146-027,chp-6:06_CHP-6_sec_i:l3-11,cand-0996,the Duke,947,955,Coreferential reference to the Duke of Parma.
 m-chp6-p146-028,chp-6:06_CHP-6_sec_i:l3-11,cand-6253,France,1095,1101,Political entity listed as a coalition participant; distinct from the geographic place.
