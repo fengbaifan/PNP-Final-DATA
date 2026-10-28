@@ -18232,3 +18232,11 @@ S2及独立复核台账未变；前批两条修订statement和两条mention仍�
 `cand-9979` 原因S0 OCR“Gaspara”与G.csv#128在p.333定位的Gasparo冲突而暂缓。现直接核对 `CHP-13.pdf` physical p.2印刷p.333，正文实际印为Gasparo Gozzi；索引同页以Gasparo Gozzi定位，且 `cand-1220` 已映射 `units/persons/gasparo-gozzi`。故从conflict改为 **same**，复用该人物KU，保留旧裁决与OCR原表面；本结论是印本—索引—既有书内身份的比较，不表示已查Roberti原文或独立核实代理事实。
 
 `st-chp13-p333-barbarigo-1765-pamphlet-instructions-through-gozzi` **process-only pending**：人物两端现已映射，但原文是Barbarigo通过代理人传达出版规格，既有受控关系没有准确的person→person代理／传达角色；待准确谓词及引用证据审查，不将其近似为委托作品或一般赞助。检查 `relations.csv` 未发现这条 statement 对应的既有正式边；本次不新增、撤销或改写任何正式关系及S6历史裁决，当前关系仍待证。S2 current statement和mention已更正，待独立差异复核，不计入台账；详见[阶段过程](stages.md#s2-ch13-p333-gozzi-print-20261028)。
+
+
+<a id="s2-s6-ch13-p334-novelle-anaphor-20261028"></a>
+### 第13章p.334《Novelle》编辑者指代更正的关系影响（2026-10-28）
+
+S2 `st-chp13-p334-albrizzi-edited-weekly-bulletin` 当前指向 `cand-0024`（Almorò Albrizzi，S3 `new`并已登记至 `units/persons/almoro-albrizzi`），对象为 `cand-9988`（《Novelle della Repubblica delle Lettere》，S3 `new`、尚未S4登记）。该statement的关系候选继续 **process-only pending**：当前词表没有忠实的编辑者／编者谓词；不得把编辑角色改写为 `published_by`，也不得因身份指代调整而推定正式边。`relations.csv` 中没有这一书内断言的既有正式边；本批未新增、撤销或改写S6历史裁决。
+
+Treccani DBI（2026-10-28访问）将该刊出版责任记于Giambattista，并记A. Calogerà曾短期任编辑；Almorò条目记其另办《Foglietti letterari》。这构成定向来源差异线索，不能代替本书原句或证明Haskell此处编辑职责。待期刊端点登记、合适受控谓词可用且编辑角色证据范围解决后重审；在此之前关系保持待证。具体原文、coreference依据与来源比较见[S2更正记录](stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)。

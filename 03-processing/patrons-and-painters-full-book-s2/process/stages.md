@@ -13732,3 +13732,13 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 直接查看 `02-sources/01-book/CHP-13.pdf` physical p.2、印刷p.333：代理人姓名印为“Gasparo Gozzi”；S0 Markdown L19和原始mention表面写作“Gaspara Gozzi”，是OCR字母误识别。保留S0、`original_quote`和mention表面及字符跨度；在 `st-chp13-p333-barbarigo-1765-pamphlet-instructions-through-gozzi` 的claim、speaker、qualification与ocr_corrections记录印本读法，并修正mention描述。Roberti 1900 pp.326–35未独立查阅；引文继续为Haskell转引，不扩大为通行印刷合约。
 
 与统一复核台账首次出现的基线 `1a6313c8654280a9b71187fc08522098626e734e` 比较：当前新增30、删除1、同ID变化47；本条当前statement和mention版本须独立差异复核，不增加9,622条复核数。
+
+
+<a id="s2-ch13-p334-novelle-editor-anaphor-20261028"></a>
+### 第13章p.334《Novelle》编辑者指代更正（2026-10-28）
+
+复核 `CHP-13.pdf` physical p.3、印刷p.334 原句：“His brother Almorò organised a society, the Accademia Albrizziana, ... and he himself edited a weekly bulletin ...”。此前将 `he himself` 指向段落主话题 Giambattista Albrizzi（`cand-0025`）；本次按协调句中最近的显式主语及原文语序，将其读作兄弟 Almorò Albrizzi（`cand-0024`）。修改 statement `st-chp13-p334-albrizzi-edited-weekly-bulletin` 的 subject、claim、qualification及mentioned候选；原始引文和S0不变，新增mention `m-s2-ch13-p334-044`，表面词为“he himself”，字符跨度1836–1846。此前第13章p.334段落处理记录保留为历史判断，以本条为当前版本。
+
+按REV-056对读Treccani DBI两个人物条目（均于2026-10-28访问）：[Giovanni Battista Albrizzi](https://www.treccani.it/enciclopedia/giovanni-battista-albrizzi_(Dizionario-Biografico)/)称其于1729–1738年出版《Novelle della Repubblica delle Lettere》，并记A. Calogerà曾短期任该刊编辑；[Almorò Albrizzi](https://www.treccani.it/enciclopedia/almoro-albrizzi_(Dizionario-Biografico)/)记载其另办周刊《Foglietti letterari》（1723–1726）。这些资料区分两兄弟及出版／编辑角色，但没有裁定Haskell此处代词或编辑职责；因此将当前S2主体记作基于局部句法的判断，不把它写成外部事实验证。
+
+S2 statement为同ID内容变化，mention新增1条；9,622条统一独立复核数不变，本次statement与mention版本待独立差异复核。以同一基线重算当前statement版本：新增30、删除1、同ID变化48；不得把本次变化再加在先前47条之上。相应S6关系继续process-only pending：controlled relation types无忠实的编辑者谓词，且 `cand-9988` 期刊端点S3虽为new但尚未S4登记；不由 `published_by` 替代 `edited_by`。详见[关系影响记录](knowledge.md#s2-s6-ch13-p334-novelle-anaphor-20261028)。

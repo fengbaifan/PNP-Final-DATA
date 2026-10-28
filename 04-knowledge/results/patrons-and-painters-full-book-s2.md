@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-28）
 
+**本批更正：第13章p.334《Novelle》编辑者代词。** 将 `he himself edited` 按最近的并列主语由Giambattista调整为Almorò Albrizzi；原引文不变，新增一条anaphoric mention。Treccani区分两兄弟的出版／编辑记录，但未独立解决Haskell所述编辑职责；相关S6关系继续pending，S2当前版本待独立差异复核，不增加9,622条台账。详见[S2校读](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)及[关系影响](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s6-ch13-p334-novelle-anaphor-20261028)。
+
 **本批完成：第13章Gozzi身份冲突校读。** 印本p.333实际为Gasparo，Markdown OCR误为Gaspara；`cand-9979`据印本和同页索引改为`same`并复用既有人物KU。原始引文与mention表面保留OCR，一条statement及mention的校读解释已修正、待独立差异复核。Barbarigo通过代理人传达印制规格的候选因缺准确谓词保留pending；Roberti原文未读。详见[身份裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-ch13-p333-gozzi-print-20261028)。
 
 **本批完成：7个new候选的显式组号补记。** 当前候选级复扫发现1个主行和6个仅有来源限定记录的候选缺小写 `group=` 标记；沿用原记录中的5个组号，依据2个已登记人物KU建立稳定组号。原决定、来源范围、KU和S2／S6不变；详见[核查记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-explicit-groups-source-only-20261028)。
@@ -3824,7 +3826,7 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
-| S2 | 15,480 statements、26,873 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。以9,622首次出现的提交为基线重算，当前有30条新增、47条同ID内容变化及1条删除；本批Gozzi校读属于同ID变化。差异数不能直接当作未复核数。详见[S2版本比较过程](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-baseline-9622-20261028)。 |
+| S2 | 15,480 statements、26,874 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。以9,622首次出现的提交为基线重算，当前有30条新增、48条同ID内容变化及1条删除；本批p.334代词修订在变化集合内。差异数不能直接当作未复核数。详见[S2基线比较](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-baseline-9622-20261028)及[本批更正](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)。 |
 | S3 | 按候选ID计12,433/12,433均有决定：same 2,120、new 5,095、conflict 8、excluded 106、undecided 5,104 | 12,408项有external_source为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。28个候选的35条来源决定虽与主行不同，当前复核确认其中34条（27个候选）均为same且目标与候选主行KU一致；唯一待证来源行是cand-2328的Princeton关联（“possibly”，1633/1653生年差异），主行new决定保持。先前结构筛查有87个无显式组；当前按候选主行及无主行的来源限定new行复扫并补记7项后，未发现缺小写`group=`标记的new候选行。宽口径50个多标签候选已核其旧组；历史13项筛查原始口径及ID尚待找回，不能将不同口径直接相减。 |
 | S4 | new候选已映射2,531/5,095；待映射2,564，其中直接关系端点906、其他1,658；KU共3,310 | 直接端点待映射按类型：term 401、work 135、place 128、archive 120、event 72、institution 49、person 1。 |
 | S5 | 14,748条字段，1,628条unverified | 本批新增1条Haskell来源支持字段。 |
