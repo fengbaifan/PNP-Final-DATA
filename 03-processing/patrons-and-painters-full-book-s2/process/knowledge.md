@@ -18556,3 +18556,34 @@ cand-6212由“SS. Apostoli”位置候选按第6章p.154的明确写法对齐�
 另有历史pending `st-chp15-p366-subleyras-plans-displayed`继续待证：原文只说图稿挂在Memmo的apartments，没有可识别地点KU；不改写为图稿位于人物KU。候选`cand-10484` Antenor像的呈献、制作者、题材三项关系，`cand-10488`祖先像呈献与`cand-10487`人物题材，以及“another six”均保留pending；尚无对应works身份时不建边。现有Azzo `rel-1702`、`rel-1703`、`rel-1704`及Subleyras `rel-1707`不撤销或替换。
 
 **S5、验证与交接。** 三张新卡按Haskell原书建立，S5新增5条`source_backed`字段（规划形制、雕像项目计划数量、1777与1786年进度、来源所述风格差异）；未加入外部验证事实。`relations.csv`新增`rel-2580`–`rel-2585`共6条formal边。涉及的当前S2版本需另行独立语义复核，9,622项统一复核台账不因本批增加。S2 statement数量、来源版本核平和历史S6裁决分母仍待全书核对；本批不宣称S2接收或S3–S6全书收口。
+
+
+<a id="s3-s4-s6-ch15-bozzola-brunelli-articles-20261029"></a>
+### 2026-10-29：第15章两篇期刊文献跨章身份组与引文端点
+
+**范围与原文依据。** `cand-10515` 的第15章p.368注5（S2 statement `st-chp15-p368-note5-cites-brunelli-bonetti-1951`）和p.372注1（`st-chp15-p372-note1-cites-brunelli-bonetti-1951`）均短引 Brunelli Bonetti, 1951。第21章p.417书目 L273–274 的 S2 statement `st-chp21-bib-l243-293-entry-20` 将同一书目记录为 “Brunelli Bonetti, B.: ‘Un riformatore mancato—Angelo Querini’ in Archivio Veneto, 1951, pp.185–200”。本地页图（`CHP-21Bibliography.pdf` physical p.7）核对题名、责任者形式、期刊和页码；图像显示期刊名排在题名之后，保留S0原有转录顺序，不改写原始来源。第15章p.368页图核对两处脚注的印本字样；S0中的 OCR `BruneUi` 保持不变。
+
+`cand-10516` 的第15章p.368注7（`st-chp15-p368-note7-1761-crisis-reference`）短引 Bozzola, 1948, pp.93–116。第21章p.416书目 L239 的 S2 statement `st-chp21-bib-l207-241-entry-27` 给出 “Bozzòla, A.: ‘Inquietudini e velleità di riforma a Venezia nel 1761-2’ in Bollettino Storico-Bibliografico Subalpino, 1948, pp.93–116”。本地页图（`CHP-21Bibliography.pdf` physical p.6）核对作者著录形式、题名和断行；第15章p.368页图校读注7姓名，但不改写S0 OCR `BozzMa`。两篇文章正文及各自被引内容均未独立查阅。
+
+**S3决定及组边界。** 复查现有 archive KU、候选名及这些候选的跨章 mentions/statements，未找到同题名、作者著录、刊名和年份的既有 publication KU；相关主对齐行此前均为 `undecided`，没有同一 candidate 的来源限定反向决定。两项分别裁为来源限定 `new`，不跨合并：
+
+| 候选 | 之前决定 | 本批决定与S4映射 | 身份边界 |
+|---|---|---|---|
+| `cand-10515` | `undecided`，无KU | `new`，组 `archive-group-un-riformatore-mancato-angelo-querini-1951`；`units/archives/un-riformatore-mancato-angelo-querini-1951` | 第15章两条引文与第21章p.417同一条目；正文内容未核。 |
+| `cand-10516` | `undecided`，无KU | `new`，组 `archive-group-inquietudini-velleita-riforma-venezia-1761-1948`；`units/archives/inquietudini-velleita-riforma-venezia-1761-1948` | 第15章注7与第21章p.416同一条目；不与 `cand-11263` 的1956年 *Casanova illuminista* 合并。 |
+
+没有可复用的同一 archive KU，因此本批无候选改判 `same`；没有相反书目身份记录，故无 `conflict`。作者仅保留印本著录形式 “Brunelli Bonetti, B.” 与 “Bozzòla, A.”；本批不据缩写合并到既有人物候选（包括 `cand-9502`、`cand-8666`），也不建立作者 KU 或 `authored_by` 边。作者个人身份仍未解决；这不阻断两篇出版物的书目身份和 `cites` 端点。
+
+**S4/S5。** 新建两张 bilingual archive 卡并登记到 `ku-manifest.csv` 与 `accepted.yml`。`enrichment.jsonl` 提取14条字段，全部由Haskell第15章脚注和第21章书目支持；`unverified=0`，未登记外部身份标识。两篇文献的书目身份已定，但文章内容及作者个人身份仍待证。
+
+**S6逐项去向与历史影响。** 查询 `relations.csv` 和既有过程记录，这三个 statement ID 均无历史formal/pending/rejected裁决；不存在需撤回的既有边。本批三条 S2 `relation_candidate=true` 引文候选全部 formal：
+
+| statement | 决定 | 关系 |
+|---|---|---|
+| `st-chp15-p368-note5-cites-brunelli-bonetti-1951` | formal | `rel-2586 cites`：Haskell书 → 1951年文章；只记录p.368注5的引文。 |
+| `st-chp15-p372-note1-cites-brunelli-bonetti-1951` | formal | `rel-2587 cites`：Haskell书 → 同一1951年文章；保留不同脚注锚点。 |
+| `st-chp15-p368-note7-1761-crisis-reference` | formal | `rel-2588 cites`：Haskell书 → 1948年文章。 |
+
+三项中无pending或rejected；第21章两个 `bibliography_lists_publication` statement 均为 `relation_candidate=false`，不额外生成 `cites` 边。作者边不在现有S2关系候选内，且缺已确认的人物端点，因此不造边；第15章关于防洪、1761年危机及相关人物的内容关系不由书目身份推断。全书S6历史裁决与当前statement版本仍未核平，本批三条边不用于计算覆盖率。
+
+**S2影响、渲染与校验。** 本批不改 `book-statements.jsonl`、`mentions.csv` 或来源版本；9,622条统一独立复核计数不变，不构成S2独立复核。字段预览/写入后二次预览为14条、0条 `unverified`、0重复、0警告、`record_changes=0`。三张受影响卡定向渲染并复预览无差异；《赞助人与画家》主卡一并投影了9条先前已入 `relations.csv`、但卡片尚未显示的旧引文边，以保持关系视图与表一致。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。机械通过不表示文章内容或作者身份已验证，也不表示全书S2–S6收口。
