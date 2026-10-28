@@ -25,7 +25,7 @@ sources:
     source_file: 02-sources/02-Markdown/08_CHP-8_sec_ii.md
     source_span: lines 357; print p. 240
 created: '2026-10-16'
-updated: '2026-10-16'
+updated: '2026-10-29'
 process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md
 ---
 
@@ -57,6 +57,12 @@ Chapter 8 (p. 240); Haskell describes exhibitions as an instrument Ferdinand use
 
 ## 关系与证据
 
-本批仅完成 S4 身份组登记，未新增正式关系。可成立的成员、创作、委托、所有权或参与关系仍须在 S6 依据具体端点和对应证据逐项审查。
+S6已以`rel-2643 uses_procedure`记录Ferdinand使用本程序引导佛罗伦萨绘画；证据支持的是其意图和做法，不证明实际影响。1706年单次展览及其作品、参展者关系仍分别处理。
 
-This batch registers the S4 identity group only and adds no formal relation. Any membership, creation, commission, ownership, or participation relation must be reviewed in S6 against its specific endpoints and evidence.
+S6 records Ferdinand's use of this procedure to guide painting in Florence as `rel-2643 uses_procedure`. The evidence supports his stated purpose and practice, not an achieved effect. The single 1706 exhibition and its works and participants remain separate.
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 程序使用者（`procedure_used_by`，反向投影） | [托斯卡纳大公子费迪南多（Grand Prince Ferdinand of Tuscany）](../persons/ferdinand-grand-prince-tuscany.md) | Endpoint cand-1610 is the separately registered exhibition-guidance procedure; the general art-exhibition term and 1706 event remain distinct.；角色：guiding Florentine painting；范围：Haskell reports Ferdinand used the still-rudimentary exhibition instrument in a new way to guide painting in Florence; this records the stated purpose, not an achieved effect.；原断言与证据见发出端卡片“托斯卡纳大公子费迪南多（Grand Prince Ferdinand of Tuscany）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 240, L355; S2 statement: st-chp8-p240-exhibition-as-art-direction |

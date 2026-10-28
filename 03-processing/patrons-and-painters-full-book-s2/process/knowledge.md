@@ -18822,3 +18822,26 @@ S0及页图为依据，本批不改写来源。保留statement ID和历史裁决
 同批复核的第10章S6历史变化另有明确去向：`rel-2433`因与`rel-2531 travelled_from`重复而rejected；`rel-2434`由`located_at`改为`travelled_from`；`rel-2435`改为`travelled_to`，保留p.280 England与p.281 London不同粒度且不推断是否同一行程；`rel-2436`、`rel-2437`作为重复到达边rejected，对应`rel-2536`、`rel-2538`。`rel-2462`–`rel-2464`从formal改为pending：`presso`不区分印刷者与出版者，且词表缺少忠实的`printed_by`；`rel-2465`继续pending，因馆藏语义不能以需拆分的`located_at`代替。这些状态与理由写回relations.csv及原裁决说明；未改写其他关系历史。
 
 **独立复核。** 独立阅读第20章p.408及第21章p.415页图，核对了指代修订、展览候选、mention跨度、四个S3/S4对象及关系端点。复核认为目录与相册、展览、基金会分属不同对象；“there”仍pending。初审发现的事件名场地暗示、相册受赠关系缺少S6行及过程锚点问题均已修复；复核修订后的当前版本结论另记于`stages.md`。
+
+
+<a id="s3-chp1-ch5-ch8-art-exhibitions-20261029"></a>
+### S3 跨章核平 Art exhibitions 与第5章 p.129关系端点（2026-10-29）
+
+**S2原文锚点补齐及关系端点修订。** 给第5章印刷p.129、段`chp-5:05_CHP-5_sec_i:l99-106`的三条关系候选补入6条mention：`m-s2-chp5-p129-20261029-01`将`them` `[1478,1482)`回指前文展览，但其局部所指首先是常规展览；是否包括临时展览不明确；`-02`记录`pictures, as of tapestries and banners` `[1495,1533)`；`-03`记录`exhibitions` `[2659,2670)`；`-04`记录`the art of alien cultures` `[2728,2753)`；`-05`记录`exhibitions` `[1093,1104)`；`-06`记录`four regular exhibitions` `[1080,1104)`。独立复核逐字核验六个0基半开跨度；装饰媒介组、泛称文化类别和四项年展组保持独立候选。另为第1章p.22及第8章p.240增加`m-s2-chp1-p22-20261029-procedure` `[1578,1631)`和`m-s2-chp8-p240-20261029-procedure` `[1321,1427)`；`st-chp1-secii-l917-926-02d`的对象候选从通用term `cand-3574`改为既有procedure候选`cand-3141`，`st-chp8-p240-exhibition-as-art-direction`从通用term `cand-0128`改为procedure候选`cand-1610`。两条原claim、原引文及通用term mention均保留，限定说明注明不推断实际影响。6条p.129 mention和2条procedure mention均不计入9,622条统一独立语义复核台账。
+
+**S3身份裁决。** `cand-0128`、`cand-0130`、`cand-3574`分别从`undecided`改为`same`，指向`units/terms/art-exhibitions`，沿用组号`sg3-term-artexhibitions`。第8章p.240的唯一mention为泛指的“art exhibition”这一尚未成熟的工具/实践；同页另述的具体1706年展览没有并入该术语。第5章p.129–130将展览作为罗马一般实践及影响因素讨论；第1章p.13、p.22分别称展览日益重要并报告Rosa反复使用展览建立声誉，均未指称单一活动。既有KU已由第5章p.125、第8章p.211及第10章p.330一般术语用例支持，这三项同组指涉与之同一。
+
+候选`cand-11790`（未指明的装饰媒介组）、`cand-11791`（未限定的外来文化艺术类别）和`cand-11794`（四项未具名年度展览集合）仍为`undecided`：原文未识别单件作品、边界明确的文化对象或四个独立展览系列；新mention只补足来源指代，不替代身份判断。组内其余仅有索引导航、没有可用S2正文锚点的Art exhibitions候选保持原决定，未因同名一起映射。
+
+**S6关系及历史影响。** 独立复核指出初审将两条已有或可用procedure端点的关系误列为process-only pending，并发现一条p.240候选尚无S6去向。当前裁决如下：
+
+| Statement | 去向与依据 |
+|---|---|
+| `st-chp1-secii-l917-926-02d` | formal，复用既有`rel-0299 uses_procedure`（Rosa→`units/procedures/exhibition-self-promotion`）。其来源跨度已覆盖该statement；本批修正S2端点为`cand-3141`并补mention，不重复新增或改写关系历史行。 |
+| `st-chp5-p129-decorative_use` | “them”回指前述展览，局部语境首先指向常规展览；是否包括临时展览未明。cand-11790只是未具名媒介集合；没有表示“展览以物件作装饰”的忠实受控谓词，也没有单件作品端点。 |
+| `st-chp5-p129-exhibitions_introduced_alien_cultures` | 这是展览作为多项因素之一的概括性因果论述；cand-11791没有界定具体艺术品或文化对象，不能改写为单一来源关系。 |
+| `st-chp5-p129-four_annual_exhibitions` | 原文给出四个常规年度展览及月份、城市，但未命名或区分四个系列；cand-11794身份未决，暂不创建event KU或`occurred_at`边。 |
+| `st-chp8-p240-exhibition-as-art-direction` | formal，新增`rel-2643 uses_procedure`（Ferdinand→`units/procedures/ferdinand-art-exhibition-guidance`）。来源支持其以展览引导佛罗伦萨绘画的意图；不声称实际影响。S2对象改接既有`cand-1610` procedure，通用term `cand-0128`仍由独立mention保留。 |
+| `st-chp8-p240-ferdinand-displayed-policy-to-sacconi` | process-only pending。原文说Ferdinand将同一policy用于Sacconi，但受控词表没有忠实的人物→人物“对某人施行策略”谓词，且没有识别具体作品或展示；不推成赞助或实际展览。可作Ferdinand→展览指导procedure边的补充上下文，但Sacconi不是程序端点。 |
+
+`st-chp5-p129-decorative_use`、`st-chp5-p129-exhibitions_introduced_alien_cultures`、`st-chp5-p129-four_annual_exhibitions`继续process-only pending：分别缺少忠实谓词及单件媒介端点、边界明确的文化对象、四个可区分展览系列；没有新增S6表行，未将证据缺口判成反证或rejected。`rel-0299`历史行未改写；`rel-2643`是本批唯一新增formal行。其余7条术语卡原有关系候选照旧，需分别完成S6审查。第二轮独立复核确认两条procedure mention及端点指向、rel-0299复用、rel-2643正式关系和关系卡投影均与原文及KU类型相符；另按复核建议收窄`them`的待证说明，局部优先指常规展览并保留是否含临时展览的歧义。全部新增mention均不计入9,622统一台账计数。

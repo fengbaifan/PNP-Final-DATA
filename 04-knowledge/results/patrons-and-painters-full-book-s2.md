@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-29）
 
+**本批完成：第1、5、8章 Art exhibitions 跨章身份分组与关系端点核平（2026-10-29）。** `cand-0128`、`cand-0130`、`cand-3574`复用既有`units/terms/art-exhibitions`；新补6条第5章p.129来源mention，并补2条procedure端点mention。独立复核后将Rosa的关系对齐至既有formal `rel-0299 uses_procedure`，将Ferdinand p.240展览指导记录为`cand-1610` procedure并新增`rel-2643 uses_procedure`；不声称实际影响。第5章装饰媒介、外来文化类别、四项未名年展，以及Ferdinand对Sacconi的独立人物关系均留在process-only pending。`cand-11790`、`cand-11791`、`cand-11794`保持undecided。6条p.129和2条procedure mention不计入9,622条统一独立复核台账；两条S2 statement仅改端点映射和限定说明，原claim及原引文保留。详见[过程与裁决变化](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-chp1-ch5-ch8-art-exhibitions-20261029)。
+
 **本批完成：第20章 p.408／第21章 p.415 扎内蒂相册赠予展览及目录的跨章裁决。** 原文将相册、基金会、纪念展览与Bettagno目录分别叙述；修复`st-chp20-p408-bettagno-zanetti-exhibition-catalogue`误将展览目录指向相册`cand-11122`的问题，现改指来源描述的事件`cand-12459`，并新增目录内容摘要statement。沿用`cand-11121`基金会、`cand-11122`相册、`cand-11123`目录各自的S3 `new`组，新增展览事件`new`组，登记4张来源限定KU卡及10条Haskell字段。S6新增5条formal（`rel-2637`–`rel-2640`、`rel-2642`）及1条pending（`rel-2641`）；`acquired_by`仅记录原文所述受赠方，“there”的具体场地／主办方仍待证。独立复核两轮通过；未声称独立查阅目录、展览日期、赠与人或当前保管。详见[原文、身份分组与关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch20-zanetti-album-catalogue-20261029)。
 
 **本批完成：第2章 p.36 Matilda墓及主浮雕端点。** 沿用 `cand-4420`、`cand-4421`、`cand-4422` 三个既有S3 `new`组，分别登记墓、墓主浮雕与圣彼得大殿右侧走道；复用 `cand-4428` 已登记的来源限定Canossa场景事件。新增3张KU卡、5条Haskell来源字段及6条formal关系，分别处理设计者、Urban VIII直接委托、书内方位、走道所属、主浮雕构成和图像题材。保留墓与主浮雕为不同作品，不推定主浮雕作者、材质、墓的建成状态或事件史实。`cand-4417`版本未明的大理石浮雕仍`undecided`，关系端点记入`bl-0091` pending；`cand-4419` Countess Matilda身份仍未解决，不建立委托人／题献／题材人物边。未改S2 statement、mention、来源版本或9,622条独立复核台账。详见[原文依据与裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp2-matilda-tomb-20261029)。
@@ -3878,11 +3880,11 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 处置覆盖完成，不代表S2语义接收。 |
-| S2 | 15,481 statements、26,865 mentions；统一独立复核台账9,622条 | 尚未全书独立接收。相对基线有31条statement新增、1条删除、90条同ID变化；mention有16条新增、21条删除、23条同ID变化。ID与来源版本交集仍未核平。第15章本轮7条当前记录与MS 610批2条记录已另行独立复核但不并入统一台账；其余版本差异继续逐章节阅读正文、注释和必要图像。总数差不能推算未复核数。 |
-| S3 | 12,436个候选：仅same 2,127、仅new 5,078、仅undecided 5,088、conflict 8、excluded 107；另有27个same/new混合、1个new/undecided混合 | 含new决定共5,106个候选。混合来源决定及历史组号问题继续逐项复核；不得以名称或自动组号替代身份判断。 |
-| S4 | 已映射2,582/5,106个含new决定候选；待登记2,524个；KU共3,361 | 879个含new决定的直接关系端点尚未登记：term 399、work 125、place 121、archive 112、event 72、institution 49、person 1。 |
-| S5 | 14,927条字段；1,632条unverified | 按具体关系缺口定向补证；本批新增5条原书来源字段，均已登记。 |
-| S6 | `relations.csv` 2,634行：2,589 formal、45 pending；当前`relation_candidate=true`为10,683条 | 历史裁决台账与当前statement版本尚未核平，不报告完成率。缺候选端点statement 341条：仅缺subject 46、仅缺object 223、两端均缺72。 |
+| S2 | 15,483 statements、26,875 mentions；统一独立复核台账9,622条 | 尚未全书独立接收。相对基线有33条statement新增、1条删除、95条同ID内容变化；mention有26条新增、21条删除、23条同ID内容变化。ID与来源版本交集仍未核平；已单独复核的当前版本仍不并入统一台账。
+| S3 | 12,437个候选：仅same 2,130、仅new 5,079、仅undecided 5,085、conflict 8、excluded 107、混合new/same 27、混合new/undecided 1 | 含new决定5,107项；当前组号、来源决定差异和身份边界仍按类型逐批核对。
+| S4 | 已映射2,586/5,107个含new决定候选；待登记2,521个；KU共3,365 | 876个含new决定的直接关系端点尚未登记：term 399、work 124、place 121、archive 111、event 72、institution 48、person 1。
+| S5 | 14,937条字段；1,632条unverified | 按关系具体缺口定向补证；本批未新增外部字段。
+| S6 | `relations.csv` 2,641行：2,589 formal、49 pending、3 rejected；当前`relation_candidate=true`为10,685条 | 历史裁决台账与当前statement版本尚未核平，不报告完成率。缺候选端点statement 342条：仅缺subject 47、仅缺object 223、两端均缺72。
 | Backlog | 91条：17 completed、74 undecided | 机械pending=0不表示待证对象已解决；逐条检查其S1→S3/S4覆盖和最小待证条件。 |
 
 S3纯`undecided`候选、纯未决直接关系端点及S4待登记直接关系端点按类型交叉统计：
@@ -3890,23 +3892,22 @@ S3纯`undecided`候选、纯未决直接关系端点及S4待登记直接关系�
 | 类型 | S3 undecided | S3未决直接关系端点 | S4待登记直接关系端点 |
 |---|---:|---:|---:|
 | person | 1,048 | 424 | 1 |
-| work | 1,546 | 1,060 | 127 |
-| archive | 656 | 278 | 112 |
-| term | 660 | 445 | 399 |
+| work | 1,546 | 1,060 | 124 |
+| archive | 656 | 278 | 111 |
+| term | 657 | 442 | 399 |
 | place | 301 | 128 | 121 |
-| institution | 117 | 82 | 49 |
+| institution | 117 | 82 | 48 |
 | event | 112 | 65 | 72 |
 | family | 18 | 13 | 0 |
 | procedure | 2 | 2 | 0 |
 | 类型尚未确定 | 628 | 472 | 0 |
-| **合计** | **5,088** | **2,969** | **879** |
+| **合计** | **5,085** | **2,966** | **876** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。零关系KU和2个超50连接对象属于非阻断诊断。机械通过不等于独立语义接收。S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面尚未开展。
 
 #### 后续工作顺序
-
-1. **继续处理直接关系端点。** 优先完成2,524个待登记的含new决定候选中879个直接关系端点；每批同时将关联S6候选裁为formal、pending或rejected。作品身份或端点尚缺时保留待证状态。
-2. **核平S2版本并继续独立语义复核。** 核对当前相对基线的31条新增、90条同ID变化、1条删除及mention的16增、21删、23改与9,622条台账的ID/来源版本重叠；第15章本轮7条当前记录和MS 610两条记录已另行独立复核，其余版本差异继续按章节阅读正文、注释和必要图像。修正后的当前版本须另行独立复核，不以原版本审查代替。
-3. **按类型推进S3跨章身份组。** 优先裁决2,969个纯未决直接关系端点，再处理同类型其他未决对象；逐项记录复用、新增、冲突或带明确证据条件的待证去向，核对来源决定差异及组号，避免合并同名对象或范围不同的集合。
-4. **定向补S5并核平S6台账。** 按关系所需的身份、版本、角色、时间和地点处理字段证据；核对历史裁决与当前statement版本后再报告覆盖。缺少忠实谓词或具体证据的关系保持pending。
-5. **收束缺端点与backlog。** 逐项审查341条缺候选端点statement及74条undecided backlog；具名对象可识别时补进S1→S3→S4，身份或类型不足时保留最小待证条件。以上收口前不启动S7。
+1. **处理直接关系端点。** 逐批处理2,521个待登记new候选及876个未登记的直接关系端点；同步将关系裁决落到formal、pending或rejected，并说明端点、谓词和证据限制。
+2. **核平S2版本并继续独立语义复核。** 以当前33条新增、95条同ID变化、1条删除的statement，以及26条新增、21条删除、23条同ID变化的mention为入口，与9,622条台账按ID和来源版本核平；近期修订及重叠逐项去重后，继续按章节复核正文、注释和必要图像。
+3. **按类型推进S3跨章身份分组。** 优先裁决2,966个未决直接关系端点，逐项归入复用、新增、冲突或待证；核对来源决定差异和组号，保持同名实体及范围不同集合分开。
+4. **补证并核平S6台账。** 定向核验S5未验证字段与所需身份、版本、角色、时间和地点；核对S6历史裁决及当前statement版本，再计算可靠覆盖。无忠实谓词或充分证据的关系继续pending。
+5. **收束缺端点与backlog。** 逐项审查342条缺候选端点statement及74条undecided backlog；可识别对象按S1→S3→S4推进，身份或类型不足时保留具体待证条件；以上收口前不启动S7。

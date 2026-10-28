@@ -33,7 +33,7 @@ sources:
     source_file: 02-sources/02-Markdown/00_05_List_of_Plates.md
     source_span: lines 101–101; 章前：图版目录；印刷页xiv
 created: '2026-09-14'
-updated: '2026-09-14'
+updated: '2026-10-29'
 process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
 ---
 
@@ -81,6 +81,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | ← 赞助者／保护人（`patron_of`，反向投影） | [塞巴斯蒂亚诺·里奇的皮蒂宫小室壁画装饰（Sebastiano Ricci’s Fresco Decoration in a Small Room at the Pitti Palace）](../works/sebastiano-ricci-pitti-small-room-fresco-decoration.md) | The mediated report supports patronage, not collaborative authorship or a precise commission date; Gherardi was not independently consulted.；角色：Named patron; Gherardi reports payment and gifts；范围：Haskell says Ricci painted the decoration for Ferdinand; Gherardi, quoted through Haskell, reports that Ricci followed the Prince’s instructions and received payment and gifts.；原断言与证据见发出端卡片“塞巴斯蒂亚诺·里奇的皮蒂宫小室壁画装饰（Sebastiano Ricci’s Fresco Decoration in a Small Room at the Pitti Palace）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.235, line 300, and p.236, note 1, line 436; statements st-chp8-p235-pitti-decoration, st-chp8-p236-gherardi-instructions-report, st-chp8-p236-note1-gherardi-report |
 | ← 赞助者／保护人（`patron_of`，反向投影） | [费迪南德最喜爱别墅中的《艺术寓意》（Allegory of the Arts for Ferdinand at His Favourite Villa）](../works/ricci-allegory-of-the-arts-favourite-villa.md) | Do not equate this work with the Pitti-room decoration.；角色：Named patron；范围：Haskell says the Allegory was painted for Ferdinand; the exact commission arrangement and date are not supplied.；原断言与证据见发出端卡片“费迪南德最喜爱别墅中的《艺术寓意》（Allegory of the Arts for Ferdinand at His Favourite Villa）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.235, lines 299–300; statement st-chp8-p235-allegory-arrival |
 | → influenced_by（`influenced_by`） | [威尼斯绘画传统（Venetian Painting Tradition）](../terms/venetian-painting-tradition.md) | Haskell's source-level interpretation only.；角色：Haskell's account of aesthetic attraction and revival intent；范围：This records Haskell's interpretation that Ferdinand was seduced by the Venetian painting tradition and wished to revive it; it does not assert a completed commission, a specific work, or a documented transmission path.；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 231, lines 241–242; statement=st-chp8-p231-ferdinand-seduced-by-venetian-tradition |
+| → 采用程序（`uses_procedure`） | [费迪南德借助展览引导佛罗伦萨绘画（Grand Prince Ferdinand’s use of exhibitions to guide Florentine painting）](../procedures/ferdinand-art-exhibition-guidance.md) | Endpoint cand-1610 is the separately registered exhibition-guidance procedure; the general art-exhibition term and 1706 event remain distinct.；角色：guiding Florentine painting；范围：Haskell reports Ferdinand used the still-rudimentary exhibition instrument in a new way to guide painting in Florence; this records the stated purpose, not an achieved effect.；证据：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 240, L355; S2 statement: st-chp8-p240-exhibition-as-art-direction |
 
 ### 关系候选入口
 

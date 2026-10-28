@@ -2791,3 +2791,16 @@ l82–93中，为五个原文明示但此前缺少标量端点的对象增加来
 ### 2026-10-24：第8、9、19章 Lucca MS(S). 3299 书信关系端点
 
 新增6条S2原子statement，分别明确三封信的作者和收件人；复用现有mentions，新增statement不计入统一独立复核。S3将第8章注2和附录3同一Torelli信归入同组，S4登记3封信及Lucca机构；S6七项formal、六项pending、一项rejected。完整端点和逐条理由见[知识过程](../process/knowledge.md#s3-s4-s5-s6-lucca-ms3299-letters-20261024)。
+
+
+### 2026-10-29：Art exhibitions跨章端点修订与独立复核
+
+为第5章印刷p.129、S0段`chp-5:05_CHP-5_sec_i:l99-106`补入6条mention；另补第1章p.22和第8章p.240两条procedure端点mention。独立复核逐项对照当前S0/segment文本，八个0基半开跨度均精确；第5章`them`仅记为回指前述展览、局部首先指向regular exhibitions，保留是否涵盖occasional exhibitions的歧义。
+
+S3将`cand-0128`、`cand-0130`、`cand-3574`复用至通用term `units/terms/art-exhibitions`，组号`sg3-term-artexhibitions`；`cand-11790`、`cand-11791`、`cand-11794`仍分别是未名装饰媒介组、边界未定的外来文化艺术类别、四项未名年度展览集合，保持undecided。独立复核未发现同名误并或范围混并。
+
+S2保留statement原claim和original_quote，修正两条关系statement的对象候选：Rosa自我宣传策略从term `cand-3574`改指已登记procedure `cand-3141`；Ferdinand以展览引导绘画的行为从term `cand-0128`改指已登记procedure `cand-1610`。相关generic-term mention仍单独保留。S6复用既有formal `rel-0299 uses_procedure`，不改写历史行；新增`rel-2643 uses_procedure`（Ferdinand→`ferdinand-art-exhibition-guidance`），只记录来源所述用途和意图，不推断实际影响。Sacconi statement及第5章装饰用途、外来文化影响、四项未具名年展继续process-only pending；未具名作品、媒介、系列及非忠实受控谓词不强行建立formal边。未发现本批既有其他S6历史行受影响。
+
+相对统一复核基线，当前S2为15,483 statements（新增33、删除1、同ID变化95）和26,875 mentions（新增26、删除21、同ID变化23）。这8条mention与两条statement版本未计入9,622条统一独立语义复核台账；台账与来源版本交集仍未核平，不据此声称全书接收。
+
+修订后由独立上下文复核当前mention跨度、procedure端点、S3复用边界、rel-0299复用、rel-2643新增关系、四项pending理由及卡片投影；复核通过，唯一措辞修订已同步到knowledge.md。针对性验证：`audit_tables.py --strict-stage --summary`为`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py --dry-run`五项阻断均为0；两个受影响端点卡定向render与render后preview通过；`git diff --check`通过。整库renderer预检显示526个文件会被写回，本批仅渲染两个受影响卡片。
