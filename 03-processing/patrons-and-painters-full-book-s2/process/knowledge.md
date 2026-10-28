@@ -18732,3 +18732,16 @@ S0及页图为依据，本批不改写来源。保留statement ID和历史裁决
 其他涉及这批端点的关系去向保留如下：st-chp10-p316-first-life-canaletto-view和st-chp10-p315-four-canalettos-two-scenes-linked-to-streits-life-fragment涉及cand-9634这一未定类型集合；单幅作品对集合的成员关系没有可用且已确认端点的受控关系，留在bl-0087待证。Campo S. Sofia在原文中是取景起点，但没有与此角色忠实对应的关系类型，不伪造has_subject或located_at边。st-chp10-p316-two-life-scenes-noted-about-streits-pictures说明两幅场景与笔记内容有关，当前受控词表没有忠实的作品—笔记说明关系，不把引用或作者关系冒充为此关系；p.316脚注所称“published by Zimmermann”也不因论文卡登记而建立notes—author或notes—publication formal边。st-chp10-p316-n01-constable-rejected-moretti-attribution只报告Constable反驳Moretti或followers归属；正向Canaletto—Moretti／followers created_by关系不成立，裁为rejected，不增加正向关系行。未具名followers和四幅／两幅集合边界待证；两位文献作者只有首字母，citation edge仍可基于完整书目存在而与作者person身份未决分开。
 
 **定向验证与交接。** 13张受影响卡（10张新卡、Canaletto人物卡、Streit人物卡、Haskell书卡）定向渲染预检通过；写入后重复渲染为files_to_write=0。首次预检暴露新卡用占位表行的问题，修复为与enrichment完全一致的原始表格行后再渲染；写入器保存恢复快照并完成字节核对。严格表审计errors=[]、s2_missing=[]、alignments_unlinked=0；关系一致性审计broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic evidence-backed=0。全书当前机械统计及S2版本差异见[当前结果](../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。本批没有更改第10章S2 statement或mention；全书9,622条复核台账、S2版本覆盖和S6历史裁决分母仍待核平。
+
+<a id="s3-cross-source-decisions-endpoint-audit-20261029"></a>
+### 2026-10-29：来源限定决定差异与直接关系端点交叉复核
+
+对当前`alignment.csv`逐候选连接项目内主行与来源限定行，并以当前S2 `relation_candidate=true`的subject/object候选集合筛查直接端点。28个候选共有35条来源限定行，其decision均不同于项目内主行：27个候选的34条来源行是`same`，且每条均与主行`new`映射到同一KU；这表达外部记录对来源局部身份组的确认，不应按decision字面差异判作冲突。其中22个候选直接出现在S2关系端点。唯一未解决的是`cand-2328`的Princeton University Art Museum对象8051来源行`aln-12663`：该行仍为`undecided`且无KU；来源沿革以“possibly”限定Stefano与Zaccaria关系，出生年1633与Haskell转引的1653冲突，且所引Rearick文章未查。保留书内Stefano人物主行`new`与既有KU，不据外部记录改日期或身份。
+
+同批复核`cand-4819`（第2章p.58 L185）组号字段。原文短语“the provisional theatre which Bernini erected outside his own house”直接指向一处临时剧场；宅邸身份和剧场确切位置未明。现行主行仍为`new`，KU仍为`units/places/bernini-provisional-theatre-outside-house`，补明其当前S3身份组`sg3-place-cand-4819`。早期undecided判断及其范围疑点继续保留在`prior_resolution_note`；此次只补全当前显式组标记，不改变S3决定、KU或地理断言。
+
+**关系及历史裁决影响。** 对照关联statement和`relations.csv`，Bernini建造该临时剧场仍由`rel-1967 erector_of` formal记录；1638年《L’Inondazione del Tevere》演出地点仍由`rel-1972 occurred_at` formal记录。两边均沿用同一剧场KU，时间、角色和证据范围未改；本次没有新增、删除或改写S6关系行，也没有改动历史裁决。其他未识别地点或作品端点仍按既有待证条件处理，不从组号补出身份。
+
+**当前快照核平与验证。** 严格表审计复得S2 15,481 statements／26,865 mentions；S3 12,436个候选，决定模式为仅same 2,126、仅new 5,077、仅undecided 5,090、conflict 8、excluded 107、new/same混合27、new/undecided混合1；有new决定5,105项，S4已映射2,576、待登记2,529。S4待登记直接关系端点881项；S3未决直接端点2,972项。S5共14,916条字段、1,632条unverified；S6表2,620条（2,575 formal、45 pending），当前直接关系候选10,683条，341条缺至少一端候选ID；backlog 89项（17 completed、72 undecided）。严格表审计errors=[]、s2_missing=[]、alignments_unlinked=0；关系一致性五项阻断均为0。当前结果页已依这些表值更正快照与按类型队列。
+
+本次只修订`aln-5002`的process_ref与resolution_note并更新当前结果中的S3差异说明及机械快照；S2 statements/mentions、统一独立复核台账、S3决定数、S4映射和S6裁决均未改变。该筛查只解释这28个候选的来源限定decision差异，不代表全体S3候选已语义验收。
