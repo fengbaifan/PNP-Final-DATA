@@ -17764,3 +17764,9 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 | 原聚合statement | 既有rejected决定不变；版画／题献对象不并入绘画，不据此添加创作者或题献关系。 |
 
 作品、收藏机构及Poussin三张卡分别预览并定向渲染，写后复预览均无差异。批后S2为15,477 statements／26,873 mentions；独立复核台账仍9,622，本批新增statement未独立复核。S3总决定未变。S4为2,508/5,088已映射、2,580待映射（直接端点922、其他1,658），KU共3,288；S5为14,702条字段（1,625条`unverified`）；S6历史裁决2,047项（formal 1,213、pending 700、rejected 134），当前`relation_candidate=true`为10,680条；`relations.csv` 2,515条（2,474 formal、41 pending）。缺少候选端点ID的关系statement为338条，backlog 58条（15 completed、43 undecided）。严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断项为0；这些结构检查不构成S2独立接收。
+
+### S3 来源决定与跨章身份组字段复核（2026-10-28）
+
+对当前`alignment.csv`按候选ID连接空`external_source`主行和来源限定行，重新核查28个候选、35条来源行的决定差异。34条来源行（覆盖27个候选）均为`same`并指向候选主行的同一KU，是来源记录对书内新建KU的身份确认，不表示把书内候选并回其他既有对象。唯一仍待证的是`cand-2328`的Princeton University Art Museum来源行：主行仍为`new`并登记至`units/persons/stefano-sagredo`；Princeton记录关系仅称“possibly”，且现有生年信息1633与1653不一致。故外部行保留`undecided`、无KU目标；在来源关联或年代差异得到直接证据澄清前不改为`same`。未改写以上裁决。
+
+另按现行候选主行显式`group=`字段复扫S3 `new`决定，并统计来源限定的new-only候选。共有87个候选未检出显式组字段：候选主行79个，加仅有来源限定`new`行且无组字段8个；按候选类型为person 36、archive 42、work 6、place 3。主行另有21个候选解析出多个不同组字符串，其中8组差异仅为尾随句点，规范化该标点后仍有13个候选存在多个不同组标签。未组候选中65个、剩余13个中的9个与当前S2关系候选端点集相交。此为字段结构筛查，不等于身份组裁决；应核对当前组与历史组、对象类型及跨章来源后再修改。上述本次复核为只读审计，没有写回alignment或改变S3决定。
