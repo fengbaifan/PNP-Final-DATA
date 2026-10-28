@@ -18619,3 +18619,25 @@ cand-6212由“SS. Apostoli”位置候选按第6章p.154的明确写法对齐�
 没有将 relation_candidate=false 的脚注定位扩建为额外引用边；也不据本书的书目署名推断作者／编者关系。另一条当前候选 st-chp2-seciv-l190-245-contarini-report 说 Angelo Contarini 的1627–1629年报告见卷I第257页。既有S2独立复核已指出原 statement 把报告者、报告文书和后世出版容器压成了“人→出版物”端点关系。本批不把它改成formal引文边，也不使用不忠实的关系谓词；新加 bl-0081，将报告文书身份和出版关系留待证，并与Contarini人物及两卷容器分开。卷I第257页另有脚注定位 statement st-chp2-seciv-l190-245-citation-51（relation_candidate=false）；本批不据此重复建引文边，报告文书身份与其出版关系仍保持待证。
 
 **S2影响与机械校验。** 未修改 book-statements.jsonl、mentions.csv 或来源版本；15,480条statement、26,861条mention和9,622条统一独立复核台账不变，修订版本仍需单独复核。两张受影响卡定向渲染后复预览均无差异；字段二次预览无变化。严格表审计 errors=[]、s2_missing=[]、alignments_unlinked=0、candidate_backlog_pending=0；关系一致性阻断 broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic evidence-backed=0。机械通过不表示所引多卷本、其内容、具体印本或报告文书已独立验证，也不表示全书S2–S6收口。
+
+<a id="s3-s4-s6-chp8-bigari-catholic-religion-fresco-20261029"></a>
+### 第8章p.222比加里壁画作品身份与关系端点裁决（2026-10-29）
+
+**原文依据与S3更正。** `aln-0710`原将`cand-0375`留在`undecided`，理由称只有索引候选且没有S2正文提及；这与当前S2不符。`st-chp8-p222-bigari-paints-catholic-religion-fresco`（L129）明确写Bigari绘制壁画，`st-chp8-p222-bigari-ceiling-fresco`（L128–129）给出楼梯天花语境。当前段落及全书作品卡中没有同一作品的已有KU；故将`cand-0375`从`undecided`改为来源限定的`new`组`sg3-work-bigari-catholic-religion-ceiling-fresco`，并完成S4映射。卡题名明确为描述性暂题，不宣称外部存世作品、馆藏版本或正式题名。原S3旧理由和变更路径由本记录与Git历史保留。
+
+**跨类型身份边界与S4。**
+
+| 候选 | 决定与去向 | 边界 |
+|---|---|---|
+| `cand-0375` | `new`；`sg3-work-bigari-catholic-religion-ceiling-fresco`；`units/works/bigari-catholic-religion-ceiling-fresco` | 第8章所述一幅楼梯天花壁画；与墙面灰泥装饰`cand-7704`不同。 |
+| `cand-0374` | 复用现有人物KU `units/persons/vittorio-bigari` | Bigari为人物端点；不将人物与作品合并。 |
+| `cand-7708` | 保留既有`new`组`sg3-term-cand-7708`；映射至`units/terms/catholic-religion-allegorical-subject-bigari-fresco` | 天主教作为壁画寓意主题；与Papacy机构KU分开，不扩展为通用教义实体。 |
+| `cand-12079` | `undecided`；新增`bl-0082` | 原文称“provinces”并随即称“三座城市”；对象类型及范围未决，不与Ravenna、Bologna、Ferrara城市KU合并。 |
+
+同页`cand-7704`所指楼梯墙面灰泥装饰是另一件work，主体与媒介均异；未发现需要并组的同类作品候选。本批没有外部身份核查，不添加外部标识。
+
+**S5来源支持。** 两张卡新增三条`source_backed`字段：作品描述性题名、楼梯天花壁画类型、术语定义；证据均定位到第8章印刷页222 L128–130及对应S2 statement。没有补写作品日期、材质、现藏地点或外部题名。
+
+**S6关系裁决与历史影响。** 原`knowledge.md`第8章旧记录将`st-chp8-p222-bigari-paints-catholic-religion-fresco`留待S6；在端点决议和映射后，本次formal为`rel-2603 created_by`（work→Bigari）和`rel-2604 has_subject`（work→来源限定天主教寓意主题）。`st-chp8-p222-fresco-depicts-three-provinces`仍pending并由`bl-0082`追踪，因端点类型和对象边界未定；不使用`represents`等不存在的受控谓词。`st-chp8-p222-bigari-ceiling-fresco`为复合背景statement、`relation_candidate=false`，不另建边。没有删除或改写历史关系行；新增边只覆盖原文能支持的作者与题材。
+
+**交接。** S2 statements和mentions未修改；本批不增加S2独立复核计数。来源限定作品身份已登记，province/city组仍待证；两条formal边须按来源范围理解，不代表全段独立语义接收。

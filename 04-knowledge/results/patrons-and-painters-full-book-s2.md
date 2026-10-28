@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-29）
 
+**本批完成：第8章p.222比加里壁画作品与寓意主题端点。** `cand-0375`因旧S3理由“无正文提及”与当前正文矛盾，从`undecided`改为来源限定`new`并登记work；沿用`cand-7708`既有term `new`组完成登记，复用Bigari人物KU。新增2张卡、3条source-backed字段和2条formal关系（`rel-2603`–`rel-2604`）；“provinces/三座城市”候选`cand-12079`的类型及范围未决，新增`bl-0082`继续pending，不与城市KU合并。未改S2 statements或mentions，也未增加独立复核计数。详见[身份与关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp8-bigari-catholic-religion-fresco-20261029)。
+
 **本批完成：Barozzi—Berchet《Relazioni degli Stati Europei》两卷本跨章身份及引文端点（2026-10-29）。** `cand-11238`沿用既有S3 `new`组并完成S4登记；第2章卷I候选`cand-4365`及第4、6章卷II候选`cand-6006`从`undecided`改判为同一档案KU的`same`，卷次与页码留在各自引文范围。核对第21章印本p.413（PDF物理页3）书目，新增5条Haskell原书字段，均为`source_backed`；14条`cites`逐条formal为`rel-2589`–`rel-2602`。未推断作者边、外部身份或具体印本。Contarini报告仍不能与人物及出版容器拆分识别，新增`bl-0081`保留archive待证，相关关系不强行formal。本批未改S2 statement、mention或独立复核台账。详见[身份与关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch21-barozzi-berchet-multivolume-work-20261029)。
 
 **本批完成：第15章两篇期刊文献跨章身份组与引用端点。** `cand-10515`、`cand-10516`从 `undecided` 分别裁为独立的 archive `new` 组并完成S4登记；页图核对第21章p.416、p.417书目身份，不将 Bozzòla 与1956年 *Casanova illuminista* 合并。新增14条Haskell书内S5字段，全部source-backed；三条第15章 `cites` 候选均formal为 `rel-2586`–`rel-2588`，未增加作者边或推断文章内容。S2语句、提及与9,622条复核台账不变。详见[身份与关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-ch15-bozzola-brunelli-articles-20261029)。
@@ -3860,11 +3862,11 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 处置覆盖完成，不代表S2语义接收。 |
 | S2 | 15,480 statements、26,861 mentions；统一复核台账9,622条 | 尚未独立接收。与台账首次出现时的statement基线比对：新增30、同ID变更89、删除1（共120个ID不同）；此前49条变化的10个旧版本与37条未定位记录仍按10/28核查口径保留。10/29 Prà修订的40条均不同于独立审读快照，须另行复核且不计入9,622；30条新增与台账重叠仍无法由总数判定。先前“近期21条”缺可复现ID清单，不能与差异数相加。 |
-| S3 | 12,434项：same 2,126、new 5,103、conflict 8、excluded 106、undecided 5,091 | 28个候选存在35条来源限定决定差异；已核34条与主行目标一致，`cand-2328`的Princeton来源限定行仍待直接身份／年代证据。50个多标签主行已复核；历史13项筛查口径尚未找回。 |
-| S4 | 已映射2,561/5,103个new；待登记2,542个；KU共3,340 | 889个new直接关系端点尚未登记：term 400、work 129、place 124、archive 114、event 72、institution 49、person 1。 |
-| S5 | 14,891条字段；1,632条unverified | 以具体关系缺口排序定向补证；本批新字段5条均source-backed。 |
-| S6 | `relations.csv` 2,600行：2,559 formal、41 pending；当前`relation_candidate=true`为10,682条 | 历史裁决台账与当前statement版本未核平；不报告完成率。缺端点statement 339条：仅有subject候选221、仅有object候选46、两端均缺72。 |
-| Backlog | 81条：16 completed、65 undecided | 机械pending=0不表示待证对象已解决；逐条检查其S1→S3/S4覆盖和最小待证条件。 |
+| S3 | 12,434项：same 2,126、new 5,104、conflict 8、excluded 106、undecided 5,090 | 28个候选存在35条来源限定决定差异；已核34条与主行目标一致，`cand-2328`的Princeton来源限定行仍待直接身份／年代证据。50个多标签主行已复核；历史13项筛查口径尚未找回。 |
+| S4 | 已映射2,563/5,104个new；待登记2,541个；KU共3,342 | 888个new直接关系端点尚未登记：term 399、work 129、place 124、archive 114、event 72、institution 49、person 1。 |
+| S5 | 14,894条字段；1,632条unverified | 以具体关系缺口排序定向补证；本批新字段3条均source-backed。 |
+| S6 | `relations.csv` 2,602行：2,561 formal、41 pending；当前`relation_candidate=true`为10,682条 | 历史裁决台账与当前statement版本未核平；不报告完成率。缺端点statement 339条：仅有subject候选221、仅有object候选46、两端均缺72。 |
+| Backlog | 82条：16 completed、66 undecided | 机械pending=0不表示待证对象已解决；逐条检查其S1→S3/S4覆盖和最小待证条件。 |
 
 S3未决候选、未决直接关系端点及S4待登记直接关系端点按类型交叉统计：
 

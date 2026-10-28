@@ -25,8 +25,8 @@ sources:
     source_file: 02-sources/03-Index/03-2-Index-CSV/B.csv
     source_span: B.csv#221
 created: '2026-10-17'
-updated: '2026-10-17'
-process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-vittorio-bigari-endpoint-20261017
+updated: '2026-10-29'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp8-bigari-catholic-religion-fresco-20261029
 ---
 
 ## 内容
@@ -46,4 +46,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-目前没有登记在 relations.csv 中的正式关系。直接 S2 关系候选（st-chp8-p222-bigari-paints-catholic-religion-fresco）留待 S6；KU 登记不代表关系裁决。逐组记录见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-person-vittorio-bigari-endpoint-20261017)。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [比加里的天主教寓意天花壁画（Bigari’s ceiling fresco of the Catholic Religion）](../works/bigari-catholic-religion-ceiling-fresco.md) | Haskell explicitly says Vittorio Bigari painted the fresco of the Catholic Religion. This records the book attribution only.；角色：壁画绘制者；范围：Haskell’s source-local attribution of the staircase ceiling fresco; no date or surviving version identified.；原断言与证据见发出端卡片“比加里的天主教寓意天花壁画（Bigari’s ceiling fresco of the Catholic Religion）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p.222, lines 128–129; statement=st-chp8-p222-bigari-paints-catholic-religion-fresco |
+
+裁决变化与作品范围见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp8-bigari-catholic-religion-fresco-20261029)。
