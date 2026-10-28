@@ -1,4 +1,4 @@
-﻿mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
+mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
 m-chp10-p281-queen_anne,chp-10:10_CHP-10_intro:l125-139,cand-0110,Queen Arme,117,127,OCR reads Arme; print reads Anne.
 m-chp10-p281-anne_she,chp-10:10_CHP-10_intro:l125-139,cand-0110,she,138,141,"Queen Anne, named immediately before."
 m-chp10-p281-sheffield_retired,chp-10:10_CHP-10_intro:l125-139,cand-0465,he retired from politics,147,171,John Sheffield; retirement follows Anne's death in Haskell's account.
@@ -25967,9 +25967,7 @@ Longhi, R.: ‘Velazquez 1630: “La rissa all’ambasciata di Spagna” ' in I,
 28-34.",11,110,S0 bibliography entry; page-image layout readings and S3 comparisons are recorded on its statement.
 m-chp21-bib-l701-754-002,chp-21:21_CHP-21Bibliography:l701-754,cand-7144,"Paragone,
 Longhi, R.: ‘Il Goya romano e la “cultura di Via Condotti” ’ in 53, 1954, pp. 28-39.",111,205,S0 bibliography entry; page-image layout readings and S3 comparisons are recorded on its statement.
-m-chp21-bib-l701-754-003,chp-21:21_CHP-21Bibliography:l701-754,cand-7604,"Paragone,
-Longhi, R.: ‘Un collezionista di pittura napoletana nella Firenze del ’600’ in 75,
-1956, pp. 61-64.",206,315,S0 bibliography entry; page-image layout readings and S3 comparisons are recorded on its statement.
+m-chp21-bib-l701-754-003,chp-21:21_CHP-21Bibliography:l701-754,cand-7604,‘Un collezionista di pittura napoletana nella Firenze del ’600’,228,291,Exact journal-article title in the bibliography entry; author is separately annotated.
 m-chp21-bib-l701-754-004,chp-21:21_CHP-21Bibliography:l701-754,cand-10856,"Paragone,
 Longhi, R.: ‘Il vero “Maffeo Barberini” del Caravaggio’ in 1963 (165), pp. 3-11.",316,406,S0 bibliography entry; page-image layout readings and S3 comparisons are recorded on its statement.
 m-chp21-bib-l701-754-005,chp-21:21_CHP-21Bibliography:l701-754,cand-11378,"Longo, Antonio: Memorie della vita—edizione seconda, 4 vols., Venezia 1820.""",407,483,S0 bibliography entry; page-image layout readings and S3 comparisons are recorded on its statement.
@@ -27542,3 +27540,4 @@ m-chp8-p222-n2-agnelli-person,chp-8:08_CHP-8_sec_ii:l372-461,cand-7709,J. Agnell
 m-chp21-bib-l756-806-maresca-author,chp-21:21_CHP-21Bibliography:l756-806,cand-7389,"Maresca di Serracapriola, A.",97,125,Author form in Haskell's p.429 bibliography entry; only initial A. is printed.
 m-chp5-sec-iii-l70-80-048,chp-5:05_CHP-5_sec_iii:l70-80,cand-11927,Alessandro Farnese’s campaigns,279,309,Direct S2 anchor for the campaign group named in the De Bello Belgico and location statements; no campaign date or individual battle is implied.
 m-chp5-sec-iii-l70-80-049,chp-5:05_CHP-5_sec_iii:l70-80,cand-11930,and others,172,182,"Direct S2 span for the additional unnamed collaborators; the referent remains an open-ended, untyped group."
+m-chp21-bib-l701-754-003-longhi-author,chp-21:21_CHP-21Bibliography:l701-754,cand-7603,"Longhi, R.",216,226,Bibliographic author form for cand-7604; S3 maps the R. Longhi identity to Roberto Longhi.

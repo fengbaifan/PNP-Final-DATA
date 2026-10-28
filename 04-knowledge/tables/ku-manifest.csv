@@ -1,4 +1,4 @@
-﻿ku_id,type,canonical_name,name_en,source_task,card_path
+ku_id,type,canonical_name,name_en,source_task,card_path
 units/archives/accademia-statutes-confirmed-1621,archive,圣路加学院章程（1621 年确认）,Statutes of the Accademia di S. Luca (confirmed in 1621),chp-1,04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 units/archives/adone-marino-poem,archive,《阿多涅》（Adone）,Adone,patrons-and-painters-full-book-s2,04-knowledge/units/archives/adone-marino-poem.md
 units/archives/aedes-barberinae-ad-quirinalem,archive,奎里纳尔山的巴贝里尼宫,Aedes Barberinae ad Quirinalem,front-matter,04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -3280,3 +3280,8 @@ units/works/zompini-iconographic-proposal-scuola-del-carmine,work,卡尔米内�
 units/archives/alexander-vii-diary-extracts-haskell-report,archive,哈斯克尔所述亚历山大七世日记相关摘录出版,Publication of Relevant Extracts from Pope Alexander VII's Diary as Reported by Haskell,patrons-and-painters-full-book-s2,04-knowledge/units/archives/alexander-vii-diary-extracts-haskell-report.md
 units/archives/oliva-letter-to-ranuccio-parma-september-1679-excerpt,archive,吉安·保罗·奥利瓦致帕尔马公爵拉努乔二世书信节录,"Excerpt from Gian Paolo Oliva's letter to Ranuccio II, Duke of Parma (September 1679)",patrons-and-painters-full-book-s2,04-knowledge/units/archives/oliva-letter-to-ranuccio-parma-september-1679-excerpt.md
 units/persons/odoardo-farnese-duke-of-parma,person,帕尔马公爵奥多阿尔多·法尔内塞,"Odoardo Farnese, Duke of Parma",patrons-and-painters-full-book-s2,04-knowledge/units/persons/odoardo-farnese-duke-of-parma.md
+units/archives/longhi-un-collezionista-pittura-napoletana-firenze-seicento-1956,archive,《十七世纪佛罗伦萨的一位那不勒斯绘画收藏家》,A Collector of Neapolitan Painting in Seventeenth-Century Florence,patrons-and-painters-full-book-s2,04-knowledge/units/archives/longhi-un-collezionista-pittura-napoletana-firenze-seicento-1956.md
+units/works/vannini-sacrifice-of-isaac-del-rosso-house,work,《以撒献祭》,The Sacrifice of Isaac,patrons-and-painters-full-book-s2,04-knowledge/units/works/vannini-sacrifice-of-isaac-del-rosso-house.md
+units/works/vannini-fall-of-manna-del-rosso-house,work,《玛纳降下》,The Fall of Manna,patrons-and-painters-full-book-s2,04-knowledge/units/works/vannini-fall-of-manna-del-rosso-house.md
+units/works/vannini-moses-striking-rock-del-rosso-house,work,《摩西击石》,Moses striking the Rock,patrons-and-painters-full-book-s2,04-knowledge/units/works/vannini-moses-striking-rock-del-rosso-house.md
+units/works/vannini-susanna-and-elders-del-rosso-house,work,《苏撒纳与长老》,Susanna and the Elders,patrons-and-painters-full-book-s2,04-knowledge/units/works/vannini-susanna-and-elders-del-rosso-house.md

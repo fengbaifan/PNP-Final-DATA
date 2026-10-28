@@ -17702,6 +17702,40 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 | `st-chp5-p144-de-rossi-displayed-regulus` | formal | `rel-2507 held_by`：作品→De’ Rossi；基于L24–25“his private museum”及“In these he hung”，仅记录来源所述历史收藏／展示语境。 |
 | `st-chp5-p144-regulus-raised-small-picture-idiom-to-heroic-tragedy` | process-only pending | 引句现包含L25–26的完整回指；但来源具体说Rosa研究“Stoic historians”，当前端点是抽象的17世纪斯多葛主义术语。需先解决历史人物／著述与思想术语的S2端点边界；目前不将Haskell解释压缩成未经支持的作品→Stoicism正式边。 |
 
+<a id="s3-s4-s5-s6-ch8-p212-vannini-longhi-article-20261028"></a>
+### S3–S6 第8章 p.212 万尼尼旧约场景与Longhi论文端点（2026-10-28）
+
+#### S3身份去向与S4登记
+
+本批沿用S3既有身份裁决：论文候选`cand-7604`及四幅单件作品候选`cand-7528`–`cand-7531`均为`new`；作者候选`cand-7603`为`same`，复用Roberto Longhi人物KU；Ottavio Vannini候选`cand-2694`沿用既有KU。未重开这些身份决定。分别登记5个KU：
+
+| 候选 | KU | 书内对象 |
+|---|---|---|
+| `cand-7604` | `units/archives/longhi-un-collezionista-pittura-napoletana-firenze-seicento-1956` | Longhi发表于1956年的Paragone文章；仅据第21章p.428书目署名与第8章注释所引，不表示已查阅论文正文。 |
+| `cand-7528` | `units/works/vannini-sacrifice-of-isaac-del-rosso-house` | 《以撒献祭》 |
+| `cand-7529` | `units/works/vannini-fall-of-manna-del-rosso-house` | 《降吗哪》 |
+| `cand-7530` | `units/works/vannini-moses-striking-rock-del-rosso-house` | 《摩西击石》 |
+| `cand-7531` | `units/works/vannini-susanna-and-elders-del-rosso-house` | 《苏珊娜与长老》 |
+
+四幅作品作为分别命名的书内作品登记；候选`cand-7527`仍为`undecided`，未将“四幅场景”另建为作品组KU。五张新卡说明当前地名、版本和外部归属均未核实；作品名称为工作译名。
+
+#### S2语义调整及关系裁决
+
+第8章p.212 L100–101将四幅场景逐一命名，并以“which he produced”回指Vannini；原合并statement仅保留Haskell对四幅作品的评价，另写4条单件作品`created_by` statement，避免用一个未决组合对象承载四个创作归属。第8章p.212注2（L150）分别将《降吗哪》和《摩西击石》连接至Longhi文章；原statement改为论文`has_subject`《降吗哪》，新增论文`has_subject`《摩西击石》。第8章p.213注1对Paceco的Rosa de Rosa画作只作未具名复数指称，缺标题、数量和可界定的组合身份；保留开放端点为process-only pending，不建虚构作品或KU。第21章p.428 L707–709书目署名写为archive `authored_by` Roberto Longhi；S3复用其人物KU，不据此补写论文内容事实。
+
+| S6决定 | 决定与证据边界 |
+|---|---|
+| `rel-2508 authored_by` | 论文→Roberto Longhi；依据第21章p.428书目作者署名。 |
+| `rel-2509`–`rel-2512 created_by` | 四幅单件作品→Ottavio Vannini；仅限Haskell第8章p.212 L100–101的书内归属，不外推委托、存世版本或现藏。 |
+| `rel-2513`–`rel-2514 has_subject` | Longhi论文→《降吗哪》《摩西击石》；仅记录Haskell注2所述发表关系，论文正文未独立查阅。 |
+| p.213 Paceco画作 | process-only pending；无可识别作品端点，待有标题、目录或图版等稳定身份依据时重开。 |
+
+#### S5、卡片与核查
+
+五个新KU新增S5字段28条（`enr-18589`–`enr-18616`），均有书内来源标记，unverified=0；字段构建复预览为no change。七张受影响卡（论文、四幅作品、Longhi、Vannini）经定向预览后渲染；预检仅写这7张卡，完成后字节校验通过。两张既有人物卡的关系摘要已同步修订，以免旧文与本批关系相矛盾。
+
+本批新增或修订9个当前S2 statement记录、增加1条mention；总量为15,476 statements／26,873 mentions。统一独立复核台账仍为9,622项，未因本批自行复核而增加；本批相关statement版本尚未纳入独立差异复核。全表严格审计`errors=[]`、`s2_missing=[]`，关系一致性阻断项为0。批后全局状态见[当前结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)；上述结构审计不构成S2语义接收。
+
 #### 卡片投影与审计
 
 作品卡预览只显示一条新增的rel-2507关系行，定向渲染仅写入该作品卡；写后复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；仅保留2587条new候选待S4登记及S2语义质量需持续人工审读两项既有warning。关系一致性阻断均为0（broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed）。

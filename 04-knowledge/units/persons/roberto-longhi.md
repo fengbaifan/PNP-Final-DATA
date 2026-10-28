@@ -71,4 +71,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-本任务未新增正式关系。直接S2关系候选`st-chp5-notes-l140-velasquez-attribution`、`st-chp20-p396-longhi-alternative-portrait`、`st-chp8-p212-n2-longhi-publishes-vannini-scenes`、`st-chp8-p213-n1-longhi-publication`留待S6逐条裁决。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所著文献（`author_of`，反向投影） | [《十七世纪佛罗伦萨的一位那不勒斯绘画收藏家》（A Collector of Neapolitan Painting in Seventeenth-Century Florence）](../archives/longhi-un-collezionista-pittura-napoletana-firenze-seicento-1956.md) | 书目署名为直接证据；S3只解决作者身份，不据此确认论文内容；角色：书目作者署名Longhi, R.；S3身份映射至Roberto Longhi；范围：仅记录Haskell书目将该期刊论文署名为Longhi, R.；按S3身份决定映射至Roberto Longhi。论文正文及所引内容未独立查阅。；原断言与证据见发出端卡片“《十七世纪佛罗伦萨的一位那不勒斯绘画收藏家》（A Collector of Neapolitan Painting in Seventeenth-Century Florence）”：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；Chapter 21, printed p.428, lines 707–709; statement=st-chp21-bib-l701-754-entry-03 |
+
+本批新增期刊论文到本人物的authored_by正式关系，依据第21章p.428书目署名，并沿用cand-7603的S3身份映射。第8章p.212注2另将两幅具名作品连接到论文，关系不表示Longhi本人直接创作或发表了已独立核实的作品；第8章p.213注1仍因Paceco de Rosa画作未具名而保留开放端点待证。第5章Velasquez归属与第20章备选肖像候选仍待S6逐条裁决。
