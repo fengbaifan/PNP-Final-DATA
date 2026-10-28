@@ -3766,7 +3766,7 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
-| S2 | 15,480 statements、26,873 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。近期记录列出21条待独立差异复核的当前版本。以9,622首次出现的提交为基线，当前表另有30条新增、41条同ID内容变化及1条删除；部分后续可能已复核，须逐ID核平，不能将71条一律视作未复核。详见[S2版本比较过程](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-baseline-9622-20261028)。 |
+| S2 | 15,480 statements、26,873 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。近期记录列出21条待独立差异复核的当前版本。以9,622首次出现的提交为基线，当前表有30条新增、41条同ID内容变化及1条删除；其中第6章p.162两条当前版本已核对与既有独立复核提交一致，其他69条及删除ID仍须逐项核平，不能将差异数直接当作未复核数。详见[S2版本比较过程](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-baseline-9622-20261028)。 |
 | S3 | 按候选ID计12,433/12,433均有决定：same 2,114、new 5,089、conflict 9、excluded 106、undecided 5,115 | 12,408项有external_source为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。28个候选的35条来源决定虽与主行不同，当前复核确认其中34条（27个候选）均为same且目标与候选主行KU一致；唯一待证来源行是cand-2328的Princeton关联（“possibly”，1633/1653生年差异），主行new决定保持。new候选组字段结构筛查：87个无显式组（主行79、来源限定new-only 8），另21个多标签中8个仅尾随句点不同、13个仍需语义核组。 |
 | S4 | new候选已映射2,515/5,089；待映射2,574，其中直接关系端点916、其他1,658；KU共3,295 | 直接端点待映射按类型：term 401、work 136、place 135、archive 120、event 73、institution 50、person 1。 |
 | S5 | 14,723条字段，1,628条unverified | 本批新增2条Haskell来源支持字段；字段复预览`record_changes=0`、warnings=0。 |
