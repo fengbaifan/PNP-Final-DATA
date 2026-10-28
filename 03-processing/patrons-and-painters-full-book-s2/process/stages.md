@@ -13710,3 +13710,5 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 **Valentin图版署名端点修订后重算（2026-10-28）。** 原书插页和图版目录都写“Valentin: Allegory of Rome”；`st-chp2-seci-l9-10-plate-i-credit`及`st-fm-pl-p01-credit`原subject错误指向作品`cand-4108`，现改为人物`cand-2677`，object维持作品`cand-2678`；对应两个Valentin人物mention同步纠正。以同一基线复算当前statement：新增30、删除1、同ID变化43；本次两条均为同ID变化。两条statement和两条mention当前版本待独立差异复核，未增加统一复核分子；详见[关系及端点处理](knowledge.md#s6-plate-works-reuse-20261028)。
 
 **Lodoli肖像馆藏语句端点修订（2026-10-28）。** `st-chp10-p320-323-n04-portrait-location-accademia`由画家→画作更正为画作→未决Accademia候选；图版目录Museo Correr与注释Accademia的来源分歧保留。当前版本待独立差异复核。相同基线重算为新增30、删除1、同ID变化44；统一复核分子不变。详见[端点与版画过程](knowledge.md#s3-s4-s6-lodoli-engraving-20261028)。
+
+**第7章p.185候选类型变化的复核依赖（2026-10-28）。** `cand-0348`、`cand-0351`、`cand-0360`由误挂画家的人物候选改为各自作品并登记；`st-chp7-p185-i08`–`i10`及对应题名mention的候选ID与文本未变，但引用对象的类型和KU已改变，故不能仅凭statement JSON与基线相同宣称其当前端点解释已复核。此依赖须纳入独立差异复核及下游关系追踪；统一复核分子不变。详见[类型更正与关系裁决](knowledge.md#s3-s4-s6-cortona-vrilliere-p185-20261028)。

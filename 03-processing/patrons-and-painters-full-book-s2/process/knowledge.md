@@ -17831,6 +17831,21 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 S5新增`enr-18652`题名与`enr-18653`系列语境，均为Haskell来源支持。直接候选`st-chp7-p185-i11`裁为**formal** `rel-2545 created_by`，仅表达书内Turchi归属；“La Vrillière增添系列”不自动变成委托、所有权或现藏关系，相关系列候选仍须逐项裁决。本批S2 statement／mention及独立复核台账未变。
 
+<a id="s3-s4-s6-cortona-vrilliere-p185-20261028"></a>
+### 第7章p.185三件Cortona作品的类型更正与归属（2026-10-28）
+
+索引B.csv#195、#198、#207均挂在Pietro da Cortona人物主项之下，但子项是分别具名的画作。正文p.185 L207–209在Pietro da Cortona名下列出三件作品，且`m-chp7-p185-027`、`-030`、`-034`分别指向题名；`st-chp7-p185-i08`、`-i09`、`-i10`的subject亦分别为对应作品候选，object为画家`cand-0342`。原`cand-0348`、`cand-0351`、`cand-0360`误分类为person并`same`到画家KU，若沿用会把作品与作者合并并造成关系自指。
+
+复查同类型manifest未发现这三个明确题材的既有KU；按原书语境将三个候选从person改为work、从`same`改为来源限定`new`并分别登记。旧人物映射与原判断保留于alignment备注；画家候选`cand-0342`仍复用原人物KU。三件作品的正式版本、现藏、外部作者归属均未核实，不从同名或系列关系推断。S2 statement及mention的ID、文字、候选ID未改，但其所指候选的类型和映射发生实质变化，涉及该三条语句与对应提及的当前解释须纳入独立差异复核，不增加复核分子。
+
+| 候选 | 来源限定作品KU | S6归属 |
+|---|---|---|
+| `cand-0348` | `units/works/caesar-restoring-cleopatra-la-vrilliere` | `st-chp7-p185-i08` → `rel-2546 created_by` formal |
+| `cand-0360` | `units/works/sibyl-announcing-christ-to-augustus-la-vrilliere` | `st-chp7-p185-i09` → `rel-2547 created_by` formal |
+| `cand-0351` | `units/works/finding-of-romulus-and-remus-la-vrilliere` | `st-chp7-p185-i10` → `rel-2548 created_by` formal |
+
+三边均仅记录Haskell对作者的书内归属；不由“增添一组画作”推定具体委托、所有权或现藏。新增S5字段`enr-18654`–`enr-18659`各自记录书内题名与系列语境。系列候选`cand-6846`的边界与`cand-6823`是否重合仍未决，`st-chp7-p185-i05`不随三件画登记自动转正。
+
 <a id="s6-plate-works-reuse-20261028"></a>
 ### 已复用作品的关系与图版署名端点（2026-10-28）
 
