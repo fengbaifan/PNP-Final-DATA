@@ -149,7 +149,10 @@ S4 书目列 Howard Hibbard，*The Early History of Sant’Andrea della Valle*�
 ## 关系与证据
 
 ### 关系记录
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 包含成员（`contains`，反向投影） | [谷地圣安德烈堂巴贝里尼礼拜堂（Barberini Chapel）](barberini-chapel-sant-andrea-valle.md) | 图版目录直接标识礼拜堂所在教堂；正文第2章pp.25–26的选址和建造过程另行保留；角色：图版所示礼拜堂所属建筑；范围：图版目录称Barberini Chapel in S. Andrea della Valle；记录建筑空间的组成关系，不以此边代替Maffeo选择地点的行为或推定完成日期。；原断言与证据见发出端卡片“谷地圣安德烈堂巴贝里尼礼拜堂（Barberini Chapel）”：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；List of Plates, printed p. xii, plate 8, line 48 |
+
 
 ### 身份与外部链接
 

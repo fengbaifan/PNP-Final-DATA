@@ -17856,6 +17856,19 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 两项均保留原`new`理由及组号；只改候选级S3决定和KU映射，不新建KU或改S2/S6。本次书内身份比较不声称独立外部核验。
 
+<a id="s6-reused-place-endpoints-20261028"></a>
+### 复用地点端点的关系裁决（2026-10-28）
+
+核对第2章印刷页25–26、章前图版目录第8项及第10章p.281；实体、来源和关系限定分别判断：
+
+| 候选 | 决定与解决条件 |
+|---|---|
+| `st-chp2-seci-l44-53-chapel-site` | **pending**：两处place端点现已明确，正文称Maffeo选择教堂作为建礼拜堂的地点；现有`part_of`表达组成而不表达选择行为。待有忠实表达选择行为的受控谓词或经审定的语义拆分，不能用组成边冒充该行为的完整裁决。 |
+| `st-chp2-seci-l44-53-florentine-patronage` | **pending**：正文称罗马佛罗伦萨社群赞助教堂，`cand-4253`身份／类型未决；现行`patronized_by`域值也不支持place→term。不将社群推成具名机构，待对象类型与合适谓词解决。 |
+| `st-chp10-p281-pellegrini-bellucci-dusseldorf-movements` | **pending**：正文分别说Pellegrini于1712年从英格兰赴杜塞尔多夫、Bellucci数年后从那里抵伦敦；一条聚合候选的主体/客体不足以完整表达两次移动和方向。`rel-2433`仅记录Pellegrini在英格兰出发时的位置；待将原子断言和准确谓词审定后重审。 |
+
+另据章前图版目录p.xii第8项原文“Barberini Chapel in S. Andrea della Valle, Rome”，新增`rel-2530 part_of` formal：Barberini礼拜堂→谷地圣安德烈堂。该边表达图版明确的建筑空间组成，使用图版目录定位，不推定完成日期，也不代替上述选址行为。正文p.26谈及此礼拜堂的建造及后来的完成，但不为完成过程补定年。本批未改S2、S3、S4或S5；3项关系候选为process-only pending，新增一条独立有据的正式边。
+
 <a id="s4-s5-s6-chp3-p89-pozzo-spaces-20261028"></a>
 ### S4–S6 第3章 p.89 Pozzo祭坛席与后殿空间端点（2026-10-28）
 

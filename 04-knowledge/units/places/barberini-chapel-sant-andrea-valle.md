@@ -52,9 +52,8 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | ← 所在地（`location_of`，反向投影） | [圣安德烈亚·德拉瓦莱巴贝里尼家族礼拜堂青铜烛台组（Bronze Candlesticks in the Barberini Family Chapel at S. Andrea della Valle）](../works/bronze-candlesticks-barberini-chapel.md) | 角色：furnishing described in the family chapel；范围：Haskell identifies bronze candlesticks as furnishings in the Barberini family chapel at S. Andrea della Valle; no maker, item count, or present location is implied.；原断言与证据见发出端卡片“圣安德烈亚·德拉瓦莱巴贝里尼家族礼拜堂青铜烛台组（Bronze Candlesticks in the Barberini Family Chapel at S. Andrea della Valle）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；Chapter 2, printed p. 43, PDF physical p. 28; S2 statement: st-chp2-secii-l141-145-barberini-chapel-bronze-candlesticks |
 | ← 所在地（`location_of`，反向投影） | [圣安德烈亚·德拉瓦莱巴贝里尼家族礼拜堂铁栏栅（Iron Grating in the Barberini Family Chapel at S. Andrea della Valle）](../works/iron-grating-barberini-chapel.md) | 角色：furnishing described in the family chapel；范围：Haskell describes an iron grating in the Barberini family chapel; retain his qualified description of the metal or bronze ornament.；原断言与证据见发出端卡片“圣安德烈亚·德拉瓦莱巴贝里尼家族礼拜堂铁栏栅（Iron Grating in the Barberini Family Chapel at S. Andrea della Valle）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_ii.md)；haskell-1980-rev-ed；Chapter 2, printed p. 43, PDF physical p. 28; S2 statement: st-chp2-secii-l141-145-barberini-chapel-iron-grating |
+| → 组成部分（`part_of`） | [谷地圣安德烈堂（S. Andrea della Valle）](sant-andrea-della-valle.md) | 图版目录直接标识礼拜堂所在教堂；正文第2章pp.25–26的选址和建造过程另行保留；角色：图版所示礼拜堂所属建筑；范围：图版目录称Barberini Chapel in S. Andrea della Valle；记录建筑空间的组成关系，不以此边代替Maffeo选择地点的行为或推定完成日期。；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；List of Plates, printed p. xii, plate 8, line 48 |
 
-
-暂无正式关系。内容表中的知识元链接表示有来源的关联记录。
 
 ### 关系候选入口
 
