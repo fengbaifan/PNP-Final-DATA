@@ -13798,3 +13798,19 @@ S2 statement为同ID内容变化，mention新增1条；9,622条统一独立复�
 本次相对此前工作树的statement变化为新增1条、同ID内容变化1条、删除0条；mentions新增1条。按统一复核计数首次出现的基线提交 `1a6313c8654280a9b71187fc08522098626e734e` 重新解析当前JSONL：基线15,451条、当前15,481条；新增31、删除1、同ID内容变化90，共122个statement ID不同。当前 `book-statements.jsonl` SHA-256 为 `a0024542f57757148f750558f8649c708c69995968ab0048a300e2182fdac5fa`。独立复核台账仍为9,622条；逐ID与来源版本的台账交集未核平，以上差异不能直接作为未复核数量。
 
 **独立语义差异复核（2026-10-29）。** 另一个隔离上下文直接对照S0分节与页图审读这两条当前statement版本及目标mention，未改statement方向、claim、引句跨度或mention。复核确认两关系分别表达“本书该段叙述取自手稿”与“Haskell报告手稿在该机构”，彼此不重复；`Biblioteca Ariostea`跨度 `[1260,1279)` 精确。复核还确认页图为 “Galleria”，S0文字层及 `original_quote` 的 “Calleria” 是保留的OCR转录，`ocr_corrections` 已记载校读。该针对性复核不等于全书S2接收；因逐ID与来源版本的统一台账交集仍待核平，此项暂不调整9,622统一计数。
+
+
+<a id="s2-current-referent-review-and-version-delta-20261029"></a>
+### S2 当前指代修复、版本差异与独立复核（2026-10-29）
+
+本记录覆盖近期指代修复及其重叠，不构成全书语义接收或统一审读台账核平。
+
+**第10章 p.326–327。** 当前段L273–349与印刷页326注1对照，确认首册题名在另一S0分段（L333），其后紧接Trevigi 1780及`presso Antonio Paluello`印记。补回 mention `m-s2-ch10-p326-327-0097`，0基半开跨度[8128,8221)，长度93；跨段关联只证明书内题名与印记的对应，不表示独立查阅原册。独立复核确认该跨度准确。另校正扫描支持的`James H’s`为`James II’s`，保留扫描中实际可见的`King-of France`，不作无据规范化。
+
+**第10章 p.281 及关系影响。** 当前关系逐项核查后，`rel-2433`、`rel-2436`、`rel-2437`因重复正式旅行边而rejected；`rel-2434`改为`travelled_from`，`rel-2435`改为`travelled_to`。`rel-2462`–`rel-2464`因`presso`不能区分印刷者和出版者、词表无忠实`printed_by`而改为pending；`rel-2465`继续pending，不能以含义过载的`located_at`代替馆藏关系。对应边、原因和受影响端点见[本批S6记录](knowledge.md#s3-s4-s5-s6-ch20-zanetti-album-catalogue-20261029)。独立复核者检查了补充mention和跨段注1映射，均通过。
+
+**第15章 p.365–367。** 独立初审当前40条statement，34条通过、6条需修订。按原文完成修订后，独立复核7条当前修订对象通过；随后发现`st-chp15-p367-results-difficult-to-assess`主语仍误指地点，改为评价雕像计划`cand-12456`，并保留`cand-3960`仅作原文地点mention；再次独立复核通过。另一因果陈述仍按已有S6裁决不建边，不将抽象质量变化强造为work端点。扫描与S0 OCR异文、claim变化及旧决定理由详见[知识裁决记录](knowledge.md#chapter15-current-referent-correction-independent-followup-20261029)。
+
+**第20章 p.408／第21章 p.415。** 独立阅读当前页图，核对Bettagno目录statement的对象改为独立展览候选、相册赠予及目录摘要statement、mention跨度，以及S3/S4对象。初审提出三项修订：移除活动名称中的基金会场地断言、将有明文支持的相册受赠方关系登记到S6、补上有效过程锚点。修订后复核通过：`cand-12459`保持无场地的事件名，album→Fondazione以`acquired_by` formal记录原文“presented to”，而`there`的具体场地／主办方关系`rel-2641 hosted_by`仍pending；没有声称当前保管。完整证据及关系台账见[知识记录](knowledge.md#s3-s4-s5-s6-ch20-zanetti-album-catalogue-20261029)。
+
+**版本台账状态。** 以统一复核汇总首次记录提交`1a6313c8654280a9b71187fc08522098626e734e`与当前表逐ID比较：statement共15,483条（新增33、删除1、同ID内容变化92）；mention共26,867条（新增18、删除21、同ID内容变化23）。差异比较包含已做过的独立复核版本，不能把全部差异都当作待审数，也不能单凭当前9,622聚合复核数确认ID与来源版本覆盖。p.326新mention、p.408当前statement以及修订后的p.365–367版本均未加入9,622；待行级来源版本交集核平后统一去重。后续继续按章节及最新变化逐项阅读正文、注释和必要图像，保留每次改判原因与关系影响。

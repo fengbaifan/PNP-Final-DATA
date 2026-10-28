@@ -42,4 +42,3 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← publisher_of（`publisher_of`，反向投影） | [《乔治·皮萨尼庄严入城颂诗》（Poetic Compositions for Giorgio Pisani’s Solemn Entry）](../archives/componimenti-poetici-pisani-entry-1780.md) | 依Haskell引文记录印记责任表述；原册未独立查阅；角色：引文印记列名；范围：Haskell所引印记在“presso”之后列出Antonio Paluello；本边沿用印记角色，不独立区分印刷者与出版者。；原断言与证据见发出端卡片“《乔治·皮萨尼庄严入城颂诗》（Poetic Compositions for Giorgio Pisani’s Solemn Entry）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_sec_ii.md)；haskell-1980-rev-ed；Chapter 10, printed p. 326, note 1, L218; statement=st-chp10-p326-n01-pamphlet1-published-by |

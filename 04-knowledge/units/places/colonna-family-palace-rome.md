@@ -35,11 +35,17 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 - 与位于 Piazza SS. Apostoli、1662年由 Colonna 家族一支售给 Flavio Chigi 的另一座宫殿 `cand-0816` 分开；p.155 明称两者相邻。
 - 本卡仅记录来源内建筑身份与原书描述，不推定具体建筑的现存状态或未经来源给出的正式名称。
 
-### 关系与证据
+## 关系与证据
 
-以下4条 S2 关系候选留待 S6；本卡未新增正式关系：
+正式的近邻关系见下方。以下4条 S2 关系候选尚无 S6 裁决，继续留待审查：
 
 - `st-chp6-p155-colonna-palace-decorated-by-girolamo`
 - `st-chp6-p155-colonna-palace-rebuilt`
 - `st-chp6-p155-grimaldi-landscape-decoration`
 - `st-chp6-p155-maria-impression-of-palace`
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 附近地点（`near`） | [基吉—奥德斯卡尔基宫（Palazzo Chigi-Odescalchi）](palazzo-chigi-odescalchi.md) | Haskell explicitly places the Colonna family palace near the palace sold to the Chigi. This preserves the separation of cand-0815 and cand-0816; it states proximity only, not exact distance, immediate adjacency, or building identity.；角色：source-stated relative location；范围：two distinct nearby palaces in Chapter 6 p.155；证据：[来源](../../../02-sources/02-Markdown/06_CHP-6_sec_i.md)；haskell-1980-rev-ed；Chapter 6, printed p.155, PDF physical p.10, phrase: “Their palace, situated near the one sold to the Chigi”; same source sentence is recorded in st-chp6-p155-colonna-palace-rebuilt |

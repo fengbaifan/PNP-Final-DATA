@@ -47,7 +47,6 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← publisher_of（`publisher_of`，反向投影） | [阿尔加罗蒂著作十七卷本（威尼斯，卡洛·帕莱塞；1791年卷一）（Seventeen-volume edition of Algarotti’s works [Venice: Carlo Palese; first volume, 1791]）](../archives/algarotti-opere-seventeen-volume-edition-palese-1791.md) | st-chp14-p347-note1-edition-published-by-palese；时间：1791 (first volume)；角色：publisher；范围：仅记录Haskell对第一卷的书内出版者归属；未核对题名页或全套版本。；原断言与证据见发出端卡片“阿尔加罗蒂著作十七卷本（威尼斯，卡洛·帕莱塞；1791年卷一）（Seventeen-volume edition of Algarotti’s works [Venice: Carlo Palese; first volume, 1791]）”：[来源](../../../02-sources/02-Markdown/14_CHP-14_intro.md)；haskell-1980-rev-ed；line 169; print p. 347 n. 1 |
-| ← publisher_of（`publisher_of`，反向投影） | [《乔治·皮萨尼庄严入城诗》（Poems for Giorgio Pisani’s Solemn Entry）](../archives/poesie-solenne-ingresso-pisani-1780.md) | 依Haskell引文记录印记责任表述；原册未独立查阅；角色：引文印记列名；范围：Haskell所引印记在“presso”之后列出Carlo Palese；本边沿用印记角色，不独立区分印刷者与出版者。；原断言与证据见发出端卡片“《乔治·皮萨尼庄严入城诗》（Poems for Giorgio Pisani’s Solemn Entry）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_sec_ii.md)；haskell-1980-rev-ed；Chapter 10, printed p. 326, note 1, L219; statement=st-chp10-p326-n01-pamphlet2-published-by |
 
 
 ### 关系候选入口

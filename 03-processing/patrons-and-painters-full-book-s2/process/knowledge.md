@@ -18793,3 +18793,32 @@ S0及页图为依据，本批不改写来源。保留statement ID和历史裁决
 | 墓“for the Countess Matilda”的受益／纪念对象表达 | 不建立 formal person edge；S3人物端点继续 undecided | `cand-4419`身份未明，且“for the Countess”不足以单独支撑 has_subject 或需题记／目录依据的 dedicated_to。作为关系表示问题待证，不否认原文叙述。 |
 
 **受影响项与验证范围。** 批前未见以上Matilda墓及主浮雕statement在 `relations.csv` 的裁决行；本批不改写既有关系历史行，也不改变 S2 statements、mentions、来源版本或9,622条统一独立复核台账。定向检查三张新卡及Bernini、Urban VIII、St Peter’s Basilica、Canossa场景四张既有卡的关系投影；严格表审计、关系一致性和S3/S4/S5/S6/backlog统计在应用后记录于当前结果页。机械检查不等于S2独立语义验收；`cand-4417`、`cand-4419`及其关系仍待决。
+
+
+<a id="s3-s4-s5-s6-ch20-zanetti-album-catalogue-20261029"></a>
+### S3/S4/S5/S6：第20章 p.408 扎内蒂相册、Bettagno目录与赠予纪念展览（2026-10-29）
+
+**原文依据与S2指代修复。** S0第20章印刷页408 L183记载“the discovery of an album containing 350 of his caricatures. This was presented to the Fondazione Giorgio Cini in Venice, and the catalogue by Alessandro Bettagno of the exhibition held there to mark the gift contains a useful summary of his life and activities while the illustrations give a vivid indication of the circles in which he moved.”第21章印刷页415 L166–167书目为“Bettagno, Alessandro: Caricature di Anton Maria Zanetti—Fondazione Giorgio Cini, Venezia (catalogo della Mostra), Vicenza 1969.”页图核对支持原书OCR；未查阅该目录本身。
+
+原S2 statement `st-chp20-p408-bettagno-zanetti-exhibition-catalogue` 将 Bettagno 目录所对应对象误指为相册 `cand-11122`。修订后保留目录为subject `cand-11123`，object改为新增展览事件候选 `cand-12459`；claim现在仅称该目录对应纪念赠予的展览。补充原子statement `st-chp20-p408-catalogue-summary-of-zanetti`，记录Haskell对目录内容的报告，subject为目录、object为扎内蒂人物 `cand-2838`。mention `m-chp20-p408-0044`的表面形式“the exhibition held there to mark the gift”跨度为[2084,2126)，独立复核与S0逐字相符。“there”不绑定到基金会或威尼斯。
+
+**S3跨章分组。** 保留原有来源局部`new`决定及各自组号：`cand-11121`基金会（`sg3-institution-cand-11121`）、`cand-11122`含350幅漫画的相册（`workgrp-af33f7ac1ffbdf`）、`cand-11123`Bettagno展览目录（`archive-group-e564b2d0a98a`）。目录在第20章正文、注7及第21章书目为同一书目对象；它与相册、展览事件分开。新增`cand-12459`展览事件为`new`组`sg3-event-cand-12459`；其名称使用来源描述，不含场地断言。基金会与已有艺术史研究所仍为不同机构对象。没有依据为目录、事件或册内350幅漫画添加外部身份标识或合并记录。
+
+**S4/S5登记。** 四个来源限定KU分别登记于`units/institutions/fondazione-giorgio-cini`、`units/works/zanetti-elder-album-350-caricatures`、`units/archives/caricature-di-anton-maria-zanetti-fondazione-giorgio-cini-1969`及`units/events/zanetti-album-gift-exhibition`；均已列入accepted和manifest。共新增10条Haskell书内字段`enr-18848`–`enr-18857`，全部`source_backed`；没有声称当前保管、目录原件查阅或外部身份核验。
+
+**S6裁决及历史影响。** 与本次开始时的关系表比较，p.408相关statement没有既有S6裁决行被覆盖；以下各行均为新增裁决：
+
+| 关系 | 去向 | 依据与限制 |
+|---|---|---|
+| `rel-2637` 本书 `cites` Bettagno目录 | formal | 第20章注7与第21章书目交叉确认书目身份；目录未独立查阅。 |
+| `rel-2638` 目录 `authored_by` Bettagno | formal | 正文“catalogue by Alessandro Bettagno”及书目责任者相符；不填 authorship date。 |
+| `rel-2639` 目录 `has_subject` Zanetti | formal | 仅记录Haskell关于目录摘要及插图内容的报告。 |
+| `rel-2640` 目录 `has_subject` 展览事件 | formal | 正文称其为该展览目录，书目标为“catalogo della Mostra”；无题名或日期。 |
+| `rel-2641` 展览 `hosted_by` 基奥尔乔·奇尼基金会 | pending | “there”可回指基金会或威尼斯；不将基金会认定为展场或主办者。 |
+| `rel-2642` 相册 `acquired_by` 基奥尔乔·奇尼基金会 | formal | 原文明确“was presented to”基金会；仅记录来源所述受赠方，不推断呈赠者、日期、交接细节或当前保管。 |
+
+相册与受赠机构均有明确S3/S4对象，受控词表允许work→institution的`acquired_by`，故关系不再遗漏。没有把相册误作漫画作者；350幅漫画尚无可稳定识别的单件或系列端点，作者关系不建立。没有为含混“there”追加地点边，也未推定展览日期。
+
+同批复核的第10章S6历史变化另有明确去向：`rel-2433`因与`rel-2531 travelled_from`重复而rejected；`rel-2434`由`located_at`改为`travelled_from`；`rel-2435`改为`travelled_to`，保留p.280 England与p.281 London不同粒度且不推断是否同一行程；`rel-2436`、`rel-2437`作为重复到达边rejected，对应`rel-2536`、`rel-2538`。`rel-2462`–`rel-2464`从formal改为pending：`presso`不区分印刷者与出版者，且词表缺少忠实的`printed_by`；`rel-2465`继续pending，因馆藏语义不能以需拆分的`located_at`代替。这些状态与理由写回relations.csv及原裁决说明；未改写其他关系历史。
+
+**独立复核。** 独立阅读第20章p.408及第21章p.415页图，核对了指代修订、展览候选、mention跨度、四个S3/S4对象及关系端点。复核认为目录与相册、展览、基金会分属不同对象；“there”仍pending。初审发现的事件名场地暗示、相册受赠关系缺少S6行及过程锚点问题均已修复；复核修订后的当前版本结论另记于`stages.md`。

@@ -48,4 +48,4 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| → published_by（`published_by`） | [卡洛·帕莱塞（Carlo Palese）](../persons/carlo-palese.md) | 依Haskell引文记录印记责任表述；原册未独立查阅；角色：引文印记列名；范围：Haskell所引印记在“presso”之后列出Carlo Palese；本边沿用印记角色，不独立区分印刷者与出版者。；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_sec_ii.md)；haskell-1980-rev-ed；Chapter 10, printed p. 326, note 1, L219; statement=st-chp10-p326-n01-pamphlet2-published-by |
+| → 待证：published_by（`published_by`） | [卡洛·帕莱塞（Carlo Palese）](../persons/carlo-palese.md) | 状态：待证；The printed note records 'presso Carlo Palese', which does not distinguish printer from publisher; the controlled vocabulary has no faithful printer predicate. Preserve the source-reported imprint and S2 statement; do not invent a formal edge or predicate.；角色：引文印记列名；范围：Haskell所引印记在“presso”之后列出Carlo Palese；本边沿用印记角色，不独立区分印刷者与出版者。；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_sec_ii.md)；haskell-1980-rev-ed；Chapter 10, printed p. 326, note 1, L219; statement=st-chp10-p326-n01-pamphlet2-published-by |
