@@ -17846,6 +17846,13 @@ S5新增`enr-18652`题名与`enr-18653`系列语境，均为Haskell来源支持�
 
 三边均仅记录Haskell对作者的书内归属；不由“增添一组画作”推定具体委托、所有权或现藏。新增S5字段`enr-18654`–`enr-18659`各自记录书内题名与系列语境。系列候选`cand-6846`的边界与`cand-6823`是否重合仍未决，`st-chp7-p185-i05`不随三件画登记自动转正。
 
+<a id="s3-s4-s6-guercino-vrilliere-p185-20261028"></a>
+### 第7章p.185两件Guercino作品的身份与归属（2026-10-28）
+
+索引G.csv#172、#183的两个作品子项与第7章p.185 L207–208所列Guercino画作同名，正文说它们属于La Vrillière在1640年代增添的一组画作。同类型manifest未发现相同作品KU，分别把`cand-1262`《Coriolanus and his Mother》及`cand-1273`《The War between the Romans and the Sabines》由`undecided`改为来源限定`new`并登记；原未决理由保留。两组互不合并，也不由画作题名推定Coriolanus母亲姓名、具体版本、现藏或外部作者归属。
+
+`st-chp7-p185-i06`裁为**formal** `rel-2549 created_by`，`st-chp7-p185-i07`裁为**formal** `rel-2550 created_by`；均只表达Haskell书内归属。S5新增`enr-18660`–`enr-18663`四条原书支持的题名及系列语境。`cand-6846`系列边界及La Vrillière的“增添”候选仍待审，不由该叙述自动推定委托、所有权或现藏。本批S2 statement／mention与独立复核台账未变。
+
 <a id="s6-plate-works-reuse-20261028"></a>
 ### 已复用作品的关系与图版署名端点（2026-10-28）
 

@@ -2,7 +2,9 @@
 
 ### 近期批次记录（2026-10-28）
 
-**本批完成：三件Cortona作品的类型更正。** `cand-0348`、`cand-0351`、`cand-0360`原把作品索引子项误映射到画家人物KU；现依据第7章p.185更正为3个来源限定work组并登记，新增6条书内字段及3条`created_by` formal。三条S2语句与对应mention的候选ID未变，但端点解释变化须独立差异复核。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-cortona-vrilliere-p185-20261028)。
+**本批完成：两件Guercino作品来源限定登记。** `cand-1262`、`cand-1273`依据第7章p.185由`undecided`改为`new`并分别登记；新增4条原书字段及2条`created_by` formal，具体版本、现藏与外部作者归属未核。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-guercino-vrilliere-p185-20261028)。
+
+**上批完成：三件Cortona作品的类型更正。** `cand-0348`、`cand-0351`、`cand-0360`原把作品索引子项误映射到画家人物KU；现依据第7章p.185更正为3个来源限定work组并登记，新增6条书内字段及3条`created_by` formal。三条S2语句与对应mention的候选ID未变，但端点解释变化须独立差异复核。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-cortona-vrilliere-p185-20261028)。
 
 **上批完成：Turchi《克娄巴特拉之死》来源限定登记。** `cand-2661`由`undecided`改为`new`并登记书内作品，依据Haskell明确的Turchi归属与La Vrillière系列语境，与Cagnacci同名作品分开。新增2条原书字段及`rel-2545 created_by` formal；具体版本、现藏和外部作者归属未核。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-turchi-cleopatra-20261028)。
 
@@ -3805,11 +3807,11 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
 | S2 | 15,480 statements、26,873 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。以9,622首次出现的提交为基线重算，当前有30条新增、44条同ID内容变化及1条删除；本批馆藏语句为同ID变化。差异数不能直接当作未复核数。详见[S2版本比较过程](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-baseline-9622-20261028)。 |
-| S3 | 按候选ID计12,433/12,433均有决定：same 2,119、new 5,091、conflict 9、excluded 106、undecided 5,108 | 12,408项有external_source为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。28个候选的35条来源决定虽与主行不同，当前复核确认其中34条（27个候选）均为same且目标与候选主行KU一致；唯一待证来源行是cand-2328的Princeton关联（“possibly”，1633/1653生年差异），主行new决定保持。先前结构筛查有87个无显式组，其后5个主行补组；另21个多标签中8个仅尾随句点不同、13个仍需按原筛查口径核平。余项需按当前数据复扫。 |
-| S4 | new候选已映射2,524/5,091；待映射2,567，其中直接关系端点909、其他1,658；KU共3,304 | 直接端点待映射按类型：term 401、work 136、place 129、archive 120、event 73、institution 49、person 1。 |
-| S5 | 14,740条字段，1,628条unverified | 本批新增6条Haskell来源支持字段。 |
-| S6 | 裁决记录2,093项：formal 1,240、pending 718、rejected 135；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批3项Cortona作者归属候选formal；肖像馆藏分歧仍pending。 |
-| 正式关系表 | 2,546行：2,505 formal、41 pending | 本批新增3条来源限定作者归属；文献题献待具体题记或馆藏目录证据。 |
+| S3 | 按候选ID计12,433/12,433均有决定：same 2,119、new 5,093、conflict 9、excluded 106、undecided 5,106 | 12,408项有external_source为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。28个候选的35条来源决定虽与主行不同，当前复核确认其中34条（27个候选）均为same且目标与候选主行KU一致；唯一待证来源行是cand-2328的Princeton关联（“possibly”，1633/1653生年差异），主行new决定保持。先前结构筛查有87个无显式组，其后5个主行补组；另21个多标签中8个仅尾随句点不同、13个仍需按原筛查口径核平。余项需按当前数据复扫。 |
+| S4 | new候选已映射2,526/5,093；待映射2,567，其中直接关系端点909、其他1,658；KU共3,306 | 直接端点待映射按类型：term 401、work 136、place 129、archive 120、event 73、institution 49、person 1。 |
+| S5 | 14,744条字段，1,628条unverified | 本批新增4条Haskell来源支持字段。 |
+| S6 | 裁决记录2,095项：formal 1,242、pending 718、rejected 135；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批2项Guercino作者归属候选formal；肖像馆藏分歧仍pending。 |
+| 正式关系表 | 2,548行：2,507 formal、41 pending | 本批新增2条来源限定作者归属；文献题献待具体题记或馆藏目录证据。 |
 | 缺端点与backlog | 338条关系statement至少缺一个S2端点候选ID；backlog 58条（15 completed、43 undecided） | 未具名Paceco画作的开放端点已保留待证；严格审计backlog pending=0，`bl-0058`待证条件保留。 |
 
 S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按类型分布。
@@ -3817,7 +3819,7 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 | 类型 | S3 undecided | S3未决直接关系端点 | S4未映射的直接关系端点 |
 |---|---:|---:|---:|
 | person | 1,047 | 422 | 1 |
-| work | 1,557 | 1,069 | 136 |
+| work | 1,555 | 1,067 | 136 |
 | archive | 668 | 289 | 120 |
 | term | 660 | 445 | 401 |
 | place | 301 | 128 | 129 |
@@ -3826,7 +3828,7 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 | family | 18 | 13 | 0 |
 | procedure | 2 | 2 | 0 |
 | 类型尚未确定 | 626 | 471 | 0 |
-| **合计** | **5,108** | **2,985** | **909** |
+| **合计** | **5,106** | **2,983** | **909** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。另有零关系KU及超50连接对象属于非阻断诊断。结构通过不等于S2独立语义接收。当前S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面仍等待用户明确启动。
 
@@ -3834,9 +3836,9 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 
 1. **继续S4高解锁价值直接端点，并同批裁决全部关联S6候选。** 当前2,567个`new`候选待登记，其中909个直接关系端点（term 401、work 136、place 129、archive 120、event 73、institution 49、person 1），其他1,658个。按可成立关系解锁价值和端点稳定性逐批处理；每批为新KU补必需S5字段，并使每条关联S6候选落为formal、pending（附解决条件）或rejected。类型域值不兼容时保留明确pending，不绕过受控schema。
 2. **先做近期S2版本差异复核，再继续章节语义复核。** 当前15,480条statement对应9,622条统一复核记录，statement ID／来源版本尚未核平；此前列出的21条以及近期修订的2条statement均待独立差异复核，重叠关系待核。先独立核对版本差异，再按章节完整阅读正文、注释和必要图像；未独立审读的版本不计入接收。
-3. **按触发条件推进跨章S3身份组。** 28个候选／35条来源决定差异中，34条`same`来源行已确认与主行指向相同KU；`cand-2328`Princeton来源行仍待直接身份／年代证据。复现并核平此前13项多标签筛查口径；复扫尚无显式组的`new`候选并依来源补组。之后按类型及关系端点价值处理5,108项`undecided`（其中2,985项为直接关系端点），逐项记录复用、新增、冲突或含证据条件的待证去向。S3仅在身份组审计、S4登记或新证据触发时重开相关对象。
+3. **按触发条件推进跨章S3身份组。** 28个候选／35条来源决定差异中，34条`same`来源行已确认与主行指向相同KU；`cand-2328`Princeton来源行仍待直接身份／年代证据。复现并核平此前13项多标签筛查口径；复扫尚无显式组的`new`候选并依来源补组。之后按类型及关系端点价值处理5,106项`undecided`（其中2,983项为直接关系端点），逐项记录复用、新增、冲突或含证据条件的待证去向。S3仅在身份组审计、S4登记或新证据触发时重开相关对象。
 4. **收束缺端点与backlog对象。** 338条关系statement至少缺一个S2候选端点ID；58条backlog中15条completed、43条undecided。逐条判断现有S1→S3/S4是否已覆盖；具名对象有据可识别时进入对应流程，身份或类型不足时记录最小待证条件。
-5. **定向补S5并核平S6版本台账。** 当前14,740条S5字段中1,628条`unverified`，按身份、版本、角色、时间和地点对关系结论的影响排序补证。S6历史裁决2,093项与当前10,682条`relation_candidate=true` statement版本尚未核平；核对statement ID和版本后再报告覆盖，不计算不可靠完成率。文献题献先核题记或馆藏目录；既有book来源正式题献边尚有`rel-1642`、`rel-2125`、`rel-2382`待核。
+5. **定向补S5并核平S6版本台账。** 当前14,744条S5字段中1,628条`unverified`，按身份、版本、角色、时间和地点对关系结论的影响排序补证。S6历史裁决2,095项与当前10,682条`relation_candidate=true` statement版本尚未核平；核对statement ID和版本后再报告覆盖，不计算不可靠完成率。文献题献先核题记或馆藏目录；既有book来源正式题献边尚有`rel-1642`、`rel-2125`、`rel-2382`待核。
 6. **S7后置。** 待S3候选去向、S2版本和独立审读状态、关键S5字段、S6关系裁决及缺端点/backlog均可追溯，再做发布预检。知识发现和页面仍等待明确启动。
 
 #### 提速安排
