@@ -13780,3 +13780,10 @@ S2 statement为同ID内容变化，mention新增1条；9,622条统一独立复�
 **关系与历史裁决影响。** 修订前后对照 `relations.csv`：没有既有relation行被删除或改写；Prà本批新增 `rel-2580`–`rel-2585` 六条formal边。原 `rel-0013`、`rel-1702`–`rel-1704`、`rel-1707`保持不变。修订涉及的其余关系已在[逐条S6裁决](knowledge.md#s3-s4-s6-pra-della-valle-plan-statue-scope-20261029)中逐项记为pending或rejected及其理由；未具名人物／雕像、范围不明的“another six in Rome”、未识别的地点和缺少忠实受控谓词的行动继续待证，不补造端点或正式边。波兰／瑞典订阅的既有pending保留。统一复核台账与历史S6裁决分母尚未核平，本记录不改变既有分子或分母。
 
 **交接。** 当前版本差异已可追溯到基线提交、具体statement ID、原文来源哈希和独立审读快照；版本台账覆盖关系仍未解决。后续先对这40条修订做独立语义差异复核，再重建9,622条行级ID／来源版本交集；不得仅凭总数宣称覆盖。
+
+
+### 2026-10-29 S2补录：第8章p.222顶层奖章提及
+
+对照《赞助人与画家》第8章印刷页222（PDF物理页24），确认原文为“On the top floor was another medallion in full relief of the reigning Pope, Clement XI.”；Markdown文字层仍保留OCR误读“Clement XL”，未改写来源文本。原statement st-chp8-p222-clement-xi-medallion-on-top-floor已将奖章与人物候选cand-0022分开，但原mentions表缺少奖章端点的直接提及。新增m-chp8-p222-clement-xi-medallion，表面形式为“another medallion in full relief”，定位当前段字符区间[312,344)、来源行L128，并映射到cand-12078。这只补齐一个提及锚点，不改statement或原文。
+
+变更后mentions共26,862条，statements仍为15,480条。该新增S2对象尚未由独立审读者复核，不计9,622条统一复核台账；需在版本ID/来源核平后纳入差异复核队列。

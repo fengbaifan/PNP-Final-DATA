@@ -18641,3 +18641,16 @@ cand-6212由“SS. Apostoli”位置候选按第6章p.154的明确写法对齐�
 **S6关系裁决与历史影响。** 原`knowledge.md`第8章旧记录将`st-chp8-p222-bigari-paints-catholic-religion-fresco`留待S6；在端点决议和映射后，本次formal为`rel-2603 created_by`（work→Bigari）和`rel-2604 has_subject`（work→来源限定天主教寓意主题）。`st-chp8-p222-fresco-depicts-three-provinces`仍pending并由`bl-0082`追踪，因端点类型和对象边界未定；不使用`represents`等不存在的受控谓词。`st-chp8-p222-bigari-ceiling-fresco`为复合背景statement、`relation_candidate=false`，不另建边。没有删除或改写历史关系行；新增边只覆盖原文能支持的作者与题材。
 
 **交接。** S2 statements和mentions未修改；本批不增加S2独立复核计数。来源限定作品身份已登记，province/city组仍待证；两条formal边须按来源范围理解，不代表全段独立语义接收。
+
+<a id="s2-s3-s4-s5-s6-ch8-clement-xi-top-floor-medallion-20261029"></a>
+### 2026-10-29：第8章p.222克雷芒十一世顶层奖章端点
+
+**原文与S2锚点修复。** 对照第8章印刷页222、PDF物理页24：印本写“On the top floor was another medallion in full relief of the reigning Pope, Clement XI.”；S0 Markdown文字层的“Clement XL”是OCR误读，来源文件未改。statement st-chp8-p222-clement-xi-medallion-on-top-floor已把作品候选cand-12078与人物候选cand-0022分开，并在mentioned_candidate_ids列出二者，但mentions.csv此前没有奖章的实体提及。新增m-chp8-p222-clement-xi-medallion，对应“another medallion in full relief”，范围[312,344)，使原statement拥有可追溯的作品端点提及。该S2更改仅增加一条mention，不改statement；当前版本变化待独立复核，不计入统一复核9,622条。
+
+**S3身份裁决与S4登记。** aln-12241此前因缺少mention-level锚点保持undecided；修复提及后，对照当前work清单，未发现同一来源限定对象的既有KU。将cand-12078改判为来源局部new，组号sg3-work-clement-xi-top-floor-medallion-ferrara，映射至units/works/clement-xi-top-floor-medallion-ferrara。对象是原文所述大主教宫顶层的一枚全浮雕奖章；不并入楼梯墙六枚教皇奖章群组，也不并入楼梯灰泥装饰cand-7704。Clement XI复用人物KU units/persons/clement-xi。本批无conflict；未检得可复用的同一work，不添加外部身份或存世作品判断。卡片、manifest和accepted.yml已登记该source-local工作对象。
+
+**S5字段。** 新增三条Haskell原书支持字段：描述性题名、全浮雕形制和来源所报顶层位置。原书未说明创作者、材质、年代或现存版本，不据题材反推创作者，也未做外部补足。
+
+**S6关系及历史影响。** relations.csv此前没有该statement的历史裁决，也无既有formal边需要撤销或改写。新增rel-2605 has_subject，方向为奖章work→Clement XI人物，原文明确称奖章描绘在位教皇。顶层位置另以source-backed字段记录；本statement在S2只原子化了奖章→Clement XI这一端点对，因此本批不另造奖章→宫殿的located_at边，也不创建作者关系，或把楼梯灰泥装饰、六人奖章群组并作同一端点。相邻候选cand-12077仍为类型未定的六位教皇群组；st-chp8-p222-stucco-includes-six-papal-medallions与st-chp8-p222-six-popes-benefited-ferrara-or-legate继续保持pending，待群组类型/对象及其端点清楚后再裁决。本批未改写任何旧关系行。
+
+**交接。** 写后严格表审计 errors=[]、s2_missing=[]、alignments_unlinked=0、candidate_backlog_pending=0；关系一致性审计五类阻断为0；作品卡与Clement XI人物卡定向渲染后复预览无差异；新增S2 mention仍须独立语义复核。S3其他类型和S6全书历史分母尚未收口。

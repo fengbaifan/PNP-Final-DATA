@@ -25,9 +25,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡记录Haskell所述费拉拉大主教宫楼梯墙上的灰泥装饰。原书称Andrea Ferrerio设计了这项装饰，墙上设置六位教皇的medallions，并称该叙述以Innocent XII收束；原书没有在此列出其余五位。楼梯顶层另有一枚描绘在位教皇Clement XI的medallion，是不同位置的对象，不并入本卡的六枚群组。[第8章 p.222](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)（L127–128）
+**中文：** 本卡记录Haskell所述费拉拉大主教宫楼梯墙上的灰泥装饰。原书称Andrea Ferrerio设计了这项装饰，墙上设置六位教皇的medallions，并称该叙述以Innocent XII收束；原书没有在此列出其余五位。楼梯顶层另有一枚描绘在位教皇Clement XI的medallion，是不同位置的对象，不并入本卡的六枚群组；该奖章已单独登记为[顶层克雷芒十一世奖章](clement-xi-top-floor-medallion-ferrara.md)。[第8章 p.222](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)（L127–128）
 
-**English:** This card records the stucco decoration on the Archbishop’s Palace staircase wall described by Haskell. He credits Andrea Ferrerio with designing it and says the wall held medallions of six popes, ending the account with Innocent XII; the other five are not named here. A separate medallion of the reigning Pope Clement XI is described on the top floor and is not merged into this six-medallion group. [Chapter 8, p. 222](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md) (L127–128)
+**English:** This card records the stucco decoration on the Archbishop’s Palace staircase wall described by Haskell. He credits Andrea Ferrerio with designing it and says the wall held medallions of six popes, ending the account with Innocent XII; the other five are not named here. A separate medallion of the reigning Pope Clement XI is described on the top floor and is not merged into this six-medallion group; it is registered separately as the [top-floor medallion of Pope Clement XI](clement-xi-top-floor-medallion-ferrara.md). [Chapter 8, p. 222](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md) (L127–128)
 
 ### 基本信息
 
