@@ -17846,6 +17846,19 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 相关宫殿`cand-4310`仍是未登记的独立place候选；第2章p.29只说宫殿位于教堂附近，不能把宫殿并入教堂或将“附近”改写成`located_at`。另两条宫殿关联候选涉及未定类型的画家群体`cand-4339`、`cand-4341`，应在身份及谓词条件满足后裁决。此次未修改S2 statement、创建关系或完成S6裁决。
 
+<a id="s4-giustiniani-palace-p29-20261028"></a>
+### 朱斯蒂尼亚尼宫邸端点登记及关系去向（2026-10-28）
+
+对照第2章印刷p.29 L99–101，Haskell叙述Vincenzo Giustiniani在S. Luigi dei Francesi附近的宫邸，与Bassano乡间住宅分开。沿用`cand-4310`既有`new`组`sg3-place-cand-4310`，登记`units/places/vincenzo-giustiniani-palace-near-san-luigi`。显示名为忠实描述性暂拟名称，不依据书目标题推断原书此处给出的建筑正式名称；未独立查阅建筑目录或确认现状。S5新增`enr-18650`原书位置线索字段，保留“附近”而不补精确距离。
+
+| 直接关系候选 | 本批去向与重审条件 |
+|---|---|
+| `st-chp2-seci-l95-106-palace-near-church` | **pending**：宫邸与`cand-0706`教堂KU均已明确，但受控词表缺少精确的近邻关系；不能把near写为`located_at`或`part_of`。待适用的近邻谓词审定。 |
+| `st-chp2-seci-l108-119-mannerists-scarcely-represented` | **pending**：`cand-4339`是旧一代风格主义画家群体，类型与身份未决；“scarcely represented”也不能改为没有代表或通用收藏边。待群体类型与忠实表达程度的关系解决。 |
+| `st-chp2-seci-l108-119-northern-artists-resided-in-palace` | **pending**：`cand-4341`是未具名北方画家群体，类型未决；原文限定“many”而非全体。待群体身份、类型和有范围限定的居住关系解决。 |
+
+以上三项为process-only pending，不新建正式边；S2及统一独立复核台账未变。S4登记与结构检查不代表建筑外部身份核验或全书语义接收。
+
 <a id="s3-existing-place-endpoint-reuse-20261028"></a>
 ### 两个地点候选复用既有KU（2026-10-28）
 
