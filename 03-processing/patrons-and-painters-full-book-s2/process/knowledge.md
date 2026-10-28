@@ -18434,3 +18434,32 @@ S2 statement、mention及统一独立复核台账均未改变；本批没有S2�
 第5章关于若干画作、Chigi所有权／购入与Colonna可能来源的关系statement不因Golzio文献身份得到证明。作品集合候选`cand-6164`仍因单件身份和集合边界不清保持S3 `undecided`；其可能Colonna来源、Chigi所有权、inventory listing与1661年购入四项工作关系现以`bl-0062`–`bl-0065`分别留在backlog，均不生成`relations.csv` formal边；端点未注册期间，S6仍待作品身份和忠实关系类型裁决。第5章另一个Chigi购买SS. Apostoli宫殿的statement指向地点候选`cand-6211`，其S3 `new`但尚未S4登记；相关地点待办记作`bl-0066`。本批未用Golzio出版物替代该地点端点，也未将Chigi购买归属强配给人物或家族，保留S4/S6待处理。其他有关这些段落的历史关系行未作改动。本批未改写S2 statements、mentions或9,622项复核台账。
 
 定向检查：22项字段均为`source_backed`且`unverified=0`；三张卡完成关系投影并复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断计数均为0。出版物原文内容、目录／文章所述事实和引注页均未核实。
+
+
+<a id="s3-s4-s5-s6-palace-identity-endpoints-20261029"></a>
+### 第5、6章 Chigi—Odescalchi 宫殿指代纠正、广场端点与关系裁决（2026-10-29）
+
+**原文与扫描依据。** 第5章印刷页140注1（Markdown L154；PDF物理页25）印本写道：“the palace (later Palazzo Odescalchi) at SS. Apostoli with all its contents from the Colonna”，并在同一句报1661年Chigi购入。第6章印刷页154（Markdown L96；PDF物理页9）写道：“the palace in piazza SS. Apostoli which he bought from a branch of the Colonna family in 1662”。两页扫描均与OCR转录相符；没有改写S0原文。第6章印刷页155（Markdown L102–110；PDF物理页10）的原文为：“Their palace, situated near the one sold to the Chigi”，明确区分Colonna家族宫殿与售予Chigi的宫殿。既有本地Wikidata Q3889852身份记录保留了Palazzo Odescalchi的名称别名；此记录只作名称比较，不当作独立建筑史证据。
+
+**S3组号与去向变化。** 原S3将cand-0816单列为new组sg3-place-chigi-palace-ss-apostoli，S4映射至描述性卡flavio-chigi-palace-ss-apostoli；cand-6211也曾单列new组sg3-place-cand-6211。复核第5章later-name与第6章买方、卖方、同址和购置语境后，cand-0816、cand-6211与已same的cand-3288并为sg3-place-palazzo-chigi-odescalchi，均复用units/places/palazzo-chigi-odescalchi。alignment保留原组号、原new判断和原S4路径作为历史说明；旧卡文件改为路径提示，从accepted.yml与ku-manifest.csv移除，不删除文件。旧卡中p.154的立面和陈设概述、p.155的邻近语句及C.csv#346书内索引定位已转入当前卡来源依据；未名作品组仍按各自待办保持pending。两个来源年份1661、1662不用于拆分实体，也不裁定哪一年准确。此前cand-0815仍是另一座Colonna家族宫殿，保持独立KU。
+
+cand-6212由“SS. Apostoli”位置候选按第6章p.154的明确写法对齐为Piazza SS. Apostoli；作为与宫殿不同的place，裁为new并登记units/places/piazza-ss-apostoli-rome。未推定现代坐标、地址或边界。
+
+**S6逐项裁决。** 执行前`relations.csv`无下列关系行，也无相反或撤销裁决；既有`rel-2358`和`rel-2359`仍分别记录Mei壁画`commissioned_by` Flavio与`created_by` Mei，不受本次身份合并影响。
+
+| S2关系候选／角色 | 去向 | 裁决依据 |
+|---|---|---|
+| `st-chp6-p154-flavio-buys-palace-from-colonna-family`：宫殿与Flavio | formal `rel-2573 owned_by` | 购入叙述支持Chigi取得该宫殿；第5章1661与第6章1662并列保留为来源日期冲突，不推定连续产权或当前产权。 |
+| 同一statement：Colonna家族一支为卖方 | process-only pending | 三方交易语义不能由现有受控二元谓词忠实表达；不以`owned_by`冒充卖方关系。 |
+| `st-chp6-p154-chigi-palace-at-ss-apostoli` | formal `rel-2574 located_at` | 原文明确写“in piazza SS. Apostoli”；宫殿与广场为不同地点。 |
+| `st-chp6-p155-colonna-palace-rebuilt`中的邻近语句 | formal `rel-2575 near` | “Their palace, situated near the one sold to the Chigi”明确区分两座宫殿；只记录邻近，不推定距离或直接毗邻。 |
+| `st-chp6-p154-bernin-rebuilds-chigi-palace`及`st-chp6-p155-bernin-reconstruction-delayed` | formal `rel-2576 entrusted_to_build` | p.154记受托建造／重建；p.155仅限定工程开始较晚，不据教皇在位近十年推算年份，也不声称工程完成。 |
+| `st-chp6-p154-chigi-palace-has-canini-ceilings`（`cand-11997`） | pending，`bl-0067` | Canini其他天花画没有稳定作品身份或封闭成员范围，不建立作品边。 |
+| `st-chp6-p154-chigi-palace-has-gaulli-paintings`（`cand-11998`） | pending，`bl-0068` | Gaulli未名神话画与肖像没有个体身份或封闭成员范围，不建立作品边。 |
+| `st-chp6-p154-chigi-palace-has-antique-statues`（`cand-11999`） | pending，`bl-0069` | 原文只报宫中有多件古代雕像，未识别个体或封闭集合，不建立作品边。 |
+| 第5章未名绘画集合`cand-6164`及`bl-0062`–`bl-0065` | pending | 宫殿身份纠正不证明该集合的委托、所有权或1661购入关系；原待证状态保留。 |
+| 本批其他候选 | rejected：无 | 未发现足以反证本批候选的材料；缺端点或谓词不兼容记为pending，不记rejected。 |
+
+本批未改S2 statement、mention或统一独立复核台账；S2当前statement版本与9,622项复核记录仍待核平。全书S6历史裁决与当前关系statement版本也仍待核平。
+
+**定向写回与校验。** `build_field_facts.py`复预览2张地点卡共5条来源字段，`record_changes=0`、`warnings=0`。宫殿、广场、Flavio Chigi与Bernini四张卡按预览写入关系投影，写后字节核验通过，复预览均无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性审计`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。这些是定向机械检查，不构成S2独立语义接收。

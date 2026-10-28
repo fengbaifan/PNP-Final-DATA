@@ -1,6 +1,10 @@
 # 《赞助人与画家》全书 S2 语义处理、S3 身份对齐与交接结果
 
-### 近期批次记录（2026-10-28）
+### 近期批次记录（2026-10-29）
+
+**本批完成：第5–6章宫殿身份指代纠正及关系端点裁决。** `cand-0816`、`cand-6211`从`new`改为`same`并复用Palazzo Chigi-Odescalchi KU，合并至稳定组`sg3-place-palazzo-chigi-odescalchi`；`cand-6212`明确为另一place——Piazza SS. Apostoli，登记为`new`。原文报告的1661与1662购入年份并列保留；Colonna家族宫殿仍为独立对象。正式新增4条关系`rel-2573`–`rel-2576`（宫殿历史所有者、所在地、两宫殿邻近、委托Bernini重建）。卖方角色、三组未名作品及第5章绘画集合关系仍pending；本批没有因反证而rejected的候选。既有Mei壁画关系不变，S2 statement、mention和9,622项独立复核台账未改。定向卡片渲染与复预览无差异，字段预览无变化，严格表审计和关系一致性审计的阻断项为0。详见[本批身份与关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-palace-identity-endpoints-20261029)。
+
+### 前批记录（2026-10-28）
 
 **本批完成：第8章 Pinetti 两篇文章与作者端点。** 将1916、1920两篇文章分别从`undecided`裁为来源限定`new`组，登记2张archive卡；映射既有Pinetti作者组并新增person卡。为两个脚注及两条书目补7条精确mention跨度，新增18条书内字段和3条formal关系（1条`cites`、2条`authored_by`）。不把两篇文章合并，1920条目无页码则明确留空；原刊均未独立查阅。S2 statement与9,622条复核台账未变。详见[本批裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-pinetti-articles-and-author-20261028)。
 
@@ -17,7 +21,7 @@
 
 **本批完成：跨章登记Pergola与Golzio三项文献端点。** `cand-4369`对应1955–1959年两卷目录；`cand-6356`对应1933–34年 *Archivi* 文章；`cand-6196`对应1939年Chigi档案文献图书。三者各立独立archive身份组并完成S4；另为六条有S2 `relation_candidate=true`依据的引文建formal `cites`边。第2章p.49卷I引注的S2标志为非关系候选，Golzio p.3也没有独立S2引文关系statement，因此未另建formal边。第5章中身份未定的画作集合`cand-6164`及其所有权／购入／委托相关候选以`bl-0062`–`bl-0065`保留待证；宫殿购买端点`cand-6211`以`bl-0066`记录，待完成S4和关系主客体辨析。本批未将这些关系升为formal。未独立查阅三种出版物；S2 statement、mention和9,622项复核台账未改。详见[跨章身份及关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-golzio-pergola-archives-20261028)。
 
-**当前机械快照（2026-10-28，按本批后实表核算）：** S2为15,480条statement、26,881条mention；统一复核台账9,622条，版本差异与重叠尚未核平，本批不构成独立语义接收。S3候选12,433项，主决定same 2,121、new 5,102、conflict 8、excluded 106、undecided 5,096；28个候选仍有不同来源决定。S4已映射2,553/5,102个new，尚有2,549个待登记；其中按主决定且确为S2主客体端点统计，889个仍未映射（term 400、work 129、place 127、archive 112、event 72、institution 49、person 0）。S4实际KU 3,331。S5共14,847行（1,632条unverified）。`relations.csv`有2,570行（2,529 formal、41 pending）；历史S6裁决表与当前statement版本仍未核平，故不据此计算可靠覆盖率。`candidate-backlog.csv`共66行，机械状态pending=0；其中`bl-0062`–`bl-0065`记录四项因`cand-6164`作品集合身份未决而保留的关系端点待办，`bl-0066`记录未完成S4登记的地点端点。严格表审计另有S4待映射与S2语义质量提示；这些机械数字不代表语义接收。
+**当前机械快照（2026-10-29，按当前实表核算）：** S2为15,480条statement、26,881条mention；统一复核台账9,622条，statement ID、来源版本及变更重叠仍未核平，不构成独立语义接收。S3共12,433个候选：same 2,123、new 5,100、conflict 8、excluded 106、undecided 5,096；28个候选仍存在不同来源决定。S4已映射2,553/5,100个new，待登记2,547个；其中按当前主决定、仅计S2直接关系端点，893个new候选仍未映射（term 400、work 129、place 125、archive 117、event 72、institution 49、person 1）。实际KU为3,331。S5有14,847行，其中1,632条`unverified`。`relations.csv`有2,574行（2,533 formal、41 pending）；当前`relation_candidate=true` statement为10,682条。历史S6裁决与当前statement版本仍未核平，因此不报告可靠覆盖率。`candidate-backlog.csv`共69行（16 completed、53 undecided，机械状态pending=0）；其中`bl-0062`–`bl-0065`仍记录第5章未名绘画集合关系待证。严格表审计`errors=[]`、`s2_missing=[]`，但提示S4待登记及仍需审查S2语义质量；机械计数不代表语义接收。
 
 **本批更正：第13章p.334《Novelle》编辑者代词。** 将 `he himself edited` 按最近的并列主语由Giambattista调整为Almorò Albrizzi；原引文不变，新增一条anaphoric mention。Treccani区分两兄弟的出版／编辑记录，但未独立解决Haskell所述编辑职责；相关S6关系继续pending，S2当前版本待独立差异复核，不增加9,622条台账。详见[S2校读](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)及[关系影响](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s6-ch13-p334-novelle-anaphor-20261028)。
 
