@@ -18206,3 +18206,21 @@ S2及独立复核台账未变；前批两条修订statement和两条mention仍�
 | `cand-12414` | `sg3-procedure-florentine-flour-revenue-concession-1676` | `sg3-procedure-cand-12414` | `units/procedures/florentine-flour-revenue-concession-1676`；旧裁决或候选初始组，已保留在prior/history说明中。 |
 
 本次35项均不是两个并列现行组；与上次15项合计覆盖当前宽口径50项。此前报告的13项使用的具体筛选表达式及原始ID清单尚未找到，不能据宽口径结果宣称该历史口径已复现或13项逐项已覆盖；须先找回其查询和候选清单。未检出显式组的候选也不包含在这次核查中；应按当前数据另行复扫。
+
+
+<a id="s3-explicit-groups-source-only-20261028"></a>
+### 当前new候选显式组号补记（2026-10-28）
+
+复扫候选级空external_source主行与没有主行的来源限定new候选，按小写、独立 `group=` 标记识别：1个主行及6个来源限定候选没有显式标记。一般来源佐证行不与候选级行重复统计。逐项依据既有身份决定和已登记KU补组，仅使现行组可机器读取；不更改decision、KU或来源核验范围：
+
+| 候选 | 显式组 | 依据及边界 |
+|---|---|---|
+| `cand-4805` | `archive-group-bellori-nota-musei-1664` | 主行原有大写`Group=`，以及Treccani来源行均已记同组；保留1663／1664／1667版本及作者归属未定边界。 |
+| `cand-1504` | `new-person:charles-montagu-first-duke-of-manchester` | NPG来源限定行正文已有该组名；与Haskell所称1709及外部1706–08／1707–08年代差异并存。 |
+| `cand-3498` | `sg3-person-giovanni-incisa-della-rocchetta` | 已有人物KU及1966年署名身份决定，按该对象建立稳定组；不外推生平。 |
+| `cand-6367` | `sg3-person-norbert-wibiral` | 已有人物KU及官方期刊目录署名判断，按该对象建立稳定组；不等于论文全文已读。 |
+| `cand-6368` | `archive-group-8022070bfee5` | 来源行原文已明确沿用该论文组；论文及被引页未独立阅读。 |
+| `cand-6379` | `archive-group-11837219e9f9` | 来源行原文已明确沿用该论文组；保留书目异文及未读全文。 |
+| `cand-6381` | `archive-group-8ecde405a63f` | 来源行原文已明确沿用该目录组；题名页未读且匿名责任状态未消解。 |
+
+这些行按原候选粒度和源信息保留，未创建候选级副本或借用外部ID；没有新增KU、字段、关系或S2复核。此前87个未检出组的统计采用不同筛选方式及较早快照，不能直接相减。
