@@ -18463,3 +18463,30 @@ cand-6212由“SS. Apostoli”位置候选按第6章p.154的明确写法对齐�
 本批未改S2 statement、mention或统一独立复核台账；S2当前statement版本与9,622项复核记录仍待核平。全书S6历史裁决与当前关系statement版本也仍待核平。
 
 **定向写回与校验。** `build_field_facts.py`复预览2张地点卡共5条来源字段，`record_changes=0`、`warnings=0`。宫殿、广场、Flavio Chigi与Bernini四张卡按预览写入关系投影，写后字节核验通过，复预览均无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性审计`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。这些是定向机械检查，不构成S2独立语义接收。
+
+<a id="s3-s4-s5-s6-enggass-publications-20261029"></a>
+### 第20、21章 Robert Enggass 三项文献身份组、登记与关系裁决（2026-10-29）
+
+**原文核读与身份边界。** 本批复核第20章p.399正文及注2、p.400正文及注1–2，并对照第21章p.421书目和扫描页。p.399印本写“Robert Enggass’s important monograph on the artist”，注2为“Enggass, 1964”；书目L442列“The Painting of Baciccio, Philadelphia 1964”。p.400正文称Enggass写有关于Gesù圣依纳爵祭坛的文章，并以另一本十八世纪罗马雕塑书讨论Théodon、Legros雕像；扫描页确认注1为“Enggass, 1974”、注2为“Enggass, 1976”。书目L443–444列《The Altar-rail for St. Ignatius’ Chapel in the Gesù di Roma》（Burlington Magazine, 1974, pp.176–189）；L445列《Early Eighteenth-Century Sculpture in Rome—an illustrated catalogue raisonné》（2 vols., Philadelphia, 1976）。p.400扫描同时确认S0 OCR“kra book”应读作“a book”；保留原Markdown与S2 `original_quote`表面，不覆盖来源文本，校读作为限定记录。
+
+`cand-10928`沿用S3 `same`并映射至既有人物KU `units/persons/robert-enggass`。三个archive候选原已是S3 `new`，本批不改决定、组号或内容候选：`cand-10929`／`archive-group-ee153a1a2551`是1964年专著，`cand-10934`／`archive-group-99e635fcc4dd`是1974年期刊文章，`cand-10935`／`archive-group-530040658564`是1976年两卷作品目录。它们题名、年份、文献类型不同，分别登记，不因作者相同而合并；也不把书目所列的第21章p.421当作被引文献已阅读。
+
+| 候选 | S3决定与组 | S4去向 |
+|---|---|---|
+| `cand-10929` | `new`；`archive-group-ee153a1a2551` | `units/archives/enggass-painting-of-baciccio-1964` |
+| `cand-10934` | `new`；`archive-group-99e635fcc4dd` | `units/archives/enggass-altar-rail-st-ignatius-gesu-1974` |
+| `cand-10935` | `new`；`archive-group-530040658564` | `units/archives/enggass-early-eighteenth-century-sculpture-rome-1976` |
+
+**S5登记。** 新增3张archive卡，分别保存第20章正文、脚注和第21章书目原文及明确定位；书目题名的中文均标为项目工作译名。`enr-18767`–`enr-18786`共20条字段，均为Haskell书内来源支持：题名、类型、作者著录、期刊／卷册、出版地、年份、文章页码，以及“本书如何描述该文献”的限定摘要。没有写入未核的出版社、ISBN、具体雕像身份或被引作品内容。卡片明确注明三种被引文献未独立查阅。
+
+**S6历史核查与逐项决定。** 写入前，`relations.csv`无下列statement对应的关系行；也未发现撤销或相反关系裁决。既有`rel-1160 contributed_by`记录的是《赞助人与画家》序言感谢Enggass纠错，与他所著的三项文献无关，保持不变。2026-10-24已有过程裁决指出，p.400仅称“圣依纳爵祭坛”，不能判明它是否等同于已登记的Cortona左侧祭坛`cand-5246`；本批延续该边界。雕像候选`cand-10936`仍为S3 `undecided`；不把雕塑家人物端点替代未识别作品。
+
+| S2关系候选 | 决定 | formal / pending去向及理由 |
+|---|---|---|
+| `st-chp20-p399-enggass-monograph-and-fresco-content` | 待证（内容关系）；作者边单独formal | `rel-2577 authored_by`仅记录原文与书目所述作者。该S2候选还包含“补充／修正”“研究更完整”及图像解释框架，当前受控谓词不能忠实表达比较评价，相关壁画对象也未由本批确定；原作未独立阅读，不造`has_subject`边。 |
+| `st-chp20-p400-enggass-jesuit-altar-article` | 待证（具体题材端点）；作者边单独formal | `rel-2578 authored_by`记录明确的“Enggass has written”作者关系。文章指向圣依纳爵礼拜堂祭坛，但不据一般措辞将其连到`cand-5246`所代表的特定建造阶段；具体祭坛／栏杆作品端点仍待证。 |
+| `st-chp20-p400-enggass-rome-sculpture-book` | 待证（作品端点）；作者边单独formal | `rel-2579 authored_by`记录书目署名及正文作者归属。雕像候选`cand-10936`仍未识别具体作品；不从两位雕塑家姓名推定作品，也不将“增进对耶稣会赞助的认识”强写为关系边。 |
+
+三条formal作者边均不表示已查阅文献。对应注释及书目statement的S2 `relation_candidate=false`状态保留，未额外建立`cites`边；本批没有反证，因此没有`rejected`决定。尚待解决的题材、比较评价和雕像端点均明确留在process-only pending，后续取得作品身份或忠实关系谓词后再重开。`candidate-backlog.csv`不重复登记已有候选。
+
+**定向写回与验证。** 新卡、Robert Enggass人物卡按预览渲染共4张；写后字节核验通过。`build_cards.py`预览显示3条预期的`authored_by`边及人物卡反向投影；`build_field_facts.py`预检20行，0条`unverified`、0重复、0警告。S2 statements、mentions及9,622条统一复核记录本批无变化；S2 ID／来源版本核平、独立语义复核和全书S6历史台账核平仍未完成。本批定向机械校验不构成阶段接收。
