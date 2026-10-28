@@ -42,7 +42,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 奉献于该对象的场所／祭坛（`religious_dedication_of`，反向投影） | [圣玛丽亚·阿苏塔耶稣会教堂（Jesuit Church of Santa Maria Assunta, Venice）](../places/s-maria-assunta-venice-jesuit-church.md) | Haskell直接称教堂奉献于圣母升天；时间：书中叙述时点；角色：教堂奉献对象；范围：仅记录Haskell称该耶稣会教堂奉献于圣母升天；不推定奉献仪式日期或后续状态。；原断言与证据见发出端卡片“圣玛丽亚·阿苏塔耶稣会教堂（Jesuit Church of Santa Maria Assunta, Venice）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)；haskell-1980-rev-ed；Chapter 9, printed p. 272, line 54; statement=st-chp9-p272-jesuit-church-dedication |
+
 
 ### 关系候选入口
 

@@ -49,7 +49,8 @@ relations:
 | 设计归属 | `designed_by` | work → person；仅记录来源明确的设计者归属，与施工者、创作者和委托人分别表达；保留来源归属限定 |
 | 建造受托 | `entrusted_to_build`／`entrusted_with_building_of` | place → 受托建造者；仅记录来源明确的建造委托，不推定工程已开工或完工；反向仅作导航 |
 | 建造执行 | `erected_by` | work → person；来源明确记载实际建造者时使用，与设计者及建造委托分别表达；反向 `erector_of` 仅作导航 |
-| 题献／奉献 | `dedicated_to`、`dedicated_by` | work → 题献对象／题献者；题献文字、受题献者与实际题献者须有作品题记或馆藏目录依据，不能与创作者、委托人或赞助人混同 |
+| 题献 | `dedicated_to`、`dedicated_by` | `dedicated_to`为archive/work → person；`dedicated_by`为work → person。题献文字、受题献者与实际题献者须有作品题记或馆藏目录依据，不能与创作者、委托人或赞助人混同 |
+| 宗教奉献 | `religiously_dedicated_to`（反向 `religious_dedication_of`） | place/work → term/event；仅记录来源明确称宗教场所或祭坛奉献于某宗教主题、称谓或叙事对象。保留原有、后续及未定时间等限定；不推定实际奉献仪式、作品描绘或创作／赞助关系。 |
 | 所有／取得／经手 | `owned_by`、`acquired_by`、`handled_by` | `owned_by`用于work→所有人，也可用于place中的建筑／地产→有来源支持的历史所有人；明确时期和权利范围。`acquired_by`、`handled_by`仍为work关系，分别记录取得者与市场经手机构；三者不得互换 |
 | 安置／保管／位置 | `installed_at`、`held_by`、`located_at` | work → 安置建筑／保管机构／物理地点；建筑／地点place → 其所在的更大地点place。须保留适用时间或来源时点 |
 | 配对作品 | `pendant_of` | work ↔ work；来源明确两件作品构成配对，单侧保存事实、反向仅作投影；同作者、同题材或同尺寸不构成配对依据 |

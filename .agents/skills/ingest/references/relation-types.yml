@@ -1,4 +1,4 @@
-version: 9
+version: 10
 authority: controlled-relation-vocabulary
 types:
   - associated_institution
@@ -110,6 +110,8 @@ types:
   - published_by
   - publisher_of
   - quoted_in
+  - religiously_dedicated_to
+  - religious_dedication_of
   - employed_by
   - educated_at
   - education_of
@@ -212,6 +214,8 @@ inverse:
   dedicated_to: dedication_recipient_of
   dedicator_of: dedicated_by
   dedication_recipient_of: dedicated_to
+  religiously_dedicated_to: religious_dedication_of
+  religious_dedication_of: religiously_dedicated_to
   disputed_with: disputed_with
   exemplified_by: instantiates
   has_subject: subject_of

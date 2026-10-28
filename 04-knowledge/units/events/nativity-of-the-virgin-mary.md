@@ -43,8 +43,12 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 - 性质：圣母奥迹及祭坛奉献主题；不是本书所定年的单次历史事件。
 - 时间：来源未给出所描绘诞生事件的日期。
-- 书内语境：高坛奉献相关的两项陈述仍由 S2 关系候选记录，尚待 S6 裁决。
+- 书内语境：高坛的原奉献关系见下方记录。
 
 ## 关系与证据
 
-尚无正式关系。两条直接 S2 候选 `st-chp3-secii-l40-52-high-altar-nativity`、`st-chp3-secii-l54-60-high-altar-nativity-dedication` 留待 S6 逐条裁决；本卡未新增正式关系。
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 奉献于该对象的场所／祭坛（`religious_dedication_of`，反向投影） | [Chiesa Nuova主祭坛（High Altar of Chiesa Nuova）](../works/high-altar-chiesa-nuova.md) | Haskell称高坛分配给圣母诞生并原奉献于Nativity；时间：原初奉献；具体日期未载；角色：主祭坛原奉献主题；范围：记录Haskell称高坛分配给圣母诞生且原奉献于Nativity；不推定后续奉献保持不变或圣母诞生的历史日期。；原断言与证据见发出端卡片“Chiesa Nuova主祭坛（High Altar of Chiesa Nuova）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；Chapter 3, printed pp. 69–70, lines 47 and 58; statements=st-chp3-secii-l40-52-high-altar-nativity;st-chp3-secii-l54-60-high-altar-nativity-dedication |

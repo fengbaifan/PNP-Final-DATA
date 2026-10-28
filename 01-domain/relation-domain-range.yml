@@ -1,6 +1,6 @@
-version: 7
-authority: relation-domain-range-v7
-status: draft-v7
+version: 8
+authority: relation-domain-range-v8
+status: draft-v8
 note: |
   本文件定义每个受控关系类型的合法 (domain, range)，供 S6 关系放行条件使用。
   v1 为与既有 relation-index.yml 的 1227 条边做只读一致性校验后的修正版：
@@ -8,6 +8,7 @@ note: |
   v5 新增 held_office（person → institution）及其反向 office_held_by，限于来源明确记载已经担任的职位。
   v6 新增 appealed_to（work → person）／found_appealing（person → work），记录来源明确报告的作品审美吸引关系，不表示购买、接触或影响；新增 designed_for_audience（archive/work → term）及反向 intended_audience_of，记录来源明确陈述的出版物预期受众类别，不证明实际读者或接受。
   v7 新增 fosters（institution → term）／fostered_by（term → institution），限于来源明确记载机构培育某种艺术倾向或实践；新增 site_of_manifestation（place → term）／manifested_at（term → place），记录来源明确指出概念或倾向呈现的场所，不表示作品实体的物理位置。
+  v8 将题献对象 dedicated_to 的域扩至 archive/work；另增宗教奉献关系 religiously_dedicated_to 与反向 religious_dedication_of，记录来源明确的场所或祭坛对宗教对象的奉献，不推定具体奉献仪式。
   domain/range 覆盖当前实际用法，逐谓词直接存（不做 inverse 规范化）。
   未列入 domain_range 且不在 deprecated 列表的类型，默认不约束（允许，待首次使用后补入）。
   same_as 额外约束：两端必须同类型（由 S6 检查单独实现，不靠本表表达）。
@@ -49,7 +50,9 @@ domain_range:
   director_of:      {domain: [person], range: [work]}
   designer_of:      {domain: [person], range: [work]}
   dedicated_by:     {domain: [work], range: [person]}
-  dedicated_to:     {domain: [work], range: [person]}
+  dedicated_to:     {domain: [archive, work], range: [person]}
+  religiously_dedicated_to: {domain: [place, work], range: [event, term]}
+  religious_dedication_of: {domain: [event, term], range: [place, work]}
   derived_from:     {domain: [archive, work], range: [archive, work]}
   disputed_with:    {domain: [institution, person], range: [institution, person]}
   educated_at:      {domain: [person], range: [institution]}

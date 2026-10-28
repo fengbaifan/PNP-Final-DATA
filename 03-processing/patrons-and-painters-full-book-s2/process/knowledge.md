@@ -17864,3 +17864,20 @@ S6：`st-chp3-seciv-l75-81-chapel-dedicated-to-resurrection` 为既有地点 KU 
 这四项是以两处空间为直接主客体且当前标记为关系候选的全部statement；另两条就绪／完成陈述保留为非关系候选。横翼拱顶等其他端点及其候选另行处理。本批未改变S2 statement／mention及独立审读台账。
 
 两张空间卡及整体委托卡定向渲染并复预览无差异；字段复预览 `record_changes=0`、warnings=0。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性五类阻断均为0。批后KU 3,298，S4已映射2,518/5,089条new候选，待映射2,571；S5字段14,730条（1,628条unverified），relations表2,524行（2,483 formal、41 pending）。机械审计不构成S2独立语义接收。
+
+<a id="s6-religious-dedication-relations-20261028"></a>
+### S6 宗教奉献与文献题献的类型阻断（2026-10-28）
+
+按用户执行1–5的计划，检查既有重复阻断：宗教场所的奉献与文献题献语义不同。新增 `religiously_dedicated_to`／`religious_dedication_of`，限定place/work→term/event；将既有题献 `dedicated_to` 的domain扩为archive/work、range仍为person。规则、逆向及显示标签变动见治理CHANGELOG；文献题献仍须满足题记或馆藏目录证据要求。宗教奉献边只表达书内所述奉献对象，不推定日期、具体仪式、作品描绘或赞助。
+
+| S2候选 | 现在的去向 | 裁决变化与证据 |
+|---|---|---|
+| `st-chp3-seciv-l75-81-chapel-dedicated-to-resurrection` | formal `rel-2527` | Haskell p.84 L79说右横翼礼拜堂由奉救世主改奉复活；原process-only pending因谓词缺口解决而重审。阶段日期未载，1623年改奉沙勿略的后续范围保留。 |
+| `st-chp9-p272-jesuit-church-dedication` | formal `rel-2528` | p.272 L54直接称该教堂奉献于圣母升天。保留原先因无可用谓词而rejected的历史记录，本次因新类型重审，不外推仪式或现状。 |
+| `st-chp3-secii-l40-52-high-altar-nativity`；`st-chp3-secii-l54-60-high-altar-nativity-dedication` | 均formal；合并 `rel-2529` | pp.69–70 L47、58分别称高坛分配予圣母诞生、原奉献于Nativity；两项同一原奉献事实共用一条边。此处event KU表示宗教主题，不推定圣母诞生历史日期或后续奉献未变。两条原留待S6，本批逐项裁决。 |
+
+高坛另两条 `st-chp3-secii-l54-60-cesi-promised-high-altar-decoration`、`st-chp3-secii-l54-60-decoration-funds-absorbed-by-facade-costs` 不属于本次宗教奉献候选，仍依原记录待S6审查。文献题献 `st-chp3-secii-l19-31-richeome-dedicated-book-to-aquaviva` 与 `st-chp10-p300-note2-goldoni-dedication` 原因谓词域不符pending；域限制已消除，但本批仅核读Haskell转述，未核题记或馆藏目录，继续pending并以取得对应题记或目录证据为重审条件。`st-chp7-p189-i21` 原因同一类型限制rejected，现改为pending：Haskell记载《Felsina Pittrice》题献Louis XIV，但本次未核题记或馆藏目录；保留原拒绝与新决定的变化。以上文献题献本批均未写正式边。
+
+既有正式题献边中 `origin=book` 有6条（`rel-1571`、`rel-1572`、`rel-1642`、`rel-2125`、`rel-2234`、`rel-2382`）；是否各有题记或馆藏目录依据尚未逐条核实，列入后续定向审计，不按来源字段机械撤销。上述变化不改S2 statement或独立复核分子。
+
+检查结果：关系词表及域值域的正反向、archive题献与宗教奉献类型边界检查通过；`tests/test_build_relation_views.py`、`tests/test_build_cards_preview.py`、`tests/test_audit_relation_consistency.py` 的定向pytest通过。6张受影响卡定向渲染后复预览无差异；严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`，关系一致性五类阻断均为0。批后 `relations.csv` 2,527行（2,486 formal、41 pending）；S6历史裁决2,070项（1,226 formal、709 pending、135 rejected），与当前statement版本尚未核平，不报告覆盖率。机械检查不构成S2独立接收。

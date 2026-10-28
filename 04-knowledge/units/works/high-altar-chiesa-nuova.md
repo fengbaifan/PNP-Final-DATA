@@ -37,13 +37,12 @@ Haskell 将装饰承诺、约1605年的款项状况及立面费用分别叙述�
 
 ## 关系与证据
 
-### 正式关系
+### 关系记录
 
-本次未新增正式关系。以下4条直接 S2 关系候选仍待 S6 逐条审查：
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 宗教奉献对象（`religiously_dedicated_to`） | [圣母诞生（Nativity of the Virgin Mary）](../events/nativity-of-the-virgin-mary.md) | Haskell称高坛分配给圣母诞生并原奉献于Nativity；时间：原初奉献；具体日期未载；角色：主祭坛原奉献主题；范围：记录Haskell称高坛分配给圣母诞生且原奉献于Nativity；不推定后续奉献保持不变或圣母诞生的历史日期。；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_ii.md)；haskell-1980-rev-ed；Chapter 3, printed pp. 69–70, lines 47 and 58; statements=st-chp3-secii-l40-52-high-altar-nativity;st-chp3-secii-l54-60-high-altar-nativity-dedication |
 
-- `st-chp3-secii-l40-52-high-altar-nativity`
-- `st-chp3-secii-l54-60-cesi-promised-high-altar-decoration`
-- `st-chp3-secii-l54-60-decoration-funds-absorbed-by-facade-costs`
-- `st-chp3-secii-l54-60-high-altar-nativity-dedication`
+### 关系候选入口
 
-四条候选的两端现均有对应 KU（两条涉及圣母诞生，一条涉及 Angelo Cesi，一条涉及立面费用）；以上候选仍须经 S6 逐条语义裁决后才能成为正式关系。
+[高坛相关关系裁决与待审项](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-religious-dedication-relations-20261028)

@@ -60,6 +60,8 @@ LABELS = {
     "corresponded_with": "通信",
     "created_by": "创作者",
     "creator_of": "所创作对象",
+    "religiously_dedicated_to": "宗教奉献对象",
+    "religious_dedication_of": "奉献于该对象的场所／祭坛",
     "derived_from": "源自",
     "source_of": "来源",
     "disputed_with": "争执",

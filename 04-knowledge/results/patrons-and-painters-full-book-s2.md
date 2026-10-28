@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-28）
 
+**本批完成：宗教奉献及文献题献关系类型阻断。** 受控词表区分place/work对宗教主题的奉献与archive/work题献给人物；宗教奉献4项S6候选对应3条formal边（`rel-2527`–`rel-2529`），其中两项是有据类型变化后的重审，另两项高坛候选合并为一条边。三项书内文献题献保留pending以核题记或馆藏目录；6条既有book来源正式题献边待核相应依据。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-religious-dedication-relations-20261028)。
+
 **本批完成：第3章耶稣堂穹顶与主拱顶空间。** 沿用 `cand-5218`、`cand-5234` 的S3 `new` 组登记2个place KU，新增5条Haskell来源字段。4项直接S6候选为2 formal（`rel-2525`、`rel-2526 intended_for`，限定为1672年合同绘饰目标）、2 process-only pending；具体对象边界及重审条件见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch3-gesu-dome-nave-vault-20261028)。S2与独立复核台账未变。
 
 **本批完成：第2章 p.47 罗马长官职位。** 沿用 `cand-4645` 的S3 `new` 组登记职位KU，新增2条Haskell来源字段；Taddeo的1631年任职裁为 `rel-2524 held_office` formal，Della Rovere家族先前持有职位的候选因受控谓词类型限制保留process-only pending。职位称号、仪式与受命绘制场景的其他候选保留各自后续去向；详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch2-prefecture-rome-20261028)。S2与独立复核台账未变。
@@ -3774,8 +3776,8 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | S3 | 按候选ID计12,433/12,433均有决定：same 2,114、new 5,089、conflict 9、excluded 106、undecided 5,115 | 12,408项有external_source为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。28个候选的35条来源决定虽与主行不同，当前复核确认其中34条（27个候选）均为same且目标与候选主行KU一致；唯一待证来源行是cand-2328的Princeton关联（“possibly”，1633/1653生年差异），主行new决定保持。new候选组字段结构筛查：87个无显式组（主行79、来源限定new-only 8），另21个多标签中8个仅尾随句点不同、13个仍需语义核组。 |
 | S4 | new候选已映射2,518/5,089；待映射2,571，其中直接关系端点913、其他1,658；KU共3,298 | 直接端点待映射按类型：term 401、work 136、place 133、archive 120、event 73、institution 49、person 1。 |
 | S5 | 14,730条字段，1,628条unverified | 本批新增5条Haskell来源支持字段。 |
-| S6 | 裁决记录2,068项：formal 1,222、pending 709、rejected 137；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批4项候选为2 formal、2 process-only pending。 |
-| 正式关系表 | 2,524行：2,483 formal、41 pending | 本批新增两条合同绘饰目标关系；两项过程待证及重审条件见过程记录。 |
+| S6 | 裁决记录2,070项：formal 1,226、pending 709、rejected 135；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批宗教奉献4项formal（其中2项旧裁决重审），另1项文献题献rejected改为pending；2项文献题献继续pending。 |
+| 正式关系表 | 2,527行：2,486 formal、41 pending | 本批宗教奉献4项候选合并形成3条边；文献题献待具体题记或馆藏目录证据。 |
 | 缺端点与backlog | 338条关系statement至少缺一个S2端点候选ID；backlog 58条（15 completed、43 undecided） | 未具名Paceco画作的开放端点已保留待证；严格审计backlog pending=0，`bl-0058`待证条件保留。 |
 
 S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按类型分布。
@@ -3802,7 +3804,7 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 2. **先做近期S2版本差异复核，再继续章节语义复核。** 当前15,480条statement对应9,622条统一复核记录，statement ID／来源版本尚未核平；近期21条新增或修订的当前statement版本待差异复核，其中包括第8章p.224本批5条。先独立核对版本差异，再按章节完整阅读正文、注释和必要图像；未独立审读的版本不计入接收。
 3. **按触发条件推进跨章S3身份组。** 28个候选／35条来源决定差异中，34条`same`来源行已确认与主行指向相同KU；`cand-2328`Princeton来源行仍待直接身份／年代证据。对13个多标签候选核定语义组，对87个无显式组的`new`候选依来源补组；之后按类型及关系端点价值处理5,115项`undecided`（其中2,992项为直接关系端点），逐项记录复用、新增、冲突或含证据条件的待证去向。S3仅在身份组审计、S4登记或新证据触发时重开相关对象。
 4. **收束缺端点与backlog对象。** 338条关系statement至少缺一个S2候选端点ID；58条backlog中15条completed、43条undecided。逐条判断现有S1→S3/S4是否已覆盖；具名对象有据可识别时进入对应流程，身份或类型不足时记录最小待证条件。
-5. **定向补S5并核平S6版本台账。** 当前14,730条S5字段中1,628条`unverified`，按身份、版本、角色、时间和地点对关系结论的影响排序补证。S6历史裁决2,068项与当前10,682条`relation_candidate=true` statement版本尚未核平；核对statement ID和版本后再报告覆盖，不计算不可靠完成率。
+5. **定向补S5并核平S6版本台账。** 当前14,730条S5字段中1,628条`unverified`，按身份、版本、角色、时间和地点对关系结论的影响排序补证。S6历史裁决2,070项与当前10,682条`relation_candidate=true` statement版本尚未核平；核对statement ID和版本后再报告覆盖，不计算不可靠完成率。文献题献先核题记或馆藏目录，并审视6条既有book来源正式题献边。
 6. **S7后置。** 待S3候选去向、S2版本和独立审读状态、关键S5字段、S6关系裁决及缺端点/backlog均可追溯，再做发布预检。知识发现和页面仍等待明确启动。
 
 #### 提速安排

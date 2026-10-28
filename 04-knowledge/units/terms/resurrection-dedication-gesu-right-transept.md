@@ -42,7 +42,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 奉献于该对象的场所／祭坛（`religious_dedication_of`，反向投影） | [耶稣堂右横翼圣方济各·沙勿略礼拜堂（Right-Transept Chapel of St Francis Xavier in the Gesù）](../places/gesu-right-transept-chapel-st-francis-xavier.md) | Haskell明确记述右横翼礼拜堂依次奉献于救世主与复活；时间：具体日期未载；角色：礼拜堂的中间奉献对象；范围：书中称先奉献于救世主随后奉献于复活；1623年圣方济各·沙勿略列圣时改奉该圣人。该边记录复活阶段而不推定具体仪式或现行奉献。；原断言与证据见发出端卡片“耶稣堂右横翼圣方济各·沙勿略礼拜堂（Right-Transept Chapel of St Francis Xavier in the Gesù）”：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 84, line 79; statement=st-chp3-seciv-l75-81-chapel-dedicated-to-resurrection |
+
 
 ### 关系候选入口
 
