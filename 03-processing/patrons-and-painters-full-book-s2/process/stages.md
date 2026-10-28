@@ -13763,3 +13763,20 @@ S2 statement为同ID内容变化，mention新增1条；9,622条统一独立复�
 结果文件此前提到的“近期21条”在已检查的受版本控制结果与过程记录中没有逐项ID清单；因此无法可靠计算它与新增30、变化49及已定位复核记录的交集。不得把21与79相加为未审量。删除的旧ID为 `st-chp2-seciv-l190-245-rest-flight-owned-by-rospigliosi`；它的现行替代statement及原文错位理由见本文件上方第2章p.57注3记录，台账是否曾收录该旧ID仍待行级核验。
 
 对当前代词更正另查：`st-chp13-p334-albrizzi-edited-weekly-bulletin` 没有 `relations.csv` 正式边；当前过程裁决保持pending，未发现需撤销或重写的既有S6正式决定。相关process-only pending理由见[关系影响记录](knowledge.md#s2-s6-ch13-p334-novelle-anaphor-20261028)。本次差异核平不改statement、mention、9,622计数或任何S6决定；同代理的版本比对不构成独立语义复核，全书S2仍未接收。
+
+<a id="s2-version-diff-reconciliation-followup-20261029"></a>
+### S2版本差异核平补记：第15章Prà指代修订（2026-10-29）
+
+以统一复核计数首次出现的基线提交 `1a6313c8654280a9b71187fc08522098626e734e`（15,451条）对当前 statement 表逐 `statement_id` 比较：当前15,480条，新增30、删除1、同ID内容变化89，共120个ID存在版本差异。此前截至 `cfd1c428` 的49条同ID变化全部仍在当前差异集中；本次Prà修订另增加40条，故没有把历史快照数相加或覆盖。当前 `04-knowledge/tables/book-statements.jsonl` SHA-256：`375ca117c89a1b44be56251f82f0f877145b9f69c600aec69a9c2e5baeaf06d3`。
+
+修订前提交 `cdd47d526dcdcaed579397e1f87fb06d52c96acd` 的表有15,480条；对当前逐条解析比较为40条对象内容变化、0新增、0删除。Git文本差异触及41行：另1行 `st-chp13-p334-albrizzi-edited-weekly-bulletin` 仅JSON序列化次序变化，解析对象相同。40条变化均保持原 `segment_id`、来源文件、原文引句和来源行范围；涉及subject候选20条、object候选7条及全部40条的qualifiers。其来源为 `02-sources/02-Markdown/15_CHP-15_sec_ii.md`，当前文件SHA-256为 `eea847f75c7876dc5b8ea38ef4b64ad30cdd6c629df6a064125ac5f63917d31f`。
+
+将这40条与2026-10-20独立审读快照提交 `2273e274` 的15,163条 statement 比较：40条均已存在于快照，但当前对象40/40均与该快照不同。旧报告覆盖第15章相关页的审读，不等于修订后对象已复核；这40条需独立差异复核，不计入统一复核9,622条。其ID如下：
+
+- 印刷页365（14条）：`st-chp15-p365-conditions-limit-venetian-enlightenment`、`st-chp15-p365-eighty-eight-statues-and-conditions`、`st-chp15-p365-lodoli-plan-functional-commercial`、`st-chp15-p365-memmo-central-island-for-traders`、`st-chp15-p365-memmo-oval-plan-colosseum`、`st-chp15-p365-memmo-representation-eligibility-partial`、`st-chp15-p365-memmo-summoned-cerato-to-implement-plan`、`st-chp15-p365-plan-inspired-by-vicenza`、`st-chp15-p365-pra-plan-inspired-by-bologna-vicenza`、`st-chp15-p365-scheme-rationale-for-inclusion`、`st-chp15-p365-statue-donor-choice`、`st-chp15-p365-statue-foundations-strengthen-canal-banks`、`st-chp15-p365-statues-as-civic-virtue-gallery`、`st-chp15-p365-subscriptions-for-statue-series`
+- 印刷页366（24条）：`st-chp15-p366-1777-progress-and-ambassadorship`、`st-chp15-p366-another-six-in-rome-ambiguous`、`st-chp15-p366-antenor-statue-depicts-antenor`、`st-chp15-p366-antenor-statue-made-by-andreosi`、`st-chp15-p366-committee-appointed-for-quality`、`st-chp15-p366-councillors-objected-to-expense`、`st-chp15-p366-eligible-churchmen`、`st-chp15-p366-eligible-old-professions`、`st-chp15-p366-eligible-presenters`、`st-chp15-p366-general-appearance-mattered`、`st-chp15-p366-king-of-sweden-subscribed`、`st-chp15-p366-latin-inscriptions-pedestals`、`st-chp15-p366-memmo-offers-antenor-statue`、`st-chp15-p366-memmo-proposed-subjects-to-friends`、`st-chp15-p366-memmo-spread-ideas`、`st-chp15-p366-memmo-urges-friends-for-statues`、`st-chp15-p366-padua-offers-memmo-ancestor-statue`、`st-chp15-p366-pedestal-space-limited-inscriptions`、`st-chp15-p366-poland-sweden-subscriptions`、`st-chp15-p366-pope-and-visitors-contribute`、`st-chp15-p366-quality-committee-and-stone`、`st-chp15-p366-statues-promised-and-in-situ-1786`、`st-chp15-p366-third-statue-depicts-memmo-ancestor`、`st-chp15-p366-uniform-stone-required`
+- 印刷页367（2条）：`st-chp15-p367-patronage-and-speed-caused-variation`、`st-chp15-p367-results-difficult-to-assess`
+
+**关系与历史裁决影响。** 修订前后对照 `relations.csv`：没有既有relation行被删除或改写；Prà本批新增 `rel-2580`–`rel-2585` 六条formal边。原 `rel-0013`、`rel-1702`–`rel-1704`、`rel-1707`保持不变。修订涉及的其余关系已在[逐条S6裁决](knowledge.md#s3-s4-s6-pra-della-valle-plan-statue-scope-20261029)中逐项记为pending或rejected及其理由；未具名人物／雕像、范围不明的“another six in Rome”、未识别的地点和缺少忠实受控谓词的行动继续待证，不补造端点或正式边。波兰／瑞典订阅的既有pending保留。统一复核台账与历史S6裁决分母尚未核平，本记录不改变既有分子或分母。
+
+**交接。** 当前版本差异已可追溯到基线提交、具体statement ID、原文来源哈希和独立审读快照；版本台账覆盖关系仍未解决。后续先对这40条修订做独立语义差异复核，再重建9,622条行级ID／来源版本交集；不得仅凭总数宣称覆盖。

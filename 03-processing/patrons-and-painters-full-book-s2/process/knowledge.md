@@ -18507,7 +18507,7 @@ cand-6212由“SS. Apostoli”位置候选按第6章p.154的明确写法对齐�
 | `cand-5766` | 既有`new` place组`sg3-place-cand-5766`不变 | `units/places/colosseum` | 第4章引文与第15章所称Colosseum同为地点；不推断任何具体图稿描绘它。 |
 | `cand-2769` | 原`new`改为`same`；`sg3-ku-units-places-vicenza` | 复用`units/places/vicenza` | 跨第9、10、14、15、20章的12处提及均为城市Vicenza；不另建同名地点KU。 |
 
-原`cand-1650`下31条mention中，8条计划中的雕像项目提及转到`cand-12456`，20条非实体属性提及移出实体mention表，3条城市规划提及留在`cand-1650`。本批有41条statement JSON记录发生当前版本变化，涉及端点重指、错误端点清空、待证理由补记和两条王室订阅statement的身份限定更新；这些当前版本须独立复核，不计入既有9,622条。第10章statement继续把`cand-1650`作为1782年相似方案的比较参照；没有把1782方案改写成同一work。另将`st-chp15-p367-results-difficult-to-assess`的主语与提及候选改为既有地点`cand-3960`，不再指向作品规划。
+原`cand-1650`下31条mention中，8条计划中的雕像项目提及转到`cand-12456`，20条非实体属性提及移出实体mention表，3条城市规划提及留在`cand-1650`。本批Git文本差异触及41行；解析后有40条statement对象内容变化，另1行仅JSON序列化次序变化，涉及端点重指、错误端点清空、待证理由补记和两条王室订阅statement的身份限定更新；这些当前版本须独立复核，不计入既有9,622条。第10章statement继续把`cand-1650`作为1782年相似方案的比较参照；没有把1782方案改写成同一work。另将`st-chp15-p367-results-difficult-to-assess`的主语与提及候选改为既有地点`cand-3960`，不再指向作品规划。
 
 **S3未决对象的明确去向。** 未具名的Abate Cerato（`cand-0623`）、Antenor雕像及人物（`cand-10484`／`cand-10483`）、Memmo祖先雕像及人物（`cand-10488`／`cand-10487`）、“another six in Rome”（`cand-10498`）、游客（`cand-11528`）、议员（`cand-11529`）、委员会（`cand-12234`）、商人／中央岛使用者（`cand-12228`）及Memmo的朋友群（`cand-11527`）均保留S3 `undecided`，分别留在`bl-0070`–`bl-0080`。没有姓名、类型、作品成员边界或地点端点依据时，不新建KU或正式边。`cand-12229`的donor是规则中的泛称角色而非已识别行动者，继续S3 `undecided`；候选记录保留，不将抽象资格规则登记成个体关系。`cand-12230`、`cand-12231`及`cand-10489`仍是各自的S3 `new`术语候选；它们在资格规则statement中出现，但原文没有命名的presenter端点，本批不为建立虚假关系而登记KU。
 
