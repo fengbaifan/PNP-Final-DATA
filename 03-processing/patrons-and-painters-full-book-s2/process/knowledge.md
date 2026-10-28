@@ -17554,3 +17554,28 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 **卡片与审计。** 《所罗门智训》、萨基《神圣智慧寓意》及智慧概念三卡均先预览后定向渲染；渲染预检`cards=3`、`tables=4`、`rows=9`、`projected_relation_rows=8`，写后字节核验通过。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。未修改S2 statements、mentions或独立复核台账。
 
 **批后状态。** S2仍为15,470 statements／26,872 mentions，统一独立复核台账9,622条且statement ID／来源版本未核平。S3决定值无变化：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4新增1条new候选映射：2,496/5,088已登记，待映射2,592；直接关系端点929、其他1,663；KU共3,276。S5共14,649条字段（1,627条`unverified`）。S6历史裁决累计2,020项（formal 1,194、pending 692、rejected 134），当前`relation_candidate=true`仍为10,673项，历史台账与当前statement版本差1，不据此报告完成率。`relations.csv`共2,496行（2,455 formal、41 pending）。337条关系statement仍缺至少一个S2端点候选ID；backlog 58条（15 completed、43 undecided）。
+
+
+<a id="s4-s5-s6-chp9-udine-cathedral-20261028"></a>
+### S4–S6 第9章 p.251／p.268 Udine Cathedral 地点端点与 Manin 风格关系（2026-10-28）
+
+#### S3身份组与S4登记
+
+`cand-8235`沿用既有S3 `new`身份组`sg3-place-cand-8235`。跨查现有KU后确认其为独立主教座堂地点，不与`units/places/udine-city`、近旁的`units/places/cappella-della-purita-udine`或Udine的主教宫内部空间合并。将既有`aln-8410`的`ku_id`映射到[乌迪内主教座堂（Udine Cathedral）](../../../04-knowledge/units/places/udine-cathedral.md)；未重开S3，未以原书称谓冒充正式意大利语专名或外部身份核验。
+
+#### S5书内字段
+
+新增两条Haskell来源字段：`enr-18564`记载建筑类型为主教座堂（cathedral），依据第9章pp.251、268；`enr-18565`记录第251页提及的唱诗席（choir）及其Manin风格实例语境，不推定空间边界。`build_field_facts.py`预览显示两条`source_backed`、`unverified=0`、`warnings=0`；应用后复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`。
+
+#### S6逐候选裁决
+
+| S2 statement | 去向 | 依据与边界 |
+|---|---|---|
+| `st-chp9-p251-manin-style-at-udine-cathedral` | formal，`rel-2498 manifested_at` | 已映射的Manin风格术语 → Udine Cathedral地点。Haskell称彩色大理石或灰泥帷幔装饰“can be found in the choir”；只记录唱诗席作为书内实例地点，不指具体现存表面、独立作品或当下状况；时间未载。 |
+| `st-chp9-p268-manin-udine-offer-1706` | process-only pending | Haskell记载Manin于1706年提出装饰唱诗席、耳堂和主祭坛；该语句只证明提议，未证明接受或完成。现有受控谓词不能表达“提议装饰”而不误写成委托或完成关系，故不造正式边。 |
+
+#### 写回与审计
+
+已登记place卡、`accepted.yml`与manifest，更新`aln-8410`并向`relations.csv`新增一条formal关系。先预览后定向渲染新地点卡及Manin风格术语卡，两卡写后字节核验通过；复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。本批未修改S2 statement／mention、候选身份决定或独立复核台账；p.268提议保持process-only pending。
+
+**批后状态。** S2仍为15,470 statements／26,872 mentions，统一独立复核台账9,622条且statement ID／来源版本未核平。S3决定值无变化：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4新增1条new候选映射：2,497/5,088已登记，待映射2,591；直接关系端点928、其他1,663；KU共3,277。S5共14,651条字段（1,627条`unverified`）。S6历史裁决累计2,022项（formal 1,195、pending 693、rejected 134），当前`relation_candidate=true`仍为10,673项，历史台账与当前statement版本差1，不据此报告完成率。`relations.csv`共2,497行（2,456 formal、41 pending）。337条关系statement仍缺至少一个S2端点候选ID；backlog 58条（15 completed、43 undecided）。

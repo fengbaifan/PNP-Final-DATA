@@ -54,7 +54,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 呈现于（`manifested_at`） | [乌迪内主教座堂（Udine Cathedral）](../places/udine-cathedral.md) | S6 formal; exact source-reported style-site relation.；角色：Source-reported site where the Manin style appears；范围：Haskell identifies the choir of Udine Cathedral as an instance of the Manin style; records the source-reported site, not a specific surviving surface, individual work, or present condition.；证据：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.251 L111-L112; statement=st-chp9-p251-manin-style-at-udine-cathedral |
+
 
 ### 关系候选入口
 
