@@ -18132,3 +18132,11 @@ S6：`st-chp3-seciv-l75-81-chapel-dedicated-to-resurrection` 为既有地点 KU 
 - `st-chp7-p184-n4-guercino-cato-location` **process-only pending**：Marseilles `cand-7093` 尚未映射，注4是Haskell经Hoog转述的位置报告；未独立查阅Hoog，不当作现今馆藏。
 
 S2及独立复核台账未变；前批两条修订statement和两条mention仍待独立差异复核。4条边是2项委托候选和2项从书内署称补记的作者关系，不把4条边误计成4项statement裁决。
+
+
+<a id="s4-s6-ch7-marseilles-location-20261028"></a>
+### 第7章马赛地点端点与画作位置报告（2026-10-28）
+
+`cand-7093` 既有S3 `new`组 `sg3-place-cand-7093` 依据第7章p.184注4及p.200正文两个Marseilles提及，登记为 `units/places/marseilles-haskell`；同类型manifest未找到可直接复用的地点。p.200说de Ferrari赴Marseilles为Noailles作画，对应人物赞助候选已在 `rel-1412` 裁决；不因场所相同识别未具名画作。S5新增书内称名 `enr-18666`。
+
+`st-chp7-p184-n4-guercino-cato-location` 保留**process-only pending**，更新理由：作品与地点端点均已映射，但 `located_at` 在关系契约中标记 `needs_split`；同时Haskell脚注“now”没有精确时点且引用Hoog页码，Hoog未独立查阅。须解决适合的书内历史位置谓词及时间限定、核对所引资料或明确维持原书二手报告边界后重裁；不据此断言今日藏处或具体馆藏机构。该项上批已计pending，本批不重复计数。S2及独立复核台账未变。
