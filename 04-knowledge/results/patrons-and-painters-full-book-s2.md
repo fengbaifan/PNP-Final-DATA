@@ -2,6 +2,10 @@
 
 ### 近期批次记录（2026-10-28）
 
+**本批完成：第14章《Newtonianismo per le Dame》文本、插图与概念端点。** 将 `cand-10258` 从 `undecided` 改为书名级archive `new`组，并映射；`cand-10311`、`cand-12182`沿用各自既有new组，分别登记扉页插图work与Italian culture term。三卡新增13条结构化字段（10条Haskell来源支持、3条项目暂译/暂名未验证）。插图到Piazzetta以 `rel-2558 created_by` formal；出版角色、在威尼斯无法刊行、期刊警示、文化贡献及可能会面共6项继续process-only pending。`bl-0059`保留独立第一版archive端点为undecided，避免用文本本体冒充特定版本。4张相关卡定向渲染并复预览无差异；严格审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`，关系一致性五项阻断均为0。S2和9,622条统一独立复核台账未变。过程及依据见[本批记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp14-newtonianismo-title-identity-20261028)。
+
+**当前机械快照（2026-10-28，按本批后实表核算）：** S2为15,480条statement、26,874条mention；统一复核台账9,622条，版本差异与重叠尚未核平，且本批不构成独立语义接收。S3候选12,433项，主决定为same 2,120、new 5,096、conflict 8、excluded 106、undecided 5,103；28个候选仍有不同来源决定。S4已映射2,536/5,096个new，尚有2,560个待登记；其中按主决定且确为S2主客体端点统计，902个仍未映射（term 400、work 134、place 128、archive 118、event 72、institution 49、person 1）。S4实际KU 3,315。S5共14,768行（1,632条unverified）。`relations.csv`有2,556行（2,515 formal、41 pending）；历史S6裁决表与当前statement版本仍未核平，故不据此计算可靠覆盖率。`candidate-backlog.csv`共59行，pending=0，但 `bl-0059` 明确保留1个undecided版次端点。严格表审计另有S4待映射与S2语义质量提示；这些机械数字不代表语义接收。
+
 **本批更正：第13章p.334《Novelle》编辑者代词。** 将 `he himself edited` 按最近的并列主语由Giambattista调整为Almorò Albrizzi；原引文不变，新增一条anaphoric mention。Treccani区分两兄弟的出版／编辑记录，但未独立解决Haskell所述编辑职责；相关S6关系继续pending，S2当前版本待独立差异复核，不增加9,622条台账。详见[S2校读](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)及[关系影响](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s6-ch13-p334-novelle-anaphor-20261028)。
 
 **本批更正：第14章p.349《Novelle》刊期年份。** 扫描印本注3为12 April 1738；S0 OCR与原S2内容误作1758。保留原始引文，当前claim和候选 `cand-10261` 改为1738；沿用其S3 `new`身份组并登记单独刊期卡。目标作品候选仍未决，关系无忠实受控谓词，故保持process-only pending；修订后的S2版本待独立复核。详见[校读及裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s4-s6-ch14-p349-novelle-issue-1738-20261028)。

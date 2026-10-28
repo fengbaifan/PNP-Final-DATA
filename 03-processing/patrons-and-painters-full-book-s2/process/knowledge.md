@@ -18264,3 +18264,38 @@ Treccani DBI（2026-10-28访问）将该刊出版责任记于Giambattista，并�
 该卡2条结构化来源字段经 `build_field_facts.py --ku units/archives/novelle-della-repubblica-delle-lettere-1738-04-12` 定向预览后应用，均为Haskell书内来源支持；warnings=0，source registry无变化。
 
 相关statement仍为 **process-only pending**：它把刊期警示关联到作品候选 `cand-10258`，该候选因版本／身份粒度未定而仍为S3 `undecided`；`warned_readers_about` 也不在当前受控关系词表。`relations.csv` 未见该statement既有formal行，本批不创建formal边、不改历史S6裁决；待作品端点与忠实关系谓词均成立后再审。S2当前statement为同ID变化，统一复核台账9,622不变，须独立复核本次印本校读；以同一基线重算为新增30、删除1、同ID变化49。
+
+
+<a id="s3-s4-s6-chp14-newtonianismo-title-identity-20261028"></a>
+### 第14章《Newtonianismo per le Dame》书名文本、第一版插图与关系裁决（2026-10-28）
+
+#### S3身份与S4登记
+
+`cand-10258` 的旧决定是 `undecided`，旧理由为 p.349 命名书作但未给版次或刊记。本次按身份粒度重读第14章 p.349 L26–29、p.350 L36及p.355 L90–91：p.349给出完整题名 *Newtonianismo per le Dame*，p.350以 *his Newtonianismo* 指回这部作品并说明1737年威尼斯之行时尚未出版，p.355另称“the first edition”。这些不同页段足以确认**书名级文本身份**；版次未定不妨碍识别文本本体。因此将 `aln-10430` 从 `undecided` 改为 `new`，组 `archive-group-algarotti-newtonianismo-per-le-dame`，登记为 archive `units/archives/newtonianismo-per-le-dame`。旧待决理由完整保留在对齐行的追加说明中，并作为版次边界继续有效；没有把p.355第一版合并成同一个具体印本，也没有声称外部书目核验。
+
+另核对同一语境的S3新候选及类型边界：
+
+| 候选 | 现行决定／组 | 去向 |
+|---|---|---|
+| `cand-10258` | 本次 `new`；`archive-group-algarotti-newtonianismo-per-le-dame` | 登记上述书名级文本；不代表具体版次或印本。 |
+| `cand-10311` | 既有 `new`；`workgrp-97a7db425ec81f` | 登记 `units/works/piazzetta-newtonianismo-first-edition-frontispiece`。只把 Haskell 所述单件插图作为来源限定 work；题材、正式题名、图像与印本仍未知。 |
+| `cand-12182` | 既有 `new`；`sg3-term-cand-12182` | 登记 `units/terms/italian-culture-haskell-ch14`，只保存 p.349 此处的来源特定概念指称；不设为研究领域或涌现层级。 |
+
+此前对本地archive卡、manifest及候选名的查询未发现可复用的 *Newtonianismo per le Dame* 同类型KU；未查外部书目，故该比较仅为本地当前数据的重复检查。三类对象分开保存，没有将同名文本、图像或宽泛概念并作一组。三张新卡及S4映射已加入 `ku-manifest.csv` 与 `accepted.yml`。`build_field_facts.py` 定向写入13行：10条Haskell来源支持字段、3条未核中文工作译名/暂名；三卡复预览另行记录于结果摘要。
+
+#### S6逐项去向与历史影响
+
+逐条核对本批涉及 `cand-10258`、`cand-10311`、`cand-12182` 的关系候选，并检查 `relations.csv` 中的对应statement来源标记。未发现以下候选已有formal边。本批新增且仅新增 `rel-2558 created_by`（插图 `cand-10311` → Piazzetta）：p.355同句先点名Piazzetta，再称第一版有“one of his ... illustrations”，代词所指明确。此边只记录Haskell的归属说法，不是外部作品目录确认；不把它当成首版扉页关系的替代。
+
+| statement | 裁决 | 依据与重审条件 |
+|---|---|---|
+| `st-chp14-p355-piazzetta-newtonianismo-frontispiece` | 原S2候选 **process-only pending**；另见相同原文支持的 `rel-2558 created_by` | 创作者关系可独立formal；“插图用于第一版扉页”所需的是具体版本端点。当前 `cand-10258` 是书名级文本，不能冒充该版。新记 `bl-0059` 为archive版次端点 `undecided`；在S3粒度决定及可识别端点成立前不建立版次关系。 |
+| `st-chp14-p349-authored-newtonianismo` | **process-only pending** | “he published the work”确认Haskell报告Algarotti出版该作，但不足以在 `author_of` 与 `publisher_of` 间选定角色；不改写成作者或出版者formal边。待查明原书责任角色或获得能支持该角色的书目证据。 |
+| `st-chp14-p349-publication-reception` | **process-only pending** | “impossible to publish in Venice”是出版受阻/禁限陈述，受控词表没有忠实谓词，且未指明责任机构；不误写为 `published_by`、`located_at` 或虚构审查者。 |
+| `st-chp14-p349-note3-albrizzi-issue` | **process-only pending** | 期号已校读为1738-04-12并登记，书名级文本也已映射；`warned_readers_about` 无受控谓词，且未查阅原刊。保留从期号转引到该文本的待证语义，不转写为 `cites` 或 `published_by`。 |
+| `st-chp14-p349-work-significance` | **process-only pending** | 原文把一系列书与文章的文化贡献归于Algarotti；`contributed_to` 无受控谓词，且不应将宽泛的p.349评价压成 *Newtonianismo* 单书的正式影响边。相关概念端点已单独登记。 |
+| `st-chp14-p352-note2-possible-milan-meeting` | **process-only pending** | 这是Algarotti与Tiepolo的关系候选，书名只作“准备出版”的上下文。Haskell限定为“just possible”“may have met”，并说1743年前没有真实接触证据；不建confirmed meeting或地点边。 |
+
+`st-chp14-p349-not-altogether-well-received` 与 `st-chp14-p350-not-yet-published` 的 `relation_candidate=false`，分别是评价与状态断言，未列为S6关系，也不判作rejected。上述六项关系候选无一被事实反证，故没有rejected；原relations表中没有这些statement对应的既有formal行，本批未撤销或重写历史关系。除 `rel-2558` 外均未新增formal边；受控谓词或版次端点未解决的项目保留process-only pending。历史S6裁决分子与当前statement版本核平仍未完成，不能以本批定点裁决代替全表台账审计。
+
+S2 statement、mention及统一独立复核台账均未改变；本批没有S2语义修订，也不构成S2独立接收。
