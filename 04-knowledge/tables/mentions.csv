@@ -22089,7 +22089,6 @@ m-chp15-p366-memmo-0034,chp-15:15_CHP-15_sec_ii:l14-28,cand-12456,19 statues,159
 m-chp15-p366-memmo-0035,chp-15:15_CHP-15_sec_ii:l14-28,cand-1642,Memmo left,1614,1624,
 m-chp15-p366-memmo-0036,chp-15:15_CHP-15_sec_ii:l14-28,cand-10492,Ambassador,1643,1653,
 m-chp15-p366-memmo-0037,chp-15:15_CHP-15_sec_ii:l14-28,cand-10491,Constantinople,1657,1671,
-m-chp15-p366-memmo-0038,chp-15:15_CHP-15_sec_ii:l14-28,cand-10498,another six,1702,1713,The source’s syntactic relation to the preceding 19 statues is retained as uncertain.
 m-chp15-p366-memmo-0039,chp-15:15_CHP-15_sec_ii:l14-28,cand-4490,Rome,1717,1721,
 m-chp15-p366-memmo-0040,chp-15:15_CHP-15_sec_ii:l14-28,cand-3960,Prato della Valle,1745,1762,OCR reads Prato; p.366 print reads Prà della Valle.
 m-chp15-p366-memmo-0042,chp-15:15_CHP-15_sec_ii:l14-28,cand-11529,the councillors,1810,1825,Unidentified councillors; kept distinct from the City of Padua civic-body candidate.
@@ -27531,3 +27530,6 @@ m-chp21-bib-l928-983-023-pinetti-author,chp-21:21_CHP-21Bibliography:l928-983,ca
 m-chp21-bib-l928-983-024-pinetti-author,chp-21:21_CHP-21Bibliography:l928-983,cand-7656,Pinetti A,2074,2083,OCR byline span for the 1920 entry; the page-image correction is recorded in the migration process.
 m-chp8-p222-clement-xi-medallion,chp-8:08_CHP-8_sec_ii:l126-138,cand-12078,another medallion in full relief,312,344,Separate top-floor relief medallion; distinct from the six staircase-wall medallions and the staircase stucco.
 m-chp8-p222-n1-ariostea,chp-8:08_CHP-8_sec_ii:l372-461,cand-7712,Biblioteca Ariostea,1260,1279,Haskell identifies the manuscript's reported repository; the current holding was not independently checked.
+m-chp15-p365-glory-eligibility-class,chp-15:15_CHP-15_sec_ii:l6-12,cand-12457,men who had brought particular glory to the,3214,3257,Second generic class in the p.365-366 representation rule; not an identified person or a claim that the class is exclusively Paduan.
+m-chp15-p366-quality-standard,chp-15:15_CHP-15_sec_ii:l14-28,cand-12458,A certain standard of quality,562,591,The antecedent of it in the committee statement; type and scope remain undecided.
+m-chp15-p367-pra-work-reference,chp-15:15_CHP-15_sec_ii:l30-36,cand-12456,the work,1491,1499,"In the p.367 quality-variation sentence, the work refers to the Prà della Valle statue programme."

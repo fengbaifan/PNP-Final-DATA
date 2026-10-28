@@ -18676,3 +18676,59 @@ cand-6212由“SS. Apostoli”位置候选按第6章p.154的明确写法对齐�
 不新建Haskell对Baruffaldi的作者边：脚注书目身份不等同已验证的责任关系；也不把“in Biblioteca Ariostea”扩写成当前馆藏状态。若将来出现可用的忠实谓词和针对该稿本的目录证据，再复核pending边。
 
 **定向检查与S2交接。** 更新后的卡片已由CSV-backed renderer写回，三张受影响卡（Haskell主书、手稿、图书馆）复预览；字段预览为7条、source-backed 7、unverified 0、重复0、警告0、无待写差异。独立上下文于2026-10-29对本批两条当前statement及mention直接比对源段和页图：确认source-use与repository两关系拆分忠实、端点方向正确、mention跨度精确；没有建议改动S2对象。其结论限定为Haskell在书中的陈述，不确认稿本当前仍在该馆。OCR转录与印本读法分别保留。当前审计快照：S2 15,481 statements/26,863 mentions，9,622条统一复核台账未变；相对基线 `1a6313c8654280a9b71187fc08522098626e734e` 有31条新增、1条删除、90条同ID变化，共122个ID不同。S3为12,434项（same 2,126、new 5,105、conflict 8、excluded 106、undecided 5,089）；S4已映射2,566个new、待登记2,539，KU 3,345；S5为14,904行、1,632条unverified；S6为2,605行（2,563 formal、42 pending）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断为0。逐ID/来源版本的审阅台账交集及S6全历史分母仍待核平；这次定向复核不构成全书S2接收或全书S3–S6收口。
+
+## 第15章当前指代与端点更正（2026-10-29）
+
+### 独立审阅依据
+
+独立上下文逐条检查了印刷页365–367的40条当前statement，核对S0分节及PDF物理页5–7；页码对应得到确认，引文归一空白后均可在来源段落定位。结论为34条通过、6条需修订，不构成全书S2接收。六条问题为：资格规则第二类缺单独端点；claim添加无据的“progress report”；“another six”被误作六尊作品；“it”误指雕像计划而非质量标准；expense挂到无跨度的城市规划；p.367“the work”缺mention。另为结果句补OCR／印本异文说明，claim不变。修订后的当前版本须另行独立复核，不计入统一9,622条台账。
+
+### 原文、决定变化与S6去向
+
+S0及页图为依据，本批不改写来源。保留statement ID和历史裁决；cand-10498旧S3理由在alignment.csv的prior_resolution_note中保留。
+
+| Statement | 当前更正和依据 | 当前S3/S6去向 |
+|---|---|---|
+| st-chp15-p365-memmo-representation-eligibility-partial | p.365 L11续至p.366 L15；清空单一object cand-12230，分别锚定贵族cand-12230及新增第二类cand-12457。该规则不是具体人物关系。 | cand-12457 untyped/undecided，bl-0083；S6 rejected，不把资格类别当作已识别人物。 |
+| st-chp15-p366-1777-progress-and-ambassadorship | 删除原文没有的“progress report”；p.366 L20仅称1777年19尊已就位，Memmo离开四年任君士坦丁堡大使。 | statement保留数量与时间，relation_candidate=false。 |
+| st-chp15-p366-another-six-in-rome-ambiguous | “another six”按“四年驻君士坦丁堡大使之后又在罗马六年”解释；主语从城市规划cand-1650改为Memmo cand-1642，object从作品cand-10498改为Rome cand-4490。p.367 L31称罗马最后一年、L32称1787年返威尼斯；不推定精确起讫日期。 | 错误作品cand-10498改为excluded，旧理由保留；bl-0075 completed。新增rel-2608为Memmo→Rome的located_at pending，因受控谓词needs_split。 |
+| st-chp15-p366-committee-appointed-for-quality | p.366 L16完整原句显示it回指“A certain standard of quality”；object从计划cand-12456改为新候选cand-12458，补精确mention。 | cand-12458 untyped/undecided，bl-0084；委员会cand-12234仍留bl-0079。待证；端点未入KU且无忠实谓词，不伪造关系外键。 |
+| st-chp15-p366-councillors-objected-to-expense | 清空错误object cand-1650；claim改为只报告反对“the expense”，明确未说明费用范围。 | 议员cand-11529继续留bl-0077；另加无身份expense待办bl-0085。关系pending，不建无精确客体的边。 |
+| st-chp15-p367-patronage-and-speed-caused-variation | 因p.367 L36“the work”承接Prà雕像计划，新增该短语到cand-12456的mention，不拆成个别作品。 | 保留Haskell的因果claim；原S6 rejected理由仍成立，不创建无个别端点的边。 |
+| st-chp15-p367-results-difficult-to-assess | claim及地点cand-3960不变；增加S0 OCR“Prato”与印本“Prà”的校读说明。 | relation_candidate=false。 |
+
+新增mention的S0精确字符范围：p.365 [3214,3257)，p.366 [562,591)，p.367 [1491,1499)。删除m-chp15-p366-memmo-0038，因为“another six”是时间量而非实体；复用已有Memmo及Rome mention。statement总数不变，mention净增2。写入前按上述七个ID查询relations.csv，均无旧关系行，无既有边需撤销；rel-2608是唯一新增S6行。资格规则和因果解释的rejected决定、委员会及费用的pending依据保留在本过程记录及candidate-backlog.csv；未识别端点无KU时不写空端点边。既有城市规划cand-1650及其关系不受影响。
+
+更正脚本repair_chp15_current_referents_20261029.py先dry-run核对来源跨度，再应用结构化写回。当前版本仍待独立复核；9,622条台账核平及全书S6历史裁决分母未完成。
+
+<a id="chapter15-current-referent-correction-independent-followup-20261029"></a>
+### 2026-10-29：第15章当前指代修订及独立复核补记
+
+**独立复核与后续修订。** 初次独立审阅印刷页365–367的40条statement，其中34条通过、6条需修订。根据原文改完后，独立上下文逐条复核本批七条修订记录；其中st-chp15-p367-results-difficult-to-assess仍把评价对象误指为地点，已继续修正并再次独立复核通过。当前主语为雕像计划cand-12456；mention中保留计划cand-12456和原文地点cand-3960，后者跨度[1386,1403)。页图读作“Prà”，S0 OCR“Prato”原样保留，并在说明中区分。当前结果句不把“the work”再拆成一件未指明的雕像。
+
+**审计发现及修复。** 严格表审计发现两处定向错误：st-chp15-p366-1777-progress-and-ambassadorship的original_quote漏了原句首词“But”，现据第15章来源第20行恢复为“But in 1777, with 19 statues in place, Memmo left for four years as Ambassador in Constantinople”；cand-12457的body-mention candidate_source_ref混入第二段说明，现将机器定位收窄为已审阅coverage内的chp-15:15_CHP-15_sec_ii:l6-12#L11，跨页续读信息仍保留在候选detail、statement及本记录。来源文件未改。重跑严格表审计后errors=[]、s2_missing=[]、alignments_unlinked=0。
+
+**关系和历史影响。** 复查上述相关statement在本次修改前的relations.csv均无既有行；修订后的候选与关系分别保留原文支持的formal、pending或rejected去向，只有Memmo在罗马的报告以rel-2608 located_at pending新增。质量标准、未具名费用对象、第二类资格人群没有可注册KU端点或忠实谓词，不补空端点formal边。除rel-2608外没有删改历史S6行。该独立复核是有限范围的当前版本复核，不补入9,622条统一台账；statement/mention版本ID与来源版本的全量核平仍未完成。
+
+<a id="s4-s5-s6-ch10-p316-endpoints-20261029"></a>
+### 2026-10-29：第10章p.315–316 Canaletto生活场景及文献端点
+
+**原文依据与身份边界。** 第10章印刷页315（PDF物理页48）称Streit四幅Canaletto作品中有两幅与其生活直接相关，并由他在关于自己绘画的长篇笔记中指出；p.316（PDF物理页49）将第一幅描述为从Campo S. Sofia朝向Rialto的大运河全景，前景有Streit立于贡多拉，背后为他居住的Palazzo Foscari；另一幅为Streit经营活动所在的Campo di Rialto。p.316注1称这些笔记由Zimmermann刊行，并引Constable 1956年对Canaletto作品的讨论；第21章p.441和p.419书目分别给出两篇文献著录。以这些可复核的原书书目、正文与当前S2定位建立来源限定对象；未查阅Zimmermann、Constable论文或被引页，不扩展文章内容、具体实物、正式题名或今日馆藏身份。
+
+沿用既有S3 new决定，10个候选映射到10个KU：cand-9648→units/works/canaletto-view-grand-canal-campo-s-sofia-rialto；cand-9651→units/works/canaletto-view-campo-di-rialto-streit；cand-9649→units/places/campo-s-sofia-venice；cand-9650→units/places/palazzo-foscari-venice；cand-9652→units/places/campo-di-rialto-venice；cand-8178→units/places/grand-canal-venice；cand-9206→units/places/rialto-area-venice；cand-9637→units/archives/sigismund-streit-notes-about-his-pictures；cand-9912→units/archives/zimmermann-streit-collection-article-1954；cand-9914→units/archives/constable-four-paintings-grauen-kloster-1956。原有new组号均保留；Rialto area与Campo di Rialto按语义范围分开。cand-9914有两条new来源决定，aln-10086与aln-12692均映射同一论文KU；复核发现aln-12692先前缺显式group标签，现补为archive-group-constable-four-paintings-grauen-kloster-1956，不改其外部书目来源、new决定或对象身份。四幅Canaletto集合cand-9633与两幅生活场景子集cand-9634仍未定类型／身份边界，不与两件单幅作品合并，分别列bl-0086和bl-0087；只提供首字母的Zimmermann cand-9911、Constable cand-9913人物身份仍undecided，列bl-0088和bl-0089。Moretti cand-9915及未名followers cand-9656未作个人消歧。
+
+**S5字段与S6逐项裁决。** 新增10张中英双语来源限定KU卡、12条Haskell原书source_backed字段。修改前在HEAD版本relations.csv中未检出下列statement对应的旧行；本批只新增关系，不删除或改写历史关系行：
+
+| 关系ID | 当前裁决 | 关系与证据范围 |
+|---|---|---|
+| rel-2609 | formal | 第一幅景观created_by Canaletto；第10章p.315–316称为Streit的四幅Canaletto之一并具体描述该景观。记录Haskell书内归属，非外部作者核验。 |
+| rel-2610 | formal | 第二幅景观created_by Canaletto；同上，指向另一幅独立作品。 |
+| rel-2611–2612 | formal | 两件景观owned_by Streit；p.315将之纳入Streit的四幅Canaletto收藏，未推定取得年份。 |
+| rel-2613–2617 | formal | 依次记录第一幅景观has_subject Streit、Palazzo Foscari、大运河、宽泛Rialto地区，以及第二幅景观has_subject Campo di Rialto；Rialto地区不等于Campo di Rialto。 |
+| rel-2618 | formal | Streit的长篇绘画笔记authored_by Streit；仅据Haskell说笔记由Streit所作，笔记原件未查。 |
+| rel-2619–2620 | formal | Haskell全书cites Zimmermann论文及Constable论文；仅记录第10章脚注与第21章书目中的引文，不表示已查阅论文。 |
+| rel-2621–2622 | pending | Streit→Palazzo Foscari报告居住关系、Streit→Campo di Rialto报告经营地点；时间或经营主体未细化，且located_at词表明确needs_split，不升级为formal。 |
+
+其他涉及这批端点的关系去向保留如下：st-chp10-p316-first-life-canaletto-view和st-chp10-p315-four-canalettos-two-scenes-linked-to-streits-life-fragment涉及cand-9634这一未定类型集合；单幅作品对集合的成员关系没有可用且已确认端点的受控关系，留在bl-0087待证。Campo S. Sofia在原文中是取景起点，但没有与此角色忠实对应的关系类型，不伪造has_subject或located_at边。st-chp10-p316-two-life-scenes-noted-about-streits-pictures说明两幅场景与笔记内容有关，当前受控词表没有忠实的作品—笔记说明关系，不把引用或作者关系冒充为此关系；p.316脚注所称“published by Zimmermann”也不因论文卡登记而建立notes—author或notes—publication formal边。st-chp10-p316-n01-constable-rejected-moretti-attribution只报告Constable反驳Moretti或followers归属；正向Canaletto—Moretti／followers created_by关系不成立，裁为rejected，不增加正向关系行。未具名followers和四幅／两幅集合边界待证；两位文献作者只有首字母，citation edge仍可基于完整书目存在而与作者person身份未决分开。
+
+**定向验证与交接。** 13张受影响卡（10张新卡、Canaletto人物卡、Streit人物卡、Haskell书卡）定向渲染预检通过；写入后重复渲染为files_to_write=0。首次预检暴露新卡用占位表行的问题，修复为与enrichment完全一致的原始表格行后再渲染；写入器保存恢复快照并完成字节核对。严格表审计errors=[]、s2_missing=[]、alignments_unlinked=0；关系一致性审计broken target=0、invalid relation_type=0、missing inverse=0、weak evidence=0、unbaselined generic evidence-backed=0。全书当前机械统计及S2版本差异见[当前结果](../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。本批没有更改第10章S2 statement或mention；全书9,622条复核台账、S2版本覆盖和S6历史裁决分母仍待核平。
