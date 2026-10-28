@@ -18237,6 +18237,18 @@ S2及独立复核台账未变；前批两条修订statement和两条mention仍�
 <a id="s2-s6-ch13-p334-novelle-anaphor-20261028"></a>
 ### 第13章p.334《Novelle》编辑者指代更正的关系影响（2026-10-28）
 
-S2 `st-chp13-p334-albrizzi-edited-weekly-bulletin` 当前指向 `cand-0024`（Almorò Albrizzi，S3 `new`并已登记至 `units/persons/almoro-albrizzi`），对象为 `cand-9988`（《Novelle della Repubblica delle Lettere》，S3 `new`、尚未S4登记）。该statement的关系候选继续 **process-only pending**：当前词表没有忠实的编辑者／编者谓词；不得把编辑角色改写为 `published_by`，也不得因身份指代调整而推定正式边。`relations.csv` 中没有这一书内断言的既有正式边；本批未新增、撤销或改写S6历史裁决。
+S2 `st-chp13-p334-albrizzi-edited-weekly-bulletin` 当前指向 `cand-0024`（Almorò Albrizzi，S3 `new`并已登记至 `units/persons/almoro-albrizzi`），对象 `cand-9988` 已沿用S3 `new`身份组登记为[《Novelle della Repubblica delle Lettere》期刊卡](../../../04-knowledge/units/archives/novelle-della-repubblica-delle-lettere-periodical.md)。该statement的关系候选继续 **process-only pending**：当前词表没有忠实的编辑者／编者谓词，且责任者仍有来源分歧；不得把编辑角色改写为 `published_by`，也不得因身份指代调整而推定正式边。`relations.csv` 中没有这一书内断言的既有正式边；本批未新增、撤销或改写S6历史裁决。
 
 Treccani DBI（2026-10-28访问）将该刊出版责任记于Giambattista，并记A. Calogerà曾短期任编辑；Almorò条目记其另办《Foglietti letterari》。这构成定向来源差异线索，不能代替本书原句或证明Haskell此处编辑职责。待期刊端点登记、合适受控谓词可用且编辑角色证据范围解决后重审；在此之前关系保持待证。具体原文、coreference依据与来源比较见[S2更正记录](stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)。
+
+
+<a id="s4-s6-ch13-novelle-periodical-registration-20261028"></a>
+### 第13章《Novelle》期刊端点登记与关系待证（2026-10-28）
+
+沿用 `cand-9988` 的S3主决定 `aln-10160=new` 及 `archive-group-2112796f7abc`，将期刊身份登记为 `units/archives/novelle-della-repubblica-delle-lettere-periodical`，不改S3决定。依据为Haskell第13章印刷页334正文称其为weekly bulletin、概述其评介欧洲新书，注5称其出版“as from 1729”；没有补成精确创刊年或期号。期刊名下的具体期号不是同一对象：候选 `cand-10174`（1736-09-08）和 `cand-10261`（1758-04-12）分别保留自身S3 `new`身份，未并入该periodical KU；本批不登记这两项。
+
+新卡5条结构化表行经 `build_field_facts.py --ku units/archives/novelle-della-repubblica-delle-lettere-periodical` 定向预览后应用：其中4条绑定Haskell来源，1条“中文工作译名”按项目命名保留unverified；warnings=0，source registry无变化。本批不应用全卡预览中发现的无关历史差异。
+
+同步检查相关S2关系候选及现有关系账本：`st-chp13-p334-albrizzi-edited-weekly-bulletin` 的人物—期刊端点现均有KU，但仍为 **process-only pending**，因为受控词表没有忠实的编辑者谓词，且Haskell代词与Treccani所记出版／编辑角色不能共同确定责任范围。`st-chp13-p335-note1-augustine-advertisement` 也为 **process-only pending**：原文只说期刊刊登拟议版本广告，候选 `cand-10147` 已为S3 `excluded`，不是已识别的作品端点；当前亦无忠实的“刊登拟议版本广告”受控关系。不得据此登记版本、转换成`published_by`或建立formal关系。`st-chp13-p335-note2-recurti-citation` 是引注定位且非关系候选；`st-chp13-p337-note4-novelle-1736-issue-citation` 是期号书目定位，关系候选标记为false，不生成S6边。
+
+`relations.csv` 未检出上述statement的既有formal行；本批不新增、撤销或改写任何关系正式行及历史S6裁决。当前期刊身份登记完成不等于该关系已获正式裁决。具体S2指代变化见[S2更正记录](stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)，卡片只保留书内来源支持的期刊范围与证据边界。
