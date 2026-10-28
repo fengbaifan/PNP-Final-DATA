@@ -59,4 +59,8 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有登记在 relations.csv 中的正式关系。S2关系候选 st-chp7-p185-i05、st-chp7-p185-i11 保留原书归因和限制，留待S6逐条裁决；本次S4身份登记不将其转为正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 所创作对象（`creator_of`，反向投影） | [亚历山德罗·图尔基《克娄巴特拉之死》（Alessandro Turchi’s The Death of Cleopatra）](../works/alessandro-turchi-death-of-cleopatra-la-vrilliere.md) | 仅记录Haskell所述作者归属；不推定作品具体版本或现藏；角色：Haskell书内作者归属；范围：Haskell将《The Death of Cleopatra》列于Alessandro Turchi名下；不将其与Cagnacci同名图版作品合并，也不声称外部版本核验。；原断言与证据见发出端卡片“亚历山德罗·图尔基《克娄巴特拉之死》（Alessandro Turchi’s The Death of Cleopatra）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.185 L209; statement=st-chp7-p185-i11 |
+
+S2关系候选 st-chp7-p185-i05 保留原书归因和限制，仍待S6裁决。

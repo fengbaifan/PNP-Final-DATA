@@ -17824,6 +17824,13 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 另检查`cand-2661`：索引T.csv#124及第7章p.185记Alessandro Turchi的《The Death of Cleopatra》；同名既有KU为图版28a的Guido Cagnacci作品，作者与来源不同。仅凭同题不能合并，保留`undecided`，后续按作者、版本及馆藏补证。以上五个已复用候选关联的S6语句仍需逐条裁决，图版身份匹配不自动验证作者以外的委托、地点、解释或历史事件；S2和独立复核台账未变。
 
+<a id="s3-s4-s6-turchi-cleopatra-20261028"></a>
+### Turchi《克娄巴特拉之死》来源限定身份及归属（2026-10-28）
+
+续接上次未决比较：索引T.csv#124 p.185及正文p.185 L207–209将《The Death of Cleopatra》列于Alessandro Turchi名下，并称其为La Vrillière在1640年代增添的一组画作之一；这一明确的作者与收藏语境足以识别书内作品对象。既有`units/works/guido-cagnacci-death-of-cleopatra`来自图版28a，署Guido Cagnacci并列维也纳机构；同题但作者与来源语境不同，不合并。将`cand-2661`由`undecided`改为来源限定`new`组`sg3-work-turchi-cleopatra-la-vrilliere`并登记KU，保留原决定。该KU不指认具体存世版本、现藏或外部馆藏编号；未独立核实作者归属。原OCR末尾撇号按既有S2页图校读为误差，S0不改。
+
+S5新增`enr-18652`题名与`enr-18653`系列语境，均为Haskell来源支持。直接候选`st-chp7-p185-i11`裁为**formal** `rel-2545 created_by`，仅表达书内Turchi归属；“La Vrillière增添系列”不自动变成委托、所有权或现藏关系，相关系列候选仍须逐项裁决。本批S2 statement／mention及独立复核台账未变。
+
 <a id="s6-plate-works-reuse-20261028"></a>
 ### 已复用作品的关系与图版署名端点（2026-10-28）
 
