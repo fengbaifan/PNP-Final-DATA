@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-28）
 
+**本批完成：第9章 pp.273–274 Zompini 图像方案直接端点。** 沿用`cand-8754`既有S3 `new`组，登记1个work KU，新增6条Haskell来源字段。对照原文修订`st-chp9-p274-zompini-virgin-typology`的错误主体映射；三项直接S6候选现为2项formal（`rel-2499 designed_by`、`rel-2500 has_subject`）和1项process-only pending。修订的1个S2当前statement版本待独立差异复核，不计入9,622条台账。方案卡及Zompini、Virgin Mary两张关联卡定向渲染并复预览无差异；严格表审计与关系一致性阻断均为0。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-zompini-iconographic-proposal-20261028)。
+
 **本批完成：第9章 p.251／p.268 Udine Cathedral 直接端点及 Manin 风格关系。** `cand-8235`沿用既有S3 `new`组，新增1个place KU及2条Haskell书内字段。`st-chp9-p251-manin-style-at-udine-cathedral` formal为`rel-2498 manifested_at`；`st-chp9-p268-manin-udine-offer-1706`保留process-only pending，避免把装饰提议写成已接受或完成的委托。新地点与Manin风格卡定向渲染并复预览无差异；严格表审计与关系一致性阻断为0，S2与独立复核台账未变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-udine-cathedral-20261028)。
 
 **本批完成：第2章 p.50《所罗门智训》直接端点及智慧关系。** `cand-4669`沿用S3 `new`组，新登记1个archive KU并新增2条Haskell来源字段。围绕该端点与既有智慧概念/作品端点，5项S6候选formal形成3条边（`rel-2495 derived_from`、`rel-2496 has_subject`、`rel-2497 has_subject`）；该概念的另外2项直接候选因缺精确受控谓词保留process-only pending，六项均有去向。三卡定向渲染、字段复预览、严格表审计与关系一致性审计通过；S2及独立复核台账未变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp2-p50-wisdom-of-solomon-20261028)。
@@ -3749,12 +3751,12 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
-| S2 | 15,470 statements、26,872 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。p.174本批新增1条并修订／互链2条当前statement，共3个当前版本待独立差异复核，未计入台账；p.56 Tessin等既往批次也有待差异复核版本。其他待差异复核项包括p.57注3、p.326、p.72、p.39等批次中修订或新增的当前版本；p.189五条已复核；p.162两条已差异复核但未并入台账；第7章p.192 i01、i27待复核；第13章收据—卷册、拱顶—祭坛席statement待复核；第10章p.281七条、p.384五条及p.286一条待差异复核。台伯河批次没有改S2。 |
+| S2 | 15,470 statements、26,872 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。p.174本批新增1条并修订／互链2条当前statement，共3个当前版本待独立差异复核，未计入台账；第9章p.274本批修订1个当前statement版本待独立差异复核，也未计入台账。p.56 Tessin等既往批次也有待差异复核版本。其他待差异复核项包括p.57注3、p.326、p.72、p.39等批次中修订或新增的当前版本；p.189五条已复核；p.162两条已差异复核但未并入台账；第7章p.192 i01、i27待复核；第13章收据—卷册、拱顶—祭坛席statement待复核；第10章p.281七条、p.384五条及p.286一条待差异复核。台伯河批次没有改S2。 |
 | S3 | 按候选ID计12,433/12,433均有决定：same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118 | 12,408项有`external_source`为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。另有28个候选的35条来源决定与候选级决定不同；决定行覆盖完整不等于语义收口。 |
-| S4 | new候选已映射2,497/5,088；待映射2,591，其中直接关系端点928、其他1,663；KU共3,277 | 直接端点待映射按类型：term 402、place 139、archive 123、work 140、event 73、institution 50、person 1。 |
-| S5 | 14,651条字段，1,627条unverified | 本批新增2条Haskell来源字段；全书仍有字段待证。unverified数不是缺失字段数，后续按类型必需字段及关系影响度定向处理。 |
-| S6 | 裁决记录2,022项：formal 1,195、pending 693、rejected 134；当前relation_candidate=true为10,673条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | 本批1项formal和1项process-only pending，详见本批过程记录。 |
-| 正式关系表 | 2,497行：2,456 formal、41 pending | 本批新增`rel-2498`。 |
+| S4 | new候选已映射2,498/5,088；待映射2,590，其中直接关系端点927、其他1,663；KU共3,278 | 直接端点待映射按类型：term 402、place 139、archive 123、work 139、event 73、institution 50、person 1。 |
+| S5 | 14,657条字段，1,627条unverified | 本批新增6条Haskell来源字段；全书仍有字段待证。unverified数不是缺失字段数，后续按类型必需字段及关系影响度定向处理。 |
+| S6 | 裁决记录2,025项：formal 1,197、pending 694、rejected 134；当前relation_candidate=true为10,673条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | 本批2项formal和1项process-only pending，详见本批过程记录。 |
+| 正式关系表 | 2,499行：2,458 formal、41 pending | 本批新增`rel-2499`与`rel-2500`。 |
 | 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 58条（15 completed、43 undecided） | 本批未改变缺端点或backlog；严格审计backlog pending=0，`bl-0058`待证条件保留。 |
 
 S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按类型分布。直接端点按当前`relation_candidate=true`语句的 subject/object candidate ID 去重；S4列仅计`new`且尚未映射 KU 的候选。

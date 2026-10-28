@@ -17579,3 +17579,34 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 已登记place卡、`accepted.yml`与manifest，更新`aln-8410`并向`relations.csv`新增一条formal关系。先预览后定向渲染新地点卡及Manin风格术语卡，两卡写后字节核验通过；复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。本批未修改S2 statement／mention、候选身份决定或独立复核台账；p.268提议保持process-only pending。
 
 **批后状态。** S2仍为15,470 statements／26,872 mentions，统一独立复核台账9,622条且statement ID／来源版本未核平。S3决定值无变化：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4新增1条new候选映射：2,497/5,088已登记，待映射2,591；直接关系端点928、其他1,663；KU共3,277。S5共14,651条字段（1,627条`unverified`）。S6历史裁决累计2,022项（formal 1,195、pending 693、rejected 134），当前`relation_candidate=true`仍为10,673项，历史台账与当前statement版本差1，不据此报告完成率。`relations.csv`共2,497行（2,456 formal、41 pending）。337条关系statement仍缺至少一个S2端点候选ID；backlog 58条（15 completed、43 undecided）。
+
+<a id="s4-s5-s6-chp9-zompini-iconographic-proposal-20261028"></a>
+### S4–S6 第9章 pp.273–274 Zompini 图像方案端点登记、S2 修订与关系裁决（2026-10-28）
+
+#### S3身份组与S4登记
+
+直接关系端点队列触发本批。`cand-8754`沿用S3 `new`决定与既有身份组`workgrp-f38f82e363a613`，映射到新建[佐姆皮尼图像方案卡](../../../04-knowledge/units/works/zompini-iconographic-proposal-scuola-del-carmine.md)。第9章p.273 L68–p.274 L72将该方案与Tiepolo此前提出的两套天顶方案区分；本批不改S3决定或身份组，不把idea“was accepted”扩写为完整方案被选中或执行。`alignment.csv`的说明更新为清晰可读的身份边界和S4映射记录。
+
+#### S2当前版本修订
+
+`st-chp9-p274-zompini-virgin-typology`原将`cand-2874`（Zompini）写为主体、`cand-3427`（Virgin Mary）为对象。对照p.274 L71 “This was to be a glorification of the Virgin”及前句p.273 L68，指示词“This”回指Zompini的图像方案，故将主体改为`cand-8754`，对象仍为`cand-3427`，并同步修订S2谓词与claim。Rebecca、Abigail、Esther、Judith和Mother of the Maccabees是该方案中描述圣母预表的具名提及；原文没有把她们说成各自独立的存世画作或其他单件作品，本批不建立相应独立关系。既有`cand-8755`–`cand-8759`的S3决定不变。
+
+这是一条当前statement版本修订，不新增statement或mention。它须经独立差异复核后才能并入统一台账；本批自查不计入9,622条分子。S2提及“so he claimed”保留为Zompini关于教父阅读的归因性说法，不作独立核实。
+
+#### S5书内字段
+
+新增6条Haskell来源支持字段`enr-18566`–`enr-18571`，记录描述性暂题、对象性质、书内所述提案者、图像主题、idea被接受的来源表述，以及据称的文本来源。字段明确保留“idea accepted”与“完整方案获选／实施”的区别，并将教父阅读归为Haskell转述的Zompini自述；未补媒介、材质、精确日期、执行状态或具体被读文本。字段预览为6条`source_backed`、`unverified=0`、`warnings=0`；应用后复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`。
+
+#### S6逐候选裁决
+
+| S2 statement | 去向 | 依据与边界 |
+|---|---|---|
+| `st-chp9-p273-zompini-proposal-accepted-partial` | formal，`rel-2499 designed_by` | 佐姆皮尼方案 → Gaetano Zompini；role=`proposal author`。只记录Haskell称其提出图像方案，不推断完整方案获选、获委托或实际执行。 |
+| `st-chp9-p274-zompini-fathers-reading` | process-only pending | 保留“据其自称来自阅读教父”的来源限定；具体文本／稳定来源对象未识别，不能据此建立忠实的`derived_from`或`influenced_by`边。未创建泛化“教父著作”KU；待具体文本或可准确表达的来源对象出现后重评。 |
+| `st-chp9-p274-zompini-virgin-typology` | formal，`rel-2500 has_subject` | 方案 → Virgin Mary；只记录提案计划颂扬圣母及其旧约预表，不表示方案已实施；S2主体已按原文指代修正。 |
+
+#### 卡片投影与审计
+
+新方案卡、Gaetano Zompini人物卡和Virgin Mary人物卡均经单卡预览后定向渲染；清除两张旧卡中与本批裁决冲突的“无正式关系／全部待审”占位摘要。写后字节核验通过，三卡复预览无差异。`build_field_facts.py`复预览无字段ID变更。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。
+
+**批后状态。** S2仍为15,470 statements／26,872 mentions；统一独立复核台账9,622条且statement ID／来源版本未核平，本批修订的1个当前statement版本待独立差异复核。S3决定值无变化：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4新增1条new候选映射：2,498/5,088已登记，待映射2,590；直接关系端点927、其他1,663；KU共3,278。S5共14,657条字段（1,627条`unverified`）。S6历史裁决累计2,025项（formal 1,197、pending 694、rejected 134），当前`relation_candidate=true`仍为10,673项，历史台账与当前statement版本差1，不据此报告完成率。`relations.csv`共2,499行（2,458 formal、41 pending）。337条关系statement仍缺至少一个S2端点候选ID；backlog 58条（15 completed、43 undecided）。

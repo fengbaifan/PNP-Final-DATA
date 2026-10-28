@@ -62,4 +62,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-当前没有登记正式关系。涉及该人物的 9 条 S2 关系候选留待 S6 逐条审查；索引子项和正文提及不直接转为正式关系。[第9章 pp.273–274](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)（L68–72） [第13章 pp.340、344](../../../02-sources/02-Markdown/13_CHP-13_intro.md)（L76、119–120）
+除下表已裁决的方案作者关系外，另有4条直接 S2 关系候选尚未完成 S6：`st-chp9-p274-zompini-fathers-reading` 已保留为 process-only pending，另3条跨章候选待裁决。此处按 S2 statement 的主客体候选 ID 计数，不把仅出现在同段的提及计作直接关系。[第9章 pp.273–274](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)（L68–72） [第13章 pp.339、344](../../../02-sources/02-Markdown/13_CHP-13_intro.md)（L76、119–120）；本批裁决见[过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-zompini-iconographic-proposal-20261028)。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← designer_of（`designer_of`，反向投影） | [卡尔米内学院装饰竞赛中的佐姆皮尼图像方案（Gaetano Zompini's Iconographic Proposal for the Scuola del Carmine Decoration Competition）](../works/zompini-iconographic-proposal-scuola-del-carmine.md) | The source says Zompini’s idea was accepted; this is not expanded into a completed commission or executed scheme. S3 group workgrp-f38f82e363a613 retained.；角色：proposal author；范围：Haskell says Zompini put forward this iconographic proposal for a further-decoration competition. This records authorship of the proposal only; the passage does not establish selection or execution of the complete scheme.；原断言与证据见发出端卡片“卡尔米内学院装饰竞赛中的佐姆皮尼图像方案（Gaetano Zompini's Iconographic Proposal for the Scuola del Carmine Decoration Competition）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)；haskell-1980-rev-ed；Chapter 9, printed p.273, line 68; statement=st-chp9-p273-zompini-proposal-accepted-partial |

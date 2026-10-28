@@ -75,4 +75,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-7条直接 S2 `relation_candidate` 保留待 S6：st-chp3-secii-l40-52-chapels-marian-mysteries, st-chp3-secii-l74-81-lanfranco-dome-depicts-virgin, st-chp3-seciv-l118-128-madonna-chapel-last-to-be-adorned, st-chp3-seciv-l179-187-unnamed-order-worshipped-virgin, st-chp4-sec-ii-p110-flight-figures-foreground, st-chp9-p255-fatherland-invokes-virgin, st-chp9-p274-zompini-virgin-typology。本轮未登记正式关系。
+除下表本批裁决的 Zompini 方案主题关系外，另有6条直接 S2 `relation_candidate` 留待 S6：st-chp3-secii-l40-52-chapels-marian-mysteries, st-chp3-secii-l74-81-lanfranco-dome-depicts-virgin, st-chp3-seciv-l118-128-madonna-chapel-last-to-be-adorned, st-chp3-seciv-l179-187-unnamed-order-worshipped-virgin, st-chp4-sec-ii-p110-flight-figures-foreground, st-chp9-p255-fatherland-invokes-virgin。详见[本批过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-zompini-iconographic-proposal-20261028)。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 为其所涉对象（`subject_of`，反向投影） | [卡尔米内学院装饰竞赛中的佐姆皮尼图像方案（Gaetano Zompini's Iconographic Proposal for the Scuola del Carmine Decoration Competition）](../works/zompini-iconographic-proposal-scuola-del-carmine.md) | S2 endpoint repaired to the proposal candidate; named typological figures remain source mentions, not separate work or object identifications.；角色：principal subject；范围：Haskell says the proposal was to glorify the Virgin, particularly as prefigured by named Old Testament figures. This is a planned iconographic subject, not an assertion about a completed work.；原断言与证据见发出端卡片“卡尔米内学院装饰竞赛中的佐姆皮尼图像方案（Gaetano Zompini's Iconographic Proposal for the Scuola del Carmine Decoration Competition）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_sec_ii.md)；haskell-1980-rev-ed；Chapter 9, printed p.274, lines 71–72; statement=st-chp9-p274-zompini-virgin-typology |
