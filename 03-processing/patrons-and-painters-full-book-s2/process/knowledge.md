@@ -18395,3 +18395,19 @@ S2 statement、mention及统一独立复核台账均未改变；本批没有S2�
 **S6逐项去向与历史影响。** `relations.csv`原无下列对应statement关系行；本批新增3条formal：`rel-2562 cites`（Haskell书→1916文章，原文明确说本地文件材料取自该文）、`rel-2563 authored_by`（1916文章→Angelo Pinetti，脚注明称作者）、`rel-2564 authored_by`（1920文章→Angelo Pinetti，脚注署名与书目责任者形式相合）。每条仅表达Haskell的引用或责任者归属，不表示原刊及其文件已核读。`st-chp8-p221-n1-pinetti-citation`仍按现有S2标记不是关系候选，因此本批没有另加“本书 cites 1920文章”边。未发现针对本批语句的历史撤销或相反S6裁决；无证据冲突，故没有rejected或待证边。该判断只覆盖本批提到的引文与责任者关系，不裁决第8章其他未名艺术家或作品端点。全书S6历史裁决与当前statement版本的核平仍未完成，不能以本批新增三边代替。
 
 本批后机械计数：S2为15,480条statement、26,881条mention；S3主决定为same 2,121、new 5,097、conflict 8、excluded 106、undecided 5,101；S4已映射2,548/5,097条new，待登记2,549条；直接关系new端点待映射894条，其中人物端点0。S2 statement版本与9,622条复核台账未在本批核平；文章和卡片内容也未获独立语义接收。
+
+<a id="s3-s4-s5-s6-pope-hennessy-citations-20261028"></a>
+### 第2、7、21章 Pope-Hennessy 两篇期刊文章：跨章身份组与引文关系（2026-10-28）
+
+**原文依据与校读。** 第2章印刷页28注3（Markdown L142；PDF物理页9）原文为 `3 Pope-Hennessy, 1946, pp. 186-91.`；第21章书目印刷页434（Markdown L989）补出 `Pope-Hennessy, J. : ‘Two portraits ofDomenichino’ in Burlington Magazine, 1946, pp. 186-191.`。既有书目页图校读记录印本在 `of` 与 `Domenichino` 间有空格，S0 OCR漏空格；此处保留S0原文并引用校读，不改来源文件。第7章印刷页178注6（Markdown L329；PDF物理页12）S0转录为 `8 Pope-Hennessy, 1953, pp. 157-62; Whinney and Millar, pp. 121-2.`；既有扫描校读确认印本脚注号为6。第21章书目印刷页434（Markdown L992）列 `Pope-Hennessy, J.: ‘Some bronze statues by Francesco Fanelli’ in Burlington Magazine, 1953, pp. 157-162.`。文章及文章所引材料均未独立查阅。
+
+| 候选 | 跨章身份裁决 | S3 / S4 去向 |
+|---|---|---|
+| `cand-4372` | 第2章注3的1946年、pp.186–191短引与第21章同作者、题名、期刊、年份和页码的书目条目一致，识别为一篇期刊文章。 | `undecided → new`；新组 `archive-group-pope-hennessy-two-portraits-domenichino-1946`；映射到 `units/archives/pope-hennessy-two-portraits-domenichino-1946`。 |
+| `cand-7064` | 第7章注6的1953年、pp.157–162短引与第21章同题名、期刊、年份和页码的书目条目一致，识别为另一篇期刊文章。 | `undecided → new`；新组 `archive-group-pope-hennessy-fanelli-bronzes-1953`；映射到 `units/archives/pope-hennessy-some-bronze-statues-fanelli-1953`。 |
+
+两项均以本书内部的跨章书目对应作S3身份依据，不声称外部目录核验或全文阅读。两篇文章同为Pope-Hennessy所著仍保持不同身份；1948年图书候选 `cand-5158`（*Domenichino drawings in the Royal Library at Windsor Castle*）也与这两篇期刊文章分开。候选在本批之前均为 `undecided`；`git show HEAD` 检查确认当时manifest中无对应同题archive KU。两张卡分别加入manifest与`accepted.yml`，字段表新增14项，均限于Haskell书内题名、文献类型、作者著录、刊物、年份、页码及阅读状态。
+
+**S6影响与关系决定。** 对照提交前的`relations.csv`，上述两个statement ID没有既有正式或待证关系行；过程记录中也未发现相反裁决。现将 `st-chp2-seci-l124-157-cite-agucchi-popehennessy` 与 `st-chp7-p178-n6-cite-pope-hennessy` 分别登记为 `rel-2565`、`rel-2566`，均为Haskell书目引文 `cites` 关系，身份与两端点已由注释和书目定位。第21章两个书目statement仅作身份依据，其中第二条本身标记`relation_candidate=false`，不是额外的引文关系。没有为文章内容、作者人物身份、所引艺术作品或艺术家推导关系；相关身份或端点若仍不明，继续按原决定待证。本批无S2 statement/mention改写，也未更新9,622项S2独立复核台账。全书历史S6裁决与当前statement版本的核平仍未完成，本批核查不替代该工作。
+
+定向检查：14项字段均为`source_backed`且`unverified=0`；两张卡渲染后复预览无差异；严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断计数均为0。文章未独立阅读，书目对应与引文端点以外的事实未核实。
