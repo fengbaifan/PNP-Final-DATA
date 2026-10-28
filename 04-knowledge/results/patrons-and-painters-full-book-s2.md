@@ -4,7 +4,9 @@
 
 **本批更正：第13章p.334《Novelle》编辑者代词。** 将 `he himself edited` 按最近的并列主语由Giambattista调整为Almorò Albrizzi；原引文不变，新增一条anaphoric mention。Treccani区分两兄弟的出版／编辑记录，但未独立解决Haskell所述编辑职责；相关S6关系继续pending，S2当前版本待独立差异复核，不增加9,622条台账。详见[S2校读](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)及[关系影响](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s6-ch13-p334-novelle-anaphor-20261028)。
 
-**本批完成：登记明确的《Novelle》期刊端点。** `cand-9988`沿用既有S3 `new`组登记为periodical archive；1736与1758具体刊期保持分立。人物—期刊编辑关系及1730年拟议版本广告关系均process-only pending，没有忠实谓词或确定作品端点；未写入formal边。详见[S4/S6裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-ch13-novelle-periodical-registration-20261028)。
+**本批更正：第14章p.349《Novelle》刊期年份。** 扫描印本注3为12 April 1738；S0 OCR与原S2内容误作1758。保留原始引文，当前claim和候选 `cand-10261` 改为1738；沿用其S3 `new`身份组并登记单独刊期卡。目标作品候选仍未决，关系无忠实受控谓词，故保持process-only pending；修订后的S2版本待独立复核。详见[校读及裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s4-s6-ch14-p349-novelle-issue-1738-20261028)。
+
+**本批完成：登记明确的《Novelle》期刊端点。** `cand-9988`沿用既有S3 `new`组登记为periodical archive；1736年9月8日与已校读为1738年4月12日的具体刊期保持分立。人物—期刊编辑关系及1730年拟议版本广告关系均process-only pending，没有忠实谓词或确定作品端点；未写入formal边。详见[S4/S6裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-ch13-novelle-periodical-registration-20261028)。
 
 **本批完成：第13章Gozzi身份冲突校读。** 印本p.333实际为Gasparo，Markdown OCR误为Gaspara；`cand-9979`据印本和同页索引改为`same`并复用既有人物KU。原始引文与mention表面保留OCR，一条statement及mention的校读解释已修正、待独立差异复核。Barbarigo通过代理人传达印制规格的候选因缺准确谓词保留pending；Roberti原文未读。详见[身份裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-ch13-p333-gozzi-print-20261028)。
 
@@ -3828,10 +3830,10 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
-| S2 | 15,480 statements、26,874 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。以9,622首次出现的提交为基线重算，当前有30条新增、48条同ID内容变化及1条删除；本批p.334代词修订在变化集合内。差异数不能直接当作未复核数。详见[S2基线比较](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-baseline-9622-20261028)及[本批更正](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)。 |
+| S2 | 15,480 statements、26,874 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。以9,622首次出现的提交为基线重算，当前有30条新增、49条同ID内容变化及1条删除；本批p.334、p.349修订均在变化集合内。差异数不能直接当作未复核数。详见[S2基线比较](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-baseline-9622-20261028)、[p.334更正](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)及[p.349更正](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch14-p349-novelle-date-20261028)。 |
 | S3 | 按候选ID计12,433/12,433均有决定：same 2,120、new 5,095、conflict 8、excluded 106、undecided 5,104 | 12,408项有external_source为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。28个候选的35条来源决定虽与主行不同，当前复核确认其中34条（27个候选）均为same且目标与候选主行KU一致；唯一待证来源行是cand-2328的Princeton关联（“possibly”，1633/1653生年差异），主行new决定保持。先前结构筛查有87个无显式组；当前按候选主行及无主行的来源限定new行复扫并补记7项后，未发现缺小写`group=`标记的new候选行。宽口径50个多标签候选已核其旧组；历史13项筛查原始口径及ID尚待找回，不能将不同口径直接相减。 |
-| S4 | new候选已映射2,532/5,095；待映射2,563，其中直接关系端点905、其他1,658；KU共3,311 | 直接端点待映射按类型：term 401、work 135、place 128、archive 119、event 72、institution 49、person 1。 |
-| S5 | 14,753条字段，1,629条unverified | 本批为新期刊卡写入4条Haskell来源支持字段及1条未验证的项目译名记录；不把工作译名冒充来源事实。 |
+| S4 | new候选已映射2,533/5,095；待映射2,562，其中直接关系端点904、其他1,658；KU共3,312 | 直接端点待映射按类型：term 401、work 135、place 128、archive 118、event 72、institution 49、person 1。 |
+| S5 | 14,755条字段，1,629条unverified | 本批为新期刊卡写入4条Haskell来源支持字段及1条未验证的项目译名记录，并为1738年期号卡写入2条Haskell来源支持字段。 |
 | S6 | 裁决记录2,100项：formal 1,247、pending 718、rejected 135；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批2项委托／订购formal、2项题材／旧位置pending；肖像馆藏分歧仍pending。 |
 | 正式关系表 | 2,555行：2,514 formal、41 pending | 本批新增2条委托及2条书内作者归属；文献题献待具体题记或馆藏目录证据。 |
 | 缺端点与backlog | 338条关系statement至少缺一个S2端点候选ID；backlog 58条（15 completed、43 undecided） | 未具名Paceco画作的开放端点已保留待证；严格审计backlog pending=0，`bl-0058`待证条件保留。 |

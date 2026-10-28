@@ -56,7 +56,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 身份入口
 
-S3身份组：`archive-group-2112796f7abc`；候选 `cand-9988` 沿用 `new` 决定并映射至本卡。本身份表示期刊，不合并为任何具体刊期；1736年9月8日与1758年4月12日的期号候选仍各自独立，尚待其对应端点批次处理。
+S3身份组：`archive-group-2112796f7abc`；候选 `cand-9988` 沿用 `new` 决定并映射至本卡。本身份表示期刊，不合并为任何具体刊期；1736年9月8日与1738年4月12日的期号候选仍各自独立，分别见对应候选与S4卡片，不并入期刊本体。
 
 ### 证据边界
 

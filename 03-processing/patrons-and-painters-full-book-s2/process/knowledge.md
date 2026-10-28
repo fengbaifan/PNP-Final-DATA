@@ -18245,10 +18245,22 @@ Treccani DBI（2026-10-28访问）将该刊出版责任记于Giambattista，并�
 <a id="s4-s6-ch13-novelle-periodical-registration-20261028"></a>
 ### 第13章《Novelle》期刊端点登记与关系待证（2026-10-28）
 
-沿用 `cand-9988` 的S3主决定 `aln-10160=new` 及 `archive-group-2112796f7abc`，将期刊身份登记为 `units/archives/novelle-della-repubblica-delle-lettere-periodical`，不改S3决定。依据为Haskell第13章印刷页334正文称其为weekly bulletin、概述其评介欧洲新书，注5称其出版“as from 1729”；没有补成精确创刊年或期号。期刊名下的具体期号不是同一对象：候选 `cand-10174`（1736-09-08）和 `cand-10261`（1758-04-12）分别保留自身S3 `new`身份，未并入该periodical KU；本批不登记这两项。
+沿用 `cand-9988` 的S3主决定 `aln-10160=new` 及 `archive-group-2112796f7abc`，将期刊身份登记为 `units/archives/novelle-della-repubblica-delle-lettere-periodical`，不改S3决定。依据为Haskell第13章印刷页334正文称其为weekly bulletin、概述其评介欧洲新书，注5称其出版“as from 1729”；没有补成精确创刊年或期号。期刊名下的具体期号不是同一对象：候选 `cand-10174`（1736-09-08）和 `cand-10261`（经印本校读为1738-04-12）分别保留自身S3 `new`身份，未并入该periodical KU；后者的校读与独立S4登记见下节。
 
 新卡5条结构化表行经 `build_field_facts.py --ku units/archives/novelle-della-repubblica-delle-lettere-periodical` 定向预览后应用：其中4条绑定Haskell来源，1条“中文工作译名”按项目命名保留unverified；warnings=0，source registry无变化。本批不应用全卡预览中发现的无关历史差异。
 
 同步检查相关S2关系候选及现有关系账本：`st-chp13-p334-albrizzi-edited-weekly-bulletin` 的人物—期刊端点现均有KU，但仍为 **process-only pending**，因为受控词表没有忠实的编辑者谓词，且Haskell代词与Treccani所记出版／编辑角色不能共同确定责任范围。`st-chp13-p335-note1-augustine-advertisement` 也为 **process-only pending**：原文只说期刊刊登拟议版本广告，候选 `cand-10147` 已为S3 `excluded`，不是已识别的作品端点；当前亦无忠实的“刊登拟议版本广告”受控关系。不得据此登记版本、转换成`published_by`或建立formal关系。`st-chp13-p335-note2-recurti-citation` 是引注定位且非关系候选；`st-chp13-p337-note4-novelle-1736-issue-citation` 是期号书目定位，关系候选标记为false，不生成S6边。
 
 `relations.csv` 未检出上述statement的既有formal行；本批不新增、撤销或改写任何关系正式行及历史S6裁决。当前期刊身份登记完成不等于该关系已获正式裁决。具体S2指代变化见[S2更正记录](stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)，卡片只保留书内来源支持的期刊范围与证据边界。
+
+
+<a id="s2-s4-s6-ch14-p349-novelle-issue-1738-20261028"></a>
+### 第14章p.349《Novelle》刊期日期校读、登记与关系待证（2026-10-28）
+
+直接查看 `CHP-14.pdf` PDF物理页3、印刷页349注3：扫描印字为“12 April 1738”。S0 Markdown L176及原S2引文误作“12 April 1758”；保留原 `original_quote` 与S0，不改写原始转录，在当前statement `st-chp14-p349-note3-albrizzi-issue` 的claim与 `ocr_corrections` 中登记印本读法。候选 `cand-10261` 的题名随之从1758年4月12日改为1738年4月12日；复查现有archive卡、manifest与候选后未发现同日同刊期对象，因此沿用 `aln-10433=new` 与 `archive-group-e2a435ed6427`，不改其身份决定；其期号身份独立于期刊本体 `cand-9988` 与1736年9月8日期号 `cand-10174`。
+
+据该既有S3决定将 `aln-10433` 映射到[《Novelle》1738年4月12日期号卡](../../../04-knowledge/units/archives/novelle-della-repubblica-delle-lettere-1738-04-12.md)。卡片只保存Haskell印刷页349注3转引的刊期与警示文字，不声称查阅刊物原件。
+
+该卡2条结构化来源字段经 `build_field_facts.py --ku units/archives/novelle-della-repubblica-delle-lettere-1738-04-12` 定向预览后应用，均为Haskell书内来源支持；warnings=0，source registry无变化。
+
+相关statement仍为 **process-only pending**：它把刊期警示关联到作品候选 `cand-10258`，该候选因版本／身份粒度未定而仍为S3 `undecided`；`warned_readers_about` 也不在当前受控关系词表。`relations.csv` 未见该statement既有formal行，本批不创建formal边、不改历史S6裁决；待作品端点与忠实关系谓词均成立后再审。S2当前statement为同ID变化，统一复核台账9,622不变，须独立复核本次印本校读；以同一基线重算为新增30、删除1、同ID变化49。
