@@ -13712,3 +13712,15 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 **Lodoli肖像馆藏语句端点修订（2026-10-28）。** `st-chp10-p320-323-n04-portrait-location-accademia`由画家→画作更正为画作→未决Accademia候选；图版目录Museo Correr与注释Accademia的来源分歧保留。当前版本待独立差异复核。相同基线重算为新增30、删除1、同ID变化44；统一复核分子不变。详见[端点与版画过程](knowledge.md#s3-s4-s6-lodoli-engraving-20261028)。
 
 **第7章p.185候选类型变化的复核依赖（2026-10-28）。** `cand-0348`、`cand-0351`、`cand-0360`由误挂画家的人物候选改为各自作品并登记；`st-chp7-p185-i08`–`i10`及对应题名mention的候选ID与文本未变，但引用对象的类型和KU已改变，故不能仅凭statement JSON与基线相同宣称其当前端点解释已复核。此依赖须纳入独立差异复核及下游关系追踪；统一复核分子不变。详见[类型更正与关系裁决](knowledge.md#s3-s4-s6-cortona-vrilliere-p185-20261028)。
+
+
+<a id="s2-ch7-p184-p185-vrilliere-reference-20261028"></a>
+### 第7章 p.184–185 跨页代词和委托主语更正（2026-10-28）
+
+对读 `02-sources/02-Markdown/07_CHP-7_sec_i.md` 的 p.184–185 连续段落：p.184 明称 La Vrillière 在1635年以前取得 Guido Reni 的《The Rape of Helen》，p.185 续句 “He followed this with a commission to Guercino” 和 “in 1637 he ordered from Poussin” 均承接同一人。此处与文中相邻的 Mazarin 比较段须区分。
+
+- `st-chp7-p185-i01`、`i02` 主语由 Mazarin 的 `cand-1588` 更正为 La Vrillière 的 `cand-1347`；相应 claim、predicate、mentioned_candidate_ids 和备注同步更正，原文、脚注和作品端点保持。两项分别是委托和1637年订购，不推定完成、交付或所有权。
+- `m-chp7-p185-001` 的 He 指向同一 La Vrillière；`m-chp7-p185-005` 保留 Poussin 候选并更正其描述。原字符跨度不变。
+- 本文件先前 p.185 记录将两项误归 Mazarin，作为历史审读记录保留，以本更正为准；历史分类脚本 `classify_chp7_seci_p185_l205_213_relation_candidates_20261013.py` 同样含旧解释，不应作为当前判断重新运行。旧对齐注记中提及该 mention 的历史快照不改写；当前映射以 `mentions.csv` 为准。
+- 检索 `relations.csv` 和过程 Markdown，未发现直接引用这两个 statement ID 的既有正式边或 S6 裁决；这一检索不证明不存在所有间接受影响的关系。`cand-7092` 为来源限定 new、尚待登记，`cand-1999` 为 undecided；两项委托关系待对象身份及 KU 端点成立后逐项裁决，不计入已裁决数。
+- 两条当前 statement 及两条 mention 的本次修改尚待独立差异复核，不增加统一复核台账。与9,622条台账首次出现时的基线 `1a6313c8654280a9b71187fc08522098626e734e` 按ID比较，当前为新增30、同ID内容变化46、删除1；此机械差异不等于未复核数。

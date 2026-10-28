@@ -18103,3 +18103,9 @@ S6：`st-chp3-seciv-l75-81-chapel-dedicated-to-resurrection` 为既有地点 KU 
 两条目录各为一个馆藏记录；`rel-1571` 与 `rel-1572` 共用第一条记录，不算作两个独立目录。`rel-1642`、`rel-2125`、`rel-2382` 的题记或馆藏目录依据仍待核查；其状态暂不因尚未查到依据而机械改判。S2 statement、独立复核台账及关系状态数量未变。
 
 检查结果：关系词表及域值域的正反向、archive题献与宗教奉献类型边界检查通过；`tests/test_build_relation_views.py`、`tests/test_build_cards_preview.py`、`tests/test_audit_relation_consistency.py` 的定向pytest通过。6张受影响卡定向渲染后复预览无差异；严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`，关系一致性五类阻断均为0。批后 `relations.csv` 2,527行（2,486 formal、41 pending）；S6历史裁决2,070项（1,226 formal、709 pending、135 rejected），与当前statement版本尚未核平，不报告覆盖率。机械检查不构成S2独立接收。
+
+
+<a id="s3-ch7-p184-p185-painting-groups-20261028"></a>
+### La Vrillière 宫邸画作与系列的对象边界（2026-10-28）
+
+对读第7章p.184–185：`cand-6823` 锚定其宫邸收藏的、与Mazarin收藏中大多数画家相关的未枚举绘画；`cand-6846` 锚定p.185所称 series，原文先列此前取得或订购的作品，再说1640年代增加一组、后来以Maratta作品补齐，并称十件大画。两处均涉及其收藏，但p.184未逐项枚举，不能证明前者与后者是同一完整集合，也不能证明二者必然不同。维持两项 `undecided`，不合并、不新登记；须获得可比较的成员、时间及集合边界证据再重审。原书分别连接两组的关系候选仍待对应对象边界成立后裁决。

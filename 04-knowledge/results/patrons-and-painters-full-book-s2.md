@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-28）
 
+**本批更正：第7章 p.184–185 跨页委托主语。** 两条statement和两条mention依据连续原文由Mazarin更正为La Vrillière；原文和作品端点不变。两件作品的身份／登记尚未完成，相关委托关系待端点成立后裁决；当前修改待独立差异复核，不增加统一复核数。宫邸画作与series的两个集合候选继续undecided，详见[语义更正](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch7-p184-p185-vrilliere-reference-20261028)及[集合边界](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-ch7-p184-p185-painting-groups-20261028)。
+
 **本批完成：两件Guercino作品来源限定登记。** `cand-1262`、`cand-1273`依据第7章p.185由`undecided`改为`new`并分别登记；新增4条原书字段及2条`created_by` formal，具体版本、现藏与外部作者归属未核。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-guercino-vrilliere-p185-20261028)。
 
 **上批完成：三件Cortona作品的类型更正。** `cand-0348`、`cand-0351`、`cand-0360`原把作品索引子项误映射到画家人物KU；现依据第7章p.185更正为3个来源限定work组并登记，新增6条书内字段及3条`created_by` formal。三条S2语句与对应mention的候选ID未变，但端点解释变化须独立差异复核。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-cortona-vrilliere-p185-20261028)。
@@ -3806,7 +3808,7 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
-| S2 | 15,480 statements、26,873 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。以9,622首次出现的提交为基线重算，当前有30条新增、44条同ID内容变化及1条删除；本批馆藏语句为同ID变化。差异数不能直接当作未复核数。详见[S2版本比较过程](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-baseline-9622-20261028)。 |
+| S2 | 15,480 statements、26,873 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。以9,622首次出现的提交为基线重算，当前有30条新增、46条同ID内容变化及1条删除；本批两条主语更正属于同ID变化。差异数不能直接当作未复核数。详见[S2版本比较过程](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-baseline-9622-20261028)。 |
 | S3 | 按候选ID计12,433/12,433均有决定：same 2,119、new 5,093、conflict 9、excluded 106、undecided 5,106 | 12,408项有external_source为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。28个候选的35条来源决定虽与主行不同，当前复核确认其中34条（27个候选）均为same且目标与候选主行KU一致；唯一待证来源行是cand-2328的Princeton关联（“possibly”，1633/1653生年差异），主行new决定保持。先前结构筛查有87个无显式组，其后5个主行补组；另21个多标签中8个仅尾随句点不同、13个仍需按原筛查口径核平。余项需按当前数据复扫。 |
 | S4 | new候选已映射2,526/5,093；待映射2,567，其中直接关系端点909、其他1,658；KU共3,306 | 直接端点待映射按类型：term 401、work 136、place 129、archive 120、event 73、institution 49、person 1。 |
 | S5 | 14,744条字段，1,628条unverified | 本批新增4条Haskell来源支持字段。 |
