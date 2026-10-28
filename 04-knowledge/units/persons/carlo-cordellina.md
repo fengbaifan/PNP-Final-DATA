@@ -77,6 +77,11 @@ This unit records identity evidence from the book; no external identity link is 
 
 ### 关系记录
 
-当前没有正式关系记录。书内直接关系候选保留在断言账本中，尚未转为正式关系。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 雇主（`employer_of`，反向投影） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](giambattista-tiepolo.md) | S6 formal; artist-to-employer direction follows employed_by. See 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-cordellina-frescoes-20261029.；角色：受雇装饰住宅的画家；范围：Haskell calls Carlo Cordellina one of the few non-nobles able to employ Tiepolo and says Cordellina summoned him to decorate the Montecchio house. Records the source-reported employment without inferring contract terms, dates, or a separate commission for each fresco.；原断言与证据见发出端卡片“乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.256, lines 158–160; PDF physical p.18; statements=st-chp9-p256-cordellina-one-of-few-non-noble-tiepolo-patrons,st-chp9-p256-cordellina-summoned-tiepolo-to-country-house |
+| ← erector_of（`erector_of`，反向投影） | [蒙泰基奥的科尔德利纳别墅（Villa Cordellina at Montecchio）](../places/villa-cordellina-montecchio.md) | S6 formal; the cross-chapter Villa Cordellina place group supports this source-local house identity. See 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-cordellina-frescoes-20261029.；角色：书内所述营建者；范围：Haskell says Carlo Cordellina built a country house at Montecchio; Chapter 14 identifies the same house as Villa Cordellina. Records the source-reported builder without adding a building date or modern architectural identity.；原断言与证据见发出端卡片“蒙泰基奥的科尔德利纳别墅（Villa Cordellina at Montecchio）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.256, line 160; PDF physical p.18; statement=st-chp9-p256-cordellina-built-montecchio-house |
 
-No formal relations are recorded. Direct relation candidates from the book remain in the statement ledger and have not been converted into formal relations.
+另有第14章statement `st-chp14-p352-tiepolo-decorated-villa-cordellina`尚待S6：原文报告Tiepolo装饰此建筑，但当前没有能忠实表达“人物装饰建筑”的受控关系类型。本卡已登记的受雇与建造关系不替代该陈述。
+
+The Chapter 14 statement `st-chp14-p352-tiepolo-decorated-villa-cordellina` remains pending S6. Haskell reports that Tiepolo decorated this building, but no controlled relation type faithfully expresses a person decorating a building. The employment and builder relations recorded here do not replace that claim.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 蒙泰基奥的科尔德利纳别墅（Villa Cordellina at Montecchio）
 name_en: Villa Cordellina at Montecchio
 type: place
@@ -46,7 +46,15 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ## 关系与证据
 
-当前没有正式关系。以下2条直接S2关系候选仍待S6；本次地点身份登记不自动确立Cordellina建造住宅或Tiepolo装饰的正式关系：
+### 关系记录
 
-- `st-chp9-p256-cordellina-built-montecchio-house`
-- `st-chp14-p352-tiepolo-decorated-villa-cordellina`
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 安置地点（`installation_site_of`，反向投影） | [西庇阿的节制（The Continence of Scipio）](../works/tiepolo-continence-of-scipio-montecchio-house.md) | S6 formal; architectural-fresco placement uses installed_at, not overloaded located_at. See 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-cordellina-frescoes-20261029.；角色：书内报告的墙面／天顶安置地点；范围：Haskell says Tiepolo was summoned to decorate Cordellina’s Montecchio country house and names this fresco on its walls. Records historical placement in that house, not a present location, surviving state, or catalogue identity.；原断言与证据见发出端卡片“西庇阿的节制（The Continence of Scipio）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.256, lines 160–161; PDF physical p.18; statements=st-chp9-p256-cordellina-summoned-tiepolo-to-country-house,st-chp9-p256-tiepolo-painted-continence-scipio |
+| ← 安置地点（`installation_site_of`，反向投影） | [亚历山大大帝面前的大流士家人（The Family of Darius before Alexander the Great）](../works/tiepolo-family-of-darius-before-alexander-montecchio-house.md) | S6 formal; architectural-fresco placement uses installed_at, not overloaded located_at. See 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-cordellina-frescoes-20261029.；角色：书内报告的墙面／天顶安置地点；范围：Haskell says Tiepolo was summoned to decorate Cordellina’s Montecchio country house and names this fresco on its walls. Records historical placement in that house, not a present location, surviving state, or catalogue identity.；原断言与证据见发出端卡片“亚历山大大帝面前的大流士家人（The Family of Darius before Alexander the Great）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.256, lines 160–161; PDF physical p.18; statements=st-chp9-p256-cordellina-summoned-tiepolo-to-country-house,st-chp9-p256-tiepolo-painted-family-of-darius |
+| ← 安置地点（`installation_site_of`，反向投影） | [艺术的凯旋（The Triumph of the Arts）](../works/tiepolo-triumph-of-the-arts-montecchio-house.md) | S6 formal; architectural-fresco placement uses installed_at, not overloaded located_at. See 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-cordellina-frescoes-20261029.；角色：书内报告的墙面／天顶安置地点；范围：Haskell says Tiepolo was summoned to decorate Cordellina’s Montecchio country house and names this fresco on its ceiling. Records historical placement in that house, not a present location, surviving state, or catalogue identity.；原断言与证据见发出端卡片“艺术的凯旋（The Triumph of the Arts）”：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.256, lines 160–161; PDF physical p.18; statements=st-chp9-p256-cordellina-summoned-tiepolo-to-country-house,st-chp9-p256-tiepolo-painted-triumph-of-arts |
+| → erected_by（`erected_by`） | [卡洛·科尔代利纳（Carlo Cordellina）](../persons/carlo-cordellina.md) | S6 formal; the cross-chapter Villa Cordellina place group supports this source-local house identity. See 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-cordellina-frescoes-20261029.；角色：书内所述营建者；范围：Haskell says Carlo Cordellina built a country house at Montecchio; Chapter 14 identifies the same house as Villa Cordellina. Records the source-reported builder without adding a building date or modern architectural identity.；证据：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.256, line 160; PDF physical p.18; statement=st-chp9-p256-cordellina-built-montecchio-house |
+
+### 待证关系
+
+`st-chp14-p352-tiepolo-decorated-villa-cordellina`仍待S6：Haskell称Tiepolo装饰Villa Cordellina，但当前受控谓词没有忠实表达“人物装饰建筑”的关系。三件已识别壁画各自的`installed_at`边记录作品在建筑中的历史安置，不代替Tiepolo到建筑的角色关系。

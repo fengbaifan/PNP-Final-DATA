@@ -1,0 +1,63 @@
+---
+title: 亚历山大大帝面前的大流士家人（The Family of Darius before Alexander the Great）
+name_en: The Family of Darius before Alexander the Great
+type: work
+evidence_status: source_backed
+sources:
+- citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 9, printed p. 256.'
+  location: 第9章印刷页256 L160–161；PDF物理页18。
+  sentence_summary: 哈斯克尔称提埃坡罗受召装饰科代利纳位于蒙泰基奥的乡间住宅，并将此具名壁画置于该住宅的墙面或天顶。
+  original_quotes:
+  - source_span: 第9章印刷页256 L160–161；PDF物理页18
+    text: The Family of Darius before Alexander the Great
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/09_CHP-9_intro.md
+    source_span: 第9章印刷页256 L160–161；PDF physical p.18
+created: '2026-10-29'
+updated: '2026-10-29'
+process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-cordellina-frescoes-20261029
+---
+
+## 内容
+
+### 描述
+
+**中文：** 本卡记录哈斯克尔第9章称为“The Family of Darius before Alexander the Great”的作品。原文将其列为提埃坡罗在科代利纳蒙泰基奥乡间住宅墙面绘制的壁画之一。中文题名为暂译；不据此确定大流士的具体身份，也不指认某一存世版本或外部目录条目。
+
+**English:** This card records the work Haskell names “The Family of Darius before Alexander the Great” in Chapter 9. He describes it as one of the wall frescoes Tiepolo painted at Carlo Cordellina’s country house at Montecchio. The Chinese title is provisional; the card does not resolve which Darius the title refers to or identify a surviving version or catalogue record.
+
+### 名称
+
+| 字段 | 值 | 证据 |
+| --- | --- | --- |
+| 书内题名 | The Family of Darius before Alexander the Great | S1；第9章印刷页256 L160–161；按印本称名记录，不据此匹配外部目录题名。 |
+
+### 基本信息
+
+| 字段 | 值 | 证据 |
+| --- | --- | --- |
+| 作品类型 | 墙面壁画（fresco） | S1；第9章印刷页256 L160–161；Haskell称作品为墙面上的fresco。 |
+
+### 本章相关内容
+
+**中文：** 原文把此墙面作品与《西庇阿的节制》分别列名，并将《艺术的凯旋》列为天顶作品；三者不合并。书中称名未说明此作品是否属于后世所说的完整组画。
+
+**English:** The source names this wall work separately from The Continence of Scipio and places The Triumph of the Arts on the ceiling. The three works are kept distinct; Haskell does not define a later complete cycle here.
+
+## 关系与证据
+
+### 身份与外部链接
+
+本卡按哈斯克尔的书内称名和叙述界定；未加入外部作品目录或存世版本标识。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+| --- | --- | --- |
+| → 创作者（`created_by`） | [乔万巴蒂斯塔·提埃坡罗（Giambattista Tiepolo）](../persons/giambattista-tiepolo.md) | S6 formal; source-local creator attribution. See 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-cordellina-frescoes-20261029.；角色：书内作者归属；范围：仅记录哈斯克尔称Tiepolo绘制该具名壁画；不主张外部作品目录身份、存世版本或作品日期。；证据：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.256, lines 160–161; PDF physical p.18; statement=st-chp9-p256-tiepolo-painted-family-of-darius |
+| → 安置于（`installed_at`） | [蒙泰基奥的科尔德利纳别墅（Villa Cordellina at Montecchio）](../places/villa-cordellina-montecchio.md) | S6 formal; architectural-fresco placement uses installed_at, not overloaded located_at. See 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-cordellina-frescoes-20261029.；角色：书内报告的墙面／天顶安置地点；范围：Haskell says Tiepolo was summoned to decorate Cordellina’s Montecchio country house and names this fresco on its walls. Records historical placement in that house, not a present location, surviving state, or catalogue identity.；证据：[来源](../../../02-sources/02-Markdown/09_CHP-9_intro.md)；haskell-1980-rev-ed；Chapter 9, printed p.256, lines 160–161; PDF physical p.18; statements=st-chp9-p256-cordellina-summoned-tiepolo-to-country-house,st-chp9-p256-tiepolo-painted-family-of-darius |
+
+### 关系候选入口
+
+[本批逐项S3–S6裁决与边界](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp9-cordellina-frescoes-20261029)

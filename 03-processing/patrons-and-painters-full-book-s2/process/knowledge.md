@@ -18745,3 +18745,30 @@ S0及页图为依据，本批不改写来源。保留statement ID和历史裁决
 **当前快照核平与验证。** 严格表审计复得S2 15,481 statements／26,865 mentions；S3 12,436个候选，决定模式为仅same 2,126、仅new 5,077、仅undecided 5,090、conflict 8、excluded 107、new/same混合27、new/undecided混合1；有new决定5,105项，S4已映射2,576、待登记2,529。S4待登记直接关系端点881项；S3未决直接端点2,972项。S5共14,916条字段、1,632条unverified；S6表2,620条（2,575 formal、45 pending），当前直接关系候选10,683条，341条缺至少一端候选ID；backlog 89项（17 completed、72 undecided）。严格表审计errors=[]、s2_missing=[]、alignments_unlinked=0；关系一致性五项阻断均为0。当前结果页已依这些表值更正快照与按类型队列。
 
 本次只修订`aln-5002`的process_ref与resolution_note并更新当前结果中的S3差异说明及机械快照；S2 statements/mentions、统一独立复核台账、S3决定数、S4映射和S6裁决均未改变。该筛查只解释这28个候选的来源限定decision差异，不代表全体S3候选已语义验收。
+<a id="s3-s4-s5-s6-chp9-cordellina-frescoes-20261029"></a>
+### 2026-10-29：第9章p.256 Tiepolo三件住宅壁画的S3/S4/S6及人名核对
+
+**原文依据与候选核对。** 对照第9章印刷页256（PDF物理页18）图像、来源转录、索引T.csv#46/#52/#73与当前S2表。三条直接mention分别为m-chp9-p256-continence-of-scipio-work、m-chp9-p256-family-of-darius-work、m-chp9-p256-triumph-of-arts-work，各有对应的relation_candidate=true statement；前两件被称为墙面壁画，第三件明确在天顶。原alignment注释称cand-2610“无可核正文提及”，与当前mentions.csv不符，现保留旧注作为历史并纠正该决定理由。此次未修改S2 statement或mention，故不增加统一复核计数。
+
+**S3跨章身份决定。** 三个Tiepolo索引候选均由undecided改为书内来源限定new，分别使用单成员组sg3-work-cand-2583、sg3-work-cand-2589、sg3-work-cand-2610。全体works知识卡及manifest未发现可准确复用的同类型对象。两幅墙面作品与一幅天顶作品保持三个独立身份，不合并为一个组画；《The Family of Darius before Alexander the Great》不与第14章Piazzetta《The Death of Darius》混同，也不与另一宅邸的《Powers of Eloquence》壁画合并。身份仅限Haskell书内具名作品，不认定存世版本、外部目录条目、创作日期或完整周期。
+
+同页人名候选也作定向核平：cand-8389从错误的单独new组改为same，并入已由第1、8、10章候选cand-3442、cand-9593建立的Alexander the Great组及KU units/persons/alexander-the-great；这是完整称名的跨章精确对应。cand-8388从由整段作品标题误生成的new-person组改为undecided：原文仅称Darius，未给足以区别具体历史人物的证据，且没有Darius KU匹配，不据标题猜为Darius III。cand-8387继续undecided；不能仅因同名而并入第9章p.250 Lazzarini描绘Scipio Africanus的另一组作品。上述person行在resolution_note中保留旧决定及旧组号。
+
+**S4/S5登记。** 新增三个独立work KU：units/works/tiepolo-continence-of-scipio-montecchio-house、units/works/tiepolo-family-of-darius-before-alexander-montecchio-house、units/works/tiepolo-triumph-of-the-arts-montecchio-house；每卡只加入一条书内称名和一条作品类型字段，共6条source_backed字段。无日期、材料、外部身份或存世状态字段。
+
+**S6相关裁决与待证去向。** 修改前relations.csv无以下statement裁决行；新增八条formal边：rel-2623/2625/2627 created_by分别记录三件作品的书内Tiepolo归属；rel-2624/2626/2628 installed_at分别记录两幅墙面作品及一幅天顶作品在Villa Cordellina的书内历史安置；rel-2629 employed_by记录Haskell称Carlo Cordellina雇用并召Tiepolo装饰其住宅；rel-2630 erected_by记录其建造Montecchio乡间住宅的书内报告。不推断聘期、合同、建造日期或每件作品单独委托。使用installed_at表达壁画与建筑一体的历史安置，不使用标注needs_split的located_at。
+
+两条墙面作品对cand-12385的magnanimity解释关系仍待证：当前候选虽为S3 new，尚无term KU，且受控类型没有忠实的alludes-to谓词；新增bl-0090作为待处理端点，不登记KU或formal边。st-chp9-p256-tiepolo-irritated-by-cordellina-entertainment的情绪陈述没有可忠实表达的受控谓词，保持process-only pending。未将人物标题mention自动转成has_subject关系，也未逐件推断commissioned_by。以上待证对象不阻断三个work KU登记。
+
+| S2 statement | 当前S6去向 | 理由 |
+|---|---|---|
+| st-chp9-p256-tiepolo-painted-continence-scipio | formal：rel-2623 created_by；rel-2624 installed_at | Tiepolo→作品作者归属；作品→Villa Cordellina历史墙面安置。 |
+| st-chp9-p256-tiepolo-painted-family-of-darius | formal：rel-2625 created_by；rel-2626 installed_at | Tiepolo→作品作者归属；作品→Villa Cordellina历史墙面安置。 |
+| st-chp9-p256-tiepolo-painted-triumph-of-arts | formal：rel-2627 created_by；rel-2628 installed_at | Tiepolo→作品作者归属；作品→Villa Cordellina历史天顶安置。 |
+| st-chp9-p256-cordellina-one-of-few-non-noble-tiepolo-patrons; st-chp9-p256-cordellina-summoned-tiepolo-to-country-house | formal：rel-2629 employed_by | 两句合读支持Tiepolo受雇为Cordellina装饰住宅；不延伸为每件作品的具体委托或合同。 |
+| st-chp9-p256-cordellina-built-montecchio-house | formal：rel-2630 erected_by | 第9章称Cordellina在Montecchio建造乡间住宅；跨章S3 place组将该处与Villa Cordellina相连。 |
+| st-chp9-p256-wall-paintings-allude-to-cordellina-magnanimity; st-chp9-p256-family-of-darius-alludes-to-cordellina-magnanimity | pending；bl-0090 | 解释性term端点cand-12385尚未登记，且无忠实alludes-to谓词；只适用于两幅墙画，不扩展至天顶画。 |
+| st-chp9-p256-tiepolo-irritated-by-cordellina-entertainment | pending（process-only） | 原文报告的情绪不是争执、冲突或其他现有受控关系；不伪造formal边。 |
+| st-chp14-p352-tiepolo-decorated-villa-cordellina | pending（process-only） | Haskell直接称Tiepolo装饰此建筑；当前受控谓词无忠实的person-to-place装饰角色。三条work installed_at边不代替该关系。 |
+
+**批后状态与验证。** 本记录完成后按当前表格重算S2/S3/S4/S5/S6/backlog；针对六张受影响卡（3张新work、Tiepolo、Carlo Cordellina、Villa Cordellina）执行关系预览与渲染。结构审计与关系一致性仅证明格式、外键和表间约束；S2统一ID/来源版本核平、全书独立语义接收及S6历史裁决分母核平仍未解决。
