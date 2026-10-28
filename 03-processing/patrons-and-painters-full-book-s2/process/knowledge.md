@@ -18160,3 +18160,49 @@ S2及独立复核台账未变；前批两条修订statement和两条mention仍�
 - `st-chp10-p326-n01-pamphlet-titles`、`st-chp10-p326-n01-pamphlet2-has-subject`、`st-chp10-p326-n01-pamphlet3-has-subject` 继续 **pending**：新值域已消除类型阻断，但引文题名仅说明诗册为Pisani入城而作，不能单凭题名证明各册正文表现该事件。被引原册未读；待核具体内容或适合表达创作场合／目的的受控关系后重审，不以题名目的代替题材。
 
 本次两项旧pending重裁，S6总裁决数不变；S2及独立复核台账不变。
+
+
+<a id="s3-group-label-history-remainder-20261028"></a>
+### S3多标签宽口径剩余项复核（2026-10-28）
+
+对当前空external_source且decision=new的主行，提取备注中独立`group=`标记、去除组号尾随句点；得50个候选含不止一个不同标签。上次过程记录已核15个，本次核其余35个（包括后来更正为作品的3项）。逐行核对现行备注、历史标志和KU映射；下表第一组为现行组，第二组为历史组。此项是组号和历史语义的定点核查，不是对外部身份的独立验收；未修改对齐决定或删除旧理由。
+
+| 候选 | 现行组 | 旧组 | 当前KU及旧组解释 |
+|---|---|---|---|
+| `cand-0348` | `sg3-work-caesar-restoring-cleopatra-la-vrilliere` | `sg3-ku-units-persons-pietro-da-cortona` | `units/works/caesar-restoring-cleopatra-la-vrilliere`；历史误映射到画家人物KU的旧组。 |
+| `cand-0351` | `sg3-work-finding-of-romulus-and-remus-la-vrilliere` | `sg3-ku-units-persons-pietro-da-cortona` | `units/works/finding-of-romulus-and-remus-la-vrilliere`；历史误映射到画家人物KU的旧组。 |
+| `cand-0360` | `sg3-work-sibyl-announcing-christ-to-augustus-la-vrilliere` | `sg3-ku-units-persons-pietro-da-cortona` | `units/works/sibyl-announcing-christ-to-augustus-la-vrilliere`；历史误映射到画家人物KU的旧组。 |
+| `cand-0897` | `sg3-procedure-customs-duty-pictures` | `sg3-procedure-cand-0897` | `units/procedures/customs-duty-on-pictures`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-1514` | `sg3-procedure-manfrin-painter-competitions` | `sg3-procedure-cand-1514` | `units/procedures/manfrin-painter-competitions`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-1598` | `sg3-event-cand-6799` | `sg3-event-cand-1598` | `units/events/first-fronde-mazarin-patronage-setback-1649`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-1610` | `sg3-procedure-ferdinand-art-exhibition-guidance` | `sg3-procedure-cand-1610` | `units/procedures/ferdinand-art-exhibition-guidance`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-1651` | `sg3-event-publication-lodoli-apologhi-1787` | `sg3-event-cand-1651` | `units/events/memmo-apologhi-publication-1787`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-1817` | `sg3-place-villa-doria-pamphilj` | `sg3-place-pamfiliprincecamillonephewtopopeinnocentx` | `units/places/villa-doria-pamphilj`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-1821` | `sg3-event-cand-6297` | `sg3-event-cand-1821` | `units/events/innocent-x-burial-expense-dispute-1655`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-1832` | `sg3-institution-cand-1831` | `sg3-term-papalstates` | `units/institutions/papal-states`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-1833` | `sg3-institution-cand-1831` | `sg3-term-papalstates` | `units/institutions/papal-states`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-4221` | `sg3-institution-france-polity` | `sg3-institution-cand-4221` | `units/institutions/france-polity`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-4591` | `sg3-institution-spain-polity` | `sg3-institution-cand-4591` | `units/institutions/spain-polity`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-6253` | `sg3-institution-france-polity` | `sg3-institution-cand-6253` | `units/institutions/france-polity`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-6704` | `sg3-institution-france-polity` | `sg3-institution-cand-6704` | `units/institutions/france-polity`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-6764` | `sg3-institution-france-polity` | `sg3-institution-cand-6764` | `units/institutions/france-polity`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-7223` | `sg3-institution-france-polity` | `sg3-institution-cand-7223` | `units/institutions/france-polity`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-7498` | `sg3-procedure-florentine-flour-revenue-concession-1676` | `sg3-procedure-cand-7498` | `units/procedures/florentine-flour-revenue-concession-1676`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-7729` | `sg3-family-buonaccorsi-family` | `sg3-family-cand-7729` | `units/families/buonaccorsi-family`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-8123` | `sg3-institution-spain-polity` | `sg3-institution-cand-8123` | `units/institutions/spain-polity`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-8169` | `sg3-family-barbaro-family` | `sg3-family-cand-8169` | `units/families/barbaro-family`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-8301` | `sg3-family-bon-family-venice` | `sg3-family-cand-8301` | `units/families/bon-family-venice`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-8308` | `sg3-institution-france-polity` | `sg3-institution-cand-8308` | `units/institutions/france-polity`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-8356` | `sg3-family-sandi-family` | `sg3-family-cand-8356` | `units/families/sandi-family`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-8833` | `sg3-institution-spain-polity` | `sg3-institution-cand-8833` | `units/institutions/spain-polity`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-9572` | `sg3-family-bourbon-dynasty` | `sg3-family-cand-9572` | `units/families/bourbon-dynasty`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-9573` | `sg3-family-hapsburg-dynasty` | `sg3-family-cand-9573` | `units/families/hapsburg-dynasty`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-9574` | `sg3-family-hohenzollern-dynasty` | `sg3-family-cand-9574` | `units/families/hohenzollern-dynasty`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-9982` | `sg3-procedure-paintings-for-engraved-reproduction` | `sg3-procedure-cand-9982` | `units/procedures/paintings-for-engraved-reproduction`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-9999` | `sg3-family-guardi-brothers` | `sg3-family-cand-9999` | `units/families/guardi-brothers`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-11046` | `sg3-event-florentine-art-exhibition-1706` | `sg3-event-cand-11046` | `units/events/florentine-art-exhibition-1706`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-11471` | `sg3-procedure-pieta-plan-selection` | `sg3-procedure-cand-11471` | `units/procedures/pieta-plan-selection`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-11549` | `sg3-event-cand-10715` | `sg3-event-cand-11549` | `units/events/sasso-personal-collection-auction-1803`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+| `cand-12414` | `sg3-procedure-florentine-flour-revenue-concession-1676` | `sg3-procedure-cand-12414` | `units/procedures/florentine-flour-revenue-concession-1676`；旧裁决或候选初始组，已保留在prior/history说明中。 |
+
+本次35项均不是两个并列现行组；与上次15项合计覆盖当前宽口径50项。此前报告的13项使用的具体筛选表达式及原始ID清单尚未找到，不能据宽口径结果宣称该历史口径已复现或13项逐项已覆盖；须先找回其查询和候选清单。未检出显式组的候选也不包含在这次核查中；应按当前数据另行复扫。

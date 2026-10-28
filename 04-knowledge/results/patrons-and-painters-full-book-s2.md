@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-28）
 
+**本批完成：S3多标签宽口径复核。** 当前50个主行含多个不同组字符串，既有15项加本批35项已逐条核对；额外字符串均为旧裁决或误映射保留的历史组，没有将其当成第二当前组。历史13项筛查的查询及ID清单尚未找回，不能声称该口径已复现；未检出显式组的候选须另行复扫。详见[核查记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-group-label-history-remainder-20261028)。
+
 **本批完成：事件题材类型扩展后的历史候选重审。** Pozzo壁画对La Storta叙事的表现及《De Bello Belgico》第二卷的战役题材各由pending重裁为formal；三册Pisani入城诗册仍待证，因题名说明创作场合不足以证明正文题材。详见[逐项裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-event-subject-pending-recheck-20261028)。
 
 **本批完成：Camillus画作的来源限定题材端点。** 登记 `cand-6840` 的书内故事事件及1条叙事范围字段；将其与Poussin画作以 `rel-2555 has_subject` 连接，该候选由pending重裁为formal。关系类型值域已扩至event，原书故事未被视为独立证实的历史事件。详见[裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-ch7-p185-camillus-subject-20261028)。
