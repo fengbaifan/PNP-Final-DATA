@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-28）
 
+**本批完成：第2章 p.47 罗马长官职位。** 沿用 `cand-4645` 的S3 `new` 组登记职位KU，新增2条Haskell来源字段；Taddeo的1631年任职裁为 `rel-2524 held_office` formal，Della Rovere家族先前持有职位的候选因受控谓词类型限制保留process-only pending。职位称号、仪式与受命绘制场景的其他候选保留各自后续去向；详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch2-prefecture-rome-20261028)。S2与独立复核台账未变。
+
 **本批完成：第3章 p.84 耶稣堂右横翼礼拜堂的复活奉献对象。** 沿用 `cand-11609` 的 S3 `new` 组，登记1个来源限定术语KU，新增2条Haskell书内来源支持字段。原文未给出奉献日期；该对象与Baglione同名绘画分开。对应S6候选因现有受控谓词不支持地点→奉献主题而保留process-only pending，重审条件见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch3-resurrection-dedication-20261028)。S2及独立复核台账未变。
 
 **本批完成：第8章 p.224画廊、拱顶壁画及两位画家端点。** `cand-7749`改判`same`并复用既有画廊KU；`cand-7750`及人物候选`cand-2094`、`cand-0902`登记3个KU，两个索引作品子项`cand-0903`、`cand-2095`均`same`到同一壁画。没有发现可复用的同名人物KU或其他候选，人物身份仍限Haskell书内表述。修正3条mentions，修订2条、增加3条当前S2 statement；5条版本待独立差异复核，不计入9,622条台账。S5新增17条字段（14条Haskell来源支持、3条项目中文暂译unverified）；5项S6候选去向为2 formal（`rel-2522 located_at`、`rel-2523 commissioned_by`）及3项process-only pending。5张端点卡定向渲染；字段复预览`record_changes=0`、warnings=0，卡片复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`，关系一致性五类阻断均为0。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch8-p224-apotheosis-gallery-20261028)。
@@ -3768,10 +3770,10 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
 | S2 | 15,480 statements、26,873 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。近期记录列出21条待独立差异复核的当前版本。以9,622首次出现的提交为基线，当前表有30条新增、41条同ID内容变化及1条删除；其中第6章p.162两条当前版本已核对与既有独立复核提交一致，其他69条及删除ID仍须逐项核平，不能将差异数直接当作未复核数。详见[S2版本比较过程](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-version-diff-baseline-9622-20261028)。 |
 | S3 | 按候选ID计12,433/12,433均有决定：same 2,114、new 5,089、conflict 9、excluded 106、undecided 5,115 | 12,408项有external_source为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。28个候选的35条来源决定虽与主行不同，当前复核确认其中34条（27个候选）均为same且目标与候选主行KU一致；唯一待证来源行是cand-2328的Princeton关联（“possibly”，1633/1653生年差异），主行new决定保持。new候选组字段结构筛查：87个无显式组（主行79、来源限定new-only 8），另21个多标签中8个仅尾随句点不同、13个仍需语义核组。 |
-| S4 | new候选已映射2,515/5,089；待映射2,574，其中直接关系端点916、其他1,658；KU共3,295 | 直接端点待映射按类型：term 401、work 136、place 135、archive 120、event 73、institution 50、person 1。 |
-| S5 | 14,723条字段，1,628条unverified | 本批新增2条Haskell来源支持字段；字段复预览`record_changes=0`、warnings=0。 |
-| S6 | 裁决记录2,062项：formal 1,219、pending 706、rejected 137；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批奉献关系候选因受控谓词域值域不适配而保留process-only pending。 |
-| 正式关系表 | 2,521行：2,480 formal、41 pending | 本批未新增关系表记录；奉献候选及其重审条件保留在过程记录。 |
+| S4 | new候选已映射2,516/5,089；待映射2,573，其中直接关系端点915、其他1,658；KU共3,296 | 直接端点待映射按类型：term 401、work 136、place 135、archive 120、event 73、institution 49、person 1。 |
+| S5 | 14,725条字段，1,628条unverified | 本批新增2条Haskell来源支持字段。 |
+| S6 | 裁决记录2,064项：formal 1,220、pending 707、rejected 137；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批2项候选为1 formal、1 process-only pending。 |
+| 正式关系表 | 2,522行：2,481 formal、41 pending | 本批新增 `rel-2524 held_office`；家族持有职位的候选与重审条件保留在过程记录。 |
 | 缺端点与backlog | 338条关系statement至少缺一个S2端点候选ID；backlog 58条（15 completed、43 undecided） | 未具名Paceco画作的开放端点已保留待证；严格审计backlog pending=0，`bl-0058`待证条件保留。 |
 
 S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按类型分布。
@@ -3783,22 +3785,22 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 | archive | 668 | 289 | 120 |
 | term | 660 | 445 | 401 |
 | place | 301 | 128 | 135 |
-| institution | 117 | 81 | 50 |
+| institution | 117 | 81 | 49 |
 | event | 112 | 65 | 73 |
 | family | 18 | 13 | 0 |
 | procedure | 2 | 2 | 0 |
 | 类型尚未确定 | 626 | 471 | 0 |
-| **合计** | **5,115** | **2,992** | **916** |
+| **合计** | **5,115** | **2,992** | **915** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。另有零关系KU及超50连接对象属于非阻断诊断。结构通过不等于S2独立语义接收。当前S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面仍等待用户明确启动。
 
 #### 后续工作顺序
 
-1. **继续S4高解锁价值直接端点，并同批裁决全部关联S6候选。** 当前2,574个`new`候选待登记，其中916个直接关系端点（term 401、work 136、place 135、archive 120、event 73、institution 50、person 1），其他1,658个。按可成立关系解锁价值和端点稳定性逐批处理；每批为新KU补必需S5字段，并使每条关联S6候选落为formal、pending（附解决条件）或rejected。类型域值不兼容时保留明确pending，不绕过受控schema。
+1. **继续S4高解锁价值直接端点，并同批裁决全部关联S6候选。** 当前2,573个`new`候选待登记，其中915个直接关系端点（term 401、work 136、place 135、archive 120、event 73、institution 49、person 1），其他1,658个。按可成立关系解锁价值和端点稳定性逐批处理；每批为新KU补必需S5字段，并使每条关联S6候选落为formal、pending（附解决条件）或rejected。类型域值不兼容时保留明确pending，不绕过受控schema。
 2. **先做近期S2版本差异复核，再继续章节语义复核。** 当前15,480条statement对应9,622条统一复核记录，statement ID／来源版本尚未核平；近期21条新增或修订的当前statement版本待差异复核，其中包括第8章p.224本批5条。先独立核对版本差异，再按章节完整阅读正文、注释和必要图像；未独立审读的版本不计入接收。
 3. **按触发条件推进跨章S3身份组。** 28个候选／35条来源决定差异中，34条`same`来源行已确认与主行指向相同KU；`cand-2328`Princeton来源行仍待直接身份／年代证据。对13个多标签候选核定语义组，对87个无显式组的`new`候选依来源补组；之后按类型及关系端点价值处理5,115项`undecided`（其中2,992项为直接关系端点），逐项记录复用、新增、冲突或含证据条件的待证去向。S3仅在身份组审计、S4登记或新证据触发时重开相关对象。
 4. **收束缺端点与backlog对象。** 338条关系statement至少缺一个S2候选端点ID；58条backlog中15条completed、43条undecided。逐条判断现有S1→S3/S4是否已覆盖；具名对象有据可识别时进入对应流程，身份或类型不足时记录最小待证条件。
-5. **定向补S5并核平S6版本台账。** 当前14,723条S5字段中1,628条`unverified`，按身份、版本、角色、时间和地点对关系结论的影响排序补证。S6历史裁决2,062项与当前10,682条`relation_candidate=true` statement版本尚未核平；核对statement ID和版本后再报告覆盖，不计算不可靠完成率。
+5. **定向补S5并核平S6版本台账。** 当前14,725条S5字段中1,628条`unverified`，按身份、版本、角色、时间和地点对关系结论的影响排序补证。S6历史裁决2,064项与当前10,682条`relation_candidate=true` statement版本尚未核平；核对statement ID和版本后再报告覆盖，不计算不可靠完成率。
 6. **S7后置。** 待S3候选去向、S2版本和独立审读状态、关键S5字段、S6关系裁决及缺端点/backlog均可追溯，再做发布预检。知识发现和页面仍等待明确启动。
 
 #### 提速安排

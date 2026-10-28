@@ -17834,3 +17834,17 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 S6：`st-chp3-seciv-l75-81-chapel-dedicated-to-resurrection` 为既有地点 KU `units/places/gesu-right-transept-chapel-st-francis-xavier` → 新术语 KU 的奉献候选。原文支持奉献事实，但当前 `dedicated_to` 的域值域仅为 work → person，不能表达 place → term；因此保留 process-only `pending`。待受控词表和域值域能准确表达地点对奉献对象的关系后，按原文及其无日期限定重审；不以 `has_subject` 或其他近似谓词代替。未写入 `relations.csv`。本次不构成S2独立语义接收。
 
 字段复预览无变化且 warnings=0；新卡关系与字段投影预览无差异。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性五类阻断均为0。批后 KU 3,295，S4 new候选已映射2,515/5,089，待映射2,574；S5 14,723条字段（1,628条unverified）。S6历史裁决2,062项（formal 1,219、pending 706、rejected 137），与当前statement版本尚未核平，不报告完成率。
+
+<a id="s4-s5-s6-ch2-prefecture-rome-20261028"></a>
+### S4–S6 第2章 p.47 罗马长官职位与任职关系（2026-10-28）
+
+沿用 `cand-4645` 的 `new` 决定和 `sg3-institution-cand-4645` 身份组，登记[罗马长官职位](../../../04-knowledge/units/institutions/prefecture-of-rome-office.md)。本对象是来源限定的职位及其权力，以 institution 登记，不等同城市、任职者或某次仪式；未独立核验法律沿革。第2章印刷页47 L48–50记Taddeo于1631年获得称号、此前该职位属于Della Rovere家族，并称职位权力随后恢复；未给出任期结束或完整职权。S5新增两条书内支持字段 `enr-18643`、`enr-18644`。S3决定值、S2 statement与mention未变。
+
+| S2关系候选 | 裁决 | 依据及边界 |
+|---|---|---|
+| `st-chp2-seciv-l45-52-taddeo-prefect-title` | formal `rel-2524 held_office` | Taddeo→职位；L48授予称号、L50及后文说明其职位权力语境；时间只记1631获职，结束未载。 |
+| `st-chp2-seciv-l45-52-della-rovere-prior-prefecture` | process-only pending | 原文将先前职位归于Della Rovere家族，未在此句识别任职个人；现有 `held_office` 不接受 family→institution。待忠实表达家族持有职位的受控谓词及域值域具备后重审，不能虚构具体任职者或改写为家族成员关系。 |
+
+跨页的职位称号 `cand-4752` 为不同类型候选，仍沿用既有S3决定，待其S4及关联S6批次审查；仪式 `cand-4772` 和受命绘制的场景 `cand-4773` 均仍待来源锚点及身份审查，未推断画作完成。本批只裁决以 `cand-4645` 为直接端点的两条S6候选。未新增外部身份或事实核验。
+
+新职位卡及Taddeo人物卡定向渲染后均复预览无差异；字段复预览 `record_changes=0`、warnings=0。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`，关系一致性五类阻断为0。批后KU 3,296，S4已映射2,516/5,089条new候选，待映射2,573；S5字段14,725条（1,628条unverified），relations表2,522行（2,481 formal、41 pending）。审计是机械核对，不构成S2独立接收。

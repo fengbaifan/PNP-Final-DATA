@@ -93,4 +93,10 @@ English: This card refers to Taddeo Barberini as a person and remains distinct f
 
 ## 关系与证据
 
-本轮完成身份登记；S2 中涉及的创作、委托、地点、家族和人物陈述仍须按正式端点及证据在 S6 审查。本卡未新增正式关系。
+书内所述罗马长官任职及证据见下方关系记录。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 担任职务（`held_office`） | [罗马长官职位（Office of Prefect of Rome）](../institutions/prefecture-of-rome-office.md) | 第2章p.47 L48–50记述Taddeo获称号及职位权力恢复；时间：1631年获职；结束时间未载；角色：罗马长官；范围：仅记录Haskell所述1631年获职位及其后行使职位权力的语境；不推断任期结束或完整职权。；证据：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_iv.md)；haskell-1980-rev-ed；Chapter 2, printed p. 47, lines 48–50; statement=st-chp2-seciv-l45-52-taddeo-prefect-title |
