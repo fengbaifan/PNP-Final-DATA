@@ -18148,3 +18148,15 @@ S2及独立复核台账未变；前批两条修订statement和两条mention仍�
 沿用 `cand-6840` 的S3来源限定new组，登记 `units/events/camillus-schoolmaster-livy-story-haskell`，不补故事年代、Livy具体作品或当事人未决身份；未独立核实事件发生。新增 `enr-18667` 保存原书叙事范围。
 
 `st-chp7-p185-i03` 由process-only pending重裁为**formal** `rel-2555 has_subject`（Poussin画作→书内题材故事）。Haskell原文明确写“The subject was chosen from Livy”并叙述Camillus拒绝教师提议及交还教师；关系只表达其对画作题材的说法，不将故事当已核实事件或认定具体Livy文献。为忠实表达这一常见对象类型，`has_subject`值域新增event，规则范围与限制记入governance CHANGELOG；既有反向类型沿用。S2和统一独立复核台账未改。
+
+
+<a id="s6-event-subject-pending-recheck-20261028"></a>
+### 事件题材类型扩展后的历史pending重审（2026-10-28）
+
+`has_subject` 值域现允许event；逐项重读原文及现有端点，而非按类型变化自动转正：
+
+- `st-chp3-seciv-l130-139-cycle-culminates-in-la-storta-promise` 由pending重裁为 **formal** `rel-2556`，Pozzo壁画组→La Storta允诺叙事。Haskell称该叙事为表现耶稣会早期事件的壁画高潮；只表示来源所述宗教叙事题材，不独立证明事件真实性。
+- `st-chp5-p137-de-bello-farnese-campaigns` 由pending重裁为 **formal** `rel-2557`，《De Bello Belgico》→Farnese低地国家战役组。原文限定第二卷“a celebration of ... campaigns”；虽然书目KU表示整部作品，边的scope明确限定第二卷，不推及其他卷、具体战役或日期。
+- `st-chp10-p326-n01-pamphlet-titles`、`st-chp10-p326-n01-pamphlet2-has-subject`、`st-chp10-p326-n01-pamphlet3-has-subject` 继续 **pending**：新值域已消除类型阻断，但引文题名仅说明诗册为Pisani入城而作，不能单凭题名证明各册正文表现该事件。被引原册未读；待核具体内容或适合表达创作场合／目的的受控关系后重审，不以题名目的代替题材。
+
+本次两项旧pending重裁，S6总裁决数不变；S2及独立复核台账不变。

@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-28）
 
+**本批完成：事件题材类型扩展后的历史候选重审。** Pozzo壁画对La Storta叙事的表现及《De Bello Belgico》第二卷的战役题材各由pending重裁为formal；三册Pisani入城诗册仍待证，因题名说明创作场合不足以证明正文题材。详见[逐项裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-event-subject-pending-recheck-20261028)。
+
 **本批完成：Camillus画作的来源限定题材端点。** 登记 `cand-6840` 的书内故事事件及1条叙事范围字段；将其与Poussin画作以 `rel-2555 has_subject` 连接，该候选由pending重裁为formal。关系类型值域已扩至event，原书故事未被视为独立证实的历史事件。详见[裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-ch7-p185-camillus-subject-20261028)。
 
 **本批完成：马赛书内地点端点。** 沿用 `cand-7093` 的 `new` 组登记1个地点KU并补入1条书内称名。Guercino画作位置候选保留pending：地点已映射，仍需处理历史位置谓词、原书“now”的时点及转引范围；未认定现今馆藏。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-ch7-marseilles-location-20261028)。
@@ -3820,8 +3822,8 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | S3 | 按候选ID计12,433/12,433均有决定：same 2,119、new 5,095、conflict 9、excluded 106、undecided 5,104 | 12,408项有external_source为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。28个候选的35条来源决定虽与主行不同，当前复核确认其中34条（27个候选）均为same且目标与候选主行KU一致；唯一待证来源行是cand-2328的Princeton关联（“possibly”，1633/1653生年差异），主行new决定保持。先前结构筛查有87个无显式组，其后5个主行补组；另21个多标签中8个仅尾随句点不同、13个仍需按原筛查口径核平。余项需按当前数据复扫。 |
 | S4 | new候选已映射2,531/5,095；待映射2,564，其中直接关系端点906、其他1,658；KU共3,310 | 直接端点待映射按类型：term 401、work 135、place 128、archive 120、event 72、institution 49、person 1。 |
 | S5 | 14,748条字段，1,628条unverified | 本批新增1条Haskell来源支持字段。 |
-| S6 | 裁决记录2,099项：formal 1,245、pending 719、rejected 135；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批2项委托／订购formal、2项题材／旧位置pending；肖像馆藏分歧仍pending。 |
-| 正式关系表 | 2,553行：2,512 formal、41 pending | 本批新增2条委托及2条书内作者归属；文献题献待具体题记或馆藏目录证据。 |
+| S6 | 裁决记录2,099项：formal 1,247、pending 717、rejected 135；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批2项委托／订购formal、2项题材／旧位置pending；肖像馆藏分歧仍pending。 |
+| 正式关系表 | 2,555行：2,514 formal、41 pending | 本批新增2条委托及2条书内作者归属；文献题献待具体题记或馆藏目录证据。 |
 | 缺端点与backlog | 338条关系statement至少缺一个S2端点候选ID；backlog 58条（15 completed、43 undecided） | 未具名Paceco画作的开放端点已保留待证；严格审计backlog pending=0，`bl-0058`待证条件保留。 |
 
 S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按类型分布。直接端点按当前relation_candidate=true的statement主／客体候选ID去重，与候选级决定交叉重算；本批之前旧统计少计4项，已修正。
