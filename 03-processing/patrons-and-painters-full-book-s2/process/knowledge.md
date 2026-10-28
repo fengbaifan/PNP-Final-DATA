@@ -18343,3 +18343,35 @@ S2 statement、mention及统一独立复核台账均未改变；本批没有S2�
 `st-chp3-seciv-l118-128-gaulli-paid-100-scudi` 的关系候选标记为false，不将未指明的付款者补成边。`st-chp3-seciv-l118-128-gaulli-painted-two-further-scenes` 仍是关系候选，但其作品对象 `cand-5342` 当前为 `undecided`，只有未命名的“两幅更多场景”范围，故不登记KU或正式创作边，继续process-only pending；不将它们并入《Death of St Francis Xavier》单件作品。
 
 两张受影响卡定向预览后渲染，写后复预览无差异；S5预览 `record_changes=0`、`warnings=0`。本批不改S2 statements、mentions或统一独立复核台账；pending的两幅未名场景不因本次登记被关闭。
+
+
+<a id="s3-s4-s5-s6-ch15-p362-farsetti-statues-20261028"></a>
+### 第15章 p.362 Farsetti 四尊雕像跨章身份与关系裁决（2026-10-28）
+
+#### S3跨章身份组与去向
+
+直接核对 `CHP-15.pdf` PDF物理页2、印刷页362及当前来源段 `chp-15:15_CHP-15_sec_i:l16-25`。印本逐字列出 “Michelangelo’s Risen Christ in Santa Maria sopra Minerva, Sansovino’s Bacchus, Giambologna’s Mercury and Bernini’s Neptune”，并称这是Farsetti选出的四尊“represent modern sculpture”的雕像；页图支持当前S0转录，没有因此改动S2原文或mention。
+
+| 候选 | 身份比较与裁决 | 当前去向 |
+|---|---|---|
+| `cand-10437` 正文《Risen Christ》；`cand-1661` 索引子目 | M.csv#201子目明列 `Risen Christ (in Santa Maria sopra Minerva, Rome)`，与第15章正文称名及地点完全对应；共用既有组 `workgrp-115824c7c6bcea`，只生成一个work身份。 | 二者均按既有 `new` 组映射至 `units/works/michelangelo-risen-christ-santa-maria-sopra-minerva`。 |
+| `cand-10438` Santa Maria sopra Minerva | 原S3 `new` 组与已有 `units/places/santa-maria-sopra-minerva` 指同一教堂；本次按原名和地点语境改判 `same`。原 `sg3-place-cand-10438` 只作为历史初判保留，不再是当前身份组。 | 映射已有教堂KU；不另建地点卡。 |
+| `cand-10439` Sansovino《Bacchus》 | 与卡拉瓦乔《Bacchus》创作者和对象不同；保留独立组 `workgrp-97b4dd6739e800`。 | 新建来源限定work `units/works/sansovino-bacchus-farsetti-selection`。 |
+| `cand-10440` Giambologna《Mercury》 | 与其余三件雕像身份分开；保留独立组 `workgrp-cfe4904bc6efe5`。 | 新建来源限定work `units/works/giambologna-mercury-farsetti-selection`。 |
+| `cand-10441` Bernini《Neptune》 | 与其余三件雕像身份分开；与Lorenzo Mattielli的布吕尔住所群《Neptune》喷泉作品区分；保留独立组 `workgrp-20ac672db390bc`。 | 新建来源限定work `units/works/bernini-neptune-farsetti-selection`。 |
+| `cand-12214` `modern sculpture` | 按S3既有 `sg3-term-cand-12214` 记录为该段落类别用语；不并入意大利启蒙或威尼斯新古典主义运动，也不为该词增补一般年代边界。 | 新建来源限定term `units/terms/modern-sculpture-farsetti-selection`。 |
+
+`cand-4392` 是第2章p.35 Bernini为圣彼得巴尔达基诺所作、后被十字架替代的未执行方案，原决定为 `excluded`；不与米开朗基罗的现有Risen Christ合并。其他四件作品没有找到同类型、同对象的既有KU；本批按Haskell来源级称名登记，未作外部馆藏或作者核查。
+
+#### S4、S5与S6
+
+本批登记4件work及1个来源限定term；为正文和索引两个同一作品候选均映射Risen Christ KU，并把Santa Maria候选复用至既有教堂。五卡新增14条Haskell书内字段，均为 `source_backed`，没有加入外部验证事实。
+
+| statement | 裁决 | 依据与去向 |
+|---|---|---|
+| `st-chp15-p362-risen-christ-selected` | process-only pending | S2谓词 `selected_as_example_of_modern_sculpture` 在当前受控关系类型中没有忠实对应项。候选关系确有原文依据，但不改写成 `created_by` 或宽泛弱关系；`cand-12214` 的词项登记不消除谓词问题。 |
+| `st-chp15-p362-bacchus-selected` | process-only pending | 同上；保留Farsetti选例与作品间的来源陈述，不据此强建formal边。 |
+| `st-chp15-p362-mercury-selected` | process-only pending | 同上；不把选择行为误作创作、委托或收藏关系。 |
+| `st-chp15-p362-neptune-selected` | process-only pending | 同上；不把选择行为误作创作、委托或收藏关系。 |
+
+核对 `relations.csv` 与已有process记录，四条statement先前均无formal行或已记载的相反/撤销裁决；没有一项被反证，故不记为 `rejected`。谓词不兼容导致四项继续process-only pending，不向正式关系表写入虚构谓词。另，原句的 “Michelangelo’s” 和 “in Santa Maria sopra Minerva” 在当前S2条目里不是独立作者或地点statement；仅保留来源称名与地点限定，并复用地点KU，不新增 `created_by` 或 `located_at` 边。S2 statements、mentions和9,622条统一复核台账未改；当前版本的独立复核状态不变。
