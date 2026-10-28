@@ -57,6 +57,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | ← 为其所涉对象（`subject_of`，反向投影） | [莫拉为亚历山大七世作像（Mola painting the portrait of Pope Alexander VII）](../works/agostino-masucci-mola-painting-the-portrait-of-pope-alexander-vii.md) | 角色：画中肖像的对象；范围：莫拉所绘教宗肖像中的人物；不据此认定教宗委托马苏奇；原断言与证据见发出端卡片“莫拉为亚历山大七世作像（Mola painting the portrait of Pope Alexander VII）”：[来源](https://collection.nationalmuseum.se/en/collection/item/82794/)；src-7da5e332d8aac6d6；Description |
+| ← 为其所涉对象（`subject_of`，反向投影） | [哈斯克尔所述亚历山大七世日记相关摘录出版（Publication of Relevant Extracts from Pope Alexander VII’s Diary as Reported by Haskell）](../archives/alexander-vii-diary-extracts-haskell-report.md) | This edge records the subject of the extracts as reported by Haskell; it does not assert that the Pope's apparent planning authority was an independently verified decision.；角色：Person whose artistic interests and planning role are reported；范围：Haskell reports that the extracts concern Alexander VII's interest in the arts and include an editors' qualified interpretation of his apparent role in planning an unnamed building.；原断言与证据见发出端卡片“哈斯克尔所述亚历山大七世日记相关摘录出版（Publication of Relevant Extracts from Pope Alexander VII’s Diary as Reported by Haskell）”：[来源](../../../02-sources/02-Markdown/20_CHP-20Postscript.md)；haskell-1980-rev-ed；Chapter 20, printed p.401, lines 95–96; statements=st-chp20-p401-alexander-diary-arts-interest-publication,st-chp20-p401-alexander-diary-planning-agency |
 
 ### 身份与外部链接
 

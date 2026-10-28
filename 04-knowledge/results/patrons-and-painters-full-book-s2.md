@@ -2,6 +2,8 @@
 
 ### 近期批次记录（2026-10-28）
 
+**本批完成：第20章 p.401 亚历山大七世日记摘录出版archive端点与S6裁决。** `cand-10974`沿用既有S3 `new`身份组，登记为来源限定archive；未将其冒充日记原件或已独立核实的具体版本。将Bernini来访statement拆清为archive→Bernini，并新增摘录提供教宗艺术兴趣视角的archive→Alexander VII statement；两项均保留Haskell转述边界。脚注仅列“Krautheimer and Jones”，不推断其全名或作者／编者角色。3项当前S6候选formal合并为2条边（`rel-2501`、`rel-2502`）；新建archive卡并更新两个人物卡关系投影。两项当前S2版本待独立差异复核，不计入9,622条台账。定向渲染、字段复预览、严格表审计及关系一致性审计通过。详见[批次过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s6-chp20-p401-diary-extracts-20261028)。
+
 **本批完成：第9章 pp.273–274 Zompini 图像方案直接端点。** 沿用`cand-8754`既有S3 `new`组，登记1个work KU，新增6条Haskell来源字段。对照原文修订`st-chp9-p274-zompini-virgin-typology`的错误主体映射；三项直接S6候选现为2项formal（`rel-2499 designed_by`、`rel-2500 has_subject`）和1项process-only pending。修订的1个S2当前statement版本待独立差异复核，不计入9,622条台账。方案卡及Zompini、Virgin Mary两张关联卡定向渲染并复预览无差异；严格表审计与关系一致性阻断均为0。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-zompini-iconographic-proposal-20261028)。
 
 **本批完成：第9章 p.251／p.268 Udine Cathedral 直接端点及 Manin 风格关系。** `cand-8235`沿用既有S3 `new`组，新增1个place KU及2条Haskell书内字段。`st-chp9-p251-manin-style-at-udine-cathedral` formal为`rel-2498 manifested_at`；`st-chp9-p268-manin-udine-offer-1706`保留process-only pending，避免把装饰提议写成已接受或完成的委托。新地点与Manin风格卡定向渲染并复预览无差异；严格表审计与关系一致性阻断为0，S2与独立复核台账未变。详见[本批过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp9-udine-cathedral-20261028)。
@@ -3751,12 +3753,12 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 段落处置覆盖完成；不代表S2语义验收。 |
-| S2 | 15,470 statements、26,872 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。p.174本批新增1条并修订／互链2条当前statement，共3个当前版本待独立差异复核，未计入台账；第9章p.274本批修订1个当前statement版本待独立差异复核，也未计入台账。p.56 Tessin等既往批次也有待差异复核版本。其他待差异复核项包括p.57注3、p.326、p.72、p.39等批次中修订或新增的当前版本；p.189五条已复核；p.162两条已差异复核但未并入台账；第7章p.192 i01、i27待复核；第13章收据—卷册、拱顶—祭坛席statement待复核；第10章p.281七条、p.384五条及p.286一条待差异复核。台伯河批次没有改S2。 |
+| S2 | 15,471 statements、26,872 mentions；统一复核台账9,622条 | 尚未独立接收；台账与statement ID／来源版本尚未核平。第20章p.401本批修订1条并新增1条当前statement，均待独立差异复核，未计入台账。其他待差异复核项包括p.174三个当前版本、第9章p.274一个当前版本、p.56 Tessin、p.57注3、p.326、p.72、p.39等批次中修订或新增的当前版本；p.189五条已复核；p.162两条已差异复核但未并入台账；第7章p.192 i01、i27待复核；第13章收据—卷册、拱顶—祭坛席statement待复核；第10章p.281七条、p.384五条及p.286一条待差异复核。独立复核前不增加统一台账分子。 |
 | S3 | 按候选ID计12,433/12,433均有决定：same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118 | 12,408项有`external_source`为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。另有28个候选的35条来源决定与候选级决定不同；决定行覆盖完整不等于语义收口。 |
-| S4 | new候选已映射2,498/5,088；待映射2,590，其中直接关系端点927、其他1,663；KU共3,278 | 直接端点待映射按类型：term 402、place 139、archive 123、work 139、event 73、institution 50、person 1。 |
-| S5 | 14,657条字段，1,627条unverified | 本批新增6条Haskell来源字段；全书仍有字段待证。unverified数不是缺失字段数，后续按类型必需字段及关系影响度定向处理。 |
-| S6 | 裁决记录2,025项：formal 1,197、pending 694、rejected 134；当前relation_candidate=true为10,673条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | 本批2项formal和1项process-only pending，详见本批过程记录。 |
-| 正式关系表 | 2,499行：2,458 formal、41 pending | 本批新增`rel-2499`与`rel-2500`。 |
+| S4 | new候选已映射2,499/5,088；待映射2,589，其中直接关系端点926、其他1,663；KU共3,279 | 直接端点待映射按类型：term 402、place 139、archive 122、work 139、event 73、institution 50、person 1。 |
+| S5 | 14,661条字段，1,627条unverified | 本批新增4条Haskell来源字段；全书仍有字段待证。unverified数不是缺失字段数，后续按类型必需字段及关系影响度定向处理。 |
+| S6 | 裁决记录2,028项：formal 1,200、pending 694、rejected 134；当前relation_candidate=true为10,674条，历史裁决台账与当前statement版本仍差1项，不报告完成率或剩余数 | 本批3项候选均formal，合并为2条关系边，详见本批过程记录。 |
+| 正式关系表 | 2,501行：2,460 formal、41 pending | 本批新增`rel-2501`与`rel-2502`。 |
 | 缺端点与backlog | 337条关系statement至少缺一个S2端点候选ID；backlog 58条（15 completed、43 undecided） | 本批未改变缺端点或backlog；严格审计backlog pending=0，`bl-0058`待证条件保留。 |
 
 S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按类型分布。直接端点按当前`relation_candidate=true`语句的 subject/object candidate ID 去重；S4列仅计`new`且尚未映射 KU 的候选。
@@ -3765,27 +3767,27 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 |---|---:|---:|---:|
 | person | 1,047 | 422 | 1 |
 | work | 1,566 | 1,078 | 140 |
-| archive | 668 | 289 | 123 |
-| term | 660 | 445 | 404 |
+| archive | 668 | 289 | 122 |
+| term | 660 | 445 | 402 |
 | place | 302 | 128 | 139 |
 | institution | 117 | 81 | 50 |
 | event | 112 | 65 | 73 |
 | family | 18 | 13 | 0 |
 | procedure | 2 | 2 | 0 |
 | 类型尚未确定 | 626 | 471 | 0 |
-| **合计** | **5,118** | **2,994** | **928** |
+| **合计** | **5,118** | **2,994** | **926** |
 
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。另有零关系KU及超50连接对象属于非阻断诊断。结构通过不等于S2独立语义接收。当前S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面仍等待用户明确启动。
 
 #### 后续工作顺序
 
-1. **并行推进S2台账核平与分章独立语义审读。** 当前15,470条statement对应9,622条统一复核记录，但statement ID／来源版本未核平；先建立可追溯的当前版本匹配，不以台账条数作覆盖率。接续已标记的差异项：第7章p.192 i01/i27、第13章收据—卷册与拱顶—祭坛席、第10章p.281七条、p.384五条及p.286一条；p.57注3、p.326、p.72、p.39等批次改动也须独立差异复核后才并入台账。按章节逐段对照正文与注释，修订项保存前后版本及原因；独立复核完成前不计入分子或宣称接收。
+1. **推进S2版本台账核平与分章独立语义审读。** 当前15,471条statement对应9,622条统一复核记录，但statement ID／来源版本未核平；先建立可追溯的当前版本匹配，不以台账条数作覆盖率。接续已标记的差异项：第20章p.401两项当前statement、第7章p.192 i01/i27、第13章收据—卷册与拱顶—祭坛席、第10章p.281七条、p.384五条及p.286一条；p.174、第9章p.274、p.56 Tessin、p.57注3、p.326、p.72、p.39等批次改动也须独立差异复核后才并入台账。按章节逐段对照正文与注释，保留前后版本及修订理由；独立复核完成前不计入分子或宣称接收。
 2. **跨章身份与S3按类型收口。** 当前5,118项`undecided`中2,994项是直接关系端点；28个候选的35条来源限定决定仍与候选级决定不同。按类型先审类型未定的626项（其中471个直接端点），再按work、term、person、archive、place、institution、event、family、procedure；每批先跨章聚合同一对象及证据，再逐项落为same、new、conflict、excluded或有明确触发条件的undecided。第7章p.174 Tacca作品与第17章Manfrin collection继续按已记录的待证条件处理，不为清零强制合并或建卡。
-3. **按有效解锁价值推进S4，并在同批完成S5/S6。** 目前未映射的new候选2,591项，其中直接关系端点928项（term 402、work 140、archive 123、place 139、event 73、institution 50、person 1）。每批优先满足：另一端已有KU、S3跨章身份稳定、原文证据充分、受控谓词可精确表达；同时补影响身份／版本／角色／时间／地点的S5字段并逐条裁决S6。近期批次完成`cand-4453`台伯河及可表达关系裁决；本次完成`cand-8235` Udine Cathedral端点及Manin风格地点关系。`cand-6156`、`cand-6337`的原始关联数虽各为3，但谓词不适配受控词表，暂不按关系优先登记；只有合适关系模型或新证据出现才重评。不可精确表达的关系留process-only pending，不近似写入正式表。`cand-2189`已映射Richelieu；相关未映射Treccani行为来源级identity-only记录，不纳入S4队列。
+3. **按有效解锁价值推进S4，并在同批完成S5/S6。** 目前未映射的new候选2,589项，其中直接关系端点926项（term 402、work 139、archive 122、place 139、event 73、institution 50、person 1）。每批先核对该候选能实际解锁的未裁决S6项、另一端KU状态、S3跨章身份稳定度、原文证据与谓词适配，再决定登记；同时补影响身份／版本／角色／时间／地点的S5字段并逐项裁决S6。本批`cand-10974`已登记，避免重复排队；`cand-6156`、`cand-6337`虽各有关联候选但现有谓词不忠实，暂不优先登记；只有关系模型或新证据能准确表达时再重评。不可精确表达的关系留process-only pending，不近似写入正式表。`cand-2189`已映射Richelieu；相关未映射Treccani行为来源级identity-only记录不纳入S4队列。
 4. **把337条缺少S2端点候选ID的关系statement纳入章次审读。** 有原文锚点且可确认对象后才补candidate映射；身份不明继续记录缺口和触发条件。backlog 58条（15 completed、43 undecided，机械pending=0），未决项有条件地跟随相应S3身份或S2证据工作，不当作审计错误或强建KU理由。
-5. **S5按真实缺口补证。** 14,651条字段中1,627条为`unverified`，并非缺失字段数；按类型必需字段、关系端点影响和当前证据差距逐项选择。先在已有本地原书、页图、馆藏目录或权威记录中核查；仅把来源支持到的事实写入对应字段，并标明证据状态，不做全库泛化外采。
+5. **S5按真实缺口补证。** 14,661条字段中1,627条为`unverified`，并非缺失字段数；按类型必需字段、关系端点影响和当前证据差距逐项选择。先在已有本地原书、页图、馆藏目录或权威记录中核查；仅把来源支持到的事实写入对应字段，并标明证据状态，不做全库泛化外采。
 6. **S7保持后置。** 待S2独立审读与版本台账可核、S3决定及跨章组证据完整、S4 new候选均已映射或有明确阻断、关键S5缺口均有去向、当前S6候选均有正式决定或条件化pending、端点backlog可追溯后，再做发布预检。知识发现与页面仍等待用户明确启动。
 
 #### 提速安排
 
-工作批次围绕一个可审查的问题包组织：先以数据查询计算每个未映射端点能解锁的S6候选数，再人工核对它的跨章身份组和来源；复用证据已充分的身份组，只有触发证据变化时才重开S3。每批只更新受影响的表和卡，先预览后写回，再跑严格表审计及关系一致性审计。S5字段按用途补足，不对全部unverified对象做泛化外采。S2台账核平、独立语义复核和机械审计分别汇报；每批记录formal／pending／rejected实际决定、待证条件、未解端点以及本批statement版本是否完成独立差异复核。CI报错单独按具体Actions日志诊断，不把通用exit code当根因。
+工作批次围绕一个可审查的问题包组织：先按S2来源证据、未裁决S6数量、另一端KU状态及S3身份稳定度筛选候选，再人工核对跨章身份与谓词适配；不要只按连接数排队。现阶段优先处理5,118项S3 `undecided`的跨章分组，并核平9,622条S2复核记录的statement ID／版本；S4直接端点按实际关系解锁价值分批进入，同批补必要S5字段及S6决定。复用证据已充分的身份组，仅在身份或来源证据变化时重开S3。每批只更新受影响的表和卡，先预览后写回，再跑严格表审计及关系一致性审计。S5字段按用途补足，不对全部unverified对象做泛化外采；S2台账核平、独立语义复核和机械审计分别汇报。每批保留formal／pending／rejected去向、待证条件、未解端点以及当前statement版本是否独立复核。CI失败按具体Actions日志诊断，不把通用exit code当根因。

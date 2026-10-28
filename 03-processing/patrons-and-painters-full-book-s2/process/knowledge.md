@@ -17610,3 +17610,29 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 新方案卡、Gaetano Zompini人物卡和Virgin Mary人物卡均经单卡预览后定向渲染；清除两张旧卡中与本批裁决冲突的“无正式关系／全部待审”占位摘要。写后字节核验通过，三卡复预览无差异。`build_field_facts.py`复预览无字段ID变更。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。
 
 **批后状态。** S2仍为15,470 statements／26,872 mentions；统一独立复核台账9,622条且statement ID／来源版本未核平，本批修订的1个当前statement版本待独立差异复核。S3决定值无变化：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4新增1条new候选映射：2,498/5,088已登记，待映射2,590；直接关系端点927、其他1,663；KU共3,278。S5共14,657条字段（1,627条`unverified`）。S6历史裁决累计2,025项（formal 1,197、pending 694、rejected 134），当前`relation_candidate=true`仍为10,673项，历史台账与当前statement版本差1，不据此报告完成率。`relations.csv`共2,499行（2,458 formal、41 pending）。337条关系statement仍缺至少一个S2端点候选ID；backlog 58条（15 completed、43 undecided）。
+
+<a id="s4-s6-chp20-p401-diary-extracts-20261028"></a>
+### S4–S6 第20章 p.401 亚历山大七世日记摘录出版端点（2026-10-28）
+
+#### S3身份组与S4登记
+
+直接端点队列中的`cand-10974`已有S3候选级`new`决定及身份组`archive-group-e1c4a336188e`。根据第20章p.401 L95–96及脚注7，仅将其登记为Haskell所述“亚历山大七世日记相关摘录出版”的来源限定archive对象；它不是日记手稿，也不是已独立识别或查阅的特定版本。沿用`aln-11142`，映射至[新建archive KU](../../../04-knowledge/units/archives/alexander-vii-diary-extracts-haskell-report.md)，没有改动S3决定或身份组。脚注仅列“Krautheimer and Jones”，未将二人推断为作者或编者；全名与责任角色仍未确定。
+
+#### S2当前版本修订
+
+将`st-chp20-p401-alexander-diary-berninivisits`的主体改为摘录出版archive、对象改为Bernini，并把claim和quote收窄至“Bernini was a very frequent visitor”。没有推断具体访问地点、某次访问或被引摘录的独立内容。新增`st-chp20-p401-alexander-diary-arts-interest-publication`，记录Haskell称相关摘录的出版为Alexander VII艺术兴趣提供了“unusually fresh view”。既有`st-chp20-p401-alexander-diary-planning-agency`保留其对编辑解释的归因和“apparently felt”限定。没有新增mention；本批新增或修订的两个当前statement版本均待独立差异复核，不计入统一9,622条复核台账。
+
+#### S5来源字段与S6逐项裁决
+
+新增4条Haskell来源字段`enr-18572`–`enr-18575`，覆盖描述性题名、文献类型、书内内容摘要及脚注短引文；未补原刊题名、版次或责任者身份。字段均为source-backed；应用后复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`source_registry_changes=0`、`warnings=0`。
+
+| S2关系候选 | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp20-p401-alexander-diary-arts-interest-publication`、`st-chp20-p401-alexander-diary-planning-agency` | formal | 合并支持`rel-2501 has_subject`：archive摘录出版 → Alexander VII。范围分别记录Haskell所述艺术兴趣视角，以及编辑对教宗似乎认为自己决定某未具名建筑规划的解释；不把后者说成经核实的实际决策。 |
+| `st-chp20-p401-alexander-diary-berninivisits` | formal | `rel-2502 has_subject`：archive摘录出版 → Bernini。仅记录Haskell称摘录报告其频繁来访，不补地点或单次访问。 |
+
+#### 卡片投影与审计
+
+新archive卡、Alexander VII人物卡与Bernini人物卡均先单卡预览，再定向渲染；预检`cards=3`、`tables=7`、`rows=32`、`projected_relation_rows=38`、`files_to_write=3`。写后字节核验通过，三卡复预览无差异。`build_field_facts.py`复预览`record_changes=0`、`warnings=0`。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。关系诊断仍列出孤立KU及2个超过50条边的对象，这些不是本批阻断项。
+
+**批后状态。** S2为15,471 statements／26,872 mentions；统一独立复核台账仍为9,622条且statement ID／来源版本未核平，本批2个当前statement版本待独立差异复核。S3决定不变：12,433项（same 2,112、new 5,088、conflict 9、excluded 106、undecided 5,118）。S4已登记2,499/5,088个new候选，待映射2,589，其中直接关系端点926、其他1,663；KU共3,279。S5共14,661条字段（1,627条`unverified`）。S6历史裁决2,028项（formal 1,200、pending 694、rejected 134），当前`relation_candidate=true`为10,674项；历史裁决台账与当前statement版本仍差1，不据此报告完成率。`relations.csv`共2,501行（2,460 formal、41 pending）。337条关系statement仍缺至少一个S2端点候选ID；backlog 58条（15 completed、43 undecided）。
