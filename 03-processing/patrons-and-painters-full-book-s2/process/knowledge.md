@@ -18654,3 +18654,25 @@ cand-6212由“SS. Apostoli”位置候选按第6章p.154的明确写法对齐�
 **S6关系及历史影响。** relations.csv此前没有该statement的历史裁决，也无既有formal边需要撤销或改写。新增rel-2605 has_subject，方向为奖章work→Clement XI人物，原文明确称奖章描绘在位教皇。顶层位置另以source-backed字段记录；本statement在S2只原子化了奖章→Clement XI这一端点对，因此本批不另造奖章→宫殿的located_at边，也不创建作者关系，或把楼梯灰泥装饰、六人奖章群组并作同一端点。相邻候选cand-12077仍为类型未定的六位教皇群组；st-chp8-p222-stucco-includes-six-papal-medallions与st-chp8-p222-six-popes-benefited-ferrara-or-legate继续保持pending，待群组类型/对象及其端点清楚后再裁决。本批未改写任何旧关系行。
 
 **交接。** 写后严格表审计 errors=[]、s2_missing=[]、alignments_unlinked=0、candidate_backlog_pending=0；关系一致性审计五类阻断为0；作品卡与Clement XI人物卡定向渲染后复预览无差异；新增S2 mention仍须独立语义复核。S3其他类型和S6全书历史分母尚未收口。
+
+<a id="s3-s4-s5-s6-chp8-ms610-ariostea-20261029"></a>
+### 2026-10-29：第8章p.222注1 MS 610 与 Biblioteca Ariostea 端点
+
+**原文与版本边界。** 第8章印刷页222、PDF物理页24、S0 Markdown L382 的脚注1称，Haskell关于大主教宫的叙述“is taken from”一份手稿，并称 “It is a manuscript in the Biblioteca Ariostea, Ferrara—Collezione Antonelli MS. 610—”。`st-chp8-p222-n1-manuscript-source.original_quote` 保留S0文字层的整条OCR转录，不代表逐字印本校录；其中标题首词的OCR读法“Calleria”保留在原转录，`ocr_corrections`及当前判断记录页图读法为“Galleria”。脚注后续转录的一段历史引文、手稿内部内容和现藏状态均未作外部核查。
+
+**S3/S4身份组与映射。** 不重开已有身份决定：`cand-7711` 继续属于archive `new`组 `archive-group-bf29f2643c19`，映射至 `units/archives/antonelli-ms-610-ferrara-episcopal-palace-gallery-manuscript`；`cand-7712` 继续属于institution `new`组 `sg3-institution-cand-7712`，映射至 `units/institutions/biblioteca-ariostea-ferrara`。第21章的既有Biblioteca Ariostea提及与本章图书馆候选沿用同一候选身份；手稿和图书馆保持不同类型、不同KU。原书提供的题名、责任者与库名仅支持本批来源限定身份，不代表已查馆藏目录、已核稿本或确认今日保管地点。本批没有改写原S3决定，也无新 `same`、`conflict` 或 `undecided` 裁决。
+
+**S2分拆和端点锚点。** 原 `st-chp8-p222-n1-manuscript-source` 将Haskell本章宫殿叙述取自MS 610这一用途与脚注报告的图书馆位置合在同一claim中；当前claim已收窄为来源用途，保留原句及S2锚点。新增关系候选statement `st-chp8-p222-n1-manuscript-repository`，明确subject `cand-7711`、object `cand-7712`，原句为 “It is a manuscript in the Biblioteca Ariostea, Ferrara—Collezione Antonelli MS. 610”。恢复mention `m-chp8-p222-n1-ariostea`，精确跨度 `[1260,1279)`。泛化引文statement `st-chp8-p222-n1-manuscript-citation` 不承载单独事实，维持 `relation_candidate=false`，不增设重复关系。
+
+**S5补足。** 新增手稿archive卡及图书馆institution卡，登记到 `ku-manifest.csv` 与 `accepted.yml`。`enrichment.jsonl` 新增7条Haskell书内 `source_backed` 字段（手稿5条、机构2条）；没有外部目录记录或未核实字段冒充验证结果。卡片以中英文呈现，并把OCR/印本差异及馆藏说法的来源限定写明。
+
+**S6逐项裁决及历史影响。** 修改前未找到上述S2 source statement对应的既有 `relations.csv` 行或历史裁决；本批没有删除或改写旧S6行。新增两行均含精确S2 statement ID、页码、物理页和来源行：
+
+| S2 statement | 裁决 | 关系与边界 |
+|---|---|---|
+| `st-chp8-p222-n1-manuscript-source` | formal，`rel-2606` | `derived_from`：Haskell全书KU → MS 610。范围明确限于第8章关于大主教宫的这段叙述取自该稿，不声称全书或其他章节均据此写成。 |
+| `st-chp8-p222-n1-manuscript-repository` | pending，`rel-2607` | `located_at`：MS 610 → Biblioteca Ariostea。Haskell脚注明确如此报告，但受控谓词表将`located_at`标为需拆分的语义，`held_by`的domain/range又不允许把archive端点强行套成institution-held对象；因此暂不将报告提升为formal的保管或现藏关系。 |
+
+不新建Haskell对Baruffaldi的作者边：脚注书目身份不等同已验证的责任关系；也不把“in Biblioteca Ariostea”扩写成当前馆藏状态。若将来出现可用的忠实谓词和针对该稿本的目录证据，再复核pending边。
+
+**定向检查与S2交接。** 更新后的卡片已由CSV-backed renderer写回，三张受影响卡（Haskell主书、手稿、图书馆）复预览；字段预览为7条、source-backed 7、unverified 0、重复0、警告0、无待写差异。独立上下文于2026-10-29对本批两条当前statement及mention直接比对源段和页图：确认source-use与repository两关系拆分忠实、端点方向正确、mention跨度精确；没有建议改动S2对象。其结论限定为Haskell在书中的陈述，不确认稿本当前仍在该馆。OCR转录与印本读法分别保留。当前审计快照：S2 15,481 statements/26,863 mentions，9,622条统一复核台账未变；相对基线 `1a6313c8654280a9b71187fc08522098626e734e` 有31条新增、1条删除、90条同ID变化，共122个ID不同。S3为12,434项（same 2,126、new 5,105、conflict 8、excluded 106、undecided 5,089）；S4已映射2,566个new、待登记2,539，KU 3,345；S5为14,904行、1,632条unverified；S6为2,605行（2,563 formal、42 pending）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断为0。逐ID/来源版本的审阅台账交集及S6全历史分母仍待核平；这次定向复核不构成全书S2接收或全书S3–S6收口。

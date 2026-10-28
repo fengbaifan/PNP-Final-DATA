@@ -13787,3 +13787,14 @@ S2 statement为同ID内容变化，mention新增1条；9,622条统一独立复�
 对照《赞助人与画家》第8章印刷页222（PDF物理页24），确认原文为“On the top floor was another medallion in full relief of the reigning Pope, Clement XI.”；Markdown文字层仍保留OCR误读“Clement XL”，未改写来源文本。原statement st-chp8-p222-clement-xi-medallion-on-top-floor已将奖章与人物候选cand-0022分开，但原mentions表缺少奖章端点的直接提及。新增m-chp8-p222-clement-xi-medallion，表面形式为“another medallion in full relief”，定位当前段字符区间[312,344)、来源行L128，并映射到cand-12078。这只补齐一个提及锚点，不改statement或原文。
 
 变更后mentions共26,862条，statements仍为15,480条。该新增S2对象尚未由独立审读者复核，不计9,622条统一复核台账；需在版本ID/来源核平后纳入差异复核队列。
+
+<a id="s2-p222-ms610-repository-20261029"></a>
+### 2026-10-29 S2补录：第8章p.222注1手稿来源及机构提及
+
+对照《赞助人与画家》第8章印刷页222、PDF物理页24及S0分节 `02-sources/02-Markdown/08_CHP-8_sec_ii.md` L382。注1写道：“This account of the Archbishop’s palace ... is taken from ... It is a manuscript in the Biblioteca Ariostea, Ferrara—Collezione Antonelli MS. 610—”；statement `st-chp8-p222-n1-manuscript-source` 的 `original_quote` 保留S0文字层整条OCR转录（包括OCR误识“Calleria”），不是声称逐字转录已等于页图印字。先前claim把“宫殿叙述取自MS 610”与“该稿在Biblioteca Ariostea”合并；本次将当前claim收窄为来源用途，原始转录、页码、行锚点和mentions保留，并新增原子statement `st-chp8-p222-n1-manuscript-repository`，主客体分别为手稿 `cand-7711` 与图书馆 `cand-7712`，精确引句为 “It is a manuscript in the Biblioteca Ariostea, Ferrara—Collezione Antonelli MS. 610”。恢复 mention `m-chp8-p222-n1-ariostea`，表面形式 `Biblioteca Ariostea`，字符范围 `[1260,1279)`，关联第8章来源段和 `cand-7712`。已存在的 `st-chp8-p222-n1-manuscript-citation` 是通用引文行，保持 `relation_candidate=false`，不重复表达关系。
+
+页图印字为 “Galleria”；S0 OCR 在原书目标题处作 “Calleria”。只在当前statement的 `ocr_corrections` 与S2解释中记录该校读，未改来源Markdown或 `original_quote` 中的原样转录。手稿身份、题名责任者和馆藏说法均限于Haskell脚注；未查馆藏目录、稿本影像或当前保管状态。
+
+本次相对此前工作树的statement变化为新增1条、同ID内容变化1条、删除0条；mentions新增1条。按统一复核计数首次出现的基线提交 `1a6313c8654280a9b71187fc08522098626e734e` 重新解析当前JSONL：基线15,451条、当前15,481条；新增31、删除1、同ID内容变化90，共122个statement ID不同。当前 `book-statements.jsonl` SHA-256 为 `a0024542f57757148f750558f8649c708c69995968ab0048a300e2182fdac5fa`。独立复核台账仍为9,622条；逐ID与来源版本的台账交集未核平，以上差异不能直接作为未复核数量。
+
+**独立语义差异复核（2026-10-29）。** 另一个隔离上下文直接对照S0分节与页图审读这两条当前statement版本及目标mention，未改statement方向、claim、引句跨度或mention。复核确认两关系分别表达“本书该段叙述取自手稿”与“Haskell报告手稿在该机构”，彼此不重复；`Biblioteca Ariostea`跨度 `[1260,1279)` 精确。复核还确认页图为 “Galleria”，S0文字层及 `original_quote` 的 “Calleria” 是保留的OCR转录，`ocr_corrections` 已记载校读。该针对性复核不等于全书S2接收；因逐ID与来源版本的统一台账交集仍待核平，此项暂不调整9,622统一计数。
