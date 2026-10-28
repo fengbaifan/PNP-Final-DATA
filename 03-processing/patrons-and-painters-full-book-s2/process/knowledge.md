@@ -17839,6 +17839,13 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 结合前15项，此次宽口径47项均已核到当前组及其他标签的角色；这不是对所有候选身份的独立外部验收，也不自动消除此前不同口径的结构筛查，需要单独复现其统计。S3决定、KU映射、S2和S6未变。
 
+<a id="s3-san-luigi-church-reuse-20261028"></a>
+### S. Luigi dei Francesi教堂候选复用（2026-10-28）
+
+`cand-0706` 的索引项C.csv#230为Churches下的“S. Luigi dei Francesi”，指向p.60；S2另将第2章p.29的同名教堂提及锚定到此候选（该页OCR作Frances!，既有校读记录为Francesi）。现有`units/places/san-luigi-dei-francesi`明确是罗马的San Luigi dei Francesi教堂建筑，且既有`cand-3290`已复用该KU。对象名称、类型和罗马语境一致，将`aln-1041`由`new`改为`same`并映射现有KU；保留原`new`组号和原理由，不新建教堂卡。此为来源局部身份比较，不构成新一次外部事实核验。
+
+相关宫殿`cand-4310`仍是未登记的独立place候选；第2章p.29只说宫殿位于教堂附近，不能把宫殿并入教堂或将“附近”改写成`located_at`。另两条宫殿关联候选涉及未定类型的画家群体`cand-4339`、`cand-4341`，应在身份及谓词条件满足后裁决。此次未修改S2 statement、创建关系或完成S6裁决。
+
 <a id="s4-s5-s6-chp3-p89-pozzo-spaces-20261028"></a>
 ### S4–S6 第3章 p.89 Pozzo祭坛席与后殿空间端点（2026-10-28）
 
