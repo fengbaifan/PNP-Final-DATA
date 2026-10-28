@@ -18109,3 +18109,13 @@ S6：`st-chp3-seciv-l75-81-chapel-dedicated-to-resurrection` 为既有地点 KU 
 ### La Vrillière 宫邸画作与系列的对象边界（2026-10-28）
 
 对读第7章p.184–185：`cand-6823` 锚定其宫邸收藏的、与Mazarin收藏中大多数画家相关的未枚举绘画；`cand-6846` 锚定p.185所称 series，原文先列此前取得或订购的作品，再说1640年代增加一组、后来以Maratta作品补齐，并称十件大画。两处均涉及其收藏，但p.184未逐项枚举，不能证明前者与后者是同一完整集合，也不能证明二者必然不同。维持两项 `undecided`，不合并、不新登记；须获得可比较的成员、时间及集合边界证据再重审。原书分别连接两组的关系候选仍待对应对象边界成立后裁决。
+
+
+<a id="s3-ch7-p185-cato-camillus-index-20261028"></a>
+### 第7章 p.185 两件作品的正文—索引身份（2026-10-28）
+
+- `cand-1270` 是Guercino索引子项《Scene from the Life of Cato》，索引p.185与正文 `m-chp7-p185-003` 的题名、画家、页码相合；改 `undecided` 为来源限定 `new`，并入 `cand-7092` 的既有 `workgrp-5744800e90afd5`。两者待S4登记同一KU，不能重复建卡。脚注仅以Haskell转引Hoog报告Marseilles，未独立查阅或核实位置。
+- `cand-1999` 是Poussin索引子项，p.185正文和 `m-chp7-p185-006` 完整对应画家、题名和页码；检索manifest未发现可直接对应的作品KU，改 `undecided` 为来源限定 `new`，组号 `workgrp-chp7-p185-poussin-camillus`，待S4登记。
+- 两项均仅完成书内身份对齐，未独立核实具体实物、版本、现藏或作者归属；原决定保存在对齐记录。两件作品待登记后，再逐项裁决委托、题材和脚注位置等关系；S2与S6本批未改。
+
+统计复算：以当前 `relation_candidate=true` statement 的 subject/object 候选ID去重，交叉候选级 `undecided`；本批前为2,987、批后2,986，旧结果表2,983少计4项。批后类型 person 424、work 1,067、institution 82，其余类型不变。此口径按候选ID而非身份组计数。
