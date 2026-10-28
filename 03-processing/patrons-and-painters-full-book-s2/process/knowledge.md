@@ -17880,4 +17880,16 @@ S6：`st-chp3-seciv-l75-81-chapel-dedicated-to-resurrection` 为既有地点 KU 
 
 既有正式题献边中 `origin=book` 有6条（`rel-1571`、`rel-1572`、`rel-1642`、`rel-2125`、`rel-2234`、`rel-2382`）；是否各有题记或馆藏目录依据尚未逐条核实，列入后续定向审计，不按来源字段机械撤销。上述变化不改S2 statement或独立复核分子。
 
+<a id="s6-dedication-catalogue-check-20261028"></a>
+### 既有题献关系的馆藏目录核查（2026-10-28）
+
+实际阅读大英博物馆以下两条馆藏目录的 Description、Producer name 与 Inscriptions；第一条另核 Curator's comments。两条均为具体馆藏印本的目录记述，并非本项目亲自检查版画实物或完整转录题词。保留 Haskell 的原始书内来源及 statement 锚点，目录作为独立的补充定位，不把馆藏记录扩展为所有版本均相同的结论。
+
+| 既有边 | 目录依据与决定 |
+|---|---|
+| `rel-1571`、`rel-1572` | [British Museum U,1.199](https://www.britishmuseum.org/collection/object/P_U-1-199)，访问2026-10-28：Description 为按 Annibale Carracci 的 Venus and Adonis；Producer name 列 Luigi Scaramuccia 为 printmaker；Inscriptions 称下缘有献给 Nicolo Simonelli 的题献，由蚀刻者署名并记1655年1月12日。Curator's comments 将该馆藏印本列为第二状态，并称题字与第一状态 U,1.198 相同。与 Haskell p.124 注1的作品题材、题献对象和 Scaramuccia 身份相符；两边保留 formal。题献由蚀刻者署名这一目录描述与目录中的制版者身份共同支持题献者，但没有据此转录未见的题记全文。 |
+| `rel-2234` | [British Museum 1874,0808.771](https://www.britishmuseum.org/collection/object/P_1874-0808-771)，访问2026-10-28：Description 为 Diogenes searching for an honest man；Producer name 分别列 Castiglione 为 printmaker、Giovanni Domenico de' Rossi 为 publisher；Inscriptions 称底部有 Rossi 加上的六行献给 Nicolo Simonelli 的题献。题材、制版者和出版者题献对象与 Haskell p.124 相符，保留 formal；不推断未查阅的其他印本状态。 |
+
+两条目录各为一个馆藏记录；`rel-1571` 与 `rel-1572` 共用第一条记录，不算作两个独立目录。`rel-1642`、`rel-2125`、`rel-2382` 的题记或馆藏目录依据仍待核查；其状态暂不因尚未查到依据而机械改判。S2 statement、独立复核台账及关系状态数量未变。
+
 检查结果：关系词表及域值域的正反向、archive题献与宗教奉献类型边界检查通过；`tests/test_build_relation_views.py`、`tests/test_build_cards_preview.py`、`tests/test_audit_relation_consistency.py` 的定向pytest通过。6张受影响卡定向渲染后复预览无差异；严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`，关系一致性五类阻断均为0。批后 `relations.csv` 2,527行（2,486 formal、41 pending）；S6历史裁决2,070项（1,226 formal、709 pending、135 rejected），与当前statement版本尚未核平，不报告覆盖率。机械检查不构成S2独立接收。

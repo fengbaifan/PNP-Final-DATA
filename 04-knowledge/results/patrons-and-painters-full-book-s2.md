@@ -2,7 +2,9 @@
 
 ### 近期批次记录（2026-10-28）
 
-**本批完成：宗教奉献及文献题献关系类型阻断。** 受控词表区分place/work对宗教主题的奉献与archive/work题献给人物；宗教奉献4项S6候选对应3条formal边（`rel-2527`–`rel-2529`），其中两项是有据类型变化后的重审，另两项高坛候选合并为一条边。三项书内文献题献保留pending以核题记或馆藏目录；6条既有book来源正式题献边待核相应依据。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-religious-dedication-relations-20261028)。
+**本批完成：既有题献关系馆藏目录核查。** 大英博物馆两条实际馆藏目录分别支持《Venus and Adonis》版画的受献者及署名题献者（`rel-1571`、`rel-1572`），以及Castiglione《Diogenes》版画的受献者（`rel-2234`）；三条边保留原书来源及formal状态。另三条既有题献边仍待核题记或馆藏目录。目录针对具体馆藏印本，未亲查实物及完整题词；详见[核查过程](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-dedication-catalogue-check-20261028)。
+
+**上批完成：宗教奉献及文献题献关系类型阻断。** 受控词表区分place/work对宗教主题的奉献与archive/work题献给人物；宗教奉献4项S6候选对应3条formal边（`rel-2527`–`rel-2529`），其中两项是有据类型变化后的重审，另两项高坛候选合并为一条边。三项书内文献题献保留pending以核题记或馆藏目录。详见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-religious-dedication-relations-20261028)。
 
 **本批完成：第3章耶稣堂穹顶与主拱顶空间。** 沿用 `cand-5218`、`cand-5234` 的S3 `new` 组登记2个place KU，新增5条Haskell来源字段。4项直接S6候选为2 formal（`rel-2525`、`rel-2526 intended_for`，限定为1672年合同绘饰目标）、2 process-only pending；具体对象边界及重审条件见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-ch3-gesu-dome-nave-vault-20261028)。S2与独立复核台账未变。
 
@@ -3804,7 +3806,7 @@ S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按�
 2. **先做近期S2版本差异复核，再继续章节语义复核。** 当前15,480条statement对应9,622条统一复核记录，statement ID／来源版本尚未核平；近期21条新增或修订的当前statement版本待差异复核，其中包括第8章p.224本批5条。先独立核对版本差异，再按章节完整阅读正文、注释和必要图像；未独立审读的版本不计入接收。
 3. **按触发条件推进跨章S3身份组。** 28个候选／35条来源决定差异中，34条`same`来源行已确认与主行指向相同KU；`cand-2328`Princeton来源行仍待直接身份／年代证据。对13个多标签候选核定语义组，对87个无显式组的`new`候选依来源补组；之后按类型及关系端点价值处理5,115项`undecided`（其中2,992项为直接关系端点），逐项记录复用、新增、冲突或含证据条件的待证去向。S3仅在身份组审计、S4登记或新证据触发时重开相关对象。
 4. **收束缺端点与backlog对象。** 338条关系statement至少缺一个S2候选端点ID；58条backlog中15条completed、43条undecided。逐条判断现有S1→S3/S4是否已覆盖；具名对象有据可识别时进入对应流程，身份或类型不足时记录最小待证条件。
-5. **定向补S5并核平S6版本台账。** 当前14,730条S5字段中1,628条`unverified`，按身份、版本、角色、时间和地点对关系结论的影响排序补证。S6历史裁决2,070项与当前10,682条`relation_candidate=true` statement版本尚未核平；核对statement ID和版本后再报告覆盖，不计算不可靠完成率。文献题献先核题记或馆藏目录，并审视6条既有book来源正式题献边。
+5. **定向补S5并核平S6版本台账。** 当前14,730条S5字段中1,628条`unverified`，按身份、版本、角色、时间和地点对关系结论的影响排序补证。S6历史裁决2,070项与当前10,682条`relation_candidate=true` statement版本尚未核平；核对statement ID和版本后再报告覆盖，不计算不可靠完成率。文献题献先核题记或馆藏目录；既有book来源正式题献边尚有`rel-1642`、`rel-2125`、`rel-2382`待核。
 6. **S7后置。** 待S3候选去向、S2版本和独立审读状态、关键S5字段、S6关系裁决及缺端点/backlog均可追溯，再做发布预检。知识发现和页面仍等待明确启动。
 
 #### 提速安排
