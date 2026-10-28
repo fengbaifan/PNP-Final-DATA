@@ -17846,6 +17846,15 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 本批没有以身份复用或图版号自动转正其余事实。两条S2 statement及两条mention发生版本变化，来源文本与统一独立复核分子不变；需与先前版本差异清单核平。
 
+<a id="s3-s4-s6-lodoli-engraving-20261028"></a>
+### Lodoli肖像后的版画及馆藏表述（2026-10-28）
+
+第10章印刷p.322 L182明确称图版48c的Longhi肖像画不久后被刻成版画，且版画底部附文字；它与肖像画作为不同载体。现有manifest未发现对应版画KU，`cand-9765`由`undecided`改为来源限定`new`组`sg3-work-lodoli-portrait-engraving-source-local`，登记`units/works/engraving-after-longhi-carlo-lodoli-portrait`。该组只表示书内可辨识的版画对象，不指认具体版次、印本、刻工、现藏或正式题名；原待证理由保留。S5新增原书来源字段`enr-18651`。
+
+原候选`st-chp10-p322-longhi-painting-engraved-as-separate-print`由pending重裁为formal，新增`rel-2544 derived_from`，方向为版画→肖像画，时间限“画作后不久”；不推断制作者或保存状况。
+
+注4 L317说Longhi肖像在威尼斯的“Accademia”，图版48c目录则列Museo Correr。两处通过正文图版号明确指同一画作，但注释未明确该Accademia的准确机构，也没有转移日期；因此不推断两机构相同、作品迁移或现藏，不撤销有图版目录支持的`rel-0395`。`st-chp10-p320-323-n04-portrait-location-accademia`继续pending；将其原误设的画家→画作端点更正为画作`cand-1425`→未决机构`cand-9963`，同步撤去“作品候选尚未合并”的过时限定，保留两来源分歧。该statement当前版本待独立差异复核，不增加统一复核分子；S2来源文本与mention数量不变。
+
 #### 余下32项当前组核对
 
 继续逐行核对现行备注中当前组、历史理由与已登记KU。以下每个候选的另一标签均出现在先前裁决或历史理由中；未发现应把它当作该候选第二个当前组的依据。归组结论仍受原来源范围限制，历史备注保留原文：

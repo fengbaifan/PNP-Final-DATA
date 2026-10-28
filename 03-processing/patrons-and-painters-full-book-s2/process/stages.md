@@ -13708,3 +13708,5 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 **当前版本重算及第10章锚点修正（2026-10-28）。** 以同一基线`1a6313c8654280a9b71187fc08522098626e734e`，比较当前提交`ad8d727d`的完整解析JSON对象：仍为基线15,451条、当前15,480条，新增30、删除1、同ID变化41。第10章两条近期修订分别已在该集合内：`st-chp10-p281-damini-leoni-arrivals`属于同ID变化，`st-chp10-p281-leoni-arrived-in-england-from-dusseldorf`属于新增，不能把两项再加到71条差异总数。两条仅修正候选锚点，当前版本待独立差异复核；与之前列举的21条待复核清单是否重叠尚未核平，不据相加计算待审总数。第2章删除ID的原文错位原因、保留的所有权statement及新增创作者statement见上方p.57注3记录；其统一台账归属仍待核。第6章两条既有独立复核结论仍须在统一台账去重，不能据本次机械比较增加分子。
 
 **Valentin图版署名端点修订后重算（2026-10-28）。** 原书插页和图版目录都写“Valentin: Allegory of Rome”；`st-chp2-seci-l9-10-plate-i-credit`及`st-fm-pl-p01-credit`原subject错误指向作品`cand-4108`，现改为人物`cand-2677`，object维持作品`cand-2678`；对应两个Valentin人物mention同步纠正。以同一基线复算当前statement：新增30、删除1、同ID变化43；本次两条均为同ID变化。两条statement和两条mention当前版本待独立差异复核，未增加统一复核分子；详见[关系及端点处理](knowledge.md#s6-plate-works-reuse-20261028)。
+
+**Lodoli肖像馆藏语句端点修订（2026-10-28）。** `st-chp10-p320-323-n04-portrait-location-accademia`由画家→画作更正为画作→未决Accademia候选；图版目录Museo Correr与注释Accademia的来源分歧保留。当前版本待独立差异复核。相同基线重算为新增30、删除1、同ID变化44；统一复核分子不变。详见[端点与版画过程](knowledge.md#s3-s4-s6-lodoli-engraving-20261028)。
