@@ -17809,6 +17809,36 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 以上15项的旧标签或旁述标签均不能作为这些候选的当前第二身份组；本次没有删除历史文本、变更S3决定、改写KU、S2或S6。宽口径剩余32项尚待逐条核查，先前筛查报告的13项不能视作已全部解决。后续自动解析须有明确的当前组与历史边界，不能将备注中所有`group=`视为并列当前组。
 
+#### 余下32项当前组核对
+
+继续逐行核对现行备注中当前组、历史理由与已登记KU。以下每个候选的另一标签均出现在先前裁决或历史理由中；未发现应把它当作该候选第二个当前组的依据。归组结论仍受原来源范围限制，历史备注保留原文：
+
+| 候选 | 当前组 | 对象边界或归组理由 |
+|---|---|---|
+| `cand-0897` | `sg3-procedure-customs-duty-pictures` | 跨第8、16章的绘画关税处置；不推断具体法规、税率或辖区。 |
+| `cand-1514` | `sg3-procedure-manfrin-painter-competitions` | Manfrin组织画家竞赛的做法，与人物KU及其他竞赛分开。 |
+| `cand-1598` | `sg3-event-cand-6799` | 索引条目与正文候选指向同一1649年Fronde冲击。 |
+| `cand-1610` | `sg3-procedure-ferdinand-art-exhibition-guidance` | Ferdinand通过展览引导绘画的来源限定做法，与1706年单次展览事件分开。 |
+| `cand-1651` | `sg3-event-publication-lodoli-apologhi-1787` | 1787年出版事件，与文献对象分开。 |
+| `cand-1817` | `sg3-place-villa-doria-pamphilj` | 别墅地点；先前Pamfili相关标签被地点纠正取代，与宫殿候选分开。 |
+| `cand-1821` | `sg3-event-cand-6297` | 与正文候选归为同一Innocent X丧葬费用争议事件。 |
+| `cand-1832`、`cand-1833` | `sg3-institution-cand-1831` | 两个索引子项均回到教皇国政治实体；旧term标签是类型纠正前记录，不等同教宗职位。 |
+| `cand-4221`、`cand-6253`、`cand-6704`、`cand-6764`、`cand-7223`、`cand-8308` | `sg3-institution-france-polity` | 第2、6、7、9章的法国政治／国家称谓，保留原有组及KU；不推定固定边界或宪制连续性。 |
+| `cand-4591`、`cand-8123`、`cand-8833` | `sg3-institution-spain-polity` | 跨章西班牙政治实体；不与地理地点、王室、帝国或未具名西班牙人自动合并。 |
+| `cand-7498`、`cand-12414` | `sg3-procedure-florentine-flour-revenue-concession-1676` | 正文面粉垄断与注2九年特许为同一来源限定特许做法，与法令文献及档案副本分开。 |
+| `cand-7729` | `sg3-family-buonaccorsi-family` | 来源所称Buonaccorsi家族；不扩写确切谱系。 |
+| `cand-8169` | `sg3-family-barbaro-family` | 图版所称Barbaro家族；未指认肖像个人或具体支系。 |
+| `cand-8301` | `sg3-family-bon-family-venice` | 卖出威尼斯宫邸的Bon家族；不推定成员。 |
+| `cand-8356` | `sg3-family-sandi-family` | 第9章Sandi家族；不据组名补充成员。 |
+| `cand-9572`、`cand-9573`、`cand-9574` | 分别为`sg3-family-bourbon-dynasty`、`sg3-family-hapsburg-dynasty`、`sg3-family-hohenzollern-dynasty` | 三个不同王朝集体；Palazzo Loredan肖像具体人物未识别。 |
+| `cand-9982` | `sg3-procedure-paintings-for-engraved-reproduction` | 当代画家专为雕版复制制作画作的来源限定生产方式，不指派具体作品。 |
+| `cand-9999` | `sg3-family-guardi-brothers` | 来源所称Francesco与Gian Antonio Guardi兄弟集体；绘画个人归属另审。 |
+| `cand-11046` | `sg3-event-florentine-art-exhibition-1706` | 1706年展览事件，与1705年展览分开；Ferdinand作用保留后记限定。 |
+| `cand-11471` | `sg3-procedure-pieta-plan-selection` | Pietà院方征求与选择设计的做法，保留Haskell的相似性推测。 |
+| `cand-11549` | `sg3-event-cand-10715` | 与第17章候选归为同一1803年Sasso收藏拍卖；未独立查阅拍卖目录。 |
+
+结合前15项，此次宽口径47项均已核到当前组及其他标签的角色；这不是对所有候选身份的独立外部验收，也不自动消除此前不同口径的结构筛查，需要单独复现其统计。S3决定、KU映射、S2和S6未变。
+
 <a id="s4-s5-s6-chp3-p89-pozzo-spaces-20261028"></a>
 ### S4–S6 第3章 p.89 Pozzo祭坛席与后殿空间端点（2026-10-28）
 
