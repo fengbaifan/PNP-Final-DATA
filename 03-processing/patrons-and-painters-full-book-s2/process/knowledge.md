@@ -17848,3 +17848,19 @@ S6：`st-chp3-seciv-l75-81-chapel-dedicated-to-resurrection` 为既有地点 KU 
 跨页的职位称号 `cand-4752` 为不同类型候选，仍沿用既有S3决定，待其S4及关联S6批次审查；仪式 `cand-4772` 和受命绘制的场景 `cand-4773` 均仍待来源锚点及身份审查，未推断画作完成。本批只裁决以 `cand-4645` 为直接端点的两条S6候选。未新增外部身份或事实核验。
 
 新职位卡及Taddeo人物卡定向渲染后均复预览无差异；字段复预览 `record_changes=0`、warnings=0。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`，关系一致性五类阻断为0。批后KU 3,296，S4已映射2,516/5,089条new候选，待映射2,573；S5字段14,725条（1,628条unverified），relations表2,522行（2,481 formal、41 pending）。审计是机械核对，不构成S2独立接收。
+
+<a id="s4-s5-s6-ch3-gesu-dome-nave-vault-20261028"></a>
+### S4–S6 第3章 pp.79–83 耶稣堂穹顶与主拱顶（2026-10-28）
+
+沿用 `cand-5218`、`cand-5234` 既有S3 `new` 身份组，分别登记[穹顶空间](../../../04-knowledge/units/places/gesu-dome.md)与[主拱顶空间](../../../04-knowledge/units/places/gesu-main-vault.md)。Haskell p.80 L42–45将穹顶及其灯笼、帆拱与含窗龛的主拱顶分别纳入Gaulli的1672年绘饰合同；祭坛席拱顶被排除。书中另称穹顶1675年4月就绪、主拱顶四年后完成；不将此时间当成建筑结构竣工或整个合同按期完成。空间、绘饰工程和单幅作品分别识别，未作外部建筑身份核验。新增5条Haskell来源字段 `enr-18645`–`enr-18649`；S2与S3决定值未改。
+
+| S2关系候选 | 去向 | 依据与限定 |
+|---|---|---|
+| `st-chp3-seciv-l35-46-scope-includes-dome` | formal `rel-2525 intended_for` | 整体装饰委托→穹顶；L42直接列入绘饰范围，记录合同目的地而不由此推断完成。 |
+| `st-chp3-seciv-l35-46-scope-includes-main-vault` | formal `rel-2526 intended_for` | 整体装饰委托→主拱顶；L42直接列入拱顶及窗龛。 |
+| `st-chp3-seciv-l26-33-duke-delays-over-dome` | process-only pending | Duke Ranuccio就穹顶肋骨提出安全异议并寻找拖延理由；现有受控谓词不能忠实表达其带归属的异议／拖延。待相关谓词可表达此行为后按原文重审，不将安全意见当成工程事实。 |
+| `st-chp3-seciv-l69-73-vault-public-access-simpler-symbolism` | process-only pending | Haskell比较拱顶与穹顶的公众可达性，并据此解释较简单的象征表达；现有谓词不能忠实表达这一作者解释。待表达比较与解释的语义建模后重审，不将其改写成影响或位置事实。 |
+
+这四项是以两处空间为直接主客体且当前标记为关系候选的全部statement；另两条就绪／完成陈述保留为非关系候选。横翼拱顶等其他端点及其候选另行处理。本批未改变S2 statement／mention及独立审读台账。
+
+两张空间卡及整体委托卡定向渲染并复预览无差异；字段复预览 `record_changes=0`、warnings=0。严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性五类阻断均为0。批后KU 3,298，S4已映射2,518/5,089条new候选，待映射2,571；S5字段14,730条（1,628条unverified），relations表2,524行（2,483 formal、41 pending）。机械审计不构成S2独立语义接收。

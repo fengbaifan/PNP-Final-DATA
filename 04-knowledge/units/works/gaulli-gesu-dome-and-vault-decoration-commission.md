@@ -127,4 +127,11 @@ English: This unit records the decorative work defined by the 1672 contract, not
 
 ## 关系与证据
 
-当前没有登记正式关系。S2 中有据的相关关系候选仍待 S6 按端点、方向、语境和证据逐条审查。
+本书所述合同绘饰目标与证据见下方关系记录。
+
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| → 拟用于（`intended_for`） | [耶稣堂穹顶（Dome of the Gesù）](../places/gesu-dome.md) | Haskell称Gaulli同意绘饰整个穹顶及其灯笼和帆拱；时间：1672年合同；角色：约定绘饰的穹顶空间；范围：仅记录合同所述绘饰目标及其穹顶范围；不以合同本身证明按期完成。；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 80, line 42; statement=st-chp3-seciv-l35-46-scope-includes-dome |
+| → 拟用于（`intended_for`） | [耶稣堂主拱顶（Main Vault of the Gesù）](../places/gesu-main-vault.md) | Haskell称Gaulli同意绘饰整个拱顶及窗龛；时间：1672年合同；角色：约定绘饰的主拱顶空间；范围：仅记录合同所述绘饰目标及其主拱顶和窗龛范围；不以合同本身证明按期完成。；证据：[来源](../../../02-sources/02-Markdown/03_CHP-3_sec_iv.md)；haskell-1980-rev-ed；Chapter 3, printed p. 80, line 42; statement=st-chp3-seciv-l35-46-scope-includes-main-vault |
