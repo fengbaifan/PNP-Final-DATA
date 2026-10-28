@@ -18140,3 +18140,11 @@ S2及独立复核台账未变；前批两条修订statement和两条mention仍�
 `cand-7093` 既有S3 `new`组 `sg3-place-cand-7093` 依据第7章p.184注4及p.200正文两个Marseilles提及，登记为 `units/places/marseilles-haskell`；同类型manifest未找到可直接复用的地点。p.200说de Ferrari赴Marseilles为Noailles作画，对应人物赞助候选已在 `rel-1412` 裁决；不因场所相同识别未具名画作。S5新增书内称名 `enr-18666`。
 
 `st-chp7-p184-n4-guercino-cato-location` 保留**process-only pending**，更新理由：作品与地点端点均已映射，但 `located_at` 在关系契约中标记 `needs_split`；同时Haskell脚注“now”没有精确时点且引用Hoog页码，Hoog未独立查阅。须解决适合的书内历史位置谓词及时间限定、核对所引资料或明确维持原书二手报告边界后重裁；不据此断言今日藏处或具体馆藏机构。该项上批已计pending，本批不重复计数。S2及独立复核台账未变。
+
+
+<a id="s4-s6-ch7-p185-camillus-subject-20261028"></a>
+### Poussin画作题材故事的端点与关系（2026-10-28）
+
+沿用 `cand-6840` 的S3来源限定new组，登记 `units/events/camillus-schoolmaster-livy-story-haskell`，不补故事年代、Livy具体作品或当事人未决身份；未独立核实事件发生。新增 `enr-18667` 保存原书叙事范围。
+
+`st-chp7-p185-i03` 由process-only pending重裁为**formal** `rel-2555 has_subject`（Poussin画作→书内题材故事）。Haskell原文明确写“The subject was chosen from Livy”并叙述Camillus拒绝教师提议及交还教师；关系只表达其对画作题材的说法，不将故事当已核实事件或认定具体Livy文献。为忠实表达这一常见对象类型，`has_subject`值域新增event，规则范围与限制记入governance CHANGELOG；既有反向类型沿用。S2和统一独立复核台账未改。

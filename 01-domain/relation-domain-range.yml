@@ -1,6 +1,6 @@
-version: 10
-authority: relation-domain-range-v10
-status: draft-v10
+version: 11
+authority: relation-domain-range-v11
+status: draft-v11
 note: |
   本文件定义每个受控关系类型的合法 (domain, range)，供 S6 关系放行条件使用。
   v1 为与既有 relation-index.yml 的 1227 条边做只读一致性校验后的修正版：
@@ -11,6 +11,7 @@ note: |
   v8 将题献对象 dedicated_to 的域扩至 archive/work；另增宗教奉献关系 religiously_dedicated_to 与反向 religious_dedication_of，记录来源明确的场所或祭坛对宗教对象的奉献，不推定具体奉献仪式。
   v9 新增 travelled_from／departure_place_of 与 travelled_to／travel_destination_of，分别记录人物有据移动的出发地和目的地；时间及同一行程关联须保留限定。
   v10 新增对称关系 near（place ↔ place），仅表达来源明确称两地点相近，不推定距离、相邻或包含。
+  v11 将 has_subject 值域扩至 event，要求来源明确将事件或来源所述叙事作为作品等的题材；不据此确认该事件真实发生。
   domain/range 覆盖当前实际用法，逐谓词直接存（不做 inverse 规范化）。
   未列入 domain_range 且不在 deprecated 列表的类型，默认不约束（允许，待首次使用后补入）。
   same_as 额外约束：两端必须同类型（由 S6 检查单独实现，不靠本表表达）。
@@ -74,7 +75,7 @@ domain_range:
   handled_by:       {domain: [work], range: [institution]}
   has_participant:  {domain: [event], range: [institution, person]}
   has_performance:  {domain: [work], range: [event]}
-  has_subject:      {domain: [archive, event, work], range: [archive, family, institution, person, place, term, work]}
+  has_subject:      {domain: [archive, event, work], range: [archive, event, family, institution, person, place, term, work]}
   held_office:      {domain: [person], range: [institution]}
   intended_gift_to: {domain: [work], range: [person]}
   intended_recipient_of: {domain: [person], range: [work]}

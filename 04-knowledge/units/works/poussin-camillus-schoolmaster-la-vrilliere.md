@@ -41,6 +41,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 |---|---|---|
 | → 由其委托（`commissioned_by`） | [路易·菲利波·德·拉维利埃（Louis Phélipeaux de la Vrillière）](../persons/louis-phelipeaux-de-la-vrilliere.md) | 来源限定作品订购关系；时间：1637；角色：Haskell书内订购；范围：原书称La Vrillière于1637年向Poussin订购此画；不推定完成或交付日期。；证据：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.185 L206–207; statement=st-chp7-p185-i02 |
 | → 创作者（`created_by`） | [尼古拉·普桑（Nicolas Poussin）](../persons/nicolas-poussin.md) | 仅记录Haskell的作者归属；角色：Haskell书内作者归属；范围：原书称向Poussin订购并称该画为Poussin作品；外部作者归属及具体实物未核。；证据：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.185 L206–207 |
+| → 所涉对象（`has_subject`） | [卡米卢斯与法莱里教师的故事（Camillus and the Schoolmaster of Falerii）](../events/camillus-schoolmaster-livy-story-haskell.md) | 书内题材关系；Livy具体作品与事件时间未核；角色：Haskell所述画作题材；范围：原书称画作题材选自Livy，叙述Camillus拒绝教师交出学生的提议；不证明故事真实发生。；证据：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.185 L207; statement=st-chp7-p185-i03 |
 
 ### 身份与外部链接
 
