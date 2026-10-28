@@ -13695,3 +13695,10 @@ st-chp8-p211-wills-and-caravaggio-bequest 原将两份遗嘱定位、未提及�
 ### 2026-10-28：第7章 p.174 注2语义校读、S3对齐及端点裁决
 
 对照印刷页图确认“Henri II”（S0 OCR为“Henri ll”），来源资产不改。S2新增“未执行方案的表现对象”为Henri II的独立statement，修订Michelangelo commission qualifier，并更新正文脚注索引；新增／修订的3个当前statement版本待独立差异复核，不计统一台账。S3沿用Henri II人物、未执行骑马像方案和1792毁损事件的既有new组；Tacca作品候选与索引Philip IV候选因正文Philip III／索引Philip IV冲突仍为undecided。三项S4登记、S5八字段；六项当前关系候选分别为2 formal、4 process-only pending。Desjardins引注既有formal不变，非执行状态statement不作关系处理。
+
+<a id="s2-version-diff-baseline-9622-20261028"></a>
+### S2版本核平：9,622记录出现后的当前表差异范围（2026-10-28）
+
+以结果文件中9,622条统一复核记录首次出现的提交 `1a6313c8654280a9b71187fc08522098626e734e` 为比较基线，比较该提交与 `071f1fc48002f8de478eb9a8d8997cb9e77dae29` 的 `04-knowledge/tables/book-statements.jsonl`，按 `statement_id` 比较解析后的完整JSON对象：基线15,451条、当前15,480条；新增30条、删除1条、同ID内容变化41条。当前新增或变化的71条按segment章前缀分布：第10章20、第8章13、第2章11、第18章6、第3章5、第7章5、第6章3、第20章2、第5章2、第13章2、第9章1、第21章1。删除的是误挂的 `st-chp2-seciv-l190-245-rest-flight-owned-by-rospigliosi`，其替代与理由见上方p.57注3记录。
+
+此比较仅定位基线以来的数据变化，包含后续可能已经独立审读的版本；它不证明71条都未复核，也不证明此前其他版本已复核。结果文件所列近期21条只是一部分待差异复核记录，不能作为全书版本差异总量。下一步逐ID结合Git变更及既有独立复核记录核对审读时使用的版本、来源版本和结论，并追踪受影响S6裁决；未完成核平前不据9,622计算当前有效覆盖率。本次未修改statement、审读台账或S6决定，不构成独立语义复核。
