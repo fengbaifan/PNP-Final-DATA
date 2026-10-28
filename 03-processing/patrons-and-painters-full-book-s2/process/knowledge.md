@@ -18231,4 +18231,4 @@ S2及独立复核台账未变；前批两条修订statement和两条mention仍�
 
 `cand-9979` 原因S0 OCR“Gaspara”与G.csv#128在p.333定位的Gasparo冲突而暂缓。现直接核对 `CHP-13.pdf` physical p.2印刷p.333，正文实际印为Gasparo Gozzi；索引同页以Gasparo Gozzi定位，且 `cand-1220` 已映射 `units/persons/gasparo-gozzi`。故从conflict改为 **same**，复用该人物KU，保留旧裁决与OCR原表面；本结论是印本—索引—既有书内身份的比较，不表示已查Roberti原文或独立核实代理事实。
 
-`st-chp13-p333-barbarigo-1765-pamphlet-instructions-through-gozzi` **process-only pending**：人物两端现已映射，但原文是Barbarigo通过代理人传达出版规格，既有受控关系没有准确的person→person代理／传达角色；待准确谓词及引用证据审查，不将其近似为委托作品或一般赞助。S2 current statement和mention已更正，待独立差异复核，不计入台账；详见[阶段过程](stages.md#s2-ch13-p333-gozzi-print-20261028)。
+`st-chp13-p333-barbarigo-1765-pamphlet-instructions-through-gozzi` **process-only pending**：人物两端现已映射，但原文是Barbarigo通过代理人传达出版规格，既有受控关系没有准确的person→person代理／传达角色；待准确谓词及引用证据审查，不将其近似为委托作品或一般赞助。检查 `relations.csv` 未发现这条 statement 对应的既有正式边；本次不新增、撤销或改写任何正式关系及S6历史裁决，当前关系仍待证。S2 current statement和mention已更正，待独立差异复核，不计入台账；详见[阶段过程](stages.md#s2-ch13-p333-gozzi-print-20261028)。
