@@ -17861,9 +17861,9 @@ m-chp8-p224-palace-front,chp-8:08_CHP-8_sec_ii:l152-161,cand-7731,the palace,691
 m-chp8-p224-aeneid,chp-8:08_CHP-8_sec_ii:l152-161,cand-7763,the Aeneid,1337,1347,"Virgil's epic, named as the source narrative for the canvases."
 m-chp8-p224-italy,chp-8:08_CHP-8_sec_ii:l152-161,cand-3461,Italy,1521,1526,Geographic scope of Haskell's comparison.
 m-chp8-p224-raimondo-summoned,chp-8:08_CHP-8_sec_ii:l152-161,cand-0467,Raimondo Buonaccorsi,1547,1567,Patron who summoned the two painters in 1707.
-m-chp8-p224-rambaldi-first,chp-8:08_CHP-8_sec_ii:l152-161,cand-2095,Carlo Antonio,1600,1613,Artist named across the line break; index subentry is for the Apotheosis with Dardani.
-m-chp8-p224-rambaldi,chp-8:08_CHP-8_sec_ii:l152-161,cand-2095,Rambaldi,1614,1622,Continuation of the artist's name from p.224 L156.
-m-chp8-p224-dardani,chp-8:08_CHP-8_sec_ii:l152-161,cand-0903,Antonio Dardani,1627,1642,Reuse the index subentry for the Apotheosis with Rambaldi.
+m-chp8-p224-rambaldi-first,chp-8:08_CHP-8_sec_ii:l152-161,cand-2094,Carlo Antonio,1600,1613,Given-name segment of Carlo Antonio Rambaldi; surname continues in m-chp8-p224-rambaldi.
+m-chp8-p224-rambaldi,chp-8:08_CHP-8_sec_ii:l152-161,cand-2094,Rambaldi,1614,1622,Surname continuation of Carlo Antonio Rambaldi across the print line break.
+m-chp8-p224-dardani,chp-8:08_CHP-8_sec_ii:l152-161,cand-0902,Antonio Dardani,1627,1642,Named Bolognese artist Antonio Dardani; do not map to the index work subentry.
 m-chp8-p224-apotheosis,chp-8:08_CHP-8_sec_ii:l152-161,cand-7750,the fresco of the Apotheosis of Aeneas,1653,1691,The 1707 vault fresco commissioned for the gallery.
 m-chp8-p224-raimondo-he,chp-8:08_CHP-8_sec_ii:l152-161,cand-0467,he,1654,1656,Coreference to Raimondo Buonaccorsi.
 m-chp8-p224-raimondo-he-chose,chp-8:08_CHP-8_sec_ii:l152-161,cand-0467,he,1668,1670,Coreference to Raimondo Buonaccorsi.

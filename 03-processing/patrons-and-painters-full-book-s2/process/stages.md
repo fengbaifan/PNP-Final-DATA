@@ -11348,6 +11348,8 @@ p.155注1、2、3、5及注4续注已逐条规范为7条《赞助人与画家》
 
 **批次结论：** 75条均已逐条对照S0和印本页图；上述类型冲突、参与者/空间端点、重复续句、限定不符、消歧锚与校读记录未闭合，本批不接收。下一游标为sec_ii第451条 `st-chp8-p226-marchesini-distributes-advances`（p.226 L187）；第八章当前尚余595条未审。
 
+**2026-10-28后续定点修复（不构成独立接收）：** 对本批p.224身份与端点问题作定点处理：`m-chp8-p224-rambaldi-first`、`m-chp8-p224-rambaldi`、`m-chp8-p224-dardani`从误挂的作品索引子项纠正到人物候选；D.csv#5与Q-R.csv#22两条壁画子目合并指向同一作品KU。把画廊存续时点从原复合statement拆出，并以连续L156–157引文另记壁画位于长廊拱顶；将Raimondo的commission改成作品→委托者端点，另存Rambaldi、Dardani受召绘制任务，不推定实际完成或作者归属。印本页26将S0 OCR `artists.` 校为 `artists,`，OCR原引句保留并在statement记录校读。上述2条statement修订、3条新增statement仍待独立差异复核，统一复核台账不变；第八章整章未接收。
+
 
 ### 2026-10-20：第八章 sec_ii 第七批 S2 独立复核（statement 451–525）
 

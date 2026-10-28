@@ -17799,3 +17799,29 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 | `st-chp3-seciv-l141-150-jesuits-welcomed-different-work` | rejected | Haskell记载耶稣会接受并欢迎作品，但无受控谓词能表达机构接纳而不暗示赞助、委托或支持。保留接受／欢迎及作者提出的二择解释，不形成正式边。 |
 
 审计与修订：初次严格表审计发现`has_subject`的domain-range不允许work→event；按受控契约移除误写的`rel-2520`，将该候选保留process-only pending，原编号留空不重用。修订后严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性审计`broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。三张新地点卡、壁画组、Andrea Pozzo和La Storta叙事卡共6张定向渲染写入并复预览无差异；两条S5字段复预览`record_changes=0`、warnings=0。无S2新增或修订，statement／mention与独立复核台账不变。批后KU 3,291，S4已映射2,511/5,088（直接端点919待映射），S5 14,704条字段（1,625条unverified），S6历史裁决2,056项（formal 1,217、pending 702、rejected 137）；正式关系表2,519行（2,478 formal、41 pending）。远端提交与CI结果见同步记录。
+
+<a id="s3-s4-s5-s6-ch8-p224-apotheosis-gallery-20261028"></a>
+### S3–S6 第8章 p.224《埃涅阿斯神化》拱顶壁画与画廊端点（2026-10-28）
+
+#### S3跨章候选分组与S4去向
+
+依S4登记触发定点复核，共处理6项候选。`cand-7749`原`new`改为`same`，复用既有[布奥纳科尔西宫画廊](../../../04-knowledge/units/places/gallery-palazzo-buonaccorsi.md) KU；图版33b、Haskell p.224长廊描述及既有原语别名`Galleria dell’Eneide`指向同一建筑内部空间，不重复建卡。`cand-7750`保持既有`new`组`workgrp-55ac0401a0d98e`，登记来源限定的[拱顶壁画](../../../04-knowledge/units/works/apotheosis-of-aeneas-buonaccorsi-vault.md)。先前待证的索引人名候选`cand-2094`（Q-R.csv#21，Rambaldi）和`cand-0902`（D.csv#4，Dardani）在S2补齐原文人物提及后分别判为来源局部`new`组`sg3-person-cand-2094`、`sg3-person-cand-0902`，登记两张人物KU；仓库同名KU／候选检索未发现可复用的跨章人物身份，未核外部生平或authority。作品索引子项`cand-2095`（Q-R.csv#22）及`cand-0903`（D.csv#5）由`undecided`改为`same`，均指向同一拱顶壁画KU，不再与同名人物提及混连。六项分别有same/new及KU去向。
+
+#### S2当前版本修订
+
+纠正三条mentions：`m-chp8-p224-rambaldi-first`与`m-chp8-p224-rambaldi`改挂人物候选`cand-2094`，`m-chp8-p224-dardani`改挂人物候选`cand-0902`。修订`st-chp8-p224-gallery-survival-and-vault-fresco`，只保留画廊在Haskell写作时完整存续的断言；新增`st-chp8-p224-apotheosis-fresco-located-at-gallery`，以连续OCR引文L156–157记录指定壁画位于该画廊拱顶。既有`st-chp8-p224-rambaldi-dardani-apotheosis`改为作品→Raimondo的`commissioned_by`断言，保留两位画家作为S2提及及`artist_candidate_ids`；引文仍逐字保留S0 OCR的`artists.`，并在`ocr_corrections`记录印本页26为`artists,`。另新增Rambaldi、Dardani各自的`summoned_to_paint`原子statement；它们仅表示被召承担绘制任务，不推断实际完成或作者归属。共新增3条、修订2条当前statement版本，mention总数不变；5条当前版本均待独立差异复核，不增加9,622条统一复核台账。
+
+#### S5字段与S6逐项裁决
+
+四张受影响KU卡本批提取17条字段，14条由Haskell原文支持，3条中文工作译名保留`unverified`；新增卡的单一来源标记为S1，既有画廊卡的第224页Haskell来源为S6。字段预览`record_changes=0`、warnings=0；没有把暂译升级为来源事实。
+
+| S2关系候选 | 去向 | 决定与边界 |
+|---|---|---|
+| 原`st-chp8-p224-gallery-survival-and-vault-fresco`复合关系候选 | 拆分替代 | 生存时点statement不再作为关系候选；作品位置独立落至下方新statement，不建立“画廊→壁画”的重复边。 |
+| `st-chp8-p224-apotheosis-fresco-located-at-gallery` | formal `rel-2522 located_at` | 壁画→既有画廊；依据L156–157“on the vault of his gallery”，不声称当前保存状态或完成日期。 |
+| `st-chp8-p224-rambaldi-dardani-apotheosis` | formal `rel-2523 commissioned_by` | 作品→Raimondo，时间1707；只记录召两位画家绘制该指定壁画，不推合同细节或完成归属。 |
+| `st-chp8-p224-gallery-decoration-start` | process-only pending | 原文是至1707年Raimondo开始装饰长廊；当前无精确受控关系类型可表达此启动行为，避免改写成已完成建筑委托。 |
+| `st-chp8-p224-rambaldi-summoned-to-paint-apotheosis` | process-only pending | 记录Rambaldi受召绘制；现有受控谓词没有不暗示完成作者身份的对应关系。 |
+| `st-chp8-p224-dardani-summoned-to-paint-apotheosis` | process-only pending | 同上，记录Dardani受召任务；不写为`created_by`。 |
+
+三条process-only pending保留在本过程记录；无S6正式边被降格。作品、画廊、两位画家及Raimondo共5张卡定向渲染，写后预览无差异。批后S2为15,480 statements／26,873 mentions；S3候选决定same 2,114、new 5,089、conflict 9、excluded 106、undecided 5,115；S4已映射2,514/5,089，待映射2,575（直接关系端点917）；KU 3,294。S5为14,721条字段（1,628条unverified）；S6本批2 formal、3 pending，当前relation_candidate=true共10,682；`relations.csv`为2,521行（2,480 formal、41 pending）。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性五类阻断均为0。此批S2修订未独立接收；结构审计不构成章节验收。

@@ -68,6 +68,7 @@ process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.m
 |---|---|---|
 | ← 委托者（`commissioner_of`，反向投影） | [布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）](../places/gallery-palazzo-buonaccorsi.md) | 角色：画廊装饰委托者；范围：布奥纳科尔西宫埃涅阿斯画廊；原断言与证据见发出端卡片“布奥纳科尔西宫画廊（Gallery of Palazzo Buonaccorsi）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；传记／交付段：Galleria…commissionata da Raimondo Buanaccorsi |
 | ← 委托者（`commissioner_of`，反向投影） | [狄多与埃涅阿斯（Dido and Aeneas）](../works/solimena-dido-and-aeneas.md) | 时间：约1712–1714；角色：委托人；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；原断言与证据见发出端卡片“狄多与埃涅阿斯（Dido and Aeneas）”：[来源](https://emuseum.mfah.org/objects/48122/visit)；src-51d2e770274dd08a；Description与Provenance：painted for Count Raimondo Buonaccorsi |
+| ← 委托者（`commissioner_of`，反向投影） | [埃涅阿斯神化拱顶壁画（Apotheosis of Aeneas Vault Fresco）](../works/apotheosis-of-aeneas-buonaccorsi-vault.md) | 第8章 p.224 L156–157称Raimondo召Carlo Antonio Rambaldi与Antonio Dardani绘制该壁画；时间：1707；角色：召集画家绘制该壁画的委托者；范围：只记录Haskell所述Raimondo于1707年召两位画家绘制指定壁画；不推断合同条款或作品由谁实际完成。；原断言与证据见发出端卡片“埃涅阿斯神化拱顶壁画（Apotheosis of Aeneas Vault Fresco）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 224, lines 156–157; statement=st-chp8-p224-rambaldi-dardani-apotheosis |
 
 ### 关系候选入口
 

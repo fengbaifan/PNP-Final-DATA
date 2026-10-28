@@ -41,8 +41,25 @@ sources:
     Accessed 2026-09-15.
   location: 完整作品说明及技术字段；题材首段、画廊委托／交付段、作者、日期、媒介、尺寸、位置和库存号
   sentence_summary: 班比尼的131a为1712年布面油画，300×300 cm，约1712–1713交付画廊；画面依据维吉尔《埃涅阿斯纪》第一卷的宴会场景，馆方列陈列位置为布奥纳科尔西宫埃涅阿斯画廊14室。
+- citation: Francis Haskell, Patrons and Painters, revised and enlarged edition (Yale University Press, 1980; this printing 2006).
+  location: 第8章，印刷页224；OCR L154、L156–157；PDF物理页26
+  sentence_summary: Haskell称该长廊在其写作时完整存续，低桶形拱顶由单幅壁画覆盖；随后说明Raimondo于1707年召Rambaldi与Dardani绘制《埃涅阿斯神化》壁画。
+  original_quotes:
+  - source_span: lines 154–154
+    text: This survives intact today (Plate 33b).
+  - source_span: lines 154–154
+    text: The low barrel-vault is covered from end to end with a single fresco and this alone gives some unity to the very varied decorative scheme that faces the visitor.
+  - source_span: lines 156–157
+    text: |-
+      In 1707 Raimondo Buonaccorsi summoned two Bolognese artists. Carlo Antonio
+      Rambaldi and Antonio Dardani, to paint the fresco of the Apotheosis of Aeneas on the vault
+      of his gallery,2
+  evidence_ref:
+    doc_id: patrons-and-painters
+    source_file: 02-sources/02-Markdown/08_CHP-8_sec_ii.md
+    source_span: lines 154–157; print p. 224
 created: '2026-09-14'
-updated: '2026-09-15'
+updated: '2026-10-28'
 process_ref: 03-processing/patrons-and-painters-front-matter/process/knowledge.md
 relations:
 - relation_type: commissioned_by
@@ -95,6 +112,13 @@ relations:
 | 原文名称 | Gallery of Palazzo Buonaccorsi | S1 |
 | 中文名性质 | 项目工作译名 | 项目命名 |
 
+### 建筑与内部空间
+
+| 字段 | 值 | 证据 |
+|---|---|---|
+| 空间类型 | 宫殿内的长廊；低桶形拱顶 | S6；第8章 p.224 L154 |
+| 作者写作时的存续状态 | Haskell称长廊在其写作时完整存续；“today”不表示当前现状 | S6；第8章 p.224 L154 |
+
 ### 来源所载信息
 
 | 字段 | 值 | 证据 |
@@ -141,6 +165,7 @@ relations:
 | ← 预定地点（`intended_site_of`，反向投影） | [埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）](../works/bambini-aeneas-tells-dido-fall-of-troy.md) | 时间：约1712–1713交付；角色：原定装饰画廊；范围：馆藏131a；原断言与证据见发出端卡片“埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；realizzato per la Galleria段 |
 | ← 安置地点（`installation_site_of`，反向投影） | [埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）](../works/bambini-aeneas-tells-dido-fall-of-troy.md) | 时间：网页记录，访问2026-09-15；角色：馆方所载陈列位置；范围：馆藏131a；画廊14室；原断言与证据见发出端卡片“埃涅阿斯向狄多讲述特洛伊的陷落（Aeneas Tells Dido of the Fall of Troy）”：[来源](https://musei.macerata.it/opera/enea-racconta-a-didone-la-caduta-di-troia/)；src-91c2669840a825fa；Attualmente esposta与collocazione |
 | ← 安置地点（`installation_site_of`，反向投影） | [狄多与埃涅阿斯（Dido and Aeneas）](../works/solimena-dido-and-aeneas.md) | 时间：原始宫廷陈设阶段；角色：原安置画廊；范围：MFAH2000.92单件油画；历史安置与现藏角色分开；原断言与证据见发出端卡片“狄多与埃涅阿斯（Dido and Aeneas）”：[来源](https://emuseum.mfah.org/objects/48122/visit)；src-51d2e770274dd08a；Description及Provenance：Buonaccorsi gallery |
+| ← 所在地（`location_of`，反向投影） | [埃涅阿斯神化拱顶壁画（Apotheosis of Aeneas Vault Fresco）](../works/apotheosis-of-aeneas-buonaccorsi-vault.md) | 第8章 p.224 L156–157称《埃涅阿斯神化》壁画位于Raimondo画廊的拱顶；角色：长廊低桶形拱顶壁画所在空间；范围：仅记录Haskell将该作品称为《埃涅阿斯神化》壁画并置于雷蒙多画廊的拱顶；不表示当前存续状况或独立核验完成情况。；原断言与证据见发出端卡片“埃涅阿斯神化拱顶壁画（Apotheosis of Aeneas Vault Fresco）”：[来源](../../../02-sources/02-Markdown/08_CHP-8_sec_ii.md)；haskell-1980-rev-ed；Chapter 8, printed p. 224, lines 156–157; statement=st-chp8-p224-apotheosis-fresco-located-at-gallery |
 
 ### 关系候选入口
 
