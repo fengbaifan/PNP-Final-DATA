@@ -2,7 +2,9 @@
 
 ### 近期批次记录（2026-10-28）
 
-**本批完成：复用地点端点的关系核查。** 新增`rel-2530 part_of`，依据图版目录记录Barberini礼拜堂属于谷地圣安德烈堂。选址行为、佛罗伦萨社群赞助与两位画家的移动3项S6候选均为process-only pending，分别待准确谓词、社群身份及原子断言解决；不以建筑组成边替代选址行为。详见[关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-reused-place-endpoints-20261028)。
+**本批完成：两位画家行程的方向裁决。** 新增有据的出发地／目的地关系类型，将第10章p.281聚合候选从pending重裁为formal，分为Pellegrini 1712年英格兰→杜塞尔多夫和Bellucci数年后杜塞尔多夫→伦敦两对边`rel-2531`–`rel-2534`；不推定Bellucci具体年份或行程后的活动。详见[关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-directed-travel-p281-20261028)。
+
+**上批完成：复用地点端点的关系核查。** 新增`rel-2530 part_of`，依据图版目录记录Barberini礼拜堂属于谷地圣安德烈堂。选址行为及佛罗伦萨社群赞助仍为process-only pending，不以建筑组成边替代选址行为。详见[关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s6-reused-place-endpoints-20261028)。
 
 **上批完成：两个地点端点复用。** `cand-0697`与`cand-0955`分别由`new`改为`same`，复用谷地圣安德烈堂及杜塞尔多夫既有KU；保留原决定及依据，详见[身份比较](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-existing-place-endpoint-reuse-20261028)。
 
@@ -3788,8 +3790,8 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | S3 | 按候选ID计12,433/12,433均有决定：same 2,117、new 5,086、conflict 9、excluded 106、undecided 5,115 | 12,408项有external_source为空的候选级行；另25项仅有来源限定行（new 22、same 3），均有KU及可追溯依据。28个候选的35条来源决定虽与主行不同，当前复核确认其中34条（27个候选）均为same且目标与候选主行KU一致；唯一待证来源行是cand-2328的Princeton关联（“possibly”，1633/1653生年差异），主行new决定保持。先前结构筛查有87个无显式组，其后5个主行补组；另21个多标签中8个仅尾随句点不同、13个仍需按原筛查口径核平。余项需按当前数据复扫。 |
 | S4 | new候选已映射2,518/5,086；待映射2,568，其中直接关系端点910、其他1,658；KU共3,298 | 直接端点待映射按类型：term 401、work 136、place 130、archive 120、event 73、institution 49、person 1。 |
 | S5 | 14,730条字段，1,628条unverified | 本批新增5条Haskell来源支持字段。 |
-| S6 | 裁决记录2,073项：formal 1,226、pending 712、rejected 135；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批3项候选为process-only pending；新增的礼拜堂组成边来自图版目录，不替代选址候选。 |
-| 正式关系表 | 2,528行：2,487 formal、41 pending | 本批新增1条图版有据的礼拜堂组成边；文献题献待具体题记或馆藏目录证据。 |
+| S6 | 裁决记录2,073项：formal 1,227、pending 711、rejected 135；当前relation_candidate=true为10,682条，历史裁决台账与当前statement版本映射仍未核平，不报告完成率或剩余数 | 本批1项聚合行程候选从pending重裁为formal，映射4条有方向的边；礼拜堂选址及社群赞助仍pending。 |
+| 正式关系表 | 2,532行：2,491 formal、41 pending | 本批新增4条有据行程边；文献题献待具体题记或馆藏目录证据。 |
 | 缺端点与backlog | 338条关系statement至少缺一个S2端点候选ID；backlog 58条（15 completed、43 undecided） | 未具名Paceco画作的开放端点已保留待证；严格审计backlog pending=0，`bl-0058`待证条件保留。 |
 
 S3未决候选、S3未决直接关系端点及S4未映射直接关系端点按类型分布。

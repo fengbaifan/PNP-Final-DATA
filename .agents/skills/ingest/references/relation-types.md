@@ -53,6 +53,7 @@ relations:
 | 宗教奉献 | `religiously_dedicated_to`（反向 `religious_dedication_of`） | place/work → term/event；仅记录来源明确称宗教场所或祭坛奉献于某宗教主题、称谓或叙事对象。保留原有、后续及未定时间等限定；不推定实际奉献仪式、作品描绘或创作／赞助关系。 |
 | 所有／取得／经手 | `owned_by`、`acquired_by`、`handled_by` | `owned_by`用于work→所有人，也可用于place中的建筑／地产→有来源支持的历史所有人；明确时期和权利范围。`acquired_by`、`handled_by`仍为work关系，分别记录取得者与市场经手机构；三者不得互换 |
 | 安置／保管／位置 | `installed_at`、`held_by`、`located_at` | work → 安置建筑／保管机构／物理地点；建筑／地点place → 其所在的更大地点place。须保留适用时间或来源时点 |
+| 人物行程 | `travelled_from`／`departure_place_of`、`travelled_to`／`travel_destination_of` | person → place/institution；仅记录来源明确的出发地和目的地。保留时间、近似程度及同一行程的配对语境；不由目的地推断实际到达、居住或活动。 |
 | 配对作品 | `pendant_of` | work ↔ work；来源明确两件作品构成配对，单侧保存事实、反向仅作投影；同作者、同题材或同尺寸不构成配对依据 |
 | 明确比较 | `compared_with` | place／work ↔ place／work；仅记录来源明确的比较判断，scope注明比较者及语境，不表示同一、来源、复制或物理联系 |
 | 预期受众／审美接受 | `designed_for_audience`（反向 `intended_audience_of`）、`appealed_to`（反向 `found_appealing`） | archive／work → term 记录来源明确说明的预期受众类别，不证明实际读者；work → person 记录来源明确报告的作品审美吸引，不推定购买、所有权、接触或影响。反向只作导航。 |

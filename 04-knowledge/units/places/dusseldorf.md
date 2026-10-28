@@ -38,6 +38,10 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 关系记录
 
-当前没有正式关系。正文中的导航与线索不自动形成关系边。
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 前往此地的人物（`travel_destination_of`，反向投影） | [乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）](../persons/pellegrini.md) | 原书说went to Düsseldorf；不推定抵达后居住时间或具体活动；时间：1712；角色：行程目的地；范围：仅记录Haskell所述Pellegrini于1712年离开英格兰前往杜塞尔多夫；与同一行程出发地rel-2531配对。；原断言与证据见发出端卡片“乔瓦尼·安东尼奥·佩莱格里尼（Giovanni Antonio Pellegrini）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p.281 L135; statement=st-chp10-p281-pellegrini-bellucci-dusseldorf-movements |
+| ← 从此地出发的人物（`departure_place_of`，反向投影） | [安东尼奥·贝卢奇（Antonio Bellucci）](../persons/antonio-bellucci.md) | 数年后的限定来自原书；不推定具体出发日期或行程细节；时间：比1712年晚数年；具体年份未载；角色：行程出发地；范围：Haskell称Bellucci数年后抵伦敦时从杜塞尔多夫而来；与该行程目的地rel-2534配对，不推定确切年份。；原断言与证据见发出端卡片“安东尼奥·贝卢奇（Antonio Bellucci）”：[来源](../../../02-sources/02-Markdown/10_CHP-10_intro.md)；haskell-1980-rev-ed；Chapter 10, printed p.281 L135; statement=st-chp10-p281-pellegrini-bellucci-dusseldorf-movements |
 
-当前无正式关系。第3章所述图稿组尚未闭合，未能对应到Düsseldorf的单件图稿或系列；待证条件及关系裁决见[本批过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp3-notes-endpoints-20261026)。
+
+第3章所述图稿组尚未闭合，未能对应到Düsseldorf的单件图稿或系列；待证条件及关系裁决见[本批过程记录](../../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp3-notes-endpoints-20261026)。

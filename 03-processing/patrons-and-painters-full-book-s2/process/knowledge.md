@@ -17869,6 +17869,18 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 另据章前图版目录p.xii第8项原文“Barberini Chapel in S. Andrea della Valle, Rome”，新增`rel-2530 part_of` formal：Barberini礼拜堂→谷地圣安德烈堂。该边表达图版明确的建筑空间组成，使用图版目录定位，不推定完成日期，也不代替上述选址行为。正文p.26谈及此礼拜堂的建造及后来的完成，但不为完成过程补定年。本批未改S2、S3、S4或S5；3项关系候选为process-only pending，新增一条独立有据的正式边。
 
+<a id="s6-directed-travel-p281-20261028"></a>
+### Pellegrini与Bellucci行程拆分裁决（2026-10-28）
+
+第10章印刷p.281 L135原文：“When Pellegrini left England in 1712 he went to Düsseldorf. When Bellucci arrived in London a few years later he came from Düsseldorf.” 对照已映射的`cand-1870` Pellegrini、`cand-0282` Bellucci、`cand-4439` England、`cand-0955` Düsseldorf及`cand-1422` London；后四者分别为不同人物或地点，不将两次行程混合。扩充受控谓词后，将上一节聚合候选`st-chp10-p281-pellegrini-bellucci-dusseldorf-movements`从process-only pending重裁为formal：
+
+| 行程 | 出发边 | 目的边 | 时间与边界 |
+|---|---|---|---|
+| Pellegrini | `rel-2531 travelled_from` England | `rel-2532 travelled_to` Düsseldorf | 1712；不推断后续居住时长或具体活动。 |
+| Bellucci | `rel-2533 travelled_from` Düsseldorf | `rel-2534 travelled_to` London | 原文称数年后抵达伦敦；不计算具体年份或出发日期。 |
+
+每对边在scope中互引，以保持同一行程的配对；四边都引用同一原文statement与页行。既有`rel-2433 located_at`仅表达出发时位于英格兰，与新增明确方向的边含义不同，保留而不重复生成同类自然键。此次按一条聚合候选裁决出四条边，未修改S2 statement或独立复核台账；选址行为及佛罗伦萨社群赞助两项仍为pending。
+
 <a id="s4-s5-s6-chp3-p89-pozzo-spaces-20261028"></a>
 ### S4–S6 第3章 p.89 Pozzo祭坛席与后殿空间端点（2026-10-28）
 

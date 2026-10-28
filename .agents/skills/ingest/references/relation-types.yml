@@ -1,4 +1,4 @@
-version: 10
+version: 11
 authority: controlled-relation-vocabulary
 types:
   - associated_institution
@@ -112,6 +112,10 @@ types:
   - quoted_in
   - religiously_dedicated_to
   - religious_dedication_of
+  - travelled_from
+  - departure_place_of
+  - travelled_to
+  - travel_destination_of
   - employed_by
   - educated_at
   - education_of
@@ -216,6 +220,10 @@ inverse:
   dedication_recipient_of: dedicated_to
   religiously_dedicated_to: religious_dedication_of
   religious_dedication_of: religiously_dedicated_to
+  travelled_from: departure_place_of
+  departure_place_of: travelled_from
+  travelled_to: travel_destination_of
+  travel_destination_of: travelled_to
   disputed_with: disputed_with
   exemplified_by: instantiates
   has_subject: subject_of
