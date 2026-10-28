@@ -18119,3 +18119,16 @@ S6：`st-chp3-seciv-l75-81-chapel-dedicated-to-resurrection` 为既有地点 KU 
 - 两项均仅完成书内身份对齐，未独立核实具体实物、版本、现藏或作者归属；原决定保存在对齐记录。两件作品待登记后，再逐项裁决委托、题材和脚注位置等关系；S2与S6本批未改。
 
 统计复算：以当前 `relation_candidate=true` statement 的 subject/object 候选ID去重，交叉候选级 `undecided`；本批前为2,987、批后2,986，旧结果表2,983少计4项。批后类型 person 424、work 1,067、institution 82，其余类型不变。此口径按候选ID而非身份组计数。
+
+
+<a id="s4-s6-ch7-p185-cato-camillus-20261028"></a>
+### 第7章p.184–185两件作品的登记与关系（2026-10-28）
+
+`cand-1270`、`cand-7092`同组登记为 `units/works/guercino-scene-life-cato-la-vrilliere`；`cand-1999` 登记为 `units/works/poussin-camillus-schoolmaster-la-vrilliere`。两卡只表示Haskell作品，不确认具体实物、版本、现藏或外部作者归属。新增 `enr-18664`、`enr-18665` 原书称名。
+
+- `st-chp7-p185-i01` **formal** `rel-2551 commissioned_by`：原文跨页主语为La Vrillière，时间仅“随后”；`rel-2553 created_by` 据正文受托及p.184注4 “Guercino’s Cato”记录Haskell作者归属。
+- `st-chp7-p185-i02` **formal** `rel-2552 commissioned_by`：原文称1637年向Poussin订购；`rel-2554 created_by` 据原文“Poussin’s”记录Haskell作者归属。均不推定完成或交付年份。
+- `st-chp7-p185-i03` **process-only pending**：题材事件 `cand-6840` 未登记，且需确认表达书内Livy叙事的合适关系及其方向；不把故事当历史事实。
+- `st-chp7-p184-n4-guercino-cato-location` **process-only pending**：Marseilles `cand-7093` 尚未映射，注4是Haskell经Hoog转述的位置报告；未独立查阅Hoog，不当作现今馆藏。
+
+S2及独立复核台账未变；前批两条修订statement和两条mention仍待独立差异复核。4条边是2项委托候选和2项从书内署称补记的作者关系，不把4条边误计成4项statement裁决。

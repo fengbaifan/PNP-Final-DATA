@@ -47,9 +47,18 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 - Haskell 提及的宫殿候选 `cand-6820` 仍为 S3 `undecided`，本卡不把它登记为已识别的 place；绘画系列候选 `cand-6846` 亦保持 `undecided`。
 - 本卡不补入外部生平，也不把作者对收藏趣味的分析写成不带归属的事实。
 
-### 关系与证据
+## 关系与证据
 
-以下9条 S2 关系候选留待 S6；本卡未新增正式关系：
+### 关系记录
+
+| 方向与关系 | 关联知识元 | 语境与证据 |
+|---|---|---|
+| ← 委托者（`commissioner_of`，反向投影） | [卡托生平场景（Scene from the Life of Cato）](../works/guercino-scene-life-cato-la-vrilliere.md) | 来源限定作品委托关系；角色：Haskell书内委托；范围：原书称La Vrillière随后向Guercino委托这一题材；不推定具体年份或交付。；原断言与证据见发出端卡片“卡托生平场景（Scene from the Life of Cato）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.185 L206; statement=st-chp7-p185-i01 |
+| ← 委托者（`commissioner_of`，反向投影） | [卡米卢斯将法莱里学校教师交给学生（Camillus handing the Schoolmaster of the Falerii to his Pupils）](../works/poussin-camillus-schoolmaster-la-vrilliere.md) | 来源限定作品订购关系；时间：1637；角色：Haskell书内订购；范围：原书称La Vrillière于1637年向Poussin订购此画；不推定完成或交付日期。；原断言与证据见发出端卡片“卡米卢斯将法莱里学校教师交给学生（Camillus handing the Schoolmaster of the Falerii to his Pupils）”：[来源](../../../02-sources/02-Markdown/07_CHP-7_sec_i.md)；haskell-1980-rev-ed；Chapter 7, printed p.185 L206–207; statement=st-chp7-p185-i02 |
+
+### 关系候选入口
+
+以下历史 S2 候选的最新裁决以过程记录及关系表为准：
 
 - `st-chp7-p184-i13`（Mazarin：same，已有 KU）
 - `st-chp7-p184-i15`（宫殿候选 `cand-6820`：undecided）
