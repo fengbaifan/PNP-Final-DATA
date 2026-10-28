@@ -17681,3 +17681,29 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 定向渲染6张受影响卡；写后字节核验通过，六卡复预览均无差异。`build_field_facts.py --apply`后复预览`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。严格表审计通过：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断均为0（broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed）。非阻断诊断仍列1,330个零关系KU及2个超50连接对象。
 
 批后全书状态：S2为15,471 statements／26,872 mentions，统一独立复核台账9,622条，statement ID与来源版本仍未核平；本批修订的4条当前statement版本待独立差异复核，不计入台账。S3按候选ID计12,433项均有决定：same 2,110、new 5,089、conflict 9、excluded 106、undecided 5,119；另有28个候选的35条来源限定决定与候选级决定不同。S4已登记2,501/5,089个new候选，待映射2,588项，其中直接关系端点925项、其他1,663项；KU共3,281。S5共14,669条字段，1,625条`unverified`。S6历史裁决2,035项（formal 1,203、pending 698、rejected 134）；当前`relation_candidate=true`为10,674项，历史裁决台账与当前statement版本仍差1项，不据此报告完成率。正式关系表2,505行（2,464 formal、41 pending）。337条关系statement仍缺至少一个S2端点候选ID；backlog 58条（15 completed、43 undecided），严格审计pending=0。
+
+<a id="s3-s4-s6-chp5-p144-regulus-20261028"></a>
+### S3–S6 第5章 p.144《Regulus》作品身份复用与关系裁决（2026-10-28）
+
+#### S3 跨章身份与 S4 去向
+
+将`cand-6225`（`aln-6406`）从`new`改判为`same`，映射至既有作品KU `units/works/salvator-rosa-the-death-of-regulus`。第5章p.144 L25明称“Regulus killed by the Carthaginians (Plate 23b)”；章前图版目录L76将23b标为“Salvator Rosa: The Death of Regulus”，与`cand-4093`已映射的同一稳定KU相符。区别于普林斯顿《Study for the Death of Atilius Regulus》准备稿，该准备稿继续保留独立KU。此为原书内部的图版交叉身份，不宣称外部目录身份已在本批复核。因候选决定改为same，无需新增KU、manifest或卡片。
+
+#### S2 当前引句与来源范围修订
+
+修订`st-chp5-p144-de-rossi-displayed-regulus`来源跨度为L24–25，补入De’ Rossi私人博物馆／画廊语境和关键谓词“In these he hung”，确保`displayed_work_in_private_collection`有完整来源锚点；原引句使用L25的逐字跨度，L24作为collection_context及私人博物馆语境的相邻证据。修订`st-chp5-p144-regulus-raised-small-picture-idiom-to-heroic-tragedy`来源跨度为L25–26，补入“in which”及《Regulus》回指，保留Haskell对作品的解释性归因。两条当前statement版本需独立差异复核，不新增统一S2复核记录或计数；statement与mention总数不变。
+
+#### S5 与 S6 逐项决定
+
+本批不另加重复S5字段；现有作品卡已有图版标题、创作者、媒介与馆藏信息。新增正式关系`rel-2507 held_by`：作品→Carlo de’ Rossi，记Haskell所述画作在De’ Rossi私人博物馆画廊中的历史收藏／展示语境；时间未载故留空，不表示法律产权、准确房间或当前保管。
+
+| S2关系候选 | 决定 | 去向与边界 |
+|---|---|---|
+| `st-chp5-p144-de-rossi-displayed-regulus` | formal | `rel-2507 held_by`：作品→De’ Rossi；基于L24–25“his private museum”及“In these he hung”，仅记录来源所述历史收藏／展示语境。 |
+| `st-chp5-p144-regulus-raised-small-picture-idiom-to-heroic-tragedy` | process-only pending | 引句现包含L25–26的完整回指；但来源具体说Rosa研究“Stoic historians”，当前端点是抽象的17世纪斯多葛主义术语。需先解决历史人物／著述与思想术语的S2端点边界；目前不将Haskell解释压缩成未经支持的作品→Stoicism正式边。 |
+
+#### 卡片投影与审计
+
+作品卡预览只显示一条新增的rel-2507关系行，定向渲染仅写入该作品卡；写后复预览无差异。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；仅保留2587条new候选待S4登记及S2语义质量需持续人工审读两项既有warning。关系一致性阻断均为0（broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed）。
+
+批后状态：S2仍为15,471 statements／26,872 mentions；两条当前statement版本待独立差异复核，统一台账仍9,622且statement ID／版本未核平。S3共12,433项：same 2,111、new 5,088、conflict 9、excluded 106、undecided 5,119；28个候选的35条来源决定差异仍待触发式核对。S4已映射2,501/5,088个new候选，待映射2,587，其中直接关系端点924、其他1,663；KU共3,281。S5仍为14,669字段、1,625条`unverified`。S6历史裁决2,037项（formal 1,204、pending 699、rejected 134），当前`relation_candidate=true`仍10,674，历史台账与当前statement版本分母差1，不据此报告完成率。`relations.csv`为2,506行（2,465 formal、41 pending）。缺少至少一个S2端点候选ID的关系statement仍337条；candidate-backlog仍58条（15 completed、43 undecided），严格审计pending=0。

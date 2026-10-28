@@ -108,6 +108,7 @@ relations:
 | ← 采用预备模型／样稿（`modeled_by`，反向投影） | [雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）](rosa-regulus-study-princeton.md) | 时间：约1652；角色：油画准备稿；范围：x1948-610单件准备稿；原断言与证据见发出端卡片“雷古鲁斯之死准备稿（Study for the Death of Atilius Regulus）”：[来源](https://artmuseum.princeton.edu/art/collections/objects/8060)；src-574c245a5df7710c；作品说明：preliminary sketch for The Death of Regulus |
 | → 创作者（`created_by`） | [萨尔瓦多·罗萨（Salvator Rosa）](../persons/salvator-rosa.md) | 时间：本书所述时点；角色：画家；范围：本书图版23b油画；区别普林斯顿准备稿；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 76–76; 章前：图版目录；印刷页xiii |
 | → 由其保管（`held_by`） | [弗吉尼亚美术馆（Virginia Museum of Fine Arts）](../institutions/virginia-museum-of-fine-arts.md) | 时间：本书所述时点；角色：书中保管机构；范围：本书图版23b油画；区别普林斯顿准备稿；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 76–76; 章前：图版目录；印刷页xiii |
+| → 由其保管（`held_by`） | [卡洛·德·罗西（Carlo de' Rossi）](../persons/carlo-de-rossi.md) | 原文将作品置于De’ Rossi的私人博物馆／画廊语境，并明确说该画作悬挂于其中；不表示法律所有权或当前保管；角色：历史收藏及展示语境；范围：哈斯克尔称该画作悬挂于德·罗西私人博物馆的画廊房间；此边仅记录原书所述历史收藏／展示，不认定法律产权、准确房间或现藏位置。；证据：[来源](../../../02-sources/02-Markdown/05_CHP-5_sec_iv.md)；haskell-1980-rev-ed；Chapter 5, printed p.144, lines 24–25; statement=st-chp5-p144-de-rossi-displayed-regulus |
 
 ### 关系候选入口
 
