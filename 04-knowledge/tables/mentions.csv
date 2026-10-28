@@ -27542,3 +27542,10 @@ m-chp21-bib-l756-806-maresca-author,chp-21:21_CHP-21Bibliography:l756-806,cand-7
 m-chp5-sec-iii-l70-80-048,chp-5:05_CHP-5_sec_iii:l70-80,cand-11927,Alessandro Farnese’s campaigns,279,309,Direct S2 anchor for the campaign group named in the De Bello Belgico and location statements; no campaign date or individual battle is implied.
 m-chp5-sec-iii-l70-80-049,chp-5:05_CHP-5_sec_iii:l70-80,cand-11930,and others,172,182,"Direct S2 span for the additional unnamed collaborators; the referent remains an open-ended, untyped group."
 m-chp21-bib-l701-754-003-longhi-author,chp-21:21_CHP-21Bibliography:l701-754,cand-7603,"Longhi, R.",216,226,Bibliographic author form for cand-7604; S3 maps the R. Longhi identity to Roberto Longhi.
+m-chp8-p215-pinetti-1916-article,chp-8:08_CHP-8_sec_ii:l372-461,cand-7657,"article by Angelo Pinetti, 1916",108,139,Exact object phrase in footnote 2; the printed-page OCR correction die/the is documented in the process record.
+m-chp8-p215-pinetti-1916-author,chp-8:08_CHP-8_sec_ii:l372-461,cand-7656,Angelo Pinetti,119,133,Named author nested within the article phrase.
+m-chp8-p215-pinetti-1916-surname,chp-8:08_CHP-8_sec_ii:l372-461,cand-7656,Pinetti,248,255,Second author reference in the same footnote.
+m-chp8-p221-pinetti-1920-article,chp-8:08_CHP-8_sec_ii:l372-461,cand-7695,"Angelo Pinetti, 1920",966,986,Author-year citation at the end of footnote 1; bibliography identifies the distinct 1920 article.
+m-chp8-p221-pinetti-1920-author,chp-8:08_CHP-8_sec_ii:l372-461,cand-7656,Angelo Pinetti,966,980,Named author nested within the author-year citation.
+m-chp21-bib-l928-983-023-pinetti-author,chp-21:21_CHP-21Bibliography:l928-983,cand-7656,"Pinetti, A.",1953,1964,"Printed 1916 bibliography byline, nested within the full article-entry mention."
+m-chp21-bib-l928-983-024-pinetti-author,chp-21:21_CHP-21Bibliography:l928-983,cand-7656,Pinetti A,2074,2083,OCR byline span for the 1920 entry; the page-image correction is recorded in the migration process.

@@ -18375,3 +18375,23 @@ S2 statement、mention及统一独立复核台账均未改变；本批没有S2�
 | `st-chp15-p362-neptune-selected` | process-only pending | 同上；不把选择行为误作创作、委托或收藏关系。 |
 
 核对 `relations.csv` 与已有process记录，四条statement先前均无formal行或已记载的相反/撤销裁决；没有一项被反证，故不记为 `rejected`。谓词不兼容导致四项继续process-only pending，不向正式关系表写入虚构谓词。另，原句的 “Michelangelo’s” 和 “in Santa Maria sopra Minerva” 在当前S2条目里不是独立作者或地点statement；仅保留来源称名与地点限定，并复用地点KU，不新增 `created_by` 或 `located_at` 边。S2 statements、mentions和9,622条统一复核台账未改；当前版本的独立复核状态不变。
+
+
+<a id="s3-s4-s5-s6-pinetti-articles-and-author-20261028"></a>
+### 第8章 Pinetti 两篇文章与作者身份分组、关系端点（2026-10-28）
+
+**原文锚点与S2 mention补正。** 第8章印刷页215注2（Markdown L374；PDF物理页13）称“the very full article by Angelo Pinetti, 1916”，并把对文件的解释归于Haskell；印刷页221注1（Markdown L380；PDF物理页23）以“Angelo Pinetti, 1920”署名另一段关于S. Paolo d’Argan的报告。第21章书目印刷页433（Markdown L958–L965）分别列出两篇题名、刊物和年份；1916文献页码为113–142，1920条目未载页码。校读记录将L374 OCR `die` 更正为扫描印本 `the`，将L963的 `Pinetti A:,.` 校读为 `Pinetti A.`；均不改写S0来源文件。当前两个脚注statement已经列出候选，但相应候选缺精确mention跨度。本批在现有statement上补入7条逐字可定位的mention，含嵌套作者姓名；statement正文和既有候选锚点未变。该mention修补不纳入9,622条S2独立复核台账，亦不构成相关段落独立语义接收。
+
+| 候选 | 跨章身份判断 | 当前去向 |
+|---|---|---|
+| `cand-7656` Angelo Pinetti | p.215脚注给全名；p.221脚注给作者-年份形式；两篇书目条目均印作 `Pinetti, A.`。组内为同一书内署名，不扩展为外部人物身份。 | 沿用 `new-person:angelo-pinetti-25898ba69d`，登记 `units/persons/angelo-pinetti`。 |
+| `cand-7657` 1916年文章 | p.215注2的作者-年份引文与书目L958–961的完整题名、期刊及页码对应；跨章为同一文章候选。未找到同粒度既有archive KU。 | S3由 `undecided` 改为 `new`；组 `archive-group-pinetti-s-maria-maggiore-1916`，登记 `units/archives/pinetti-la-decorazione-s-maria-maggiore-1916`。 |
+| `cand-7695` 1920年文章 | p.221注1的作者-年份署名与书目L962–965的另一题名和报刊相合；与1916年文章年份、题名、刊物均不同，作者相同不足以合并作品。页码未载。 | S3由 `undecided` 改为 `new`；组 `archive-group-pinetti-di-alcuni-quadri-1920`，登记 `units/archives/pinetti-di-alcuni-quadri-bergamo-1920`。 |
+
+三项身份均为Haskell书内的来源级身份判断；未查外部书目或原刊，也未声称读过文章。1920书目未给页码，卡片明确记录缺载，不作补猜。两篇文章的出版信息和作者信息仅按书内著录保存。
+
+**S4/S5。** 新增两张archive卡和一张person卡，三条对齐行均写入KU映射及本节process_ref，并加入manifest与accepted.yml。字段表写入18条source-backed事实，限于题名、作者著录、刊物、年份、页码缺载、引用状态及本书内人物称名；没有外部验证字段。
+
+**S6逐项去向与历史影响。** `relations.csv`原无下列对应statement关系行；本批新增3条formal：`rel-2562 cites`（Haskell书→1916文章，原文明确说本地文件材料取自该文）、`rel-2563 authored_by`（1916文章→Angelo Pinetti，脚注明称作者）、`rel-2564 authored_by`（1920文章→Angelo Pinetti，脚注署名与书目责任者形式相合）。每条仅表达Haskell的引用或责任者归属，不表示原刊及其文件已核读。`st-chp8-p221-n1-pinetti-citation`仍按现有S2标记不是关系候选，因此本批没有另加“本书 cites 1920文章”边。未发现针对本批语句的历史撤销或相反S6裁决；无证据冲突，故没有rejected或待证边。该判断只覆盖本批提到的引文与责任者关系，不裁决第8章其他未名艺术家或作品端点。全书S6历史裁决与当前statement版本的核平仍未完成，不能以本批新增三边代替。
+
+本批后机械计数：S2为15,480条statement、26,881条mention；S3主决定为same 2,121、new 5,097、conflict 8、excluded 106、undecided 5,101；S4已映射2,548/5,097条new，待登记2,549条；直接关系new端点待映射894条，其中人物端点0。S2 statement版本与9,622条复核台账未在本批核平；文章和卡片内容也未获独立语义接收。

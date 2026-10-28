@@ -2,6 +2,9 @@
 
 ### 近期批次记录（2026-10-28）
 
+**本批完成：第8章 Pinetti 两篇文章与作者端点。** 将1916、1920两篇文章分别从`undecided`裁为来源限定`new`组，登记2张archive卡；映射既有Pinetti作者组并新增person卡。为两个脚注及两条书目补7条精确mention跨度，新增18条书内字段和3条formal关系（1条`cites`、2条`authored_by`）。不把两篇文章合并，1920条目无页码则明确留空；原刊均未独立查阅。S2 statement与9,622条复核台账未变。详见[本批裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-pinetti-articles-and-author-20261028)。
+
+
 **本批完成：第14章《Newtonianismo per le Dame》文本、插图与概念端点。** 将 `cand-10258` 从 `undecided` 改为书名级archive `new`组，并映射；`cand-10311`、`cand-12182`沿用各自既有new组，分别登记扉页插图work与Italian culture term。三卡新增13条结构化字段（10条Haskell来源支持、3条项目暂译/暂名未验证）。插图到Piazzetta以 `rel-2558 created_by` formal；出版角色、在威尼斯无法刊行、期刊警示、文化贡献及可能会面共6项继续process-only pending。`bl-0059`保留独立第一版archive端点为undecided，避免用文本本体冒充特定版本。4张相关卡定向渲染并复预览无差异；严格审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`，关系一致性五项阻断均为0。S2和9,622条统一独立复核台账未变。过程及依据见[本批记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp14-newtonianismo-title-identity-20261028)。
 
 **本批完成：第13章 Zanetti 1736 年购藏记端点。** 按 p.341 注4扫描校读完整题名（S0 OCR 的 `Pncipe` 更正为印本 `Principe`，未改来源本体）；保留 `cand-10201` 的既有 `archive-group-8dedf989f735`，作为题名级文本身份登记，不推断载体或是否属于 `Cod. CXVI, 7356`。新增6条Haskell来源支持字段及 `rel-2559 authored_by`；同注两个未识别作品/作者关系候选保持process-only pending，并新增 `bl-0060`、`bl-0061`。相关卡渲染后复预览无差异；没有改动S2 statement、mention或独立复核台账。详见[身份与关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s6-chp13-zanetti-memorie-1736-20261028)。
@@ -10,7 +13,7 @@
 
 **本批完成：第15章 Farsetti 四尊雕像及“modern sculpture”类别。** 正文 `cand-10437` 与索引子目 `cand-1661` 合并到同一Risen Christ新组；另为Sansovino《Bacchus》、Giambologna《Mercury》、Bernini《Neptune》各保留独立work组，并登记来源限定term。`cand-10438`从new更正为same，复用米涅瓦圣母堂；不与Bernini未执行的巴尔达基诺方案、卡拉瓦乔《Bacchus》或Mattielli《Neptune》混同。四项Farsetti选例关系因无忠实受控谓词均保持process-only pending；14条新增字段全部source_backed。详见[跨章身份与关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-ch15-p362-farsetti-statues-20261028)。
 
-**当前机械快照（2026-10-28，按本批后实表核算）：** S2为15,480条statement、26,874条mention；统一复核台账9,622条，版本差异与重叠尚未核平，本批不构成独立语义接收。S3候选12,433项，主决定same 2,121、new 5,095、conflict 8、excluded 106、undecided 5,103；28个候选仍有不同来源决定。S4已映射2,545/5,095个new，尚有2,550个待登记；其中按主决定且确为S2主客体端点统计，895个仍未映射（term 400、work 129、place 127、archive 117、event 72、institution 49、person 1）。S4实际KU 3,323。S5共14,793行（1,632条unverified）。`relations.csv`有2,559行（2,518 formal、41 pending）；历史S6裁决表与当前statement版本仍未核平，故不据此计算可靠覆盖率。`candidate-backlog.csv`共61行，pending=0；`bl-0059`、`bl-0060`、`bl-0061`均保留明确undecided端点。严格表审计另有S4待映射与S2语义质量提示；这些机械数字不代表语义接收。
+**当前机械快照（2026-10-28，按本批后实表核算）：** S2为15,480条statement、26,881条mention；统一复核台账9,622条，版本差异与重叠尚未核平，本批不构成独立语义接收。S3候选12,433项，主决定same 2,121、new 5,097、conflict 8、excluded 106、undecided 5,101；28个候选仍有不同来源决定。S4已映射2,548/5,097个new，尚有2,549个待登记；其中按主决定且确为S2主客体端点统计，894个仍未映射（term 400、work 129、place 127、archive 117、event 72、institution 49、person 0）。S4实际KU 3,326。S5共14,811行（1,632条unverified）。`relations.csv`有2,562行（2,521 formal、41 pending）；历史S6裁决表与当前statement版本仍未核平，故不据此计算可靠覆盖率。`candidate-backlog.csv`共61行，pending=0；`bl-0059`、`bl-0060`、`bl-0061`均保留明确undecided端点。严格表审计另有S4待映射与S2语义质量提示；这些机械数字不代表语义接收。
 
 **本批更正：第13章p.334《Novelle》编辑者代词。** 将 `he himself edited` 按最近的并列主语由Giambattista调整为Almorò Albrizzi；原引文不变，新增一条anaphoric mention。Treccani区分两兄弟的出版／编辑记录，但未独立解决Haskell所述编辑职责；相关S6关系继续pending，S2当前版本待独立差异复核，不增加9,622条台账。详见[S2校读](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)及[关系影响](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s6-ch13-p334-novelle-anaphor-20261028)。
 
