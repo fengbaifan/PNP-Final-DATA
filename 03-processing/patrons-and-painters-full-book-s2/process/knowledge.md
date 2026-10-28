@@ -17881,6 +17881,13 @@ S6 两项关系候选逐项 formal：`rel-2468 created_by`记录 Haskell 对 Dom
 
 每对边在scope中互引，以保持同一行程的配对；四边都引用同一原文statement与页行。既有`rel-2433 located_at`仅表达出发时位于英格兰，与新增明确方向的边含义不同，保留而不重复生成同类自然键。此次按一条聚合候选裁决出四条边，未修改S2 statement或独立复核台账；选址行为及佛罗伦萨社群赞助两项仍为pending。
 
+<a id="s6-damini-leoni-travel-p281-20261028"></a>
+### Damini与Leoni的行程方向及S2候选锚点修正（2026-10-28）
+
+第10章p.281 L135–137在Bellucci从Düsseldorf到London之后称“So too did two other Venetian artists who arrived in England—Vincenzo Damini … and Giacomo Leoni”。依该紧接的指代，分别为已映射人物登记Düsseldorf出发与England目的地：`rel-2535`／`rel-2536`记录Damini，`rel-2537`／`rel-2538`记录Leoni。每对边互引以保留行程配对；两项候选此前已由`rel-2436`、`rel-2437`裁为formal，此次补齐原书明确的方向，不增加S6候选裁决分母。原文未给二人的确切时间或英格兰内的城镇，也未称他们同行，不把Bellucci的London目的地及“数年后”机械赋给二人。
+
+同段S2的`st-chp10-p281-damini-leoni-arrivals`先前`mentioned_candidate_ids`误列`cand-8921`（Palladianism术语）而未列城市；按同段Düsseldorf提及`m-chp10-p281-dusseldorf_bellucci`及现有S3城市映射，替换为`cand-0955`。`st-chp10-p281-leoni-arrived-in-england-from-dusseldorf`同样补入`cand-0955`；其原文还明确出现“Palladian movement”，故保留`cand-8921`。只修正候选锚点，不改原文、端点或候选数量；这两个当前statement版本待独立差异复核，不计入独立复核台账，既有版本差异总数需重新核平。
+
 <a id="s4-s5-s6-chp3-p89-pozzo-spaces-20261028"></a>
 ### S4–S6 第3章 p.89 Pozzo祭坛席与后殿空间端点（2026-10-28）
 
