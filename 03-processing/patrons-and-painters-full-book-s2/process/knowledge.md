@@ -18988,3 +18988,10 @@ S6影响核对：`relations.csv`无以行程statement为依据的裁决行；`re
 ### 2026-11-01 S2 statement注释与第10章p.279–281 S6当前裁决同步
 
 依据[当前版定向复核](stages.md#2026-11-01-s2-current-review-ch10-p279-p281-rel-candidate-sync)，更正三条statement的关系候选说明：`st-chp10-p279-pellegrini-departure-location`不再把已拒绝的`rel-2433 located_at`称为formal，其正式离境边是`rel-2531 travelled_from`；`st-chp10-p279-marco-ricci-departure-location`对应`rel-2434 travelled_from`；`st-chp10-p280-bellucci-arrives-after-ricci`对应`rel-2435 travelled_to`。历史S6裁决行和原先作出决定的过程记录保留，当前 statement 注释与当前relations.csv对齐。p.280“equally well received”无具名接待者，不建立关系；p.281 Venetian history painters 的宽泛支持说保持process-only pending，不补造支持者或formal边。此次不改S3/S4、relations.csv或9,622条历史复核台账。
+
+<a id="2026-11-01-s2-s6-referent-evidence-ch3-vitale"></a>
+### 2026-11-01 S2／S6证据范围补记：第3章 S. Vitale 所有权指代
+
+对照第3章 p.67 L23–24，`st-chp3-secii-l19-31-vitale-owned-by-jesuits`原引句只到“the third church that they owned in Rome”，没有纳入下一行将其识别为S. Vitale的短语。现将S2引句和`source_line_end`补至L24，精确保留“the third church”到“S. Vitale”的指代链。现有候选`cand-0724`（place）与`cand-1321`（Jesuits institution）、`owned_by`谓词和claim不变。
+
+`rel-1751`仍为formal，仅把证据定位从p.67 L23扩为L23–24；`rel-1752`、`rel-1753`及转交关系pending去向均未改。本次只更正证据范围，不增加或撤销S6决定；两张受影响卡已写回并复预览无差异。该statement仍待独立复核，不增加9,622条历史复核分子。

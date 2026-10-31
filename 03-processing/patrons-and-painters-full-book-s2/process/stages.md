@@ -14901,3 +14901,12 @@ S6 `rel-1990 created_by`与`rel-1991 located_at`保持formal，后者仅表示Ha
 | `st-chp10-p281-english-support-venetian-painters` | “Venetian history painters received wide support in England”是约1720年前十年的概括；相关span `[1764,1789)`、`[1815,1822)`与S0一致。 | 支持者未具名；候选术语不能作为 `supported_by` 主体。保持process-only pending，不构造formal边，也不与其他章节的不同群体合并。 |
 
 **裁决变化与影响。** 2026-10-27的第10章S3/S4/S6批次记录了当时初裁；随后relations.csv已将 `rel-2433`、`rel-2436`、`rel-2437` 改为rejected，保留 `rel-2434 travelled_from`、`rel-2435 travelled_to` formal，并由 `rel-2531`–`rel-2538` 记明确的行程方向。本次发现当前三条statement的 `relation_candidate_note`仍称旧 `located_at` formal，现已同步为 `rel-2433` rejected、`rel-2434` travelled_from formal、`rel-2435` travelled_to formal；正式关系表未改。候选身份决定、KU、statement claim/quote、mentions/span和其余历史裁决不变。此次定向复核不增加9,622条历史独立复核计数，不表示第10章或全书S2接收；S2台账与当前版本仍须继续核平。
+
+<a id="2026-11-01-s2-current-review-ch3-vitale-ownership-evidence"></a>
+### 2026-11-01 S2第3章 p.67 S. Vitale 所有权指代证据范围修正
+
+复核 `chp-3:03_CHP-3_sec_ii:l19-31` 的当前statement与来源切片（segment SHA-256 `c73ab32d7e9958941dbf4647c7d57885b865aba88c85172354809ab71fb6cd75`；源文件资产 SHA-256 `cb17a400fc5a79d895e31fe4a112c83e010f5e5b859883852b3985b7010eb1e6`），确认涉及的mention跨度精确。`st-chp3-secii-l19-31-vitale-owned-by-jesuits` 原先只引第23行“the third church that they owned in Rome”，未包含第24行将该church指明为S. Vitale的短语。现将`original_quote`扩为第23行“Indeed they planned to adopt them in the third church that they owned in Rome.”并接续第24行“This was another early Christian building, S. Vitale”；`source_line_end`由23改为24；不改claim、候选端点、谓词或mention。
+
+**关系影响。** `rel-1751 owned_by`仍为S. Vitale地点→Jesuits机构的formal边；仅将`source_span`由p.67 L23精确扩至L23–24，以包含指代解析。`rel-1751`的端点、时间、角色、范围和状态不变，`rel-1752`、`rel-1753`及“given to the Society by Clement VIII”的pending裁决均不变；没有新增或撤销关系。S. Vitale与Jesuits两张卡分别定向渲染，写后字节核验通过，复预览无差异。
+
+这是主代理的定向证据核查，不称独立复核；修订后的statement仍待独立复核，且本批不计入9,622条统一历史台账。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。

@@ -4,6 +4,8 @@
 
 **2026-11-01 S2第15章复核状态核正：** p.365–367的40条当前statement已完成独立复核；34条首轮通过、6条修订后通过，另有7条修订记录经独立回核。该批不计入9,622条统一历史汇总，当前全局逐ID／来源版本名册仍待核平。详见[第15章复核状态核正](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-ch15-independent-review-status-correction)。
 
+**2026-11-01 S2第3章 p.67 指代证据范围修正：** `st-chp3-secii-l19-31-vitale-owned-by-jesuits`引句补入下一行“S. Vitale”以解析“the third church”；formal `rel-1751 owned_by`仅将证据定位扩至L23–24，端点与裁决不变。两张受影响卡已重渲染，复预览无差异。此次为定向核查，非独立复核，修订行不计入9,622汇总。详见[S2／S6过程补记](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch3-vitale-ownership-evidence)。
+
 **2026-11-01 S2历史回映增量：** 9条第13、14、17章及结论statement已由旧复核快照`2273e274`回映至当前独立复核快照`47ea4184`和HEAD：6条旧ID改版、3条快照后新增；6条相关mention中2条旧行变化、4条新增。9条当前版均有独立复核记录，Rosa statement的后续引句修订另经当前版复核通过；`rel-2302`–`rel-2304`保持原裁决。此次不调整9,622历史汇总；全局唯一ID／来源版本名册仍待核平。详见[S2历史组与当前版回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-current-review-ch13-14-17-conclusion)。
 **2026-11-01 第2章三条作者 mention 当前版独立复核：** de Rinaldis、Roger Hinks、Rosi 三个 span 均与S0及原页匹配；前两者沿用已确定的作者身份和KU，Rosi仍保持S3 `undecided`并由`bl-0034`待证。相关citation与有据署名边均无需改判；不增减9,622历史复核汇总，也不视为第2章或全书S2接收。详见[第2章作者mention复核](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch2-l124-157-author-mentions)。
 
