@@ -14311,3 +14311,13 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 - S3历史行 aln-5959 的旧证据列表仍含上述泛指mention，现视为不再适用于该泛指指称的历史支持项并保留原记录；其余具体《绘画论》标题mention（L95）及相关statement仍支持 cand-5778 的既有 new 决定和KU登记，不撤销、不改组。S6既有 rel-1875 corresponded_with 仍只记录Cassiano与具名的Mazenta；匿名学者／手稿所有者没有新formal边，关系端点不足的部分保持pending。
 
 本次只改一个statement字段；当前mention表span经当前S0源段重新切片核对。两项独立当前版回核仍待完成；其余72条差异mention尚无精确报告匹配。
+
+### 2026-10-31 S2独立复核快照回映：第8章 p.237
+
+以独立复核报告写入仓库时的提交 fa7641aaf919536efdf53076b6f6783628f2a65f 为版本锚点，按 statement_id 比较第8章p.237当前statement。报告快照39条；当前42条，增加3条、删除0条，另有5条同ID行变化。5条变化仅在 qualifiers.ocr_corrections：三条 No.155/299/607 引注和汇总引注将错误的“letters-between”校读改为 Filza 3904→5904；litigation statement 删除了同一错误校读。claim、谓词、端点及原引文没有变化。其余34条statement完整对象不变。
+
+报告快照时对应正文segment有4条mention，当前为13条；新增9条：m-ch8-p237-note2-eleonora-zambeccari、m-ch8-p237-note2-ferdinand-litigation、m-ch8-p237-note2-ferdinand-no287-author、m-ch8-p237-note2-ferdinand-silva-correspondence、m-ch8-p237-note2-silva-letter-155、m-ch8-p237-note2-silva-letter-299、m-ch8-p237-note2-silva-letter-607、m-ch8-p237-note2-silva-letter-96、m-ch8-p237-note2-zambeccari-letter-287；均无删除或同ID字段变化，当前偏移重新切片后9/9与surface_form一致。脚注segment中 p.237 note 2 对应 L439–442 的3条既有mention行也与报告快照完全一致。PDF及S0源文件Git blob（分别为3c745eb57bc3fcd2b5f8b1a1a8b09f540f933a03、3d06d52be0860626d4a3b01bc985273636879ef0）和segments.jsonl blob（6d9b620d25969de94c324026f1207700b5ad5c8d）均未变化。
+
+同一复核快照时，印刷p.237注2没有对应的relations.csv行；当前新增rel-1693–rel-1700八条formal边且无该范围内旧行删除或修改：五条cites、No.287信件的authored_by与addressed_to，以及Ferdinand与Silva之间限于四封被引书信的corresponded_with。关系记录仍限定为Haskell的书内引注和报告，不声称读过原始档案或其信件内容、日期和各信方向。新增三条statement正是后两类端点关系及No.287信件信息，故不计入原39条独立审阅。
+
+**当前版独立回核待办：** 五条校读字段变化及三条新增statement（含各自新增mention）需独立对照当前表和原书页图；关系八条的S6历史变化已精确列出，但其语义依据仍须按关系阶段合同核验。本回映不把旧报告扩展为当前版验收，不调整9,622条汇总，不代表p.237、全章或S2接收。
