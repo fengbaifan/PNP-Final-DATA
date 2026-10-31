@@ -14021,28 +14021,86 @@ statement st-chp14-p349-note3-albrizzi-issue通过：原文引述支持“劝读
 <a id="2026-10-31-s2-review-snapshot-crosswalk-chapters-1-2-4-current"></a>
 ### 2026-10-31 S2独立复核快照回映：第1、2、4章当前版本
 
-对照独立复核记录`s2-independent-review-chp1-2-4-20261020.md`及表快照提交`2273e2743158401b841fb9bc7b7d1332836d400a`，按完整JSON对象、稳定statement/mention ID、source segment比较到当前提交`7399842d`。原报告复核范围为第1章521条、第2章1,441条、第4章1,082条；当前差异如下。表中“修改”指同ID完整对象发生变化。
+对照独立复核记录`s2-independent-review-chp1-2-4-20261020.md`及表快照提交`2273e2743158401b841fb9bc7b7d1332836d400a`，按完整JSON对象、稳定statement/mention ID、source segment比较到当前表快照提交`affb5a7406017aa8dc0bf7b27860a29da4e214dd`。原报告复核范围为第1章521条、第2章1,441条、第4章1,082条；当前差异如下。表中“修改”指同ID完整对象发生变化。
 
 | 章节 | statement快照→当前 | statement修改/新增/删除 | mention快照→当前 | mention修改/新增/删除 | segment记录 |
 |---|---:|---:|---:|---:|---:|
 | 第1章 | 521→522 | 3/1/0 | 710→711 | 0/1/0 | 30条，均未变 |
 | 第2章 | 1,441→1,464 | 55/24/1 | 2,896→2,901 | 9/5/0 | 75条，均未变 |
-| 第4章 | 1,082→1,097 | 36/15/0 | 1,680→1,689 | 2/9/0 | 40条，均未变 |
+| 第4章 | 1,082→1,097 | 47/15/0 | 1,680→1,691 | 3/11/0 | 40条，均未变 |
 
 上述源段记录未变，严格表审计也确认当前源资产哈希匹配。三章原始影印PDF从复核快照到当前均逐字节相同：CHP-1 SHA-256 `0b9a3ca88e6f09209bd20185948e18a68f527d0628e893940a7e3f07f6d22c86`；CHP-2 `317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；CHP-4 `2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303`。因此差异来自表格版本，而非本批正文或PDF来源漂移。
 
 第1章三条修改中，`st-chp1-secii-l48-60-07`仅在正文与脚注交叉链接中加入新statement；`st-chp1-secii-l657-n1-cites-malvasia-vol2-p27`仅更新关系交接说明，原claim、引文、谓词和端点未变；`st-chp1-secii-l917-926-02d`改为使用procedure候选`cand-3141`并收窄限定，已在2026-10-29 Art exhibitions独立复核中核过，原formal `rel-0299 uses_procedure`未变。新增`st-chp1-secii-p12-n1-cites-grassi-1957`与印刷页12注1对应，CHP-1.pdf物理页11可读到“L. Grassi published in 1957”及其文献定位；本次定向语义自查未发现statement或relation端点需修改，但尚无该新增statement的独立复核。`rel-2095 cites`为后续新增并继续formal；新statement对应`rel-2150 cites`，只记录Haskell引注，不声称独立读过被引论文。第1章在该基线下无同ID mention 修改或删除，仅新增procedure mention m-s2-chp1-p22-20261029-procedure；该跨度已在Art exhibitions独立复核中核对。
 
-第2章当前79条修改/新增statement中，有10条与2026-10-31清洁上下文独立复核记录相交；该交集不等于覆盖本章其余变更。第2章mention差异为9条修改、5条新增；该独立复核记录未列第2章mention，故14条均不据此计入独立复核。第4章51条修改/新增statement及11条mention差异尚未在当前版独立复核记录中逐项回映；原报告明确指出p.102与p.115共4条修订statement需重审，p.114新增statement亦不在原复核范围。其余条目需与后续独立复核和来源裁决记录继续交叉核对。
+三章合计statement同ID修改105条、新增40条、删除1条；mention修改12条、新增17条、删除0条。第2章当前79条修改/新增statement中，10条已在本次独立盲审范围内逐项审阅；本次还独立盲审第18章结论2条。第4章当前62条修改/新增statement及14条mention差异尚未全部完成基线回映；当前独立盲审已覆盖p.102、p.114、p.115的5条statement和p.117的12条statement，剩余差异须继续按ID核平。
 
-本回映不调整9,622条历史汇总数，不把旧快照审阅自动计为当前版接收，也不表示三章或S2整体接收。下一步按剩余statement和mention ID匹配后续复核证据，先处理第4章当前版差异，再核平其余第2章及第1章新增statement。
+本回映不调整9,622条历史汇总数，不把旧快照审阅自动计为当前版接收，也不表示三章或S2整体接收。下一步按剩余statement和mention ID匹配后续复核证据，并将历史复核aggregate逐项核平到当前ID和来源版本。
 
 <a id="2026-10-31-s2-crosswalk-mention-count-correction"></a>
 ### 2026-10-31 S2复核快照回映的mention计数更正
 
-复核上方三章版本表时，发现先前把mention差异计为第1/2/4章15/29/18条修改、合计62条，不能由所声明的基线提交2273e2743158401b841fb9bc7b7d1332836d400a与当前mentions.csv逐行复现。现按mention_id比较两版完整CSV行，确认第1/2/4章分别为0/1/0、9/5/0、2/9/0（修改/新增/删除），总计11/15/0。撤回先前62条修改的回映统计；statement差异仍为94条同ID修改、40条新增、1条删除。三章mention行数仍为710→711、2,896→2,901、1,680→1,689。
+复核上方三章版本表时，发现先前把mention差异计为第1/2/4章15/29/18条修改、合计62条，不能由所声明的基线提交2273e2743158401b841fb9bc7b7d1332836d400a与当前mentions.csv逐行复现。现按mention_id比较两版完整CSV行，确认第1/2/4章分别为0/1/0、9/5/0、3/11/0（修改/新增/删除），总计12/17/0。撤回先前62条修改的回映统计；statement差异为105条同ID修改、40条新增、1条删除。三章mention行数为710→711、2,896→2,901、1,680→1,691。
 
-另按当前S0源段逐条核对三章这26条新增或同ID变化mention，surface span均精确且candidate外键均存在。此项是机械锚点核验，不代替语义复核。这一更正不改变9,622条历史独立复核汇总，也不自动把任何改动判为已独立复核。第1章新增procedure mention已有独立复核；第2章14条mention差异未列入2026-10-31清洁上下文复核；第4章11条差异仍待逐项独立回映。当前工作树及来源PDF未改动。
+另按当前S0源段逐条核对三章29条新增或同ID变化mention，surface span均精确且candidate外键均存在。此项是机械锚点核验，不代替语义复核。这一更正不改变9,622条历史独立复核汇总，也不自动把任何改动判为已独立复核。第1章新增procedure mention已有独立复核；第2章14条mention差异已逐项记录在下方复核交叉表；第4章14条差异中，当前独立审阅范围与基线的逐ID交集尚需继续核定。
+
+<a id="2026-10-31-s2-crosswalk-chapters-2-18-independent-review"></a>
+### 2026-10-31 S2独立复核ID回映：第2章与结论
+
+将清洁上下文独立盲审的当前记录与基线提交`2273e2743158401b841fb9bc7b7d1332836d400a`逐ID、逐完整行比较。被独立审阅的12条statement中，7条为same-ID changed，5条为added；另按这5个source segment比较全量statement行，有10条same-ID changed、10条added、0条deleted。故除下列12条已语义审阅记录外，还有3条same-ID changed及5条added仅完成版本映射，不能计入独立语义复核。
+
+**独立审阅的same-ID changed（7）：** `st-chp2-secii-l52-60-programme-duration`；`st-chp2-secii-l80-89-country-house-decoration-employed`；`st-chp2-secii-l80-89-pietro-interpreted-decoration-themes`；`st-chp2-seciv-l139-152-montagu-points-author-to-tessin-account`；`st-chp2-seciv-l139-152-tessin-account-locator-and-date`；`st-chp2-secvii-l3-3-parma-consequences-fragment`；`st-chp18-conclusion-p384-salvator-rosa`。
+
+**独立审阅的added（5）：** `st-chp2-seciv-l139-152-tessin-account-authorship`；`st-chp2-seciv-l139-152-tessin-account-fullest`；`st-chp2-seciv-l139-152-tessin-account-repository-locator`；`st-chp2-secvii-l3-3-war-consequences-authorial-evaluation`；`st-chp18-conclusion-p384-crespi-humour-and-genre-painting`。
+
+**另有差异、未列入上述语义审阅范围：** same-ID changed `st-chp18-conclusion-p384-bamboccianti`、`st-chp18-conclusion-p384-crespi-and-medici-prince`、`st-chp18-conclusion-p384-social-demands-and-originality`；added `st-chp18-conclusion-p384-italian-art-context-social-conformity`、`st-chp2-secii-l52-60-andrew-intended-for-st-peters-niche-programme`、`st-chp2-secii-l52-60-andrew-work-has-subject-saint`、`st-chp2-secii-l80-89-country-house-decoration-at-castel-fusano`、`st-chp2-secii-l80-89-pietro-found-his-true-road`。
+
+40条本次独立审阅mention中，38条与基线完整行相同、1条same-ID changed、1条新增、0条删除。以下登记当前跨度、表面文本、候选映射及基线状态；跨度采用半开区间：
+
+| 章节／页 | Mention ID | 当前跨度 | 表面文本 | Candidate | 基线 |
+|---|---|---:|---|---|---|
+| 第2章 p.36 | `m-chp2-secii-l52-60-0027` | [882,892) | Urban VIII | `cand-0209` | unchanged |
+| 第2章 p.36 | `m-chp2-secii-l52-60-0042` | [1293,1301) | the Pope | `cand-0209` | unchanged |
+| 第2章 p.36 | `m-chp2-secii-l52-60-0055` | [1717,1727) | the scheme | `cand-4433` | unchanged |
+| 第2章 p.36 | `m-chp2-secii-l52-60-0056` | [1773,1781) | the Pope | `cand-0209` | unchanged |
+| 第2章 p.36 | `m-chp2-secii-l52-60-0059` | [1840,1845) | Urban | `cand-0209` | unchanged |
+| 第2章 p.36 | `m-chp2-secii-l52-60-0060` | [1867,1875) | his life | `cand-0209` | unchanged |
+| 第2章 p.36 | `m-chp2-secii-l52-60-0063` | [2053,2066) | his patronage | `cand-0209` | unchanged |
+| 第2章 p.36 | `m-chp2-secii-l52-60-0064` | [2068,2084) | All the elements | `cand-4433` | unchanged |
+| 第2章 p.36 | `m-chp2-secii-l52-60-0069` | [2409,2417) | The work | `cand-4433` | unchanged |
+| 第2章 p.36 | `m-chp2-secii-l52-60-0070` | [2485,2500) | his pontificate | `cand-0209` | unchanged |
+| 第2章 p.36 | `m-chp2-secii-l52-60-0075` | [2629,2637) | the Pope | `cand-0209` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0010` | [580,588) | Marcello | `cand-2316` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0012` | [721,727) | Pietro | `cand-0342` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0017` | [1140,1157) | Pietro da Cortona | `cand-0342` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0018` | [1204,1213) | Sacchetti | `cand-2316` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0022` | [1233,1235) | he | `cand-0342` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0024` | [1567,1575) | Marcello | `cand-2316` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0025` | [1585,1591) | Pietro | `cand-0342` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0026` | [1624,1687) | the decoration of his country house at Castel Fusano near Ostia | `cand-4481` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0028` | [1663,1676) | Castel Fusano | `cand-4480` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0030` | [1729,1735) | Pietro | `cand-0342` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0039` | [2131,2148) | Pietro da Cortona | `cand-0342` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0050` | [2503,2509) | Pietro | `cand-0342` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0057` | [2878,2895) | Pietro da Cortona | `cand-0342` | unchanged |
+| 第2章 p.39 | `m-chp2-secii-l80-89-0058` | [2971,2988) | Pietro da Cortona | `cand-0342` | unchanged |
+| 第2章 p.56 | `m-chp2-seciv-l139-152-0060` | [2456,2492) | that by Nicodemus Tessin the Younger | `cand-4784` | unchanged |
+| 第2章 p.56 | `m-chp2-seciv-l139-152-0048` | [2464,2492) | Nicodemus Tessin the Younger | `cand-2555` | unchanged |
+| 第2章 p.56 | `m-chp2-seciv-l139-152-0050` | [2519,2528) | Stockholm | `cand-4790` | unchanged |
+| 第2章 p.56 | `m-chp2-seciv-l139-152-0051` | [2530,2550) | Kungliga Biblioteket | `cand-4788` | unchanged |
+| 第2章 p.56 | `m-chp2-seciv-l139-152-0052` | [2600,2616) | Jennifer Montagu | `cand-1687` | unchanged |
+| 第2章 p.58 | `m-chp2-secvii-l3-19-0001` | [12,25) | War of Castro | `cand-4904` | unchanged |
+| 第2章 p.58 | `m-chp2-secvii-l3-19-0002` | [63,82) | this absurd dispute | `cand-4904` | unchanged |
+| 第2章 p.58 | `m-chp2-secvii-l3-19-0003` | [130,133) | its | `cand-4904` | unchanged |
+| 第2章 p.58 | `m-chp2-secvii-l3-19-0004` | [92,105) | Duke of Parma | `cand-0996` | changed |
+| 第18章结论 p.384 | `m-chp18-conclusion-0027` | [1445,1475) | the pressing claims of society | `cand-10735` | unchanged |
+| 第18章结论 p.384 | `m-chp18-conclusion-0030` | [1736,1749) | Salvator Rosa | `cand-2236` | unchanged |
+| 第18章结论 p.384 | `m-chp18-conclusion-p384-salvator-rosa-artistic-conformity` | [1809,1828) | artistic conformity | `cand-10735` | added |
+| 第18章结论 p.384 | `m-chp18-conclusion-0031` | [1833,1839) | Crespi | `cand-0871` | unchanged |
+| 第18章结论 p.384 | `m-chp18-conclusion-0033` | [1965,1979) | genre painting | `cand-9606` | unchanged |
+| 第18章结论 p.384 | `m-chp18-conclusion-0037` | [2419,2456) | conformity in the writers of the time | `cand-10735` | unchanged |
+
+mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`cand-0996`，note改为注明Haskell索引F.csv#11；原跨度和表面文本不变。mention `m-chp18-conclusion-p384-salvator-rosa-artistic-conformity`已核对当前S0切片等于“artistic conformity”；其候选`cand-10735`当前alignment为`new`，映射至`units/terms/social-conformity-in-italian-art-haskell-account`。本批精确回映只覆盖本表列出的review IDs；其他statement差异仍待语义复核。9,622条历史aggregate尚未按当前ID和来源版本核平。
 
 <a id="2026-10-31-s2-current-review-chapter4-p102-p114-p115"></a>
 ### 2026-10-31 第4章 p.102、p.114、p.115 当前版定向自查
@@ -14088,9 +14146,57 @@ statement st-chp14-p349-note3-albrizzi-issue通过：原文引述支持“劝读
 
 | 范围 | 独立结果 | 当前表与S6去向 |
 |---|---|---|
-| 第2章p.36、p.39、p.56、p.58，共9条statement | 当前陈述均与原页相符；40个相关mention跨度通过切片核对。p.58争端边有据，Haskell对“荒谬”和“后果不显著”的评价已与关系statement分开。 | `rel-2470`、`rel-2471`、`rel-2483`、`rel-2506`及相应已有裁决不变。Montagu来源指引继续process-only pending；Tessin书目定位`rel-2644`继续pending。p.59续文不在本次复核范围。 |
+| 第2章p.36、p.39、p.56、p.58，共10条statement | 当前陈述均与原页相符；40个相关mention跨度通过切片核对。p.58争端边有据，Haskell对“荒谬”和“后果不显著”的评价已与关系statement分开。 | `rel-2470`、`rel-2471`、`rel-2483`、`rel-2506`及相应已有裁决不变。Montagu来源指引继续process-only pending；Tessin书目定位`rel-2644`继续pending。p.59续文不在本次复核范围。 |
 | 第18章结论p.384，共2条statement | Crespi与Salvator Rosa的评价均保留为Haskell表述；指定Rosa mention切片准确。 | 未新增关系边；两条解释性statement继续process-only pending。 |
 | 第4章p.102、p.114、p.115注2，共5条statement | 38个唯一mention跨度与S0相符，34个候选未见语义错配。p.102两条statement和p.114题名陈述通过；p.115引注不能唯一定位到《Famiglie celebri italiane》。 | `st-chp4-sec-ii-p102-footnote4-cigoli-galilei`移除未出现在注4的`cand-5712`；`rel-2107`不变。`rel-1643 has_subject`不变。p.115引文写入`rel-2647 cites` pending。原件保管仍process-only pending：`cand-4380`身份未决；`rel-2116`只指摄影副本在Warburg，不代表原件保管。 |
 | 第4章p.117，共12条statement、3条mention | 12条statement的原文、语气和语义通过；3条mention跨度及候选映射通过。`m-chp4-sec-ii-p117-0011` `[386,395)`正确指向集体候选`cand-12465`；`...-0036` `[36,74)`指向未识别坐者组`cand-11665`；`...-0037` `[1617,1664)`指向混合建筑/绘画组`cand-11666`。 | 从French protest的`mentioned_candidate_ids`移除Spain政体`cand-4591`；不补抗议对象，也不把`cand-12465`当对象。`protested_violently`无受控谓词且端点缺失，继续process-only pending。`st-chp4-sec-ii-p117-lessons-from-poussin`新增`rel-2646 trained_by` pending，保留“probably”限定。`rel-2645 friend_of`及其他既有formal边不变。 |
 
 本次两处candidate-list修正不改变statement ID、claim、引文或mention行，不增删statement/mention；关系表净增两个pending裁决`rel-2646`、`rel-2647`。这些独立审读结果不自动计入9,622条历史复核聚合；statement ID、复核范围和来源版本仍须逐项核平。表格更正由`chp4_current_review_corrections_20261031.py`先dry-run再apply；恢复副本为`04-knowledge/tables/book-statements.jsonl.bak-independent-review-ch4-20261031`与`04-knowledge/tables/relations.csv.bak-independent-review-ch4-20261031`。
+
+
+#### 第4章 p.102、p.114–115 当前版 mention 逐项切片记录
+
+以下38个唯一mention均按当前S0分节计算半开跨度；切片与当前`surface_form`一致，候选映射与原页所指对象相符。第4章PDF物理页为9、25、26；原页OCR校读说明见上表。
+
+| Mention ID | 当前跨度 | 当前表面文本 | Candidate |
+|---|---:|---|---|
+| `m-chp4-sec-ii-p102note-0013` | `[3833,3839)` | `Cigoli` | `cand-0756` |
+| `m-chp4-sec-ii-p102note-0012` | `[3833,3857)` | `Cigoli-Galilei Carteggio` | `cand-5711` |
+| `m-chp4-sec-ii-p102note-0014` | `[3840,3847)` | `Galilei` | `cand-1105` |
+| `m-chp4-sec-ii-p102note-0015` | `[3868,3879)` | `A. Matteoli` | `cand-5713` |
+| `m-chp4-sec-ii-p102note-0016` | `[3871,3879)` | `Matteoli` | `cand-5713` |
+| `m-chp4-sec-ii-notes-p114-0054` | `[9867,9882)` | `Sheila Rinehart` | `cand-5793` |
+| `m-chp4-sec-ii-notes-p114-0055` | `[9886,9908)` | `Actes, 1961, pp. 19-30` | `cand-11428` |
+| `m-chp4-sec-ii-notes-p114-0044` | `[9943,9980)` | `Landscape with Woman washing her Feet` | `cand-5936` |
+| `m-chp4-sec-ii-notes-p114-0045` | `[9982,9988)` | `Ottawa` | `cand-5940` |
+| `m-chp4-sec-ii-notes-p114-0046` | `[9991,10008)` | `Funeral ofPhocion` | `cand-5937` |
+| `m-chp4-sec-ii-notes-p114-0056-phocion-title` | `[10001,10008)` | `Phocion` | `cand-10556` |
+| `m-chp4-sec-ii-notes-p114-0048` | `[10010,10037)` | `collection of Lord Plymouth` | `cand-5942` |
+| `m-chp4-sec-ii-notes-p114-0047` | `[10024,10037)` | `Lord Plymouth` | `cand-5941` |
+| `m-chp4-sec-ii-notes-p114-0049` | `[10060,10096)` | `Landscape with Man killed by Serpent` | `cand-5938` |
+| `m-chp4-sec-ii-notes-p114-0050` | `[10098,10122)` | `National Gallery, London` | `cand-5943` |
+| `m-chp4-sec-ii-notes-p114-0051` | `[10116,10122)` | `London` | `cand-1422` |
+| `m-chp4-sec-ii-notes-p114-0052` | `[10183,10222)` | `Landscape with Man fleeing from Serpent` | `cand-5939` |
+| `m-chp4-sec-ii-notes-p114-0053` | `[10224,10232)` | `Montreal` | `cand-5944` |
+| `m-chp4-sec-ii-p115note-0051` | `[10241,10256)` | `Camillo Massimi` | `cand-1564` |
+| `m-chp4-sec-ii-p115note-0052` | `[10261,10266)` | `Litta` | `cand-4842` |
+| `m-chp4-sec-ii-p115note-0053` | `[10268,10274)` | `Moroni` | `cand-5955` |
+| `m-chp4-sec-ii-p115note-0054` | `[10283,10309)` | `Abbate Michele Giustiniani` | `cand-1199` |
+| `m-chp4-sec-ii-p115note-0055` | `[10283,10314)` | `Abbate Michele Giustiniani, III` | `cand-5504` |
+| `m-chp4-sec-ii-p115note-0056` | `[10422,10428)` | `Moroni` | `cand-5954` |
+| `m-chp4-sec-ii-p115note-0057` | `[10461,10523)` | `a life of Massimi by Luca Bartolotti published at Asti in 1677` | `cand-5956` |
+| `m-chp4-sec-ii-p115note-0058` | `[10482,10497)` | `Luca Bartolotti` | `cand-5951` |
+| `m-chp4-sec-ii-p115note-0059` | `[10511,10515)` | `Asti` | `cand-5953` |
+| `m-chp4-sec-ii-p115note-0060` | `[10525,10534)` | `This book` | `cand-5956` |
+| `m-chp4-sec-ii-p115note-0061` | `[10571,10584)` | `Cardinal Bona` | `cand-5952` |
+| `m-chp4-sec-ii-p115note-0062` | `[10649,10659)` | `Patrignani` | `cand-5957` |
+| `m-chp4-sec-ii-p115note-0063` | `[10649,10665)` | `Patrignani, 1948` | `cand-5958` |
+| `m-chp4-sec-ii-p115note-0064` | `[10671,10705)` | `inventory of Massimi’s collections` | `cand-5959` |
+| `m-chp4-sec-ii-p115note-0065` | `[10731,10743)` | `Orbaan, 1920` | `cand-4373` |
+| `m-chp4-sec-ii-p115-0040` | `[2650,2667)` | `photographic copy` | `cand-5960` |
+| `m-chp4-sec-ii-p115-0041` | `[2675,2683)` | `original` | `cand-5959` |
+| `m-chp4-sec-ii-p115-0042` | `[2685,2704)` | `Biblioteca Vaticana` | `cand-4380` |
+| `m-chp4-sec-ii-p115-0043` | `[2706,2713)` | `Capponi` | `cand-5959` |
+| `m-chp4-sec-ii-p115-0044` | `[2741,2758)` | `Warburg Institute` | `cand-5950` |
+
+未决身份/类型继续维持原状态：`cand-5713`、`cand-5941`、`cand-5942`、`cand-5938`及`cand-4380`不因mention span通过而视为已解决；`cand-4842`的对象身份也不等于本条引注对象已唯一识别。`cand-1422`有两条alignment行且均为`same → units/places/london`，无身份冲突，但重复行交S3做结构核平。
