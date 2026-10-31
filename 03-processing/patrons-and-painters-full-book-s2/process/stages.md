@@ -14575,3 +14575,14 @@ claim、Haskell发言者及“不是Rosa自述意图”的限定保持不变。R
 两条statement均在9,622基线和当前表中以同一ID存在，完整JSON对象仅`subject_candidate_id`由作品`cand-4108`改为人物`cand-2677`；对象均为作品候选`cand-2678`，原引句、claim和S0来源未变。两条人物mention ID、surface与span不变，候选由`cand-2678`改为`cand-2677`，note相应更正。`02_CHP-2_sec_i.md`、`00_05_List_of_Plates.md`及`CHP-2.pdf`的基线与当前Git blob相同；物理页31（印刷p.46）还将“a huge Allegory of Rome”明确指向Plate 1，脚注2称“This picture”并述其在Finnish Institute in Rome，与目录和插页图注共同支持该作品同一性。目录候选`cand-4108`与索引作品候选`cand-2678`均映射至`units/works/valentin-allegory-of-rome`；`cand-2677`映射至人物`units/persons/valentin`。`cand-2678`的历史`undecided`→当前`same`裁决获当前来源支持；alignment中原理由和prior decision继续保留。
 
 关系核对：`rel-1026 created_by`仍为formal，方向作品→人物，范围为图版I，证据为图版目录第35行。该边表达本书署名，不是独立作者核验；两个文本层共用同一事实，不新增重复边。作品现有`rel-1027 held_by`与`rel-1028 located_at`仍为formal；p.46注2亦称“This picture”当时在罗马芬兰研究院，与目录所载地点一致，不需重复建边。S4无新增登记。现有可检索的历史记录未证明这两个statement ID／版本是否属于9,622汇总，当前版复核通过不据此推断旧/新版本的历史计数归属；本次不调整汇总或覆盖率。全程未改statement、alignment、relations或来源表，不增加独立复核分子。本次为局部当前版本回核，不代表第2章或全书S2接收。
+
+<a id="2026-11-01-s2-current-review-ch8-p224-p225"></a>
+### 2026-11-01 第8章p.224–225当前版S2回核与定点修订
+
+独立复核者对照CHP-8.pdf物理页26–27、S0 08_CHP-8_sec_ii.md、当前statement／mention／候选、alignment及relations。印刷页26确认原文为“Raimondo Buonaccorsi summoned two Bolognese artists, Carlo Antonio Rambaldi and Antonio Dardani, to paint the fresco of the Apotheosis of Aeneas on the vault of his gallery”；S0原引句的artists.保持不改，在对应commission及两条画家受召statement记录artists.→artists,。三条引句中非原文的vault／of换行已去除；壁画位置statement收窄为S0精确子串“the fresco of the Apotheosis of Aeneas on the vault of his gallery,2”。人物、壁画和长廊mentions的当前跨度逐项切片均准确。
+
+原有2条修订statement及3条新增statement的当前版本差异已复核。另将漏表的建筑描述单列为st-chp8-p224-gallery-single-fresco-description，锚于S0第154行：长廊低桶形拱顶由单幅壁画覆盖全长；Haskell说这使多样装饰获得一定统一。这是建筑描述与作者评价，不新增formal关系。p.224 Dido句末and与p.225开头interest.经页图核实为跨页续句；p.225当前引句收窄至interest.，只记录续句新增部分，并从该行移除属于Dal Sole句的OCR校读。p.224两条含完整拉丁引文的Dido statement均补记页图校读“The dies primus leti primusque malorum/Causa suit”→“Ille dies primus leti primusque malorum/Causa fuit”。
+
+st-chp8-p224-dido-picture-narrative不再把Dido人物候选当作整幅多人物场景的object：object_candidate_id置空，statement保留场景描述并维持relation candidate；作品候选cand-2486仍S3 undecided且无KU，场景关系留process-only pending，不强行建立formal边。书目短引Bologna (Plate 209)由p.416作者、题名和年份支持；cand-7759脚注／引文候选与书目cand-7348当前属于同一S3 archive group且映射到同一S4 KU。S2 statement及候选detail中的旧“待对齐”字样已清除，候选文本层改为脚注／引文；引用的Bologna原书未独立查阅。replica cand-7760仍未决，Scholz-Forni collection cand-7761仍类型待定，未据此建立关系。
+
+历史影响：cand-2094与cand-0902仍分别是Rambaldi、Dardani人物并映射到各自person KU；索引作品候选cand-2095、cand-0903仍对齐同一壁画KU，未与人物候选混并。rel-2522 located_at和rel-2523 commissioned_by保持formal、端点方向及证据范围不变；两位画家的summoned_to_paint继续process-only pending，不改成created_by。relations.csv本批未改写，也无既有S3／S6裁决升级或降级。S2当前版新增1条statement，不增加mention；本批不计入9,622聚合复核数，历史statement版本归属仍待核平。写后严格表审计errors=[]、s2_missing=[]；局部回核不表示第8章或全书S2接收。

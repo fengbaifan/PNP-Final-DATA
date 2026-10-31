@@ -18903,3 +18903,16 @@ S6 effects remain bounded: rel-2470, rel-2471, rel-2460 and rel-2506 remain form
 | `st-chp4-sec-ii-p118-poussin-fascinated-theme` | rejected为正式边 | `interested_in`不在当前受控关系类型；原文断言仍保留于S2。 |
 
 以上覆盖p.117正文28条`relation_candidate=true` statement：formal 7条、`relations.csv`中pending 2条（`rel-1996`、`rel-2646`），其余19条按表保留process-only pending。新增的`rel-2645`不改写或覆盖任何旧关系；旧formal及pending行均保留原ID。身份、范围、证据强度或谓词未解决的候选不因来源修订而升级。
+
+### 2026-11-01 第8章p.224–225当前关系去向
+
+| S2候选／陈述 | 当前S6去向 | 理由 |
+|---|---|---|
+| st-chp8-p224-gallery-single-fresco-description | 非关系描述；不新增edge | 记录长廊低桶形拱顶全长由单幅壁画覆盖及Haskell有限的统一性评价；不把描述拆成重复关系。 |
+| st-chp8-p224-apotheosis-fresco-located-at-gallery | formal rel-2522 located_at | 壁画→长廊，来源为p.224 L157；正文定位于长廊拱顶，不声称现状或作品完成日期。 |
+| st-chp8-p224-rambaldi-dardani-apotheosis | formal rel-2523 commissioned_by | 壁画→Raimondo，时间1707；只保留“召两位画家绘制”的来源范围，不推合同或完成归属。 |
+| st-chp8-p224-rambaldi-summoned-to-paint-apotheosis、...-dardani-summoned-to-paint-apotheosis | process-only pending | 受召任务不等于实际创作；当前受控谓词没有忠实表达summoned_to_paint的边，不建created_by。 |
+| st-chp8-p224-dido-picture-narrative | process-only pending | 整幅场景含Dido、Aeneas、Juno、Cupid和风暴；Dido单人不是完整场景的有效object。作品候选cand-2486仍S3 undecided、无KU，且缺合适场景端点／受控谓词。 |
+| st-chp8-p224-replica-publication-report | process-only pending | 书目候选身份已在S3同组并复用一张archive KU；replica cand-7760仍未决，collection cand-7761未定类型，不能建立publishes／held_by formal边。 |
+
+复核确认rel-2522、rel-2523均保留原ID、formal状态、端点、方向和来源范围；无S6历史裁决需要撤回或升级，relations.csv本批未改动。候选身份与地点映射也未改动；无新增KU或候选backlog项。S2当前版p.224–225写后更正及引文依据见[阶段记录](stages.md#2026-11-01-s2-current-review-ch8-p224-p225)。
