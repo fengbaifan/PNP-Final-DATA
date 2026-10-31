@@ -13827,4 +13827,12 @@ S2 statement为同ID内容变化，mention新增1条；9,622条统一独立复�
 
 以首次记录统一复核汇总的基线提交`1a6313c8654280a9b71187fc08522098626e734e`逐ID比较当前表。解析JSON后，statement为15,451→15,483条，新增33、删除1、同ID内容变化95；JSONL原始行差异为125，其中30条只是序列化差异，不能计为statement改动。mention为26,870→26,875条，新增26、删除21、同ID内容变化23。832条`segments.jsonl`记录在基线与当前版本间无增删或内容变化。
 
-当前9,622仅有汇总计数，分散的逐条复核报告尚未构成可与当前ID及来源版本逐行核对的交叉表。因此本核平只确认版本差异，不确认9,622条的当前版本覆盖或S2接收；后续须逐报告提取明确审过的statement ID及版本，去重、处理旧版和近期重叠，再据此续审。当前结果中的95条statement同ID变化是解析后内容差异数；不能用原始行比较数替代。
+当前9,622仅有汇总计数，分散的逐条复核报告尚未构成可与当前ID及来源版本逐行核对的交叉表。因此本核平只确认版本差异，不确认9,622条的当前版本覆盖或S2接收；后续须逐报告提取明确审过的statement ID及版本，去重、处理旧版和近期重叠，再据此续审。当前结果中的95条statement同ID变化是解析后内容差异数；不能用原始行比较数替代。新增statement `st-chp2-seciv-l190-245-dance-of-human-life-held-by-wallace`从基线以来属于新增ID，针对它增加OCR脚注号校读不会改变同ID变化计数。
+
+### 2026-10-31 S2定向来源核查：第2章p.57注3
+
+针对新增statement `st-chp2-seciv-l190-245-dance-of-human-life-held-by-wallace`直接核对当前S0片段及权威印本：`CHP-2.pdf` SHA-256为`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；物理页46印刷页57的页图将“3”明确印在“`The Dance of Human Life is in the Wallace Collection`”之前。S0 Markdown L242把该脚注号OCR为“8”；同页图版和连续脚注也确认该行应对应注3。保留S0及`original_quote`原样，在statement qualifiers加入`ocr_corrections`（L242：OCR `8`→印本`3`，依据物理页46）。
+
+当前mention零基半开跨度`[5546,5569)`精确对应作品名，`[5580,5598)`精确对应`Wallace Collection`；statement的work→institution端点、`held_by`方向及“不推断法律所有权、入藏日期或当前保管”限定与原文相符。对应formal `rel-2516 held_by`不需改写；`rel-2515 created_by`依据正文另一statement，未受影响；混合多作品、版画和题献的旧聚合statement仍保持rejected，未发现需改写的其他历史S6裁决。
+
+本次是当前代理的定向来源核查，不记作独立审读或增加9,622复核数；该statement修订后的当前版本仍待独立审读。statement总数及相对基线的同ID变化计数不变；mentions、S6表及来源资产均未改写。
