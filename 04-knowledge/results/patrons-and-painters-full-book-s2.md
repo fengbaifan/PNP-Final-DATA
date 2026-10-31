@@ -3895,6 +3895,8 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | S6 | `relations.csv` 2,642行：2,589 formal、50 pending、3 rejected；当前`relation_candidate=true`为10,686条 | 历史裁决台账与当前statement版本尚未核平，不报告完成率。缺候选端点statement 342条：仅缺subject 47、仅缺object 223、两端均缺72。
 | Backlog | 91条：17 completed、74 undecided；88条关联候选、3条保留无候选 | 三条无候选分别是未具名外层来信作者、只给职衔的总督、范围不明的费用对象；保持待证，不为满足映射率造实体。 |
 
+S2第4章p.102、p.114、p.115的5条当前statement已按原页定向自查，38个唯一mention span精确匹配当前S0段落，关系端点及历史裁决无变化；这不是独立复核，也不计入9,622条聚合数。仍待独立复核，详见[第4章当前版定向自查](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2-current-review-chapter4-p102-p114-p115)。
+
 S3纯`undecided`候选、纯未决直接关系端点及S4待登记直接关系端点按类型交叉统计：
 
 | 类型 | S3 undecided | S3未决直接关系端点 | S4待登记直接关系端点 |

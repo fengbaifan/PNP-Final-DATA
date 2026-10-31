@@ -14029,3 +14029,18 @@ statement st-chp14-p349-note3-albrizzi-issue通过：原文引述支持“劝读
 第2章当前79条修改/新增statement中，有10条与2026-10-31清洁上下文独立复核记录相交；该交集不等于覆盖本章其余变更。第2章34条mention差异与该记录显式列出的mention差异无交集。第4章51条修改/新增statement及27条mention差异尚未在本次查到的当前版独立复核记录中逐项回映；原报告明确指出p.102与p.115共4条修订statement需重审，p.114新增statement亦不在原复核范围。其余条目需与后续独立复核和来源裁决记录继续交叉核对。
 
 本回映不调整9,622条历史汇总数，不把旧快照审阅自动计为当前版接收，也不表示三章或S2整体接收。下一步按剩余statement和mention ID匹配后续复核证据，先处理第4章当前版差异，再核平其余第2章及第1章新增statement。
+
+<a id="2026-10-31-s2-current-review-chapter4-p102-p114-p115"></a>
+### 2026-10-31 第4章 p.102、p.114、p.115 当前版定向自查
+
+针对2026-10-20第4章独立复核记录明确标出的4条修订statement，以及之后新增的p.114题名statement，按当前`book-statements.jsonl`逐项对照S0分节文本和原书扫描。当前`CHP-4.pdf` SHA-256为`2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303`，p.102、114、115分别核为PDF物理页9、25、26；来源PDF与既有快照一致。
+
+| 当前statement | 原页依据与判断 | 关系及历史裁决影响 |
+|---|---|---|
+| `st-chp4-sec-ii-p102-footnote4-cigoli-galilei` | p.102注4明确写“See Cigoli-Galilei Carteggio edited by A. Matteoli”；S0注号`1`按扫描校为`4`，保留原OCR引文。 | `rel-2107 cites`仍为formal，仅表示Haskell引注；不表示已查阅被引版本。无裁决变化。 |
+| `st-chp4-sec-ii-p102-footnote4-matteoli-edited-carteggio` | 同一注明确以“A. Matteoli”署编辑；扫描不提供名字全称。 | `cand-5713`身份仍为S3 undecided；`edited_by`保持process-only pending，不补造人物身份或正式边。 |
+| `st-chp4-sec-ii-notes-p114-fn2-funeral-of-phocion-has-subject` | p.114注2所列题名扫描读作“Funeral of Phocion”；S0 OCR连写，按页图仅校正空格。该题名指称Phocion，但没有确认具体复制品或Lord Plymouth藏品身份。 | `rel-1643 has_subject`仍为formal且仅限题名；不与作品复制品或收藏事实合并。 |
+| `st-chp4-sec-ii-p115-fn2-sources` | p.115注2将Litta、Moroni与Abbate Michele Giustiniani并列，共用“III, p. 319”；原文未唯一指定该定位对应哪一出版物。 | `cand-4842`的S3身份决定来自其他书内书目锚点，不据此认定本注所引作品；本项继续process-only pending，无formal cites边。既有身份决定不变。 |
+| `st-chp4-sec-ii-p115-inventory-original-vatican-library` | p.115注2明确印有“Biblioteca Vaticana: Capponi Lat. 260”，并称其摄影副本在Warburg Institute Library；原件与摄影副本分开记录。 | 原件指向机构的关系继续pending：`cand-4380`身份未决，且无适配谓词。摄影副本的`rel-2116 located_at Warburg Institute`独立formal，仅复述书内位置、不核实现行馆藏。无裁决变化。 |
+
+以上5条statement所涉4个当前原页定位（p.102、114、115注2、p.115正文）内，38个唯一mention span均按当前S0源段重算并与`surface_form`一致；p.102注4被两个statement共同引用，按statement行窗口计43次检查。PDF页图、S0文本和表格共同支持当前断言及限定，本轮未改statement、mention、候选或`relations.csv`，也未改变历史裁决。此为主代理定向自查，不是独立语义接收；5条均不计入9,622条独立复核聚合数，仍待独立复核后再判断是否接收。
