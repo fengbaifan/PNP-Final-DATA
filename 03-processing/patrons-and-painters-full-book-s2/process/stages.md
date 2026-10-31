@@ -14484,3 +14484,15 @@ statement版本也按完整JSON对象重算：第1、2、4章同ID变化106条�
 | `st-chp18-conclusion-p384-social-demands-and-originality` | 初审要求将697字符的引文收窄到一般论断，现截至“becomes irresistible:”，S0第10–11行连续原文span `[1248,1585)`；修订后独立回核通过。保留S0 OCR `Efe`，继续记`Efe`→`life`；另据同一页图补录缺失空格校读`of‘national`→`of ‘national`。候选mention `Italian`、`the pressing claims of society`、`‘national character’`均位于当前引文范围内。 | `cand-3461`仍复用Italy；`cand-10735`与`cand-10736`保持既有new身份决定。`rel-2432 site_of_manifestation`仍只记录另一statement中的地域/文化语境，不表达社会压迫因果关系。本statement保持非关系claim，无新增或改写S6边。 |
 
 对应S0文件`18_CHP-18Conclusion.md` SHA-256为`A3D40952BEEAD96AC48136610FA3FA15F1DCDFCD1A354EF9F2C2262343AEFF14`；CHP-18Conclusion.pdf为`750BA8A4F4E7DC72E032746F7F3B15C3C70EF97A4220491FC3AA250A91CE2E29`，CHP-2.pdf为`317531003E6AEBA7D0A956D660EB7552E846FE35B6C7E8E1A4A0A5AA97E8AC5E`。S0及PDF来源文件均未修改，`relations.csv`、mentions表、S3 alignment和KU登记均未改写。当前statement表仅修改上述两条结论记录；9,622条历史复核聚合不增不减。原7ea4184快照未覆盖的4条差异现已完成当前版独立回核，但它们的旧版本是否曾计入9,622仍无行级凭据，继续列为台账归属待核，不据此计算S2覆盖率。
+
+
+<a id="2026-11-01-s1-current-input-and-s2-backlog-crosswalk"></a>
+### 2026-11-01 S1当前输入与S2补录回核
+
+以当前 `entity-candidates.csv`、S2覆盖表、backlog及其来源为准复核S1收口，不写回候选、对齐、KU、S2或关系表。`build_entity_candidates.py`只读预览生成2,934条索引输入：19个CSV的主条1,381、子条1,553，与当前2,934条带`index_entry_id`候选一对一匹配，缺项、重复和多余键均为0；全库候选12,443条。预览无待补accepted-KU候选（new accepted-KU candidates=0）。
+
+图版目录 `00_05_List_of_Plates.md` 对应85条唯一候选、13个S0 coverage段（12 reviewed、1个生成标题排除）；第21章书目 `21_CHP-21Bibliography.md` 对应256条唯一候选、33段（32 reviewed、1个生成标题排除）。候选源行锚点均落在对应来源段内，未覆盖段为0。除索引候选外另有9,509条候选：8,505条来自正文提及、1,004条用于映射已采纳KU；全部有来源引用并由严格表审计解析到已审阅段或KU。54条`excluded`均有非空理由。索引字段97项差异及A.csv四处编码异常的原页回映仍以本记录前文“2026-10-31 S1索引字段回映复核与A.csv编码异常”为准；差异不等于身份裁决，逐候选决定由S3处理。
+
+`candidate-backlog.csv`当前92行：88行关联候选、共84个不同候选ID；另4行`bl-0011`、`bl-0012`、`bl-0085`、`bl-0092`均为`undecided`且具备来源、statement、理由与过程引用，分别因写信人未具名、仅给职衔、费用对象范围不明、以及额外通信群体与手稿所有者范围不明而没有候选ID/KU。它们是待证关系端点，不是已识别但漏登的S1对象；不得据此补造实体。`bl-0092`是第4章p.106于10月31日新增的端点待办，使旧S1快照中的91行/3个无候选ID更新为当前92行/4个；索引输入与候选覆盖没有变化。
+
+结论：按现有索引、图版、书目及可识别S2补录候选，S1入口覆盖与来源追溯闭合；4个不可识别端点保留待证，不虚报为已解决。S1仅在发现新来源、输入行或可识别候选缺口时重开。
