@@ -13979,6 +13979,23 @@ Current table totals after these changes are 15,487 statements and 26,880 mentio
 
 复核范围内的Markdown来源文件自该快照以来未变，832条segments.jsonl记录也完全一致。报告记录的mentions.csv SHA-256无法与包含该表的160个Git历史版本中的任何一个匹配，因此无法将复核使用的精确mention快照对应到某次提交；mention的当前版本复核覆盖仍待逐项核平。第14章p.349的mention和限定语最近一次修订晚于24行复核，现已另行通过独立盲审，详见下方记录。完整回映及当前统计见结果文件。本记录不改变9,622条聚合台账，也不表示S2已整体接收。
 
+#### 第13–19章复核分子的精确statement ID回映
+
+以报告指纹对应的提交`2273e2743158401b841fb9bc7b7d1332836d400a`读取`book-statements.jsonl`，按13份被审S0分节文件重建statement ID集合；结果正好为报告计入的2,120个ID。逐ID比较解析后的完整JSON与当前表，旧集合中2,044条statement对象不变、75条同ID对象变化、1条删除；当前同来源文件范围共2,162条，另有43条新ID。按章节核平如下：
+
+| 来源范围 | 快照ID | 当前不变 | 同ID变化 | 删除 | 新增 |
+|---|---:|---:|---:|---:|---:|
+| 第13章正文与图版转录 | 579 | 575 | 3 | 1 | 8 |
+| 第14章 | 502 | 501 | 1 | 0 | 5 |
+| 第15章 | 551 | 505 | 46 | 0 | 6 |
+| 第16章 | 206 | 204 | 2 | 0 | 5 |
+| 第17章 | 142 | 125 | 17 | 0 | 7 |
+| 结论 | 24 | 20 | 4 | 0 | 2 |
+| 附录（含收据视觉转录） | 116 | 114 | 2 | 0 | 10 |
+| **合计** | **2,120** | **2,044** | **75** | **1** | **43** |
+
+报告明确排除在2,120分子之外的第16章p.373注2四条书信端点，当前ID为`st-chp16-p373-note2-sasso-letters-addressed-to-strange`、`st-chp16-p373-note2-sasso-letters-authored-by-sasso`、`st-chp16-p373-note2-strange-letters-addressed-to-sasso`及`st-chp16-p373-note2-strange-letters-authored-by-john-strange`；本次均确认为快照不存在、当前表新增。13份S0 Markdown文件字节与快照一致；832条`segments.jsonl`记录整体逐对象一致。上述结果完成statement ID与正文来源版本的精确回映，不等于当前mention层已核平：独立报告记载的`mentions.csv` SHA-256未能在Git历史中找到，不能恢复审读时的mention行集合。因此不凭2,044条不变statement推定同范围mention仍是报告所审版本，也不调整9,622条分子。四条未计数端点另行进入当前版只读独立回核；75条变化与43条新增须去重对照其后的当前版独立审读证据后，方可确定可计入的当前版本范围。
+
 <a id="2026-10-31-s2-independent-followup-ch14-p349"></a>
 ### 2026-10-31 S2独立盲审：第14章 p.349 注3当前版本
 
@@ -14347,3 +14364,17 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 对照CHP-8.pdf物理页44（印刷p.238）及S0第330行：“a copy of Guercino’s St William of Aquitaine”确为Crespi寄出的复制品。当前`st-chp8-p238-copy-st-william-sent`已为三个被引实体各登记精确mention：`a copy of Guercino’s St William of Aquitaine`（`cand-0875`，`[1390,1434)`）、内层`Guercino`（`cand-1258`，`[1400,1408)`）和内层`St William of Aquitaine`（`cand-1269`，`[1411,1434)`）。三个跨度均与当前S0切片一致；嵌套跨度对应复制品整体、画家和原作，彼此不合并。`cand-0875`的`aln-1210`与原作候选`cand-1269`的`aln-1604`仍`undecided`；`cand-1258`复用Guercino人物KU。
 
 该statement的relation candidate仍指向复制品候选，身份未决且无KU；`relations.csv`没有对应正式边，保持pending。修复只补当前mention及其证据记录，不改变statement claim、S3决定、S4登记、关系裁决或9,622条独立复核汇总，也不代表p.238或S2接收。既有49组候选—mention差异中，本次解决三处本地span缺口；其余差异仍须逐项核对，不以同一注释segment内其他页的mention替代p.238的原文跨度。
+
+### 2026-10-31 S2当前指代修复：第16章 p.373
+
+独立复核者只读当前S2表、S0来源段及CHP-16.pdf物理页1（印刷p.373）。四条书信statement的断言、发信/收信方向和来源限制通过；`rel-1598`–`rel-1601`四条既有formal边均未发现需改裁决的依据。复核发现两处遗漏mention，现已补录并按当前来源段核对：`m-chp16-p373-note2-sasso-recipient` 锚定“letters from Strange to Sasso”中的收件人`Sasso`，`cand-2364`、`[281,286)`；`m-chp16-p373-note2-sasso-him` 锚定“four letters from him to Strange”中的`him`，`cand-2364`、`[476,479)`，其来源局部先行词“Sasso’s replies”为`[408,423)`。两处跨度均与当前S0切片相符，且候选出现在对应statement端点中。
+
+本次是修订前发现后的主代理定点写回；新增mention尚待修订后独立回核。既有关系裁决不变，本批不计入9,622条历史复核分子，不代表第16章或S2接收。
+
+### 2026-10-31 S2第8章 p.238复核后S3证据备注更新
+
+干净上下文的独立复核逐条检查了复制品statement及其三条当前mention，整体复制品、内层画家和原作标题跨度分别为`[1390,1434)`、`[1400,1408)`、`[1411,1434)`，均与S0当前切片一致；复制品statement没有对应的S6正式边。随后仅修正`aln-1210`与`aln-1604`的`resolution_note`，把各自新补mention及复制品/原作边界写入可追溯证据；两项`decision`继续为`undecided`，`ku_id`为空，不据mention补录推same/new，也不新增关系。此项不改变9,622条历史复核分子，不构成本页、整章或S2接收。
+
+### 2026-10-31 S2表版本差异的可复现重算
+
+以提交`1a6313c8654280a9b71187fc08522098626e734e`为基线，statement按JSONL解析后比较完整对象；mentions使用支持带引号换行字段的`csv.DictReader`解析。当前`book-statements.jsonl`为15,487条，基线15,451条：新增37、删除1、同ID完整对象变化119。当前`mentions.csv`为26,887条，基线26,870条：新增38、删除21、同ID行变化26。早先结果叙述中的statement同ID变化100及mention新增33、同ID变化25与本次可复现计数不一致；本次保留旧过程记录作为历史，结果表采用本次按正确解析方法重算的数字。差异计数只描述表版本变化，不代表复核完成或未复核数量；9,622条台账仍须逐项与statement ID、mention版本和来源版本核平，故不计算覆盖率。
