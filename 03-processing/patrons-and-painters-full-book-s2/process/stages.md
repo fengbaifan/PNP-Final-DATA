@@ -14672,7 +14672,7 @@ rel-2650定向渲染到第一册archive卡；写后复预览无差异。事件�
 | `st-chp4-sec-ii-p117-mood-and-moral-reading` | claim 补回 Midas 警示中“at the expense of the more real values of life”，并保留“if not actually moral”及两件作品分别对应的解释。独立回核确认当前 claim、quote 与原页一致。 | `relation_candidate=false`；无 S6 行引用该 statement，不改 S3、S4 或关系裁决。 |
 | `st-chp4-sec-ii-p117-papal-policy-shift` | `original_quote` 恢复 S0 L209 与 L210 之间的换行（`a change of\nPope`）；独立回核确认 quote 是当前 segment 的精确子串，claim 保留“as so often happened”。 | `relation_candidate=false`；无 S6 行引用该 statement，不改 S3、S4 或关系裁决。 |
 
-独立复核同时确认相关 Midas、Arcadian Shepherds、作品组、Pope、Rome 与 Alexander VII mention spans 精确对应当前 S0；两条修订 statement 均为 PASS。结合首轮对该批12条 statement 与38个唯一 mention spans 的核对，当前 p.117 指定批次通过；不扩展为 p.117 全页或第4章其余内容接收。S1 无新增候选或端点：当前 S1 核平已覆盖后续回流的 `cand-12466`–`cand-12468`，本次仅修正现有 statement 的 claim/quote。历史9,622条复核成员不增不减，当前 S2 仍未全书独立接收。
+独立复核同时确认相关 Midas、Arcadian Shepherds、作品组、Pope、Rome 与 Alexander VII mention spans 精确对应当前 S0；两条修订 statement 均为 PASS。为维持逐ID回映，首轮复核中另外5条通过且相对基线有变化的记录在此明确列出完整ID：`st-chp4-sec-ii-p117-bellori-anecdote`、`st-chp4-sec-ii-p117-studio-conversation`、`st-chp4-sec-ii-p117-cassiano-visits`、`st-chp4-sec-ii-p117-cassiano-accompanied-on-visits`、`st-chp4-sec-ii-p117-patronage-difficulty`；五条原始复核判断均为PASS，现将旧表中的缩写记法展开。结合首轮对该批12条 statement 与38个唯一 mention spans 的核对，当前 p.117 指定批次通过；不扩展为 p.117 全页或第4章其余内容接收。S1 无新增候选或端点：当前 S1 核平已覆盖后续回流的 `cand-12466`–`cand-12468`，本次仅修正现有 statement 的 claim/quote。历史9,622条复核成员不增不减，当前 S2 仍未全书独立接收。
 
 <a id="2026-11-01-s2-independent-current-review-ch10-p281-ch20-p408"></a>
 
@@ -14697,3 +14697,9 @@ rel-2650定向渲染到第一册archive卡；写后复预览无差异。事件�
 当前脚注段6个mention span均通过切片核验：`The picture`、`Uffizi`、`Zanotti`、`Zanotti, n, p. 55`、`L. Crespi`及`L. Crespi, p. 211`。`cand-0878`是正文所指整幅画，S3 `new`但尚无KU；`cand-7945`复用Uffizi机构KU；Zanotti作者/书目记录分开映射，`L. Crespi`所指作品保持未决，不与画家Giuseppe Maria Crespi混同。
 
 S6既有`rel-0706`继续pending：其subject为局部复制品KU“Detail from Fair at Poggio a Caiano”，不能借该局部端点记录整幅画被Uffizi持有；整幅作品正式端点待S4登记后再裁决。无关系行改动，无历史9,622分子调整；本批仅关闭该statement当前版复核，不接收p.238全页或全书S2。
+
+<a id="2026-11-01-s2-current-delta-id-reference-audit"></a>
+
+### 2026-11-01 S2当前版本差异ID过程锚点核查
+
+以基线提交`1a6313c8654280a9b71187fc08522098626e734e`和当前数据快照`bf6a4477`逐条比较完整JSON对象后，当前statement表有170个新增或同ID变化记录（38个新增、132个同ID变化），另有1个基线ID已删除。将170个当前变化ID逐字回查`stages.md`与`knowledge.md`，均至少有一处过程引用；缺少过程引用的ID为0。该检查只证明有可检索的过程锚点，不证明每个当前版本均已独立复核或其来源版本已纳入历史聚合。9,622历史汇总仍无覆盖全部成员的逐行名册，故不据此计算覆盖率、不调整历史分子；后续仍须逐项核对复核报告的稳定ID、完整对象版本和来源范围。
