@@ -14541,3 +14541,12 @@ st-chp10-p281-damini-leoni-arrivals 与 st-chp10-p281-leoni-arrived-in-england-f
 当前相关mention span按segment复算均精确：Bellucci [2321,2329)、Düsseldorf [2379,2389)、Venetian artists [2412,2428)、England [2444,2451)、Vincenzo Damini [2452,2467)、Giacomo Leoni [2490,2503)、Palladian movement [2543,2565)。同步修正两条statement中过时的S6备注：Damini由rel-2535 travelled_from与rel-2536 travelled_to记录，Leoni由rel-2537 travelled_from与rel-2538 travelled_to记录；旧重复located_at边rel-2436、rel-2437均为rejected。relations.csv不变。另将England mention备注更新为cand-4439已有S3 new/S4政治实体KU，将Palladian movement备注更新为cand-8921已有S3 new、尚无KU；S3决定本身不变。
 
 Damini当前statement由基线中的复合断言拆为单人断言；Leoni是新增ID。此次只做当前版独立回核及上述备注更新，不纳入或调整9,622历史汇总。严格表审计errors=[]、s2_missing=[]；当前为15,487条statement、26,999条mention。此定向复核不代表第10章或全书S2接收。
+
+<a id="2026-11-01-s2-current-review-ch18-p384-salvator-rosa"></a>
+### 2026-11-01 S2当前版独立回核与引句修订：结论 p.384 Salvator Rosa
+
+独立复核者对照结论S0行11与CHP-18Conclusion.pdf物理页1（印刷p.384）。S0文件SHA-256为A3D40952BEEAD96AC48136610FA3FA15F1DCDFCD1A354EF9F2C2262343AEFF14，PDF为750BA8A4F4E7DC72E032746F7F3B15C3C70EF97A4220491FC3AA250A91CE2E29。初审发现原引句跨525字符，带入社会压力与Bamboccianti例证，并截在Crespi句的“his”。将st-chp18-conclusion-p384-salvator-rosa引句收窄为当前S0连续子串[1733,1829)：“of Salvator Rosa, so bold to exploit his gifted temperament in the cause of artistic conformity;”。修订后独立回核通过。由于Efe→life校读属于引句前的社会论述，已从本statement移除该ocr_corrections项；当前Rosa引句本身无需校读。
+
+claim、Haskell发言者及“不是Rosa自述意图”的限定保持不变。Rosa mention m-chp18-conclusion-0030 [1736,1749)与新增artistic conformity mention m-chp18-conclusion-p384-salvator-rosa-artistic-conformity [1809,1828)均与当前S0切片精确相符且落在引句内。mentioned_candidate_ids不变。
+
+该评价性主张没有忠实的受控S6谓词，保留process-only pending；relations.csv中无Rosa与artistic conformity的正式边。rel-2432仍只记录Italy与社会conformity概念的site_of_manifestation关系，不涉及Rosa。未改写关系表或S3/S4决定，历史9,622汇总不增不减。严格表审计errors=[]、s2_missing=[]；当前全库为15,487条statement、26,999条mention。本次定向回核不代表结论章或全书S2接收。
