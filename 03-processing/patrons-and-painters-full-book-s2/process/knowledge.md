@@ -18954,3 +18954,22 @@ S6 effects remain bounded: rel-2470, rel-2471, rel-2460 and rel-2506 remain form
 - 注4候选`cand-8048`及“These pictures”范围继续undecided；note2通信候选不因mention补齐而自动formalize；注3 published-in与note6返抵Bologna候选仍pending。`rel-2392`–`rel-2395`既有档案引用/系列边不变。
 
 写后独立复核确认两条新增mention、错误mention删除、cand-0884 same、cand-0878 new、cand-8046理由、cand-6591名称及rel-0716补证均通过；随后复核确认rel-0706转pending合适，现无需rejected或新建S6行。`detail`卡、Uffizi卡、Painter’s Family卡分别预览后定向渲染，写后复预览均无差异。detail卡frontmatter.relations仍保留迁移期的旧`evidence_backed_relation`对照；当前权威`relations.csv`为pending，依项目规则不在本次改写迁移对照。关系表当前2,648行（2,589 formal、56 pending、3 rejected）；S2全书及S3–S6全书仍未收口。
+
+
+<a id="s3-s4-s5-s6-chp14-newtonianismo-hotel-direct-endpoints-20261101"></a>
+### 第14章首版扉页与直接关系端点跨阶段处理（2026-11-01）
+
+**S3逐项身份决定。**
+
+| 候选 | 当前决定 | 依据与边界 |
+|---|---|---|
+| cand-12460 | undecided；sg3-person-cand-12460 | 第21章书目印作L. Toesca，第2章注5印作I. Toesca且没有题名或展开信息。未与cand-4332或cand-9345合并；不补传记或 authored_by 边，bl-0037继续待证。 |
+| cand-12461 | new；place-group-hotel-jacquemart-andre | 馆方作品记录 src-821d4b71d11ff434 的“The Staircase”部分识别Hôtel实体建筑和楼梯空间；与机构cand-8358分开。该身份不确证当前所有权或保管。 |
+| cand-12462 | new；archive-group-newtonianismo-per-le-dame-first-edition | 独立复核通过第14章p.355的原引句和“his”指代。将edition短语作为edition-level mention，区别书名级archive cand-10258与扉页插图work cand-10311；原文未给刊年、印记、出版地或具体本。 |
+| cand-12463 | undecided；sg3-archive-cand-12463 | Haskell仅称Contarini在1627–1629年的报告文书，并以卷I页257定位；未给文书题名或稳定身份。区别人物cand-4875与双卷本cand-4365；bl-0081继续待证。 |
+
+**S2写回与S4/S5登记。** 新增mention m-chp14-p355-0091，surface 为 “the first edition of the Newtonianismo”，区间[1772,1810)，内含原有书名mention m-chp14-p355-0028。statement st-chp14-p355-piazzetta-newtonianismo-frontispiece的object改为cand-12462，提及候选清单补入该ID；原claim和原引句不变。登记 place KU units/places/hotel-jacquemart-andre 和 edition archive KU units/archives/newtonianismo-per-le-dame-first-edition。两个卡片各有一条字段证据：地点卡据馆方“The Staircase”记录，版次卡据Haskell p.355；前者不声称现藏，后者不补版次书目细节。已接受范围清单、ku-manifest、alignment与候选待办同步更新。
+
+**S6关系裁决。** 新增 rel-2651 part_of：插图work → 第一版archive，限于Haskell所述版次和扉页角色，不识别具体存世本、印记、题名或图像主题。既有 rel-2558 created_by 保持formal，仅更新其关系说明以指向独立版次边。rel-2044 located_at 仍pending：Haskell p.255注4只是短机构标签，不据馆方建筑资料改成现行保管关系。Toesca相关rel-1983与Contarini报告关系继续待证，未增加formal边。bl-0044与bl-0059因端点已S3裁决并完成S4而标completed；bl-0037、bl-0081保留undecided。
+
+本批后statement数15,488、mention数27,011、KU数3,367、关系记录2,649；S2历史9,622汇总不增减。全书S2版本/复核台账仍未核平，S3–S6仍有其余未决项。

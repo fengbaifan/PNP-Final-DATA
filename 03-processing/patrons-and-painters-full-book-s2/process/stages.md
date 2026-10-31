@@ -14703,3 +14703,13 @@ S6既有`rel-0706`继续pending：其subject为局部复制品KU“Detail from F
 ### 2026-11-01 S2当前版本差异ID过程锚点核查
 
 以基线提交`1a6313c8654280a9b71187fc08522098626e734e`和当前数据快照`bf6a4477`逐条比较完整JSON对象后，当前statement表有170个新增或同ID变化记录（38个新增、132个同ID变化），另有1个基线ID已删除。将170个当前变化ID逐字回查`stages.md`与`knowledge.md`，均至少有一处过程引用；缺少过程引用的ID为0。该检查只证明有可检索的过程锚点，不证明每个当前版本均已独立复核或其来源版本已纳入历史聚合。9,622历史汇总仍无覆盖全部成员的逐行名册，故不据此计算覆盖率、不调整历史分子；后续仍须逐项核对复核报告的稳定ID、完整对象版本和来源范围。
+
+
+<a id="2026-11-01-s2-independent-current-review-ch14-p355-edition-endpoint"></a>
+### 2026-11-01 S2当前版独立回核：第14章 p.355 第一版扉页端点
+
+第二位复核者直接核对 CHP-14.pdf 物理页9（印刷页355）、当前 S0 第90–91行、statement/mention、候选与对齐表及相关关系。原页写道：“though the first edition of the Newtonianismo had one of his most sophisticated Parisian-style illustrations as frontispiece.” 上文的 Piazzetta 是 “his” 的先行项；当前 claim、原引句和人物映射通过。现有 Newtonianismo 提及的跨度 [1797,1810) 精确映射书名级 cand-10258；第一版作为独立archive端点不能由该书名级KU替代。创作者边 rel-2558 有效，不能替代版次关系。
+
+本轮主代理重算当前 segment：原引句是S0连续片段；“the first edition of the Newtonianismo”对应 [1772,1810)，并嵌套于现有标题 mention m-chp14-p355-0028 [1797,1810)。据此新增 edition-level mention m-chp14-p355-0091，并将 statement object 从 cand-10258 改为 cand-12462；claim、引句、谓词和其余候选保持不变。此处只修复第14章p.355当前端点，不把局部核对扩展成全书S2接收。
+
+版本核对：该 statement 的完整JSON对象在9,622基线提交 1a6313c8654280a9b71187fc08522098626e734e 与修订前当前HEAD相同；第14章S0 Markdown和CHP-14.pdf的Git blob在该基线与当前HEAD相同（Markdown 7b282a595bbc8a9831449b68e4c683352d6998f9；PDF 577fc80a6680907ba1d2f1b83d053a62ded246f9）。9,622汇总没有该数全部成员的逐行清单，故本批不调整历史分子、不推定此ID是否计入该数。
