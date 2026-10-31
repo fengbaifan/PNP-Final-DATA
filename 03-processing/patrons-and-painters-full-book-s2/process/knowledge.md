@@ -18983,3 +18983,8 @@ S6 effects remain bounded: rel-2470, rel-2471, rel-2460 and rel-2506 remain form
 S5分别记录两个粒度：书名级KU `units/archives/newtonianismo-per-le-dame`直接保存Haskell p.349所报1737年12月问世（`enr-18860`）；第一版KU `units/archives/newtonianismo-per-le-dame-first-edition`由p.349问世日期与p.355“first edition”作明确标注的跨页连接（`enr-18861`）。后者是来源内的身份推断，不是对具体版次刊记的直接引述；未补出版地点、印记或存世本。字段来源均为Haskell本书，不表示已查阅《Newtonianismo》原书。
 
 S6影响核对：`relations.csv`无以行程statement为依据的裁决行；`rel-1313`–`rel-1316`是同页注1的通信档案关系，与此次指代无关且保持不变。本次未新增或更改formal、pending或rejected边，历史裁决无变。原行程statement仍是待全书S6裁决的relation candidate；本项mention补录本身不为关系边提供新依据。
+
+<a id="s2-current-review-ch10-p279-p281-rel-candidate-sync-20261101"></a>
+### 2026-11-01 S2 statement注释与第10章p.279–281 S6当前裁决同步
+
+依据[当前版定向复核](stages.md#2026-11-01-s2-current-review-ch10-p279-p281-rel-candidate-sync)，更正三条statement的关系候选说明：`st-chp10-p279-pellegrini-departure-location`不再把已拒绝的`rel-2433 located_at`称为formal，其正式离境边是`rel-2531 travelled_from`；`st-chp10-p279-marco-ricci-departure-location`对应`rel-2434 travelled_from`；`st-chp10-p280-bellucci-arrives-after-ricci`对应`rel-2435 travelled_to`。历史S6裁决行和原先作出决定的过程记录保留，当前 statement 注释与当前relations.csv对齐。p.280“equally well received”无具名接待者，不建立关系；p.281 Venetian history painters 的宽泛支持说保持process-only pending，不补造支持者或formal边。此次不改S3/S4、relations.csv或9,622条历史复核台账。

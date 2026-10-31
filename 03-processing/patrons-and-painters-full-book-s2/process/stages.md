@@ -14880,3 +14880,19 @@ S6 `rel-1990 created_by`与`rel-1991 located_at`保持formal，后者仅表示Ha
 | `m-chp4-sec-ii-p113-0030` `French friends and clients` `[872,898)` | span与S2 claim通过；复核发现旧候选detail及`open_endpoint_reason`错误称群体没有边界。按原文限定为Poussin在1642 Paris行程中结识的French friends and clients；成员仍未具名，也无可对齐的稳定跨章身份。已修正`cand-12445.detail`、`aln-12767.resolution_note`及statement的`open_endpoint_reason`与`relation_candidate_note`；S3 `undecided`、无KU继续。 | “worked for”端点仍pending；不推作formal委托/赞助边，也不与其他章节的友人客户群体合并。 |
 
 此次仅改正cand-12445的来源范围说明；不改statement claim/quote、候选类型、S3对齐决定、S4或relations.csv。前三个未名端点保持待证。历史9,622汇总不调整。本批局部复核与一项定向修正不构成第4章或全书S2接收。
+
+<a id="2026-11-01-s2-current-review-ch10-p279-p281-rel-candidate-sync"></a>
+### 2026-11-01 S2当前版定向复核：第10章 p.279–281 关系候选与历史裁决核平
+
+本次只复核当前版第10章 p.279–281 的6条statement及其跨章行程上下文。对照当前S0分节和 `CHP-10.pdf` 物理页4、5、10（印刷p.279、280、281）；S0 SHA-256 `f912dba9e5c8460538222c57d32c3734d0c23c72cb32a0871b50b6901ce9e27f`，PDF SHA-256 `c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`。对应segment哈希：`chp-10:10_CHP-10_intro:l43-49` `f311fdf054bf8adc8fe5bcab01d4a0458950b7f837b4da9af644e1ced09e283b`；`l51-61` `877f9ed4cdae9e0e1bc219c8e90b31521e82843d62c83877f5d7a6c2420722c6`；`l125-139` `7e689041c9b0207a52353811729a8bdc21d1b5c92a79bc80a67fcc0559aa98e8`。
+
+| 当前statement | 原文及当前判断 | 关系／身份去向 |
+|---|---|---|
+| `st-chp10-p279-both-artists-leave-england` | “Both left England, but within a year Marco returned…”是作者对两人离境的合述；正文另拆两条个人statement。提及 `Pellegrini`、`Marco Ricci`、`England` 对应当前mention跨度分别为 `[2530,2540)`、`[2545,2556)`、`[2579,2586)`。 | 不建立群体实体端点或群体关系；`relation_candidate=false` 保持。 |
+| `st-chp10-p279-pellegrini-departure-location` | p.279支持Pellegrini离开England；p.281另明言其1712年赴Düsseldorf，不给确切离境日。 | 当前S6中 `rel-2433 located_at` 已因与明确方向边重复而rejected；正式边为 `rel-2531 travelled_from`。仅把statement注释同步到当前裁决。 |
+| `st-chp10-p279-marco-ricci-departure-location` | 原文将Marco离英置于1712年争执后，并说他在一年内返回；未给离境确切日期。 | `rel-2434 travelled_from` formal；不保留过期的 `located_at` 描述。 |
+| `st-chp10-p280-bellucci-arrives-after-ricci` | “his departure”承接Sebastiano Ricci于1716年离开England；Bellucci数月后抵英。`his departure`、`Antonio Bellucci`、`England` 三处span `[2189,2202)`、`[2231,2247)`、`[2260,2267)`均与当前S0切片一致。 | `rel-2435 travelled_to` formal；与p.281 London目的地边 `rel-2534` 保留地点粒度差异，不推定为同一或不同旅程。 |
+| `st-chp10-p280-bellucci-equally-well-received` | “equally well received”比较Bellucci与前述Ricci；该句没有具名接待者。 | 无关系端点，`relation_candidate=false`；不补造赞助／接待边。 |
+| `st-chp10-p281-english-support-venetian-painters` | “Venetian history painters received wide support in England”是约1720年前十年的概括；相关span `[1764,1789)`、`[1815,1822)`与S0一致。 | 支持者未具名；候选术语不能作为 `supported_by` 主体。保持process-only pending，不构造formal边，也不与其他章节的不同群体合并。 |
+
+**裁决变化与影响。** 2026-10-27的第10章S3/S4/S6批次记录了当时初裁；随后relations.csv已将 `rel-2433`、`rel-2436`、`rel-2437` 改为rejected，保留 `rel-2434 travelled_from`、`rel-2435 travelled_to` formal，并由 `rel-2531`–`rel-2538` 记明确的行程方向。本次发现当前三条statement的 `relation_candidate_note`仍称旧 `located_at` formal，现已同步为 `rel-2433` rejected、`rel-2434` travelled_from formal、`rel-2435` travelled_to formal；正式关系表未改。候选身份决定、KU、statement claim/quote、mentions/span和其余历史裁决不变。此次定向复核不增加9,622条历史独立复核计数，不表示第10章或全书S2接收；S2台账与当前版本仍须继续核平。
