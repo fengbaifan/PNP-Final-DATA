@@ -13977,4 +13977,28 @@ Current table totals after these changes are 15,487 statements and 26,880 mentio
 
 独立复核记录 s2-independent-review-chp13-17-20261020.md 所列范围为2,124条statement，其中2,120条计入逐条复核，另有4条第16章端点statement未计入复核分子。记录中的book-statements.jsonl SHA-256与提交2273e2743158401b841fb9bc7b7d1332836d400a相符。按该提交重建复核范围的source-file cohort，共有2,120个statement ID；当前对应源文件共2,162行，较快照新增43个ID、删除1个ID、75条同ID对象的完整JSON发生变化。这些是版本差异，不是未复核数量；确定当前复核状态前，仍须逐项比对后续复核记录。
 
-复核范围内的Markdown来源文件自该快照以来未变，832条segments.jsonl记录也完全一致。报告记录的mentions.csv SHA-256无法与包含该表的160个Git历史版本中的任何一个匹配，因此无法将复核使用的精确mention快照对应到某次提交；mention的当前版本复核覆盖仍待逐项核平。第14章p.349的mention和限定语最近一次修订晚于24行复核，仍需独立复核。完整回映及当前统计见结果文件。本记录不改变9,622条聚合台账，也不表示S2已整体接收。
+复核范围内的Markdown来源文件自该快照以来未变，832条segments.jsonl记录也完全一致。报告记录的mentions.csv SHA-256无法与包含该表的160个Git历史版本中的任何一个匹配，因此无法将复核使用的精确mention快照对应到某次提交；mention的当前版本复核覆盖仍待逐项核平。第14章p.349的mention和限定语最近一次修订晚于24行复核，现已另行通过独立盲审，详见下方记录。完整回映及当前统计见结果文件。本记录不改变9,622条聚合台账，也不表示S2已整体接收。
+
+<a id="2026-10-31-s2-independent-followup-ch14-p349"></a>
+### 2026-10-31 S2独立盲审：第14章 p.349 注3当前版本
+
+审阅者在不查看process/knowledge历史记录的条件下，逐项核对当前 statement、mention、S0分节和原始影印页；未修改仓库。审阅快照为提交47ea4184fb8f0badbc415b70b034298fb3706e12。源文件14_CHP-14_intro.md SHA-256为D472C0AED1891F38546C3F73557C46583DCC7F744B0DBB764FC7A94CFF71CDF7，CHP-14.pdf SHA-256为F871A00A63CFA5A9F229930CFD4B0D979BAA0491CA4E7FE4D50404FA020A52E0；复核的segment为chp-14:14_CHP-14_intro:l168-220。
+
+statement st-chp14-p349-note3-albrizzi-issue通过：原文引述支持“劝读者谨慎看待书中某些表达和观点，尤其是基督教青年”的来源限定表述；原页物理页3、印刷页349注3印作12 April 1738，当前校读将S0 OCR的1758保留在引文与mention中、并在statement限定中记录印本读数。注3与正文statement st-chp14-p349-not-altogether-well-received的脚注回链通过。mention m-s2-ch14-p349-20261031-001的跨度[1245,1294)精确对应Albrizzi’s Novelle della Repubblica delle Lettere，映射至周刊cand-9988；mention m-s2-ch14-p349-20261031-002的跨度[1315,1328)精确对应S0 OCR日期，映射至独立期号cand-10261。题名、周刊、具体期号和书名cand-10258身份边界清楚，均无span或外键修订要求。
+
+关系仍为pending：原断言保留“warned_readers_about”的警告言语行为；受控relation-types.yml没有忠实谓词，改写成has_subject会弱化事实，改写成cites会改变事实。relations.csv无该statement的formal边。本轮只记录当前版本独立复核结果，不增减9,622条历史聚合数，也不代表第14章或S2整体接收。
+
+<a id="2026-10-31-s2-current-delta-independent-review-crosswalk"></a>
+### 2026-10-31 S2当前修订差异独立回核：第2、13、14、17章与结论
+
+以提交2eadaf99为修订前快照、47ea4184fb8f0badbc415b70b034298fb3706e12为当前复核快照，逐行比较book-statements.jsonl和mentions.csv：statement有15条同ID完整JSON变化、4条新增、0条删除；mention有3条新增、3条同ID内容变化、0条删除。不同干净上下文逐条审读了这19条当前statement版本及6条mention差异，并对照S0文本和所需的原始影印页；审阅者未读取process/knowledge历史，也未改表。
+
+第2章复核覆盖10条statement：st-chp2-secii-l52-60-programme-duration、st-chp2-secii-l80-89-country-house-decoration-employed、st-chp2-secii-l80-89-pietro-interpreted-decoration-themes、st-chp2-seciv-l139-152-montagu-points-author-to-tessin-account、st-chp2-seciv-l139-152-tessin-account-locator-and-date、st-chp2-seciv-l139-152-tessin-account-authorship、st-chp2-seciv-l139-152-tessin-account-fullest、st-chp2-seciv-l139-152-tessin-account-repository-locator、st-chp2-secvii-l3-3-parma-consequences-fragment、st-chp2-secvii-l3-3-war-consequences-authorial-evaluation。第2章印刷页36、39、56、58分别对照CHP-2.pdf物理页17、20、41、47；statement断言、说话层、校读和mention范围通过。rel-2470、rel-2471、rel-2483、rel-2506的formal去向与当前statement相符；rel-2644的书目定位关系继续pending，不宣称现存馆藏。Montagu的一次性来源指引无忠实的正式边，继续process-only pending。
+
+第13章p.334的st-chp13-p334-albrizzi-edited-weekly-bulletin和mention m-s2-ch13-p334-044通过。mention跨度[1836,1846)精确对应he himself；当前statement没有强行选择Almorò cand-0024或Giambattista cand-0025，期刊对象指cand-9988。编辑者身份及关系继续待决，relations.csv没有formal边。第14章p.349注3的statement st-chp14-p349-note3-albrizzi-issue及mention m-s2-ch14-p349-20261031-001、m-s2-ch14-p349-20261031-002通过，详见上方独立盲审记录；三者均包含在本批19条statement和6条mention差异范围中，本段不重复计数。
+
+第17章5条statement（st-chp17-p380-note4-meschini-gallery-description、st-chp17-p381-note1-moschini-1806、st-chp17-pi-note1-cites-moschini-1806、st-chp17-pi-note1-meschini-account、st-chp17-pi-note2-cites-correr-sonetti）及2条mention（m-chp17-p380-manfrin-0061、m-chp17-p381-0013）通过；对应原页为CHP-17.pdf物理页1–3，校读均与印文一致。rel-2302 authored_by及rel-2303、rel-2304 cites保持其有限原文范围；未推出画廊或手稿的馆藏关系。cand-12464类型与身份仍为S3待决。结论p.384的st-chp18-conclusion-p384-crespi-humour-and-genre-painting、st-chp18-conclusion-p384-salvator-rosa及新增mention m-chp18-conclusion-p384-salvator-rosa-artistic-conformity通过；该mention跨度[1809,1828)精确映射到social conformity term。两项authorial characterization无formal关系边，解释层与原文评价范围保持一致。
+
+来源快照哈希：CHP-2.pdf 317531003E6AEBA7D0A956D660EB7552E846FE35B6C7E8E1A4A0A5AA97E8AC5E；02_CHP-2_sec_ii.md 7EFDE367C2D7D600F599C17D09FBC4F57BF29AA6B7EFB439859A1F45B8C863A9；02_CHP-2_sec_iv.md 9F50E1396234FAFF664211D70A1231EF145BCCDC24E91C088F1237D55CA34DBF；02_CHP-2_sec_vii.md 5F2EC3C85927ED4ADED258D7A6B1801CCB3B8E0416F0F3F9E57AD7B2FAE8DD4C；CHP-13.pdf DA49ADDCF425E7473770BA02DB64284D1189934CF38F2B773F0672F052FCA2BC及13_CHP-13_intro.md C0B93D35AAB60EC8261EB14DB1E2F1B4D9EC7CAE9709E19F236CCDDBD12996A8；CHP-14.pdf F871A00A63CFA5A9F229930CFD4B0D979BAA0491CA4E7FE4D50404FA020A52E0及14_CHP-14_intro.md D472C0AED1891F38546C3F73557C46583DCC7F744B0DBB764FC7A94CFF71CDF7；CHP-17.pdf FA9C9A4EBC484C481D13B0AFB46F96BF94FE0631C65F0B742D0B0B9D9E0B7465及17_CHP-17_sec_i.md CBCB4E8F0EB163564F0B0C8E060C79F1A48981DB45072A772C3EA16642AD3CA4；CHP-18Conclusion.pdf 750BA8A4F4E7DC72E032746F7F3B15C3C70EF97A4220491FC3AA250A91CE2E29及18_CHP-18Conclusion.md A3D40952BEEAD96AC48136610FA3FA15F1DCDFCD1A354EF9F2C2262343AEFF14。
+
+本批当前statement/mention差异已逐项独立复核；这不补记或扣减9,622条历史聚合数。S2全库台账的唯一ID及来源版本交集仍待整体重建，已核对的复核快照和重复计数须按来源记录分别归并后才能报告覆盖率。
