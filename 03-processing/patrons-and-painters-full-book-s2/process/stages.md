@@ -14333,3 +14333,17 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 以复核报告写入仓库时的提交 ff23e73d72a3d85a6aadd9cffa41ddfa78502676 为版本锚点，逐ID核对报告所审的p.239 statement与当前表。40条statement在快照与当前版完整JSON完全一致，无新增、删除或同ID变化。对应正文segment l338–348的3条mention与注释段p.239 notes 1、3、5（S0 L449–451）的17条mention也全部与快照相同；当前源段重切后20/20跨度与surface_form一致。S0源Markdown、CHP-8.pdf及segments.jsonl Git blob与复核快照一致。
 
 该范围的6条relations.csv记录（rel-0060、rel-1178、rel-1179、rel-1616、rel-1617、rel-1618）在报告快照与当前表相同且均为formal；没有新增、删除或修改。S3/S4/S6历史裁决继续按p.239复核记录保留：No.357信件、Zanotti书内引注及库存报告保管地点各有既有边；S.P.F.标记仍作为来源字段，不建关系，cand-8057仍undecided。p.239复核批次未计入9,622条统一复核数；当前版映射确认不等于提升汇总或接收全章/S2。
+
+### 2026-10-31 S2当前版独立回核：第8章 p.237
+
+独立复核者对报告快照之后的8条statement增量和9条新增mention逐项核对了当前表、S0及CHP-8.pdf物理页43（印刷p.237注2）。9/9个新增mention跨度与当前S0切片一致；3条新增statement和其端点、claim及范围有据。复核确认书内引注只证明Haskell列出档案定位，不证明原信内容；`rel-1693`–`rel-1700`的五条`cites`、No.287的`authored_by`与`addressed_to`、以及限于四封被引信件的`corresponded_with`均通过域值域、方向和范围核对。
+
+复核发现五条引用statement的校读字段漏记`letters-between`→`letters between`：`st-chp8-p237-note2-silva-correspondence-citations`、`st-chp8-p237-note2-cites-silva-letter-155`、`st-chp8-p237-note2-cites-silva-letter-299`、`st-chp8-p237-note2-cites-silva-letter-607`及`st-chp8-p237-note2-ferdinand-silva-corresponded`。现五条均保留该空格校读和`3904`→`5904`校读，依据均为同一印刷页图。`st-chp8-p237-note2-ferdinand-litigation`的引文止于“emerged victorious”，不含后续档案引注；因此其空`ocr_corrections`正确保留，不把Filza校读错误附加给争端claim。
+
+`cand-8027`（Crespi–Silva争端与诉讼事件）的`aln-8202`仍为`undecided`。争端statement继续process-only pending，`relations.csv`没有对应formal边；不得将其与已核的Ferdinand–Silva通信边合并。本次不调整9,622条统一复核台账，不接收p.237、整章或全书S2。
+
+### 2026-10-31 S2当前指代修复：第8章 p.238
+
+对照CHP-8.pdf物理页44（印刷p.238）及S0第330行：“a copy of Guercino’s St William of Aquitaine”确为Crespi寄出的复制品。当前`st-chp8-p238-copy-st-william-sent`已为三个被引实体各登记精确mention：`a copy of Guercino’s St William of Aquitaine`（`cand-0875`，`[1390,1434)`）、内层`Guercino`（`cand-1258`，`[1400,1408)`）和内层`St William of Aquitaine`（`cand-1269`，`[1411,1434)`）。三个跨度均与当前S0切片一致；嵌套跨度对应复制品整体、画家和原作，彼此不合并。`cand-0875`的`aln-1210`与原作候选`cand-1269`的`aln-1604`仍`undecided`；`cand-1258`复用Guercino人物KU。
+
+该statement的relation candidate仍指向复制品候选，身份未决且无KU；`relations.csv`没有对应正式边，保持pending。修复只补当前mention及其证据记录，不改变statement claim、S3决定、S4登记、关系裁决或9,622条独立复核汇总，也不代表p.238或S2接收。既有49组候选—mention差异中，本次解决三处本地span缺口；其余差异仍须逐项核对，不以同一注释segment内其他页的mention替代p.238的原文跨度。
