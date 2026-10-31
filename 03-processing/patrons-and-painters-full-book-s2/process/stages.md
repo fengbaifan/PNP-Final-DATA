@@ -13881,3 +13881,11 @@ mention集合核对未发现新增或删除：第2章p.36、p.39、p.56、结论
 当前statement、claim、提及和关系端点逐项对照S0分节，并查看原页图：`CHP-2.pdf` physical pp.17、20、41、46、47（印刷pp.36、39、56、57、58）及 `CHP-18Conclusion.pdf` physical p.1（印刷p.384）。p.36原文支持工程耗时和Urban VIII作为时间参照；p.39原文支持Marcello雇用Pietro、Pietro诠释已选题材并调整装饰方案，职业评价“found his true road”与关系claim分开；p.56注2区分Tessin账户的书内作者归属、推测年代、馆藏定位及Montagu一次性提供线索；p.57注3支持Haskell转述Bellori所记历史所有权；p.58与索引共同支持War of Castro争端方为Odoardo，不扩展为其军事指挥或领土权属。p.384页图支持Bamboccianti转向感伤主义、Crespi未具名王子习语及社会要求论述；`life`校读已有记录。没有发现需进一步更改这些claim、端点或现有S6去向的语义依据。
 
 页图还确认第2章p.39 L85印文为“ability to adapt”，S0 OCR及原引文的`ability 40 adapt`中页码40误代`to`；第2章p.56注2 L150的`ofthe`应分作`of the`，L151沿用此前原页校读`Handskriftsand`→`Handskriftsavd.`。以上三项写入各自statement的`qualifiers.ocr_corrections`；S0 Markdown和`original_quote`保持原样。未新增/删除mention，未修改任何关系行或9,622台账，statement仍为15,483条、mention仍为26,877条。严格阶段审计 `errors=[]`、`s2_missing=[]`；关系一致性阻断项均为0。此为当前代理针对修订版的定向自查，不称独立验收；10条修订版仍须独立差异复核，且台账ID/来源版本归属仍未核平。
+
+### 2026-10-31 S2版本核平：第15章 p.365–367独立复核后的40条statement
+
+先前版本差异清单将这40条列为待独立差异复核；后续独立审读及修订记录见[知识裁决记录](knowledge.md#chapter15-current-referent-correction-independent-followup-20261029)，其表快照提交为 `bbfde03e`。将基线提交 `1a6313c8654280a9b71187fc08522098626e734e` 中已存在、之后修改的40条当前statement逐对象与 `bbfde03e` 比较，40/40完整JSON对象一致；该提交的审读记录说明40条初审结果为34条通过、6条修订，7条修订对象经独立上下文复核，并对页367结果句作再次修正与复核。
+
+原文与来源版本未漂移：`CHP-15.pdf` SHA-256为 `357e830cc4e880909edd62975bfcd06ade1c2b432d8866229831025fe86f2885`；`15_CHP-15_sec_ii.md` SHA-256为 `eea847f75c7876dc5b8ea38ef4b64ad30cdd6c629df6a064125ac5f63917d31f`，当前文件与审读快照逐字节相同。40条statement涉及的13个source segment记录均与快照相同；这些segment内172条mention行也全部相同。相关S6行 `rel-2580`–`rel-2583` 与 `rel-2608` 均未变化，原有4条formal及1条pending去向保持不变。
+
+因此，这40条的当前statement及其来源、mention和关系版本可对应到已记录的独立审读快照；它们不计入统一复核数9,622，因为没有逐ID证据证明其台账归属。此前差异清单保留为历史过程记录，本批完成当前版本交叉核平；其余台账ID/来源版本交集仍待核。
