@@ -14660,3 +14660,16 @@ rel-2650定向渲染到第一册archive卡；写后复预览无差异。事件�
 首轮独立核对发现 `m-chp20-p401-028` 的复合surface“his diary”误映到已登记的摘录出版候选`cand-10974`。修订后将`m-028`收窄为`his` `[2100,2103)`→Alexander VII `cand-0665`；新增`m-036` `diary` `[2104,2109)`→新候选`cand-12468`（archive，表示原文所称日记来源，具体手稿／版次／馆藏未识别）；新增`m-037` `publication of the relevant extracts` `[2058,2094)`→`cand-10974`（摘录出版物，版次未识别）。三段均与S0按当前segment拼接的切片逐字符一致。`st-chp20-p401-alexander-diary-arts-interest-publication`与`st-chp20-p401-alexander-diary-planning-agency`的`mentioned_candidate_ids`均补入`cand-12468`；Bernini来访statement不含“diary”词项，未加该候选。`aln-11142`的当前mention依据改用`m-037`，statement清单包含两条指涉摘录出版物的当前statement；新候选`cand-12468`由`aln-12795`保持S3 `undecided`、无KU。写后第二位独立复核确认mention拆分、跨度、两条statement候选清单及alignment证据均正确。
 
 `rel-2501`与`rel-2502`继续连接已登记的摘录出版archive及Alexander VII／Bernini；没有把关系端点改连未决日记候选，也没有建立未经证明的“摘录源自该日记”正式关系。无关系状态或既有裁决更改。当前表总计15,488条statement、27,010条mention；相对基线新增38条statement、删除1条、132条同ID内容变化；mention新增161条、删除21条、30条同ID内容变化。`cand-12468`的历史9,622复核成员归属未知，不计入旧分子。此为局部当前版复核，不代表第20章或全书S2接收。
+
+<a id="2026-11-01-s2-independent-recheck-ch4-p117-repaired-statements"></a>
+
+### 2026-11-01 第4章 p.117 两条修订 statement 当前版独立回核
+
+对第4章 p.117 首轮独立当前版复核发现的两处缺陷修订后，另一独立复核者在干净只读上下文中重新检查当前表及 `CHP-4.pdf` 物理页28、印刷页117，并对照 S0 分节 `04_CHP-4_sec_ii` L209–214。首轮复核的其余10条 statement 仍为通过；本记录取代先前将旧版本12条一并记为通过的当前状态表述。
+
+| 当前 statement | 修订与复核结果 | 关系及下游影响 |
+|---|---|---|
+| `st-chp4-sec-ii-p117-mood-and-moral-reading` | claim 补回 Midas 警示中“at the expense of the more real values of life”，并保留“if not actually moral”及两件作品分别对应的解释。独立回核确认当前 claim、quote 与原页一致。 | `relation_candidate=false`；无 S6 行引用该 statement，不改 S3、S4 或关系裁决。 |
+| `st-chp4-sec-ii-p117-papal-policy-shift` | `original_quote` 恢复 S0 L209 与 L210 之间的换行（`a change of\nPope`）；独立回核确认 quote 是当前 segment 的精确子串，claim 保留“as so often happened”。 | `relation_candidate=false`；无 S6 行引用该 statement，不改 S3、S4 或关系裁决。 |
+
+独立复核同时确认相关 Midas、Arcadian Shepherds、作品组、Pope、Rome 与 Alexander VII mention spans 精确对应当前 S0；两条修订 statement 均为 PASS。结合首轮对该批12条 statement 与38个唯一 mention spans 的核对，当前 p.117 指定批次通过；不扩展为 p.117 全页或第4章其余内容接收。S1 无新增候选或端点：当前 S1 核平已覆盖后续回流的 `cand-12466`–`cand-12468`，本次仅修正现有 statement 的 claim/quote。历史9,622条复核成员不增不减，当前 S2 仍未全书独立接收。
