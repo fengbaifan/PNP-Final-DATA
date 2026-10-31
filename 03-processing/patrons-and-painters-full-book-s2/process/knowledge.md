@@ -17877,7 +17877,7 @@ S5新增`enr-18652`题名与`enr-18653`系列语境，均为Haskell来源支持�
 | `st-chp8-p210-ruffo-bought-three-rembrandt-pictures` | **formal** `rel-2542 acquired_by`；该画为Ruffo约十二年间购得的三画之一，不推断该件具体购买年份。 |
 | `st-chp9-p246-veronese-inspiration` | **formal** `rel-2543 influenced_by`；限定为Haskell对Veronese作为灵感来源的艺术史解释，不推定直接传承。 |
 | `st-chp9-p247-tiepolo-palazzo` | **formal**复用`rel-1018 located_at`；图版42a及注释均标总督宫，既有边的馆方来源及其时点仍保留，不冒称馆方记录即Haskell。 |
-| `st-chp2-seci-l9-10-plate-i-credit`、`st-fm-pl-p01-credit` | **formal**复用图版I已有`rel-1026 created_by`；均为原书印刷署名，不声称独立作者核验。两语句原subject误映射到作品候选`cand-4108`，现更正为人物`cand-2677`；相应`m-chp2-seci-l9-10-0001`和`m-fm-pl-p01-creator`亦从作品误挂改为人物。作品候选`cand-2678`保持object。两个当前statement与两条mention修订待独立差异复核，不增加统一复核分子。 |
+| `st-chp2-seci-l9-10-plate-i-credit`、`st-fm-pl-p01-credit` | **formal**复用图版I已有`rel-1026 created_by`；均为原书印刷署名，不声称独立作者核验。两语句原subject误映射到作品候选`cand-4108`，现更正为人物`cand-2677`；相应`m-chp2-seci-l9-10-0001`和`m-fm-pl-p01-creator`亦从作品误挂改为人物。作品候选`cand-2678`保持object。两条当前statement与两条mention版本经2026-11-01独立差异回核通过；`cand-2678`由历史`undecided`改判`same`的身份依据也通过当前来源复核。`rel-1026`及其历史裁决不变；旧/新版本是否计入9,622无行级凭据，本次不增减汇总。详见[当前版回核与版本回映](stages.md#2026-11-01-s2-current-review-valentin-plate-i-credit)。 |
 | `st-chp10-p320-323-n04-portrait-location-accademia` | **pending**：此表早期快照仍记画家→画作旧端点；后于2026-10-28更正为画作`cand-1425`→未决机构`cand-9963`。2026-11-01独立回核仍不能确定Accademia身份；`rel-0395 held_by Museo Correr`和`rel-0396 located_at Venice`继续限于图版目录，不新增formal边。 |
 | `st-chp10-p322-longhi-painting-engraved-as-separate-print` | **pending**：画作身份已定，版画`cand-9765`仍未决；待独立版画身份及适用谓词。 |
 | `st-chp2-seciv-l31-43-valentin-allegory-assessment` | **pending**：书内风格判断的term端点`cand-4629`尚未映射，需保留Haskell评价及语境。 |

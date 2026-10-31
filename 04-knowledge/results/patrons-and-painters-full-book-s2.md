@@ -1,5 +1,7 @@
 # 《赞助人与画家》全书 S2 语义处理、S3 身份对齐与交接结果
 
+**2026-11-01 第2章 Plate I 两条署名 statement 当前版独立回核：** 插页图注与章前图版目录的原引句及人物mention均通过；修订后人物→作品端点正确，`cand-2678`由历史`undecided`改为`same`并映射现有作品KU，p.46正文和图版号、脚注支持该身份。`rel-1026 created_by`仍formal，仅记书内署名；9,622历史复核成员归属未知，不增减。详见[S2回核及版本回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-valentin-plate-i-credit)。
+
 **2026-11-01 第10章p.322注4当前版独立回核：** 页图支持注释所称Accademia in Venice及两项OCR校读；补录城市提及m-s2-ch10-p320-323-note-0058 [6199,6205)。cand-9963仍为S3 undecided、无KU；图版目录支持的rel-0395／rel-0396保持formal，注释与目录的机构差异继续pending，不推断迁移或合并。本批不调整9,622台账；严格表审计errors=[]、s2_missing=[]，当前为15,487条statement、27,000条mention。详见[S2阶段记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch10-p322-lodoli-location)。
 
 **2026-11-01 S1收口复核：** 19份索引CSV的2,934条主/子条记录（1,381/1,553）与候选表一对一；图版目录85项、书目256项均与来源段覆盖对应；9,509条非索引候选全部有可解析来源，54条排除均有理由，候选生成预览无新增KU来源候选。backlog为92行，含88条候选关联行（84个不同候选）和4条有证据的未具名/范围不明待证端点；不将其误作漏登S1对象。S1入口覆盖收口，详细核对见[S1当前复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s1-current-input-and-s2-backlog-crosswalk)。

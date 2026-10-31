@@ -14566,3 +14566,12 @@ claim、Haskell发言者及“不是Rosa自述意图”的限定保持不变。R
 ### 2026-11-01 S2当前 mention 版本差异重算
 
 以9,622首次出现的基线提交`1a6313c8654280a9b71187fc08522098626e734e`及本轮起始HEAD`61a33c75cfde4831d280d07e212a6c0894210163`为参照，对CSV按完整行与mention ID重算；本轮新增`m-s2-ch10-p320-323-note-0058`后，mention为26,870→27,000，新增151、删除21、同ID行变化29，当前ID无重复。statement仍为15,451→15,487，新增37、删除1、同ID对象变化124。以上是表版本差异，不等于未复核数量；历史9,622仍无足够行级凭据映射全体唯一ID与来源版本，不据此调整分子或计算覆盖率。
+
+<a id="2026-11-01-s2-current-review-valentin-plate-i-credit"></a>
+### 2026-11-01 S2当前版独立回核：第2章 Plate I 署名与图版目录
+
+独立复核者只读核对当前statement、mention、S0来源、候选、alignment、图版I图像及相关关系。`st-chp2-seci-l9-10-plate-i-credit`原引句`Valentin: Allegory of Rome`与第2章S0行10完全相符；CHP-2.pdf物理页2图像显示Plate I及同一署名。`st-fm-pl-p01-credit`原引句`I Valentin: Allegory of Rome (Finnish Institute, Rome) 24`与章前图版目录S0行35完全相符。前者是插页图下注，后者是目录条目；两者claim均只记录书内署名。对应人物mention `m-chp2-seci-l9-10-0001` `[9,17)`及`m-fm-pl-p01-creator` `[47,55)`逐项切片均精确为`Valentin`。
+
+两条statement均在9,622基线和当前表中以同一ID存在，完整JSON对象仅`subject_candidate_id`由作品`cand-4108`改为人物`cand-2677`；对象均为作品候选`cand-2678`，原引句、claim和S0来源未变。两条人物mention ID、surface与span不变，候选由`cand-2678`改为`cand-2677`，note相应更正。`02_CHP-2_sec_i.md`、`00_05_List_of_Plates.md`及`CHP-2.pdf`的基线与当前Git blob相同；物理页31（印刷p.46）还将“a huge Allegory of Rome”明确指向Plate 1，脚注2称“This picture”并述其在Finnish Institute in Rome，与目录和插页图注共同支持该作品同一性。目录候选`cand-4108`与索引作品候选`cand-2678`均映射至`units/works/valentin-allegory-of-rome`；`cand-2677`映射至人物`units/persons/valentin`。`cand-2678`的历史`undecided`→当前`same`裁决获当前来源支持；alignment中原理由和prior decision继续保留。
+
+关系核对：`rel-1026 created_by`仍为formal，方向作品→人物，范围为图版I，证据为图版目录第35行。该边表达本书署名，不是独立作者核验；两个文本层共用同一事实，不新增重复边。作品现有`rel-1027 held_by`与`rel-1028 located_at`仍为formal；p.46注2亦称“This picture”当时在罗马芬兰研究院，与目录所载地点一致，不需重复建边。S4无新增登记。现有可检索的历史记录未证明这两个statement ID／版本是否属于9,622汇总，当前版复核通过不据此推断旧/新版本的历史计数归属；本次不调整汇总或覆盖率。全程未改statement、alignment、relations或来源表，不增加独立复核分子。本次为局部当前版本回核，不代表第2章或全书S2接收。
