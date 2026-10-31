@@ -14018,6 +14018,17 @@ statement st-chp14-p349-note3-albrizzi-issue通过：原文引述支持“劝读
 
 增量后`entity-candidates.csv`为12,443个唯一候选：索引候选2,934，非索引候选9,509且均有来源引用；54条excluded均有理由。重新按19份索引CSV的文件名和数据行号核对，2,934条索引输入与候选表一对一匹配，缺失、重复、意外键均为0。图版仍为85条候选，书目256条；`candidate-backlog.csv`仍为91条，其中88条已关联候选、3条因身份或范围不可识别而明确保持`undecided`。严格表审计当前为`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`。此项完成S1增量来源回映，不构成`cand-12465`的S3身份裁决或S4登记。
 
+<a id="2026-10-31-s1-index-encoding-crosswalk"></a>
+### 2026-10-31 S1索引字段回映复核与A.csv编码异常
+
+对当前19份索引CSV按文件名及零基数据行号重新逐条回映：共2,934条（主条1,381、子条1,553），与2,934个索引候选键完全相同，无缺失、重复或多余项。将源CSV字段与候选当前字段逐值比较，97条索引候选至少有一项规范名、子条或页码范围差异（字段计数分别42、11、45，存在交叠）；97条均有带决定、过程引用和理由的S3 alignment。此前记录的93条（41、8、45）是旧核对快照，不能作为当前差异数。
+
+差额中的4条均来自`A.csv`：该文件包含不能按UTF-8解码的字节，本次只读回映使用CP1252解码以保留CSV记录边界，没有改写原件。`A.csv#23`、`#46`、`#94`、`#105`中的重音字节串与当前候选字段不同；对照`03-1-Index-MD/A.md`及权威`CHP-22Index.pdf`物理页1–2（印刷页443–444），印本分别支持Almorò、Count Brühl、`Relatione della città di Roma 1642`及`statue of Antenor for Prà della Valle`。因此保留规范候选字段，原CSV字节问题记为来源转录差异，不静默改写来源。
+
+当前图版候选85条，13个对应coverage段为12 reviewed、1个生成标题排除；候选行锚点均在来源文件范围内。第21章书目候选256条，33个coverage段为32 reviewed、1个生成标题排除；候选行锚点均在来源文件范围内。9,509条非索引候选均有来源引用；54条excluded均有理由。91条backlog中88条已映射候选，另3条（匿名写信人、身份不明的总督任职者、未说明的支出对象）保持`undecided`，各有来源、理由和过程引用，不据不足身份补造候选。严格表审计仍为`errors=[]`、`s2_missing=[]`。本项确认当前S1输入与来源回映收口；不替代97项各自的S3语义裁决。
+
+页图来源SHA-256：`CHP-22Index.pdf` `1A9EDBAB073C716EE650F6159A38918E54EE3E18BF1F18C1D92B8FE0DE720BE5`；`A.csv` `B44D3AC13DF58464FAB2AAA1D1FCA0A819AB03B1ABCC56F466A70D543C4A1133`；`A.md` `823F23861EADA208FCD14B549ADDAD04C6680EDD10A6E270DE6A05365D2FC782`。
+
 <a id="2026-10-31-s2-review-snapshot-crosswalk-chapters-1-2-4-current"></a>
 ### 2026-10-31 S2独立复核快照回映：第1、2、4章当前版本
 

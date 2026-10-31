@@ -1,7 +1,7 @@
 # 《赞助人与画家》全书 S2 语义处理、S3 身份对齐与交接结果
 
 
-**2026-10-31当前修订与下一步：** S1索引、图版、书目及补录候选覆盖已收口；第14章p.349“Albrizzi’s Novelle”mention已由Newtonianismo书名候选改映至周刊候选`cand-9988`。刊期`cand-10261`、周刊`cand-9988`和书名`cand-10258`各有既有S3 `new`及S4登记；警示关系因无忠实受控谓词继续pending，不新增formal边。`cand-0024`的new/same历史决定差异列入S3核平。第14章p.349注3当前statement与两条mention已于2026-10-31经独立盲审通过（[独立盲审记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2-independent-followup-ch14-p349)）；其他S2修订版本及9,622条台账仍待按statement ID与来源版本核平；之后按序推进S3、S4、S5、S6，全部核平后再启动S7。
+**2026-10-31当前修订与下一步：** S1索引、图版、书目及补录候选覆盖已收口；最新回映将索引字段差异更正为97条，并核实A.csv四处编码异常与原页一致（[S1核对记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s1-index-encoding-crosswalk)）。第14章p.349“Albrizzi’s Novelle”mention已由Newtonianismo书名候选改映至周刊候选`cand-9988`。刊期`cand-10261`、周刊`cand-9988`和书名`cand-10258`各有既有S3 `new`及S4登记；警示关系因无忠实受控谓词继续pending，不新增formal边。`cand-0024`的new/same历史决定差异列入S3核平。第14章p.349注3当前statement与两条mention已于2026-10-31经独立盲审通过（[独立盲审记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2-independent-followup-ch14-p349)）；其他S2修订版本及9,622条台账仍待按statement ID与来源版本核平；之后按序推进S3、S4、S5、S6，全部核平后再启动S7。
 
 
 **2026-10-31当前版独立复核增量：** 新完成第2章10条statement及第18章结论2条的盲审（40个相关mention span通过；对照基线为38条不变、1条same-ID changed、1条新增）；第4章p.102、p.114、p.115共5条statement和38个mention span通过；p.117共12条statement与3条mention通过。按复核发现移除p.102注4中的错误候选`cand-5712`及p.117抗议句中的Spain政体`cand-4591`，并登记`rel-2646 trained_by`和`rel-2647 cites`为pending；缺少KU/忠实谓词的关系仍process-only pending。当前S2仍为15,487条statement、26,882条mention，9,622条汇总未按当前ID/来源版本核平，不据此计算覆盖率；`relations.csv`为2,645行（2,590 formal、52 pending、3 rejected）。以上局部复核不等于整章或S2接收。
