@@ -13875,3 +13875,9 @@ Paceco de Rosa画作没有题名、数量或可界定的作品组身份，仍无
 | `st-chp18-conclusion-p384-social-demands-and-originality` | 移除 Italy 与社会压力论断之间的错误端点，`relation_candidate`改为false。 | 原statement不再作关系证据；`rel-2432 site_of_manifestation`当前由新statement `st-chp18-conclusion-p384-italian-art-context-social-conformity`支持。 |
 
 mention集合核对未发现新增或删除：第2章p.36、p.39、p.56、结论p.384相关segment的mention行与审读快照相同；第2章p.57注3有26条mention同ID变化，第2章p.58有1条mention候选映射/说明变化。当前表中可追溯到这10条statement的5条formal关系为`rel-2460`、`rel-2470`、`rel-2471`、`rel-2483`、`rel-2506`；另核对了`rel-2432`的证据改绑及两个process-only pending去向。以上仅完成审读版本与表、来源和S6影响的核平，不是修订后版本的独立语义复核，也不据此增减9,622条统一台账；这10条的当前版独立差异复核和台账归属仍待处理。
+
+### 2026-10-31 S2修订版原页定向复核：第2章与结论10条（当前代理自查）
+
+当前statement、claim、提及和关系端点逐项对照S0分节，并查看原页图：`CHP-2.pdf` physical pp.17、20、41、46、47（印刷pp.36、39、56、57、58）及 `CHP-18Conclusion.pdf` physical p.1（印刷p.384）。p.36原文支持工程耗时和Urban VIII作为时间参照；p.39原文支持Marcello雇用Pietro、Pietro诠释已选题材并调整装饰方案，职业评价“found his true road”与关系claim分开；p.56注2区分Tessin账户的书内作者归属、推测年代、馆藏定位及Montagu一次性提供线索；p.57注3支持Haskell转述Bellori所记历史所有权；p.58与索引共同支持War of Castro争端方为Odoardo，不扩展为其军事指挥或领土权属。p.384页图支持Bamboccianti转向感伤主义、Crespi未具名王子习语及社会要求论述；`life`校读已有记录。没有发现需进一步更改这些claim、端点或现有S6去向的语义依据。
+
+页图还确认第2章p.39 L85印文为“ability to adapt”，S0 OCR及原引文的`ability 40 adapt`中页码40误代`to`；第2章p.56注2 L150的`ofthe`应分作`of the`，L151沿用此前原页校读`Handskriftsand`→`Handskriftsavd.`。以上三项写入各自statement的`qualifiers.ocr_corrections`；S0 Markdown和`original_quote`保持原样。未新增/删除mention，未修改任何关系行或9,622台账，statement仍为15,483条、mention仍为26,877条。严格阶段审计 `errors=[]`、`s2_missing=[]`；关系一致性阻断项均为0。此为当前代理针对修订版的定向自查，不称独立验收；10条修订版仍须独立差异复核，且台账ID/来源版本归属仍未核平。
