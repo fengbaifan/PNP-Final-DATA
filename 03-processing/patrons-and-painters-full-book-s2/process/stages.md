@@ -14459,3 +14459,14 @@ statement版本也按完整JSON对象重算：第1、2、4章同ID变化106条�
 原文另述Cassiano与“other scholars and owners of Leonardo manuscripts”通信，并以具名Mazenta为例。rel-1875仅正式记录Cassiano与Mazenta；原文没有给出其他人的身份，也未明确该短语是否为独立群体、含Mazenta的较大集合，或学者/所有者相互重叠。将这项额外端点记为candidate-backlog bl-0092、status=undecided、无candidate_id/KU；在范围与身份可辨前不新增S3身份、不建formal边，也不把cand-12441改作人物端点。相关关系保持待证。
 
 本次只增加一条待办记录，不改statement、mention、alignment或relations表，不计入9,622条独立复核台账。candidate-backlog.csv由91条增至92条、未决74条增至75条；其中无candidate_id的记录由3条增至4条。S1索引映射与来源覆盖不变；本条为S2原文关系端点的待证回映，不是新增索引覆盖或独立接收。
+
+<a id="2026-11-01-s2-9622-current-review-crosswalk-ch2-conclusion"></a>
+### 2026-11-01 S2台账核平补记：11条旧审读差异的当前版独立回映
+
+按基线1a6313c8654280a9b71187fc08522098626e734e及既有逐条审读记录核对的11条statement，均在基线和当前表中存在且完整JSON对象不同：第2章7条、结论4条。原过程清单曾只列10条；补入的第11条为st-chp18-conclusion-p384-salvator-rosa。以下以当前独立复核快照47ea4184fb8f0badbc415b70b034298fb3706e12为锚点回映。
+
+现行19条当前statement独立盲审记录（修订快照2eadaf99至47ea4184）覆盖其中7条，逐项结论通过：st-chp2-secii-l52-60-programme-duration、st-chp2-secii-l80-89-country-house-decoration-employed、st-chp2-secii-l80-89-pietro-interpreted-decoration-themes、st-chp2-seciv-l139-152-montagu-points-author-to-tessin-account、st-chp2-seciv-l139-152-tessin-account-locator-and-date、st-chp2-secvii-l3-3-parma-consequences-fragment、st-chp18-conclusion-p384-salvator-rosa。复核所用的7条statement完整JSON与当前表相同；该批40条mention逐行与当前表一致；关系行rel-2470、rel-2471、rel-2483、rel-2506、rel-2644亦与复核快照一致（前四条formal，rel-2644 pending）。CHP-2.pdf、三份第2章Markdown、CHP-18Conclusion.pdf及结论Markdown的当前SHA-256均与该独立复核记录相符。复核范围、页图定位、mention结果及相关关系审查见[当前修订差异独立回核](#2026-10-31-s2-current-delta-independent-review-crosswalk)。
+
+其余4条仍不在该独立回核范围内：st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned、st-chp18-conclusion-p384-bamboccianti、st-chp18-conclusion-p384-crespi-and-medici-prince、st-chp18-conclusion-p384-social-demands-and-originality。它们的当前版本继续待独立差异复核，不因同页其他statement通过而接收。
+
+本次只把既有独立复核结论与当前ID、完整statement对象及来源版本交叉映射；不把7条追加或扣减9,622历史聚合数，也不能由汇总数推断这7条旧版本是否曾计入其中。相关S6正式关系和pending裁决沿用复核记录中的限定，不改relations.csv；全书9,622条行级ID／来源版本交集仍未完成。
