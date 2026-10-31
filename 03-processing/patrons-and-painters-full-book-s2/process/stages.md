@@ -14626,6 +14626,15 @@ rel-2650定向渲染到第一册archive卡；写后复预览无差异。事件�
 独立复核者直接核阅`CHP-10.pdf`物理p.59（印刷p.326）及当前S0正文、续引注释段`chp-10:10_CHP-10_sec_ii:l210-222`、`l273-349`，逐项检查statement、mention、候选、S3/S4映射与S6历史。相对9,622基线的5条同ID修订（`st-chp10-p326-il-patriotismo-title`、`st-chp10-p326-justice-temple-frontispiece`、`st-chp10-p326-montesquieu-frontispiece`、`st-chp10-p326-n01-marciana-set`、`st-chp10-p326-n01-pamphlet-titles`）及6条新增（`st-chp10-p326-n01-marciana-annotations`、`st-chp10-p326-n01-pamphlet1-published-by`、`st-chp10-p326-n01-pamphlet2-has-subject`、`st-chp10-p326-n01-pamphlet2-published-by`、`st-chp10-p326-n01-pamphlet3-has-subject`、`st-chp10-p326-n01-pamphlet3-published-by`）均为PASS；11条`original_quote`均为对应S0段精确子串，30条相关mention的半开跨度均与原文切片相符。
 
 复核确认第一幅图被原文称作frontispiece，第二幅仅称“on another”；两幅图像与三册宣传册集合及被描绘作品组分开。题名限定为创作场合，不推定正文题材；馆藏位置、手写批注和印记角色按原文分别记录。当前`rel-2462`–`rel-2465`、`rel-2648`–`rel-2650`均为pending；第二幅图像寓意不建正式边。历史上`rel-2462`–`rel-2464`曾formal，后于提交`54c16899`改为pending；本轮以当前表为准，未改变裁决。候选`cand-12466`、`cand-12467`与被描绘作品组保持S3 `undecided`、无KU；待办`bl-0093`、`bl-0058`保留。五条已存在于旧基线的statement的历史9,622成员身份仍无法逐行证明；六条新ID不在该基线中。本批不调整历史分子，不代表其余p.326内容或全书S2接收。
+<a id="2026-11-01-s2-independent-current-review-ch8-p212-p213-ch21-bibliography"></a>
+
+### 2026-11-01 S2独立当前版复核：第8章 p.212–213 与第21章 p.428
+
+独立复核者对照旧基线`1a6313c8654280a9b71187fc08522098626e734e`与当前表，确认本批9条statement为4条同ID修改、5条新增：修改项为`st-chp8-p212-four-scenes-made-for-house-and-considered-finest`、`st-chp8-p212-n2-longhi-publishes-vannini-scenes`、`st-chp8-p213-n1-longhi-publication`、`st-chp21-bib-l701-754-entry-03`；新增项为`st-chp8-p212-sacrifice-of-isaac-created-by-vannini`、`st-chp8-p212-fall-of-manna-created-by-vannini`、`st-chp8-p212-moses-striking-rock-created-by-vannini`、`st-chp8-p212-susanna-and-elders-created-by-vannini`、`st-chp8-p212-moses-striking-rock-published-in-longhi`。9条当前statement均PASS；原引句、语气、先行项及相关mention跨度均与S0切片和页图相符。
+
+复核直接核阅`CHP-8.pdf`物理页10–11（印刷p.212–213）与`CHP-21Bibliography.pdf`物理页18（印刷p.428）；PDF哈希与过程记录相符。p.212正文区分“四幅场景”的组级评价与四件单独命名作品，四个`created_by`断言仅记录Haskell书内的Vannini归属，不外推委托或外部作品归属。注2只称《降吗哪》与《摩西击石》刊于Longhi 1956年论文；文章→作品的`has_subject`方向正确，未称已查阅论文。页图将S0的`Fäll`校读为`Fall`，原mention跨度保持不变并由`ocr_corrections`记录。p.213注1“the latter”指Paceco de Rosa画作；当前statement保留`object=null`及`open_endpoint_reason`，`relations.csv`无formal边，继续process-only pending。p.428把Longhi论文题名与`Longhi, R.`作者署名分开；相应mention跨度分别为`[228,291)`、`[216,226)`。
+
+下游状态未改：`cand-7528`–`cand-7531`各为独立S3 `new`并已登记单件作品KU；四幅作品组`cand-7527`保持`undecided`、无组级KU；Longhi论文`cand-7604`为`new` archive，作者`cand-7603`为`same`，Vannini复用既有人物KU。S6当前`rel-2508`–`rel-2514`均formal，方向与证据范围相符；没有新增或改判关系。历史9,622分子不调整：5条新增statement不在基线快照中；4条修改statement的旧版本成员归属尚未逐行证明。本批只覆盖上述9条及指定页图，不代表全书S2接收，也未核读Longhi论文。
 <a id="2026-11-01-s2-current-review-ch8-p238-title-referents"></a>
 
 ### 2026-11-01 S2当前版增量修订：第8章 p.238 标题与指代mention
