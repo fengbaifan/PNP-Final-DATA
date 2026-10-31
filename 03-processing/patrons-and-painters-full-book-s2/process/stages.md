@@ -14586,3 +14586,9 @@ claim、Haskell发言者及“不是Rosa自述意图”的限定保持不变。R
 st-chp8-p224-dido-picture-narrative不再把Dido人物候选当作整幅多人物场景的object：object_candidate_id置空，statement保留场景描述并维持relation candidate；作品候选cand-2486仍S3 undecided且无KU，场景关系留process-only pending，不强行建立formal边。书目短引Bologna (Plate 209)由p.416作者、题名和年份支持；cand-7759脚注／引文候选与书目cand-7348当前属于同一S3 archive group且映射到同一S4 KU。S2 statement及候选detail中的旧“待对齐”字样已清除，候选文本层改为脚注／引文；引用的Bologna原书未独立查阅。replica cand-7760仍未决，Scholz-Forni collection cand-7761仍类型待定，未据此建立关系。
 
 历史影响：cand-2094与cand-0902仍分别是Rambaldi、Dardani人物并映射到各自person KU；索引作品候选cand-2095、cand-0903仍对齐同一壁画KU，未与人物候选混并。rel-2522 located_at和rel-2523 commissioned_by保持formal、端点方向及证据范围不变；两位画家的summoned_to_paint继续process-only pending，不改成created_by。relations.csv本批未改写，也无既有S3／S6裁决升级或降级。S2当前版新增1条statement，不增加mention；本批不计入9,622聚合复核数，历史statement版本归属仍待核平。写后严格表审计errors=[]、s2_missing=[]；局部回核不表示第8章或全书S2接收。
+<a id="2026-11-02-s2-current-table-delta-recompute"></a>
+### 2026-11-02 S2当前statement／mention版本差异重算
+
+以9,622首次出现的基线提交`1a6313c8654280a9b71187fc08522098626e734e`与当前快照`f1dd3bfd9a2e8318322dc1e46e8146258e1bddb5`比较完整表对象，并按稳定ID核平。statement为15,451→15,488：新增38、删除1、同ID对象变化128；mention为26,870→27,000：新增151、删除21、同ID行变化29。当前和基线两表均无重复ID。此前记录的124条同ID statement变化对应较早快照，不代表当前差异数。对当前新增或变化statement涉及的26个S0 Markdown文件逐一比较两个提交的Git blob，均未变化；这只确认文本来源文件稳定，不代替PDF页图检查或语义复核。
+
+该差异是版本变动量，不等于待复核数，也不能证明任何ID／版本属于9,622历史聚合。历史汇总尚无覆盖全部成员的逐行清单，本次不调整其分子或计算覆盖率。下一步继续逐项关联既有复核报告的statement ID、完整版本、mention版本与来源范围；只有确证的交集才回映为已复核。
