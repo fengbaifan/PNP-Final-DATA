@@ -10771,7 +10771,7 @@ m-chp4-sec-ii-p116-0023,chp-4:04_CHP-4_sec_ii:l191-205,cand-2709,Velasquez,3159,
 m-chp4-sec-ii-p117-0002,chp-4:04_CHP-4_sec_ii:l207-216,cand-1564,Massimi,15,22,Surname reference to Camillo Massimi.
 m-chp4-sec-ii-p117-0010,chp-4:04_CHP-4_sec_ii:l207-216,cand-5976,portraits of the King and Queen and of two Infantas,23,74,Four distinct portraits completed from p.116 continuation; sitter identities unspecified.
 m-chp4-sec-ii-p117-0003,chp-4:04_CHP-4_sec_ii:l207-216,cand-1564,Massimi,228,235,Surname reference to Camillo Massimi.
-m-chp4-sec-ii-p117-0011,chp-4:04_CHP-4_sec_ii:l207-216,cand-4591,Spaniards,386,395,Spanish political actor.
+m-chp4-sec-ii-p117-0011,chp-4:04_CHP-4_sec_ii:l207-216,cand-12465,Spaniards,386,395,Source-bounded collective actor; distinct from Spain polity cand-4591.
 m-chp4-sec-ii-p117-0012,chp-4:04_CHP-4_sec_ii:l207-216,cand-4632,France,419,425,France as polity in the quarrels.
 m-chp4-sec-ii-p117-0013,chp-4:04_CHP-4_sec_ii:l207-216,cand-5968,French,448,454,"Collective French actors, membership unspecified."
 m-chp4-sec-ii-p117-0015,chp-4:04_CHP-4_sec_ii:l207-216,cand-5977,Peace of the Pyrenees,571,592,Named peace settlement.
@@ -27548,3 +27548,5 @@ m-s2-chp8-p213-n1-longhi-article-20261031,chp-8:08_CHP-8_sec_i:l126-157,cand-760
 m-chp18-conclusion-p384-salvator-rosa-artistic-conformity,chp-18:18_CHP-18Conclusion:l3-17,cand-10735,artistic conformity,1809,1828,Exact object phrase in Rosa’s evaluative characterization; distinct from the earlier social-demand phrase and later writers phrase.
 m-s2-ch14-p349-20261031-001,chp-14:14_CHP-14_intro:l168-220,cand-9988,Albrizzi’s Novelle della Repubblica delle Lettere,1245,1294,"Title in note 3 is the weekly periodical candidate cand-9988, not the Newtonianismo book; footnote marker 3 links the warning note to the body reception assessment."
 m-s2-ch14-p349-20261031-002,chp-14:14_CHP-14_intro:l168-220,cand-10261,12 April 1758,1315,1328,"S0 OCR date; the p.349 print scan reads 12 April 1738, as recorded in the S2 statement correction."
+m-chp4-sec-ii-p117-0036,chp-4:04_CHP-4_sec_ii:l207-216,cand-11665,the King and Queen and of two Infantas,36,74,Source-bounded sitter group; personal identities remain unresolved.
+m-chp4-sec-ii-p117-0037,chp-4:04_CHP-4_sec_ii:l207-216,cand-11666,many of the older Roman buildings and paintings,1617,1664,Source-bounded mixed group; no individual building or painting is identified.

@@ -15447,9 +15447,9 @@ S4登记触发对原仅有第21章索引候选的`cand-2017`作S3定点复核：
 
 **S4与S5。** 16张新archive卡各有中英文题名／描述、可追溯来源及来源范围限定；不声称已查阅被引书、文章、档案原件或被引页。定向`build_field_facts.py --apply`新增97条source-backed字段：16卡均含表格，0条unverified、0重复、0警告，来源登记未变；复跑预览为`record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。
 
-**S6逐候选决定。** 本批20条直接关联候选各有去向：15条formal（14条`cites`，另1条摄影副本`located_at`），写入`rel-2102`–`rel-2116`；全部`cites`边仅记录Haskell书内引注，未据此核实被引内容。5条保留process-only pending：
+**S6逐候选决定。** 本批20条直接关联候选各有去向：15条formal（14条`cites`，另1条摄影副本`located_at`），写入`rel-2102`–`rel-2116`；全部`cites`边仅记录Haskell书内引注，未据此核实被引内容。原记录下有5条process-only pending；2026-10-31独立盲审后，p.115来源引注已补写为`rel-2647 cites` pending，因此当前仅余4条process-only pending。下列名单保留原批次范围，其中该项状态已更新：
 
-- `st-chp4-sec-ii-p115-fn2-sources`：Litta、Moroni与Giustiniani同列并共用“III, p.319”定位，不能唯一匹配到《Famiglie celebri italiane》；待完整被引书目或原文消歧后再判断是否为`cites`。
+- `st-chp4-sec-ii-p115-fn2-sources`：独立盲审确认原文只给Litta、Moroni与Giustiniani共用的“III, p.319”定位，不能唯一匹配到《Famiglie celebri italiane》。现登记`rel-2647 cites`为pending；消歧前不转formal。
 - `st-chp4-sec-ii-p102-footnote4-matteoli-edited-carteggio`：仅“A. Matteoli”，人物身份未达可复用边界；待有可靠全名/同一身份依据后重审编辑关系。
 - `st-chp4-sec-ii-p115-fn2-inventory`：来源仅报告清单“published in part”，当前受控谓词不能准确表达部分刊布；待关系词表支持该语义，不能替换成`part_of`。
 - `st-chp4-sec-ii-p115-inventory-original-vatican-library`：原件Capponi Lat. 260的机构候选仍未决，且archive→institution没有与本次断言精确匹配的`held_by`用法；待机构身份及适用关系表达解决。不得与Warburg摄影副本合并。
@@ -18872,3 +18872,34 @@ S6 effects remain bounded: rel-2470, rel-2471, rel-2460 and rel-2506 remain form
 **S3/S4与关系影响。** `cand-9988`（`aln-10160`）、`cand-10261`（`aln-10433`）及`cand-10258`（`aln-10430`）已有各自source-local `new`决定和S4映射；本次不改这些身份组、KU卡或历史对齐行。此前statement称刊期“仍未对齐”的限定已在当前版本改正。Haskell转引的警示指向书中表达，但受控关系类型不能忠实保留该警示言语行为；`has_subject`会扩大为一般题材边，`cites`会改变断言。故不新增formal关系，关系候选保持process-only pending，缺口现为谓词忠实性及未独立查阅刊期／周刊，不是端点缺失。既有S6历史行未改。
 
 **S3待核差异。** 独立复核另发现`cand-0024`在`aln-0359`有`new`决定、在`aln-12650`有`same`决定，二者均映射`units/persons/almoro-albrizzi`。现保留两条来源决定和组号，不擅自合并或覆盖；列入后续S3来源决定/组号核平，检查决定发生次序及同一性依据。
+
+<a id="2026-10-31-s6-current-review-chapter4-p113-p117-p118"></a>
+### 2026-10-31 第4章 p.113、p.117–118 当前S2回映的S6裁决影响
+
+以当前S2 statements、2026-10-20第1、2、4章独立复核发现、CHP-4原页和受控谓词表核对直接关系候选。S2 claim/quote修订未改变`rel-1883`、`rel-1884`、`rel-1992`–`rel-1996`、`rel-1774`–`rel-1776`等既有关系端点或方向；本批在`relations.csv`新增`rel-2645 friend_of`，合并记录Massimi与Poussin的书内友谊陈述。关系证据与当前S2版本的对应关系见下表。
+
+| statement | 当前S6去向 | 理由 |
+|---|---|---|
+| `st-chp4-sec-ii-p113-only-picture-for-cassiano`、`...-picture-made-for-cassiano` | formal：`rel-1883 created_by`、`rel-1884 patronized_by` | 作品为subject；“apparently”保留，未扩为正式委托。 |
+| `st-chp4-sec-ii-p113-archbishop-letter-authored-by`、`...-addressed-to-cassiano` | process-only pending | 信件的可识别archive端点及主教身份未解决；不以办公室称谓建立个人KU。 |
+| `st-chp4-sec-ii-p113-drawings-made-by-secondary-artists` | process-only pending | maker为未具名、未定界的次级画家群体；当前不能形成稳定端点。 |
+| `st-chp4-sec-ii-p117-midas-created-by-poussin`、`...-first-arcadian-created-by-poussin` | formal：`rel-1992`、`rel-1993 created_by` | 两条边仅保留Haskell对两件具名作品的书内归属。 |
+| `st-chp4-sec-ii-p117-named-poussin-pair`、`...-pair-arcadian-member` | formal：`rel-1994`、`rel-1995 part_of` | 仅说明本段所称pair的两名成员，不推定pendant。 |
+| `st-chp4-sec-ii-p117-possible-poussin-acquisition`、`...-pair-possible-source-heirs` | pending：`rel-1996 acquired_by`；继承人来源process-only pending | 收购及来源均为Haskell推测，且“no direct evidence”明示；`cand-11668`仍undecided。 |
+| `st-chp4-sec-ii-p117-poussin-library-visits` | process-only pending | `cand-1574`仍S3 undecided、类型未明；不把索引子条直接当已确认图书馆KU。 |
+| `st-chp4-sec-ii-p117-bellori-anecdote`、`...-studio-conversation`、`...-cassiano-visits`、`...-cassiano-accompanied-on-visits` | process-only pending | 人物可识别，但当前受控谓词不能忠实表达具体的下楼互动、工作室谈话、相识和陪同拜访；不以`friend_of`替代。 |
+| `st-chp4-sec-ii-p117-poussin-relationship`、`...-poussin-massimi-friendship` | formal：`rel-2645 friend_of` | 两条均为Haskell对Massimi与Poussin友谊的报告，合为一条关系；不推定关系阶段或独立传记证实。 |
+| `st-chp4-sec-ii-p117-alexander-avoids-offending-french`、`...-alexander-conciliates-venetians` | process-only pending | 受控关系词表没有忠实表达回避冒犯/政治劝和的谓词；France集体`cand-5968`仍类型未定，Venetians候选`cand-11664`仍S3 undecided，不改写成赞助或支持关系。 |
+| `st-chp4-sec-ii-p117-cassiano-role` | process-only pending | Haskell以“seems”作类比，不能据此建立正式职务继任；`seemed_to_assume_role_left_by`不是受控谓词。 |
+| `st-chp4-sec-ii-p117-copies-of-buildings-paintings` | process-only pending | 描述的是混合的未逐件识别对象组`cand-11666`；其类型未定，且`arranged_copying_of`不是受控谓词。 |
+| `st-chp4-sec-ii-p117-four-portraits-continuation`、`...-portraits-of-royal-sitters` | process-only pending | 四肖像组`cand-5976`身份/范围未决，坐者角色组`cand-11665`类型未定；不把人物组直接作为formal `intended_for`或`has_subject`对象。 |
+| `st-chp4-sec-ii-p117-french-protested-violently`、`...-venetians-protested-violently` | process-only pending | 两条statement均缺明确抗议对象；mentions中的西班牙、法国、耶稣会或城市线索不能替代原句端点，`protested_violently`也不在受控谓词中。 |
+| `st-chp4-sec-ii-p117-massimi-recalled-1658` | process-only pending | Rome端点复用`units/places/rome`，但`recalled_to`没有忠实受控谓词；不以一般位置关系替代召回行为。 |
+| `st-chp4-sec-ii-p117-pyrenees-balance` | process-only pending | 原句是对脆弱势力均衡的来源限定预测，`cand-5968`身份未决；不把政治结果预测改写为事件参与关系。 |
+| `st-chp4-sec-ii-p117-spanish-backing`、`...-spanish-french-quarrels` | process-only pending | 西班牙集体端点`cand-12465`类型及身份未决，法国候选`cand-4632`虽有`new`决定但尚无KU；不与Spain政治实体`cand-4591`合并，也没有忠实受控谓词。 |
+| `st-chp4-sec-ii-p117-venetian-jesuit-readmission` | process-only pending | Venetians集体候选`cand-11664`仍S3 undecided；Jesuits复用`units/institutions/jesuits`，但受控词表无“同意重新接纳”关系，不能代换为一般隶属或支持。 |
+| `st-chp4-sec-ii-p117-lessons-from-poussin` | pending：`rel-2646 trained_by` | 独立当前版复核确认原文为“probably took lessons”；端点均映射到person KU且谓词受控，但概率限定不足以支持无条件师承边。脚注5所引铭文未独立查阅，不断言已确立师徒关系。 |
+| `st-chp4-sec-ii-p118-apollo-theme` | formal：`rel-1776 has_subject` | 保持Haskell的来源限定主题解释，非终局阐释。 |
+| `st-chp4-sec-ii-p118-poussin-fascinated-theme` | rejected为正式边 | `interested_in`不在当前受控关系类型；原文断言仍保留于S2。 |
+
+以上覆盖p.117正文28条`relation_candidate=true` statement：formal 7条、`relations.csv`中pending 2条（`rel-1996`、`rel-2646`），其余19条按表保留process-only pending。新增的`rel-2645`不改写或覆盖任何旧关系；旧formal及pending行均保留原ID。身份、范围、证据强度或谓词未解决的候选不因来源修订而升级。

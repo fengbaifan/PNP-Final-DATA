@@ -14011,6 +14011,13 @@ statement st-chp14-p349-note3-albrizzi-issue通过：原文引述支持“劝读
 
 按CSV原始字段与当前候选字段比较，93条索引候选的规范名、子条或页码范围至少一项不同（规范名41项、子条8项、页码范围45项，字段差异有重叠）。这些行仍保留原`index_entry_id`，且均有S3 alignment记录及过程/裁决说明；不得据此把原索引文字静默丢弃，也不把字段差异自动当作身份成立。后续S3按对应候选核查名称、范围与身份；本次确认的是S1覆盖和源行可追溯，不是上述差异的语义接收。
 
+<a id="2026-10-31-s1-supplement-candidate-chp4-p117"></a>
+### 2026-10-31 S1增量回映：第4章 p.117 集体端点候选
+
+将当前S2修订新增的候选`cand-12465`回映到S1来源覆盖：候选来源为`chp-4:04_CHP-4_sec_ii:l207-216#L208`，原文集体称谓“Spaniards”对应mentions行`m-chp4-sec-ii-p117-0011`，当前跨度为[386,395)。候选仅记录Haskell所述Massimi支持该集体并与France争端，不推断其政府、组织或成员身份；与Spain政治实体`cand-4591`分开。S1登记来源和边界，不裁定身份。S3行`aln-12792`保持`undecided`，注明组类型未定。
+
+增量后`entity-candidates.csv`为12,443个唯一候选：索引候选2,934，非索引候选9,509且均有来源引用；54条excluded均有理由。重新按19份索引CSV的文件名和数据行号核对，2,934条索引输入与候选表一对一匹配，缺失、重复、意外键均为0。图版仍为85条候选，书目256条；`candidate-backlog.csv`仍为91条，其中88条已关联候选、3条因身份或范围不可识别而明确保持`undecided`。严格表审计当前为`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`。此项完成S1增量来源回映，不构成`cand-12465`的S3身份裁决或S4登记。
+
 <a id="2026-10-31-s2-review-snapshot-crosswalk-chapters-1-2-4-current"></a>
 ### 2026-10-31 S2独立复核快照回映：第1、2、4章当前版本
 
@@ -14044,10 +14051,46 @@ statement st-chp14-p349-note3-albrizzi-issue通过：原文引述支持“劝读
 
 | 当前statement | 原页依据与判断 | 关系及历史裁决影响 |
 |---|---|---|
-| `st-chp4-sec-ii-p102-footnote4-cigoli-galilei` | p.102注4明确写“See Cigoli-Galilei Carteggio edited by A. Matteoli”；S0注号`1`按扫描校为`4`，保留原OCR引文。 | `rel-2107 cites`仍为formal，仅表示Haskell引注；不表示已查阅被引版本。无裁决变化。 |
+| `st-chp4-sec-ii-p102-footnote4-cigoli-galilei` | p.102注4明确写“See Cigoli-Galilei Carteggio edited by A. Matteoli”；S0注号`1`按扫描校为`4`，保留原OCR引文。独立盲审发现`mentioned_candidate_ids`误带前一注的`cand-5712`（Panofsky 1954），现已移除。 | `rel-2107 cites`仍为formal，仅表示Haskell引注；不表示已查阅被引版本。关系未变。 |
 | `st-chp4-sec-ii-p102-footnote4-matteoli-edited-carteggio` | 同一注明确以“A. Matteoli”署编辑；扫描不提供名字全称。 | `cand-5713`身份仍为S3 undecided；`edited_by`保持process-only pending，不补造人物身份或正式边。 |
 | `st-chp4-sec-ii-notes-p114-fn2-funeral-of-phocion-has-subject` | p.114注2所列题名扫描读作“Funeral of Phocion”；S0 OCR连写，按页图仅校正空格。该题名指称Phocion，但没有确认具体复制品或Lord Plymouth藏品身份。 | `rel-1643 has_subject`仍为formal且仅限题名；不与作品复制品或收藏事实合并。 |
-| `st-chp4-sec-ii-p115-fn2-sources` | p.115注2将Litta、Moroni与Abbate Michele Giustiniani并列，共用“III, p. 319”；原文未唯一指定该定位对应哪一出版物。 | `cand-4842`的S3身份决定来自其他书内书目锚点，不据此认定本注所引作品；本项继续process-only pending，无formal cites边。既有身份决定不变。 |
+| `st-chp4-sec-ii-p115-fn2-sources` | p.115注2将Litta、Moroni与Abbate Michele Giustiniani并列，共用“III, p. 319”；独立盲审确认原文未唯一指定该定位对应哪一出版物。 | `cand-4842`的S3身份决定来自其他书内书目锚点，不据此认定本注所引作品；已登记`rel-2647 cites`为pending，无formal边。既有身份决定不变。 |
 | `st-chp4-sec-ii-p115-inventory-original-vatican-library` | p.115注2明确印有“Biblioteca Vaticana: Capponi Lat. 260”，并称其摄影副本在Warburg Institute Library；原件与摄影副本分开记录。 | 原件指向机构的关系继续pending：`cand-4380`身份未决，且无适配谓词。摄影副本的`rel-2116 located_at Warburg Institute`独立formal，仅复述书内位置、不核实现行馆藏。无裁决变化。 |
 
-以上5条statement所涉4个当前原页定位（p.102、114、115注2、p.115正文）内，38个唯一mention span均按当前S0源段重算并与`surface_form`一致；p.102注4被两个statement共同引用，按statement行窗口计43次检查。PDF页图、S0文本和表格共同支持当前断言及限定，本轮未改statement、mention、候选或`relations.csv`，也未改变历史裁决。此为主代理定向自查，不是独立语义接收；5条均不计入9,622条独立复核聚合数，仍待独立复核后再判断是否接收。
+以上5条statement所涉4个当前原页定位（p.102、114、115注2、p.115正文）内，38个唯一mention span均按当前S0源段重算并与`surface_form`一致；p.102注4被两个statement共同引用，按statement行窗口计43次检查。PDF页图、S0文本和表格共同支持当前断言及限定，本轮未改statement、mention、候选或`relations.csv`，也未改变历史裁决。此为主代理定向自查的当时状态，不是独立语义接收；后续独立盲审与回映见同日章节复核记录。该范围不增加9,622条汇总，也不代表第4章或S2整体接收。
+
+<a id="2026-10-31-s2-current-review-chapter4-p113-p117-p118"></a>
+### 2026-10-31 第4章 p.113、p.117–118 当前版复核与独立发现回映
+
+依据[第1、2、4章独立语义复核记录](s2-independent-review-chp1-2-4-20261020.md)中第4章 p.113、p.117–118 的逐项发现，复核当前`book-statements.jsonl`、`mentions.csv`、候选/对齐表、`relations.csv`和原页。原书`CHP-4.pdf`路径为`02-sources/01-book/CHP-4.pdf`，SHA-256为`2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303`；扫描页p.113、117、118分别为PDF物理页24、28、29。S0分节文本及source segment未改。
+
+| 独立复核项 | 当前版核对与判断变化 | S6影响 |
+|---|---|---|
+| `st-chp4-sec-ii-p113-only-picture-for-cassiano` | 原独立复核指出作品端点缺失。当前subject为作品`cand-5923`，另有独立`painted_for_patron` statement 指向Cassiano `cand-2036`；不再把Poussin与Cassiano误作画作关系的两端。 | `rel-1883 created_by`及`rel-1884 patronized_by`仍formal；后者保留“apparently”，不称正式委托。未改关系行。 |
+| `st-chp4-sec-ii-p113-archbishop-letter-authored-by`、`...-addressed-to-cassiano`、`...-drawings-made-by-secondary-artists` | 扫描确认1646年Archbishop of Tarso致Cassiano的信及“drawings after antiquity”句；未给主教全名、信件精确身份或次级画家姓名。 | 作者、收信人与generic maker的直接关系仍process-only pending；不补造身份或个别作者边。 |
+| `st-chp4-sec-ii-p117-mood-and-moral-reading` | 当前claim仍省略原文“if not actually moral”。现改写为保留该限定、Massimi的“chequered career”语境及两件作品各自的警示读法；不把Haskell解释写成外部确证。 | 非关系解释（`relation_candidate=false`），无S6边变化。 |
+| `st-chp4-sec-ii-p117-poussin-library-visits` | 当前claim原漏“many visits”及“increasingly abstruse pictures of his final years”；现补回并保留“must have”推断。 | `cand-1574`仍S3 `undecided`且无类型；访问关系保持pending，不连到Massimi人物或虚构图书馆KU。 |
+| `st-chp4-sec-ii-p117-bellori-anecdote`、`...-studio-conversation`、`...-cassiano-visits`、`...-cassiano-accompanied-on-visits` | 按独立复核意见扩展4条`original_quote`，使Bellori转述、Poussin/Massimi人物和Cassiano先行项在可见片段中明确；保留Haskell转述Bellori、未独立查阅Bellori。 | 这些statement无相应formal relation行；当前控制谓词未能忠实表达具体下楼、交谈、相识及陪同拜访表述，process-only pending，不以`friend_of`替代。 |
+| `st-chp4-sec-ii-p117-midas-created-by-poussin`、`...-first-arcadian-created-by-poussin`、pair/possible-source statements | 原页将两件作品明列为“that painter”的早期作品。当前两件作品、pair group及未名继承人组分别保留；mention `m-chp4-sec-ii-p117-0034`和`...-0035`锚定pair及heirs。`cand-11667`为source-local work group且已登记；`cand-11668`仍undecided。 | `rel-1992`–`rel-1995`既有formal作者/组员边不变；`rel-1996 acquired_by`及heirs来源继续pending，不推定pendant、继承人身份或实际交易。 |
+| `st-chp4-sec-ii-p118-apollo-theme`、`...-poussin-fascinated-theme` | 原页确认OCR `os`在印本为`of`；S0保留原OCR，S2保留已记校读。当前claim保留主题“未充分阐释”，并把“him”链接回Poussin；主题mention仍存在。 | `rel-1776 has_subject`仍formal且限于Haskell主题解释；`interested_in`仍因非受控谓词而rejected为正式边。 |
+
+对上述7条当前版statement所涉10个候选ID，在3个S0 segments中检得24条相关mention；按源文件行片段重建segment文本后，24/24 surface span与偏移一致。全库`audit_tables.py --strict-stage --summary`返回`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`。表格修订由`chp4_p117_current_s2_review_repair_20261031.py`先dry-run后apply，原表恢复副本为`book-statements.jsonl.bak-s2-chp4-p117-current-review-20261031`。本项是主代理在既有独立发现基础上的当前版回映和修订，不是对修订结果的独立复核；不增加9,622条历史独立复核数，也不接收第4章或S2。剩余独立复核及statement/mention版本核平继续开放。
+
+**同日后续修订与判断变化。** 在首批6条修订后，另修订同一p.117段的6条statement；当前两批共12个已有statement ID发生变化，无新增或删除statement。修订后保留Alexander VII“most anxious”“whenever possible”、教皇政策变化“as so often happened”、Massimi求取委托的“as always”；西班牙集体支持claim保留“wholeheartedly”及Haskell的“as if to belie”叙述，不将其写成已证动机。French protest statement对象仍未能从同段mentions中唯一确定，不据共现补端点。
+
+原mention跨度回核的24条之外，新增两条当前mention：`m-chp4-sec-ii-p117-0036` `[36,74)`→来源限定的王后/Infantas群体`cand-11665`；`m-chp4-sec-ii-p117-0037` `[1617,1664)`→未逐件识别的罗马建筑与绘画群体`cand-11666`。两条均与当前segment切片一致；`m-chp4-sec-ii-p117-0011` 的“Spaniards”仍为`[386,395)`，但外键从Spain政治实体`cand-4591`改为来源局部集体候选`cand-12465`。该候选有p.117 L208来源锚点，S3 `aln-12792`保持`undecided`、类型未定，不与`cand-4591`合并。上述新mention不计入9,622条历史复核汇总。更新后的S2当前版本已完成独立盲审，结论与候选修正见同日复核记录；本项不增加9,622条汇总，也不构成第4章或S2整体接收。
+
+
+<a id="2026-10-31-s2-independent-current-review-followup"></a>
+### 2026-10-31 第2、4章及结论当前版独立盲审回映
+
+复核者只看当前statement/mention表、对应S0分节与指定原书扫描页；未看过程历史、未修改仓库。结果只适用于下列条目，不代表整章或全书S2接收。
+
+| 范围 | 独立结果 | 当前表与S6去向 |
+|---|---|---|
+| 第2章p.36、p.39、p.56、p.58，共9条statement | 当前陈述均与原页相符；40个相关mention跨度通过切片核对。p.58争端边有据，Haskell对“荒谬”和“后果不显著”的评价已与关系statement分开。 | `rel-2470`、`rel-2471`、`rel-2483`、`rel-2506`及相应已有裁决不变。Montagu来源指引继续process-only pending；Tessin书目定位`rel-2644`继续pending。p.59续文不在本次复核范围。 |
+| 第18章结论p.384，共2条statement | Crespi与Salvator Rosa的评价均保留为Haskell表述；指定Rosa mention切片准确。 | 未新增关系边；两条解释性statement继续process-only pending。 |
+| 第4章p.102、p.114、p.115注2，共5条statement | 38个唯一mention跨度与S0相符，34个候选未见语义错配。p.102两条statement和p.114题名陈述通过；p.115引注不能唯一定位到《Famiglie celebri italiane》。 | `st-chp4-sec-ii-p102-footnote4-cigoli-galilei`移除未出现在注4的`cand-5712`；`rel-2107`不变。`rel-1643 has_subject`不变。p.115引文写入`rel-2647 cites` pending。原件保管仍process-only pending：`cand-4380`身份未决；`rel-2116`只指摄影副本在Warburg，不代表原件保管。 |
+| 第4章p.117，共12条statement、3条mention | 12条statement的原文、语气和语义通过；3条mention跨度及候选映射通过。`m-chp4-sec-ii-p117-0011` `[386,395)`正确指向集体候选`cand-12465`；`...-0036` `[36,74)`指向未识别坐者组`cand-11665`；`...-0037` `[1617,1664)`指向混合建筑/绘画组`cand-11666`。 | 从French protest的`mentioned_candidate_ids`移除Spain政体`cand-4591`；不补抗议对象，也不把`cand-12465`当对象。`protested_violently`无受控谓词且端点缺失，继续process-only pending。`st-chp4-sec-ii-p117-lessons-from-poussin`新增`rel-2646 trained_by` pending，保留“probably”限定。`rel-2645 friend_of`及其他既有formal边不变。 |
+
+本次两处candidate-list修正不改变statement ID、claim、引文或mention行，不增删statement/mention；关系表净增两个pending裁决`rel-2646`、`rel-2647`。这些独立审读结果不自动计入9,622条历史复核聚合；statement ID、复核范围和来源版本仍须逐项核平。表格更正由`chp4_current_review_corrections_20261031.py`先dry-run再apply；恢复副本为`04-knowledge/tables/book-statements.jsonl.bak-independent-review-ch4-20261031`与`04-knowledge/tables/relations.csv.bak-independent-review-ch4-20261031`。
