@@ -47,11 +47,11 @@
 
 **本批完成：跨章登记Pergola与Golzio三项文献端点。** `cand-4369`对应1955–1959年两卷目录；`cand-6356`对应1933–34年 *Archivi* 文章；`cand-6196`对应1939年Chigi档案文献图书。三者各立独立archive身份组并完成S4；另为六条有S2 `relation_candidate=true`依据的引文建formal `cites`边。第2章p.49卷I引注的S2标志为非关系候选，Golzio p.3也没有独立S2引文关系statement，因此未另建formal边。第5章中身份未定的画作集合`cand-6164`及其所有权／购入／委托相关候选以`bl-0062`–`bl-0065`保留待证；宫殿购买端点`cand-6211`以`bl-0066`记录，待完成S4和关系主客体辨析。本批未将这些关系升为formal。未独立查阅三种出版物；S2 statement、mention和9,622项复核台账未改。详见[跨章身份及关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-golzio-pergola-archives-20261028)。
 
-**当前机械快照（2026-10-29本次复核）：** 当前S2有15,483条statement、26,867条mention。相对9,622复核汇总首次出现的基线提交`1a6313c8654280a9b71187fc08522098626e734e`，statement ID新增33、删除1、同ID内容变化92；mention ID新增18、删除21、同ID内容变化23。9,622仍是聚合台账数；逐项statement ID与来源版本未核平，不能据此计算当前覆盖率或增加本批修订计数。S2覆盖表832段（678 complete、154 excluded），不代表语义接收。
+**当前机械快照（2026-10-31核对）：** 当前S2有15,483条statement、26,875条mention。相对9,622复核汇总首次出现的基线提交`1a6313c8654280a9b71187fc08522098626e734e`，statement ID新增33、删除1、同ID内容变化95；mention ID新增26、删除21、同ID内容变化23。9,622仍是聚合台账数；逐项statement ID与来源版本未核平，不能据此计算当前覆盖率。S2覆盖表832段（678 complete、154 excluded），不代表语义接收。
 
-S3共有12,437个候选：仅same 2,127、仅new 5,079、仅undecided 5,088、conflict 8、excluded 107；另27个候选留有new与same来源决定、1个留有new与undecided决定。任一来源决定为new的候选5,107个，其中S4已映射2,586、待映射2,521。直接关系端点中，仅undecided候选2,969个（work 1,060、archive 278、term 445、person 424、place 128、institution 82、event 65、family 13、procedure 2、类型未定472）；new且仍待S4映射的直接端点876个（term 399、work 124、place 121、archive 111、event 72、institution 48、person 1）。KU共3,365。
+S3共有12,437个候选：仅same 2,130、仅new 5,079、仅undecided 5,085、conflict 8、excluded 107；另27个候选留有new与same来源决定、1个留有new与undecided决定。任一来源决定为new的候选5,107个，其中S4已映射2,586、待映射2,521。直接关系端点中，仅undecided候选2,966个（work 1,060、archive 278、term 442、person 424、place 128、institution 82、event 65、family 13、procedure 2、类型未定472）；new且仍待S4映射的直接端点876个（term 399、work 124、place 121、archive 111、event 72、institution 48、person 1）。KU共3,365。
 
-S5有14,937条字段，其中1,632条unverified。`relations.csv`有2,640条裁决（2,588 formal、49 pending、3 rejected）；历史裁决与当前statement版本分母仍待核平，不报告S6覆盖率。当前关系候选statement为10,685条，342条至少缺一个S2端点候选ID（仅缺subject 47、仅缺object 223、两端均缺72）。candidate-backlog.csv有91条（17 completed、74 undecided，pending=0）。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性审计五类阻断均为0。结构通过不等于全书语义接收或S3–S6收口。
+S5有14,937条字段，其中1,632条unverified。`relations.csv`有2,641条裁决（2,589 formal、49 pending、3 rejected）；历史裁决与当前statement版本分母仍待核平，不报告S6覆盖率。当前关系候选statement为10,685条，342条至少缺一个S2端点候选ID（仅缺subject 47、仅缺object 223、两端均缺72）。candidate-backlog.csv有91条（17 completed、74 undecided，pending=0）。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性审计五类阻断均为0。结构通过不等于全书语义接收或S3–S6收口。
 **本批更正：第13章p.334《Novelle》编辑者代词。** 将 `he himself edited` 按最近的并列主语由Giambattista调整为Almorò Albrizzi；原引文不变，新增一条anaphoric mention。Treccani区分两兄弟的出版／编辑记录，但未独立解决Haskell所述编辑职责；相关S6关系继续pending，S2当前版本待独立差异复核，不增加9,622条台账。详见[S2校读](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#s2-ch13-p334-novelle-editor-anaphor-20261028)及[关系影响](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s6-ch13-p334-novelle-anaphor-20261028)。
 
 **本批更正：第14章p.349《Novelle》刊期年份。** 扫描印本注3为12 April 1738；S0 OCR与原S2内容误作1758。保留原始引文，当前claim和候选 `cand-10261` 改为1738；沿用其S3 `new`身份组并登记单独刊期卡。目标作品候选仍未决，关系无忠实受控谓词，故保持process-only pending；修订后的S2版本待独立复核。详见[校读及裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s4-s6-ch14-p349-novelle-issue-1738-20261028)。
@@ -3880,6 +3880,7 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 处置覆盖完成，不代表S2语义接收。 |
+| S1 | 索引2,934/2,934条均匹配唯一候选；54条排除均有理由；9,503条非索引候选来源引用齐全；图版与书目分别关联85条、255条候选 | 当前来源输入的候选覆盖与来源定位已核平；身份判断留给S3，后续S5/S6新增端点按S1→S3→S4回流。详见[本次核平记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s1全书候选覆盖核平)。 |
 | S2 | 15,483 statements、26,875 mentions；统一独立复核台账9,622条 | 尚未全书独立接收。相对基线有33条statement新增、1条删除、95条同ID内容变化；mention有26条新增、21条删除、23条同ID内容变化。ID与来源版本交集仍未核平；已单独复核的当前版本仍不并入统一台账。
 | S3 | 12,437个候选：仅same 2,130、仅new 5,079、仅undecided 5,085、conflict 8、excluded 107、混合new/same 27、混合new/undecided 1 | 含new决定5,107项；当前组号、来源决定差异和身份边界仍按类型逐批核对。
 | S4 | 已映射2,586/5,107个含new决定候选；待登记2,521个；KU共3,365 | 876个含new决定的直接关系端点尚未登记：term 399、work 124、place 121、archive 111、event 72、institution 48、person 1。
