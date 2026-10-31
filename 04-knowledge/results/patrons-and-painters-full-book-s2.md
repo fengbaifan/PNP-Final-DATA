@@ -5,7 +5,7 @@
 
 **S2复核快照回映增量（2026-10-31）：** 对照独立复核记录 s2-independent-review-chp13-17-20261020.md 的statement表指纹，精确匹配快照提交2273e2743158401b841fb9bc7b7d1332836d400a；报告所列范围为2,124条，其中2,120条纳入逐条复核、4条第16章新增端点未计数。该范围到当前表为2,162条：新增43条、删除1条、同ID完整JSON变化75条。第13–19章Markdown与832条segment均未变，因此差异来自S2表版本变化。mention表的报告SHA-256未能在160个含该表的Git历史版本中复现；这部分复核时使用的精确mention快照仍不可验证。上述差异不是未复核数量；后续须按review scope、statement ID、完整内容、mention版本和后续复核记录逐项回映。第14章p.349最后一次修订晚于该批及24行复核；该statement及两条mention后经独立盲审通过，刊期校读和脚注关联均通过，关系继续pending。过程证据见[版本回映记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2-review-snapshot-crosswalk-chapters-13-19)。
 
-**第1、2、4章S2复核快照回映（2026-10-31）：** 对照提交2273e274的独立审读范围至当前版本，发现statement共94条同ID修改、40条新增、1条删除；mention共62条修改、15条新增。三章segment和PDF来源版本未变。第1章p.22 procedure修订已有独立复核；新增Grassi引文statement仍待独立复核。第2章79条修改/新增中10条与当前独立复核记录相交；第4章当前版差异尚待逐项回映，p.102、p.115四条修订及p.114新增statement尚待复核。本批不调整9,622条历史汇总数，三章及S2均未整体接收。详见[三章版本回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2-review-snapshot-crosswalk-chapters-1-2-4-current)。
+**第1、2、4章S2复核快照回映（2026-10-31）：** 对照提交2273e274的独立审读范围至当前版本，发现statement共94条同ID修改、40条新增、1条删除；mention共11条修改、15条新增、0条删除。三章segment和PDF来源版本未变。第1章p.22 procedure修订已有独立复核；新增Grassi引文statement仍待独立复核。第2章79条修改/新增中10条与当前独立复核记录相交；第4章当前版差异尚待逐项回映，p.102、p.115四条修订及p.114新增statement尚待复核。本批不调整9,622条历史汇总数，三章及S2均未整体接收。详见[三章版本回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2-review-snapshot-crosswalk-chapters-1-2-4-current)及[mention计数更正](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2-crosswalk-mention-count-correction)。
 
 ### 近期批次记录（2026-10-29）
 
