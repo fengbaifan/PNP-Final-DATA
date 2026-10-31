@@ -14419,14 +14419,14 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 
 本节重算前述“80条mention差异”清单。按其声明基线提交`2273e2743158401b841fb9bc7b7d1332836d400a`与当前HEAD`425dbc14e39ea2ca6389dbceee92858564b00100`直接读取Git对象并以`mention_id`比较，三个章节实际差异为29行：第1章1条新增；第2章9条同ID变化、5条新增；第4章3条同ID变化、11条新增；无删除。旧80行清单中51行在基线与当前HEAD间完全相同（例如`m-chp1-seci-0010`），故将旧清单视作已被本节取代的历史工作表，不再用其80/72分母。
 
-29条当前span均依其`segments.jsonl`来源行范围重建文本，逐条切片29/29通过；涉及的S0 Markdown文件及CHP-1、CHP-2、CHP-4 PDF在基线与当前HEAD的Git blob一致。按现存审阅映射，8条可链接到独立复核记录；其中`m-chp2-secii-l141-145-0038`的当前指代裁决通过，`m-chp4-sec-ii-l91-99-leonardo-correspondence`仅确认手稿对象词组span准确且不指向具体Trattato，匿名通信对象端点另由bl-0092保持待证。其余21条尚无精确复核映射；链接到报告不等于章节接收。当前差异逐项如下：
+29条当前span均依其`segments.jsonl`来源行范围重建文本，逐条切片29/29通过；涉及的S0 Markdown文件及CHP-1、CHP-2、CHP-4 PDF在基线与当前HEAD的Git blob一致。按现存审阅映射，11条可链接到独立复核记录；其中`m-chp2-secii-l141-145-0038`的当前指代裁决通过，`m-chp4-sec-ii-l91-99-leonardo-correspondence`仅确认手稿对象词组span准确且不指向具体Trattato，匿名通信对象端点另由bl-0092保持待证。其余18条尚无精确复核映射；链接到报告不等于章节接收。当前差异逐项如下：
 
 | 章 | Mention ID | 变化 | Candidate：基线 → 当前 | 当前 span / surface | 复核映射 |
 |---|---|---|---|---|---|
 | chp-1 | `m-s2-chp1-p22-20261029-procedure` | added | — → cand-3141 | [1578,1631) making use of exhibitions to establish his reputation | linked to independent-review evidence |
-| chp-2 | `m-chp2-seci-l124-157-0040` | changed | cand-4367 → cand-6369 | [1450,1461) de Rinaldis | pending exact review mapping |
-| chp-2 | `m-chp2-seci-l124-157-hinks-author-20261025` | added | — → cand-12447 | [246,257) Roger Hinks | pending exact review mapping |
-| chp-2 | `m-chp2-seci-l124-157-rosi-author-20261025` | added | — → cand-12448 | [2467,2471) Rosi | pending exact review mapping |
+| chp-2 | `m-chp2-seci-l124-157-0040` | changed | cand-4367 → cand-6369 | [1450,1461) de Rinaldis | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-l124-157-author-mentions) |
+| chp-2 | `m-chp2-seci-l124-157-hinks-author-20261025` | added | — → cand-12447 | [246,257) Roger Hinks | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-l124-157-author-mentions) |
+| chp-2 | `m-chp2-seci-l124-157-rosi-author-20261025` | added | — → cand-12448 | [2467,2471) Rosi | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-l124-157-author-mentions) |
 | chp-2 | `m-chp2-seci-l9-10-0001` | changed | cand-2678 → cand-2677 | [9,17) Valentin | pending exact review mapping |
 | chp-2 | `m-chp2-secii-l118-125-0067` | changed | cand-1978 → cand-1977 | [2815,2836) Guglielmo della Porta | pending exact review mapping |
 | chp-2 | `m-chp2-secii-l141-145-0009` | changed | cand-3405 → cand-3405 | [597,601) they | pending exact review mapping |
@@ -14807,3 +14807,12 @@ S6既有`rel-0706`继续pending：其subject为局部复制品KU“Detail from F
 6条关联mention分别为`m-s2-ch13-p334-044`、`m-s2-ch14-p349-20261031-001`、`m-s2-ch14-p349-20261031-002`、`m-chp17-p380-manfrin-0061`、`m-chp17-p381-0013`及`m-chp18-conclusion-p384-salvator-rosa-artistic-conformity`。其中两条第17章mention在原快照中存在但对象后来变化，另四条为该快照后新增；6条均在`47ea`与HEAD存在且当前行一致。相关S0及PDF版本沿用13–19章快照回映记录；另核实`17_CHP-17_intro.md`在三个提交中的Git blob均为`14630fd8402277baafe92a72b47ee3e91d10caa9`。S6方面，`rel-2302`、`rel-2303`、`rel-2304`在`47ea`与HEAD行内容完全一致，仍为有范围限定的formal边；其他未具名编辑者及作者评价不因此升级为正式边。
 
 本批仅把9条当前statement版本与6条当前mention行映射到历史复核组；不增减9,622汇总。历史statement快照与复核范围的映射现已明确，但汇总数缺少全书逐ID／来源版本名册，故不能据此单独证明这6个旧ID是否构成9,622的全局唯一成员，也不据报告总数计算覆盖率。此回映不代表第13、14、17章或全书S2接收。
+
+<a id="2026-11-01-s2-independent-current-review-ch2-l124-157-author-mentions"></a>
+### 2026-11-01 S2当前版独立复核：第2章 p.25、27、31脚注作者提及
+
+独立复核者只读核对当前S2、S0分节、候选与alignment、S6裁决及`02-sources/01-book/CHP-2.pdf`物理页6、8、12（印刷页25、27、31）。权威PDF SHA-256为`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；当前分节文件SHA-256为`5eca92acb03fe9934be85c82a6ec6806d3c564002955e99bd317916f3c7c8dc6`，segment `chp-2:02_CHP-2_sec_i:l124-157`登记哈希`ff068d6951eb10bf2a5a8e4f895c0d6f1cb1ccc2ea00c6d8de0d58fe11dd3862`。三条mention跨度均逐字符匹配当前segment：`m-chp2-seci-l124-157-0040` de Rinaldis `[1450,1461)`、`m-chp2-seci-l124-157-hinks-author-20261025` Roger Hinks `[246,257)`、`m-chp2-seci-l124-157-rosi-author-20261025` Rosi `[2467,2471)`；原页脚注分别支持相应作者／人物指称。
+
+逐项结论均为表面与当前原文相符。`cand-6369`保留S3 `new`及既有S4映射`units/persons/aldo-de-rinaldis`，仅扩展到证据支持的1936文献作者角色；`cand-12447`保留S3 `new`及`units/persons/roger-hinks`，范围仅为作者身份；`cand-12448`只能确认为作者候选，完整身份仍未证，S3 `undecided`、无KU与待办`bl-0034`均维持，不新增`authored_by`关系。S2三条citation statement的对象仍分别是被引archive，人物mention不替换文献端点。`rel-1955`–`rel-1958` citation边及`rel-1959`–`rel-1961`有据署名边的现行formal裁决均未发现需变更之处；Rosi的formal citation边不证明其作者身份。
+
+本批独立复核PASS，不改S2/S3/S4/S6表或9,622条历史复核汇总；Rosi身份继续待证。本批不构成第2章或全书S2接收。后续仍先逐ID及来源版本核平历史台账，并复核当前差异中尚未有独立结论的对象；达到S2交接条件后再进入S3跨章分组。
