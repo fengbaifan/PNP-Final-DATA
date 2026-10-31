@@ -14326,7 +14326,7 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 
 以复核报告写入仓库时的提交 28b781ef4de0354068b2faf33c72b6779bb21bc1 为版本锚点，核对第8章p.238当前记录。报告范围的50条statement在快照与当前版逐行完全一致；无新增、删除或同ID变化。S0源文件、CHP-8.pdf及segments.jsonl的Git blob均与复核快照相同。p.238正文segment l327–336的9条mention及注释segment l443–448的2条mention行也全部相同。由此可确认该独立复核的记录版本和来源版本仍与当前版一致；报告本身明确不接收本页、整章或全书S2，也未将本批计入9,622条统一分子。
 
-此前审读记录所列49组 statement候选引用与局部mention映射差异仍需逐项判断，不因版本一致而视为解决或自动补mention。注4关系statement st-chp8-p238-note4-pictures-at-pisa-cabinet保持原判断：cand-8048的aln-8223与cand-12373的aln-12536均为undecided、无KU；集合范围及柜室/机构边界未定，不映射任何单件作品，也没有relations.csv边。该关系保持process-only pending，留待S3身份和S6关系阶段处理。本次不改表、不调整统一复核数。
+此前审读记录所列49组 statement候选引用与局部mention映射差异仍需逐项判断，不因版本一致而视为解决或自动补mention。将该报告的segment-level算法应用于当前表后，粗略未匹配数为46；减少的3组（cand-7114、cand-8032、cand-8040）只因第8章p.239 L450后来增加的Zanotti、No.357信件和档案定位mention而在同一notes segment中出现。它们不能替代p.238原文L443–448处独立出现的span；这三处来源提及是否需要独立mention仍待判断，不把粗粒度的段内共现视为完成。注4关系statement st-chp8-p238-note4-pictures-at-pisa-cabinet保持原判断：cand-8048的aln-8223与cand-12373的aln-12536均为undecided、无KU；集合范围及柜室/机构边界未定，不映射任何单件作品，也没有relations.csv边。该关系保持process-only pending，留待S3身份和S6关系阶段处理。本次不改表、不调整统一复核数。
 
 ### 2026-10-31 S2独立复核快照回映：第8章 p.239
 
