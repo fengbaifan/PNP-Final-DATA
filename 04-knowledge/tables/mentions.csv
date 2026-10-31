@@ -27668,3 +27668,10 @@ m-chp8-p241-l461-venetian-artists,chp-8:08_CHP-8_sec_ii:l372-461,cand-8104,Venet
 m-chp8-p241-l461-bottari-person,chp-8:08_CHP-8_sec_ii:l372-461,cand-3507,Bottari,14890,14897,S0 anchor on line 461; mention presence does not itself resolve S3 identity or establish an S6 relation.
 m-chp8-p241-l461-bottari-volume-ii,chp-8:08_CHP-8_sec_ii:l372-461,cand-7516,"Bottari, Vol. II",14890,14906,S0 anchor on line 461; mention presence does not itself resolve S3 identity or establish an S6 relation.
 m-s2-ch10-p320-323-note-0058,chp-10:10_CHP-10_sec_ii:l273-349,cand-2719,Venice,6199,6205,City named inside the source-reported phrase Accademia in Venice; this anchor does not identify the institution.
+m-s2-ch10-p326-327-0098,chp-10:10_CHP-10_sec_ii:l210-222,cand-12466,one frontispiece,451,467,The source identifies this first described allegorical print as a frontispiece; it does not identify the individual pamphlet or impression.
+m-s2-ch10-p326-327-0099,chp-10:10_CHP-10_sec_ii:l210-222,cand-12467,on another,596,606,Anaphoric reference to a second allegorical print. Haskell does not call this second print a frontispiece or identify the pamphlet.
+m-s2-ch10-p326-327-0100,chp-10:10_CHP-10_sec_ii:l210-222,cand-1942,Pisani alone,698,710,Person named in Haskell's interpretation of the second print; this is not an independently verified statement about the image or artist.
+m-s2-ch10-p326-327-0101,chp-10:10_CHP-10_sec_ii:l210-222,cand-9792,solenne ingresso,2895,2911,Title phrase identifying the entry as the poems' occasion; it does not establish the pamphlet's textual subject.
+m-s2-ch10-p326-327-0102,chp-10:10_CHP-10_sec_ii:l210-222,cand-2719,Veneria,2951,2958,S0 OCR surface. CHP-10.pdf physical p.59 prints Venezia; the S0 source string remains unchanged.
+m-s2-ch10-p326-327-0103,chp-10:10_CHP-10_sec_ii:l210-222,cand-9792,1’ingresso,3019,3029,S0 OCR surface for the occasion in the title. CHP-10.pdf physical p.59 prints l’ingresso; the S0 source string remains unchanged.
+m-s2-ch10-p326-327-0104,chp-10:10_CHP-10_sec_ii:l210-222,cand-2719,Veneria,3073,3080,S0 OCR surface. CHP-10.pdf physical p.59 prints Venezia; the S0 source string remains unchanged.

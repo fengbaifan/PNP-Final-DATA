@@ -18916,3 +18916,20 @@ S6 effects remain bounded: rel-2470, rel-2471, rel-2460 and rel-2506 remain form
 | st-chp8-p224-replica-publication-report | process-only pending | 书目候选身份已在S3同组并复用一张archive KU；replica cand-7760仍未决，collection cand-7761未定类型，不能建立publishes／held_by formal边。 |
 
 复核确认rel-2522、rel-2523均保留原ID、formal状态、端点、方向和来源范围；无S6历史裁决需要撤回或升级，relations.csv本批未改动。候选身份与地点映射也未改动；无新增KU或候选backlog项。S2当前版p.224–225写后更正及引文依据见[阶段记录](stages.md#2026-11-01-s2-current-review-ch8-p224-p225)。
+
+
+<a id="s2-current-ch10-p326-referent-correction-20261102"></a>
+
+### S2 / S3 / S6：第10章 p.326 版画指代、题名关系与印记校读（2026-11-02）
+
+独立回核对照当前 statement、mentions、候选与 S3 决定、`relations.csv`、S0 段 `chp-10:10_CHP-10_sec_ii:l210-222`，以及 `CHP-10.pdf` 物理 p.59（印刷 p.326）。PDF SHA-256 `c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`；S0 来源资产 SHA-256 `25542734fde53358cde0a489f1c62ff3f021f32d68be733162b406d4d8a229f9`。本次未改写 PDF、S0 或 `original_quote`。
+
+修订 `st-chp10-p326-justice-temple-frontispiece`：原 subject `cand-12115` 是三册宣传册集合，不能代指其中图像。新候选 `cand-12467` 表示“on another”处第二幅寓意版画；原文没有称它为 frontispiece，故候选名不作此断言。statement predicate 与 claim 改为说明 Haskell 对阶梯、推定正义神殿及 Pisani 独自攀登寓意的解释。 保留既有 statement ID `st-chp10-p326-justice-temple-frontispiece` 作为稳定键；ID中的 frontispiece 不再用作当前对象类型判断。新候选 `cand-12466` 表示原文明确称作“one frontispiece”的另一图像；`st-chp10-p326-montesquieu-frontispiece` 的 subject 改指该图像，object 仍为身份未定的作品组 `cand-12116`。两候选分别保持 S3 `undecided`，无 KU；`cand-12115` 仍只指整组宣传册。没有把任一图像分配给三册中的具体题名，也未推断艺术家、版本或印张。为未决的 `cand-12466` 登记待办 `bl-0093`；`cand-12116` 原有 `bl-0058` 继续有效。
+
+补入7个精确 mention，逐一断言其 `[start,end)` 切片等于当前 S0：`m-s2-ch10-p326-327-0098` one frontispiece `[451,467)`；`-0099` on another `[596,606)`；`-0100` Pisani alone `[698,710)`；`-0101` solenne ingresso `[2895,2911)`；`-0102` 第一处 Veneria `[2951,2958)`；`-0103` S0 OCR 的 `1’ingresso` `[3019,3029)`；`-0104` 第二处 Veneria `[3073,3080)`。两处页图均印作 Venezia；对应发布者 statement 补记 `Veneria`→`Venezia` 校读，但保留 S0 与原引句。将 `cand-9796` 规范名中的城市更正为 Venezia，保留不明印记字符串 `CID ID CCLXXX`，不归一化为年份。同步更正 S5 字段 `enr-18487`、`enr-18493` 及两张 archive 卡的出版地；卡内 `original_quotes` 仍保留 S0 OCR 转录“Veneria”，并与原页校读并列说明。早期 `cand-2719` 记录的“Veneria→Venice”只依据 OCR 字符串与既有城市映射；页图校读后按原页拼写 Venezia 更正，不改变城市 KU。关系 `rel-2462`–`rel-2464` 不据此改判，`rel-2465` 也未改变。
+
+题名 `Poesie per il solenne ingresso` 与 `Il Patriotismo ... per l’ingresso` 说明诗册为 Pisani 入城而作，不能证明正文题材就是该事件。补入事件提及后，两条 archive→event `has_subject` 均在 `relations.csv` 登记为 pending：`rel-2648`、`rel-2649`。当前域值允许该对象类型组合，但允许组合不构成语义证据。两张受影响 archive 卡经预览后定向渲染；渲染后预览无差异。
+
+对被解释的第二幅版画，原 S6 过程裁决仍为 rejected：这是 Haskell 对图像寓意的解释，不能无损转成正式关系。其 subject 当前 S3 未决、尚无 KU，故不在 `relations.csv` 写入无效端点；过程记录保留该否决及其边界。Montesquieu 图像→`cand-12116` 关系保持 pending，因为被描绘作品组仍未达到稳定身份粒度。`rel-2462`–`rel-2465` 当前权威表状态全部为 pending；早期过程文字把 `rel-2462`–`rel-2464` 写作 formal 的变化已由后续记录更正，历史原文保留，不回写成未发生。
+
+本批 S2 表为 15,488 条 statement（6条当前对象修订、数量不变）和 27,007 条 mention（新增7条）。新增2个候选及2条 S3 undecided 决定；backlog 93行。与9,622历史汇总的逐行成员及版本归属仍未核平，不增减历史分子，也不把本批计入独立复核数。S2 全书仍未独立接收，S3–S6仍未全书收口。

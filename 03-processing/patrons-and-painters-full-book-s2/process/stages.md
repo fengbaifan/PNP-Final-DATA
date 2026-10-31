@@ -14592,3 +14592,15 @@ st-chp8-p224-dido-picture-narrative不再把Dido人物候选当作整幅多人�
 以9,622首次出现的基线提交`1a6313c8654280a9b71187fc08522098626e734e`与当前快照`f1dd3bfd9a2e8318322dc1e46e8146258e1bddb5`比较完整表对象，并按稳定ID核平。statement为15,451→15,488：新增38、删除1、同ID对象变化128；mention为26,870→27,000：新增151、删除21、同ID行变化29。当前和基线两表均无重复ID。此前记录的124条同ID statement变化对应较早快照，不代表当前差异数。对当前新增或变化statement涉及的26个S0 Markdown文件逐一比较两个提交的Git blob，均未变化；这只确认文本来源文件稳定，不代替PDF页图检查或语义复核。
 
 该差异是版本变动量，不等于待复核数，也不能证明任何ID／版本属于9,622历史聚合。历史汇总尚无覆盖全部成员的逐行清单，本次不调整其分子或计算覆盖率。下一步继续逐项关联既有复核报告的statement ID、完整版本、mention版本与来源范围；只有确证的交集才回映为已复核。
+
+
+<a id="2026-11-02-s2-current-review-ch10-p326-pisani-pamphlets"></a>
+### 2026-11-02 第10章 p.326 当前版指代修订与关系核平
+
+以 `CHP-10.pdf` 物理 p.59（印刷 p.326）独立回核意见为依据，重查现行 S2、S3 与 S6 相关记录。页图 SHA-256 `c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`；当前 S0 文件及段资产 SHA-256 `25542734fde53358cde0a489f1c62ff3f021f32d68be733162b406d4d8a229f9`。原页明确读作两处 Venezia；“one frontispiece”与“on another”指向分立的图像描述，但只有前者被明确称作卷首图；脚注题名说明诗册的创作场合，不证明其正文题材。原 PDF、S0 与所有 `original_quote` 未改。
+
+已修订6条当前 statement 对象：两条图像 statement 拆出独立 subject 候选，`justice-temple` statement 的 claim/predicate 改为 Haskell 对第二幅版画的解释；两条 `has_subject` statement 保留断言但补充“场合≠题材”的待证理由；两条 imprint statement 增加原页支持的 Venezia OCR 校读。新增候选 `cand-12466`、`cand-12467`，S3 分别记 `aln-12793`、`aln-12794` 为 undecided；未建 KU。候选 `cand-9796` 名称更正为 Venezia 并保留 `CID ID CCLXXX` 原样；S5字段`enr-18487`、`enr-18493`及两张archive卡的出版地同步校正，原始S0引句仍保留“Veneria”。
+
+新增7条 mention，跨度按 S0 切片断言通过，ID为 `m-s2-ch10-p326-327-0098`–`-0104`，覆盖两图、Pisani alone、诗册题名中的入城事件及两处 OCR `Veneria`。`relations.csv` 新增 `rel-2648`、`rel-2649` 两条 pending `has_subject`；对应 archive 卡两张经定向渲染与复预览，预览无差异。仍缺作品组身份的 `cand-12116` 关系保持 pending；寓意解读的 S6 rejected 裁决仍留过程记录，不将无KU端点写入权威关系表。`rel-2462`–`rel-2465` 当前均 pending；较早过程文字与后续更正的差异保留历史，未改旧记录。
+
+针对校验：`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`；当前表统计为 statement 15,488、mention 27,007、候选12,445、alignment 12,791、backlog 93、关系2,647。`audit_relation_consistency.py --dry-run` 的 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0；另报告全库1319个零关系单元、2个高连接单元，未作本批新增归因。`git diff --check` 通过。该定向修订不等于第10章或全书 S2 独立接收。详见[裁决及对象边界](knowledge.md#s2-current-ch10-p326-referent-correction-20261102)。

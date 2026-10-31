@@ -6,7 +6,7 @@ evidence_status: source_backed
 sources:
   - citation: "Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006)."
     location: "第10章，印刷页326，注1；PDF physical p. 59，L218–219"
-    sentence_summary: "注1引用为皮萨尼庄严入城而作的诗，并列出Veneria、1780年及Carlo Palese。原册未独立查阅。"
+    sentence_summary: "注1引用为皮萨尼庄严入城而作的诗，并列出Venezia（S0 OCR转录为Veneria）、1780年及Carlo Palese。原册未独立查阅。"
     original_quotes:
       - source_span: "Chapter 10, printed p. 326, note 1; PDF physical p. 59; OCR L218–219"
         text: "Poesie per il solenne ingresso di Sua Eccellenza Mss.r Zorzi Pisani"
@@ -35,7 +35,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 |---|---|---|
 | 原题 | *Poesie per il solenne ingresso di Sua Eccellenza Mss.r Zorzi Pisani* | Haskell，第10章印刷页326注1，L218–219（S1） |
 | 文献类型 | 为Pisani庄严入城而作的诗；依Haskell引题 | Haskell，第10章印刷页326注1（S1） |
-| 出版地 | “Veneria”（按Haskell引文转录；项目候选与同一书目位置对齐至Venice） | Haskell，第10章印刷页326注1，L218–219（S1）；城市对齐见cand-2719 |
+| 出版地 | Venezia（S0 OCR转录为“Veneria”；原页物理页59印作“Venezia”） | Haskell，第10章印刷页326注1，L218–219（S0 OCR转录）；CHP-10.pdf物理页59页图读作“Venezia”；城市候选cand-2719 |
 | 印刷责任 | “presso Carlo Palese”；本记录沿用书目表述，不独立区分印刷者与出版者 | Haskell，第10章印刷页326注1，L219（S1） |
 | 出版年 | MDCCLXXX（1780） | Haskell，第10章印刷页326注1，L219（S1） |
 | 核验范围 | 仅据Haskell书内引文；原册、馆藏记录和书内内容未独立查阅 | Haskell，第10章印刷页326注1（S1） |
@@ -49,3 +49,4 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
 | → 待证：published_by（`published_by`） | [卡洛·帕莱塞（Carlo Palese）](../persons/carlo-palese.md) | 状态：待证；The printed note records 'presso Carlo Palese', which does not distinguish printer from publisher; the controlled vocabulary has no faithful printer predicate. Preserve the source-reported imprint and S2 statement; do not invent a formal edge or predicate.；角色：引文印记列名；范围：Haskell所引印记在“presso”之后列出Carlo Palese；本边沿用印记角色，不独立区分印刷者与出版者。；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_sec_ii.md)；haskell-1980-rev-ed；Chapter 10, printed p. 326, note 1, L219; statement=st-chp10-p326-n01-pamphlet2-published-by |
+| → 待证：所涉对象（`has_subject`） | [乔治·皮萨尼1780年当选与入城仪式（Giorgio Pisani’s 1780 Election and Solemn Entry as Procuratore di San Marco）](../events/giorgio-pisani-1780-election-and-entry.md) | 状态：待证；The cited pamphlet was not independently consulted. An occasion or purpose in the title is not evidence of textual subject matter. Keep pending unless the pamphlet contents or a faithful controlled relation predicate is supported.；角色：Title reports poems for the entry; content subject remains unverified.；范围：Haskell cites a title that names Pisani’s entry as the occasion; it does not establish the pamphlet’s textual subject.；证据：[来源](../../../02-sources/02-Markdown/10_CHP-10_sec_ii.md)；haskell-1980-rev-ed；Chapter 10, printed p.326, note 1, L218-219; statement=st-chp10-p326-n01-pamphlet2-has-subject |
