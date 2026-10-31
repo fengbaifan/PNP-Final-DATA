@@ -24595,7 +24595,7 @@ m-chp20-p401-025,chp-20:20_CHP-20Postscript:l81-96,cand-1819,Innocent X,1904,191
 m-chp20-p401-026,chp-20:20_CHP-20Postscript:l81-96,cand-10972,his family,1919,1929,Source-derived group; no members inferred.
 m-chp20-p401-027,chp-20:20_CHP-20Postscript:l81-96,cand-0665,"Alexander
 VII",1997,2010,Reuse the Alexander VII index candidate; line break follows source layout.
-m-chp20-p401-028,chp-20:20_CHP-20Postscript:l81-96,cand-10974,his diary,2100,2109,Published extracts are attributed to Alexander VII's diary.
+m-chp20-p401-028,chp-20:20_CHP-20Postscript:l81-96,cand-0665,his,2100,2103,Possessive pronoun refers to Alexander VII; the diary source is separately represented by cand-12468.
 m-chp20-p401-029,chp-20:20_CHP-20Postscript:l81-96,cand-0295,Bernini,2173,2180,The first mention reports frequent visits.
 m-chp20-p401-030,chp-20:20_CHP-20Postscript:l81-96,cand-0295,Bernini,2297,2304,The second mention occurs in the editors' qualified comparison.
 m-chp20-p401-031,chp-20:20_CHP-20Postscript:l81-96,cand-0342,Cortona,2308,2315,Reuse Pietro da Cortona candidate with p.401 in its index range.
@@ -27676,3 +27676,5 @@ m-s2-ch10-p326-327-0103,chp-10:10_CHP-10_sec_ii:l210-222,cand-9792,1’ingresso,
 m-s2-ch10-p326-327-0104,chp-10:10_CHP-10_sec_ii:l210-222,cand-2719,Veneria,3073,3080,S0 OCR surface. CHP-10.pdf physical p.59 prints Venezia; the S0 source string remains unchanged.
 m-chp8-p238-body-painters-family,chp-8:08_CHP-8_sec_ii:l327-336,cand-0884,The Painter’s Family,1472,1492,Named work in the body; distinct from the family group and mapped to the indexed work candidate.
 m-chp8-p238-body-fair-at-poggio,chp-8:08_CHP-8_sec_ii:l327-336,cand-0878,the Fair at Poggio a Caiano,2690,2717,Named whole painting in the body; distinct from the Plate 37b detail candidate cand-4038.
+m-chp20-p401-036,chp-20:20_CHP-20Postscript:l81-96,cand-12468,diary,2104,2109,The source diary is distinct from the publication of extracts (cand-10974); no specific manuscript or edition is identified.
+m-chp20-p401-037,chp-20:20_CHP-20Postscript:l81-96,cand-10974,publication of the relevant extracts,2058,2094,"This phrase denotes the publication of extracts, distinct from the source diary cand-12468; exact title and edition remain unspecified."

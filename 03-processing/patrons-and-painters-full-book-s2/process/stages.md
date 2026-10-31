@@ -14491,7 +14491,7 @@ statement版本也按完整JSON对象重算：第1、2、4章同ID变化106条�
 
 以当前 `entity-candidates.csv`、S2覆盖表、backlog及其来源为准复核S1收口，不写回候选、对齐、KU、S2或关系表。该次复核快照的 `build_entity_candidates.py` 只读预览生成2,934条索引输入：19个CSV的主条1,381、子条1,553，与当时2,934条带`index_entry_id`候选一对一匹配，缺项、重复和多余键均为0；当时全库候选12,443条。预览无待补accepted-KU候选（new accepted-KU candidates=0）。
 
-图版目录 `00_05_List_of_Plates.md` 对应85条唯一候选、13个S0 coverage段（12 reviewed、1个生成标题排除）；第21章书目 `21_CHP-21Bibliography.md` 对应256条唯一候选、33段（32 reviewed、1个生成标题排除）。候选源行锚点均落在对应来源段内，未覆盖段为0。该次复核快照中，除索引候选外有9,509条（8,505条来自正文提及、1,004条用于映射已采纳KU），均有来源引用并由严格表审计解析到已审阅段或KU。此后第10章p.326指代修订新增 `cand-12466` 与 `cand-12467` 两条正文候选；两者均锚定同一已审阅S0段并有当前S3 `undecided` 决定。因此当前候选表为12,445条，其中非索引候选9,511条；这是审计后有依据的增量，不是索引覆盖差额。54条`excluded`均有非空理由。索引字段97项差异及A.csv四处编码异常的原页回映仍以本记录前文“2026-10-31 S1索引字段回映复核与A.csv编码异常”为准；差异不等于身份裁决，逐候选决定由S3处理。
+图版目录 `00_05_List_of_Plates.md` 对应85条唯一候选、13个S0 coverage段（12 reviewed、1个生成标题排除）；第21章书目 `21_CHP-21Bibliography.md` 对应256条唯一候选、33段（32 reviewed、1个生成标题排除）。候选源行锚点均落在对应来源段内，未覆盖段为0。该次复核快照中，除索引候选外有9,509条（8,505条来自正文提及、1,004条用于映射已采纳KU），均有来源引用并由严格表审计解析到已审阅段或KU。此后第10章p.326指代修订新增 `cand-12466` 与 `cand-12467` 两条正文候选；两者均锚定同一已审阅S0段并有当前S3 `undecided` 决定。再后第20章p.401当前版复核新增来源候选 `cand-12468`，锚定已审阅S0段L96，S3 `aln-12795`保留`undecided`、无KU。因此当前候选表为12,446条，其中非索引候选9,512条；这些是审计后有来源的增量，不是索引覆盖差额。54条`excluded`均有非空理由。索引字段97项差异及A.csv四处编码异常的原页回映仍以本记录前文“2026-10-31 S1索引字段回映复核与A.csv编码异常”为准；差异不等于身份裁决，逐候选决定由S3处理。
 
 该次复核时 `candidate-backlog.csv` 为92行：88行关联候选、共84个不同候选ID；另4行`bl-0011`、`bl-0012`、`bl-0085`、`bl-0092`均为`undecided`且具备来源、statement、理由与过程引用，分别因写信人未具名、仅给职衔、费用对象范围不明、以及额外通信群体与手稿所有者范围不明而没有候选ID/KU。它们是待证关系端点，不是已识别但漏登的S1对象；不得据此补造实体。`bl-0092`是第4章p.106新增的端点待办，使旧S1快照中的91行/3个无候选ID更新为当时92行/4个。此后第10章p.326修订为已识别图像候选`cand-12466`新增`bl-0093`；当前backlog为93行，其中89行关联候选、4行无候选ID。候选锚点与待办均可回溯至已审阅来源；不改变索引输入覆盖结论。
 
@@ -14603,7 +14603,7 @@ st-chp8-p224-dido-picture-narrative不再把Dido人物候选当作整幅多人�
 
 新增7条 mention，跨度按 S0 切片断言通过，ID为 `m-s2-ch10-p326-327-0098`–`-0104`，覆盖两图、Pisani alone、诗册题名中的入城事件及两处 OCR `Veneria`。`relations.csv` 新增 `rel-2648`、`rel-2649` 两条 pending `has_subject`；对应 archive 卡两张经定向渲染与复预览，预览无差异。仍缺作品组身份的 `cand-12116` 关系保持 pending；寓意解读的 S6 rejected 裁决仍留过程记录，不将无KU端点写入权威关系表。`rel-2462`–`rel-2465` 当前均 pending；较早过程文字与后续更正的差异保留历史，未改旧记录。
 
-针对校验：`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`；当前表统计为 statement 15,488、mention 27,007、候选12,445、alignment 12,791、backlog 93、关系2,647。`audit_relation_consistency.py --dry-run` 的 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0；另报告全库1319个零关系单元、2个高连接单元，未作本批新增归因。`git diff --check` 通过。该定向修订不等于第10章或全书 S2 独立接收。详见[裁决及对象边界](knowledge.md#s2-current-ch10-p326-referent-correction-20261102)。
+针对该次初轮修订的校验：`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`；该快照统计为 statement 15,488、mention 27,007、候选12,445、alignment 12,791、backlog 93、关系2,647。`audit_relation_consistency.py --dry-run` 的 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0；另报告全库1319个零关系单元、2个高连接单元，未作本批新增归因。`git diff --check` 通过。该定向修订不等于第10章或全书 S2 独立接收。详见[裁决及对象边界](knowledge.md#s2-current-ch10-p326-referent-correction-20261102)。
 
 <a id="2026-11-02-s2-current-review-ch10-p326-followup"></a>
 
@@ -14615,7 +14615,7 @@ st-chp8-p224-dido-picture-narrative不再把Dido人物候选当作整幅多人�
 
 修订 st-chp10-p326-il-patriotismo-title，清除不适用于“诗集被称为Il Patriotismo”这一题名断言的事件object cand-9792；保留其题名中的事件mention及relation_candidate=false。第三册“为入城而作”的关系由独立的 st-chp10-p326-n01-pamphlet3-has-subject 表达，其 rel-2649 继续pending。rel-2648与rel-2649均未升级；rel-2462–rel-2465亦仍pending；两幅图像解释的历史rejected裁决未改。候选 cand-9796 与事件候选的S3/S4决定未改。
 
-rel-2650定向渲染到第一册archive卡；写后复预览无差异。事件卡预览无差异。修订后的定向断言、S2严格表审计及关系一致性审计通过；当前S2仍15,488条statement、27,007条mention，9,622历史复核成员/版本尚未全量核平。relations.csv当前2,648行（2,590 formal、55 pending、3 rejected），本次未改变历史复核分子。04-knowledge/results/patrons-and-painters-full-book-s2.md保留当前阶段状态。
+rel-2650定向渲染到第一册archive卡；写后复预览无差异。事件卡预览无差异。修订后的定向断言、S2严格表审计及关系一致性审计通过；该次写回快照为15,488条statement、27,007条mention；`relations.csv`为2,648行（2,590 formal、55 pending、3 rejected）。9,622历史复核成员/版本尚未全量核平，本次未改变历史复核分子。后续第8章p.238修订将mention增至27,008，并将`rel-0706`由formal改为pending；当前`relations.csv`仍2,648行（2,589 formal、56 pending、3 rejected）。再后第20章p.401增补两条mention并修正一条mention及一条statement候选清单；当前statement仍15,488条、mention为27,010条。详见[第8章p.238当前版增量修订](#2026-11-01-s2-current-review-ch8-p238-title-referents)与[第20章p.401日记来源区分](#s2-independent-current-review-ch20-p401-diary-source)。
 
 <a id="2026-11-01-s2-current-review-ch8-p238-title-referents"></a>
 
@@ -14625,4 +14625,20 @@ rel-2650定向渲染到第一册archive卡；写后复预览无差异。事件�
 
 删除`m-chp8-p238-note1-letters-march-april`：其surface“Letters of March and April 1708”是对三封信的日期集合定位，不能映射到来源书`cand-2962`，也不另造一项集合身份。原始引句、statement及单封候选`cand-8030`、`cand-8031`、`cand-8032`和档案系列`cand-8040`保留；note1 statement现明确集合日期词组不作为独立实体。总量净增1：当前S2为15,488条statement、27,008条mention；p.238共54条mention（正文14、注释40）。
 
-这只是针对新增／修订对象的当前版核查。独立复核者确认两条新增span及错误映射删除通过，但未重审旧报告所覆盖的全部50条statement或p.238整页；不调整9,622历史汇总，不宣称第8章或全书S2接收。表版本相对9,622基线当前差异为：statement 15,451→15,488（新增38、删除1、同ID变化131）；mention 26,870→27,008（新增159、删除21、同ID变化29）。这些差异是版本量，不是历史复核成员归属或覆盖率。
+这只是针对新增／修订对象的当前版核查。独立复核者确认两条新增span及错误映射删除通过，但未重审旧报告所覆盖的全部50条statement或p.238整页；不调整9,622历史汇总，不宣称第8章或全书S2接收。该批之后表版本相对9,622基线差异为：statement 15,451→15,488（新增38、删除1、同ID变化131）；mention 26,870→27,008（新增159、删除21、同ID变化29）。后续p.401修订另新增2条mention并更正1条同ID mention；当前为statement 15,488、mention 27,010，累计mention差异为新增161、删除21、同ID变化30。这些差异是版本量，不是历史复核成员归属或覆盖率。
+
+<a id="2026-11-01-s2-independent-current-review-ch9-p274-zompini-proposal"></a>
+
+### 2026-11-01 S2当前版独立差异复核：第9章 p.274 Zompini 图像提案
+
+独立复核者对照当前S2 statement、mention、候选、alignment及S6关系，核阅 `CHP-9.pdf` 物理页40（印刷p.274）；主代理另核阅物理页39（印刷p.273），确认原页末句“put forward an iconographical proposal of some complexity drawn,”续至p.274，并由“This”回指该提案。原PDF及S0源文件与基线blob一致。`st-chp9-p274-zompini-virgin-typology` 的当前引句与S0 L71–72逐字相符；主体`cand-8754`是Zompini提出的提案，object `cand-3427`为圣母，主张只描述计划中的圣母预表题材，不称已完成作品。`m-chp9-p274-zompini_he` `[14,16)`、`m-chp9-p274-virgin` `[98,108)`、Rebecca `[169,176)`、Abigail `[178,185)`、Esther `[187,193)`、Judith `[195,201)`、Mother of the Maccabees `[206,233)`均与当前S0切片相符。独立复核结论PASS；`cand-8755`至`cand-8759`保持各自S3未决，不据名单增建作品关系；`rel-2499 designed_by`与`rel-2500 has_subject`端点及范围未变。本批当前statement版本是否属于历史9,622汇总仍未知，不调整其成员数；局部通过不等于第9章或全书S2接收。
+
+<a id="s2-independent-current-review-ch20-p401-diary-source"></a>
+
+### S2当前版独立差异复核与指代修订：第20章 p.401 日记来源与摘录出版
+
+独立复核者核对 `CHP-20Postscript.pdf` 物理页10（印刷p.401）、当前S0 L95–96、当前statement/mention及S3/S6；S0 Markdown和PDF的Git blob相对9,622基线提交`1a6313c8654280a9b71187fc08522098626e734e`未变。版本对照确认 `st-chp20-p401-alexander-diary-berninivisits` 为同ID修改，`st-chp20-p401-alexander-diary-arts-interest-publication` 为新增。两条statement的claim、Haskell归属、引句、来源限定及脚注7回链均通过；未将日记摘录冒充原件或声称已查阅具体版本。
+
+首轮独立核对发现 `m-chp20-p401-028` 的复合surface“his diary”误映到已登记的摘录出版候选`cand-10974`。修订后将`m-028`收窄为`his` `[2100,2103)`→Alexander VII `cand-0665`；新增`m-036` `diary` `[2104,2109)`→新候选`cand-12468`（archive，表示原文所称日记来源，具体手稿／版次／馆藏未识别）；新增`m-037` `publication of the relevant extracts` `[2058,2094)`→`cand-10974`（摘录出版物，版次未识别）。三段均与S0按当前segment拼接的切片逐字符一致。`st-chp20-p401-alexander-diary-arts-interest-publication`与`st-chp20-p401-alexander-diary-planning-agency`的`mentioned_candidate_ids`均补入`cand-12468`；Bernini来访statement不含“diary”词项，未加该候选。`aln-11142`的当前mention依据改用`m-037`，statement清单包含两条指涉摘录出版物的当前statement；新候选`cand-12468`由`aln-12795`保持S3 `undecided`、无KU。写后第二位独立复核确认mention拆分、跨度、两条statement候选清单及alignment证据均正确。
+
+`rel-2501`与`rel-2502`继续连接已登记的摘录出版archive及Alexander VII／Bernini；没有把关系端点改连未决日记候选，也没有建立未经证明的“摘录源自该日记”正式关系。无关系状态或既有裁决更改。当前表总计15,488条statement、27,010条mention；相对基线新增38条statement、删除1条、132条同ID内容变化；mention新增161条、删除21条、30条同ID内容变化。`cand-12468`的历史9,622复核成员归属未知，不计入旧分子。此为局部当前版复核，不代表第20章或全书S2接收。
