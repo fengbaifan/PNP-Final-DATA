@@ -14419,7 +14419,7 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 
 本节重算前述“80条mention差异”清单。按其声明基线提交`2273e2743158401b841fb9bc7b7d1332836d400a`与当前HEAD`425dbc14e39ea2ca6389dbceee92858564b00100`直接读取Git对象并以`mention_id`比较，三个章节实际差异为29行：第1章1条新增；第2章9条同ID变化、5条新增；第4章3条同ID变化、11条新增；无删除。旧80行清单中51行在基线与当前HEAD间完全相同（例如`m-chp1-seci-0010`），故将旧清单视作已被本节取代的历史工作表，不再用其80/72分母。
 
-29条当前span均依其`segments.jsonl`来源行范围重建文本，逐条切片29/29通过；涉及的S0 Markdown文件及CHP-1、CHP-2、CHP-4 PDF在基线与当前HEAD的Git blob一致。按现存审阅映射，20条可链接到独立复核记录；其中`m-chp2-secii-l141-145-0038`的当前指代裁决通过，`m-chp4-sec-ii-l91-99-leonardo-correspondence`仅确认手稿对象词组span准确且不指向具体Trattato，匿名通信对象端点另由bl-0092保持待证。其余9条尚无精确复核映射；链接到报告不等于章节接收。当前差异逐项如下：
+29条当前span均依其`segments.jsonl`来源行范围重建文本，逐条切片29/29通过；涉及的S0 Markdown文件及CHP-1、CHP-2、CHP-4 PDF在基线与当前HEAD的Git blob一致。按现存审阅映射，29条可链接到独立复核记录；其中`m-chp2-secii-l141-145-0038`的当前指代裁决通过，`m-chp4-sec-ii-l91-99-leonardo-correspondence`仅确认手稿对象词组span准确且不指向具体Trattato，匿名通信对象端点另由bl-0092保持待证。本表29条均已有逐项复核映射；不代表全书当前版或历史9,622台账已经核平；链接到报告不等于章节接收。当前差异逐项如下：
 
 | 章 | Mention ID | 变化 | Candidate：基线 → 当前 | 当前 span / surface | 复核映射 |
 |---|---|---|---|---|---|
@@ -14438,20 +14438,20 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 | chp-2 | `m-chp2-seciv-l171-179-0034` | changed | cand-4800 → cand-1995 | [1701,1723) The Arcadian Shepherds | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p57-title-mentions) |
 | chp-2 | `m-chp2-seciv-l190-245-0126` | changed | cand-4800 → cand-1995 | [5600,5622) The Arcadian Shepherds | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p57-title-mentions) |
 | chp-2 | `m-chp2-secvii-l3-19-0004` | changed | cand-4905 → cand-0996 | [92,105) Duke of Parma | linked to independent-review evidence |
-| chp-4 | `m-chp4-sec-ii-l91-99-different-patrons` | added | — → cand-12446 | [446,463) different patrons | pending exact review mapping |
+| chp-4 | `m-chp4-sec-ii-l91-99-different-patrons` | added | — → cand-12446 | [446,463) different patrons | [reviewed; S3 undecided](#2026-11-01-s2-independent-current-review-ch4-p106-p118) |
 | chp-4 | `m-chp4-sec-ii-l91-99-leonardo-correspondence` | changed | cand-5778 → cand-12441 | [1447,1467) Leonardo manuscripts | span verified; anonymous endpoint pending bl-0092 |
 | chp-4 | `m-chp4-sec-ii-notes-p114-0056-phocion-title` | added | — → cand-10556 | [10001,10008) Phocion | linked to independent-review evidence |
-| chp-4 | `m-chp4-sec-ii-p113-0027` | added | — → cand-12442 | [1905,1915) landscapes | pending exact review mapping |
-| chp-4 | `m-chp4-sec-ii-p113-0028` | added | — → cand-12443 | [699,716) secondary artists | pending exact review mapping |
-| chp-4 | `m-chp4-sec-ii-p113-0029` | added | — → cand-12444 | [2488,2496) scholars | pending exact review mapping |
-| chp-4 | `m-chp4-sec-ii-p113-0030` | added | — → cand-12445 | [872,898) French friends and clients | pending exact review mapping |
+| chp-4 | `m-chp4-sec-ii-p113-0027` | added | — → cand-12442 | [1905,1915) landscapes | [independent PASS; source-bound endpoint remains unresolved](#2026-11-01-s2-independent-current-review-ch4-p113-mentions) |
+| chp-4 | `m-chp4-sec-ii-p113-0028` | added | — → cand-12443 | [699,716) secondary artists | [independent PASS; source-bound endpoint remains unresolved](#2026-11-01-s2-independent-current-review-ch4-p113-mentions) |
+| chp-4 | `m-chp4-sec-ii-p113-0029` | added | — → cand-12444 | [2488,2496) scholars | [independent PASS; source-bound endpoint remains unresolved](#2026-11-01-s2-independent-current-review-ch4-p113-mentions) |
+| chp-4 | `m-chp4-sec-ii-p113-0030` | added | — → cand-12445 | [872,898) French friends and clients | [reviewed; scope wording repaired](#2026-11-01-s2-independent-current-review-ch4-p113-mentions) |
 | chp-4 | `m-chp4-sec-ii-p117-0011` | changed | cand-4591 → cand-12465 | [386,395) Spaniards | linked to independent-review evidence |
-| chp-4 | `m-chp4-sec-ii-p117-0032` | changed | cand-4800 → cand-1994 | [2278,2296) Arcadian Shepherds | pending exact review mapping |
-| chp-4 | `m-chp4-sec-ii-p117-0034` | added | — → cand-11667 | [2019,2070) a pair of that painter’s most beautiful early works | pending exact review mapping |
-| chp-4 | `m-chp4-sec-ii-p117-0035` | added | — → cand-11668 | [1939,1956) heirs of\nCassiano | pending exact review mapping |
+| chp-4 | `m-chp4-sec-ii-p117-0032` | changed | cand-4800 → cand-1994 | [2278,2296) Arcadian Shepherds | [independent PASS](#2026-11-01-s2-independent-current-review-ch4-p117) |
+| chp-4 | `m-chp4-sec-ii-p117-0034` | added | — → cand-11667 | [2019,2070) a pair of that painter’s most beautiful early works | [independent PASS](#2026-11-01-s2-independent-current-review-ch4-p117) |
+| chp-4 | `m-chp4-sec-ii-p117-0035` | added | — → cand-11668 | [1939,1956) heirs of\nCassiano | [reviewed; identity pending](#2026-11-01-s2-independent-current-review-ch4-p117) |
 | chp-4 | `m-chp4-sec-ii-p117-0036` | added | — → cand-11665 | [36,74) the King and Queen and of two Infantas | linked to independent-review evidence |
 | chp-4 | `m-chp4-sec-ii-p117-0037` | added | — → cand-11666 | [1617,1664) many of the older Roman buildings and paintings | linked to independent-review evidence |
-| chp-4 | `m-chp4-sec-ii-p118-0041` | added | — → cand-11669 | [168,212) the conflict between fertility and sterility | pending exact review mapping |
+| chp-4 | `m-chp4-sec-ii-p118-0041` | added | — → cand-11669 | [168,212) the conflict between fertility and sterility | [independent PASS](#2026-11-01-s2-independent-current-review-ch4-p106-p118) |
 
 statement版本也按完整JSON对象重算：第1、2、4章同ID变化106条、新增40条、删除1条。此项只修正复核版本回映，不改mentions、statements、alignment或relations表，不调整9,622条历史复核分子，也不接收三章或全书S2。独立复核来源版本回映继续按statement ID、mention ID和原页证据逐条核平。
 
@@ -14843,3 +14843,38 @@ S6 `rel-1990 created_by`与`rel-1991 located_at`保持formal，后者仅表示Ha
 | `m-chp2-secii-l141-145-0042` “them” `[607,611)` | PASS，联合指代保持明确。它同时回指烛台组`cand-4537`与十字架组`cand-4538`；当前mention note已说明该共同所指，两条对应statement分别保留两个object端点及两者的`mentioned_candidate_ids`。 | `mentions.csv`每行只有一个`candidate_id`，审计还禁止同一segment重复或交叉span；故不拆成重复offset行或新造集合KU。`rel-1390/1391 supplied_by`保持formal且只表达供给；退回边继续pending。 |
 
 六条mention均通过原文、跨度和直接候选复核；其S3/S4映射及既有formal关系没有需要改判的变化。历史9,622汇总不增减。本批为指定当前差异的局部独立复核，不接收第2章或全书S2。
+
+
+<a id="2026-11-01-s2-independent-current-review-ch4-p106-p118"></a>
+### 2026-11-01 S2当前版独立复核：第4章 p.106匿名赞助人与 p.118主题词
+
+独立复核者只读核对当前S2、S0分节和CHP-4原页；本地来源资产与登记哈希一致。`CHP-4.pdf` SHA-256为`2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303`。相关segment哈希：`chp-4:04_CHP-4_sec_ii:l91-99`=`fc37671caac8205d1d3e4273243bb67d7d1a8e93ecbec4f5c1f9c30c3dbe6230`；`chp-4:04_CHP-4_sec_ii:l218-227`=`3922ec038be7e6611d566a5b7b754e3cb72a922269fed175f675842adb3b3456`。
+
+`m-chp4-sec-ii-l91-99-different-patrons` `[446,463)`与印刷p.106（PDF物理页17）原文精确对应，`st-chp4-sec-ii-l91-99-profound-pictures-later-for-other-patrons`忠实保留“nearly all”限定。cand-12446继续S3 `undecided`、类型未定、无KU；匿名赞助人组的范围和身份待证，没有可建立formal S6边的端点。该行是原文支持的未决候选，不是span或statement错误。
+
+`m-chp4-sec-ii-p118-0041` `[168,212)`与印刷p.118（PDF物理页29）原文“the conflict between fertility and sterility”相符。cand-11669为term，S3 `new`并已登记`units/terms/fertility-sterility-conflict-poussin-theme`；`rel-1776 has_subject`保持formal。Haskell称Poussin长期关注该主题的陈述仍保留在S2；因`interested_in`不在受控关系类型中，不新建formal边。两条mention均不引起S3/S4/S6改判；9,622历史汇总不变。
+
+
+<a id="2026-11-01-s2-independent-current-review-ch4-p117"></a>
+### 2026-11-01 S2当前版独立复核：第4章 p.117 三条作品与来源提及
+
+独立复核者在当前HEAD `b8ac49d8dde5e15bb084f5633a87dc9cb5f115f3`只读核对S0、alignment、relations与`CHP-4.pdf`印刷p.117（PDF物理页28）；source asset哈希`fd05a5c61deb6ba897878f510450d589d1ec0ef1276ff585ae601943bfd59575`与登记相符，segment `chp-4:04_CHP-4_sec_ii:l207-216`哈希`a1dd4753e13a03aace4b7f15bb9900680156d2aa5df93eb0ff6f28364a235497`。三个span `[2278,2296)`、`[2019,2070)`、`[1939,1956)`（含跨行`heirs of\nCassiano`）均通过核对。
+
+`m-chp4-sec-ii-p117-0032`明确指第一版`cand-1994`；第2章p.57的卢浮宫第二版`cand-1995`保持分立，旧混合候选`cand-4800`已excluded。`m-chp4-sec-ii-p117-0034`映射来源限定的两件作品组`cand-11667`；原文列出《King Midas…》和第一版《Arcadian Shepherds》，支持组级配对，但不支持pendant、共同原始赞助人或共同来源的推断。`m-chp4-sec-ii-p117-0035`仅映射未名候选`cand-11668`；原文说可能来自Cassiano的heirs并明确“no direct evidence”，身份和类型继续S3 `undecided`、无KU，不登记为已知家族或产权端点。
+
+`rel-1993`创作者边和`rel-1994/1995`组内作品关系保持既有裁决；`rel-1996` pair→Massimi acquisition继续pending，heirs不新增formal来源或所有权边。本批没有跨版误并或需改判的formal边；历史9,622汇总不变，也不接收第4章或全书S2。
+
+
+<a id="2026-11-01-s2-independent-current-review-ch4-p113-mentions"></a>
+### 2026-11-01 S2当前版独立复核与范围说明修正：第4章 p.113 四条mention
+
+独立复核者只读对照当前S2、S0与`CHP-4.pdf`物理页24（印刷p.113）。PDF SHA-256为`2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303`；segment `chp-4:04_CHP-4_sec_ii:l161-170` SHA-256为`531080d40c510db5e2739ecb41a954ff6c033c03daf433ae010679686e8c4714`。四处span均与来源段精确匹配。
+
+| Mention | 核对结果与身份边界 | S6去向 |
+|---|---|---|
+| `m-chp4-sec-ii-p113-0027` `landscapes` `[1905,1915)` | PASS。正文称Tempest的效果“perhaps”源于Gaspard Dughet的风景画；`cand-12442`仅表示未具名作品，非Dughet本人。脚注里的“ex-Leon landscapes”语境不同，不合并。 | 影响关系仍待证，无formal边。 |
+| `m-chp4-sec-ii-p113-0028` `secondary artists` `[699,716)` | PASS。drawing制作者群体未具名；`cand-12443`与图画作品`cand-5922`分作不同端点，S3继续undecided。 | maker边pending，不建立formal归属。 |
+| `m-chp4-sec-ii-p113-0029` `scholars` `[2488,2496)` | PASS。保留Haskell对Cassiano鼓励学者活动的评价；本页及脚注未给出姓名或名单。与其他章节不同语境的泛称学者不合并；`cand-12444`继续undecided。 | 鼓励关系pending，无formal边。 |
+| `m-chp4-sec-ii-p113-0030` `French friends and clients` `[872,898)` | span与S2 claim通过；复核发现旧候选detail及`open_endpoint_reason`错误称群体没有边界。按原文限定为Poussin在1642 Paris行程中结识的French friends and clients；成员仍未具名，也无可对齐的稳定跨章身份。已修正`cand-12445.detail`、`aln-12767.resolution_note`及statement的`open_endpoint_reason`与`relation_candidate_note`；S3 `undecided`、无KU继续。 | “worked for”端点仍pending；不推作formal委托/赞助边，也不与其他章节的友人客户群体合并。 |
+
+此次仅改正cand-12445的来源范围说明；不改statement claim/quote、候选类型、S3对齐决定、S4或relations.csv。前三个未名端点保持待证。历史9,622汇总不调整。本批局部复核与一项定向修正不构成第4章或全书S2接收。
