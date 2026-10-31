@@ -14750,3 +14750,26 @@ S6既有`rel-0706`继续pending：其subject为局部复制品KU“Detail from F
 写后独立复核在当前HEAD `c5e78de1` 对照PDF物理页3、当前S0、statement、mention、alignment、两条S5字段及两张archive卡，判为PASS：`its`指向书名级对象，第一版日期只作明确标注的跨页连接；S3/S4粒度与S6关系历史无误。回映到独立报告`s2-independent-review-chp13-17-20261020.md`：报告写明第14章502/502条statement逐条复核；报告statement快照哈希对应提交`2273e274`。目标statement在该报告快照和9,622基线`1a6313c8`的完整JSON完全相同；PDF与S0源文件在报告快照、基线和当前HEAD间未变。因此已确认该旧statement版本属于报告所述独立复核范围。当前HEAD仅在`qualifiers.mentioned_candidate_ids`新增`cand-10258`，新mention ID不在旧快照；当前修订版另经写后独立复核PASS。全局9,622汇总仍缺逐ID成员名册，无法证明报告中的该ID是否纳入汇总，故不改历史分子，也不计算覆盖率。
 
 以同一基线与本次当前表逐项比较完整对象：statement 15,451→15,488，新增38、删除1、同ID变化134；mentions 26,870→27,012，新增163、删除21、同ID变化30。变化计数描述表版本，不代表历史复核成员归属或S2覆盖率。当前全表定向审计为`errors=[]`、`s2_missing=[]`；关系一致性阻断为0。S5当前14,941条字段、1,632条unverified；S2全书仍未独立接收。
+
+<a id="2026-11-01-s2-current-review-ch14-p354-letter-mention"></a>
+
+### 2026-11-01 S2第14章 p.354 书信mention跨度修订与当前版本回映
+
+按`CHP-14.pdf`物理页8（印刷页354）及S0第188行复核脚注3：“in a letter to Eustachio Zanotti of 13 May 1756”。依据`segments.jsonl`的段落行范围拼接文本，重算SHA-256与登记值一致；书信原文短语在段内为`[2946,2988)`，嵌套人物`Eustachio Zanotti`为`[2956,2973)`。原mention `m-chp14-p354-0043`仅覆盖日期`[2977,2988)`；现改为整段书信指称，保留mention ID及候选`cand-10303`，人物mention `m-chp14-p354-0042`不变。原S0文件、statement与引句未改。
+
+语义影响：S3 `new`决定及S4 archive KU `units/archives/letter-to-eustachio-zanotti-1756-05-13`不变；`st-chp14-p354-note3-letter-addressed-to-eustachio`仍称Haskell将该信标为致Zanotti，未推断作者或内容。`rel-2301 addressed_to`保持formal，日期、角色和“未查原信”范围不变；无其他历史关系裁决受影响。此跨度写回由主代理按S0自行校验，属于当前版局部修订，不冒称独立复核；第14章五条新增statement仍待独立复核。
+
+同时以报告快照提交`2273e2743158401b841fb9bc7b7d1332836d400a`的13份来源文件重算statement ID与完整JSON回映：旧范围2,120条，当前对应来源范围2,162条；旧对象中2,042条完整JSON不变、77条同ID变化、1条删除，另有43条新增。分章如下：
+
+| 来源范围 | 快照ID | 当前不变 | 同ID变化 | 删除 | 新增 | 当前行 |
+|---|---:|---:|---:|---:|---:|---:|
+| 第13章正文与图版转录 | 579 | 575 | 3 | 1 | 8 | 586 |
+| 第14章 | 502 | 499 | 3 | 0 | 5 | 507 |
+| 第15章 | 551 | 505 | 46 | 0 | 6 | 557 |
+| 第16章 | 206 | 204 | 2 | 0 | 5 | 211 |
+| 第17章 | 142 | 125 | 17 | 0 | 7 | 149 |
+| 结论 | 24 | 20 | 4 | 0 | 2 | 26 |
+| 附录（含收据视觉转录） | 116 | 114 | 2 | 0 | 10 | 126 |
+| **合计** | **2,120** | **2,042** | **77** | **1** | **43** | **2,162** |
+
+第14章旧502条中499条对象未变，3条同ID变化（`st-chp14-p349-left-italy-and-turin-mission`、`st-chp14-p349-note3-albrizzi-issue`、`st-chp14-p355-piazzetta-newtonianismo-frontispiece`）均有当前版独立复核PASS记录；5条新增（p.353、p.354注3及p.355三幅作品）尚未独立复核，本次跨度修订不改变该状态。第16章p.373注2的四条书信端点仍属于报告明确排除在旧2,120分子外的新增记录。此回映只说明statement对象版本，不恢复原mentions快照、不能替代逐条独立复核，也不据此调整9,622历史汇总。

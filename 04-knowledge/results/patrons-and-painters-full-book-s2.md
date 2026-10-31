@@ -6,6 +6,8 @@
 
 **2026-11-01 第14章 p.349 写后独立复核与历史回映：** 当前版statement、代词span、书名/第一版粒度、字段措辞和S6影响均经独立复核PASS。旧statement版本与第13–17章独立报告所载第14章502/502复核快照及9,622基线一致；当前修订只新增书名mention映射，已另经独立复核。因9,622总账缺逐ID名册，报告中的该ID是否计入总账仍无法证明；不调整历史计数。详见[复核与回映记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-delta-recompute-after-p349-referent)。
 
+**2026-11-01 第14章 p.354 书信mention跨度修订及当前版回映：** 依物理页8、印刷页354与S0第188行，将`m-chp14-p354-0043`由日期跨度`[2977,2988)`修正为原文书信指称“letter to Eustachio Zanotti of 13 May 1756”`[2946,2988)`；嵌套人物mention保持`[2956,2973)`。S3 `new`、S4 archive KU与`rel-2301 addressed_to` formal裁决不变，不推断作者；本次是针对性当前版自查，尚非独立复核。9,622历史分子不调整。另按13份来源文件重算报告快照至当前的statement版本差异：2,120→2,162，旧对象2,042不变、77同ID变化、1删除、43新增；第14章502→507（499不变、3变化、5新增）。三条变化已有独立复核PASS，五条新增仍待独立复核。详见[跨度修订与版本回映记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch14-p354-letter-mention)。
+
 **2026-11-01 第14章 p.355 与直接端点批次：** 独立回核后修正第一版扉页 statement 端点，新增 edition-level mention；`cand-12461`（Hôtel实体建筑）与`cand-12462`（Newtonianismo第一版）裁为`new`并完成S4登记，`cand-12460`（L. Toesca）与`cand-12463`（Contarini报告文书）因身份证据不足保持`undecided`。新增`rel-2651 part_of`，不改变`rel-2558`创作者边的formal判断；`rel-2044`、`rel-1983`及Contarini报告关系仍待证。当前表为15,488条statement、27,011条mention、3,367个KU、2,649条关系（2,590 formal、56 pending、3 rejected）；9,622条历史S2汇总不调整。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断项为0。全书S2未独立接收，S3–S6未收口。详见[当前版独立回核](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch14-p355-edition-endpoint)及[跨阶段裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp14-newtonianismo-hotel-direct-endpoints-20261101)。
 
 
