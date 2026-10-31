@@ -14505,6 +14505,17 @@ statement版本也按完整JSON对象重算：第1、2、4章同ID变化106条�
 
 复核生成器只读预览发现，唯一不能按UTF-8读取的索引文件`A.csv`含四处已损坏的重音字节；CP1252仅用于保留CSV行结构，不能自动恢复正确字形。生成器现对`A.csv#23/#46/#94/#105`应用已由`A.md`和印刷索引PDF支持的四个字段规范值，并核对预期原始解码值以防行漂移；原CSV不改，其他旧编码输入仍保留GB18030回退。修正后四字段精确匹配已核候选；2,934条索引输入映射不变，候选总数12,446，待补accepted-KU候选为0；未应用写回。独立重算确认19份CSV的主/子条2,934项与候选表一对一（缺失、重复、多余均为0）；索引字段规范名/子条/页码差异97项均有对应S3决定及理由；图版85项和书目256项仍分别由13/33个覆盖段完整锚定；54项排除均有理由。S1保持收口，生成器修复只避免后续回写破坏已核实输入。
 
+<a id="2026-11-01-s2-independent-current-review-ch2-p57-dance-wallace"></a>
+### 2026-11-01 第2章 p.57 Wallace关系statement独立回核与S1来源锚点复核
+
+独立复核者在当前提交`c7a5eee93e1c94e5c82ce01227b70c611daab40d`只读核对`st-chp2-seciv-l190-245-dance-of-human-life-held-by-wallace`、当前S0、候选、S3/S4、S5和相关关系。statement引句与S0 L242吻合；作品mention `[5546,5569)`及机构mention `[5580,5598)`切片均精确。印刷页57注号3与S0 OCR 8的校读已依据CHP-2.pdf物理页46记录。`cand-4798`与`cand-4894`分别映射作品和Wallace Collection KU；对应5条S5字段均有本书来源。`rel-2515 created_by`与`rel-2516 held_by`的方向、限定和formal状态正确，均不因本次回核改变。
+
+针对“p.57注3续文未收录”的疑点，当前分节S0并未遗漏：续文“In the Nota dei Musei Bellori mentions that Rospigliosi also owned a Rest on the Flight into Egypt by Poussin. See also Richard, VI, pp. 57-62.”完整出现在`chp-2:02_CHP-2_sec_iv:l171-179`的L179。候选`cand-4805`、`cand-4806`的`candidate_source_ref`均指向该行；statement `st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned`也以同一续文为`original_quote`。因此不新增S1候选或S2 statement，不回开S1；此处与L242的长注聚合statement分开定位。
+
+针对“长注聚合statement缺少relations.csv rejected行”的疑点，既有S6裁决明确拒绝把`st-chp2-seciv-l190-245-poussin-work-locations-and-dedications`作为单一正式边；理由和statement ID见本文件“第2、4、7章普桑《阿卡迪亚牧人》版本分组与卢浮宫地点端点”表。该statement混合多个作品地点、版画、题献与来源解释，复合predicate不代表单一受控关系；`relations.csv`继续分别记录已拆分关系，包括`rel-1991`、`rel-2460`、`rel-2461`、`rel-2515`及`rel-2516`。拒绝聚合边的裁决可由S6过程记录追溯；未拆清的其余断言仍待当前S2语义复核及必要的S6逐项重审，不能据此宣称该段所有关系已收口。
+
+本次复核未改候选、S2表、S3/S4、S5或`relations.csv`，不调整9,622历史复核汇总；全书S2独立接收与S3–S6收口状态不变。
+
 <a id="2026-11-01-s2-current-review-ch8-p241"></a>
 ### 2026-11-01 S2当前版独立回核与提及锚点修复：第8章 p.241
 
