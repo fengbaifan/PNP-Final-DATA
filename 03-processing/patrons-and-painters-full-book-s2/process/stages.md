@@ -14378,3 +14378,12 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 ### 2026-10-31 S2表版本差异的可复现重算
 
 以提交`1a6313c8654280a9b71187fc08522098626e734e`为基线，statement按JSONL解析后比较完整对象；mentions使用支持带引号换行字段的`csv.DictReader`解析。当前`book-statements.jsonl`为15,487条，基线15,451条：新增37、删除1、同ID完整对象变化119。当前`mentions.csv`为26,887条，基线26,870条：新增38、删除21、同ID行变化26。早先结果叙述中的statement同ID变化100及mention新增33、同ID变化25与本次可复现计数不一致；本次保留旧过程记录作为历史，结果表采用本次按正确解析方法重算的数字。差异计数只描述表版本变化，不代表复核完成或未复核数量；9,622条台账仍须逐项与statement ID、mention版本和来源版本核平，故不计算覆盖率。
+
+<a id="2026-10-31-s2-independent-review-crosswalk-chapter8-p240"></a>
+### 2026-10-31 S2独立复核ID回映：第8章 p.240
+
+独立复核记录`s2-independent-review-chp8-p240-20261023.md`写入时对应提交`3803ed8c0b08318d99e55d92367b8e51705bf45d`。从该报告逐项提取的40个p.240 statement ID在当前表均存在：39条完整JSON未变；`st-chp8-p240-exhibition-as-art-direction`后续将object从通用展览term `cand-0128`修订为程序候选`cand-1610`，并补入其mention与相应限定。该变更在2026-10-29 Art exhibitions跨章复核中再次核对；`rel-2643 uses_procedure`为唯一同端点同谓词正式行，状态为formal且记录范围限于Haskell所述意图，不声称实际效果。
+
+按原报告明确的正文行L351–359、L452及注释L453–456限定来源span后，该范围mention从报告提交时的28条变为当前29条：原28条完整行均未变，新增`m-s2-chp8-p240-20261029-procedure`一条；当前29条跨度均与当前S0切片一致。两条对应S0 segment、分节Markdown和`02-sources/01-book/CHP-8.pdf`均与报告提交版本一致。新增procedure mention及statement端点在后续独立Art exhibitions复核中通过。
+
+该p.240报告明确说明本批不计入9,622条统一S2复核分子；后续mention与statement修订也记录为不计入该分子。因此此40条审阅的台账归属为“明确排除”，不是待计入或漏计；本次不改变9,622。此回映只确认p.240复核版本链和来源版本，不接收该页、全章或S2；其余关系候选去向仍按knowledge.md的S6记录逐条处理。
