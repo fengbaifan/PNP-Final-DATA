@@ -13903,3 +13903,11 @@ mentions按来源记录范围核对：两个相关source segment共311条mention
 ### 2026-10-31 S2台账版本核平：第5章 p.138 已计数statement
 
 独立复核记录 `s2-independent-review-chp5-20261022.md` 于提交 `bfc87028` 写入，明确将 `chp-5:05_CHP-5_sec_iii:l82-93` 的36条statement计入统一逐条复核分子。按该segment回取当时36个statement ID并逐对象与当前表比较，36/36完整JSON对象一致；source segment记录一致。相应35条mention（原31条及审读时补入4条）均与该提交相同。`CHP-5.pdf` SHA-256为 `f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`，`05_CHP-5_sec_iii.md`为 `9b095b1a93570102ad2cdb117580f2fbeccd2ff017033a2f66557c58a0d1ef0a`，当前文件与审读提交相同。另补的第6章p.146死亡事件mention明确不另计入这36条。由此可确认这36条台账成员的当前statement版本及来源未变；9,622汇总数不因本次核平增加。
+
+### 2026-10-31 S2版本与计数核平：第7章 p.189 Preti肖像
+
+初审报告 `s2-independent-review-chp7-p189-20261024.md` 于提交 `2ef94174` 记录44个statement ID按当前ID计入全书9,617分子。其后 `st-chp7-p189-i25`、`i26`、`i27`三条同ID statement被修订，另新增 `st-chp7-p189-i25-subject` 与 `st-chp7-p189-i25-intended-gift`。提交 `1a6313c8` 的独立复核记录对这5条当前statement重新逐条核对，均确认通过并记录计数由9,617增至9,622。
+
+版本比较确认：初审44条中41条原对象未变，3条（i25、i26、i27）已修订；重新复核的5条中这3个ID与初审重叠，只有另2条为新增ID。因此初审44条加当前复核5条共49次表记录，但仅涉及46个唯一statement ID。当前46个唯一ID的完整statement对象均与提交 `1a6313c8` 一致；两条source segment、285条mention、`CHP-7.pdf`及`07_CHP-7_sec_i.md`也与该提交相同。两次复核之间在共享注文segment补入9条p.177/p.183 mention，均不属于p.189审读范围；当前版本已包含这些行。相关S6行 `rel-1748`、`rel-1749`、`rel-2056`–`rel-2059`、`rel-2168` 均与当前复核快照一致。
+
+计数变化需去重核查：报告将原44条计入9,617，随后又将5条复核记录计入并使总数增加5；但这5条含有3个已在原44条中的statement ID，当前唯一ID覆盖只净增2。故 `9,622` 仍是历史聚合数，不能直接解释为9,622个当前唯一ID；未对全库逐ID去重前不计算S2覆盖率，也不修正总分子。
