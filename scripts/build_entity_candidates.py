@@ -16,6 +16,14 @@ MANIFEST = BASE / "04-knowledge" / "tables" / "ku-manifest.csv"
 COLUMNS = ["candidate_id", "index_entry_id", "canonical_name", "index_page_range", "suggested_type",
            "status", "index_source_file", "sub_entry", "detail", "exclude_reason",
            "candidate_origin", "candidate_source_ref"]
+INDEX_FIELD_OVERRIDES = {
+    # The source bytes are damaged; these four field readings were verified
+    # against A.md and the printed index PDF. Keep the source CSV unchanged.
+    "A.csv#23": {"canonical_name": "Albrizzi, Almor\u00f2"},
+    "A.csv#46": {"sub_entry": "and Count Br\u00fchl"},
+    "A.csv#94": {"sub_entry": "Relatione della citt\u00e0 di Roma 1642"},
+    "A.csv#105": {"sub_entry": "statue of Antenor for Pr\u00e0 della Valle"},
+}
 
 
 def read_rows() -> list[dict]:
@@ -25,17 +33,20 @@ def read_rows() -> list[dict]:
         try:
             content = raw.decode("utf-8-sig")
         except UnicodeDecodeError:
-            content = raw.decode("gb18030")
+            # A.csv has damaged high bytes; CP1252 preserves its row structure.
+            # INDEX_FIELD_OVERRIDES restores only the four verified readings.
+            content = raw.decode("cp1252" if path.name == "A.csv" else "gb18030")
         for index, row in enumerate(csv.DictReader(io.StringIO(content))):
             main = (row.get("Main Entry") or "").strip()
             if not main:
                 continue
+            index_entry_id = f"{path.name}#{index}"
             sub = (row.get("Sub-entry") or "").strip()
             detail = (row.get("Detail") or "").strip()
             is_crossref = bool(re.search(r"\bsee\s+under\b", f"{sub} {detail}", re.I))
             reason = f"索引交叉引用：{sub or detail}" if is_crossref else ""
-            rows.append({
-                "index_entry_id": f"{path.name}#{index}",
+            source_row = {
+                "index_entry_id": index_entry_id,
                 "canonical_name": main,
                 "index_page_range": (row.get("Page Numbers") or "").strip(),
                 "suggested_type": "",
@@ -44,7 +55,9 @@ def read_rows() -> list[dict]:
                 "sub_entry": sub,
                 "detail": detail,
                 "exclude_reason": reason,
-            })
+            }
+            source_row.update(INDEX_FIELD_OVERRIDES.get(index_entry_id, {}))
+            rows.append(source_row)
     return rows
 
 
