@@ -14798,3 +14798,12 @@ S6既有`rel-0706`继续pending：其subject为局部复制品KU“Detail from F
 逐项裁决与关系影响：Neptune fountain归属Mattielli的书内范围正确，`rel-2071 created_by`继续formal且不指认具体存世喷泉或宅邸；书信明确致Zanotti，`rel-2301 addressed_to`继续formal，原信未查及不推断作者；Caesar、Mucius Scaevola、Death of Darius分别归入Piazzetta作品群的限定符合正文及注2，`rel-1758`–`rel-1760 created_by`继续formal。注2没有把两个地点分别分配给Mucius与Darius；不增补该断言。无需回退S3/S4或将上述关系改为pending，本次没有任何表写回。
 
 五条statement均为9,622基线报告快照后新增，不回填历史复核分子。此批仅关闭上述五条当前版本的独立复核，不接收整章或全书S2；全局9,622逐ID成员与来源版本核平仍未完成。
+
+<a id="2026-11-01-s2-crosswalk-current-review-ch13-14-17-conclusion"></a>
+### 2026-11-01 S2历史复核组与当前版独立复核回映：第13、14、17章及结论
+
+将第13–17章及结论、附录复核报告的statement快照`2273e2743158401b841fb9bc7b7d1332836d400a`，与当前差异独立复核快照`47ea4184fb8f0badbc415b70b034298fb3706e12`及当前HEAD逐项交叉核对。当前独立复核批次涉及本历史组的9条statement：原快照已存在且到`47ea`对象变化的6条为`st-chp13-p334-albrizzi-edited-weekly-bulletin`、`st-chp14-p349-note3-albrizzi-issue`、`st-chp17-p380-note4-meschini-gallery-description`、`st-chp17-p381-note1-moschini-1806`、`st-chp17-pi-note1-meschini-account`及`st-chp18-conclusion-p384-salvator-rosa`；原快照中不存在、后加并经当前差异复核的3条为`st-chp17-pi-note1-cites-moschini-1806`、`st-chp17-pi-note2-cites-correr-sonetti`及`st-chp18-conclusion-p384-crespi-humour-and-genre-painting`。9条均在`47ea`及HEAD存在；其中8条当前对象与`47ea`相同。Rosa statement此后收窄`original_quote`至对应完整例证句，当前版本已在2026-11-01第2章p.57／结论p.384当前版独立回核中再次通过（见[当前版复核](#2026-11-01-s2-current-review-ch2-p57-conclusion-p384)）。
+
+6条关联mention分别为`m-s2-ch13-p334-044`、`m-s2-ch14-p349-20261031-001`、`m-s2-ch14-p349-20261031-002`、`m-chp17-p380-manfrin-0061`、`m-chp17-p381-0013`及`m-chp18-conclusion-p384-salvator-rosa-artistic-conformity`。其中两条第17章mention在原快照中存在但对象后来变化，另四条为该快照后新增；6条均在`47ea`与HEAD存在且当前行一致。相关S0及PDF版本沿用13–19章快照回映记录；另核实`17_CHP-17_intro.md`在三个提交中的Git blob均为`14630fd8402277baafe92a72b47ee3e91d10caa9`。S6方面，`rel-2302`、`rel-2303`、`rel-2304`在`47ea`与HEAD行内容完全一致，仍为有范围限定的formal边；其他未具名编辑者及作者评价不因此升级为正式边。
+
+本批仅把9条当前statement版本与6条当前mention行映射到历史复核组；不增减9,622汇总。历史statement快照与复核范围的映射现已明确，但汇总数缺少全书逐ID／来源版本名册，故不能据此单独证明这6个旧ID是否构成9,622的全局唯一成员，也不据报告总数计算覆盖率。此回映不代表第13、14、17章或全书S2接收。
