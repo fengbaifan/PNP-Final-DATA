@@ -18920,7 +18920,7 @@ S6 effects remain bounded: rel-2470, rel-2471, rel-2460 and rel-2506 remain form
 
 <a id="s2-current-ch10-p326-referent-correction-20261102"></a>
 
-### S2 / S3 / S6：第10章 p.326 版画指代、题名关系与印记校读（2026-11-02）
+### S2 / S3 / S6：第10章 p.326 版画指代、题名关系与印记校读（2026-11-01）
 
 独立回核对照当前 statement、mentions、候选与 S3 决定、`relations.csv`、S0 段 `chp-10:10_CHP-10_sec_ii:l210-222`，以及 `CHP-10.pdf` 物理 p.59（印刷 p.326）。PDF SHA-256 `c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`；S0 来源资产 SHA-256 `25542734fde53358cde0a489f1c62ff3f021f32d68be733162b406d4d8a229f9`。本次未改写 PDF、S0 或 `original_quote`。
 

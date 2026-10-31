@@ -14587,15 +14587,17 @@ st-chp8-p224-dido-picture-narrative不再把Dido人物候选当作整幅多人�
 
 历史影响：cand-2094与cand-0902仍分别是Rambaldi、Dardani人物并映射到各自person KU；索引作品候选cand-2095、cand-0903仍对齐同一壁画KU，未与人物候选混并。rel-2522 located_at和rel-2523 commissioned_by保持formal、端点方向及证据范围不变；两位画家的summoned_to_paint继续process-only pending，不改成created_by。relations.csv本批未改写，也无既有S3／S6裁决升级或降级。S2当前版新增1条statement，不增加mention；本批不计入9,622聚合复核数，历史statement版本归属仍待核平。写后严格表审计errors=[]、s2_missing=[]；局部回核不表示第8章或全书S2接收。
 <a id="2026-11-02-s2-current-table-delta-recompute"></a>
-### 2026-11-02 S2当前statement／mention版本差异重算
+### 2026-11-01 S2当前statement／mention版本差异重算
 
 以9,622首次出现的基线提交`1a6313c8654280a9b71187fc08522098626e734e`与当前快照`f1dd3bfd9a2e8318322dc1e46e8146258e1bddb5`比较完整表对象，并按稳定ID核平。statement为15,451→15,488：新增38、删除1、同ID对象变化128；mention为26,870→27,000：新增151、删除21、同ID行变化29。当前和基线两表均无重复ID。此前记录的124条同ID statement变化对应较早快照，不代表当前差异数。对当前新增或变化statement涉及的26个S0 Markdown文件逐一比较两个提交的Git blob，均未变化；这只确认文本来源文件稳定，不代替PDF页图检查或语义复核。
 
 该差异是版本变动量，不等于待复核数，也不能证明任何ID／版本属于9,622历史聚合。历史汇总尚无覆盖全部成员的逐行清单，本次不调整其分子或计算覆盖率。下一步继续逐项关联既有复核报告的statement ID、完整版本、mention版本与来源范围；只有确证的交集才回映为已复核。
 
+**记录日期校正（2026-11-01）。** 本节与第10章p.326相关标题原标2026-11-02；Git记录显示对应提交`d113688d`、`a2836857`、`b56e7120`均于2026-11-01（+08:00）生成，本轮环境日期亦为2026-11-01。已更正可见日期；保留既有显式锚点，避免断开`alignment.csv`、`candidate-backlog.csv`及结果页的过程引用。此次仅修正日期标注，不改变表、决定或复核状态。
+
 
 <a id="2026-11-02-s2-current-review-ch10-p326-pisani-pamphlets"></a>
-### 2026-11-02 第10章 p.326 当前版指代修订与关系核平
+### 2026-11-01 第10章 p.326 当前版指代修订与关系核平
 
 以 `CHP-10.pdf` 物理 p.59（印刷 p.326）独立回核意见为依据，重查现行 S2、S3 与 S6 相关记录。页图 SHA-256 `c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`；当前 S0 文件及段资产 SHA-256 `25542734fde53358cde0a489f1c62ff3f021f32d68be733162b406d4d8a229f9`。原页明确读作两处 Venezia；“one frontispiece”与“on another”指向分立的图像描述，但只有前者被明确称作卷首图；脚注题名说明诗册的创作场合，不证明其正文题材。原 PDF、S0 与所有 `original_quote` 未改。
 
@@ -14607,7 +14609,7 @@ st-chp8-p224-dido-picture-narrative不再把Dido人物候选当作整幅多人�
 
 <a id="2026-11-02-s2-current-review-ch10-p326-followup"></a>
 
-### 2026-11-02 S2独立回核增补：第10章 p.326 题名关系与当前版本
+### 2026-11-01 S2独立回核增补：第10章 p.326 题名关系与当前版本
 
 第二位独立复核者对照 CHP-10.pdf 物理页59、当前S0及S2/S3/S6记录，复核两条指代修订后的statement与三条题名关系。原PDF与S0版本未变；本次仍是p.326局部核验，不代表第10章或全书S2接收。
 
@@ -14617,6 +14619,13 @@ st-chp8-p224-dido-picture-narrative不再把Dido人物候选当作整幅多人�
 
 rel-2650定向渲染到第一册archive卡；写后复预览无差异。事件卡预览无差异。修订后的定向断言、S2严格表审计及关系一致性审计通过；该次写回快照为15,488条statement、27,007条mention；`relations.csv`为2,648行（2,590 formal、55 pending、3 rejected）。9,622历史复核成员/版本尚未全量核平，本次未改变历史复核分子。后续第8章p.238修订将mention增至27,008，并将`rel-0706`由formal改为pending；当前`relations.csv`仍2,648行（2,589 formal、56 pending、3 rejected）。再后第20章p.401增补两条mention并修正一条mention及一条statement候选清单；当前statement仍15,488条、mention为27,010条。详见[第8章p.238当前版增量修订](#2026-11-01-s2-current-review-ch8-p238-title-referents)与[第20章p.401日记来源区分](#s2-independent-current-review-ch20-p401-diary-source)。
 
+<a id="2026-11-01-s2-independent-current-review-ch10-p326-all-deltas"></a>
+
+### 2026-11-01 S2独立当前版复核：第10章 p.326 全部变更与新增statement
+
+独立复核者直接核阅`CHP-10.pdf`物理p.59（印刷p.326）及当前S0正文、续引注释段`chp-10:10_CHP-10_sec_ii:l210-222`、`l273-349`，逐项检查statement、mention、候选、S3/S4映射与S6历史。相对9,622基线的5条同ID修订（`st-chp10-p326-il-patriotismo-title`、`st-chp10-p326-justice-temple-frontispiece`、`st-chp10-p326-montesquieu-frontispiece`、`st-chp10-p326-n01-marciana-set`、`st-chp10-p326-n01-pamphlet-titles`）及6条新增（`st-chp10-p326-n01-marciana-annotations`、`st-chp10-p326-n01-pamphlet1-published-by`、`st-chp10-p326-n01-pamphlet2-has-subject`、`st-chp10-p326-n01-pamphlet2-published-by`、`st-chp10-p326-n01-pamphlet3-has-subject`、`st-chp10-p326-n01-pamphlet3-published-by`）均为PASS；11条`original_quote`均为对应S0段精确子串，30条相关mention的半开跨度均与原文切片相符。
+
+复核确认第一幅图被原文称作frontispiece，第二幅仅称“on another”；两幅图像与三册宣传册集合及被描绘作品组分开。题名限定为创作场合，不推定正文题材；馆藏位置、手写批注和印记角色按原文分别记录。当前`rel-2462`–`rel-2465`、`rel-2648`–`rel-2650`均为pending；第二幅图像寓意不建正式边。历史上`rel-2462`–`rel-2464`曾formal，后于提交`54c16899`改为pending；本轮以当前表为准，未改变裁决。候选`cand-12466`、`cand-12467`与被描绘作品组保持S3 `undecided`、无KU；待办`bl-0093`、`bl-0058`保留。五条已存在于旧基线的statement的历史9,622成员身份仍无法逐行证明；六条新ID不在该基线中。本批不调整历史分子，不代表其余p.326内容或全书S2接收。
 <a id="2026-11-01-s2-current-review-ch8-p238-title-referents"></a>
 
 ### 2026-11-01 S2当前版增量修订：第8章 p.238 标题与指代mention
