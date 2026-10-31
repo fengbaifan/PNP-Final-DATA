@@ -14010,3 +14010,22 @@ statement st-chp14-p349-note3-albrizzi-issue通过：原文引述支持“劝读
 此前S1覆盖记录的12,437条候选快照之后，回流backlog新增`cand-12460`–`cand-12463`四条，再由第17章`quest’arte`原文修订登记`cand-12464`一条；因此当前为12,442条，属于时间顺序上的增量，不是索引漏项。`candidate-backlog.csv`共91条，88条映射到现存候选，3条（`bl-0011`、`bl-0012`、`bl-0085`）仍无候选，均为`undecided`且保留理由与过程引用。严格表审计返回`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`。
 
 按CSV原始字段与当前候选字段比较，93条索引候选的规范名、子条或页码范围至少一项不同（规范名41项、子条8项、页码范围45项，字段差异有重叠）。这些行仍保留原`index_entry_id`，且均有S3 alignment记录及过程/裁决说明；不得据此把原索引文字静默丢弃，也不把字段差异自动当作身份成立。后续S3按对应候选核查名称、范围与身份；本次确认的是S1覆盖和源行可追溯，不是上述差异的语义接收。
+
+<a id="2026-10-31-s2-review-snapshot-crosswalk-chapters-1-2-4-current"></a>
+### 2026-10-31 S2独立复核快照回映：第1、2、4章当前版本
+
+对照独立复核记录`s2-independent-review-chp1-2-4-20261020.md`及表快照提交`2273e2743158401b841fb9bc7b7d1332836d400a`，按完整JSON对象、稳定statement/mention ID、source segment比较到当前提交`7399842d`。原报告复核范围为第1章521条、第2章1,441条、第4章1,082条；当前差异如下。表中“修改”指同ID完整对象发生变化。
+
+| 章节 | statement快照→当前 | statement修改/新增/删除 | mention快照→当前 | mention修改/新增/删除 | segment记录 |
+|---|---:|---:|---:|---:|---:|
+| 第1章 | 521→522 | 3/1/0 | 710→711 | 15/1/0 | 30条，均未变 |
+| 第2章 | 1,441→1,464 | 55/24/1 | 2,896→2,901 | 29/5/0 | 75条，均未变 |
+| 第4章 | 1,082→1,097 | 36/15/0 | 1,680→1,689 | 18/9/0 | 40条，均未变 |
+
+上述源段记录未变，严格表审计也确认当前源资产哈希匹配。三章原始影印PDF从复核快照到当前均逐字节相同：CHP-1 SHA-256 `0b9a3ca88e6f09209bd20185948e18a68f527d0628e893940a7e3f07f6d22c86`；CHP-2 `317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；CHP-4 `2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303`。因此差异来自表格版本，而非本批正文或PDF来源漂移。
+
+第1章三条修改中，`st-chp1-secii-l48-60-07`仅在正文与脚注交叉链接中加入新statement；`st-chp1-secii-l657-n1-cites-malvasia-vol2-p27`仅更新关系交接说明，原claim、引文、谓词和端点未变；`st-chp1-secii-l917-926-02d`改为使用procedure候选`cand-3141`并收窄限定，已在2026-10-29 Art exhibitions独立复核中核过，原formal `rel-0299 uses_procedure`未变。新增`st-chp1-secii-p12-n1-cites-grassi-1957`与印刷页12注1对应，CHP-1.pdf物理页11可读到“L. Grassi published in 1957”及其文献定位；本次定向语义自查未发现statement或relation端点需修改，但尚无该新增statement的独立复核。`rel-2095 cites`为后续新增并继续formal；新statement对应`rel-2150 cites`，只记录Haskell引注，不声称独立读过被引论文。第1章15条旧mention变化均只改`surface_form`以保留原分节文本中的换行；本次按source segment重新计算，16条当前差异mention（含1条procedure新mention）跨度均精确，procedure mention也已有独立复核。机械跨度核验不替代语义复核。
+
+第2章当前79条修改/新增statement中，有10条与2026-10-31清洁上下文独立复核记录相交；该交集不等于覆盖本章其余变更。第2章34条mention差异与该记录显式列出的mention差异无交集。第4章51条修改/新增statement及27条mention差异尚未在本次查到的当前版独立复核记录中逐项回映；原报告明确指出p.102与p.115共4条修订statement需重审，p.114新增statement亦不在原复核范围。其余条目需与后续独立复核和来源裁决记录继续交叉核对。
+
+本回映不调整9,622条历史汇总数，不把旧快照审阅自动计为当前版接收，也不表示三章或S2整体接收。下一步按剩余statement和mention ID匹配后续复核证据，先处理第4章当前版差异，再核平其余第2章及第1章新增statement。
