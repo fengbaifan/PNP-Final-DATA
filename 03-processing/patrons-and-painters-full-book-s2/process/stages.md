@@ -14496,3 +14496,18 @@ statement版本也按完整JSON对象重算：第1、2、4章同ID变化106条�
 `candidate-backlog.csv`当前92行：88行关联候选、共84个不同候选ID；另4行`bl-0011`、`bl-0012`、`bl-0085`、`bl-0092`均为`undecided`且具备来源、statement、理由与过程引用，分别因写信人未具名、仅给职衔、费用对象范围不明、以及额外通信群体与手稿所有者范围不明而没有候选ID/KU。它们是待证关系端点，不是已识别但漏登的S1对象；不得据此补造实体。`bl-0092`是第4章p.106于10月31日新增的端点待办，使旧S1快照中的91行/3个无候选ID更新为当前92行/4个；索引输入与候选覆盖没有变化。
 
 结论：按现有索引、图版、书目及可识别S2补录候选，S1入口覆盖与来源追溯闭合；4个不可识别端点保留待证，不虚报为已解决。S1仅在发现新来源、输入行或可识别候选缺口时重开。
+
+<a id="2026-11-01-s2-current-review-ch8-p241"></a>
+### 2026-11-01 S2当前版独立回核与提及锚点修复：第8章 p.241
+
+独立复核者在干净只读上下文中核对 CHP-8.pdf 物理页47（印刷p.241）、当前S0正文段 `chp-8:08_CHP-8_sec_ii:l361-370` 与注释段 `chp-8:08_CHP-8_sec_ii:l372-461` 的L457–461。S0文件SHA-256为 `5D9A17EFC3835C30947B8C714C65649BE10295661B6CCA6B117F5902882BCEF6`；CHP-8.pdf SHA-256为 `CB11451AC726F37ED5BADF21A569AF88F790F858F1C39EB63F2EFB58A0FE4AC3`。53条当前statement的 `original_quote` 均可在对应S0段逐字定位，独立复核均判PASS。statement ID、原引句、端点与predicate未变；只更新三条qualifier/claim字段：`st-chp8-p241-academy-organized-exhibition` 将“under whose auspices”限为庇护关系，不称Accademia承担全部实务组织；`st-chp8-p241-ferdinand-satisfaction-in-promotion` 将“most vital”的评价归于Haskell；注3明确区分 `cand-8097` 已映射KU、`cand-8098` `new`但无KU、`cand-8080` 仍`undecided`。当前措辞经独立复核通过。
+
+当前本页mention由10条增至83条：正文58条、注释25条，覆盖67个候选；新增73条。每个candidate ID与S0 segment均存在，83/83个surface及半开span经独立复算精确；20组包含式重叠均为嵌套文本，重复同跨度与交叉跨度均为0。来源行与候选语义分组见 `mentions.csv` 的稳定mention ID。独立建议清单有两处须以当前S0纠正：`cand-12101` 的锚点是L369 “artists who rightly felt that their talents would have been stifled in the papal city” `[1983,2068)`（保留 `that`）；`cand-7894` 按当前OCR标注为 “Fogolari, 193 7” `[14001,14016)`，不得将印本校读 `1937` 替换进原文surface。S0与PDF均未改写。
+
+`Schedoni`的 `[424,432)` 同一表面既可指画家也出现在未具名作品名称中。为避免同跨度双映射及严格审计错误，本页只登记作品候选 `cand-8091` 的 mention；人物候选 `cand-2394` 保持`undecided`且无KU，alignment理由说明该字面锚点不能单独消歧人物。statement的candidate列表未改；不以作品mention推定人物身份。
+
+本批对28条 `alignment.csv` 的 `resolution_note` 作锚点/历史快照说明更新，所有 `decision` 与 `ku_id` 均不变。直接端点候选 `cand-8075`（`further Venetian paintings`）、`cand-8076`（`twenty-odd pictures`）、`cand-8077`（`four landscapes by Marco Ricci`）、`cand-8092`（`Neapolitan contingent`）及事件 `cand-8080`（`the 1767 exhibition`）现有精确mention锚点，但身份、成员边界或事件同一性仍待S3核实，均保持`undecided`、无KU。其余本页已有锚点的未决作品、术语及群体继续待分组；不据新增mention强推复用/新增决定。`cand-1143`保持既有`same`；`cand-8097`、`cand-8098`保持既有`new`，只在历史备注中补当前mention并说明旧 `s2_mentions=none` 属于复核前快照，未新增KU。
+
+S6影响核对：`relations.csv` 未改写，相关formal `rel-1619`、`rel-1627`至`rel-1635`保持原裁决；`rel-1638 has_participant` 仍因Luca Giordano指画家还是作品未明而pending。`rel-1628 cites` 只引用1767目录序言，不作为 `cand-8080` 身份证据。全库关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0；未新增或删除边。严格表审计 `errors=[]`、`s2_missing=[]`；当前全库为15,487条statement、26,999条mention。
+
+本页是否计入历史9,622条独立复核汇总仍无行级statement ID／来源版本凭据，故保持未知，本批不增减该汇总或据此计算覆盖率。此项是当前版第8章p.241局部独立复核，不代表第8章或全书S2接收。下一步仍先核平9,622条历史复核与当前statement/mention/来源版本，再继续S2独立复核；S2核平后才交接S3身份分组。
