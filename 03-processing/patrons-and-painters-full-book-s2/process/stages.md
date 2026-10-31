@@ -14772,4 +14772,14 @@ S6既有`rel-0706`继续pending：其subject为局部复制品KU“Detail from F
 | 附录（含收据视觉转录） | 116 | 114 | 2 | 0 | 10 | 126 |
 | **合计** | **2,120** | **2,042** | **77** | **1** | **43** | **2,162** |
 
-第14章旧502条中499条对象未变，3条同ID变化（`st-chp14-p349-left-italy-and-turin-mission`、`st-chp14-p349-note3-albrizzi-issue`、`st-chp14-p355-piazzetta-newtonianismo-frontispiece`）均有当前版独立复核PASS记录；5条新增（p.353、p.354注3及p.355三幅作品）尚未独立复核，本次跨度修订不改变该状态。第16章p.373注2的四条书信端点仍属于报告明确排除在旧2,120分子外的新增记录。此回映只说明statement对象版本，不恢复原mentions快照、不能替代逐条独立复核，也不据此调整9,622历史汇总。
+第14章旧502条中499条对象未变，3条同ID变化（`st-chp14-p349-left-italy-and-turin-mission`、`st-chp14-p349-note3-albrizzi-issue`、`st-chp14-p355-piazzetta-newtonianismo-frontispiece`）均有当前版独立复核PASS记录；该回映记录写成时，5条新增（p.353、p.354注3及p.355三幅作品）尚待独立复核，随后已全部PASS，见下方复核记录。第16章p.373注2的四条书信端点仍属于报告明确排除在旧2,120分子外的新增记录。此回映只说明statement对象版本，不恢复原mentions快照、不能替代逐条独立复核，也不据此调整9,622历史汇总。
+
+<a id="2026-11-01-s2-independent-current-review-ch14-p353-p355-additions"></a>
+
+### 2026-11-01 S2第14章 p.353–355 五条新增statement当前版独立回核
+
+另一复核者在当前HEAD `2e097394c13e472b7d4ebf7a95138f92546fddc3`只读核对五条新增statement、相关mention、候选、S3/S4映射、PDF与S0，五条均PASS。原PDF物理页7、8、9分别为印刷页353、354、355；相关S0 asset哈希及段落文本哈希均与登记相符。共8个相关mention span精确匹配当前段落：p.353 Neptune fountain `[3259,3275)`、Lorenzo Mattielli `[3279,3296)`；p.354书信整体`[2946,2988)`、Eustachio Zanotti `[2956,2973)`；p.355 Caesar题名`[1248,1282)`、Piazzetta `[1098,1107)`；注2所列 Mucius Scaevola `[3438,3466)`与 The Death of Darius `[3471,3490)`。
+
+逐项裁决与关系影响：Neptune fountain归属Mattielli的书内范围正确，`rel-2071 created_by`继续formal且不指认具体存世喷泉或宅邸；书信明确致Zanotti，`rel-2301 addressed_to`继续formal，原信未查及不推断作者；Caesar、Mucius Scaevola、Death of Darius分别归入Piazzetta作品群的限定符合正文及注2，`rel-1758`–`rel-1760 created_by`继续formal。注2没有把两个地点分别分配给Mucius与Darius；不增补该断言。无需回退S3/S4或将上述关系改为pending，本次没有任何表写回。
+
+五条statement均为9,622基线报告快照后新增，不回填历史复核分子。此批仅关闭上述五条当前版本的独立复核，不接收整章或全书S2；全局9,622逐ID成员与来源版本核平仍未完成。
