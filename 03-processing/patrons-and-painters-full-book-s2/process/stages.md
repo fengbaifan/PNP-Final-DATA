@@ -14550,3 +14550,19 @@ Damini当前statement由基线中的复合断言拆为单人断言；Leoni是新
 claim、Haskell发言者及“不是Rosa自述意图”的限定保持不变。Rosa mention m-chp18-conclusion-0030 [1736,1749)与新增artistic conformity mention m-chp18-conclusion-p384-salvator-rosa-artistic-conformity [1809,1828)均与当前S0切片精确相符且落在引句内。mentioned_candidate_ids不变。
 
 该评价性主张没有忠实的受控S6谓词，保留process-only pending；relations.csv中无Rosa与artistic conformity的正式边。rel-2432仍只记录Italy与社会conformity概念的site_of_manifestation关系，不涉及Rosa。未改写关系表或S3/S4决定，历史9,622汇总不增不减。严格表审计errors=[]、s2_missing=[]；当前全库为15,487条statement、26,999条mention。本次定向回核不代表结论章或全书S2接收。
+
+<a id="2026-11-01-s2-current-review-ch10-p322-lodoli-location"></a>
+### 2026-11-01 S2当前版独立回核：第10章 p.322 注4 Lodoli 肖像位置
+
+独立复核者对照当前statement、候选、alignment、relations、S0段`chp-10:10_CHP-10_sec_ii:l273-349`和`CHP-10.pdf`物理页55（印刷p.322）。S0文件SHA-256为`25542734fde53358cde0a489f1c62ff3f021f32d68be733162b406d4d8a229f9`，segment SHA-256为`1308aba246107e6a7b237b1eb55c37538d11de95f6bb5aa150dd92ef734d6028`，PDF SHA-256为`c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`；S0与PDF在9,622基线提交和本轮起始HEAD的Git blob均一致。页图清楚读作“The portrait by Alessandro Longhi is in the Accademia in Venice”；S0/OCR原引句`Tlie portrait by Alessandro Longbi...`保持不改，`Tlie`→`The`及`Longbi`→`Longhi`两项校读取证于页图。当前claim、Haskell脚注发言者和机构未具名限定均准确，原引句与S0连续相符。
+
+当前五条原有相关mention（`m-s2-ch10-p320-323-note-0028`至`-0032`）及本次补录`m-s2-ch10-p320-323-note-0058`的跨度均经逐项切片核对通过：`Tlie portrait` `[6141,6154)`、`Alessandro Longbi` `[6158,6175)`、`Accademia in Venice` `[6186,6205)`、`[Memmo]` `[6227,6234)`、`Riflessioni, 1788` `[6236,6253)`、嵌套城市`Venice` `[6199,6205)`。新增锚点对应已列入statement的`cand-2719`，其S3 `same`及KU `units/places/venice`不变；嵌套span分别记录未决机构短语与可识别城市，不构成重复或机构消歧。
+
+按完整JSON对象回映至9,622基线提交`1a6313c8654280a9b71187fc08522098626e734e`，该statement旧版与当前版同ID但对象不同：旧端点为画家`cand-1424`→肖像`cand-1425`，当前端点为肖像`cand-1425`→未决机构`cand-9963`；原引句及S0、PDF来源版本未变。该差异属于当前版本机械差异，不证明旧/当前版本是否计入历史9,622；不调整历史分子或覆盖率。肖像`cand-1425`与图版候选`cand-3998`仍复用`units/works/alessandro-longhi-carlo-lodoli`；`cand-9963`保持`undecided`、无KU，不能与Museo Correr候选`cand-3661`合并。
+
+关系影响：`rel-0395 held_by Museo Correr`与`rel-0396 located_at Venice`保持formal，证据仍限定为图版目录第126行所载；它们不消解注4的Accademia机构身份。注4关系候选继续process-only pending，不新增formal边、不改历史裁决，也不登记S4对象。严格表审计`errors=[]`、`s2_missing=[]`；当前全库15,487条statement、27,000条mention。本批不代表第10章或全书S2接收。
+
+<a id="2026-11-01-s2-current-mention-delta-recompute"></a>
+### 2026-11-01 S2当前 mention 版本差异重算
+
+以9,622首次出现的基线提交`1a6313c8654280a9b71187fc08522098626e734e`及本轮起始HEAD`61a33c75cfde4831d280d07e212a6c0894210163`为参照，对CSV按完整行与mention ID重算；本轮新增`m-s2-ch10-p320-323-note-0058`后，mention为26,870→27,000，新增151、删除21、同ID行变化29，当前ID无重复。statement仍为15,451→15,487，新增37、删除1、同ID对象变化124。以上是表版本差异，不等于未复核数量；历史9,622仍无足够行级凭据映射全体唯一ID与来源版本，不据此调整分子或计算覆盖率。
