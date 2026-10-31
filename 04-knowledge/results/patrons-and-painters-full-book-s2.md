@@ -3901,7 +3901,7 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | S4 | 已映射2,586/5,107个含new决定候选；待登记2,521个；KU共3,365 | 876个含new决定的直接关系端点尚未登记：term 399、work 124、place 121、archive 111、event 72、institution 48、person 1。
 | S5 | 14,937条字段；1,632条unverified | 按关系具体缺口定向补证；本批未新增外部字段。
 | S6 | `relations.csv` 2,645行：2,590 formal、52 pending、3 rejected；当前`relation_candidate=true`为10,686条 | 历史裁决台账与当前statement版本尚未核平，不报告完成率。缺候选端点statement 343条：仅缺subject 47、仅缺object 224、两端均缺72。
-| Backlog | 91条：17 completed、74 undecided；88条关联候选、3条保留无候选 | 三条无候选分别是未具名外层来信作者、只给职衔的总督、范围不明的费用对象；保持待证，不为满足映射率造实体。 |
+| Backlog | 92条：17 completed、75 undecided；88条关联候选、4条保留无候选 | 四条无候选分别为未具名外层来信作者、只给职衔的总督、范围不明的费用对象，以及身份／范围未明的“其他学者和达·芬奇手稿所有者”；均保持待证，不据不足证据补造实体。 |
 
 S2第4章p.102、p.114、p.115注2的5条当前statement与38个唯一mention span已完成原页定向检查，并经指定范围独立盲审回核。p.102错误候选`cand-5712`已移除；`rel-2107`、`rel-1643`原裁决不变；p.115引文不能唯一定位，`rel-2647 cites`保持pending，原件保管端点`cand-4380`及`rel-2116`仍process-only pending。该批不计入9,622条台账，不接收第4章或全书S2。详见[第2、4章及结论当前版独立盲审回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2-independent-current-review-followup)。
 
