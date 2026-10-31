@@ -18,11 +18,12 @@ COLUMNS = ["candidate_id", "index_entry_id", "canonical_name", "index_page_range
            "candidate_origin", "candidate_source_ref"]
 INDEX_FIELD_OVERRIDES = {
     # The source bytes are damaged; these four field readings were verified
-    # against A.md and the printed index PDF. Keep the source CSV unchanged.
-    "A.csv#23": {"canonical_name": "Albrizzi, Almor\u00f2"},
-    "A.csv#46": {"sub_entry": "and Count Br\u00fchl"},
-    "A.csv#94": {"sub_entry": "Relatione della citt\u00e0 di Roma 1642"},
-    "A.csv#105": {"sub_entry": "statue of Antenor for Pr\u00e0 della Valle"},
+    # against A.md and the printed index PDF. Pair each correction with the
+    # expected decoded source value so row drift or source repair fails closed.
+    "A.csv#23": {"canonical_name": ("Albrizzi, Almor\u00a8\u00b0", "Albrizzi, Almor\u00f2")},
+    "A.csv#46": {"sub_entry": ("and Count Br\u00a8\u00b9hl", "and Count Br\u00fchl")},
+    "A.csv#94": {"sub_entry": ("Relatione della citt\u00a8\u00a4 di Roma 1642", "Relatione della citt\u00e0 di Roma 1642")},
+    "A.csv#105": {"sub_entry": ("statue of Antenor for Pr\u00a8\u00a4 della Valle", "statue of Antenor for Pr\u00e0 della Valle")},
 }
 
 
@@ -56,7 +57,10 @@ def read_rows() -> list[dict]:
                 "detail": detail,
                 "exclude_reason": reason,
             }
-            source_row.update(INDEX_FIELD_OVERRIDES.get(index_entry_id, {}))
+            for field, (expected_source, verified_value) in INDEX_FIELD_OVERRIDES.get(index_entry_id, {}).items():
+                if source_row[field] != expected_source:
+                    raise ValueError(f"{index_entry_id}: unexpected source value for verified override {field}")
+                source_row[field] = verified_value
             rows.append(source_row)
     return rows
 
