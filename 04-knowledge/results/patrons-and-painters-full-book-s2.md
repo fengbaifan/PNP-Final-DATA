@@ -47,7 +47,7 @@
 
 **本批完成：跨章登记Pergola与Golzio三项文献端点。** `cand-4369`对应1955–1959年两卷目录；`cand-6356`对应1933–34年 *Archivi* 文章；`cand-6196`对应1939年Chigi档案文献图书。三者各立独立archive身份组并完成S4；另为六条有S2 `relation_candidate=true`依据的引文建formal `cites`边。第2章p.49卷I引注的S2标志为非关系候选，Golzio p.3也没有独立S2引文关系statement，因此未另建formal边。第5章中身份未定的画作集合`cand-6164`及其所有权／购入／委托相关候选以`bl-0062`–`bl-0065`保留待证；宫殿购买端点`cand-6211`以`bl-0066`记录，待完成S4和关系主客体辨析。本批未将这些关系升为formal。未独立查阅三种出版物；S2 statement、mention和9,622项复核台账未改。详见[跨章身份及关系裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-golzio-pergola-archives-20261028)。
 
-**当前机械快照（2026-10-31核对）：** 当前S2有15,483条statement、26,875条mention。相对9,622复核汇总首次出现的基线提交`1a6313c8654280a9b71187fc08522098626e734e`，statement ID新增33、删除1、同ID内容变化95；mention ID新增26、删除21、同ID内容变化23。9,622仍是聚合台账数；逐项statement ID与来源版本未核平，不能据此计算当前覆盖率。S2覆盖表832段（678 complete、154 excluded），不代表语义接收。
+**当前机械快照（2026-10-31核对）：** 当前S2有15,483条statement、26,877条mention。相对9,622复核汇总首次出现的基线提交`1a6313c8654280a9b71187fc08522098626e734e`，statement ID新增33、删除1、同ID内容变化95；mention ID新增28、删除21、同ID内容变化23。9,622仍是聚合台账数；逐项statement ID与来源版本未核平，不能据此计算当前覆盖率。S2覆盖表832段（678 complete、154 excluded），不代表语义接收。
 
 S3共有12,437个候选：仅same 2,130、仅new 5,079、仅undecided 5,085、conflict 8、excluded 107；另27个候选留有new与same来源决定、1个留有new与undecided决定。任一来源决定为new的候选5,107个，其中S4已映射2,586、待映射2,521。直接关系端点中，仅undecided候选2,966个（work 1,060、archive 278、term 442、person 424、place 128、institution 82、event 65、family 13、procedure 2、类型未定472）；new且仍待S4映射的直接端点876个（term 399、work 124、place 121、archive 111、event 72、institution 48、person 1）。KU共3,365。
 
@@ -3881,7 +3881,7 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 处置覆盖完成，不代表S2语义接收。 |
 | S1 | 索引2,934/2,934条均匹配唯一候选；54条排除均有理由；9,503条非索引候选来源引用齐全；图版与书目分别关联85条、255条候选 | 当前来源输入的候选覆盖与来源定位已核平；身份判断留给S3，后续S5/S6新增端点按S1→S3→S4回流。详见[本次核平记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s1全书候选覆盖核平)。 |
-| S2 | 15,483 statements、26,875 mentions；统一独立复核台账9,622条 | 尚未全书独立接收。相对基线有33条statement新增、1条删除、95条同ID内容变化；mention有26条新增、21条删除、23条同ID内容变化。ID与来源版本交集仍未核平；已单独复核的当前版本仍不并入统一台账。
+| S2 | 15,483 statements、26,877 mentions；统一独立复核台账9,622条 | 尚未全书独立接收。相对基线有33条statement新增、1条删除、95条同ID内容变化；mention有28条新增、21条删除、23条同ID内容变化。ID与来源版本交集仍未核平；已单独复核的当前版本仍不并入统一台账。
 | S3 | 12,437个候选：仅same 2,130、仅new 5,079、仅undecided 5,085、conflict 8、excluded 107、混合new/same 27、混合new/undecided 1 | 含new决定5,107项；当前组号、来源决定差异和身份边界仍按类型逐批核对。
 | S4 | 已映射2,586/5,107个含new决定候选；待登记2,521个；KU共3,365 | 876个含new决定的直接关系端点尚未登记：term 399、work 124、place 121、archive 111、event 72、institution 48、person 1。
 | S5 | 14,937条字段；1,632条unverified | 按关系具体缺口定向补证；本批未新增外部字段。

@@ -13836,3 +13836,11 @@ S2 statement为同ID内容变化，mention新增1条；9,622条统一独立复�
 当前mention零基半开跨度`[5546,5569)`精确对应作品名，`[5580,5598)`精确对应`Wallace Collection`；statement的work→institution端点、`held_by`方向及“不推断法律所有权、入藏日期或当前保管”限定与原文相符。对应formal `rel-2516 held_by`不需改写；`rel-2515 created_by`依据正文另一statement，未受影响；混合多作品、版画和题献的旧聚合statement仍保持rejected，未发现需改写的其他历史S6裁决。
 
 本次是当前代理的定向来源核查，不记作独立审读或增加9,622复核数；该statement修订后的当前版本仍待独立审读。statement总数及相对基线的同ID变化计数不变；mentions、S6表及来源资产均未改写。
+
+### 2026-10-31 S2定向指代核正：第8章 p.212–213 Longhi文献引文
+
+依据权威页图复核：`02-sources/01-book/CHP-8.pdf` SHA-256 `cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`，物理页10为印刷p.212、物理页11为印刷p.213；`CHP-21Bibliography.pdf` SHA-256 `1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`，物理页18为印刷p.428，列出R. Longhi的1956年文章。页图确认p.212注2的两幅具名作品及“an article on the del Rosso collection”；p.213注1的“the latter”只指Paceco de Rosa的画作。被引文章未独立查阅。
+
+当前statement `st-chp8-p213-n1-longhi-publication` 的谓词为 `has_subject`，但原来把文章 `cand-7604` 放在object、subject留空，与受控domain/range方向相反。现更正为subject=`cand-7604`、object=null；保留原claim、`original_quote`、引文、范围说明和缺端点理由。新增文献mention `m-s2-chp8-p212-n2-longhi-article-20261031`，跨度`[4724,4762)`；新增 `m-s2-chp8-p213-n1-longhi-article-20261031`，跨度`[5952,5967)`。p.213已有的人物mention `m-chp8-p212-214-notes-038` 保留；文献引文与作者mention重叠但指向不同对象。
+
+Paceco de Rosa画作没有题名、数量或可界定的作品组身份，仍无work KU；p.213没有对应 `relations.csv` 正式裁决，不新增S6边，保持pending。p.212两项已裁决关系未改；未改写其他历史S6裁决。此次为当前代理定向核查，不是独立复核，9,622统一复核台账不变。statement为15,483条；mention增至26,877条。相对基线的mention差异更新为新增28、删除21、同ID内容变化23。

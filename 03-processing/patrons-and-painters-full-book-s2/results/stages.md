@@ -2804,3 +2804,7 @@ S2保留statement原claim和original_quote，修正两条关系statement的对�
 相对统一复核基线，当前S2为15,483 statements（新增33、删除1、同ID变化95）和26,875 mentions（新增26、删除21、同ID变化23）。这8条mention与两条statement版本未计入9,622条统一独立语义复核台账；台账与来源版本交集仍未核平，不据此声称全书接收。
 
 修订后由独立上下文复核当前mention跨度、procedure端点、S3复用边界、rel-0299复用、rel-2643新增关系、四项pending理由及卡片投影；复核通过，唯一措辞修订已同步到knowledge.md。针对性验证：`audit_tables.py --strict-stage --summary`为`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py --dry-run`五项阻断均为0；两个受影响端点卡定向render与render后preview通过；`git diff --check`通过。整库renderer预检显示526个文件会被写回，本批仅渲染两个受影响卡片。
+
+### 2026-10-31 第8章 p.212–213 Longhi引文端点纠正
+
+p.213 `has_subject` 当前端点方向已修正为文章subject、未识别作品object待证；补入p.212和p.213两条文章mention锚点，保留重叠的人物mention。未名画作仍pending，不新增S6正式边；p.212既有formal关系及历史裁决未改。statement 15,483条、mention 26,877条；9,622条统一复核数不变。针对性验证：S2严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断项0；当前代理核查不构成独立语义复核。详细依据及页图哈希见[过程记录](../process/stages.md)。
