@@ -20380,7 +20380,7 @@ m-s2-ch13-p334-040,chp-13:13_CHP-13_intro:l21-30,cand-2719,Venice,1693,1699,Plac
 m-s2-ch13-p334-041,chp-13:13_CHP-13_intro:l21-30,cand-12136,his publications,2418,2434,Unspecified group of Albrizzi's publications.
 m-s2-ch13-p334-042,chp-13:13_CHP-13_intro:l21-30,cand-12132,the increasing spread of heretical opinions throughout Europe,2670,2731,Haskell's interpretive historical context; no named movement or adherents are supplied.
 m-s2-ch13-p334-043,chp-13:13_CHP-13_intro:l21-30,cand-12130,wide international public,2823,2848,Intended audience in Haskell's account; no specific readership is identified.
-m-s2-ch13-p334-044,chp-13:13_CHP-13_intro:l21-30,cand-0024,he himself,1836,1846,"Anaphoric reference read as Almorò Albrizzi, the immediately preceding subject of the coordinated sentence; the wider paragraph remains focused on Giambattista, so the attribution is retained as a source-local judgment with residual ambiguity. See the S2 correction process record."
+m-s2-ch13-p334-044,chp-13:13_CHP-13_intro:l21-30,cand-0024,he himself,1836,1846,"Ambiguous anaphor: local clause reading points to Almorò (cand-0024), while the paragraph discourse topic also permits Giambattista (cand-0025); do not use this mention alone to settle editorial attribution."
 m-s2-ch13-p335-038,chp-13:13_CHP-13_intro:l32-39,cand-12139,archbishops,1436,1447,Source-bounded intended readership group; no individual is named.
 m-s2-ch13-p335-039,chp-13:13_CHP-13_intro:l32-39,cand-12140,"rich monasteries of Central
 Europe",1452,1486,Source-bounded intended readership group; no particular monastery is named.
@@ -23614,7 +23614,7 @@ m-chp17-p380-manfrin-0057,chp-17:17_CHP-17_sec_i:l26-35,cand-10690,Stampe D.30,2
 m-chp17-p380-manfrin-0058,chp-17:17_CHP-17_sec_i:l26-35,cand-10680,Meschini,245,253,Surname form in Haskell's citation.
 m-chp17-p380-manfrin-0059,chp-17:17_CHP-17_sec_i:l26-35,cand-10681,"Meschini, 1806, II, p. 107",245,271,Bibliographic locator for the quoted description; work not independently consulted.
 m-chp17-p380-manfrin-0060,chp-17:17_CHP-17_sec_i:l26-35,cand-1513,Galleria,289,297,Manfrin gallery described in the Meschini quotation.
-m-chp17-p380-manfrin-0061,chp-17:17_CHP-17_sec_i:l26-35,cand-10681,quest’arte,675,685,The art whose development the quoted Meschini passage says the gallery could display.
+m-chp17-p380-manfrin-0061,chp-17:17_CHP-17_sec_i:l26-35,cand-12464,quest’arte,675,685,"The quoted demonstrative “quest’arte” is a source-local artistic concept, not a mention of the Moschini citation archive; identity group remains undecided pending S3."
 m-chp17-p380-manfrin-0062,chp-17:17_CHP-17_sec_i:l26-35,cand-1512,Manfrin’s gallery,710,727,The gallery for which Edwards made the first record.
 m-chp17-p380-manfrin-0063,chp-17:17_CHP-17_sec_i:l26-35,cand-0965,Pietro Edwards,740,754,"Adviser and maker of the first record, as reported by Haskell."
 m-chp17-p380-manfrin-0064,chp-17:17_CHP-17_sec_i:l26-35,cand-1512,his adviser,756,767,Anaphoric reference to Manfrin's adviser Pietro Edwards.
@@ -23636,7 +23636,7 @@ m-chp17-p381-0009,chp-17:17_CHP-17_sec_i:l22-24,cand-1188,Giorgione,404,413,"Pai
 m-chp17-p381-0010,chp-17:17_CHP-17_sec_i:l22-24,cand-10695,Tempesta,416,424,Specific painting named among the gallery’s treasures.
 m-chp17-p381-0011,chp-17:17_CHP-17_sec_i:l22-24,cand-1512,Manfrin’s,426,435,Subject of the account of his patronage ventures.
 m-chp17-p381-0012,chp-17:17_CHP-17_sec_i:l22-24,cand-0817,competitions,690,702,Topical index candidate ‘Competitions’ includes p.381; the person entry cand-1514 remains a separate Manfrin subentry and is not used as the activity entity.
-m-chp17-p381-0013,chp-17:17_CHP-17_sec_i:l26-35,cand-1709,Moschini,966,974,Printed author form; keep distinct from p.380’s Meschini spelling until S3.
+m-chp17-p381-0013,chp-17:17_CHP-17_sec_i:l26-35,cand-1709,Moschini,966,974,"Printed author form. The p.380 and p.381 scans both read Moschini; p.380 “Meschini” is S0 OCR, not a source spelling variant. The person remains linked through the current S3 decision for this candidate."
 m-chp17-p381-0014,chp-17:17_CHP-17_sec_i:l26-35,cand-10700,"Moschini, 1806, U, p. 107",966,991,Exact OCR citation span; the page image reads volume II.
 m-chp17-p381-0015,chp-17:17_CHP-17_sec_i:l26-35,cand-10701,"the same author, 1810",996,1017,Citation locator by anaphora to Moschini; title and page are absent.
 m-chp17-p381-0016,chp-17:17_CHP-17_sec_i:l26-35,cand-0857,Correr,1025,1031,"Teodoro Correr, for whom the note points to literature on his collections."
@@ -27545,3 +27545,6 @@ m-s2-chp1-p22-20261029-procedure,chp-1:01_CHP-1_sec_ii:l155-159,cand-3141,making
 m-s2-chp8-p240-20261029-procedure,chp-8:08_CHP-8_sec_ii:l350-359,cand-1610,took advantage of the still rudimentary instrumentof the art exhibition and used it in an entirely new way,1321,1427,"This phrase describes Ferdinand’s source-supported procedure for guiding Florentine painting, mapped to units/procedures/ferdinand-art-exhibition-guidance; the generic term mention m-chp8-p240-art-exhibition and the 1706 event remain distinct."
 m-s2-chp8-p212-n2-longhi-article-20261031,chp-8:08_CHP-8_sec_i:l126-157,cand-7604,an article on the del Rosso collection,4724,4762,Article citation description; resolved to the unique R. Longhi 1956 entry in CHP-21 bibliography p. 428. The article itself was not independently read.
 m-s2-chp8-p213-n1-longhi-article-20261031,chp-8:08_CHP-8_sec_i:l126-157,cand-7604,"R. Longhi, 1956",5952,5967,Author-year citation resolved to the R. Longhi 1956 entry in CHP-21 bibliography p. 428; overlaps the separate person mention. The article itself was not independently read.
+m-chp18-conclusion-p384-salvator-rosa-artistic-conformity,chp-18:18_CHP-18Conclusion:l3-17,cand-10735,artistic conformity,1809,1828,Exact object phrase in Rosa’s evaluative characterization; distinct from the earlier social-demand phrase and later writers phrase.
+m-s2-ch14-p349-20261031-001,chp-14:14_CHP-14_intro:l168-220,cand-9988,Albrizzi’s Novelle della Repubblica delle Lettere,1245,1294,"Title in note 3 is the weekly periodical candidate cand-9988, not the Newtonianismo book; footnote marker 3 links the warning note to the body reception assessment."
+m-s2-ch14-p349-20261031-002,chp-14:14_CHP-14_intro:l168-220,cand-10261,12 April 1758,1315,1328,"S0 OCR date; the p.349 print scan reads 12 April 1738, as recorded in the S2 statement correction."

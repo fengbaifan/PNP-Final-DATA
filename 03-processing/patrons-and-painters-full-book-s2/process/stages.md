@@ -13825,7 +13825,7 @@ S2 statement为同ID内容变化，mention新增1条；9,622条统一独立复�
 
 ### 2026-10-31 S2基线版本核平（阶段性）
 
-以首次记录统一复核汇总的基线提交`1a6313c8654280a9b71187fc08522098626e734e`逐ID比较当前表。解析JSON后，statement为15,451→15,483条，新增33、删除1、同ID内容变化95；JSONL原始行差异为125，其中30条只是序列化差异，不能计为statement改动。mention为26,870→26,875条，新增26、删除21、同ID内容变化23。832条`segments.jsonl`记录在基线与当前版本间无增删或内容变化。
+以首次记录统一复核汇总的基线提交`1a6313c8654280a9b71187fc08522098626e734e`逐ID比较当前表。解析JSON后，statement为15,451→15,486条，新增36、删除1、同ID内容变化98；JSONL原始行差异为125，其中30条只是序列化差异，不能计为statement改动。mention为26,870→26,878条，新增29、删除21、同ID内容变化24。832条`segments.jsonl`记录在基线与当前版本间无增删或内容变化。
 
 当前9,622仅有汇总计数，分散的逐条复核报告尚未构成可与当前ID及来源版本逐行核对的交叉表。因此本核平只确认版本差异，不确认9,622条的当前版本覆盖或S2接收；后续须逐报告提取明确审过的statement ID及版本，去重、处理旧版和近期重叠，再据此续审。当前结果中的95条statement同ID变化是解析后内容差异数；不能用原始行比较数替代。新增statement `st-chp2-seciv-l190-245-dance-of-human-life-held-by-wallace`从基线以来属于新增ID，针对它增加OCR脚注号校读不会改变同ID变化计数。
 
@@ -13843,7 +13843,7 @@ S2 statement为同ID内容变化，mention新增1条；9,622条统一独立复�
 
 当前statement `st-chp8-p213-n1-longhi-publication` 的谓词为 `has_subject`，但原来把文章 `cand-7604` 放在object、subject留空，与受控domain/range方向相反。现更正为subject=`cand-7604`、object=null；保留原claim、`original_quote`、引文、范围说明和缺端点理由。新增文献mention `m-s2-chp8-p212-n2-longhi-article-20261031`，跨度`[4724,4762)`；新增 `m-s2-chp8-p213-n1-longhi-article-20261031`，跨度`[5952,5967)`。p.213已有的人物mention `m-chp8-p212-214-notes-038` 保留；文献引文与作者mention重叠但指向不同对象。
 
-Paceco de Rosa画作没有题名、数量或可界定的作品组身份，仍无work KU；p.213没有对应 `relations.csv` 正式裁决，不新增S6边，保持pending。p.212两项已裁决关系未改；未改写其他历史S6裁决。此次为当前代理定向核查，不是独立复核，9,622统一复核台账不变。statement为15,483条；mention增至26,877条。相对基线的mention差异更新为新增28、删除21、同ID内容变化23。
+Paceco de Rosa画作没有题名、数量或可界定的作品组身份，仍无work KU；p.213没有对应 `relations.csv` 正式裁决，不新增S6边，保持pending。p.212两项已裁决关系未改；未改写其他历史S6裁决。此次为当前代理定向核查，不是独立复核，9,622统一复核台账不变。statement为15,486条；mention增至26,878条。相对基线的mention差异更新为新增28、删除21、同ID内容变化23。
 
 ### 2026-10-31 S2台账增量核平：第7章 p.189五条statement
 
@@ -13857,9 +13857,9 @@ Paceco de Rosa画作没有题名、数量或可界定的作品组身份，仍无
 
 `knowledge.md#s3-chp1-ch5-ch8-art-exhibitions-20261029`记录该批第二轮独立复核已确认 `st-chp8-p240-exhibition-as-art-direction` 的指代、procedure mention、S3端点与 `rel-2643 uses_procedure`。为确认该复核版本仍对应当前数据，以提交 `0908338be8fa8364767387896bc167e5c5ba6b66` 的表版本为锚点，与当前表逐行比较：statement完整JSON对象一致；来源segment记录一致；该segment的17条mention行（含 `m-s2-chp8-p240-20261029-procedure`）全部一致；`rel-2643`关系行一致。第8章S0 Markdown及 `CHP-8.pdf` 的Git blob也分别一致，SHA-1 blob分别为 `3d06d52be0860626d4a3b01bc985273636879ef0` 与 `3c745eb57bc3fcd2b5f8b1a1a8b09f540f933a03`。因此本次只确认已记录的独立复核覆盖当前statement和来源版本，不新增语义判断、不改S6裁决，也不据此增减9,622条统一台账；该statement与台账的逐ID归属仍待整体核平。
 
-### 2026-10-31 S2版本核平：第2章和结论10条旧审读记录
+### 2026-10-31 S2版本核平：第2章和结论11条旧审读记录
 
-对照独立审读快照提交 `2273e2743158401b841fb9bc7b7d1332836d400a`（[第1、2、4章记录](s2-independent-review-chp1-2-4-20261020.md)、[第13–17章及结论记录](s2-independent-review-chp13-17-20261020.md)），下列10条statement当前完整对象均已变化，旧审读不能作为当前版独立接收。对应四个S0 Markdown文件、`CHP-2.pdf`、`CHP-18Conclusion.pdf` 的Git blob均与该提交相同；各源segment记录也均相同。Markdown blob依次为：第2章 sec ii `adc9482a1372b978145687a134884def0b702148`、sec iv `c576524fd7cd086091534ba3067a0ab9176ded58`、sec vii `f5382152fe14f0c535459658cb632de016ef83d5`、第18章结论 `27c43e0cfda02de1310f7de64a3d572636777916`；两章PDF blob分别为 `437bbe41236a6562594722a2cac4f012fe6197ac`、`9a64c8613f3f1ca4962b86f8b34f8f6a59361593`。这确认旧审读使用的来源版本未漂移，但不替代对修订后statement及mention的独立复核。
+对照独立审读快照提交 `2273e2743158401b841fb9bc7b7d1332836d400a`（[第1、2、4章记录](s2-independent-review-chp1-2-4-20261020.md)、[第13–17章及结论记录](s2-independent-review-chp13-17-20261020.md)），下列11条statement当前完整对象均已变化，旧审读不能作为当前版独立接收。对应四个S0 Markdown文件、`CHP-2.pdf`、`CHP-18Conclusion.pdf` 的Git blob均与该提交相同；各源segment记录也均相同。Markdown blob依次为：第2章 sec ii `adc9482a1372b978145687a134884def0b702148`、sec iv `c576524fd7cd086091534ba3067a0ab9176ded58`、sec vii `f5382152fe14f0c535459658cb632de016ef83d5`、第18章结论 `27c43e0cfda02de1310f7de64a3d572636777916`；两章PDF blob分别为 `437bbe41236a6562594722a2cac4f012fe6197ac`、`9a64c8613f3f1ca4962b86f8b34f8f6a59361593`。这确认旧审读使用的来源版本未漂移，但不替代对修订后statement及mention的独立复核。
 
 | 当前statement | 相对审读快照的变化 | 当前关系及历史去向 |
 |---|---|---|
@@ -13870,13 +13870,14 @@ Paceco de Rosa画作没有题名、数量或可界定的作品组身份，仍无
 | `st-chp2-seciv-l139-152-tessin-account-locator-and-date` | 更新claim、限定和提及候选。 | formal `rel-2483 authored_by`；图书馆位置继续pending，日期只是Haskell推定。 |
 | `st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned` | 补全statement提及候选；该segment 60条mention中26条同ID内容变化：25条note变化、2条candidate映射变化（其中1条两字段均变）。 | formal `rel-2460 owned_by`，仅记录Haskell转述的历史所有权，不表示现时产权或现藏。 |
 | `st-chp2-secvii-l3-3-parma-consequences-fragment` | 对象从Parma实体 `cand-4905` 改为公爵Odoardo `cand-0996`；mention `m-chp2-secvii-l3-19-0004`同步改候选映射和说明。 | formal `rel-2506 has_participant`，仅记录原文所称争端一方。 |
+| `st-chp18-conclusion-p384-salvator-rosa` | claim与endpoint保持来源限定；独立复核发现精确宾语提及“artistic conformity”缺失，现增mention `m-chp18-conclusion-p384-salvator-rosa-artistic-conformity` `[1809,1828)`。 | 无formal S6关系；修订后的mention与statement待独立回核。 |
 | `st-chp18-conclusion-p384-bamboccianti` | 移除社会趋同术语端点，`relation_candidate`改为false。 | 原process-only pending不再作为关系候选；不记rejected。 |
 | `st-chp18-conclusion-p384-crespi-and-medici-prince` | claim、predicate及原引句收窄到“带动一位未具名王子”的原文分句。 | 继续process-only pending；原文习语无忠实受控谓词，王子身份未定。 |
 | `st-chp18-conclusion-p384-social-demands-and-originality` | 移除 Italy 与社会压力论断之间的错误端点，`relation_candidate`改为false。 | 原statement不再作关系证据；`rel-2432 site_of_manifestation`当前由新statement `st-chp18-conclusion-p384-italian-art-context-social-conformity`支持。 |
 
-mention集合核对未发现新增或删除：第2章p.36、p.39、p.56、结论p.384相关segment的mention行与审读快照相同；第2章p.57注3有26条mention同ID变化，第2章p.58有1条mention候选映射/说明变化。当前表中可追溯到这10条statement的5条formal关系为`rel-2460`、`rel-2470`、`rel-2471`、`rel-2483`、`rel-2506`；另核对了`rel-2432`的证据改绑及两个process-only pending去向。以上仅完成审读版本与表、来源和S6影响的核平，不是修订后版本的独立语义复核，也不据此增减9,622条统一台账；这10条的当前版独立差异复核和台账归属仍待处理。
+修订前快照的mention集合核对未发现新增或删除：第2章p.36、p.39、p.56、结论p.384相关segment的mention行与审读快照相同；第2章p.57注3有26条mention同ID变化，第2章p.58有1条mention候选映射/说明变化。当前表中可追溯到这11条statement的5条formal关系为`rel-2460`、`rel-2470`、`rel-2471`、`rel-2483`、`rel-2506`；另核对了`rel-2432`的证据改绑及两个process-only pending去向。以上仅完成审读版本与表、来源和S6影响的核平，不是修订后版本的独立语义复核，也不据此增减9,622条统一台账；这11条的当前版初轮独立差异复核随后发现3项需修订；修订前快照不能覆盖修订后statement/mention，当前版本仍待独立差异复核及台账归属核平。
 
-### 2026-10-31 S2修订版原页定向复核：第2章与结论10条（当前代理自查）
+### 2026-10-31 S2修订版原页定向复核：第2章与结论11条（当时代理自查，非独立接收）
 
 当前statement、claim、提及和关系端点逐项对照S0分节，并查看原页图：`CHP-2.pdf` physical pp.17、20、41、46、47（印刷pp.36、39、56、57、58）及 `CHP-18Conclusion.pdf` physical p.1（印刷p.384）。p.36原文支持工程耗时和Urban VIII作为时间参照；p.39原文支持Marcello雇用Pietro、Pietro诠释已选题材并调整装饰方案，职业评价“found his true road”与关系claim分开；p.56注2区分Tessin账户的书内作者归属、推测年代、馆藏定位及Montagu一次性提供线索；p.57注3支持Haskell转述Bellori所记历史所有权；p.58与索引共同支持War of Castro争端方为Odoardo，不扩展为其军事指挥或领土权属。p.384页图支持Bamboccianti转向感伤主义、Crespi未具名王子习语及社会要求论述；`life`校读已有记录。没有发现需进一步更改这些claim、端点或现有S6去向的语义依据。
 
@@ -13951,3 +13952,22 @@ mentions按来源记录范围核对：两个相关source segment共311条mention
 
 受控写回脚本`reconcile_s1_backlog_candidates_20261031.py`先dry-run，再核对候选表与backlog前置SHA并应用；恢复副本保存在`06-runtime/recovery/s1-backlog-candidates-20261031/`。新增候选`cand-12460`–`cand-12463`并写回4条backlog映射；`candidate-backlog.csv`现有91条中88条关联候选、3条因对象仍不可识别而保持空`candidate_id`。候选表当前12,441条（2,934索引、9,507非索引），图版85条、书目256条；未登记KU、未改变S3决定或S6裁决。关系影响核对：`rel-1983` Toesca可能引文与`rel-2044` Contarini壁画地点仍为pending；`rel-2558`仅为Piazzetta创作关系，保持formal，第一版端点关系仍待证；Contarini报告未新增formal边。严格表审计输出`errors=[]`、`s2_missing=[]`；这只是结构与来源引用检查，不构成新增候选的S3身份裁决。
 *** End of File
+
+
+### 2026-10-31 S2 current-diff independent reviews and corrective changes
+
+Clean-context review covered Chapter 2/Conclusion (original 11 changed rows plus four omitted rows checked on follow-up), Chapter 17 (17 changed plus 7 added rows), and 24 rows in Chapters 13/14/16. The reviewers read the specified current tables, S0 sections, and physical page images; no reviewer modified repository files. These reviews are item-level current-version checks, not full-book S2 acceptance and do not add rows to the unresolved 9,622 aggregate ledger.
+
+The Chapter 2/Conclusion review confirmed p.36 quote cutoff, Tessin date and authorship split, the source-reported repository locator, Bellori’s historical ownership report, and the current Rosa/Crespi claims. It found that both p.39 predicates pointed opposite the S2 subject/object order; p.58 combined the War of Castro–Duke dispute with Haskell’s evaluation; the p.56 scan does not settle the repository-subdivision abbreviation; and the Rosa/Crespi predicate names should be generalized while their evaluative claims remain in full. The four follow-up rows confirmed the Bellori relation and the limited rel-2506 dispute role; they independently found the two p.39 predicate-direction problems and the Parma statement-composition problem. The statement predicates and p.58 statement were revised. Existing formal rel-2470, rel-2471, rel-2460, and rel-2506 remain, with source scope preserved. `rel-2644 located_at` remains pending; no current-holdings claim is added. Rosa and Crespi remain process-only pending without formal edges.
+
+The Chapter 17 review found 18 pass, 3 revise, and 3 pending among 24 rows. The p.380 print reads `sperti`, not the expanded `esperti`; its `quest’arte` mention had been incorrectly attached to the Moschini archive. The p.379 note-1 citation statement lacked the `Meschini`→`Moschini` OCR correction, and note 2 lacked `XVI, ossiano` and `Impressario` corrections. These three rows were revised against CHP-17.pdf physical pages 1–2. A source-local term candidate `cand-12464` and S3 `undecided` row now anchor `quest’arte`; it remains separate from cand-10681 (the cited archive) and cand-12423 (Haskell’s separately bounded painting-history term). The gallery/collection endpoint cand-1513, unidentified 1810 citation, and unresolved Tassini author remain pending. Existing `rel-2303` remains only a book citation; no collection-membership edge is inferred.
+
+The Chapters 13/14/16 review found 21 pass, 2 pending, and 1 revise among 24 rows. At p.333, Barbarigo’s instructions through Gozzi are supported as a source claim, but no controlled relation expresses the intermediary role; no publisher or general employment edge is inferred, so the S6 destination remains process-only pending. At p.334, `he himself` remains ambiguous between Almorò and Giambattista; the statement subject is now unset and no editor edge is formalized. At p.342, Giovanni da Bologna remains an unresolved source form and no authorship edge is added. At p.349 note 3, two exact OCR-grounded mentions were added for the title and dated issue, the explicit footnote link to `st-chp14-p349-not-altogether-well-received` was recorded, and 12 April 1738 is retained as the print reading. The issue candidate cand-10261 remains S3-unresolved; the warning relation has no faithful controlled predicate and remains pending without a formal `relations.csv` row. The reviewed formal rows for the other items remain unchanged.
+
+Current table totals after these changes are 15,487 statements and 26,880 mentions. Revised rows require a new independent current-version check before they can count as reviewed.
+
+### 2026-10-31 第14章 p.349 当前版本修订补记
+
+复核指出新加的标题提及`m-s2-ch14-p349-20261031-001`误挂到Newtonianismo书名候选；已据注3原文改映`cand-9988`周刊候选，具体刊期`cand-10261`与正文所论书名`cand-10258`仍各自独立。候选alignment及KU均已存在，本次仅修正mention外键及statement中已过时的“刊期未对齐”限定，没有改变S3决定、S4登记或relations.csv。由于现有受控类型不能保留“刊期警示读者谨慎阅读该书表达”的言语行为，关系保持process-only pending；不得用`has_subject`或`cites`替代。该修订做了原文位置、候选映射和关系历史定向检查；新当前版本仍须纳入独立语义复核，不能计入9,622条统一台账。
+
+同批S3排队项：`cand-0024`同时存在`aln-0359 new`及`aln-12650 same`且同映射Almorò Albrizzi KU。保留两行，待按来源证据和决定历史核平。

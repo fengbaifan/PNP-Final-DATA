@@ -12,13 +12,13 @@ sources:
       - source_span: "print p. 56 n. 2; PDF physical p. 41; lines 150–151"
         text: |-
           of the many travellers’ accounts the fullest is that by Nicodemus Tessin the Younger and must date from 1687-8—Stockholm,
-          Kungliga Biblioteket, Handskriftsavd. S.41.
+          Kungliga Biblioteket, Handskriftsand S.41.
     evidence_ref:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/02_CHP-2_sec_iv.md
       source_span: "lines 150–151; print p. 56 n. 2; PDF physical p. 41"
 created: '2026-10-28'
-updated: '2026-10-28'
+updated: '2026-10-31'
 process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-s5-s6-chp2-p56-tessin-traveller-account-20261028
 ---
 
@@ -26,9 +26,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡登记Haskell第2章脚注所述的Nicodemus Tessin the Younger旅行记，描述性名称并非原文题名。脚注称其为所述旅行记中最完整的一种，并以“must date from”推测其年代为1687–1688；同一注释把一份副本定位于斯德哥尔摩Kungliga Biblioteket，所印馆藏定位为“Handskriftsavd. S.41.”。这些均是Haskell的书内报告；本卡不声称查阅原件、确认准确日期或核实该副本当前仍在馆。
+**中文：** 本卡登记Haskell第2章脚注所述的Nicodemus Tessin the Younger旅行记，描述性名称并非原文题名。脚注称其为所述旅行记中最完整的一种，并以“must date from”推测其年代为1687–1688；同一注释把一份副本定位于斯德哥尔摩Kungliga Biblioteket，并给出S.41。原页图无法可靠辨认机构名称后的缩写；S0 OCR作“Handskriftsand”，此前规范为“Handskriftsavd.”的判断撤回，暂不将其作为已确认印文。本卡不声称查阅原件、确认准确日期或核实该副本当前仍在馆。
 
-**English:** This card records the travel account by Nicodemus Tessin the Younger described in Haskell’s Chapter 2 note; the descriptive title is not a title supplied by the source. Haskell calls it the fullest of the travellers’ accounts under discussion and says it “must date from” 1687–1688. The same note locates a copy at Stockholm’s Kungliga Biblioteket and prints the locator “Handskriftsavd. S.41.” These are reports in Haskell’s book; this card does not claim to have consulted the manuscript, establish an exact date, or verify present holdings.
+**English:** This card records the travel account by Nicodemus Tessin the Younger described in Haskell’s Chapter 2 note; the descriptive title is not a title supplied by the source. Haskell calls it the fullest of the travellers’ accounts under discussion and says it “must date from” 1687–1688. The same note locates a copy at Stockholm’s Kungliga Biblioteket and gives shelfmark S.41. The page image does not reliably resolve the abbreviation after the institution name; the S0 OCR reads “Handskriftsand,” and the earlier normalization to “Handskriftsavd.” is withdrawn pending clearer evidence. This card does not claim to have consulted the manuscript, establish an exact date, or verify present holdings.
 
 ### 来源所载信息
 
@@ -36,7 +36,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 |---|---|---|
 | 文献类型 | 旅行记／旅行者记述（Haskell称 travellers’ accounts） | S1；第2章 p.56 注2，L150–151。 |
 | Haskell所述年代 | 约1687–1688年；“must date from”为Haskell推测，不是确切日期。 | S1；第2章 p.56 注2，L150–151。 |
-| Haskell所印副本定位 | Stockholm, Kungliga Biblioteket, Handskriftsavd. S.41.；保留印刷缩写，不扩展为现代馆藏号。 | S1；第2章 p.56 注2，PDF物理页41；已对照印刷页。 |
+| Haskell所报副本定位 | Stockholm, Kungliga Biblioteket, [department abbreviation uncertain] S.41.；不扩展为现代馆藏号。 | S1；第2章 p.56 注2，PDF物理页41；机构与S.41可辨，缩写待证。 |
 
 ## 关系与证据
 

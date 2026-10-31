@@ -35,11 +35,11 @@
 <a id="s4-s5-s6-chp2-p56-tessin-traveller-account-20261028"></a>
 ### S3沿用／S4／S5／S6：第2章 p.56 Tessin 旅行记与图书馆定位（2026-10-28）
 
-**来源校读与S2当前版本。** 对照 Haskell 印刷页56注2（PDF物理页41）后，确认纸本写作“and of the many travellers’ accounts … Stockholm, Kungliga Biblioteket, Handskriftsavd. S.41.”；Markdown OCR 对应两处为“and ofthe”和“Handskriftsand”。来源资产保持不变。修订两条现有 statement 的 `mentioned_candidate_ids`：Montagu 致谢段为 `cand-1687`、`cand-4784`；Tessin 旅行记段为 `cand-2555`、`cand-4784`、`cand-4788`、`cand-4790`。没有新增 mention 或 statement。第二条 `original_quote` 保留与不可改写 Markdown 源段一致的 OCR 原文，印刷校读及其限定写入 qualifier；卡片的书内 locator 字段采用纸本实际拼写。两个当前 statement 版本均待独立差异复核，不计入S2统一复核分子，也不构成本节或第2章接收。
+**来源校读与S2当前版本。** 对照 Haskell 印刷页56注2（PDF物理页41）后，确认页图可读“and of the many travellers’ accounts”及“Stockholm, Kungliga Biblioteket, S.41”；机构名后的缩写在当前图像中无法可靠辨认。Markdown OCR对应“and ofthe”和“Handskriftsand”。撤回此前将后者规范为“Handskriftsavd.”的肯定校读；来源资产保持不变，原始OCR留作依据。修订两条现有 statement 的 `mentioned_candidate_ids`：Montagu 致谢段为 `cand-1687`、`cand-4784`；Tessin 旅行记段为 `cand-2555`、`cand-4784`、`cand-4788`、`cand-4790`。没有新增 mention 或 statement。第二条 `original_quote` 保留与不可改写 Markdown 源段一致的 OCR 原文；只保留可辨的机构与S.41，不将缩写猜读写入statement或卡片字段。两个当前 statement 版本均待独立差异复核，不计入S2统一复核分子，也不构成本节或第2章接收。
 
 **S3与S4。** 不触发S3重开：`cand-4784` 已有 archive `new` 组 `archive-group-ab2eafb3a9e7`，`cand-4788` 已有 institution `new` 组 `sg3-institution-cand-4788`，本批分别完成 `aln-4967`、`aln-4971` 的S4映射。`cand-4790` 复用已登记 Stockholm place KU。两项新增知识元分别为[泰辛旅行记 archive 卡](../../../04-knowledge/units/archives/nicodemus-tessin-traveller-account-barberini-palace.md)与[Kungliga Biblioteket institution 卡](../../../04-knowledge/units/institutions/kungliga-biblioteket-stockholm.md)；描述性文献名不是原题，未把它并入 Orbaan 1920 文集或人物 KU。
 
-**S5字段。** 新增 `enr-18531`–`enr-18533` 三条 Haskell 书内字段：文献类型为旅行记／旅行者记述；年代约1687–1688年，明确保留“must date from”的推测语气；副本 locator 按纸本原样保留“Stockholm, Kungliga Biblioteket, Handskriftsavd. S.41.”。缩写未扩展为现代索书号；没有声称已查阅原件、确认确切年代或核实当前馆藏。
+**S5字段。** 新增 `enr-18531`–`enr-18533` 三条 Haskell 书内字段：文献类型为旅行记／旅行者记述；年代约1687–1688年，明确保留“must date from”的推测语气；副本 locator 保留为“Stockholm, Kungliga Biblioteket, [department abbreviation uncertain] S.41.”；缩写未扩展为现代索书号，没有声称已查阅原件、确认确切年代或核实当前馆藏。
 
 **S6逐项去向。**
 
@@ -50,6 +50,18 @@
 | 同一复合语境中的“Stockholm, Kungliga Biblioteket, Handskriftsavd. S.41.”定位子命题 | pending；不单列为新增S2 statement或额外S6台账项 | 作为S5书内locator保留。`held_by`的domain不允许archive主体；`located_at`在`01-domain/relation-domain-range.yml`标记`needs_split`。没有增加archive→institution正式边，也不声称副本目前仍在馆。 |
 
 **投影与核验。** 定向卡片预览确认 archive 卡新增 `authored_by` 出边、人物卡新增反向投影；institution 卡没有被错误投影为正式保管边。S5复预览 `record_changes=0`、`new_ids=0`、`removed_ids=0`、`warnings=0`。严格表审计：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性五类阻断均为0。S2总量不变为15,469 statements／26,872 mentions；统一独立复核台账9,622条且ID与来源版本仍未核平。批后KU=3,266；S4映射2,486/5,088；S5=14,619（1,627条`unverified`）；S6裁决记录1,993项（1,179 formal、682 pending、132 rejected），当前`relation_candidate=true`为10,672，历史裁决台账与当前statement版本差1，不据此报告完成率；关系表2,482行（2,442 formal、40 pending）；backlog 58条（15 completed、43 undecided）。S3主决定及28个候选／35条来源决定差异不变；337条关系statement至少缺一个S2端点候选ID。结构审计不构成S2独立接收或全书S3–S6收口。
+
+
+<a id="s2-independent-diff-repair-ch2-ch18-20261031"></a>
+### S2修订：第2章p.36、p.56与结论p.384（2026-10-31）
+
+**独立差异复核与修订依据。** 对旧审读快照中第2章7条及结论4条当前statement作独立差异复核。第2章p.36（印刷页36，PDF物理页17）原statement的 `source_line_end=59`，但 `original_quote` 越过句号并带入下一句开头“Most important… He”；现截断在“throughout Europe.”，来源行范围、claim、时间限定及非关系判断不变。p.39三项及p.57、p.58各一项通过；p.56注2复合谓词及p.36引句需修订。结论p.384四项中，Bamboccianti、社会要求论和Crespi语句通过；Rosa语句的原文claim与端点合理，但 `mentions.csv` 漏记宾语精确短语“artistic conformity”。依据S0结论段第11行及印刷页384（PDF物理页1），新增mention `m-chp18-conclusion-p384-salvator-rosa-artistic-conformity`，candidate=`cand-10735`，偏移 `[1809,1828)`；原来的社会要求和后续作家“conformity”提及均保留且不互代。该mention和p.36修订版本仍待另一轮独立复核。
+
+**p.56注2原子化及历史S6影响。** 原statement `st-chp2-seciv-l139-152-tessin-account-locator-and-date` 将“所述旅行记中最完整”“由Tessin撰写”“推测年代1687–1688”及“Stockholm, Kungliga Biblioteket, Handskriftsavd. S.41”合为一项。对照S0 L150–151、印刷p.56注2（PDF物理页41）后，保留旧ID仅表示Haskell的推测年代，另增：`st-chp2-seciv-l139-152-tessin-account-fullest`、`-tessin-account-authorship`、`-tessin-account-repository-locator`。原OCR引文仍与S0一致；locator statement单独记录`Handskriftsand`→`Handskriftsavd.`页图校读，不将来源所报书目定位写成当前馆藏事实。S3既有`cand-4784` archive与`cand-4788` institution决定及KU不变；`rel-2483 authored_by`保持formal，只把`source_span`精确改绑到作者归属statement。新增`rel-2644 located_at`为pending，因为domain/range表将该多义用法标记`needs_split`；不投影成正式现藏边。日期保留Haskell“must date from”的推断限定，未声称查阅原件或确认年代。
+
+**Montagu来源指引。** `st-chp2-seciv-l139-152-montagu-points-author-to-tessin-account`保留候选端点和一次性学术指引claim。现行受控词表没有忠实表达“指给作者该记述并展示影印件”的谓词与方向；故继续标为process-only pending，不改成作者、所有权、保管、advice或持续合作，也不建formal边。其S2记录明确为pending，但`relations.csv`无此关系行；S6后续核词表/表格覆盖时应继续保留这个差异，不以`rel-2483`作者边替代。
+
+**总数与状态。** 本次净增3条statement和1条mention；所有新增及更改版本均不计入统一独立复核分子9,622，不能据此宣称S2接收。除`rel-2483`证据定位更新和`rel-2644`pending定位边外，历史裁决未变；Rosa当前没有formal S6边。详见`stages.md`的第2章/结论差异复核记录。
 
 <a id="s3-s4-s5-s6-chp7-p201-lower-belvedere-endpoint-20261028"></a>
 ### S3/S4/S5/S6：第7章 p.201 Lower Belvedere 地点端点（2026-10-28）
@@ -18845,3 +18857,18 @@ S0及页图为依据，本批不改写来源。保留statement ID和历史裁决
 | `st-chp8-p240-ferdinand-displayed-policy-to-sacconi` | process-only pending。原文说Ferdinand将同一policy用于Sacconi，但受控词表没有忠实的人物→人物“对某人施行策略”谓词，且没有识别具体作品或展示；不推成赞助或实际展览。可作Ferdinand→展览指导procedure边的补充上下文，但Sacconi不是程序端点。 |
 
 `st-chp5-p129-decorative_use`、`st-chp5-p129-exhibitions_introduced_alien_cultures`、`st-chp5-p129-four_annual_exhibitions`继续process-only pending：分别缺少忠实谓词及单件媒介端点、边界明确的文化对象、四个可区分展览系列；没有新增S6表行，未将证据缺口判成反证或rejected。`rel-0299`历史行未改写；`rel-2643`是本批唯一新增formal行。其余7条术语卡原有关系候选照旧，需分别完成S6审查。第二轮独立复核确认两条procedure mention及端点指向、rel-0299复用、rel-2643正式关系和关系卡投影均与原文及KU类型相符；另按复核建议收窄`them`的待证说明，局部优先指常规展览并保留是否含临时展览的歧义。全部新增mention均不计入9,622统一台账计数。
+
+
+### S2/S3/S6 corrective cross-reference updates (2026-10-31)
+
+`cand-12464` records the source-local term “art as named in Moschini’s p.380 gallery description,” anchored to the quotation’s `quest’arte` mention. Its alignment `aln-12791` is `undecided`: no same-type identity evidence supports merging it with Haskell’s separate cand-12423 painting-history scope, and it is not the Moschini archive cand-10681. This candidate was added to repair an existing wrong mention mapping; it is not a KU registration.
+
+S6 effects remain bounded: rel-2470, rel-2471, rel-2460 and rel-2506 remain formal with corrected S2 direction/scope; rel-2644 remains pending; p.333 Barbarigo/Gozzi mediation, p.334 ambiguous weekly-editor attribution, p.349 issue-to-work warning, and Rosa/Crespi authorial evaluations remain pending without unsupported formal edges. p.349 now has exact title/date mention anchors and the body-to-note path, but cand-10261 must first receive an S3 identity decision and no controlled warning predicate currently fits. The uncertain p.56 repository abbreviation is withdrawn from the S5 locator normalization; the institution and S.41 source locator remain recorded, and rel-2644 does not assert present holdings.
+
+### 2026-10-31 第14章 p.349 刊期标题提及回映与S3差异补记
+
+**原文依据与mention修正。** 第14章印刷页349注3（CHP-14.pdf物理页3；S0 segment `chp-14:14_CHP-14_intro:l168-220`）称“Albrizzi’s Novelle della Repubblica delle Lettere”并引述1738年4月12日刊期的警示。mention `m-s2-ch14-p349-20261031-001`原误映到《Newtonianismo per le Dame》书名级候选`cand-10258`，现改映到周刊候选`cand-9988`；刊期日期mention仍映到具体刊期候选`cand-10261`。脚注3仍通过`st-chp14-p349-not-altogether-well-received`回指正文所论书名`cand-10258`。原S0引文保留OCR的1758读法，当前校正仍以印本1738为准。
+
+**S3/S4与关系影响。** `cand-9988`（`aln-10160`）、`cand-10261`（`aln-10433`）及`cand-10258`（`aln-10430`）已有各自source-local `new`决定和S4映射；本次不改这些身份组、KU卡或历史对齐行。此前statement称刊期“仍未对齐”的限定已在当前版本改正。Haskell转引的警示指向书中表达，但受控关系类型不能忠实保留该警示言语行为；`has_subject`会扩大为一般题材边，`cites`会改变断言。故不新增formal关系，关系候选保持process-only pending，缺口现为谓词忠实性及未独立查阅刊期／周刊，不是端点缺失。既有S6历史行未改。
+
+**S3待核差异。** 独立复核另发现`cand-0024`在`aln-0359`有`new`决定、在`aln-12650`有`same`决定，二者均映射`units/persons/almoro-albrizzi`。现保留两条来源决定和组号，不擅自合并或覆盖；列入后续S3来源决定/组号核平，检查决定发生次序及同一性依据。
