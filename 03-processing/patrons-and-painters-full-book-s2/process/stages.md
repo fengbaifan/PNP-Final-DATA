@@ -14025,24 +14025,113 @@ statement st-chp14-p349-note3-albrizzi-issue通过：原文引述支持“劝读
 
 | 章节 | statement快照→当前 | statement修改/新增/删除 | mention快照→当前 | mention修改/新增/删除 | segment记录 |
 |---|---:|---:|---:|---:|---:|
-| 第1章 | 521→522 | 3/1/0 | 710→711 | 0/1/0 | 30条，均未变 |
-| 第2章 | 1,441→1,464 | 55/24/1 | 2,896→2,901 | 9/5/0 | 75条，均未变 |
-| 第4章 | 1,082→1,097 | 47/15/0 | 1,680→1,691 | 3/11/0 | 40条，均未变 |
+| 第1章 | 521→522 | 3/1/0 | 710→711 | 15/1/0 | 30条，均未变 |
+| 第2章 | 1,441→1,464 | 55/24/1 | 2,896→2,901 | 29/5/0 | 75条，均未变 |
+| 第4章 | 1,082→1,097 | 47/15/0 | 1,680→1,691 | 19/11/0 | 40条，均未变 |
 
 上述源段记录未变，严格表审计也确认当前源资产哈希匹配。三章原始影印PDF从复核快照到当前均逐字节相同：CHP-1 SHA-256 `0b9a3ca88e6f09209bd20185948e18a68f527d0628e893940a7e3f07f6d22c86`；CHP-2 `317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；CHP-4 `2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303`。因此差异来自表格版本，而非本批正文或PDF来源漂移。
 
 第1章三条修改中，`st-chp1-secii-l48-60-07`仅在正文与脚注交叉链接中加入新statement；`st-chp1-secii-l657-n1-cites-malvasia-vol2-p27`仅更新关系交接说明，原claim、引文、谓词和端点未变；`st-chp1-secii-l917-926-02d`改为使用procedure候选`cand-3141`并收窄限定，已在2026-10-29 Art exhibitions独立复核中核过，原formal `rel-0299 uses_procedure`未变。新增`st-chp1-secii-p12-n1-cites-grassi-1957`与印刷页12注1对应，CHP-1.pdf物理页11可读到“L. Grassi published in 1957”及其文献定位；本次定向语义自查未发现statement或relation端点需修改，但尚无该新增statement的独立复核。`rel-2095 cites`为后续新增并继续formal；新statement对应`rel-2150 cites`，只记录Haskell引注，不声称独立读过被引论文。第1章在该基线下无同ID mention 修改或删除，仅新增procedure mention m-s2-chp1-p22-20261029-procedure；该跨度已在Art exhibitions独立复核中核对。
 
-三章合计statement同ID修改105条、新增40条、删除1条；mention修改12条、新增17条、删除0条。第2章当前79条修改/新增statement中，10条已在本次独立盲审范围内逐项审阅；本次还独立盲审第18章结论2条。第4章当前62条修改/新增statement及14条mention差异尚未全部完成基线回映；当前独立盲审已覆盖p.102、p.114、p.115的5条statement和p.117的12条statement，剩余差异须继续按ID核平。
+三章合计statement同ID修改105条、新增40条、删除1条；mention同ID修改63条、新增17条、删除0条。第2章当前79条修改/新增statement中，10条已在本次独立盲审范围内逐项审阅；本次还独立盲审第18章结论2条。第4章当前62条修改/新增statement及30条mention差异尚未全部完成基线回映；当前独立盲审已覆盖p.102、p.114、p.115的5条statement和p.117的12条statement，剩余差异须继续按ID核平。
 
 本回映不调整9,622条历史汇总数，不把旧快照审阅自动计为当前版接收，也不表示三章或S2整体接收。下一步按剩余statement和mention ID匹配后续复核证据，并将历史复核aggregate逐项核平到当前ID和来源版本。
 
 <a id="2026-10-31-s2-crosswalk-mention-count-correction"></a>
 ### 2026-10-31 S2复核快照回映的mention计数更正
 
-复核上方三章版本表时，发现先前把mention差异计为第1/2/4章15/29/18条修改、合计62条，不能由所声明的基线提交2273e2743158401b841fb9bc7b7d1332836d400a与当前mentions.csv逐行复现。现按mention_id比较两版完整CSV行，确认第1/2/4章分别为0/1/0、9/5/0、3/11/0（修改/新增/删除），总计12/17/0。撤回先前62条修改的回映统计；statement差异为105条同ID修改、40条新增、1条删除。三章mention行数为710→711、2,896→2,901、1,680→1,691。
+复核上方三章版本表时发现，先前统计15/29/18条mention修改（合计62）及随后更正为11/15条修改的结果都不能反映当前CSV全行差异。重新从基线提交2273e2743158401b841fb9bc7b7d1332836d400a读取mentions.csv，与当前表按mention_id比较完整行，确认第1/2/4章分别为15/1/0、29/5/0、19/11/0（同ID修改/新增/删除），总计63/17/0。statement差异为105条同ID修改、40条新增、1条删除；mention总行数为710→711、2,896→2,901、1,680→1,691。
 
-另按当前S0源段逐条核对三章29条新增或同ID变化mention，surface span均精确且candidate外键均存在。此项是机械锚点核验，不代替语义复核。这一更正不改变9,622条历史独立复核汇总，也不自动把任何改动判为已独立复核。第1章新增procedure mention已有独立复核；第2章14条mention差异已逐项记录在下方复核交叉表；第4章14条差异中，当前独立审阅范围与基线的逐ID交集尚需继续核定。
+先前声称的29条差异mention均已完成span及candidate核验，因其分母错误而撤回。当前40条独立审阅mention的跨度与候选已单独核对，基线状态为38 unchanged、1 same-ID changed、1 added；这40条不是三章全部80条mention差异的替代。80条差异mention仍需逐ID匹配独立审阅证据并核对原文span；已确认的交集包括第1章新增procedure mention、第2章Duke of Parma候选修订、第4章p.114题名子提及及p.117三条变化/新增mention。本更正不改变9,622条历史聚合数，也不自动把任何表格变化判为独立复核。
+
+#### Current 80 mention-row differences (Chapters 1, 2, and 4)
+
+Compared full mention rows by stable ID between baseline 2273e2743158401b841fb9bc7b7d1332836d400a and current table snapshot affb5a7406017aa8dc0bf7b27860a29da4e214dd. A pending mapping means no exact independent-review link is recorded here; it does not assert the item was never reviewed.
+
+| Chapter | Mention ID | Baseline status | Current segment | Current span | Candidate baseline -> current | Review mapping |
+|---|---|---|---|---:|---|---|
+| CHP-1 | m-chp1-seci-0010 | changed | chp-1:01_CHP-1_sec_i:l3-13 | [1002,1012) | cand-3061 -> cand-3061 | pending mapping |
+| CHP-1 | m-chp1-seci-0013 | changed | chp-1:01_CHP-1_sec_i:l3-13 | [1871,1881) | cand-3104 -> cand-3104 | pending mapping |
+| CHP-1 | m-chp1-seci-0030 | changed | chp-1:01_CHP-1_sec_i:l15-24 | [1332,1345) | cand-3102 -> cand-3102 | pending mapping |
+| CHP-1 | m-chp1-seci-0049 | changed | chp-1:01_CHP-1_sec_i:l15-24 | [2627,2644) | cand-2999 -> cand-2999 | pending mapping |
+| CHP-1 | m-chp1-seci-0067 | changed | chp-1:01_CHP-1_sec_i:l26-33 | [1900,1922) | cand-3132 -> cand-3132 | pending mapping |
+| CHP-1 | m-chp1-secii-0038 | changed | chp-1:01_CHP-1_sec_ii:l28-38 | [970,989) | cand-3429 -> cand-3429 | pending mapping |
+| CHP-1 | m-chp1-secii-0052 | changed | chp-1:01_CHP-1_sec_ii:l40-46 | [174,203) | cand-3438 -> cand-3438 | pending mapping |
+| CHP-1 | m-chp1-secii-0191 | changed | chp-1:01_CHP-1_sec_ii:l118-127 | [2380,2397) | cand-3045 -> cand-3045 | pending mapping |
+| CHP-1 | m-chp1-secii-0192 | changed | chp-1:01_CHP-1_sec_ii:l118-127 | [2461,2478) | cand-2997 -> cand-2997 | pending mapping |
+| CHP-1 | m-chp1-secii-0194 | changed | chp-1:01_CHP-1_sec_ii:l118-127 | [2899,2912) | cand-3015 -> cand-3015 | pending mapping |
+| CHP-1 | m-chp1-secii-0202 | changed | chp-1:01_CHP-1_sec_ii:l129-135 | [346,365) | cand-3094 -> cand-3094 | pending mapping |
+| CHP-1 | m-chp1-secii-0223 | changed | chp-1:01_CHP-1_sec_ii:l137-146 | [1902,1917) | cand-3095 -> cand-3095 | pending mapping |
+| CHP-1 | m-chp1-secii-0360 | changed | chp-1:01_CHP-1_sec_ii:l161-166 | [1295,1308) | cand-3099 -> cand-3099 | pending mapping |
+| CHP-1 | m-chp1-secii-0605 | changed | chp-1:01_CHP-1_sec_ii:l62-71 | [2069,2079) | cand-3453 -> cand-3453 | pending mapping |
+| CHP-1 | m-chp1-secii-0652 | changed | chp-1:01_CHP-1_sec_ii:l28-38 | [1228,1247) | cand-3424 -> cand-3424 | pending mapping |
+| CHP-1 | m-s2-chp1-p22-20261029-procedure | added | chp-1:01_CHP-1_sec_ii:l155-159 | [1578,1631) | none -> cand-3141 | matched |
+| CHP-2 | m-chp2-seci-l124-157-0040 | changed | chp-2:02_CHP-2_sec_i:l124-157 | [1450,1461) | cand-4367 -> cand-6369 | pending mapping |
+| CHP-2 | m-chp2-seci-l124-157-hinks-author-20261025 | added | chp-2:02_CHP-2_sec_i:l124-157 | [246,257) | none -> cand-12447 | pending mapping |
+| CHP-2 | m-chp2-seci-l124-157-rosi-author-20261025 | added | chp-2:02_CHP-2_sec_i:l124-157 | [2467,2471) | none -> cand-12448 | pending mapping |
+| CHP-2 | m-chp2-seci-l55-69-0007 | changed | chp-2:02_CHP-2_sec_i:l55-69 | [684,700) | cand-0247 -> cand-0247 | pending mapping |
+| CHP-2 | m-chp2-seci-l55-69-0043 | changed | chp-2:02_CHP-2_sec_i:l55-69 | [2942,2948) | cand-0393 -> cand-0393 | pending mapping |
+| CHP-2 | m-chp2-seci-l71-80-0010 | changed | chp-2:02_CHP-2_sec_i:l71-80 | [536,573) | cand-0394 -> cand-0394 | pending mapping |
+| CHP-2 | m-chp2-seci-l82-93-0024 | changed | chp-2:02_CHP-2_sec_i:l82-93 | [1329,1372) | cand-1456 -> cand-1456 | pending mapping |
+| CHP-2 | m-chp2-seci-l82-93-0050 | changed | chp-2:02_CHP-2_sec_i:l82-93 | [3106,3131) | cand-4302 -> cand-4302 | pending mapping |
+| CHP-2 | m-chp2-seci-l82-93-deserting-courtiers | changed | chp-2:02_CHP-2_sec_i:l82-93 | [987,1115) | cand-12283 -> cand-12283 | pending mapping |
+| CHP-2 | m-chp2-seci-l9-10-0001 | changed | chp-2:02_CHP-2_sec_i:l9-10 | [9,17) | cand-2678 -> cand-2677 | pending mapping |
+| CHP-2 | m-chp2-seci-l95-106-0020 | changed | chp-2:02_CHP-2_sec_i:l95-106 | [943,960) | cand-4308 -> cand-4308 | pending mapping |
+| CHP-2 | m-chp2-seci-l95-106-0044 | changed | chp-2:02_CHP-2_sec_i:l95-106 | [1628,1640) | cand-4318 -> cand-4318 | pending mapping |
+| CHP-2 | m-chp2-secii-l118-125-0027 | changed | chp-2:02_CHP-2_sec_ii:l118-125 | [1091,1124) | cand-4509 -> cand-4509 | pending mapping |
+| CHP-2 | m-chp2-secii-l118-125-0028 | changed | chp-2:02_CHP-2_sec_ii:l118-125 | [1111,1124) | cand-4510 -> cand-4510 | pending mapping |
+| CHP-2 | m-chp2-secii-l118-125-0035 | changed | chp-2:02_CHP-2_sec_ii:l118-125 | [1686,1706) | cand-1465 -> cand-1465 | pending mapping |
+| CHP-2 | m-chp2-secii-l118-125-0037 | changed | chp-2:02_CHP-2_sec_ii:l118-125 | [1668,1706) | cand-4511 -> cand-4511 | pending mapping |
+| CHP-2 | m-chp2-secii-l118-125-0067 | changed | chp-2:02_CHP-2_sec_ii:l118-125 | [2815,2836) | cand-1978 -> cand-1977 | pending mapping |
+| CHP-2 | m-chp2-secii-l127-139-0046 | changed | chp-2:02_CHP-2_sec_ii:l127-139 | [2565,2583) | cand-1488 -> cand-1488 | pending mapping |
+| CHP-2 | m-chp2-secii-l141-145-0009 | changed | chp-2:02_CHP-2_sec_ii:l141-145 | [597,601) | cand-3405 -> cand-3405 | pending mapping |
+| CHP-2 | m-chp2-secii-l141-145-0038 | changed | chp-2:02_CHP-2_sec_ii:l141-145 | [2117,2128) | cand-0198 -> cand-12438 | pending mapping |
+| CHP-2 | m-chp2-secii-l141-145-0040 | added | chp-2:02_CHP-2_sec_ii:l141-145 | [1942,1957) | none -> cand-4545 | pending mapping |
+| CHP-2 | m-chp2-secii-l141-145-0041 | added | chp-2:02_CHP-2_sec_ii:l141-145 | [2106,2115) | none -> cand-0198 | pending mapping |
+| CHP-2 | m-chp2-secii-l141-145-0042 | added | chp-2:02_CHP-2_sec_ii:l141-145 | [607,611) | none -> cand-4537 | pending mapping |
+| CHP-2 | m-chp2-secii-l20-28-0009 | changed | chp-2:02_CHP-2_sec_ii:l20-28 | [912,927) | cand-4222 -> cand-4222 | pending mapping |
+| CHP-2 | m-chp2-secii-l20-28-0012 | changed | chp-2:02_CHP-2_sec_ii:l20-28 | [1092,1102) | cand-3104 -> cand-3104 | pending mapping |
+| CHP-2 | m-chp2-secii-l30-40-0006 | changed | chp-2:02_CHP-2_sec_ii:l30-40 | [243,263) | cand-3046 -> cand-3046 | pending mapping |
+| CHP-2 | m-chp2-secii-l30-40-0024 | changed | chp-2:02_CHP-2_sec_ii:l30-40 | [1646,1654) | cand-4231 -> cand-4231 | pending mapping |
+| CHP-2 | m-chp2-secii-l91-104-0052 | changed | chp-2:02_CHP-2_sec_ii:l91-104 | [2131,2141) | cand-0232 -> cand-0232 | pending mapping |
+| CHP-2 | m-chp2-secii-l91-104-0064 | changed | chp-2:02_CHP-2_sec_ii:l91-104 | [2657,2665) | cand-0232 -> cand-0232 | pending mapping |
+| CHP-2 | m-chp2-seciv-l165-169-0001 | changed | chp-2:02_CHP-2_sec_iv:l165-169 | [10,23) | cand-4003 -> cand-4003 | pending mapping |
+| CHP-2 | m-chp2-seciv-l171-179-0033 | changed | chp-2:02_CHP-2_sec_iv:l171-179 | [1670,1696) | cand-4800 -> cand-1995 | pending mapping |
+| CHP-2 | m-chp2-seciv-l171-179-0034 | changed | chp-2:02_CHP-2_sec_iv:l171-179 | [1701,1723) | cand-4800 -> cand-1995 | pending mapping |
+| CHP-2 | m-chp2-seciv-l190-245-0126 | changed | chp-2:02_CHP-2_sec_iv:l190-245 | [5600,5622) | cand-4800 -> cand-1995 | pending mapping |
+| CHP-2 | m-chp2-secvii-l3-19-0004 | changed | chp-2:02_CHP-2_sec_vii:l3-3 | [92,105) | cand-4905 -> cand-0996 | matched |
+| CHP-4 | m-chp4-intro-0002 | changed | chp-4:04_CHP-4_intro:l3-8 | [108,125) | cand-5498 -> cand-5498 | pending mapping |
+| CHP-4 | m-chp4-sec-i-0083 | changed | chp-4:04_CHP-4_sec_i:l6-18 | [2174,2198) | cand-0428 -> cand-0428 | pending mapping |
+| CHP-4 | m-chp4-sec-i-0230 | changed | chp-4:04_CHP-4_sec_i:l26-33 | [2019,2044) | cand-0675 -> cand-0675 | pending mapping |
+| CHP-4 | m-chp4-sec-i-0272 | changed | chp-4:04_CHP-4_sec_i:l35-40 | [1088,1108) | cand-1769 -> cand-1769 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-l33-44-0037 | changed | chp-4:04_CHP-4_sec_ii:l33-44 | [2393,2427) | cand-5708 -> cand-5708 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-l33-44-0038 | changed | chp-4:04_CHP-4_sec_ii:l33-44 | [2412,2427) | cand-1351 -> cand-1351 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-l53-63-0005 | changed | chp-4:04_CHP-4_sec_ii:l53-63 | [354,376) | cand-4512 -> cand-4512 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-l53-63-0007 | changed | chp-4:04_CHP-4_sec_ii:l53-63 | [448,485) | cand-4516 -> cand-4516 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-l53-63-0008 | changed | chp-4:04_CHP-4_sec_ii:l53-63 | [448,456) | cand-4515 -> cand-4515 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-l53-63-0011 | changed | chp-4:04_CHP-4_sec_ii:l53-63 | [672,725) | cand-0952 -> cand-0952 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-l91-99-different-patrons | added | chp-4:04_CHP-4_sec_ii:l91-99 | [446,463) | none -> cand-12446 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-l91-99-leonardo-correspondence | changed | chp-4:04_CHP-4_sec_ii:l91-99 | [1447,1467) | cand-5778 -> cand-12441 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-notes-p114-0056-phocion-title | added | chp-4:04_CHP-4_sec_ii:l232-308 | [10001,10008) | none -> cand-10556 | matched |
+| CHP-4 | m-chp4-sec-ii-p113-0027 | added | chp-4:04_CHP-4_sec_ii:l161-170 | [1905,1915) | none -> cand-12442 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p113-0028 | added | chp-4:04_CHP-4_sec_ii:l161-170 | [699,716) | none -> cand-12443 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p113-0029 | added | chp-4:04_CHP-4_sec_ii:l161-170 | [2488,2496) | none -> cand-12444 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p113-0030 | added | chp-4:04_CHP-4_sec_ii:l161-170 | [872,898) | none -> cand-12445 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p116-0011 | changed | chp-4:04_CHP-4_sec_ii:l191-205 | [1353,1368) | cand-1564 -> cand-1564 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p116-0026 | changed | chp-4:04_CHP-4_sec_ii:l191-205 | [1185,1204) | cand-0199 -> cand-0199 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p116-0043 | changed | chp-4:04_CHP-4_sec_ii:l191-205 | [3100,3113) | cand-0665 -> cand-0665 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p117-0011 | changed | chp-4:04_CHP-4_sec_ii:l207-216 | [386,395) | cand-4591 -> cand-12465 | matched |
+| CHP-4 | m-chp4-sec-ii-p117-0031 | changed | chp-4:04_CHP-4_sec_ii:l207-216 | [2199,2248) | cand-2009 -> cand-2009 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p117-0032 | changed | chp-4:04_CHP-4_sec_ii:l207-216 | [2278,2296) | cand-4800 -> cand-1994 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p117-0034 | added | chp-4:04_CHP-4_sec_ii:l207-216 | [2019,2070) | none -> cand-11667 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p117-0035 | added | chp-4:04_CHP-4_sec_ii:l207-216 | [1939,1956) | none -> cand-11668 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p117-0036 | added | chp-4:04_CHP-4_sec_ii:l207-216 | [36,74) | none -> cand-11665 | matched |
+| CHP-4 | m-chp4-sec-ii-p117-0037 | added | chp-4:04_CHP-4_sec_ii:l207-216 | [1617,1664) | none -> cand-11666 | matched |
+| CHP-4 | m-chp4-sec-ii-p118-0020 | changed | chp-4:04_CHP-4_sec_ii:l218-227 | [1555,1589) | cand-5991 -> cand-5991 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p118-0024 | changed | chp-4:04_CHP-4_sec_ii:l218-227 | [1885,1909) | cand-5993 -> cand-5993 | pending mapping |
+| CHP-4 | m-chp4-sec-ii-p118-0041 | added | chp-4:04_CHP-4_sec_ii:l218-227 | [168,212) | none -> cand-11669 | pending mapping |
+
+Counts (changed/added/deleted): CHP-1 15/1/0; CHP-2 29/5/0; CHP-4 19/11/0; total 63/17/0. Six rows are linked to current independent-review records; the other 74 still need record matching.
 
 <a id="2026-10-31-s2-crosswalk-chapters-2-18-independent-review"></a>
 ### 2026-10-31 S2独立复核ID回映：第2章与结论
