@@ -13996,6 +13996,10 @@ Current table totals after these changes are 15,487 statements and 26,880 mentio
 
 报告明确排除在2,120分子之外的第16章p.373注2四条书信端点，当前ID为`st-chp16-p373-note2-sasso-letters-addressed-to-strange`、`st-chp16-p373-note2-sasso-letters-authored-by-sasso`、`st-chp16-p373-note2-strange-letters-addressed-to-sasso`及`st-chp16-p373-note2-strange-letters-authored-by-john-strange`；本次均确认为快照不存在、当前表新增。13份S0 Markdown文件字节与快照一致；832条`segments.jsonl`记录整体逐对象一致。上述结果完成statement ID与正文来源版本的精确回映，不等于当前mention层已核平：独立报告记载的`mentions.csv` SHA-256未能在Git历史中找到，不能恢复审读时的mention行集合。因此不凭2,044条不变statement推定同范围mention仍是报告所审版本，也不调整9,622条分子。四条未计数端点另行进入当前版只读独立回核；75条变化与43条新增须去重对照其后的当前版独立审读证据后，方可确定可计入的当前版本范围。
 
+#### 2026-11-01 本地恢复目录中的mention快照检索
+
+针对上述`mentions.csv` SHA-256，再检索本地`06-runtime/recovery/`中的全部9份`mentions.csv`恢复副本，均不匹配报告快照哈希。当前仓库Git历史160个含该表的版本及本地恢复目录均未找到精确副本；这只确认本地副本不可恢复，不排除仓库外仍有存档。未从statement ID或当前span反推旧mention集合；9,622历史总数不变，当前mention版本核平仍需逐条当前证据或找到原始快照。
+
 <a id="2026-10-31-s2-independent-followup-ch14-p349"></a>
 ### 2026-10-31 S2独立盲审：第14章 p.349 注3当前版本
 
