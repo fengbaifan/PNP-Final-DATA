@@ -13889,3 +13889,17 @@ mention集合核对未发现新增或删除：第2章p.36、p.39、p.56、结论
 原文与来源版本未漂移：`CHP-15.pdf` SHA-256为 `357e830cc4e880909edd62975bfcd06ade1c2b432d8866229831025fe86f2885`；`15_CHP-15_sec_ii.md` SHA-256为 `eea847f75c7876dc5b8ea38ef4b64ad30cdd6c629df6a064125ac5f63917d31f`，当前文件与审读快照逐字节相同。40条statement涉及的13个source segment记录均与快照相同；这些segment内172条mention行也全部相同。相关S6行 `rel-2580`–`rel-2583` 与 `rel-2608` 均未变化，原有4条formal及1条pending去向保持不变。
 
 因此，这40条的当前statement及其来源、mention和关系版本可对应到已记录的独立审读快照；它们不计入统一复核数9,622，因为没有逐ID证据证明其台账归属。此前差异清单保留为历史过程记录，本批完成当前版本交叉核平；其余台账ID/来源版本交集仍待核。
+
+### 2026-10-31 S2版本核平：第7章 p.190独立复核记录
+
+独立复核报告 `s2-independent-review-chp7-p190-20261025.md` 于提交 `c7c61162` 写入，逐条审阅printed p.190的43条statement，并对p.191续句及原页图一并核对。报告列出的43个statement ID均存在于该提交，当前完整JSON对象与该审读快照43/43一致；其涉及的2条source segment记录也完全一致。`CHP-7.pdf`当前SHA-256为 `eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`，`07_CHP-7_sec_i.md`为 `f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3`，二者与审读提交逐字节相同。
+
+mentions按来源记录范围核对：两个相关source segment共311条mention；审读提交后仅新增两条p.177注4 mention（`m-chp7-p177-fn4-gabriele-balestrieri`、`m-chp7-p177-fn4-duke-of-modena`），不属于p.190–191审读范围；其余309条均与审读快照相同。按mention ID检索，含`p190`或`p191`的238条也均未变化。直接由这43条statement支持的5条关系`rel-1732`–`rel-1736`均未变化。该报告明确不计入9,622条全书汇总；本次版本核平也不补记台账分子。
+
+### 2026-10-31 S2版本核平：第6章 p.162独立复核记录
+
+独立报告 `s2-independent-review-chp6-p162-20261027.md` 于提交 `a98887c3` 写入。所列两条statement（`st-chp6-p162-v1-12`、`st-chp6-p162-tribune-part-of-santa-maria-maggiore`）的完整JSON对象均与当前表一致，其报告指纹分别为 `932d5fe2627df472c69afa55a33ec844f0ab2eb8d4593b9c8830e82bbb40171b` 与 `6c77d2465805988a6341c0c23f605164d93131ba77c1d47b57023c6f3664cd90`。所涉1条source segment及56条mention均与审读提交相同。`CHP-6.pdf` SHA-256为 `de7a3546edcc8b992a1720341690b142d9f96d04fd6ba5374e5733e6167ac258`，`06_CHP-6_sec_v.md`为 `724f421d1c98612a8820404c82dda956dadaf6006483fcdf394cc53af4e72d15`，当前文件均与该提交相同。相关formal关系`rel-2447`、`rel-2448`也未变化。独立报告明确本批不计入9,622条全书分子；本次仅确认当前版本交叉对应，不补记台账。
+
+### 2026-10-31 S2台账版本核平：第5章 p.138 已计数statement
+
+独立复核记录 `s2-independent-review-chp5-20261022.md` 于提交 `bfc87028` 写入，明确将 `chp-5:05_CHP-5_sec_iii:l82-93` 的36条statement计入统一逐条复核分子。按该segment回取当时36个statement ID并逐对象与当前表比较，36/36完整JSON对象一致；source segment记录一致。相应35条mention（原31条及审读时补入4条）均与该提交相同。`CHP-5.pdf` SHA-256为 `f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`，`05_CHP-5_sec_iii.md`为 `9b095b1a93570102ad2cdb117580f2fbeccd2ff017033a2f66557c58a0d1ef0a`，当前文件与审读提交相同。另补的第6章p.146死亡事件mention明确不另计入这36条。由此可确认这36条台账成员的当前statement版本及来源未变；9,622汇总数不因本次核平增加。
