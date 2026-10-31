@@ -810,7 +810,7 @@ S2只新增 `st-chp14-p353-neptune-fountain-created-by-mattielli`，复用p.353�
 |---|---|---|
 | `st-chp2-seciv-l171-179-poussin-painted-happiness-subject-to-death` | formal | `rel-1990 created_by`，只记录 Haskell 的书内创作者表述，不推断委托给 Rospigliosi。 |
 | `st-chp2-seciv-l190-245-arcadian-shepherds-date-proposal` | rejected（关系边） | 保留为有归属的断代建议及 S5 字段，不把约1640年或通常1650–55年转成确定年代关系；另将支持来源修为 Mahon。 |
-| `st-chp2-seciv-l190-245-poussin-work-locations-and-dedications` | rejected（关系边） | statement 将多件作品地点、版画、献辞及 Bellori/Panofsky/Mahon 解释合并；精确的第二版—卢浮宫断言另由独立 S2 statement 表达并形成 `rel-1991`。其余内容仍留在 S2，待独立语义修订处理。 |
+| `st-chp2-seciv-l190-245-poussin-work-locations-and-dedications` | rejected（关系边；过程记录） | statement 将多件作品地点、版画、献辞及 Bellori/Panofsky/Mahon 解释合并；精确的第二版—卢浮宫断言另由独立 S2 statement 表达并形成 `rel-1991`。其余内容仍留在 S2，待独立语义修订处理。该聚合statement的predicate不是受控关系类型，且没有单一主客体可忠实表达整项claim；因此拒绝裁决保留在本过程表，不在`relations.csv`伪造关系行。可表达的原子关系分别见`rel-1991`、`rel-2460`、`rel-2461`、`rel-2515`及`rel-2516`。 |
 | `st-chp4-sec-ii-p117-named-poussin-pair` | formal | `rel-1994 part_of`，King Midas 是书中两件作品组成员；不称为 pendant。 |
 | `st-chp4-sec-ii-p117-pair-arcadian-member` | formal | `rel-1995 part_of`，第一版《阿卡迪亚牧人》是该组另一成员。 |
 | `st-chp4-sec-ii-p117-possible-poussin-acquisition` | pending | `rel-1996` 仅作 pending；“may well have been now”是推测，不建立正式来源或确切收购年代。 |
