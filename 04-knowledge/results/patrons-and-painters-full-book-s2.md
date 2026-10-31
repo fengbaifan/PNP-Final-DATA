@@ -4,6 +4,8 @@
 
 **2026-11-01 第4章 p.117 两条修订 statement 独立回核：** 首轮当前版复核的10条通过项保持不变；两处修订后的当前 statement 经另一独立复核者复核通过：Midas 警示补回“at the expense of the more real values of life”，教皇政策 quote 恢复 S0 原文换行。该批12条 statement 与38个唯一 mention spans 均有对应复核结果；两条修改均为非关系断言，不改变 S3/S4 或 S6。S1 已核平的候选与端点未受影响，不增加9,622历史复核成员，也不代表第4章或全书 S2 接收。详见[第4章 p.117 修订复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-recheck-ch4-p117-repaired-statements)。
 
+**2026-11-01 第10章 p.281／第20章 p.408 当前版独立复核：** 3条 statement 全部PASS（1条新增、2条同ID修改），对应原页及书目页均已核对；三段共337个 mention spans通过当前S0切片校验。p.281未具名赞助人群体仍不被推成正式关系，`cand-8949`的新KU登记留待S4；p.408 `rel-2637 cites`、`rel-2642 acquired_by`均保持原formal范围。历史9,622成员不调整，p.408旧版成员归属仍未逐ID核平，不据此报告全书S2接收。详见[第10章p.281与第20章p.408阶段记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch10-p281-ch20-p408)。
+
 
 **2026-11-01 第8章 p.212–213／第21章 p.428 当前版 S2 独立复核：** 9条当前statement（4条修改、5条新增）全部通过，原文引句、语气、mention跨度和必要页图核对一致。`rel-2508`–`rel-2514`当前formal边范围正确；p.213无名画作继续process-only pending。历史9,622成员不增减；四条修改项的旧版成员归属仍未知，五条新增项不在旧基线。详见[独立当前版复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch8-p212-p213-ch21-bibliography)。
 **2026-11-01 S2表版本差异历史快照：** 以9,622首次出现的基线提交和当时快照 `f1dd3bfd`逐ID比较：statement 15,451→15,488，新增38、删除1、同ID变化128；mention 26,870→27,000，新增151、删除21、同ID变化29；两表均无重复ID。26个涉及statement变化的S0 Markdown Git blob与基线一致。此为表版本差异，不是未复核数或9,622成员映射；不据此调整历史汇总或计算覆盖率。详见[版本差异重算记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-02-s2-current-table-delta-recompute)。

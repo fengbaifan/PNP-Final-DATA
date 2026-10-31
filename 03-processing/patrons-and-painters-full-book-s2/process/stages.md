@@ -14673,3 +14673,17 @@ rel-2650定向渲染到第一册archive卡；写后复预览无差异。事件�
 | `st-chp4-sec-ii-p117-papal-policy-shift` | `original_quote` 恢复 S0 L209 与 L210 之间的换行（`a change of\nPope`）；独立回核确认 quote 是当前 segment 的精确子串，claim 保留“as so often happened”。 | `relation_candidate=false`；无 S6 行引用该 statement，不改 S3、S4 或关系裁决。 |
 
 独立复核同时确认相关 Midas、Arcadian Shepherds、作品组、Pope、Rome 与 Alexander VII mention spans 精确对应当前 S0；两条修订 statement 均为 PASS。结合首轮对该批12条 statement 与38个唯一 mention spans 的核对，当前 p.117 指定批次通过；不扩展为 p.117 全页或第4章其余内容接收。S1 无新增候选或端点：当前 S1 核平已覆盖后续回流的 `cand-12466`–`cand-12468`，本次仅修正现有 statement 的 claim/quote。历史9,622条复核成员不增不减，当前 S2 仍未全书独立接收。
+
+<a id="2026-11-01-s2-independent-current-review-ch10-p281-ch20-p408"></a>
+
+### 2026-11-01 第10章 p.281 与第20章 p.408 当前版独立复核
+
+独立复核者在当前 HEAD `b670ac24` 只读核对 `CHP-10.pdf` 印刷p.281（物理页10）、`CHP-20Postscript.pdf` 印刷p.408（物理页17）及 `CHP-21Bibliography.pdf` 印刷p.415（物理页5），并检查相应当前S0、statement、mention、S3/S4与S6。三个PDF和三个S0 Markdown文件相对基线提交`1a6313c8654280a9b71187fc08522098626e734e`未变。基线回映为1条新增、2条同ID修改：`st-chp10-p281-nonhereditary-patronage-inspiration`为新增；两条p.408 statement为修改。三条当前版本均PASS。
+
+| 当前 statement | 当前版结论与身份边界 | S4/S6影响 |
+|---|---|---|
+| `st-chp10-p281-nonhereditary-patronage-inspiration` | 原文“these men seem to have inspired the artists who worked for them”保留`seem`推测语气；当前claim把未具名赞助人群与画家群分开，没有写成已证关系。该段78个mention spans均与S0切片一致。 | 本statement为`relation_candidate=false`，无S6边。`cand-8949`的S3 `new`仍无KU，留待S4；不以此段合并或补建个人身份。 |
+| `st-chp20-p408-n07-citation` | 注7为“7 Bettagno.”，S0 mention精确指向展览目录候选；p.415书目提供目录题名、作者、展览目录性质及1969年出版信息。该段215个mention spans均与S0切片一致。 | `rel-2637 cites`保持formal，范围为Haskell本书引用目录；未查阅目录本身，不据书目反推相册身份。 |
+| `st-chp20-p408-zanetti-caricature-album-presented-to-cini` | 当前claim与原页一致：原文称载有Zanetti漫画的相册曾呈交Fondazione Giorgio Cini；不补呈赠者、日期或现行保管。该段44个mention spans均与S0切片一致。 | `rel-2642 acquired_by`保持formal，仅记录来源所报受赠机构。相册题名、日期及目录身份仍未识别；不因此改动端点或S6。 |
+
+逐条原引句均可在当前S0段精确定位；三个来源segment的78、215、44个mention spans均通过切片核验。S3身份、S4 KU及S6裁决没有改动；历史9,622复核成员归属不重算：p.281新statement不在基线，p.408两条旧ID的基线成员身份仍不能由聚合数证明。此次只关闭上述三条当前版复核，不代表相关章节或全书S2接收。
