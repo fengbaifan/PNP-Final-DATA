@@ -14687,3 +14687,13 @@ rel-2650定向渲染到第一册archive卡；写后复预览无差异。事件�
 | `st-chp20-p408-zanetti-caricature-album-presented-to-cini` | 当前claim与原页一致：原文称载有Zanetti漫画的相册曾呈交Fondazione Giorgio Cini；不补呈赠者、日期或现行保管。该段44个mention spans均与S0切片一致。 | `rel-2642 acquired_by`保持formal，仅记录来源所报受赠机构。相册题名、日期及目录身份仍未识别；不因此改动端点或S6。 |
 
 逐条原引句均可在当前S0段精确定位；三个来源segment的78、215、44个mention spans均通过切片核验。S3身份、S4 KU及S6裁决没有改动；历史9,622复核成员归属不重算：p.281新statement不在基线，p.408两条旧ID的基线成员身份仍不能由聚合数证明。此次只关闭上述三条当前版复核，不代表相关章节或全书S2接收。
+
+<a id="2026-11-01-s2-independent-current-review-ch8-p238-note5-uffizi"></a>
+
+### 2026-11-01 第8章 p.238 注5当前版独立复核
+
+独立复核者核对当前statement、mention、S3/S4/S6、S0分节及 `CHP-8.pdf` 物理页44（印刷p.238）；PDF及对应S0 Markdown相对基线提交`1a6313c8654280a9b71187fc08522098626e734e`未变。`st-chp8-p238-note5-fair-at-uffizi`为基线后同ID修改。页图确认注5原文为“The picture is now in the Uffizi—see Zanotti, II, p. 55, and L. Crespi, p. 211.”，注号为5；S0/OCR中的注号`6`和`n`分别保留在当前`ocr_corrections`中，校读为印本`5`及`II`。正文已命名作品使“The picture”先行项明确；claim只记录Haskell所报位置，不写成独立核实现藏。statement、引句及脚注标记判为PASS。
+
+当前脚注段6个mention span均通过切片核验：`The picture`、`Uffizi`、`Zanotti`、`Zanotti, n, p. 55`、`L. Crespi`及`L. Crespi, p. 211`。`cand-0878`是正文所指整幅画，S3 `new`但尚无KU；`cand-7945`复用Uffizi机构KU；Zanotti作者/书目记录分开映射，`L. Crespi`所指作品保持未决，不与画家Giuseppe Maria Crespi混同。
+
+S6既有`rel-0706`继续pending：其subject为局部复制品KU“Detail from Fair at Poggio a Caiano”，不能借该局部端点记录整幅画被Uffizi持有；整幅作品正式端点待S4登记后再裁决。无关系行改动，无历史9,622分子调整；本批仅关闭该statement当前版复核，不接收p.238全页或全书S2。
