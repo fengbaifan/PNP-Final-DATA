@@ -14415,7 +14415,7 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 
 本节重算前述“80条mention差异”清单。按其声明基线提交`2273e2743158401b841fb9bc7b7d1332836d400a`与当前HEAD`425dbc14e39ea2ca6389dbceee92858564b00100`直接读取Git对象并以`mention_id`比较，三个章节实际差异为29行：第1章1条新增；第2章9条同ID变化、5条新增；第4章3条同ID变化、11条新增；无删除。旧80行清单中51行在基线与当前HEAD间完全相同（例如`m-chp1-seci-0010`），故将旧清单视作已被本节取代的历史工作表，不再用其80/72分母。
 
-29条当前span均依其`segments.jsonl`来源行范围重建文本，逐条切片29/29通过；涉及的S0 Markdown文件及CHP-1、CHP-2、CHP-4 PDF在基线与当前HEAD的Git blob一致。按现存审阅映射，8条可链接到独立复核记录（其中`m-chp2-secii-l141-145-0038`和`m-chp4-sec-ii-l91-99-leonardo-correspondence`另有当前版独立回核通过记录），其余21条尚无精确复核映射；链接到报告不等于章节接收。当前差异逐项如下：
+29条当前span均依其`segments.jsonl`来源行范围重建文本，逐条切片29/29通过；涉及的S0 Markdown文件及CHP-1、CHP-2、CHP-4 PDF在基线与当前HEAD的Git blob一致。按现存审阅映射，8条可链接到独立复核记录；其中`m-chp2-secii-l141-145-0038`的当前指代裁决通过，`m-chp4-sec-ii-l91-99-leonardo-correspondence`仅确认手稿对象词组span准确且不指向具体Trattato，匿名通信对象端点另由bl-0092保持待证。其余21条尚无精确复核映射；链接到报告不等于章节接收。当前差异逐项如下：
 
 | 章 | Mention ID | 变化 | Candidate：基线 → 当前 | 当前 span / surface | 复核映射 |
 |---|---|---|---|---|---|
@@ -14435,7 +14435,7 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 | chp-2 | `m-chp2-seciv-l190-245-0126` | changed | cand-4800 → cand-1995 | [5600,5622) The Arcadian Shepherds | pending exact review mapping |
 | chp-2 | `m-chp2-secvii-l3-19-0004` | changed | cand-4905 → cand-0996 | [92,105) Duke of Parma | linked to independent-review evidence |
 | chp-4 | `m-chp4-sec-ii-l91-99-different-patrons` | added | — → cand-12446 | [446,463) different patrons | pending exact review mapping |
-| chp-4 | `m-chp4-sec-ii-l91-99-leonardo-correspondence` | changed | cand-5778 → cand-12441 | [1447,1467) Leonardo manuscripts | current-version follow-up passed |
+| chp-4 | `m-chp4-sec-ii-l91-99-leonardo-correspondence` | changed | cand-5778 → cand-12441 | [1447,1467) Leonardo manuscripts | span verified; anonymous endpoint pending bl-0092 |
 | chp-4 | `m-chp4-sec-ii-notes-p114-0056-phocion-title` | added | — → cand-10556 | [10001,10008) Phocion | linked to independent-review evidence |
 | chp-4 | `m-chp4-sec-ii-p113-0027` | added | — → cand-12442 | [1905,1915) landscapes | pending exact review mapping |
 | chp-4 | `m-chp4-sec-ii-p113-0028` | added | — → cand-12443 | [699,716) secondary artists | pending exact review mapping |
