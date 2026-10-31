@@ -3926,7 +3926,7 @@ S3纯`undecided`候选、纯未决直接关系端点及S4待登记直接关系�
 #### 后续工作顺序
 **第8章p.237独立复核版本回映（2026-10-31）：** 报告快照39条statement到当前42条（3条新增、5条仅校读字段变化），正文新增9条mention的span均已核对；S0和PDF版本未变。写入本段回映时仍待独立回核；现已完成指定范围的独立回核，详见下方增量记录；关系表在报告后增加8条formal边（rel-1693–rel-1700）。本项不增加9,622条台账。详见[快照回映记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2独立复核快照回映第8章-p237)。
 
-**第8章p.238独立复核版本回映（2026-10-31）：** 50条statement、11条本页mention及S0/PDF版本与独立复核快照一致。注4对象组和Pisa cabinet边界仍待证，不建作品—地点边。49组候选引用差异按当前segment级粗算为46组未匹配；另3组只在同一注释segment的p.239 L450出现mention，不能据此消除p.238本地跨度问题，仍须逐项判定。本项不接收p.238或S2，也不增加9,622条台账。详见[快照回映记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2独立复核快照回映第8章-p238)。
+**第8章p.238独立复核版本回映（2026-10-31）：** 独立复核快照含50条statement、11条本页mention，与审阅时S2及S0/PDF版本一致；当时未接收本页或全书S2。此后当前版新增39条p.238注释本地mention并补录注号校读，当前本页为53条mention（正文12、注释41）；39个新增span逐项切片与S0完全一致，segment SHA-256核对通过。注4的“These pictures”仍仅映射到未定对象组，单件作品归属及Pisa cabinet边界继续待证。`relations.csv`的`rel-2392`–`rel-2395`及S3/S6历史裁决未改；本批不增加9,622条复核台账，属于修订者定向自查，不是独立复核或S2接收。详见[当前版修复记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md)。
 
 **第8章p.239独立复核版本回映（2026-10-31）：** 40条statement、20条相关mention和6条relation行与独立复核快照一致，来源文件和PDF未变；mention跨度20/20通过。该复核批次不计入9,622条统一台账，不代表全章或S2接收。详见[快照回映记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2独立复核快照回映第8章-p239)。
 

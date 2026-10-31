@@ -14401,3 +14401,11 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 复核报告`s2-independent-review-chp8-plate35a-20261021.md`所审段为`chp-8:08_CHP-8_sec_ii:l45-46`，报告接受该段3条statement：`st-chp8-pl35a-aristotle`、`st-chp8-pl35a-credit`、`st-chp8-pl35a-homer`。当前三条完整JSON均与报告写入版本一致；关联4条mention（作品标题、Rembrandt、Aristotle、Homer）与报告版本完全一致，4/4跨度均符合当前S0切片。该段S0、segments记录及CHP-8.pdf与报告版本一致。复核未改statement、mention或关系裁决；报告明确将S6留在全章流程。
 
 该报告原先将“是否已计入统一分子”留待与第八章487/1,462清单去重。现与2026-10-20的相邻阶段记录交叉核对：同一检查批次覆盖Plate 34的2条和Plate 35a的3条，共5个精确statement ID；该批明确将第八章独立复核计数从482提高到487/1,462。因此上述3条Plate 35a statement已包含在该487项旧章级计数中，不重复增加9,622条统一汇总。此结论只解决Plate 35a批次的重复计数疑问；9,622条跨章全局ID、mention和来源版本核平仍未完成，不据此计算当前覆盖率。
+
+### 2026-10-31 S2第8章p.238注1–6 mention补录与注号校读
+
+承接前述独立复核快照回映，按CHP-8.pdf物理页44与当前S0段`chp-8:08_CHP-8_sec_ii:l372-461`定向修复。页图显示印刷注号为1–6；S0 L447注5标记OCR“6”应校为“5”，L448注6标记OCR“8”应校为“6”。已分别写入两条statement的`ocr_corrections`；保留既有“Zanotti, n”→“Zanotti, II”校读，不改S0、原文摘录或statement命题。
+
+注1–6新增39条本页mention，覆盖日期/档案定位、人物、书画对象、书目引文及返程信的原文提及；含注5“L. Crespi”作者mention（`cand-7716`），与身份未决的引文对象`cand-7578`分开。全部39个span逐条以当前来源切片核对，候选也均属于相应statement的`mentioned_candidate_ids`；当前S0段SHA-256为`62a4611253d2bf05494ef55b0511b53861b0947a05aee1c7a9fdbab976ecbc3f`，与`segments.jsonl`一致。p.238当前共53条本页mention（正文12、注释41），其中本批新增39条。此前“46组未匹配”是跨整段注释的粗略segment级计数，不能作为当前本页剩余差异；本次不据此宣称全部候选引用均已闭合。
+
+注4的“these pictures”保留既有组对象`cand-12373`；其成员范围不明，不另把`cand-0874`、`cand-0887`或`cand-0885`单件作品映射到Pisa cabinet。`cand-8048`（Pisa cabinet）、`cand-12373`与注5引文对象`cand-7578`仍为S3 `undecided`、无KU。`relations.csv`未改：`rel-2392`–`rel-2395`继续formal（仅引文/Filza定位）；注4仍process-only pending，不新增作品—地点边；注3刊本关系与注6返程事实仍pending。注5的relation candidate未在本次代替S6裁决。alignment、KU、enrichment、backlog及9,622条历史复核分子均未改。严格表审计`errors=[]`、`s2_missing=[]`；本次是定向自查，不构成独立语义复核、页级接收或全书S2接收。
