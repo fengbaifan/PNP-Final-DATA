@@ -14721,7 +14721,11 @@ S6既有`rel-0706`继续pending：其subject为局部复制品KU“Detail from F
 
 ### 2026-11-01 S2当前版本差异ID过程锚点核查
 
-以基线提交`1a6313c8654280a9b71187fc08522098626e734e`和当前数据快照`bf6a4477`逐条比较完整JSON对象后，当前statement表有170个新增或同ID变化记录（38个新增、132个同ID变化），另有1个基线ID已删除。将170个当前变化ID逐字回查`stages.md`与`knowledge.md`，均至少有一处过程引用；缺少过程引用的ID为0。该检查只证明有可检索的过程锚点，不证明每个当前版本均已独立复核或其来源版本已纳入历史聚合。9,622历史汇总仍无覆盖全部成员的逐行名册，故不据此计算覆盖率、不调整历史分子；后续仍须逐项核对复核报告的稳定ID、完整对象版本和来源范围。
+以9,622首次出现的基线提交`1a6313c8654280a9b71187fc08522098626e734e`和当前HEAD`f525a232331fc2cc66f7c458455d94c90a7197c1`逐条比较解析后的完整对象：statement为15,451→15,488，新增38、删除1、同ID变化134；mention为26,870→27,012，新增163、删除21、同ID变化31。两表的稳定ID均无重复。当前新增／变化的172个statement ID逐字回查`stages.md`与`knowledge.md`均至少有一处过程引用，缺少过程锚点0；删除的旧ID已有删除与替代理由记录。涉及这些statement变化的26个S0 Markdown文件相对基线Git blob均未变化，832条`segments.jsonl`记录逐对象相同。锚点与来源稳定性检查不证明每个当前版本均已独立复核，也不证明它们属于9,622历史聚合。
+
+相较中间快照`f1dd3bfd9a2e8318322dc1e46e8146258e1bddb5`，当前HEAD没有statement新增或删除，有16条同ID对象变化，分属第10章p.326（8条）、第14章p.349/p.355（2条）、第20章p.401（2条）、第4章p.117（2条）、第8章p.238（2条）。各批当前版独立回核均PASS，记录分别见[第10章p.326](#2026-11-01-s2-independent-current-review-ch10-p326-all-deltas)、[第14章p.349/p.355](#2026-11-01-s2-independent-current-review-ch14-p355-edition-endpoint)、[第20章p.401](#s2-independent-current-review-ch20-p401-diary-source)、[第4章p.117](#2026-11-01-s2-independent-recheck-ch4-p117-repaired-statements)及[第8章p.238当前版增量修订记录](#2026-11-01-s2-current-review-ch8-p238-title-referents)。第8章注1 statement `st-chp8-p238-note1-march-april-letter-locators`的当前变化仅为`relation_candidate_note`补明“Letters of March and April 1708”是集合日期定位，不另立实体；独立复核者对照CHP-8.pdf物理页44、S0 L443、四处mention跨度及候选映射，判为PASS。`rel-2392 cites`方向、scope、formal状态均未变；书内引注不表示已查阅Archivio Mediceo原件。
+
+上述16条是当前版语义复核状态，不是9,622历史复核成员归属。历史汇总仍缺覆盖全部成员的逐行名册；不据表差异增减历史分子或计算全书S2覆盖率，后续继续核对历史复核报告的稳定ID、完整对象版本、mention版本及来源范围。
 
 
 <a id="2026-11-01-s2-independent-current-review-ch14-p355-edition-endpoint"></a>

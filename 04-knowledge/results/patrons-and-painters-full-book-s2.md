@@ -21,7 +21,7 @@
 
 **2026-11-01 第8章 p.238 注5当前版独立复核：** statement 经原页复核通过；注号`6→5`及`Zanotti, n→II`校读均有页图依据，6个注释mention span与S0一致。`rel-0706`继续pending，限定在已登记的局部画作端点；整幅画`cand-0878`为S3 `new`、尚待S4登记，不能把局部作品KU当作整幅作品关系端点。该同ID修订的旧版是否属于9,622历史聚合仍未核明，不调整汇总或宣称全书S2接收。详见[第8章p.238注5复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch8-p238-note5-uffizi)。
 
-**S2 当前版本差异ID过程锚点核查：** 以9,622首次出现的基线与当前statement表比较，170个新增／变化ID（38新增、132同ID变化）及1个删除ID中，当前变化ID均至少在`stages.md`或`knowledge.md`有过程引用。该项只证明过程锚点可检索，不证明所有当前版本均独立复核或已映射到9,622历史成员。详见[当前差异ID核查记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-delta-id-reference-audit)。
+**S2 当前版本差异 ID 核查：** 以9,622首次出现的基线对比当前HEAD，statement新增38、删除1、同ID变化134；172个当前新增／变化ID均有过程引用，mention新增163、删除21、同ID变化31。相较中间快照f1dd，另有16条同ID变化已完成当前版独立回核。历史9,622成员与来源版本仍未全量核平，不据此计算覆盖率。详见[当前差异 ID 与复核状态](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-delta-id-reference-audit)。
 
 
 **2026-11-01 第8章 p.212–213／第21章 p.428 当前版 S2 独立复核：** 9条当前statement（4条修改、5条新增）全部通过，原文引句、语气、mention跨度和必要页图核对一致。`rel-2508`–`rel-2514`当前formal边范围正确；p.213无名画作继续process-only pending。历史9,622成员不增减；四条修改项的旧版成员归属仍未知，五条新增项不在旧基线。详见[独立当前版复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch8-p212-p213-ch21-bibliography)。
