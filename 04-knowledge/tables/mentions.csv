@@ -46,7 +46,7 @@ m-chp10-p281-descent_cross,chp-10:10_CHP-10_intro:l125-139,cand-0283,The Descent
 m-chp10-p281-ascension,chp-10:10_CHP-10_intro:l125-139,cand-8946,The Ascension,1639,1652,Bellucci work at Canons; keep distinct from similarly titled works.
 m-chp10-p281-instruments_passion,chp-10:10_CHP-10_intro:l125-139,cand-5868,Instruments of the Passion,1698,1724,Iconographic objects held by putti; not a separate person or painting here.
 m-chp10-p281-venetian_history_painters,chp-10:10_CHP-10_intro:l125-139,cand-8948,Venetian history painters,1764,1789,Collective category used by Haskell; no formal organization is implied.
-m-chp10-p281-england,chp-10:10_CHP-10_intro:l125-139,cand-4439,England,1815,1822,Geographical setting; current candidate type remains for later alignment review.
+m-chp10-p281-england,chp-10:10_CHP-10_intro:l125-139,cand-4439,England,1815,1822,"Geographical setting; cand-4439 has an S3 new decision and is registered as the England political-realm KU, not a city-level place."
 m-chp10-p281-the_rich,chp-10:10_CHP-10_intro:l125-139,cand-8949,The rich,1824,1832,Unnamed class of patrons.
 m-chp10-p281-powerfully_placed,chp-10:10_CHP-10_intro:l125-139,cand-8949,the powerfully placed,1834,1855,Unnamed class of patrons.
 m-chp10-p281-leaders_fashion,chp-10:10_CHP-10_intro:l125-139,cand-8949,the leaders of fashion,1860,1882,Unnamed class of patrons.
@@ -65,7 +65,7 @@ m-chp10-p281-venetian_artists,chp-10:10_CHP-10_intro:l125-139,cand-8948,Venetian
 m-chp10-p281-england_artists,chp-10:10_CHP-10_intro:l125-139,cand-4439,England,2444,2451,Destination of the two artists.
 m-chp10-p281-damini,chp-10:10_CHP-10_intro:l125-139,cand-0898,Vincenzo Damini,2452,2467,Described by Haskell as a minor painter.
 m-chp10-p281-leoni,chp-10:10_CHP-10_intro:l125-139,cand-1394,Giacomo Leoni,2490,2503,"Architect who helped inaugurate the Palladian movement, according to Haskell."
-m-chp10-p281-palladian_movement,chp-10:10_CHP-10_intro:l125-139,cand-8921,the Palladian movement,2543,2565,Reuse the related Palladianism candidate from p.280; exact concept identity remains for S3.
+m-chp10-p281-palladian_movement,chp-10:10_CHP-10_intro:l125-139,cand-8921,the Palladian movement,2543,2565,Haskell’s term for the Palladian movement; cand-8921 has an S3 new decision but no KU registration yet.
 m-chp10-p281-dusseldorf_center,chp-10:10_CHP-10_intro:l125-139,cand-0955,Düsseldorf,2594,2604,One of three named centers.
 m-chp10-p281-london_center,chp-10:10_CHP-10_intro:l125-139,cand-1422,London,2614,2620,One of three named centers.
 m-chp10-p281-paris_center,chp-10:10_CHP-10_intro:l125-139,cand-4653,Paris,2625,2630,One of three named centers.

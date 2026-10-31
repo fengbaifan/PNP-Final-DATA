@@ -14523,3 +14523,21 @@ S6影响核对：`relations.csv` 未改写，相关formal `rel-1619`、`rel-1627
 ### 2026-11-01 S2历史汇总核平补记：第7章 p.190 明确未计入批次
 
 独立复核记录 `s2-independent-review-chp7-p190-20261025.md` 明确说明43条p.190 statement不直接并入全书复核分子，待全书台账按ID和来源版本核平。报告列出的43个ID均存在于9,617快照`2ef94174`、9,622快照`1a6313c8`及当前HEAD；完整statement对象在三个版本间均未变化。故该批当前分类为“已独立复核、报告明确不计入统一分子、当前ID/statement版本稳定”；这并不能证明它们已在或不在9,622的历史汇总行级集合中。来源版本与复核范围仍以该报告及S0页段为准。不得把43条加到或从9,622扣除；留待总台账核平解决成员归属。
+
+<a id="2026-11-01-s2-current-statement-delta-recompute"></a>
+### 2026-11-01 S2当前statement版本差异重算
+
+以9,622首次出现的基线提交`1a6313c8654280a9b71187fc08522098626e734e`和当前HEAD`e241a4721b2243c8ce607fd9f33c6dfd5400f831`为准，解析两版JSONL并按完整JSON对象、statement ID比较：基线15,451条、当前15,487条；当前新增37条、删除1条、同ID对象变化124条。此前记录的同ID变化119条不代表当前快照；以本次精确重算为准。
+
+对比中间快照`425dbc14e39ea2ca6389dbceee92858564b00100`与`565f56075b6970ca2033ce2e29f73a3171f9d725`，有5条当前statement对象变化：第8章p.241三条（academy组织展览、Ferdinand对promotion的评价、注3目录说明；[当前版独立回核](#2026-11-01-s2-current-review-ch8-p241)）及结论p.384两条（Bamboccianti与社会要求／原创性论述；[当前版独立回核](#2026-11-01-s2-current-review-ch2-p57-conclusion-p384)）。这五条均有对应的当前版独立回核记录；历史9,622分子是否按这些ID和版本计数仍未知。上述版本差异计数仅描述表变动，不能等同未复核数、不能调整9,622，也不据此计算覆盖率。
+
+<a id="2026-11-01-s2-current-review-ch10-p281-damini-leoni"></a>
+### 2026-11-01 S2当前版独立回核：第10章 p.281 Damini、Leoni抵达英格兰
+
+独立复核者对照当前statement、mention、S0分段及CHP-10.pdf物理页10（印刷p.281）。S0文件SHA-256为f912dba9e5c8460538222c57d32c3734d0c23c72cb32a0871b50b6901ce9e27f，PDF为c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb；两文件在9,622基线提交与当前HEAD的Git blob相同。segment chp-10:10_CHP-10_intro:l125-139的来源资产及切片哈希与当前文件相符。
+
+st-chp10-p281-damini-leoni-arrivals 与 st-chp10-p281-leoni-arrived-in-england-from-dusseldorf 当前引句均为S0段中连续原文，分别以Damini、Leoni为主体，原页明确称二人抵达England。独立复核通过。紧接的“So too did”只承接前句Bellucci来自Düsseldorf，不承接“a few years later”或London目的地；二人具体年份、同行、居留或任职均未明言，保持未断言。Bellucci mention是解释省略结构的语境锚点，不作为二人的同行端点；不改关系候选或增边。
+
+当前相关mention span按segment复算均精确：Bellucci [2321,2329)、Düsseldorf [2379,2389)、Venetian artists [2412,2428)、England [2444,2451)、Vincenzo Damini [2452,2467)、Giacomo Leoni [2490,2503)、Palladian movement [2543,2565)。同步修正两条statement中过时的S6备注：Damini由rel-2535 travelled_from与rel-2536 travelled_to记录，Leoni由rel-2537 travelled_from与rel-2538 travelled_to记录；旧重复located_at边rel-2436、rel-2437均为rejected。relations.csv不变。另将England mention备注更新为cand-4439已有S3 new/S4政治实体KU，将Palladian movement备注更新为cand-8921已有S3 new、尚无KU；S3决定本身不变。
+
+Damini当前statement由基线中的复合断言拆为单人断言；Leoni是新增ID。此次只做当前版独立回核及上述备注更新，不纳入或调整9,622历史汇总。严格表审计errors=[]、s2_missing=[]；当前为15,487条statement、26,999条mention。此定向复核不代表第10章或全书S2接收。
