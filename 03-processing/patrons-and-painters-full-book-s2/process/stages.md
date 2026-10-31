@@ -14419,7 +14419,7 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 
 本节重算前述“80条mention差异”清单。按其声明基线提交`2273e2743158401b841fb9bc7b7d1332836d400a`与当前HEAD`425dbc14e39ea2ca6389dbceee92858564b00100`直接读取Git对象并以`mention_id`比较，三个章节实际差异为29行：第1章1条新增；第2章9条同ID变化、5条新增；第4章3条同ID变化、11条新增；无删除。旧80行清单中51行在基线与当前HEAD间完全相同（例如`m-chp1-seci-0010`），故将旧清单视作已被本节取代的历史工作表，不再用其80/72分母。
 
-29条当前span均依其`segments.jsonl`来源行范围重建文本，逐条切片29/29通过；涉及的S0 Markdown文件及CHP-1、CHP-2、CHP-4 PDF在基线与当前HEAD的Git blob一致。按现存审阅映射，11条可链接到独立复核记录；其中`m-chp2-secii-l141-145-0038`的当前指代裁决通过，`m-chp4-sec-ii-l91-99-leonardo-correspondence`仅确认手稿对象词组span准确且不指向具体Trattato，匿名通信对象端点另由bl-0092保持待证。其余18条尚无精确复核映射；链接到报告不等于章节接收。当前差异逐项如下：
+29条当前span均依其`segments.jsonl`来源行范围重建文本，逐条切片29/29通过；涉及的S0 Markdown文件及CHP-1、CHP-2、CHP-4 PDF在基线与当前HEAD的Git blob一致。按现存审阅映射，14条可链接到独立复核记录；其中`m-chp2-secii-l141-145-0038`的当前指代裁决通过，`m-chp4-sec-ii-l91-99-leonardo-correspondence`仅确认手稿对象词组span准确且不指向具体Trattato，匿名通信对象端点另由bl-0092保持待证。其余15条尚无精确复核映射；链接到报告不等于章节接收。当前差异逐项如下：
 
 | 章 | Mention ID | 变化 | Candidate：基线 → 当前 | 当前 span / surface | 复核映射 |
 |---|---|---|---|---|---|
@@ -14434,9 +14434,9 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 | chp-2 | `m-chp2-secii-l141-145-0040` | added | — → cand-4545 | [1942,1957) other paintings | pending exact review mapping |
 | chp-2 | `m-chp2-secii-l141-145-0041` | added | — → cand-0198 | [2106,2115) Barberini | pending exact review mapping |
 | chp-2 | `m-chp2-secii-l141-145-0042` | added | — → cand-4537 | [607,611) them | pending exact review mapping |
-| chp-2 | `m-chp2-seciv-l171-179-0033` | changed | cand-4800 → cand-1995 | [1670,1696) Happiness subject to Death | pending exact review mapping |
-| chp-2 | `m-chp2-seciv-l171-179-0034` | changed | cand-4800 → cand-1995 | [1701,1723) The Arcadian Shepherds | pending exact review mapping |
-| chp-2 | `m-chp2-seciv-l190-245-0126` | changed | cand-4800 → cand-1995 | [5600,5622) The Arcadian Shepherds | pending exact review mapping |
+| chp-2 | `m-chp2-seciv-l171-179-0033` | changed | cand-4800 → cand-1995 | [1670,1696) Happiness subject to Death | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p57-title-mentions) |
+| chp-2 | `m-chp2-seciv-l171-179-0034` | changed | cand-4800 → cand-1995 | [1701,1723) The Arcadian Shepherds | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p57-title-mentions) |
+| chp-2 | `m-chp2-seciv-l190-245-0126` | changed | cand-4800 → cand-1995 | [5600,5622) The Arcadian Shepherds | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p57-title-mentions) |
 | chp-2 | `m-chp2-secvii-l3-19-0004` | changed | cand-4905 → cand-0996 | [92,105) Duke of Parma | linked to independent-review evidence |
 | chp-4 | `m-chp4-sec-ii-l91-99-different-patrons` | added | — → cand-12446 | [446,463) different patrons | pending exact review mapping |
 | chp-4 | `m-chp4-sec-ii-l91-99-leonardo-correspondence` | changed | cand-5778 → cand-12441 | [1447,1467) Leonardo manuscripts | span verified; anonymous endpoint pending bl-0092 |
@@ -14816,3 +14816,13 @@ S6既有`rel-0706`继续pending：其subject为局部复制品KU“Detail from F
 逐项结论均为表面与当前原文相符。`cand-6369`保留S3 `new`及既有S4映射`units/persons/aldo-de-rinaldis`，仅扩展到证据支持的1936文献作者角色；`cand-12447`保留S3 `new`及`units/persons/roger-hinks`，范围仅为作者身份；`cand-12448`只能确认为作者候选，完整身份仍未证，S3 `undecided`、无KU与待办`bl-0034`均维持，不新增`authored_by`关系。S2三条citation statement的对象仍分别是被引archive，人物mention不替换文献端点。`rel-1955`–`rel-1958` citation边及`rel-1959`–`rel-1961`有据署名边的现行formal裁决均未发现需变更之处；Rosi的formal citation边不证明其作者身份。
 
 本批独立复核PASS，不改S2/S3/S4/S6表或9,622条历史复核汇总；Rosi身份继续待证。本批不构成第2章或全书S2接收。后续仍先逐ID及来源版本核平历史台账，并复核当前差异中尚未有独立结论的对象；达到S2交接条件后再进入S3跨章分组。
+
+
+<a id="2026-11-01-s2-independent-current-review-ch2-p57-title-mentions"></a>
+### 2026-11-01 S2当前版独立复核：第2章 p.57 三条作品题名提及
+
+独立复核者只读核对当前S2、对应S0分节、候选、alignment、关系及`02-sources/01-book/CHP-2.pdf`物理页46（印刷页57）。权威PDF SHA-256为`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；两个来源segment的哈希分别为`chp-2:02_CHP-2_sec_iv:l171-179`=`8b9f0a3c1510512aebfcd9705603ac117d6723313010877e8da88c8cd26db084`与`chp-2:02_CHP-2_sec_iv:l190-245`=`5dd2839d3e713ca4795b2bfd4de98120305a38026d0d41ffcc7c84e19fbcfd2a`，均与当前登记相符。三处mention `[1670,1696)` `Happiness subject to Death`、`[1701,1723)` `The Arcadian Shepherds`、`[5600,5622)` `The Arcadian Shepherds` 均与当前S0精确匹配。
+
+原文在p.57正文明确将前两种题名作为同一作品的名称／替代题名；注3的`The Arcadian Shepherds in the Louvre`与同页第二版相对应。三条均映射到作品候选`cand-1995`及第二版KU。statement `st-chp2-seciv-l171-179-poussin-painted-happiness-subject-to-death`准确保留Poussin绘画归属及“三件作品是否均由Rospigliosi委托”之不确定性；`st-chp2-seciv-l190-245-arcadian-shepherds-louvre-location`与`...arcadian-shepherds-date-proposal`分别保留书内Louvre位置及归属于Mahon的断代提案，不把提案写成定论。第4章p.117另述的第一版`cand-1994`及其KU继续独立；旧混合候选`cand-4800`为excluded，不与第二版合并。
+
+S6 `rel-1990 created_by`与`rel-1991 located_at`保持formal，后者仅表示Haskell所报的历史Louvre位置。没有依据增加Rospigliosi委托边；不将历史位置描述成现今保管状态。本批独立复核PASS，不改S2/S3/S4/S6裁决或9,622条历史汇总；只更新当前差异表的复核映射，不代表第2章或全书S2接收。
