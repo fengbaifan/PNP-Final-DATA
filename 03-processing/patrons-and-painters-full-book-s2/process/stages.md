@@ -13844,3 +13844,11 @@ S2 statement为同ID内容变化，mention新增1条；9,622条统一独立复�
 当前statement `st-chp8-p213-n1-longhi-publication` 的谓词为 `has_subject`，但原来把文章 `cand-7604` 放在object、subject留空，与受控domain/range方向相反。现更正为subject=`cand-7604`、object=null；保留原claim、`original_quote`、引文、范围说明和缺端点理由。新增文献mention `m-s2-chp8-p212-n2-longhi-article-20261031`，跨度`[4724,4762)`；新增 `m-s2-chp8-p213-n1-longhi-article-20261031`，跨度`[5952,5967)`。p.213已有的人物mention `m-chp8-p212-214-notes-038` 保留；文献引文与作者mention重叠但指向不同对象。
 
 Paceco de Rosa画作没有题名、数量或可界定的作品组身份，仍无work KU；p.213没有对应 `relations.csv` 正式裁决，不新增S6边，保持pending。p.212两项已裁决关系未改；未改写其他历史S6裁决。此次为当前代理定向核查，不是独立复核，9,622统一复核台账不变。statement为15,483条；mention增至26,877条。相对基线的mention差异更新为新增28、删除21、同ID内容变化23。
+
+### 2026-10-31 S2台账增量核平：第7章 p.189五条statement
+
+提交 `1a6313c8654280a9b71187fc08522098626e734e` 将统一复核数从9,617增至9,622；该提交的结果记录明确指明新增计入的是 `st-chp7-p189-i25`、`st-chp7-p189-i25-subject`、`st-chp7-p189-i25-intended-gift`、`st-chp7-p189-i26`、`st-chp7-p189-i27` 的独立复核。逐字段比较审读提交与当前 `book-statements.jsonl`，五条当前对象均完全相同。
+
+来源版本也未变：第7章S0 Markdown文件SHA-256为 `f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3`，与审读提交一致；两个相关 `segments.jsonl` SHA分别为 `9477a02e20d70980176b29ee94b4e73b5a1929b84e35a109ead64d979b012dd3` 和 `ad9ae34a8e0247ade77cf812cd0d5943582c3fd615590da5064cef79c38ae28b`，当前值未变；`CHP-7.pdf` Git blob与该提交一致，SHA-256为 `eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`。对应两个segment的285条mention记录也与审读提交完全相同。由此，这5条计入9,622的版本及其原文/页图输入均可追溯到当前。
+
+关系影响核对：`rel-2056`、`rel-2057`、`rel-2058`、`rel-2059`当前与审读提交一致；`i26`没有对应正式关系行。未发现本批复核造成的S6历史关系变化。该核平只确认9,622分子中的5条增量；其余9,617条的逐条ID/来源版本交集仍未重建，不能据聚合数计算当前覆盖率或宣称S2接收。
