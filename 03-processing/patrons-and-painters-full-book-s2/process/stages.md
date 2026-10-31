@@ -14113,7 +14113,7 @@ Compared full mention rows by stable ID between baseline 2273e2743158401b841fb9b
 | CHP-2 | m-chp2-secii-l118-125-0067 | changed | chp-2:02_CHP-2_sec_ii:l118-125 | [2815,2836) | cand-1978 -> cand-1977 | pending mapping |
 | CHP-2 | m-chp2-secii-l127-139-0046 | changed | chp-2:02_CHP-2_sec_ii:l127-139 | [2565,2583) | cand-1488 -> cand-1488 | pending mapping |
 | CHP-2 | m-chp2-secii-l141-145-0009 | changed | chp-2:02_CHP-2_sec_ii:l141-145 | [597,601) | cand-3405 -> cand-3405 | pending mapping |
-| CHP-2 | m-chp2-secii-l141-145-0038 | changed | chp-2:02_CHP-2_sec_ii:l141-145 | [2117,2128) | cand-0198 -> cand-12438 | prior finding; main-agent current-version check complete; independent follow-up pending |
+| CHP-2 | m-chp2-secii-l141-145-0038 | changed | chp-2:02_CHP-2_sec_ii:l141-145 | [2117,2128) | cand-0198 -> cand-12438 | independent current-version follow-up passed; group type remains undecided |
 | CHP-2 | m-chp2-secii-l141-145-0040 | added | chp-2:02_CHP-2_sec_ii:l141-145 | [1942,1957) | none -> cand-4545 | pending mapping |
 | CHP-2 | m-chp2-secii-l141-145-0041 | added | chp-2:02_CHP-2_sec_ii:l141-145 | [2106,2115) | none -> cand-0198 | pending mapping |
 | CHP-2 | m-chp2-secii-l141-145-0042 | added | chp-2:02_CHP-2_sec_ii:l141-145 | [607,611) | none -> cand-4537 | pending mapping |
@@ -14139,7 +14139,7 @@ Compared full mention rows by stable ID between baseline 2273e2743158401b841fb9b
 | CHP-4 | m-chp4-sec-ii-l53-63-0008 | changed | chp-4:04_CHP-4_sec_ii:l53-63 | [448,456) | cand-4515 -> cand-4515 | pending mapping |
 | CHP-4 | m-chp4-sec-ii-l53-63-0011 | changed | chp-4:04_CHP-4_sec_ii:l53-63 | [672,725) | cand-0952 -> cand-0952 | pending mapping |
 | CHP-4 | m-chp4-sec-ii-l91-99-different-patrons | added | chp-4:04_CHP-4_sec_ii:l91-99 | [446,463) | none -> cand-12446 | pending mapping |
-| CHP-4 | m-chp4-sec-ii-l91-99-leonardo-correspondence | changed | chp-4:04_CHP-4_sec_ii:l91-99 | [1447,1467) | cand-5778 -> cand-12441 | prior finding; main-agent current-version check complete; independent follow-up pending |
+| CHP-4 | m-chp4-sec-ii-l91-99-leonardo-correspondence | changed | chp-4:04_CHP-4_sec_ii:l91-99 | [1447,1467) | cand-5778 -> cand-12441 | independent current-version follow-up passed; S3 evidence wording corrected; identity remains undecided |
 | CHP-4 | m-chp4-sec-ii-notes-p114-0056-phocion-title | added | chp-4:04_CHP-4_sec_ii:l232-308 | [10001,10008) | none -> cand-10556 | matched |
 | CHP-4 | m-chp4-sec-ii-p113-0027 | added | chp-4:04_CHP-4_sec_ii:l161-170 | [1905,1915) | none -> cand-12442 | pending mapping |
 | CHP-4 | m-chp4-sec-ii-p113-0028 | added | chp-4:04_CHP-4_sec_ii:l161-170 | [699,716) | none -> cand-12443 | pending mapping |
@@ -14325,9 +14325,16 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 
 - 第2章 mention m-chp2-secii-l141-145-0038 的当前span [2117,2128) 精确对应 the nephews，映射为 cand-12438，不与泛指全体的Barberini家族 cand-0198 合并。aln-12752 仍为 undecided，因为来源虽指一个侄辈群体，但类型和跨章成员边界未定；bl-0015 继续待证且未登记KU。关系statement st-chp2-secii-l141-145-barberini-nephews-decoration-role 不新增formal边，端点身份未解决时保留pending。
 - 第4章 mention m-chp4-sec-ii-l91-99-leonardo-correspondence 的当前span [1447,1467) 精确对应复数 Leonardo manuscripts，映射为未具体识别的 cand-12441，而非具体《绘画论》手稿 cand-5778。aln-12763 继续 undecided；对象范围及各件文献均未确定，不登记KU。当前statement st-chp4-sec-ii-l91-99-cassiano-corresponded-with-leonardo-manuscript-owners 的 qualifiers.mentioned_candidate_ids 已由 ["cand-2036","cand-1601","cand-1390","cand-5778"] 修正为 ["cand-2036","cand-1601","cand-1390","cand-12441"]；predicate、主客体、引文及其余限定未改。
-- S3历史行 aln-5959 的旧证据列表仍含上述泛指mention，现视为不再适用于该泛指指称的历史支持项并保留原记录；其余具体《绘画论》标题mention（L95）及相关statement仍支持 cand-5778 的既有 new 决定和KU登记，不撤销、不改组。S6既有 rel-1875 corresponded_with 仍只记录Cassiano与具名的Mazenta；匿名学者／手稿所有者没有新formal边，关系端点不足的部分保持pending。
+- 独立当前版复核指出该mention的span只涵盖手稿对象词组“Leonardo manuscripts”，不含句法中心词“owners”；故保留span及archive候选映射，同时将mention备注、候选detail和`aln-12763`说明澄清为“未识别所有者句中的复数手稿提及”，不表示已识别所有者或各件手稿。`aln-5959`原`mentions`列表误列了此泛指mention，现已移除并记录其不作为具体《绘画论》身份依据；`cand-5778`既有`new`与KU登记仍由p.106 L95具体书名mention、相关statement及p.113文本来源statement支持，决定与KU均未变。
+- S6既有 `rel-1875 corresponded_with` 仍只记录Cassiano与具名的Mazenta；它不覆盖匿名学者或手稿所有者。`rel-1885 derived_from`仍只记录具体Trattato文本与Poussin作品的书内来源关系。匿名所有者缺少可识别端点，保持process-only pending；不新增formal边。
 
-本次只改一个statement字段；当前mention表span经当前S0源段重新切片核对。两项独立当前版回核仍待完成；其余72条差异mention尚无精确报告匹配。
+本次仅改一个statement字段，并澄清相应mention、candidate及S3证据说明；当前mention表span经当前S0源段重新切片核对。第2章p.43与第4章p.106两项独立当前版回核均已完成；侄辈群体类型与匿名所有者端点仍待证。其余72条差异mention尚无精确报告匹配。
+
+### 2026-10-31 S2当前版指代修订的独立回核：第2章 p.43 与第4章 p.106
+
+独立复核者只读当前S2表、对应S0原文和CHP-2/CHP-4原页，确认第2章p.43 `the nephews` 当前mention跨度`[2117,2128)`精确，statement仅声称该未具名群体参与该阶段装饰；`cand-12438`与Barberini全族`cand-0198`保持区分。`aln-12752`仍`undecided`、无KU，`bl-0015`待证，未登记群体正式关系。
+
+第4章p.106具名Mazenta的statement及`rel-1875 corresponded_with`依据成立；“Leonardo manuscripts”mention跨度`[1447,1467)`精确，但其指向是所有者句中的手稿对象词组，不是匿名所有者本身。故仅澄清mention/candidate说明，并从具体《绘画论》`aln-5959`的身份证据清单移除该泛指mention；`aln-12763`继续`undecided`且无KU，`aln-5959`继续`new`并保留既有KU。`rel-1875`只连接Cassiano与具名Mazenta；`rel-1885`只连接Poussin的作品与具体Trattato文本。匿名所有者端点仍待证，不增加formal关系。此次修订不计入9,622条历史复核汇总，也不代表相关章节或全书S2接收。
 
 ### 2026-10-31 S2独立复核快照回映：第8章 p.237
 
@@ -14369,7 +14376,7 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 
 独立复核者只读当前S2表、S0来源段及CHP-16.pdf物理页1（印刷p.373）。四条书信statement的断言、发信/收信方向和来源限制通过；`rel-1598`–`rel-1601`四条既有formal边均未发现需改裁决的依据。复核发现两处遗漏mention，现已补录并按当前来源段核对：`m-chp16-p373-note2-sasso-recipient` 锚定“letters from Strange to Sasso”中的收件人`Sasso`，`cand-2364`、`[281,286)`；`m-chp16-p373-note2-sasso-him` 锚定“four letters from him to Strange”中的`him`，`cand-2364`、`[476,479)`，其来源局部先行词“Sasso’s replies”为`[408,423)`。两处跨度均与当前S0切片相符，且候选出现在对应statement端点中。
 
-本次是修订前发现后的主代理定点写回；新增mention尚待修订后独立回核。既有关系裁决不变，本批不计入9,622条历史复核分子，不代表第16章或S2接收。
+本次是修订前发现后的主代理定点写回。干净上下文的独立复核者随后对照当前S2表、S0来源段及CHP-16.pdf物理页1复核两条新增mention，确认表面文本、候选外键及跨度均准确；`him`由同句局部先行项“Sasso’s replies”支持。四条statement及`rel-1598`–`rel-1601`关系方向、来源限定和既有formal裁决均通过，未发现需要修订的项目。该复核只核对Haskell书内报告，未查阅书信原件或馆藏目录，不能据此声称原件已核验。本批不计入9,622条历史复核分子，不代表第16章或S2接收。
 
 ### 2026-10-31 S2第8章 p.238复核后S3证据备注更新
 

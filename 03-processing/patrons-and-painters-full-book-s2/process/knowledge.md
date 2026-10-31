@@ -957,7 +957,7 @@ S4 共新增7个 KU（5 archive、2 person）及7条 new 映射；另将 cand-48
 |---|---|---|
 | `st-chp4-sec-ii-l91-99-cassiano-commissioned-conventional-style` | pending | 未指明具体画作；现有端点是人物，不满足 `commissioned_by` 的作品域。 |
 | `st-chp4-sec-ii-l91-99-cassiano-copied-trattato` | pending | 抄写行为与物质手抄本关系未被现有受控谓词准确表达；保留抄本身份边界。 |
-| `st-chp4-sec-ii-l91-99-cassiano-corresponded-with-leonardo-manuscript-owners` | formal `rel-1875 corresponded_with` | Haskell 明言 Cassiano 开始与学者／手稿所有者通信，并点名 Ambrogio Mazenta；只记录该书内陈述。 |
+| `st-chp4-sec-ii-l91-99-cassiano-corresponded-with-leonardo-manuscript-owners` | formal `rel-1875 corresponded_with`；匿名端点 pending | `rel-1875`只记录Haskell点名的Cassiano与Ambrogio Mazenta。句中其他未具名学者／手稿所有者没有可识别person端点，不能由手稿mention或Mazenta边代替，相关关系保持process-only pending。 |
 | `st-chp4-sec-ii-l91-99-cassiano-deepened-poussins-culture` | pending | 文化机会与影响没有精确受控谓词；不泛化为 `influenced`。 |
 | `st-chp4-sec-ii-l91-99-cassiano-gave-set-to-chantelou` | pending | “交给”是版本／物件转移事实，当前无准确转交谓词；不改写为所有权或委托。 |
 | `st-chp4-sec-ii-l91-99-cassiano-kept-original-drawings-and-copied-set` | pending | 原画组身份仍未决；“保留”不等于所有权，且复制组与原画须分开。 |
