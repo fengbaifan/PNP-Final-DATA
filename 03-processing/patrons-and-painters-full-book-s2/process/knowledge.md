@@ -18973,3 +18973,13 @@ S6 effects remain bounded: rel-2470, rel-2471, rel-2460 and rel-2506 remain form
 **S6关系裁决。** 新增 rel-2651 part_of：插图work → 第一版archive，限于Haskell所述版次和扉页角色，不识别具体存世本、印记、题名或图像主题。既有 rel-2558 created_by 保持formal，仅更新其关系说明以指向独立版次边。rel-2044 located_at 仍pending：Haskell p.255注4只是短机构标签，不据馆方建筑资料改成现行保管关系。Toesca相关rel-1983与Contarini报告关系继续待证，未增加formal边。bl-0044与bl-0059因端点已S3裁决并完成S4而标completed；bl-0037、bl-0081保留undecided。
 
 本批后statement数15,488、mention数27,011、KU数3,367、关系记录2,649；S2历史9,622汇总不增减。全书S2版本/复核台账仍未核平，S3–S6仍有其余未决项。
+
+<a id="s2-s3-s5-ch14-p349-newtonianismo-appearance-20261101"></a>
+
+### S2 / S3 / S5 / S6：第14章 p.349 “its” 指代与《Newtonianismo》问世时间（2026-11-01）
+
+依据 `CHP-14.pdf` 物理页3（印刷页349）回核S0：Haskell写“Immediately after its appearance in December / 1737”；“its”回指同段已命名的 *Newtonianismo per le Dame*。mention `m-s2-ch14-p349-20261101-001`按当前segment记为`[1067,1070)`并映射书名级候选`cand-10258`；行程statement `st-chp14-p349-left-italy-and-turin-mission`的提及候选清单补入该书名候选，原引句及行程claim不变。没有把mention改映至第一版`cand-12462`，也未改变任一S3/S4身份决定；`cand-10258`的alignment `resolution_note`只追加该后续mention、过程链接及“不改变身份粒度”的说明。
+
+S5分别记录两个粒度：书名级KU `units/archives/newtonianismo-per-le-dame`直接保存Haskell p.349所报1737年12月问世（`enr-18860`）；第一版KU `units/archives/newtonianismo-per-le-dame-first-edition`由p.349问世日期与p.355“first edition”作明确标注的跨页连接（`enr-18861`）。后者是来源内的身份推断，不是对具体版次刊记的直接引述；未补出版地点、印记或存世本。字段来源均为Haskell本书，不表示已查阅《Newtonianismo》原书。
+
+S6影响核对：`relations.csv`无以行程statement为依据的裁决行；`rel-1313`–`rel-1316`是同页注1的通信档案关系，与此次指代无关且保持不变。本次未新增或更改formal、pending或rejected边，历史裁决无变。原行程statement仍是待全书S6裁决的relation candidate；本项mention补录本身不为关系边提供新依据。

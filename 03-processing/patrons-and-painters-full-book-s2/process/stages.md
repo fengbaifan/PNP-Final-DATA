@@ -14713,3 +14713,30 @@ S6既有`rel-0706`继续pending：其subject为局部复制品KU“Detail from F
 本轮主代理重算当前 segment：原引句是S0连续片段；“the first edition of the Newtonianismo”对应 [1772,1810)，并嵌套于现有标题 mention m-chp14-p355-0028 [1797,1810)。据此新增 edition-level mention m-chp14-p355-0091，并将 statement object 从 cand-10258 改为 cand-12462；claim、引句、谓词和其余候选保持不变。此处只修复第14章p.355当前端点，不把局部核对扩展成全书S2接收。
 
 版本核对：该 statement 的完整JSON对象在9,622基线提交 1a6313c8654280a9b71187fc08522098626e734e 与修订前当前HEAD相同；第14章S0 Markdown和CHP-14.pdf的Git blob在该基线与当前HEAD相同（Markdown 7b282a595bbc8a9831449b68e4c683352d6998f9；PDF 577fc80a6680907ba1d2f1b83d053a62ded246f9）。9,622汇总没有该数全部成员的逐行清单，故本批不调整历史分子、不推定此ID是否计入该数。
+
+写后独立回核（当前数据HEAD 15127d1ee758e86166ac8a8849de3f296eddc81b）再次对照PDF物理页9、S0 L90–91、当前statement及mentions：新增mention m-chp14-p355-0091与嵌套书名mention的跨度均精确；statement object为版次候选cand-12462，书名级cand-10258保留在提及列表。reviewer判定 rel-2651 part_of 的版次范围合适；rel-2558 created_by继续formal，rel-2044保持pending且未改。该写后回核仅覆盖本页statement及直接影响，不构成全书S2接收；未核外部图像目录或具体印本。
+
+
+<a id="2026-11-01-s2-current-delta-recompute-after-p355-endpoint"></a>
+
+### 2026-11-01 S2当前版本差异重算（p.355端点修复后）
+
+以9,622条统一复核汇总首次出现的基线提交 1a6313c8654280a9b71187fc08522098626e734e 与当前数据快照 15127d1ee758e86166ac8a8849de3f296eddc81b 逐项比较解析后的完整对象。book-statements.jsonl：基线15,451、当前15,488；新增38、删除1、同ID内容变化133，当前新增／变化ID共171。mentions.csv：基线26,870、当前27,011；新增162、删除21、同ID内容变化30。被删除ID st-chp2-seciv-l190-245-rest-flight-owned-by-rospigliosi 的删除理由及替代statement已有记录，见本文件第2章p.57注3裁决。
+
+逐项检查171个当前新增／变化statement ID在stages.md及knowledge.md的引用，缺少过程锚点0。上述ID涉及26个S0 Markdown源文件；基线与当前提交间这26个文件的Git blob均一致，02-sources/01-book下PDF也无基线至当前的版本差异。p.355 statement对象由cand-10258改为cand-12462、mention新增1条，已分别记录在[独立回核及端点修订](#2026-11-01-s2-independent-current-review-ch14-p355-edition-endpoint)与[跨阶段裁决](knowledge.md#s3-s4-s5-s6-chp14-newtonianismo-hotel-direct-endpoints-20261101)。
+
+该差异核对只确定当前对象版本、来源版本与过程引用，不证明171个ID均已独立复核，也不能恢复9,622汇总的成员名册。历史成员及其版本归属继续逐批核平；本次不调整9,622总数，不计算S2覆盖率或宣称全书接收。
+
+<a id="2026-11-01-s2-current-delta-recompute-after-p349-referent"></a>
+
+### 2026-11-01 S2 p.349 指代修订及当前版本差异重算
+
+核对 `CHP-14.pdf` 物理页3（印刷页349）与当前S0段 `chp-14:14_CHP-14_intro:l23-33`。PDF和S0 Markdown相对9,622基线提交 `1a6313c8654280a9b71187fc08522098626e734e`未变。页图原文为“Immediately after its appearance in December / 1737 Algarotti left Italy, not to return till May 1743”；当前segment中“its”起始偏移1067，mention `m-s2-ch14-p349-20261101-001`的`[1067,1070)`精确命中该词。上下文前项“the book”已映射书名级archive候选`cand-10258`，不是第一版端点`cand-12462`。
+
+对`st-chp14-p349-left-italy-and-turin-mission`仅补入`mentioned_candidate_ids=cand-10258`并新增上述代词mention；原claim、quote、谓词、subject与object保持不变。候选的S3 `new`决定及书名级S4 KU不变；第一版S3 `new`决定及独立S4 KU不变。仅在`cand-10258`的alignment `resolution_note`追加该后续mention和本过程链接，明确其只支持书名级回指与日期证据、不改变身份粒度；候选表、KU清单及候选待办未改。
+
+书名级archive `enr-18860`记录Haskell p.349所报1737年12月问世；第一版archive `enr-18861`把p.349日期与p.355第一版指称明确标作跨页判断，不声称已核对刊记、出版地或具体印本。两张卡定向字段复预览均为`record_changes=0`、`warnings=0`；卡片预览无差异。
+
+关系影响检查：`relations.csv`没有以`st-chp14-p349-left-italy-and-turin-mission`为依据的裁决行，本次不增、删或改关系边；同页注1的既有关系`rel-1313`–`rel-1316`未改。该statement原有复合行程关系候选仍未由本次重判；不把指代补全当成新的关系证据，也不回写不存在的历史裁决。历史9,622汇总缺完整逐ID成员名册，本次不增减分子。
+
+以同一基线与本次当前表逐项比较完整对象：statement 15,451→15,488，新增38、删除1、同ID变化134；mentions 26,870→27,012，新增163、删除21、同ID变化30。变化计数描述表版本，不代表历史复核成员归属或S2覆盖率。当前全表定向审计为`errors=[]`、`s2_missing=[]`；关系一致性阻断为0。S5当前14,941条字段、1,632条unverified；S2全书仍未独立接收。

@@ -7,13 +7,17 @@ evidence_status: source_backed
 sources:
   - citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006).'
     location: "第14章，印刷页349 L26–29、p.350 L36、p.355 L90–91。"
-    sentence_summary: "第14章称 Newtonianismo per le Dame 为使 Algarotti 声名鹊起的作品；叙述其在1737年威尼斯之行时尚未出版，并在p.355提到该书第一版有Piazzetta所作扉页插图。"
+    sentence_summary: "第14章称 Newtonianismo per le Dame 为使 Algarotti 声名鹊起的作品；p.349报告该书于1737年12月问世，p.350称其在1737年威尼斯之行时尚未出版，p.355另提到该书第一版有Piazzetta所作扉页插图。"
     original_quotes:
       - source_span: "printed p. 349, L26–29; PDF physical p. 3"
         text: |-
           Italy at the very end of 1736 and stayed for about a year between Venice and Milan, where he published the work that brought him immediate fame, Newtonianismo per le
           Dame. It was the first of a long series of books and articles which were to constitute
           Algarotti’s most important contribution to Italian culture—the translation into easy and attractive forms of some of the more complex and enlightened ideas of European thinkers.
+      - source_span: "printed p. 349, L28–29; PDF physical p. 3"
+        text: |-
+          Immediately after its appearance in December
+          1737 Algarotti left Italy, not to return till May 1743
       - source_span: "printed p. 350, L36; PDF physical p. 4"
         text: "He was still only a young man of 25; his Newtonianismo had not yet been published;"
       - source_span: "printed p. 355, L90–91; PDF physical p. 9"
@@ -33,9 +37,9 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡登记 Haskell 第14章所称 *Newtonianismo per le Dame* 的书名级文本身份。“《女士们的牛顿主义》”为项目工作译名，不表示已确认的正式中文题名。p.349称该作为 Algarotti 带来声名，p.350说他在1737年威尼斯之行时此书尚未出版，p.355提及该书第一版。上述叙述足以区分该文本与第一版的具体印本；本卡不确定具体版次、刊记、出版日期或地点，也不表示已查阅原书。
+**中文：** 本卡登记 Haskell 第14章所称 *Newtonianismo per le Dame* 的书名级文本身份。“《女士们的牛顿主义》”为项目工作译名，不表示已确认的正式中文题名。p.349称该作为 Algarotti 带来声名，并报告该书于1737年12月问世；p.350另称其在1737年威尼斯之行时尚未出版；p.355提及该书第一版。这里记录的是 Haskell 的叙述，不据此补出具体刊记、出版地或存世本，也不表示已查阅原书。
 
-**English:** This card records the title-level textual identity of *Newtonianismo per le Dame* as named in Haskell’s Chapter 14. 《女士们的牛顿主义》 is a project working translation, not an established Chinese title. Page 349 calls the book a source of Algarotti’s immediate fame; page 350 says it had not yet been published during his 1737 visit to Venice; and page 355 refers to its first edition. These references distinguish the text from any particular copy of the first edition. This card does not identify an edition, imprint, publication date, or publication place, and does not imply that the book itself was consulted.
+**English:** This card records the title-level textual identity of *Newtonianismo per le Dame* as named in Haskell’s Chapter 14. 《女士们的牛顿主义》 is a project working translation, not an established Chinese title. Page 349 calls the book a source of Algarotti’s immediate fame and reports its appearance in December 1737; page 350 separately says it had not yet been published during his 1737 visit to Venice; page 355 refers to its first edition. This records Haskell’s account without supplying an imprint, publication place, or surviving copy, and does not imply that the book itself was consulted.
 
 ### 文献身份
 
@@ -46,6 +50,7 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 | 身份粒度 | 书名级文本身份；具体版次及刊记未由所引段落识别 | S1；第14章 pp.349、355 |
 | 1737年出版状态 | Haskell称其在Algarotti 1737年威尼斯之行时尚未出版 | S1；第14章 p.350 L36 |
 | 中文工作译名 | 《女士们的牛顿主义》；项目暂译，不作为正式中译题名 | 项目工作译名，未核正式译名 |
+| 问世时间 | Haskell称该书于1737年12月问世 | S1；第14章 p.349 L28–29 |
 
 ### 本章相关内容
 

@@ -6,9 +6,13 @@ sub_type: book edition
 evidence_status: source_backed
 sources:
   - citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006).'
-    location: Chapter 14, printed p.355, L90–91; PDF physical p.9.
-    sentence_summary: Haskell says the first edition of Newtonianismo had one of Piazzetta’s Parisian-style illustrations as its frontispiece.
+    location: Chapter 14, printed p.349, L28–29, and p.355, L90–91; PDF physical pp.3 and 9.
+    sentence_summary: Haskell reports the book’s appearance in December 1737 on p.349 and identifies a first edition on p.355; their linkage here is cross-page and does not identify an imprint or surviving copy.
     original_quotes:
+      - source_span: Chapter 14, printed p.349, L28–29; PDF physical p.3.
+        text: |-
+          Immediately after its appearance in December
+          1737 Algarotti left Italy, not to return till May 1743
       - source_span: Chapter 14, printed p.355, L90–91; PDF physical p.9.
         text: |-
           though the first edition of the Newtonianismo had one of his most sophisticated
@@ -16,7 +20,7 @@ sources:
     evidence_ref:
       doc_id: patrons-and-painters
       source_file: 02-sources/02-Markdown/14_CHP-14_intro.md
-      source_span: Chapter 14, printed p.355, L90–91.
+      source_span: Chapter 14, printed pp.349 and 355, L28–29 and L90–91.
 created: '2026-11-01'
 updated: '2026-11-01'
 process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s3-s4-s5-s6-chp14-newtonianismo-hotel-direct-endpoints-20261101
@@ -26,15 +30,16 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 ### 描述
 
-**中文：** 本卡登记Haskell所称《Newtonianismo per le Dame》的第一版身份。第14章p.355称该版有Piazzetta的一幅巴黎风格插图作为扉页。来源未提供该版的刊年、印记、出版地点或具体存世本；中文名称为描述性工作译名。
+**中文：** 本卡登记Haskell所称《Newtonianismo per le Dame》的第一版身份。第14章p.355称该版有Piazzetta的一幅巴黎风格插图作为扉页；p.349称该书于1737年12月问世。本卡将两页作跨页连接，把该问世时间归于来源所定义的第一版；这是基于书名与版次指代的判断，不表示原文直接给出该版刊记。来源未提供印记、出版地点或具体存世本；中文名称为描述性工作译名。
 
-**English:** This card records the source-defined first-edition identity of *Newtonianismo per le Dame*. Chapter 14, p.355 says that the edition had one of Piazzetta’s Parisian-style illustrations as its frontispiece. The source gives no publication date, imprint, place, or individual surviving copy. The Chinese title is a descriptive working translation.
+**English:** This card records the source-defined first-edition identity of *Newtonianismo per le Dame*. Chapter 14, p.355 says that the edition had one of Piazzetta’s Parisian-style illustrations as its frontispiece; p.349 reports that the book appeared in December 1737. This card links those passages across pages and attributes that appearance date to the source-defined first edition. This is an interpretation of the title and edition references, not a direct imprint statement. The source gives no imprint, place, or individual surviving copy. The Chinese title is a descriptive working translation.
 
 ### 版本身份
 
 | 字段 | 值 | 证据 |
 |---|---|---|
-| 版次身份 | Haskell称《Newtonianismo per le Dame》的第一版有Piazzetta的一幅巴黎风格插图作为扉页；刊年、印记、出版地点和具体存世本未提供。 | S1；第14章，印刷页355，L90–91。 |
+| 版次身份 | Haskell称《Newtonianismo per le Dame》的第一版有Piazzetta的一幅巴黎风格插图作为扉页；版次刊记、出版地点和具体存世本未识别。问世时间另见p.349/p.355跨页字段。 | S1；第14章，印刷页355，L90–91。 |
+| 问世时间（跨页连接） | Haskell p.349报告该书于1737年12月问世；据p.355识别的第一版作跨页连接，将该时间归于来源所定义的第一版，不识别具体刊记或存世本。 | S1；第14章 p.349 L28–29、p.355 L90–91；跨页身份判断。 |
 
 ## 关系与证据
 
