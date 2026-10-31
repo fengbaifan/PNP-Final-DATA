@@ -13852,3 +13852,7 @@ Paceco de Rosa画作没有题名、数量或可界定的作品组身份，仍无
 来源版本也未变：第7章S0 Markdown文件SHA-256为 `f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3`，与审读提交一致；两个相关 `segments.jsonl` SHA分别为 `9477a02e20d70980176b29ee94b4e73b5a1929b84e35a109ead64d979b012dd3` 和 `ad9ae34a8e0247ade77cf812cd0d5943582c3fd615590da5064cef79c38ae28b`，当前值未变；`CHP-7.pdf` Git blob与该提交一致，SHA-256为 `eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`。对应两个segment的285条mention记录也与审读提交完全相同。由此，这5条计入9,622的版本及其原文/页图输入均可追溯到当前。
 
 关系影响核对：`rel-2056`、`rel-2057`、`rel-2058`、`rel-2059`当前与审读提交一致；`i26`没有对应正式关系行。未发现本批复核造成的S6历史关系变化。该核平只确认9,622分子中的5条增量；其余9,617条的逐条ID/来源版本交集仍未重建，不能据聚合数计算当前覆盖率或宣称S2接收。
+
+### 2026-10-31 S2版本核平：第8章 p.240 指代修订的独立复核版本
+
+`knowledge.md#s3-chp1-ch5-ch8-art-exhibitions-20261029`记录该批第二轮独立复核已确认 `st-chp8-p240-exhibition-as-art-direction` 的指代、procedure mention、S3端点与 `rel-2643 uses_procedure`。为确认该复核版本仍对应当前数据，以提交 `0908338be8fa8364767387896bc167e5c5ba6b66` 的表版本为锚点，与当前表逐行比较：statement完整JSON对象一致；来源segment记录一致；该segment的17条mention行（含 `m-s2-chp8-p240-20261029-procedure`）全部一致；`rel-2643`关系行一致。第8章S0 Markdown及 `CHP-8.pdf` 的Git blob也分别一致，SHA-1 blob分别为 `3d06d52be0860626d4a3b01bc985273636879ef0` 与 `3c745eb57bc3fcd2b5f8b1a1a8b09f540f933a03`。因此本次只确认已记录的独立复核覆盖当前statement和来源版本，不新增语义判断、不改S6裁决，也不据此增减9,622条统一台账；该statement与台账的逐ID归属仍待整体核平。
