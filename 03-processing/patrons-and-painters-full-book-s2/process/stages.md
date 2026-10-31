@@ -14470,3 +14470,17 @@ statement版本也按完整JSON对象重算：第1、2、4章同ID变化106条�
 其余4条仍不在该独立回核范围内：st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned、st-chp18-conclusion-p384-bamboccianti、st-chp18-conclusion-p384-crespi-and-medici-prince、st-chp18-conclusion-p384-social-demands-and-originality。它们的当前版本继续待独立差异复核，不因同页其他statement通过而接收。
 
 本次只把既有独立复核结论与当前ID、完整statement对象及来源版本交叉映射；不把7条追加或扣减9,622历史聚合数，也不能由汇总数推断这7条旧版本是否曾计入其中。相关S6正式关系和pending裁决沿用复核记录中的限定，不改relations.csv；全书9,622条行级ID／来源版本交集仍未完成。
+
+<a id="2026-11-01-s2-current-review-ch2-p57-conclusion-p384"></a>
+### 2026-11-01 S2当前版独立回核与引文修订：第2章 p.57、结论 p.384
+
+干净上下文的独立复核者只读当前statement、mention、候选、alignment、relations、S0分节和PDF页图，不依赖既有过程报告。范围为第2章印刷p.57注3（CHP-2.pdf物理页46）及结论印刷p.384（CHP-18Conclusion.pdf物理页1）的4条statement；两个当前source segment共113条mention（第2章60条、结论53条）均逐项按当前S0行段复算，span与surface form全部相符。复核只核对Haskell书内表述，不表示独立查阅Bellori原件、Richard引文、Crespi相关外部资料或艺术品实物。
+
+| 当前 statement | 独立回核与修订 | S3/S6影响 |
+|---|---|---|
+| `st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned` | **通过。** p.57注3逐字支持Haskell转述Bellori关于Rospigliosi历史所有权的报告；当前引文和三个相关mention准确，无须改写。 | `cand-2263`复用Rospigliosi人物KU；`cand-4806`复用其既有作品`new`组及KU；Poussin另有作者statement。`rel-2460 owned_by`仍formal且仅指Haskell转述的历史所有权；`rel-2461 created_by`独立记录书内作者表述。两边均不表示现时产权、现藏或外部归属验证。 |
+| `st-chp18-conclusion-p384-bamboccianti` | 初审要求收窄过长且截在Crespi句中“his”的`original_quote`。现引文改为S0第11行连续原文“one thinks of the bamboccianti … only to fall into picturesque sentimentality;”，覆盖完整例证，span `[1586,1732)`；修订后独立回核通过。同步从`mentioned_candidate_ids`移除只对应前一一般论断的`cand-10735`，保留直接群体`cand-0173`；因新引文不含`Efe`，移除本statement不再适用的`Efe`→`life`校读项。 | `cand-0173`仍为`new`并映射`units/terms/bamboccianti`。原文是Haskell对群体艺术轨迹的评价，`relation_candidate=false`及无formal边保持不变。 |
+| `st-chp18-conclusion-p384-crespi-and-medici-prince` | **statement通过；端点/关系待证。** 当前claim和引文忠实对应Crespi“carry along with him an eccentric Medici prince”，未将习语扩写成具体关系。 | Crespi复用既有人物KU；`cand-10738`未名且alignment仍`undecided`、无KU。无对应relations.csv边；继续按过程级pending处理，不推为赞助、委托或合作，不补造身份。 |
+| `st-chp18-conclusion-p384-social-demands-and-originality` | 初审要求将697字符的引文收窄到一般论断，现截至“becomes irresistible:”，S0第10–11行连续原文span `[1248,1585)`；修订后独立回核通过。保留S0 OCR `Efe`，继续记`Efe`→`life`；另据同一页图补录缺失空格校读`of‘national`→`of ‘national`。候选mention `Italian`、`the pressing claims of society`、`‘national character’`均位于当前引文范围内。 | `cand-3461`仍复用Italy；`cand-10735`与`cand-10736`保持既有new身份决定。`rel-2432 site_of_manifestation`仍只记录另一statement中的地域/文化语境，不表达社会压迫因果关系。本statement保持非关系claim，无新增或改写S6边。 |
+
+对应S0文件`18_CHP-18Conclusion.md` SHA-256为`A3D40952BEEAD96AC48136610FA3FA15F1DCDFCD1A354EF9F2C2262343AEFF14`；CHP-18Conclusion.pdf为`750BA8A4F4E7DC72E032746F7F3B15C3C70EF97A4220491FC3AA250A91CE2E29`，CHP-2.pdf为`317531003E6AEBA7D0A956D660EB7552E846FE35B6C7E8E1A4A0A5AA97E8AC5E`。S0及PDF来源文件均未修改，`relations.csv`、mentions表、S3 alignment和KU登记均未改写。当前statement表仅修改上述两条结论记录；9,622条历史复核聚合不增不减。原7ea4184快照未覆盖的4条差异现已完成当前版独立回核，但它们的旧版本是否曾计入9,622仍无行级凭据，继续列为台账归属待核，不据此计算S2覆盖率。
