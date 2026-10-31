@@ -14002,3 +14002,11 @@ statement st-chp14-p349-note3-albrizzi-issue通过：原文引述支持“劝读
 来源快照哈希：CHP-2.pdf 317531003E6AEBA7D0A956D660EB7552E846FE35B6C7E8E1A4A0A5AA97E8AC5E；02_CHP-2_sec_ii.md 7EFDE367C2D7D600F599C17D09FBC4F57BF29AA6B7EFB439859A1F45B8C863A9；02_CHP-2_sec_iv.md 9F50E1396234FAFF664211D70A1231EF145BCCDC24E91C088F1237D55CA34DBF；02_CHP-2_sec_vii.md 5F2EC3C85927ED4ADED258D7A6B1801CCB3B8E0416F0F3F9E57AD7B2FAE8DD4C；CHP-13.pdf DA49ADDCF425E7473770BA02DB64284D1189934CF38F2B773F0672F052FCA2BC及13_CHP-13_intro.md C0B93D35AAB60EC8261EB14DB1E2F1B4D9EC7CAE9709E19F236CCDDBD12996A8；CHP-14.pdf F871A00A63CFA5A9F229930CFD4B0D979BAA0491CA4E7FE4D50404FA020A52E0及14_CHP-14_intro.md D472C0AED1891F38546C3F73557C46583DCC7F744B0DBB764FC7A94CFF71CDF7；CHP-17.pdf FA9C9A4EBC484C481D13B0AFB46F96BF94FE0631C65F0B742D0B0B9D9E0B7465及17_CHP-17_sec_i.md CBCB4E8F0EB163564F0B0C8E060C79F1A48981DB45072A772C3EA16642AD3CA4；CHP-18Conclusion.pdf 750BA8A4F4E7DC72E032746F7F3B15C3C70EF97A4220491FC3AA250A91CE2E29及18_CHP-18Conclusion.md A3D40952BEEAD96AC48136610FA3FA15F1DCDFCD1A354EF9F2C2262343AEFF14。
 
 本批当前statement/mention差异已逐项独立复核；这不补记或扣减9,622条历史聚合数。S2全库台账的唯一ID及来源版本交集仍待整体重建，已核对的复核快照和重复计数须按来源记录分别归并后才能报告覆盖率。
+<a id="2026-10-31-s1-current-table-crosswalk"></a>
+### 2026-10-31 S1当前候选表与索引输入核验
+
+为把本批候选补录后的当前表与此前S1覆盖快照对齐，对输入CSV、候选表及待办表作只读核验。19个索引CSV共有2,934条数据记录：主条1,381条、子条1,553条；按源文件名与零基数据行号组成的`index_entry_id`逐条回映，2,934/2,934均一对一匹配，无缺键、重复键或多余候选。图版输入仍对应85条候选，书目输入对应256条候选。当前候选表共12,442条、候选ID唯一；其中2,934条索引候选及9,508条非索引候选，所有非索引候选均有`candidate_source_ref`。54条`excluded`均有理由。
+
+此前S1覆盖记录的12,437条候选快照之后，回流backlog新增`cand-12460`–`cand-12463`四条，再由第17章`quest’arte`原文修订登记`cand-12464`一条；因此当前为12,442条，属于时间顺序上的增量，不是索引漏项。`candidate-backlog.csv`共91条，88条映射到现存候选，3条（`bl-0011`、`bl-0012`、`bl-0085`）仍无候选，均为`undecided`且保留理由与过程引用。严格表审计返回`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`。
+
+按CSV原始字段与当前候选字段比较，93条索引候选的规范名、子条或页码范围至少一项不同（规范名41项、子条8项、页码范围45项，字段差异有重叠）。这些行仍保留原`index_entry_id`，且均有S3 alignment记录及过程/裁决说明；不得据此把原索引文字静默丢弃，也不把字段差异自动当作身份成立。后续S3按对应候选核查名称、范围与身份；本次确认的是S1覆盖和源行可追溯，不是上述差异的语义接收。
