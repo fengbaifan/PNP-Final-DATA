@@ -27555,7 +27555,6 @@ m-ch8-p238-guercino-st-william-artist,chp-8:08_CHP-8_sec_ii:l327-336,cand-1258,G
 m-ch8-p238-st-william-of-aquitaine-original,chp-8:08_CHP-8_sec_ii:l327-336,cand-1269,St William of Aquitaine,1411,1434,"Title of Guercino’s original painting, distinguished from Crespi’s copy candidate."
 m-chp16-p373-note2-sasso-recipient,chp-16:16_CHP-16_intro:l69-89,cand-2364,Sasso,281,286,Recipient in “letters from Strange to Sasso”; the complete archival-item phrase is separately anchored to cand-10604.
 m-chp16-p373-note2-sasso-him,chp-16:16_CHP-16_intro:l69-89,cand-2364,him,476,479,"Pronoun in “four letters from him to Strange”; its source-local antecedent is “Sasso’s replies” [408,423); the letter group remains cand-10607."
-m-chp8-p238-note1-letters-march-april,chp-8:08_CHP-8_sec_ii:l372-461,cand-2962,Letters of March and April 1708,11690,11721,Date description of the cited letter group in note 1; no individual letter contents are inferred.
 m-chp8-p238-note1-archivio-mediceo,chp-8:08_CHP-8_sec_ii:l372-461,cand-8040,"Archivio Mediceo, Filza 5904",11729,11757,Archival collection and filza locator cited for the March and April 1708 letters.
 m-chp8-p238-note1-no26,chp-8:08_CHP-8_sec_ii:l372-461,cand-8030,26,11764,11766,One of the cited item numbers in Filza 5904.
 m-chp8-p238-note1-no38,chp-8:08_CHP-8_sec_ii:l372-461,cand-8031,38,11768,11770,One of the cited item numbers in Filza 5904.
@@ -27675,3 +27674,5 @@ m-s2-ch10-p326-327-0101,chp-10:10_CHP-10_sec_ii:l210-222,cand-9792,solenne ingre
 m-s2-ch10-p326-327-0102,chp-10:10_CHP-10_sec_ii:l210-222,cand-2719,Veneria,2951,2958,S0 OCR surface. CHP-10.pdf physical p.59 prints Venezia; the S0 source string remains unchanged.
 m-s2-ch10-p326-327-0103,chp-10:10_CHP-10_sec_ii:l210-222,cand-9792,1’ingresso,3019,3029,S0 OCR surface for the occasion in the title. CHP-10.pdf physical p.59 prints l’ingresso; the S0 source string remains unchanged.
 m-s2-ch10-p326-327-0104,chp-10:10_CHP-10_sec_ii:l210-222,cand-2719,Veneria,3073,3080,S0 OCR surface. CHP-10.pdf physical p.59 prints Venezia; the S0 source string remains unchanged.
+m-chp8-p238-body-painters-family,chp-8:08_CHP-8_sec_ii:l327-336,cand-0884,The Painter’s Family,1472,1492,Named work in the body; distinct from the family group and mapped to the indexed work candidate.
+m-chp8-p238-body-fair-at-poggio,chp-8:08_CHP-8_sec_ii:l327-336,cand-0878,the Fair at Poggio a Caiano,2690,2717,Named whole painting in the body; distinct from the Plate 37b detail candidate cand-4038.

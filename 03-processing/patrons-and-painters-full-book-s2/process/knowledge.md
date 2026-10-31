@@ -18933,3 +18933,24 @@ S6 effects remain bounded: rel-2470, rel-2471, rel-2460 and rel-2506 remain form
 对被解释的第二幅版画，原 S6 过程裁决仍为 rejected：这是 Haskell 对图像寓意的解释，不能无损转成正式关系。其 subject 当前 S3 未决、尚无 KU，故不在 `relations.csv` 写入无效端点；过程记录保留该否决及其边界。Montesquieu 图像→`cand-12116` 关系保持 pending，因为被描绘作品组仍未达到稳定身份粒度。`rel-2462`–`rel-2465` 当前权威表状态全部为 pending；早期过程文字把 `rel-2462`–`rel-2464` 写作 formal 的变化已由后续记录更正，历史原文保留，不回写成未发生。
 
 本批 S2 表为 15,488 条 statement（6条当前对象修订、数量不变）和 27,007 条 mention（新增7条）。新增2个候选及2条 S3 undecided 决定；backlog 93行。与9,622历史汇总的逐行成员及版本归属仍未核平，不增减历史分子，也不把本批计入独立复核数。S2 全书仍未独立接收，S3–S6仍未全书收口。
+
+<a id="s6-independent-followup-ch10-p326-titles-20261102"></a>
+
+### S6独立回核增补：第10章 p.326 第一册题名
+
+独立复核确认：st-chp10-p326-n01-pamphlet-titles 的原文、claim及跨段题名span忠实；它只证明诗册为Pisani入城而作，不证明诗册正文以该事件为题材。此前仅有process-only pending，且旧理由称类型矩阵不允许archive→event的has_subject；当前v11矩阵已允许该组合，因此本次改用语义证据不足作为未决理由。现增权威S6行 rel-2650：archive units/archives/componimenti-poetici-pisani-entry-1780 → event units/events/giorgio-pisani-1780-election-and-entry，has_subject，pending。此行不是formal关系。
+
+第二、三册的rel-2648、rel-2649同因题名仅报告创作场合而保持pending；三条印记行rel-2462–rel-2464及集合馆藏行rel-2465状态不变。当前关系一致性审计无阻断。st-chp10-p326-il-patriotismo-title的题名断言清除event object后，事件mention仍保留；它不另产生关系行。无KU、S3决定或历史formal/rejected裁决变更。
+
+<a id="s3-chp8-p238-identity-followup-20261101"></a>
+
+### 2026-11-01 第8章 p.238 跨阶段身份与关系修订
+
+- **`cand-0884` → same**：保留原`undecided`及“索引候选、无S2提及”历史理由；当前S2新增正文与注3的`The Painter’s Family` mention，与现有`cand-4041`及KU `units/works/g-m-crespi-the-painter-s-family`同题同作。候选不是未具名家庭群体。S3当前决定改为same。既有formal关系`rel-0716 held_by`复用，注3作为书内补充依据写入关系note，不重复建边。
+- **`cand-0878` → new**：保留原索引候选`Fair at Poggio a Caiano`的undecided历史。当前正文明确整幅作品，注5的“The picture”由正文脚注标记5回链到`st-chp8-p238-fair-includes-courtier-portraits`；新增两处mention后，身份范围明确。唯一近似现有KU `units/works/g-m-crespi-detail-from-fair-at-poggio-a-caiano`只表示图版37b所据整幅画的复制局部，非整幅画；工作卡检索未发现整幅作品已有KU。判为新的来源内整幅work，`group=new-work:crespi-fair-at-poggio-a-caiano`，待S4登记，未声称外部身份核验。
+- **`cand-8046`**仍为new；S2现有mention `m-chp8-p238-note4-casini-author`已在L446逐字定位`Casini`，更新alignment中的`s2_mentions=none`失效理由。人物全名依据仍限于书内第21章书目。
+- **`cand-6591`**规范名去掉`p.213`；该页是个别引文定位，不是1769年书目身份字段。
+- **关系与待证**：`rel-0716`保留formal并注明p.238注3的同书补充来源；不另造边。原`rel-0706`曾为formal，但当前端点`units/works/g-m-crespi-detail-from-fair-at-poggio-a-caiano`是图版37b局部，Uffizi定位是整幅作品。现转pending，留存旧状态及理由；待`cand-0878`完成S4登记后，复核/重定向同一关系，不复制或重复建边，也不把整幅画保管关系写到局部。此时不新增正确整幅作品的S6行，因为整幅作品KU尚未登记。
+- 注4候选`cand-8048`及“These pictures”范围继续undecided；note2通信候选不因mention补齐而自动formalize；注3 published-in与note6返抵Bologna候选仍pending。`rel-2392`–`rel-2395`既有档案引用/系列边不变。
+
+写后独立复核确认两条新增mention、错误mention删除、cand-0884 same、cand-0878 new、cand-8046理由、cand-6591名称及rel-0716补证均通过；随后复核确认rel-0706转pending合适，现无需rejected或新建S6行。`detail`卡、Uffizi卡、Painter’s Family卡分别预览后定向渲染，写后复预览均无差异。detail卡frontmatter.relations仍保留迁移期的旧`evidence_backed_relation`对照；当前权威`relations.csv`为pending，依项目规则不在本次改写迁移对照。关系表当前2,648行（2,589 formal、56 pending、3 rejected）；S2全书及S3–S6全书仍未收口。

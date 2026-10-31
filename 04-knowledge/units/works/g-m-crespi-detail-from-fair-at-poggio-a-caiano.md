@@ -101,7 +101,7 @@ relations:
 |---|---|---|
 | → 创作者（`created_by`） | [朱塞佩·马里亚·克雷斯皮（Giuseppe Maria Crespi）](../persons/giuseppe-maria-crespi.md) | 角色：所据画作作者；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 104–104; 章前：图版目录；印刷页xiv |
 | → 所涉对象（`has_subject`） | [波焦阿卡亚诺（Poggio a Caiano）](../places/poggio-a-caiano.md) | 角色：画作描绘地点；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 104–104; 章前：图版目录；印刷页xiv |
-| → 由其保管（`held_by`） | [乌菲齐美术馆（Uffizi Gallery）](../institutions/uffizi-gallery.md) | 时间：本书所述时点；角色：所据原画保管机构；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 104–104; 章前：图版目录；印刷页xiv |
+| → 待证：由其保管（`held_by`） | [乌菲齐美术馆（Uffizi Gallery）](../institutions/uffizi-gallery.md) | 状态：待证；2026-11-01复核：原status=formal，现待证。当前端点是图版37b局部KU；原文的Uffizi定位指向整幅《The Fair at Poggio a Caiano》。cand-0878已S3判new，待S4登记后核对端点；不将整幅画的保管边挂到局部，也不复制新边；时间：本书所述时点；角色：所据原画保管机构；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 104–104; 章前：图版目录；印刷页xiv |
 | → 位于（`located_at`） | [佛罗伦萨（Florence）](../places/florence.md) | 时间：本书所述时点；角色：书中原画所在城市；范围：图版37b所据画作，书中仅复制局部；不将局部复制品当另件乌菲齐藏品；证据：[来源](../../../02-sources/02-Markdown/00_05_List_of_Plates.md)；haskell-1980-rev-ed；lines 104–104; 章前：图版目录；印刷页xiv |
 
 ### 关系候选入口

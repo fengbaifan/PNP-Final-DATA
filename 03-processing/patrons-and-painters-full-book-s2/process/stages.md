@@ -14489,11 +14489,11 @@ statement版本也按完整JSON对象重算：第1、2、4章同ID变化106条�
 <a id="2026-11-01-s1-current-input-and-s2-backlog-crosswalk"></a>
 ### 2026-11-01 S1当前输入与S2补录回核
 
-以当前 `entity-candidates.csv`、S2覆盖表、backlog及其来源为准复核S1收口，不写回候选、对齐、KU、S2或关系表。`build_entity_candidates.py`只读预览生成2,934条索引输入：19个CSV的主条1,381、子条1,553，与当前2,934条带`index_entry_id`候选一对一匹配，缺项、重复和多余键均为0；全库候选12,443条。预览无待补accepted-KU候选（new accepted-KU candidates=0）。
+以当前 `entity-candidates.csv`、S2覆盖表、backlog及其来源为准复核S1收口，不写回候选、对齐、KU、S2或关系表。该次复核快照的 `build_entity_candidates.py` 只读预览生成2,934条索引输入：19个CSV的主条1,381、子条1,553，与当时2,934条带`index_entry_id`候选一对一匹配，缺项、重复和多余键均为0；当时全库候选12,443条。预览无待补accepted-KU候选（new accepted-KU candidates=0）。
 
-图版目录 `00_05_List_of_Plates.md` 对应85条唯一候选、13个S0 coverage段（12 reviewed、1个生成标题排除）；第21章书目 `21_CHP-21Bibliography.md` 对应256条唯一候选、33段（32 reviewed、1个生成标题排除）。候选源行锚点均落在对应来源段内，未覆盖段为0。除索引候选外另有9,509条候选：8,505条来自正文提及、1,004条用于映射已采纳KU；全部有来源引用并由严格表审计解析到已审阅段或KU。54条`excluded`均有非空理由。索引字段97项差异及A.csv四处编码异常的原页回映仍以本记录前文“2026-10-31 S1索引字段回映复核与A.csv编码异常”为准；差异不等于身份裁决，逐候选决定由S3处理。
+图版目录 `00_05_List_of_Plates.md` 对应85条唯一候选、13个S0 coverage段（12 reviewed、1个生成标题排除）；第21章书目 `21_CHP-21Bibliography.md` 对应256条唯一候选、33段（32 reviewed、1个生成标题排除）。候选源行锚点均落在对应来源段内，未覆盖段为0。该次复核快照中，除索引候选外有9,509条（8,505条来自正文提及、1,004条用于映射已采纳KU），均有来源引用并由严格表审计解析到已审阅段或KU。此后第10章p.326指代修订新增 `cand-12466` 与 `cand-12467` 两条正文候选；两者均锚定同一已审阅S0段并有当前S3 `undecided` 决定。因此当前候选表为12,445条，其中非索引候选9,511条；这是审计后有依据的增量，不是索引覆盖差额。54条`excluded`均有非空理由。索引字段97项差异及A.csv四处编码异常的原页回映仍以本记录前文“2026-10-31 S1索引字段回映复核与A.csv编码异常”为准；差异不等于身份裁决，逐候选决定由S3处理。
 
-`candidate-backlog.csv`当前92行：88行关联候选、共84个不同候选ID；另4行`bl-0011`、`bl-0012`、`bl-0085`、`bl-0092`均为`undecided`且具备来源、statement、理由与过程引用，分别因写信人未具名、仅给职衔、费用对象范围不明、以及额外通信群体与手稿所有者范围不明而没有候选ID/KU。它们是待证关系端点，不是已识别但漏登的S1对象；不得据此补造实体。`bl-0092`是第4章p.106于10月31日新增的端点待办，使旧S1快照中的91行/3个无候选ID更新为当前92行/4个；索引输入与候选覆盖没有变化。
+该次复核时 `candidate-backlog.csv` 为92行：88行关联候选、共84个不同候选ID；另4行`bl-0011`、`bl-0012`、`bl-0085`、`bl-0092`均为`undecided`且具备来源、statement、理由与过程引用，分别因写信人未具名、仅给职衔、费用对象范围不明、以及额外通信群体与手稿所有者范围不明而没有候选ID/KU。它们是待证关系端点，不是已识别但漏登的S1对象；不得据此补造实体。`bl-0092`是第4章p.106新增的端点待办，使旧S1快照中的91行/3个无候选ID更新为当时92行/4个。此后第10章p.326修订为已识别图像候选`cand-12466`新增`bl-0093`；当前backlog为93行，其中89行关联候选、4行无候选ID。候选锚点与待办均可回溯至已审阅来源；不改变索引输入覆盖结论。
 
 结论：按现有索引、图版、书目及可识别S2补录候选，S1入口覆盖与来源追溯闭合；4个不可识别端点保留待证，不虚报为已解决。S1仅在发现新来源、输入行或可识别候选缺口时重开。
 
@@ -14604,3 +14604,25 @@ st-chp8-p224-dido-picture-narrative不再把Dido人物候选当作整幅多人�
 新增7条 mention，跨度按 S0 切片断言通过，ID为 `m-s2-ch10-p326-327-0098`–`-0104`，覆盖两图、Pisani alone、诗册题名中的入城事件及两处 OCR `Veneria`。`relations.csv` 新增 `rel-2648`、`rel-2649` 两条 pending `has_subject`；对应 archive 卡两张经定向渲染与复预览，预览无差异。仍缺作品组身份的 `cand-12116` 关系保持 pending；寓意解读的 S6 rejected 裁决仍留过程记录，不将无KU端点写入权威关系表。`rel-2462`–`rel-2465` 当前均 pending；较早过程文字与后续更正的差异保留历史，未改旧记录。
 
 针对校验：`audit_tables.py --strict-stage --summary` 返回 `errors=[]`、`s2_missing=[]`；当前表统计为 statement 15,488、mention 27,007、候选12,445、alignment 12,791、backlog 93、关系2,647。`audit_relation_consistency.py --dry-run` 的 broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed 均为0；另报告全库1319个零关系单元、2个高连接单元，未作本批新增归因。`git diff --check` 通过。该定向修订不等于第10章或全书 S2 独立接收。详见[裁决及对象边界](knowledge.md#s2-current-ch10-p326-referent-correction-20261102)。
+
+<a id="2026-11-02-s2-current-review-ch10-p326-followup"></a>
+
+### 2026-11-02 S2独立回核增补：第10章 p.326 题名关系与当前版本
+
+第二位独立复核者对照 CHP-10.pdf 物理页59、当前S0及S2/S3/S6记录，复核两条指代修订后的statement与三条题名关系。原PDF与S0版本未变；本次仍是p.326局部核验，不代表第10章或全书S2接收。
+
+修订 st-chp10-p326-n01-pamphlet-titles 的qualification，明确 in occasione 只说明诗册创作场合，不证明正文题材；补充relation_candidate_note。保留事件候选作为has_subject待裁端点，新增权威行 rel-2650，状态pending。当前域值矩阵允许archive→event的has_subject；未决理由是原文不足以证明正文题材。该statement的mention m-s2-ch10-p326-327-0097 [8128,8221) 精确覆盖第一册题名。
+
+修订 st-chp10-p326-il-patriotismo-title，清除不适用于“诗集被称为Il Patriotismo”这一题名断言的事件object cand-9792；保留其题名中的事件mention及relation_candidate=false。第三册“为入城而作”的关系由独立的 st-chp10-p326-n01-pamphlet3-has-subject 表达，其 rel-2649 继续pending。rel-2648与rel-2649均未升级；rel-2462–rel-2465亦仍pending；两幅图像解释的历史rejected裁决未改。候选 cand-9796 与事件候选的S3/S4决定未改。
+
+rel-2650定向渲染到第一册archive卡；写后复预览无差异。事件卡预览无差异。修订后的定向断言、S2严格表审计及关系一致性审计通过；当前S2仍15,488条statement、27,007条mention，9,622历史复核成员/版本尚未全量核平。relations.csv当前2,648行（2,590 formal、55 pending、3 rejected），本次未改变历史复核分子。04-knowledge/results/patrons-and-painters-full-book-s2.md保留当前阶段状态。
+
+<a id="2026-11-01-s2-current-review-ch8-p238-title-referents"></a>
+
+### 2026-11-01 S2当前版增量修订：第8章 p.238 标题与指代mention
+
+对照当前S0段`chp-8:08_CHP-8_sec_ii:l327-336`，补入两处先前遗漏的具名作品mention：`m-chp8-p238-body-painters-family`覆盖`The Painter’s Family` `[1472,1492)`，`m-chp8-p238-body-fair-at-poggio`覆盖`the Fair at Poggio a Caiano` `[2690,2717)`；两处均由当前S0段切片断言逐字相符。正文whole-work候选分别保留`cand-0884`与`cand-0878`；图版37b的“Detail from Fair at Poggio a Caiano”仍映射独立detail候选`cand-4038`。
+
+删除`m-chp8-p238-note1-letters-march-april`：其surface“Letters of March and April 1708”是对三封信的日期集合定位，不能映射到来源书`cand-2962`，也不另造一项集合身份。原始引句、statement及单封候选`cand-8030`、`cand-8031`、`cand-8032`和档案系列`cand-8040`保留；note1 statement现明确集合日期词组不作为独立实体。总量净增1：当前S2为15,488条statement、27,008条mention；p.238共54条mention（正文14、注释40）。
+
+这只是针对新增／修订对象的当前版核查。独立复核者确认两条新增span及错误映射删除通过，但未重审旧报告所覆盖的全部50条statement或p.238整页；不调整9,622历史汇总，不宣称第8章或全书S2接收。表版本相对9,622基线当前差异为：statement 15,451→15,488（新增38、删除1、同ID变化131）；mention 26,870→27,008（新增159、删除21、同ID变化29）。这些差异是版本量，不是历史复核成员归属或覆盖率。
