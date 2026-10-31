@@ -14419,7 +14419,7 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 
 本节重算前述“80条mention差异”清单。按其声明基线提交`2273e2743158401b841fb9bc7b7d1332836d400a`与当前HEAD`425dbc14e39ea2ca6389dbceee92858564b00100`直接读取Git对象并以`mention_id`比较，三个章节实际差异为29行：第1章1条新增；第2章9条同ID变化、5条新增；第4章3条同ID变化、11条新增；无删除。旧80行清单中51行在基线与当前HEAD间完全相同（例如`m-chp1-seci-0010`），故将旧清单视作已被本节取代的历史工作表，不再用其80/72分母。
 
-29条当前span均依其`segments.jsonl`来源行范围重建文本，逐条切片29/29通过；涉及的S0 Markdown文件及CHP-1、CHP-2、CHP-4 PDF在基线与当前HEAD的Git blob一致。按现存审阅映射，14条可链接到独立复核记录；其中`m-chp2-secii-l141-145-0038`的当前指代裁决通过，`m-chp4-sec-ii-l91-99-leonardo-correspondence`仅确认手稿对象词组span准确且不指向具体Trattato，匿名通信对象端点另由bl-0092保持待证。其余15条尚无精确复核映射；链接到报告不等于章节接收。当前差异逐项如下：
+29条当前span均依其`segments.jsonl`来源行范围重建文本，逐条切片29/29通过；涉及的S0 Markdown文件及CHP-1、CHP-2、CHP-4 PDF在基线与当前HEAD的Git blob一致。按现存审阅映射，20条可链接到独立复核记录；其中`m-chp2-secii-l141-145-0038`的当前指代裁决通过，`m-chp4-sec-ii-l91-99-leonardo-correspondence`仅确认手稿对象词组span准确且不指向具体Trattato，匿名通信对象端点另由bl-0092保持待证。其余9条尚无精确复核映射；链接到报告不等于章节接收。当前差异逐项如下：
 
 | 章 | Mention ID | 变化 | Candidate：基线 → 当前 | 当前 span / surface | 复核映射 |
 |---|---|---|---|---|---|
@@ -14427,13 +14427,13 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 | chp-2 | `m-chp2-seci-l124-157-0040` | changed | cand-4367 → cand-6369 | [1450,1461) de Rinaldis | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-l124-157-author-mentions) |
 | chp-2 | `m-chp2-seci-l124-157-hinks-author-20261025` | added | — → cand-12447 | [246,257) Roger Hinks | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-l124-157-author-mentions) |
 | chp-2 | `m-chp2-seci-l124-157-rosi-author-20261025` | added | — → cand-12448 | [2467,2471) Rosi | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-l124-157-author-mentions) |
-| chp-2 | `m-chp2-seci-l9-10-0001` | changed | cand-2678 → cand-2677 | [9,17) Valentin | pending exact review mapping |
-| chp-2 | `m-chp2-secii-l118-125-0067` | changed | cand-1978 → cand-1977 | [2815,2836) Guglielmo della Porta | pending exact review mapping |
-| chp-2 | `m-chp2-secii-l141-145-0009` | changed | cand-3405 → cand-3405 | [597,601) they | pending exact review mapping |
+| chp-2 | `m-chp2-seci-l9-10-0001` | changed | cand-2678 → cand-2677 | [9,17) Valentin | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p41-p43-mentions) |
+| chp-2 | `m-chp2-secii-l118-125-0067` | changed | cand-1978 → cand-1977 | [2815,2836) Guglielmo della Porta | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p41-p43-mentions) |
+| chp-2 | `m-chp2-secii-l141-145-0009` | changed | cand-3405 → cand-3405 | [597,601) they | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p41-p43-mentions) |
 | chp-2 | `m-chp2-secii-l141-145-0038` | changed | cand-0198 → cand-12438 | [2117,2128) the nephews | current-version follow-up passed |
-| chp-2 | `m-chp2-secii-l141-145-0040` | added | — → cand-4545 | [1942,1957) other paintings | pending exact review mapping |
-| chp-2 | `m-chp2-secii-l141-145-0041` | added | — → cand-0198 | [2106,2115) Barberini | pending exact review mapping |
-| chp-2 | `m-chp2-secii-l141-145-0042` | added | — → cand-4537 | [607,611) them | pending exact review mapping |
+| chp-2 | `m-chp2-secii-l141-145-0040` | added | — → cand-4545 | [1942,1957) other paintings | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p41-p43-mentions) |
+| chp-2 | `m-chp2-secii-l141-145-0041` | added | — → cand-0198 | [2106,2115) Barberini | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p41-p43-mentions) |
+| chp-2 | `m-chp2-secii-l141-145-0042` | added | — → cand-4537 | [607,611) them | [independent PASS; joint referent documented](#2026-11-01-s2-independent-current-review-ch2-p41-p43-mentions) |
 | chp-2 | `m-chp2-seciv-l171-179-0033` | changed | cand-4800 → cand-1995 | [1670,1696) Happiness subject to Death | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p57-title-mentions) |
 | chp-2 | `m-chp2-seciv-l171-179-0034` | changed | cand-4800 → cand-1995 | [1701,1723) The Arcadian Shepherds | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p57-title-mentions) |
 | chp-2 | `m-chp2-seciv-l190-245-0126` | changed | cand-4800 → cand-1995 | [5600,5622) The Arcadian Shepherds | [independent PASS](#2026-11-01-s2-independent-current-review-ch2-p57-title-mentions) |
@@ -14826,3 +14826,20 @@ S6既有`rel-0706`继续pending：其subject为局部复制品KU“Detail from F
 原文在p.57正文明确将前两种题名作为同一作品的名称／替代题名；注3的`The Arcadian Shepherds in the Louvre`与同页第二版相对应。三条均映射到作品候选`cand-1995`及第二版KU。statement `st-chp2-seciv-l171-179-poussin-painted-happiness-subject-to-death`准确保留Poussin绘画归属及“三件作品是否均由Rospigliosi委托”之不确定性；`st-chp2-seciv-l190-245-arcadian-shepherds-louvre-location`与`...arcadian-shepherds-date-proposal`分别保留书内Louvre位置及归属于Mahon的断代提案，不把提案写成定论。第4章p.117另述的第一版`cand-1994`及其KU继续独立；旧混合候选`cand-4800`为excluded，不与第二版合并。
 
 S6 `rel-1990 created_by`与`rel-1991 located_at`保持formal，后者仅表示Haskell所报的历史Louvre位置。没有依据增加Rospigliosi委托边；不将历史位置描述成现今保管状态。本批独立复核PASS，不改S2/S3/S4/S6裁决或9,622条历史汇总；只更新当前差异表的复核映射，不代表第2章或全书S2接收。
+
+
+<a id="2026-11-01-s2-independent-current-review-ch2-p41-p43-mentions"></a>
+### 2026-11-01 S2当前版独立复核：第2章 p.41、43 的六条mention
+
+独立复核者只读核对当前S2、S0来源段、候选与S3/S4映射、S6关系及原书页。复核读取的提交为`bdaee1d2dbb1a3f94eab2d5a90108436f942ade2`；之后至`1c708bcb`，`02-sources`与`04-knowledge/tables`均未变化。`CHP-2.pdf` SHA-256为`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`。当前mention切片均精确匹配登记segment：`chp-2:02_CHP-2_sec_i:l9-10`哈希`100ceec33887ee1d2e71ad9d0c7dfdf84f5687e659a0e887164239d576626e00`；`chp-2:02_CHP-2_sec_ii:l118-125`哈希`b45e5832e49f40c221c95f72d8e4be732de3b687fd4ac95821a1cfafe469b27f`；`chp-2:02_CHP-2_sec_ii:l141-145`哈希`6ee183c4a1a0fb2eacd040ac7a9d12a50fc521cd13caabbc49aeaa15ebf3645b`。原页为物理页2（图版I）、26（印刷p.41）、28（印刷p.43）。
+
+| Mention | 当前映射与判断 | 关系及跨阶段影响 |
+|---|---|---|
+| `m-chp2-seci-l9-10-0001` “Valentin” `[9,17)` | PASS。图版I署名；`cand-2677`为人物，图版作品`cand-2678`保持分立。 | `rel-1026 created_by`保持formal，目录来源与端点未变。 |
+| `m-chp2-secii-l118-125-0067` “Guglielmo della Porta” `[2815,2836)` | PASS。印刷p.41墓葬归属语句指向人物`cand-1977`；墓葬作品`cand-4516`与索引标题候选`cand-1978`保持不同粒度并映射同一墓KU。 | `rel-1252 created_by`保持formal，本批只直接复核p.41，未复核其另列的第4章p.104佐证。 |
+| `m-chp2-secii-l141-145-0009` “they” `[597,601)` | PASS。p.43先行语境明确为Capuchin monks，保持机构候选`cand-3405`。 | 两条退回statement的主语指向修士；退回行为仍因缺少忠实受控谓词而pending，不以供给边替代。 |
+| `m-chp2-secii-l141-145-0040` “other paintings” `[1942,1957)` | PASS。指Domenichino、Lanfranco等人贡献的未具名复数祭坛画组`cand-4545`。 | `rel-1682`–`rel-1686 contributed_by`及`rel-1688 part_of`限于作品组；不分配到具体画作。 |
+| `m-chp2-secii-l141-145-0041` “Barberini” `[2106,2115)` | PASS。指家族候选`cand-0198`；后文“the nephews”是另一个身份仍未决的候选`cand-12438`，待办`bl-0015`继续有效。 | 不将家族与侄辈集合合并，也不据家族 mention 新增装饰关系。 |
+| `m-chp2-secii-l141-145-0042` “them” `[607,611)` | PASS，联合指代保持明确。它同时回指烛台组`cand-4537`与十字架组`cand-4538`；当前mention note已说明该共同所指，两条对应statement分别保留两个object端点及两者的`mentioned_candidate_ids`。 | `mentions.csv`每行只有一个`candidate_id`，审计还禁止同一segment重复或交叉span；故不拆成重复offset行或新造集合KU。`rel-1390/1391 supplied_by`保持formal且只表达供给；退回边继续pending。 |
+
+六条mention均通过原文、跨度和直接候选复核；其S3/S4映射及既有formal关系没有需要改判的变化。历史9,622汇总不增减。本批为指定当前差异的局部独立复核，不接收第2章或全书S2。

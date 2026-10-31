@@ -7,6 +7,8 @@
 
 **2026-11-01 第2章 p.57 三条题名 mention 当前版独立复核：** 两个互称题名及注3中的题名均指向第二版作品候选`cand-1995`；第4章p.117第一版`cand-1994`保持分立。`rel-1990/1991`维持formal，委托关系不升级。复核PASS，历史9,622汇总不变。详见[p.57题名复核](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch2-p57-title-mentions)。
 
+**2026-11-01 第2章 p.41、43 六条 mention 当前版独立复核：** Valentin、Guglielmo della Porta、Capuchins、“other paintings”及Barberini家族映射通过；Barberini侄辈身份仍待证。“them”作为烛台与十字架的共同所指已由mention注释和两条分立statement端点保留。既有作者、供给及组级贡献关系不改；退回行为保持pending。详见[p.41、43复核](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch2-p41-p43-mentions)。
+
 
 **2026-11-01 第14章 p.349 “its” 指代修订：** S0跨度`[1067,1070)`精确为“its”；该代词回指本段既有“the book”提及，故将`cand-10258`补入行程 statement 的`mentioned_candidate_ids`，原引句、关系端点和谓词不变。书名级 archive 卡新增“Haskell报告该书于1737年12月问世”；第一版卡另记p.349/p.355跨页连接，并明确这不是原文刊记，未识别印记、出版地或具体存世本。新增S5字段`enr-18860`、`enr-18861`；既有S3/S4决定未改。关系账本无该行程statement的裁决行，未改任何关系或历史裁决。当前表为15,488条statement、27,012条mention、3,367个KU、14,941条字段（1,632条unverified）、2,649条关系（2,590 formal、56 pending、3 rejected）；历史9,622汇总不调整。针对性审计通过；全书S2尚未独立接收，S3–S6未收口。详见[原页、指代与版本差异记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-delta-recompute-after-p349-referent)及[跨阶段字段裁决](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s3-s5-ch14-p349-newtonianismo-appearance-20261101)。
 
