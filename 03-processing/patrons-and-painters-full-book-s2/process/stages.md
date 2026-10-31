@@ -13971,3 +13971,10 @@ Current table totals after these changes are 15,487 statements and 26,880 mentio
 复核指出新加的标题提及`m-s2-ch14-p349-20261031-001`误挂到Newtonianismo书名候选；已据注3原文改映`cand-9988`周刊候选，具体刊期`cand-10261`与正文所论书名`cand-10258`仍各自独立。候选alignment及KU均已存在，本次仅修正mention外键及statement中已过时的“刊期未对齐”限定，没有改变S3决定、S4登记或relations.csv。由于现有受控类型不能保留“刊期警示读者谨慎阅读该书表达”的言语行为，关系保持process-only pending；不得用`has_subject`或`cites`替代。该修订做了原文位置、候选映射和关系历史定向检查；新当前版本仍须纳入独立语义复核，不能计入9,622条统一台账。
 
 同批S3排队项：`cand-0024`同时存在`aln-0359 new`及`aln-12650 same`且同映射Almorò Albrizzi KU。保留两行，待按来源证据和决定历史核平。
+
+<a id="2026-10-31-s2-review-snapshot-crosswalk-chapters-13-19"></a>
+### 2026-10-31 S2版本回映：第13–17章、结论与附录复核快照
+
+独立复核记录 s2-independent-review-chp13-17-20261020.md 所列范围为2,124条statement，其中2,120条计入逐条复核，另有4条第16章端点statement未计入复核分子。记录中的book-statements.jsonl SHA-256与提交2273e2743158401b841fb9bc7b7d1332836d400a相符。按该提交重建复核范围的source-file cohort，共有2,120个statement ID；当前对应源文件共2,162行，较快照新增43个ID、删除1个ID、75条同ID对象的完整JSON发生变化。这些是版本差异，不是未复核数量；确定当前复核状态前，仍须逐项比对后续复核记录。
+
+复核范围内的Markdown来源文件自该快照以来未变，832条segments.jsonl记录也完全一致。报告记录的mentions.csv SHA-256无法与包含该表的160个Git历史版本中的任何一个匹配，因此无法将复核使用的精确mention快照对应到某次提交；mention的当前版本复核覆盖仍待逐项核平。第14章p.349的mention和限定语最近一次修订晚于24行复核，仍需独立复核。完整回映及当前统计见结果文件。本记录不改变9,622条聚合台账，也不表示S2已整体接收。
