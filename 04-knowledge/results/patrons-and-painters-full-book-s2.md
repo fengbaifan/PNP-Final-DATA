@@ -3880,13 +3880,13 @@ cand-7963 沿用既有 S3 new 组 sg3-place-cand-7963 登记为[地点卡](../un
 | 阶段 | 当前进度 | 状态与边界 |
 |---|---:|---|
 | S0 | 832段：678 complete、154 excluded | 处置覆盖完成，不代表S2语义接收。 |
-| S1 | 索引2,934/2,934条均匹配唯一候选；54条排除均有理由；9,503条非索引候选来源引用齐全；图版与书目分别关联85条、255条候选 | 当前来源输入的候选覆盖与来源定位已核平；身份判断留给S3，后续S5/S6新增端点按S1→S3→S4回流。详见[本次核平记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s1全书候选覆盖核平)。 |
+| S1 | 索引2,934/2,934行一对一映射；54条排除均有理由；9,507条非索引候选来源引用齐全；图版85条、书目256条候选；91条端点待办中88条关联候选、3条因身份或范围不明保持待证 | 索引主条/子条、图版、书目及S2补录候选覆盖与来源已核平。新增cand-12460–12463转交S3；3条无候选待办不推断身份或作品。详见[全书覆盖核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s1全书候选覆盖核平)及[端点回流核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s1端点待办回流核平)。 |
 | S2 | 15,483 statements、26,877 mentions；统一独立复核台账9,622条 | 尚未全书独立接收。相对基线有33条statement新增、1条删除、95条同ID内容变化；mention有28条新增、21条删除、23条同ID内容变化。第5章p.138报告明确将36条计入当时全书分子；当前statement、来源、35条mention均与审读快照一致，本次不增加9,622总数，详见[版本核平记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2台账版本核平第5章-p138-已计数statement)。第7章p.189原44条计入9,617，后3个同ID修订与2条新增共同复核、计数加5；当前46个唯一ID均与审读快照一致，但汇总与唯一ID差额仍需全库去重，详见[版本与计数核平记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2版本与计数核平第7章-p189-preti肖像)；第8章p.240定向复核版本与当前相同，但台账归属未核平。第15章p.365–367的40条当前statement与独立复核快照一致；涉及13个segment、172条mention及5条相关关系均与快照相同，但不计入9,622，详见[版本核平记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2版本核平第15章-p365367独立复核后的40条statement)。第7章p.190独立复核的43条当前statement及来源版本与审读快照一致；相关segment的311条mention中，只有后增的两条p.177注4 mention不属于该复核范围；其余309条mention及5条关系均与快照一致；不计入9,622，详见[版本核平记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2版本核平第7章-p190独立复核记录)。第7章p.200–202复合脚注段的34条当前statement、44条mention及来源与独立复核快照一致；该批报告记录在当时计入全书分子，本次不重复增数，后续仍须纳入全库去重，详见[版本核平记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2台账版本核平第7章-p200202复合脚注段)。该段后续新增的rel-1843–rel-1845、rel-2409均为范围受限的formal cites。第7章p.193–202正文／图版6段的134条当前statement、293条mention及来源均与独立审读快照一致；报告记103条计入当时分子、31条延后去重，相关16条S6边为后续新增（13 formal、3 pending），本次不重复计数，详见[版本核平记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2版本核平第7章-p193202正文与图版独立复核批次)。第6章p.162独立复核的2条当前statement、1个segment、56条mention及rel-2447/rel-2448均与审读快照一致；不计入9,622，详见[版本核平记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-10-31-s2版本核平第6章-p162独立复核记录)。另定位10条旧审读记录与当前statement不同（第2章7条、结论3条）：来源与页图版本未变，修订版仍待独立差异复核；相关S6去向已记录。本轮原页自查补记3项OCR校读，仍不计独立复核。其余ID与台账来源版本交集仍未核平，不据此计算覆盖率。
-| S3 | 12,437个候选：仅same 2,130、仅new 5,079、仅undecided 5,085、conflict 8、excluded 107、混合new/same 27、混合new/undecided 1 | 含new决定5,107项；当前组号、来源决定差异和身份边界仍按类型逐批核对。
+| S3 | 12,441个候选；既有决定分布：仅same 2,130、仅new 5,079、仅undecided 5,085、conflict 8、excluded 107、混合new/same 27、混合new/undecided 1 | 四个新S1候选cand-12460–12463尚待S3决定；既有含new决定5,107项，组号、来源决定差异和身份边界仍按类型逐批核对。
 | S4 | 已映射2,586/5,107个含new决定候选；待登记2,521个；KU共3,365 | 876个含new决定的直接关系端点尚未登记：term 399、work 124、place 121、archive 111、event 72、institution 48、person 1。
 | S5 | 14,937条字段；1,632条unverified | 按关系具体缺口定向补证；本批未新增外部字段。
 | S6 | `relations.csv` 2,641行：2,589 formal、49 pending、3 rejected；当前`relation_candidate=true`为10,685条 | 历史裁决台账与当前statement版本尚未核平，不报告完成率。缺候选端点statement 342条：仅缺subject 47、仅缺object 223、两端均缺72。
-| Backlog | 91条：17 completed、74 undecided | 机械pending=0不表示待证对象已解决；逐条检查其S1→S3/S4覆盖和最小待证条件。 |
+| Backlog | 91条：17 completed、74 undecided；88条关联候选、3条保留无候选 | 三条无候选分别是未具名外层来信作者、只给职衔的总督、范围不明的费用对象；保持待证，不为满足映射率造实体。 |
 
 S3纯`undecided`候选、纯未决直接关系端点及S4待登记直接关系端点按类型交叉统计：
 
@@ -3907,7 +3907,7 @@ S3纯`undecided`候选、纯未决直接关系端点及S4待登记直接关系�
 严格表审计 `errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`、`candidate_backlog_pending=0`；关系一致性阻断 `broken target=0`、`invalid relation_type=0`、`missing inverse=0`、`weak evidence=0`、`unbaselined generic evidence-backed=0`。零关系KU和2个超50连接对象属于非阻断诊断。机械通过不等于独立语义接收。S2仍未独立接收，S3–S6未全书收口，S7未启动；知识发现和页面尚未开展。
 
 #### 后续工作顺序
-1. **S1已完成。** 当前索引、图版目录、书目及S2补录候选覆盖、来源定位和排除理由已核平；新发现的必需端点继续按S1→S3→S4回流。
+1. **S1已收口。** 当前索引主条/子条、图版、书目和S2补录候选均已核对；新增四个有来源的候选并保留三个无法识别的待证端点。S3只接收已建候选，不从关系反推未明身份。
 2. **先收束S2版本核平，再继续独立语义复核。** 将基线与当前statement、mention按ID和解析后内容比较；逐条映射9,622条汇总复核数到当前ID及来源版本，去除重复和旧版本后，按章节审读当前正文、注释及必要图像。当前版本映射完成前不报告S2覆盖率或独立接收。
 3. **按类型完成S3跨章身份分组。** 优先处理2,966个未决直接关系端点；对每个候选明确复用、新增、冲突、排除或待证去向，核对来源决定差异和组号，保持同名实体及范围不同的集合分开。
 4. **完成S4登记并定向补足S5。** 对已解决的new候选完成KU映射；针对关系所需的身份、版本、角色、时间和地点核验S5字段，逐字段保留来源或明确缺口。未解决的876个直接关系端点保持未登记。

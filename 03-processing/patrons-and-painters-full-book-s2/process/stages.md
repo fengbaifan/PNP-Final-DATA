@@ -13934,3 +13934,20 @@ mentions按来源记录范围核对：两个相关source segment共311条mention
 `CHP-7.pdf` SHA-256 `eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`、`07_CHP-7_sec_iv.md` `d620659a2f3567ea9a1d91b7657390e9824768c320c3cf534bd30069d6c72077`、`07_CHP-7_sec_v.md` `956054d03a849749a1f7a0dbf0eade81c5cb1252a284cc26d024a7f9f134b432`、`07_CHP-7_sec_v_visual-transcription.md` `5b4b9eddcbd01bf3dc1273027a49537ecf93305b0be1545390fbff219b4d5960`均与审读快照相同。
 
 关系影响核对发现，审读提交后新增而非改写16条S6行：10条`rel-1894`–`rel-1903`（正式引注和两件肖像的作者边）；第7章p.201新增3条formal（`rel-1465`、`rel-1767`、`rel-1768`）及3条pending（`rel-1906`–`rel-1908`）。这些边的证据范围、正式／待决依据见对应既有知识裁决记录。该批103条曾被报告计入当时汇总，另31条明确延后去重；本次不重复增加9,622，也不将历史分子直接当作当前唯一ID覆盖数。
+### 2026-10-31 S1端点待办回流核平
+
+在既有索引、图版目录、书目及S2补录候选核平后，继续对照`candidate-backlog.csv`的91条来源端点任务与`entity-candidates.csv`。复核19份索引CSV当前共2,934行，对应候选表2,934个索引候选；逐个文件按`index_entry_id`核对行号，缺失、重复、越界均为0。当前图版目录有13个coverage段（12 reviewed、1 metadata heading excluded）并关联85条候选；第21章书目有33个coverage段（32 reviewed、1 title metadata excluded），原有255条关联候选外，本批从L. Toesca书目署名补入1条人物候选。非索引候选共9,507条且均有`candidate_source_ref`；54条`excluded`候选的`exclude_reason`均非空。
+
+待办检查发现7条记录没有`candidate_id`。其中4条已有可定位的来源端点，但尚未进入S1候选表：
+
+| backlog | S1 candidate | 类型与边界 | 来源 |
+|---|---|---|---|
+| `bl-0037` | `cand-12460` | person；按书目原署名登记`L. Toesca`，不与`cand-4332`的I. Toesca或`cand-9345`的Ilaria Toesca合并；S3身份和引文关系仍未决。 | 第21章书目L.1169。 |
+| `bl-0044` | `cand-12461` | place；依馆方记录区分Hôtel建筑／楼梯与机构`cand-8358`；不据此裁为当前馆藏关系。 | 第9章p.255注4定位；馆方记录`src-821d4b71d11ff434`的“The Staircase”部分。 |
+| `bl-0059` | `cand-12462` | archive；记录Haskell所称《Newtonianismo per le Dame》第一版，区别于书名级`cand-10258`；日期、印记、具体本未提供。 | 第14章p.355 L.90–91。 |
+| `bl-0081` | `cand-12463` | archive；记录Contarini 1627–1629年报告文书，区别于人物`cand-4875`及后世出版容器`cand-4365`；题名和文书身份未明。 | 第2章p.54注1 L.232。 |
+
+另3条不建虚构候选：`bl-0011`的外层来信作者未具名，`bl-0012`只写职衔“Viceroy”且未能确定个人，`bl-0085`的“the expense”没有可判定对象范围或类型。三者继续`undecided`，不建KU、不 formalize 相关关系。对多条statement复用同一候选ID的待办逐条保留，不合并或删除关系任务。`bl-0026`无原书statement ID，但有已登记外部来源`src-fafe74be6f3ca959`和具体馆方`Standort`字段，因此不视为来源缺失。
+
+受控写回脚本`reconcile_s1_backlog_candidates_20261031.py`先dry-run，再核对候选表与backlog前置SHA并应用；恢复副本保存在`06-runtime/recovery/s1-backlog-candidates-20261031/`。新增候选`cand-12460`–`cand-12463`并写回4条backlog映射；`candidate-backlog.csv`现有91条中88条关联候选、3条因对象仍不可识别而保持空`candidate_id`。候选表当前12,441条（2,934索引、9,507非索引），图版85条、书目256条；未登记KU、未改变S3决定或S6裁决。关系影响核对：`rel-1983` Toesca可能引文与`rel-2044` Contarini壁画地点仍为pending；`rel-2558`仅为Piazzetta创作关系，保持formal，第一版端点关系仍待证；Contarini报告未新增formal边。严格表审计输出`errors=[]`、`s2_missing=[]`；这只是结构与来源引用检查，不构成新增候选的S3身份裁决。
+*** End of File
