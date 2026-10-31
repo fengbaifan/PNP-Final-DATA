@@ -13856,3 +13856,22 @@ Paceco de Rosa画作没有题名、数量或可界定的作品组身份，仍无
 ### 2026-10-31 S2版本核平：第8章 p.240 指代修订的独立复核版本
 
 `knowledge.md#s3-chp1-ch5-ch8-art-exhibitions-20261029`记录该批第二轮独立复核已确认 `st-chp8-p240-exhibition-as-art-direction` 的指代、procedure mention、S3端点与 `rel-2643 uses_procedure`。为确认该复核版本仍对应当前数据，以提交 `0908338be8fa8364767387896bc167e5c5ba6b66` 的表版本为锚点，与当前表逐行比较：statement完整JSON对象一致；来源segment记录一致；该segment的17条mention行（含 `m-s2-chp8-p240-20261029-procedure`）全部一致；`rel-2643`关系行一致。第8章S0 Markdown及 `CHP-8.pdf` 的Git blob也分别一致，SHA-1 blob分别为 `3d06d52be0860626d4a3b01bc985273636879ef0` 与 `3c745eb57bc3fcd2b5f8b1a1a8b09f540f933a03`。因此本次只确认已记录的独立复核覆盖当前statement和来源版本，不新增语义判断、不改S6裁决，也不据此增减9,622条统一台账；该statement与台账的逐ID归属仍待整体核平。
+
+### 2026-10-31 S2版本核平：第2章和结论10条旧审读记录
+
+对照独立审读快照提交 `2273e2743158401b841fb9bc7b7d1332836d400a`（[第1、2、4章记录](s2-independent-review-chp1-2-4-20261020.md)、[第13–17章及结论记录](s2-independent-review-chp13-17-20261020.md)），下列10条statement当前完整对象均已变化，旧审读不能作为当前版独立接收。对应四个S0 Markdown文件、`CHP-2.pdf`、`CHP-18Conclusion.pdf` 的Git blob均与该提交相同；各源segment记录也均相同。Markdown blob依次为：第2章 sec ii `adc9482a1372b978145687a134884def0b702148`、sec iv `c576524fd7cd086091534ba3067a0ab9176ded58`、sec vii `f5382152fe14f0c535459658cb632de016ef83d5`、第18章结论 `27c43e0cfda02de1310f7de64a3d572636777916`；两章PDF blob分别为 `437bbe41236a6562594722a2cac4f012fe6197ac`、`9a64c8613f3f1ca4962b86f8b34f8f6a59361593`。这确认旧审读使用的来源版本未漂移，但不替代对修订后statement及mention的独立复核。
+
+| 当前statement | 相对审读快照的变化 | 当前关系及历史去向 |
+|---|---|---|
+| `st-chp2-secii-l52-60-programme-duration` | 移除 `cand-0209` 对象端点，`relation_candidate` 改为false。 | 无S6表行；保留为工程时长陈述，Urban VIII只作时间参照。 |
+| `st-chp2-secii-l80-89-country-house-decoration-employed` | 对象从工程 `cand-4481` 改为受雇者Pietro `cand-0342`，工程保留为限定范围。 | formal `rel-2470 employed_by`，Pietro→Marcello，仅限该工程。 |
+| `st-chp2-secii-l80-89-pietro-interpreted-decoration-themes` | 将“found his true road”从关系claim分出，补全相关mention候选。 | formal `rel-2471 designed_by`，工程→Pietro；不表示独自施工。 |
+| `st-chp2-seciv-l139-152-montagu-points-author-to-tessin-account` | 补入来源提及候选锚点。 | process-only pending；无受控谓词表达一次性学术指引，不推为作者、馆藏或长期合作。 |
+| `st-chp2-seciv-l139-152-tessin-account-locator-and-date` | 更新claim、限定和提及候选。 | formal `rel-2483 authored_by`；图书馆位置继续pending，日期只是Haskell推定。 |
+| `st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned` | 补全statement提及候选；该segment 60条mention中26条同ID内容变化：25条note变化、2条candidate映射变化（其中1条两字段均变）。 | formal `rel-2460 owned_by`，仅记录Haskell转述的历史所有权，不表示现时产权或现藏。 |
+| `st-chp2-secvii-l3-3-parma-consequences-fragment` | 对象从Parma实体 `cand-4905` 改为公爵Odoardo `cand-0996`；mention `m-chp2-secvii-l3-19-0004`同步改候选映射和说明。 | formal `rel-2506 has_participant`，仅记录原文所称争端一方。 |
+| `st-chp18-conclusion-p384-bamboccianti` | 移除社会趋同术语端点，`relation_candidate`改为false。 | 原process-only pending不再作为关系候选；不记rejected。 |
+| `st-chp18-conclusion-p384-crespi-and-medici-prince` | claim、predicate及原引句收窄到“带动一位未具名王子”的原文分句。 | 继续process-only pending；原文习语无忠实受控谓词，王子身份未定。 |
+| `st-chp18-conclusion-p384-social-demands-and-originality` | 移除 Italy 与社会压力论断之间的错误端点，`relation_candidate`改为false。 | 原statement不再作关系证据；`rel-2432 site_of_manifestation`当前由新statement `st-chp18-conclusion-p384-italian-art-context-social-conformity`支持。 |
+
+mention集合核对未发现新增或删除：第2章p.36、p.39、p.56、结论p.384相关segment的mention行与审读快照相同；第2章p.57注3有26条mention同ID变化，第2章p.58有1条mention候选映射/说明变化。当前表中可追溯到这10条statement的5条formal关系为`rel-2460`、`rel-2470`、`rel-2471`、`rel-2483`、`rel-2506`；另核对了`rel-2432`的证据改绑及两个process-only pending去向。以上仅完成审读版本与表、来源和S6影响的核平，不是修订后版本的独立语义复核，也不据此增减9,622条统一台账；这10条的当前版独立差异复核和台账归属仍待处理。
