@@ -14072,7 +14072,7 @@ statement st-chp14-p349-note3-albrizzi-issue通过：原文引述支持“劝读
 
 先前声称的29条差异mention均已完成span及candidate核验，因其分母错误而撤回。当前40条独立审阅mention的跨度与候选已单独核对，基线状态为38 unchanged、1 same-ID changed、1 added；这40条不是三章全部80条mention差异的替代。80条差异mention仍需逐ID匹配独立审阅证据并核对原文span；已确认的交集包括第1章新增procedure mention、第2章Duke of Parma候选修订、第4章p.114题名子提及及p.117三条变化/新增mention。本更正不改变9,622条历史聚合数，也不自动把任何表格变化判为独立复核。
 
-#### Current 80 mention-row differences (Chapters 1, 2, and 4)
+#### Historical 80-row inventory (superseded by current-HEAD recheck)
 
 Compared full mention rows by stable ID between baseline 2273e2743158401b841fb9bc7b7d1332836d400a and current table snapshot affb5a7406017aa8dc0bf7b27860a29da4e214dd. A pending mapping means no exact independent-review link is recorded here; it does not assert the item was never reviewed.
 
@@ -14409,3 +14409,53 @@ mention `m-chp2-secvii-l3-19-0004`相较基线将candidate从`cand-4905`改为`c
 注1–6新增39条本页mention，覆盖日期/档案定位、人物、书画对象、书目引文及返程信的原文提及；含注5“L. Crespi”作者mention（`cand-7716`），与身份未决的引文对象`cand-7578`分开。全部39个span逐条以当前来源切片核对，候选也均属于相应statement的`mentioned_candidate_ids`；当前S0段SHA-256为`62a4611253d2bf05494ef55b0511b53861b0947a05aee1c7a9fdbab976ecbc3f`，与`segments.jsonl`一致。p.238当前共53条本页mention（正文12、注释41），其中本批新增39条。此前“46组未匹配”是跨整段注释的粗略segment级计数，不能作为当前本页剩余差异；本次不据此宣称全部候选引用均已闭合。
 
 注4的“these pictures”保留既有组对象`cand-12373`；其成员范围不明，不另把`cand-0874`、`cand-0887`或`cand-0885`单件作品映射到Pisa cabinet。`cand-8048`（Pisa cabinet）、`cand-12373`与注5引文对象`cand-7578`仍为S3 `undecided`、无KU。`relations.csv`未改：`rel-2392`–`rel-2395`继续formal（仅引文/Filza定位）；注4仍process-only pending，不新增作品—地点边；注3刊本关系与注6返程事实仍pending。注5的relation candidate未在本次代替S6裁决。alignment、KU、enrichment、backlog及9,622条历史复核分子均未改。严格表审计`errors=[]`、`s2_missing=[]`；本次是定向自查，不构成独立语义复核、页级接收或全书S2接收。
+
+<a id="2026-10-31-s2-current-head-crosswalk-ch1-2-4"></a>
+### 2026-10-31 S2第1、2、4章当前HEAD版本回映更正
+
+本节重算前述“80条mention差异”清单。按其声明基线提交`2273e2743158401b841fb9bc7b7d1332836d400a`与当前HEAD`425dbc14e39ea2ca6389dbceee92858564b00100`直接读取Git对象并以`mention_id`比较，三个章节实际差异为29行：第1章1条新增；第2章9条同ID变化、5条新增；第4章3条同ID变化、11条新增；无删除。旧80行清单中51行在基线与当前HEAD间完全相同（例如`m-chp1-seci-0010`），故将旧清单视作已被本节取代的历史工作表，不再用其80/72分母。
+
+29条当前span均依其`segments.jsonl`来源行范围重建文本，逐条切片29/29通过；涉及的S0 Markdown文件及CHP-1、CHP-2、CHP-4 PDF在基线与当前HEAD的Git blob一致。按现存审阅映射，8条可链接到独立复核记录（其中`m-chp2-secii-l141-145-0038`和`m-chp4-sec-ii-l91-99-leonardo-correspondence`另有当前版独立回核通过记录），其余21条尚无精确复核映射；链接到报告不等于章节接收。当前差异逐项如下：
+
+| 章 | Mention ID | 变化 | Candidate：基线 → 当前 | 当前 span / surface | 复核映射 |
+|---|---|---|---|---|---|
+| chp-1 | `m-s2-chp1-p22-20261029-procedure` | added | — → cand-3141 | [1578,1631) making use of exhibitions to establish his reputation | linked to independent-review evidence |
+| chp-2 | `m-chp2-seci-l124-157-0040` | changed | cand-4367 → cand-6369 | [1450,1461) de Rinaldis | pending exact review mapping |
+| chp-2 | `m-chp2-seci-l124-157-hinks-author-20261025` | added | — → cand-12447 | [246,257) Roger Hinks | pending exact review mapping |
+| chp-2 | `m-chp2-seci-l124-157-rosi-author-20261025` | added | — → cand-12448 | [2467,2471) Rosi | pending exact review mapping |
+| chp-2 | `m-chp2-seci-l9-10-0001` | changed | cand-2678 → cand-2677 | [9,17) Valentin | pending exact review mapping |
+| chp-2 | `m-chp2-secii-l118-125-0067` | changed | cand-1978 → cand-1977 | [2815,2836) Guglielmo della Porta | pending exact review mapping |
+| chp-2 | `m-chp2-secii-l141-145-0009` | changed | cand-3405 → cand-3405 | [597,601) they | pending exact review mapping |
+| chp-2 | `m-chp2-secii-l141-145-0038` | changed | cand-0198 → cand-12438 | [2117,2128) the nephews | current-version follow-up passed |
+| chp-2 | `m-chp2-secii-l141-145-0040` | added | — → cand-4545 | [1942,1957) other paintings | pending exact review mapping |
+| chp-2 | `m-chp2-secii-l141-145-0041` | added | — → cand-0198 | [2106,2115) Barberini | pending exact review mapping |
+| chp-2 | `m-chp2-secii-l141-145-0042` | added | — → cand-4537 | [607,611) them | pending exact review mapping |
+| chp-2 | `m-chp2-seciv-l171-179-0033` | changed | cand-4800 → cand-1995 | [1670,1696) Happiness subject to Death | pending exact review mapping |
+| chp-2 | `m-chp2-seciv-l171-179-0034` | changed | cand-4800 → cand-1995 | [1701,1723) The Arcadian Shepherds | pending exact review mapping |
+| chp-2 | `m-chp2-seciv-l190-245-0126` | changed | cand-4800 → cand-1995 | [5600,5622) The Arcadian Shepherds | pending exact review mapping |
+| chp-2 | `m-chp2-secvii-l3-19-0004` | changed | cand-4905 → cand-0996 | [92,105) Duke of Parma | linked to independent-review evidence |
+| chp-4 | `m-chp4-sec-ii-l91-99-different-patrons` | added | — → cand-12446 | [446,463) different patrons | pending exact review mapping |
+| chp-4 | `m-chp4-sec-ii-l91-99-leonardo-correspondence` | changed | cand-5778 → cand-12441 | [1447,1467) Leonardo manuscripts | current-version follow-up passed |
+| chp-4 | `m-chp4-sec-ii-notes-p114-0056-phocion-title` | added | — → cand-10556 | [10001,10008) Phocion | linked to independent-review evidence |
+| chp-4 | `m-chp4-sec-ii-p113-0027` | added | — → cand-12442 | [1905,1915) landscapes | pending exact review mapping |
+| chp-4 | `m-chp4-sec-ii-p113-0028` | added | — → cand-12443 | [699,716) secondary artists | pending exact review mapping |
+| chp-4 | `m-chp4-sec-ii-p113-0029` | added | — → cand-12444 | [2488,2496) scholars | pending exact review mapping |
+| chp-4 | `m-chp4-sec-ii-p113-0030` | added | — → cand-12445 | [872,898) French friends and clients | pending exact review mapping |
+| chp-4 | `m-chp4-sec-ii-p117-0011` | changed | cand-4591 → cand-12465 | [386,395) Spaniards | linked to independent-review evidence |
+| chp-4 | `m-chp4-sec-ii-p117-0032` | changed | cand-4800 → cand-1994 | [2278,2296) Arcadian Shepherds | pending exact review mapping |
+| chp-4 | `m-chp4-sec-ii-p117-0034` | added | — → cand-11667 | [2019,2070) a pair of that painter’s most beautiful early works | pending exact review mapping |
+| chp-4 | `m-chp4-sec-ii-p117-0035` | added | — → cand-11668 | [1939,1956) heirs of\nCassiano | pending exact review mapping |
+| chp-4 | `m-chp4-sec-ii-p117-0036` | added | — → cand-11665 | [36,74) the King and Queen and of two Infantas | linked to independent-review evidence |
+| chp-4 | `m-chp4-sec-ii-p117-0037` | added | — → cand-11666 | [1617,1664) many of the older Roman buildings and paintings | linked to independent-review evidence |
+| chp-4 | `m-chp4-sec-ii-p118-0041` | added | — → cand-11669 | [168,212) the conflict between fertility and sterility | pending exact review mapping |
+
+statement版本也按完整JSON对象重算：第1、2、4章同ID变化106条、新增40条、删除1条。此项只修正复核版本回映，不改mentions、statements、alignment或relations表，不调整9,622条历史复核分子，也不接收三章或全书S2。独立复核来源版本回映继续按statement ID、mention ID和原页证据逐条核平。
+
+<a id="2026-10-31-s2-p106-anonymous-correspondent-endpoint-pending"></a>
+### 2026-10-31 S2/S6 回映：第4章 p.106 未具名通信对象保持待证
+
+将第2章p.43与第4章p.106当前版独立回核结论回映到待办账目。第4章 mention m-chp4-sec-ii-l91-99-leonardo-correspondence 的[1447,1467)跨度精确对应“Leonardo manuscripts”手稿对象词组；cand-12441仅追踪该复数文献提及，不表示所有者，也不等于具体《绘画论》手稿cand-5778。aln-12763仍undecided且无KU；aln-5959的具体手稿身份依据不含该泛指mention。
+
+原文另述Cassiano与“other scholars and owners of Leonardo manuscripts”通信，并以具名Mazenta为例。rel-1875仅正式记录Cassiano与Mazenta；原文没有给出其他人的身份，也未明确该短语是否为独立群体、含Mazenta的较大集合，或学者/所有者相互重叠。将这项额外端点记为candidate-backlog bl-0092、status=undecided、无candidate_id/KU；在范围与身份可辨前不新增S3身份、不建formal边，也不把cand-12441改作人物端点。相关关系保持待证。
+
+本次只增加一条待办记录，不改statement、mention、alignment或relations表，不计入9,622条独立复核台账。candidate-backlog.csv由91条增至92条、未决74条增至75条；其中无candidate_id的记录由3条增至4条。S1索引映射与来源覆盖不变；本条为S2原文关系端点的待证回映，不是新增索引覆盖或独立接收。
