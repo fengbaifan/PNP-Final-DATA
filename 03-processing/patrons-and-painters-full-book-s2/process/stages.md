@@ -15539,3 +15539,19 @@ B010其余92条仍待处理：87条虽与9,622历史末版及原文版本精确�
 **处理记录计数差异。** 当前`sec_ii:l3-4`为19条mention；旧段落摘要记18条，差额对应现表已有的第19条“Renaissance”→`cand-3578` term mention。当前`sec_ii:l6-17`为57条mention；旧段落摘要记56条，第57条是p.66脚注尾句的档案引文mention `m-chp3-p66note-0007`→`cand-5134`，不构成新增历史断言。脚注段当前13条statement（25条mention），比旧迁移摘要中的12条statement多1条：`st-chp3-seci-l35-43-cozzi-rejection-citation`，它由2026-10-13端点回核按印刷p.64注1补入，仍只记录Haskell对Cozzi反驳的转述，不声称独立查阅该文。所有三项计数/版本差异均按当前表修正，旧迁移过程保留原始记录。
 
 **本批后清单。** 当前全书主审通过462条（独立238、主审224）、已审待处理552条、历史精确复用但仍留开放发现8377条、待差异复核282条、待历史回映或当前复核5832条；S2仍未独立接收。statement和mention数据表、`relations.csv`及历史9,622计数均未因本批改写。逐ID裁决详见`s2-current-review-roster.csv`的当前顺序2642–2741。
+
+
+<a id="2026-11-01-s2-current-review-b012-ch3-p66-p69"></a>
+### 2026-11-01 S2当前版B012：第3章印刷p.66末至p.69
+
+**批次结论。** 按当前statement顺序2742–2841连续复核100条：印刷p.66 L14–15余3条、p.67 L19–31共30条、p.68 L33–38共24条、p.69 L41–52前43条（该段共46条）。99条复用当前源段语义处理记录并完成主审，1条`st-chp3-secii-l19-31-vitale-owned-by-jesuits`复用2026-11-01独立当前版PASS。B012全部100条为当前版通过、待处理0条；历史9,622事件数不变。下一条顺序2842为`st-chp3-secii-l40-52-many-new-patrons-florentine-cultured`，仍在p.69同一来源段。主审批次通过不表示第3章或全书独立接收。
+
+**历史和当前版本核平。** 本批四个segment均与statement roster快照`d23bf46a06352e9d3753389a491a7fe8c1ffcba4`逐项相同：100条statement的当前哈希等于快照哈希；四段mention数及哈希（57、44、58、66，共225条）与快照一致；规范来源Markdown资产哈希与清单相同。以2026-10-11提交`c6590080`比较，未将旧过程摘要计数误当当前版本：p.67比旧表多4条原子statement和7条mention；p.68有4条新增mention、1条既有mention目标改向；p.69的46条statement已由10月10日关系分类拆分形成。当前100条`original_quote`均精确落在记录的来源行；四个segment的225条mention均按当前字符偏移切出相同`surface_form`，225条均指向存在的candidate。对照规范Markdown和`CHP-3.pdf`印刷pp.66–69（PDF物理页4–7）；PDF SHA-256=`362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`。
+
+**复用的既有语义记录与当前差异。** 复用[chp-03现有逐段语义处理记录](../results/chp-03.md#当前判断与下一步)、2026-10-10第3章II节关系分类记录、2026-10-15开放端点复核及S3/S4/S6局部过程记录；来源和当前哈希未变的内容不重复从头处理。p.67四条后续statement补入包括三条S. Vitale地点／所有权／壁画位置原子断言，及从壁画细节中拆出的“每幅附有刑罚说明”断言。七条新增mention分别映射资金筹措问题、资金短缺、耶稣会赞助贡献、壁画说明、未名殉难者与士兵群、S. Vitale壁画题材；均留其原有来源边界。另将`m-chp3-secii-l19-31-0025`“the decoration of S. Stefano Rotondo”从教堂地点`cand-0722`改指Circignani壁画组`cand-5019`，支持statement`st-chp3-secii-l19-31-vitale-generation-atmosphere-relaxed`改为比较壁画组、谓词`compared_with`；不把作品与建筑合并。
+
+p.68四条新增mention分别指向Richeôme所论绘画组`cand-12315`及装饰形式term `cand-12316`。现有mention `m-s2-chp3-surface-63666aa72ed2899c`从不相干的Contracts索引子项`cand-0840`改至来源限定term `cand-12314`；对Richeôme的规范性主张保留来源立场，个别壁画及绘画组边界不扩大。p.69在当前B012范围内没有相对`c6590080`的statement或mention对象差异；已复用已完成的37→46条statement关系拆分记录。更新[第3章当前迁移计数](../results/chp-03.md)为p.67 44 mentions/30 statements、p.68 58/24、p.69 66/46，以现表为准并保留旧记录为历史。
+
+**关系与历史裁决影响。** 复核未改写statement、mention或`relations.csv`。S. Vitale地点—Jesuits所有权、S. Vitale地点—Rome位置、壁画组—S. Vitale位置的`rel-1751`–`rel-1753`保持formal；将`rel-1751`证据锚扩至L23–24的决定及独立PASS按既有记录复用。`rel-2402 compared_with`仍表达S. Vitale与较早Circignani壁画组的作者比较。Clement VIII转交、将S. Stefano分配给Jesuits、未分类说明文本及Richeôme绘画组边界等既有pending去向维持原状；不补造端点或扩张身份组。历史基线同ID旧版是否属于9,622分子仍按既有记录保留待证，不增减该历史分子。
+
+**本批后清单。** 当前全书主审通过562条（既有独立239、主审323）、已审待处理552条、历史精确复用但仍留开放发现8377条、待差异复核282条、待历史回映或当前复核5732条；未达到主审通过共14943条，其中552条已有当前批次结论但待处理，14391条尚未进入B001–B012批次。S2仍未独立接收。逐ID裁决在`s2-current-review-roster.csv`顺序2742–2841。
