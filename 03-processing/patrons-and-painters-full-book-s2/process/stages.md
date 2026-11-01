@@ -15882,3 +15882,10 @@ PASS仅限当前S2来源忠实度；`cand-6146`反西班牙平民及`cand-6147`�
 原书`02-sources/01-book/CHP-5.pdf`，SHA-256=`f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`。打印p.137（PDF物理22）脚注2支持Raggi于1701年出借五幅Cerquozzi画作并送往S. Salvatore in Lauro展览；p.140（PDF物理25）脚注2则是另一则1883年Raggi报告，经Achille Neri转述，与1701年展览不是同一出处。故将5794–5797的`printed_page`由140纠正为137。5794的claim收窄为原文实际地点措辞“S. Salvatore in Lauro”，不称“教堂”；不据此区分教堂本体/回廊，也不并入常规展览系列。新增mention `m-chp5-note-143-061`与`m-chp5-note-143-062`的区段字符跨度分别为2690–2743、2762–2801，逐字符与现有S0源段相符。
 
 历史记录只更新四项current statement hash/match：5795–5797恢复为`exact`，5794因claim/限定修正标为`changed`；对应旧审读哈希、历史裁决与来源版本均保留。`rel-2010 occurred_at`的来源定位改为打印p.137、PDF物理p.22，仍为`pending`，角色、范围和重开条件不变；画作出借、作者与送展关系仍不升为formal。本批没有改动S3身份决定、KU、mention表或既有formal关系。 应用后全表审计：`errors=[]`、`s2_missing=[]`（15,505条statement、27,056条mention）；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
+
+<a id="2026-11-01-s2-current-review-b043-ch5-p140-note2"></a>
+### 2026-11-01 S2当前版逐ID复核 B043：CHP-5 p.140脚注2（顺序5804–5903）
+
+**批次结果：100条；1条无历史审读映射statement经当前原页复核PASS，99条精确历史复用并保留开放发现。** 顺序5827的statement“st-chp5-note-raggi-report-authored-by”对应打印p.140（PDF物理25）脚注2；原文明确称其为Ferdinando Raggi的报告，并说明经Achille Neri于1883年转引。该PASS只确认Haskell此处的归属与转引表述，不表示已查阅Raggi报告或Neri出版物。该statement不在9,622历史事件计数中，按当前版直接核读，不伪造历史回映。其余99条statement对象与来源版本精确映射历史直接阅读，既有开放发现不转为PASS。
+
+原书`02-sources/01-book/CHP-5.pdf` SHA-256=`f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`。本批未改statement、mention、关系表、S3决定或KU；既有`rel-2245 authored_by`保持formal，证据范围仍限于Haskell转引的Raggi报告归属；原报告与Neri出版物均未独立查阅，既有S6历史裁决不变。 应用后全表审计`errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
