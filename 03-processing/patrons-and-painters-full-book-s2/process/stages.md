@@ -15106,3 +15106,26 @@ st-chp8-p239-venetian-emphasis
 独立复核者在当前HEAD `154b7665d37742a66181d5e6871a94a8718a73f5` 重查6条statement、当前S0与 `CHP-10.pdf` 印刷页279、280、281。PDF与S0 SHA-256分别为 `c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`、`f912dba9e5c8460538222c57d32c3734d0c23c72cb32a0871b50b6901ce9e27f`，与定向记录相符。六条引句及所列mention跨度均通过；`rel-2433`、`rel-2436`、`rel-2437`为rejected，`rel-2434`、`rel-2435`及`rel-2531`–`rel-2538`的方向和端点均相符；没有其他历史S6裁决受影响。本项不构成第10章或全书S2接收。
 
 **待核平的S6记录缺口：** `st-chp10-p281-english-support-venetian-painters`仍为 `relation_candidate=true`，S2与过程判断均保持pending，但 `relations.csv`没有对应pending行。原文没有具名支持者；`cand-8948`是term，`cand-8949`尚无KU，谓词 `supported_by` 不接受term作为domain，而England只是叙述语境。当前表要求主客体均为有效KU且通过域值域校验，因此不能添加空端点、错误类型端点或不忠实谓词行。保留来源判断为pending，不建立formal边；此缺口须在S6收口前解决为可验证的待证台账表示，不能记作已完成。本批不改变9,622历史S2复核汇总。
+
+<a id="2026-11-01-s2-independent-current-review-ch3-p67-vitale-ownership"></a>
+### 2026-11-01 第3章 p.67 S. Vitale 所有权指代当前版独立复核
+
+独立复核者在当前HEAD `2453c93ecc2b48f3d7dc03eaedced0de02ad17e6` 对照 `CHP-3.pdf` 印刷p.67／物理页5、当前S0与statement。PDF SHA-256为 `362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`；S0 Markdown及PDF的Git blob均与9,622基线提交 `1a6313c8654280a9b71187fc08522098626e734e`一致。原文先写“the third church that they owned in Rome”，下一句明确“The church”即S. Vitale；当前原引句纳入L24的“S. Vitale”后指代链成立。当前 mention 中 `the third church` `[705,721)`、`they` `[727,731)`、`This was another early Christian building` `[747,788)`、`S. Vitale` `[790,799)`切片通过；前文 `[675,679)`的`they`指Jesuits。
+
+当前statement claim、`cand-0724`地点→`cand-1321`耶稣会机构端点及 `owned_by` 方向均通过；`rel-1751`仍为formal，证据从p.67 L23扩至L23–24与当前引句一致，限定仍不推断当前产权或连续所有权。直接关系及其他历史S6裁决不变。
+
+**历史版本回映：** 基线已有同ID旧版，但原引句只到L23且`source_line_end=23`；当前版扩至L24并将行尾改为24。早期过程记录曾把该statement列为新增且暂未计入当时统一复核数，但全局9,622历史成员名册仍缺逐ID／版本证明；因此标记当前版复核PASS、历史汇总成员身份待证，不增减9,622，也不把本次新复核回填到旧分子。本项仅覆盖此statement及`rel-1751`，不代表第3章或全书S2接收。
+
+<a id="2026-11-01-s2-independent-current-review-ch3-p72-michelangelo-reference"></a>
+### 2026-11-01 第3章 p.72 Michelangelo 指代当前版独立复核
+
+独立复核者在当前HEAD `2453c93ecc2b48f3d7dc03eaedced0de02ad17e6` 对照 `CHP-3.pdf` 印刷p.72／物理页10及S0。原文为“four monumental figures of the Evangelists, clearly derived from Michelangelo”；当前S0 `[2734,2746)` 精确切出 `Michelangelo`。作品候选 `cand-5066` 为Domenichino的四福音书作者像，当前mention与statement object `cand-1660` 为Michelangelo人物候选，指代正确。旧候选 `cand-1661` 实为《复活基督》作品，不能作人物端点。`rel-2469 influenced_by` 方向正确，证据只表达Haskell书内的艺术史判断，不声称外部独立验证；关系无需改判。
+
+历史回映：9,622基线中的同ID statement和mention仍指向 `cand-1661`，故当前改正版本不等于基线对象版本；过程记录明确当前版本未计入统一复核台账。基线旧对象是否进入9,622分子仍无逐ID／来源版本名册证明，不据聚合数推断或调整历史分子。本项只接收该mention、statement及`rel-2469`的定向当前版复核，不代表第3章或全书S2接收。
+
+<a id="2026-11-01-s2-independent-current-review-ch3-p92-duke-referents"></a>
+### 2026-11-01 第3章 p.92 公爵指代与两条pending关系当前版独立复核
+
+独立复核者对照 `CHP-3.pdf` 印刷p.92／物理页34及当前S0 L169–170；PDF SHA-256为 `362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`，S0 SHA-256为 `0b2a3412f679bc74e0427612522dad0df1ad9386e941f7646a6983dc76132aed`，均与基线相同。第一条claim与引句支持帕尔马公爵拒绝在左耳堂设置tribune的许可；Duke span `[674,687)`精确。第二条只支持信件先送到未具名的“father in charge”，后句另称公爵被告知传言；`Letters, signed and anonymous` `[1066,1095)`、`the unfortunate father in charge of the arrangements` `[1110,1162)`、第二处`Duke of Parma` `[1168,1181)`及`the church` `[1196,1206)`切片通过。不能把信件补作对公爵的投诉，也不能推定信件撰写者。当前两处公爵mention映射 `cand-0997`（Ranuccio II），本章索引F.csv#12列有该人并标至p.92；第2章p.91另一处Duke仍为未决`cand-4905`，不随之合并。
+
+关系状态保持process-only pending：第一条没有忠实表达拒绝许可的受控谓词；第二条告知者未具名且subject端点缺失。`relations.csv`没有对应formal/rejected边，也未发现受影响的历史裁决；`rel-2504 addressed_to`是p.80–81另一项书信关系，不迁移至本批。`relation_candidate_note`原称第一条人物身份仍未决，与F.csv#12依据冲突，已改为身份确定为Ranuccio II，未决仅指正式关系类型和拒绝决定的确切范围。第二条的`statement_id`保留原稳定键`...letters-carried-complaints-to-duke`以维持历史引用；该旧标识不能作为“信件把投诉送给公爵”的证据，当前claim、引句和`open_endpoint_reason`均明确不建立这条因果链。基线旧对象仍指 `cand-4905`，当前改为 `cand-0997`；两条当前版不等于基线对象版本。无逐ID／来源版本名册，9,622历史成员归属待证；当前记录明确本次修订版未计入统一台账，不据汇总数作加减。此项只覆盖两条statement、相关mention及其pending状态，不代表第3章或全书S2接收。
