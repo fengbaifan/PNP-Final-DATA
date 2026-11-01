@@ -15997,3 +15997,16 @@ p.176 L85–88直接支持三条当前变化：`st-chp7-p176-i26`将Richelieu的
 **关系与历史裁决影响。** `st-chp7-p175-i21`因无精确受控职务谓词继续S6 pending；`st-chp7-p176-i27`负向延续陈述与`i28`未具名通知者／非正式群体继续S6 pending；没有将其转为正向影响、正式组织或新关系边。rel-1432 `commissioned_by`、rel-1433 `intended_for`及rel-1434 `located_at`保持formal；无其他formal关系变更。没有statement、mention、KU或S3决定写入。本批PASS是当前statement对原页的语义复核，不等于S2独立接收。
 
 批后：PASS 1,746（当前主审1,498、独立当前版248），已审待处理552，历史复用仍有开放发现8,302，待差异复核191，待历史回映或当前复核4,714；未达PASS共13,759。100/100条已处置，下一条原文顺序7004。S2仍未独立接收。
+
+<a id="2026-11-01-s2-current-review-b055-ch7-p179-p180"></a>
+### 2026-11-01 S2当前版逐ID复核 B055：CHP-7 p.179–180（顺序7004–7103）
+
+**批次处置：100条；11条当前版本原页复核PASS（4条历史版本差异、7条无历史映射），89条精确复用9,622历史直接阅读并保留开放发现。** 89条均为当前对象与来源段精确匹配、来源版本匹配且每条仅1个历史审读事件；不重复核读。四条历史差异为7042 `st-chp7-p179-i04`/H9622-08188、7044 `...i05`/H9622-08189、7047 `...i06`/H9622-08190、7072 `st-chp7-p180-i03`/H9622-08220；旧/当前对象SHA-256及mention差异保存在台账。四者来源段哈希未变，7072当前mention集合仅增加`m-chp7-p180-b-079`。七条新statement为7039、7040、7041、7043、7045、7046、7073，无9,622历史事件映射，现按当前版本补审。
+
+依据02-sources/01-book/CHP-7.pdf印刷p.179与p.180（PDF物理p.13–14；PDF SHA-256=`eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`）及07_CHP-7_sec_i.md（SHA-256=`f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3`）。p.179 L115分别支持：Charles促成授权Bernini雕刻其肖像、三面肖像作者为Van Dyck、胸像以该画为模型、胸像于1637年7月抵达England；这些分别指向胸像、画作、坐标地点与作者，不合并版本。L116将Bernini审美表达、后世对Charles的接受、 sitter对胸像的欣赏和Charles给Bernini的礼物分开；当前i05端点由肖像作品改为画家，正对应“from Charles’s favourite painter”，前文明确该画家为Van Dyck。S0与`original_quote`仍保留OCR标点；页图读作“generations—and”及“appreciated by”，仅在本批记录校读，不改来源转写。
+
+p.180 L130明确Cardinal Mazarin在Richelieu死后立即接管法国政府，并将死亡置于1642年。当前i03新增cand-12433事件mention精确匹配“death of Richelieu in 1642”；新statement 7073将死亡事件与逝者身份分开，复用已对齐的事件候选，不补确切日期或地点。
+
+**关系与历史裁决影响。** rel-1371–rel-1376保持formal，范围分别仍为Charles I胸像作者、 sitter、1637年历史抵达、Van Dyck肖像作者、肖像作为胸像模型及Haskell限定的审美影响；“后世接受”与“ sitter欣赏”没有新增formal边。S6对`st-chp7-p179-i05-sitter-response`和`i06`的rejected仅是否决受控图谱边，不否决S2原书断言。rel-1603 `has_participant`保持formal，只表示Richelieu为该死亡事件中的人物；`st-chp7-p180-i03`仍S6 pending，不把“接管政府”改写成不精确关系。无statement、mention、KU、S3或relations.csv写入。当前PASS表示statement与原页相符，不代表第七章或全书S2接收。
+
+批后：PASS 1,757（当前主审1,509、独立当前版248），已审待处理552，历史复用仍有开放发现8,302，待差异复核187，待历史回映或当前复核4,707；未达PASS共13,748。100/100条已处置，下一条原文顺序7104。S2仍未独立接收。
