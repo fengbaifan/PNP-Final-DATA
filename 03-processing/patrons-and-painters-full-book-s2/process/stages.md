@@ -16143,3 +16143,14 @@ p.191注11印本实际写作`da Nápoles`。原statement把它误记为OCR偏差
 **当前版本判断。** p.201扫描确认“fine arts”校读无误，并核对7980当前版本的注3链接；该声誉仍是Haskell转述，不提升为独立事实。顺序7998、8000只记录Pozzo于1704年开始绘制花园宫大厅天顶及大厅位于花园宫内，不推断完工、现址、所有权或正式房间名。修订9条注释claim，去掉内部整理性措辞并保留原页定位、书目依据和“被引材料未读”的边界；未改候选ID、S3身份，也未新增S6正式边或修改relations.csv。官方历史核平脚本已按核阅计划重算current hash字段，历史review hash、历史结果及来源版本不变。
 
 **批次后状态。** 当前15,505条statement：主审PASS 1,944（当前主审1,696、独立当前版248）；已审待处理552；历史精确复用但保留开放发现8,301；待历史版本差异复核125；待历史回映或当前复核4,583；未达PASS共13,561。连续原文已处理至顺序8003，下一批从8004开始；S2仍未独立接收。`audit_tables.py --summary`结果`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence均为0。
+
+<a id="2026-11-01-s2-current-review-b065-ch7-ch8-p201-p204"></a>
+### 2026-11-01 S2当前版本逐ID复核 B065：CHP-7 p.201–202至CHP-8 p.203–204，顺序8004–8103
+
+**本批结算：100条；7条当前原页复核PASS，93条精确历史复用并保留开放发现。** 7条包括4条历史statement/mention版本差异（顺序8059、8061、8063、8088）和3条无精确历史映射（8089–8091）。其余93条当前ID、statement hash、来源段和来源资产、mention均匹配9,622条历史审读中的最新事件；复用不重复审读、不计当前PASS。
+
+**原页与当前差异。** CHP-8.pdf SHA-256=`cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`；直接核读印刷p.203/PDF物理页1的正文、注2–5及B.109题名。注2、注3、注4分别直引Maresca di Serracapriola p.49、Malvasia和Zanotti passim、Ruffo pp.122–123。历史差异H9622-08863、08865、08867、08869的旧statement hash及裁决均保留；当前版的四项叙述/引文边界经原页复核。顺序8061的历史mention `m-chp8-p203-004` 由`cand-6933`（1678版）变为`cand-11384`（书目所列Bologna 1841版）；印刷p.428/L743支持当前引文书目候选，但旧edition候选不合并，后续身份裁决仍属S3。相应第21章书目statement（顺序14596、15103、15114–15115）仍待连续S2复核，本批不把它们标为PASS，也未读Maresca、Ruffo或其他被引页。
+
+**B.109及关系影响。** 原页p.203注5将B.109称为Marcello Oretti作品，写明其题名、Belloni/Bellucci及Bolognese families的集合范围，并定位于Biblioteca Comunale, Bologna；扫描支持OCR校读`eke`→`che`、`Cittd`→`Città`。核对的正式边rel-2397、rel-2094、rel-2396、rel-2398、rel-2399、rel-2400、rel-2401均与当前source span及引文/范围相符：引文边只记录引用，B.109主题边限于Haskell所述集合范围，保管地、地名和题名作者关系不扩展为现今保管、机构延续或独立手稿鉴定。relations.csv未改；未新建关系或裁定S3身份。
+
+**批次后状态。** 当前15,505条statement：主审PASS 1,951（当前主审1,703、独立当前版248）；已审待处理552；历史精确复用但保留开放发现8,301；待历史版本差异复核121；待历史回映或当前复核4,580；未达PASS共13,554。连续原文已处理至顺序8103，下一批从8104开始；S2仍未独立接收。`audit_tables.py --summary`为`errors=[]`、`s2_missing=[]`；关系一致性审计阻断项为0。
