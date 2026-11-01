@@ -15595,3 +15595,15 @@ p.72当前47条statement来自21条原始陈述的拆分，现有候选`cand-123
 **当前判断与裁决影响。** p.68注1的受众对象改指cand-11901，不再误连到S. Stefano Rotondo相关、范围不同的cand-5016；两组均保留S3未决，正文只支持“intended for Jesuit novices”，不推断实际进入或排除情况。p.76注3的其他修会教堂组cand-11902保持待证，不并入Gesù模型目标cand-11592。p.75 mention m-chp3-secii-l125-135-0024的ChiesaNuova规范化为含换行的Chiesa\nNuova，字符跨度和对象cand-3110不变。p.76未名学生、穹顶及群体等候选继续按既有S3边界处理；Grand Duke候选cand-5180仍未决，关于请假请求不新增formal边。既有rel-1731及rel-2360–rel-2362保持formal且来源范围不变；本批不改statement、mention、alignment、KU或relations.csv。
 
 **批后清单。** 当前statement总数15,505，mention总数27,056。逐ID状态为主审通过862（既有独立240、主审622）、已审待处理552、历史复用但保留开放发现8,377、待差异复核282、待历史回映或当前复核5,432；未达到主审通过14,643条，其中552条已有当前批次结论但待处理，14,091条仍未进入B001–B015。S2仍未独立接收。逐ID结果与当前哈希见s2-current-review-roster.csv顺序3042–3141。
+
+<a id="2026-11-01-s2-current-review-b016-ch3-seciv-p76-p79"></a>
+### 2026-11-01 S2当前版B016：第3章第IV节p.76–79
+
+**批次结论。** 按当前statement顺序3142–3241连续复核100条：第IV节L3–6余11条、L8–14共26条、L16–24共46条、L26–33前17条。100/100条完成当前版主审并通过，待处理0条；下一条顺序3242为st-chp3-seciv-l26-33-duke-professed-anxiety。主审通过不构成第3章或全书独立语义接收。
+
+**历史回映与当前版本核对。** 本批100条history_9622_event_count均为0、history_9622_membership均为not_in_reconstructed_count；prior_review_match均为current_object_differs，因此没有9,622事件级审读可逐ID复用，也不调整历史总数。与旧表快照c6590080逐对象比较，97条完全一致、3条同ID对象有变化；100条当前哈希与本次逐ID清单快照一致。三处变化为：Courtois诚意测试statement补入Goswin Nickel候选及相邻office statement回链；Oliva“利用新局面”补充为何不另造情境对象；为private patrons补入来源限定的群体候选cand-12319并收窄赞助范围。当前引句逐行核对0处不匹配；所涉四个segment共200条mention，span及候选映射检查0错误，S0 source asset hash与清单一致。完整阅读03_CHP-3_sec_iv.md L3–33，并视觉核对CHP-3.pdf物理页18–21（印刷pp.76–79）；PDF SHA-256=362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d。
+
+**判断变化、身份与关系影响。** p.78 L22的Courtois good-faith-test原先按被动语态将要求者留空；本次依据同句“sent with letters of introduction to the General in Rome”及紧接句明确“the General ... was ... Goswin Nickel”，接受上下文指向cand-1740（已S3 new并登记至units/persons/goswin-nickel）。这修正旧过程记录的开放对象判断，旧记录保留为历史；source-context identification不等于外部独立核验。relations.csv没有该statement的formal边，本批不作S6裁决，留待后续关系复核。
+Oliva took advantage of new situation仍保留为Haskell明示的作者推断，referent不另建对象。Private-patron painting链接到cand-12319；该群体类型和成员仍S3 undecided，无KU，不补出鼓励者或具体已完成委托。Grand Duke of Tuscany候选cand-5180继续undecided；不要与p.79已映射为Duke of Parma的cand-0997混为一人。未实现的tribune装饰方案cand-5209维持excluded work，不写成实际建成作品。现有formal关系rel-2310、rel-2311及跨页rel-2360均与原文一致；本批不改S2 statement/mention表、S3 alignment、S4 KU或relations.csv，也不新增formal边。
+
+**批后清单。** 当前statement总数15,505，mention总数27,056。逐ID状态为主审通过962（既有独立240、主审722）、已审待处理552、历史复用但保留开放发现8,377、待差异复核282、待历史回映或当前复核5,332；未达到主审通过14,543条，其中552条已有当前批次结论但待处理，13,991条仍未进入B001–B016。S2仍未独立接收。逐ID结果与当前哈希见s2-current-review-roster.csv顺序3142–3241。
