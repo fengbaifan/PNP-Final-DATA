@@ -15984,3 +15984,16 @@ CHP-7 p.169正文明确写Rosa正在给G. B. Ricciardi写信；章前n.1把它�
 **S6与关系影响。** `st-chp7-p174-i18`没有正式关系边；既有S6裁决拒绝把“另十年才抵达”的相对时间断言编码为实体关系，原S2断言与S5相对时间字段保留，本批不改变。独立的rel-2485 `has_subject`仍formal，仅描述未执行的Henri II方案；对象、来源和限定不变。没有statement、mention、KU、S3决定或relations.csv写入。
 
 批后：PASS 1,739（当前主审1,491、独立当前版248），已审待处理552，历史复用仍有开放发现8,302，待差异复核196，待历史回映或当前复核4,716；未达PASS共13,766。100/100条已处置，下一条原文顺序6904。S2仍未独立接收。
+
+<a id="2026-11-01-s2-current-review-b054-ch7-p175-p176"></a>
+### 2026-11-01 S2当前版逐ID复核 B054：CHP-7 p.175–176（顺序6904–7003）
+
+**批次处置：100条；7条当前版本原页复核PASS（5条差异、2条无历史映射），93条精确复用9,622历史直接阅读并保留开放发现。** 93条均为`exact_object_and_source_segment`、历史来源版本匹配且每条仅1个审读事件；不重复阅读。当前需复核的statement及历史事件为：6936 `st-chp7-p175-i21` / H9622-08066；6944 `st-chp7-p175-i28` / H9622-08073；6977 `st-chp7-p176-i26` / H9622-08104；6978 `st-chp7-p176-i27` / H9622-08105；6979 `st-chp7-p176-i28` / H9622-08106。6945 `st-chp7-p175-i28b-bacchanals-intended-for-chateau`与6946 `...i28c-chateau-located-at-richelieu`为新statement，无历史事件。旧/当前对象hash、mentions差异和事件位置保留在逐ID台账；五条差异均未改来源段，当前原对象核对哈希仍指向快照版本。
+
+直接对照02-sources/01-book/CHP-7.pdf印刷p.175–176（PDF物理p.9–10；当前PDF SHA-256=`eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`），来源Markdown SHA-256=`f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3`。p.175 L65明确称Richelieu为Marie的minister；当前role claim忠实，但不增添任职期限或法定职衔。L69明言Richelieu于1635年从Poussin订购三幅Bacchanals供其位于Richelieu的城堡：当前端点为作品群`cand-1998`→委托人`cand-2189`；新拆出的`intended_for`和`located_at`分别指向城堡`cand-6700`、地点`cand-6701`。人物、作品群、建筑与地点保持不同身份；“from Poussin”保留在statement claim，未推成已完成作品的`created_by`关系或三幅单件作品。当前formal关系rel-1432–rel-1434的方向和限定均获印本支持。
+
+p.176 L85–88直接支持三条当前变化：`st-chp7-p176-i26`将Richelieu的死亡事件`cand-12433`补入mention set，保留1641年8月抵达巴黎及“距其对象死亡仅一年多”的相对时间；`i27`的主语正确指向死亡事件，并忠实保留“死亡没有中断法国计划”的否定性陈述；`i28`在“death of its subject”处增加同一死亡事件mention，且不把`toute la troupe des vertueux`写成正式组织。m-chp7-p176-b-068与b-088的当前跨度分别经segment字符切片验证，均精确对应表面词。该段未给出精确死亡日期。
+
+**关系与历史裁决影响。** `st-chp7-p175-i21`因无精确受控职务谓词继续S6 pending；`st-chp7-p176-i27`负向延续陈述与`i28`未具名通知者／非正式群体继续S6 pending；没有将其转为正向影响、正式组织或新关系边。rel-1432 `commissioned_by`、rel-1433 `intended_for`及rel-1434 `located_at`保持formal；无其他formal关系变更。没有statement、mention、KU或S3决定写入。本批PASS是当前statement对原页的语义复核，不等于S2独立接收。
+
+批后：PASS 1,746（当前主审1,498、独立当前版248），已审待处理552，历史复用仍有开放发现8,302，待差异复核191，待历史回映或当前复核4,714；未达PASS共13,759。100/100条已处置，下一条原文顺序7004。S2仍未独立接收。
