@@ -15764,3 +15764,14 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 **关系与历史影响。** `rel-2116 located_at`仍只表示Warburg持有摄影副本，不指原件；Capponi Lat. 260原件及Biblioteca Vaticana端点身份仍未解决，没有新增原件保管formal边。历史来源版本与S6既有裁决未改。
 
 **批后状态。** 当前主审PASS 1,584（独立当前版242、当前主审1,342）；已审待处理552；历史复用且仍有开放发现8,377；待差异复核256；待回映或当前复核4,736。未达PASS 13,921条。下一条顺序4604为`st-chp4-sec-ii-p116-massimi-reported-characterization`；S2仍未独立接收。CHP-4.pdf SHA-256=`2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303`；`04_CHP-4_sec_ii.md` SHA-256=`fd05a5c61deb6ba897878f510450d589d1ec0ef1276ff585ae601943bfd59575`。写后表审计为`errors=[]`、`s2_missing=[]`。
+
+
+### 2026-11-01 S2当前逐ID B031：第4章第II节p.116–118
+
+**批次与复用。** 当前原文顺序4604–4703连续100条，覆盖印本p.116余段、p.117、p.118开头。81条历史statement对象与来源版本完全相同，但其中6条因本批同段mention新增/重映而直接受影响，纳入当前版主审；其余75条安全复用历史阅读并保留开放发现。另17条历史statement对象变化、2条不在9,622事件内，共25条当前版主审PASS。批次逐ID处置100/100，当前PASS 25、历史复用开放75，待处理0。
+
+**mention与statement核正。** p.117 mention `m-0011`从Spain政体cand-4591重映到未具名Spaniards候选cand-12465；`m-0032`从误并的候选cand-4800改映索引所指第一版本cand-1994，与第2章第二版本分开。新增4条mention分别落在作品对、未名Cassiano继承人、四幅肖像的未识别君主/公主组，以及旧罗马建筑与绘画组；p.118新增“conflict between fertility and sterility”主题mention。6条受mention变化影响的精确历史statement为顺序4629、4632、4637、4647、4652、4656，均对照p.117–118原页回核；表审计验证mention span。另修复4637的`mentioned_candidate_ids`：该句只称威尼斯集体“也提出抗议”，原statement遗留的Spain polity cand-4591不在本句中，已删除；抗议对象继续为未说明，不增实体或formal边。该statement当前哈希更新，历史事件H9622-02963仍保留原审读版本，current match同步标为changed，来源版本仍match。
+
+**关系与身份影响。** `rel-1992`–`rel-1995`书内创作者及来源定义组员边保持formal；`rel-1996`可能收购继续pending；`rel-2645 friend_of`保持formal、`rel-2646 trained_by`因“probably”继续pending；`rel-1774`–`rel-1776`的未完成《Apollo and Daphne》作者、受赠及主题边均未改。Spaniards候选cand-12465的类型/身份和法国端点映射、威尼斯抗议目标仍按现有process-only pending保留。本批未改relations.csv、KU或S3决定。
+
+**批后状态。** 历史账本仍为9,622个事件；随4637当前对象修订，当前statement匹配分布更新为事件级9,121 exact、499 changed、2 absent_current；按旧ID最新事件去重为9,048 exact、489 changed、2 absent。9,620个有当前ID的事件来源版本全部match。当前statement总数15,505、mention总数27,056；主审PASS 1,609（独立当前版242、当前主审1,367）、已审待处理552、历史复用仍有开放发现8,371、待差异复核239、待回映或当前复核4,734；未达PASS 13,896。下一条顺序4704为后续roster记录中的当前ID；S2仍未独立接收。CHP-4.pdf SHA-256=`2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303`；`04_CHP-4_sec_ii.md` SHA-256=`fd05a5c61deb6ba897878f510450d589d1ec0ef1276ff585ae601943bfd59575`。
