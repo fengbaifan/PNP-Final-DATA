@@ -15036,3 +15036,10 @@ st-chp8-p239-venetian-emphasis
 `aln-1218`、`aln-1221`的resolution_note已改为指向上述当前S2锚点；两项S3决定仍为`undecided`且无KU，未因索引或span直接推断same/new。statement、original_quote、关系表均未改；这三条statement在relations.csv无直接关系行，相关关系端点/收件角色仍按既有记录待裁。历史9,622分子不调整，本批不覆盖p.238其余候选—mention差异，也不代表全页或全书S2接收。
 
 这是主代理的定向跨度核查与写回。表级严格审计`errors=[]`、`s2_missing=[]`；关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。随后独立复核者对照当前S0与CHP-8印刷p.238／PDF物理页44，逐条判定三个span、同一候选映射及拼写校读均PASS；`aln-1218`、`aln-1221`仍`undecided`且无KU。relations.csv没有这三条正文statement的正式边；`rel-2392`是注1档案定位引用，与两件作品无关，无须改动。原书信件未独立查阅；本次不调整9,622历史分子，也不代表p.238整页或全书S2接收。
+
+<a id="2026-11-01-s2-current-review-ch8-p238-place-mentions"></a>
+### 2026-11-01 S2第8章 p.238 补录六条地点mention
+
+同一正文segment另有六处明确地点span此前未录入：`m-chp8-p238-body-bologna-return-february`→`cand-3398`（`Bologna` `[196,203)`）、`m-chp8-p238-body-bologna-patrons`→`cand-3398`（`Bologna` `[733,740)`）、`m-chp8-p238-body-bologna-return-november`→`cand-3398`（`Bologna` `[2827,2834)`）、`m-chp8-p238-body-florence-return-1709`→`cand-3397`（`Florence` `[2102,2110)`）、`m-chp8-p238-body-florence-third-visit`→`cand-3397`（`Florence` `[2882,2890)`）及`m-chp8-p238-body-pratolino-villa`→`cand-7838`（`Pratolino` `[2176,2185)`）。六个跨度均与S0 segment SHA-256 `4851272f69e09219355eb926cb06e76ed40d459db5efebd44dc83df1e9ebfacb`对应的当前文本精确相符。
+
+既有S3/S4决定保持不变：`cand-3398`复用Bologna KU，`cand-3397`复用Florence KU，`cand-7838`沿用Pratolino新增组及已登记KU。`rel-1447 located_at`仍formal，只表达Crespi于1709年在Ferdinand别墅停留数月，不推出所有权；其他关系行未改。Statement claim和限定未改，9,622历史复核分子不变。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断项为0。写后独立复核者对照当前S0与CHP-8印刷p.238／PDF物理页44，六条span全部PASS；`rel-1446`也只记录Ferdinand与Pratolino的位置关系，`rel-2394 cites`及`rel-2395 part_of`属于回Bologna信件及档案定位，不是旅行边。没有现有边需要更改，也未把“possible third visit”正式化为已发生行程。本次独立核查只覆盖六条mention及其直接S3/S6影响，不代表p.238整页或全书S2接收。

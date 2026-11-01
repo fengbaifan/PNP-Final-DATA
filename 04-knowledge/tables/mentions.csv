@@ -27683,3 +27683,9 @@ m-s2-ch14-p349-20261101-001,chp-14:14_CHP-14_intro:l23-33,cand-10258,its,1067,10
 m-chp8-p238-body-nativity,chp-8:08_CHP-8_sec_ii:l327-336,cand-0883,a Nativity,278,288,Named work mention from index subentry C.csv#417; this span records the source wording and does not settle work identity.
 m-chp8-p238-body-selfportrait-spaced,chp-8:08_CHP-8_sec_ii:l327-336,cand-0886,Self portrait,327,340,Named work mention from index subentry C.csv#420; S0 retains this OCR spacing; the print reading is recorded in the statement correction.
 m-chp8-p238-body-selfportrait-print,chp-8:08_CHP-8_sec_ii:l327-336,cand-0886,Selfportrait,530,542,Second mention of the indexed work C.csv#420; print spelling is Selfportrait; same candidate as the earlier S0 span.
+m-chp8-p238-body-bologna-return-february,chp-8:08_CHP-8_sec_ii:l327-336,cand-3398,Bologna,196,203,Bologna is named as Crespi's February 1708 return destination; identity reuses the existing Bologna place KU.
+m-chp8-p238-body-bologna-patrons,chp-8:08_CHP-8_sec_ii:l327-336,cand-3398,Bologna,733,740,Location qualifier for Crespi's Bolognese patrons; it does not identify all members of that patron group.
+m-chp8-p238-body-bologna-return-november,chp-8:08_CHP-8_sec_ii:l327-336,cand-3398,Bologna,2827,2834,Bologna is named as Crespi's return destination in November 1709.
+m-chp8-p238-body-florence-return-1709,chp-8:08_CHP-8_sec_ii:l327-336,cand-3397,Florence,2102,2110,Florence is named as Crespi's return destination in 1709; identity reuses the existing Florence place KU.
+m-chp8-p238-body-florence-third-visit,chp-8:08_CHP-8_sec_ii:l327-336,cand-3397,Florence,2882,2890,Florence is named in Haskell's explicitly possible third-visit statement.
+m-chp8-p238-body-pratolino-villa,chp-8:08_CHP-8_sec_ii:l327-336,cand-7838,Pratolino,2176,2185,Named location of Ferdinand's villa; existing rel-1447 remains limited to Crespi's reported 1709 stay and does not assert ownership.
