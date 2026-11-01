@@ -16087,3 +16087,21 @@ p.185原页支持La Vrillière与Guercino的委托、以及其1637年委托Pouss
 **历史current-hash校准。** 全表一致性复核发现历史事件`H9622-02487`（`st-chp4-sec-ii-l91-99-errard-embellished-drawings-and-poussin-objected`）的`current_statement_sha256`字段落后于当前statement哈希；已按当前对象重算并更新该字段，状态仍为`changed`。原`review_statement_sha256`、历史裁决、来源版本及证据字段未改；9,622条事件的match分类计数不变。
 
 **批后进度。** 历史9,622事件的当前statement匹配为9,121 exact、499 changed、2 absent_current；来源版本9,620/9,620匹配。连续原文顺序7504–7603共100/100条已处置：当前版PASS 41条（26条一般原页复核、15条含statement校读元数据修正），59条精确历史复用并保留开放发现。当前版PASS 1,893（当前主审1,645、独立当前版248）；已审待处理552；历史复用开放发现8,301；待差异复核149；待历史回映或当前复核4,610；未达PASS共13,612条。下一条原文顺序7604。S2仍未独立接收。
+
+
+<a id="2026-11-01-s2-current-review-b061-ch7-p183-p192"></a>
+### 2026-11-01 S2当前版逐ID复核 B061：CHP-7 p.183、186、191–192（顺序7604–7703）
+
+**批次处置：100条；19条当前版原页复核PASS，81条精确复用历史审读并保留开放发现。** 19条由15条历史statement版本差异及4条没有精确历史事件映射的当前statement组成。81条在当前statement ID、review statement hash、来源段和来源资产上精确映射到历史记录；历史裁决和开放发现保留，不重复做同一层的语义阅读，也不计为当前版PASS。81条复用中，69条历史事件行携带来源段mention增量（57条列11个、12条列9个；合并为同一来源段的11个唯一新增mention ID），另12条无mention增量。这是重复记录的段级快照差异，不等于69组独立实体判断；相关开放差异继续留在逐ID台账，不因复用而记当前PASS。
+
+原页依据为CHP-7.pdf，SHA-256=`eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`；相关S0分节SHA-256=`f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3`，共同来源段`chp-7:07_CHP-7_sec_i:l293-389` SHA-256=`ad9ae34a8e0247ade77cf812cd0d5943582c3fd615590da5064cef79c38ae28b`，当前段mention集合214条，SHA-256=`247a7ff37a20bb7f9239435683c1a4ea3e4a9de5d23295cb7056f3e00c0826dd`。逐项核对印刷页183（PDF物理页17）、186（物理页24）、191（物理页29）和192（物理页30）中本批相关脚注，不将本批外的正文 statement 一并宣称完成。
+
+**当前版语义与原页校读。** p.183注3直接支持两条statement对Mazarin致Maccarani信件的日期及Haskell所给卷页定位；在两条statement的qualifiers分别记录OCR校读`19 3 8`→`1938`、`fletter osò March 1661`→`letter of 6 March 1661`，保留S0与`original_quote`原样。p.186注1印明Wittkower（1958）第269页；既有formal引文边`rel-1422`端点和范围相符。p.191注1–4、6–8、10–11的引文题名、页码和脚注对应均与扫描一致；其中注7现存校读`ame`→`ante`、`Exento`→`Excmo.`，注8现存校读`Et`→`II`，本次逐页确认。p.192注2准确记载Haskell转述Zanotti：Giordano的赴西班牙邀请发生在Franceschini拒绝之后；不补出邀请发起者、日期或条款。
+
+p.191注11印本实际写作`da Nápoles`。原statement把它误记为OCR偏差并改作`de Nápoles`，本批撤销该错误校读；claim及citation locator现保留印本`da`，并标明候选`cand-7139`的`de`拼法未由本页证实，留待S3核对题名/身份。原`original_quote`和S0未改；没有更换候选ID、对齐决定或KU。
+
+**关系与历史裁决影响。** `relations.csv`仅有印刷页186注1对应的既有formal边`rel-1422`，本批证据一致，未改；页183、191、192范围无新增或改裁决的formal边。两条页183 `part_of`、页191信件`addressed_to`/`authored_by`及页192邀请先后关系仍只是S2候选；Duc d’Estrées具体身份未唯一确定，邀请发起者、日期和条款缺证，不升formal，既有S6待证去向保留。被引信件、著作及页码均未被本项目独立查阅。历史review hash、原裁决和来源版本未覆盖；当前hash/match按核平脚本更新，15条历史差异项的历史match仍为`changed`。其中注11对应历史事件`H9622-08662`的`current_statement_sha256`已同步到修订后当前statement，`current_statement_match`仍为`changed`；历史review hash和原裁决不变。
+
+19条当前版PASS逐ID清单：`st-chp7-p183-n3-letter-1661-part-of-lettres`、`st-chp7-p183-n3-letter-part-of-epistolario`、`st-chp7-p186-n1-cite-wittkower`、`st-chp7-p191-n1-cite-bellori`、`st-chp7-p191-n2-cite-album`、`st-chp7-p191-n2-cite-pacichelli`、`st-chp7-p191-n3-cite-bernino`、`st-chp7-p191-n4-cite-letter`、`st-chp7-p191-n4-letter-addressed-to-louis-xiv`、`st-chp7-p191-n4-letter-authored-by`、`st-chp7-p191-n6-cite-dominici`、`st-chp7-p191-n7-cite-address`、`st-chp7-p191-n8-cite-bottari`、`st-chp7-p191-n8-cite-orlandi`、`st-chp7-p191-n10-cite-dominici`、`st-chp7-p191-n10-cite-saxl`、`st-chp7-p191-n11-cite-list`、`st-chp7-p192-n2-cite-zanotti`、`st-chp7-p192-n2-franceschini-refusal`。statement predicate、端点和mentions未因本批改写；statement 7685的claim/locator/qualification只为纠正印本拼法而修正。
+
+**批后进度。** 当前15,505条statement、27,056条mention。连续原文顺序7604–7703共100/100条处置，下一条7704。当前版PASS 1,912（主审1,664、独立当前版248）；已审待处理552；精确历史复用开放发现8,301；待差异复核134；待历史回映或当前复核4,606；未达PASS共13,593。S2仍未独立接收。
