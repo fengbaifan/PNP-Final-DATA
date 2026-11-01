@@ -16168,3 +16168,13 @@ p.191注11印本实际写作`da Nápoles`。原statement把它误记为OCR偏差
 **关系影响。** 核对relations.csv中的正式边rel-2129（该系列 dedicated_by De Wael）与rel-2130（dedicated_to Roomer）：目录碑文记录的dedicatee及Haskell p.208/注3对系列范围的说法与当前statement相容；边注仍限制为奉献关系，不延伸为作者、委托或所有权。本批未新增或修改relations.csv关系。
 
 **批次后状态。** 当前15,505条statement：主审PASS 1,953（当前主审1,705、独立当前版248）；已审待处理552；历史精确复用但保留开放发现8,301；待历史版本差异复核120；待历史回映或当前复核4,579；未达PASS共13,552。连续原文已处理至顺序8203，下一批从8204开始；S2仍未独立接收。批次后audit_tables.py --strict-stage --summary返回errors=[]、s2_missing=[]；audit_relation_consistency.py --dry-run的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。reconcile_s2_review_history.py只读计划核平9,622个历史事件，按最新事件去重旧ID为9,539个，来源版本9,539/9,539匹配；历史当前statement匹配为9,048 exact、489 changed、2 absent；计划SHA-256=e7050be1ea22942276eaf704bb20c8e4116482d8d431174e31582bd2729983d8。
+
+
+<a id="2026-11-01-s2-current-review-b067-ch8-p208-p211"></a>
+### 2026-11-01 S2连续原文逐ID复核 B067：CHP-8 p.208–211，顺序8204–8303
+
+**本批结算：100条连续statement均完成历史核平复用；0条新增当前版本PASS，100条精确历史复用并保留原开放发现。** 清单核验显示100条当前statement ID、statement hash、source segment/source asset和mentions均精确匹配各自历史最新审读事件；事件来源版本也匹配，mention delta均为空。因此未重复读取原页、未改变旧裁决，也没有把历史开放结论升级为当前PASS。
+
+本段跨CHP-8分节l53–96，涉及Roomer段落延续、Don Antonio Ruffo及del Rosso兄弟段落。所有100项均处于prior_review_mapped_open；其开放发现继续保留在原逐ID记录中。当前statements及关系字段均未改，未增删formal relation或改变S6裁决。此批仅推进连续核平覆盖，不减少未达当前PASS的statement总数。
+
+**批次后状态。** 当前15,505条statement：主审PASS 1,953（当前主审1,705、独立当前版248）；已审待处理552；历史精确复用但保留开放发现8,301；待历史版本差异复核120；待历史回映或当前复核4,579；未达PASS仍为13,552。连续原文已处理至顺序8303，下一批从8304开始；S2仍未独立接收。该批没有修改候选、mentions、statements或relations.csv。
