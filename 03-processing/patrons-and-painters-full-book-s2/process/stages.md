@@ -16323,3 +16323,38 @@ p.212 n.2印本确认Fall of Manna和Moses striking the Rock由Haskell称刊于L
 **批次后进度。** 当前15,505条statement：PASS 2,379；已审pending 606；历史精确复用但保留开放发现8,323；待历史版本差异复核101；待历史/既有审读回映或当前复核4,096；未获当前PASS共13,126。连续原文顺序已处理至9025，下一条9026。S2仍未独立接收。
 
 **必要核验。** B074 roster顺序8926–9025连续且100行全部有PASS及证据引用；四段当前mention数/hash与逐ID roster一致。`audit_tables.py --strict-stage --summary`、`audit_relation_consistency.py --dry-run`及`git diff --check`结果见本批提交核验。
+
+
+<a id="2026-11-01-s2-current-review-b075-ch8-p229-p233-pl37-40"></a>
+### 2026-11-01 S2当前版本逐ID复核 B075：CHP-8 p.229–233及图版37a–40a，顺序9026–9125
+
+**完成量。** 连续原文顺序9026–9125共100条，全部逐ID处置：89条直接核对当前statement、当前S0、对应原书扫描页及当前候选mention；11条复用精确旧S2原页读。100 PASS、0 pending。复用仅在当前statement完整对象、来源段和该statement相关候选mention集合均一致时采用；保留既有审读边界。PASS只表示本批S2主张、引句、语气/指代限定和提及锚点对当前原文核对通过，不代表S3身份完成、S6关系收口或全书S2独立验收。
+
+**历史原页读复用。** 复用快照`d7adabfb27dff892808793ae5eace18787e6ef60`的11条：`st-chp8-p229-portugal-negotiations`、`st-chp8-p229-marriage-violante`、`st-chp8-p230-scarlatti-music`、`st-chp8-p230-venice-1696-mask-quote`、`st-chp8-p230-note1-fabbri-puliti`、`st-chp8-p230-note5-venice-avvisi`、`st-chp8-p231-franceschini-biography`、`st-chp8-p231-encouraged-crespi`、`st-chp8-p231-church-dedicated-to-mark`、`st-chp8-p231-s-marco-purchase-and-copy`、`st-chp8-p231-interest-in-gabbiani`。旧快照另有一条statement JSON与当前statement完全相同，但`st-chp8-p231-cardinal-leopold-collection`的候选mention筛选集不同：旧行还包含已由复合候选`cand-12094`“Florentine Renaissance”替代的单词mention`cand-3578`“Renaissance”。故该条本批直接按当前mention版本核页，不复用旧结论。此判断没有改动其S3对齐。
+
+**原页与版本指纹。** `CHP-8.pdf` SHA-256=`cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`；S0 `08_CHP-8_sec_ii.md` SHA-256=`5d9a17efc3835c30947b8c714c65649be10295661b6cca6b117f5902882bcef6`。直接核对印刷p.229–233及图版37–40，对应PDF物理页31–39；p.229物理页31也在B074边界处复查。B075覆盖8段，当前segment及mention指纹如下：
+
+| 印刷页／顺序 | segment ID | segment SHA-256 | mention数／mention SHA-256 |
+|---|---|---|---|
+| p.229／9026–9040 | `chp-8:08_CHP-8_sec_ii:l216-225` | `dcd96bb399d0be5aa8a91eb405a1ccccb4bdbf9c378006c9792c5bf1549b3e79` | 37／`01ac3bd18563ba35988a1368fe215009c5ae60a2895c028b0a1573a6d026d49d` |
+| p.230／9041–9069 | `chp-8:08_CHP-8_sec_ii:l227-236` | `f85e444391b05d85463e679e851cfa3ccc90a29d094890b09af9bc6f541892e5` | 34／`f6cfdf4e66467aa40ec298555e67f9073ade4721de339b7268fffae1ae61c4ea` |
+| p.231／9070–9091 | `chp-8:08_CHP-8_sec_ii:l238-249` | `6e95624894cd4591e8e82635404eaac9f52367dade03e9960a0c720a3d0f8d21` | 59／`611f615591aa4a219f97bb4dd164b2de0a49917c057db2746d8875f7a93c509c` |
+| p.232／9092–9114 | `chp-8:08_CHP-8_sec_ii:l251-257` | `e1394cba819e944d544f3773b2dcdd2debbfc79babdf392bcd178c5d2925cae1` | 51／`d78738a8252f0e5b06039fcbcd838e1447201148cb47d124ff9d855e6bb01e73` |
+| Plate 37／9115–9117 | `chp-8:08_CHP-8_sec_ii:l259-261` | `55420a06123437be35d56281d1d597b3d8d7556c7efb183d386ed19b3b9f5191` | 4／`dc4a3412009773291e881dcd8df3d139156f3be3be65dd978e4ad2291bb87891` |
+| Plate 38／9118–9122 | `chp-8:08_CHP-8_sec_ii:l263-266` | `f1db9b215c05735a096023951b58e742170a82828f16407d302a156758b252dc` | 7／`822bfacf28f7d1a83794c6e226f2b81534a1202d157afcbc2f169d3df31065de` |
+| Plate 40／9123 | `chp-8:08_CHP-8_sec_ii:l268-269` | `30479ca8c365188d61888932866d17fd0a024c1feaba1637afe0186354b2cae6` | 2／`98dd22a16bf611e97f30adff9f73f601b59799d0bae5c795031b0e65edeb2296` |
+| p.233／9124–9125 | `chp-8:08_CHP-8_sec_ii:l271-279` | `1b5ad6756f8c8c1f24eba461ea2d541a118ab9e74fb1723ddffbd0b7959471fb` | 40／`2a3682c8dcaae0401f51e7a806ad461173c889b72ea4acbf2d1ff43f4f4dbbc5` |
+
+**语义核读与写回。** p.229核对父母关系、家庭环境对两子影响、人物性格的两面材料、Ferdinand/Francesco Maria的反对活动、婚配条件、Violante身份、继嗣尝试及跨页闭句；未把传记解释提升为独立因果事实。p.230核对乡间居所、Pratolino戏剧活动、Scarlatti音乐、赞助和收藏、疾病/死亡的作者限定、Venice 1696行程与脚注；p.231核对Venetian/Florentine绘画传统、Franceschini与La Burla、教堂购画、Gabbiani、Cardinal Leopold收藏和letter mentions；p.232核对Cassana代理身份、信件中的意大利语品鉴词、作品鉴赏/打包/读书、对未识别作品的判断及patronage；p.233完成modelli句子续读并核对图版题注。信件及脚注所指档案没有被误称为本轮独立查阅。
+
+当前版statement四处写回：`st-chp8-p230-retired-to-pratolino`与`st-chp8-p230-retirement-and-houses`改写为“在同一句列出的乡间居所中退居Pratolino／Poggio a Caiano”，明确两处同属原文复数居所，不再写成两个先后退居事件；`st-chp8-p230-ferdinand-financed-redi-editions`补充原页核实的S0 OCR校读`pubheation`→`publication`（印刷p.230／PDF物理页32），原始S0和original_quote不改；`st-chp8-p230-carnival-entertainment`将当前已存在、跨度`[2197,2204)`的`ridotto` mention候选`cand-10725`补入`mentioned_candidate_ids`。该候选S3仍为`undecided`；本批不据此推定与其他赌场同一，也不新建formal关系。B075不增删statement或mention行；statement/mention总数保持15,505／27,160。
+
+**当前mention及边界。** p.230对新增ridotto span按本段字符位置校验；p.231现有mention差异逐项对页图：`Florentine Renaissance`作一个语境明确的term候选`cand-12094`，与后文作品集合语境中的generic `Renaissance` mention分开；`Tuscan narrative of the fifteenth century`与区域Tuscany分开；`experiments in naturalism`保留为当前语境term；`Andrea del Sarto`指画家person候选`cand-2361`，与索引中同名作品候选`cand-2362`区分。现有候选和S3裁决不改；statement 9091因旧candidate-filtered mention集合变动而直接复核。Plate 38–39题注的Florence/Pitti Palace是组级地点语境，不任意指派给某一幅单作；图题Pan、Syrinx、Europa仅作标题/图像题材引用，不扩写为历史事件。
+
+p.230 `pubheation`→`publication`为本批新增结构化校读；同时确认既有`Filza 3050`→印本`Filza 3050 D`。其余已记录校读与页图一致：p.231 `1689?`→`1689.¹`、`than.to`→`than to`、`chiefly hi`→`chiefly in`、`CeciliaA`→`Cecilia.⁴`、`art5`→`art⁵`、`ofTitian`→`of Titian`及note 6标记；p.232 `Niccolo`→`Niccolò`、`1698?`→`1698.¹`、`sec`→`see`、意大利语引句`Tinvenzione/adcsso/penello dcH’Autore`→印本`l’invenzione/adesso/pennello dell’Autore`、`sinita/1’anima`→`finita/l’anima`及`tnodelli`→`modelli`；Plate 37 L261前导句点按图版校为`(detail)`。所有校读留在statement qualifier，不改写S0来源。
+
+**关系、历史裁决与下一阶段边界。** `rel-1446 located_at`仍formal：Ferdinand→Pratolino，现有scope说明是两处乡间居所之一且无退居日期/永久居住主张，B075语义修正不影响该边。p.231的`rel-2021 created_by`、`rel-2022 acquired_by`、`rel-2459 influenced_by`其原文范围仍成立；本批不改`relations.csv`、S3 alignment、KU、S5字段或S6历史裁决，也不为Poggio a Caiano或ridotto新建边。批次100行在9,622历史事件台账中的事件数为0；历史review hash、来源版本和历史裁决未改。ledger SHA-256=`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`；只读核平计划SHA-256=`83e45a81eee9f167ff0035e4b08372f711731743cf7068a534ee4b52ff5b8aa0`；roster规范序列化SHA-256=`fbd9014d883857ece215531d19ff55c99d15877dbfe60d67d7ab4f3f1bee44bf`。未执行`--apply`。
+
+**批后进度。** 当前15,505条statement：`reviewed_current_pass` 2,479；`reviewed_current_pending` 606；历史已映射但保留开放发现8,323；待历史版本差异复核101；待历史/既有审读回映或当前复核3,996。未获当前PASS共13,026。连续原文顺序已处理至9125，下一条9126。S2仍未独立接收。
+
+**必要核验。** B075 roster顺序9026–9125连续，100行均有PASS及证据引用；B075历史事件数为0。`audit_tables.py --strict-stage --summary`返回15,505 statements、27,160 mentions、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`的broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；`git diff --check`通过。上述是表结构、关系一致性和本批当前语义核对，不构成独立S2接收。
