@@ -16132,3 +16132,14 @@ p.191注11印本实际写作`da Nápoles`。原statement把它误记为OCR偏差
 **历史及关系影响。** 历史事件`H9622-08756`、`H9622-08802`、`H9622-08826`的当前statement hash已由官方脚本按当前对象同步，三项current match仍为`changed`；各历史`review_statement_sha256`、原裁决、来源版本不改。脚本计划hash=`f7ee6730d5fe71c56dafb8fe39b88ee3f9e6a8e4a5844efd93d18ca36a351b6e`。同一核平还将顺序7353、7366、7369、7370、7653、7655、7659七条roster `history_9622_current_statement_match`从陈旧的`changed`同步为与当前事件一致的`exact`；事件和历史审读对象不变，聚合exact/changed数量不变。既有formal边`rel-1355`（p.195 n.3 Da Canal cites）、`rel-1896`（p.194 n.3 von Freeden cites）、`rel-1900`（p.196 n.1 Gennari MS cites）、`rel-1904/1905`（p.197 Killigrew/Altham portraits has_subject）均与当前claim及来源范围一致，本批未改relations.csv。p.194 n.4 Wilhelm、p.195 n.1 Haskell评论以及p.199理论/作品候选未新增formal边；候选身份和未独立查阅的引文仍按原去向待证。
 
 **逐ID当前版PASS：** `st-chp7-p199-choice-hercules-failed-to-convey-thought`、`st-chp7-p199-shaftesbury-satisfied-with-picture`、`st-chp7-p199-shaftesbury-1713-picture`、`st-chp7-p199-picture-as-history-instructions`、`st-chp7-p199-shaftesbury-died-before-order`、`st-chp7-p199-shaftesbury-civilising-role-of-art`、`st-chp7-p199-shaftesbury-emotional-appeal`、`st-chp7-p199-shaftesbury-good-society-produces-good-art`、`st-chp7-p199-english-taste-and-patronage`、`st-chp7-p194-n3-cite-von-freeden`、`st-chp7-p194-n4-wilhelm`、`st-chp7-p195-n1-prince-taste-comment`、`st-chp7-p195-n3-da-canal`、`st-chp7-p196-n1-gennari-evidence`、`st-chp7-p197-altham-portrait-has-subject`、`st-chp7-p197-killigrew-portrait-has-subject`。
+
+<a id="2026-11-01-s2-current-review-b064-ch7-p197-p201"></a>
+### 2026-11-01 S2当前版本逐ID复核 B064：CHP-7 p.197–201及关联注释，顺序7904–8003
+
+**本批结算：100条；12条当前原页复核PASS，88条精确历史复用并保留开放发现。** 12条包括11条无精确历史映射（顺序7910–7918、7998、8000）和1条历史statement版本差异（7980）。88条当前statement ID/hash、来源段与来源资产、mention均匹配9,622条历史审读中的对应最新事件；复用历史直接阅读，不重复审读，也不计当前PASS。
+
+**原页与引文核查。** CHP-7.pdf SHA-256=`eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`；直接核对印刷p.198/PDF物理页36、p.199/物理页37和p.201/物理页43。CHP-21Bibliography.pdf SHA-256=`1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`；书目支持Vertue、Baldinucci、de Dominici、Pascoli、Brett、Wind、Croce及Sweetman的题名/出版信息。p.199注1放大图确认印刷页码为110–116。所有被引作品/页未独立阅读，注释只记录Haskell所列引文，不把引文当作被引论断的独立证明。
+
+**当前版本判断。** p.201扫描确认“fine arts”校读无误，并核对7980当前版本的注3链接；该声誉仍是Haskell转述，不提升为独立事实。顺序7998、8000只记录Pozzo于1704年开始绘制花园宫大厅天顶及大厅位于花园宫内，不推断完工、现址、所有权或正式房间名。修订9条注释claim，去掉内部整理性措辞并保留原页定位、书目依据和“被引材料未读”的边界；未改候选ID、S3身份，也未新增S6正式边或修改relations.csv。官方历史核平脚本已按核阅计划重算current hash字段，历史review hash、历史结果及来源版本不变。
+
+**批次后状态。** 当前15,505条statement：主审PASS 1,944（当前主审1,696、独立当前版248）；已审待处理552；历史精确复用但保留开放发现8,301；待历史版本差异复核125；待历史回映或当前复核4,583；未达PASS共13,561。连续原文已处理至顺序8003，下一批从8004开始；S2仍未独立接收。`audit_tables.py --summary`结果`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence均为0。
