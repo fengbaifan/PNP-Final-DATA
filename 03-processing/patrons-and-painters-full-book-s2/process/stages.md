@@ -15922,3 +15922,15 @@ S6既有判断不变：6233对抗议的受控谓词仍pending；6235的事件终
 **批次结果：100条；2条当前版原页复核PASS，98条精确历史复用并保留开放发现。** 原书02-sources/01-book/CHP-6.pdf，SHA-256=de7a3546edcc8b992a1720341690b142d9f96d04fd6ba5374e5733e6167ac258；打印p.148（PDF物理3）脚注2直接核对statement 6361与6362。脚注将四河喷泉与其后列明的Bernini对Innocent X的重要委托分开；列举君士坦丁骑马像和一组肖像胸像。6361当前版本把新拆出的骑马像委托映射为作品→委托者，保留“only important”限定；其历史审读哈希及开放发现不变。6362是无9,622历史映射的新statement，当前原页核读支持“Besides the Fountain”所表达的喷泉另属委托；对应既有formal关系rel-1871不变。rel-1851（骑马像 commissioned_by）同样维持formal；两边均不推断完成或确切日期。
 
 原文引句仍逐字对应S0 OCR“die Fountain”，印本读法“the Fountain”继续只记在ocr_corrections；S0和原始引句不改。其余98条对象、来源段及来源版本精确匹配历史，mention delta=0；复用历史直接阅读并保留未结发现，不计当前PASS。 应用后全表审计`errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
+
+
+<a id="2026-11-01-s2-current-review-b049-ch6-p158-p159"></a>
+### 2026-11-01 S2当前版逐ID复核 B049：CHP-6 p.158–159（顺序6404–6503）
+
+**批次结果：100条；8条当前版原页复核PASS，92条精确历史复用并保留开放发现。** 连续原文顺序6404–6503逐ID核平。92条当前statement及其来源段版本精确对应历史直接阅读，复用原结论、不重复阅读，既有开放发现继续保留且不计当前PASS。另8条需覆盖当前变化：7条因Bellori《Lives》提及由人物候选`cand-0277`改映为出版物候选`cand-6932`而不再是历史对象精确版本；1条新statement没有9,622事件映射。八条均按当前版本原页核读通过，仅更新当前roster结果；7条历史review哈希、历史结果、历史来源版本和事件引用均保留，`history_9622_current_statement_match=changed`不覆盖。新statement直接主审，不伪造历史映射。
+
+原书`02-sources/01-book/CHP-6.pdf`，SHA-256=`de7a3546edcc8b992a1720341690b142d9f96d04fd6ba5374e5733e6167ac258`。打印p.158（PDF物理13）支持Bellori已开始撰写《Lives》及1664年向Accademia作“理想”讲演；跨页句续至p.159（PDF物理14），该页明确说Bellori于1672年出版《Lives》并将早前讲演收入作序言。p.159还支持该书不以收录完整为目标、Algardi获完整生平而Bernini仅被随意提及数次，以及Poussin无疑启发书中许多观念。当前statement 6467、6468、6470、6474、6478、6490、6492、6494的指代、范围、限定与原页吻合；未改statement、mention或来源文本。
+
+**下游关系与待决状态。** `rel-2118 authored_by`（6467、6470）、`rel-2119 part_of`（6474）、`rel-2120 has_subject`（6490）及`rel-2121 has_subject`（6492）端点和证据范围与当前人物`cand-0272`、书籍`cand-6932`相符，均保持formal，无需改写。新statement 6468只确认讲演对象／受众是Accademia，未给出实体地点或现今保管信息；既有S6 process-only pending保持。statement 6494虽经原页证实Poussin启发书中观念，S6谓词仍不精确，继续pending；statement 6478仅作为书籍范围描述，不新增关系边。`relations.csv`、S3决定及KU未改。本批当前原页PASS不等于独立语义复核或全书S2接收。
+
+批后：当前PASS 1,712（当前主审1,466、独立当前版246），已审待处理552，历史复用仍有开放发现8,302，待差异复核212，待历史回映或当前复核4,727；未达PASS共13,793。100/100条已处置，下一条原文顺序6504。严格表审计及关系一致性审计结果记录于本批提交；全书S2仍未独立接收。
