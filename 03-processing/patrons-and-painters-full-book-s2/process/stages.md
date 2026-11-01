@@ -16039,3 +16039,17 @@ p.185原页支持La Vrillière与Guercino的委托、以及其1637年委托Pouss
 本批历史事件记录和来源hash未改；历史裁决的开放发现原样保留。当前statement版本hash与历史不同的15条逐条检查后PASS；其余20条逐条对照原页后PASS；精确复用的65条仍是开放状态。
 
 **批后进度。** 历史9,622事件current statement匹配仍为9,121 exact、499 changed、2 absent_current；按旧ID最新事件去重为9,048 exact、489 changed、2 absent_current；可回映来源版本9,620/9,620匹配。连续原文顺序7204–7303共100/100条已处置，其中本批新增当前版PASS 35条，精确历史复用65条仍保留开放发现。当前版PASS 1,798（当前主审1,550、独立当前版248）；已审待处理552；历史复用开放发现8,301；待差异复核171；待历史回映或当前复核4,683；未达PASS共13,707条。下一条原文顺序7304。S2仍未独立接收。
+
+
+<a id="2026-11-01-s2-current-review-b058-ch7-p188-p190"></a>
+### 2026-11-01 S2当前版逐ID复核 B058：CHP-7 p.188–190（顺序7304–7403）
+
+**批次处置：100条；7条当前版原页复核PASS（5条历史statement版本差异，2条无精确历史映射），93条精确复用历史阅读并保留开放发现。** 93条的当前statement、来源段、来源资产及mention集合均与唯一历史事件精确匹配，不重读、不把历史开放发现记为PASS。本批涉及segment：p.188所在 chp-7:07_CHP-7_sec_i:l232-241，SHA-256=12efad3b80025619b3a6bb1b6e8e90e33cabd392036aa3bafde5f6f77145a70d（75 mentions，集合SHA-256=4005259ff131a8fc25f6cd681fa2f8bb52b1151ff81cd24d630f7b8837594c58）；p.190所在 l259-266，SHA-256=cdc302afab67876d33e5928ca3d309b02ee7c455c3d42eb2f43001a28683df17（97 mentions，集合SHA-256=9a5295b71879a92ff4f010559840737c4c54f7f4832f50ad0e112085d13e4176）。来源PDF SHA-256=eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212；S0分节SHA-256=f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3。
+
+原印本p.188（PDF物理页26）写Bernini雕像被放逐至Versailles grounds最偏远角落。当前statement把雕像作为地点关系主体、Versailles偏远区域作为历史目的地，并将Louis XIV保留为行动者；不声称精确角落或现藏地点。该statement历史版本曾以Louis XIV为主语并使用复合谓词；当前版本已把关系端点方向与行动者拆开。本批原页复核确认这项当前修订与原文相符；formal rel-1857保持不变，其他p.188雕像关系裁决不受影响。
+
+原印本p.190（PDF物理页28）写Del Carpio取得Velasquez所作、分别描绘Massimi与Donna Olimpia的两幅肖像，以及大量计划制版的古物。当前compound statement已分解为两条肖像取得、一条古物组statement及两条creator attribution；本批检查了其中五条历史版本差异和两条无精确历史映射statement。当前claim、work/person端点方向及对Haskell转述的限定均与原文一致。Footnote 5进一步描述古物册及其题铭，但没有给出单件清单或把每一件确认成可识别作品；cand-6953仍为untyped/undecided。保留原S6对该古物组关系的rejected裁决，不建formal边。历史statement版本显示此前三个portrait/antiquities acquisition atom使用泛化谓词与反向端点；现行work-to-acquirer表述经原页复核后PASS，历史review hash及旧裁决不回写。
+
+关系影响：rel-1383（Donna Olimpia肖像created_by Velasquez）、rel-1384（该肖像acquired_by Del Carpio）、rel-1385（Massimi肖像acquired_by Del Carpio）和rel-1857（雕像历史目的地）继续formal；rel-1044为Massimi肖像既有external formal creator edge，本批不重复新增。上述边的时间、来源和scope未变；没有新的statement、mention、KU、S3决定或S6边写入。历史事件表及source hash未改；本批五条changed事件的历史review内容保留，current source match仍true、mention delta仍空。
+
+**批后进度。** 历史9,622事件current statement匹配仍为9,121 exact、499 changed、2 absent_current；按旧ID最新事件去重为9,048 exact、489 changed、2 absent_current；可回映来源版本9,620/9,620匹配。连续原文顺序7304–7403共100/100条已处置：当前版原页PASS 7条，精确历史复用93条仍保留开放发现。当前版PASS 1,805（当前主审1,557、独立当前版248）；已审待处理552；历史复用开放发现8,301；待差异复核166；待历史回映或当前复核4,681；未达PASS共13,700条。下一条原文顺序7404。S2仍未独立接收。
