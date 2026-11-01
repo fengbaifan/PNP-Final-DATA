@@ -16105,3 +16105,14 @@ p.191注11印本实际写作`da Nápoles`。原statement把它误记为OCR偏差
 19条当前版PASS逐ID清单：`st-chp7-p183-n3-letter-1661-part-of-lettres`、`st-chp7-p183-n3-letter-part-of-epistolario`、`st-chp7-p186-n1-cite-wittkower`、`st-chp7-p191-n1-cite-bellori`、`st-chp7-p191-n2-cite-album`、`st-chp7-p191-n2-cite-pacichelli`、`st-chp7-p191-n3-cite-bernino`、`st-chp7-p191-n4-cite-letter`、`st-chp7-p191-n4-letter-addressed-to-louis-xiv`、`st-chp7-p191-n4-letter-authored-by`、`st-chp7-p191-n6-cite-dominici`、`st-chp7-p191-n7-cite-address`、`st-chp7-p191-n8-cite-bottari`、`st-chp7-p191-n8-cite-orlandi`、`st-chp7-p191-n10-cite-dominici`、`st-chp7-p191-n10-cite-saxl`、`st-chp7-p191-n11-cite-list`、`st-chp7-p192-n2-cite-zanotti`、`st-chp7-p192-n2-franceschini-refusal`。statement predicate、端点和mentions未因本批改写；statement 7685的claim/locator/qualification只为纠正印本拼法而修正。
 
 **批后进度。** 当前15,505条statement、27,056条mention。连续原文顺序7604–7703共100/100条处置，下一条7704。当前版PASS 1,912（主审1,664、独立当前版248）；已审待处理552；精确历史复用开放发现8,301；待差异复核134；待历史回映或当前复核4,606；未达PASS共13,593。S2仍未独立接收。
+
+<a id="2026-11-01-s2-current-review-b062-ch7-p193-p196"></a>
+### 2026-11-01 S2当前版逐ID复核 B062：CHP-7 p.193–196（顺序7704–7803）
+
+**批次处置：100条；4条当前版原页复核PASS，96条精确复用9,622历史直接阅读并保留开放发现。** 4条由3条statement版本差异（7707、7755、7759）和1条无精确历史映射（7708）组成。其余96条当前ID、statement哈希、来源段哈希及来源资产均精确对应历史直接阅读记录；不重复重读，历史开放发现不计为当前PASS。批次从当前原书顺序7704连续推进至7803，跨p.193–196四个登记段；复用项沿用可追溯的历史来源审读，需复核项按对应原页核读。
+
+**原页依据。** CHP-7.pdf SHA-256=`eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`；来源Markdown `07_CHP-7_sec_iv.md` SHA-256=`d620659a2f3567ea9a1d91b7657390e9824768c320c3cf534bd30069d6c72077`。差异项依次核对印刷p.193/PDF物理页31、印刷p.194/物理页32、印刷p.195/物理页33。F. Wilhelm的书目条目另以CHP-21Bibliography.pdf SHA-256=`1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`核对印刷p.440–441/PDF物理页30–31。
+
+**当前版判断。** 顺序7707仅保留原文“with some speed”从三十年战争影响中恢复，`cand-4965`是该句实际战争端点；此前把恢复和地位增强并在一个statement中的版本已由7708分开。顺序7708现statement“position had been strengthened by the Peace of Westphalia”与p.193印本一致，OCR空格校读元数据有页图依据。和约与战争端点仍作为不同候选交S3处理，不建立S6正式边。顺序7755的p.194注2原文为“Wilhelm, passim”；书目印刷p.440给出F. Wilhelm及题名，p.441续列期刊、1911、Beiblatt和pp.87–142，支持将被引文献记录为该书目文章；文章本身及passim定位页面未独立阅读，作者全名保持待证。顺序7759的p.194–195意大利引文确实跨页续接，p.195由Haskell明记为Liechtenstein亲王1691年所写；原信未读，亲王不由头衔映射至索引人物，未名画廊不补造地点。相邻p.194引文起始statement（顺序7754）和p.195注1 Wilhelm引文statement（顺序7894）均精确复用历史阅读且保留开放项。注1中Haskell对“mondane”的独立评论statement顺序7893仍为`needs_delta_review`；历史阶段已指出其predicate/端点需回核，本批不将它视作PASS，也不因此把Prince连到Wilhelm。上述端点与未读引文没有新增或改裁决的relations.csv正式边；已有S6决定未改。
+
+**核平边界。** 本批只在逐ID当前复核台账写入4条PASS；未改statement、mention、候选、对齐、历史review hash/历史裁决或来源资产。96条历史复用仍记录其原开放发现。4条历史差异行保持其既有`changed`历史match，不用当前复核覆盖历史版本判断。未将附注中尚待核的候选身份、引文原文、页码或关系缺证升级。
