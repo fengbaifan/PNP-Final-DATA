@@ -15224,3 +15224,12 @@ S6影响：原址、后续报告位置、替代关系、Ferdinand购画、早年
 对所有新增、删除或变化statement涉及的56个segment ID，逐一比较基线与当前`segments.jsonl`完整对象，均存在且对象相同。其来源Markdown共26份，基线与当前Git blob均相同；本次未据机械差异推断页图语义已复核。上述差异反映当前表相对基线的版本变化，不等于未复核数，也不证明任何旧／新版本属于9,622历史分子。
 
 既有逐批复核记录仍须按报告快照、稳定statement／mention ID、完整对象及来源版本逐批回映；当前没有覆盖9,622全体成员的逐ID／版本名册。本次不增减9,622、不计算S2覆盖率，也不作全书S2接收。旧的15,487／15,488条当前表及137／140条变化统计仅属早期快照，以本记录当前提交重算为准。
+
+<a id="2026-11-01-s2-current-review-crosswalk-ch3-p67-p72-p92"></a>
+### 2026-11-01 第3章 p.67、p.72、p.92 独立复核至当前版本回映
+
+将先前独立复核快照`2453c93ecc2b48f3d7dc03eaedced0de02ad17e6`与当前提交`c6edd27d`逐ID比较，并复核对应mention、segment及源文件版本。第3章p.67 `st-chp3-secii-l19-31-vitale-owned-by-jesuits`、p.72 `st-chp3-secii-l74-81-evangelist-figures-derived-from-michelangelo`及p.92 `st-chp3-seciv-l165-177-letters-carried-complaints-to-duke`的完整statement对象均未变化；p.67、p.72相关mention、三个segment对象、`rel-1751`、`rel-2469`及第3章Markdown／`CHP-3.pdf` Git blob均与独立复核快照一致，故这些既有独立结论仍适用于当前对象版本。
+
+p.92 `st-chp3-seciv-l165-177-duke-refused-tribune-permission`自该复核快照后仅变更`qualifiers.relation_candidate_note`：将“人物身份未决”改为依据Haskell索引F.csv#12确认Ranuccio II，同时保留正式关系谓词及拒绝决定范围未定。该更正回应了独立复核指出的问题，但当前完整statement对象与复核对象不同，因此不能把旧复核结果转记为当前版本PASS；此字段及当前statement仍须独立回核。相关claim、quote、candidate端点、mention、S0 segment、Markdown与PDF均未变。
+
+p.92两条statement继续保持process-only pending，没有对应formal或rejected关系；旧statement ID `st-chp3-seciv-l165-177-letters-carried-complaints-to-duke`为稳定引用键，不是信件传递投诉给公爵的证据。历史9,622成员名册仍未恢复，以上当前版核对不证明任何版本是否曾计入其分子；本批不调整历史数，不接收第3章或全书S2。
