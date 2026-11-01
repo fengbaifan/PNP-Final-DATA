@@ -15607,3 +15607,15 @@ p.72当前47条statement来自21条原始陈述的拆分，现有候选`cand-123
 Oliva took advantage of new situation仍保留为Haskell明示的作者推断，referent不另建对象。Private-patron painting链接到cand-12319；该群体类型和成员仍S3 undecided，无KU，不补出鼓励者或具体已完成委托。Grand Duke of Tuscany候选cand-5180继续undecided；不要与p.79已映射为Duke of Parma的cand-0997混为一人。未实现的tribune装饰方案cand-5209维持excluded work，不写成实际建成作品。现有formal关系rel-2310、rel-2311及跨页rel-2360均与原文一致；本批不改S2 statement/mention表、S3 alignment、S4 KU或relations.csv，也不新增formal边。
 
 **批后清单。** 当前statement总数15,505，mention总数27,056。逐ID状态为主审通过962（既有独立240、主审722）、已审待处理552、历史复用但保留开放发现8,377、待差异复核282、待历史回映或当前复核5,332；未达到主审通过14,543条，其中552条已有当前批次结论但待处理，13,991条仍未进入B001–B016。S2仍未独立接收。逐ID结果与当前哈希见s2-current-review-roster.csv顺序3142–3241。
+
+<a id="2026-11-01-s2-current-review-b017-ch3-seciv-p80-p86"></a>
+### 2026-11-01 S2当前版B017：第3章第IV节p.80–86
+
+**批次结论。** 按当前statement顺序3242–3341连续复核100条：L26–33余13条、L35–46共40条、L48–56共34条、L58–67前13条。100/100条完成当前版主审并通过，待处理0条；下一条顺序3342为st-chp3-seciv-l58-67-bernini-suggested-blood-theme。主审通过不构成第3章或全书独立语义接收。
+
+**历史回映与当前版本核对。** 本批100条history_9622_event_count均为0、history_9622_membership均为not_in_reconstructed_count；prior_review_match为99条current_object_differs、1条no_exact_review_mapping，没有9,622事件级审读可逐ID复用，不调整历史总数。与旧表快照c6590080对照，98条statement完全一致，1条同ID对象有变化，另1条当前statement为后加。100条当前哈希均与逐ID清单快照一致；当前引句对照原文0处不匹配，所涉四段共212条mention的span及候选目标检查0错误，S0 source asset hash与台账一致。完整阅读03_CHP-3_sec_iv.md L27–67并视觉核对CHP-3.pdf物理页22–28（印刷pp.80–86）；PDF SHA-256=362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d。
+
+**版本变化、身份边界与关系影响。** 旧快照已存在的st-chp3-seciv-l35-46-tribune-vault-reserved，其subject由人物cand-1117（Gaulli）修正为作品委托cand-5232（Gaulli的Gesù穹顶与拱顶装饰委托）；来源说的是该委托范围排除祭坛席拱顶，不是Gaulli本人“不含”某空间。cand-5232已登记为work KU，空间端点cand-5223已登记为独立的祭坛席拱顶place，整体tribune cand-5000保持分开。c6590080尚无statement st-chp3-seciv-l35-46-tribune-vault-part-of-tribune；当前statement只记录“vault of the tribune”的空间部分关系，既有rel-2426 part_of证据与原文相合。Gaulli穹顶/主拱顶合同范围仍由rel-2525、rel-2526表达；不把穹顶、主拱顶与祭坛席拱顶合并。cand-5209继续excluded为未实现的tribune装饰项目，不写成已完成作品。
+旧S2过程里已记录Bernini/Gaulli/Oliva分工未明、Bernini设计归属是Haskell转引Avviso及历史学者接受的来源限定、Oliva份额由图像复杂度推测；这些限定经当前页p.81正文与注1复核，未升级为外部独立事实。Haskell报告的奥利瓦信件作者、Ranuccio收信对象及Gesù/tribune信件主题分别由rel-2503、rel-2504、rel-2505保留在原文范围内；rel-2312仅为Gaulli绘饰后殿conch，rel-2185仅为Bernini的Duplex Intercessio来源构图，不扩成存世物。批内引用的8条formal边rel-2185、rel-2312、rel-2426、rel-2503–rel-2505、rel-2525–rel-2526均保持不变；关系候选及尚无formal行的reservation/scope claims留待S6定向核平。本批不改S2 statement/mention、alignment、KU或relations.csv。
+
+**批后清单。** 当前statement总数15,505，mention总数27,056。逐ID状态为主审通过1,062（既有独立240、主审822）、已审待处理552、历史复用但保留开放发现8,377、待差异复核282、待历史回映或当前复核5,232；未达到主审通过14,443条，其中552条已有当前批次结论但待处理，13,891条仍未进入B001–B017。S2仍未独立接收。逐ID结果与当前哈希见s2-current-review-roster.csv顺序3242–3341。
