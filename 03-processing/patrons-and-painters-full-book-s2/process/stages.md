@@ -16154,3 +16154,17 @@ p.191注11印本实际写作`da Nápoles`。原statement把它误记为OCR偏差
 **B.109及关系影响。** 原页p.203注5将B.109称为Marcello Oretti作品，写明其题名、Belloni/Bellucci及Bolognese families的集合范围，并定位于Biblioteca Comunale, Bologna；扫描支持OCR校读`eke`→`che`、`Cittd`→`Città`。核对的正式边rel-2397、rel-2094、rel-2396、rel-2398、rel-2399、rel-2400、rel-2401均与当前source span及引文/范围相符：引文边只记录引用，B.109主题边限于Haskell所述集合范围，保管地、地名和题名作者关系不扩展为现今保管、机构延续或独立手稿鉴定。relations.csv未改；未新建关系或裁定S3身份。
 
 **批次后状态。** 当前15,505条statement：主审PASS 1,951（当前主审1,703、独立当前版248）；已审待处理552；历史精确复用但保留开放发现8,301；待历史版本差异复核121；待历史回映或当前复核4,580；未达PASS共13,554。连续原文已处理至顺序8103，下一批从8104开始；S2仍未独立接收。`audit_tables.py --summary`为`errors=[]`、`s2_missing=[]`；关系一致性审计阻断项为0。
+
+
+<a id="2026-11-01-s2-current-review-b066-ch8-p208"></a>
+### 2026-11-01 S2当前版本逐ID复核 B066：CHP-8 p.208，顺序8104–8203
+
+**本批结算：100条；2条当前原页复核PASS，98条精确历史复用并保留开放发现。** 当前原页复核包括顺序8197（历史statement版本差异）与8198（无精确历史映射）；其余98条ID、statement/source/mention版本均与历史审读对应项一致，只复用原结论及开放发现，不重复审读、不计入当前PASS。
+
+**原页与当前判断。** CHP-8.pdf SHA-256=cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3；直接核读印刷p.208/PDF物理页6。正文称Jean-Baptiste de Wael将描绘农民生活场景的一套版画奉献给Gaspar Roomer；紧接注3列Bartsch V, pp. 5–10，并称大英博物馆有该套版画。原页支持将De Wael记为dedicator、将Roomer解析为“him”的指代对象；注释只证明Haskell列出该书目及馆藏说法，不视作独立查阅Bartsch或馆藏记录。
+
+顺序8197当前版的主客体方向与dedicated_by一致，历史H9622-09005所记录的旧statement、裁决和版本差异均保留；当前版经本次原页复核。顺序8198没有精确历史映射，现按原页逐项复核。两条均不把dedication扩展为版画作者身份、委托、拥有或全套版画的制作责任；本批没有改写statement或候选ID，也不在S2合并待辨身份。
+
+**关系影响。** 核对relations.csv中的正式边rel-2129（该系列 dedicated_by De Wael）与rel-2130（dedicated_to Roomer）：目录碑文记录的dedicatee及Haskell p.208/注3对系列范围的说法与当前statement相容；边注仍限制为奉献关系，不延伸为作者、委托或所有权。本批未新增或修改relations.csv关系。
+
+**批次后状态。** 当前15,505条statement：主审PASS 1,953（当前主审1,705、独立当前版248）；已审待处理552；历史精确复用但保留开放发现8,301；待历史版本差异复核120；待历史回映或当前复核4,579；未达PASS共13,552。连续原文已处理至顺序8203，下一批从8204开始；S2仍未独立接收。批次后audit_tables.py --strict-stage --summary返回errors=[]、s2_missing=[]；audit_relation_consistency.py --dry-run的broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。reconcile_s2_review_history.py只读计划核平9,622个历史事件，按最新事件去重旧ID为9,539个，来源版本9,539/9,539匹配；历史当前statement匹配为9,048 exact、489 changed、2 absent；计划SHA-256=e7050be1ea22942276eaf704bb20c8e4116482d8d431174e31582bd2729983d8。
