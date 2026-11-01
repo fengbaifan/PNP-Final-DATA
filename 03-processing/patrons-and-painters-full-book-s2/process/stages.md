@@ -15934,3 +15934,17 @@ S6既有判断不变：6233对抗议的受控谓词仍pending；6235的事件终
 **下游关系与待决状态。** `rel-2118 authored_by`（6467、6470）、`rel-2119 part_of`（6474）、`rel-2120 has_subject`（6490）及`rel-2121 has_subject`（6492）端点和证据范围与当前人物`cand-0272`、书籍`cand-6932`相符，均保持formal，无需改写。新statement 6468只确认讲演对象／受众是Accademia，未给出实体地点或现今保管信息；既有S6 process-only pending保持。statement 6494虽经原页证实Poussin启发书中观念，S6谓词仍不精确，继续pending；statement 6478仅作为书籍范围描述，不新增关系边。`relations.csv`、S3决定及KU未改。本批当前原页PASS不等于独立语义复核或全书S2接收。
 
 批后：当前PASS 1,712（当前主审1,466、独立当前版246），已审待处理552，历史复用仍有开放发现8,302，待差异复核212，待历史回映或当前复核4,727；未达PASS共13,793。100/100条已处置，下一条原文顺序6504。严格表审计及关系一致性审计结果记录于本批提交；全书S2仍未独立接收。
+
+
+<a id="2026-11-01-s2-current-review-b050-ch6-p161"></a>
+### 2026-11-01 S2当前版逐ID复核 B050：CHP-6 p.161（顺序6504–6603）
+
+**批次结果：100条；15条当前版原页复核PASS（含1条端点修正），85条精确历史复用并保留开放发现。** 11条当前statement存在历史对象版本差异，4条无9,622历史事件映射，均依据当前版直接核读；85条statement对象和其来源段版本精确复用历史阅读，不重复审查、不计当前PASS。11条历史review哈希、历史结果与来源版本保持原样；四条新增statement不伪造历史回映。
+
+原书02-sources/01-book/CHP-6.pdf，SHA-256=de7a3546edcc8b992a1720341690b142d9f96d04fd6ba5374e5733e6167ac258；打印p.161（PDF物理16）。本批对照原页核实注3的Bellori (1942), pp.91–94与Clark (1961), pp.190–193两个引注、注4的Pascoli, I, p.140，并逐句复核正文关于官方艺术赞助、Rospigliosi即位及两年任期、Bernini天使群委托和拟安置地点、Altieri家族担忧、Massimi建议选择Maratta及Maratta咨询Bellori、壁画形制和寓意人物、Gasparo亲属身份及职衔。statement 6579、6580、6581、6582、6583、6585、6586、6588、6592、6593、6596、6597、6598、6599、6600现均按当前原文PASS；除6598外未改当前statement内容。
+
+**当前版修正。** statement 6598原把cand-6469（Public Happiness）设作symbolizes主语，但印本语法明确由Public Happiness手持的“standard”象征Gasparo。已撤去错误主语候选，不将Public Happiness误作象征者；“standard”仍是未单独界定的普通物件，不新建候选，写明开放端点原因。人物提及cand-6469仍保留，Gasparo为对象端点。原始OCR引句不改。该statement本身仍PASS当前来源表述，S6象征关系继续pending，因为缺少精确受控谓词与可识别主语端点。
+
+**关系与历史裁决。** rel-1862 cites Pascoli（仅限Haskell引注）及rel-1863–rel-1866、rel-1868、rel-1869均保持formal，来源范围和裁决不变；Bellori/Clark书目身份、Maratta咨询Bellori及标准象征关系继续process-only pending；Alexander VII去世与赞助下降仅为时间顺序、Altieri家族担忧及灰泥框描述继续rejected为正式边；职衔Gonfaloniere保留人物属性。关系表、S3决定及KU未改。四个原页未解决的关系／端点不因S2 PASS升级。
+
+批后：当前PASS 1,727（当前主审1,481、独立当前版246），已审待处理552，历史复用仍有开放发现8,302，待差异复核201，待历史回映或当前复核4,723；未达PASS共13,778。100/100条已处置，下一条原文顺序6604。S2仍未独立接收。
