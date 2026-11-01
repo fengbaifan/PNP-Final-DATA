@@ -15185,3 +15185,17 @@ st-chp8-p239-venetian-emphasis
 `s2-independent-review-chp5-20261022.md` 在快照提交`bfc870282c8268d1de859002cbc4cfcb11f68ef3`逐条复核`chp-5:05_CHP-5_sec_iii:l82-93`的36条statement，并明言该36条计入统一复核分子；同一计数链记为9,537 + 36 = 9,573。将该segment的完整statement对象、mention行及S0段对象与9,622基线提交`1a6313c8654280a9b71187fc08522098626e734e`及当前HEAD逐项比较：三个快照均为36条相同statement ID、完整JSON对象完全一致；同样35条segment mentions完整行一致；segment对象SHA-256三方均为`c54ca3a80bc55104007ac63c136e820d25c9f9a93ea697f63425f4be21ae2bca`。来源Markdown和`CHP-5.pdf`的Git blob三方也一致。因此可确认这36个具体ID及其版本属于9,573这一历史累计点，并原样保留在9,622后的当前数据中；本次不再增减计数，也不把跨章补录的第6章mention误计为statement。
 
 该项补强了一个可逐ID验证的历史成员批次，但其余全书9,622成员仍无完整清单；不能将此局部确认外推为全局名册已恢复或S2已接收。
+
+<a id="2026-11-01-s1-current-candidate-recheck"></a>
+### 2026-11-01 S1当前候选输入复核与S2字面提及提示扫描
+
+当前只读运行 `build_entity_candidates.py` 得到 `index_rows=2934`、`total_candidates=12446`、`open_index_candidates=2891`、`excluded_crossrefs=54`、`accepted_ku_candidates=1004`、`source_derived_candidates=8508`、`new_accepted_ku_candidates=0`；预览未写表。与既有19份索引CSV逐行锚点复核、85条图版候选、256条书目候选及其S0覆盖记录合看，未发现新的索引或来源覆盖缺口。`audit_tables.py --strict-stage --summary` 当前为 `errors=[]`、`s2_missing=[]`，S2覆盖832行（678 complete、154 excluded、0 queued）；另有2,522条S3 `new`仍待S4登记，不属S1漏项。
+
+另运行只读 `audit_s2_candidate_surfaces.py`：默认范围扫描585个已审阅S2段、11,248个现有类型候选名称模式，返回607处无重叠mention的字面表面。该脚本明确是召回提示而非实体抽取或语义门禁，且重复索引候选会使一个表面对应多个候选ID；故607不是607个漏登实体或确认漏标，不据此自动写入候选/mention。它们留作S2定向核读提示；发现确有对象或提及缺口时再依原文逐条补录并回映S1。S1当前结论限于现有索引、图版、书目和已识别S2补录候选的映射与来源闭合；S2完整语义审读未完成前，不把候选召回宣称为全书穷尽。本次未修改业务表。
+
+<a id="2026-11-01-s2-crosswalk-ch7-p189-version-batch"></a>
+### 2026-11-01 S2历史复核版本回映：第7章 p.189
+
+独立复核报告的初始提交 `2ef941748a564e8b1852f55d0f9eeab21934e0d1` 对当前statement ID清单的前身逐条核读44条，并记入当时9,617汇总。后续复核快照 `1a6313c8654280a9b71187fc08522098626e734e` 将该段更新为46个statement ID：3个同ID对象变化（`st-chp7-p189-i25`、`i26`、`i27`），新增2条（`i25-subject`、`i25-intended-gift`），无删除；报告另明确这5条当前statement版本均经独立复核并将累计汇总记为9,622。故按版本核账时，44条旧记录与5条当前复核记录不能简单当作49个不同当前ID；须保留3个同ID不同对象版本和2个新ID的对应关系。
+
+将初始复核提交、9,622基线及当前HEAD逐项比较：当前46条p.189 statement对象均与9,622基线及当前复核快照完全一致；95条 `m-chp7-p189-*` mention完整行相同；p.189正文和注释所在的两个segment对象相同；S0分节Markdown及 `CHP-7.pdf` Git blob三方不变。关系影响也已核对：`rel-1748`、`rel-1749`两条Montaiglon书内引用边从初始快照延续且仍为formal；后续登记的 `rel-2056`–`rel-2059` 创作者、肖像对象、拟赠对象和出售者边当前均为formal，范围仍限Haskell书内叙述。此回映确认本批当前statement、mention、来源版本和关系现状，不调整9,622计数；全书逐ID／来源版本名册及S2接收仍未完成。
