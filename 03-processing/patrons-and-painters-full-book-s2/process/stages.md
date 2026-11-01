@@ -15704,3 +15704,14 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 **批次与复用。** 当前原文顺序3942–4003连续62条，全部逐ID复用9,622历史事件，不重复审读。每条均仅有1条历史事件，statement版本精确、来源段版本匹配、mentions无增删改；历史结果均为直接阅读但保留开放发现。62条全部维持prior_review_mapped_open，B024处置完成62/62，新增当前版主审PASS为0，待处理0。
 
 **来源范围与影响。** 范围承接B023的第4章第I节，覆盖L26–67剩余条目；逐ID证据回链到对应H9622事件行。重用仅适用于精确匹配对象和来源版本，开放发现仍待处理；不改statement、mention、候选、alignment、关系表或S6历史裁决。下一条顺序4004为st-chp4-sec-i-l42-67-fn96-fondo-library-locator，历史9,622中无对应事件，转当前版主审。
+
+<a id="2026-11-01-s2-current-review-b025-ch4-sec-i-end-sec-ii-l3-31"></a>
+### 2026-11-01 S2当前版B025：第4章第I节余段与第II节L3–31
+
+**批次与历史复用。** 当前原文顺序4004–4103连续100条，全部完成逐ID处置。96条已有唯一9,622历史事件，当前statement与印刷原文来源段精确匹配，mentions无增删改；历史审读结论均明示开放发现，直接复用并保留prior_review_mapped_open，不重复阅读、不计PASS。另4条做当前版原文主审：4004、4006为历史计数外的两条档案定位statement；4015、4016为历史对象变化的两条Claude注7 statement。四条均支持当前claim及来源范围，主审PASS；待处理0。
+
+**原文与校读。** 新主审四条逐ID对照第4章PDF印本p.96注6、注7（物理p.3）和p.97注7（物理p.4）。印本p.96两处均读Fondo Orsini；S0及statement原始quote保留OCR的Fonda Orsini，4004和4006补充对应校读数组，不改写来源文件或原始quote。p.97注7明确Röthlisberger, 1961, p.161、Liber Veritatis no.33及probably 1638–9；4015新增p.97／物理p.4页锚并链接复合statement，4016保留probably及归属，并记载S0的Rdthlisberger→印本Röthlisberger校读。编号原件及所引档案均未独立查阅。
+
+**关系与历史影响。** 4004和4006分别由既有formal rel-2124（located_at，来源报告的fonds locator）及rel-2123（part_of，来源报告的单件locator）承载；页码、引句与scope吻合，未改关系行。Claude的recorded_in仅为S2 relation candidate，未新增formal S6边。cand-5605／5606／5607身份及档案层级未在本批作外部对齐；S3不变。历史事件和S6裁决均未改写。
+
+**来源版本与批后数量。** CHP-4.pdf SHA-256=2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303；第4章I节Markdown SHA-256=3961adefb7ea2e1f2e44e02173a494c509964e7273b6b3867619643bbd9ecb64；II节Markdown SHA-256=fd05a5c61deb6ba897878f510450d589d1ec0ef1276ff585ae601943bfd59575。当前主审PASS 1,550（独立当前版242、当前主审1,308）；已审待处理552、历史复用但保留开放发现8,377、待差异复核280、待历史回映或当前复核4,746。未达PASS共13,955条。下一条连续原文顺序4104为st-chp4-sec-ii-l24-31-paper-museum-analogy。S2仍未独立接收；修订后严格表审计为errors=[]、s2_missing=[]。
