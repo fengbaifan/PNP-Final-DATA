@@ -1,4 +1,4 @@
-# 全书语义处理（S2）过程
+﻿# 全书语义处理（S2）过程
 
 
 
@@ -16067,3 +16067,23 @@ p.185原页支持La Vrillière与Guercino的委托、以及其1637年委托Pouss
 **关系及身份影响。** rel-2060/2061/2062（Bernini素描取得、作者、被表现者）、rel-1331/1332/1333、rel-1738、rel-1862/1914（已登记引文关系）及rel-2126（Giordano旅西事件参与者）继续formal，本批不重复加边。p.191 studios候选cand-6959仍undecided，船运目的collection cand-6969仍untyped/undecided；p.171注6作品系列cand-7003仍undecided，S6位于Prado/为西班牙国王绘制/部分Lanfranco归属保持process-only pending，不写formal边。p.192 i09的画家群体cand-6978及i15所指Baroque masters群体仍undecided，现有pending不改。p.172延续statement的未名肖像/妻子、教堂和altarpiece组保持现有candidate边界与S6裁决。除7条OCR元数据补记外，无statement claim、mention、S3决定、KU或relations.csv修改。
 
 **批后进度。** 历史9,622事件current statement匹配仍为9,121 exact、499 changed、2 absent_current；按旧ID最新事件去重为9,048 exact、489 changed、2 absent_current；来源版本9,620/9,620匹配。连续原文顺序7404–7503共100/100条已处置：新增当前版PASS 47条，精确历史复用53条仍保留开放发现。当前版PASS 1,852（当前主审1,604、独立当前版248）；已审待处理552；历史复用开放发现8,301；待差异复核153；待历史回映或当前复核4,647；未达PASS共13,653条。下一条原文顺序7504。S2仍未独立接收。
+
+
+<a id="2026-11-01-s2-current-review-b060-ch7-p172-p182"></a>
+### 2026-11-01 S2当前版逐ID复核 B060：CHP-7 p.172–182（顺序7504–7603）
+
+**批次处置：100条；41条当前版原页复核PASS，59条精确复用历史审读并保留开放发现。** 41条中4条属历史statement版本差异，36条属当前对象/ID映射差异，1条无精确历史映射；本批无新历史裁决替代。59条的statement、来源段、来源资产及mention集合与对应历史记录精确一致，因此沿用历史语义阅读、不重复当前版直核，也不将其计为PASS。
+
+核对CHP-7印刷页172–182中顺序7504–7603涉及的原文与注释：PDF物理页6–16（对应印刷页172–182，跳过本批不涉及的正文段），并逐项对照相应脚注的上标、引文端点、页码、代词承接和statement边界。权威PDF SHA-256=eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212；S0分节SHA-256=f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3。共同来源段`chp-7:07_CHP-7_sec_i:l293-389` SHA-256=ad9ae34a8e0247ade77cf812cd0d5943582c3fd615590da5064cef79c38ae28b，214条mention，当前mention集合SHA-256=247a7ff37a20bb7f9239435683c1a4ea3e4a9de5d23295cb7056f3e00c0826dd；mention数、span和候选映射未改。
+
+**当前版判断与校读。** p.172末段保留Haskell对Monterey奢侈与贪婪刺激艺术发展的评价，以及对未来“可能更糟”的未指名推测；不为后者补造继任者或事件。p.172–176脚注引用及前置正文关系对应无误；脚注只表达Haskell的引用，不声称项目已查阅被引页。p.174注2区分三件事：1792年被毁的是先前所述Henri IV骑马像；Catherine de’ Medici于1559年委托Michelangelo构思Henri II骑马像但从未执行；Tacca后来为Philip III制作的是相似而不同的纪念像。p.178注1将Malvasia书目映射与Mahon引文/解释分开，Mahon关于Semiramis与Charles I邀请关系的说法继续归因于Mahon。p.182注1、3、4的引文仍按原页页码与紧邻注释解析。
+
+对照印刷原页，在15条当前PASS的statement qualifiers中补记可见的OCR校读，未改S0、`original_quote`、claim、predicate、mention或候选端点：p.172注4两条（`1961,1`→`1961, I`、`15 5-60`→`155-60`、`3 89-90`→`389-90`）；p.174注2七条（`Henri ll`→`Henri II`）；p.175注1两条（`Bonnaffe`→`Bonnaffé`、`II Seicento Europeo`→`Il Seicento Europeo`）；p.176注4两条（`Brigand`→`Briganti`），注9一条（`p. 11$`→`p. 115`）；p.182注1的Bjurström引文statement一条补足共享引文中的`Prunieres`→`Prunières`校读。每条校读均以本段对应印刷扫描为依据。历史review hash、裁决和来源版本不覆盖；当前statement hash及相应current hash/match字段按版本变化规则维护。
+
+**历史复用边界及判断更正。** 最初将p.180注1、注3（共4条）和p.182注1中Prunières、注2 Félibien、注5 Röthlisberger（共3条）列为扫描后可能新增直核的7条。逐一比对B059已提交基线后，确认这些OCR校读已存在于当前statement，并与历史statement hash精确匹配；故不重复追加校读、不将其转为当前PASS，恢复为精确历史复用并保留其开放发现。最终B060为41 PASS、59历史复用。
+
+**关系影响。** p.174注2的rel-2484（未执行的Henri II方案由Catherine委托）和rel-2485（方案的原定表现对象）原页证据成立，端点/方向/时间范围未变。引文formal边rel-2595、rel-1610–1613、rel-2091、rel-2086、rel-2092、rel-2093与对应脚注及书目映射一致；relations.csv无增删或改裁决。候选身份、KU、S3决定也未变；未充分辨认的著作身份或端点继续保持原有待决状态。
+
+**历史current-hash校准。** 全表一致性复核发现历史事件`H9622-02487`（`st-chp4-sec-ii-l91-99-errard-embellished-drawings-and-poussin-objected`）的`current_statement_sha256`字段落后于当前statement哈希；已按当前对象重算并更新该字段，状态仍为`changed`。原`review_statement_sha256`、历史裁决、来源版本及证据字段未改；9,622条事件的match分类计数不变。
+
+**批后进度。** 历史9,622事件的当前statement匹配为9,121 exact、499 changed、2 absent_current；来源版本9,620/9,620匹配。连续原文顺序7504–7603共100/100条已处置：当前版PASS 41条（26条一般原页复核、15条含statement校读元数据修正），59条精确历史复用并保留开放发现。当前版PASS 1,893（当前主审1,645、独立当前版248）；已审待处理552；历史复用开放发现8,301；待差异复核149；待历史回映或当前复核4,610；未达PASS共13,612条。下一条原文顺序7604。S2仍未独立接收。
