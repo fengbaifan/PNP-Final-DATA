@@ -18999,3 +18999,11 @@ S6影响核对：`relations.csv`无以行程statement为依据的裁决行；`re
 对照第3章 p.67 L23–24，`st-chp3-secii-l19-31-vitale-owned-by-jesuits`原引句只到“the third church that they owned in Rome”，没有纳入下一行将其识别为S. Vitale的短语。现将S2引句和`source_line_end`补至L24，精确保留“the third church”到“S. Vitale”的指代链。现有候选`cand-0724`（place）与`cand-1321`（Jesuits institution）、`owned_by`谓词和claim不变。
 
 `rel-1751`仍为formal，仅把证据定位从p.67 L23扩为L23–24；`rel-1752`、`rel-1753`及转交关系pending去向均未改。本次只更正证据范围，不增加或撤销S6决定；两张受影响卡已写回并复预览无差异。该statement仍待独立复核，不增加9,622条历史复核分子。
+
+
+<a id="s2-s3-s6-ch8-p237-note3-referent-repair-20261101"></a>
+### 第8章 p.237注3指代锚点修复：S2、S3与S6影响（2026-11-01）
+
+原文依据、S0 span和历史版本边界见[阶段记录](stages.md#2026-11-01-s2-current-review-ch8-p237-note3-referents)。修订3条既有statement，新增6条statement及18条mention；指代拆分后，“the two men”仅作Crespi与Ferdinand的共指说明。S3五项旧undecided理由改为“已有锚点、身份仍不足”，裁决和KU不变。cand-8022保持new待S4，cand-7115沿用既有archive KU。6个无KU的直接关系端点（cand-0877、cand-8023、cand-8025、cand-8026、cand-12103、cand-8022）已加入candidate-backlog，均显式标为undecided：前五项等待身份裁决，cand-8022等待S4登记。
+
+S6复用rel-1617 formal cites边并扩展p.237 p.44证据；8项pending为早年受雇、替代、原址、后续报告位置、购画、年代比较、作品被Zanotti提及、Haskell引用尚无KU的Mostra。没有撤销历史裁决或强建formal边。历史9,622不变，本批未独立复核。

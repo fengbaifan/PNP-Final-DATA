@@ -27694,3 +27694,21 @@ m-chp8-p238-ferdinand-latter-coref,chp-8:08_CHP-8_sec_ii:l327-336,cand-1609,the 
 m-chp8-p238-crespi-returned-coref,chp-8:08_CHP-8_sec_ii:l327-336,cand-0871,he returned,181,192,Coreference to Crespi; marks his return to Bologna before the pictures were sent.
 m-chp8-p238-crespi-began-sending-coref,chp-8:08_CHP-8_sec_ii:l327-336,cand-0871,he began sending,234,250,Coreference to Crespi; identifies the sender in the source clause.
 m-chp8-p238-ferdinand-new-patron-coref,chp-8:08_CHP-8_sec_ii:l327-336,cand-1609,his new patron,263,277,"Coreference to Ferdinand, named earlier in the same sentence; recipient role for the pictures Crespi began sending."
+m-ch8-p237n3-crespi-employment,chp-8:08_CHP-8_sec_ii:l372-461,cand-0871,Crespi,11178,11184,Person who may have been employed before meeting Ferdinand.
+m-ch8-p237n3-ecstasy-title,chp-8:08_CHP-8_sec_ii:l372-461,cand-0877,The Ecstasy of St Margaret,11261,11287,Work named in footnote 3; identity remains for S3.
+m-ch8-p237n3-original-church,chp-8:08_CHP-8_sec_ii:l372-461,cand-8026,S. Maria Nuova in Cortona,11303,11328,Haskell reports this as the original location.
+m-ch8-p237n3-cortona-nested,chp-8:08_CHP-8_sec_ii:l372-461,cand-8024,Cortona,11321,11328,Nested place mention within the church name.
+m-ch8-p237n3-diocesan-museum,chp-8:08_CHP-8_sec_ii:l372-461,cand-8025,the Diocesan Museum,11340,11359,Haskell reports this later location; present custody is not implied.
+m-ch8-p237n3-there,chp-8:08_CHP-8_sec_ii:l372-461,cand-8024,there,11360,11365,Locative pronoun refers to Cortona in the same clause.
+m-ch8-p237n3-lanfranco-person,chp-8:08_CHP-8_sec_ii:l372-461,cand-1359,Lanfranco,11390,11399,Person named in the possessive work description.
+m-ch8-p237n3-lanfranco-picture,chp-8:08_CHP-8_sec_ii:l372-461,cand-8023,Lanfranco’s picture of the same subject,11390,11429,Distinct earlier picture; title and stable identity are not supplied.
+m-ch8-p237n3-ferdinand,chp-8:08_CHP-8_sec_ii:l372-461,cand-1609,Ferdinand,11436,11445,Person said to have bought Lanfranco’s picture.
+m-ch8-p237n3-it-earlier,chp-8:08_CHP-8_sec_ii:l372-461,cand-0877,It,11466,11468,Pronoun refers to the Ecstasy of St Margaret.
+m-ch8-p237n3-painting-group,chp-8:08_CHP-8_sec_ii:l372-461,cand-12103,the group of paintings by Crespi considered here,11500,11548,Source-defined group; membership not enumerated here.
+m-ch8-p237n3-crespi-in-group,chp-8:08_CHP-8_sec_ii:l372-461,cand-0871,Crespi,11526,11532,Nested person mention in the painting-group description.
+m-ch8-p237n3-it-mentioned,chp-8:08_CHP-8_sec_ii:l372-461,cand-0877,it,11554,11556,Pronoun refers to the Ecstasy of St Margaret.
+m-ch8-p237n3-his-biographer,chp-8:08_CHP-8_sec_ii:l372-461,cand-0871,his,11581,11584,Possessive pronoun refers to Crespi.
+m-ch8-p237n3-zanotti-author,chp-8:08_CHP-8_sec_ii:l372-461,cand-7114,Zanotti,11597,11604,Author named in the footnote citation.
+m-ch8-p237n3-zanotti-citation,chp-8:08_CHP-8_sec_ii:l372-461,cand-7115,"Zanotti, II, p. 44",11597,11615,Citation to existing work; cited page not consulted.
+m-ch8-p237n3-mostra-citation,chp-8:08_CHP-8_sec_ii:l372-461,cand-8022,"Mostra di Giuseppe M. Crespi, p. 29",11630,11665,Citation to catalogue candidate; cited page not consulted.
+m-ch8-p237n3-mostra-crespi,chp-8:08_CHP-8_sec_ii:l372-461,cand-0871,Giuseppe M. Crespi,11640,11658,Nested person name within catalogue citation.

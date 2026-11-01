@@ -4038,3 +4038,9 @@ S3纯`undecided`候选、纯未决直接关系端点及S4待登记直接关系�
 **2026-11-01 第8章 p.238 三条作品mention跨度补录与独立复核：** 正文`a Nativity`和两种S0拼写的`Self portrait`/`Selfportrait`已映射到索引候选`cand-0883`、`cand-0886`；三个span均经原页独立复核PASS。S3仍undecided、无KU，relations.csv无相应作品正式边且未改动；当前mentions为27,015条，9,622历史台账不调整。本批不接收p.238整页或全书S2。详见[阶段记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch8-p238-nativity-selfportrait-mentions)。
 
 **2026-11-01 第8章 p.238 六条地点mention补录与独立复核：** 当前正文segment补录3处Bologna、2处Florence及1处Pratolino span，全部经原页独立复核PASS。既有same/new对齐与KU映射不变；`rel-1447 located_at`仍formal且范围未扩大，其他相关边不构成旅行关系。严格表与关系一致性检查通过；当前mentions为27,021条。9,622历史台账不调整，不接收p.238整页或全书S2。详见[阶段记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch8-p238-place-mentions)。
+
+
+**2026-11-01 第8章 p.237 注3指代修复：** 收窄3条statement并补6条拆分statement、18条精确mention；source span逐项核对S0。5项S3理由更新为“锚点补齐、身份仍未决”，决定/KU不变；cand-8022仍new待S4。S6复用rel-1617并扩展证据至p.237 Zanotti II p.44，其余8项pending；不新增或撤销formal边。9,622历史台账不调整，本批不构成独立S2接收。当前预计15,494 statements、27,044 mentions。详见[阶段依据](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch8-p237-note3-referents)与[关系裁决说明](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s3-s6-ch8-p237-note3-referent-repair-20261101)。
+
+
+**2026-11-01 直接关系端点待办同步：** 随p.237注3修复，将cand-0877、cand-8023、cand-8025、cand-8026、cand-12103身份待决及cand-8022待S4登记共6项写入candidate-backlog；六项均显式标记undecided，不在此批建KU。台账由93增至99项，其他未决边保持pending。

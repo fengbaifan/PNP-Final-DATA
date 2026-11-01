@@ -15199,3 +15199,19 @@ st-chp8-p239-venetian-emphasis
 独立复核报告的初始提交 `2ef941748a564e8b1852f55d0f9eeab21934e0d1` 对当前statement ID清单的前身逐条核读44条，并记入当时9,617汇总。后续复核快照 `1a6313c8654280a9b71187fc08522098626e734e` 将该段更新为46个statement ID：3个同ID对象变化（`st-chp7-p189-i25`、`i26`、`i27`），新增2条（`i25-subject`、`i25-intended-gift`），无删除；报告另明确这5条当前statement版本均经独立复核并将累计汇总记为9,622。故按版本核账时，44条旧记录与5条当前复核记录不能简单当作49个不同当前ID；须保留3个同ID不同对象版本和2个新ID的对应关系。
 
 将初始复核提交、9,622基线及当前HEAD逐项比较：当前46条p.189 statement对象均与9,622基线及当前复核快照完全一致；95条 `m-chp7-p189-*` mention完整行相同；p.189正文和注释所在的两个segment对象相同；S0分节Markdown及 `CHP-7.pdf` Git blob三方不变。关系影响也已核对：`rel-1748`、`rel-1749`两条Montaiglon书内引用边从初始快照延续且仍为formal；后续登记的 `rel-2056`–`rel-2059` 创作者、肖像对象、拟赠对象和出售者边当前均为formal，范围仍限Haskell书内叙述。此回映确认本批当前statement、mention、来源版本和关系现状，不调整9,622计数；全书逐ID／来源版本名册及S2接收仍未完成。
+
+
+<a id="2026-11-01-s2-current-review-ch8-p237-note3-referents"></a>
+### 2026-11-01 S2第8章 p.237注3指代锚点修复与裁决影响
+
+原文依据为02-sources/01-book/CHP-8.pdf（SHA-256 cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3）、第8章来源Markdown及S0 segment chp-8:08_CHP-8_sec_ii:l372-461。segment SHA-256为62a4611253d2bf05494ef55b0511b53861b0947a05aee1c7a9fdbab976ecbc3f，来源Markdown SHA-256为5d9a17efc3835c30947b8c714c65649be10295661b6cca6b117f5902882bcef6。印刷页237、PDF物理页43、来源L441脚注3原文为：
+
+> 3 Crespi may possibly have been employed some years before the two men actually met. The Ecstasy of St Margaret, originally in S. Maria Nuova in Cortona and now in the Diocesan Museum there, was painted to replace Lanfranco’s picture of the same subject which Ferdinand bought for himself. It seems a much earlier work than the group of paintings by Crespi considered here, and it is mentioned earlier by his biographer, Zanotti, II, p. 44. See also the Mostra di Giuseppe M. Crespi, p. 29.
+
+本次将早年受雇收窄到首句，将替代关系收窄到第二句，并把作品比较限定到对应短语；新增18条mention覆盖人名、作品、地点、机构、代词和两条文献引用，span逐条按当前S0 segment断言surface。“the two men”指Crespi与Ferdinand，不建立群体候选，也不把索引重复子项cand-0873当作第二人。另将6个尚无KU的直接关系端点写入candidate-backlog：五项身份仍undecided，一项cand-8022的S3 new决定待S4登记；相关关系继续pending。
+
+S3五项cand-0877、cand-8023、cand-8025、cand-8026、cand-12103仍为undecided，仅将“无mention”理由改为当前锚点及仍缺身份依据；cand-8022保持new待S4登记，cand-7115保持原new及现有KU，仅补本页引用。没有据mention自动改变身份或注册KU。
+
+S6影响：原址、后续报告位置、替代关系、Ferdinand购画、早年受雇、相对年代比较、作品被Zanotti提及和Haskell引用Mostra共8项继续process-only pending。唯一可复用边为既有formal rel-1617 cites；将其证据范围扩至本页Zanotti II p.44，并保留第239页pp.52、54原证据，不新增重复边，不改变端点、谓词、方向或状态。未发现需撤销或迁移的其他历史裁决。
+
+基线提交1a6313c8654280a9b71187fc08522098626e734e与当前表均无此前p.237注3 mention行；历史复核台账缺逐ID／版本名册，本批不计入或冲减9,622，也不推算成员身份。本次为主代理定向修复与自查，不构成独立S2验收；全局S2仍待台账核平和当前版独立复核。
