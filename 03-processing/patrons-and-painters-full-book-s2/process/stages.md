@@ -15397,3 +15397,20 @@ B003对六条候选修正实体关系判断：年龄属性`francesco-age-at-urba
 **下游及历史裁决：** `alignment.csv`、`relations.csv`本批无改动。Sacchi L34“turning to Raphael and Roman classicism for inspiration”对应的既有`rel-2491`、`rel-2492`保持原端点、证据及formal状态。`process/knowledge.md`旧S6记录曾将复合`st-chp2-seciv-l190-245-valentin-picture-location`裁为pending，理由是inventory、publication、exhibition与location未拆开；此决定属于旧statement对象版本，历史记录保留。当前四条断言须按当前statement哈希、端点及谓词逐条交S6重审；未登记端点和未核平作品身份的关系继续待证。本批未新增KU或formal relation。
 
 **清单与余量：** 当前表15,504条statement、27,052条mention，逐ID清单无重复并覆盖全部当前statement ID，当前statement及mention集合哈希不匹配0项。`python scripts/audit_tables.py --summary`返回`errors=[]`、`s2_missing=[]`，两项提示分别为S4待登记及S2仍须语义审查。B004的75行标记`reviewed_current_pass`及`primary_current_source_review_pass`，证据回链到本节；其中10条是本批新增statement，其原清单快照statement哈希留空，未伪造历史成员资格。B001–B003的238条独立通过保留；合计313条有当前版批次通过结果，主审原文复核尚待处置15,191条（既往精确回映但章节跟进open 1,628条、待回映或复核13,563条）。当前版独立复核可确认238条，尚待15,266条，其中包含B004主审75条。历史9,622成员资格仍逐ID为unknown。下一批从L45起按连续原文取50–100条；全书S2尚未独立接收。
+
+<a id="2026-11-01-s2-history-9622-id-version-reconciliation"></a>
+### 2026-11-01 S2历史9,622次审读计数逐ID、版本核平
+
+**核平完成9,622/9,622次历史计数事件，剩余0次未定位。** 事件保存在`s2-history-9622-review-events.csv`，当前ID对应关系原位写入`s2-current-review-roster.csv`；机械重建脚本为`reconcile_s2_review_history.py`。本节取代此前“全体历史成员仍unknown”结论；旧记录保留为核平前状态。重建复用留存的独立审读报告及Git快照，没有重新审读未变原文，没有把范围登记或版本相同当作语义接收。
+
+**累计来源链。** `2273e274`对应9,258次原始分章审读：第1/2/4章521/1,441/1,082，第5/6/9章1,073/763/904，第7章937，第8章非sec_ii范围417，第13–19章2,120。随后第7章p.197正文及注释46、第7章p.198正文25、第8章p.215正文29、p.216共30、Plate 33六条、Plate 34/35a五条、p.195新增Wilhelm citation一条，使累计到9,400。第7章六批14+32+6+38+13+34=137，第5章p.138再36，第7章p.189再44及最后5个当前版本，使累计到9,622。各事件均保存具体statement ID、完整对象SHA-256、Git快照、S0段及来源文件哈希、对应审读报告与当前版本比较。
+
+两个容易误映的范围已按原记录核定：第7章p.169–176只纳入逐批明列正文段及p.169关联五条注释，不能用“页码≤196”把未读的早期脚注和14条图版statement一起纳入；p.177起按各批明确的正文/注释范围纳入。第8章p.215的29条是正文segment `l11-19`，其true=21/false=8与原报告相符；同页复合脚注段的另3条不能仅因相同页码挤入29条累计。增量前原statement版本由`2273e274`保存，审读后发生的局部修订继续作为版本差异保留，不追认独立通过。
+
+**重复计数与当前去向。** 9,622个计数事件实际对应9,539个不同历史statement ID，重复83次：p.138的36个ID已在第5章1,073条中；p.189的44个ID已在第7章早期审读中；最后5项中3项是同ID改版、2项为新ID。这些重复含真实再审工作，保留其独立版本和依据，但不能相加成当前唯一ID覆盖数。当前9,049个完整断言对象与其最后一次计入历史累计的对象完全相同，488个同ID对象已改版，2个旧ID已撤换；9,539个历史ID对应的S0 segment、来源Markdown及原PDF的版本全部一致，因此本次差异来自S2记录，未发现来源版本回退。
+
+两个撤换对象有明确去向：`st-chp13-p332-copyright-effects-on-local-and-export-books`拆为`st-chp13-p332-copyright-effects-on-local-books`与`st-chp13-p332-luxury-export-editions-gained`，理由见`knowledge.md`第13章p.332版权语义修订；`st-chp2-seciv-l190-245-rest-flight-owned-by-rospigliosi`因错挂p.58注8而删除，有效所有权断言保留在`st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned`，另有原子作者断言`st-chp2-seciv-l171-179-rest-flight-attributed-to-poussin`，理由见本文件p.57注3修复记录。旧对象及审读版本仍留在历史事件账本和Git中。
+
+**复用规则与当前队列。** 9,049条原样断言沿用既往实际阅读，原报告的开放问题仍保留；不对它们仅为恢复计数而重新通读。mention按稳定ID比较，记录新增、改映和删除，相关差异定向核对；段内新增mention不会被自动声称为旧审读已覆盖。488条改版中185条已有本轮当前版通过结果，余303条进入`needs_delta_review`，不再重复排入完整旧章审读。当前15,504行清单为：`reviewed_current_pass`313（238独立、75主审）、`prior_review_mapped_open`8,931、`needs_delta_review`303、`needs_crosswalk`5,957。清单以`reconstructed_member`或`not_in_reconstructed_count`明确历史成员资格，后者不代表从未审读；第3章、第10–12章、较早第8章sec_ii及后补审读等未计入该累计的证据仍可另行复用。历史映射完成不清除原有语义问题，不把9,539或9,049改称接收数。
+
+**可复现写回。** 预览完整校验9622事件及全部当前ID，plan SHA-256=`1139047ee0337b813f5c9fc174433ff049cc2591c8c1230bf8358d98ad50c9ed`；核对后以`--apply --expect-plan`写回。事件CSV SHA-256=`ceb6584b53a9b666c3b241acdc8aa41f060ce4256671f84e5e71a7d061bd819a`，核平后清单SHA-256=`b1cf7e81d29fa8db3589398f1b2355ed3e1f8bcdad9f963813dfbfbd8fafe7ff`。本次未改S0、S2语义表、S3决定、KU、字段或关系；接下来从第2章L45继续连续原文批次，复用已读依据并处理尚存发现，每批以100个现有ID为上限记录完成量及余量。
