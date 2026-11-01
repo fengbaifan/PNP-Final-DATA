@@ -15441,3 +15441,17 @@ B003对六条候选修正实体关系判断：年龄属性`francesco-age-at-urba
 下游不改S1候选、statement/mention正文表、alignment、KU或relations；不强行造正式关系。保留的主要发现包括：Apollo是神话图像而非Urban VIII；“his ancestors”是未名祖先组；Roman theologians与artist’s advisers是不同群体；St Peter’s精确地点候选仍待S3；Love/Fear/Lust/Wrath四角色不得缩成单一目标；“certain circles in Rome”是未名受众而非Rome城市端点；Bracciolini随行对象是Maffeo，Paris是地点；脚注purchase/ownership、作品组归属及Baldinucci/Giglioli attribution须拆分并保留说话者。p.52按印本读“future Pope”，保留引文请求、授荣主体未名及Antonio职务/地点边界。
 
 **清单与余量。** B006 100/100条均已有逐ID裁决（主审PASS 4、pending 96）。当前15,504条清单状态为`reviewed_current_pass` 344、`reviewed_current_pending` 169、`prior_review_mapped_open` 8,734、`needs_delta_review` 301、`needs_crosswalk` 5,956；尚未开始当前版主审的ID为14,991条，另有169条已审待处理，合计15,160条尚未达到当前版主审PASS。全书S2仍未独立语义接收。历史独立报告复用来源见`s2-independent-review-chp1-2-4-20261020.md`第2章批次三十至三十二；本批所有逐行待办见`s2-current-review-roster.csv`。
+
+
+<a id="2026-11-01-s2-current-review-b007-ch2-seciv-p52-55"></a>
+### 2026-11-01 S2当前版B007：第2章sec_iv印刷pp.52–55、L99–128
+
+**本批按连续原文完成100条逐ID审查：5条主审通过、95条待处理。** 逐ID状态、批次号、证据锚点和后续动作已写入当前roster。范围依页次为：p.52 L99–104正文26条及注释2条；p.53 L106–112正文22条及注释5条；p.54 L114–125正文37条及注释6条；p.55 L128续文2条。下一条从p.55 L129、st-chp2-seciv-l127-137-antonio-consistent-employment继续。
+
+**历史复用与版本差异。** 100条中96条属于9,622历史复核事件，且其来源Markdown、S0段及CHP-2.pdf均匹配；其中92条当前statement与历史末版完全一致，沿用既有原文判断并仅重查开放项，4条同ID改版需按当前版本重核：urban-claims-urbino、duke-death-and-possession-1631、urban-transfers-effective-authority、urbino-collection-dispersal。另4条当前statement不在历史累计内：Urbino预期并入、未名总督接权、死后采取占有步骤、Urbino遭掠；本批据当前原文和印本首次逐项核读。CHP-2.pdf SHA-256=317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e。
+
+**待处理分布与关键边界。** 85条statement缺少qualifiers.mentioned_candidate_ids，每行均保留claim专属补映说明，不能直接复制整段mentions；另15条已有数组，其中5条本轮通过，10条因候选类型/指代或语义仍待处理。关键未决包括Romanelli人物与同名event候选冲突、Francesco任命Principe的角色映射、学者组类型、Antonio贪欲与官职收入的因果、Urbino城与政治实体区分、预期并入不等于既成兼并、未名总督及占有行动者、政治主张谓词无忠实受控表达、未定型画作集与未名去向。原文所称Urbino被掠仍不推定行为人或精确范围；其与画作迁移分开保留。S2表和mention表本批未改；关系端点不明或谓词缺失继续待证，不建立formal边。
+
+**发现的额外来源覆盖缺口（不计入本批100个现有ID）。** p.52脚注1原文为“Barbi.”，当前有segment mention m-chp2-seciv-l190-245-0085及候选cand-4852（跨章书目记录可见完整出版物），但当前statement表没有表示该脚注的statement ID。列为待补statement/引文锚点并核对脚注标记所附正文；未在本批虚构ID或改变当前statement总数。
+
+**当前进度与边界。** 本批100/100已有主审裁决（5 pass、95 pending），均不是独立语义接收。全书S2仍未独立接收；本批不改S1、S3、KU或relations。下一批先闭合上述p.52注1覆盖缺口，再从当前roster顺序继续连续原文。
