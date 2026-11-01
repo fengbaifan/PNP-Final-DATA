@@ -15584,3 +15584,14 @@ p.72当前47条statement来自21条原始陈述的拆分，现有候选`cand-123
 **身份与关系影响。** `cand-11592`（Gesù作为“others”之模型目标）、`cand-11593`（未名Jesuit rivals）及`cand-4730`（“at court”所指新教宗赞助语境）继续保持S3 `undecided`；不把群体并入其他耶稣会教堂组，也不把rivals猜作Oratorians。`cand-3967`继续复用`units/places/s-ignazio`。四条关系端点现在有原文mention，但未因此创建S6正式边。当前`relations.csv`中本批可回指statement的五条既有formal边`rel-1496`、`rel-1727`–`rel-1730`仍有效；没有改动alignment、KU、relations.csv或其他S6历史决定。
 
 **批后清单。** 当前statement总数15,505，mention总数27,056。逐ID状态为主审通过762（既有独立复核240、主审522）、已审待处理552、历史复用但保留开放发现8,377、待差异复核282、待历史回映或当前复核5,532；未达到主审通过共14,743条，其中552条已有当前批次结论但待处理，14,191条尚未进入B001–B014。S2仍未独立接收。逐ID裁决与当前哈希见`s2-current-review-roster.csv`顺序2942–3041。
+
+<a id="2026-11-01-s2-current-review-b015-ch3-p75-p77"></a>
+### 2026-11-01 S2当前版B015：第3章p.75–77
+
+**批次结论。** 按当前statement顺序3042–3141连续复核100条：p.75 L125–135余3条，p.76 L137–142共10条，第II节注文L144–179共74条，p.73图像转录注释L1–2共2条，以及第IV节L3–6前11条。100/100条完成当前版主审并通过，待处理0条；下一条顺序3142为st-chp3-seciv-l3-6-oratorian-renewed-commission。主审通过不构成第3章或全书独立语义接收。
+
+**历史回映与版本核对。** 本批100条的history_9622_event_count=0、history_9622_membership=not_in_reconstructed_count；prior_review_match为98条current_object_differs、2条no_exact_review_mapping，故无9,622事件级结论可复用，也不改历史分子。复用既有S2逐段记录，再逐条核对当前引句、mentions、原页和关系语境。100条当前statement哈希均与清单快照一致；所涉五个segment共230条mention，偏移及候选目标检查通过，source-line quote无不匹配。相较旧表快照c6590080，37条statement对象完全一致，61条同ID对象已变，另有2条当前statement为后加：st-chp3-seciv-l3-6-cartoons-intended-for-cupola与st-chp3-seciv-l3-6-cupola-part-of-chiesa-nuova。后两项与明确的“cartoons for the cupola”“cupola of the Chiesa Nuova”来源陈述对应，并补足现有rel-2361、rel-2362的S2锚点；注文段59条版本变化主要涉及关系候选/限定字段，另2条为p.73图像转录引文。核对来源Markdown及《CHP-3.pdf》物理页18–19，PDF SHA-256=362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d；p.66–75注释页与图版页证据见相邻B012–B014记录。
+
+**当前判断与裁决影响。** p.68注1的受众对象改指cand-11901，不再误连到S. Stefano Rotondo相关、范围不同的cand-5016；两组均保留S3未决，正文只支持“intended for Jesuit novices”，不推断实际进入或排除情况。p.76注3的其他修会教堂组cand-11902保持待证，不并入Gesù模型目标cand-11592。p.75 mention m-chp3-secii-l125-135-0024的ChiesaNuova规范化为含换行的Chiesa\nNuova，字符跨度和对象cand-3110不变。p.76未名学生、穹顶及群体等候选继续按既有S3边界处理；Grand Duke候选cand-5180仍未决，关于请假请求不新增formal边。既有rel-1731及rel-2360–rel-2362保持formal且来源范围不变；本批不改statement、mention、alignment、KU或relations.csv。
+
+**批后清单。** 当前statement总数15,505，mention总数27,056。逐ID状态为主审通过862（既有独立240、主审622）、已审待处理552、历史复用但保留开放发现8,377、待差异复核282、待历史回映或当前复核5,432；未达到主审通过14,643条，其中552条已有当前批次结论但待处理，14,091条仍未进入B001–B015。S2仍未独立接收。逐ID结果与当前哈希见s2-current-review-roster.csv顺序3042–3141。
