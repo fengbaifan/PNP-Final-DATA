@@ -15619,3 +15619,16 @@ Oliva took advantage of new situation仍保留为Haskell明示的作者推断，
 旧S2过程里已记录Bernini/Gaulli/Oliva分工未明、Bernini设计归属是Haskell转引Avviso及历史学者接受的来源限定、Oliva份额由图像复杂度推测；这些限定经当前页p.81正文与注1复核，未升级为外部独立事实。Haskell报告的奥利瓦信件作者、Ranuccio收信对象及Gesù/tribune信件主题分别由rel-2503、rel-2504、rel-2505保留在原文范围内；rel-2312仅为Gaulli绘饰后殿conch，rel-2185仅为Bernini的Duplex Intercessio来源构图，不扩成存世物。批内引用的8条formal边rel-2185、rel-2312、rel-2426、rel-2503–rel-2505、rel-2525–rel-2526均保持不变；关系候选及尚无formal行的reservation/scope claims留待S6定向核平。本批不改S2 statement/mention、alignment、KU或relations.csv。
 
 **批后清单。** 当前statement总数15,505，mention总数27,056。逐ID状态为主审通过1,062（既有独立240、主审822）、已审待处理552、历史复用但保留开放发现8,377、待差异复核282、待历史回映或当前复核5,232；未达到主审通过14,443条，其中552条已有当前批次结论但待处理，13,891条仍未进入B001–B017。S2仍未独立接收。逐ID结果与当前哈希见s2-current-review-roster.csv顺序3242–3341。
+
+<a id="2026-11-01-s2-current-review-b018-ch3-seciv-p82-p86"></a>
+### 2026-11-01 S2当前版B018：第3章第IV节p.82–86
+
+**批次结论。** 按当前statement顺序3342–3441连续复核100条：L58–67余9条、L69–73共22条、L75–81共33条、L83–94共29条、L96–104前7条。100/100条完成当前版主审并通过，待处理0条；下一条顺序3442为st-chp3-seciv-l96-104-bernini-greatest-opportunity。主审通过不构成第3章或全书独立语义接收。
+
+**历史回映与当前版本核对。** 本批100条history_9622_event_count均为0、history_9622_membership均为not_in_reconstructed_count；prior_review_match为94条current_object_differs、6条no_exact_review_mapping，没有9,622事件级审读可逐ID复用，不调整历史总数。相较旧表快照c6590080，92条statement完全一致，2条同ID对象变化，6条为后加的独立原书断言。100条当前statement哈希均与逐ID清单快照一致；原文引句与S0 source lines检查0处不匹配，五段共233条mention的span和候选目标检查0错误。视觉核对CHP-3.pdf物理页24–28（印刷pp.82–86）；PDF SHA-256=362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d。
+
+**拆分、类型边界与身份影响。** p.83关于十六尊灰泥像的当前statement改为只记录Gaulli设计；新拆出的六条断言分别记录无名followers执行、沿耶稣堂中殿窗龛安置，以及四个集体代表地域Ethiopia、Peru、China、Mexico。保留“地域范围由群像表达”的限定，不给单个像分配地域、不扩大为穷尽名册。rel-1490 designed_by仍对应Gaulli的设计statement；rel-1491 located_at及rel-1492–rel-1495 has_subject对应安置及四地域statement。无名followers的执行statement不设行动者端点；上述既有关系行均不变。
+p.84 statement st-chp3-seciv-l75-81-revived-lamb-subject的object从cand-5287（已登记的Gaulli后殿《羔羊礼赞》fresco work）改为cand-5291（未登记KU的“羔羊礼赞”图像主题term）。这符合原文“revived the subject”，不把主题与完成的壁画或S. Prassede、S. Maria Maggiore的古代镶嵌画合并。cand-5291保持S3 new/S4待登记；该claim无relations.csv formal边，留待S6随term端点登记后复核。
+Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼拜堂dedication的rel-2127、rel-2128、rel-2527保持原映射。Gianandrea Carlone身份仍待证；Maratta的《圣方济各·沙勿略之死》与Gaulli作品分开。Papal arms候选cand-5303尚无KU，Negroni刻立教宗徽记statement不建formal边。其余statement保持Haskell报告、被引文献或作者解释的说话者/推断限定。批内10条现有formal关系rel-1490–rel-1495、rel-2127–rel-2128、rel-2185、rel-2473、rel-2527均不变；本批不改S2 statement/mention表、alignment、KU或relations.csv。
+
+**图版OCR与批后清单。** 印本p.83读作“emotional contact”，p.85读作“front of the altar”“implications”；当前S0转录分别保留emotionaTcontact、front os和impheations，书内statement原引句继续照录S0，已在页面核读后确认相应claim含义，不在此批改写02来源转录。当前statement总数15,505，mention总数27,056。逐ID状态为主审通过1,162（既有独立240、主审922）、已审待处理552、历史复用但保留开放发现8,377、待差异复核282、待历史回映或当前复核5,132；未达到主审通过14,343条，其中552条已有当前批次结论但待处理，13,791条仍未进入B001–B018。S2仍未独立接收。逐ID结果与当前哈希见s2-current-review-roster.csv顺序3342–3441。
