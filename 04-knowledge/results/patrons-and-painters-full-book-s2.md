@@ -8,6 +8,8 @@
 
 **2026-11-01 S2版本差异复算：** 以历史基线提交`1a6313c8654280a9b71187fc08522098626e734e`为对照，statement基线15,451条、当前15,494条；15,450个ID共有，其中15,310个完整对象未变、140个同ID对象变化、44条当前新增、1条删除。mention基线26,870条、当前27,044条；26,849个ID共有，其中26,818行未变、31行变化、195条当前新增、21条删除。该差异不能代替9,622条历史复核逐ID／来源版本名册，故不据此重算历史复核数。当前版本差异与来源核对见[最新过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-delta-recompute-after-ch8-p237)。
 
+**2026-11-01 S2历史9,622累计链复算：** 9,400起始数加第7章批次137、第5章p.138的36、第7章p.189的44及后续5条当前版本，算术为9,622。p.189最后5条中有3个同ID改版、2个新ID，49个被记录的statement版本对应46个当前唯一ID；历史汇总未说明是否冲减旧版本。因此只确认累计算术，不把9,622当作唯一当前statement数或覆盖率；全书逐ID／来源版本成员名册仍待重建。详见[历史计数链及版本缺口](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-9622-increment-arithmetic-and-id-duplication)。
+
 **2026-11-01 第3章 p.92 当前版独立复核：** 拒绝tribune许可与公爵获知传言两条statement及相关mentions通过；身份指向Ranuccio II有F.csv#12支持，关系仍因谓词/告知者端点不足而pending。稳定ID保留为技术键，不当作事实。两条当前版本不计入9,622；本批不接收第3章或全书S2。详见[独立复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch3-p92-after-note-revision)。
 
 **2026-11-01 第8章 p.237 注3修复的独立当前版复核：** 三条修订与六条新增statement、18条mention PASS；rel-1617及其余pending关系状态正确，S3去向不变。9,622基线包含三条旧statement但无证据确认其历史成员身份；六条新增statement和18条mention不在基线。该批不调整历史计数，不接收第8章或全书S2。详见[独立复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch8-p237-note3-after-repair)。
