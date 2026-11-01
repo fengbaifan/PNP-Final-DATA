@@ -20,6 +20,8 @@
 
 **2026-11-01 S2历史计数成员回映：** 第7章 p.193–199有31条statement已独立复核，报告明确暂不计入当时9,400汇总；这些ID在当前表的完整对象与复核快照一致。9,622历史台账仍缺逐ID名册，故这31条的全局成员归属暂不作加减。该页段后来新增的两条`has_subject` statement从未纳入原审读范围，过程记录明确其未独立复核；对应 `rel-1904`、`rel-1905` 维持当前formal裁决，不由本次台账核平改动。详见[S2历史汇总核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch7-p193-199)。
 
+**2026-11-01 S2 p.193–199版本与关系补核：** 31条statement、56条mention、S0段、Markdown与PDF版本在复核快照、9,622基线和当前表间一致；该批历史成员归属仍未证实。关系表中引用这31条的16条formal边与基线一致，10条系后续S6登记。详见[来源与关系历史复核](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch7-p193-199-sources-relations)。
+
 **2026-11-01 S2第8章 p.239版本回映：** 40条statement ID及19条mention均与独立复核快照当前一致；唯一statement对象差异是复核报告记载的S.P.F.关系候选`true→false`分类，claim和source-backed字段保留。`rel-1616`、`rel-1617`保持formal，后续增加的`rel-1618 located_at`仅记Haskell所报保管地点；该40条批次不曾增加9,573汇总，9,622成员归属仍待全局逐ID名册。详见[第8章 p.239版本核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch8-p239)。
 
 **2026-11-01 S2第7章 p.197 两条新增肖像关系statement当前版独立复核PASS：** 两条肖像对象判断、mention跨度、S3/S4端点及`rel-1904`、`rel-1905`均通过，无需更改；不将访客对应到具体图版，不核称外引资料已查。此次仅覆盖两条statement与关系，不构成第7章或全书S2接收，也不计入9,622历史汇总。详见[主代理定向核查](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch7-p197-portrait-subjects)与[独立复核](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-review-ch7-p197-portrait-subjects)。
