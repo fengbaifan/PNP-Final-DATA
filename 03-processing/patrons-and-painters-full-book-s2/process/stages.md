@@ -15873,3 +15873,12 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 复核后仅将`H9622-03833.current_statement_sha256/current_statement_match`改为当前哈希和`changed`；历史`review_statement_sha256`、`historical_outcome`、来源版本与原审查commit均保留。事件级当前statement匹配现为9,119 exact、501 changed、2 absent_current；按旧ID最新事件去重为9,046 exact、491 changed、2 absent；有当前statement ID的9,620条历史事件来源版本仍全部匹配。`relations.csv`未发现以本批24个statement ID为证据的正式边，无关系写回。
 
 PASS仅限当前S2来源忠实度；`cand-6146`反西班牙平民及`cand-6147`西班牙支持者仍按原组别／身份边界处理，不从本批推造成员或正式关系。原页图像为打印p.137/PDF物理22、打印p.138/PDF物理23；statement历史哈希与当前哈希变化可由逐ID清单及事件表复核。
+
+<a id="2026-11-01-s2-current-review-b042-ch5-p135-p137"></a>
+### 2026-11-01 S2当前版逐ID复核 B042：CHP-5 p.135、p.137（顺序5704–5803）
+
+**批次结果：100条；7条当前版本原页复核PASS，93条精确历史复用并保留开放发现。** 5772、5775、5776分别核对打印p.135（PDF物理16）的Bertolotti引文与两条`ibid.`页码；5772无对应历史审读事件，现按当前来源复核PASS。5775/5776仅确认Haskell的引文定位，未把未读的Bertolotti原书内容当作事实；既有`rel-1765`、`rel-1766`的formal cites范围不变。其余93条逐ID对象及来源版本可复用历史直接阅读；其中两条新增mention不进入这93条statement各自的`mentioned_candidate_ids`，原有开放发现仍未解决，因此均不计当前PASS。
+
+原书`02-sources/01-book/CHP-5.pdf`，SHA-256=`f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`。打印p.137（PDF物理22）脚注2支持Raggi于1701年出借五幅Cerquozzi画作并送往S. Salvatore in Lauro展览；p.140（PDF物理25）脚注2则是另一则1883年Raggi报告，经Achille Neri转述，与1701年展览不是同一出处。故将5794–5797的`printed_page`由140纠正为137。5794的claim收窄为原文实际地点措辞“S. Salvatore in Lauro”，不称“教堂”；不据此区分教堂本体/回廊，也不并入常规展览系列。新增mention `m-chp5-note-143-061`与`m-chp5-note-143-062`的区段字符跨度分别为2690–2743、2762–2801，逐字符与现有S0源段相符。
+
+历史记录只更新四项current statement hash/match：5795–5797恢复为`exact`，5794因claim/限定修正标为`changed`；对应旧审读哈希、历史裁决与来源版本均保留。`rel-2010 occurred_at`的来源定位改为打印p.137、PDF物理p.22，仍为`pending`，角色、范围和重开条件不变；画作出借、作者与送展关系仍不升为formal。本批没有改动S3身份决定、KU、mention表或既有formal关系。 应用后全表审计：`errors=[]`、`s2_missing=[]`（15,505条statement、27,056条mention）；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
