@@ -15896,3 +15896,10 @@ PASS仅限当前S2来源忠实度；`cand-6146`反西班牙平民及`cand-6147`�
 **批次结果：100条；2条当前版原页复核PASS，98条精确历史复用并保留开放发现。** 原书`02-sources/01-book/CHP-5.pdf`，SHA-256=`f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`；打印p.144（PDF物理29）第24–26行直接复核statement 5921、5924。5921的扩展原引文和来源跨度支持De’ Rossi将《Regulus》挂在其Rosa作品私人博物馆内；“masterpiece”仍明确是Haskell评价，不推作法律所有权或现藏。已有`rel-2507 held_by`仍为formal，证据范围、历史裁决及限定未改。
 
 5924的当前claim原来把“grudging obligation”泛化为“obligations”，并漏掉“instinctive”；现更正为在《Regulus》中，Rosa对Bamboccianti的勉强义务感与对如画性的本能之爱，经由其对斯多葛历史家的研究，被提升为崇高的英雄悲剧。此为Haskell的艺术史解读，不等同于独立确定Rosa创作意图。该statement没有对应formal S6边。本批两条的历史审读哈希、历史裁决和来源版本不变，仅current hash/match记录版本仍不同；其余98条保持历史开放发现，不计当前PASS。 应用后全表审计`errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
+
+<a id="2026-11-01-s2-current-review-b045-ch6-p146"></a>
+### 2026-11-01 S2当前版逐ID复核 B045：CHP-6 p.146（顺序6004–6103）
+
+**批次结果：100条；4条当前版原页复核PASS，96条精确历史复用并保留开放发现。** 原书`02-sources/01-book/CHP-6.pdf`，SHA-256=`de7a3546edcc8b992a1720341690b142d9f96d04fd6ba5374e5733e6167ac258`；打印p.146（PDF物理1）逐条核对6018、6019、6020和6027。6018原句确实将Duke相关财政争端、其遭绝罚及城镇被占领连为复合陈述，但未命名绝罚者或占领者；既有S6拒绝将该复合句建成特定二元边的决定不变。6019支持“Castro属于帕尔马公爵”的原文，却不能在领土权属与所有权间裁决，S6 pending保持。6020支持Castro位于教皇领地内；`rel-1750 located_at`继续formal，只表达历史地理位置，不推及现代行政归属。
+
+6027原书印本为“amid the execration of his subjects”；当前`original_quote`保留与S0逐字对应的OCR文本；`ocr_correction`记录印本读作“the execration”，无多余撇号。S0不改。Haskell关于“subjects’ execration”的评语和已补的Urban VIII mention保持。四条当前对象仍与历史审读版本不同，事件级只更新current hash/match；历史review哈希、裁决、来源版本保留。其余96条复用历史阅读，开放发现继续留在未完成状态。 应用后全表审计`errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
