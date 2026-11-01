@@ -15427,3 +15427,17 @@ B003对六条候选修正实体关系判断：年龄属性`francesco-age-at-urba
 **关键判断及下游边界。** `cand-1479`被来源明确称为Carlo Maderno（建筑师），当前候选却为`work`；涉及Maderno的正文端点不能按当前类型通过，应回开该S1候选并核查其现有alignment及相关statement。Taddeo“预计建立王朝”不是已实现的亲缘边；precedence claims的提出/抵抗者不明；Valmontone句是带买方与财产角色的交易，不能压成家族→地点；Ferrara的1598转属不能以城市地理候选代替政治实体。Bentivoglio正文称来自Ferrara而同页注释称家族源自Bologna、重要支系长期在Ferrara，保留来源内部差异。Ippolito支持的是未指明的继承主张，不是Cesare本人。Claude画面处理、宫殿象征及Guido肖像描述属于Haskell解释，不提升为人物/宫殿formal关系。Dosso Dossi在“works by Dosso Dossis”中是作者角色，作品组端点未识别；未名教宗、additional decorators及特殊外交post也保留其群体/类型缺口。S2表、mentions、S1候选表、S3决定、KU和formal relations本批未改；缺失端点与不受控谓词不强行建边。
 
 **清单与余量。** 本批100/100已记录裁决（主审pass 27、pending 73）；B001–B005现有当前版主审/独立通过合计340条（其中独立238、主审102），另有73条本批已阅待处理。当前15,504条清单状态为`reviewed_current_pass` 340、`reviewed_current_pending` 73、`prior_review_mapped_open` 8,833、`needs_delta_review` 302、`needs_crosswalk` 5,956。尚未完成当前版主审的ID为15,091条；再加B005已阅待处理73条，当前仍有15,164条未达到主审通过。全书S2仍未独立接收。
+
+
+<a id="2026-11-01-s2-current-review-b006-ch2-seciv-p49-52"></a>
+### 2026-11-01 S2当前版B006：第2章sec_iv印刷pp.49–52、L74–99
+
+**本批100条逐ID结论已记录：4条主审通过、96条待处理。** 按连续印刷页组织：p.49为L74正文6条及注释13条；p.50为L79–89正文29条及注释4条；p.51为L91–94正文38条及注释2条；p.52接续L97–99正文前8条。逐项`review_batch_id`、`review_outcome`、状态及待办原因均写入当前逐ID清单。下一条从p.52 L99 `st-chp2-seciv-l96-104-antonio-capuchin`继续。
+
+**历史与当前版本核对。** 100条均是9,622历史复核事件中的成员，且历史来源Markdown、对应S0 segment与原PDF版本均匹配。99条当前statement与最近历史审读对象完整一致，复用既有逐条原文判断；另1条`st-chp2-seciv-l190-245-citation-40`当前版已从`footnote_citation`改为本书→Incisa della Rocchetta出版物的`cites`（cand-2962→cand-4564），必须按新对象复核。当前页图确认p.49–52的引文及段落边界。共用注释segment的mention集合虽有变动，但新增的《The first Capture of Jerusalem》/第二版mention位于L201，改映的《The Arcadian Shepherds》mention位于L242；均不在本批注释L214–226，故不误记为本批当前页mention变化。PDF SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`。
+
+**主审结果与保留问题。** 4条通过项均有逐statement映射并保留原文范围：Camassei获得的“great hopes”仍不识别提出者；Sacchi《Divine Wisdom》覆盖早期房间天花板；Camassei持续获得未具名小型委托；较大的未题名装饰方案开始于principal reception-room，未与某一壁画强行合并。96条待处理项中93条缺`qualifiers.mentioned_candidate_ids`，须依每条claim补映；另3条虽有数组仍有具体错误：L79的两件壁画端点`cand-0485/0486`实际为人物候选，p.50注3当前mention array遗漏被引文献`cand-4564`。其余逐ID理由见roster。
+
+下游不改S1候选、statement/mention正文表、alignment、KU或relations；不强行造正式关系。保留的主要发现包括：Apollo是神话图像而非Urban VIII；“his ancestors”是未名祖先组；Roman theologians与artist’s advisers是不同群体；St Peter’s精确地点候选仍待S3；Love/Fear/Lust/Wrath四角色不得缩成单一目标；“certain circles in Rome”是未名受众而非Rome城市端点；Bracciolini随行对象是Maffeo，Paris是地点；脚注purchase/ownership、作品组归属及Baldinucci/Giglioli attribution须拆分并保留说话者。p.52按印本读“future Pope”，保留引文请求、授荣主体未名及Antonio职务/地点边界。
+
+**清单与余量。** B006 100/100条均已有逐ID裁决（主审PASS 4、pending 96）。当前15,504条清单状态为`reviewed_current_pass` 344、`reviewed_current_pending` 169、`prior_review_mapped_open` 8,734、`needs_delta_review` 301、`needs_crosswalk` 5,956；尚未开始当前版主审的ID为14,991条，另有169条已审待处理，合计15,160条尚未达到当前版主审PASS。全书S2仍未独立语义接收。历史独立报告复用来源见`s2-independent-review-chp1-2-4-20261020.md`第2章批次三十至三十二；本批所有逐行待办见`s2-current-review-roster.csv`。
