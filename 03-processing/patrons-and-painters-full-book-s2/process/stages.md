@@ -16194,3 +16194,22 @@ p.191注11印本实际写作`da Nápoles`。原statement把它误记为OCR偏差
 **保留pending的引用行。** 顺序8394、8398–8401的印本页码、作者简称及locator均按p.204注1–3核实；8394与8401的多来源locator都保留在citations数组中。但其relation_candidate=false、无主体的口径与同章p.203已经使用的Haskell archive→source cites候选/正式边尚未统一，且一行含多个引证目标。该既有阶段审查差异未在本批擅自裁成正式关系；五条当前来源claim可读，但按S2结构一致性记reviewed_current_pending。被引页未读，relations.csv未增删。顺序8402、8403分别准确记录Valletta购买Codazzi建筑画和帮助Giordano处理图像学问题的Haskell转述；未名卖方、未逐件识别的画作及未指明作品的帮助范围继续限定为S6候选，不扩展出formal edge。
 
 **批次后状态。** 当前15,505条statement：主审PASS 1,965（当前主审1,717、独立当前版248）；已审待处理557；历史精确复用但保留开放发现8,294；待历史版本差异复核116；待历史回映或当前复核4,573；未达PASS共13,540。连续原文已处置至顺序8403，下一条为顺序8404；S2仍未独立接收。批次后audit_tables.py --strict-stage --summary返回errors=[]、s2_missing=[]；audit_relation_consistency.py --dry-run的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。reconcile_s2_review_history.py只读核平9,622个历史事件、9,539个唯一旧ID，来源版本9,539/9,539匹配；最新历史statement为9,048 exact、489 changed、2 absent。计划SHA-256=3b7f806d50a46339049f452b57917067ee2a1ea4fb29cd12efabfe7c100e8ea8。历史事件表及relations.csv未修改。
+
+<a id="2026-11-01-s2-current-review-b069-ch8-p205-p215"></a>
+### 2026-11-01 S2当前版本逐ID复核 B069：CHP-8 p.205、207–208、211–215，顺序8404–8503
+
+**本批结算：100条；29条当前原页复核PASS，2条原文已核但多目标citation的关系建模口径仍待统一而记pending，69条精确历史复用并保留开放发现。** 31条非复用项逐条核读当前statement、对应分节原文与原页；来源段级新增mention与具体主张无关的条目不误判为内容变化。其余69条statement/source/mention与历史最新审读精确匹配，复用历史判断及开放发现，不重复重读、不计当前PASS。原书CHP-8.pdf SHA-256=`cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`。
+
+**原页依据与逐项判断。** 直接核读印刷p.205/PDF物理页3、p.207/物理页5、p.208/物理页6、p.211–215/物理页9–13。p.205 n.1记录Haskell关于Ceci与de Vaes两篇文章及一手来源的描述；书目将Ceci和de Vaes分别列为1920、1925，原注括号年份归属不清，保留原文和书目日期，不称已读被引文章。p.205 n.2区分Capodimonte 1626画未见于Capaccio 1634 Roomer清单的负面比较与Palomino另称“painted for him”的报告；rel-1504仅对应原文所报Palomino III p.311引注，rel-1505保持其独立赞助报告，不把两项合并。p.205 n.3核实1637年San Martino画不能是1634年Roomer清单中所指画作；p.205 n.4核实Marcotti印本、St Januarius题材、1665年及题献Roomer，rel-2380–2382方向/范围相符。为`st-chp8-p205-marcotti-print-has-subject-januarius`补入先前仅在qualification提到的结构化校读：S0 L133 `St Januatius`→CHP-8物理页3印作`St Januarius`；原始OCR quote保留。
+
+p.207 n.1核实Haskell缺少其他Colonna收藏画作的来源证据、不能接受Vaes的确定说法；该判断不撤销两件Codazzi作品的限定报告。p.208 n.3的“a set”由前注语境回指de Wael版画组，Haskell确实报告该组在British Museum；rel-2131只保留书内报告，未声称独立匹配馆藏入藏号。新增mention的当前span均精确命中分节原文：p.205 Vaes、p.212外层信与嵌套总督信、Longhi文章描述及p.213作者—年份；受影响statement均已纳入31条直接复核，不把其他页注中的同段mention增量扩散到69条无关历史复用项。
+
+p.212 n.2印本确认Fall of Manna和Moses striking the Rock由Haskell称刊于Longhi 1956文章；Fall的OCR `Fäll`已校为印本`Fall`，rel-2513、rel-2514一致，未称已独立查读文章。p.212 n.3区分Cortona较早S. Agostino画与del Rosso家族所得较小版本；地点、来源归属、版本和取得范围分别核实，rel-2226–2230端点一致，未推出日期或当前所有权。p.212 n.5核读外层信（Archivio Mediceo, Filza 4123；Naples；1686-04-02；致Panciatichi）及其中所引Viceroy致“Pittore Giordani”信：原件未查，保持外层/内层文书分开、外层作者及Viceroy个人身份未知、原文拼写Giordani，并保留信末印本S.E.后的闭引号校读；既有rel-1655–1657收件及定位范围相符，不新增关系。p.213 n.1的“the latter”指Paceco de Rosa画作，但Haskell未枚举作品，故相关statement PASS而具体S6作品端点仍待证。p.214–215的sec.ii概括保留“all except Ruffo”“some”“in most cases”“usually”“almost exclusively”及旅人“might have found”等范围和模态，不将画家逐一分配到各城市；p.214印本`Ruffo`与S0 OCR `Russo`差异已有校读依据，群体和个别对象仍交S3核对。
+
+**Pending及关系/历史影响。** 顺序8405、8407的原文citation locator本身已核实，但多目标citation字段与`relation_candidate=false`在跨页口径上仍待统一，沿用B068决定为`reviewed_current_pending`；不将它们提升为正式边。顺序8408为独立原子Haskell→Palomino引注，与formal rel-1504一致。其余正式关系rel-2380–2382、rel-2131、rel-2513–2514、rel-2226–2230、rel-1655–1657与statement方向、来源范围及限制相容；relations.csv无增删或改裁决。历史审读ledger及旧review hash、原裁决未改；当前statement 8414仅补校读metadata，当前hash同步到逐ID roster。S3身份决定、S4登记、S5字段及S6历史裁决未改；未名信件作者/总督、未枚举的Longhi所刊画作和其他来源缺口保留待证。
+
+**批次后状态。** 连续原文顺序8404–8503共100/100条已处置，下一条8504。当前15,505条statement：主审PASS 1,994（当前主审1,746、独立当前版248）；已审待处理559；历史精确复用但保留开放发现8,294；待历史版本差异复核104；待历史回映或当前复核4,554；未达PASS共13,511。S2仍未独立接收。
+
+**本批机械核对。** `audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；保留审计器报告的既有S4待登记和S2语义质量提示。`audit_relation_consistency.py --dry-run`：broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0；`git diff --check`通过。
+
+**历史核平只读计划。** 脚本重建9,622条历史事件、9,539个唯一旧ID（83条重复事件）；所有9,539个来源版本匹配。最新statement匹配为9,048 exact、489 changed、2 absent_current。该脚本只输出计划，未改写历史ledger或旧裁决；plan SHA-256=`8b3895dad1cfc7b42ced3d9d4f57477635053af780caf102ff1256718a6479a3`。
