@@ -1,4 +1,4 @@
-# 全书语义处理（S2）过程
+﻿# 全书语义处理（S2）过程
 
 
 
@@ -15728,3 +15728,39 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 **关系与历史裁决。** 既有formal rel-1872 creator_of、rel-1873 acquired_by、rel-1874 model_for与本段证据及分开的work端点一致，未改行；tomb比较、喷泉一般评语和Poussin研究方向无新增formal边。9,622历史事件仅作复用/差异定位，不重写历史行。S3身份裁决和S6状态均未因本批升级。
 
 **来源版本与批后数量。** 对照CHP-4.pdf印本p.104 / PDF物理p.11；第4章II节Markdown SHA-256=fd05a5c61deb6ba897878f510450d589d1ec0ef1276ff585ae601943bfd59575，CHP-4.pdf SHA-256=2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303。当前主审PASS 1,557（独立当前版242、当前主审1,315）；已审待处理552、历史复用但保留开放发现8,377、待差异复核275、待历史回映或当前复核4,744。未达PASS共13,948条。下一条顺序4204为st-chp4-sec-ii-l53-63-cassiano-returned-to-rome-1626；S2仍未独立接收。写后严格表审计为errors=[]、s2_missing=[]。
+
+<a id="2026-11-01-s2-current-review-b027-ch4-sec-ii-p104-p106"></a>
+### 2026-11-01 S2当前版B027：第4章第II节L53–107
+
+**批次与历史复用。** 当前原文顺序4204–4303连续100条，逐ID处置。84条的当前statement和来源版本与唯一9,622历史事件精确相同，历史结果均保留开放发现。其60条无mention差异；另24条因同一S0段级mention哈希变化显示差异，变化已定位为两项并由本批当前审查：4266新增“different patrons”群体候选cand-12446；4275将“Leonardo manuscripts”从特定Trattato候选cand-5778改映未具名手稿群cand-12441。其余精确statement未引用这两个变化候选，保持复用，不重做。另12条为statement版本变化、4条为历史计数外新ID，共16条本批逐项核对印本并通过。全批处置100/100；PASS 16，历史复用开放发现84，待处理0。
+
+**当前statement修订。** p.104 / PDF物理p.11的4210仅记Poussin进入古典研究；Cassiano指导研究由B026通过的4200单列并互链。p.106 / 物理p.17的4262说话者改为Poussin（Haskell转引），you按上下文指Cassiano；4266保留 nearly all 及 later patrons 范围；4275仅称Cassiano与手稿所有者通信，保留Mazenta为显名者；4276引句延至完整受赠人Paul Fréart de Chantelou；4281引句延至Leonardo’s notes；4294引句纳入Paris。
+
+**拆分与引述边界。** 4283限于Haskell叙述Errard在雕版前添加建筑和风景背景，说话者校为Haskell，删去不属于该statement引句的gaufes校读，并与4286互链。4286单独记录Haskell转述Poussin称这些背景为gauches，保留S0 OCR gaufes及扫描校读。4287只记录Poussin图稿较Leonardo速写更完整；4289单独记录未具名接受者认为不够优雅。4291仅记Poussin对Leonardo态度复杂，4285单记其被转述的书籍价值怒评。4296记录Seven Sacraments系列属于Poussin为Cassiano所作，4297保留Haskell的“most startling”评价，4298仅记Poussin在1630年代后半开始绘制该系列；不把评价、赞助和年代合成一个断言。
+
+**关系与来源。** p.106现有formal rel-1875 corresponded_with、rel-1889 located_at、rel-1890 patronized_by、rel-1876 creator_of均与拆分后的statement证据一致，未改行；B027不新增formal边。印本将S0的“gaufes”读作“gauches”；各页原quote保留S0形态，由statement OCR字段记录校读。CHP-4.pdf SHA-256=2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303；04_CHP-4_sec_ii.md SHA-256=fd05a5c61deb6ba897878f510450d589d1ec0ef1276ff585ae601943bfd59575。原件、书信及画作未在本批外部查阅。
+
+**批后状态。** 当前主审PASS 1,573（独立当前版242、当前主审1,331）；已审待处理552、历史复用但保留开放发现8,377、待差异复核263、待历史回映或当前复核4,740。未达PASS 13,932条。下一条顺序4304为st-chp4-sec-ii-l101-107-jansenism-possible-interpretation。S2仍未独立接收；写后严格表审计为errors=[]、s2_missing=[]。
+
+
+### 2026-11-01 S2当前逐ID B028：第4章第II节p.107–111历史复用
+
+**批次与历史复用。** 按连续原文顺序4304–4403处置100条（第4章L101–107、L109–119、L121–128、L130–137、L139–149），当前statement、来源segment、来源资产和mentions均与唯一历史事件完全一致；100条历史结论均保留开放发现。逐ID标记为`prior_review_mapped_open`，历史复用100、本批新增当前版PASS为0，处置100/100，待处理0。复用不重读、不计PASS，既有开放发现仍须定向处理；本批不改statement、mention、S3、KU或relations.csv。
+
+**批后状态。** 当前15,505条statement、27,056条mention。当前主审PASS 1,573（独立当前版242、当前主审1,331）；已审待处理552；历史复用且仍有开放发现8,377；待差异复核263；待回映或当前复核4,740。未达PASS 13,932条。下一条顺序4404为`st-chp4-sec-ii-p111-cassiano-influence-shared`；S2仍未独立接收。
+
+### 2026-11-01 S2当前逐ID B029：第4章第II节p.111–113
+
+**批次与复用。** 当前原文顺序4404–4503连续100条，涉及p.111余段、p.112和p.113。90条statement对象与来源版本、原页版本完全匹配唯一历史事件，直接复用并保留开放发现；其中18条位于p.113段，历史mention哈希显示同段新增mention，但各自当前statement未引用新候选cand-12442–12445，故不因段级哈希变化重复审查。另6条同ID变化及4条不在9,622历史事件中的当前ID，共10条对照CHP-4印本p.113（PDF物理p.24）逐条主审PASS，待处理0。
+
+**当前版核对。** 新增的四个p.113 mention分别为“landscapes”→cand-12442、“secondary artists”→cand-12443、“scholars”→cand-12444、“French friends and clients”→cand-12445；表审计切片校验通过。段落没有为未名群体补造个人身份。涉及书内作品、群体及信件的候选端点继续按原有待证范围处理；本批未新增formal关系或改写relations.csv。
+
+**批后状态。** 当前主审PASS 1,583（独立当前版242、当前主审1,341）；已审待处理552；历史复用且仍有开放发现8,377；待差异复核257；待回映或当前复核4,736。未达PASS 13,922条。下一条顺序4504为`st-chp4-sec-ii-p113-first-private-patron-influence`；S2仍未独立接收。
+
+### 2026-11-01 S2当前逐ID B030：第4章第II节p.113–116
+
+**批次与复用。** 当前原文顺序4504–4603连续100条。99条statement及对应来源、mentions与唯一历史事件完全一致，直接复用并保留开放发现。另1条同ID变化（顺序4582，`st-chp4-sec-ii-p115-inventory-original-vatican-library`）对照印本p.115、PDF物理p.26复核通过；扫描明确为“Capponi Lat. 260”，当前OCR校读说明、引文范围、注2回链和原件／摄影副本区分均符合来源。批次处置100/100：当前PASS 1、历史复用开放99，待处理0。
+
+**关系与历史影响。** `rel-2116 located_at`仍只表示Warburg持有摄影副本，不指原件；Capponi Lat. 260原件及Biblioteca Vaticana端点身份仍未解决，没有新增原件保管formal边。历史来源版本与S6既有裁决未改。
+
+**批后状态。** 当前主审PASS 1,584（独立当前版242、当前主审1,342）；已审待处理552；历史复用且仍有开放发现8,377；待差异复核256；待回映或当前复核4,736。未达PASS 13,921条。下一条顺序4604为`st-chp4-sec-ii-p116-massimi-reported-characterization`；S2仍未独立接收。CHP-4.pdf SHA-256=`2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303`；`04_CHP-4_sec_ii.md` SHA-256=`fd05a5c61deb6ba897878f510450d589d1ec0ef1276ff585ae601943bfd59575`。写后表审计为`errors=[]`、`s2_missing=[]`。
