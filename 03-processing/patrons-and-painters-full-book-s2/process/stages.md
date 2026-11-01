@@ -16229,3 +16229,25 @@ p.212 n.2印本确认Fall of Manna和Moses striking the Rock由Haskell称刊于L
 **批次后状态。** 当前15,505条statement：主审/独立当前版PASS共2,000（当前主审1,752、独立当前版248）；已审pending 560；历史直接阅读复用但保留开放发现8,326；待版本差异复核101；待历史回映或当前复核4,518。未达PASS共13,505条。连续原文推进至顺序8603，下一条为8604；本批100条中95条复用旧阅读，不因历史来源及statement未变而重复通读。S2仍未独立接收。
 
 **本批机械核对。** `python scripts/audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；保留审计器既有S4待登记和S2语义质量提示。`python scripts/audit_relation_consistency.py --dry-run`：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。逐ID清单核对15505个唯一ID、当前statement哈希全匹配、B070顺序8504–8603连续且100/100均有批次记录。`git diff --check`通过（仅有工作树LF/CRLF提示）。
+
+
+<a id="s2-current-review-b071-ch8-p218-p220"></a>
+### 2026-11-01 S2当前版本逐ID复核 B071：CHP-8 p.218–220，顺序8604–8703
+
+**本批完成：连续100条当前statement逐ID处置；81条当前原页复核PASS、19条保留pending。** 这100条均不属于9,622条历史事件复核记录，故没有把同页旧阅读或相似引句冒充逐ID历史复用；本批直接逐项比对当前claim、来源段和印刷页。另对B070同段受mention恢复影响的8601–8603作三条相邻回查，不计入B071连续100条：8601、8602转当前PASS，8603的复合摘要仍pending。
+
+**历史核平边界。** 只读重建仍为9,622个历史事件、9,539个旧statement ID（83条重复事件）；事件级当前statement为9,121 exact、499 changed、2 absent_current；每个旧ID取最新事件后为9,048 exact、489 changed、2 absent；9,539个历史来源版本均匹配。顺序8604–8703的历史事件数均为0；三个受影响分节（p.218、p.219、p.220）也没有9,622台账事件，因此本批未改历史ledger、旧review hash或旧裁决。当前版statement、分节及mention哈希在逐ID roster中更新。
+
+**原页和跨度。** 直接核读CHP-8印刷p.218–220/PDF物理页20–22；原书PDF SHA-256=cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3，分节Markdown SHA-256=5d9a17efc3835c30947b8c714c65649be10295661b6cca6b117f5902882bcef6。旧快照d7adabfb27dff892808793ae5eace18787e6ef60中p.218段落的28条、p.219段落的51条mention曾缺于当前表。两段的source segment、asset及SHA未变；逐条按当前S0原文重验，79条跨度均精确，其中两条姓名span补入被遗漏的换行。另为cand-7680补入p.219“a picture”精确span [546,555)；该图仍是未定身份对象。当前p.218段mention数33、p.219段55，整表mention数由27,056增至27,136。原候选ID与类型决定不因恢复span自动合并。
+
+**当前判断修正。**
+- B070相邻顺序8601原predicate/claim把“This was agreed”误释为委员会同意草图提交；结合p.217来信与p.218续文，改为委员会同意向Ferri寄送必要细节，使其开始绘制供委员会审批的草图。顺序8602的“patrons”mention保留为cand-12370，从该statement的mention候选中移除委员会cand-7641；该群体仍未定类型。顺序8603的Ferri到达Bergamo span现恢复于[248,255)，与Zanchi后文勘察地点[2897,2904)分开；其false复合摘要仍pending。
+- 顺序8628原主语误指委员会；清空该端点并移除相应mention候选。原文只称匿名experts在接受后定价，不据此认作委员会行动或新建formal边。rel-1440仍为formal commissioned_by，其note移除顺序8628作为委员会边证据；顺序8641等直接委托/验收陈述仍支持原边。rel-1441–rel-1443未改。
+- 顺序8637缩窄为印本p.218已完整支持的“费用因画作的杰出戏剧性成就而值得”；相应quote止于完整短语，不再依赖p.219跨页接续。顺序8675将claim恢复Haskell原文的“exorbitant sums”，不弱化为large sums。顺序8701删除原文未明示的1692断代，保留“then painting”的叙述时点。
+- 顺序8657增补印刷p.219校读Bcrgamasque→Bergamasque；8658已有相同校读。顺序8663–8664的setidi→scudi及顺序8669–8670的tnodello→modello校读已有结构化记录，原始OCR quote均保留。其他claim按p.218–220当前印本及上下文核对。
+
+**保留pending与下游影响。** B071的19条pending顺序为8605、8611、8617、8622、8628、8633、8640、8643、8658、8664、8669、8673、8682、8686、8690、8692、8694、8698、8700；逐条原因和当前statement ID见roster。主要是合并多个原子事件的摘要、未完跨页引句或匿名行动者，不因原文可读就升级。Ferri的“September 1665”到达与“June 1667, eighteen months after arrival”保留为来源内部年月不一致，不代算或改写。cand-12370 patrons、cand-12371 various artists仍未定类型；Negri所画cand-7680已有精确mention但身份undecided，相关关系保持pending；Zanchi在Venice作画的许可授予者仍未具名。没有新增formal关系，也未改S3 identity、S4登记、S5字段或S6历史裁决。
+
+**本批及回查后状态。** B071顺序8604–8703为100/100处置：81 PASS、19 pending；另回查顺序8601–8603：2 PASS、1 pending。当前15,505条statement：主审PASS共2,083（当前主审1,835、独立当前版248）；已审pending 580；历史复用且开放发现8,323；待版本差异复核101；待历史回映或当前复核4,418。未达PASS共13,422条；连续原文推进至8703，下一批从8704开始。S2仍未独立接收。
+
+**必要校验。** 当前逐ID清单15,505个statement ID唯一、statement hash全匹配、segment mention count/hash全匹配；B071 100条顺序连续且批次状态齐全。恢复及新增mention的offset逐条与当前source segment切片核对，span无交叉错误。audit_tables.py --strict-stage --summary：errors=[]、s2_missing=[]；audit_relation_consistency.py --dry-run：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；git diff --check通过。
