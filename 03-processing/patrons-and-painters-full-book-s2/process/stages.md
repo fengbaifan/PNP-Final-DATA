@@ -15005,3 +15005,15 @@ st-chp8-p239-venetian-emphasis
 当前版回映显示：40条ID无增删；19条 `m-chp8-p239-*` mention 对象无增删或变化。两个来源segment的SHA-256分别为 `9f36048f2845cfb8a9b98215376d76e9d46586b3350bc5eb367a9a38d5c8a91e` 与 `62a4611253d2bf05494ef55b0511b53861b0947a05aee1c7a9fdbab976ecbc3f`，均与复核快照一致；源Markdown blob也未变（`3d06d52be0860626d4a3b01bc985273636879ef0`）。40条中只有 `st-chp8-p239-note5-spf-mark` 的完整JSON对象有变化：`relation_candidate` 从快照中的`true`改为当前`false`。复核报告记载了该项关系类型复审及最终分类；claim、引句、端点和S5所保留的来源事实未改。
 
 跨阶段影响已核对：`cand-1609`仍复用Ferdinand KU，`cand-8032`仍对应No.357信件archive；`cand-8053`由历史`new`改为复用Soprintendenza KU，`cand-8054`登记为清单archive KU，`cand-8057`仍`undecided`。`rel-1616 authored_by`、`rel-1617 cites`保持formal；后续新增的`rel-1618 located_at`仅表示Haskell报告的保管地点。`st-chp8-p239-note5-spf-mark`没有formal关系边，S.P.F.范围仍由source-backed字段`enr-16368`保存；不把清单标记解释成受控关系。该报告记载全书计数保持9,573/15,254，故这40条没有作为该次增量加入汇总；其是否已属于9,622历史成员集仍须待全局逐ID名册核平，本批不加减9,622。
+
+<a id="2026-11-01-s2-current-review-ch7-p197-portrait-subjects"></a>
+### 2026-11-01 S2主代理定向复核：第7章 p.197 两条新增肖像对象statement
+
+此为主代理当前版定向核查，**不是独立复核或独立接收**。对照当前来源分节和 `CHP-7.pdf` 印刷页197／物理页35（PDF SHA-256 `eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`；Markdown SHA-256 `d620659a2f3567ea9a1d91b7657390e9824768c320c3cf534bd30069d6c72077`）。正文segment `chp-7:07_CHP-7_sec_iv:l63-75` SHA-256 `2df26f10a0058c44555f97648bc149b25cae27244fb79f608b3d1ba33a57fb27`；注2 segment `chp-7:07_CHP-7_sec_iv:l97-119` SHA-256 `66b9f770a4c22ac60274b07d2211a66032e5ef05c59e3a313a092e189c9952ab`。
+
+| 当前statement | 原文依据与本次判断 | 跨阶段影响 |
+|---|---|---|
+| `st-chp7-p197-killigrew-portrait-has-subject` | 正文L65称 Thomas Killigrew有画像；注2 L109列“Killigrew by Canini in 1651”。两处合读支持 `portrait-thomas-killigrew-canini-1651` 的被描绘对象为Killigrew。mention `m-chp7-p197-b012` `[456,472)`、`m-chp7-footnotes-b020` `[922,931)`、`m-chp7-footnotes-b021` `[922,949)`与当前来源切片精确相符。 | `cand-7269`与人物`cand-1342`均沿用既有S3/S4身份；`rel-1904 has_subject`仍formal。 |
+| `st-chp7-p197-altham-portrait-has-subject` | 正文L65称 James Altham有画像；注2 L109列“James Altham as a hermit by Salvator Rosa in 1665 (Bankes Collection)”。两处合读支持该明确作品描述的被描绘对象为Altham。mention `m-chp7-p197-b013` `[490,502)`、`m-chp7-footnotes-b024` `[969,981)`、`m-chp7-footnotes-b025` `[969,1018)`与当前来源切片精确相符。 | `cand-7270`与人物`cand-0085`均沿用既有S3/S4身份；`rel-1905 has_subject`仍formal。 |
+
+不把三位游客与Plate 30a、30b、31a逐一配对；原文将三个地点和leading artists合述，无法据此为每人指定城市或版号。`rel-1902`、`rel-1903 created_by`的作者归属边也未受本次回核影响。原书所引Vertue及Italian Art and Britain页面未独立查阅，关系只表示Haskell在书中的报告。当前source、mention span和关系端点支持已有两个`has_subject`裁决；没有依据更改S3/S4/S6决定。两条statement是在原p.193–199的31条独立复核后新增，当前主代理复核不计入9,622历史汇总，仍待独立复核。
