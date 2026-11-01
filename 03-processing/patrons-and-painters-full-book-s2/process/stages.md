@@ -15414,3 +15414,16 @@ B003对六条候选修正实体关系判断：年龄属性`francesco-age-at-urba
 **复用规则与当前队列。** 9,049条原样断言沿用既往实际阅读，原报告的开放问题仍保留；不对它们仅为恢复计数而重新通读。mention按稳定ID比较，记录新增、改映和删除，相关差异定向核对；段内新增mention不会被自动声称为旧审读已覆盖。488条改版中185条已有本轮当前版通过结果，余303条进入`needs_delta_review`，不再重复排入完整旧章审读。当前15,504行清单为：`reviewed_current_pass`313（238独立、75主审）、`prior_review_mapped_open`8,931、`needs_delta_review`303、`needs_crosswalk`5,957。清单以`reconstructed_member`或`not_in_reconstructed_count`明确历史成员资格，后者不代表从未审读；第3章、第10–12章、较早第8章sec_ii及后补审读等未计入该累计的证据仍可另行复用。历史映射完成不清除原有语义问题，不把9,539或9,049改称接收数。
 
 **可复现写回。** 预览完整校验9622事件及全部当前ID，plan SHA-256=`1139047ee0337b813f5c9fc174433ff049cc2591c8c1230bf8358d98ad50c9ed`；核对后以`--apply --expect-plan`写回。事件CSV SHA-256=`ceb6584b53a9b666c3b241acdc8aa41f060ce4256671f84e5e71a7d061bd819a`，核平后清单SHA-256=`b1cf7e81d29fa8db3589398f1b2355ed3e1f8bcdad9f963813dfbfbd8fafe7ff`。本次未改S0、S2语义表、S3决定、KU、字段或关系；接下来从第2章L45继续连续原文批次，复用已读依据并处理尚存发现，每批以100个现有ID为上限记录完成量及余量。
+
+<a id="2026-11-01-s2-current-review-b005-ch2-sec-iv-p47-49-l45-73"></a>
+### 2026-11-01 S2当前版B005：第2章sec_iv印刷pp.47–49、L45–73
+
+**批次已逐ID审查100条：27条主审通过，73条待处理。** 以当前逐ID roster为准，连续正文范围包括p.47 L45–52的28条、p.48 L54–63的35条、接在相关页文后的pp.47–48注释15条，以及p.49 L65–73前22条正文statement（截至`st-chp2-seciv-l65-77-enzo-procures-dosso-works-1608`）。下一条从p.49 L74“Enzo in charge of Ludovisi palaces”继续。100条的`review_batch_id`、`review_outcome`、当前状态和逐ID原因已写回`s2-current-review-roster.csv`。
+
+**版本与来源复用。** 98条历史末版对象与当前statement完全相同，复用已有独立审读报告的逐条发现，不重复重读未变断言；其中已标出的开放问题继续开放。1条`st-chp2-seciv-l45-52-bernini-restored-s-bibiana`在历史审读后新增OCR更正，已对照印刷p.47确认“only restored”，仍因statement mention数组缺失而挂起。另1条`st-chp2-seciv-l65-77-giovanni-letter-authored-by`不在9,622累计中，本批据当前正文和印本首次核读；信件日期、标题及收件人未提供，继续待身份映射。对应历史事件的来源版本全部匹配；CHP-2.pdf SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`。印刷pp.47–50图像用于核对本批边界、引文和上下文。
+
+**通过与待处理。** 27条通过项均保留有据的claim、限定和statement级mention映射；均为本轮主审结果，不冒称独立复核。73条待处理项包括67条当前statement缺少`mentioned_candidate_ids`，须依各自claim逐条补映，不复制整个segment的mentions；另6条虽已有映射，仍有端点类型或谓词/角色问题：`st-chp2-seciv-l54-63-barberini-palace-departure-from-tradition`、`...-guido-missions-shape-taste-and-writings`、`...-enzo-post-created-by-pope`、`st-chp2-seciv-l65-77-claude-romantic-treatment-reported`、`...-bentivoglio-family-papal-art-patronage`、`...-borghese-palace-decoration-by-unnamed-artists`。每条其余待处理行的原因写在roster `follow_up_note`。
+
+**关键判断及下游边界。** `cand-1479`被来源明确称为Carlo Maderno（建筑师），当前候选却为`work`；涉及Maderno的正文端点不能按当前类型通过，应回开该S1候选并核查其现有alignment及相关statement。Taddeo“预计建立王朝”不是已实现的亲缘边；precedence claims的提出/抵抗者不明；Valmontone句是带买方与财产角色的交易，不能压成家族→地点；Ferrara的1598转属不能以城市地理候选代替政治实体。Bentivoglio正文称来自Ferrara而同页注释称家族源自Bologna、重要支系长期在Ferrara，保留来源内部差异。Ippolito支持的是未指明的继承主张，不是Cesare本人。Claude画面处理、宫殿象征及Guido肖像描述属于Haskell解释，不提升为人物/宫殿formal关系。Dosso Dossi在“works by Dosso Dossis”中是作者角色，作品组端点未识别；未名教宗、additional decorators及特殊外交post也保留其群体/类型缺口。S2表、mentions、S1候选表、S3决定、KU和formal relations本批未改；缺失端点与不受控谓词不强行建边。
+
+**清单与余量。** 本批100/100已记录裁决（主审pass 27、pending 73）；B001–B005现有当前版主审/独立通过合计340条（其中独立238、主审102），另有73条本批已阅待处理。当前15,504条清单状态为`reviewed_current_pass` 340、`reviewed_current_pending` 73、`prior_review_mapped_open` 8,833、`needs_delta_review` 302、`needs_crosswalk` 5,956。尚未完成当前版主审的ID为15,091条；再加B005已阅待处理73条，当前仍有15,164条未达到主审通过。全书S2仍未独立接收。

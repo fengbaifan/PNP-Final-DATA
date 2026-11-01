@@ -226,7 +226,10 @@ def main() -> None:
         ref = RELATIVE_LEDGER + "#" + event["history_event_id"]
         row["history_9622_evidence_ref"] = ref
         row["prior_review_match"] = "exact_object_and_source_segment" if event["current_statement_match"] == "exact" and event["current_source_match"] == "true" else "historical_object_or_source_differs"
-        if row["current_review_status"] != "reviewed_current_pass":
+        if row["current_review_status"] not in {
+            "reviewed_current_pass",
+            "reviewed_current_pending",
+        }:
             row["current_review_status"] = "prior_review_mapped_open" if row["prior_review_match"] == "exact_object_and_source_segment" else "needs_delta_review"
             row["prior_review_ref"] = ref
             row["follow_up_note"] = "Historical direct reading is reusable for unchanged content; retain recorded open findings. Review only statement/source/mention deltas. Reconciliation does not grant semantic acceptance."
