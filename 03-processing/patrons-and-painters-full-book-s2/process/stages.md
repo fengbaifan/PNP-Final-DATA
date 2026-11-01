@@ -15233,3 +15233,14 @@ S6影响：原址、后续报告位置、替代关系、Ferdinand购画、早年
 p.92 `st-chp3-seciv-l165-177-duke-refused-tribune-permission`自该复核快照后仅变更`qualifiers.relation_candidate_note`：将“人物身份未决”改为依据Haskell索引F.csv#12确认Ranuccio II，同时保留正式关系谓词及拒绝决定范围未定。该更正回应了独立复核指出的问题，但当前完整statement对象与复核对象不同，因此不能把旧复核结果转记为当前版本PASS；此字段及当前statement仍须独立回核。相关claim、quote、candidate端点、mention、S0 segment、Markdown与PDF均未变。
 
 p.92两条statement继续保持process-only pending，没有对应formal或rejected关系；旧statement ID `st-chp3-seciv-l165-177-letters-carried-complaints-to-duke`为稳定引用键，不是信件传递投诉给公爵的证据。历史9,622成员名册仍未恢复，以上当前版核对不证明任何版本是否曾计入其分子；本批不调整历史数，不接收第3章或全书S2。
+
+<a id="2026-11-01-s2-independent-current-review-ch3-p92-after-note-revision"></a>
+### 2026-11-01 第3章 p.92 关系说明修订后的当前版本独立复核
+
+独立复核者在当前HEAD `8784dc31727f261a2ebe7c720fae7918514a161a`直接核对`CHP-3.pdf`印刷p.92／物理p.34、当前S0、F.csv及两条statement。S0 Markdown SHA-256为`0b2a3412f679bc74e0427612522dad0df1ad9386e941f7646a6983dc76132aed`，PDF为`362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`，F.csv为`746710c8b4f91bb2bfc6d4659181e0c954f02be77326ba6be200b11b5b036b44`。
+
+`st-chp3-seciv-l165-177-duke-refused-tribune-permission`当前版PASS：引句与claim限定为Haskell所述；`Duke of Parma` mention `[674,687)`精确，cand-0997经F.csv#12支持为Ranuccio II。关系说明现准确区分身份已定与拒绝许可的受控谓词、具体范围仍未定，故继续process-only pending；`relations.csv`没有为该claim建formal边。
+
+`st-chp3-seciv-l165-177-letters-carried-complaints-to-duke`当前claim、quote、mentions和开放端点判断PASS。原文分别称签名匿名信件到达未具名的负责神父，以及公爵随后被告知传言；不证明这些信件把投诉送给公爵，也未识别告知者。四处mention跨度（`Letters, signed and anonymous` `[1066,1095)`、`the unfortunate father in charge of the arrangements` `[1110,1162)`、`Duke of Parma` `[1168,1181)`、`the church` `[1196,1206)`）精确；subject保持空，来源不足以建formal边。其stable statement ID易被误读为因果事实，但它只是技术引用键；不改键、不把它作为事实标签。两条p.92 statement均无`relations.csv`行，`rel-2504 addressed_to`属于p.80–81另一封书信，不受影响。
+
+历史版本方面，`knowledge.md`记录上述两条当前版本不计入9,622；基线旧对象端点为cand-4905，当前版为cand-0997，缺少逐ID台账，不能判定旧版本是否曾计入。此次当前版PASS不调整9,622，也不构成第3章或全书S2接收。

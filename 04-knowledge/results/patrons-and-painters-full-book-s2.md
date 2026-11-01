@@ -6,7 +6,9 @@
 
 **2026-11-01 S2第7章 p.189版本回映：** 独立复核报告初始44条与后续5条当前statement复核记录之间有3个同ID改版、2个新增ID；当前46条statement、95条对应mention及原页来源版本均与9,622基线相同。`rel-1748`、`rel-1749`及后续`rel-2056`–`rel-2059`当前均为formal且范围符合书内证据。本批版本映射不调整9,622汇总；全局逐ID／来源版本名册仍未恢复。详见[第7章 p.189历史版本回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch7-p189-version-batch)。
 
-**2026-11-01 S2版本差异复算：** 以历史基线提交`1a6313c8654280a9b71187fc08522098626e734e`为对照，statement基线15,451条、当前15,488条；15,450个ID共有，其中15,313个完整对象未变、137个同ID对象变化、38条当前新增、1条删除。mention基线26,870条、当前27,026条；26,849个ID共有，其中26,818行未变、31行变化、177条当前新增、21条删除。该版本差异不能代替9,622条历史复核逐ID／来源版本名册，故不据此重算历史复核数。分章差异和下一步核对规则见[过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-id-diff-from-review-baseline)。
+**2026-11-01 S2版本差异复算：** 以历史基线提交`1a6313c8654280a9b71187fc08522098626e734e`为对照，statement基线15,451条、当前15,494条；15,450个ID共有，其中15,310个完整对象未变、140个同ID对象变化、44条当前新增、1条删除。mention基线26,870条、当前27,044条；26,849个ID共有，其中26,818行未变、31行变化、195条当前新增、21条删除。该差异不能代替9,622条历史复核逐ID／来源版本名册，故不据此重算历史复核数。当前版本差异与来源核对见[最新过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-delta-recompute-after-ch8-p237)。
+
+**2026-11-01 第3章 p.92 当前版独立复核：** 拒绝tribune许可与公爵获知传言两条statement及相关mentions通过；身份指向Ranuccio II有F.csv#12支持，关系仍因谓词/告知者端点不足而pending。稳定ID保留为技术键，不当作事实。两条当前版本不计入9,622；本批不接收第3章或全书S2。详见[独立复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch3-p92-after-note-revision)。
 
 **2026-11-01 S2历史计数成员回映：** 第7章 p.193–199有31条statement已独立复核，报告明确暂不计入当时9,400汇总；这些ID在当前表的完整对象与复核快照一致。9,622历史台账仍缺逐ID名册，故这31条的全局成员归属暂不作加减。该页段后来新增的两条`has_subject` statement从未纳入原审读范围，过程记录明确其未独立复核；对应 `rel-1904`、`rel-1905` 维持当前formal裁决，不由本次台账核平改动。详见[S2历史汇总核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch7-p193-199)。
 
@@ -4040,7 +4042,7 @@ S3纯`undecided`候选、纯未决直接关系端点及S4待登记直接关系�
 **2026-11-01 第8章 p.238 六条地点mention补录与独立复核：** 当前正文segment补录3处Bologna、2处Florence及1处Pratolino span，全部经原页独立复核PASS。既有same/new对齐与KU映射不变；`rel-1447 located_at`仍formal且范围未扩大，其他相关边不构成旅行关系。严格表与关系一致性检查通过；当前mentions为27,021条。9,622历史台账不调整，不接收p.238整页或全书S2。详见[阶段记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch8-p238-place-mentions)。
 
 
-**2026-11-01 第8章 p.237 注3指代修复：** 收窄3条statement并补6条拆分statement、18条精确mention；source span逐项核对S0。5项S3理由更新为“锚点补齐、身份仍未决”，决定/KU不变；cand-8022仍new待S4。S6复用rel-1617并扩展证据至p.237 Zanotti II p.44，其余8项pending；不新增或撤销formal边。9,622历史台账不调整，本批不构成独立S2接收。当前预计15,494 statements、27,044 mentions。详见[阶段依据](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch8-p237-note3-referents)与[关系裁决说明](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s3-s6-ch8-p237-note3-referent-repair-20261101)。
+**2026-11-01 第8章 p.237 注3指代修复：** 收窄3条statement并补6条拆分statement、18条精确mention；source span逐项核对S0。5项S3理由更新为“锚点补齐、身份仍未决”，决定/KU不变；cand-8022仍new待S4。S6复用rel-1617并扩展证据至p.237 Zanotti II p.44，其余8项pending；不新增或撤销formal边。9,622历史台账不调整，本批不构成独立S2接收。当前表审计确认15,494 statements、27,044 mentions。详见[阶段依据](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch8-p237-note3-referents)与[关系裁决说明](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-s3-s6-ch8-p237-note3-referent-repair-20261101)。
 
 
 **2026-11-01 直接关系端点待办同步：** 随p.237注3修复，将cand-0877、cand-8023、cand-8025、cand-8026、cand-12103身份待决及cand-8022待S4登记共6项写入candidate-backlog；六项均显式标记undecided，不在此批建KU。台账由93增至99项，其他未决边保持pending。
