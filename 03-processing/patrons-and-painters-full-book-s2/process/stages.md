@@ -15477,3 +15477,13 @@ B003对六条候选修正实体关系判断：年龄属性`francesco-age-at-urba
 **待处理分布。** 87条statement缺mentioned_candidate_ids，另1条数组为空；这88条逐行记录了按claim补映的动作。另12条有非空数组，4条映射/claim通过，8条仍有端点或语义问题。主要未决：Antonio—Sacchi委托地点与Haskell/Passeri说话层级、Sacchi保存modelli的would模态、Antonio对宫殿责任与Sacchi顾问角色、joust取消/继续与匿名Polish prince、1642卷册内容及图书馆归属、Taddeo仪式画作和未名家族/领地、oldest families的群体边界、Tessin账户与档案分区、Bouchard跨页首演叙述、pages/castrati女性角色范围、Rospigliosi/Poussin/Claude比较及三幅画委托不确定性。Plate captions仍只视作印本归属/题名；不提升为独立制作、历史事件或收藏关系。详细历史问题逐ID沿用s2-independent-review-chp1-2-4-20261020.md第2章p.55–57记录；roster为本批每个ID保存当前去向和待办。
 
 **裁决边界与余量。** 100/100均有主审状态（4 pass、96 pending），未做独立语义接收。p.55–57缺作品、群体或关系端点时保持pending；本批未改statement/mention、S1候选、S3、KU或relations。当前清单为pass 354（独立238、主审116）、pending 360、历史精确复用开放8,549、版本差异待处理293、历史证据映射/当前复核待办5,949；共15,505条。未达到当前版主审通过15,151条，其中14,791条尚未进入当前版批次，360条已审待处理。全书S2仍未独立接收。
+
+
+<a id="2026-11-01-s2-current-review-b009-ch2-p57-60"></a>
+### 2026-11-01 S2当前版B009：第2章印刷pp.57–60
+
+**本批100条逐ID裁决已记录：主审通过0条、待处理100条。** 按连续原文覆盖p.57余下21条（从Camassei之后的Gimignani续至本页注释）、p.58共37条、p.59共27条，以及p.60 L21–30正文前15条。下一条从p.60接续 `st-chp2-secvii-l21-30-francesco-begins-tapestry-project-fragment`。每条的当前状态、批次、证据锚点及待办理由均已写入`s2-current-review-roster.csv`。
+
+**历史复用与版本差异。** 本批100条中85条的statement与历史末版及S0来源段/PDF精确一致，复用旧逐条审读，不重读；其中26条所在segment的mention集合另有变化，差异已保留在逐ID台账，没有把同段mention改动自动归给每个statement。另7条同ID对象变化，逐项对照了当前印本；8条无精确历史事件映射，已首次对照当前原页。印刷p.57–60原文与PDF物理页46–49核对，`CHP-2.pdf` SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`。100条均缺`qualifiers.mentioned_candidate_ids`；故即使原文claim可核实，也须完成逐claim的候选提及映射并处理历史开放发现后才能通过。未补造缺失端点。
+
+**当前版本余量。** B009本批100/100均已有主审去向（0 pass、100 pending）。全书15,505条当前statement的逐ID清单现为pass 354（独立238、主审116）、已审待处理460、历史精确复用但保留开放发现8464、待差异复核286、待历史回映或当前复核5941。未达到主审通过的statement共15151条：其中460条已有当前批次结论但仍待处理，另有14691条尚未进入B001–B009当前逐批裁决。statement/mention数据表和下游关系本批未改；全书S2未独立接收。
