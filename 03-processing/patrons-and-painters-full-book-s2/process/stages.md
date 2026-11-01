@@ -15915,3 +15915,10 @@ PASS仅限当前S2来源忠实度；`cand-6146`反西班牙平民及`cand-6147`�
 **批次结果：100条；2条当前版原页复核PASS，98条精确历史复用并保留开放发现。** 原书02-sources/01-book/CHP-6.pdf，SHA-256=de7a3546edcc8b992a1720341690b142d9f96d04fd6ba5374e5733e6167ac258；打印p.153（PDF物理8）L80支持Alexander VII作为德国教廷使节徒劳抗议1648年和约、理由为未顾及教宗利益。该陈述已从原先将“结束三十年战争”并在同一claim中收窄；同句的结束战争命题现作为新statement 6235独立记录，印本明确说1648和约结束三十年战争。两条当前版均完成原页核读；6233仍与历史对象不同，旧审读事件的哈希和开放发现保留；6235不在9,622历史事件中，不补造历史回映。
 
 S6既有判断不变：6233对抗议的受控谓词仍pending；6235的事件终结谓词“ended”不在受控词表，仍pending。无formal关系写入。其余98条statement对象、来源段版本及来源版本均与历史精确相符，segment mention delta=0；复用原阅读，既有开放发现不记当前PASS。 应用后全表审计`errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
+
+<a id="2026-11-01-s2-current-review-b048-ch6-p148-n2"></a>
+### 2026-11-01 S2当前版逐ID复核 B048：CHP-6 p.148脚注2（顺序6304–6403）
+
+**批次结果：100条；2条当前版原页复核PASS，98条精确历史复用并保留开放发现。** 原书02-sources/01-book/CHP-6.pdf，SHA-256=de7a3546edcc8b992a1720341690b142d9f96d04fd6ba5374e5733e6167ac258；打印p.148（PDF物理3）脚注2直接核对statement 6361与6362。脚注将四河喷泉与其后列明的Bernini对Innocent X的重要委托分开；列举君士坦丁骑马像和一组肖像胸像。6361当前版本把新拆出的骑马像委托映射为作品→委托者，保留“only important”限定；其历史审读哈希及开放发现不变。6362是无9,622历史映射的新statement，当前原页核读支持“Besides the Fountain”所表达的喷泉另属委托；对应既有formal关系rel-1871不变。rel-1851（骑马像 commissioned_by）同样维持formal；两边均不推断完成或确切日期。
+
+原文引句仍逐字对应S0 OCR“die Fountain”，印本读法“the Fountain”继续只记在ocr_corrections；S0和原始引句不改。其余98条对象、来源段及来源版本精确匹配历史，mention delta=0；复用历史直接阅读并保留未结发现，不计当前PASS。 应用后全表审计`errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
