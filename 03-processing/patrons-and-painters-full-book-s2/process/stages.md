@@ -15099,3 +15099,10 @@ st-chp8-p239-venetian-emphasis
 | **合计** | **137** | **38** | **1** |
 
 后续逐章把独立复核材料映射到完整当前statement对象及其S0来源版本；仅有statement ID或批次总数不足以核定版本成员。新增、修订及无成员名册的记录继续标明待证，直到原复核材料或当前版独立回核提供逐项依据。
+
+<a id="2026-11-01-s2-independent-review-ch10-p279-p281-relations"></a>
+### 2026-11-01 第10章 p.279–281 S2／S6 独立复核与待证账本缺口
+
+独立复核者在当前HEAD `154b7665d37742a66181d5e6871a94a8718a73f5` 重查6条statement、当前S0与 `CHP-10.pdf` 印刷页279、280、281。PDF与S0 SHA-256分别为 `c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`、`f912dba9e5c8460538222c57d32c3734d0c23c72cb32a0871b50b6901ce9e27f`，与定向记录相符。六条引句及所列mention跨度均通过；`rel-2433`、`rel-2436`、`rel-2437`为rejected，`rel-2434`、`rel-2435`及`rel-2531`–`rel-2538`的方向和端点均相符；没有其他历史S6裁决受影响。本项不构成第10章或全书S2接收。
+
+**待核平的S6记录缺口：** `st-chp10-p281-english-support-venetian-painters`仍为 `relation_candidate=true`，S2与过程判断均保持pending，但 `relations.csv`没有对应pending行。原文没有具名支持者；`cand-8948`是term，`cand-8949`尚无KU，谓词 `supported_by` 不接受term作为domain，而England只是叙述语境。当前表要求主客体均为有效KU且通过域值域校验，因此不能添加空端点、错误类型端点或不忠实谓词行。保留来源判断为pending，不建立formal边；此缺口须在S6收口前解决为可验证的待证台账表示，不能记作已完成。本批不改变9,622历史S2复核汇总。
