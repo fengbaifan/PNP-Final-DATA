@@ -15814,3 +15814,36 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 **指代、对象和关系。** 印本写作“Simonelli ... outside the main stream ... Castiglione whose publisher dedicated to him a fine print of Diogenes searching in vain for one honest man.”当前statement原句及mention span准确，`cand-6022`对应该具体版画、`cand-0602`对应Castiglione人物；S3/S4现有分别映到作品KU `units/works/castiglione-print-diogenes-honest-man` 与人物KU `units/persons/giovanni-benedetto-castiglione`，不混为同一对象。发现creator statement原claim把创作者归属与题献合写，已收窄为“Haskell将《Diogenes》版画归为Castiglione作品”；相邻的`st-chp5-p124-simonelli-castiglione-print`单列题献给Simonelli，避免一个claim重复承担两种关系。谓词方向依relation types规定为work→person，既有`rel-2246 created_by`和`rel-2234 dedicated_to`分别与两个statement对齐，均不改状态或证据。未独立检查版画本体；只记Haskell书内归属。本批不改S3决定、KU或`relations.csv`。
 
 **批后状态。** 当前statement/mention为15,505/27,056；当前PASS 1,616（独立当前版246、当前主审1,370），待处理552，历史映射开放发现8,371，待差异复核234，待回映或当前复核4,732，未达PASS 13,889。该新增主审的statement不在9,622重建事件内，历史核平分母和匹配数不变。下一批从顺序5104开始；S2仍未独立接收。
+
+
+<a id="2026-11-01-s2-current-review-b036-ch5-l51-l83"></a>
+### 2026-11-01 S2当前逐ID B036：第5章原文连续顺序5104–5203
+
+**批次与复用。** 当前Markdown文件顺序5104–5203连续100条，均与唯一9,622历史事件、来源段及mention版本精确相同，直接复用历史阅读；逐ID保留历史开放发现，不重复阅读或计当前PASS。批次100/100：历史开放复用100，当前版PASS 0，待处理0。范围由`chp-5:05_CHP-5_sec_i:l51-58`、`l60-74`及`l76-83`连续构成。
+
+**批后状态。** 当前PASS仍为1,616，未达PASS 13,889；statement与mention总量不变。下一批顺序5204开始；S2仍未独立接收。
+
+<a id="2026-11-01-s2-current-review-b037-ch5-p129-exhibitions"></a>
+### 2026-11-01 S2当前逐ID B037：第5章原文连续顺序5204–5303
+
+**批次与历史复用。** 当前Markdown文件顺序5204–5303共100条。85条statement与历史statement及来源段版本精确匹配且不受mention增补影响，复用历史阅读并保留开放发现。另14条statement引用了候选`cand-0130`、`cand-11790`、`cand-11791`或`cand-11794`，涉及同一L99–106 segment新加的6条mention；逐项对照原页复核。另复核顺序5272的OCR字段。共15条当前版PASS、85条历史开放复用，处置100/100、待处理0。
+
+**原页与当前statement修订。** 对照`CHP-5.pdf`印刷p.129、PDF物理p.10；该页6个新增mention span逐一通过当前segment切片。14条受mention影响statement保留source-bounded范围：“all of them”不裁定是否包括偶发展览；四个常设年度展览作为未逐一识别的组，不展开为个别展览；“art of alien cultures”保持Haskell的宽泛类别，不补造作品或文化实体。扫描发现S0 L101 `sit of patriotic enthusiasm`印本为`fit`，在5272仅补`ocr_corrections`，原quote保持S0读法。顺序5290的current claim原已存在且与印本相符，保留“常设展览无以展示新作为主要目的，其中一些刻意排除此机会”的限定，不改statement。
+
+`H9622-03556`（5272）的历史`review_statement_sha256`及`historical_outcome`保持不变；仅更新current hash/match为changed，明确表示现版与旧审读对象不同。5290的历史对象仍精确匹配。当前PASS仅确认S2陈述、校读与提及；未解决身份及关系发现继续留在历史事件或相应下游记录。本批未改`relations.csv`或任何正式关系裁决。
+
+**历史核平与批后状态。** 历史事件当前匹配重算为事件级9,120 exact、500 changed、2 absent_current；按旧ID最新事件去重为9,047 exact、490 changed、2 absent；9,620个有当前statement ID的历史事件来源版本仍全部match。当前PASS 1,631（独立当前版246、当前主审1,385），待处理552，历史映射开放发现8,356，待差异复核234，待回映或当前复核4,732，未达PASS 13,874。下一批顺序5304；S2仍未独立接收。
+
+<a id="2026-11-01-s2-current-review-b038-ch5-l108-l147"></a>
+### 2026-11-01 S2当前逐ID B038：第5章原文连续顺序5304–5403
+
+**批次与复用。** 当前Markdown文件顺序5304–5403连续100条，当前statement、来源段及mention版本均与唯一历史事件精确匹配；没有mention增删改触及本批statement。100条复用历史直接阅读，保留所有开放发现；新增当前PASS 0，待处理0。
+
+**批后状态。** 当前PASS 1,631，未达PASS 13,874；当前statement/mention 15,505/27,056。下一批顺序5404；S2仍未独立接收。
+
+<a id="2026-11-01-s2-current-review-b039-ch5-end-sec-i-and-sec-iii"></a>
+### 2026-11-01 S2当前逐ID B039：第5章原文连续顺序5404–5503
+
+**批次与复用。** 当前Markdown文件顺序5404–5503连续100条，均与唯一历史事件及来源段精确相同；mention版本相同。100条全部复用历史阅读并保留开放发现；新增当前PASS 0，待处理0。范围连续经过第5章第I节末段及第III节`l3-34`。
+
+**批后状态。** 当前PASS 1,631，未达PASS 13,874；当前statement/mention 15,505/27,056。下一批顺序5504；S2仍未独立接收。
