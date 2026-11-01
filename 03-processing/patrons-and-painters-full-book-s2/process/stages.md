@@ -15847,3 +15847,16 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 **批次与复用。** 当前Markdown文件顺序5404–5503连续100条，均与唯一历史事件及来源段精确相同；mention版本相同。100条全部复用历史阅读并保留开放发现；新增当前PASS 0，待处理0。范围连续经过第5章第I节末段及第III节`l3-34`。
 
 **批后状态。** 当前PASS 1,631，未达PASS 13,874；当前statement/mention 15,505/27,056。下一批顺序5504；S2仍未独立接收。
+
+<a id="2026-11-01-s2-current-review-b040-ch5-p135-p137"></a>
+### 2026-11-01 S2当前版逐ID复核 B040：CHP-5 p.135、p.137（顺序5504–5603）
+
+**批次结果：100条；31条当前原页复核PASS，69条精确历史复用但保留开放发现。** B040核平连续原文顺序5504–5603。其余69条的当前statement、来源段和mention指纹均与9,622历史事件精确匹配，复用既有阅读记录，不重复重读、不计当前PASS。
+
+当前原页复核31条：顺序5510及5574–5603。权威原书`02-sources/01-book/CHP-5.pdf`，SHA-256=`f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`。打印p.135（PDF物理页16）显示Haskell称Swanevelt拥有两幅Van Laer作品；页下注3进一步记作Swanevelt对Catalano偷画的指控，不能升级为经裁决的盗窃事实。顺序5510的历史review statement hash保持不动；当前版本相对历史只增加了`footnote_refs`中的一条citation statement引用，claim、quote、predicate、端点和来源段不变，故复核当前声明而保留证据范围。下注指向的独立引文statement顺序5772仍为`needs_crosswalk`，不在本批提前计PASS。
+
+打印p.137（PDF物理页22）逐条核对顺序5574–5603：目前30条claim与原文叙述的指代、否定、程度词、时间、群体和作品卷册范围相符。新增mention `Alessandro Farnese’s campaigns`（候选`cand-11927`，offset 279–309）及`and others`（候选`cand-11930`，offset 172–182）均与当前段原文字符跨度完全一致；后者仍是不具名、开放且未定类型的群体，不从中推造成员或关系。
+
+关系影响：复核涉及现有`rel-2450`–`rel-2455`和`rel-2557`的来源范围；原文继续支持既有的插图合作、作者、战役参与／地域及作品题材边界，本批未改`relations.csv`。`rel-1764`仍只表达Haskell的书目引用，不代表独立核验Bertolotti原书或pp.127 ff.。不在本批重裁S3身份映射或S6历史裁决；未具名的其他合作者不并入任何已登记正式边。
+
+逐ID PASS范围仅是当前S2来源忠实度和mention映射；citation来源限制、身份对齐、下游关系以及此前开放发现按原记录保留。原书图像：打印p.135/PDF物理16及打印p.137/PDF物理22；来源资产与历史review哈希均留存。
