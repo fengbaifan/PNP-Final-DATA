@@ -15043,3 +15043,47 @@ st-chp8-p239-venetian-emphasis
 同一正文segment另有六处明确地点span此前未录入：`m-chp8-p238-body-bologna-return-february`→`cand-3398`（`Bologna` `[196,203)`）、`m-chp8-p238-body-bologna-patrons`→`cand-3398`（`Bologna` `[733,740)`）、`m-chp8-p238-body-bologna-return-november`→`cand-3398`（`Bologna` `[2827,2834)`）、`m-chp8-p238-body-florence-return-1709`→`cand-3397`（`Florence` `[2102,2110)`）、`m-chp8-p238-body-florence-third-visit`→`cand-3397`（`Florence` `[2882,2890)`）及`m-chp8-p238-body-pratolino-villa`→`cand-7838`（`Pratolino` `[2176,2185)`）。六个跨度均与S0 segment SHA-256 `4851272f69e09219355eb926cb06e76ed40d459db5efebd44dc83df1e9ebfacb`对应的当前文本精确相符。
 
 既有S3/S4决定保持不变：`cand-3398`复用Bologna KU，`cand-3397`复用Florence KU，`cand-7838`沿用Pratolino新增组及已登记KU。`rel-1447 located_at`仍formal，只表达Crespi于1709年在Ferdinand别墅停留数月，不推出所有权；其他关系行未改。Statement claim和限定未改，9,622历史复核分子不变。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断项为0。写后独立复核者对照当前S0与CHP-8印刷p.238／PDF物理页44，六条span全部PASS；`rel-1446`也只记录Ferdinand与Pratolino的位置关系，`rel-2394 cites`及`rel-2395 part_of`属于回Bologna信件及档案定位，不是旅行边。没有现有边需要更改，也未把“possible third visit”正式化为已发生行程。本次独立核查只覆盖六条mention及其直接S3/S6影响，不代表p.238整页或全书S2接收。
+
+<a id="2026-11-01-s2-current-review-ch8-p238-nativity-recipient"></a>
+### 2026-11-01 S2第8章 p.238 Nativity抵达断言与收件指代修正
+
+依据 `CHP-8.pdf` 印刷p.238／PDF物理页44（SHA-256 `cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`）回核S0 segment `chp-8:08_CHP-8_sec_ii:l327-336`（SHA-256 `4851272f69e09219355eb926cb06e76ed40d459db5efebd44dc83df1e9ebfacb`）。原页先称Crespi保持与Ferdinand的联系，继而写“he began sending pictures to his new patron—a Nativity arrived early in March”。此前 `st-chp8-p238-nativity-and-selfportrait-sent` 的claim把开始寄送图片与Nativity抵达合写；谓词和作品端点只表达抵达。
+
+现将claim收窄为“After Crespi returned to Bologna, a Nativity arrived early in March.”；qualification保留原句的寄送上下文，并将“his new patron”明确回指本句早先出现的Ferdinand。补录5条当前segment mention：Ferdinand `[66,75)`、the latter `[83,93)`、he returned `[181,192)`、he began sending `[234,250)`、his new patron `[263,277)`；既有Nativity span `[278,288)`保持不变。五处切片均以当前S0文本逐项断言，候选分别映射至既有Crespi与Ferdinand人物候选。
+
+关系影响：`cand-0883` Nativity仍为S3 `undecided`、无KU；不得因索引题名和此处发送语境臆定具体作品身份。原文支持的作品`sent_by`候选因作品端点未登记而保持待证。收件角色已识别为Ferdinand，但当前谓词表没有忠实表达该发送收件事实的正式关系；不以“赠与”或“委托”替代，也不新增formal边。`relations.csv`无该statement的历史裁决行；`rel-0706`仍是另一幅Fair作品与Uffizi之间的pending裁决，不受影响。S3/S4和9,622条S2历史复核数不变。
+
+独立复核者对照CHP-8印刷p.237–238（物理页43–44）、当前S0 segment、statement、五条mention及S3/S4/S6后回核为PASS：p.237语境支持he为Crespi，p.238的Ferdinand、the latter、his new patron指向`cand-1609`，两处Crespi代词指向`cand-0871`；五个跨度全部精确。`cand-0883`仍S3 `undecided`、无KU；无该statement的`relations.csv`裁决行。`rel-1497`–`rel-1499`是p.238 L332其他作品寄送边，`rel-1447`是L334 Pratolino停留边，`rel-2392`是注1档案定位，均不移用于Nativity。`sent_by`只表达寄件人，赠与或意图受赠谓词不忠实表达此处收件角色；没有formal边需要改动或历史裁决需要迁移。原书信件未查，本次不代表p.238全页或全书S2接收。
+
+<a id="2026-11-01-s2-current-id-diff-from-review-baseline"></a>
+### 2026-11-01 S2历史复核基线至当前statement版本差异复算
+
+从历史基线提交 `1a6313c8654280a9b71187fc08522098626e734e` 读取 `book-statements.jsonl`，按 `statement_id` 对完整JSON对象作当前版本逐项比较。基线有15,451条，当前有15,488条；15,450个ID共有，其中15,313个对象未变、137个对象变化；当前新增38条，基线删除1条。此为完整对象版本差异，不等同于独立复核成员清单，也不证明某一当前版本已包含在9,622条历史汇总中；因此不调整9,622计数。
+
+同一提交的 `mentions.csv` 以 `mention_id` 比较完整行：基线26,870条，当前27,026条；26,849个ID共有，其中26,818行未变、31行变化；当前新增177条，基线删除21条。两张表的差异只界定从该快照以来的版本变动；是否被历史9,622复核覆盖，仍须逐项回映到相应独立审读快照及来源segment版本。
+
+按statement segment的章号分组：
+
+| 章／来源组 | 同ID对象变化 | 当前新增 | 基线删除 |
+|---|---:|---:|---:|
+| 第1章 | 1 | 0 | 0 |
+| 第2章 | 8 | 8 | 1 |
+| 第3章 | 5 | 1 | 0 |
+| 第4章 | 15 | 0 | 0 |
+| 第5章 | 2 | 0 | 0 |
+| 第6章 | 2 | 1 | 0 |
+| 第7章 | 6 | 1 | 0 |
+| 第8章 | 23 | 10 | 0 |
+| 第9章 | 1 | 0 | 0 |
+| 第10章 | 13 | 11 | 0 |
+| 第13章 | 2 | 2 | 0 |
+| 第14章 | 3 | 0 | 0 |
+| 第15章 | 40 | 0 | 0 |
+| 第17章 | 5 | 0 | 0 |
+| 第18章 | 4 | 2 | 0 |
+| 第20章 | 5 | 2 | 0 |
+| 第21章 | 1 | 0 | 0 |
+| 前置材料 | 1 | 0 | 0 |
+| **合计** | **137** | **38** | **1** |
+
+后续逐章把独立复核材料映射到完整当前statement对象及其S0来源版本；仅有statement ID或批次总数不足以核定版本成员。新增、修订及无成员名册的记录继续标明待证，直到原复核材料或当前版独立回核提供逐项依据。

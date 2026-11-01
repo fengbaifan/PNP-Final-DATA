@@ -27689,3 +27689,8 @@ m-chp8-p238-body-bologna-return-november,chp-8:08_CHP-8_sec_ii:l327-336,cand-339
 m-chp8-p238-body-florence-return-1709,chp-8:08_CHP-8_sec_ii:l327-336,cand-3397,Florence,2102,2110,Florence is named as Crespi's return destination in 1709; identity reuses the existing Florence place KU.
 m-chp8-p238-body-florence-third-visit,chp-8:08_CHP-8_sec_ii:l327-336,cand-3397,Florence,2882,2890,Florence is named in Haskell's explicitly possible third-visit statement.
 m-chp8-p238-body-pratolino-villa,chp-8:08_CHP-8_sec_ii:l327-336,cand-7838,Pratolino,2176,2185,Named location of Ferdinand's villa; existing rel-1447 remains limited to Crespi's reported 1709 stay and does not assert ownership.
+m-chp8-p238-ferdinand-connection,chp-8:08_CHP-8_sec_ii:l327-336,cand-1609,Ferdinand,66,75,Named recipient and patron in the sentence introducing the relationship with Crespi.
+m-chp8-p238-ferdinand-latter-coref,chp-8:08_CHP-8_sec_ii:l327-336,cand-1609,the latter,83,93,"Coreference to Ferdinand, the second person in the preceding comparison."
+m-chp8-p238-crespi-returned-coref,chp-8:08_CHP-8_sec_ii:l327-336,cand-0871,he returned,181,192,Coreference to Crespi; marks his return to Bologna before the pictures were sent.
+m-chp8-p238-crespi-began-sending-coref,chp-8:08_CHP-8_sec_ii:l327-336,cand-0871,he began sending,234,250,Coreference to Crespi; identifies the sender in the source clause.
+m-chp8-p238-ferdinand-new-patron-coref,chp-8:08_CHP-8_sec_ii:l327-336,cand-1609,his new patron,263,277,"Coreference to Ferdinand, named earlier in the same sentence; recipient role for the pictures Crespi began sending."

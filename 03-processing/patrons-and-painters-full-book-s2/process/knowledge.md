@@ -18989,6 +18989,10 @@ S6影响核对：`relations.csv`无以行程statement为依据的裁决行；`re
 
 依据[当前版定向复核](stages.md#2026-11-01-s2-current-review-ch10-p279-p281-rel-candidate-sync)，更正三条statement的关系候选说明：`st-chp10-p279-pellegrini-departure-location`不再把已拒绝的`rel-2433 located_at`称为formal，其正式离境边是`rel-2531 travelled_from`；`st-chp10-p279-marco-ricci-departure-location`对应`rel-2434 travelled_from`；`st-chp10-p280-bellucci-arrives-after-ricci`对应`rel-2435 travelled_to`。历史S6裁决行和原先作出决定的过程记录保留，当前 statement 注释与当前relations.csv对齐。p.280“equally well received”无具名接待者，不建立关系；p.281 Venetian history painters 的宽泛支持说保持process-only pending，不补造支持者或formal边。此次不改S3/S4、relations.csv或9,622条历史复核台账。
 
+### S2／S6：第8章 p.238 Nativity寄送语境与关系待证（2026-11-01）
+
+当前S2 statement将claim收窄为Nativity于1708年3月初抵达；来源同时说Crespi开始把画寄给新赞助人，语境指向Ferdinand。`cand-0883`的身份仍为S3 `undecided`、无KU，因此不可登记formal关系。原文支持作品`sent_by` Crespi，但依赖该未登记作品端点，保持process-only pending。收件端Ferdinand身份可复用既有person KU；现有domain/range没有忠实表达单纯“寄给/抵达收件人”的受控谓词，不将其替换为 `intended_gift_to`、`commissioned_by` 或 `patronized_by`，也不新增recipient formal边。`relations.csv`无该statement裁决行；无历史裁决需撤销或迁移。`rel-0706`仍为局部复制品与Uffizi的pending边，与Nativity不同。待S3/S4解决作品身份后再回到S6；历史9,622复核数不调整。
+
 <a id="2026-11-01-s2-s6-referent-evidence-ch3-vitale"></a>
 ### 2026-11-01 S2／S6证据范围补记：第3章 S. Vitale 所有权指代
 
