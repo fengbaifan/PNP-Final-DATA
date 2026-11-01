@@ -19007,3 +19007,8 @@ S6影响核对：`relations.csv`无以行程statement为依据的裁决行；`re
 原文依据、S0 span和历史版本边界见[阶段记录](stages.md#2026-11-01-s2-current-review-ch8-p237-note3-referents)。修订3条既有statement，新增6条statement及18条mention；指代拆分后，“the two men”仅作Crespi与Ferdinand的共指说明。S3五项旧undecided理由改为“已有锚点、身份仍不足”，裁决和KU不变。cand-8022保持new待S4，cand-7115沿用既有archive KU。6个无KU的直接关系端点（cand-0877、cand-8023、cand-8025、cand-8026、cand-12103、cand-8022）已加入candidate-backlog，均显式标为undecided：前五项等待身份裁决，cand-8022等待S4登记。
 
 S6复用rel-1617 formal cites边并扩展p.237 p.44证据；8项pending为早年受雇、替代、原址、后续报告位置、购画、年代比较、作品被Zanotti提及、Haskell引用尚无KU的Mostra。没有撤销历史裁决或强建formal边。历史9,622不变，本批未独立复核。
+
+<a id="s3-reuse-guida-spirituale-citation-locator-20261101"></a>
+### 2026-11-01 第3章 p.82 注1：Molinos《Guida Spirituale》定位候选复用
+
+B022核对《CHP-3》印本p.82正文与脚注1：脚注紧随明确标作Molinos《Guida Spirituale》的引文，给出Book I, chapter 16, verse 117。旧候选`cand-5472`误标为“biblical book”；S2已把它改记为该书的引文定位，版次、译本和原件均未查明。与已有文本级候选`cand-1681`、`cand-5255`具有同一题名、作者和引用语境，均指向既有KU `units/archives/guida-spirituale-molinos-text`。因此将`aln-5653`由`undecided`改为`same`，复用现有archive KU，不新建登记。此项只处理身份对齐；statement中的`cites`没有对应formal关系行，留待S6，不新增关系或宣称已查阅原书。

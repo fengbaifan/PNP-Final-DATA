@@ -15679,3 +15679,14 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 **语义与关系影响。** 四项变化分别补明Savelli特别提及的实施者与场所仍未明、被咨询建筑师的身份未知、Pozzo任命者未明、Fabrini引文限于书内引证及页码边界；相邻Tirso Gonzalez陈述不足以证明其任命Pozzo。六项快照后新增statement经句段核对，分别涉及Ignatius浮雕主题、耶稣堂左侧横翼及1697祭坛浮雕、右侧小堂位置，以及印本p.77注2所载Resta致Giuseppe Ghezzi信的收受人与作者。相关formal关系`rel-1430`、`rel-1431`、`rel-1584`、`rel-1585`、`rel-2186`、`rel-2187`、`rel-2368`等与当前statement一致，无需改写；未将作品部件推成现存位置，也未从相邻叙述补足未明行动者。Ranuccio II拒绝和“Duke was told”仍保留在过程证据／待证，不推成信件投递或因果关系。新增信件statement仍以Haskell注释为证，信件原件未独立查档。
 
 **来源核验及批后状态。** 当前S0 Markdown SHA-256=`0b2a3412f679bc74e0427612522dad0df1ad9386e941f7646a6983dc76132aed`；CHP-3 PDF SHA-256=`362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`。p.91正文保留S0的OCR原文，印本读作“not in the transept”；校读差异沿既有说明记录，没有改写来源文件。印本p.77注2明确“Letter from Resta to Giuseppe Ghezzi”；信本身未查档。statement、mention、S3 alignment、KU及`relations.csv`均未改动。当前15,505条statement、27,056条mention：主审通过1,462（独立当前版242、主审1,220），已审待处理552、历史复用但保留开放发现8,377、待差异复核282、待历史回映或当前复核4,832。未达到主审通过14,043条，其中552条已有结论但待处理、13,491条尚未进入B001–B021。下一项顺序3742为`st-chp3-seciv-notes-l189-204-p77-n2-resta-letter`。S2仍未独立接收；本批后严格表审计为`errors=[]`、`s2_missing=[]`。
+
+<a id="2026-11-01-s2-current-review-b022-ch3-notes-p77-p93-ch4-intro-p1"></a>
+### 2026-11-01 S2当前版B022：第3章第IV节注释p.77–93与第4章intro p.1
+
+**批次和复用。** 当前原文顺序3742–3841共100条，逐ID都有处置：84条第3章注释（印本p.77 n.2至p.93 n.1；p.77为PDF物理p.19，p.78–93为物理p.20–35）完成当前版主审并通过；另16条为第4章intro首页正文11条及注释5条，当前statement、S0来源段及mentions与独立历史事件逐项精确相同，直接复用历史阅读，不重做。该16条的历史独立报告仍列有逐ID开放发现，继续标`prior_review_mapped_open`，不得计为PASS。批次含84项新当前主审结论和16项精确历史复用开放记录；待处理0项。
+
+**版本与S2修正。** 84条第3章语段均无9,622历史事件。对照`c6590080`旧表，审查前82条完整statement对象相同、2条仅既有qualifier不同；本批更正p.82注1的关键claim后，当前为81条对象原样相同、3条有字段差异。p.82注1的“Book I, chapter 16, verse 117”紧随正文对Molinos《Guida Spirituale》的引述，应为该书的卷章节定位，不是圣经定位。已修正claim、候选`cand-5472`和mention说明；不推断版次/译本，原引文及S0转录保持不动。`cand-5472`与既有`cand-1681`、`cand-5255`对齐到相同文本级archive KU `units/archives/guida-spirituale-molinos-text`（`aln-5653: undecided→same`），不新增KU；该书未独立查阅。
+
+**关系与身份边界。** p.79注2仍只证明Joshua stopping the Sun主题与Carlone在Perugia Jesuit church所选主题相同；Carlone对应主题未具名，关系对象继续待证。p.82注3只给出整组图纸的Berlin、Düsseldorf城市级分布，不分配具体图纸、馆藏机构或数量。p.93注1只记将Legros雕像移入“the church itself”的提议；未证明实施，目的地未明，保持待证。没有为这些缺口造endpoint或formal边。批内与现statement对应的formal关系`rel-1267–1268`、`rel-1345–1353`、`rel-1408–1409`、`rel-1962–1964`、`rel-2172–2184`经查均符合现有引句与脚注定位，未改行。无S6历史裁决改写；p.82注1的`cites`仍待S6处理。
+
+**来源核验与批后余量。** 对照CHP-3.pdf印本p.77、p.78–93（物理p.19–35）；第4章首页16条复用其精确历史事件来源版本。第3章S0 Markdown SHA-256=`0b2a3412f679bc74e0427612522dad0df1ad9386e941f7646a6983dc76132aed`，CHP-3.pdf SHA-256=`362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`。statement/mention总数15,505/27,056。当前主审通过1,546（独立当前版242、当前主审1,304）；已审待处理552、历史复用但保留开放发现8,377、待差异复核282、待历史回映或当前复核4,748。未达到主审PASS共13,959条：552条已有结论待处理，16条本批复用的精确历史直读仍留开放，13,391条尚未进入B001–B022。下一项顺序3842为`st-chp4-intro-notes-03-dating-assumption`。S2仍未独立接收；写后严格表审计为`errors=[]`、`s2_missing=[]`。
