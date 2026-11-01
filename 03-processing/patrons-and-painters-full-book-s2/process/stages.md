@@ -15244,3 +15244,14 @@ p.92两条statement继续保持process-only pending，没有对应formal或rejec
 `st-chp3-seciv-l165-177-letters-carried-complaints-to-duke`当前claim、quote、mentions和开放端点判断PASS。原文分别称签名匿名信件到达未具名的负责神父，以及公爵随后被告知传言；不证明这些信件把投诉送给公爵，也未识别告知者。四处mention跨度（`Letters, signed and anonymous` `[1066,1095)`、`the unfortunate father in charge of the arrangements` `[1110,1162)`、`Duke of Parma` `[1168,1181)`、`the church` `[1196,1206)`）精确；subject保持空，来源不足以建formal边。其stable statement ID易被误读为因果事实，但它只是技术引用键；不改键、不把它作为事实标签。两条p.92 statement均无`relations.csv`行，`rel-2504 addressed_to`属于p.80–81另一封书信，不受影响。
 
 历史版本方面，`knowledge.md`记录上述两条当前版本不计入9,622；基线旧对象端点为cand-4905，当前版为cand-0997，缺少逐ID台账，不能判定旧版本是否曾计入。此次当前版PASS不调整9,622，也不构成第3章或全书S2接收。
+
+<a id="2026-11-01-s2-independent-current-review-ch8-p237-note3-after-repair"></a>
+### 2026-11-01 第8章 p.237 注3修复的独立当前版本复核
+
+独立复核者在当前HEAD `9e489ec67305601ccd3a5d8d6e00cdb146628c10` 对照 `CHP-8.pdf` 物理页43、S0 segment `chp-8:08_CHP-8_sec_ii:l372-461` 及当前statement、mention、S3和S6。PDF SHA-256为`cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`，segment SHA-256为`62a4611253d2bf05494ef55b0511b53861b0947a05aee1c7a9fdbab976ecbc3f`，来源Markdown SHA-256为`5d9a17efc3835c30947b8c714c65649be10295661b6cca6b117f5902882bcef6`；PDF与Markdown在基线及当前版本字节一致。
+
+独立复核结论PASS：三条既有statement的当前claim／quote范围忠实；“may possibly”保留原文不确定语气，替代事实限于相应句，年代比较不扩张。六条新增statement分别记录原址、后续报告位置、Ferdinand购画、Zanotti提及及引用、Mostra引用，均受原文支持。“the two men”由脚注标记所连的正文语境指Crespi和Ferdinand，不建立配对实体。18条新增mention逐条切片均准确；嵌套的人物／作品和作者／引用跨度符合原文。
+
+S3下游不变：cand-0877、cand-8023、cand-8025、cand-8026、cand-12103仍为`undecided`，理由准确表示锚点已有、身份或范围仍不足；cand-8022仍为`new`待S4。S6下游不变：其余八项关系保持pending；`rel-1617 cites`保持formal，端点、方向、状态不变，证据覆盖第237与239页对应引文。无需改候选、关系或历史裁决。
+
+历史回映：9,622基线包含三条旧statement对象，与2026-10-22页面复核提交中的对象完全相同；六条新增statement和18条当前mention均不存在于基线。旧三条曾经页面核读，但无逐ID／版本名册证明其是否进入9,622分子，因此不调整历史计数；本批只接收p.237注3修订范围，不接收第8章或全书S2。

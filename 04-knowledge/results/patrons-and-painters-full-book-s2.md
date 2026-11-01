@@ -10,6 +10,8 @@
 
 **2026-11-01 第3章 p.92 当前版独立复核：** 拒绝tribune许可与公爵获知传言两条statement及相关mentions通过；身份指向Ranuccio II有F.csv#12支持，关系仍因谓词/告知者端点不足而pending。稳定ID保留为技术键，不当作事实。两条当前版本不计入9,622；本批不接收第3章或全书S2。详见[独立复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch3-p92-after-note-revision)。
 
+**2026-11-01 第8章 p.237 注3修复的独立当前版复核：** 三条修订与六条新增statement、18条mention PASS；rel-1617及其余pending关系状态正确，S3去向不变。9,622基线包含三条旧statement但无证据确认其历史成员身份；六条新增statement和18条mention不在基线。该批不调整历史计数，不接收第8章或全书S2。详见[独立复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch8-p237-note3-after-repair)。
+
 **2026-11-01 S2历史计数成员回映：** 第7章 p.193–199有31条statement已独立复核，报告明确暂不计入当时9,400汇总；这些ID在当前表的完整对象与复核快照一致。9,622历史台账仍缺逐ID名册，故这31条的全局成员归属暂不作加减。该页段后来新增的两条`has_subject` statement从未纳入原审读范围，过程记录明确其未独立复核；对应 `rel-1904`、`rel-1905` 维持当前formal裁决，不由本次台账核平改动。详见[S2历史汇总核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch7-p193-199)。
 
 **2026-11-01 S2第8章 p.239版本回映：** 40条statement ID及19条mention均与独立复核快照当前一致；唯一statement对象差异是复核报告记载的S.P.F.关系候选`true→false`分类，claim和source-backed字段保留。`rel-1616`、`rel-1617`保持formal，后续增加的`rel-1618 located_at`仅记Haskell所报保管地点；该40条批次不曾增加9,573汇总，9,622成员归属仍待全局逐ID名册。详见[第8章 p.239版本核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch8-p239)。
