@@ -15653,3 +15653,18 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 **身份与关系影响。** Unidentified Pope `cand-5320`、Ludovisi拟建址 `cand-5325`、Ceva `cand-0642`、未具名Rector `cand-5322`、Camillo之子 `cand-5323`、Prince及其继承人 `cand-5327/5328`、未具名Scaramuccia `cand-5339`等仍按现有S3决定待证；不把Prince与Camillo合并，不把Guglielmo与其兄Giacomo或battle-picture作品组混为一项。两教堂装饰状态statement保持非关系分类。现有 `rel-1754`、`rel-2490`、`rel-2560`、`rel-2561`及pending `rel-2489`均未改；commission不自动改作完成创作边，footnote档案内容仍是Haskell转引而非已独立查档。本批不改statement、mention、alignment、KU或relations.csv。
 
 **批后数量。** 当前15,505条statement、27,056条mention。主审通过1,262（既有独立240、当前主审1,022）；已审待处理552；复用历史但保留开放发现8,377；待差异复核282；待历史回映或当前复核5,032。未达到主审通过14,243条，其中552条已有结论但待处理，13,691条尚未进入B001–B019。下一条为顺序3542 `st-chp3-seciv-l118-128-success-story-compared-to-fairy-tales`。S2仍未独立接收。
+
+<a id="2026-11-01-s2-current-review-b020-ch3-seciv-p89-p91"></a>
+### 2026-11-01 S2当前版B020：第3章第IV节p.88–91
+
+**批次与连续原文边界。** 本批按校正后的来源顺序处理100项（清单顺序3542–3641），覆盖L118–128末1项、L130–139的45项、L141–150的30项、L152–163的前24项；主审通过100、待处理0。其中99项是本轮新增推进，1项复用前批已核通过的原判断，不重复审读。检查原文后发现Roster历史追加顺序把p.88的“success story”排在其后的“But Pozzo … faced many difficulties”之后；现将前者归入B019，后者作为B020首项。第3章p.91的37条statement也依原文重排清单序号：B020在“a vast legacy was left…”处收束，B021从“who thereupon planned to build a college…”继续，批次各自仍不超过100条。该校正只更正当前逐ID复核顺序和行级批次映射，不改statement／mention或既有语义判断。
+
+**复用及版本差异。** B020的100个当前ID均无9,622历史事件。本批复用L130–139、L141–150和L152–163既有完整S2段落判断；p.88首项的“Pozzo faced many difficulties”复用B019先前通过结果。对照旧快照`c6590080`：94个完整JSON对象相同、5个同ID qualifier变化、1个同ID新增于旧快照之后。94项完整对象一致，复用既有判断；5项同ID限定变化与1项旧快照后新增statement仅定向复核，不对整段重做。
+
+**当前变化逐项核对。** 新增于旧快照后的`st-chp3-seciv-l130-139-pozzo-divided-corridor-scenes`：L132的“the artist”依上下文指Andrea Pozzo，claim记录其分场与描绘贡献，不称独创或完成；现有formal `rel-1244 creator_of`已明确限定该贡献，不增重复边或mention。`st-chp3-seciv-l130-139-s-ignazio-incomplete`：经济困难与Ludovisi后裔争议仍分别限定；关系说明改为pending，因为place→family端点不符合受控`disputed_with` domain/range，文本也不证明所有权或法律身份。`st-chp3-seciv-l141-150-jesuits-considered-abandoning-vault-project`：说话者校为Haskell作者叙述，补足“by now it was too late”；只记录考虑放弃，S6既有pending不变。`st-chp3-seciv-l141-150-pozzo-attacked-for-stucco-removal`：说话者校为Haskell，攻击者未具名，仍是非关系候选。`st-chp3-seciv-l141-150-fresco-depicts-ignatius-transmitting-ray`与`st-chp3-seciv-l141-150-pozzo-described-ray-from-jesus-through-ignatius`：印本p.90（PDF物理页32）均读作“light”，S0 OCR的“fight”只留在校读说明及原始quote；分别记录Jesus向Ignatius送光、Ignatius再向远方传光，不把图像解释写成物理历史事件。
+
+**来源、引句与提及核验。** 对照第3章当前S0 Markdown和`CHP-3.pdf`物理页31–33（印刷pp.89–91）。S0 Markdown SHA-256 `0b2a3412f679bc74e0427612522dad0df1ad9386e941f7646a6983dc76132aed`、PDF SHA-256 `362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`。全批100条当前statement hash均与逐ID清单一致，引句均在各自源行内；四个涉及segment共256条现有mention经表审计逐项切片校验，span、surface与candidate外键无误。印本与S0的OCR差异保留为校读限定，不改写02-sources。
+
+**关系及历史裁决影响。** 直接关联本批statement的既有formal关系`rel-1243`–`rel-1248`、`rel-1723`–`rel-1726`、`rel-2478`–`rel-2479`、`rel-2517`–`rel-2519`、`rel-2521`及`rel-2556`均与当前证据范围一致，未改行；既有S6 pending／rejected依据留在原裁决记录。走廊装饰由Borgognone先行且未完成、Pozzo随后分场描绘两种来源角色并列，formal `rel-1243`与`rel-1244`范围相容。S3决定、KU映射及candidate/mention行数均未变；不调整9,622历史事件或独立复核覆盖统计。
+
+**批后数量与下一项。** 当前15,505条statement、27,056条mention。主审通过1,362（既有独立240、当前主审1,122）；已审待处理552；历史复用但保留开放发现8,377；待差异复核282；待历史回映或当前复核4,932。未达到主审通过14,143条，其中552条已有结论但待处理、13,591条尚未进入B001–B020。下一项按原文为顺序3642 `st-chp3-seciv-l152-163-jesuits-planned-college-at-birthplace`；S2仍未独立接收。写后严格表审计为`errors=[]`、`s2_missing=[]`。
