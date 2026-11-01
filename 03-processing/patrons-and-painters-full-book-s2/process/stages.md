@@ -14953,3 +14953,55 @@ st-chp7-p199-n1-sweetman
 版本回映确认：报告快照提交 `43499bc8` 含上述31条；当前表有33条，其中这31条完整JSON对象均与报告快照一致，来源分节文件blob也相同（`75242c900a8bb6030b1c644c8abd97aa372d4022`）。另两条 `st-chp7-p197-killigrew-portrait-has-subject`、`st-chp7-p197-altham-portrait-has-subject` 是后续端点批次新增；既有知识过程明确记为未独立复核，不能归入上述31条。当前 `rel-1904`、`rel-1905` 仍为formal且各自指向这两条新statement；本次历史台账核平不改其S6裁决，但两条statement仍须独立复核。
 
 累计记录的可追溯链为：第7章 p.200–202复合注释及正文已计入的各批合至9,537；第5章 p.138另有36条明确计入，记为9,573；第7章 p.189的44条明确计入，记为9,617；之后p.189五条当前版本复核记录将报数更新至9,622，其中三条ID与原44条重叠、两条为新ID。上述后续增量均对应其他来源段，没有一批明确将本段31条补入统一分子。故本批状态记为“独立复核已完成；9,622台账的逐ID成员归属仍待全局名册证明”；不把31条直接加到或从9,622扣除，也不以该汇总数计算当前覆盖率。第7章 p.200–202及p.189的逐批版本证据分别见本文件对应小节；p.138与计数变化见第5章复核记录及本文件2026-10-22条目。
+
+<a id="2026-11-01-s2-crosswalk-ch8-p239"></a>
+### 2026-11-01 S2版本核平：第8章 p.239 当前复核批次
+
+独立复核报告 `s2-independent-review-chp8-p239-20261023.md` 对照印刷页239（PDF物理页45）、正文 `chp-8:08_CHP-8_sec_ii:l338-348` 与注释段 `l372-461` 中本页注1、3、5，逐条核读40条statement。报告快照提交 `f2a2fe4e` 与当前表均含40个相同statement ID：
+
+```text
+st-chp8-p239-chardin-counterfactual
+st-chp8-p239-close-partnership
+st-chp8-p239-contemporaries-misread-crespi-humour
+st-chp8-p239-crespi-claimed-tintoretto-picture
+st-chp8-p239-crespi-humour-melancholy-sympathy
+st-chp8-p239-crespi-poetic-sympathy
+st-chp8-p239-crespi-restraint-bawdy-subjects
+st-chp8-p239-crespi-studies-venetian-painters
+st-chp8-p239-crespi-took-advantage-of-gallery
+st-chp8-p239-earlier-family-pictures-included
+st-chp8-p239-ferdinand-distinctive-patronage
+st-chp8-p239-ferdinand-great-days-patronage-over
+st-chp8-p239-ferdinand-modern-prince
+st-chp8-p239-ferdinand-removal-and-bologna
+st-chp8-p239-ferdinand-sensitive-collector
+st-chp8-p239-ferdinand-shared-misconceptions-uncertain
+st-chp8-p239-ferdinand-supported-history-picture-break
+st-chp8-p239-ferdinand-view-as-humourist
+st-chp8-p239-genre-scenes-expected-humorous
+st-chp8-p239-last-known-artist
+st-chp8-p239-longhi-on-restricting-effect
+st-chp8-p239-new-ventures-loss-prestige
+st-chp8-p239-note1-haskell-eight-month-maximum
+st-chp8-p239-note1-lcrespi-two-year-stay
+st-chp8-p239-note1-luigi-crespi-stay
+st-chp8-p239-note1-zanotti-multiple-florence-visits
+st-chp8-p239-note1-zanotti-multiple-visits
+st-chp8-p239-note2-cross-reference
+st-chp8-p239-note3-zanotti-and-letter-357
+st-chp8-p239-note3-zanotti-citation
+st-chp8-p239-note5-inventory-date-and-label
+st-chp8-p239-note5-inventory-description
+st-chp8-p239-note5-spf-mark
+st-chp8-p239-only-princes-influential-patrons
+st-chp8-p239-pictures-distributed-among-medici-residences
+st-chp8-p239-pictures-distributed-in-country-houses
+st-chp8-p239-pictures-number-considerable
+st-chp8-p239-restraint-and-ferdinand-appreciation
+st-chp8-p239-three-hundred-pitti-pictures
+st-chp8-p239-venetian-emphasis
+```
+
+当前版回映显示：40条ID无增删；19条 `m-chp8-p239-*` mention 对象无增删或变化。两个来源segment的SHA-256分别为 `9f36048f2845cfb8a9b98215376d76e9d46586b3350bc5eb367a9a38d5c8a91e` 与 `62a4611253d2bf05494ef55b0511b53861b0947a05aee1c7a9fdbab976ecbc3f`，均与复核快照一致；源Markdown blob也未变（`3d06d52be0860626d4a3b01bc985273636879ef0`）。40条中只有 `st-chp8-p239-note5-spf-mark` 的完整JSON对象有变化：`relation_candidate` 从快照中的`true`改为当前`false`。复核报告记载了该项关系类型复审及最终分类；claim、引句、端点和S5所保留的来源事实未改。
+
+跨阶段影响已核对：`cand-1609`仍复用Ferdinand KU，`cand-8032`仍对应No.357信件archive；`cand-8053`由历史`new`改为复用Soprintendenza KU，`cand-8054`登记为清单archive KU，`cand-8057`仍`undecided`。`rel-1616 authored_by`、`rel-1617 cites`保持formal；后续新增的`rel-1618 located_at`仅表示Haskell报告的保管地点。`st-chp8-p239-note5-spf-mark`没有formal关系边，S.P.F.范围仍由source-backed字段`enr-16368`保存；不把清单标记解释成受控关系。该报告记载全书计数保持9,573/15,254，故这40条没有作为该次增量加入汇总；其是否已属于9,622历史成员集仍须待全局逐ID名册核平，本批不加减9,622。

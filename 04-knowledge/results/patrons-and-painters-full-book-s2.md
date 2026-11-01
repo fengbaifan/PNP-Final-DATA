@@ -4,6 +4,8 @@
 
 **2026-11-01 S2历史计数成员回映：** 第7章 p.193–199有31条statement已独立复核，报告明确暂不计入当时9,400汇总；这些ID在当前表的完整对象与复核快照一致。9,622历史台账仍缺逐ID名册，故这31条的全局成员归属暂不作加减。该页段后来新增的两条`has_subject` statement从未纳入原审读范围，过程记录明确其未独立复核；对应 `rel-1904`、`rel-1905` 维持当前formal裁决，不由本次台账核平改动。详见[S2历史汇总核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch7-p193-199)。
 
+**2026-11-01 S2第8章 p.239版本回映：** 40条statement ID及19条mention均与独立复核快照当前一致；唯一statement对象差异是复核报告记载的S.P.F.关系候选`true→false`分类，claim和source-backed字段保留。`rel-1616`、`rel-1617`保持formal，后续增加的`rel-1618 located_at`仅记Haskell所报保管地点；该40条批次不曾增加9,573汇总，9,622成员归属仍待全局逐ID名册。详见[第8章 p.239版本核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch8-p239)。
+
 **2026-11-01 S2第15章复核状态核正：** p.365–367的40条当前statement已完成独立复核；34条首轮通过、6条修订后通过，另有7条修订记录经独立回核。该批不计入9,622条统一历史汇总，当前全局逐ID／来源版本名册仍待核平。详见[第15章复核状态核正](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-ch15-independent-review-status-correction)。
 
 **2026-11-01 S2第3章 p.67 指代证据范围修正：** `st-chp3-secii-l19-31-vitale-owned-by-jesuits`引句补入下一行“S. Vitale”以解析“the third church”；formal `rel-1751 owned_by`仅将证据定位扩至L23–24，端点与裁决不变。两张受影响卡已重渲染，复预览无差异。此次为定向核查，非独立复核，修订行不计入9,622汇总。详见[S2／S6过程补记](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch3-vitale-ownership-evidence)。
