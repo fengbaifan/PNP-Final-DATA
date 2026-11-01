@@ -14910,3 +14910,46 @@ S6 `rel-1990 created_by`与`rel-1991 located_at`保持formal，后者仅表示Ha
 **关系影响。** `rel-1751 owned_by`仍为S. Vitale地点→Jesuits机构的formal边；仅将`source_span`由p.67 L23精确扩至L23–24，以包含指代解析。`rel-1751`的端点、时间、角色、范围和状态不变，`rel-1752`、`rel-1753`及“given to the Society by Clement VIII”的pending裁决均不变；没有新增或撤销关系。S. Vitale与Jesuits两张卡分别定向渲染，写后字节核验通过，复预览无差异。
 
 这是主代理的定向证据核查，不称独立复核；修订后的statement仍待独立复核，且本批不计入9,622条统一历史台账。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性五类阻断均为0。
+
+<a id="2026-11-01-s2-crosswalk-ch7-p193-199"></a>
+### 2026-11-01 S2历史汇总核平：第7章 p.193–199延后批次
+
+独立复核报告 `s2-independent-review-chp7-notes-20261021.md` 确认来源段 `chp-7:07_CHP-7_sec_iv:l97-119` 的31条statement及56条mention已逐项复核；报告明确暂不把这31条加入当时全书9,400/15,167，待按statement ID去重后再归并。该批31个ID为：
+
+```text
+st-chp7-p193-n1-von-holst
+st-chp7-p193-n3-cite-lavagnino
+st-chp7-p193-n3-cite-heilbronner
+st-chp7-p194-n1-lavagnino
+st-chp7-p194-n3-cite-hantsch-scherf
+st-chp7-p194-n3-cite-von-freeden
+st-chp7-p194-n4-wilhelm
+st-chp7-p195-n1-wilhelm-citation
+st-chp7-p195-n1-prince-taste-comment
+st-chp7-p195-n2-schoenborn-letter
+st-chp7-p195-n3-da-canal
+st-chp7-p195-n4-zanotti
+st-chp7-p195-n5-whinney-millar
+st-chp7-p196-n1-gennari-evidence
+st-chp7-p197-n1-cassana-date-conflict
+st-chp7-p197-n2-portrait-attributions
+st-chp7-p197-n2-killigrew-portrait
+st-chp7-p197-n2-altham-portrait
+st-chp7-p197-n3-baldinucci
+st-chp7-p197-n4-isham-pictures-lamport
+st-chp7-p197-n5-exeter-pictures-burghley
+st-chp7-p197-n6-monnot-tomb-citations
+st-chp7-p198-n1-vertue
+st-chp7-p198-n2-cite-pascoli
+st-chp7-p198-n2-cite-baldinucci
+st-chp7-p198-n2-cite-de-dominici
+st-chp7-p198-n3-brett
+st-chp7-p198-n4-wind-1939
+st-chp7-p198-n5-wind-1938
+st-chp7-p198-n6-shaftesbury-citations
+st-chp7-p199-n1-sweetman
+```
+
+版本回映确认：报告快照提交 `43499bc8` 含上述31条；当前表有33条，其中这31条完整JSON对象均与报告快照一致，来源分节文件blob也相同（`75242c900a8bb6030b1c644c8abd97aa372d4022`）。另两条 `st-chp7-p197-killigrew-portrait-has-subject`、`st-chp7-p197-altham-portrait-has-subject` 是后续端点批次新增；既有知识过程明确记为未独立复核，不能归入上述31条。当前 `rel-1904`、`rel-1905` 仍为formal且各自指向这两条新statement；本次历史台账核平不改其S6裁决，但两条statement仍须独立复核。
+
+累计记录的可追溯链为：第7章 p.200–202复合注释及正文已计入的各批合至9,537；第5章 p.138另有36条明确计入，记为9,573；第7章 p.189的44条明确计入，记为9,617；之后p.189五条当前版本复核记录将报数更新至9,622，其中三条ID与原44条重叠、两条为新ID。上述后续增量均对应其他来源段，没有一批明确将本段31条补入统一分子。故本批状态记为“独立复核已完成；9,622台账的逐ID成员归属仍待全局名册证明”；不把31条直接加到或从9,622扣除，也不以该汇总数计算当前覆盖率。第7章 p.200–202及p.189的逐批版本证据分别见本文件对应小节；p.138与计数变化见第5章复核记录及本文件2026-10-22条目。
