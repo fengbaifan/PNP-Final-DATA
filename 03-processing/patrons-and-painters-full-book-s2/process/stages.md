@@ -14605,7 +14605,17 @@ claim、Haskell发言者及“不是Rosa自述意图”的限定保持不变。R
 
 独立复核者对照CHP-8.pdf物理页26–27、S0 08_CHP-8_sec_ii.md、当前statement／mention／候选、alignment及relations。印刷页26确认原文为“Raimondo Buonaccorsi summoned two Bolognese artists, Carlo Antonio Rambaldi and Antonio Dardani, to paint the fresco of the Apotheosis of Aeneas on the vault of his gallery”；S0原引句的artists.保持不改，在对应commission及两条画家受召statement记录artists.→artists,。三条引句中非原文的vault／of换行已去除；壁画位置statement收窄为S0精确子串“the fresco of the Apotheosis of Aeneas on the vault of his gallery,2”。人物、壁画和长廊mentions的当前跨度逐项切片均准确。
 
-原有2条修订statement及3条新增statement的当前版本差异已复核。另将漏表的建筑描述单列为st-chp8-p224-gallery-single-fresco-description，锚于S0第154行：长廊低桶形拱顶由单幅壁画覆盖全长；Haskell说这使多样装饰获得一定统一。这是建筑描述与作者评价，不新增formal关系。p.224 Dido句末and与p.225开头interest.经页图核实为跨页续句；p.225当前引句收窄至interest.，只记录续句新增部分，并从该行移除属于Dal Sole句的OCR校读。p.224两条含完整拉丁引文的Dido statement均补记页图校读“The dies primus leti primusque malorum/Causa suit”→“Ille dies primus leti primusque malorum/Causa fuit”。
+原有2条修订statement及3条新增statement的当前版本差异已由独立复核逐项核对。对照原端点批次提交`5a65fc52`与其父提交，五个ID为：
+
+| 端点批次变化 | statement ID | 当前对象与独立复核快照`f1dd3bfd` |
+|---|---|---|
+| 修订 | `st-chp8-p224-gallery-survival-and-vault-fresco` | 完整JSON对象一致 |
+| 修订 | `st-chp8-p224-rambaldi-dardani-apotheosis` | 完整JSON对象一致 |
+| 新增 | `st-chp8-p224-apotheosis-fresco-located-at-gallery` | 完整JSON对象一致 |
+| 新增 | `st-chp8-p224-rambaldi-summoned-to-paint-apotheosis` | 完整JSON对象一致 |
+| 新增 | `st-chp8-p224-dardani-summoned-to-paint-apotheosis` | 完整JSON对象一致 |
+
+以上五条当前对象截至HEAD仍与`f1dd3bfd`相同；该批不计入9,622历史复核汇总。另将漏表的建筑描述单列为`st-chp8-p224-gallery-single-fresco-description`，锚于S0第154行：长廊低桶形拱顶由单幅壁画覆盖全长；Haskell说这使多样装饰获得一定统一。这是建筑描述与作者评价，不新增formal关系，亦不另计入9,622。p.224 Dido句末and与p.225开头interest.经页图核实为跨页续句；p.225当前引句收窄至interest.，只记录续句新增部分，并从该行移除属于Dal Sole句的OCR校读。p.224两条含完整拉丁引文的Dido statement均补记页图校读“The dies primus leti primusque malorum/Causa suit”→“Ille dies primus leti primusque malorum/Causa fuit”。
 
 st-chp8-p224-dido-picture-narrative不再把Dido人物候选当作整幅多人物场景的object：object_candidate_id置空，statement保留场景描述并维持relation candidate；作品候选cand-2486仍S3 undecided且无KU，场景关系留process-only pending，不强行建立formal边。书目短引Bologna (Plate 209)由p.416作者、题名和年份支持；cand-7759脚注／引文候选与书目cand-7348当前属于同一S3 archive group且映射到同一S4 KU。S2 statement及候选detail中的旧“待对齐”字样已清除，候选文本层改为脚注／引文；引用的Bologna原书未独立查阅。replica cand-7760仍未决，Scholz-Forni collection cand-7761仍类型待定，未据此建立关系。
 
