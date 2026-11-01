@@ -4012,3 +4012,5 @@ S3纯`undecided`候选、纯未决直接关系端点及S4待登记直接关系�
 
 
 **2026-11-01 第10章 p.279–281 当前statement与S6裁决同步：** 当前版定向复核核对6条statement、相关mention跨度、S0与原书PDF。将3条statement中的过期关系说明更正为当前结果：`rel-2433` rejected，`rel-2434 travelled_from` formal，`rel-2435 travelled_to` formal；群体离境不建组级关系，未具名接待／支持者继续无formal边或pending。候选身份、KU和relations.csv未改；本批不计入9,622历史复核分子，不构成第10章或全书S2接收。详见[阶段复核](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch10-p279-p281-rel-candidate-sync)与[裁决同步记录](../../03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s2-current-review-ch10-p279-p281-rel-candidate-sync-20261101)。后续依序完成：S1已收口；先核平S2的9,622历史台账与当前ID/来源版本，再继续独立语义复核；之后按类型推进S3、完成已解决new项的S4登记、定向补足S5、核平S6，最后才做S7发布核验。
+
+**2026-11-01 第8章 p.238 三条作品mention跨度补录与独立复核：** 正文`a Nativity`和两种S0拼写的`Self portrait`/`Selfportrait`已映射到索引候选`cand-0883`、`cand-0886`；三个span均经原页独立复核PASS。S3仍undecided、无KU，relations.csv无相应作品正式边且未改动；当前mentions为27,015条，9,622历史台账不调整。本批不接收p.238整页或全书S2。详见[阶段记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch8-p238-nativity-selfportrait-mentions)。

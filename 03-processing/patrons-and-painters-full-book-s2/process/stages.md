@@ -15027,3 +15027,12 @@ st-chp8-p239-venetian-emphasis
 | `st-chp7-p197-altham-portrait-has-subject` | 正文L65称 James Altham有画像；注2 L109列“James Altham as a hermit by Salvator Rosa in 1665 (Bankes Collection)”。两处合读支持该明确作品描述的被描绘对象为Altham。mention `m-chp7-p197-b013` `[490,502)`、`m-chp7-footnotes-b024` `[969,981)`、`m-chp7-footnotes-b025` `[969,1018)`与当前来源切片精确相符。 | `cand-7270`与人物`cand-0085`均沿用既有S3/S4身份；`rel-1905 has_subject`仍formal。 |
 
 不把三位游客与Plate 30a、30b、31a逐一配对；原文将三个地点和leading artists合述，无法据此为每人指定城市或版号。`rel-1902`、`rel-1903 created_by`的作者归属边也未受本次回核影响。原书所引Vertue及Italian Art and Britain页面未独立查阅，关系只表示Haskell在书中的报告。当前source、mention span和关系端点支持已有两个`has_subject`裁决；没有依据更改S3/S4/S6决定。两条statement是在原p.193–199的31条独立复核后新增，当前主代理复核不计入9,622历史汇总，仍待独立复核。
+
+<a id="2026-11-01-s2-current-review-ch8-p238-nativity-selfportrait-mentions"></a>
+### 2026-11-01 S2第8章 p.238 补录三条具名作品mention
+
+检查第8章正文segment `chp-8:08_CHP-8_sec_ii:l327-336` 后发现，候选表及statement端点已记录《Nativity》和《Selfportrait》，但mentions.csv缺少三个对应的正文span。当前S0 segment SHA-256为`4851272f69e09219355eb926cb06e76ed40d459db5efebd44dc83df1e9ebfacb`。按segment当前文本切片补录：`m-chp8-p238-body-nativity`→`cand-0883`（`C.csv#417`）`a Nativity` `[278,288)`；`m-chp8-p238-body-selfportrait-spaced`→`cand-0886`（`C.csv#420`）`Self portrait` `[327,340)`；`m-chp8-p238-body-selfportrait-print`→`cand-0886` `Selfportrait` `[530,542)`。其中空格拼写保留S0原文，statement既有校读仍记印本形式`Selfportrait`。
+
+`aln-1218`、`aln-1221`的resolution_note已改为指向上述当前S2锚点；两项S3决定仍为`undecided`且无KU，未因索引或span直接推断same/new。statement、original_quote、关系表均未改；这三条statement在relations.csv无直接关系行，相关关系端点/收件角色仍按既有记录待裁。历史9,622分子不调整，本批不覆盖p.238其余候选—mention差异，也不代表全页或全书S2接收。
+
+这是主代理的定向跨度核查与写回。表级严格审计`errors=[]`、`s2_missing=[]`；关系一致性审计的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。随后独立复核者对照当前S0与CHP-8印刷p.238／PDF物理页44，逐条判定三个span、同一候选映射及拼写校读均PASS；`aln-1218`、`aln-1221`仍`undecided`且无KU。relations.csv没有这三条正文statement的正式边；`rel-2392`是注1档案定位引用，与两件作品无关，无须改动。原书信件未独立查阅；本次不调整9,622历史分子，也不代表p.238整页或全书S2接收。
