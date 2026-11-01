@@ -15860,3 +15860,16 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 关系影响：复核涉及现有`rel-2450`–`rel-2455`和`rel-2557`的来源范围；原文继续支持既有的插图合作、作者、战役参与／地域及作品题材边界，本批未改`relations.csv`。`rel-1764`仍只表达Haskell的书目引用，不代表独立核验Bertolotti原书或pp.127 ff.。不在本批重裁S3身份映射或S6历史裁决；未具名的其他合作者不并入任何已登记正式边。
 
 逐ID PASS范围仅是当前S2来源忠实度和mention映射；citation来源限制、身份对齐、下游关系以及此前开放发现按原记录保留。原书图像：打印p.135/PDF物理16及打印p.137/PDF物理22；来源资产与历史review哈希均留存。
+
+<a id="2026-11-01-s2-current-review-b041-ch5-p137-p138"></a>
+### 2026-11-01 S2当前版逐ID复核 B041：CHP-5 p.137–138（顺序5604–5703）
+
+**批次结果：100条；24条当前原页复核PASS（其中1条修正claim与predicate），76条精确历史复用但保留开放发现。** 顺序5604–5627因当前段mention集合变化进入直接核读；两项新增mention位于同段L72，逐条核实其不在本批24条的`mentioned_candidate_ids`中，且不改变这些语句的对象、指代或断言。顺序5628–5703的76条当前statement、来源段和mention指纹均与唯一历史事件精确匹配，复用历史阅读并保留开放发现。
+
+原书`02-sources/01-book/CHP-5.pdf`，SHA-256=`f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`。打印p.137（PDF物理22）逐条支持Borgognone作为battle painter、Carpegna/Carandini/Raggi的赞助与收藏、Cerquozzi早期追随Van Laer并为dealer作画、后期创作与委托、 patron pressure边界，以及“anti-Spanish common people”与Spanish sympathizers的张力。statement 5617的“careful and conscientious in his work”跨页；p.137物理22末尾“in his”由p.138物理23首行“work”续完。
+
+**判断更正（statement 5627；历史事件`H9622-03833`）：** 先前predicate=`possible_private_life_dilemma_reflected_in_painting`、claim称困境“反映在其绘画方式中”。打印原句是“It may not be extravagant to see his dilemma reflected in the manner of his private life—the life of a man who painted …”；故改为predicate=`possible_dilemma_reflected_in_private_life`，claim=`Haskell suggests that Cerquozzi’s dilemma may be reflected in the manner of his private life, which he characterizes as the life of a man who painted the essentially anti-Spanish common people for sympathizers with Spain.`。source OCR `private fife`及`antiSpanish`原样保留，印本读法仍由现有qualifier记录；候选mention不变。该statement没有formal relation，relation_candidate=false，因此无S6边需要修改。
+
+复核后仅将`H9622-03833.current_statement_sha256/current_statement_match`改为当前哈希和`changed`；历史`review_statement_sha256`、`historical_outcome`、来源版本与原审查commit均保留。事件级当前statement匹配现为9,119 exact、501 changed、2 absent_current；按旧ID最新事件去重为9,046 exact、491 changed、2 absent；有当前statement ID的9,620条历史事件来源版本仍全部匹配。`relations.csv`未发现以本批24个statement ID为证据的正式边，无关系写回。
+
+PASS仅限当前S2来源忠实度；`cand-6146`反西班牙平民及`cand-6147`西班牙支持者仍按原组别／身份边界处理，不从本批推造成员或正式关系。原页图像为打印p.137/PDF物理22、打印p.138/PDF物理23；statement历史哈希与当前哈希变化可由逐ID清单及事件表复核。
