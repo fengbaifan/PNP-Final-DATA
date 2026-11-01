@@ -15555,3 +15555,19 @@ p.68四条新增mention分别指向Richeôme所论绘画组`cand-12315`及装饰
 **关系与历史裁决影响。** 复核未改写statement、mention或`relations.csv`。S. Vitale地点—Jesuits所有权、S. Vitale地点—Rome位置、壁画组—S. Vitale位置的`rel-1751`–`rel-1753`保持formal；将`rel-1751`证据锚扩至L23–24的决定及独立PASS按既有记录复用。`rel-2402 compared_with`仍表达S. Vitale与较早Circignani壁画组的作者比较。Clement VIII转交、将S. Stefano分配给Jesuits、未分类说明文本及Richeôme绘画组边界等既有pending去向维持原状；不补造端点或扩张身份组。历史基线同ID旧版是否属于9,622分子仍按既有记录保留待证，不增减该历史分子。
 
 **本批后清单。** 当前全书主审通过562条（既有独立239、主审323）、已审待处理552条、历史精确复用但仍留开放发现8377条、待差异复核282条、待历史回映或当前复核5732条；未达到主审通过共14943条，其中552条已有当前批次结论但待处理，14391条尚未进入B001–B012批次。S2仍未独立接收。逐ID裁决在`s2-current-review-roster.csv`顺序2742–2841。
+
+
+<a id="2026-11-01-s2-current-review-b013-ch3-p69-p73"></a>
+### 2026-11-01 S2当前版B013：第3章p.69末至p.73图版13
+
+**批次结论。** 按当前statement顺序2842–2941连续复核100条：p.69 L52余3条、p.70 L54–60共21条、p.71 L62–72共28条、p.72 L74–81共47条，以及随后图版13图注1条。99条复用现有第3章语义处理记录并完成主审；`st-chp3-secii-l74-81-evangelist-figures-derived-from-michelangelo`复用2026-11-01独立当前版PASS。B013为100条通过、待处理0条；历史9,622事件数不变。当前下一条顺序2942为`st-chp3-secii-l86-87-p14-credit`（第3章图版14）。主审通过不表示第3章或全书独立接收。
+
+**当前版本与原文核验。** 本批100条statement哈希、五段segment/mention集合哈希及规范来源文件SHA均与逐ID清单快照`d23bf46a06352e9d3753389a491a7fe8c1ffcba4`一致；清单中的source span覆盖当前`original_quote`，无引句不匹配。五个涉及segment共有233条当前mention，所有偏移均精确切出其`surface_form`，mention候选目标均存在。核对规范Markdown和`CHP-3.pdf`印刷pp.69–72及图版13所在PDF物理页7–11；PDF SHA-256=`362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`。复用[chp-03逐段处理记录](../results/chp-03.md#当前判断与下一步)、2026-10-10关系分类与标量拆分记录，以及2026-10-15和2026-11-01局部端点/独立复核记录。
+
+**复核的当前差异与判断。** p.70的`st-chp3-secii-l54-60-angelo-cesi-died-1606`继续作为来源支持的人物死亡日期，而非关系；Haskell称“Cardinal Angelo Cesi”与Treccani DBI记作托迪主教、枢机任命未成功之间的冲突保留为来源限定。`st-chp3-secii-l54-60-cesi-promised-high-altar-decoration`沿用S3候选`cand-0639`，承诺主张仍待S6，不据此新增formal边。p.71当前28条statement含19条原始陈述拆分出的9条标量断言；通过当前对象与既有关系候选分类逐条回映。
+
+p.72当前47条statement来自21条原始陈述的拆分，现有候选`cand-12317`仅代表未名佛罗伦萨家族礼拜堂组，`cand-12318`仅代表未名后世艺术家组，成员、数目和身份不外推。mention `m-chp3-secii-l74-81-0043`使用Michelangelo人物候选`cand-1660`，不再指向错误的《复活基督》作品候选`cand-1661`；独立复核确认当前引用、人物端点及formal `rel-2469 influenced_by`方向均正确。其旧对象版本是否属于历史9,622分子仍无逐ID版本证明，保留待证且不改历史计数。mention `m-chp3-secii-l74-81-0053`现指未名家族礼拜堂组`cand-12317`，不再误连至Correggio在Parma的穹顶。候选组号、现有S3决定及其他S6历史裁决均不因本批变更。
+
+**章节计数核平及裁决影响。** 将[chp-03当前迁移表](../results/chp-03.md)更新为p.70 56 mentions/21 statements、p.71 54/28、p.72 54/47；其中p.72另外保留既有记录的1条新增mention和11项mention映射/证据更正。B013没有修改statement、mention、alignment、`relations.csv`或S6决定。复核`rel-2469`仍formal，Cesi高坛承诺以及来源未名群体关系按既有待证去向保留；未撤销或新增正式边。
+
+**本批后清单。** 当前全书主审通过662条（既有独立240、主审422）、已审待处理552条、历史精确复用但仍留开放发现8377条、待差异复核282条、待历史回映或当前复核5632条；未达到主审通过共14843条，其中552条已审待处理，14291条尚未进入B001–B013批次。S2仍未独立接收。逐ID结果在`s2-current-review-roster.csv`顺序2842–2941。
