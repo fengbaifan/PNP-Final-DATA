@@ -15026,7 +15026,12 @@ st-chp8-p239-venetian-emphasis
 | `st-chp7-p197-killigrew-portrait-has-subject` | 正文L65称 Thomas Killigrew有画像；注2 L109列“Killigrew by Canini in 1651”。两处合读支持 `portrait-thomas-killigrew-canini-1651` 的被描绘对象为Killigrew。mention `m-chp7-p197-b012` `[456,472)`、`m-chp7-footnotes-b020` `[922,931)`、`m-chp7-footnotes-b021` `[922,949)`与当前来源切片精确相符。 | `cand-7269`与人物`cand-1342`均沿用既有S3/S4身份；`rel-1904 has_subject`仍formal。 |
 | `st-chp7-p197-altham-portrait-has-subject` | 正文L65称 James Altham有画像；注2 L109列“James Altham as a hermit by Salvator Rosa in 1665 (Bankes Collection)”。两处合读支持该明确作品描述的被描绘对象为Altham。mention `m-chp7-p197-b013` `[490,502)`、`m-chp7-footnotes-b024` `[969,981)`、`m-chp7-footnotes-b025` `[969,1018)`与当前来源切片精确相符。 | `cand-7270`与人物`cand-0085`均沿用既有S3/S4身份；`rel-1905 has_subject`仍formal。 |
 
-不把三位游客与Plate 30a、30b、31a逐一配对；原文将三个地点和leading artists合述，无法据此为每人指定城市或版号。`rel-1902`、`rel-1903 created_by`的作者归属边也未受本次回核影响。原书所引Vertue及Italian Art and Britain页面未独立查阅，关系只表示Haskell在书中的报告。当前source、mention span和关系端点支持已有两个`has_subject`裁决；没有依据更改S3/S4/S6决定。两条statement是在原p.193–199的31条独立复核后新增，当前主代理复核不计入9,622历史汇总，仍待独立复核。
+不把三位游客与Plate 30a、30b、31a逐一配对；原文将三个地点和leading artists合述，无法据此为每人指定城市或版号。`rel-1902`、`rel-1903 created_by`的作者归属边也未受本次回核影响。原书所引Vertue及Italian Art and Britain页面未独立查阅，关系只表示Haskell在书中的报告。当前source、mention span和关系端点支持已有两个`has_subject`裁决；没有依据更改S3/S4/S6决定。两条statement是在原p.193–199的31条独立复核后新增，不计入9,622历史汇总。
+
+<a id="2026-11-01-s2-independent-review-ch7-p197-portrait-subjects"></a>
+### 2026-11-01 S2当前版独立复核：第7章 p.197 两条肖像对象statement
+
+独立复核者只读核对当前HEAD `d80522d935a320dc9593d57f5d9a3494cbf7d1e2`、S0正文与注2分节，以及`CHP-7.pdf`印刷页197（PDF物理页35）。`st-chp7-p197-killigrew-portrait-has-subject`和`st-chp7-p197-altham-portrait-has-subject`均PASS：正文L65分别称Thomas Killigrew、James Altham有画像，注2 L109分别给出“Killigrew by Canini in 1651”与“James Altham as a hermit by Salvator Rosa in 1665”；当前mention跨度、作品／人物端点及`work → person`的`has_subject`方向相符。对应正式关系`rel-1904`、`rel-1905`证据范围准确，无需修改。未将三位访客映射到Plate 30a、30b、31a中的具体图版；Vertue及Italian Art and Britain引文未独立核验，关系仍仅表达Haskell本书报告。该复核只覆盖两条statement及两条关系，不构成第7章或全书S2接收；两条不计入9,622历史汇总。
 
 <a id="2026-11-01-s2-current-review-ch8-p238-nativity-selfportrait-mentions"></a>
 ### 2026-11-01 S2第8章 p.238 补录三条具名作品mention

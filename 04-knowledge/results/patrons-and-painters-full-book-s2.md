@@ -8,7 +8,7 @@
 
 **2026-11-01 S2第8章 p.239版本回映：** 40条statement ID及19条mention均与独立复核快照当前一致；唯一statement对象差异是复核报告记载的S.P.F.关系候选`true→false`分类，claim和source-backed字段保留。`rel-1616`、`rel-1617`保持formal，后续增加的`rel-1618 located_at`仅记Haskell所报保管地点；该40条批次不曾增加9,573汇总，9,622成员归属仍待全局逐ID名册。详见[第8章 p.239版本核平](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch8-p239)。
 
-**2026-11-01 S2第7章 p.197 两条新增肖像关系statement定向复核：** 正文L65与注2 L109共同支持Killigrew、Altham分别为明确描述肖像的被描绘对象；mention跨度和当前关系端点相符，`rel-1904`、`rel-1905`维持formal。此为主代理定向核查，不是独立复核；两条仍待独立审读，不计入9,622历史汇总。详见[p.197定向复核与关系影响](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch7-p197-portrait-subjects)。
+**2026-11-01 S2第7章 p.197 两条新增肖像关系statement当前版独立复核PASS：** 两条肖像对象判断、mention跨度、S3/S4端点及`rel-1904`、`rel-1905`均通过，无需更改；不将访客对应到具体图版，不核称外引资料已查。此次仅覆盖两条statement与关系，不构成第7章或全书S2接收，也不计入9,622历史汇总。详见[主代理定向核查](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-current-review-ch7-p197-portrait-subjects)与[独立复核](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-review-ch7-p197-portrait-subjects)。
 
 **2026-11-01 S2第15章复核状态核正：** p.365–367的40条当前statement已完成独立复核；34条首轮通过、6条修订后通过，另有7条修订记录经独立回核。该批不计入9,622条统一历史汇总，当前全局逐ID／来源版本名册仍待核平。详见[第15章复核状态核正](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-ch15-independent-review-status-correction)。
 
