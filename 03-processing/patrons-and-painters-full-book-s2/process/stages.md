@@ -15140,13 +15140,22 @@ st-chp8-p239-venetian-emphasis
 关系状态保持process-only pending：第一条没有忠实表达拒绝许可的受控谓词；第二条告知者未具名且subject端点缺失。`relations.csv`没有对应formal/rejected边，也未发现受影响的历史裁决；`rel-2504 addressed_to`是p.80–81另一项书信关系，不迁移至本批。`relation_candidate_note`原称第一条人物身份仍未决，与F.csv#12依据冲突，已改为身份确定为Ranuccio II，未决仅指正式关系类型和拒绝决定的确切范围。第二条的`statement_id`保留原稳定键`...letters-carried-complaints-to-duke`以维持历史引用；该旧标识不能作为“信件把投诉送给公爵”的证据，当前claim、引句和`open_endpoint_reason`均明确不建立这条因果链。基线旧对象仍指 `cand-4905`，当前改为 `cand-0997`；两条当前版不等于基线对象版本。无逐ID／来源版本名册，9,622历史成员归属待证；当前记录明确本次修订版未计入统一台账，不据汇总数作加减。此项只覆盖两条statement、相关mention及其pending状态，不代表第3章或全书S2接收。
 
 <a id="2026-11-01-s2-primary-current-review-ch10-p286-powis-reference"></a>
-### 2026-11-01 第10章 p.286 Powis House 装饰端点锚点当前版定向核查
+### 2026-11-01 第10章 p.286 Powis House 装饰端点锚点初始定向核查
 
-主代理对照基线提交`1a6313c8654280a9b71187fc08522098626e734e`与当前statement对象，并回看S0段`chp-10:10_CHP-10_intro:l190-204`（SHA-256 `4690eee7aca37d3bf859d70d2adcd571b736e7b9b7c1a29611a334a7e23648a9`）、来源Markdown及已登记的`CHP-10.pdf`物理p.15／印刷p.286。当前对象相对基线只变更`qualifiers.mentioned_candidate_ids`：在原有`cand-2031`（Lord Powis）与`cand-0094`（Amigoni）外新增`cand-8996`（Amigoni在Powis House描绘四季与Judith/Holofernes故事的装饰项目）；claim、引句及来源行范围未改。引句是该segment的连续原文子串。
+主代理先对照基线提交`1a6313c8654280a9b71187fc08522098626e734e`与当时工作树statement对象，并回看S0段`chp-10:10_CHP-10_intro:l190-204`（SHA-256 `4690eee7aca37d3bf859d70d2adcd571b736e7b9b7c1a29611a334a7e23648a9`）、来源Markdown及`CHP-10.pdf`物理p.15／印刷p.286。该初始核查在原有`cand-2031`（Lord Powis）和`cand-0094`（Amigoni）外发现`cand-8996`装饰项目锚点；当时claim、引句及行范围未改。其后完整对象比较确认：相对基线不只有`mentioned_candidate_ids`增加`cand-8996`，`qualifiers.ocr_corrections`也新增了“James H’s”按印本校读为“James II’s”的记录。前版“只变更mention候选”表述不完整，已在下方更正；独立复核还发现当时引句缺L199指代先行项，故须扩展到L199–201。
 
-前句L199–200记Amigoni为Powis House的天花、墙面和楼梯绘制装饰，随后“It is impossible to be quite certain who was his patron here”；因此`here`所指的装饰项目由`cand-8996`补锚有原文上下文支持。已有`m-chp10-p286-seasons` `[1938,1949)`、`m-chp10-p286-judith_holofernes` `[1967,1988)`跨度切片相符。`cand-0094`复用Amigoni人物KU，`cand-8996`沿既定S3 `new`组已登记为装饰项目KU；不将其拆成单幅画或推定赞助者。S3 `undecided`的`cand-2031`仅有Lord Powis头衔，故潜在赞助关系继续由`bl-0057`记录为pending，不写formal边。既有`rel-2446 creator_of`仍只表示Haskell称Amigoni绘制该整体装饰，不受本次端点锚点更改影响。
+当时依据相邻L199–200将`here`解释为Powis House装饰，并以mention候选补锚；`m-chp10-p286-seasons` `[1938,1949)`及`m-chp10-p286-judith_holofernes` `[1967,1988)`跨度切片正确。后续独立复核判定，claim所需的先行依据须纳入statement自己的引句与行范围，单靠旧引句不足。候选映射和关系裁决本身正确：`cand-0094`复用Amigoni人物KU，`cand-8996`沿既定S3 `new`组登记为装饰项目KU；`cand-2031`只有Lord Powis头衔，相关潜在赞助关系继续由`bl-0057`记录为pending，不写formal边。`rel-2446 creator_of`只表示Haskell称Amigoni绘制该整体装饰，不受端点锚点或引句边界修订影响。
 
-本项是主代理定向核查，**不是独立复核或S2接收**。基线已有同ID旧对象，但逐ID历史成员名册缺失，不能证明旧对象是否进入9,622分子；新版本不回填历史汇总。该条仍列入当前版独立差异复核队列。
+初始核查是主代理定向核查，**不是独立复核或S2接收**；当时该对象仍列入当前版独立差异复核队列。基线有同ID旧对象，但逐ID历史成员名册缺失，不能证明旧对象是否进入9,622分子；本次当前版本PASS及成员边界见下方quote-boundary修正记录，不回填历史汇总。
+
+<a id="2026-11-01-s2-ch10-p286-powis-quote-boundary-correction"></a>
+### 2026-11-01 第10章 p.286 赞助人不确定statement引句范围修正
+
+独立复核指出，`st-chp10-p286-powis-patron-uncertain`中的“here”须由前句识别为Powis House装饰方案；旧引句从“impossible to be quite certain”开始，不能单靠该引句支持claim所称的Powis House decoration。已依原PDF印刷p.286／物理页15与当前S0修订：`original_quote`从L199“He also painted a ceiling and the walls and staircase of Powis House in Great Ormond”起，接L200–201至原句结尾；`source_line_start`由200改为199，end保持201。新引句是当前S0连续子串；claim仍保留Haskell明确的不确定和条件语气。
+
+更正前版本回映记录曾写成相对9,622基线“只变更`mentioned_candidate_ids`”，此差异说明不完整：基线同ID对象与当时当前对象还在`qualifiers.ocr_corrections`上不同，后者记明S0的“James H’s”按p.286印本校读为“James II’s”。本次引句边界和`source_line_start`又产生当前版本变化。除此之外不改claim、候选映射或mention；不新增关系端点。`rel-2446 creator_of`保持formal，`bl-0057`赞助人待办及相关statement关系继续pending；不推断Lord Powis确为赞助人。旧statement出现在9,622基线不证明其计入统一历史复核分子，现版也无逐ID名册可证明成员身份，故不调整9,622。
+
+写后独立复核者对当前工作树版本回核为PASS：原页图确认印刷“James II’s”，S0保留OCR“James H’s”并由校读字段准确说明；扩展引句覆盖“here”的先行项且为S0连续子串。`the Seasons` `[1938,1949)`、`Judith and Holofernes` `[1967,1988)`、`Lord Powis` `[2053,2063)`、`he` `[2697,2699)`及`Amigoni` `[2750,2757)`跨度与候选映射正确。`rel-2446 creator_of`保持formal，`bl-0057`保持pending，未建立Lord Powis赞助边。当前对象相对基线的完整变化为`original_quote`、`source_line_start`、`mentioned_candidate_ids`和`ocr_corrections`；没有逐ID／来源版本名册或可定位复核快照证明旧对象或当前对象属于9,622分子，故不增减。PASS仅覆盖这条当前statement及直接影响，不接收第10章或全书S2。
 
 <a id="2026-11-01-s2-crosswalk-ch1-ch2-ch4-review-snapshot"></a>
 ### 2026-11-01 第1、2、4章独立复核快照至当前ID／来源版本回映
