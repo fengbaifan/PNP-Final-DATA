@@ -10,6 +10,10 @@
 
 **2026-11-01 S2历史9,622累计链复算：** 9,400起始数加第7章批次137、第5章p.138的36、第7章p.189的44及后续5条当前版本，算术为9,622。p.189最后5条中有3个同ID改版、2个新ID，49个被记录的statement版本对应46个当前唯一ID；历史汇总未说明是否冲减旧版本。因此只确认累计算术，不把9,622当作唯一当前statement数或覆盖率；全书逐ID／来源版本成员名册仍待重建。详见[历史计数链及版本缺口](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-9622-increment-arithmetic-and-id-duplication)。
 
+**2026-11-01 S2第7章137条历史增量回映：** p.199–202及复合注释六批合计137条statement、281条mention，复核快照中的137个ID均在9,622基线和当前表中；对象、mentions、S0段及原页Git版本核对通过。p.201同段后补的两条空间statement明确不在该增量内，当前版独立回核PASS且不调整历史计数。详见[第7章批次版本回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch7-137-counted-statements)。
+
+**2026-11-01 S2第7章 p.201 后补空间断言独立回核PASS：** 两条statement和`rel-1466`、`rel-1467`的原文范围、mention跨度、端点与关系方向通过；明确不属于9,622历史复核分子，不据此调整计数。仅为两条当前statement的独立回核，不接收第7章或全书。详见[版本回映与独立复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch7-137-counted-statements)。
+
 **2026-11-01 第3章 p.92 当前版独立复核：** 拒绝tribune许可与公爵获知传言两条statement及相关mentions通过；身份指向Ranuccio II有F.csv#12支持，关系仍因谓词/告知者端点不足而pending。稳定ID保留为技术键，不当作事实。两条当前版本不计入9,622；本批不接收第3章或全书S2。详见[独立复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch3-p92-after-note-revision)。
 
 **2026-11-01 第8章 p.237 注3修复的独立当前版复核：** 三条修订与六条新增statement、18条mention PASS；rel-1617及其余pending关系状态正确，S3去向不变。9,622基线包含三条旧statement但无证据确认其历史成员身份；六条新增statement和18条mention不在基线。该批不调整历史计数，不接收第8章或全书S2。详见[独立复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch8-p237-note3-after-repair)。

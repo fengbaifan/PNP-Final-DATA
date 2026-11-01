@@ -15264,3 +15264,22 @@ S3下游不变：cand-0877、cand-8023、cand-8025、cand-8026、cand-12103仍�
 p.189最后计入的5条中，`st-chp7-p189-i25`、`i26`、`i27`是此前44条中同ID对象的修订版本，另有`i25-subject`、`i25-intended-gift`两个新ID。故44条旧版本与5条当前版本共49个被记录复核的版本，对应46个当前唯一ID。报告将当前5条都加到累计数，却未说明是否从历史计数冲减3个旧版本；不能据此把9,622解释为9,622个不同ID或当前版本覆盖数，也不能据此计算S2覆盖率。
 
 下一步仍须逐批将复核快照映射到稳定statement ID、完整对象版本和S0来源版本，确认旧版替换、真正新增、删除及未计入批次；现有基线差异表不能替代逐ID成员名册。当前9,622保留为历史累计记录，不作加减；S2全书收口和独立接收未完成。
+
+<a id="2026-11-01-s2-crosswalk-ch7-137-counted-statements"></a>
+### 2026-11-01 S2历史9,400至9,537：第7章137条复核增量逐版本回映
+
+以独立复核记录和各批提交快照为准，对第7章依次计入9,400→9,537的六批 statement 做版本回映：
+
+| 批次 | 复核快照 | statement | mention | 当前版本对照 |
+|---|---|---:|---:|---|
+| p.199正文 | `d75d5c4d2143b8686e266dbda8715b3e93c06790` | 14 | 46 | 14个ID、对象和mention均与9,622基线及当前表完全一致 |
+| p.200正文 | `de2ac92ebb67180d833fa5c2a41ab3d55f53da78` | 32 | 71 | 32个ID、对象和mention均一致 |
+| Plate 32a–32b | `3ec70ba7b1c3bf18ca9fc5d9e72972eed19be0a3` | 6 | 8 | 6个ID、对象和mention均一致 |
+| p.201正文 | `1fb3220986399633b774c386a78d6a2aa8191197` | 38 | 97 | 38个复核ID仍存在；一条statement的脚注链接随后在注释复核中更新，当前对象见下文 |
+| p.202正文 | `2a6f8c826a2fedab7f814eaf6724c814f16ab257` | 13 | 15 | 13个ID、对象和mention均一致 |
+| p.200–202复合注释 | `43499bc8ae141d0a0fa986267936fd09a2c7bbec` | 34 | 44 | 34个ID、对象和mention均一致 |
+| **合计** |  | **137** | **281** | 六批互不重叠的statement ID均在9,622基线及当前表中 |
+
+上述复核快照、9,622基线与当前HEAD之间，六批S0 segment完整对象均一致；第7章正文Markdown、图版视觉转录Markdown和 `CHP-7.pdf` 对应Git blob也均一致。唯一先后版本差异是 `st-chp7-p201-v-eugene-reputation-among-italians`：p.201正文复核快照尚标注注3待审，复合注释复核随后核对Zanotti引文并补齐正文—注释回链；该后续statement完整对象与9,622基线及当前版一致，未重复计入34条注释增量。
+
+p.201正文当前segment有40条statement，而独立正文复核批次为38条；另两条 `st-chp7-p201-v-ceiling-painting-located-at-hall` 和 `st-chp7-p201-v-garden-palace-hall-part-of-palace` 是之后因端点补足新增的空间断言，既有过程记录明确称其不计入9,622独立复核增量。另一名独立复核者在当前HEAD `a11c54d76d51b1b8ab567b4971a44026fa2a1e98`对照CHP-7.pdf印刷p.201／物理页43、S0 L54、当前statement、mentions及关系表，确认两条claim、quote与`the ceiling` `[2496,2507)`、`the hall` `[2511,2519)`、`their garden palace` `[2523,2542)`跨度准确；`rel-1466 located_at`的work→hall及`rel-1467 part_of`的hall→garden palace方向和类型正确，未推断作品完成、现今位置或所有权。两条statement、mention、S0 Markdown、PDF和关系版本均与9,622基线一致；过程记录明确它们未计入历史分子，故不调整9,622。该独立PASS仅覆盖两条后补statement及直接关系，不代表全书S2收口。故本批可以确认137条历史增量的ID／来源版本回映，不等于全局9,622成员名册已恢复或全书S2已收口。
