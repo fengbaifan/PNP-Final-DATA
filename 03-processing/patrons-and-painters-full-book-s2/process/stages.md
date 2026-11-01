@@ -15632,3 +15632,24 @@ p.84 statement st-chp3-seciv-l75-81-revived-lamb-subject的object从cand-5287（
 Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼拜堂dedication的rel-2127、rel-2128、rel-2527保持原映射。Gianandrea Carlone身份仍待证；Maratta的《圣方济各·沙勿略之死》与Gaulli作品分开。Papal arms候选cand-5303尚无KU，Negroni刻立教宗徽记statement不建formal边。其余statement保持Haskell报告、被引文献或作者解释的说话者/推断限定。批内10条现有formal关系rel-1490–rel-1495、rel-2127–rel-2128、rel-2185、rel-2473、rel-2527均不变；本批不改S2 statement/mention表、alignment、KU或relations.csv。
 
 **图版OCR与批后清单。** 印本p.83读作“emotional contact”，p.85读作“front of the altar”“implications”；当前S0转录分别保留emotionaTcontact、front os和impheations，书内statement原引句继续照录S0，已在页面核读后确认相应claim含义，不在此批改写02来源转录。当前statement总数15,505，mention总数27,056。逐ID状态为主审通过1,162（既有独立240、主审922）、已审待处理552、历史复用但保留开放发现8,377、待差异复核282、待历史回映或当前复核5,132；未达到主审通过14,343条，其中552条已有当前批次结论但待处理，13,791条仍未进入B001–B018。S2仍未独立接收。逐ID结果与当前哈希见s2-current-review-roster.csv顺序3342–3441。
+<a id="2026-11-01-s2-history-current-version-crosswalk"></a>
+### 2026-11-01 S2历史9,622事件到当前ID与来源版本核平
+
+逐行核对 `s2-history-9622-review-events.csv` 共9,622条历史事件，event ID唯一；9,539个历史statement ID，其中83条为重复审读事件。事件级当前对象对照为exact 9,122、changed 498、absent_current 2；所有9,622条历史事件的S0段、分节Markdown与原书PDF来源版本均匹配。按每个旧statement ID取最新事件，9,049个当前对象完全一致、488个同ID对象已变、2个旧ID已不在当前statement表。当前15,505条statement中，9,537个ID有直接历史事件记录，5,968个ID没有历史事件；历史读审记录本身不等于修订后当前版本的独立接收。
+
+两条 `absent_current` 均有可追溯去向：H9622-01597（`st-chp2-seciv-l190-245-rest-flight-owned-by-rospigliosi`）因把p.57注3的所有权续文误挂到p.58注8而撤销；事实留在p.57注3当前statement `st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned`，并另有书内作者断言 `st-chp2-seciv-l171-179-rest-flight-attributed-to-poussin`。这两条现行statement分别保持已审待处理状态，不继承旧ID的通过结论。H9622-05790（`st-chp13-p332-copyright-effects-on-local-and-export-books`）因把两项不同市场判断合并而拆成 `st-chp13-p332-copyright-effects-on-local-books` 与 `st-chp13-p332-luxury-export-editions-gained`；后一组现行版本仍在当前复核队列，不继承旧ID的审读状态。两项处理依据见本文件第2章p.57注3修复记录及 `knowledge.md` 第13章p.332修订。
+
+因此9,622条历史事件均已对应到同ID当前版本，或有明确的撤销/拆分去向；9,620条直接关联当前statement行，另2条通过上述例外映射。该核平不把历史复核数直接作为当前S2完成数。
+
+<a id="2026-11-01-s2-current-review-b019-ch3-seciv-p86-p88"></a>
+### 2026-11-01 S2当前版B019：第3章第IV节p.86–88
+
+**批次结论。** 按当前逐ID清单顺序3442–3541连续处理100条并全部主审通过，待处理0条。来源为L96–104的25条、L106–116的33条及L118–128的42条。该批复用三个既有S2段落判断和关系分类，不重复建立已稳定的内容。
+
+**历史版本与复用。** 本批100个当前statement均没有9,622历史事件；这表示该批ID不属于历史计数，不表示此前没有S2工作。与旧表快照 `c6590080` 按完整JSON对象比较：97条完全一致，3条同ID对象仅 `qualifiers.relation_candidate_note` 改变。三处更新分别澄清：Ludovisi拟建S. Ignazio的场址和反对者身份均未解决；S. Andrea与后来的S. Ignazio是作者比较而非影响关系（对应 `rel-1754 compared_with`）；S. Ignazio作为“one large problem”是作者对装饰状态的概括，不支持正式委托边。复用依据见对应三个 `classify_s2_chp3_seciv_*_20261011.py`，最新每ID状态与来源快照见当前roster。
+
+**文本与跨度检查。** 当前statement哈希100/100与roster相符；100条 `original_quote` 均可在各自S0 segment内找到。三个segment共149条mention：L96–104 48条、L106–116 43条、L118–128 58条；逐项按当前S0字符位置切片，span、surface form和candidate ID均无错误。当前S0 Markdown SHA-256为 `0b2a3412f679bc74e0427612522dad0df1ad9386e941f7646a6983dc76132aed`，原书 `CHP-3.pdf` SHA-256为 `362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`。视觉核读印本pp.86–88（PDF物理页28–30）；印刷p.87–88确认了段界、脚注5及后续作品和Pozzo叙述。S0原文中的OCR连写/误识（如 `Tliis`、`Pamfdi`、`thelife`、`saintfor`、`aseries`、`twentyone`、`completeor`、`38year-old`、`Inis superiors`）与印本有异；本批继续按S0原文保存引句，不在此处改写来源转录。
+
+**身份与关系影响。** Unidentified Pope `cand-5320`、Ludovisi拟建址 `cand-5325`、Ceva `cand-0642`、未具名Rector `cand-5322`、Camillo之子 `cand-5323`、Prince及其继承人 `cand-5327/5328`、未具名Scaramuccia `cand-5339`等仍按现有S3决定待证；不把Prince与Camillo合并，不把Guglielmo与其兄Giacomo或battle-picture作品组混为一项。两教堂装饰状态statement保持非关系分类。现有 `rel-1754`、`rel-2490`、`rel-2560`、`rel-2561`及pending `rel-2489`均未改；commission不自动改作完成创作边，footnote档案内容仍是Haskell转引而非已独立查档。本批不改statement、mention、alignment、KU或relations.csv。
+
+**批后数量。** 当前15,505条statement、27,056条mention。主审通过1,262（既有独立240、当前主审1,022）；已审待处理552；复用历史但保留开放发现8,377；待差异复核282；待历史回映或当前复核5,032。未达到主审通过14,243条，其中552条已有结论但待处理，13,691条尚未进入B001–B019。下一条为顺序3542 `st-chp3-seciv-l118-128-success-story-compared-to-fairy-tales`。S2仍未独立接收。
