@@ -15715,3 +15715,16 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 **关系与历史影响。** 4004和4006分别由既有formal rel-2124（located_at，来源报告的fonds locator）及rel-2123（part_of，来源报告的单件locator）承载；页码、引句与scope吻合，未改关系行。Claude的recorded_in仅为S2 relation candidate，未新增formal S6边。cand-5605／5606／5607身份及档案层级未在本批作外部对齐；S3不变。历史事件和S6裁决均未改写。
 
 **来源版本与批后数量。** CHP-4.pdf SHA-256=2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303；第4章I节Markdown SHA-256=3961adefb7ea2e1f2e44e02173a494c509964e7273b6b3867619643bbd9ecb64；II节Markdown SHA-256=fd05a5c61deb6ba897878f510450d589d1ec0ef1276ff585ae601943bfd59575。当前主审PASS 1,550（独立当前版242、当前主审1,308）；已审待处理552、历史复用但保留开放发现8,377、待差异复核280、待历史回映或当前复核4,746。未达PASS共13,955条。下一条连续原文顺序4104为st-chp4-sec-ii-l24-31-paper-museum-analogy。S2仍未独立接收；修订后严格表审计为errors=[]、s2_missing=[]。
+
+<a id="2026-11-01-s2-current-review-b026-ch4-sec-ii-l24-l63"></a>
+### 2026-11-01 S2当前版B026：第4章第II节L24–63
+
+**批次与历史复用。** 当前原文顺序4104–4203连续100条，全部逐ID处置。93条有唯一9,622历史事件，当前statement及来源段版本精确匹配、mentions无增删改；其历史结果均明确保留开放发现，直接复用、不重读、不计当前PASS。另7条进行当前版主审：5条历史对象变化及2条历史计数外statement，均完成主审PASS。整批处置100/100，待处理0。
+
+**当前版五项差异。** 印本p.104（PDF物理p.11）可确认L54–56所引Cassiano称Paul III对面之墓的声誉未因Urban VIII墓获赞而减损；S0的Ill’s OCR保留在原quote，statement明确扫描读作III’s。L56 fountains一语是Haskell对喷泉的一般评论，已解除其与特定Fountain of the Four Rivers的candidate映射，作为无对象的标量评语。L61把Cassiano“取得modello”限为obtained_work，并与modello_for_st-romualdo statement互链；modello、祭坛画和Sacchi归属分别表述，不推断模型作者。上述处理对应4172、4173、4175、4192、4193。
+
+**两项新增statement。** L61新增statement记录Haskell将1638年St Romualdo祭坛画归于Andrea Sacchi；L63新增statement按上下文记录Cassiano是Poussin古典研究的引导者，同时保留这是Haskell作者叙述的语境识别，不据此建立正式师承边。两项对应4195、4200。
+
+**关系与历史裁决。** 既有formal rel-1872 creator_of、rel-1873 acquired_by、rel-1874 model_for与本段证据及分开的work端点一致，未改行；tomb比较、喷泉一般评语和Poussin研究方向无新增formal边。9,622历史事件仅作复用/差异定位，不重写历史行。S3身份裁决和S6状态均未因本批升级。
+
+**来源版本与批后数量。** 对照CHP-4.pdf印本p.104 / PDF物理p.11；第4章II节Markdown SHA-256=fd05a5c61deb6ba897878f510450d589d1ec0ef1276ff585ae601943bfd59575，CHP-4.pdf SHA-256=2a737df590be91a661dbb2dd5c75b7d9df3d882487183f58430e51fb43b26303。当前主审PASS 1,557（独立当前版242、当前主审1,315）；已审待处理552、历史复用但保留开放发现8,377、待差异复核275、待历史回映或当前复核4,744。未达PASS共13,948条。下一条顺序4204为st-chp4-sec-ii-l53-63-cassiano-returned-to-rome-1626；S2仍未独立接收。写后严格表审计为errors=[]、s2_missing=[]。
