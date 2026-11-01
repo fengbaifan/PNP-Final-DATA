@@ -16294,3 +16294,32 @@ p.212 n.2印本确认Fall of Manna和Moses striking the Rock由Haskell称刊于L
 **本批修正及下游影响。** `st-chp8-p225-crespi-interpretive-irony` 的subject由作品`cand-0880`改为画家`cand-0871`：原文“he”回指Crespi，评价其解读古典神话的反讽；原claim、quote和提及清单不变。现有S3将`cand-0871`映射为Crespi人物KU、`cand-0880`仍为未决的独立作品候选。该statement `relation_candidate=false`，不涉及formal关系；alignment、KU、relations.csv及其他S3–S6裁决均未改。Haskell的`apparently`、`may well`、`must have`、`possible to suggest`等来源限定保留，脚注所引外部材料未声称已独立查阅。
 
 **当前进度与机械核验。** 本批未增删statement或mention，当前15,505条statement、27,160条mention。批后逐ID状态：PASS 2,279；pending 606；历史已映射但保留开放发现8,323；当前版本差异待核101；尚未完成历史/既有审读映射4,196；未获当前PASS共13,226。下一顺序从8926开始。9,622 ledger SHA-256仍为`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`；批内0条历史事件，历史review hash、来源版本及裁决未改。当前roster规范序列化SHA-256=`e59bc0294df3d00bbbbcde90b42300b23bd6ea85225a7164691074dd280727ea`。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`（15,505 statements、27,160 mentions）；`audit_relation_consistency.py --dry-run`：broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；`git diff --check`通过。
+
+
+<a id="2026-11-01-s2-current-review-b074-ch8-p226-p229"></a>
+### 2026-11-01 S2当前版本逐ID复核 B074：CHP-8 p.226–229，顺序8926–9025
+
+**完成量。** 连续原文顺序8926–9025共100条全部逐ID处置：93条直接核对当前版statement、S0和原书页图，7条复用既有旧S2原页审读；100 PASS、0 pending。PASS仅表示本批S2表述与当前原文、来源限定和提及映射核对通过；未替代S3身份裁决或S6关系核平。100条的9,622历史审读事件数均为0，旧历史ledger不增删、不改裁决。
+
+**历史原页读复用。** 复用2026-10-07快照`d7adabfb27dff892808793ae5eace18787e6ef60`的7条：`st-chp8-p226-father-entered-lucchese-nobility`、`st-chp8-p226-conti-per-figure-payment-open`、`st-chp8-p228-canaletto-four-pictures`、`st-chp8-p228-sebastiano-proposal-failed`、`st-chp8-p228-carriera-emmanuela-portrait`、`st-chp8-p228-crespi-1728-commission`、`st-chp8-p229-marguerite-departure`。逐项确认当前statement完整JSON、来源段、各statement所需候选mention映射与旧页读快照完全一致；旧记录覆盖相应印刷页p.226、p.228、p.229。p.227及p.228整段存在后来增加的局部mentions/注记，但逐项筛查后与这7条各自使用的候选span无关，因此不重复原页审读；其余当前受影响声明均在本批直接核页。顺序8953的开放句尾另与当前p.227续句直接核闭至`st-chp8-p227-pricing-problems`。
+
+**原页与当前版本。** CHP-8.pdf SHA-256=`cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`；S0 `08_CHP-8_sec_ii.md` SHA-256=`5d9a17efc3835c30947b8c714c65649be10295661b6cca6b117f5902882bcef6`。直接核读印刷p.226–229／PDF物理页28–31。四段当前来源及mention清单：
+
+| 印刷页／顺序 | segment ID | segment SHA-256 | mention数／mention SHA-256 |
+|---|---|---|---|
+| p.226／8926–8953 | `chp-8:08_CHP-8_sec_ii:l179-188` | `715955beec51c3d7aacbb848ee33085b73e3095a35fd02390d1a4449e2412cf0` | 56／`372f850e7f7a5add05279c4e3e067b36534a3e29e04456b79624a486227ac6c5` |
+| p.227／8954–8985 | `chp-8:08_CHP-8_sec_ii:l190-204` | `635cf6837953171a2fdb2d006f2b1cd43098dec3518e9cd37e294eb89cee22c8` | 66／`4b5715b56d9a2fb91eb12cb738c2281387dfc1e9b70ff59b7e368c10af65af51` |
+| p.228／8986–9007 | `chp-8:08_CHP-8_sec_ii:l206-214` | `1d2cc5ee02365840bc2a68b0113435c36b8a52aaf979eb3f5339642e4710ed98` | 44／`8a52eeed2897e00baa65ccda606535ddaaf49a8af62a2e5d2c2ac23489d9c10d` |
+| p.229／9008–9025 | `chp-8:08_CHP-8_sec_ii:l216-225` | `dcd96bb399d0be5aa8a91eb405a1ccccb4bdbf9c378006c9792c5bf1549b3e79` | 37／`01ac3bd18563ba35988a1368fe215009c5ae60a2895c028b0a1573a6d026d49d` |
+
+全四段segment正文与旧原页读快照相同。mention差异仅为p.227新增Bologna `[600,607)`、Venice `[1827,1833)`两条mention，p.228新增“Italian art”`[3148,3159)`一条mention及既有`The Finding of Moses`mention注记更新；p.226、p.229 mention全集不变。新增span与当前S0和页图逐项核对。不同索引／正文候选（如Bologna、Venice）不在S2合并，身份边界留S3处理；p.228题名mention注记继续区分Crespi作品与p.222另一个同名作品。当前statement/mention全集仍为15,505／27,160条；本批未改statement、mention、S3 alignment、KU或relations.csv。
+
+**语义核读及边界。** p.226核实Conti婚姻及家属身份缺名、父亲获Lucchese贵族身份的相对年代、画廊收藏与遗嘱“试图”保留、原创作品/尺寸/题材/书面保证条件、Marchesini代理及其工作；原文“some quarter of a century”只作约数，不落为确切1629年。p.227区分Franceschini的建议与Conti接受，不推成作品已完成；Torelli拟作、Conti接受同类作品及到货后询问题材分开，不补造实际交付作品身份。p.228将画家评价、分批委托Canaletto、Marco Ricci景观、Sebastiano插入人物、未成交的Alexander历史画、Carriera肖像与Crespi委托/改题拆开；Marchesini评价按Haskell的引述保留。p.229保留Haskell的时代评价、Ferdinand与Gian Gastone的家属事实及人物描述；当代引语作者仍不具名，不把作者判断提升为独立事实。
+
+页图校读均留在statement qualifier的结构化`ocr_corrections`中，原始S0不改：p.226 `silled`→`filled`、`originals`→印本单数`original`、`siom`→`from`；p.227 `curio so .`→`curioso.`、`Acliilles`→`Achilles`、`evenLazzarini`→`even Lazzarini`及`academic`前的重复识别符号；p.228 `Rosalba Garriera`→`Rosalba Carriera`；p.229 `sine arts`→`fine arts`。印本中的`Chalchas`及`Antinorus`照录，不因常见拼法擅改。
+
+**关系及历史影响。** p.227 n.1、n.2中与档案定位相关的`rel-1922`、`rel-1923`继续pending；本批没有证据使被引信件原件成为已独立查阅材料。未新增、删除或改裁决任何formal关系；S3身份组、S4登记、S5字段、S6历史决定均未改。历史ledger仍为9,622事件、9,539唯一旧ID、83重复事件；9,539/9,539来源版本匹配，最新statement匹配9,048 exact、489 changed、2 absent_current；ledger SHA-256=`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`。本批0历史事件；本轮只读计划SHA-256=`4c29769eb190abbd62df09625f3a20e5b6c90ec1b8e0c1b2b6e56a4d4b3b6c46`，roster SHA-256=`ba54524313c7e6d84fa1654eed8d3ce4f296a2505770e79a8d76b1169c77e053`；未执行`--apply`。
+
+**批次后进度。** 当前15,505条statement：PASS 2,379；已审pending 606；历史精确复用但保留开放发现8,323；待历史版本差异复核101；待历史/既有审读回映或当前复核4,096；未获当前PASS共13,126。连续原文顺序已处理至9025，下一条9026。S2仍未独立接收。
+
+**必要核验。** B074 roster顺序8926–9025连续且100行全部有PASS及证据引用；四段当前mention数/hash与逐ID roster一致。`audit_tables.py --strict-stage --summary`、`audit_relation_consistency.py --dry-run`及`git diff --check`结果见本批提交核验。
