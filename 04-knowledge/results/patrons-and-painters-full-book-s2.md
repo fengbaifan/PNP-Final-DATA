@@ -4,6 +4,8 @@
 
 **2026-11-01 S1补充检查：** 当前候选生成预览无待补accepted-KU候选，严格审计无表错误或S2缺源段；只读字面提及扫描在585个已审阅段返回607条候选名称与mention未重叠的提示。该计数不是漏登实体数，也未经过语义判定；本次只保存汇总，未保存607条明细或建立逐项待办。后续若筛查，须按章重跑并核读原文，确认缺口后才补mention或候选。现阶段S1索引、图版、书目及已有候选来源映射核平通过，S2语义补录仍随未完成的全书复核继续回查。详见[S1当前输入复核](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s1-current-candidate-recheck)。
 
+**2026-11-01 S1候选来源复查及S2提示重跑：** 当前2,934条索引候选、85条图版、256条书目映射和8,508条正文补录候选的来源均已核对；候选预览未发现待补accepted-KU候选。正文候选source-ref均可解析。当前字面提示为603处（585段；第8章201处），与较早记录607处不同；旧命中明细未保存，差异不作推断。提示只作为S2逐章复核入口，未确认的表面不自动增补mention或候选。详见[本轮复查记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s1-current-candidate-recheck)。
+
 **2026-11-01 第3章 p.80 祭坛席拱顶当前版独立复核：** 范围排除statement的claim/quote通过但关系谓词无忠实对应，继续pending；空间部分statement及既有`rel-2426 part_of`通过、无须变更。当前版复核不调整9,622历史数，不接收第3章或全书S2。详见[独立复核记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch3-p80-tribune-vault)。
 
 **2026-11-01 S2第7章 p.189版本回映：** 独立复核报告初始44条与后续5条当前statement复核记录之间有3个同ID改版、2个新增ID；当前46条statement、95条对应mention及原页来源版本均与9,622基线相同。`rel-1748`、`rel-1749`及后续`rel-2056`–`rel-2059`当前均为formal且范围符合书内证据。本批版本映射不调整9,622汇总；全局逐ID／来源版本名册仍未恢复。详见[第7章 p.189历史版本回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch7-p189-version-batch)。
