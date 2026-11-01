@@ -15973,3 +15973,14 @@ CHP-7 p.169正文明确写Rosa正在给G. B. Ricciardi写信；章前n.1把它�
 **相关关系。** rel-2265 `located_at`、rel-2266 `created_by`、rel-2267 `has_subject`、rel-1822 `authored_by`及rel-1823 `addressed_to`均保持formal，语境、来源和限制不变；没有改动statement、mention、KU、S3决定或关系裁决。S2原页复核PASS仍不代表全书S2独立接收。
 
 批后：PASS 1,738（当前主审1,490、独立当前版248），已审待处理552，历史复用仍有开放发现8,302，待差异复核197，待历史回映或当前复核4,716；未达PASS共13,767。100/100条已处置，下一条原文顺序6804。S2仍未独立接收。
+
+<a id="2026-11-01-s2-current-review-b053-ch7-p174"></a>
+### 2026-11-01 S2当前版逐ID复核 B053：CHP-7 p.170–174（顺序6804–6903）
+
+**批次处置：100条；1条当前版本差异经原页复核PASS，99条精确复用9,622历史直接阅读并保留开放发现。** 99条均为当前statement对象及来源段精确匹配，历史来源匹配且每条仅1个历史审读事件；不重读、不把开放发现升级为PASS。顺序6901的`st-chp7-p174-i18`是唯一差异项：历史事件H9622-08030来自提交`2273e2743158401b841fb9bc7b7d1332836d400a`，历史statement SHA-256=`895466d6bb71441c0899befa6fa5f9f7220c0a010de8cc7f973c9fb8ad53347f`，当前对象SHA-256=`59bd2e769b97cc239548b5d2d8d45fe5ac062731dc7534874f66cabb170e112c`，当前值等于复核快照值。历史和当前来源段SHA-256均为`665659b1a5cd705e717d718c2ad94b8f5ab6824d8b5bec5bb3d17ac65e757721`，来源Markdown也匹配，mention集合无新增、删除或变化。逐字段比较唯一差异是当前`footnote_refs[].statement_ids`新增`st-chp7-p174-n2-statue-subject-henri-ii`；当前statement正文、claim、subject candidate及原引文均未变。
+
+直接核对02-sources/01-book/CHP-7.pdf印刷p.174（PDF物理p.8，SHA-256=`eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`）。正文明确Maria de’ Medici促成Henri IV骑马纪念碑委托，并说该纪念碑又过十年才抵达；只保留相对间隔，不推定准确年份、最终接收人或地点。新链接指向注2中的另一组项目：1559年未执行的Henri II骑马像，以及后来为Philip III制作的相似纪念碑。注2不把Henry II项目并入Marie所求Henri IV纪念碑，也不改变当前claim。该被链接的新statement位于逐ID顺序7525，仍待原文序推进到该项时单独复核，本批不将它记作PASS。
+
+**S6与关系影响。** `st-chp7-p174-i18`没有正式关系边；既有S6裁决拒绝把“另十年才抵达”的相对时间断言编码为实体关系，原S2断言与S5相对时间字段保留，本批不改变。独立的rel-2485 `has_subject`仍formal，仅描述未执行的Henri II方案；对象、来源和限定不变。没有statement、mention、KU、S3决定或relations.csv写入。
+
+批后：PASS 1,739（当前主审1,491、独立当前版248），已审待处理552，历史复用仍有开放发现8,302，待差异复核196，待历史回映或当前复核4,716；未达PASS共13,766。100/100条已处置，下一条原文顺序6904。S2仍未独立接收。
