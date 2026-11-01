@@ -15960,3 +15960,16 @@ S6既有判断不变：6233对抗议的受控谓词仍pending；6235的事件终
 **关系与裁决影响。** rel-1870 intended_for（6605）、rel-1861 cites（6609）、rel-2447 has_participant（6622）及rel-2448 part_of（6615）均与当前claim及证据范围相符，保持formal。计划未完成及Gasparo差异继续按来源语气记录，不升级为commissions_by或disputed_with；Barberini/Chigi家族比较继续pending，不改成单一家庭边。S3候选和KU未改。批次原页复核与既有独立PASS复用不等于全书S2接收。
 
 批后：PASS 1,733（当前主审1,485、独立当前版248），已审待处理552，历史复用仍有开放发现8,302，待差异复核197，待历史回映或当前复核4,721；未达PASS共13,772。100/100条已处置，下一条原文顺序6704。S2仍未独立接收。
+
+<a id="2026-11-01-s2-current-review-b052-ch6-p164-ch7-p169"></a>
+### 2026-11-01 S2当前版逐ID复核 B052：CHP-6 p.164、CHP-7 p.169（顺序6704–6803）
+
+**批次处置：100条；5条当前版原页复核PASS，95条精确复用9,622历史直接阅读并保留开放发现。** 95条均为`exact_object_and_source_segment`，当前statement和来源段分别标记`exact`、`true`，每条对应1个历史审读事件；因此不重复核读且不把历史的开放发现改记为PASS。原页复核的是6748、6753、6754、6780、6781；这五条历史核平台账均为`not_in_reconstructed_count`，本批按当前版本逐条补审。
+
+原页依据为02-sources/01-book/CHP-6.pdf印刷p.164（PDF物理p.19，SHA-256=`de7a3546edcc8b992a1720341690b142d9f96d04fd6ba5374e5733e6167ac258`）及CHP-7.pdf印刷p.169（物理p.3，SHA-256=`eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`）。来源Markdown当前哈希分别为`06_CHP-6_sec_v.md`=`724f421d1c98612a8820404c82dda956dadaf6006483fcdf394cc53af4e72d15`及`07_CHP-7_sec_i.md`=`f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3`。CHP-6 n.2印本读作“protocolli 1838 and 1839”，OCR层的“protocol!!”和原S0／original_quote保留；这只是转写校勘，不改变“所引Ottoboni图像清单定位于Archivio di Stato, Rome”的claim。清单未查阅，statement仍限定为Haskell的档案定位。n.5明确称Trevisani为Ottoboni肖像作者、Ottoboni为肖像对象并指向Bowes Museum；当前`created_by`与`has_subject`主张忠实反映原注，不声称材料鉴定。
+
+CHP-7 p.169正文明确写Rosa正在给G. B. Ricciardi写信；章前n.1把它识别为1669-06-08来信并引De Rinaldis, 1939, p.221。原信和该书页未独立查阅，现有statement qualifiers、`reported correspondence`及`publication_candidate_id`边界正确。人物候选`cand-2236`与页169局部索引候选`cand-2241`均已对齐至`units/persons/salvator-rosa`，收件人`cand-2187`与信件archive `cand-6602`端点一致；候选ID与KU关系无冲突。
+
+**相关关系。** rel-2265 `located_at`、rel-2266 `created_by`、rel-2267 `has_subject`、rel-1822 `authored_by`及rel-1823 `addressed_to`均保持formal，语境、来源和限制不变；没有改动statement、mention、KU、S3决定或关系裁决。S2原页复核PASS仍不代表全书S2独立接收。
+
+批后：PASS 1,738（当前主审1,490、独立当前版248），已审待处理552，历史复用仍有开放发现8,302，待差异复核197，待历史回映或当前复核4,716；未达PASS共13,767。100/100条已处置，下一条原文顺序6804。S2仍未独立接收。
