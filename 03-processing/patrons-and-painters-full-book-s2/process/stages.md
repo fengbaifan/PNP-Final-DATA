@@ -16023,3 +16023,19 @@ p.183注2原页读作“exact-date … d’Aumale, p. 8. See also Callari, p. 29
 Plate 25扫描题注为“Gentileschi: Public Felicity triumphant over Dangers”，List of Plates补全为Orazio Gentileschi；Plate 26a题注为“a. Nanteuil: The Cardinal in his gallery”，List of Plates写作Nanteuil并将the Cardinal指为Cardinal Mazarin。相应作品和人物身份沿用现有candidate/KU映射，不把印本题注当成独立作者鉴定；两页标题只作版面分组，没有据此添加关系边。版面mention跨度均与当前segment原文一致。本批未写入新mention、KU、S3决定或relations.csv行。
 
 **批后进度。** 历史9,622事件的current statement对照重算为9,121 exact、499 changed、2 absent_current；按每个旧ID最新事件去重为9,048 exact、489 changed、2 absent_current。可回映的9,620条来源版本仍9,620/9,620匹配。连续原文顺序7104–7203共100/100条已处置。当前版PASS 1,763（当前主审1,515、独立当前版248）；已审待处理552；精确历史复用且保留开放发现8,301；待差异复核186；待历史回映或当前复核4,703；未达PASS共13,742条。下一条原文顺序7204。PASS仅表示本批current source alignment审查通过，不构成第七章或全书S2接收。
+
+
+<a id="2026-11-01-s2-current-review-b057-ch7-p183-p187-plates26-28"></a>
+### 2026-11-01 S2当前版逐ID复核 B057：CHP-7 p.183–187及图版26–28（顺序7204–7303）
+
+**批次处置：100条；35条当前版原页复核PASS（15条历史对象/来源差异、20条无精确历史事件映射），65条精确历史复用并保留开放发现。** 连续范围不跳行；65条statement、来源段、来源资产及mention集合均与唯一历史事件精确相同，直接复用历史阅读，不重读、不把开放发现记作PASS。35条当前核对包括图版26–28题注12条、p.185两条、p.186二十一条。
+
+依据 02-sources/01-book/CHP-7.pdf 物理页20–24（图版26–28、印刷p.185–186）；PDF SHA-256=eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212。S0分节 02-sources/02-Markdown/07_CHP-7_sec_i.md SHA-256=f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3。本批关键segment：Plate 26 chp-7:07_CHP-7_sec_i:l181-182（9 mentions，mention-set SHA-256=1b956f4dfe40f0231a17e5fc94159011785711d940babf56dc765d803815bcb4）；Plate 27 l184-200（6，13f18074f0bd0940885bbabe806511f2a09da45a0de97d7c058f823445546024）；Plate 28 l202-203（3，803971c3d8541854f85e418a160b01362e83311d874ba120edd4b9bc3cbffff6）；p.185 l205-213（94，9f327e15b2c7125f8de56f6be3fccb6379e952d1cd251734b43609febf0dfc7c）；p.186 l215-222（83，736435c3beaf886d531307499cf2c6a34a09a82b24537a33d464ff985f62cc59）。
+
+原页与List of Plates支持各图版的印本文字：Plate 26a为Nanteuil的Mazarin肖像题注，26b为Romanelli的Romulus与Remus题注；Plate 27a题注为Fanelli/Charles I、27b为Bernini/Louis XIV；Plate 28a题注为Cagnacci/Death of Cleopatra。图版statement仅表示书中题注和画面所述，不作为独立作者鉴定，也不据此推定具体建筑/馆藏身份或新增关系边。候选沿用既有范围。
+
+p.185原页支持La Vrillière与Guercino的委托、以及其1637年委托Poussin的statement；rel-2551及rel-2552继续formal，分别限于书内所述委托，不补Guercino年份/交付或Poussin完成/交付。p.186物理页支持Haskell叙述及Brienne被引法文引语；st-chp7-p186-q01的引语连续性、归属和现有扫描校读保留，仍是来源归述，不提升为独立核实的历史事实。st-chp7-p186-i11按扫描读作“S. Carlo alle Quattro Fontane”；i14保留印本连字符。其余当前statement与限定均与原页相符。本批未发现需修正的statement、mention或S0转录；除既有formal rel-2551、rel-2552外未发现需改动的关系裁决，无新mention、KU、S3决定或S6关系边。
+
+本批历史事件记录和来源hash未改；历史裁决的开放发现原样保留。当前statement版本hash与历史不同的15条逐条检查后PASS；其余20条逐条对照原页后PASS；精确复用的65条仍是开放状态。
+
+**批后进度。** 历史9,622事件current statement匹配仍为9,121 exact、499 changed、2 absent_current；按旧ID最新事件去重为9,048 exact、489 changed、2 absent_current；可回映来源版本9,620/9,620匹配。连续原文顺序7204–7303共100/100条已处置，其中本批新增当前版PASS 35条，精确历史复用65条仍保留开放发现。当前版PASS 1,798（当前主审1,550、独立当前版248）；已审待处理552；历史复用开放发现8,301；待差异复核171；待历史回映或当前复核4,683；未达PASS共13,707条。下一条原文顺序7304。S2仍未独立接收。
