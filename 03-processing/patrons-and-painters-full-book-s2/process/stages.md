@@ -16213,3 +16213,19 @@ p.212 n.2印本确认Fall of Manna和Moses striking the Rock由Haskell称刊于L
 **本批机械核对。** `audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；保留审计器报告的既有S4待登记和S2语义质量提示。`audit_relation_consistency.py --dry-run`：broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0；`git diff --check`通过。
 
 **历史核平只读计划。** 脚本重建9,622条历史事件、9,539个唯一旧ID（83条重复事件）；所有9,539个来源版本匹配。最新statement匹配为9,048 exact、489 changed、2 absent_current。该脚本只输出计划，未改写历史ledger或旧裁决；plan SHA-256=`8b3895dad1cfc7b42ced3d9d4f57477635053af780caf102ff1256718a6479a3`。
+
+
+<a id="s2-current-review-b070-ch8-p216-p218"></a>
+### 2026-11-01 S2当前版本逐ID复核 B070：CHP-8 p.216、图版33–35、p.217–218，顺序8504–8603
+
+**本批结算：100/100条均有去向。** 6条当前版复核PASS、1条当前版pending、93条复用历史直接阅读并保留开放状态。历史复用共95条：61条statement/source/mention均与9,622事件清单中的直接审读精确匹配；另34条statement与2026-10-15第8章p.217–218逐页复核版本完全一致（commit `829cc76726d77aae0aaabcaf0c1a2d472e2f0afc`），逐项回映而不重读原文。34条中，32条保留原有开放finding；2条结合当前端点/关系增量复核后转为当前PASS。当前Markdown与历史review commit blob一致（`3d06d52be0860626d4a3b01bc985273636879ef0`），CHP-8 PDF blob一致（`3c745eb57bc3fcd2b5f8b1a1a8b09f540f933a03`；当前文件SHA-256 `cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`）。
+
+**当前原页复核与判断变化。** 直接复核CHP-8印刷p.216／PDF物理页14的5条新增或改版statement。`st-chp8-p216-massacre-commissioned-by-committee`与`st-chp8-p216-massacre-intended-for-southern-transept`分别按“受委托”和“计划安置”记录，不推出完成/安装；现行rel-2064、rel-2065方向和范围相符。`st-chp8-p216-padre-massimo-massacre-commission`从历史复合委托predicate改为Padre Massimo→《Massacre of the Innocents》的source-local `creator_of`；印本“commissioned … from … Padre Massimo”支持该归属表述，现行rel-2063同样限定为Haskell所述，不声称作品完成、存世或经外部核验。`st-chp8-p216-massimo-response-and-no-further-work`的claim已把原文`they`改为未指明施事，消除先前写成governors的过度指代；但仍把风格评价、满意、请求临时离开及请求未成压为一条false摘要，故pending。原页清楚印作“promise-of”；现行quote保留印本原样，删除先前不正确的`promise-of`→`promise of` OCR校读。`st-chp8-p216-milan-pictures-first-stage-complete`补连既有mention候选`cand-12367`；印本支持四幅具名作品与1659年第一阶段完成，作者仍未名，不分派个人作者。
+
+**历史复用与当前端点差异。** 复核当前段新增的3个p.217 mention：`sixteen pictures` `[572,588)`→`cand-7663`、`A cold letter` `[858,871)`→`cand-7666`、收件人`Liberi` `[888,894)`→`cand-1401`，均精确命中分节原文。将`st-chp8-p217-committee-turns-to-venice`的object及mention锚由`cand-3401`改为该段实际mention所用`cand-2719`；两候选的既有S3决定都指向`units/places/venice`，这修复的是局部来源锚，不改变身份裁决。该statement对应的S6“委员会—Venice关系”仍为rejected，未增formal边。`st-chp8-p217-committee-sends-letter`的Liberi收件人增量由精确mention及formal `rel-1439 addressed_to`补齐；信件原件未独立查阅。`rel-1438`（十六幅计划的委员会委托关系）及rel-1439均与当前端点、原文限定相符。p.218唯一`Bergamo` mention `cand-7743`位于Zanchi后文勘察地点；Ferri到达语句中的`cand-6208`指向不同原文出现位置。两候选都映到同一Bergamo KU，但不把后文mention移作Ferri句的span锚。
+
+**仍待处理的原裁决。** 复用记录保留p.217 `st-chp8-p217-liberi-contract`、`...flood-rejected`、`...flood-repainted-placed`、`...last-judgement-cancelled`、`...ferri-selected-invited-open`、`...ferri-cannot-leave-open`等与原子statement重叠的false摘要；`st-chp8-p217-letter-demands-repaint-and-suspension`仍须区分重画《The Flood》的要求与暂停其他画作/付款的要求。p.218 `st-chp8-p218-delay-cools-relations`的`cand-12370` patrons组仍未定类型；`st-chp8-p218-ferri-invitation-response`仍为复合摘要并保留局部提及锚问题。上述关系未凭共现或未定群体类型升级为formal。除rel-1438、rel-1439和p.216现有rel-2063至rel-2065外，本批无relations.csv增删或改裁决；S3身份映射、S4登记及S6历史裁决均未改写。
+
+**批次后状态。** 当前15,505条statement：主审/独立当前版PASS共2,000（当前主审1,752、独立当前版248）；已审pending 560；历史直接阅读复用但保留开放发现8,326；待版本差异复核101；待历史回映或当前复核4,518。未达PASS共13,505条。连续原文推进至顺序8603，下一条为8604；本批100条中95条复用旧阅读，不因历史来源及statement未变而重复通读。S2仍未独立接收。
+
+**本批机械核对。** `python scripts/audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；保留审计器既有S4待登记和S2语义质量提示。`python scripts/audit_relation_consistency.py --dry-run`：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。逐ID清单核对15505个唯一ID、当前statement哈希全匹配、B070顺序8504–8603连续且100/100均有批次记录。`git diff --check`通过（仅有工作树LF/CRLF提示）。
