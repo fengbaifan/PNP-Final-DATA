@@ -15210,6 +15210,18 @@ st-chp8-p239-venetian-emphasis
 将初始复核提交、9,622基线及当前HEAD逐项比较：当前46条p.189 statement对象均与9,622基线及当前复核快照完全一致；95条 `m-chp7-p189-*` mention完整行相同；p.189正文和注释所在的两个segment对象相同；S0分节Markdown及 `CHP-7.pdf` Git blob三方不变。关系影响也已核对：`rel-1748`、`rel-1749`两条Montaiglon书内引用边从初始快照延续且仍为formal；后续登记的 `rel-2056`–`rel-2059` 创作者、肖像对象、拟赠对象和出售者边当前均为formal，范围仍限Haskell书内叙述。此回映确认本批当前statement、mention、来源版本和关系现状，不调整9,622计数；全书逐ID／来源版本名册及S2接收仍未完成。
 
 
+<a id="2026-11-01-s2-independent-current-review-ch3-p80-tribune-vault"></a>
+### 2026-11-01 第3章 p.80 祭坛席拱顶当前版本独立复核
+
+独立复核者在当前HEAD `3a639a17cc1936576abe3d543c0ab2b758bf617f`对照`02-sources/01-book/CHP-3.pdf`印刷p.80／PDF物理页22、S0 segment `chp-3:03_CHP-3_sec_iv:l35-46`及当前statement、mention、关系记录。PDF SHA-256为`362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`；S0 Markdown SHA-256为`0b2a3412f679bc74e0427612522dad0df1ad9386e941f7646a6983dc76132aed`。原文称Gaulli受托绘制穹顶、主拱顶及耳堂拱顶，“He was to omit only the vault of the tribune”。
+
+`st-chp3-seciv-l35-46-tribune-vault-reserved`当前claim与quote忠实；`cand-5232`（Gaulli Gesù委托/work）到`cand-5223`（祭坛席拱顶/place）的范围排除主张有原文支持，mention `most elaborate commission` `[1258,1283)`及`the vault of the tribune` `[1592,1616)`精确。但受控关系词表没有忠实表达该范围排除的谓词，故不建立formal边，S6保持process-only pending；不改写为`part_of`或`intended_for`。
+
+`st-chp3-seciv-l35-46-tribune-vault-part-of-tribune`当前版PASS。mention `the vault of the tribune` `[1592,1616)`及其嵌套`tribune` `[1609,1616)`精确；`cand-5223 part_of cand-5000`仅表示拱顶与Gesù祭坛席空间的部分关系。既有`rel-2426 part_of`方向与范围正确，不推断建筑边界、绘饰结果或产权，无需变更。
+
+历史版本：9,622基线中已有第一条statement旧对象，subject为`cand-1117`；当前版改为`cand-5232`，须以当前版独立复核。新增的第二条statement不在基线，过程记录明确其未计入统一S2复核分子。三条相关mention和来源Markdown/PDF与基线相同；缺少逐ID／版本成员名册，故不据此确定旧对象是否进入9,622，也不调整计数。本批只接收上述两个当前statement及直接关系影响，不代表第3章或全书S2接收。
+
+
 <a id="2026-11-01-s2-current-review-ch8-p237-note3-referents"></a>
 ### 2026-11-01 S2第8章 p.237注3指代锚点修复与裁决影响
 
