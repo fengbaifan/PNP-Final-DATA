@@ -15138,3 +15138,21 @@ st-chp8-p239-venetian-emphasis
 前句L199–200记Amigoni为Powis House的天花、墙面和楼梯绘制装饰，随后“It is impossible to be quite certain who was his patron here”；因此`here`所指的装饰项目由`cand-8996`补锚有原文上下文支持。已有`m-chp10-p286-seasons` `[1938,1949)`、`m-chp10-p286-judith_holofernes` `[1967,1988)`跨度切片相符。`cand-0094`复用Amigoni人物KU，`cand-8996`沿既定S3 `new`组已登记为装饰项目KU；不将其拆成单幅画或推定赞助者。S3 `undecided`的`cand-2031`仅有Lord Powis头衔，故潜在赞助关系继续由`bl-0057`记录为pending，不写formal边。既有`rel-2446 creator_of`仍只表示Haskell称Amigoni绘制该整体装饰，不受本次端点锚点更改影响。
 
 本项是主代理定向核查，**不是独立复核或S2接收**。基线已有同ID旧对象，但逐ID历史成员名册缺失，不能证明旧对象是否进入9,622分子；新版本不回填历史汇总。该条仍列入当前版独立差异复核队列。
+
+<a id="2026-11-01-s2-crosswalk-ch1-ch2-ch4-review-snapshot"></a>
+### 2026-11-01 第1、2、4章独立复核快照至当前ID／来源版本回映
+
+独立复核报告 `s2-independent-review-chp1-2-4-20261020.md` 首次与review snapshot同存于提交`2273e2743158401b841fb9bc7b7d1332836d400a`。报告声明逐条复核第1章521、第2章1,441、第4章1,082条statement，共3,044条；三章在该提交的`book-statements.jsonl`实际计数完全吻合。报告结论是各章均不接收，因其列出的语义、端点与锚点问题尚待处理；这代表该快照的逐条复核范围，不代表全书S2接收或9,622汇总成员身份。
+
+以该review snapshot为起点，当前`book-statements.jsonl`逐对象回映如下（变更=相同ID完整对象不同；新增／删除按ID）：
+
+| 章节 | review snapshot条数 | 当前条数 | 当前同ID对象变更 | 当前新增 | 当前删除 |
+|---|---:|---:|---:|---:|---:|
+| 第1章 | 521 | 522 | 3 | 1 | 0 |
+| 第2章 | 1,441 | 1,464 | 55 | 24 | 1 |
+| 第4章 | 1,082 | 1,097 | 48 | 15 | 0 |
+| **合计** | **3,044** | **3,083** | **106** | **40** | **1** |
+
+同期mention逐ID回映为：第1章变更0、新增1；第2章变更9、新增5；第4章变更3、新增11；合计变更12、新增17、删除0。唯一删除的第2章statement `st-chp2-seciv-l190-245-rest-flight-owned-by-rospigliosi`已有误引脚注来源及替代statement的删除理由，见第2章p.57注3裁决。三章145个S0 segment对象（30／75／40）均与review snapshot完全相同；`CHP-1.pdf`、`CHP-2.pdf`、`CHP-4.pdf`及对应三份章Markdown文件的Git blob也均未变。因此上述差异来自S2对象/mention写回，不是S0正文、段界或原页资产变化。
+
+进一步比较report snapshot与9,622基线提交`1a6313c8654280a9b71187fc08522098626e734e`：三章同ID statement对象变更分别为2／47／36条，新增1／16／15条，无删除；mention变更为0／7／2条，新增0／5／9条，无删除。report snapshot完整章范围可以复原；但该报告未逐项声明其是否计入9,622分子，且9,622汇总仍无全书唯一成员名册。因此不把3,044条整体加进或扣出9,622，不据此计算覆盖率。相对review snapshot的106条当前变更和40条当前新增须继续逐批映射到明确的当前版独立复核记录；只有仍未回核的版本留在队列，旧版本复核不自动继承。

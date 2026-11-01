@@ -22,6 +22,8 @@
 
 **2026-11-01 第10章 p.286 Powis House装饰候选锚点主代理核查：** 当前statement仅新增`cand-8996`装饰项目锚点，原文中的“here”可回指前句项目；句子、claim与既有`rel-2446 creator_of`均不变。Lord Powis仍为S3 undecided，赞助关系由`bl-0057`保持pending。本次是定向自查，仍待独立复核，不计入9,622历史台账。详见[p.286当前版核查](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-primary-current-review-ch10-p286-powis-reference)。
 
+**2026-11-01 S2第1、2、4章历史复核版本回映：** 独立报告快照`2273e274`逐条复核3,044条statement，当前映射为第1章521→522、第2章1,441→1,464、第4章1,082→1,097；当前版本相对复核快照有106条同ID对象变化、40条新增、1条有据删除。145个来源segment及三章PDF、Markdown原件均未变。该报告未说明是否计入9,622历史分子，故不据此增减9,622或计算覆盖率；当前版本仍须逐批对应独立回核记录。详见[三章ID／版本回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch1-ch2-ch4-review-snapshot)。
+
 **2026-11-01 S2历史回映增量：** 9条第13、14、17章及结论statement已由旧复核快照`2273e274`回映至当前独立复核快照`47ea4184`和HEAD：6条旧ID改版、3条快照后新增；6条相关mention中2条旧行变化、4条新增。9条当前版均有独立复核记录，Rosa statement的后续引句修订另经当前版复核通过；`rel-2302`–`rel-2304`保持原裁决。此次不调整9,622历史汇总；全局唯一ID／来源版本名册仍待核平。详见[S2历史组与当前版回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-current-review-ch13-14-17-conclusion)。
 **2026-11-01 第2章三条作者 mention 当前版独立复核：** de Rinaldis、Roger Hinks、Rosi 三个 span 均与S0及原页匹配；前两者沿用已确定的作者身份和KU，Rosi仍保持S3 `undecided`并由`bl-0034`待证。相关citation与有据署名边均无需改判；不增减9,622历史复核汇总，也不视为第2章或全书S2接收。详见[第2章作者mention复核](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch2-l124-157-author-mentions)。
 
