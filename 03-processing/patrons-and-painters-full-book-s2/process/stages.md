@@ -15497,3 +15497,45 @@ B003对六条候选修正实体关系判断：年龄属性`francesco-age-at-urba
 **历史复用与当前版本。** 本批87条statement与9,622历史末版及来源segment精确一致，复用旧逐条审读；其余4条为历史成员的同ID改版，1条无精确历史映射。另有8条第3章当前对象不属于9,622重建成员，历史 roster 的旧对象状态与现对象不一致，已直接复核当前印刷p.63。p.60–62核对《CHP-2.pdf》物理页49–51，SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；p.63核对《CHP-3.pdf》物理页1，SHA-256=`362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`。本批100条均缺statement级`mentioned_candidate_ids`；复用的历史记录保留开放发现，改版和对象不匹配行也不因本次读到原页而自动通过。
 
 **当前版余量。** 本批100/100均有主审去向（0 pass、100 pending）。全书当前清单为pass 354（独立238、主审116）、已审待处理560、历史精确复用但保留开放发现8377、待差异复核282、待历史回映或当前复核5932。尚未达到主审通过的statement共15151条；其中560条已有当前批次结论但待处理，14591条尚未进入B001–B010逐批裁决。statement/mention数据表和关系裁决本批未改；全书S2仍未独立接收。
+
+
+<a id="2026-11-01-s2-current-review-b010-correction"></a>
+### 2026-11-01 S2当前版B010结论校正：第3章p.63八条
+
+回查项目 S2 交接规则后，纠正B010的待处理门槛：规则要求每条提及映射到候选、每条断言锚定来源段；并未要求每条statement重复保存`qualifiers.mentioned_candidate_ids`。因此该字段缺失本身不阻断S2主审通过。B010初始记录中“100条均缺该字段”不准确：100条中4条有非空数组、96条没有。
+
+B010中第3章p.63的8条statement（顺序2634–2641，导言注释4条及I节开篇4条）复用第3章既有逐段语义记录，并以当前印本物理第1页、当前statement锚点与对应mention候选核对，现改为主审通过8条。保留Haskell叙述、Grey引语及脚注编辑性归属层级；“1620?”按印本脚注标记处理，不将引文转述升级成已核实史实。它们均不属于9,622次历史事件分子。
+
+B010其余92条仍待处理：87条虽与9,622历史末版及原文版本精确一致，但历史事件的结果为`directly_read_with_open_findings_unless_separate_pass_record`，未核销的旧发现继续保留；另4条为同ID改版、1条没有精确历史映射，须逐项处理其版本差异。该批当前结果为8 pass、92 pending。原文statement、mention与`relations.csv`未改写；更新仅校正逐ID主审结论。
+
+
+<a id="2026-11-01-s2-current-review-b011-ch3-p63-p66"></a>
+### 2026-11-01 S2当前版B011：第3章印刷pp.63–66
+
+**本批100条逐ID主审通过100条、待处理0条。** 连续范围为p.63 I节L3–14余下3条、p.64 L16–24的35条、p.65 L26–33的19条及脚注L35–43的13条、p.65 II节L3–4的7条，以及p.66 L6–17前23条。下一条为 `st-chp3-secii-l6-17-no-bolognese-artists-represented`（当前顺序2742）。这些是S2主审通过，不构成章节或全书独立接收；Clelia、Farnese家族宫殿、未具名群体及作品身份仍按既有状态留在S3待决，未增加或改动正式关系。
+
+**历史过程与当前版本核平。** 9,622次事件中本批均无成员；当前statement版本与PDF、规范Markdown文件均可追溯到既有第3章处理记录。以`d7adabf`为旧机器表快照对照，100条中86条的claim、quote、行锚、谓词及主体/客体均相同，复用逐段语义判断；13条当前statement有端点或claim变化，已对照原文逐项回核；另1条为后续新增的Cozzi脚注引文statement，依据p.64脚注与2026-10-13的端点回核记录直接处理。当前100条quote均在对应规范段精确匹配，涉及段内的mention偏移均能切回相同原文字面。源文件及PDF印本版本未变；`CHP-3.pdf` SHA-256=`362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`。
+
+13条statement当前核心字段改动逐项记录如下：
+
+| Statement ID | `d7adabf` → 当前字段变化 | 当前版核对 |
+|---|---|---|
+| `st-chp3-seci-l3-14-order-patronage-circumscribed` | object `null` → `cand-11897` | 复杂处境保持未具体枚举的term |
+| `st-chp3-seci-l16-24-vandyck-in-rome` | subject `cand-0960` → `cand-0958` | Van Dyck人物候选；身份组仍由S3处理 |
+| `st-chp3-seci-l16-24-paintings-main-text-vandyck` | object `cand-0960` → `cand-0958` | 主文归属仍限定为Haskell叙述 |
+| `st-chp3-seci-l16-24-puyvelde-rubens-attribution` | subject `cand-4976` →作品组`cand-4977` | 保留van Puyvelde报告归属及Haskell的反证限定 |
+| `st-chp3-seci-l16-24-orders-social-integration` | subject/object `cand-1321/cand-2114` → `cand-2114/null` | 断言范围为Jesuits及其他宗教团体融入社会 |
+| `st-chp3-seci-l16-24-orders-followers-devotion` | object `null` → `cand-11900` | 明确区分团体与未名追随者 |
+| `st-chp3-seci-l16-24-orders-financial-shortage` | object `null` → `cand-11899` | 资金短缺记录为原文报告的状况，不补金额 |
+| `st-chp3-seci-l16-24-church-building-dependent-on-families` | subject `cand-1321` → `cand-2114` | 依赖资助的主体为宗教团体范围 |
+| `st-chp3-seci-l16-24-families-determined-patronage` | object `null` → `cand-11898` | 赞助机制保持来源定义的term |
+| `st-chp3-seci-l26-33-secular-princes-claims-first` | object `null` → `cand-2114`；claim改写为优先权比较 | 引用当前句及前文语境，不扩大为具体委托 |
+| `st-chp3-secii-l6-17-external-painter-exposed-jesuit-financial-weakness` | object `null` → Baglione `cand-0158`；claim/quote修订 | 用紧邻的《Resurrection》未付画作叙述作具体例证 |
+| `st-chp3-seci-l35-43-friedlaender-citation` | object `null` → `cand-0544` | 仅记录引文所涉Caravaggio，不宣称外部查阅 |
+| `st-chp3-seci-l35-43-claretta-citation` | object `null` → Ciro Ferri `cand-1027` | 仅记录脚注所涉人物，不核实引文内容 |
+
+当前mention另有两项后续映射变化：`m-chp3-seci-l16-24-0001`“their followers”现映射未名追随者集合`cand-11900`（S3仍`undecided`）；`m-chp3-seci-l16-24-0022`“Van Dyck”现映射至`cand-0958`（S3已复用`units/persons/van-dyck`）。99条旧statement的`relation_candidate`分类及96条对应说明字段另在2026-10-10按这些章节段落完成关系候选语义分类；B011复用该分类记录，不新增或改动`relations.csv`。4条端点开放理由和2条claim限定变化按当前statement逐条保留。身份范围不因S2主审而合并。
+
+**处理记录计数差异。** 当前`sec_ii:l3-4`为19条mention；旧段落摘要记18条，差额对应现表已有的第19条“Renaissance”→`cand-3578` term mention。当前`sec_ii:l6-17`为57条mention；旧段落摘要记56条，第57条是p.66脚注尾句的档案引文mention `m-chp3-p66note-0007`→`cand-5134`，不构成新增历史断言。脚注段当前13条statement（25条mention），比旧迁移摘要中的12条statement多1条：`st-chp3-seci-l35-43-cozzi-rejection-citation`，它由2026-10-13端点回核按印刷p.64注1补入，仍只记录Haskell对Cozzi反驳的转述，不声称独立查阅该文。所有三项计数/版本差异均按当前表修正，旧迁移过程保留原始记录。
+
+**本批后清单。** 当前全书主审通过462条（独立238、主审224）、已审待处理552条、历史精确复用但仍留开放发现8377条、待差异复核282条、待历史回映或当前复核5832条；S2仍未独立接收。statement和mention数据表、`relations.csv`及历史9,622计数均未因本批改写。逐ID裁决详见`s2-current-review-roster.csv`的当前顺序2642–2741。
