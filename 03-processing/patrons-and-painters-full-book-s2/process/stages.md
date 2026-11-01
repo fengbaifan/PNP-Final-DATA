@@ -15804,3 +15804,13 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 **原页、提及及关系影响。** p.117注3扫描确为“these pictures, whose original patron is not known”，只将未知原始赞助人记为明示缺失，不推断Massimi或Cassiano继承人为赞助人；Blunt 1938、Panofsky 1957、Bellori p.441等引文各自保留定位。注5扫描确认Resident of the Duke of Savoy于1675年对Massimi的意大利文评述及后接Claretta 1885 p.550引文。现有“et e partiale”与扫描字形一致，本批不添加OCR校正；原文字词保留在嵌套证言statement，并与“偏爱Carlo Maratta”单独statement分开。9个相关mention span逐一与当前segment切片相等。`rel-2154 cites`仍仅表示Haskell脚注引用Claretta p.550；不表示已独立核验被引材料。未为匿名Resident或未知赞助人新增S3身份/正式关系，S6无变更。扫描页的临时渲染核对后已移至系统临时目录，未纳入仓库。
 
 **批后状态。** 当前statement/mention为15,505/27,056；当前PASS 1,615（独立当前版246、当前主审1,369），待处理552，历史映射开放发现8,371，待差异复核234，待回映或当前复核4,733，未达PASS 13,890。9,622历史事件及来源版本核平分母不变。下一批从顺序5004开始；S2仍未独立接收。
+
+
+<a id="2026-11-01-s2-current-review-b035-ch5-p124-castiglione-print"></a>
+### 2026-11-01 S2当前逐ID B035：第5章原文连续顺序5004–5103
+
+**批次与复用。** 当前原文文件顺序5004–5103共100条，逐ID处置。99条statement与来源段及9,622历史审读对象精确一致，复用历史阅读并保留开放发现。另1条（5051）无精确历史映射，直接对照`CHP-5.pdf`印刷p.124、PDF物理p.5复核；扫描文本与当前原句相符，当前版通过。批次100/100：当前版PASS 1，历史开放复用99，待处理0。
+
+**指代、对象和关系。** 印本写作“Simonelli ... outside the main stream ... Castiglione whose publisher dedicated to him a fine print of Diogenes searching in vain for one honest man.”当前statement原句及mention span准确，`cand-6022`对应该具体版画、`cand-0602`对应Castiglione人物；S3/S4现有分别映到作品KU `units/works/castiglione-print-diogenes-honest-man` 与人物KU `units/persons/giovanni-benedetto-castiglione`，不混为同一对象。发现creator statement原claim把创作者归属与题献合写，已收窄为“Haskell将《Diogenes》版画归为Castiglione作品”；相邻的`st-chp5-p124-simonelli-castiglione-print`单列题献给Simonelli，避免一个claim重复承担两种关系。谓词方向依relation types规定为work→person，既有`rel-2246 created_by`和`rel-2234 dedicated_to`分别与两个statement对齐，均不改状态或证据。未独立检查版画本体；只记Haskell书内归属。本批不改S3决定、KU或`relations.csv`。
+
+**批后状态。** 当前statement/mention为15,505/27,056；当前PASS 1,616（独立当前版246、当前主审1,370），待处理552，历史映射开放发现8,371，待差异复核234，待回映或当前复核4,732，未达PASS 13,889。该新增主审的statement不在9,622重建事件内，历史核平分母和匹配数不变。下一批从顺序5104开始；S2仍未独立接收。
