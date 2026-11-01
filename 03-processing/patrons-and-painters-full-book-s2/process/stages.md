@@ -15690,3 +15690,17 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 **关系与身份边界。** p.79注2仍只证明Joshua stopping the Sun主题与Carlone在Perugia Jesuit church所选主题相同；Carlone对应主题未具名，关系对象继续待证。p.82注3只给出整组图纸的Berlin、Düsseldorf城市级分布，不分配具体图纸、馆藏机构或数量。p.93注1只记将Legros雕像移入“the church itself”的提议；未证明实施，目的地未明，保持待证。没有为这些缺口造endpoint或formal边。批内与现statement对应的formal关系`rel-1267–1268`、`rel-1345–1353`、`rel-1408–1409`、`rel-1962–1964`、`rel-2172–2184`经查均符合现有引句与脚注定位，未改行。无S6历史裁决改写；p.82注1的`cites`仍待S6处理。
 
 **来源核验与批后余量。** 对照CHP-3.pdf印本p.77、p.78–93（物理p.19–35）；第4章首页16条复用其精确历史事件来源版本。第3章S0 Markdown SHA-256=`0b2a3412f679bc74e0427612522dad0df1ad9386e941f7646a6983dc76132aed`，CHP-3.pdf SHA-256=`362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`。statement/mention总数15,505/27,056。当前主审通过1,546（独立当前版242、当前主审1,304）；已审待处理552、历史复用但保留开放发现8,377、待差异复核282、待历史回映或当前复核4,748。未达到主审PASS共13,959条：552条已有结论待处理，16条本批复用的精确历史直读仍留开放，13,391条尚未进入B001–B022。下一项顺序3842为`st-chp4-intro-notes-03-dating-assumption`。S2仍未独立接收；写后严格表审计为`errors=[]`、`s2_missing=[]`。
+
+<a id="2026-11-01-s2-current-review-b023-ch4-intro-sec-i-l3-l33-history-reuse"></a>
+### 2026-11-01 S2当前逐ID B023：第4章intro末段及第I节L3–33历史复用
+
+**批次与复用。** 当前原文顺序3842–3941连续100条，全部逐ID复用9,622历史事件，不重复审读。每条均仅有1条历史事件，statement版本精确、来源段版本匹配、mentions无增删改；历史记录明确标为直接阅读但仍有开放发现。100条全部保留prior_review_mapped_open，B023处置完成100/100，新增当前版主审PASS为0，待处理0。
+
+**来源范围与影响。** 范围为第4章intro L10–13及第I节L3–33。逐ID证据分别回链到s2-history-9622-review-events.csv的H9622事件行。由于历史结果仍有未关闭发现，本批仅核实并复用相同ID／版本及原文范围，不把旧审读升级为当前PASS；不改statement、mention、候选、alignment或关系表，不改S6裁决。
+
+<a id="2026-11-01-s2-current-review-b024-ch4-sec-i-l26-l67-history-reuse"></a>
+### 2026-11-01 S2当前逐ID B024：第4章第I节L26–67历史复用
+
+**批次与复用。** 当前原文顺序3942–4003连续62条，全部逐ID复用9,622历史事件，不重复审读。每条均仅有1条历史事件，statement版本精确、来源段版本匹配、mentions无增删改；历史结果均为直接阅读但保留开放发现。62条全部维持prior_review_mapped_open，B024处置完成62/62，新增当前版主审PASS为0，待处理0。
+
+**来源范围与影响。** 范围承接B023的第4章第I节，覆盖L26–67剩余条目；逐ID证据回链到对应H9622事件行。重用仅适用于精确匹配对象和来源版本，开放发现仍待处理；不改statement、mention、候选、alignment、关系表或S6历史裁决。下一条顺序4004为st-chp4-sec-i-l42-67-fn96-fondo-library-locator，历史9,622中无对应事件，转当前版主审。
