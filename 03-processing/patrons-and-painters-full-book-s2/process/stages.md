@@ -15794,3 +15794,13 @@ Negroni身份cand-1732、St Francis Xavier图像created_by/installed_at及该礼
 **引文和关系范围。** p.114题名只支持识别为《Funeral of Phocion》，不据题名确定具体版本或Lord Plymouth收藏作品。p.115注2只记录Litta、Moroni、Abbate Michele Giustiniani等出处；当前记录明确未唯一定位引文页，既有`rel-2647 cites`维持pending，不提升为formal。所引著作未据本批作外部核验，其他S3身份待决不变。当前原页复核依据同上；本批未改`relations.csv`。
 
 **批后状态。** 当前statement/mention为15,505/27,056；当前PASS 1,613（独立当前版246、当前主审1,367），待处理552，历史复用且仍有开放发现8,371，待差异复核236，待回映或当前复核4,733，未达PASS 13,892。9,622历史事件及来源版本核平总数不变。下一批从顺序4904开始；S2仍未独立接收。
+
+
+<a id="2026-11-01-s2-current-review-b034-ch4-p117-footnotes-p117-to-ch5-p125"></a>
+### 2026-11-01 S2当前逐ID B034：第4章原文连续顺序4904–5003
+
+**批次与复用。** 当前原文文件顺序4904–5003共100条，逐ID处置。98条statement与来源段及9,622历史审读对象精确一致，复用历史直接阅读并原样保留开放发现；另2条历史statement版本不同（4905、4907），直接对照`CHP-4.pdf`印刷p.117、PDF物理p.28复核，当前statement均通过。批次100/100：当前版PASS 2，历史开放复用98，待处理0。第4章脚注后接第5章引言与正文，批次顺序按当前原书Markdown连续文件次序。
+
+**原页、提及及关系影响。** p.117注3扫描确为“these pictures, whose original patron is not known”，只将未知原始赞助人记为明示缺失，不推断Massimi或Cassiano继承人为赞助人；Blunt 1938、Panofsky 1957、Bellori p.441等引文各自保留定位。注5扫描确认Resident of the Duke of Savoy于1675年对Massimi的意大利文评述及后接Claretta 1885 p.550引文。现有“et e partiale”与扫描字形一致，本批不添加OCR校正；原文字词保留在嵌套证言statement，并与“偏爱Carlo Maratta”单独statement分开。9个相关mention span逐一与当前segment切片相等。`rel-2154 cites`仍仅表示Haskell脚注引用Claretta p.550；不表示已独立核验被引材料。未为匿名Resident或未知赞助人新增S3身份/正式关系，S6无变更。扫描页的临时渲染核对后已移至系统临时目录，未纳入仓库。
+
+**批后状态。** 当前statement/mention为15,505/27,056；当前PASS 1,615（独立当前版246、当前主审1,369），待处理552，历史映射开放发现8,371，待差异复核234，待回映或当前复核4,733，未达PASS 13,890。9,622历史事件及来源版本核平分母不变。下一批从顺序5004开始；S2仍未独立接收。
