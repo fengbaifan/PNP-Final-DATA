@@ -18657,7 +18657,7 @@ cand-6212由“SS. Apostoli”位置候选按第6章p.154的明确写法对齐�
 <a id="s2-s3-s4-s5-s6-ch8-clement-xi-top-floor-medallion-20261029"></a>
 ### 2026-10-29：第8章p.222克雷芒十一世顶层奖章端点
 
-**原文与S2锚点修复。** 对照第8章印刷页222、PDF物理页24：印本写“On the top floor was another medallion in full relief of the reigning Pope, Clement XI.”；S0 Markdown文字层的“Clement XL”是OCR误读，来源文件未改。statement st-chp8-p222-clement-xi-medallion-on-top-floor已把作品候选cand-12078与人物候选cand-0022分开，并在mentioned_candidate_ids列出二者，但mentions.csv此前没有奖章的实体提及。新增m-chp8-p222-clement-xi-medallion，对应“another medallion in full relief”，范围[312,344)，使原statement拥有可追溯的作品端点提及。该S2更改仅增加一条mention，不改statement；当前版本变化待独立复核，不计入统一复核9,622条。
+**原文与S2锚点修复。** 对照第8章印刷页222、PDF物理页24：印本写“On the top floor was another medallion in full relief of the reigning Pope, Clement XI.”；S0 Markdown文字层的“Clement XL”是OCR误读，来源文件未改。statement st-chp8-p222-clement-xi-medallion-on-top-floor已把作品候选cand-12078与人物候选cand-0022分开，并在mentioned_candidate_ids列出二者，但mentions.csv此前没有奖章的实体提及。新增m-chp8-p222-clement-xi-medallion，对应“another medallion in full relief”，范围[312,344)，使原statement拥有可追溯的作品端点提及。该S2更改仅增加一条mention，不改statement；录入时尚待独立复核，后续复核PASS见[当前版过程记录](stages.md#2026-11-01-s2-independent-current-review-ch8-p222-clement-medallion)。mention不单独计入statement复核数；statement是否已纳入历史9,622分子仍待逐ID核平。
 
 **S3身份裁决与S4登记。** aln-12241此前因缺少mention-level锚点保持undecided；修复提及后，对照当前work清单，未发现同一来源限定对象的既有KU。将cand-12078改判为来源局部new，组号sg3-work-clement-xi-top-floor-medallion-ferrara，映射至units/works/clement-xi-top-floor-medallion-ferrara。对象是原文所述大主教宫顶层的一枚全浮雕奖章；不并入楼梯墙六枚教皇奖章群组，也不并入楼梯灰泥装饰cand-7704。Clement XI复用人物KU units/persons/clement-xi。本批无conflict；未检得可复用的同一work，不添加外部身份或存世作品判断。卡片、manifest和accepted.yml已登记该source-local工作对象。
 

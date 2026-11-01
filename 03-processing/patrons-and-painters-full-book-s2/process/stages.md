@@ -13791,7 +13791,7 @@ S2 statement为同ID内容变化，mention新增1条；9,622条统一独立复�
 
 对照《赞助人与画家》第8章印刷页222（PDF物理页24），确认原文为“On the top floor was another medallion in full relief of the reigning Pope, Clement XI.”；Markdown文字层仍保留OCR误读“Clement XL”，未改写来源文本。原statement st-chp8-p222-clement-xi-medallion-on-top-floor已将奖章与人物候选cand-0022分开，但原mentions表缺少奖章端点的直接提及。新增m-chp8-p222-clement-xi-medallion，表面形式为“another medallion in full relief”，定位当前段字符区间[312,344)、来源行L128，并映射到cand-12078。这只补齐一个提及锚点，不改statement或原文。
 
-变更后mentions共26,862条，statements仍为15,480条。该新增S2对象尚未由独立审读者复核，不计9,622条统一复核台账；需在版本ID/来源核平后纳入差异复核队列。
+变更后mentions共26,862条，statements仍为15,480条。该新增mention当时尚未由独立审读者复核；后续当前版独立复核已通过，详见[第8章p.222顶层奖章复核](#2026-11-01-s2-independent-current-review-ch8-p222-clement-medallion)。mention本身不是统一S2 statement复核计数单位；对应statement在9,622基线中已存在，但其是否属于历史分子仍无逐ID证据，因此不调整9,622。
 
 <a id="s2-p222-ms610-repository-20261029"></a>
 ### 2026-10-29 S2补录：第8章p.222注1手稿来源及机构提及
@@ -15032,6 +15032,13 @@ st-chp8-p239-venetian-emphasis
 ### 2026-11-01 S2当前版独立复核：第7章 p.197 两条肖像对象statement
 
 独立复核者只读核对当前HEAD `d80522d935a320dc9593d57f5d9a3494cbf7d1e2`、S0正文与注2分节，以及`CHP-7.pdf`印刷页197（PDF物理页35）。`st-chp7-p197-killigrew-portrait-has-subject`和`st-chp7-p197-altham-portrait-has-subject`均PASS：正文L65分别称Thomas Killigrew、James Altham有画像，注2 L109分别给出“Killigrew by Canini in 1651”与“James Altham as a hermit by Salvator Rosa in 1665”；当前mention跨度、作品／人物端点及`work → person`的`has_subject`方向相符。对应正式关系`rel-1904`、`rel-1905`证据范围准确，无需修改。未将三位访客映射到Plate 30a、30b、31a中的具体图版；Vertue及Italian Art and Britain引文未独立核验，关系仍仅表达Haskell本书报告。该复核只覆盖两条statement及两条关系，不构成第7章或全书S2接收；两条不计入9,622历史汇总。
+
+<a id="2026-11-01-s2-independent-current-review-ch8-p222-clement-medallion"></a>
+### 2026-11-01 S2当前版独立复核：第8章 p.222 顶层克雷芒十一世奖章提及
+
+独立复核者在当前数据表快照`c0d8503`只读核对statement `st-chp8-p222-clement-xi-medallion-on-top-floor`、mention `m-chp8-p222-clement-xi-medallion`、当前S0段`chp-8:08_CHP-8_sec_ii:l126-138`（segment SHA-256 `d33e574b0f519d4de385bb3ed6c7dbe5803124f72c2456c86ee64c546919668d`；Markdown asset SHA-256 `5d9a17efc3835c30947b8c714c65649be10295661b6cca6b117f5902882bcef6`）及`CHP-8.pdf`（SHA-256 `cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`），印刷p.222／PDF物理页24。印本原文为“On the top floor was another medallion in full relief of the reigning Pope, Clement XI.”；奖章mention `[312,344)`精确切得“another medallion in full relief”，人物mention `[367,377)`与S0 OCR文本相符，页图支持`Clement XI`校读。statement claim保留Haskell归属，未扩写作者、年代、材质或存世版本。顶层独立奖章与楼梯墙六枚奖章组及楼梯灰泥装饰区分明确。
+
+`cand-12078`经`aln-12241`为来源局部`new`并映射至独立奖章KU；`cand-0022`经`aln-0357`复用Clement XI人物KU。`rel-2605 has_subject`方向为work→person，类型和值域、Haskell原页证据范围均正确；楼梯灰泥的`rel-1665 designed_by`不受影响。statement在9,622基线中已存在；新增mention由提交`71650d22`加入，当前核对没有改写该statement、端点或关系。因历史statement是否属于9,622分子仍无逐ID证据，不加减历史汇总。此项仅覆盖该statement、mention及直接S3/S4/S6影响，不构成第8章或全书S2接收。
 
 <a id="2026-11-01-s2-current-review-ch8-p238-nativity-selfportrait-mentions"></a>
 ### 2026-11-01 S2第8章 p.238 补录三条具名作品mention
