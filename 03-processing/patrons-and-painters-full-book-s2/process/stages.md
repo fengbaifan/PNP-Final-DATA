@@ -16178,3 +16178,19 @@ p.191注11印本实际写作`da Nápoles`。原statement把它误记为OCR偏差
 本段跨CHP-8分节l53–96，涉及Roomer段落延续、Don Antonio Ruffo及del Rosso兄弟段落。所有100项均处于prior_review_mapped_open；其开放发现继续保留在原逐ID记录中。当前statements及关系字段均未改，未增删formal relation或改变S6裁决。此批仅推进连续核平覆盖，不减少未达当前PASS的statement总数。
 
 **批次后状态。** 当前15,505条statement：主审PASS 1,953（当前主审1,705、独立当前版248）；已审待处理552；历史精确复用但保留开放发现8,301；待历史版本差异复核120；待历史回映或当前复核4,579；未达PASS仍为13,552。连续原文已处理至顺序8303，下一批从8304开始；S2仍未独立接收。该批没有修改候选、mentions、statements或relations.csv。
+
+
+<a id="2026-11-01-s2-current-review-b068-ch8-p204-p212"></a>
+### 2026-11-01 S2当前版本逐ID复核 B068：CHP-8 p.204、p.211–212，顺序8304–8403
+
+**本批结算：100条；12条当前版本原页复核PASS，5条原文已核但关系候选口径待统一而记pending，83条精确历史复用并保留开放发现。** 原逐ID状态列出4条statement版本差异及6条无精确历史回映；同一l126–157来源段另有5条新增mention，影响顺序8394–8403中的7条statement。为免把段级mention变化误认为无关，本批将这7条一并回核；其余83条当前statement、source segment/source asset及mention均与历史最新审读精确匹配，复用历史开放发现，不重复审读、不计PASS。
+
+**原页核读与当前判断。** CHP-8.pdf SHA-256=cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3。印刷p.204/PDF物理页2核实注2“The Marriage at Cana of about 1686, now in Chicago”及Veronese、Barocci影响判断；当前location限定为Haskell写作时所报，断代单独保留，艺术家影响拆在两个linked statement中。段级新增的Vaes、信件与Longhi文章mentions属于p.205、p.212及p.213的其他注释，不改变p.204注2的原子claims。rel-2377、rel-2378、rel-2379方向和来源时点/评价范围与当前statement一致。
+
+印刷p.211/PDF物理页9核实Lorenzo及Ottavio遗嘱的Archivio di Stato notarial protocols定位；原注说除Lorenzo将Caravaggio的S. Gio. Decollato画作遗赠给Priore Coriolano Montemagni外，遗嘱不谈绘画。顺序8310保留聚合文献报告，8311另记具体bequest；不推断遗赠执行、现存作品身份或所有权。bequeathed_to不属受控谓词，S6候选保持待裁决，不替换为owned_by，也未新增formal edge。历史事件H9622-09154的旧statement hash和原裁决未动。
+
+印刷p.212/PDF物理页10核实四幅旧约场景的题名及“which he produced for the house”回指Vannini；同页注2说Fall of Manna与Moses striking the Rock刊于Longhi 1956文章。顺序8326、8328–8330分别保留四件作品的来源限定归属，8327仅记录Haskell对四幅作品的评价。既有rel-2509至rel-2512均为相应work→Vannini，范围与原句一致；作品身份不在此批合并。历史事件H9622-09166的旧statement hash和原裁决未动。
+
+**保留pending的引用行。** 顺序8394、8398–8401的印本页码、作者简称及locator均按p.204注1–3核实；8394与8401的多来源locator都保留在citations数组中。但其relation_candidate=false、无主体的口径与同章p.203已经使用的Haskell archive→source cites候选/正式边尚未统一，且一行含多个引证目标。该既有阶段审查差异未在本批擅自裁成正式关系；五条当前来源claim可读，但按S2结构一致性记reviewed_current_pending。被引页未读，relations.csv未增删。顺序8402、8403分别准确记录Valletta购买Codazzi建筑画和帮助Giordano处理图像学问题的Haskell转述；未名卖方、未逐件识别的画作及未指明作品的帮助范围继续限定为S6候选，不扩展出formal edge。
+
+**批次后状态。** 当前15,505条statement：主审PASS 1,965（当前主审1,717、独立当前版248）；已审待处理557；历史精确复用但保留开放发现8,294；待历史版本差异复核116；待历史回映或当前复核4,573；未达PASS共13,540。连续原文已处置至顺序8403，下一条为顺序8404；S2仍未独立接收。批次后audit_tables.py --strict-stage --summary返回errors=[]、s2_missing=[]；audit_relation_consistency.py --dry-run的broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。reconcile_s2_review_history.py只读核平9,622个历史事件、9,539个唯一旧ID，来源版本9,539/9,539匹配；最新历史statement为9,048 exact、489 changed、2 absent。计划SHA-256=3b7f806d50a46339049f452b57917067ee2a1ea4fb29cd12efabfe7c100e8ea8。历史事件表及relations.csv未修改。
