@@ -13619,7 +13619,7 @@ S4端点触发新增5条来源限定 statement，并修正一条把展示意图�
 新增一条Haskell书目归属statement st-chp9-p251-le-grazie-authored-by-florio。该statement未独立逐条复核，不计入统一S2复核分子；全书statement分母由15,286增至15,287，统一复核保持9,617条。此定向端点补充不构成章节或全书接收。
 ### 2026-10-24：第14章 p.355 三幅作品作者归属的 S2 定向补充
 
-对照 Haskell 第14章印刷 p.355、PDF physical p.9及注2，新增3条单件作品的 created_by statement：st-chp14-p355-caesar-created-by-piazzetta、st-chp14-p355-mucius-created-by-piazzetta、st-chp14-p355-darius-created-by-piazzetta。依据正文对受委托画及“两幅后续画”的归属和注2题名对应；不把注中并列的两个地点分配给具体作品。三条是 S2 定向端点修订，未独立复核，不计入统一复核分子；statement 分母由15,287增至15,290，复核分子维持9,617。
+对照 Haskell 第14章印刷 p.355、PDF physical p.9及注2，新增3条单件作品的 created_by statement：st-chp14-p355-caesar-created-by-piazzetta、st-chp14-p355-mucius-created-by-piazzetta、st-chp14-p355-darius-created-by-piazzetta。依据正文对受委托画及“两幅后续画”的归属和注2题名对应；不把注中并列的两个地点分配给具体作品。三条是S2定向端点修订，录入时未独立复核；后续第14章p.353–355五条新增statement当前版独立复核均PASS，三条作者statement包含在该批中，详见[复核记录](#2026-11-01-s2-independent-current-review-ch14-p353-p355-additions)。五条均为9,622基线报告快照后新增，不回填历史复核分子。
 
 
 ### 第8章 p.211 遗嘱综合断言与受遗赠关系拆分（2026-10-24）
@@ -14812,7 +14812,7 @@ S6既有`rel-0706`继续pending：其subject为局部复制品KU“Detail from F
 
 另一复核者在当前HEAD `2e097394c13e472b7d4ebf7a95138f92546fddc3`只读核对五条新增statement、相关mention、候选、S3/S4映射、PDF与S0，五条均PASS。原PDF物理页7、8、9分别为印刷页353、354、355；相关S0 asset哈希及段落文本哈希均与登记相符。共8个相关mention span精确匹配当前段落：p.353 Neptune fountain `[3259,3275)`、Lorenzo Mattielli `[3279,3296)`；p.354书信整体`[2946,2988)`、Eustachio Zanotti `[2956,2973)`；p.355 Caesar题名`[1248,1282)`、Piazzetta `[1098,1107)`；注2所列 Mucius Scaevola `[3438,3466)`与 The Death of Darius `[3471,3490)`。
 
-逐项裁决与关系影响：Neptune fountain归属Mattielli的书内范围正确，`rel-2071 created_by`继续formal且不指认具体存世喷泉或宅邸；书信明确致Zanotti，`rel-2301 addressed_to`继续formal，原信未查及不推断作者；Caesar、Mucius Scaevola、Death of Darius分别归入Piazzetta作品群的限定符合正文及注2，`rel-1758`–`rel-1760 created_by`继续formal。注2没有把两个地点分别分配给Mucius与Darius；不增补该断言。无需回退S3/S4或将上述关系改为pending，本次没有任何表写回。
+逐项裁决与关系影响：Neptune fountain归属Mattielli的书内范围正确，`rel-2071 created_by`继续formal且不指认具体存世喷泉或宅邸；书信明确致Zanotti，`rel-2301 addressed_to`继续formal，原信未查及不推断作者；Caesar、Mucius Scaevola、Death of Darius分别归入Piazzetta作品群的限定符合正文及注2，`rel-1758`–`rel-1760 created_by`继续formal。注2没有把两个地点分别分配给Mucius与Darius；不增补该断言。无需回退S3/S4或将上述关系改为pending，本次没有任何表写回。从复核快照2e097394至当前HEAD ab43acae，五条statement、相关8条mention及rel-2071、rel-2301、rel-1758–rel-1760均未变化，故当前版本与本次独立审读范围一致。
 
 五条statement均为9,622基线报告快照后新增，不回填历史复核分子。此批仅关闭上述五条当前版本的独立复核，不接收整章或全书S2；全局9,622逐ID成员与来源版本核平仍未完成。
 
