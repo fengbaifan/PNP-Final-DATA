@@ -15129,3 +15129,12 @@ st-chp8-p239-venetian-emphasis
 独立复核者对照 `CHP-3.pdf` 印刷p.92／物理页34及当前S0 L169–170；PDF SHA-256为 `362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`，S0 SHA-256为 `0b2a3412f679bc74e0427612522dad0df1ad9386e941f7646a6983dc76132aed`，均与基线相同。第一条claim与引句支持帕尔马公爵拒绝在左耳堂设置tribune的许可；Duke span `[674,687)`精确。第二条只支持信件先送到未具名的“father in charge”，后句另称公爵被告知传言；`Letters, signed and anonymous` `[1066,1095)`、`the unfortunate father in charge of the arrangements` `[1110,1162)`、第二处`Duke of Parma` `[1168,1181)`及`the church` `[1196,1206)`切片通过。不能把信件补作对公爵的投诉，也不能推定信件撰写者。当前两处公爵mention映射 `cand-0997`（Ranuccio II），本章索引F.csv#12列有该人并标至p.92；第2章p.91另一处Duke仍为未决`cand-4905`，不随之合并。
 
 关系状态保持process-only pending：第一条没有忠实表达拒绝许可的受控谓词；第二条告知者未具名且subject端点缺失。`relations.csv`没有对应formal/rejected边，也未发现受影响的历史裁决；`rel-2504 addressed_to`是p.80–81另一项书信关系，不迁移至本批。`relation_candidate_note`原称第一条人物身份仍未决，与F.csv#12依据冲突，已改为身份确定为Ranuccio II，未决仅指正式关系类型和拒绝决定的确切范围。第二条的`statement_id`保留原稳定键`...letters-carried-complaints-to-duke`以维持历史引用；该旧标识不能作为“信件把投诉送给公爵”的证据，当前claim、引句和`open_endpoint_reason`均明确不建立这条因果链。基线旧对象仍指 `cand-4905`，当前改为 `cand-0997`；两条当前版不等于基线对象版本。无逐ID／来源版本名册，9,622历史成员归属待证；当前记录明确本次修订版未计入统一台账，不据汇总数作加减。此项只覆盖两条statement、相关mention及其pending状态，不代表第3章或全书S2接收。
+
+<a id="2026-11-01-s2-primary-current-review-ch10-p286-powis-reference"></a>
+### 2026-11-01 第10章 p.286 Powis House 装饰端点锚点当前版定向核查
+
+主代理对照基线提交`1a6313c8654280a9b71187fc08522098626e734e`与当前statement对象，并回看S0段`chp-10:10_CHP-10_intro:l190-204`（SHA-256 `4690eee7aca37d3bf859d70d2adcd571b736e7b9b7c1a29611a334a7e23648a9`）、来源Markdown及已登记的`CHP-10.pdf`物理p.15／印刷p.286。当前对象相对基线只变更`qualifiers.mentioned_candidate_ids`：在原有`cand-2031`（Lord Powis）与`cand-0094`（Amigoni）外新增`cand-8996`（Amigoni在Powis House描绘四季与Judith/Holofernes故事的装饰项目）；claim、引句及来源行范围未改。引句是该segment的连续原文子串。
+
+前句L199–200记Amigoni为Powis House的天花、墙面和楼梯绘制装饰，随后“It is impossible to be quite certain who was his patron here”；因此`here`所指的装饰项目由`cand-8996`补锚有原文上下文支持。已有`m-chp10-p286-seasons` `[1938,1949)`、`m-chp10-p286-judith_holofernes` `[1967,1988)`跨度切片相符。`cand-0094`复用Amigoni人物KU，`cand-8996`沿既定S3 `new`组已登记为装饰项目KU；不将其拆成单幅画或推定赞助者。S3 `undecided`的`cand-2031`仅有Lord Powis头衔，故潜在赞助关系继续由`bl-0057`记录为pending，不写formal边。既有`rel-2446 creator_of`仍只表示Haskell称Amigoni绘制该整体装饰，不受本次端点锚点更改影响。
+
+本项是主代理定向核查，**不是独立复核或S2接收**。基线已有同ID旧对象，但逐ID历史成员名册缺失，不能证明旧对象是否进入9,622分子；新版本不回填历史汇总。该条仍列入当前版独立差异复核队列。
