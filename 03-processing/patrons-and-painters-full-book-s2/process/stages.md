@@ -15903,3 +15903,8 @@ PASS仅限当前S2来源忠实度；`cand-6146`反西班牙平民及`cand-6147`�
 **批次结果：100条；4条当前版原页复核PASS，96条精确历史复用并保留开放发现。** 原书`02-sources/01-book/CHP-6.pdf`，SHA-256=`de7a3546edcc8b992a1720341690b142d9f96d04fd6ba5374e5733e6167ac258`；打印p.146（PDF物理1）逐条核对6018、6019、6020和6027。6018原句确实将Duke相关财政争端、其遭绝罚及城镇被占领连为复合陈述，但未命名绝罚者或占领者；既有S6拒绝将该复合句建成特定二元边的决定不变。6019支持“Castro属于帕尔马公爵”的原文，却不能在领土权属与所有权间裁决，S6 pending保持。6020支持Castro位于教皇领地内；`rel-1750 located_at`继续formal，只表达历史地理位置，不推及现代行政归属。
 
 6027原书印本为“amid the execration of his subjects”；当前`original_quote`保留与S0逐字对应的OCR文本；`ocr_correction`记录印本读作“the execration”，无多余撇号。S0不改。Haskell关于“subjects’ execration”的评语和已补的Urban VIII mention保持。四条当前对象仍与历史审读版本不同，事件级只更新current hash/match；历史review哈希、裁决、来源版本保留。其余96条复用历史阅读，开放发现继续留在未完成状态。 应用后全表审计`errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
+
+<a id="2026-11-01-s2-current-review-b046-ch6-p148-p152"></a>
+### 2026-11-01 S2当前版逐ID复核 B046：CHP-6 p.148–152（顺序6104–6203）
+
+**批次结果：100条；0条新增当前版PASS，100条精确历史复用并保留开放发现。** 当前statement对象、来源段版本及历史来源版本均逐ID匹配；本批segment mention delta为0。依照“可复用不重做”，不重复阅读，也不把历史开放发现改记为当前PASS。此批只推进连续核平游标，没有改变statement、mention、历史审读事件、关系、候选或KU。
