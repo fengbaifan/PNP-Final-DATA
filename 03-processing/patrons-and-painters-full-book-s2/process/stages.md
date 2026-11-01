@@ -15948,3 +15948,15 @@ S6既有判断不变：6233对抗议的受控谓词仍pending；6235的事件终
 **关系与历史裁决。** rel-1862 cites Pascoli（仅限Haskell引注）及rel-1863–rel-1866、rel-1868、rel-1869均保持formal，来源范围和裁决不变；Bellori/Clark书目身份、Maratta咨询Bellori及标准象征关系继续process-only pending；Alexander VII去世与赞助下降仅为时间顺序、Altieri家族担忧及灰泥框描述继续rejected为正式边；职衔Gonfaloniere保留人物属性。关系表、S3决定及KU未改。四个原页未解决的关系／端点不因S2 PASS升级。
 
 批后：当前PASS 1,727（当前主审1,481、独立当前版246），已审待处理552，历史复用仍有开放发现8,302，待差异复核201，待历史回映或当前复核4,723；未达PASS共13,778。100/100条已处置，下一条原文顺序6604。S2仍未独立接收。
+
+
+<a id="2026-11-01-s2-current-review-b051-ch6-p161-p162"></a>
+### 2026-11-01 S2当前版逐ID复核 B051：CHP-6 p.161–162（顺序6604–6703）
+
+**批次处置：100条；4条当前版原页复核PASS，2条精确复用现有独立当前版审读PASS，94条精确复用9,622历史直接阅读并保留开放发现。** 四条直接核读为6604、6605、6608、6609；6605没有9,622历史事件映射。两条独立复用为6615和6622，不重读：当前完整statement对象逐字段等同于独立审读提交a98887c3中的对象，来源Markdown SHA-256=724f421d1c98612a8820404c82dda956dadaf6006483fcdf394cc53af4e72d15、CHP-6 PDF SHA-256=de7a3546edcc8b992a1720341690b142d9f96d04fd6ba5374e5733e6167ac258均与该审读版本相同。独立报告为s2-independent-review-chp6-p162-20261027.md；statement 6622当前对象SHA-256=9d7c853ed1b9b2e9011b9069c1a9d150c754bca278a77a88f742d9ea07154140，statement 6615为8bba98148ecbc16ee0cf7f9dafaee0725597c1afa313747d8e88485f3c98faba。四条历史版本差异的review哈希、历史结论和来源版本均保留；没有改statement、mention或来源文本。
+
+原书02-sources/01-book/CHP-6.pdf，打印p.161（PDF物理16）及p.162（物理17）。原页确认p.161 L10计划装饰未完成及未具体说明的差异；独立statement 6605将装饰方案预定对象限定为Altieri宫。p.161–162跨页句确认Gasparo无法按Barberini或Chigi家族的规模满足奢华品味；S0 OCR “osa Barberini”保留，印本校读和Chigi续句继续按既有qualifiers记录。p.161注2高分辨率扫描确认引文为“9 April 1672”及Roma XVIII (1940), p.57；当前cites谓词、cand-6476及rel-1861端点正确，不需要身份或关系修订，也不把被引Avviso内容当作已核实。
+
+**关系与裁决影响。** rel-1870 intended_for（6605）、rel-1861 cites（6609）、rel-2447 has_participant（6622）及rel-2448 part_of（6615）均与当前claim及证据范围相符，保持formal。计划未完成及Gasparo差异继续按来源语气记录，不升级为commissions_by或disputed_with；Barberini/Chigi家族比较继续pending，不改成单一家庭边。S3候选和KU未改。批次原页复核与既有独立PASS复用不等于全书S2接收。
+
+批后：PASS 1,733（当前主审1,485、独立当前版248），已审待处理552，历史复用仍有开放发现8,302，待差异复核197，待历史回映或当前复核4,721；未达PASS共13,772。100/100条已处置，下一条原文顺序6704。S2仍未独立接收。
