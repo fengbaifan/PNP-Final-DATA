@@ -15178,3 +15178,10 @@ st-chp8-p239-venetian-emphasis
 当前mentions相对snapshot：同ID行变更17、新增16、删除21；删除项均在第15章。对照9,622基线提交而非review snapshot，statement同ID对象变更29、新增39、删除1；mentions变更5、新增5、删除0。第13–19章当前可登记的20份来源Markdown（含图版/收据转录）、102个对应segment对象和7份原始PDF（第18、19章文件名分别为`CHP-18Conclusion.pdf`、`CHP-19Appendix.pdf`）均与review snapshot相同；没有来源正文、段界或原页文件变化。
 
 这些数字限定了review snapshot、9,622基线和当前三个表版本之间的对象差异，不证明报告中的2,120条属于9,622全局分子，也不把旧版本结论转移至新版本。当前变化及新增项须逐批关联现存的独立复核记录；报告和表格版本均不足以恢复9,622全书成员名册，故历史汇总不作推算或改写。
+
+<a id="2026-11-01-s2-crosswalk-ch5-p138-counted-batch"></a>
+### 2026-11-01 第5章 p.138 独立复核批次历史成员精确回映
+
+`s2-independent-review-chp5-20261022.md` 在快照提交`bfc870282c8268d1de859002cbc4cfcb11f68ef3`逐条复核`chp-5:05_CHP-5_sec_iii:l82-93`的36条statement，并明言该36条计入统一复核分子；同一计数链记为9,537 + 36 = 9,573。将该segment的完整statement对象、mention行及S0段对象与9,622基线提交`1a6313c8654280a9b71187fc08522098626e734e`及当前HEAD逐项比较：三个快照均为36条相同statement ID、完整JSON对象完全一致；同样35条segment mentions完整行一致；segment对象SHA-256三方均为`c54ca3a80bc55104007ac63c136e820d25c9f9a93ea697f63425f4be21ae2bca`。来源Markdown和`CHP-5.pdf`的Git blob三方也一致。因此可确认这36个具体ID及其版本属于9,573这一历史累计点，并原样保留在9,622后的当前数据中；本次不再增减计数，也不把跨章补录的第6章mention误计为statement。
+
+该项补强了一个可逐ID验证的历史成员批次，但其余全书9,622成员仍无完整清单；不能将此局部确认外推为全局名册已恢复或S2已接收。

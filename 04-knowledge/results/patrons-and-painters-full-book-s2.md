@@ -26,6 +26,8 @@
 
 **2026-11-01 S2第13–19章历史复核版本回映：** review snapshot实际逐项审阅2,120条statement；当前对应2,162条，含77条同ID对象变化、43条新增、1条删除。102个来源segment对象、20份章文本/图像转录及7份PDF原件均未变。复核报告未证明这些条目是否计入9,622全局分子；逐ID成员归属及当前变化项回核仍按批次处理，不推算历史覆盖率。详见[七章及结论/附录回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch13-ch19-review-snapshot)。
 
+**2026-11-01 S2第5章 p.138 历史成员精确回映：** 独立报告明确将该段36条statement计入统一复核数；其完整statement对象、35条局部mention及来源segment在复核快照、9,622基线和当前HEAD三方一致，因此这36个ID及版本可确认属于9,573累计节点并延续至9,622。此为一个可精确证明的批次，不代表全书成员名册已恢复。详见[p.138批次回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-ch5-p138-counted-batch)。
+
 **2026-11-01 S2历史回映增量：** 9条第13、14、17章及结论statement已由旧复核快照`2273e274`回映至当前独立复核快照`47ea4184`和HEAD：6条旧ID改版、3条快照后新增；6条相关mention中2条旧行变化、4条新增。9条当前版均有独立复核记录，Rosa statement的后续引句修订另经当前版复核通过；`rel-2302`–`rel-2304`保持原裁决。此次不调整9,622历史汇总；全局唯一ID／来源版本名册仍待核平。详见[S2历史组与当前版回映](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-crosswalk-current-review-ch13-14-17-conclusion)。
 **2026-11-01 第2章三条作者 mention 当前版独立复核：** de Rinaldis、Roger Hinks、Rosi 三个 span 均与S0及原页匹配；前两者沿用已确定的作者身份和KU，Rosi仍保持S3 `undecided`并由`bl-0034`待证。相关citation与有据署名边均无需改判；不增减9,622历史复核汇总，也不视为第2章或全书S2接收。详见[第2章作者mention复核](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-01-s2-independent-current-review-ch2-l124-157-author-mentions)。
 
