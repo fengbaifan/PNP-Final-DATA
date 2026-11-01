@@ -16271,3 +16271,26 @@ p.212 n.2印本确认Fall of Manna和Moses striking the Rock由Haskell称刊于L
 **机械核验。** `audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`：broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0；新增mention offsets通过当前分节切片比对；B072主批100条及22条溢出均在roster有逐ID状态，前批9条保留原裁决。
 
 **B072后S2历史核平复算（只读）。** 9,622个历史事件对应9,539个唯一旧ID（83条为重复事件）；9,539/9,539个来源版本匹配。每个旧ID取最新事件后，当前statement为9,048 exact、489 changed、2 absent_current；旧ID不在当前计数中的statement为5,968。两条absent旧ID均保留明确撤换/拆分去向。ledger SHA-256=`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`（未变）；当前roster SHA-256=`2c7c07b26d638bf1dae0bb152bacd1c7359a7437e147ec63be9907cad5265a78`；只读计划SHA-256=`1791c277cf290be50fde79b22971cea4249d9553b51f6cefd1abe795741a5254`。没有执行`--apply`；历史review hash、历史裁决和来源版本记录均未改写。
+
+
+<a id="2026-11-01-s2-current-review-b073-ch8-p223-p226"></a>
+### 2026-11-01 S2当前版本逐ID复核 B073：CHP-8 p.223–226，顺序8826–8925
+
+**完成量。** 连续100条当前ID全部核读并结案：75条本批直接对照原页，17条复用已完成的旧S2原页审读，8条复用已完成的独立当前版审读；100 PASS、0 pending。25条复用均逐项确认当前statement完整JSON与相应审读快照完全一致，原文来源和对应statement内容未变；旧快照的segment级mention增量/改映射为其他ID，逐段核对后不涉及这17条复用statement的候选集合。roster逐ID保留所用批次、结论和证据引用；本批每条在9,622历史事件账本中的事件数均为0，故当前复用/通过不回填或改写历史裁决。
+
+**复用清单。** 17条旧S2页读复用的statement ID：st-chp8-p223-giordano-sent-four-pictures, st-chp8-p223-hebrew-women-possible-maggiore-link, st-chp8-p223-solimena-nativity, st-chp8-p223-solimena-presentation, st-chp8-p223-raimondo-married-francesca, st-chp8-p223-n5-letter-1705, st-chp8-p223-n5-letter-1737, st-chp8-p223-n5-letter-1742, st-chp8-p224-palace-construction, st-chp8-p224-gallery-decoration-start, st-chp8-p224-roman-painting-and-garzi-picture, st-chp8-p224-solimena-dido-arrival, st-chp8-p224-n2-zanotti-citation, st-chp8-p225-crespi-four-fables, st-chp8-p225-n2-miller-citations, st-chp8-p226-conti-collection-size-and-origin, st-chp8-p226-conti-acquires-leading-painters. 其当前statement完整对象均与2026-10-07页读快照commit `d7adabfb27dff892808793ae5eace18787e6ef60`一致；旧过程记录见该快照`stages.md`第3416–3450行。8条独立当前版复用ID：st-chp8-p224-gallery-survival-and-vault-fresco, st-chp8-p224-rambaldi-dardani-apotheosis, st-chp8-p224-apotheosis-fresco-located-at-gallery, st-chp8-p224-rambaldi-summoned-to-paint-apotheosis, st-chp8-p224-dardani-summoned-to-paint-apotheosis, st-chp8-p224-gallery-single-fresco-description, st-chp8-p224-dido-enthusiasm-open, st-chp8-p225-dido-interest-closes. 前6条由当前独立复核记录逐项列出；后2条是该记录明确核定的p.224句末“and”与p.225句首“interest.”续句，现精确映射到这两条statement。上述独立复核记录为[2026-11-01第8章p.224–225当前版回核](stages.md#2026-11-01-s2-current-review-ch8-p224-p225)，该批相关对象与`f1dd3bfd9a2e8318322dc1e46e8146258e1bddb5`快照一致。
+
+**原页及当前版本。** 对照《CHP-8.pdf》印刷p.223–226（PDF物理页25–28）、当前S0和候选；PDF SHA-256=`cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`，S0 `08_CHP-8_sec_ii.md` SHA-256=`5d9a17efc3835c30947b8c714c65649be10295661b6cca6b117f5902882bcef6`。四段当前segment/mention版本：
+
+| 印刷页／当前顺序 | segment ID | segment SHA-256 | mention数／segment mention SHA-256 |
+|---|---|---|---|
+| p.223／8826–8862 | `chp-8:08_CHP-8_sec_ii:l140-150` | `86bc18db55c6fd28968adc3a38cbea3095c05f9f8b587c1bc9ef9a5ef1c342b1` | 60／`8e7f5b487f376ee6aa8b00bc070c69585ff077a505fb58f6c555ab0d883533b0` |
+| p.224／8863–8885 | `chp-8:08_CHP-8_sec_ii:l152-161` | `aa94cb6d7fb7cb4af995c7c977ff6b6bcc802d0f7a84cfc89a7c9a51dd11c8fe` | 47／`4a39630a8542a507a211958cd33825bbc203c42ac41a5c17aa5a2e80e4741e45` |
+| p.225／8886–8912 | `chp-8:08_CHP-8_sec_ii:l163-177` | `aa5c374c4b3f60cdde7ab64f46e3af1b3916ecafb87ecd681bb36e1b231988b4` | 54／`36b64fed336808e6e63de57aa58573fb2c1b6ab140fd879d671b0ca8dceca49f` |
+| p.226／8913–8925 | `chp-8:08_CHP-8_sec_ii:l179-188` | `715955beec51c3d7aacbb848ee33085b73e3095a35fd02390d1a4449e2412cf0` | 56／`372f850e7f7a5add05279c4e3e067b36534a3e29e04456b79624a486227ac6c5` |
+
+当前四段合计217条mention经严格表审计按S0字符偏移核验；100条statement的当前hash均与逐ID roster一致，original_quote均在其记录的当前来源行内。原页OCR校读已在当前statement限定中记录（包括`Russo→Ruffo`、`Church?→Church.`、`Cbnca→Conca`、`fight→light`、`iconographie→iconographic`、`artists.→artists,`、`own.→own`、`in-some→in some`、`Libra→Libro`、`silled→filled`、`lie→he`、`siom→from`及`cloth,,→cloth, and`）；不改写02-sources。p.223“finest…”续至p.224、p.224 Dido句尾与p.225开头，以及p.225 Enlightenment推测续至p.226，均按两页原文闭合并保留对应限定。
+
+**本批修正及下游影响。** `st-chp8-p225-crespi-interpretive-irony` 的subject由作品`cand-0880`改为画家`cand-0871`：原文“he”回指Crespi，评价其解读古典神话的反讽；原claim、quote和提及清单不变。现有S3将`cand-0871`映射为Crespi人物KU、`cand-0880`仍为未决的独立作品候选。该statement `relation_candidate=false`，不涉及formal关系；alignment、KU、relations.csv及其他S3–S6裁决均未改。Haskell的`apparently`、`may well`、`must have`、`possible to suggest`等来源限定保留，脚注所引外部材料未声称已独立查阅。
+
+**当前进度与机械核验。** 本批未增删statement或mention，当前15,505条statement、27,160条mention。批后逐ID状态：PASS 2,279；pending 606；历史已映射但保留开放发现8,323；当前版本差异待核101；尚未完成历史/既有审读映射4,196；未获当前PASS共13,226。下一顺序从8926开始。9,622 ledger SHA-256仍为`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`；批内0条历史事件，历史review hash、来源版本及裁决未改。当前roster规范序列化SHA-256=`e59bc0294df3d00bbbbcde90b42300b23bd6ea85225a7164691074dd280727ea`。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`（15,505 statements、27,160 mentions）；`audit_relation_consistency.py --dry-run`：broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；`git diff --check`通过。
