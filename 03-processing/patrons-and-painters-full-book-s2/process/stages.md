@@ -15191,7 +15191,7 @@ st-chp8-p239-venetian-emphasis
 
 当前只读运行 `build_entity_candidates.py` 得到 `index_rows=2934`、`total_candidates=12446`、`open_index_candidates=2891`、`excluded_crossrefs=54`、`accepted_ku_candidates=1004`、`source_derived_candidates=8508`、`new_accepted_ku_candidates=0`；预览未写表。与既有19份索引CSV逐行锚点复核、85条图版候选、256条书目候选及其S0覆盖记录合看，未发现新的索引或来源覆盖缺口。`audit_tables.py --strict-stage --summary` 当前为 `errors=[]`、`s2_missing=[]`，S2覆盖832行（678 complete、154 excluded、0 queued）；另有2,522条S3 `new`仍待S4登记，不属S1漏项。
 
-另运行只读 `audit_s2_candidate_surfaces.py`：默认范围扫描585个已审阅S2段、11,248个现有类型候选名称模式，返回607处无重叠mention的字面表面。该脚本明确是召回提示而非实体抽取或语义门禁，且重复索引候选会使一个表面对应多个候选ID；故607不是607个漏登实体或确认漏标，不据此自动写入候选/mention。它们留作S2定向核读提示；发现确有对象或提及缺口时再依原文逐条补录并回映S1。S1当前结论限于现有索引、图版、书目和已识别S2补录候选的映射与来源闭合；S2完整语义审读未完成前，不把候选召回宣称为全书穷尽。本次未修改业务表。
+另运行只读 `audit_s2_candidate_surfaces.py`：默认范围扫描585个已审阅S2段、11,248个现有类型候选名称模式，返回607处无重叠mention的字面表面。该脚本明确是召回提示而非实体抽取或语义门禁，且重复索引候选会使一个表面对应多个候选ID；故607不是607个漏登实体或确认漏标，不据此自动写入候选/mention。本次只保存扫描汇总，未保存607条命中明细，也未将其当成已建待办；后续如需筛查，须按章重跑、查看原文并逐项判定，确认真实缺口后再补mention或候选并回映S1。S1当前结论限于现有索引、图版、书目和已识别S2补录候选的映射与来源闭合；S2完整语义审读未完成前，不把候选召回宣称为全书穷尽。本次未修改业务表。
 
 <a id="2026-11-01-s2-crosswalk-ch7-p189-version-batch"></a>
 ### 2026-11-01 S2历史复核版本回映：第7章 p.189
