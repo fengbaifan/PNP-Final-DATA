@@ -15455,3 +15455,13 @@ B003对六条候选修正实体关系判断：年龄属性`francesco-age-at-urba
 **发现的额外来源覆盖缺口（不计入本批100个现有ID）。** p.52脚注1原文为“Barbi.”，当前有segment mention m-chp2-seciv-l190-245-0085及候选cand-4852（跨章书目记录可见完整出版物），但当前statement表没有表示该脚注的statement ID。列为待补statement/引文锚点并核对脚注标记所附正文；未在本批虚构ID或改变当前statement总数。
 
 **当前进度与边界。** 本批100/100已有主审裁决（5 pass、95 pending），均不是独立语义接收。全书S2仍未独立接收；本批不改S1、S3、KU或relations。下一批先闭合上述p.52注1覆盖缺口，再从当前roster顺序继续连续原文。
+
+
+<a id="2026-11-01-s2-coverage-ch2-p52-footnote1-barbi"></a>
+### 2026-11-01 S2覆盖修正：第2章印刷p.52脚注1“Barbi.”
+
+**已补足此前发现的来源覆盖缺口。** CHP-2.pdf物理页37显示，印刷p.52正文“Paris.”后标脚注1，页下注仅为“Barbi.”。当前segment L227已有mention m-chp2-seciv-l190-245-0085、表面词Barbi，映射到跨章候选cand-4852；其书目对应由第21章书目条目支持，但本项目没有独立阅读该出版物。正文中的footnote_refs已指向本脚注，并准确连接statement st-chp2-seciv-l91-94-bracciolini-accompanies-maffeo-travel-continuation。
+
+新增S2 statement st-chp2-seciv-l190-245-citation-p52-note1-barbi，谓词保留为footnote_citation，复用既有mention及candidate，并记录无题名/页码定位、未核阅被引内容；citation自身标为relation_candidate=false，不建立formal关系。当前逐ID roster新增独立覆盖修正记录，标记primary_current_source_review_pass；该1条不计入B007已完成的100条批次。历史9,622事件/9,539唯一ID核平数不变；新增statement不属于该历史累计。
+
+修正后当前statement为15,505条、mention为27,052条；当前版主审通过350条（独立238、主审112）、已审待处理264条，未达主审通过共15,155条。B007原有批次仍为100条（5 pass、95 pending）。此项只补来源引文statement及roster，不改候选、alignment、KU或relations。
