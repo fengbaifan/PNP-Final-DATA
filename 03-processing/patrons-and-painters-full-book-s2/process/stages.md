@@ -16251,3 +16251,23 @@ p.212 n.2印本确认Fall of Manna和Moses striking the Rock由Haskell称刊于L
 **本批及回查后状态。** B071顺序8604–8703为100/100处置：81 PASS、19 pending；另回查顺序8601–8603：2 PASS、1 pending。当前15,505条statement：主审PASS共2,083（当前主审1,835、独立当前版248）；已审pending 580；历史复用且开放发现8,323；待版本差异复核101；待历史回映或当前复核4,418。未达PASS共13,422条；连续原文推进至8703，下一批从8704开始。S2仍未独立接收。
 
 **必要校验。** 当前逐ID清单15,505个statement ID唯一、statement hash全匹配、segment mention count/hash全匹配；B071 100条顺序连续且批次状态齐全。恢复及新增mention的offset逐条与当前source segment切片核对，span无交叉错误。audit_tables.py --strict-stage --summary：errors=[]、s2_missing=[]；audit_relation_consistency.py --dry-run：broken target、invalid relation_type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；git diff --check通过。
+
+<a id="s2-current-review-b072-ch8-p220-p222"></a>
+### 2026-11-01 S2当前版本逐ID复核 B072：CHP-8 p.220–222，顺序8704–8803
+
+**连续批次结算：100/100条均有当前版本处置；81条PASS、19条pending。** 本批100条均无9,622历史事件记录，故逐项按当前statement和原文核读，未把同页历史阅读冒充逐ID复用。原书CHP-8.pdf SHA-256=`cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`；直接核对印刷p.220–222/PDF物理页22–24。三段来源及当前mentions哈希分别为：`chp-8:08_CHP-8_sec_ii:l100-110`=`cd70a832c602b19706438fe592610bfe7538613b21f1f8f5c66cd2056e88d72f`（40条）；`l112-124`=`d2da0e390237cbab6a9b1ca7e8c3cf52be8034c1aff7a35369072ccf12bf88f4`（54条）；`l126-138`=`d33e574b0f519d4de385bb3ed6c7dbe5803124f72c2456c86ee64c546919668d`（72条）。对应Markdown及原PDF资产与已有p.220–222原页审读版本一致；旧记录commit `2273e274`中的122条相关statement均与当前statement hash相同，可复用其原页阅读基线，新增/变化的当前mention仍逐span核对。
+
+**提及与语义修正。** 新增24条候选mention（p.220七条、p.221十条、p.222七条）；逐条span与当前分节原文切片相等，无越界、交叉或重复offset。Correggio的p.220同一词面已有候选作品`cand-11591`的mention；为避免同一span重复映射，撤去新增的重叠人物mention，保留现有作品mention及其S3边界，不把它记作新增。
+
+核读匿名同僚、未枚举画家/艺术家群、潜在竞争者、教会与central nave、未名教皇、六教皇组、楼梯与piano nobile、三省份组、收藏作品组等范围；保留各组和建筑空间的来源边界，不以同名、共现或语境把组员补齐或合并。语义修订有六条statement：顺序8806恢复“must have been”的Haskell推断语气；8808将同一复合摘要改为明确保留“must have been”的推断，并仍保持pending；8813–8814将“the city”的直接先行词由原错误的Ferrara更正为Bologna，并分别保留两件作品；8815同步修正两作品摘要；8818从“religious themes”移除错误的四件作品subject端点。8819的页末引句须与p.223续文连读，仍pending。8813–8815的佣画关系仍为关系候选，未创建formal边；六条statement的旧历史审读hash和裁决均未覆盖。
+
+<a id="s2-current-review-b072-ch8-p222-segment-spillover"></a>
+**同一p.222来源段溢出核查：22条（顺序8804–8825），15条PASS、7条pending。** p.222在此连续source segment内的新增mention改变了段级版本hash，故对其余22条逐行核对当前claim、mention和印刷页范围；不计入主批100条。另对前一批同段8695–8703的9条做mention增量回查：原有7条PASS、2条pending均不改变，也不重复计作新完成。上述131个被触及的current_order在9,622历史ledger中的事件数均为0。
+
+**历史、关系及下游影响。** 9,622事件ledger保持只读；历史review hash、裁决和来源版本不改。历史中已有的p.220–222整体原页阅读被作为同源核验基线，不替代当前ID的历史事件映射。本批及同段溢出未产生relations.csv formal关系新增、删除或改裁决；两件Crespi commission statement继续作为待裁决关系候选，关系端点/文献之外部身份缺口仍待S3/S6处理。S3身份决定、S4 KU登记、S5字段及S6历史裁决未改；不存在需回滚的下游正式边。
+
+**批次后清单与剩余量。** 新处置122条：96条PASS（主批81、同段溢出15），26条pending（主批19、同段溢出7）；另9条先前PASS/pending原结论保持。当前逐ID状态：PASS 2,179（当前主审1,931、独立当前版248）；已审pending 606；精确历史复用但保留开放发现8,323；待历史版本差异复核101；待历史回映或当前复核4,296。当前15,505条statement中，未达PASS 13,326条。原文顺序已覆盖到8825，下一批从8826开始。
+
+**机械核验。** `audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`：broken target、invalid relation_type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0；新增mention offsets通过当前分节切片比对；B072主批100条及22条溢出均在roster有逐ID状态，前批9条保留原裁决。
+
+**B072后S2历史核平复算（只读）。** 9,622个历史事件对应9,539个唯一旧ID（83条为重复事件）；9,539/9,539个来源版本匹配。每个旧ID取最新事件后，当前statement为9,048 exact、489 changed、2 absent_current；旧ID不在当前计数中的statement为5,968。两条absent旧ID均保留明确撤换/拆分去向。ledger SHA-256=`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`（未变）；当前roster SHA-256=`2c7c07b26d638bf1dae0bb152bacd1c7359a7437e147ec63be9907cad5265a78`；只读计划SHA-256=`1791c277cf290be50fde79b22971cea4249d9553b51f6cefd1abe795741a5254`。没有执行`--apply`；历史review hash、历史裁决和来源版本记录均未改写。
