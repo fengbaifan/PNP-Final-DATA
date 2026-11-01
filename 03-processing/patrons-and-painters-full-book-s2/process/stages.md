@@ -16053,3 +16053,17 @@ p.185原页支持La Vrillière与Guercino的委托、以及其1637年委托Pouss
 关系影响：rel-1383（Donna Olimpia肖像created_by Velasquez）、rel-1384（该肖像acquired_by Del Carpio）、rel-1385（Massimi肖像acquired_by Del Carpio）和rel-1857（雕像历史目的地）继续formal；rel-1044为Massimi肖像既有external formal creator edge，本批不重复新增。上述边的时间、来源和scope未变；没有新的statement、mention、KU、S3决定或S6边写入。历史事件表及source hash未改；本批五条changed事件的历史review内容保留，current source match仍true、mention delta仍空。
 
 **批后进度。** 历史9,622事件current statement匹配仍为9,121 exact、499 changed、2 absent_current；按旧ID最新事件去重为9,048 exact、489 changed、2 absent_current；可回映来源版本9,620/9,620匹配。连续原文顺序7304–7403共100/100条已处置：当前版原页PASS 7条，精确历史复用93条仍保留开放发现。当前版PASS 1,805（当前主审1,557、独立当前版248）；已审待处理552；历史复用开放发现8,301；待差异复核166；待历史回映或当前复核4,681；未达PASS共13,700条。下一条原文顺序7404。S2仍未独立接收。
+
+
+<a id="2026-11-01-s2-current-review-b059-ch7-p170-p172-p191-p192"></a>
+### 2026-11-01 S2当前版逐ID复核 B059：CHP-7 p.170–172注释/续文及p.191–192（顺序7404–7503）
+
+**批次处置：100条；47条当前版原页复核PASS（13条历史statement版本差异、34条历史对象/ID映射差异），53条精确复用历史阅读并保留开放发现。** 34条差异中，5条无精确历史映射（p.191自画像的created_by/has_subject两条及三条引文statement），29条属于历史/current对象映射差异。53条statement、来源段、来源资产及mention集合均与各自唯一历史阅读精确匹配；不重读、不把开放发现记为PASS。
+
+核对CHP-7印刷p.191（PDF物理页29）、p.192（物理页30），以及同一S0分节末尾的p.170（物理页4）、p.171（物理页5）、p.172（物理页6）注释和续文。PDF SHA-256=eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212；S0分节SHA-256=f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3。所涉segment与mention-set：p.191 l268-280，segment SHA-256=92182aceba59f83a250c92d8abd297a02a24efac8bbcf87beae58724caa092f0（89 mentions，集合SHA-256=69c2243dcfc0e77dbeb44dac27fbeaabadead9d018c5c49abc366ee4fcae85ee）；p.192 l282-291，segment SHA-256=d6ee8bdff4c4ac1f232dda8c393cc8ff562862fb0bad7644bbf82f360a7205e4（53，集合SHA-256=205d0a675a5393a674a5875007743c7624b885de66000fe22282510a8bb368e2）；注释/续文l293-389，segment SHA-256=ad9ae34a8e0247ade77cf812cd0d5943582c3fd615590da5064cef79c38ae28b（214，集合SHA-256=247a7ff37a20bb7f9239435683c1a4ea3e4a9de5d23295cb7056f3e00c0826dd）。以上mention集合当前未变。
+
+**当前版本校读记录。** 对照原页后，在当前statement qualifiers中补记7项OCR校读：p.191 i12 Niccolo→Niccolò、i30 picturesand→pictures and；p.171注6的Passeri/Trapier及三条系列statement同引文o£→of。原original_quote、S0转录、mentions均未改。p.192 Niccolò、It was、the、country during、live的已有校读保留。对13条历史statement差异，本批确认当前statement边界：p.191 i07将旧的 acquired_from 与反向端点修正为work→Del Carpio acquired_by，Domenico仅为原文所称转移来源；created_by与has_subject拆为两条书内自画像关系。p.191 i12保留“We are told that”的二手报告限定；p.191 i23不识别未命名宫殿；i30只记录书中所述船运和后代收藏。p.192 i01保留Haskell对那不勒斯改革的评价。其余当前claim及限定与扫描页相符。历史review hash、原裁决和source hash未回写；两条已有历史事件只更新current statement hash/match，匹配状态仍为changed。
+
+**关系及身份影响。** rel-2060/2061/2062（Bernini素描取得、作者、被表现者）、rel-1331/1332/1333、rel-1738、rel-1862/1914（已登记引文关系）及rel-2126（Giordano旅西事件参与者）继续formal，本批不重复加边。p.191 studios候选cand-6959仍undecided，船运目的collection cand-6969仍untyped/undecided；p.171注6作品系列cand-7003仍undecided，S6位于Prado/为西班牙国王绘制/部分Lanfranco归属保持process-only pending，不写formal边。p.192 i09的画家群体cand-6978及i15所指Baroque masters群体仍undecided，现有pending不改。p.172延续statement的未名肖像/妻子、教堂和altarpiece组保持现有candidate边界与S6裁决。除7条OCR元数据补记外，无statement claim、mention、S3决定、KU或relations.csv修改。
+
+**批后进度。** 历史9,622事件current statement匹配仍为9,121 exact、499 changed、2 absent_current；按旧ID最新事件去重为9,048 exact、489 changed、2 absent_current；来源版本9,620/9,620匹配。连续原文顺序7404–7503共100/100条已处置：新增当前版PASS 47条，精确历史复用53条仍保留开放发现。当前版PASS 1,852（当前主审1,604、独立当前版248）；已审待处理552；历史复用开放发现8,301；待差异复核153；待历史回映或当前复核4,647；未达PASS共13,653条。下一条原文顺序7504。S2仍未独立接收。
