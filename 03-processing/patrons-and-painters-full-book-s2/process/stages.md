@@ -15465,3 +15465,15 @@ B003对六条候选修正实体关系判断：年龄属性`francesco-age-at-urba
 新增S2 statement st-chp2-seciv-l190-245-citation-p52-note1-barbi，谓词保留为footnote_citation，复用既有mention及candidate，并记录无题名/页码定位、未核阅被引内容；citation自身标为relation_candidate=false，不建立formal关系。当前逐ID roster新增独立覆盖修正记录，标记primary_current_source_review_pass；该1条不计入B007已完成的100条批次。历史9,622事件/9,539唯一ID核平数不变；新增statement不属于该历史累计。
 
 修正后当前statement为15,505条、mention为27,052条；当前版主审通过350条（独立238、主审112）、已审待处理264条，未达主审通过共15,155条。B007原有批次仍为100条（5 pass、95 pending）。此项只补来源引文statement及roster，不改候选、alignment、KU或relations。
+
+
+<a id="2026-11-01-s2-current-review-b008-ch2-seciv-p55-57"></a>
+### 2026-11-01 S2当前版B008：第2章sec_iv印刷pp.55–57（含Plate 9–12）、L129–177
+
+**按连续原文完成100条逐ID审查：4条主审通过、96条待处理。** 范围依次为：p.55 L129–137正文22条、该页脚注8条；p.56 L140–152正文23条、该页脚注8条；中间Plate 9–12图版statement 13条；p.57 L172–177正文前26条，止于Rospigliosi patronized Camassei。下一条从p.57 L177的Gimignani statement继续。
+
+**历史复用与当前改版。** 本批97条属于9,622历史事件且对应来源段/PDF版本匹配，其中93条statement与历史末版完全一致，沿用旧报告逐条结论与未决项；4条同ID改版重新对照当前原文：citation-56、Tessin账户年代推断、Montagu指引Tessin账户、Happiness subject to Death作品候选。另3条当前ID不在历史累计中（Tessin作者归属、旅行记录“最完整”评价、斯德哥尔摩馆藏定位），本轮按印刷p.56脚注和原PDF直接核对。页55/56正文与脚注、Plate 9–12以及p.57此前均有直接阅读记录；本批复用精确匹配的历史依据。CHP-2.pdf SHA-256=317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e；本轮重新查看p.56物理页41和p.57物理页46的相关段落/脚注。
+
+**待处理分布。** 87条statement缺mentioned_candidate_ids，另1条数组为空；这88条逐行记录了按claim补映的动作。另12条有非空数组，4条映射/claim通过，8条仍有端点或语义问题。主要未决：Antonio—Sacchi委托地点与Haskell/Passeri说话层级、Sacchi保存modelli的would模态、Antonio对宫殿责任与Sacchi顾问角色、joust取消/继续与匿名Polish prince、1642卷册内容及图书馆归属、Taddeo仪式画作和未名家族/领地、oldest families的群体边界、Tessin账户与档案分区、Bouchard跨页首演叙述、pages/castrati女性角色范围、Rospigliosi/Poussin/Claude比较及三幅画委托不确定性。Plate captions仍只视作印本归属/题名；不提升为独立制作、历史事件或收藏关系。详细历史问题逐ID沿用s2-independent-review-chp1-2-4-20261020.md第2章p.55–57记录；roster为本批每个ID保存当前去向和待办。
+
+**裁决边界与余量。** 100/100均有主审状态（4 pass、96 pending），未做独立语义接收。p.55–57缺作品、群体或关系端点时保持pending；本批未改statement/mention、S1候选、S3、KU或relations。当前清单为pass 354（独立238、主审116）、pending 360、历史精确复用开放8,549、版本差异待处理293、历史证据映射/当前复核待办5,949；共15,505条。未达到当前版主审通过15,151条，其中14,791条尚未进入当前版批次，360条已审待处理。全书S2仍未独立接收。
