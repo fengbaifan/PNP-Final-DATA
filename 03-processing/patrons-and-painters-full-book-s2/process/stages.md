@@ -15378,3 +15378,22 @@ B003对六条候选修正实体关系判断：年龄属性`francesco-age-at-urba
 独立复核对 B003 的 53 条当前 statement 全部通过：14 条原对象复核通过，39 条修订项回核通过，需修订 0 条。复核依据为《CHP-2.pdf》SHA-256 `317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；Markdown 图版转录与 sec_iv 来源哈希分别为 `494aeb540e1ab40ae538f63377fd8bb18c469006690161969e0729cbc179835d` 与 `9f50e1396234faff664211d70a1231ef145bccdc24e91c088f1237d55ca34dbf`。B003 覆盖连续源序列中的全部 statement-bearing segment；中间 Plate 5 转录、视觉转录 L5–6 和 sec_iv L1 三个 segment 均为0条 statement。107条 mention 的来源切片、代词跨度和去重状态复核通过。`relations.csv` 未改动；原文身份或端点未决项继续保持待证，不因本批 S2 通过而新增正式关系或 KU。
 
 **清单收口后进度：**B001 100/100、B002 85/85、B003 53/53，三批累计238/238条当前版独立通过。15,494条当前 statement 中，238条当前版通过、1,693条精确映射既往审读但仍需章节跟进、13,563条待历史证据回映或复核；合计15,256条未关闭。9,622条历史复核成员资格仍逐ID标记 `unknown`。本结果不等于第2章或全书 S2 接收；下一批从当前 source order 的后续连续 statement-bearing 段开始，按50–100条记录完成量与余量。
+
+<a id="2026-11-01-s2-current-review-b004-ch2-sec-iv-l19-43"></a>
+### 2026-11-01 S2当前版连续批次B004：第2章L19–43及对应注释
+
+**本批主审原文复核完成75/75条，批次主审剩余0，独立二审尚未记录。** 连续正文`chp-2:02_CHP-2_sec_iv:l19-29`有27条statement，紧接的`l31-43`有26条，共53条；另核对印刷pp.45–46、S0 L195–204对应的14条citation（citation-05至citation-18）和8条实质注释断言，共22条。总计75条。本批不接收第2章或全书S2。
+
+来源为《CHP-2.pdf》物理页30–31（印刷pp.45–46），SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`。S0 segment SHA-256：L19–29为`06b98701267f8db00f7dc1b9fa35e8ffcdc5d0951ba8c9c0a9e56347885e5fbd`，L31–43为`24c57f448578597f0570312dc6bca4744243c4f02872a4f4fba78dc979529abe`，脚注L190–245为`5dd2839d3e713ca4795b2bfd4de98120305a38026d0d41ffcc7c84e19fbcfd2a`。75条statement的source-line范围及原文引句均可在指定S0段定位。正文153条mention及对应注释L195–204的28条mention，共181个跨度逐项切片核对，错误0；75条均有各自statement级`mentioned_candidate_ids`。本批`relation_candidate=true`54条、`false`21条，候选分类不代替S6裁决。
+
+**原文依据与判断变化：**
+
+- L25只写“The proposal was accepted”，批准者未名；当前statement清空对Francesco或委员会的推定归属，只保留两项提案被接受及批准端点未知。L20被动列表修订同样清除未受原文支持的委员会施事；列表是受事，未名施事保持开放。
+- L33–35关于Vouet与Valentin的并列叙述拆为逐艺术家statement；Valentin“found the break much harder”另记为作者对人物的评价，与《Allegory of Rome》的作品评价分开。grandiose history paintings的要求保留未具名施加者。两件Poussin景观与Barberini的关联分别记录；原注只说前者来自Barberini palace，未把Berlin、Chicago逐一对应到两个题名，不补猜配对。
+- L201分别称“the first Capture of Jerusalem and the Samson”已失踪、《Death of Germanicus》当时在Minneapolis Institute of Arts、第二幅《Capture of Jerusalem》当时在Kunsthistorisches Museum, Vienna。现拆开共同失踪状态和两条地点断言，不将书内“now”扩写为2026年位置。脚注work候选cand-4882与正文cand-2003继续分开待S3核平；赠予对象未具名，不补造受赠人。
+- L202将芬兰研究所位置、1631 Barberini inventory、1958 Thuillier发表及1961巴黎展览合在一注。当前保留`st-chp2-seciv-l190-245-valentin-picture-location` ID并收窄为地点断言，另增inventory、publication、exhibition三条statement，分别链接citation-14至citation-16。cand-4880仍复用Allegory of Rome KU，cand-4840仍复用Finnish Institute KU；publication及exhibition按既有S3决定等待S4登记，未转成正式关系。
+- 印刷p.45读作“Jerusalem”，S0 OCR为“ferusalem”；印刷p.46作“represented rather an awkward attempt”，S0多出“rather”后的逗号。两项校读写入相关statement的`ocr_corrections`；S0来源未改。
+
+**下游及历史裁决：** `alignment.csv`、`relations.csv`本批无改动。Sacchi L34“turning to Raphael and Roman classicism for inspiration”对应的既有`rel-2491`、`rel-2492`保持原端点、证据及formal状态。`process/knowledge.md`旧S6记录曾将复合`st-chp2-seciv-l190-245-valentin-picture-location`裁为pending，理由是inventory、publication、exhibition与location未拆开；此决定属于旧statement对象版本，历史记录保留。当前四条断言须按当前statement哈希、端点及谓词逐条交S6重审；未登记端点和未核平作品身份的关系继续待证。本批未新增KU或formal relation。
+
+**清单与余量：** 当前表15,504条statement、27,052条mention，逐ID清单无重复并覆盖全部当前statement ID，当前statement及mention集合哈希不匹配0项。`python scripts/audit_tables.py --summary`返回`errors=[]`、`s2_missing=[]`，两项提示分别为S4待登记及S2仍须语义审查。B004的75行标记`reviewed_current_pass`及`primary_current_source_review_pass`，证据回链到本节；其中10条是本批新增statement，其原清单快照statement哈希留空，未伪造历史成员资格。B001–B003的238条独立通过保留；合计313条有当前版批次通过结果，主审原文复核尚待处置15,191条（既往精确回映但章节跟进open 1,628条、待回映或复核13,563条）。当前版独立复核可确认238条，尚待15,266条，其中包含B004主审75条。历史9,622成员资格仍逐ID为unknown。下一批从L45起按连续原文取50–100条；全书S2尚未独立接收。

@@ -26872,7 +26872,10 @@ m-s2-chp2-surface-d4864b3d59b8ab4b,chp-2:02_CHP-2_sec_iv:l190-245,cand-1995,Arca
 m-s2-surface-e66c7878ffd3cbbf,chp-2:02_CHP-2_sec_iv:l190-245,cand-3535,Bellori,6470,6477,
 m-s2-chp2-surface-440d1a8a0dd7aa5d,chp-2:02_CHP-2_sec_iv:l190-245,cand-1481,Madrid,6510,6516,"City reference; use the main Madrid place candidate, not its indexed subentries."
 m-s2-surface-7f757b42817a7fe8,chp-2:02_CHP-2_sec_iv:l190-245,cand-2002,Dance of Human Life,6543,6562,
+m-chp2-seciv-l190-245-first-capture-work,chp-2:02_CHP-2_sec_iv:l190-245,cand-4601,The first Capture of Jerusalem,531,561,The footnote names the first version as disappeared; preserve the work candidate distinct from the place submention.
+m-chp2-seciv-l190-245-second-capture-work,chp-2:02_CHP-2_sec_iv:l190-245,cand-2001,the second Capture of Jerusalem,667,698,The footnote names the second version and reports its then-location in Vienna.
 m-s2-surface-4ef64c8ac9ca8059,chp-2:02_CHP-2_sec_iv:l31-43,cand-5317,France,1211,1217,
+m-chp2-seciv-l31-43-letter-poussin-1642,chp-2:02_CHP-2_sec_iv:l31-43,cand-4617,Poussin wrote from Paris,2473,2497,The local wording anchors the letter candidate; the manuscript itself was not independently consulted.
 m-s2-surface-6480bf52827070b1,chp-2:02_CHP-2_sec_iv:l45-52,cand-3462,Europe,915,921,
 m-s2-chp2-surface-f8242f61b2e3a73f,chp-2:02_CHP-2_sec_iv:l6-17,cand-4129,art patrons,424,435,The exact social-role concept; the overlapping 'Italian art' phrase is a modifier.
 m-s2-chp2-surface-607a6a1cc62f86c4,chp-2:02_CHP-2_sec_iv:l65-77,cand-11477,notable collection,290,308,"Guido Bentivoglio's collection grouping, described with a Van Dyck Crucifixion and a portrait."

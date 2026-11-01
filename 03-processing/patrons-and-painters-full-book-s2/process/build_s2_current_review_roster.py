@@ -32,11 +32,31 @@ BATCHES = {
         "chp-2:02_CHP-2_sec_iv:l3-4",
         "chp-2:02_CHP-2_sec_iv:l6-17",
     },
+    "S2-B004-CH2-SEC-IV-L19-43": {
+        "chp-2:02_CHP-2_sec_iv:l19-29",
+        "chp-2:02_CHP-2_sec_iv:l31-43",
+    },
 }
 SEGMENT_BATCH = {
     segment_id: batch_id
     for batch_id, segment_ids in BATCHES.items()
     for segment_id in segment_ids
+}
+BATCH_STATEMENT_OVERRIDES = {
+    statement_id: "S2-B004-CH2-SEC-IV-L19-43"
+    for statement_id in (
+        [f"st-chp2-seciv-l190-245-citation-{number:02d}" for number in range(5, 19)]
+        + [
+            "st-chp2-seciv-l190-245-poussin-lost-and-current-locations",
+            "st-chp2-seciv-l190-245-valentin-picture-location",
+            "st-chp2-seciv-l190-245-valentin-inventory-1631",
+            "st-chp2-seciv-l190-245-valentin-published-thuillier-1958",
+            "st-chp2-seciv-l190-245-valentin-exhibition-1961",
+            "st-chp2-seciv-l190-245-vouet-election",
+            "st-chp2-seciv-l190-245-poussin-germanicus-current-location",
+            "st-chp2-seciv-l190-245-second-capture-current-location",
+        ]
+    )
 }
 
 FIELDS = [
@@ -153,13 +173,19 @@ def main() -> None:
         raise SystemExit("A statement references a missing S0 segment")
 
     rows_by_batch = {
-        batch_id: [row for row in ordered_statements if row["segment_id"] in segment_ids]
+        batch_id: [
+            row
+            for row in ordered_statements
+            if row["segment_id"] in segment_ids
+            or BATCH_STATEMENT_OVERRIDES.get(row["statement_id"]) == batch_id
+        ]
         for batch_id, segment_ids in BATCHES.items()
     }
     expected_batch_counts = {
         "S2-B001-CH2-SEC-II-L118-145": 100,
         "S2-B002-CH2-SEC-II-L147-193": 85,
         "S2-B003-CH2-VISUAL-AND-SEC-IV-L3-17": 53,
+        "S2-B004-CH2-SEC-IV-L19-43": 75,
     }
     for batch_id, expected in expected_batch_counts.items():
         found = len(rows_by_batch[batch_id])
@@ -179,7 +205,9 @@ def main() -> None:
         exact_old_object = old_statement_hashes.get(statement["statement_id"]) == statement_hash
         exact_old_segment = old_segment_hashes.get(segment["segment_id"]) == segment["sha256"]
 
-        assigned_batch = SEGMENT_BATCH.get(statement["segment_id"], "")
+        assigned_batch = BATCH_STATEMENT_OVERRIDES.get(
+            statement["statement_id"], SEGMENT_BATCH.get(statement["segment_id"], "")
+        )
         if chapter in {"chp-1", "chp-2"} and exact_old_object and exact_old_segment:
             prior_match = "exact_object_and_source_segment"
             prior_ref = f"{REVIEW_REPORT}; scope={chapter}"
@@ -251,6 +279,7 @@ def main() -> None:
     print(f"batch_01_rows={len(rows_by_batch['S2-B001-CH2-SEC-II-L118-145'])}")
     print(f"batch_02_rows={len(rows_by_batch['S2-B002-CH2-SEC-II-L147-193'])}")
     print(f"batch_03_rows={len(rows_by_batch['S2-B003-CH2-VISUAL-AND-SEC-IV-L3-17'])}")
+    print(f"batch_04_rows={len(rows_by_batch['S2-B004-CH2-SEC-IV-L19-43'])}")
     print("historical_9622_membership=unknown for all rows")
 
 
