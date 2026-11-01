@@ -1,4 +1,4 @@
-mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
+﻿mention_id,segment_id,candidate_id,surface_form,start_char,end_char,note
 m-chp10-p281-queen_anne,chp-10:10_CHP-10_intro:l125-139,cand-0110,Queen Arme,117,127,OCR reads Arme; print reads Anne.
 m-chp10-p281-anne_she,chp-10:10_CHP-10_intro:l125-139,cand-0110,she,138,141,"Queen Anne, named immediately before."
 m-chp10-p281-sheffield_retired,chp-10:10_CHP-10_intro:l125-139,cand-0465,he retired from politics,147,171,John Sheffield; retirement follows Anne's death in Haskell's account.
@@ -5660,10 +5660,11 @@ m-chp2-secii-l118-125-0014,chp-2:02_CHP-2_sec_ii:l118-125,cand-3950,the Palazzo 
 m-chp2-secii-l118-125-0015,chp-2:02_CHP-2_sec_ii:l118-125,cand-4010,Plate 2b,732,740,Illustration pointer to the same work candidate.
 m-chp2-secii-l118-125-0016,chp-2:02_CHP-2_sec_ii:l118-125,cand-0232,the Pope,753,761,Urban VIII in the index sub-entry for portraits and statues.
 m-chp2-secii-l118-125-0017,chp-2:02_CHP-2_sec_ii:l118-125,cand-0307,Bernini,770,777,Artist ordered to carve family busts.
+m-chp2-secii-l118-125-0071,chp-2:02_CHP-2_sec_ii:l118-125,cand-4506,busts of the deceased members of his family,787,830,Work-group span for the source-named busts of Urban VIII’s deceased family members.
 m-chp2-secii-l118-125-0018,chp-2:02_CHP-2_sec_ii:l118-125,cand-0198,his family,820,830,Barberini family; the three sitter identities are not stated.
 m-chp2-secii-l118-125-0019,chp-2:02_CHP-2_sec_ii:l118-125,cand-0220,his,892,895,Possessive in 'his brother Carlo'; refers to Urban VIII.
 m-chp2-secii-l118-125-0020,chp-2:02_CHP-2_sec_ii:l118-125,cand-0195,his brother Carlo,912,929,Explicitly identifies Carlo Barberini as Urban VIII's brother.
-m-chp2-secii-l118-125-0021,chp-2:02_CHP-2_sec_ii:l118-125,cand-0195,the Pope,943,951,"Urban VIII, in the commission made after Carlo's death."
+m-chp2-secii-l118-125-0021,chp-2:02_CHP-2_sec_ii:l118-125,cand-0220,the Pope,943,951,"Urban VIII, who commissioned the plaque after Carlo’s death."
 m-chp2-secii-l118-125-0022,chp-2:02_CHP-2_sec_ii:l118-125,cand-4507,a memorial plaque,965,982,Separate memorial work commissioned from Bernini.
 m-chp2-secii-l118-125-0023,chp-2:02_CHP-2_sec_ii:l118-125,cand-0295,Bernini,988,995,Plaque sculptor named in the passage.
 m-chp2-secii-l118-125-0024,chp-2:02_CHP-2_sec_ii:l118-125,cand-4211,the Senate,1000,1010,The Roman Senate following the papal plaque commission.
@@ -5676,9 +5677,11 @@ Caesar",1111,1124,The person named within the torso description; OCR line break 
 m-chp2-secii-l118-125-0029,chp-2:02_CHP-2_sec_ii:l118-125,cand-0034,Alessandro Algardi,1167,1185,Sculptor identified as having refashioned the antique torso; index page range does not list p.41 and remains an S3 check.
 m-chp2-secii-l118-125-0030,chp-2:02_CHP-2_sec_ii:l118-125,cand-0307,Bernini,1190,1197,Bernini supplied the head for the Carlo monument.
 m-chp2-secii-l118-125-0031,chp-2:02_CHP-2_sec_ii:l118-125,cand-4508,the result,1239,1249,Refers to the statue assembled from the refashioned antique torso and supplied head.
+m-chp2-secii-l118-125-0072,chp-2:02_CHP-2_sec_ii:l118-125,cand-11519,papal land and sea forces,1338,1363,Source-named collective commanded by Carlo; institutional status remains for S3.
 m-chp2-secii-l118-125-0032,chp-2:02_CHP-2_sec_ii:l118-125,cand-0195,Carlo,1365,1370,"Carlo Barberini, the subject of the statue and Haskell's comparison."
 m-chp2-secii-l118-125-0033,chp-2:02_CHP-2_sec_ii:l118-125,cand-4510,a Julius Caesar,1389,1404,"Historical comparison, not an identity claim."
 m-chp2-secii-l118-125-0034,chp-2:02_CHP-2_sec_ii:l118-125,cand-0220,his younger brother,1472,1491,Urban VIII; the accession refers to his papal accession.
+m-chp2-secii-l118-125-0075,chp-2:02_CHP-2_sec_ii:l118-125,cand-0197,he,1599,1601,Anaphoric subject is Carlo Barberini in the synopsis-of-Prince sentence; the candidate is the indexed subentry for this act.
 m-chp2-secii-l118-125-0037,chp-2:02_CHP-2_sec_ii:l118-125,cand-4511,"Latin synopsis of Machiavelli’s
 Prince",1668,1706,The synopsis attributed to Carlo; distinct from Machiavelli's original work.
 m-chp2-secii-l118-125-0036,chp-2:02_CHP-2_sec_ii:l118-125,cand-1464,Machiavelli’s,1686,1699,Author named within Carlo's synopsis title.
@@ -5692,16 +5695,17 @@ m-chp2-secii-l118-125-0042,chp-2:02_CHP-2_sec_ii:l118-125,cand-0198,their,1862,1
 m-chp2-secii-l118-125-0043,chp-2:02_CHP-2_sec_ii:l118-125,cand-0236,Urban VIII’s,1877,1889,Urban VIII in the index sub-entry for his tomb.
 m-chp2-secii-l118-125-0045,chp-2:02_CHP-2_sec_ii:l118-125,cand-0236,his,1920,1923,Possessive referring to Urban VIII.
 m-chp2-secii-l118-125-0044,chp-2:02_CHP-2_sec_ii:l118-125,cand-4512,his tomb,1947,1955,Urban VIII's specific tomb commission.
-m-chp2-secii-l118-125-0056,chp-2:02_CHP-2_sec_ii:l118-125,cand-1190,he,1962,1964,"Anaphoric subject is Angelo Giori, who worked as a schoolmaster."
-m-chp2-secii-l118-125-0057,chp-2:02_CHP-2_sec_ii:l118-125,cand-1190,he,2008,2010,Anaphoric subject is Angelo Giori; this instance follows 'when'.
+m-chp2-secii-l118-125-0056,chp-2:02_CHP-2_sec_ii:l118-125,cand-0236,he,1962,1964,Urban VIII; subject of “he ordered” in the tomb-commission sentence.
+m-chp2-secii-l118-125-0057,chp-2:02_CHP-2_sec_ii:l118-125,cand-1190,he,2540,2542,Anaphoric subject is Angelo Giori in “when he heard of the possibilities of preferment”.
 m-chp2-secii-l118-125-0046,chp-2:02_CHP-2_sec_ii:l118-125,cand-3135,St Peter’s,2085,2095,Intended prominent placement of Urban VIII's tomb.
 m-chp2-secii-l118-125-0047,chp-2:02_CHP-2_sec_ii:l118-125,cand-4513,Julius II,2107,2116,Earlier pope used in Haskell's comparison.
-m-chp2-secii-l118-125-0059,chp-2:02_CHP-2_sec_ii:l118-125,cand-1190,himself,2166,2173,Refers to Angelo Giori in the description of his artistic interests.
+m-chp2-secii-l118-125-0059,chp-2:02_CHP-2_sec_ii:l118-125,cand-0236,himself,2166,2173,"Urban VIII; the Pope taking steps to perpetuate himself, compared with Julius II."
 m-chp2-secii-l118-125-0048,chp-2:02_CHP-2_sec_ii:l118-125,cand-1874,Sixtus V,2225,2233,Pope whose lifetime monument Haskell compares with Urban VIII's.
 m-chp2-secii-l118-125-0049,chp-2:02_CHP-2_sec_ii:l118-125,cand-0393,Paul V,2238,2244,Pope whose lifetime monument Haskell compares with Urban VIII's.
 m-chp2-secii-l118-125-0050,chp-2:02_CHP-2_sec_ii:l118-125,cand-0334,Bernini,2318,2325,"Artist entrusted with the Urban VIII tomb, using the index sub-entry for that tomb."
 m-chp2-secii-l118-125-0051,chp-2:02_CHP-2_sec_ii:l118-125,cand-4512,the work,2357,2365,Refers to the tomb commission supervised by Angelo Giori.
 m-chp2-secii-l118-125-0052,chp-2:02_CHP-2_sec_ii:l118-125,cand-1190,a protege of the Barberini,2390,2416,Appositive identifying Angelo Giori as the supervised work's overseer.
+m-chp2-secii-l118-125-0070,chp-2:02_CHP-2_sec_ii:l118-125,cand-0198,the Barberini,2403,2416,Nested span identifies the Barberini family named in Haskell’s description of Giori as its protégé.
 m-chp2-secii-l118-125-0053,chp-2:02_CHP-2_sec_ii:l118-125,cand-1190,Angelo Giori,2450,2462,Supervisor and later patron named in the same sentence.
 m-chp2-secii-l118-125-0054,chp-2:02_CHP-2_sec_ii:l118-125,cand-3126,Rome,2482,2486,Destination of Giori's walk from Camerino.
 m-chp2-secii-l118-125-0055,chp-2:02_CHP-2_sec_ii:l118-125,cand-4514,Camerino,2492,2500,City of Giori's former schoolmaster post.
@@ -5735,10 +5739,10 @@ m-chp2-secii-l127-139-0016,chp-2:02_CHP-2_sec_ii:l127-139,cand-3126,Rome,1131,11
 m-chp2-secii-l127-139-0017,chp-2:02_CHP-2_sec_ii:l127-139,cand-0213,Urban VIII’s,1246,1258,Urban VIII as the subject of the discussion of religious foundations and S. Maria della Concezione.
 m-chp2-secii-l127-139-0018,chp-2:02_CHP-2_sec_ii:l127-139,cand-4521,the church of S. Maria della Concezione,1337,1376,Specific church named by Haskell; leave alignment to the existing Roman Capuchin church candidates for S3.
 m-chp2-secii-l127-139-0019,chp-2:02_CHP-2_sec_ii:l127-139,cand-0213,His younger brother,1379,1398,Urban VIII; identifies Antonio as his younger brother.
-m-chp2-secii-l127-139-0025,chp-2:02_CHP-2_sec_ii:l127-139,cand-0186,he,1395,1397,Antonio; pronoun in the sentence describing his simple life.
+m-chp2-secii-l127-139-0025,chp-2:02_CHP-2_sec_ii:l127-139,cand-0186,he,1683,1685,Antonio; pronoun in the sentence describing his simple life.
 m-chp2-secii-l127-139-0020,chp-2:02_CHP-2_sec_ii:l127-139,cand-0186,Antonio,1399,1406,"Antonio Barberini, identified in the index candidate as Urban VIII's brother and Cardinal di S. Onofrio."
 m-chp2-secii-l127-139-0021,chp-2:02_CHP-2_sec_ii:l127-139,cand-3405,a Capuchin monk,1411,1426,Antonio's membership in the Capuchin Order.
-m-chp2-secii-l127-139-0026,chp-2:02_CHP-2_sec_ii:l127-139,cand-0186,he,1506,1508,Antonio; pronoun in the 1626 church and monastery decision.
+m-chp2-secii-l127-139-0026,chp-2:02_CHP-2_sec_ii:l127-139,cand-0186,he,1760,1762,Antonio; pronoun in the 1626 church and monastery decision.
 m-chp2-secii-l127-139-0022,chp-2:02_CHP-2_sec_ii:l127-139,cand-0198,his family,1524,1534,"The Barberini family, in Haskell's characterization of Antonio."
 m-chp2-secii-l127-139-0023,chp-2:02_CHP-2_sec_ii:l127-139,cand-0213,his brother’s accession,1622,1645,Urban VIII's accession to the papacy.
 m-chp2-secii-l127-139-0024,chp-2:02_CHP-2_sec_ii:l127-139,cand-0186,Cardinal di S. Onofrio,1659,1681,Antonio Barberini's cardinal title.
@@ -5756,6 +5760,7 @@ m-chp2-secii-l127-139-0037,chp-2:02_CHP-2_sec_ii:l127-139,cand-0186,his brother,
 m-chp2-secii-l127-139-0038,chp-2:02_CHP-2_sec_ii:l127-139,cand-4526,the scheme,2144,2154,The church plan Urban VIII began to take in hand.
 m-chp2-secii-l127-139-0039,chp-2:02_CHP-2_sec_ii:l127-139,cand-0213,He,2164,2166,"Urban VIII; subject of the foundation stone, site visits, and financial support."
 m-chp2-secii-l127-139-0040,chp-2:02_CHP-2_sec_ii:l127-139,cand-4521,the building,2202,2214,S. Maria della Concezione under construction.
+m-chp2-secii-l127-139-0061,chp-2:02_CHP-2_sec_ii:l127-139,cand-11555,great figures from all over Europe,2284,2318,The unnamed source-bounded collective competing to associate with the church; membership is not exhaustive.
 m-chp2-secii-l127-139-0041,chp-2:02_CHP-2_sec_ii:l127-139,cand-4521,fashionable church,2377,2395,S. Maria della Concezione as it neared completion.
 m-chp2-secii-l127-139-0042,chp-2:02_CHP-2_sec_ii:l127-139,cand-0213,the Pope’s heart,2407,2423,Urban VIII; Haskell's characterization of the church's closeness to him.
 m-chp2-secii-l127-139-0043,chp-2:02_CHP-2_sec_ii:l127-139,cand-4531,The Holy Roman Emperor,2425,2447,Unnamed emperor; do not infer an individual identity from the date.
@@ -5774,6 +5779,7 @@ m-chp2-secii-l127-139-0053,chp-2:02_CHP-2_sec_ii:l127-139,cand-3405,our state,29
 m-chp2-secii-l127-139-0055,chp-2:02_CHP-2_sec_ii:l127-139,cand-3405,our Order,3067,3076,Capuchin Order in the embedded petition.
 m-chp2-secii-l127-139-0056,chp-2:02_CHP-2_sec_ii:l127-139,cand-0213,The Pope,3079,3087,"Urban VIII, who responded to the petition."
 m-chp2-secii-l127-139-0057,chp-2:02_CHP-2_sec_ii:l127-139,cand-3405,their plea,3101,3111,The Capuchins' petition.
+m-chp2-secii-l127-139-0062,chp-2:02_CHP-2_sec_ii:l127-139,cand-11556,foreign princes,3156,3171,Unnamed group defined only by permission in this church context; members and count remain unknown.
 m-chp2-secii-l127-139-0058,chp-2:02_CHP-2_sec_ii:l127-139,cand-0213,his only motive,3216,3231,Urban VIII; Haskell introduces a further motive for his decision.
 m-chp2-secii-l127-139-0059,chp-2:02_CHP-2_sec_ii:l127-139,cand-4521,the church,3294,3304,"S. Maria della Concezione, in the incomplete quotation about princes' arms."
 m-chp2-secii-l127-139-0060,chp-2:02_CHP-2_sec_ii:l127-139,cand-4536,Domenico da Isnello,3350,3369,Author named at the end of footnote 1; the citation's opening fragment occurs in the later notes segment at L191.
@@ -5872,7 +5878,7 @@ m-chp2-secii-l147-193-0053,chp-2:02_CHP-2_sec_ii:l147-193,cand-4561,"Borzelli, 1
 m-chp2-secii-l147-193-0054,chp-2:02_CHP-2_sec_ii:l147-193,cand-4562,Borzelli’s rare pamphlet of 1891,2231,2263,Cited for Marino’s relations with artists and collections.
 m-chp2-secii-l147-193-0055,chp-2:02_CHP-2_sec_ii:l147-193,cand-4563,"Ackerman, 1961",2269,2283,Cited publication; title unresolved.
 m-chp2-secii-l147-193-0056,chp-2:02_CHP-2_sec_ii:l147-193,cand-4376,"Passeri, p. 375",2317,2332,Source for the reported account of the meeting.
-m-chp2-secii-l147-193-0057,chp-2:02_CHP-2_sec_ii:l147-193,cand-4564,"Incisa della Rocchetta, 1924, pp. 60-76",2420,2459,Cited publication; title unresolved.
+m-chp2-secii-l147-193-0057,chp-2:02_CHP-2_sec_ii:l147-193,cand-4564,"Incisa della Rocchetta, 1924, pp. 60-76",2420,2459,"Title identified from Haskell bibliography, printed p.426; the note itself gives author, year and pages, and the article was not independently consulted."
 m-chp2-secii-l147-193-0058,chp-2:02_CHP-2_sec_ii:l147-193,cand-4565,"Vita Ji C. Ai. Battalia—Soprani, I, p. 303",2463,2505,OCR surface retained; PDF print p. 39 reads “Vita di G. M. Bottalla”.
 m-chp2-secii-l147-193-0059,chp-2:02_CHP-2_sec_ii:l147-193,cand-3500,Soprani,2487,2494,Author name in the cited publication.
 m-chp2-secii-l147-193-0060,chp-2:02_CHP-2_sec_ii:l147-193,cand-4376,"Passeri, p. 378",2509,2524,Cited work; title and edition unresolved.
@@ -7035,12 +7041,12 @@ m-chp2-seciv-l190-245-0145,chp-2:02_CHP-2_sec_iv:l190-245,cand-4836,"Pastor, XIV
 m-chp2-seciv-l190-245-0146,chp-2:02_CHP-2_sec_iv:l190-245,cand-4861,"Prunieres, 1913",6917,6932,Cited for chapter I.
 m-chp2-seciv-l190-245-0147,chp-2:02_CHP-2_sec_iv:l190-245,cand-4553,Fraschetti,6947,6957,Cited at page 264.
 m-chp2-seciv-l190-245-0148,chp-2:02_CHP-2_sec_iv:l190-245,cand-4870,the artist’s son Domenico (p. 55),7036,7069,The note says Bernini’s son wrote another account years later.
-m-chp2-seciv-l3-4-0009,chp-2:02_CHP-2_sec_iv:l3-4,cand-3035,he,13,15,Anaphoric subject in 'he himself was made Cardinal'.
+m-chp2-seciv-l3-4-0009,chp-2:02_CHP-2_sec_iv:l3-4,cand-3035,he,198,200,Anaphoric subject in 'he himself was made Cardinal'.
 m-chp2-seciv-l3-4-0001,chp-2:02_CHP-2_sec_iv:l3-4,cand-3104,Urban VIII,21,31,Explicit referent of the nephews' kinship claim.
 m-chp2-seciv-l3-4-0002,chp-2:02_CHP-2_sec_iv:l3-4,cand-3035,Francesco,33,42,First member of the three-nephew group.
 m-chp2-seciv-l3-4-0003,chp-2:02_CHP-2_sec_iv:l3-4,cand-0239,Taddeo,44,50,Second member of the three-nephew group.
 m-chp2-seciv-l3-4-0004,chp-2:02_CHP-2_sec_iv:l3-4,cand-3001,Antonio,55,62,The younger nephew candidate; do not merge with Urban VIII's brother Cardinal Antonio.
-m-chp2-seciv-l3-4-0017,chp-2:02_CHP-2_sec_iv:l3-4,cand-3035,he,106,108,Anaphoric subject of the passive legation clause; the sending agent is unstated.
+m-chp2-seciv-l3-4-0017,chp-2:02_CHP-2_sec_iv:l3-4,cand-3035,he,647,649,Anaphoric subject of the passive legation clause; the sending agent is unstated.
 m-chp2-seciv-l3-4-0005,chp-2:02_CHP-2_sec_iv:l3-4,cand-3126,the city,125,133,Anaphoric reference to Rome in the chapter's account of artistic life.
 m-chp2-seciv-l3-4-0006,chp-2:02_CHP-2_sec_iv:l3-4,cand-3035,Francesco,135,144,Subject of the age and cardinalate sentence.
 m-chp2-seciv-l3-4-0011,chp-2:02_CHP-2_sec_iv:l3-4,cand-3035,his,167,170,Possessive reference to Francesco's hair.
@@ -7278,7 +7284,7 @@ m-chp2-seciv-l6-17-0007,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,He,298,300,Anaphor
 m-chp2-seciv-l6-17-0008,chp-2:02_CHP-2_sec_iv:l6-17,cand-4596,retinue of friends and advisers,330,361,Collective group accompanying Francesco; membership is only partly named.
 m-chp2-seciv-l6-17-0009,chp-2:02_CHP-2_sec_iv:l6-17,cand-2036,Cassiano dal Pozzo,437,455,Named member of the retinue and subject of Haskell's patronal assessment.
 m-chp2-seciv-l6-17-0010,chp-2:02_CHP-2_sec_iv:l6-17,cand-4596,They,457,461,Collective subject referring to Francesco's party and retinue.
-m-chp2-seciv-l6-17-0023,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,458,460,Anaphoric subject of turning down the gift.
+m-chp2-seciv-l6-17-0023,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,1014,1016,Anaphoric subject of turning down the gift.
 m-chp2-seciv-l6-17-0014,chp-2:02_CHP-2_sec_iv:l6-17,cand-4596,their,480,485,Refers to the party's departure.
 m-chp2-seciv-l6-17-0011,chp-2:02_CHP-2_sec_iv:l6-17,cand-1450,Louvre,567,573,Use the historical index candidate for the 1625 art-treasure visit; do not merge with the later museum candidate.
 m-chp2-seciv-l6-17-0012,chp-2:02_CHP-2_sec_iv:l6-17,cand-4595,Fontainebleau,578,591,Destination named for the art-treasure visit; exact site remains unspecified.
@@ -7304,10 +7310,10 @@ m-chp2-seciv-l6-17-0033,chp-2:02_CHP-2_sec_iv:l6-17,cand-2293,Rubens,1312,1318,N
 m-chp2-seciv-l6-17-0034,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,He,1320,1322,Anaphoric subject of the French-culture comparison.
 m-chp2-seciv-l6-17-0035,chp-2:02_CHP-2_sec_iv:l6-17,cand-3104,his uncle,1349,1358,"Urban VIII, used as the comparison point for Francesco's response to French culture."
 m-chp2-seciv-l6-17-0036,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,him,1366,1369,Anaphoric reference to Francesco in the comparison with his uncle.
-m-chp2-seciv-l6-17-0043,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,1374,1376,Anaphoric subject of the return to Rome.
-m-chp2-seciv-l6-17-0039,chp-2:02_CHP-2_sec_iv:l6-17,cand-4599,it,1378,1380,Anaphoric reference to French culture.
+m-chp2-seciv-l6-17-0043,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,1717,1719,Anaphoric subject of the return to Rome.
+m-chp2-seciv-l6-17-0039,chp-2:02_CHP-2_sec_iv:l6-17,cand-4599,it,1458,1460,Anaphoric reference to French culture.
 m-chp2-seciv-l6-17-0038,chp-2:02_CHP-2_sec_iv:l6-17,cand-4599,French culture,1389,1403,Cultural category evaluated in Haskell's narrative.
-m-chp2-seciv-l6-17-0044,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,1432,1434,Anaphoric subject of showing the first signs of sympathy.
+m-chp2-seciv-l6-17-0044,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,1786,1788,Anaphoric subject of showing the first signs of sympathy.
 m-chp2-seciv-l6-17-0037,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,his days,1577,1585,Anaphoric possessive reference to Francesco's lifespan in the stated time scope.
 m-chp2-seciv-l6-17-0040,chp-2:02_CHP-2_sec_iv:l6-17,cand-4600,"French writers, scientists, artists and thinkers of all kinds",1587,1648,Unnamed collective; no specific member is identified.
 m-chp2-seciv-l6-17-0041,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,him,1667,1670,Anaphoric recipient of the group's welcome.
@@ -7326,13 +7332,12 @@ m-chp2-seciv-l6-17-0055,chp-2:02_CHP-2_sec_iv:l6-17,cand-3074,Marcello Sacchetti
 m-chp2-seciv-l6-17-0056,chp-2:02_CHP-2_sec_iv:l6-17,cand-4603,Another diplomatic mission,2075,2101,"A subsequent diplomatic mission; linked by context to Francesco, with Madrid as its destination."
 m-chp2-seciv-l6-17-0057,chp-2:02_CHP-2_sec_iv:l6-17,cand-3936,Madrid,2143,2149,Destination of Francesco's later diplomatic mission.
 m-chp2-seciv-l6-17-0058,chp-2:02_CHP-2_sec_iv:l6-17,cand-4603,It,2151,2153,Refers to the Madrid diplomatic mission.
-m-chp2-seciv-l6-17-0062,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,2181,2183,Anaphoric subject in the statement that Francesco was to remain in Rome.
+m-chp2-seciv-l6-17-0062,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,2231,2233,Anaphoric subject in the statement that Francesco was to remain in Rome.
 m-chp2-seciv-l6-17-0059,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,the Cardinal,2185,2197,Refers to Cardinal Francesco Barberini.
-m-chp2-seciv-l6-17-0063,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,2186,2188,Anaphoric subject in the post-return resources sentence.
+m-chp2-seciv-l6-17-0063,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,2481,2483,Anaphoric subject of the devotion clause in the post-return resources sentence.
 m-chp2-seciv-l6-17-0060,chp-2:02_CHP-2_sec_iv:l6-17,cand-3126,Rome,2210,2214,Place of Francesco's return in October 1626.
-m-chp2-seciv-l6-17-0064,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,2231,2233,Anaphoric subject of the devotion clause.
 m-chp2-seciv-l6-17-0061,chp-2:02_CHP-2_sec_iv:l6-17,cand-3126,there,2248,2253,Anaphoric reference to Rome in the claim that Francesco was to remain there.
-m-chp2-seciv-l6-17-0068,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,2249,2251,Anaphoric subject of the sentence about influence on the new reign.
+m-chp2-seciv-l6-17-0068,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,he,2575,2577,Anaphoric subject of the sentence about influence on the new reign.
 m-chp2-seciv-l6-17-0065,chp-2:02_CHP-2_sec_iv:l6-17,cand-3035,His,2500,2503,Possessive reference to Francesco's court.
 m-chp2-seciv-l6-17-0066,chp-2:02_CHP-2_sec_iv:l6-17,cand-4604,court,2504,2509,Social/intellectual court associated with Francesco; membership boundaries unspecified.
 m-chp2-seciv-l6-17-0067,chp-2:02_CHP-2_sec_iv:l6-17,cand-3126,the city,2565,2573,Anaphoric reference to Rome.

@@ -15315,3 +15315,66 @@ p.189最后计入的5条中，`st-chp7-p189-i25`、`i26`、`i27`是此前44条�
 上述复核快照、9,622基线与当前HEAD之间，六批S0 segment完整对象均一致；第7章正文Markdown、图版视觉转录Markdown和 `CHP-7.pdf` 对应Git blob也均一致。唯一先后版本差异是 `st-chp7-p201-v-eugene-reputation-among-italians`：p.201正文复核快照尚标注注3待审，复合注释复核随后核对Zanotti引文并补齐正文—注释回链；该后续statement完整对象与9,622基线及当前版一致，未重复计入34条注释增量。
 
 p.201正文当前segment有40条statement，而独立正文复核批次为38条；另两条 `st-chp7-p201-v-ceiling-painting-located-at-hall` 和 `st-chp7-p201-v-garden-palace-hall-part-of-palace` 是之后因端点补足新增的空间断言，既有过程记录明确称其不计入9,622独立复核增量。另一名独立复核者在当前HEAD `a11c54d76d51b1b8ab567b4971a44026fa2a1e98`对照CHP-7.pdf印刷p.201／物理页43、S0 L54、当前statement、mentions及关系表，确认两条claim、quote与`the ceiling` `[2496,2507)`、`the hall` `[2511,2519)`、`their garden palace` `[2523,2542)`跨度准确；`rel-1466 located_at`的work→hall及`rel-1467 part_of`的hall→garden palace方向和类型正确，未推断作品完成、现今位置或所有权。两条statement、mention、S0 Markdown、PDF和关系版本均与9,622基线一致；过程记录明确它们未计入历史分子，故不调整9,622。该独立PASS仅覆盖两条后补statement及直接关系，不代表全书S2收口。故本批可以确认137条历史增量的ID／来源版本回映，不等于全局9,622成员名册已恢复或全书S2已收口。
+
+
+<a id="2026-11-01-s2-current-id-roster-and-batch-01"></a>
+### 2026-11-01 S2当前版本逐ID复核清单与首批状态
+
+依据当前表快照`d23bf46a06352e9d3753389a491a7fe8c1ffcba4`，生成`s2-current-review-roster.csv`及其机械索引脚本`build_s2_current_review_roster.py`。清单含15,494个唯一statement ID；每行记录当前statement对象SHA-256、来源S0 segment及段哈希、segment对应mention集合哈希、source_id／来源文件／行号、历史回映状态和逐批复核字段。初始数据完整性核对通过：statement与segment主键无重复，引用段均存在。
+
+历史复核证据仅在范围和当前对象均可精确对应时回映：以独立复核快照`2273e274`及`s2-independent-review-chp1-2-4-20261020.md`为依据，第1章有518条、第2章有1,385条当前statement对象与旧审读对象及S0段哈希一致，共1,903条标记为`prior_review_mapped_open`。这仅表示可复用对应版本的逐条审读证据；第1、2章均未获章节接收，第2章85条citation分类仍有待处理。全部15,494行的`history_9622_membership`保留`unknown`，不从累计数推断成员身份。其余13,591条仍待历史证据回映或当前版复核。
+
+首批`S2-B001-CH2-SEC-II-L118-145`按连续原文L118–145纳入三个连续S0段，共100条。其间73条statement完整对象及来源段哈希与既有独立复核范围精确一致，已回映；27条当前对象发生变化，状态为`in_batch`，等待当前版独立复核。故首批当前为73/100已回映、27/100待审；全书仍有13,591条待处置，其中27条在本批、13,564条在后续队列。该批将核对claim、quote、mention跨度、必要页图和直接关系影响；本记录写入时复核尚未返回。
+
+
+<a id="2026-11-01-s2-current-id-roster-batch-02"></a>
+### 2026-11-01 S2首批之后的连续原文第二批排程
+
+紧接B001的S0 segment `chp-2:02_CHP-2_sec_ii:l147-193` 登记B002 `S2-B002-CH2-SEC-II-L147-193`，共85条statement；其中84条当前对象与既有独立逐条复核快照及来源段哈希相同，回映旧逐条审读；1条statement当前对象变化，进入当前版独立复核。此段已回映与版本变化项目在roster逐ID标明；其结论未返回时，B002计0条新复核完成、1条待独立复核，84条沿用精确旧审读证据。历史9,622成员资格仍不由此推断。
+
+
+<a id="2026-11-01-s2-current-review-b001-repair-and-b002-close"></a>
+### 2026-11-01 S2 连续批次 B001 修订与 B002 收口
+
+B001覆盖第二章 S0 连续行段 L118–145，共100条当前statement；独立首轮复核对照 `CHP-2.pdf` 物理页26–28（印刷pp.41–43），PDF SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`。首轮42条可通过，58条须补当前 statement 的 `mentioned_candidate_ids`。已按statement精确引句、subject/object、qualifier直接候选和引句内mentions构成逐条候选数组，未把整段候选复制到单条statement。58条修订后当前版独立回核尚在进行；所以B001当前完成42/100，58/100仍待回核。
+
+对mentions作了字符切片和词界复核，除首轮报告发现的候选错配外，又发现两处表面字符串虽相同、实则切在单词内部的跨度。现有修正如下：
+
+| mention | 修改 | 依据 |
+|---|---|---|
+| `m-chp2-secii-l118-125-0021` | `cand-0195` Carlo → `cand-0220` Urban VIII | Carlo去世后委托纪念牌的人是Urban VIII。 |
+| `m-chp2-secii-l118-125-0056` | `cand-1190` Giori → `cand-0236` Urban VIII | `he ordered`位于Urban墓委托句。 |
+| `m-chp2-secii-l118-125-0057` | span从L125内“the”的末两字改为`when he heard`中的`he`，cand-1190不变 | 精确原文锚点改为segment字符`2540–2542`，代词主语为Giori。 |
+| `m-chp2-secii-l118-125-0059` | `cand-1190` Giori → `cand-0236` Urban VIII | “perpetuate himself”承接Urban VIII的墓葬自我纪念。 |
+| `m-chp2-secii-l127-139-0025` | span移至`he continued`的`he`，cand-0186不变 | 印刷p.42段落主语为Antonio。 |
+| `m-chp2-secii-l127-139-0026` | span移至`he decided`的`he`，cand-0186不变 | 同句明确为Antonio在1626年决定建造教堂和修道院。 |
+| `m-chp2-secii-l118-125-0070` | 新增嵌套span `the Barberini` → `cand-0198` | 与外层Giori protege短语严格嵌套；分别记录Giori及Barberini家族，不推断职务或亲属关系。 |
+
+另对7条候选分类改为`relation_candidate=false`：Carlo—Julius Caesar比较、Urban VIII—Julius II自我纪念比较、Carlo纪念碑家族评价、Carlo性格与荣誉复合陈述、Trent名称续接、Urban赞助关系作者框架、Urban奠基/访问/资助三动作叙述。Carlo性格条的Urban对象字段清空，Urban留在亲属语境mention；三动作叙述保留为来源陈述但不再作为单一正式关系候选。Urban墓委托claim收窄为1627年下令，作者最高级评价移入明确归属的qualifier；Capuchin地点statement限定教堂；Urban介入方案claim限于接手计划，作者性格描述留作限定；墓葬青铜像铸造关系注明依赖段落语境，视觉解释恢复“than any other representation”与“seems…as…as”限定。两条Paul V／Sixtus V生前纪念物陈述继续保持未具名、无object候选，不猜测具体作品。
+
+对relations.csv及S6记录作了定向核对：上述7条降级statement均无对应formal relation行；p.41–42既有formal边 `rel-1252`、`rel-1253`、`rel-1311`、`rel-2282`–`rel-2285`、`rel-2474`、`rel-2475`均保持原状态、端点与证据范围。`rel-2474 part_of`和`rel-2475 has_subject`仍分别只记录青铜像组成关系与表现对象。B001当前 `relation_candidate` 为82 true／18 false；在原复核记录的23 formal、6 pending、9 rejected中，7条重新分类均属于此前无逐项裁决的队列，故仍待S6逐项裁决数由51降为44；不据此创建或删除formal边。S3身份组、S4 KU、S5字段及历史9,622成员未知状态均未更改。
+
+B002紧接其后，覆盖S0 L147–193共85条：84条statement对象和来源段与旧逐条复核快照精确一致；变化的 `st-chp2-secii-l147-193-cite-incisa1924-p60-76` 的引句、mention span及书内archive身份独立核对通过。书目原文 p.426支持标题 `Notizie inedite su Andrea Sacchi`；citation mention备注已更新，仍明确未查阅Incisa文章。`rel-2151 cites`、S3 `new`与S4 archive映射保持不变。B002完成85/85，剩余0。
+
+当前清单总计15,494个statement ID：B001 42条current-version pass、58条修订后待独立回核；B002 85条已处理，累计127条有明确当前版结果。另有1,746条仍是旧审读精确回映但章节跟进状态open，13,563条尚未回映或当前复核；合计未关闭15,367条（其中58条为本轮修订回核、15,309条在两批范围外）。所有行的历史9,622成员资格仍为unknown。下一批将从连续原文后续段推进，每批50–100条；本批不接收第2章或全书S2。
+
+<a id="2026-11-01-s2-current-review-b003-visual-seciv-l3-17"></a>
+### 2026-11-01 S2 当前版连续批次 B001–B003 收口与差异更正
+
+本记录更正上一节回核前暂记的B001结果：旧段落中的42/100、7条降级、82/18及51→44不再代表当前状态。复核清单仍为15,494个当前statement ID；`snapshot_commit=d23bf46a06352e9d3753389a491a7fe8c1ffcba4`记录建表时HEAD锚点，`snapshot_statement_sha256`及snapshot mention集合哈希保存建表时工作树的实际逐行快照，`current_*`字段记录当前表。建表时工作树有未提交业务修改，因此不能单凭该commit重构快照；逐行哈希才是清单快照依据。所有行的`history_9622_membership`仍为`unknown`。
+
+**B001（第二章L118–145，100条）现已100/100通过当前版独立回核。** PDF物理页26–28／印刷pp.41–43，SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；100条引句和181条mention跨度通过。回核后收束两处数组边界：`carlo-monument-memorial-assessment`去掉前句`Prince`尾项的`cand-4511`、`cand-1465`；`urban-dynastic-motive-fragment`补入引句中的教堂候选`cand-4521`，仍保持object空、`relation_candidate=false`。aln-4689、aln-11682已分别引用m-0071、m-0072；两项仍`undecided`、无KU。B001当前为83条`relation_candidate=true`、17条false；相对HEAD仅六条true→false：`carlo-caesar-comparison`、`carlo-character-and-honours`、`carlo-monument-memorial-assessment`、`urban-julius-ii-comparison`、`council-of-trent-continuation`、`urban-patronage-confusion-s-maria`。奠基／巡视／拨款statement本来在HEAD和当前均为true，不计入变化。无S3决定、S4 KU、S5字段或S6关系行改变；`relations.csv`相对HEAD无差异，`rel-1252/1253`、`rel-1311`、`rel-2282`–`rel-2285`、`rel-2474/2475`维持原端点、范围和状态。
+
+**B002（紧接L147–193，85条）仍为85/85完成。** 84条复用精确旧审读，变化的Incisa脚注行按Haskell书目p.426补足标题依据；未查阅被引文章。`rel-2151 cites`及S3/S4映射不变。
+
+**B003（连续原文图版转录L1–3、L8–9及sec_iv L3–4、L6–17，共53条）已完成53/53当前原文核读。**《CHP-2.pdf》SHA同上；视觉脚注核对PDF物理页19，Plate 6说明核对物理页23，sec_iv印刷p.43／物理页28及印刷p.44／物理页29。53条引句均可在来源段精确定位；四段当前107条mention的`surface_form`与S0字符切片均匹配。另发现9个代词mention虽表面字符相同、原span却落在其他单词内部，已移至真实代词位置：`m-chp2-seciv-l3-4-0009` `[198,200)`、`0017` `[647,649)`；`m-chp2-seciv-l6-17-0023` `[1014,1016)`、`0039` `[1458,1460)`、`0043` `[1717,1719)`、`0044` `[1786,1788)`、`0062` `[2231,2233)`、`0063` `[2481,2483)`、`0068` `[2575,2577)`。另删除m0064对m0062同一`he` token的重复标注，将m0063备注细化为唯一的post-return devotion token；S3 aln-3312同步更新8处mention字符锚并去掉重复引用。修订后逐项切片、词界及非嵌套冲突校验均无误。37条statement已补各自的`mentioned_candidate_ids`，不复制全段mention；L4战争事件在L7续句中保留为跨段先行项cand-4592，并由`continuation_of_statement_id`明确回链。
+
+B003对六条候选修正实体关系判断：年龄属性`francesco-age-at-urban-election`清除Urban person object；统治时期评述`francesco-impact-new-reign`清除Urban person object；被动列表`committee-selection-lists-drawn`清除未被原文支持的committee subject；`paris-mission-outcome`复合评价及两条画作题名用词改为`relation_candidate=false`。`welcomed-french-intellectuals`保留true：原文明确记载Francesco欢迎并与该群体通信；这是两项互动，S6须拆分或分别裁决，cand-4600继续S3 undecided、不创建KU或formal边。B003当前38 true／15 false。Louis XIII礼物statement保留关系候选但清除错误挂接的挂毯object，礼物身份保持open；Urban的“uncle”身份证据通过related statement链接到L3明示亲属断言。S3未重判：cand-12300、cand-4596、cand-4597、cand-4600与cand-4602仍为`undecided`；cand-4593仍为既有`new`／`term`、未登记KU，群体类型边界留待后续S3复核；cand-4601的既有work KU映射不变。S4登记记录曾把两条题名用词列为S6待办；当前S2已将其判为题名文字、非关系候选，该历史待办不再产生S6正式边。B003没有对应`relations.csv`关系行，本次未新增、撤销或重定向任何关系。
+
+**当前清单进度：**B001 100/100通过，B002 85/85通过，B003 14条原对象无须修订并通过、另39条修订后待独立回核；三个批次均完成原文逐条核读。合计当前版通过199条、修订待回核39条、历史精确回映但章节跟进仍open 1,693条、尚待历史证据回映或复核13,563条；总计15,494条，当前未关闭15,295条。B003的39条回核完成后，仍有15,256条未关闭。此记录不构成第2章或全书S2接收；不据此变更9,622条历史台账分子。
+<a id="2026-11-01-s2-current-review-b003-independent-close"></a>
+### 2026-11-01 S2 当前版连续批次 B003 独立回核收口
+
+独立复核对 B003 的 53 条当前 statement 全部通过：14 条原对象复核通过，39 条修订项回核通过，需修订 0 条。复核依据为《CHP-2.pdf》SHA-256 `317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；Markdown 图版转录与 sec_iv 来源哈希分别为 `494aeb540e1ab40ae538f63377fd8bb18c469006690161969e0729cbc179835d` 与 `9f50e1396234faff664211d70a1231ef145bccdc24e91c088f1237d55ca34dbf`。B003 覆盖连续源序列中的全部 statement-bearing segment；中间 Plate 5 转录、视觉转录 L5–6 和 sec_iv L1 三个 segment 均为0条 statement。107条 mention 的来源切片、代词跨度和去重状态复核通过。`relations.csv` 未改动；原文身份或端点未决项继续保持待证，不因本批 S2 通过而新增正式关系或 KU。
+
+**清单收口后进度：**B001 100/100、B002 85/85、B003 53/53，三批累计238/238条当前版独立通过。15,494条当前 statement 中，238条当前版通过、1,693条精确映射既往审读但仍需章节跟进、13,563条待历史证据回映或复核；合计15,256条未关闭。9,622条历史复核成员资格仍逐ID标记 `unknown`。本结果不等于第2章或全书 S2 接收；下一批从当前 source order 的后续连续 statement-bearing 段开始，按50–100条记录完成量与余量。
