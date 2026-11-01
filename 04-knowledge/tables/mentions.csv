@@ -8221,6 +8221,8 @@ m-chp3-secii-l115-123-0049,chp-3:03_CHP-3_sec_ii:l115-123,cand-5096,the apse,268
 m-chp3-secii-l115-123-0050,chp-3:03_CHP-3_sec_ii:l115-123,cand-3073,Cardinal Ludovisi,2791,2808,The person whose 1632 death precedes the heirs' reluctance.
 m-chp3-secii-l115-123-0051,chp-3:03_CHP-3_sec_ii:l115-123,cand-5097,his heirs,2854,2863,Unnamed collective heirs of Ludovisi.
 m-chp3-secii-l115-123-0052,chp-3:03_CHP-3_sec_ii:l115-123,cand-3967,the new church,2989,3003,The S. Ignazio church; first mass and later public opening are described.
+m-chp3-secii-l115-123-0053,chp-3:03_CHP-3_sec_ii:l115-123,cand-11592,others,290,296,Plural model-target group; members and scope are not identified.
+m-chp3-secii-l115-123-0054,chp-3:03_CHP-3_sec_ii:l115-123,cand-3967,the construction,1104,1120,Anaphoric reference to the S. Ignazio church project; linked to its existing building candidate.
 m-chp3-secii-l125-135-0001,chp-3:03_CHP-3_sec_ii:l125-135,cand-3967,the temple,38,48,S. Ignazio; continuation of the previous segment.
 m-chp3-secii-l125-135-0002,chp-3:03_CHP-3_sec_ii:l125-135,cand-3403,the Jesuits,120,131,
 m-chp3-secii-l125-135-0003,chp-3:03_CHP-3_sec_ii:l125-135,cand-3104,Urban VIII,191,201,
@@ -8281,6 +8283,8 @@ m-chp3-secii-l125-135-0057,chp-3:03_CHP-3_sec_ii:l125-135,cand-5125,The site adj
 m-chp3-secii-l125-135-0056,chp-3:03_CHP-3_sec_ii:l125-135,cand-5124,the Quattro Fontane,2728,2747,Location landmark; distinct from S. Carlo alle Quattro Fontane.
 m-chp3-secii-l125-135-0058,chp-3:03_CHP-3_sec_ii:l125-135,cand-3118,the Barberini palace,2759,2779,
 m-chp3-secii-l125-135-0059,chp-3:03_CHP-3_sec_ii:l125-135,cand-0404,Borromini,2875,2884,
+m-chp3-secii-l125-135-0060,chp-3:03_CHP-3_sec_ii:l125-135,cand-4730,court,1255,1260,Mapped to the existing Urban VIII papal-court candidate in the paragraph's immediate reign context; the influence claim remains Haskell's inference.
+m-chp3-secii-l125-135-0061,chp-3:03_CHP-3_sec_ii:l125-135,cand-11593,rivals,163,169,Plural group explicitly named by role but not identified; do not assume the Oratorians are the referent.
 m-chp3-secii-l137-142-0003,chp-3:03_CHP-3_sec_ii:l137-142,cand-3126,Rome,196,200,
 m-chp3-secii-l137-142-0001,chp-3:03_CHP-3_sec_ii:l137-142,cand-0404,Borromini,232,241,
 m-chp3-secii-l137-142-0002,chp-3:03_CHP-3_sec_ii:l137-142,cand-5119,Scalzi,298,304,
