@@ -16010,3 +16010,16 @@ p.180 L130明确Cardinal Mazarin在Richelieu死后立即接管法国政府，并
 **关系与历史裁决影响。** rel-1371–rel-1376保持formal，范围分别仍为Charles I胸像作者、 sitter、1637年历史抵达、Van Dyck肖像作者、肖像作为胸像模型及Haskell限定的审美影响；“后世接受”与“ sitter欣赏”没有新增formal边。S6对`st-chp7-p179-i05-sitter-response`和`i06`的rejected仅是否决受控图谱边，不否决S2原书断言。rel-1603 `has_participant`保持formal，只表示Richelieu为该死亡事件中的人物；`st-chp7-p180-i03`仍S6 pending，不把“接管政府”改写成不精确关系。无statement、mention、KU、S3或relations.csv写入。当前PASS表示statement与原页相符，不代表第七章或全书S2接收。
 
 批后：PASS 1,757（当前主审1,509、独立当前版248），已审待处理552，历史复用仍有开放发现8,302，待差异复核187，待历史回映或当前复核4,707；未达PASS共13,748。100/100条已处置，下一条原文顺序7104。S2仍未独立接收。
+
+<a id="2026-11-01-s2-current-review-b056-ch7-p183-plates25-26a"></a>
+### 2026-11-01 S2当前版逐ID复核 B056：CHP-7 p.183及图版25、26a（顺序7104–7203）
+
+**批次处置：100条；6条当前版原页复核PASS，94条精确复用9,622历史直接阅读并保留开放发现。** 6条直接复核包括4条无精确历史事件映射（7171、7172、7202、7203）和2条历史对象/当前版需复核（7182、7183）；7182原先虽与历史对象精确相同，但原页核对发现当前statement内的误校读和内部处理摘要，故转为当前版直接复核。其余94条的statement、来源段、来源资产、mention集合均与各自唯一历史事件精确匹配；历史开放发现保留，不重读、不记为PASS。
+
+依据 `02-sources/01-book/CHP-7.pdf` 印刷p.183（PDF物理页17）、Plate 25（物理页19）、Plate 26a（物理页20）；PDF SHA-256=`eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`。S0分节 `02-sources/02-Markdown/07_CHP-7_sec_i.md` SHA-256=`f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3`；p.183使用segment `chp-7:07_CHP-7_sec_i:l160-168`（哈希`4cf81d7ec14309890694c93011613ac8d5f299e1190abdf016026ae8825c4d74`，62条mention集合未变）。p.183原页确认正文“he wrote to Maccarani”及注3对6 March 1661来信的说明支持7171/7172的Haskell署名收件人与作者判断；被引信件版本本身仍未独立核读。rel-1777 `authored_by` 与rel-1778 `addressed_to`保持formal且仍限于Haskell的报告。
+
+p.183注2原页读作“exact-date … d’Aumale, p. 8. See also Callari, p. 298.”，其中exact-date保留连字符。7182的claim删除内部处理摘要，改为对印本“Callari, p. 298”的直接描述；移除把exact-date写成exact date的错误OCR校读。7183的citation locator从错误扩展的“Histoire des princes de Condé”收窄为印本所见“d’Aumale, p. 8”；一并移除同一错误OCR校读。两条statement的`original_quote`及S0转录均未改，未把注释未写明的书名或版次写进locator。cand-4845、cand-6807和现有跨章身份记录未改。关系影响：Callari citation-pointer的rel-2406仍formal；d’Aumale p.183引文仍无formal边，原S6 pending保持；p.184的rel-2163裁决未受影响。历史事件H9622-08354、H9622-08355的review hash、历史裁决及来源哈希未改，只更新其current hash/match为changed，mention集合仍精确。
+
+Plate 25扫描题注为“Gentileschi: Public Felicity triumphant over Dangers”，List of Plates补全为Orazio Gentileschi；Plate 26a题注为“a. Nanteuil: The Cardinal in his gallery”，List of Plates写作Nanteuil并将the Cardinal指为Cardinal Mazarin。相应作品和人物身份沿用现有candidate/KU映射，不把印本题注当成独立作者鉴定；两页标题只作版面分组，没有据此添加关系边。版面mention跨度均与当前segment原文一致。本批未写入新mention、KU、S3决定或relations.csv行。
+
+**批后进度。** 历史9,622事件的current statement对照重算为9,121 exact、499 changed、2 absent_current；按每个旧ID最新事件去重为9,048 exact、489 changed、2 absent_current。可回映的9,620条来源版本仍9,620/9,620匹配。连续原文顺序7104–7203共100/100条已处置。当前版PASS 1,763（当前主审1,515、独立当前版248）；已审待处理552；精确历史复用且保留开放发现8,301；待差异复核186；待历史回映或当前复核4,703；未达PASS共13,742条。下一条原文顺序7204。PASS仅表示本批current source alignment审查通过，不构成第七章或全书S2接收。
