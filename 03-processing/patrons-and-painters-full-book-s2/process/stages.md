@@ -15889,3 +15889,10 @@ PASS仅限当前S2来源忠实度；`cand-6146`反西班牙平民及`cand-6147`�
 **批次结果：100条；1条无历史审读映射statement经当前原页复核PASS，99条精确历史复用并保留开放发现。** 顺序5827的statement“st-chp5-note-raggi-report-authored-by”对应打印p.140（PDF物理25）脚注2；原文明确称其为Ferdinando Raggi的报告，并说明经Achille Neri于1883年转引。该PASS只确认Haskell此处的归属与转引表述，不表示已查阅Raggi报告或Neri出版物。该statement不在9,622历史事件计数中，按当前版直接核读，不伪造历史回映。其余99条statement对象与来源版本精确映射历史直接阅读，既有开放发现不转为PASS。
 
 原书`02-sources/01-book/CHP-5.pdf` SHA-256=`f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`。本批未改statement、mention、关系表、S3决定或KU；既有`rel-2245 authored_by`保持formal，证据范围仍限于Haskell转引的Raggi报告归属；原报告与Neri出版物均未独立查阅，既有S6历史裁决不变。 应用后全表审计`errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
+
+<a id="2026-11-01-s2-current-review-b044-ch5-p144-regulus"></a>
+### 2026-11-01 S2当前版逐ID复核 B044：CHP-5 p.144（顺序5904–6003）
+
+**批次结果：100条；2条当前版原页复核PASS，98条精确历史复用并保留开放发现。** 原书`02-sources/01-book/CHP-5.pdf`，SHA-256=`f63dca79808fde73ba10aa9414fef89bc8ca5e77ed829b2d5c86f23719e0674a`；打印p.144（PDF物理29）第24–26行直接复核statement 5921、5924。5921的扩展原引文和来源跨度支持De’ Rossi将《Regulus》挂在其Rosa作品私人博物馆内；“masterpiece”仍明确是Haskell评价，不推作法律所有权或现藏。已有`rel-2507 held_by`仍为formal，证据范围、历史裁决及限定未改。
+
+5924的当前claim原来把“grudging obligation”泛化为“obligations”，并漏掉“instinctive”；现更正为在《Regulus》中，Rosa对Bamboccianti的勉强义务感与对如画性的本能之爱，经由其对斯多葛历史家的研究，被提升为崇高的英雄悲剧。此为Haskell的艺术史解读，不等同于独立确定Rosa创作意图。该statement没有对应formal S6边。本批两条的历史审读哈希、历史裁决和来源版本不变，仅current hash/match记录版本仍不同；其余98条保持历史开放发现，不计当前PASS。 应用后全表审计`errors=[]`、`s2_missing=[]`；关系一致性检查的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
