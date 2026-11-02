@@ -18907,3 +18907,69 @@ pending逐ID理由已写入[s2-current-review-roster.csv](s2-current-review-rost
 **关系与历史裁决影响。** 本批100个主文statement没有在`relations.csv`中对应的直接S6 formal/pending/rejected边；核查到同页脚注bibliography edges `rel-1299`、`rel-2103`–`rel-2105`、`rel-2109`–`rel-2111`、`rel-2408`，均为脚注citation且不受本批main-text裁决影响，原状态保留。没有把书信转交、作品端点或群体关系缺口升级为formal。H9622历史关系裁决不变。
 
 **批次结算。** B286完成100条历史开放项：PASS 68、pending 32。全库当前PASS 7,697、reviewed pending 1,132、历史映射开放6,676、ID/版本差异待核0、待回映/当前复核0；共15,505条，7,808条尚未PASS。下一历史开放位置4426。S2尚未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b287-order-4426-4525"></a>
+### 2026-11-02 S2当前版逐ID复核 B287（第4章顺序4426–4525）
+
+**历史台账核平。** 100个连续位置中90条历史开放项各对应一个H9622事件，当前statement/source映射及历史复核对象精确；10条已有B029当前版PASS（6条历史statement版本变化、4条无精确H9622映射）原样承接。p.113 segment存在4条历史后新增mention，分别映射到cand-12442–12445；当前mention使用逐项落在既有PASS的4491、4482、4503、4485，B287其余开放statement均不引用这些新增candidate。清单快照与当前segment mention hash一致。H9622事件未改。
+
+**逐段裁决。** 复用提交`2273e2743158401b841fb9bc7b7d1332836d400a`第4章印刷p.111–114、物理p.22–25原文/页图独立审读，逐项核对当前statement、quote、speaker与mention边界。90条历史开放项中70条PASS，20条因限定、claim层级、群体/作品对象或quote锚点仍有具体缺口而pending；10条现有当前版PASS保留。
+
+| 顺序/原文段 | 新PASS | pending | 承接旧PASS | 主要待决 |
+|---|---:|---:|---:|---|
+| 4426–4433，印刷p.111 sec_ii L139–149余项 | 7 | 1 | 0 | learned circle未名群体及Testa/Haskell说话者层次 |
+| 4434–4475，印刷p.112 sec_ii L151–159 | 32 | 10 | 0 | 方案/引语锚点、人物/群体端点、接受范围及未名speaker |
+| 4476–4505，印刷p.113 sec_ii L161–170 | 17 | 3 | 10 | 肖像/来源端点、影响范围、未名群体与跨页句 |
+| 4506–4525，印刷p.114 sec_ii L172–178前段 | 14 | 6 | 0 | 解释范围、作品端点、quote先行词、群体类别 |
+| **合计** | **70** | **20** | **10** | **100个连续位置** |
+
+pending逐ID理由已写入[s2-current-review-roster.csv](s2-current-review-roster.csv)（顺序4430、4435、4437、4439、4441、4443、4449、4461、4468、4470、4473、4502、4504–4505、4514–4515、4517、4520、4523、4525）。抽象风尚、未识别群体及作品/肖像身份继续留作待证，不强行归并或新增关系。
+
+**关系与历史裁决影响。** 核对既有S6 formal边`rel-1882`（Cassiano死亡事件）、`rel-1883`（Tempest创作者归属）、`rel-1884`（作品为Cassiano而作但非已证正式委托）、`rel-1885`（Storm passage的Trattato文本依据）、`rel-1886`（Haskell所述Poussin—Cassiano合作）、`rel-1887`（兄弟关系），以及`rel-2493`/`rel-2494`（Testa自尽事件参与者和台伯河地点）。原文锚点及限定支持现有范围；Dughet风景、抽象风尚、portrait identity等未决statement不借这些既有边升级为formal。relations.csv和S6历史裁决未改。
+
+**批次结算。** B287新PASS 70、pending 20、承接既有当前版PASS 10。全库当前PASS 7,767、reviewed pending 1,152、历史映射开放6,586、ID/版本差异待核0、待回映/当前复核0；共15,505条，7,738条尚未PASS。下一历史开放顺序4526。S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b288-order-4526-4625"></a>
+### 2026-11-02 S2当前版逐ID复核 B288（第4章顺序4526–4625）
+
+**历史台账核平。** 100个连续位置中99条为历史开放项，H9622事件、statement/source对象与来源版本、segment及mention集合均精确匹配，99/99无mention delta；另1条（4582）是已修复并当前PASS的p.115脚注statement，因历史statement版本变化而原样承接，不重复判定。H9622事件和原裁决未改。
+
+**逐段裁决。** 复用提交`2273e2743158401b841fb9bc7b7d1332836d400a`第4章独立原文/印刷页图审读，覆盖p.114（物理页25）、p.115（页26）、p.116（页27）；依据[独立审读记录](s2-independent-review-chp1-2-4-20261020.md)第29–31批，逐条核对当前statement、quote、speaker与mention。当前99条均精确对应已审版本，复用原页审读；54条PASS，45条保留原报告逐ID指出的claim范围、未名端点、mention、说话者或引文锚点缺口。未据跨页语境猜定未名作品、职位或群体。
+
+| 顺序/原文段 | 新PASS | pending | 承接旧PASS | 主要待决 |
+|---|---:|---:|---:|---|
+| 4526–4539，印刷p.114 sec_ii L172–178 | 7 | 7 | 0 | 群体/批评家端点、限定范围及两幅画作品组、Tempest创作者角色 |
+| 4540–4584，印刷p.115 sec_ii L180–189及脚注 | 29 | 15 | 1 | 作品/题材边界、家族/祖先与未名群体、绘图先行词和引语speaker |
+| 4585–4625，印刷p.116 sec_ii L191–205 | 18 | 23 | 0 | 未名客户/古迹/新闻群体mentions、肖像与作品组锚点、职位/拒见事件角色、引文范围 |
+| **合计** | **54** | **45** | **1** | **100个连续位置** |
+
+pending逐ID理由已写入[s2-current-review-roster.csv](s2-current-review-roster.csv)：顺序4527、4529、4530、4532、4534、4536、4538、4542、4544、4547、4548、4555、4557、4560、4568、4571–4574、4577、4579–4580、4585、4587–4589、4591–4595、4599–4600、4603、4605、4608、4613–4619、4620、4622。订单4582沿用已修复当前PASS；4623的会面兴趣陈述本身无本行开放发现，报告所指出的`court-meeting-1655`跨页锚点在下一批复核。
+
+**关系与历史裁决影响。** p.115的formal `rel-2099`/`rel-2100`仍仅表达第二幅画的作者与带“must have been”限定的委托推断；`rel-2116 located_at`仍只指Warburg持有摄影副本，不指Capponi Lat. 260原件；`rel-2113`–`rel-2115`脚注引证边不变，`rel-2647 cites`继续pending。p.114、p.116没有新增formal边。未把待证作品组、未名群体、职位或拒绝事件升级为formal；`relations.csv`和S6历史裁决未改。
+
+**批次结算。** B288新PASS 54、pending 45、承接当前PASS 1。全库当前PASS 7,821、reviewed pending 1,197、历史映射开放6,487、版本差异待核0、待回映/当前复核0；共15,505条，7,684条尚未PASS。下一历史开放顺序4626。S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b289-order-4626-4725"></a>
+### 2026-11-02 S2当前版逐ID复核 B289（第4章顺序4626–4725）
+
+**历史台账与mention差异核平。** 100个连续位置含75条历史开放项和25条已有当前版PASS；75条开放项的H9622事件、statement及source版本均精确匹配，历史statement/event未改。p.117有2条mention变更、4条新增；p.118新增主题mention 1条；脚注登记段另新增Phocion mention 1条。逐项交叉当前candidate映射，变更/新增候选均未被这75条开放statement引用；有关王室画像组、早期作品组、继承人组、建筑/绘画组及fertility/sterility主题的statement已是当前PASS，Phocion mention也不属于本批脚注claim。H9622台账未改。
+
+**逐段裁决。** 复用提交`2273e2743158401b841fb9bc7b7d1332836d400a`第4章p.116–119（物理页27–30）及p.99–118脚注段的原文/印刷页图独立审读；逐项核对仍开放的statement、claim、引文锚和候选映射。75条历史开放项中43条PASS、32条依据明确的句法主语、限定、群组mention、对象/职务端点、quote先行项或OCR校正缺口留pending；25条当前PASS原样承接。两条Massimi—Poussin关系陈述本身通过S2：原文确有两处不同措辞，S6保持一条friendship边并以两处作为证据，不推成两个关系阶段。
+
+| 顺序/原文段 | 新PASS | pending | 承接旧PASS | 主要待决 |
+|---|---:|---:|---:|---|
+| 4626–4628，印刷p.116 sec_ii L203–205 | 1 | 2 | 0 | “This”先行项、宫廷会面机会与跨页四幅画受益人映射 |
+| 4629–4665，印刷p.117 sec_ii L208–216 | 14 | 1 | 22 | Massimi图书馆端点类型与晚年访书语境；S6 friendship维持单边双证据 |
+| 4666–4714，印刷p.118 sec_ii L218–227 | 21 | 25 | 3 | 作品组/主题/古迹和赞助人群mention、职务及委托角色、债务对象、题材和引文范围、OCR校正 |
+| 4715–4722，印刷p.119 sec_ii L229–230 | 4 | 4 | 0 | 两项并列论证、引文先行项、句法主语与really/largely限定 |
+| 4723–4725，脚注登记段L233 | 3 | 0 | 0 | 本批未发现新的当前S2问题；Phocion mention不属这些statement |
+| **合计** | **43** | **32** | **25** | **100个连续位置** |
+
+pending逐ID理由已写入[s2-current-review-roster.csv](s2-current-review-roster.csv)：顺序4627–4628、4648、4670–4671、4673–4674、4678–4680、4685–4686、4691、4695–4705、4707、4710–4714、4715–4716、4719、4722。订单4651/4660虽有S6去重交接，S2源句及两个独立文本锚准确，按S2 PASS；关系合并不等于删掉其中一条source statement。
+
+**关系与历史裁决影响。** `rel-1772`–`rel-1776`、`rel-1992`–`rel-1995`保持现有formal范围；`rel-1773 has_subject`的来源题名直接可追，但S2顺序4695因Origin of Coral缺本地mention仍pending，关系裁决不改，待mention锚修复时复查证据联结。`rel-1996 acquired_by`继续pending，不把“may well”升级为已证取得；`rel-2645 friend_of`保持一条formal边并链接两项已PASS的S2证据；`rel-2646 trained_by`继续pending，保留“probably”。本批没有新增或撤销formal边，`relations.csv`及S6历史台账未改。
+
+**批次结算。** B289新PASS 43、pending 32、承接当前PASS 25。全库当前PASS 7,864、reviewed pending 1,229、历史映射开放6,412、版本差异待核0、待回映/当前复核0；共15,505条，7,641条尚未PASS。下一历史开放顺序4726。S2仍未全书独立语义接收。

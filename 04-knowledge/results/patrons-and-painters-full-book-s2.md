@@ -4146,3 +4146,12 @@ S3纯`undecided`候选、纯未决直接关系端点及S4待登记直接关系�
 
 
 **2026-11-02 B286后当前版S2进度：** 连续顺序4326–4425共100条历史开放项，current statement/source/segment/mentions及H9622历史记录100/100精确匹配；68条PASS、32条按逐ID缺口pending。主文范围无对应S6正式边，同页bibliography citation边维持原裁决。全库PASS 7,697、pending 1,132、历史映射开放6,676、版本差异待核0、待回映/当前复核0；7,808/15,505尚未PASS。下一历史开放顺序4426。9,622历史事件/旧裁决未改，S2未全书独立语义接收。详见[B286过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-02-s2-current-review-b286-order-4326-4425)与[逐ID清单](../../03-processing/patrons-and-painters-full-book-s2/process/s2-current-review-roster.csv)。
+
+
+**2026-11-02 B287后当前版S2进度：** 连续顺序4426–4525共100项；90条历史开放项可精确映射当前statement/source，70条PASS、20条按逐ID缺口pending；另10条当前版PASS原样承接。p.113的4条历史mention新增逐项落在已有PASS行，本批开放行未引用新增候选。关系复核涉及`rel-1882`–`rel-1887`及`rel-2493`/`rel-2494`，其source范围/历史裁决未改；未决端点保持待证。全库PASS 7,767、pending 1,152、历史映射开放6,586、版本差异待核0、待回映/当前复核0；7,738/15,505尚未PASS。下一历史开放顺序4526。9,622历史事件和旧裁决未改，S2未全书独立语义接收。详见[B287过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-02-s2-current-review-b287-order-4426-4525)与[逐ID清单](../../03-processing/patrons-and-painters-full-book-s2/process/s2-current-review-roster.csv)。
+
+
+**2026-11-02 B288后当前版S2进度：** 连续顺序4526–4625共100项；99条历史开放项的H9622事件、statement/source映射与mentions 99/99精确匹配，54条复用已完成的独立原文/页图审读后PASS、45条按逐ID缺口pending；另1条已修复的当前版PASS原样承接。`rel-2099`/`rel-2100`、`rel-2113`–`rel-2116`保持原范围，`rel-2647`继续pending；未将未名作品组、群体、职位或事件端点升级为formal。全库当前PASS 7,821、pending 1,197、历史映射开放6,487、版本差异待核0、待回映/当前复核0；7,684/15,505尚未PASS。下一历史开放顺序4626。9,622历史事件与旧裁决未改，S2未全书独立语义接收。详见[B288过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-02-s2-current-review-b288-order-4526-4625)与[逐ID清单](../../03-processing/patrons-and-painters-full-book-s2/process/s2-current-review-roster.csv)。
+
+
+**2026-11-02 B289后当前版S2进度：** 连续顺序4626–4725共100项；75条历史开放项的statement/source版本精确，43条复用独立原文/页图审读后PASS、32条按逐ID缺口pending；另25条既有当前PASS原样承接。p.117、p.118与脚注段的mention变更均交叉核到非本批开放statement，不构成重复复核或隐性补证。`rel-1772`–`rel-1776`、`rel-1992`–`rel-1995`、`rel-2645`保持原裁决；`rel-1996`、`rel-2646`继续pending。全库当前PASS 7,864、pending 1,229、历史映射开放6,412、版本差异待核0、待回映/当前复核0；7,641/15,505尚未PASS。下一历史开放顺序4726。9,622历史事件与旧裁决未改，S2未全书独立语义接收。详见[B289过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-02-s2-current-review-b289-order-4626-4725)与[逐ID清单](../../03-processing/patrons-and-painters-full-book-s2/process/s2-current-review-roster.csv)。
