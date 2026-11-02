@@ -18516,4 +18516,4 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 
 **书目内容与来源边界。** 仅记录Haskell列出的出版物、作者形式和书目导航，不声称已查阅被引作品。p.416的Bracciano交叉索引不合并两个候选，也不产生人物关系；Boschini书目作者归属保持来源限定。p.417将Brugnoli一条所列两篇文章分开，保留集合级/卷级对象差异及Bricarelli排版次序校读。p.418按页图分开S0中粘连的Canova/Cantalamessa条目，作者`See`指向只表示本地书目导航。
 
-**关系裁决影响。** 四项既有formal来源限定作者边均维持原状：`rel-1477` Elena Bassi、`rel-2240` Anthony Blunt、`rel-2243` Angelo Borzelli、`rel-1588` Marco Boschini、`rel-2383` Giuseppe Ceci（其中五条对应statement；本批直接命中为`rel-2240`、`rel-2243`、`rel-1588`、`rel-2383`，`rel-1477`为前批B259已核）。本批不改S3身份、statement、mention或`relations.csv`。全批100条当前PASS；全库PASS 5,778、已审待证699、历史映射开放8,323、待回映/当前复核705；连续顺序剩余705条，从14801开始。9,622历史事件台账不变，S2仍未全书独立语义接收。
+**关系裁决影响。** 本批直接命中的四条既有formal作者边均维持原裁决：`rel-2240` Anthony Blunt、`rel-2243` Angelo Borzelli、`rel-1588` Marco Boschini、`rel-2383` Giuseppe Ceci；四条都只记录Haskell书目所载责任者归属。上一批已核的`rel-1477` Elena Bassi也保持formal，但不计入本批。本批不改S3身份、statement、mention或`relations.csv`。全批100条当前PASS；全库PASS 5,778、已审待证699、历史映射开放8,323、待回映/当前复核705；连续顺序剩余705条，从14801开始。9,622历史事件台账不变，S2仍未全书独立语义接收。
