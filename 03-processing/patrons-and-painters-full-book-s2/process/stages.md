@@ -18464,3 +18464,34 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **来源指纹。** 页图核对使用仓库当前来源PDF；SHA-256：`CHP-16.pdf` `6bfb3e331f0ac2421d31279f97b08b17486f0e2c32451a10a6798cf31424af5f`；`CHP-17.pdf` `fa9c9a4ebc484c481d13b0afb46f96bf94fe0631c65f0b742d0b0b9d9e0b7465`；`CHP-18Conclusion.pdf` `750ba8a4f4e7dc72e032746f7f3b15c3c70ef97a4220491fc3aa250a91ce2e29`；`CHP-19Appendix.pdf` `2a1c29e6c2864527482d231a85c4252e55524b436ae4dff5b0d55d9d5a67a9eb`；`CHP-20Postscript.pdf` `f4c3852b60596ee0116b941ad97c7f2cb79414fe6b6b0388efcebeef538c1788`。原始PDF和S0来源文本未改。
 
 **五批汇总。** B251–B255连续核平500条：逐批当前PASS／历史开放分别为1/99、18/82、11/89、19/81、34/66。442条历史事件全部来源版本匹配，其中417条statement exact继续承接原开放发现，25条statement changed完成当前原页复核；58条无历史事件的当前对象亦均已核读PASS。合计83条当前版PASS，9,622历史事件台账本身未增删；局部PASS不构成全书S2独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b256-order-14301-14400"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B256：第20章后记 pp.398–406，顺序14301–14400
+
+**逐ID结论。** 本批100条均无可复用的9,622历史事件，全部按当前statement直接核读并PASS。13个segment的原文引句100/100可在当前来源文件定位；515条相关mention span逐条校验，偏移错误0。
+
+**原页与语义。** 对照`CHP-20Postscript.pdf` pp.398–406（物理页3–5、10–15）及物理页6–9的图版65a–68b；来源PDF SHA-256为`f4c3852b60596ee0116b941ad97c7f2cb79414fe6b6b0388efcebeef538c1788`。p.398–400的Jesuit/Oratorian论述保留Haskell对Ackerman、Hibbard、Buser、Enggass、Lavin、Casale及Cesi材料的转述、评价和限定；p.401–406关于Cassiano、罗马经济史、Alexander VII、Christina、Mazarin、佛罗伦萨、威尼斯与McSwiny等内容按Haskell的后记记录，不升级为对引用研究或档案的独立验证。p.402跨至p.403的Louis XIV委托画作叙述连续核对。图版核定：65a为Simonelli与Mola合绘讽刺像，65b为Masucci图中Mola绘Alexander VII肖像，66为Franceschini的Fame画作，67为Crespi的Jupiter/Cybele题材，68a为Maggiotto的三位总督肖像，68b为Leonardis据Tiepolo构图的Maecenas场景；不额外识别图版未给出的对象或版本。
+
+**关系与下游影响。** 直接回链的10条既有边（`rel-1451–1453`、`rel-1619`、`rel-2403`、`rel-2501–2502`、`rel-2577–2579`）均为formal，端点、方向、来源范围不变；其中Humphris与Plymouth两件胸像及其版本关系仍分开记录。未改statement、mention、候选、relations.csv或9,622事件台账；本批局部PASS不构成全书S2独立接收。
+
+<a id="2026-11-02-s2-current-review-b257-order-14401-14500"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B257：第20章后记 pp.396–410，顺序14401–14500
+
+**逐ID结论。** 本批100条全部不在9,622历史台账中，当前statement直接核读PASS。正文及短引注分布于6个segment；100/100原文引句回链当前来源文件，442条当前mention span逐条校验，偏移错误0。p.396–401的引注页图沿用B255–B256已核对的同一来源PDF页图，不重复生成或重审；本批新增阅读p.407–410。
+
+**原页与语义。** `CHP-20Postscript.pdf` pp.396–410（物理页1–5、10–19；SHA-256 `f4c3852b60596ee0116b941ad97c7f2cb79414fe6b6b0388efcebeef538c1788`）支持Haskell对Consul Smith、Schulenburg、Venetian Enlightenment、Algarotti与Tiepolo作品、Zanetti、Maggiotto、Della Lena及Manfrin的后记叙述。只保存作者对既有研究、来源与归属的报告，保留“may”“almost certainly”“perhaps”等限定，不把引注当作查阅被引文献或档案的证据。p.406接续“second collection”假说；p.409–410区分两幅遗赠画作、柏林草图与威尼斯教堂大画，以及《Algarotti墓像》的地点／收藏叙述；p.410继续说明Sasso、Della Lena和Manfrin的近年研究。
+
+**关系与待证状态。** 16条相关裁决中13条formal、3条pending。`rel-2296 derived_from`继续pending（原文虽称柏林草图“almost certainly”对应S. Alvise大画，仍不升级边）；`rel-2297 created_by`与`rel-2641 hosted_by`也继续pending，端点／事件范围未获充分识别。其余13条formal原端点、谓词与范围保持不变。未修改S3身份、候选或relations.csv；本批不改变9,622历史记录。
+
+
+<a id="2026-11-02-s2-current-review-b258-order-14501-14600"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B258：第20章注释 p.401–410、第21章书目，顺序14501–14600
+
+**逐ID结论与证据复用。** 100条均无9,622历史事件。第20章注释88条复用已完成的逐页S2处理记录及同版页图校读（`stages.md` 中2026-10-04印刷p.401–410记录）；其current statement、原文引句与现行来源段均核平，不重复翻页。第21章书目12条对照p.24、p.412页图，逐项检查书目范围、按地点编排的馆藏名录、`Published Materials`标题及前九条书目。全批100/100引句在当前S0段定位；3个segment共288条mention span逐条切片，偏移错误0。
+
+**语义与原页校读。** 注释条目只记录Haskell的引用定位；出版物题名、版本和作者全名不足处仍留待书目或S3，不表示已查阅被引文献。p.24说明该书目有选择性并列出手稿馆藏；馆藏按地点编排的段落不被扩张为每一处皆对应独立、具体手稿的持有断言。p.412的`Published Materials`标题、Ackerman页码`326–336`及Aikema刊名校读与既有statement记录一致。新增两项可追溯校读：Ademollo项末尾印本短横线（S0 OCR作逗号），Alazard题名印作`L’Abbé`（S0 OCR漏重音）；仅补入statement的`page_image_ocr_corrections`，保留原始S0引句。`CHP-20Postscript.pdf` SHA-256 `f4c3852b60596ee0116b941ad97c7f2cb79414fe6b6b0388efcebeef538c1788`；`CHP-21Bibliography.pdf` SHA-256 `1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`。
+
+**关系与下游影响。** 唯一直接关系候选statement `st-chp20-p408-n07-citation` 对应`rel-2637 cites`，维持formal；其余引用mention不据共现扩展关系。候选身份、S3决定、S6裁决与9,622历史台账未改。全批100条当前PASS；全库15,505条statement状态更新为PASS 5,578、已审待证699、历史精确映射但开放发现8,323、待回映/当前复核905。连续顺序剩余905条，从14601开始。局部PASS不构成全书S2独立语义接收。
