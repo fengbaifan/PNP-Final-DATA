@@ -17345,3 +17345,13 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **独立当前版核对。** B001覆盖第二章S0 L118–145的100条current statement；记录确认mention/端点修订后100/100由独立审阅者回核通过、181条mention span核对通过。B130的79条重叠项均落在B001范围，来源匹配，review_evidence_ref一致。初始roster快照与当前statement hash不同的两条（1741、1790）亦由B001明记：Carlo纪念碑评价移除前句尾项cand-4511、cand-1465；Urban dynastic motive fragment补入教堂候选cand-4521；修订后当前版已纳入100/100独立PASS。因此本批复用的是已覆盖当前修订的B001结论，不按较早snapshot hash误判为未审。B001还确认不改变S3决定或KU，且已逐项核对受影响S6边及mention候选范围。
 
 **批后状态。** 本批不新增PASS，也不更改S3、KU、S6或历史9,622事件；21条历史开放发现保持开放，79条既有独立PASS沿用。全库仍为15,505条statement、27,302条mention、12,448个candidate。roster互斥状态保持：当前PASS 5,133、已审待证700、历史映射开放8,323、版本差异待核73、待回映／当前复核1,276；未获当前PASS 10,372，当前路由未结1,349（含版本差异73）。下一批从1801开始；S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b131-ch2-sec-ii-1801-1900"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B131：第二章第二节，顺序1801–1900
+
+**当前ID/版本核平。** 本批连续100条均已有current PASS，不重复阅读、不覆盖原review_batch_id：1801–1821共21条沿用B001记录，1822–1900共79条沿用B002记录。100条current statement hash均与当前roster快照一致，来源匹配均为true。9,622历史事件各1条；其中82条旧statement精确匹配、18条旧statement对象不同，历史mentions则分别有21条共享段L141–145差异及79条共享段L147–193差异。当前审读依据已分别映射至B001/B002，而不把旧版本“exact”或“changed”标签单独当作当前PASS依据。
+
+**现有审读覆盖核对。** B001独立复核范围为S0 L118–145的100条statement；此批重叠的21条已由B001修订后100/100独立PASS覆盖，181条mention跨度及端点修订均在过程记录中核对。B002覆盖S0 L147–193的85条statement；此批79条均有B002 current PASS记录。共享mention m-chp2-secii-l147-193-0057的历史差异就是Incisa引文备注更新：标题由Haskell书目p.426识别，原文章未独立查阅；变更已在B002记录中复核。当前statement哈希与roster快照一致，S3/S4映射和rel-2151 cites均未变。
+
+**批后状态。** 本批只核平并复用已有当前版结果；不改statement、mention、候选、对齐、KU、relations.csv或历史9,622事件。全库roster状态保持：当前PASS 5,133、已审待证700、历史映射开放8,323、版本差异待核73、待回映／当前复核1,276；未获当前PASS 10,372，当前路由未结1,349（含版本差异73）。下一批从1901开始；S2仍未全书独立语义接收。
