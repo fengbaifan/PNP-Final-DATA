@@ -16496,3 +16496,13 @@ p.240的指示词“this”仍不识别具体作品，Mehus之子未具名；引
 **mention差异及关系影响。** 历史segment mention哈希`644b9956513d1308253a1dddf64cb5716e1bf5283d589ff69b74133cb921d592`到当前`edc8876ee4c1e0c3a8c7d1d04510bcbeaba203af7d4b5732db3e0270255f7ac5`仅新增`m-chp9-p255-contarini-reception-fresco`；其跨度在S0 L153逐字匹配，不属L149美德statement。该candidate `cand-8367`已按跨章S3决定映射同一壁画KU；`rel-2041 created_by`继续formal，脚注定位`rel-2044 located_at`继续pending。美德边`rel-1455`仍只限Faith/Hope/Charity，Wisdom的独立边`rel-1457`保持不变。未改候选、对齐、KU或relations.csv。
 
 **批后状态与检查。** 本批100条全部完成路由：1条当前版本PASS、97条精确复用开放发现、2条精确statement/source复用且完成新增mention无关性核对；无新增pending。原书PDF SHA-256=`8d0adc954f824fa5c6f202571e03a6eb8475dd4125c91c41f79204a445b961ec`；当前S0 segment `l148-155`的63条mention span逐条切片核对，错误0。当前statement/mention总数15,505/27,285。roster互斥状态：当前PASS 2,842；已审待证696；历史映射但保留开放发现8,323；当前版本差异待核98；待历史/既有审读回映或当前复核3,546；未获当前PASS 12,663。下一批从顺序9826开始。9,622历史事件账本不增删改写；S2仍未独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b083-ch9-p255-p258"></a>
+### 2026-11-02 S2当前版本逐ID复核 B083：第9章引言p.255–258，顺序9826–9925
+
+**历史裁决与mention差异。** 顺序9826–9925共100条，ID唯一。99条有9,622历史事件，来源版本均匹配：77条当前statement、source segment与mention集合完全一致，复用旧直接阅读并保留开放发现；21条statement/source版本精确匹配，但历史segment mention差异均为同一新增`m-chp9-p255-contarini-reception-fresco`。逐行检查这21条的`mentioned_candidate_ids`，只有`st-chp9-p255-tiepolo-contarini-henri-welcome`直接包含该candidate，另20条不受该mention语义影响；新增跨度在当前S0 L153精确切片匹配。该作品候选`cand-8367`的S3决定与第14章候选同映射`units/works/tiepolo-reception-henri-iii-contarini-fresco`；既有`rel-2041 created_by` formal共用两章证据，短注定位`rel-2044 located_at`继续pending。本批不重读其余精确版本条目，不清除任何历史开放发现。
+
+**当前版原页复核。** 无历史事件的9827 `st-chp9-p255-wisdom-around-virgin`对照S0 L149及`CHP-9.pdf`物理第17页（印本p.255）：当前quote包含原句，claim将Wisdom明确记录为前三项之后另列的对象；`cand-8340`是本图像语境候选，不泛化为神学教义。既有`rel-1457`保持独立；`rel-1455`仍只覆盖Faith、Hope、Charity。另对9924 `st-chp9-p258-marco-held-doge-office`复核S0 L186及PDF物理第20页（印本p.258）。当前statement相较历史版只增加已存在S6裁决的说明；原文支持“1763年去世前数月任Doge”，不提供精确起止日期。`rel-2369 held_office`已为formal，时间范围及第259页任职方式疑点均未扩大。当前statement变化不改写旧event。
+
+**批次去向与交接。** 本批100条全部有去向：2条当前版本PASS（9827无历史事件、9924现版元数据变更后复核）；98条复用历史阅读并保留开放发现，其中77条完全精确、21条记录同一segment mention增量的逐ID归属核查。segment `chp-9:09_CHP-9_intro:l148-155`现有63条mention，span逐项匹配错误0；PDF SHA-256=`8d0adc954f824fa5c6f202571e03a6eb8475dd4125c91c41f79204a445b961ec`。未修改relation、alignment、KU、S5字段或9,622事件台账。当前15,505条statement、27,285条mention；roster互斥状态：PASS 2,844、已审待证696、历史映射但保留开放发现8,323、版本差异待核97、待历史/既有审读回映或当前复核3,545；未获当前PASS 12,661。下一批从9926开始；S2仍未独立语义接收。
