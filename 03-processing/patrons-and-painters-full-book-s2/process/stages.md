@@ -16805,3 +16805,34 @@ p.317开篇句按原语气记录“Venice似乎未变而欧洲已变”；印本
 **关系与影响检查。** `relations.csv`没有以本批100个statement ID或p.317–321原文范围为证据的S6边；未新增或改动formal、pending或rejected裁决。相关statement的关系候选标记按当前对象保留，不据此自动造边。Muratori候选既有跨章身份决定保持不变。本批原文中未具名思想者及未具名群体仍按原文粒度记录，不为形成关系而补造端点。关系一致性审计阻断0。
 
 **批后状态。** B101的100/100条均记为`reviewed_current_pass`：79条精确复用旧页语义审读，21条变化/新增对象完成当前原文重核；本批9,622历史事件0条。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态为当前PASS 4,094、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核2,306。未获当前PASS为11,411；尚待当前路由2,392（2,306条待回映/复核＋86条版本差异）。S2仍未全书独立语义接收。下一批从顺序11726开始。
+
+
+<a id="2026-11-02-s2-current-review-b102-ch10-p321-p325"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B102：第十章印刷页321–325，顺序11726–11825
+
+**历史核平与版本复用。** 本批100条连续statement的`history_9622_event_count`均为0；不属于9,622条历史复核事件，历史总账不变。逐ID将当前完整statement JSON对象与`d7adabfb`快照比较：88条完整对象一致，复用相应页级语义审读；12条同ID对象变化，全部按当前文本、限定与注释链接直接重核；无快照后新增statement。页级审读复用不替代当前ID/版本核对，也不等于独立全书接收。
+
+`CHP-10.pdf` SHA-256=`c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`；当前S0 `10_CHP-10_sec_ii.md` SHA-256=`25542734fde53358cde0a489f1c62ff3f021f32d68be733162b406d4d8a229f9`。五个连续源段覆盖本批100条及184条mention：
+
+| 当前规范源段 | statement | mention | 源段SHA-256 |
+|---|---:|---:|---|
+| `10_CHP-10_sec_ii:l165-173` | 23 | 41 | `2c5d35a670267696a93aa11f9c12a5d3baf3edc64196ffc240d530413bddc06c` |
+| `10_CHP-10_sec_ii:l175-184` | 39 | 61 | `3b47bcb64e4f5e59b60c3630f772b20315f83009b796cae57f77fca0ad7acf39` |
+| `10_CHP-10_sec_ii:l186-192` | 20 | 32 | `caba0a273883e9e3976c43c07c3dabf09911993c64e1461e55158cb98f394373` |
+| `10_CHP-10_sec_ii:l194-201` | 15 | 16 | `58fa86f2a310798b12cbde3a41cced09846465c9897299a94684f8544f040fa8` |
+| `10_CHP-10_sec_ii:l203-208` | 3 | 34 | `16e22c3f4e71979566b340ab472f5e56f67b2e3a0397bca82fa54ab3def9e5a6` |
+
+**逐项语义判断。** 88条完整对象复用2026-10-03页321–325的原页语义记录（本文件`#L4440`、`#L4454`、`#L4462`、`#L4470`、`#L4478`）；重核当前S0、statement引句、源段指纹与mention跨度。12条当前对象的变化均可追溯到当前限定或标记：
+
+- p.321五条：`st-chp10-p321-critics-regarded-lodoli-as-impudent-impostor`、`st-chp10-p321-lodoli-modified-order-monastery-on-one-occasion`、`st-chp10-p321-unnamed-writer-complained-of-lodoli-overwhelming-manner`、`st-chp10-p321-gozzi-quoted-on-building-for-passers-by`、`st-chp10-p321-lodoli-originally-welcomed-algarotti-interest-fragment`的脚注由“待核”改为已转录/链接。仍分别保留未具名评论者/写信人、出处引用层级、印本“live”与OCR“five”校读，以及“intention had been friendly”的指代边界；引文中的“indigestion”仍是比喻，不把所引信件或书页说成已独立查阅。
+- p.322两条：`st-chp10-p322-lodoli-gallery-didactic-art-history-sequence`脚注状态更新；仍保留印本第322页（OCR误作`[Page 22]`）与`Le.`应读`i.e.`的图像校读，且本馆藏候选不与Facciolati馆藏并为同一对象。`st-chp10-p322-sonnet-satirised-lodoli-and-algarotti`将脚注更新为已转录，同时保留无名十四行诗的归因范围。
+- p.323三条：`st-chp10-p323-goldoni-hails-longhi-seeker-of-truth-1750`、`st-chp10-p323-goldoni-praises-longhi-representation-1757`、`st-chp10-p323-opponents-accuse-goldoni`的限定更新为脚注已转录/链接；仍只是Haskell对Goldoni赞语和对手指责的转述，Goldoni文本、信件与Melchiori出版物未独立查阅。
+- p.324一条：`st-chp10-p324-gozzi-praised-longhi-realism`注2已转录；仍是Gozzi被引观点，不推广为Longhi从未画过想象人物。
+- p.325一条：`st-chp10-p325-gian-domenico-most-influenced-by-social-ideas`将缺省的`relation_candidate`明确置为false；原文的“most influenced”仍是Haskell对本段所论艺术家的比较判断，不因此建立形式关系。
+
+第十章p.314–324注文状态修订的既有交接见本文件`#L7485`；对本批涉及的注释，只确认转录与脚注回链，不把它升级为独立核读所引文献。源文件中的`[Page 22]`等OCR页码异常按已复核的印本页保留在S2校读中，不改写S0。
+
+**关系与影响检查。** 本批statement ID直接对应的现行S6边为`rel-2540`（Moscheni委托Longhi绘制Lodoli肖像）和`rel-2544`（Lodoli肖像画另行制成版画），均维持formal；端点、关系方向、来源范围和“不推定日期/版次/刻工”的限定与当前正文相符。没有相应pending或rejected裁决，也未改relations表。其他p.323注文边不引用本批正文statement。关系一致性审计阻断0。
+
+**批后状态。** B102的100/100条均记为`reviewed_current_pass`：88条复用精确旧页语义审读，12条变化对象按当前文本重核；本批9,622历史事件0条。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态为当前PASS 4,194、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核2,206。未获当前PASS为11,311；尚待当前路由2,292（2,206条待回映/复核＋86条版本差异）。S2仍未全书独立语义接收。下一批从顺序11826开始。
