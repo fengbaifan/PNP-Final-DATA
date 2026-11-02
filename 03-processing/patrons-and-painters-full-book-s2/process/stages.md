@@ -16894,3 +16894,30 @@ p.317开篇句按原语气记录“Venice似乎未变而欧洲已变”；印本
 **关系与影响检查。** 直接关联当前statement的三条现存边已逐项回查：`rel-2309`继续pending（Haskell按Pignatti所报Schulenburg肖像位置；未核当前馆藏，且`located_at`位置语义仍需拆分）；`rel-2619`与`rel-2620`继续formal，仅记录Haskell对Zimmermann与Constable文献的引用，不声称已阅读引用材料。端点、方向、范围及裁决均未改变；无rejected边变化。relations表未改。关系一致性审计阻断0。
 
 本批除逐ID roster复核字段外未修改statement、mention、candidate或alignment表；S3身份决定不重裁。**批后状态。** B104的100/100条均记为`reviewed_current_pass`：40条精确复用既有页/注释语义审读，60条变化/新增对象按当前原文重核（41条变化、19条新增）；本批9,622历史事件0条。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态为当前PASS 4,394、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核2,006。未获当前PASS为11,111；尚待当前路由2,092（2,006条待回映/复核＋86条版本差异）。S2仍未全书独立语义接收。下一批从顺序12026开始。
+
+<a id="2026-11-02-s2-current-review-b105-ch10-notes-p316-p330-ch13-p332"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B105：第十章注释p.316–330及第十三章p.332开篇，顺序12026–12125
+
+**历史核平与版本复用。** 本批100条连续statement与`d7adabfb`完整对象快照比较：30条对象完全一致、57条同ID对象变化、13条为快照后新增。30条精确对象复用既有页级审读，并逐项复核当前ID、原文引句、来源段和mention映射；按页回引`stages.md#L4566`（p.317）、`#L4571`（p.318）、`#L4577`（p.319）、`#L4587`（p.320–323）及`#L4478`（p.324注释）。
+
+57条变化中有19条恰与9,622事件账本中的19条历史直接审读相同：每条对应一个事件，statement hash、来源资产与来源段hash、mention hash均与当前相同，mention delta为空，来源版本匹配。历史证据可以复用，但原裁决为“直接读审且有开放发现”，故19条仍记`prior_review_mapped_open`，不提升为当前PASS。其余38条变化及13条新增共51条逐项对照当前S0和statement直接复核。旧对象`H9622-05790`已由既有记录判为撤换，并拆分到`st-chp13-p332-copyright-effects-on-local-books`与`st-chp13-p332-luxury-export-editions-gained`；这两条新statement不继承旧对象审读，分别在本批直接复核。
+
+**来源、提及与版本。** `CHP-10.pdf` SHA-256=`c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`；`10_CHP-10_sec_ii.md` SHA-256=`25542734fde53358cde0a489f1c62ff3f021f32d68be733162b406d4d8a229f9`。`CHP-13.pdf` SHA-256=`da49addcf425e7473770ba02db64284d1189934cf38f2b773f0672f052fca2bc`；`13_CHP-13_intro.md` SHA-256=`c0b93d35aab60ec8261eb14db1e2f1b4d9ec7cae9709e19f236ccddbd12996a8`。
+
+| 当前规范源段 | statement | segment mentions | segment SHA-256 | mention-set SHA-256 |
+|---|---:|---:|---|---|
+| `10_CHP-10_sec_ii:l273-349` | 79 | 258 | `1308aba246107e6a7b237b1eb55c37538d11de95f6bb5aa150dd92ef734d6028` | `d10fa4c6af213e563e57470b352bc9977d25beef3aee6781c1b18782c86b6a44` |
+| `13_CHP-13_intro:l3-12` | 21 | 37 | `4cb7f9b50a34c56c7bb54ca05225995edd17514904ca972c835fdb4749130add` | `2ddeeec80f527021547660d2fe935284d25e5831fa8f9707a8ea2c654b27ae0a` |
+
+逐项对照本批100条当前statement原句与对应S0行，所有`original_quote`均能在其声明来源行范围内找到；全部statement hash与roster当前hash相符。10章p.316–330页图与脚注范围沿用并精确指向既有印本核读记录；p.332物理页1的跨行首字母、`Venice;`等OCR校读沿用对应S2校读字段，不改S0原始转录。19条历史映射的当前来源与mention无delta；该事实不消除其开放发现。
+
+**逐项语义判断。** p.316注4将“these paintings”限定到前述Nogari四幅教育寓意画及其他启迪题材的画组，不指认照片对应的单件作品。p.317–318注释仅登记Hazard、Maugain、Natali、Pierantoni、Brol、Robertson与Moncallero等书目定位；不补未给出的书名、页码或作者身份，也不将被引书刊说成已读。p.319注2–4按Conti经Haskell转引处理：保留未具名德国画家、Leonardo手稿的转述、Newtonian色彩理论的历史表述及“若属实/或许”的条件，不作外部核实或身份猜测；camera ottica、Canaletto透视点和视觉效果分开记录。
+
+p.320–325注释区分文献定位、被引观点和Haskell的评论。保留“his Prose e Poesie”作者指代未定；Correr手稿号为定位，不代表已查手稿。p.322注称Longhi肖像在威尼斯Accademia，与Plate 48c所给Museo Correr存在来源内部位置冲突；当前statement只忠实记录该注的报告，机构/肖像身份仍待解决。p.323注5的Paoletti注释依既有物理页核读跨L322及同页续文L192闭合；注7的期刊号按印本No.55记录，S0 OCR No.35仍保留并在S2校读字段说明。p.324–327注释中的Goldoni、Gozzi、Pisani、Balbi、Zannandreis与Moschini材料均按Haskell转引/书目定位表达；未将引文等同于独立查阅，未具名文献及未完成书名保持原限。
+
+p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印记、Zanetti与Biffi书信定位、Venturi及期刊引文、Sagredo所引1772年报告、Memmo附录与画家C.的Canaletto假说、Vasari《Life》及教廷使节报告。引文或档案均未独立查阅；书内校读字段分别保留p.289r、`riforme`、`Life`等印本读法。p.332中19条statement完全复用原历史直接阅读并保留开放发现；新拆分的两项版权结果只记录本地市场书籍质量下降与面向英、法、德业余读者的奢华版获益，不把两项结果并成单一端点，也不将后者提升为版权垄断造成的因果事实。
+
+**关系与裁决影响。** 直接关联的9条formal边保持不变：`rel-1293`、`rel-1472`–`rel-1475`、`rel-2212`–`rel-2213`、`rel-2416`–`rel-2417`；`rel-2650`继续pending。没有本批对应的rejected边，也未改`relations.csv`。formal关系仅按其原书书目或正文证据范围确认，未因脚注转录而宣称阅读被引材料。S3候选决定未重裁；未名人物、文献版本、肖像所在地及新版权结果均不强补端点。
+
+**批后状态与定向检查。** B105的81条`needs_crosswalk`均完成当前复核PASS：30条精确复用旧页审读，51条变化/新增直接核读（38条变化、13条新增）；19条历史精确匹配继续开放。历史事件总数仍为9,622。本批未改statement、mention、candidate、alignment或relation表，仅更新逐ID roster与本记录。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态为当前PASS 4,475、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核1,925。未获当前PASS 11,030；当前路由剩余2,011（1,925待回映/当前复核＋86版本差异）。下一连续顺序为12126；顺序12126–15505共3,380条，其中历史映射开放2,023、待回映/复核1,280、版本差异待核77。S2仍未全书独立语义接收。
