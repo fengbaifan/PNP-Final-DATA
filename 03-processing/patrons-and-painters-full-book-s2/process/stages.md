@@ -20973,3 +20973,22 @@ All 296 exact historical statements remain pending and retain the historical ope
 **Relation and decision impact.** Seventeen `relations.csv` rows cite statements in this range; all remain formal (rel-1318, rel-1327, rel-1328, rel-1756, rel-1757, rel-1758, rel-2041, rel-2042, rel-2043, rel-2069, rel-2070, rel-2071, rel-2072, rel-2298, rel-2299, rel-2558, rel-2651). Endpoints, predicates, scope, evidence, and S6 dispositions are unchanged. No statement, mention, candidate, alignment, KU, history-ledger, or relation data row was modified.
 
 **Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 13,058/15,512; next order 13,059, with 2,454 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.
+
+<a id="2026-11-03-s2-current-review-stage-b547-b549-order-13059-13358"></a>
+
+### 2026-11-03 S2 current-version ID reconciliation stage B547–B549 (orders 13059–13358)
+
+**Current review and historical-event reconciliation.** This continuous span covers 146 Chapter 14 statements and 154 Chapter 15 statements. Current status is 293 `reviewed_current_pending` and seven `reviewed_current_pass`; statement, source asset, S0 segment, and mention fingerprints pass 300/300. The 300 rows contain 301 prior evidence targets because one row carries two semicolon-separated anchors; both resolve. The 294 H9622 event and history-evidence references resolve to matching statement IDs, with source versions matching 294/294.
+
+| Batch | Current order | PASS reused | Pending retained | H9622 events | Exact / changed | Source match | Prior evidence refs |
+|---|---:|---:|---:|---:|---:|---:|---|
+| B547 | 13059–13158 | 4 | 96 | 97 | 96 / 1 | 97/97 | B373: 73; B374: 23; independent p.349 follow-up: 1; independent p.353–355: 4 |
+| B548 | 13159–13258 | 0 | 100 | 100 | 100 / 0 | 100/100 | B374: 74; B375: 26 |
+| B549 | 13259–13358 | 3 | 97 | 97 | 97 / 0 | 97/97 | B245: 3; B375: 71; B376: 26 |
+| **Stage total** | **13059–13358** | **7** | **293** | **294** | **293 / 1** | **294/294** | **B245: 3; B373: 73; B374: 97; B375: 97; B376: 26; independent p.349 follow-up: 1; independent p.353–355: 4** |
+
+The 293 exact historical statements remain pending and retain the historical open finding. One changed H9622 event (`H9622-06452`, `st-chp14-p349-note3-albrizzi-issue`) maps to a current PASS supported by both the 2026-10-31 p.349 follow-up and 2026-11-01 p.353–355 independent review anchors. Its historical hash remains changed. Six additional current PASS rows have no reconstructed H9622 event. The 294 historical outcomes and all event hashes remain unchanged.
+
+**Relation and decision impact.** Forty-nine `relations.csv` rows cite statements in this interval: 48 formal (rel-1287, rel-1313, rel-1314, rel-1315, rel-1316, rel-1317, rel-1318, rel-1321, rel-1322, rel-1323, rel-1324, rel-1325, rel-1326, rel-1329, rel-1330, rel-1364, rel-1488, rel-1489, rel-1538, rel-1540, rel-1541, rel-1649, rel-1713, rel-1714, rel-1715, rel-1716, rel-1717, rel-1718, rel-1719, rel-1720, rel-1721, rel-1722, rel-1759, rel-1760, rel-1761, rel-1762, rel-1973, rel-1974, rel-1975, rel-1976, rel-1977, rel-1978, rel-2073, rel-2300, rel-2301, rel-2374, rel-2375, rel-2376) and one pending (`rel-1539`). All endpoints, predicates, scope, evidence, and S6 decisions remain unchanged; `rel-1539` remains pending. No relation row was modified.
+
+**Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 13,358/15,512; next order 13,359, with 2,154 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.
