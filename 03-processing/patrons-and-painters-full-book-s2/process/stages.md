@@ -16672,3 +16672,17 @@ p.283 L151–165保留Johann Wilhelm对荷兰艺术的收藏、Van Dyck/Rubens�
 复核p.305页图既有S2校读：S0 `contemporary Use`、`slum Use`读作印本`life`；p.306 `charactèristic`读作`characteristic`。只保留于S2校读说明，未改S0或`original_quote`。本批100条statement的原文引句均在所属规范段内可定位；8段共342条当前mention逐条按当前S0切片复核，跨度错误0。按本批statement源行扫描当前候选规范名并与mention位置交叉核对，没有发现需补登记的精确名称提及；既有同名、类型和范围边界均沿用原裁决。未改statement、mention、candidate、alignment或9,622事件账本。
 
 **关系影响与批后状态。** 复核正式边`rel-1482`–`rel-1485`（Smith住所、Palazzo Balbi及Mogliano乡间宅邸），`rel-1565`–`rel-1566`（James Adam书信作者/收件人）与跨章佐证`rel-2052`（Sebastiano Ricci受都灵宫廷聘用）；端点、谓词、证据范围和历史裁决均不变。关系一致性审计阻断0。B095的100条均记为`reviewed_current_pass`。全库仍为15,505条statement、27,302条mention、12,448个candidate；roster互斥状态：当前PASS 3,494、已审待证696、历史映射但开放发现8,323、版本差异待核86、待历史/既有审读回映或当前复核2,906；未获当前PASS 12,011，尚待当前路由2,992；另有9,019条已审待证或承接历史开放发现。9,622历史事件总账不变，S2仍未独立语义接收。下一批从11126开始。
+
+<a id="2026-11-02-s2-current-review-b096-ch10-p306-p310-notes-p276-p277"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B096：第10章印刷页306–310及合并注文页276–277，顺序11126–11225
+
+**历史映射、快照与复用审读。** 本批100条连续当前statement的`history_9622_event_count`均为0；旧映射99条为`current_object_differs`、1条为`no_exact_review_mapping`，9,622历史事件总账不增不改。100条statement当前完整对象哈希与批次快照相同；6个规范段、同版S0来源资产、段级mention数量/指纹均一致。原始`CHP-10.pdf` SHA-256=`c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`，OCR `10_CHP-10_intro.md` SHA-256=`f912dba9e5c8460538222c57d32c3734d0c23c72cb32a0871b50b6901ce9e27f`。复用2026-10-02 p.306–310正文页图与逐句语义审读，以及合并注文p.276注1–3、p.277注1–5的逐页迁移/扫描核读；PDF、S0和规范段哈希相同，因此不重做已完成审读。本次复用结论逐条落到当前ID和版本；不将页面审读冒充9,622事件级复核或全书独立接收。
+
+顺序覆盖：p.306 8条；p.307 19条；p.308 16条；p.309 27条；p.310 18条；p.276–277注文12条，共100/100。规范段哈希：p.306 `l435–443` `bcb35c916a114107fcee2fc774eb7c946773e3202b6f2265207b1fd083471a8a`；p.307 `l445–454` `4941112223789a8e74bbf03bc5c027206d44d3f9ad78bbbd28c1f27666185f23`；p.308 `l456–466` `64cd99d39303a5fd6feebb08c5dd19b6bdbe48df72d80357b3c5995c30494964`；p.309 `l468–479` `f94d7f83181d838df32049848707d735907115f01dde74e89dac6de11d635dac`；p.310 `l481–489` `1b5b051796bbac3725681b091cb6e82a00f22381d0f651f934a9ccbd590f66b7`；注文源段`l491–634` `33d2557d3e681434a9c964316a7a24fe2c00faa934add1381c12fc4d8a7c7f76`（本批只复核其中L492–499对应的12条statement）。
+
+**语义限定与当前span。** p.306 Breval所见雕像在p.306/p.307分别称“seemingly an Aesculapio”与Priapus，身份保持未定；Zanetti对宝石作者、报酬、质量和真实性的批评按引述来源保留。p.307 Vermeer从Pellegrini遗孀处取得是Haskell的“almost certainly”推测，后文另有条件句；把Mieris归属保留为历史归属，Canaletto受Vermeer影响的说法继续有争议。Canaletto第二次罗马之行及Smith同行的模态仍为“quite possibly / perhaps”。p.308 Algarotti或Pannini影响说法并列待证；题名与“13 Door Pieces”系列按跨页正文闭合后的书内表达记录。p.309 Tiepolo委托、Zais雇用与Visentini代词所指宫殿等未明对象不补猜；Canaletto画组、建筑作者数量和收藏去向依原文分组。p.310将1756年因战争中断的王室谈判与1762年实际售藏分开；售后仍挂墙的收藏不推定在具体住所。p.276–277注释的馆藏地点只记作Haskell当时所报，三位使节身份不全、不得推定为委托人；被引书页和文章未独立核读。已记录的S2图像校读（如`theWermeer`、`Carità`、`sopragli`及p.310若干OCR误识）只作S2校读，未改S0或`original_quote`。
+
+100条原文引句均可在各自规范段内按空白规范化定位；覆盖6段的884条当前mention均逐项按当前S0切片，跨度错误0；statement哈希、来源资产/段哈希及mention指纹错误0。页面审读中已登记的候选、作品分组与限定沿用；本批未新增或更改statement、mention、candidate、alignment或历史事件记录。
+
+**关系影响与批后状态。** 回查与本批statement直接相关的正式/待证边：`rel-1526`、`rel-1527`（Vermeer作品位置和取得）、待证`rel-1528`（历史归属，不作现作者认定）、`rel-1530`、`rel-1536`、`rel-1537`（p.277注5画作作者/书内所报地点）、`rel-1841`（1762售藏事件参与者）、`rel-2137`（Manchester入城画地点）及`rel-2224`（Zanetti信件馆藏定位）；端点、谓词、证据范围和裁决均未受影响。关系一致性审计阻断0。B096的100条均记为`reviewed_current_pass`。全库仍为15,505条statement、27,302条mention、12,448个candidate；roster互斥状态：当前PASS 3,594、已审待证696、历史映射但开放发现8,323、版本差异待核86、待回映或当前复核2,806；未获当前PASS 11,911，尚待当前路由2,892；另有9,019条已审待证或承接历史开放发现。9,622历史事件已核平；S2仍未独立语义接收。下一批从11226开始。
