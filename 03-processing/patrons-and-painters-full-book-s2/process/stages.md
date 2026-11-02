@@ -18359,3 +18359,54 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **原页核读与OCR判断。** `CHP-15.pdf`物理页2页眉可见印为362（PDF SHA-256 357e830cc4e880909edd62975bfcd06ade1c2b432d8866229831025fe86f2885）；正文原文：“A convex bay in the centre projects from the main block, which is joined by lower two-storey wings to small, square pavilions at each end.” 对应S0第24行和4条精确mention：`The villa` [2712,2721)、`main block` [2922,2932)、`lower two-storey wings` [2953,2975)、`small, square pavilions` [2979,3002)。S0第16行的`[Page 302]`为页眉OCR误读；扫描页为362，故既有`printed_page=362`与关系来源p.362正确，撤回误判，不改写不可变的S0转录。
 
 **关系与历史影响。** `rel-1714`、`rel-1715`、`rel-1716`的part_of方向、端点、formal状态和p.362 L24来源均与原页相符；不改关系或S3/S4身份决定。三条新statement不属于可映射的9,622历史事件；其余97条旧审读及48条mention差异记录原样保留。statement、mention、relations.csv与历史事件台账均未写回；本批局部PASS不代表全书S2独立接收。
+
+
+<a id="2026-11-02-s2-current-review-b246-order-13301-13400"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B246：第15章 p.365，顺序13301–13400
+
+**逐ID回链。** 本批100条均对应9,622历史事件，来源版本100/100匹配；statement为89条exact、11条changed。p.365同一segment mention差异组重复于30条历史行：改映4、删除4、新增1。11条changed statement完成当前原页复核并PASS；89条历史开放发现照旧保留。
+
+**原页与指代核验。** `CHP-15.pdf`物理页5（打印页365；SHA-256 `357e830cc4e880909edd62975bfcd06ade1c2b432d8866229831025fe86f2885`）核对本段11条引文、claim与当前mention；来源引句均可定位，相关50条mention字符跨度逐条精确。原页印作“series”及“Cerato”，对应当前S2 qualifier中的`series`/`Cerato`校读；S0原转录保持不变。p.365“the scheme/a scries of statues/a plan/eighty-eight statues”相关mention继续区分广义规划与独立雕像项目，新纳入的城市荣誉类别不指向具名个人。
+
+**关系与历史影响。** `rel-2580`、`rel-2581`、`rel-2582`、`rel-2583`的端点、范围、方向及formal状态与原页相符，不改relations.csv；其余历史开放判断不升级。本批仅更新11条roster当前审读锚点并记录过程；不改statement、mention或9,622事件台账，不构成全书S2独立接收。
+
+<a id="2026-11-02-s2-current-review-b247-order-13401-13500"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B247：第15章 pp.365–367，顺序13401–13500
+
+**逐ID回链。** 本批100条中98条对应历史事件（statement 68 exact、30 changed），来源版本98/98匹配；另2条为非9,622历史计数对象。p.365、p.366、p.367有3个segment mention差异组：分别重复于7条（改映4、删除4、新增1）、56条（改映4、删除17、新增1）及35条历史行（新增1）。30条changed与2条无历史事件statement经当前原页复核PASS；68条历史开放项保留。
+
+**原页与当前语义。** 对照同一原件物理页5–7（打印页365–367），核对本批32条待处理项的引文、claim及mention；相关segment全部331条当前mention span无偏移。跨页statement `st-chp15-p365-memmo-representation-eligibility-partial`以p.365末句接p.366“city could be represented”核实；它与p.366“谁可用本人名义提出雕像”的另一规则分开处理。`st-chp15-p367-patronage-and-speed-caused-variation`中的逗号是S0 OCR误读，原页以行末连字符断词；现有qualifier保留该校读，不改S0。
+
+**关系与待证边界。** `rel-1706 occurred_at`维持formal且来源吻合；`rel-1712 derived_from`维持pending，原文未识别具体雕版底稿。雕像、捐赠者、未名友人等未决端点继续保留原S3/S6边界；不新增关系。仅将32条当前版复核结果挂接roster，两条非历史计数statement不计入9,622。
+
+<a id="2026-11-02-s2-current-review-b248-order-13501-13600"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B248：第15章 pp.367、370，顺序13501–13600
+
+**逐ID回链。** 本批100条中99条对应历史事件（statement 97 exact、2 changed），99/99来源版本匹配；另1条为非9,622历史计数对象。p.367新增mention差异组重复于3条历史行；该组与B247同一segment的新增“Prà work”提及对应。2条changed及1条无历史事件statement完成原页复核PASS；97条历史开放发现保留。
+
+**原页与当前语义。** 打印页367确认最终成果评价指Prà雕像项目；打印页370确认Querini书房中的版画系列以及以Apollo为名的花园理想。三条引文与claim均可定位，当前mentions核验通过。版画系列未被擅自补题名、作者或确切日期。
+
+**下游影响。** 不改statement、mention、候选或关系表；历史开放裁决照旧。非历史计数项不纳入9,622。
+
+<a id="2026-11-02-s2-current-review-b249-order-13601-13700"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B249：第15章 pp.370、372，顺序13601–13700
+
+**逐ID回链。** 本批100条均对应历史事件，statement 98 exact、2 changed，来源版本100/100匹配；mention集合无差异。2条changed statement经原页核读PASS，98条历史开放发现保留。
+
+**原页与关系核验。** 打印页370确认“Fortune and Apollo”属于花园理想列举；没有进一步指定某一祭坛。打印页372的“to become Doge in 1779”接续p.371 L83关于Querini为Paolo Renier制作胸像的句子，支持现有statement；`rel-2370 held_office`继续formal。关于Renier在罗马的居住叙述仍不与该任职事实混并，`rel-2608 located_at`维持pending。
+
+**下游影响。** 不改statement、mention、关系裁决或历史事件台账；本地当前版PASS不升级历史开放发现，也不构成全书S2接收。
+
+<a id="2026-11-02-s2-current-review-b250-order-13701-13800"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B250：第15章 p.368，顺序13701–13800
+
+**逐ID回链。** 本批100条均对应历史事件，statement 99 exact、1 changed，来源版本100/100匹配；mention集合无差异。1条changed statement经原页核读PASS，99条历史开放发现保留。
+
+**原页与校读。** `CHP-15.pdf`物理页8打印脚注为“Molmenti: Un nobil huomo, pp. 137 ff.”，确认当前statement只记录Haskell所引页码；现有`if.`→`ff.` OCR校读正确，未声称已查阅Molmenti原书。当前引文及mention跨度定位通过。
+
+**下游影响。** 无statement、mention、关系或历史裁决写回；仅登记当前版复核锚点。本批局部PASS不代表全书S2独立接收。
