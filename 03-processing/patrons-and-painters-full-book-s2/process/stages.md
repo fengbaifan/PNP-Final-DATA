@@ -18641,3 +18641,15 @@ L1301–1306是S0的错位OCR块，不对应本PDF新增的p.442图像。当前�
 **未决发现。** 6条与报告版本相同且仍未修订，保持pending：`st-chp1-secii-l905-916-01j`遗漏“try”并需保留未证明限制已解除的限定；`st-chp1-secii-l927-943-03f`及`st-chp1-secii-p22-n1-cites-rosa-letter`缺特定信件、收件人与prospective patron的mention锚；`st-chp1-secii-p12-n1-grassi-cortona-series-claim`未正确保留争议性归属候选；`st-chp1-secii-p8-n1-piola-obtains-alternative-residence`地点未具名，继续待证、不推断住所；`st-chp1-secii-p9-n2-cites-gualandi-i-p91`卷页引文与出版物候选/mention映射不一致。
 
 **批次结算。** 937–1036共100条：94条当前PASS（92条本批新复用，2条已有当前PASS沿用），6条pending。全库当前PASS 6,859、已审待证720、历史映射开放7,926、版本差异待核0、待回映/当前复核0；下一连续未收口区段从1037开始。历史9,622事件及原裁决未改；statement和mention表未改，S2仍未全书独立接收。
+
+<a id="2026-11-02-s2-current-review-b273-order-1037-1136"></a>
+
+### 2026-11-02 S2当前版逐ID复核 B273：第1章，顺序1037–1136
+
+**历史事件与版本核平。** 本批100条各对应1条H9622历史事件；100/100原来源版本匹配，历史mention差异均为空。当前段的237条mention记录与独立复核提交`2273e2743158401b841fb9bc7b7d1332836d400a`完全相同，来源`01_CHP-1_sec_ii.md`字节哈希`1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`一致。99条待处理statement的完整JSON均与该复核提交一致；另1条顺序1093 `st-chp1-secii-l657-n1-cites-malvasia-vol2-p27`仅改变`qualifiers.relation_candidate_note`，已在B123判为pending，本批沿用原决定。历史9,622事件台账不改。
+
+**复用、判断变化与待证。** 96条转为当前PASS：95条报告未列开放问题，直接复用逐条原文审读；顺序1073 `st-chp1-secii-p13-n4-gavasetti-uses-finest-colours`另作核对——旧报告称缺少印本校读依据，但当前同版本statement已有结构化校读`Iris frescoes`→`his frescoes`及PDF物理页12依据，限定也保留该差异；因此关闭该项报告发现，记录为PASS，不改statement。3条保持pending：顺序1056 `st-chp1-secii-p13-n1-ferri-laparelli-altarpiece-payment`虽已有姓名异文校读，但本段缺altarpiece候选`cand-3190`的mention锚；顺序1074 `st-chp1-secii-p13-n4-cites-gualandi-i-p91-gavasetti`的同一卷页定位在另一statement指向`cand-11348`而本条指向`cand-6608`，当前mention仅锚到作者`cand-3477`；顺序1133 `st-chp1-secii-p19-n6-cerquozzi-passeri-citation`在`relation_candidate=false`下重复保留Passeri p.285端点，另有独立`cites=true` statement，需去重或移除无关端点。均待针对性修订后回核，不推断身份、不新增关系。顺序1093既有pending不重开、不改批次。
+
+**关系影响。** 核对`relations.csv`：本来源文件当前唯一正式边`rel-0081`是印刷p.19正文行132–133的`honourer_of`，与本批脚注行无关；p.13和p.19脚注发现没有对应的正式边被本批修订。S3、KU、关系裁决及正式关系表均未改，历史S6决定不变。
+
+**批次结算。** 范围100条：96条新判当前PASS，3条新确认pending，1条既有pending沿用；因此当前台账新增闭环99条。全库当前版PASS 6,955、已审待证723、历史映射开放7,827、版本差异待核0、待回映/当前复核0；尚未达PASS共8,550条，下一连续区段从顺序1137开始。逐条状态见`s2-current-review-roster.csv`。本批只更新复核台账及过程/结果记录；S2尚未全书独立接收。

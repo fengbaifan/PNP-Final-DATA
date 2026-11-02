@@ -4113,3 +4113,5 @@ S3纯`undecided`候选、纯未决直接关系端点及S4待登记直接关系�
 
 
 **2026-11-02 B272后当前版S2进度：** 顺序937–1036共100条，94条当前PASS（92条复用精确历史审读，2条沿用B122/B123已有当前PASS），6条报告列出的语义/锚点/版本候选问题保持pending。唯一新增mention已由B122逐条复核；本批未重复审读未变化证据。全库当前PASS 6,859、已审待证720、历史映射开放7,926、版本差异待核0、待回映/当前复核0；尚有8,646条未达当前PASS。9,622历史事件未改，S2未全书独立接收；下一批从顺序1037开始。详见[B272过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-02-s2-current-review-b272-order-937-1036)与[逐ID清单](../../03-processing/patrons-and-painters-full-book-s2/process/s2-current-review-roster.csv)。
+
+**2026-11-02 B273后当前版S2进度：** 顺序1037–1136覆盖的100条中，96条新判当前PASS、3条新确认pending、1条此前pending沿用；当前台账净新增闭环99条。99条statement与逐条独立复核快照相同，237条segment mentions及来源字节版本完全一致；其中一项旧报告发现因当前statement已保留精确OCR/印本校读而关闭，另3项涉及缺作品mention、书目出版物候选冲突及重复引文端点，仍待证。每条对应的H9622历史事件及原裁决均保留。全库PASS 6,955、已审待证723、历史映射开放7,827、版本差异待核0、待回映/当前复核0；未达PASS共8,550条，下一批从顺序1137开始。S2仍未全书独立接收。详见[B273过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-02-s2-current-review-b273-order-1037-1136)与[逐ID清单](../../03-processing/patrons-and-painters-full-book-s2/process/s2-current-review-roster.csv)。
