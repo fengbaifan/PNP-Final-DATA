@@ -18557,3 +18557,12 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **书目语义与关系影响。** 保持逐页审读中的印本校读、作者指引目标和版本边界；书目归属仅描述Haskell的列目，不表示独立查阅被引作品。本批8条直接关系候选中，七条既有formal边维持原谓词和方向：`rel-1785`、`rel-1787`（Mazarin authored_by），`rel-1786`（Morbio published_by），`rel-1788`（Chéruel compiled_by），`rel-1789`（Chéruel published_by），`rel-2241`（Monconys authored_by）、`rel-2244`（Neri authored_by）。Maresca条目`st-chp21-bib-l756-806-author-maresca`的作品映射保留；作者`cand-7389`仅有首字母A.，按`bl-0051`维持undecided与pending，不建人物KU或formal边。无statement、mention、候选、S3决定或`relations.csv`写回。
 
 本批100/100当前PASS。全库当前版PASS 6,178、已审待证699、历史映射开放8,323、版本差异待核0、待回映/当前复核305；连续顺序剩余305条，下批从15201开始。9,622历史台账不变；S2仍未全书独立语义接收。
+<a id="2026-11-02-s2-current-review-b265-order-15201-15300"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B265：第21章书目 p.431–434，顺序15201–15300
+
+**逐ID结论与证据复用。** 本批100条均无9,622历史事件，statement规范哈希与当前快照100/100一致。复用既有逐页审读：L846–881（印刷p.431/PDF物理页21）、L883–926（p.432/页22）、L928–983（p.433/页23）、L985–1020（p.434/页24）。PDF SHA-256 `1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`及Markdown源SHA-256 `f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3`未变；100/100原引句定位当前S0。四个segment共127条mention span；L846–881的28条已在B264核验并复用，其余99条逐条复核，偏移错误0。
+
+**书目语义与关系影响。** 按现有页图记录保持书目条目边界、期刊信息及跨章引用的版本／页码差异；不据书目列举声称查阅被引作品。本批三条直接作者关系候选均与现有S6来源范围对应：`rel-1746`（Orlandi）、`rel-1745`（Pacichelli）和`rel-1506`（Palomino）均维持formal、方向及原证据跨度。跨章短引、卷次和页码不扩成额外关系；无候选身份、statement、mention或`relations.csv`写回。
+
+本批100/100当前PASS。全库当前版PASS 6,278、已审待证699、历史映射开放8,323、版本差异待核0、待回映/当前复核205；连续顺序剩余205条，下批从15301开始。9,622历史审读台账不变；S2仍未全书独立语义接收。
