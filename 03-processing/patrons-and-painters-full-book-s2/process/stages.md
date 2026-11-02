@@ -20778,3 +20778,20 @@ H9622历史事件账本9,622行未改，SHA-256仍为`75ab12df478a81603592935356
 **关系与历史裁决影响。** 按statement ID回查，本窗口42条关系记录包含39条formal、3条pending。rel-1577（La Burla位置冲突）以及rel-1922/1923（书内书信定位的谓词需拆分）继续pending；39条formal状态未变。历史S6及S2 pending finding均原样保留，不新增/改写statement、mention或关系裁决。
 
 **批后进度。** 全库仍为15,512条statement、27,339条mention、current PASS 8,709、pending 6,803。连续顺序已核平至9758/15,512，下一条9759，尚有5,754个顺序位置待核平；本阶段不构成S2独立语义接收，最早未解决finding仍为1330。
+<a id="2026-11-03-s2-current-review-stage-b514-b516-order-9759-10058"></a>
+### 2026-11-03 S2当前版本逐ID复核阶段：B514–B516（顺序9759–10058）
+
+**范围与复用。** 连续核平300条第九章引言statement。逐条实算当前`book-statements.jsonl`、源文件资产、S0 segment及segment mention集合指纹，300/300匹配。H9622事件299条且来源映射299/299匹配；当前ID映射296条hash exact、3条changed，另1条无历史事件。当前PASS复用4条、pending finding保留296条；3条hash差异和1条无历史事件均有当前逐条证据。
+
+| 批次 | 当前顺序 | 核平 | 既有current PASS复用 | pending finding保留 | H9622事件 | 事件来源匹配 | 当前ID映射hash exact / changed | 无H9622事件 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| B514 | 9759–9858 | 100 | 2 | 98 | 99 | 99/99 | 98 / 1 | 1 |
+| B515 | 9859–9958 | 100 | 1 | 99 | 100 | 100/100 | 99 / 1 | 0 |
+| B516 | 9959–10058 | 100 | 1 | 99 | 100 | 100/100 | 99 / 1 | 0 |
+| **阶段合计** | **9759–10058** | **300** | **4** | **296** | **299** | **299/299** | **296 / 3** | **1** |
+
+3条历史hash不同项为顺序9832（Faith/Hope/Charity与Wisdom断言分开）、9931（Foscarini任Doges时间范围）、10017（Visconti信件收入与1749年在职时间拆分），均为既有current PASS；原判断及关系限定沿用B082–B084。唯一无历史事件项已有current PASS依据。
+
+**关系与历史裁决影响。** 对statement ID精确回查，窗口中24条关系均为formal且状态未变，包括rel-1455/1457（Virtues与Wisdom分开）、rel-2369（Foscarini任职时间限定）、rel-2188/2212（出版物与信件关系范围）。p.262 relation candidate因缺合适controlled predicate继续pending，不写入formal边。历史S6裁决、端点和证据边界未改变；不新增/改写关系、statement或mention。
+
+**批后进度。** 全库仍为15,512条statement、27,339条mention、current PASS 8,709、pending 6,803。连续顺序已核平至10058/15,512，下一条10059，尚有5,454个顺序位置待核平；本阶段不构成S2独立语义接收，最早未解决finding仍为1330。
