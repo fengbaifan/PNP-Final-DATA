@@ -16358,3 +16358,45 @@ p.230 `pubheation`→`publication`为本批新增结构化校读；同时确认�
 **批后进度。** 当前15,505条statement：`reviewed_current_pass` 2,479；`reviewed_current_pending` 606；历史已映射但保留开放发现8,323；待历史版本差异复核101；待历史/既有审读回映或当前复核3,996。未获当前PASS共13,026。连续原文顺序已处理至9125，下一条9126。S2仍未独立接收。
 
 **必要核验。** B075 roster顺序9026–9125连续，100行均有PASS及证据引用；B075历史事件数为0。`audit_tables.py --strict-stage --summary`返回15,505 statements、27,160 mentions、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`的broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；`git diff --check`通过。上述是表结构、关系一致性和本批当前语义核对，不构成独立S2接收。
+
+
+<a id="2026-11-02-s2-current-review-b076-ch8-p233-p236"></a>
+### 2026-11-02 S2当前版本逐ID复核 B076：CHP-8 p.233–236，顺序9126–9225
+
+**完成量。** 连续原文顺序9126–9225共100条，100条均直接核对当前statement、当前S0原文、当前mention锚点及对应原书扫描页；100 PASS、0 pending、0条旧裁决复用。逐行语义核对不等于全书S2独立验收。
+
+**历史ID与版本核平。** 本批100条的`history_9622_event_count`均为0，历史台账中没有可直接复用事件。与旧快照`d7adabfb27dff892808793ae5eace18787e6ef60`比较，四个源段fingerprint相同；当前statement候选mention集合已有改动，故即使6条statement对象与旧快照完全相同（`st-chp8-p236-wall-scene-diana-callisto`、`st-chp8-p236-wall-scene-pan-syrinx`、`st-chp8-p236-corner-busts`、`st-chp8-p236-overdoor-composition`、`st-chp8-p236-wall-scene-diana-actaeon`、`st-chp8-p236-wall-scene-europa-bull`），其旧页结论也不能代表当前完整候选范围。其余98条标为`current_object_differs`，另2条为`no_exact_review_mapping`；100条均按当前版本直接复核。历史9,622事件台账及既有S2裁决未改，未执行`--apply`。
+
+**原页与版本指纹。** `CHP-8.pdf` SHA-256=`cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`；S0 `08_CHP-8_sec_ii.md` SHA-256=`5d9a17efc3835c30947b8c714c65649be10295661b6cca6b117f5902882bcef6`。逐页核对印刷p.233–236及页下注，对应PDF物理页39–42；p.234–236扫描页已逐页读图，p.233页图与B075边界页一并核回。源段SHA与旧快照一致；当前mention指纹如下（含本批修订后版本）：
+
+| 印刷页／顺序 | segment ID | source segment SHA-256 | 当前mention数／SHA-256 |
+|---|---|---|---|
+| p.233／9126–9150 | `chp-8:08_CHP-8_sec_ii:l271-279` | `1b5ad6756f8c8c1f24eba461ea2d541a118ab9e74fb1723ddffbd0b7959471fb` | 42／`4db4b3c6ae9e0b30d6f12205159e30d1f0bca21707b8255813cdf8e8e1dff20f` |
+| p.234／9151–9185 | `chp-8:08_CHP-8_sec_ii:l281-289` | `a2bd51850e4ec86f53150eec035a79685f7120b495e8e36450268bc6a1090eef` | 52／`279475854e4fdee17815ae1183dc521f418f03841bdbf4e8237825c7428020d2` |
+| p.235／9186–9211 | `chp-8:08_CHP-8_sec_ii:l291-301` | `a6bff7d37ee1ac1f704a283ff6c17ece7901943f3e33eb4a7f4614e4ad1fb5f2` | 59／`2586ce55001e9dff5691a24746652acfb9e0ee4ade6ee1d690095af29ba97fc6` |
+| p.236／9212–9225 | `chp-8:08_CHP-8_sec_ii:l303-309` | `f9be04e05e3e091f26bbe439a945da2328f0a5e34ae21a0ad4bad501c532007a` | 30／`7427ca107741d7d3268b344979470046e6e7cd66e8bf0ebf929139bdf035bd27` |
+| p.234–236关联注释／交叉引文 | `chp-8:08_CHP-8_sec_ii:l372-461` | `62a4611253d2bf05494ef55b0511b53861b0947a05aee1c7a9fdbab976ecbc3f` | 149／`42ad1f74895511be4f7b4dadc9b1bc90d0dd3e89e7991522875241527bd55c31` |
+
+**语义核读与当前版修订。** p.233核对Ferdinand的绘画制作兴趣、Gabbiani与Bassi评价、1699威尼斯行程、Sacconi委托和培养、Loth的赞助及未名画家；p.234核对Fumiani方案的具体构图、Cassana可替代绘制David的条件、modello审阅、改题及作者对《撒迦利亚被石击》的推断、Cassana肖像组与作品、Langetti报告及Haskell的年代反驳；p.235核对Giordano玻璃画、Ricci委托、Cassana市场职责、Marucelli委托、1706装箱作品、Poggio房间计划和被毁《艺术寓意》；p.236核对Pitti壁画、Gherardi经Haskell转述的指示、巴洛克风格对照及Ovid题材壁面、角落半身像和门上Medici徽章构图。来源没有识别的画廊、别墅、画作或人物继续按原限定保留；“两位画家”不从后文倒推身份，Europa与Bull也不擅自合并为Zeus身份。
+
+本批净新增32条mention锚点：p.233两条；p.234正文一条；p.235正文19条；p.236正文六条；关联注释段四条。锚点分别补足1699年Gabbiani赴威尼斯事件、Ferdinand指代的索引子项、Cassana肖像组、Giordano Livorno会面、Ferdinand威尼斯行程、Cassana与威尼斯画市、Francesco Marucelli及Rome、Ricci装箱作品／Marco Ricci景观组、Poggio房间与未名gallery/villa、Farsetti ceiling/Sister Arts、Baroque天花比较、Marucelli palace/work、Ovid、Florence及European art等当前候选的精确跨度。关联注释四条只修补B076所引脚注的局部mention；注释segment中其余167条statement仍待连续逐ID复核。
+
+**本批mention ID索引。** 每个ID对应`mentions.csv`中的当前candidate、segment、surface和字符区间：
+
+| 当前segment | 净新增mention数 | 新增mention ID |
+|---|---:|---|
+| p.233正文 | 2 | `m-chp8-p233-gabbiani-1699-visit`；`m-chp8-p233-ferdinand-patronage-subentry` |
+| p.234正文 | 1 | `m-chp8-p234-portrait-group` |
+| p.235正文及续注 | 19 | `m-chp8-p235-giordano-livorno-visit`；`m-chp8-p235-ferdinand-two-venice-visits`；`m-chp8-p235-venice`；`m-chp8-p235-cassana-market`；`m-chp8-p235-venetian-market-place`；`m-chp8-p235-picture-market`；`m-chp8-p235-ricci-florence`；`m-chp8-p235-marucelli-florence`；`m-chp8-p235-poggio-florence`；`m-chp8-p235-francesco-marucelli`；`m-chp8-p235-rome`；`m-chp8-p235-marucelli-shipment`；`m-chp8-p235-small-landscape-group`；`m-chp8-p235-marco-ricci`；`m-chp8-p235-poggio`；`m-chp8-p235-gallery-room`；`m-chp8-p235-favourite-gallery`；`m-chp8-p235-favourite-villa`；`m-chp8-p235-sister-arts` |
+| p.236正文 | 6 | `m-chp8-p236-barocco-decoration`；`m-chp8-p236-marucelli-palace`；`m-chp8-p236-marucelli-work`；`m-chp8-p236-ovid`；`m-chp8-p236-florence`；`m-chp8-p236-european-art` |
+| p.234–236关联注释 | 4 | `m-chp8-note-letter92`；`m-chp8-note-catiline-pitti`；`m-chp8-p235-note-farsetti`；`m-chp8-p235-note-ceiling` |
+
+页图校读记录：`st-chp8-p233-gabbiani-control-and-venetian-ambition`新增`artistic'ambitions`→印本`artistic ambitions`，保留原S0和`original_quote`，校读依据为CHP-8.pdf物理页39；p.234既有`Giannaritonio`→`Giannantonio`、`ns`→`us`、`lais sceptre`→`his sceptre`、`Niccolo`→`Niccolò`、`Portrait os a Cook`→`Portrait of a Cook`及`Ratti, H, 26`→`Ratti, II, 26`均与物理页40一致；p.235既有`Marucelli.of whom`、`Grand Princewhich`、`. included`及脚注档案号OCR读法与物理页41核对；p.236既有`avantgarde`→`avant-garde`、`ofsun`→`of sun`、`air��a`→`air—a`和Plate 39脚注标记与物理页42核对。p.235注5`No. zoo`→印本`No. 500`及p.234目录号校读原已有字段，本批页图回核未改写。
+
+当前锚点边界修正：同一词`modello`只有一个当前原文跨度，对应具体候选`cand-12097`；因此从`st-chp8-p234-fumiani-model-review`与`st-chp8-p234-fumiani-modello-for-composition`的`mentioned_candidate_ids`移除泛称term候选`cand-1674`，不把词面同时分配给term与具体work，也不删除该全局候选。新建的重复term mention移除以消除同跨度双映射。p.235把人物跨度收为`Ferdinand’s`、地点跨度记为`favourite gallery`，保持两者不重叠；未由此断言该gallery即Poggio。历史候选与身份裁决不变。
+
+**关系与历史裁决影响。** 对含B076 statement证据引用的22条`relations.csv`记录逐项回查：19条formal、3条pending。formal边继续由本批原文支持；`rel-2024`（Ricci创建受托《十字架》）、`rel-2025`（该画替换《圣母与圣婴》）、`rel-2026`（Ricci赴Florence作画地点）保留pending，因为原文的“seems”不能支持更强断言。本批只修mention锚和一处OCR校读，不改任何relation、alignment、KU、enrichment或S6历史裁决；没有为缺失身份的对象补造端点。关系一致性阻断计数均为0。
+
+**批后进度。** 当前15,505条statement、27,192条mention。`reviewed_current_pass` 2,579；`reviewed_current_pending` 606；历史已映射但保留开放发现8,323；待版本差异复核101；待历史／既有审读回映或当前复核3,896。未获当前PASS共12,926。连续原文已处理至9225，下一条9226。S2尚未独立接收。当前roster规范序列化SHA-256=`5a85809fb7d488eaa4d7b3d84e5b8d68d8dba7bef655a69b4bc49dc50c8fd5f7`。
+
+**必要核验。** B076 roster顺序9126–9225连续，100行均为`reviewed_current_pass`且引用本批证据；其中历史事件0、旧裁决复用0。全部B076声明候选均能在当前segment或关联脚注段找到mention锚。`audit_tables.py --strict-stage --summary`返回15,505 statements、27,192 mentions、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`的broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；`git diff --check`通过。机械检查与本批当前版语义复核均不构成全书S2独立接收。
