@@ -16400,3 +16400,46 @@ p.230 `pubheation`→`publication`为本批新增结构化校读；同时确认�
 **批后进度。** 当前15,505条statement、27,192条mention。`reviewed_current_pass` 2,579；`reviewed_current_pending` 606；历史已映射但保留开放发现8,323；待版本差异复核101；待历史／既有审读回映或当前复核3,896。未获当前PASS共12,926。连续原文已处理至9225，下一条9226。S2尚未独立接收。当前roster规范序列化SHA-256=`5a85809fb7d488eaa4d7b3d84e5b8d68d8dba7bef655a69b4bc49dc50c8fd5f7`。
 
 **必要核验。** B076 roster顺序9126–9225连续，100行均为`reviewed_current_pass`且引用本批证据；其中历史事件0、旧裁决复用0。全部B076声明候选均能在当前segment或关联脚注段找到mention锚。`audit_tables.py --strict-stage --summary`返回15,505 statements、27,192 mentions、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`的broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；`git diff --check`通过。机械检查与本批当前版语义复核均不构成全书S2独立接收。
+
+
+
+<a id="2026-11-02-s2-history-9622-reconciliation-current-ids-versions"></a>
+### 2026-11-02 S2历史9,622条复核事件与当前ID／版本核平
+
+**核平结果。** 对历史9,622条复核事件按当前statement ID、完整statement JSON、S0 segment、来源Markdown及PDF资产逐项比对。9,622事件来自9,539个唯一旧ID，含83条重复事件；逐事件当前映射为9,121 exact、499 changed、2 absent_current。每个唯一旧ID的来源版本指纹均匹配当前来源（9,539/9,539）。按每个旧ID最新事件去重后，9,048 exact、489 changed、2 absent_current；另有5,968个当前statement ID不在这9,539个旧ID中。事件级和去重级数字分开报告，不把重复审读当成额外独立ID。
+
+**缺失ID去向。** `st-chp2-seciv-l190-245-rest-flight-owned-by-rospigliosi`因注释错配撤销；其相关事实仍分别保留在`st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned`与`st-chp2-seciv-l171-179-rest-flight-attributed-to-poussin`。`st-chp13-p332-copyright-effects-on-local-and-export-books`已按来源句意拆分为`st-chp13-p332-copyright-effects-on-local-books`及`st-chp13-p332-luxury-export-editions-gained`。两条均不静默删除、不移植旧PASS。
+
+**写回边界与复用。** 逐ID roster 现已纳入9,622事件映射、最新历史语义/提及指纹及来源匹配状态；同源精确匹配只作为可复用的原审读证据，原来开放的发现仍保持开放，不能仅凭hash匹配提升为当前PASS。历史事件CSV未改写，SHA-256=`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`；本次核平计划SHA-256=`bc929629785d618d532a9ac81c6b7a9bc26e1429e4350166fd90155d72e21b34`。完成B077后当前roster SHA-256=`d38f93dff0e0d34415da3226a26788e790eb2ab5e54ef551a7faf8fae4d3839a`。当前roster中9,620个事件计数是能挂接到当前ID的事件数；与账本9,622总事件的差额正是上述2个absent_current旧ID。
+
+**限制。** 核平解决旧复核记录与当前ID／版本的可追溯映射，不构成9,622条全部当前语义PASS，也不替代未覆盖statement的逐ID复核；历史发生的`changed`仍需逐项判断受影响范围，不能以对象存在或哈希之外的相似性自动继承。
+
+<a id="2026-11-02-s2-current-review-b077-ch8-p236-p239"></a>
+### 2026-11-02 S2当前版本逐ID复核 B077：CHP-8 p.236–239，顺序9226–9325
+
+**连续批次结算。** 按当前原文顺序核平100条（p.236 8条、p.237 32条、p.238 41条、p.239 19条）：100/100 PASS、0 pending。p.236的8条直接核对当前S0原页、statement与候选提及；其余92条复用逐项确认的同源原页审读和独立当前版本复核记录，复核当前statement版本及候选集合后登记到当前ID；本批roster中历史事件数均为0，因此没有把历史9,622事件误记成当前ID审读。复用原审读不代表全章或全书独立语义接收。当前原书资产SHA-256=`cb11451ac726f37ed5badf21f569af88f790f858f1c39eb63f2efb58a0fe4ac3`；核看印刷p.236–239／PDF物理页42–45。来源Markdown资产SHA-256=`5d9a17efc3835c30947b8c714c65649be10295661b6cca6b117f5902882bcef6`。四个当前segment为`chp-8:08_CHP-8_sec_ii:l303-309`、`l311-325`、`l327-336`、`l338-348`；其原文segment哈希与既有S0登记逐项相符。
+
+**当前提及锚点修复。** 新增41条精确mention span：p.236 6条、p.237 15条、p.238 11条、p.239 9条。包括Paris/Italy、rococo style、Macchiette及画组、Crespi与Ricci相关人地／术语、Graziani／dal Sole／Santi、Pepoli家族／宫殿／天花作品／紧急信、Crespi新生子及名字、`pittore attuale`／`vasallaggio`、Poggio a Caiano、gallery／Medici collections、Tintoretto归属画及Crespi所述信件等。所有offset以当前segment切片断言；Poggio地点在Fair题名内、Tintoretto在画作提及内等严格嵌套跨度保留，不拆错候选。未锚定的隐含指称、交叉段或仍有争议的candidate/segment映射留作待证，不强行补span。
+
+**S3、关系和历史裁决影响。** 对应22条alignment只追加当前S2 mention锚点说明，既有decision与KU不变；其中`aln-1947`注明新正文Ferdinand跨度，纠正旧`s2_mentions=none`说明，但保留索引子目范围限制。仍未解决的身份、类型、范围、指代疑问继续保留。引用本批statement的13条`relations.csv`边复查后均为formal；无pending/rejected行被提升或改判，关系表、S4 KU、S5字段和S6历史裁决均未改写。本批没有通过mentions新建formal关系。
+
+**批后进度与剩余量。** 当前15,505条statement、27,233条mention。逐ID状态：`reviewed_current_pass` 2,679；`reviewed_current_pending` 606；历史已映射但保留开放发现8,323；版本差异待核101；尚待历史／既有审读回映或当前复核3,796。未获当前PASS共12,826条；连续原文已完成到9325，下一条9326。S2仍未独立语义接收。
+
+**必要核验。** B077 roster顺序9226–9325连续、100行均PASS并引用本节证据；本批历史事件0。41条mention全部与source segment精确切片相同，严格嵌套允许且无span交叉；22条alignment仅更新说明文字。`audit_tables.py --strict-stage --summary`实际返回15,505 statements、27,233 mentions、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`实际返回broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；`git diff --check`通过。机械检查与本批S2复核均不构成全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b078-ch8-p239-p241-notes"></a>
+### 2026-11-02 S2当前版本逐ID复核 B078：CHP-8 p.239–241及关联注释，顺序9326–9425
+
+**连续批次与历史复用。** 按当前原文顺序完成100条：100/100 `reviewed_current_pass`、0 pending。范围为p.239 10条、p.240 26条、p.241 44条，以及注释p.215、217–222合计20条。98条复用与当前来源和statement版本逐项核对相符的原页审读／独立复核证据：p.239对应2026-10-23报告提交`ff23e73d72a3d85a6aadd9cffa41ddfa78502676`；p.240的25条对应报告`3803ed8c0b08318d99e55d92367b8e51705bf45d`，`st-chp8-p240-exhibition-as-art-direction`再按提交`0908338be8fa8364767387896bc167e5c5ba6b66`的当前版本复核；p.241的44条映射到独立当前版复核`565f56075b6970ca2033ce2e29f73a3171f9d725`；注释中18条对应报告`829cc767`。另对p.222注1的`st-chp8-p222-n1-manuscript-source`与`st-chp8-p222-n1-manuscript-repository`两条当前statement版本差异逐句直核。四组来源报告的复用均复核了当前statement及mention变化；不把旧hash相同本身当作当前语义PASS。本批历史9,622 ledger事件数为0。
+
+当前核对的`CHP-8.pdf` SHA-256=`cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`，S0 Markdown资产SHA-256=`5d9a17efc3835c30947b8c714c65649be10295661b6cca6b117f5902882bcef6`。p.239–241正文复核赞助与收藏、展览及画作／人物关系；注释复核Pinetti档案叙述、Ruffo宫藏手稿及其引文、Buonaccorsi收藏资料、Ferdinand通信、Loth与Crespi画作来源等。作者对作品、收藏、人物的限定与原文语气一并保留。p.220注1的S0 OCR为“Bonari”，印本读作“Bottari”；只记录原页校读，不改写来源本体。
+
+**提及锚点及同一性边界。** 本批净增52条精确mention：p.239 7条、p.240 21条、p.215/217/218/219/220/221/222注释24条；p.241没有净新增span。初始54条提及计划中有两条与现存span完全重叠，现删除而复用既有锚点：p.241 Guido Cagnacci跨度已由`m-chp8-p241-creator-cagnacci`映射至`cand-0478`，其与`cand-0479`均指向同一人物KU；p.221 “Bergamo”跨度已由`m-s2-chp8-surface-a4000171c8a52338`映射至`cand-7743`，`cand-6208`亦属同一城市KU。未另造重复mention或身份判断。两项校正计划hash=`0fe81a97ddbddf5362c8d3380697f7b84287ec40bde72f91820a0e8cad6c6aeb`；修正后当前mentions总数27,285。
+
+p.240的指示词“this”仍不识别具体作品，Mehus之子未具名；引文所提手稿、作品及收藏不因脚注叙述而视为已独立查阅原件。p.221未名本地画家、p.222文献身份及其它未具名作品仍按现有候选范围待证。对齐表22行仅在`resolution_note`追加当前锚点说明；其中`cand-0479`明确复用同一Cagnacci锚点。S3 decision与KU均未改变。
+
+**关系与下游影响。** 对照本批statement的source span/reference，相关`relations.csv`共16行：14 formal、2 pending，状态均与批前相同。`rel-1638`仍因Giordano指称人物或作品的解释未定而pending；`rel-2607`仍因“located_at”不能忠实表达手稿保管／馆藏关系而pending。未改关系行、S4 KU、S5字段或S6历史裁决；缺少身份或谓词依据的关系未晋升formal。
+
+**批后进度与剩余量。** 当前15,505条statement、27,285条mention；当前版逐ID PASS 2,779，已审但仍待证606，历史ID已映射但开放发现未结8,323，当前版本差异待核101，仍待历史／既有审读回映或当前复核3,696。未获当前PASS共12,726条（以上类别互斥）。本批完成100条，下一连续批次从顺序9426开始；S2尚未独立语义接收。当前roster SHA-256=`9364caf630860f60e5719aae12d49ae08a03b51dd0f9088e93482a2a1ad7668b`。
+
+**必要核验。** B078的roster顺序9326–9425连续，100条均PASS、0 pending、历史事件0；本批52条新增mention的字符跨度均与当前分节source切片相等，两个重复span已复用而未保留；`audit_tables.py --strict-stage --summary`实际返回15,505 statements、27,285 mentions、`errors=[]`、`s2_missing=[]`。`audit_relation_consistency.py --dry-run`返回broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。相对本次基线，alignment改动列仅为`resolution_note`；relations.csv未变化。`git diff --check`通过。以上检查与本批复核均不构成全书S2独立接收。

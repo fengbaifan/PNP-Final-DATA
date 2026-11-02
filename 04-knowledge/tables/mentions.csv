@@ -27866,3 +27866,96 @@ Marucelli",1006,1055,Contextual comparison to the reported Marucelli decorations
 m-chp8-p236-ovid,chp-8:08_CHP-8_sec_ii:l303-309,cand-6777,Ovid,1703,1707,Named source of the further mythological wall scenes; no specific text is named.
 m-chp8-p236-florence,chp-8:08_CHP-8_sec_ii:l303-309,cand-3397,Florence,2137,2145,Place in Haskell’s comparison of the frescoes’ novelty.
 m-chp8-p236-european-art,chp-8:08_CHP-8_sec_ii:l303-309,cand-8011,European art,2160,2172,Broad artistic field in Haskell’s evaluative comparison.
+m-chp8-p236-paris,chp-8:08_CHP-8_sec_ii:l303-309,cand-4653,Paris,2296,2301,Named destination in the discussion of the Rococo style.
+m-chp8-p236-italy,chp-8:08_CHP-8_sec_ii:l303-309,cand-3461,Italy,2335,2340,Explicit geographic scope in the sentence contrasting reception in Paris and Italy.
+m-chp8-p236-rococo-style,chp-8:08_CHP-8_sec_ii:l303-309,cand-8004,rococo style,2232,2244,Exact stylistic phrase; candidate identity/type decision remains unchanged.
+m-chp8-p236-small-figure-scenes-shown,chp-8:08_CHP-8_sec_ii:l303-309,cand-8001,one pair of such scenes,2681,2704,Specific small-figure picture group described in the sentence.
+m-chp8-p236-collaborator,chp-8:08_CHP-8_sec_ii:l303-309,cand-8003,a collaborator,2518,2532,Exact role noun in the backgrounds clause; identity remains open.
+m-chp8-p236-macchiette,chp-8:08_CHP-8_sec_ii:l303-309,cand-8002,macchiette,2729,2739,Exact Italian term in the source sentence.
+m-chp8-p237-ricci,chp-8:08_CHP-8_sec_ii:l311-325,cand-2154,Ricci,159,164,Surname mention in the return-to-Venice sentence.
+m-chp8-p237-venice,chp-8:08_CHP-8_sec_ii:l311-325,cand-3401,Venice,25,31,Explicit destination in the return sentence.
+m-chp8-p237-england,chp-8:08_CHP-8_sec_ii:l311-325,cand-6809,England,61,68,Explicit destination in the travel sentence.
+m-chp8-p237-crespi,chp-8:08_CHP-8_sec_ii:l311-325,cand-0871,Giuseppe Maria Crespi,262,283,Full name in the account of the February 1708 letter.
+m-chp8-p237-florence,chp-8:08_CHP-8_sec_ii:l311-325,cand-3397,Florence,175,183,Named location in the Medici-capital sentence.
+m-chp8-p237-bologna,chp-8:08_CHP-8_sec_ii:l311-325,cand-3398,Bologna,193,200,Named location in the return-to-Bologna sentence.
+m-chp8-p237-late-baroque,chp-8:08_CHP-8_sec_ii:l311-325,cand-8012,late Baroque conventions,485,509,Exact phrase describing the artistic conventions; type/scope question stays open.
+m-chp8-p237-venetian-tradition,chp-8:08_CHP-8_sec_ii:l311-325,cand-8013,Venetian tradition,831,849,Exact phrase in Crespi/Ricci comparison; candidate decision stays open.
+m-chp8-p237-court,chp-8:08_CHP-8_sec_ii:l311-325,cand-8010,court,575,580,Court in the explicit phrase about Ferdinand’s court.
+m-chp8-p237-still-lives,chp-8:08_CHP-8_sec_ii:l311-325,cand-8014,a couple of still lives,1350,1373,Exact commissioned work group; identity/type decision stays open.
+m-chp8-p237-disputes-litigation,chp-8:08_CHP-8_sec_ii:l311-325,cand-8027,disputes and litigation,2090,2113,Exact event phrase in the legal-disputes sentence.
+m-chp8-p237-graziani,chp-8:08_CHP-8_sec_ii:l311-325,cand-1229,Ercole Graziani,2414,2429,Full name in the other Bolognese artists sentence.
+m-chp8-p237-dal-sole,chp-8:08_CHP-8_sec_ii:l311-325,cand-2480,Giovan Gioseffo dal Sole,2487,2511,Full name in the other Bolognese artists sentence.
+m-chp8-p237-santi,chp-8:08_CHP-8_sec_ii:l311-325,cand-2356,Giovan Gioseffo Santi,2431,2452,Full name in the other Bolognese artists sentence.
+m-chp8-p237-note1-ref,chp-8:08_CHP-8_sec_ii:l311-325,cand-8015,note 1,2649,2655,Body cross-reference to the cited letter statement in note 1; no second note mention is fabricated.
+m-chp8-p238-court-position,chp-8:08_CHP-8_sec_ii:l327-336,cand-8010,at court,2567,2575,Exact appointment context; no new relation or identity decision.
+m-chp8-p238-pepoli-ceiling-frescoes,chp-8:08_CHP-8_sec_ii:l327-336,cand-8041,great ceiling frescoes,999,1021,Exact work description in the Pepoli palace sentence; work identity remains open.
+m-chp8-p238-two-urgent-letters,chp-8:08_CHP-8_sec_ii:l327-336,cand-8042,two urgent letters,1238,1256,Exact plural correspondence description; endpoint identity remains open.
+m-chp8-p238-pepoli-palace,chp-8:08_CHP-8_sec_ii:l327-336,cand-1872,palace,946,952,Palace in the Pepoli-family clause; distinct from the preceding Medici/Pratolino contexts.
+m-chp8-p238-pepoli-family,chp-8:08_CHP-8_sec_ii:l327-336,cand-7377,Pepoli family,923,936,Explicit family mention linked to the palace clause.
+m-chp8-p238-italy,chp-8:08_CHP-8_sec_ii:l327-336,cand-3461,Italy,841,846,Geographic extent of Giovanni Ricci’s financed travels.
+m-chp8-p238-crespi-newborn-son,chp-8:08_CHP-8_sec_ii:l327-336,cand-8043,newborn son,2454,2465,Kinship role of Crespi’s child; kept distinct from the named Ferdinand.
+m-chp8-p238-ferdinando-son,chp-8:08_CHP-8_sec_ii:l327-336,cand-8043,Ferdinando,2474,2484,Child’s name in the same sentence; does not identify him as Grand Prince Ferdinand.
+m-chp8-p238-pittore-attuale,chp-8:08_CHP-8_sec_ii:l327-336,cand-8044,pittore attuale,2595,2610,Quoted office/title in the court-appointment sentence; candidate type remains open.
+m-chp8-p238-vasallaggio,chp-8:08_CHP-8_sec_ii:l327-336,cand-8045,vasallaggio,457,468,Exact quoted term in the promise sentence; terminology decision remains open.
+m-chp8-p238-poggio-location,chp-8:08_CHP-8_sec_ii:l327-336,cand-1966,Poggio a Caiano,2702,2717,Location nested inside the Fair title phrase; distinct location/work spans are intentional.
+m-chp8-p239-ferdinands-gallery,chp-8:08_CHP-8_sec_ii:l338-348,cand-8051,his gallery,325,336,Gallery possession/reference in the Crespi study sentence; place identity remains open.
+m-chp8-p239-medici-collections,chp-8:08_CHP-8_sec_ii:l338-348,cand-8052,Medici collections,527,545,Collection reference in the attribution sentence; type remains unresolved.
+m-chp8-p239-tintoretto,chp-8:08_CHP-8_sec_ii:l338-348,cand-2627,Tintoretto,570,580,Named painter within the attributed-picture description.
+m-chp8-p239-picture-attributed-tintoretto,chp-8:08_CHP-8_sec_ii:l338-348,cand-8049,a picture attributed to Tintoretto,546,580,"Work mention contains the nested Tintoretto span; attribution is reported, not accepted as authorship."
+m-chp8-p239-crespi-letter,chp-8:08_CHP-8_sec_ii:l338-348,cand-8050,a letter,471,479,Letter reference in Crespi’s first-person account; archive identity remains open.
+m-chp8-p239-ferdinand-support,chp-8:08_CHP-8_sec_ii:l338-348,cand-1612,Ferdinand,665,674,"Later explicit occurrence in the support clause, separate from existing mention at [210:219]."
+m-chp8-p239-recorded-opinions,chp-8:08_CHP-8_sec_ii:l338-348,cand-8056,His recorded opinions,1398,1419,Exact phrase in the discussion of Ferdinand’s view; scope remains open.
+m-chp8-p239-letters,chp-8:08_CHP-8_sec_ii:l338-348,cand-8056,his letters,1444,1455,Explicit correspondence phrase; same current candidate group as the recorded-opinions item.
+m-chp8-p239-chardin,chp-8:08_CHP-8_sec_ii:l338-348,cand-0649,Chardin,2069,2076,Named comparative painter in the counterfactual sentence.
+m-chp8-p239-pitti-palace-b078,chp-8:08_CHP-8_sec_ii:l338-348,cand-1949,Pitti,2398,2403,Exact palace name in Ferdinand’s collection distribution sentence.
+m-chp8-p239-bologna-b078,chp-8:08_CHP-8_sec_ii:l338-348,cand-3398,Bologna,2310,2317,Explicit place in Crespi’s retirement sentence.
+m-chp8-p239-italy-b078,chp-8:08_CHP-8_sec_ii:l338-348,cand-3461,Italy,2203,2208,Explicit geographic scope of the “modern” prince assessment.
+m-chp8-p239-medici-family-b078,chp-8:08_CHP-8_sec_ii:l338-348,cand-5179,the family,2685,2695,Anaphoric reference to the Medici family in the immediately preceding collection context; no additional family fact inferred.
+m-chp8-p239-longhi-catalogue-b078,chp-8:08_CHP-8_sec_ii:l338-348,cand-8022,1948 exhibition catalogue,2856,2881,Descriptive reference to Longhi’s 1948 exhibition catalogue; the printed catalogue title is not stated here.
+m-chp8-p239-venetian-pictures-b078,chp-8:08_CHP-8_sec_ii:l338-348,cand-8055,Venetian pictures,2725,2742,Explicit collection group in the page-end sentence.
+m-chp8-p239-longhi-b078,chp-8:08_CHP-8_sec_ii:l338-348,cand-8058,R. Longhi,2819,2828,Author name in the footnote attached to Crespi’s restraint discussion.
+m-chp8-p240-ten-titian-attributions-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-8093,about ten attributed to Titian,21,51,Reported group and attribution qualifier; not an assertion of Titian authorship.
+m-chp8-p240-titian-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-2630,Titian,45,51,Painter name nested in the reported attribution phrase.
+m-chp8-p240-flemish-works-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-8061,Flemish works,69,82,Explicit unspecified work group in Ferdinand’s collection.
+m-chp8-p240-contemporary-roman-painting-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-8095,contemporary Roman painting,122,149,Exact term phrase in the collection assessment.
+m-chp8-p240-florentine-school-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-8102,Florentine school of the day,158,186,Exact school phrase; candidate scope remains bounded by this passage.
+m-chp8-p240-mehus-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-1632,Livio Mehus,236,247,Full painter name in the current source segment.
+m-chp8-p240-mehus-canvases-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-8060,his canvases,738,750,Anaphoric work-group span refers to Mehus’s canvases; retain the original scope.
+m-chp8-p240-mehus-thirty-works-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-8060,thirty of whose works,249,270,"Second explicit mention of the thirty-work group, before the ownership predicate."
+m-chp8-p240-mehus-son-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-8059,his son,773,780,Unnamed son remains unidentified; no name inferred.
+m-chp8-p240-special-room-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-8062,special room,818,830,Explicit room mention at Poggio a Caiano.
+m-chp8-p240-poggio-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-1966,Poggio a Caiano,786,801,Explicit named place in the special-room sentence.
+m-chp8-p240-ricci-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-2154,Ricci,955,960,Full painter name in the 1707 work sentence.
+m-chp8-p240-unidentified-work-deixis-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-8063,this,934,938,Deictic anchor for the unidentified work candidate; its exact referent remains unresolved.
+m-chp8-p240-pratolino-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-7838,Pratolino,1023,1032,Explicit collection location.
+m-chp8-p240-villa-castello-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-8064,Villa di Castello,1041,1058,Explicit named collection location.
+m-chp8-p240-exhibitions-term-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-0138,exhibitions,2036,2047,Explicit plural reference to the exhibition practice.
+m-chp8-p240-sacconi-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-2325,Sacconi,1776,1783,Surname in the exhibition-policy sentence.
+m-chp8-p240-italy-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-3461,Italy,2397,2402,Explicit country name in the catalogue sentence.
+m-chp8-p240-corpus-domini-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-6024,Corpus Domini processions,1526,1551,Exact festival/procession phrase; statement scope retained.
+m-chp8-p240-venice-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-2719,Venice,2223,2229,Explicit place of the S. Rocco exhibitions.
+m-chp8-p240-printed-catalogue-b078,chp-8:08_CHP-8_sec_ii:l350-359,cand-8069,A printed catalogue,2325,2344,Descriptive mention; the exact title is given in p.240 n.5 and remains a separate source string.
+m-chp8-p215-pesenti-person-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-7654,Pesenti,17,24,Surname-only source citation; identity remains limited to the current candidate.
+m-chp8-p215-dora-coggiola-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-7658,Dora Coggiola,297,310,Named acknowledgment recipient.
+m-chp8-p215-biblioteca-civica-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-7659,Biblioteca Cívica,318,335,Institution as transcribed in the acknowledgment.
+m-chp8-p215-bergamo-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-6208,Bergamo,337,344,Place nested in the institution/location phrase; identity group remains separately mapped.
+m-chp8-p217-bottari-vol3-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-5461,"III, pp. 352-4",432,446,Explicit volume/pages for the separately cited Bottari publication.
+m-chp8-p218-bottari-hi-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-5461,"Bottari, HI, pp. 355-6",450,472,S0 reads “HI”; p.218 scan indicates Roman numeral III. The source transcription is not rewritten.
+m-chp8-p219-crossing-subject-ref-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-7668,subject represented,545,564,Anaphoric span for the painting discussed in linked p.219 body statement; not an independent title identification.
+m-chp8-p219-hymn-title-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-7684,Hymn of Liberation after the Crossing,581,618,Exact reported alternate subject title; remains reported attribution/identification.
+m-chp8-p219-anonymous-article-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-7689,"anonymous article in Bergomum, 1947",479,514,Descriptive bibliographic citation; article title is not reported.
+m-chp8-p219-tassi-citation-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-7690,"Tassi, I, p. 265",622,638,Exact abbreviated citation; full work identity remains unresolved.
+m-chp8-p220-bonari-bottari-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-5461,"Bonari, III, pp. 361-9",642,664,"S0 OCR reads “Bonari”; the p.220 scan reads “Bottari, III”. Keep exact S0 surface and preserve the scan correction as a note."
+m-chp8-p221-s-paolo-dargan-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-11462,S. Paolo d’Argan,789,805,Exact church name in Haskell’s footnote.
+m-chp8-p221-balestra-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-0168,Balestra,888,896,Surname in the list of painters named in the note.
+m-chp8-p221-lazzarini-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-1374,Lazzarini,870,879,Surname in the list of painters named in the note.
+m-chp8-p221-ricci-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-2154,Ricci,881,886,Surname in the list of painters named in the note.
+m-chp8-p221-venice-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-3401,Venice,911,917,"Place associated with the named painters in the source wording, not the church’s location."
+m-chp8-p221-local-artists-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-12104,some local artists,929,947,Unnamed local artist group; remains unindividualized.
+m-chp8-p221-crespi-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-0871,G. M. Crespi,842,854,Abbreviated artist form in the note; candidate identity remains governed by its existing S3 group.
+m-chp8-p221-ruffo-pronoun-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-2304,his,1010,1013,Anaphoric span in the footnote attached to the Ruffo career account; no identity claim beyond that linkage.
+m-chp8-p221-moroni-person-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-5954,Moroni,1025,1031,Surname-only cited authority; identity remains unresolved.
+m-chp8-p221-moroni-book-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-7696,"Moroni, Vol. 69",1025,1040,Abbreviated volume citation; the complete title is not present in the note text.
+m-chp8-p222-manuscript-id-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-7711,Collezione Antonelli MS. 610,1289,1317,Exact repository/manuscript shelfmark in the note.
+m-chp8-p222-manuscript-title-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-7711,"Calleria di Pitture raccolte, ed esposte nel Palazzo Vescovale di Ferrara",1318,1391,Exact S0 title span preserves OCR “Calleria”; the candidate’s normalized title does not overwrite the transcription.
+m-chp8-p222-baruffaldi-b078,chp-8:08_CHP-8_sec_ii:l372-461,cand-7710,Girolamo Baruffaldi,1505,1524,Named author of the manuscript description.
