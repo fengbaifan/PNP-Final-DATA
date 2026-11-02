@@ -17232,3 +17232,16 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **裁决边界。** 100条历史审读均保留开放发现，全部维持`prior_review_mapped_open`；本批不升级当前PASS，不把复用误报为新语义接收。当前statement、mention、candidate、alignment、KU及`relations.csv`均无变更；没有差异需要回开相关关系裁决。
 
 **批后状态与剩余量。** B121顺序801–900共100条精确历史复用完成；因这批原本已有历史映射但含开放发现，全库状态分母不变：当前PASS 5,120、已审待证698、历史映射开放8,323、版本差异待核81、待回映／当前复核1,283。未获当前PASS 10,385，待当前路由1,364。下一批从901开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b122-ch1-sec-ii-901-1000"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B122：第一章第二节及脚注，顺序901–1000
+
+**历史核平与可复用项。** 本批连续100条各有1条历史事件，来源版本100/100匹配。99条当前statement中，71条statement hash及mention差异均精确；另28条statement本身仍与历史版完全一致，历史事件行呈现同一segment mention-set新增`m-s2-chp1-p22-20261029-procedure`的差异。该新增mention只映射至顺序952的唯一statement，故另外28条仍复用原阅读并保留开放发现，不视为各自statement变更。
+
+**顺序952的当前版本与指代修复。** `st-chp1-secii-l917-926-02d`为唯一内容版本差异：原claim和`original_quote`未变，当前S2对象已由泛称展览term `cand-3574`改为自我宣传procedure `cand-3141`，通用term仍保留为单独mention。原引句在CHP-1 L922–923；新增mention“making use of exhibitions to establish his reputation”在当前segment `[1578,1631)`精确。依据[2026-10-29 Art exhibitions跨章独立复核](../results/stages.md#2026-10-29-art-exhibitions跨章端点修订与独立复核)，该statement、procedure端点、S3 term/procedure分界及rel-0299复用已独立复核通过。
+
+**关系说明同步。** 当前statement的`relation_candidate_note`旧称“no S6 formal edge is created here”，但`relations.csv`已有同一来源范围的formal `rel-0299 uses_procedure`（Rosa→`units/procedures/exhibition-self-promotion`）。现将说明改为明确复用既有formal边，不新增、不改写该关系；同段泛称`cand-3574`仍与procedure分立。S3 alignment不变；既有关系历史裁决不变。
+
+**批后状态与剩余量。** B122结算100条：99条历史开放项复用保留；唯一当前差异statement依据既有独立PASS回映，修正其过时关系说明后当前PASS。全库PASS 5,121、已审待证698、历史映射开放8,323、版本差异待核80、待回映／当前复核1,283；未获当前PASS 10,384，待当前路由1,363。下一批从1001开始；9,622历史事件总账不变，S2仍未全书独立语义接收。
