@@ -3001,3 +3001,7 @@ Reconciled 54 continuous Chapter 21 rows: 54 existing current PASS reused, 0 cur
 ### B572：第2章 p.25 注4指代范围修订
 
 基线连续原文 1330–1429 共 100 条：87 条现有 PASS 复用、4 条 pending 转 PASS、9 条 pending 保留；补录 *Bacchus and Ariadne* 的 Albani-study 与 d’Arpino-copy 两条原文关系候选。当前源序窗口扩为 1330–1431（102 条：93 PASS、9 pending），下一窗口 1432–1531。全库当前为 15,514 条 statement、8,715 PASS、6,799 pending；27,339 条 mention 不变。H9622 历史账本、S3 alignment 与正式 relations 均未改。详见[B572 原页与指代裁决](../process/stages.md#2026-11-03-s2-current-review-b572-order-1330-1429-pronoun-scope)。
+
+### 2026-11-03 S2 current-version ID review stage B573 (baseline order 1432–1531)
+
+基线连续100条：68条既有当前PASS经ID、statement、来源段和mention指纹核对后复用；25条pending按印刷p.31–34原页修订后转PASS；7条原pending保留。补入4条statement（3 PASS、1 pending）及11条精确mention。批后当前序1432–1535共104条，96 PASS、8 pending；全局15,518条statement、27,350条mention、8,743 PASS、6,775 pending。H9622账本及来源版本映射不变；当前ID级statement hash为8,947 exact、590 changed。alignment、候选表和正式relations未改，`rel-2281`及`rel-1568`–`rel-1570`维持原formal裁决。S2仍未获全书独立语义接收，下一当前序窗口1536–1635。详见[B573过程记录](../process/stages.md#2026-11-03-s2-current-review-b573-order-1432-1531)。

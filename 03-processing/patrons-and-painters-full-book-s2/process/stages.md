@@ -21147,3 +21147,32 @@ Exact historical hashes map to current statuses: . Changed historical hashes map
 **下游与历史影响。** 当前 S3 对齐未改：Albani `cand-0021` 仍为 `same`，d’Arpino `cand-0121` 仍为 `undecided`，Bacchus and Ariadne `cand-4250` 仍为 `new`、待 S4 登记。`relations.csv`、`alignment.csv` 与 H9622 不可变事件账本均未改；没有 S6 边因本批升级，相关原关系/引文裁决不作扩展。四条历史审读事件保留原版本与原裁决；新增两条无 H9622 历史事件。旧拒绝、pending 与来源证据不被回写覆盖。
 
 **批后状态与核对。** 当前 statement / roster 为 15,514 条且 ID 一一对应，源序 1–15,514 连续，statement 指纹 15,514/15,514 匹配；mention 仍为 27,339。当前 PASS 8,715、pending 6,799。H9622 9,622 行及 SHA-256 `75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89` 未变；当前 roster 仍映射 9,620 个历史事件至 9,537 个 ID（含 83 次重复审读，另 2 个旧 ID 有撤销/拆分去向）。计划哈希：`4bcb1b0ad5b531882c07bfdf25e79ddea48a4548f61a7d39f3a417113a9ecd9b`。本批不等于全书 S2 独立语义接收；6,799 条 pending 仍需按其缺口分流处理。
+
+
+<a id="2026-11-03-s2-current-review-b573-order-1432-1531"></a>
+### 2026-11-03 S2 当前版逐ID复核阶段 B573（基线顺序 1432–1531）
+
+**范围与复用。** 以 B572 后当前 roster 的连续源序 1432–1531 为基线，覆盖100条原有 statement。68条已有 PASS 在当前 statement、来源段及mention指纹一致后复用；对25条 pending 根据原页修订 claim、指代或mention范围并转为当前 PASS；另7条证据或端点仍不足，保留 pending。补入4条原书statement，其中3条当前 PASS、1条当前 pending；新增11条精确mention。因四条statement插入源序，批后当前 roster 窗口为1432–1535，共104条（96 PASS、8 pending），下一窗口1536–1635。
+
+| B573组成 | 数量 | 处理 |
+|---|---:|---|
+| 基线当前 PASS | 68 | 当前对象、来源段和mention指纹一致，复用既有原页依据 |
+| 基线 pending | 32 | 25转当前 PASS；7保持pending |
+| 新增 statement | 4 | 3条当前 PASS；1条pending |
+| 新增精确mention | 11 | 按当前S0段落字符偏移核对 |
+| 批后当前 roster | 104 | 96 PASS、8 pending |
+
+**原文依据与判断变化。** 直接核对 `02-sources/01-book/CHP-2.pdf` PDF物理页12–15（印刷p.31–34）和 `02-sources/02-Markdown/02_CHP-2_sec_ii.md` L3–40；两项来源SHA-256分别为 `317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e` 与 `7efde367c2d7d600f599c17d09fbc4f57bf29aa6b7efb439859a1f45b8c863a9`。
+
+- 印刷p.31将 “Nepotism was a recognised feature of the papal system” 独立记为制度特征陈述，与随后具体巫术企图及“close relation”顾问理由分开；未从一般陈述推定具体顾问身份。后者继续 pending。
+- 印刷p.32将 Contarini 对教皇国的 “superb state” 描述与其后对 Rome 的评价分开记录，保留引文中的注4来源定位；评价语不扩写成所有权或行政关系。
+- 印刷p.33将“新教推进不再是眼前问题”与 Henri IV 的和解、White Hill 战役及其胜利效果分开；补入对应事件组和上下文mention。新增 French-cultural consequence statement忠实记录 Haskell 原句，但“a situation”没有独立端点，`cand-4221` 的文化/政治范围也未定，因此该新statement保持 pending，不建正式关系。
+- 印刷p.34复核 Barberini style、Bernini 与相关人物/作品的现有候选映射；此段没有因批次扩大而新增mention或关系。
+
+25条修订的旧statement均保留稳定ID；根据原页修正claim、限定语、引句或端点映射，并逐条刷新当前statement指纹。包括移除对一般“papal treasury”断言和 Richelieu 所利用的 “situation” 的不当 `cand-3104` 端点映射；后一断言因缺少该情境候选仍 pending。当前statement及当前mention集合的roster指纹在全表逐项重算后分别为15,518/15,518匹配。
+
+**继续保留的8条 pending。** 原有7条为：`st-chp2-seci-l124-157-colonna-sale-letter`（信件所述出售事件尚无端点）；`st-chp2-sec-ii-l3-8-sovereignty`（Urban VIII叙述与未具名威尼斯使节的批评混在一条claim中）；`st-chp2-sec-ii-l3-8-nepotism-rationale`（近亲/顾问身份未定）；`st-chp2-sec-ii-l20-28-baroque-triumph-and-victories`（两项事件构成的组候选类型和边界待S3）；`st-chp2-sec-ii-l20-28-urban-fortification-impact`（内外城防、影响、作品及受众范围尚未拆清）；`st-chp2-sec-ii-l20-28-richelieu-exploited-alliance`（“situation”无独立候选端点）；`st-chp2-sec-ii-l20-28-naude-french-quotation`（引文混合地理范围且涉及未具名群体）。另新增 `st-chp2-sec-ii-l20-28-french-cultural-aspects-reinforcement`，因情境端点与`cand-4221`范围未决而保持 pending。
+
+**相关关系、S3与历史裁决。** `alignment.csv`、`entity-candidates.csv`、`relations.csv` 均未改写；本批没有改动同一性决定，也未将S2 relation candidate升级为S6边。按印刷页及来源定位核查，p.31现存正式关系 `rel-2281 appointed_by` 仍由未修改的 `st-chp2-sec-ii-l3-8-antonio-brother-cardinal` 与原有外部身份/日期依据支持；p.33注1的 `rel-1568`–`rel-1570` 对应其他statement，均保持原formal裁决。四条新增statement均无H9622历史事件；H9622不可变账本SHA-256 `75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89` 未变。25条旧statement的当前hash变化如实标记为历史版本 `changed`，当前ID级汇总由8,972 exact / 565 changed更新为8,947 exact / 590 changed；来源版本仍匹配9,622/9,622。
+
+**批后状态及可复现记录。** 当前statement与roster均15,518条、ID一一对应，`current_order`连续覆盖1–15,518；当前statement哈希和各segment mention数量/哈希全表通过。mention共27,350条；全局当前 PASS 8,743、pending 6,775。批次脚本为 `adjudicate_s2_current_review_b573_order_1432_1531_20261103.py`，基线HEAD `791eb62b79b81e127cd3f98ac9db76cd1d7e30e3`，dry-run/apply计划SHA-256 `4fdd1d016c782cd62c80bc742da82e84aa8680779417ea7942e664ce97102a8d`，脚本SHA-256 `ca0851d4f0f3236b1444ae1b059fbf167b139315c11714c80fdbe08da7fe2472`。本批不构成全书S2独立语义接收；8条pending仍按缺口保留，下一连续窗口从当前顺序1536开始。
