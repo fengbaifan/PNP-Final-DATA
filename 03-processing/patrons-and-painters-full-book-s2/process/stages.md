@@ -20897,3 +20897,22 @@ There is no corresponding event for these rows in the immutable H9622 ledger: al
 **Relation and decision impact.** Fourteen `relations.csv` rows cite statements in this interval: 12 formal (rel-2540, rel-2544, rel-2609, rel-2610, rel-2611, rel-2612, rel-2613, rel-2614, rel-2615, rel-2616, rel-2617, rel-2618) and two pending (`rel-2621`, `rel-2622`). All endpoints, predicates, scope, evidence, and S6 decisions are unchanged. In particular, the two pending relationships remain pending. No statement, mention, candidate, alignment, KU, H9622 history, or relation row was modified.
 
 **Stage result.** The full roster remains 15,512 statements and 27,339 mentions; global current status remains PASS 8,709 and pending 6,803. The reconciliation cursor now reaches 11,858/15,512; next order 11,859, with 3,654 sequence positions remaining. The earliest unresolved finding remains 1,330. Reused PASS evidence does not constitute independent whole-book S2 acceptance.
+
+<a id="2026-11-03-s2-current-review-stage-b535-b537-order-11859-12158"></a>
+
+### 2026-11-03 S2 current-version ID reconciliation stage B535–B537 (orders 11859–12158)
+
+**Current review and evidence reuse.** The continuous source-order span crosses from Chapter 10 into Chapter 13. Current status is 256 `reviewed_current_pass` and 44 `reviewed_current_pending`; all current statement, source asset, segment, and mention fingerprints match the roster (errors: 0). All current evidence anchors resolve. The 45 H9622 event references point to ledger rows with the same statement IDs; the other 70 nonblank prior-review references resolve to nonblank line anchors in this process file. The immutable H9622 ledger was not edited.
+
+| Batch | Current order | PASS reused | Pending retained | H9622 events | Exact / changed | Source match | Prior review refs |
+|---|---:|---:|---:|---:|---:|---:|---|
+| B535 | 11859–11958 | 100 | 0 | 0 | 0 / 0 | 0/0 | B103: 74; B104: 26 |
+| B536 | 11959–12058 | 100 | 0 | 0 | 0 / 0 | 0/0 | B104: 74; B105: 26 |
+| B537 | 12059–12158 | 56 | 44 | 45 | 44 / 1 | 45/45 | B105: 55; B106: 1; B363: 19; B364: 25 |
+| **Stage total** | **11859–12158** | **256** | **44** | **45** | **44 / 1** | **45/45** | **B103: 74; B104: 100; B105: 81; B363: 19; B364: 25; B106: 1** |
+
+Of 45 reconstructed H9622 events, 44 current statement hashes are exact and one is changed (`H9622-05815 (st-chp13-p333-barbarigo-1765-pamphlet-instructions-through-gozzi)`); source versions match 45/45. The remaining 255 rows are `not_in_reconstructed_count` with no event. The 44 current pending findings remain pending; the single changed historical hash remains recorded as changed. No status was upgraded and no historical hash or prior verdict was rewritten. Previous semantic evidence is preserved in each roster row's follow-up note.
+
+**Relation and decision impact.** Twenty-three `relations.csv` rows cite statements in this range: 15 formal (rel-1293, rel-1472, rel-1473, rel-1474, rel-1475, rel-2212, rel-2213, rel-2351, rel-2352, rel-2353, rel-2354, rel-2416, rel-2417, rel-2619, rel-2620) and eight pending (rel-2309, rel-2462, rel-2463, rel-2464, rel-2465, rel-2648, rel-2649, rel-2650). Endpoints, predicates, scope, evidence, and S6 dispositions remain unchanged. All 44 current pending findings and all eight pending relation decisions remain pending. No statement, mention, candidate, alignment, KU, history-ledger, or relation data row was modified.
+
+**Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation now reaches 12,158/15,512; next order 12,159, with 3,354 sequence positions remaining. Earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.
