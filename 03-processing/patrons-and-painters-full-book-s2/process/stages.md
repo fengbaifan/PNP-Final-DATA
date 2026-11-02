@@ -17368,3 +17368,15 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 - B004的41条属于更大的75条第2章L19–43及注释主审范围，状态是primary current source review pass，不能写作独立PASS。当前窗口中4条无历史事件为Valentin restraint comparison、found break harder、history-painting demand、influenced by Caravaggio；均有B004逐行回链。rel-2491/rel-2492保持p.46 L34所支持的既有formal范围。B004另外记载旧S6复合statement的pending决定不能自动套到拆分后的当前footnote statements；其逐条S6重审仍按原交接推进，本批未新增关系边。
 
 **批后状态。** 本批不新增PASS或改写roster证据字段；S3身份、KU、relations.csv及历史9,622事件不变。全库roster状态保持：当前PASS 5,133、已审待证700、历史映射开放8,323、版本差异待核73、待回映／当前复核1,276；未获当前PASS 10,372，当前路由未结1,349（含版本差异73）。下一批从2001开始；S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b133-ch2-sec-iv-2001-2100"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B133：第二章第四节，顺序2001–2100
+
+**历史ID与版本核平。** 连续100条全部已关联当前review记录，分属B004 12条、B005 85条、B006 3条；不重复阅读已有审读范围。98条有一条历史事件且来源版本全部匹配：86条statement与历史对象精确一致，12条statement版本不同。前11条差异（顺序2001–2006、2008–2012）来自同一S0段共享mention `m-chp2-seciv-l31-43-letter-poussin-1642` 的新增，不能误计成11次独立mention变化；第12条为顺序2037的圣比比亚娜statement修订。另2条没有历史事件：顺序2007沿用B004当前版主审PASS，顺序2090沿用B005当前版主审pending。历史9,622事件台账不改写。
+
+**当前review状态与待证项。** 当前版主审结论为38条PASS（B004 12、B005 26）及62条pending（B005 59、B006 3）。既有pending不因历史精确匹配而升级：顺序2013及多个Taddeo身份、任职和交易断言继续保留来源范围／mention端点缺口；顺序2037仍缺statement级`mentioned_candidate_ids`；顺序2090原文仅称一封来自Giovanni的信，标题、日期、收件人未明，mention映射不完整。具体待办仍以roster原`follow_up_note`和B005/B006逐ID记录为准。
+
+**S3/S6影响核对。** 未改statement、mention、candidate、alignment、KU、relations.csv或历史事件。窗口中6条statement连到既有正式关系`rel-2412`–`rel-2415`、`rel-2456`、`rel-2524`；其范围与历史S6裁决记录一致，全部保持原状。特别是`rel-2415 authored_by`继续仅表达“Haskell称此信来自Giovanni”，不表示已找到或读过信件；顺序2090的S2 pending待办不授权扩大该边。未新增正式边，未覆盖尚待证的端点与关系问题。
+
+**批后状态。** B133完成100/100历史事件与当前ID／来源版本核平，并回链既有当前版结论；本批新增PASS 0、pending转PASS 0。roster全库状态因此保持：当前PASS 5,133、已审待证700、历史映射开放8,323、版本差异待核73、待回映／当前复核1,276；未获当前PASS 10,372，当前路由未结1,349。下一批从2101开始；9,622历史事件数不变，S2仍未全书独立语义接收。
