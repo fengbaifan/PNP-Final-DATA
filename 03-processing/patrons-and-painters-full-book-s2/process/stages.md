@@ -20992,3 +20992,21 @@ The 293 exact historical statements remain pending and retain the historical ope
 **Relation and decision impact.** Forty-nine `relations.csv` rows cite statements in this interval: 48 formal (rel-1287, rel-1313, rel-1314, rel-1315, rel-1316, rel-1317, rel-1318, rel-1321, rel-1322, rel-1323, rel-1324, rel-1325, rel-1326, rel-1329, rel-1330, rel-1364, rel-1488, rel-1489, rel-1538, rel-1540, rel-1541, rel-1649, rel-1713, rel-1714, rel-1715, rel-1716, rel-1717, rel-1718, rel-1719, rel-1720, rel-1721, rel-1722, rel-1759, rel-1760, rel-1761, rel-1762, rel-1973, rel-1974, rel-1975, rel-1976, rel-1977, rel-1978, rel-2073, rel-2300, rel-2301, rel-2374, rel-2375, rel-2376) and one pending (`rel-1539`). All endpoints, predicates, scope, evidence, and S6 decisions remain unchanged; `rel-1539` remains pending. No relation row was modified.
 
 **Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 13,358/15,512; next order 13,359, with 2,154 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.
+<a id="2026-11-03-s2-current-review-stage-b550-b552-order-13359-13658"></a>
+
+### 2026-11-03 S2 current-version ID reconciliation stage B550–B552 (orders 13359–13658)
+
+**Current review and historical-event reconciliation.** This continuous span covers Chapter 15 orders 13359–13658. Current status is 47 `reviewed_current_pass` and 253 `reviewed_current_pending`; current statement, source asset, segment, and mention fingerprints pass 300/300. All 300 existing page-review evidence references resolve. The 297 H9622 event references map to matching statement IDs, with source versions matching 297/297. Historical outcomes remain unchanged; all 297 recorded an open finding unless separately passed.
+
+| Batch | Current order | PASS reused | Pending retained | H9622 events | Exact / changed | Source match | No event |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| B550 | 13359–13458 | 41 | 59 | 98 | 59 / 39 | 98/98 | 2 |
+| B551 | 13459–13558 | 3 | 97 | 100 | 97 / 3 | 100/100 | 0 |
+| B552 | 13559–13658 | 3 | 97 | 99 | 97 / 2 | 99/99 | 1 |
+| **Stage total** | **13359–13658** | **47** | **253** | **297** | **253 / 44** | **297/297** | **3** |
+
+The 253 exact historical statements remain pending with their open findings. Forty-four changed historical hashes are current PASS rows supported by prior current-version page review; the historical hashes remain changed. Three additional current PASS rows have no reconstructed H9622 event. The 297 H9622 event outcomes, review hashes, source versions, and ledger rows are unchanged. Prior review-batch distribution: S2-B246-CH15-P365-MENTION-DELTA: 11; S2-B247-CH15-P365-P367-DELTAS: 32; S2-B248-CH15-P367-P370-DELTAS: 3; S2-B249-CH15-P370-P372-DELTAS: 1; S2-B376-CH15-P365-P366: 46; S2-B377-CH15-P366-P367: 84; S2-B378-CH15-P367-P372: 97; S2-B379-CH15-P370-P372: 26.
+
+**Relation and decision impact.** Fifty-four `relations.csv` rows cite statements in this interval: 50 formal (rel-1275, rel-1276, rel-1277, rel-1278, rel-1279, rel-1392, rel-1393, rel-1394, rel-1395, rel-1396, rel-1397, rel-1398, rel-1399, rel-1400, rel-1401, rel-1402, rel-1403, rel-1413, rel-1414, rel-1415, rel-1416, rel-1417, rel-1458, rel-1459, rel-1460, rel-1535, rel-1639, rel-1640, rel-1641, rel-1642, rel-1645, rel-1702, rel-1703, rel-1704, rel-1705, rel-1706, rel-1707, rel-1708, rel-1709, rel-1846, rel-1941, rel-1942, rel-2313, rel-2321, rel-2580, rel-2581, rel-2582, rel-2583, rel-2584, rel-2585) and four pending (rel-1710, rel-1711, rel-1712, rel-2608). All endpoints, predicates, scope, evidence, and S6 decisions remain unchanged; pending relations remain pending. No relation row was modified.
+
+**Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 13658/15,512; next order 13659, with 1,854 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.
