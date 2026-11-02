@@ -17335,3 +17335,13 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 - st-chp2-secii-l80-89-country-house-decoration-employed（1663）与st-chp2-secii-l80-89-pietro-interpreted-decoration-themes（1671）：复用2026-10-31独立当前版复核，过程记录明确覆盖两条当前statement，当前完整对象、来源和mentions相符。rel-2470 employed_by保留本项目范围，不推长期雇佣；rel-2471 designed_by保留Pietro的诠释／设计角色，不推为唯一施工者。
 
 **跨阶段影响与批后状态。** 当前candidate到KU的S3/S4映射与六条既有关系裁决rel-2000、rel-2001、rel-2002、rel-2470、rel-2471、rel-2472均未改；新旧决定未因本批核平而互相覆盖。全库仍为15,505条statement、27,302条mention、12,448个candidate。roster互斥状态：当前PASS 5,133、已审待证700、历史映射开放8,323、版本差异待核73、待回映／当前复核1,276；未获当前PASS 10,372，当前路由未结1,349（含版本差异73）。下一批从1701开始；9,622事件台账不变，S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b130-ch2-sec-ii-1701-1800"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B130：第二章第二节，顺序1701–1800
+
+**历史核平与已审结果复用。** 本批连续顺序1701–1800共100条。1701–1721的21条各有一条历史事件，当前statement、来源segment及mention集合均与历史读本精确匹配；复用历史直接阅读，原开放发现继续保留。1722–1800的79条已是current PASS，逐行均指向独立复核B001的同一证据锚点，不重复审读或覆盖原review_batch_id。
+
+**独立当前版核对。** B001覆盖第二章S0 L118–145的100条current statement；记录确认mention/端点修订后100/100由独立审阅者回核通过、181条mention span核对通过。B130的79条重叠项均落在B001范围，来源匹配，review_evidence_ref一致。初始roster快照与当前statement hash不同的两条（1741、1790）亦由B001明记：Carlo纪念碑评价移除前句尾项cand-4511、cand-1465；Urban dynastic motive fragment补入教堂候选cand-4521；修订后当前版已纳入100/100独立PASS。因此本批复用的是已覆盖当前修订的B001结论，不按较早snapshot hash误判为未审。B001还确认不改变S3决定或KU，且已逐项核对受影响S6边及mention候选范围。
+
+**批后状态。** 本批不新增PASS，也不更改S3、KU、S6或历史9,622事件；21条历史开放发现保持开放，79条既有独立PASS沿用。全库仍为15,505条statement、27,302条mention、12,448个candidate。roster互斥状态保持：当前PASS 5,133、已审待证700、历史映射开放8,323、版本差异待核73、待回映／当前复核1,276；未获当前PASS 10,372，当前路由未结1,349（含版本差异73）。下一批从1801开始；S2仍未全书独立语义接收。
