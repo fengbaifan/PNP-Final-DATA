@@ -16921,3 +16921,26 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **关系与裁决影响。** 直接关联的9条formal边保持不变：`rel-1293`、`rel-1472`–`rel-1475`、`rel-2212`–`rel-2213`、`rel-2416`–`rel-2417`；`rel-2650`继续pending。没有本批对应的rejected边，也未改`relations.csv`。formal关系仅按其原书书目或正文证据范围确认，未因脚注转录而宣称阅读被引材料。S3候选决定未重裁；未名人物、文献版本、肖像所在地及新版权结果均不强补端点。
 
 **批后状态与定向检查。** B105的81条`needs_crosswalk`均完成当前复核PASS：30条精确复用旧页审读，51条变化/新增直接核读（38条变化、13条新增）；19条历史精确匹配继续开放。历史事件总数仍为9,622。本批未改statement、mention、candidate、alignment或relation表，仅更新逐ID roster与本记录。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态为当前PASS 4,475、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核1,925。未获当前PASS 11,030；当前路由剩余2,011（1,925待回映/当前复核＋86版本差异）。下一连续顺序为12126；顺序12126–15505共3,380条，其中历史映射开放2,023、待回映/复核1,280、版本差异待核77。S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b106-ch13-p333-p336"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B106：第十三章p.333–336，顺序12126–12225
+
+**历史事件、ID与版本核平。** 本批按当前原文顺序连续处理100条；100条各对应一个9,622历史复核事件，旧ID、current ID、来源段和来源资产均已核对。对历史审读快照`2273e2743158401b841fb9bc7b7d1332836d400a`比较：98条statement对象完全相同，历史直接阅读可以复用，但其原有开放发现继续开放；其余2条同ID statement已变化，逐项直接核对当前表述与印本。两个来源版本均匹配，未增加或撤销历史事件。历史mention delta按段指纹重复记在同段的各行，不能视为每条statement均有变化；直接比较`2273`与当前mention表后，`l14-19`仅`m-s2-ch13-p333-019`的描述变化，`l21-30`仅新增`m-s2-ch13-p334-044`，`l32-39`及`l41-50`无变化。两项变化分别只影响本批顺序12144与12164；其余98条的当前statement仍与历史版本一致。
+
+**来源与范围。** `13_CHP-13_intro.md` SHA-256=`c0b93d35aab60ec8261eb14db1e2f1b4d9ec7cae9709e19f236ccddbd12996a8`；权威来源`CHP-13.pdf` SHA-256=`da49addcf425e7473770ba02db64284d1189934cf38f2b773f0672f052fca2bc`。本批覆盖该Markdown L14–50的四个连续S0段，共100条statement和167条mention；每条当前statement hash、来源段hash、来源资产hash、段mention集合hash及`original_quote`对来源行范围检查通过。
+
+| 来源段 | statement | mention | S0 segment SHA-256 | 当前mention-set SHA-256 |
+|---|---:|---:|---|---|
+| `13_CHP-13_intro:l14-19` | 23 | 32 | `14b387b94bdd8ff02e1b97b42c2ab554839d8a2d55645f6a7d5d00b82a554bf6` | `873cdcd66a64c3c7ac1f74d94ce0dacb8ec45940b6176d4a1063748ee5901ec4` |
+| `13_CHP-13_intro:l21-30` | 24 | 43 | `71051b50a7ec099c88196112b4d831e5d947992428833bc30c66e28907641d9d` | `ee3b843557835355511c977a1654ee11b39a3b075ff24a1315dd7aeb38eb6bc4` |
+| `13_CHP-13_intro:l32-39` | 33 | 41 | `87b76d69cdd5618e7276f859c5ad8cf89a9ffb947d6e78c6032782e93414fe14` | `1e80ad986a63e1d73ed17332c2d48bc7bc040d6f1a248754f9be78a2385e76a9` |
+| `13_CHP-13_intro:l41-50` | 20 | 51 | `575ec0ac309dcec132ec190a56e047e1d634a0407f4a40453f06764329833fde` | `b01ed347ee47433c6846122eb21f711a79ffe2cc8dce0430215c7d0b1157c8b0` |
+
+**两条当前版本差异。** 顺序12144（`st-chp13-p333-barbarigo-1765-pamphlet-instructions-through-gozzi`）：物理页2、印刷p.333确读为“Gasparo Gozzi”，Markdown及`original_quote`中的“Gaspara”是OCR。当前statement qualifier记录印本校读，mention保留OCR表面和跨度；既有`aln-10151`已将对应候选映射到Gasparo Gozzi现存KU。当前statement忠实表达Haskell所引Barbarigo经代理人传达规格，记为`reviewed_current_pass`。这不解决精确的代理关系谓词：该关系仍为process-only pending，无对应formal边，不以委托或赞助边替代。
+
+顺序12164（`st-chp13-p334-albrizzi-edited-weekly-bulletin`）：物理页3、印刷p.334原句为“His brother Almorò organised ... and he himself edited ...”。局部协调结构支持Almorò，段落中心又允许指Giambattista；当前statement正确保留`subject_candidate_id=null`及两个候选，新增mention `m-s2-ch13-p334-044`的`[1836,1846)`准确覆盖“he himself”。因此当前裁决为`reviewed_current_pending`，编辑者归属与relation继续process-only pending；不采外部传记材料替Haskell消除歧义，不建formal边。
+
+**相关关系与台账影响。** 第13章p.333代理人—出版规格及p.334周刊编辑两个关系候选继续process-only pending；`relations.csv`无二者formal边。跨p.334/p.336记录的`rel-1310`（`member_of`）和p.336的`rel-2055`（`designed_by`）均与相关statement精确对应，原状态formal且未变化。本批未改relations.csv、S3决定、candidate或历史裁决表。
+
+**批后状态及核验。** 本批完成100/100条逐ID核平：1条当前PASS、1条当前待证、98条复用历史直接阅读且保留开放发现。`audit_tables.py --strict-stage --summary`结果`errors=[]`、`s2_missing=[]`；关系一致性阻断项为0。历史9,622事件数不变。本批只写roster及本过程/结果记录；S2仍未全书独立语义接收。
