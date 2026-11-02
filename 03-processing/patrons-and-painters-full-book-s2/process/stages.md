@@ -18410,3 +18410,57 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **原页与校读。** `CHP-15.pdf`物理页8打印脚注为“Molmenti: Un nobil huomo, pp. 137 ff.”，确认当前statement只记录Haskell所引页码；现有`if.`→`ff.` OCR校读正确，未声称已查阅Molmenti原书。当前引文及mention跨度定位通过。
 
 **下游影响。** 无statement、mention、关系或历史裁决写回；仅登记当前版复核锚点。本批局部PASS不代表全书S2独立接收。
+
+<a id="2026-11-02-s2-current-review-b251-order-13801-13900"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B251：第16章，顺序13801–13900
+
+**历史核平与逐ID结论。** 本批100条中99条与9,622历史台账的statement及来源版本精确匹配，1条无历史事件；唯一当前版复核项`st-chp16-p376-carpaccio-scenes-attribution`对照原页PASS。99条历史开放发现原样保留，不升级为当前PASS。
+
+**原页与语义。** 核读`CHP-16.pdf`打印页373、376–377（物理页1、4–5）。p.376只支持Haskell将《圣乌苏拉生平》著名场景归于Carpaccio的说法；未逐一指认画面，亦未独立核实归属。p.377注3按来源表述保存Urbani de Ghelthof档案记录定位；既有`rel-1650`仅表示Haskell报告该档案提及其文稿，不扩展为作者、所有权或保管关系。p.373的历史原文与mention沿用已核平版本。
+
+**下游影响。** 不改历史事件、候选身份或relations.csv；`rel-1661`维持原有来源范围。本批不构成全书S2独立接收。
+
+<a id="2026-11-02-s2-current-review-b252-order-13901-14000"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B252：第16章注释、第17章引言，顺序13901–14000
+
+**历史核平与逐ID结论。** 100条中90条属于历史台账（statement精确82、改版8），90/90来源版本匹配；另10条无历史事件。18条当前版对象（8条改版、10条新增）均经原页复核PASS；82条历史开放发现保留。
+
+**原页与指代。** 对照`CHP-16.pdf` p.373注2（物理页1）和`CHP-17.pdf` p.379引言注1–6（物理页1）。p.373将Strange致Sasso的信与Sasso回寄Strange的四封信分作两个集合；“him”按紧邻句回指Sasso，未与John Strange合并。p.379各注按印本核定Moschini 1806、Correr《Sonetti》手稿、1797 Manfrin pamphlet、Inquisitori登记538/540及Tassini 1887书目定位；仅记录Haskell所引信息，不声称查阅这些手稿或出版物。相关OCR校读与页码限定保存在statement qualifiers中。
+
+**下游影响。** `rel-1592`、`rel-1598–1601`及`rel-2302–2308`现有正式边维持原端点、方向和证据范围；未将两个通信集合合并，也未把作者名录差异扩大为新的外部身份事实。本批不改关系裁决或历史台账。
+
+<a id="2026-11-02-s2-current-review-b253-order-14001-14100"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B253：第17章 pp.380–383，顺序14001–14100
+
+**历史核平与逐ID结论。** 100条中99条属于历史台账（statement精确89、改版10），99/99来源版本匹配；另1条无历史事件。11条当前版对象（10条改版、1条新增）经原页复核PASS；89条旧开放发现不变。
+
+**原页与语义。** 对照`CHP-17.pdf`打印页380–381、383（物理页2、3、5）。p.380注4印作“de’ più sperti pennelli”，不补写成“esperti”；注6明确定位Correr《Epistolario Moschini》。p.381确认Manfrin收藏中有Giorgione《Tempesta》的Haskell归属陈述，及Correr有关Treviso任职的书信叙述；引言注1所引为Moschini 1806及1810。p.383确认Correr为Civic Guard豁免而提交证书的叙述及注2定位。引文与相关当前mention均回链当前S0片段，未把书中报告说成对原档案的独立查验。
+
+**关系与待证边界。** `rel-1911`、`rel-2003–2006`、`rel-2302/2303`维持既有formal范围；`rel-2007 part_of`继续pending，因为原页未将俱乐部朗读论文对应到1468/10的具体子项。候选身份、S3决定和9,622历史裁决不变。
+
+<a id="2026-11-02-s2-current-review-b254-order-14101-14200"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B254：第18章结论、第19章附录，顺序14101–14200
+
+**历史核平与逐ID结论。** 100条中88条属于历史台账（statement精确81、改版7），88/88来源版本匹配；另12条无历史事件。19条当前版对象（7条改版、12条新增）经原页复核PASS，81条历史开放发现照旧保留。
+
+**原页与语义。** 对照`CHP-18Conclusion.pdf` p.384（物理页1）及`CHP-19Appendix.pdf` pp.389–391（物理页4–6）。结论页保留Haskell对Bamboccianti、Crespi、Salvator Rosa等的评价性语气，不泛化为独立验证的艺术史定论。附录页核定Franceschini及Torelli致Marchesini书信、Ranuzzi致Grand Prince Ferdinand书信和注记，以及Smith于1762年向George III售画的陈述；保留信件抬头、署名和Haskell描述之间的来源界限。p.391售画事件只沿用既有事件身份，不另计一笔交易。
+
+**关系与下游影响。** `rel-1796–1798`、`rel-1842`及`rel-1915–1918`维持现有formal状态和来源范围；无端点、日期或角色证据的内容不外推。S3身份及历史开放发现均不变。
+
+<a id="2026-11-02-s2-current-review-b255-order-14201-14300"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B255：第20章后记 pp.396–398，顺序14201–14300
+
+**历史核平与逐ID结论。** 100条中66条与历史statement及来源版本精确匹配，66条既有开放发现保留；另34条无历史事件，全部经当前版原页复核PASS。后记所引二手研究仅按Haskell的书目和论述记录，未声称独立查阅或验证原研究结论。
+
+**原页校读与指代。** 对照`CHP-20Postscript.pdf` pp.396–398（物理页1–3）。页图确认`dell’Area`应校为印本`dell’Arca`，p.397 `16335`是年份1633加脚注标记7；现有statement校读保留。补正p.397两条statement的OCR记录：`thebaldacchino`对应印本`the- baldacchino`；`Don Urbano "Barberini`对应印本`Don Urbano-Barberini`。p.398的`stewardship.to`中句点可见于印本，故按原样保留，不记作OCR错误。p.398 “the Cardinal”经书中图版目录（`00_05_List_of_Plates.md`第43行）核定指Van Dyck的Guido Bentivoglio肖像；不与同段的Cardinal Borghese patron合并。保留Agucchi“probably”、委托或购入的可能性及Haskell对Wittkower论断的保留意见。
+
+**mention与关系。** 本批16个segment共680条mention span逐条核对，偏移错误0。跨本批五批历史差异去重后为7个segment级mention组，涉及143条历史行；每组均按当前原文确认，未回写旧事件。相关33条关系裁决（32 formal、1 pending）逐项检查，端点及范围未变；`rel-2007`仍pending。S3决定、候选身份及9,622历史台账均不改。
+
+**来源指纹。** 页图核对使用仓库当前来源PDF；SHA-256：`CHP-16.pdf` `6bfb3e331f0ac2421d31279f97b08b17486f0e2c32451a10a6798cf31424af5f`；`CHP-17.pdf` `fa9c9a4ebc484c481d13b0afb46f96bf94fe0631c65f0b742d0b0b9d9e0b7465`；`CHP-18Conclusion.pdf` `750ba8a4f4e7dc72e032746f7f3b15c3c70ef97a4220491fc3aa250a91ce2e29`；`CHP-19Appendix.pdf` `2a1c29e6c2864527482d231a85c4252e55524b436ae4dff5b0d55d9d5a67a9eb`；`CHP-20Postscript.pdf` `f4c3852b60596ee0116b941ad97c7f2cb79414fe6b6b0388efcebeef538c1788`。原始PDF和S0来源文本未改。
+
+**五批汇总。** B251–B255连续核平500条：逐批当前PASS／历史开放分别为1/99、18/82、11/89、19/81、34/66。442条历史事件全部来源版本匹配，其中417条statement exact继续承接原开放发现，25条statement changed完成当前原页复核；58条无历史事件的当前对象亦均已核读PASS。合计83条当前版PASS，9,622历史事件台账本身未增删；局部PASS不构成全书S2独立语义接收。
