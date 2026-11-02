@@ -18495,3 +18495,14 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **语义与原页校读。** 注释条目只记录Haskell的引用定位；出版物题名、版本和作者全名不足处仍留待书目或S3，不表示已查阅被引文献。p.24说明该书目有选择性并列出手稿馆藏；馆藏按地点编排的段落不被扩张为每一处皆对应独立、具体手稿的持有断言。p.412的`Published Materials`标题、Ackerman页码`326–336`及Aikema刊名校读与既有statement记录一致。新增两项可追溯校读：Ademollo项末尾印本短横线（S0 OCR作逗号），Alazard题名印作`L’Abbé`（S0 OCR漏重音）；仅补入statement的`page_image_ocr_corrections`，保留原始S0引句。`CHP-20Postscript.pdf` SHA-256 `f4c3852b60596ee0116b941ad97c7f2cb79414fe6b6b0388efcebeef538c1788`；`CHP-21Bibliography.pdf` SHA-256 `1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`。
 
 **关系与下游影响。** 唯一直接关系候选statement `st-chp20-p408-n07-citation` 对应`rel-2637 cites`，维持formal；其余引用mention不据共现扩展关系。候选身份、S3决定、S6裁决与9,622历史台账未改。全批100条当前PASS；全库15,505条statement状态更新为PASS 5,578、已审待证699、历史精确映射但开放发现8,323、待回映/当前复核905。连续顺序剩余905条，从14601开始。局部PASS不构成全书S2独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b259-order-14601-14700"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B259：第21章书目 L47–205，顺序14601–14700
+
+**逐ID结论与证据复用。** 100条均无9,622历史事件，且100/100当前statement hash与roster快照一致。复用已有按页S2处理记录：印刷p.412–415（PDF物理页2–5）对应规范S0 L47–205，页图和段落曾逐项处理；当前PDF SHA-256 `1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`、Markdown源SHA-256 `f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3`及四个S0段指纹均与原处理记录一致，故不重复渲染。100/100原引句可在当前S0段定位。四段共116条mention span，偏移错误0；其中L47–85的33条span已在B258按相同segment hash核对，复用；其余83条为本批新增段级span核对。
+
+**书目语义与版本边界。** 所有出版物statement均限于“书目列出/署名”，不声称已独立阅读被引作品。p.413保留Barozzi—Berchet的两卷本集合及其与已有卷级候选的分立，并按页图拆开被OCR粘连的Bartolozzi/Bartsch条目。p.414保留S0漏录Bellori《Nota delli Musei…》的页图附录记录，不伪造mention；Beckford出版信息和Betcherman页码继续以原页校读限定。p.415继续区分Blunt 1945年图书与同年期刊文章、不同年份期刊文章及其容器。
+
+**关系及待证裁决。** 六个直接关系statement的既有去向核对后不变：`rel-1477`、`rel-1784`、`rel-1561`维持书内来源限定的formal；`rel-1562 authored_by`维持其既有外部证据支持的formal（本批未重新核查外部来源）；Bellori《Nota》责任归属维持pending（书目方括号和现有谓词不足以断言作者）；Berthier作者候选`cand-12451`仍待身份核实，不建formal边。无S3身份决定、statement、mention或`relations.csv`写回。全批100条当前PASS；全库PASS 5,678、已审待证699、历史映射开放8,323、待回映/当前复核805；连续顺序剩余805条，从14701开始。S2仍未全书独立语义接收。
