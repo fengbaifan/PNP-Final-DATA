@@ -4137,3 +4137,12 @@ S3纯`undecided`候选、纯未决直接关系端点及S4待登记直接关系�
 
 
 **2026-11-02 B283后当前版S2进度：** 顺序4026–4125共100条，历史事件、statement、来源文件、segment及mentions 100/100精确匹配；复用独立原文/页图审读，67条当前PASS、33条按逐ID证据缺口pending。跨页veneration续句已闭合；`rel-2407`及相关书内引注/portrait条目裁决范围未变，未改正式关系或历史台账。全库当前PASS 7,504、已审待证1,048、历史映射开放6,953、版本差异待核0、待回映/当前复核0；尚有8,001/15,505条未达PASS。下一历史开放顺序4126。9,622历史事件与旧裁决未改，S2未全书独立语义接收。详见[B283过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-02-s2-current-review-b283-order-4026-4125)与[逐ID清单](../../03-processing/patrons-and-painters-full-book-s2/process/s2-current-review-roster.csv)。
+
+
+**2026-11-02 B284后当前版S2进度：** 连续顺序4126–4225共100项；92条历史开放记录与当前statement/source/mentions精确匹配，其中60条复用既有独立原文/页图审读后PASS、32条按逐ID缺口pending，另8条近期当前版PASS原样承接（6条历史statement版本已变并复核，2条无精确H9622映射但已有直接当前版复核）。关系检查涉及`rel-1463`/`rel-1464`、`rel-1770`/`rel-1771`、`rel-1872`–`rel-1874`，边范围及S6历史裁决均未改；未把待证关系升级为formal。全库PASS 7,564、pending 1,080、历史映射开放6,861、版本差异待核0、待回映/当前复核0；7,941/15,505尚未PASS。下一历史开放顺序4226。9,622历史事件和旧裁决未改，S2未全书独立语义接收。详见[B284过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-02-s2-current-review-b284-order-4126-4225)与[逐ID清单](../../03-processing/patrons-and-painters-full-book-s2/process/s2-current-review-roster.csv)。
+
+
+**2026-11-02 B285后当前版S2进度：** 连续顺序4226–4325共100项；85条历史开放记录的statement/source映射精确，其中65条复用原文/页图独立审读后PASS、20条按逐ID缺口pending，另15条近期当前版PASS原样承接。p.106历史mention delta已逐statement定位到已PASS的4266、4275；本批其他开放行未引用变动mentions。关系检查涉及`rel-1606`、`rel-1875`、`rel-1876`、`rel-1888`–`rel-1890`，未改变其S6范围或历史裁决；未将待证端点升级为formal。全库PASS 7,629、pending 1,100、历史映射开放6,776、版本差异待核0、待回映/当前复核0；7,876/15,505尚未PASS。下一历史开放顺序4326。9,622历史事件与旧裁决未改，S2未全书独立语义接收。详见[B285过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-02-s2-current-review-b285-order-4226-4325)与[逐ID清单](../../03-processing/patrons-and-painters-full-book-s2/process/s2-current-review-roster.csv)。
+
+
+**2026-11-02 B286后当前版S2进度：** 连续顺序4326–4425共100条历史开放项，current statement/source/segment/mentions及H9622历史记录100/100精确匹配；68条PASS、32条按逐ID缺口pending。主文范围无对应S6正式边，同页bibliography citation边维持原裁决。全库PASS 7,697、pending 1,132、历史映射开放6,676、版本差异待核0、待回映/当前复核0；7,808/15,505尚未PASS。下一历史开放顺序4426。9,622历史事件/旧裁决未改，S2未全书独立语义接收。详见[B286过程记录](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-02-s2-current-review-b286-order-4326-4425)与[逐ID清单](../../03-processing/patrons-and-painters-full-book-s2/process/s2-current-review-roster.csv)。

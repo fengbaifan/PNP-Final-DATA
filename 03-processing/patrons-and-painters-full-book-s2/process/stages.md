@@ -1,4 +1,4 @@
-# 全书语义处理（S2）过程
+﻿# 全书语义处理（S2）过程
 
 
 
@@ -18837,3 +18837,73 @@ L1301–1306是S0的错位OCR块，不对应本PDF新增的p.442图像。当前�
 **S6关系与历史裁决。** 精确statement crosswalk命中`rel-2407`（Haskell书内引用Vermeule 1956，formal；仅记引文）。同时核对邻近脚注裁决：`rel-1614`、`rel-2106`、`rel-2107`、`rel-2438`、`rel-2440`均仍formal且source scope未变：它们仅记录书内引注或Haskell/Rinehart目录中的portrait entry；`rel-2438`不把inventory portrait并成Bernini caricature或Dati frontispiece。以上关系不验证被引内容或正文历史事实。未改`relations.csv`、statement/mention表、S3/S4、S6历史决定或H9622事件台账。
 
 **批次结算。** 顺序4026–4125共100项：67条当前PASS，33条依逐ID问题pending；历史映射开放减少100。全库当前PASS 7,504、已审待证1,048、历史映射开放6,953、版本差异待核0、待回映/当前复核0；尚有8,001/15,505条未达PASS。下一历史开放顺序为4126。9,622历史事件和旧裁决未改；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b284-order-4126-4225"></a>
+### 2026-11-02 S2当前版逐ID复核 B284（第4章顺序4126–4225）
+
+**历史台账核平。** 连续100个顺序位置中，92条历史开放项各自对应唯一H9622事件；prior review mapping、当前statement hash、来源segment/asset与mention集合精确一致，92/92无mention delta。另8条当前版PASS按既有B026/B027记录承接：其中6条对应历史statement版本变化，已在当前版完成修复并独立复核；另2条不属于重建的9,622条精确历史映射，但已有直接原文复核PASS，均不覆盖原记录。H9622事件和旧裁决未改。
+
+**逐段裁决。** 复用提交`2273e2743158401b841fb9bc7b7d1332836d400a`的第4章原文/页图独立审读，针对当前statement及mention边界逐项核对。92条历史开放项中60条当前PASS、32条因具体claim、speaker/quote边界、mention映射、群体类型或端点角色缺口留pending；8条当前版PASS原样承接。
+
+| 顺序/原文段 | 新PASS | pending | 承接旧PASS | 主要待决 |
+|---|---:|---:|---:|---|
+| 4126–4143，印刷p.102–103 sec_ii L33–44 | 10 | 8 | 0 | 复合motif判断、群体未定型、Galileo/Cigoli端点方向、脚注mention污染、跨页引文锚点 |
+| 4144–4167，印刷p.103 sec_ii L46–51 | 16 | 8 | 0 | cohort/employer集合类型、OCR空格、技法分类、复合claim及误映射 |
+| 4168–4212，印刷p.104–105 sec_ii L53–63 | 22 | 15 | 8 | 古代群体映射、modelli作者/收藏角色、Barberini缺mention、未名团队、介绍者角色与谓词端点 |
+| 4213–4218，Plate 17 | 6 | 0 | 0 | 无新增S2未决项 |
+| 4219–4222，Plate 18 | 4 | 0 | 0 | 无新增S2未决项 |
+| 4223–4225，Plate 19起始 | 2 | 1 | 0 | 泛称“Pharaoh”候选未定型，身份不特指 |
+| **合计** | **60** | **32** | **8** | **100个连续位置** |
+
+pending statement ID及逐条理由写入[s2-current-review-roster.csv](s2-current-review-roster.csv)（顺序4129、4137–4141、4142–4145、4154、4156–4157、4162、4166–4167、4171、4177–4178、4183、4186–4189、4197、4201–4202、4206–4209、4225）。跨页续句`4209`暂留pending，待后续原文顺序段落闭合后再判断；没有以候选标签替代类型或身份依据。
+
+**关系与历史裁决影响。** 对应本批statement的既有S6 formal边为`rel-1463`/`rel-1464`（Duquesnoy—St Susanna/地点）、`rel-1872`–`rel-1874`（Sacchi、modello与St Romualdo）及Plate 17的`rel-1770`/`rel-1771`；核对端点、谓词、source span和既有范围后均未受本批S2审读影响。32条pending中的关系候选不补成formal边；relations.csv及S6历史裁决均未改。
+
+**批次结算。** B284完成92条历史开放项的当前语义复核，承接8条当前PASS；本批新PASS 60、pending 32。全库当前PASS 7,564，reviewed pending 1,080，历史映射开放6,861，ID/版本差异待核0，待回映/当前复核0；共15,505条，7,941条尚未PASS。下一历史开放位置4226。S2尚未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b285-order-4226-4325"></a>
+### 2026-11-02 S2当前版逐ID复核 B285（第4章顺序4226–4325）
+
+**历史台账核平。** 连续100个位置中85条历史开放项各自对应唯一H9622事件；current statement、来源segment/asset及既有复核对象/来源段精确匹配。另15条近期当前版PASS沿用B027，不覆盖；其中11条历史statement版本已变并经当前版修复/复核，4条无精确H9622事件但已有直接当前版PASS。p.106 segment的历史mention delta是“Leonardo manuscripts”映射变化及新增“different patrons”；逐statement核对后分别只进入已PASS的4275和4266，未影响本批其他开放statement。其余目标的当前segment mention hash均与本次快照一致。历史事件和旧裁决未改。
+
+**逐段裁决。** 复用独立复核提交`2273e2743158401b841fb9bc7b7d1332836d400a`的第4章p.105–108原文/页图审读，并核当前statement及mentions。85条历史开放项中65条PASS、20条因具体语义、quote/speaker、候选映射或开放端点缺口pending；15条现有当前版PASS原样承接。
+
+| 顺序/原文段 | 新PASS | pending | 承接旧PASS | 主要待决 |
+|---|---:|---:|---:|---|
+| 4226–4227，Plate 19余项 | 2 | 0 | 0 | 无新增未决项 |
+| 4228–4229，Plate 20 | 2 | 0 | 0 | 无新增未决项 |
+| 4230–4258，印刷p.105 sec_ii L80–89 | 16 | 13 | 0 | speaker分层、group/collection类型、未识别画作集合、版画mentions/OCR标点、复合主题与限定 |
+| 4259–4298，印刷p.106 sec_ii L91–99 | 24 | 1 | 15 | paper museum候选cand-5666类型未定 |
+| 4299–4322，印刷p.107 sec_ii L101–107 | 18 | 6 | 0 | speculative modality、宗派问句、Bouchard物件/遗赠边界、复合jottings断言 |
+| 4323–4325，印刷p.108 sec_ii L109–119起始 | 3 | 0 | 0 | 无新增未决项 |
+| **合计** | **65** | **20** | **15** | **100个连续位置** |
+
+pending逐ID理由已写入`s2-current-review-roster.csv`（顺序4231、4236–4240、4243、4245、4248–4249、4253、4255、4257、4263、4304–4305、4307、4311、4318、4321）。群体/作品身份或端点不足的候选继续待证；保留Haskell/书信转述层、概率限定及“疑问不等于归属”的证据边界。
+
+**关系与历史裁决影响。** 本批相关既有S6 formal边为`rel-1606`（Poussin—Lemaire friendship）、`rel-1875`（Cassiano与Leonardo手稿持有者通信）、`rel-1876`（七圣礼系列）、`rel-1888`（Poussin—Chantelou friendship）、`rel-1889`（Treatise在Paris出版）和`rel-1890`（Poussin为Cassiano工作）。核对原文锚点及关系范围均未发现本批S2复核要求改动的既有裁决；pending项不新增formal关系，relations.csv和S6历史台账未改。
+
+**批次结算。** B285新PASS 65、pending 20、既有当前版PASS承接15。全库当前PASS 7,629、reviewed pending 1,100、历史映射开放6,776、版本差异待核0、待回映/当前复核0；共15,505条，7,876条尚未PASS。下一历史开放位置4326。S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b286-order-4326-4425"></a>
+### 2026-11-02 S2当前版逐ID复核 B286（第4章顺序4326–4425）
+
+**历史台账核平。** 本批100条连续原文位置均为历史开放项，每条各对应一个H9622事件；prior review mapping、当前statement/source/segment与mentions均精确匹配，100/100无mention delta。当前源表哈希与本次审阅快照一致。H9622事件、旧裁决及知识表未改。
+
+**逐段裁决。** 复用提交`2273e2743158401b841fb9bc7b7d1332836d400a`第4章p.108–111的原文/页图独立审读，逐行核对当前statement/mentions。68条PASS，32条依据明确的原句边界、说话者、端点、mention映射、来源限定或关系角色问题留pending；未将缺失作品、群体身份或收藏端点推成已证关系。
+
+| 顺序/原文段 | PASS | pending | 主要待决 |
+|---|---:|---:|---|
+| 4326–4349，印刷p.108 sec_ii L109–119 | 16 | 8 | 引文范围、Dupuy转交角色、Dati反问极性与mention、肖像存放位置 |
+| 4350–4370，印刷p.109 sec_ii L121–128 | 12 | 9 | 书信评价/购买限定、收藏容器与肖像组、Pintard转述、作品端点与跨页claim |
+| 4371–4398，印刷p.110 sec_ii L130–137 | 20 | 8 | 漏记Haskell作者解释、未名学者组、作品/人物端点、版画署名与题材、复合动作 |
+| 4399–4425，印刷p.111 sec_ii L139–149 | 20 | 7 | 人物关系与作品层级、引文谓词锚点、Haskell评价限定和模态 |
+| **合计** | **68** | **32** | **100条连续历史开放项** |
+
+pending逐ID理由已写入[s2-current-review-roster.csv](s2-current-review-roster.csv)（顺序4328、4330、4334、4336、4338–4339、4345–4346、4350、4352–4353、4355、4358、4361–4362、4367、4369、4372、4377、4380、4382、4389–4390、4392、4395、4400–4401、4406、4410、4418–4419、4423）。关键群体、作品、收藏对象和参与角色不足的陈述保持待证，不新建formal边。
+
+**关系与历史裁决影响。** 本批100个主文statement没有在`relations.csv`中对应的直接S6 formal/pending/rejected边；核查到同页脚注bibliography edges `rel-1299`、`rel-2103`–`rel-2105`、`rel-2109`–`rel-2111`、`rel-2408`，均为脚注citation且不受本批main-text裁决影响，原状态保留。没有把书信转交、作品端点或群体关系缺口升级为formal。H9622历史关系裁决不变。
+
+**批次结算。** B286完成100条历史开放项：PASS 68、pending 32。全库当前PASS 7,697、reviewed pending 1,132、历史映射开放6,676、ID/版本差异待核0、待回映/当前复核0；共15,505条，7,808条尚未PASS。下一历史开放位置4426。S2尚未全书独立语义接收。
