@@ -16581,3 +16581,16 @@ p.240的指示词“this”仍不识别具体作品，Mehus之子未具名；引
 当前表相对9,622基线提交`1a6313c8`的稳定ID差异复算：statement新增55、删除1、同ID完整对象变化377；mention新增440、删除22、同ID完整行变化51。涉及84个statement segment均存在且与基线完整对象相同；其32份来源Markdown Git blob也均未变化。此比较描述表版本差异，不改变9,622历史成员或裁决。
 
 **批后数量与剩余量。** 100/100条均已路由：28条当前版PASS（1条历史statement变化复核、27条无精确历史逐ID映射的原页复核），72条精确复用历史阅读并保留开放发现。新增2个候选、2条mention；全库当前为15,505条statement、27,288条mention、12,448个candidate。当前roster互斥状态：PASS 2,894、已审待证696、历史映射但开放发现8,323、版本差异待核86、待回映或当前复核3,506；未获当前PASS 12,611。尚待当前路由3,592条，另有9,019条为已审待证或保留历史开放发现。9,622历史事件账本不变；S2仍未独立语义接收。下一批从10526开始。
+
+<a id="2026-11-02-s2-current-review-b090-ch10-p277-p280"></a>
+### 2026-11-02 S2当前版本逐ID复核 B090：第10章印刷页277–280，顺序10526–10625
+
+**历史映射与版本。** 连续100条全部没有9,622历史审读事件（`history_9622_event_count=0`）。清单原映射中83条标`current_object_differs`、17条`no_exact_review_mapping`；逐项重算后，当前100条statement对象均与当前复核清单快照哈希一致，四段S0 segment哈希及来源资产SHA也全部相符。此前2026-10-02 p.277–280语义处理记录可作为逐句判断的复用依据；本批仍完成当前版逐ID路由并对照原页，不把这些记录追记进9,622。
+
+**原页与语义核对。** 对照`CHP-10.pdf`印刷p.277–280（物理页2–5）及S0连续段`l15-24`、`l26-41`、`l43-49`、`l51-61`。PDF SHA-256=`c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`；S0来源Markdown资产SHA-256=`f912dba9e5c8460538222c57d32c3734d0c23c72cb32a0871b50b6901ce9e27f`；四段segment SHA分别为`805e94a2f007dadc0e072f08626951f78aa77c3f304e43af0768aff09c9746ed`、`11109dec2da0c22589297ae786772e434dfb0571e62cde36113512f37e6db0ab`、`f311fdf054bf8adc8fe5bcab01d4a0458950b7f837b4da9af644e1ced09e283b`、`877f9ed4cdae9e0e1bc219c8e90b31521e82843d62c83877f5d7a6c2420722c6`。100条`original_quote`经空白归一后均可在对应当前S0段定位；修订前相关四段283条mention跨度逐条命中。
+
+当前原页复核未改写Haskell的限定和话语层。p.277“ambassadors might employ”保持可能语气，不能推广为每位使节均委托；p.278 Bencovich所跟随的`them`无确定先行项，撤销statement对cand-4222 Hapsburg Empire的误挂，不给该指代补身份。p.276的1707回访及“一年后离开”与p.278称Manchester于1709年使馆带回两位画家存在来源内部日期张力（10552–10554）；两段均忠实保留，不外推精确时间或强行调和。p.278音乐信仍只是Haskell对Duchess的归属，日期/原件未识别。p.279画家迁移、就业、素描及风格评论维持群组、匿名对象和作者归属边界；Rel-2433的重复departure边继续rejected，Rel-2434 `travelled_from`继续formal。p.280四幅Bulstrode绘画与programme的四个成员关系按来源分别保持；Haskell的创作/委托归属不证明作品现存或现藏，`Catholic church`比较不证明chapel宗派。
+
+**mention修正与关系影响。** 发现cand-8892（Motteux素描）与cand-8896（“nature of English society”来源概念）在statement候选引用中缺少段内mention；现补3条精确跨度：素描`a lively and informal drawing` `[2007,2036)`及其同句回指`a work of this kind` `[2287,2306)`，以及`nature of English society` `[1935,1960)`。cand-8877档案候选与cand-8878音乐概念共用开篇词“Music”，严格表不允许同span双重标注；保留既有cand-8878 mention，不另造重叠span。cand-8877仍由本段书信归属statement及S3 source_ref锚定。未把cand-4222接到未决的`them`。两段mention计数变为74和65；四段合计286条span复核错误0。既有S6中与本批statement明确回链的27行逐项核对：26 formal、1 rejected，方向、原文范围和原有去向均不变；Rel-2336 authored_by、Rel-2337 addressed_to保留为Haskell归属的信件关系。关系一致性未发现阻断；不改relations.csv、S3、KU、S5或历史台账。现有五项页图校读字段（p.278脚注标记、p.279 Plate 47及`work. Sebastiano`、p.280 `William III`、`Catholic`）均已存在且与扫描相符；不改S0。章节注释中的外部书目仍为引文定位，不称已独立查阅。
+
+**批后数量与剩余量。** 100/100条已路由并通过当前版复核；statement 10546因移除无证候选而发生1项对象修订，新增3条mention，candidate总数不变。全库当前15,505条statement、27,291条mention、12,448个candidate。roster互斥状态：PASS 2,994、已审待证696、历史映射但开放发现8,323、版本差异待核86、待回映或当前复核3,406；未获当前PASS 12,511。尚待当前路由3,492条；另有9,019条为已审待证或保留历史开放发现。9,622历史事件账本不变；S2仍未独立语义接收。下一批从10626开始。
