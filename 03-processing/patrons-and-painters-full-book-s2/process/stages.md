@@ -16532,3 +16532,15 @@ p.240的指示词“this”仍不识别具体作品，Mehus之子未具名；引
 **当前版直接复核。** 无历史事件的10054 `st-chp9-p265-longhi-painted-fall-of-giants`、10061/10062 Crespi信件作者与收件人statement、10113 Florio对《Le Grazie》的书目作者statement，以及当前版修订后的10117 Florio注4 cross-reference共5条，均逐项对照S0和原书扫描页复核PASS。印本p.251注2读作“Le Grazie”；S0 OCR“Le Crazie”保留，标题候选`cand-8229`沿用既有页图校正，不据此声称独立查阅1766年版本或诗页。注4当前statement仅增加对10113作者statement的related-statement链接，链接适当；S6对注4另建引用边的rejected裁决保留。既有`rel-1919 authored_by`、`rel-1920 addressed_to`及`rel-1755 authored_by`范围不变，原件/诗本均不称已独立查阅。
 
 **span与批后状态。** `l291-301`共49条mention、`l323-445`共329条mention，全部按当前S0逐条切片核对，错误0；4条新增无历史statement及10117当前statement的原句均可定位。当前PDF SHA-256=`8d0adc954f824fa5c6f202571e03a6eb8475dd4125c91c41f79204a445b961ec`；S0 Markdown SHA-256=`9b63ad7d1e2326f0ca7448efcd490c9ae5fce8c237c4289161227fe55a8518c3`。本批100条完成路由：5条当前PASS、95条精确statement/source复用并保留开放发现（含mention差异的单独映射说明）。全书当前statement/mention为15,505/27,285；roster状态：PASS 2,850、已审待证696、历史映射但保留开放发现8,323、版本差异待核95、待历史/既有审读回映或当前复核3,541；未获当前PASS 12,655。9,622历史事件账本不变；下一批从10126开始，S2仍未独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b086-ch9-notes-p253-p264"></a>
+### 2026-11-02 S2当前版本逐ID复核 B086：第9章注释段p.252–264（S0文件序），顺序10126–10225
+
+**连续范围与历史复用。** 本批按09_CHP-9_intro.md的当前S0文件顺序，覆盖合并注释段l323-445中的源行355–431，连续100个唯一statement ID，印刷页跨p.252–264。97条有9,622历史事件：93条当前statement对象与原审读对象、来源版本精确相同，复用原逐条阅读并保留开放发现；4条statement版本不同、来源版本仍匹配，逐项按当前statement和原页复核。另有3条2026-10-24原子化新增statement无历史事件，本批直接复核。历史事件账本及历史哈希未改。4条历史mention_delta所列的3个新增mention是同一合并注释segment的段级变化，位于p.251注2/3；B085已核原页、当前S0 span和直接映射，本批复用该次校验，不误算为本批各statement自身新增mention。
+
+**当前版原页复核。** 对照CHP-9.pdf物理页15（印刷p.253）、物理页18（p.256）和物理页26（p.264）。p.253注1原文说1759年新任宗主教Daniele Dolfin召回Tiepolo及其子Gian Domenico至Udine，为装饰Cappella della Purità。当前10136将旧的合并主张收窄为召回Giambattista Tiepolo；10135、10137、10138分别补录Gian Domenico被召回、Tiepolo以装饰礼拜堂为目的被召回、Gian Domenico以同一目的被召回。四条均不声称装饰已经完成；source-local Daniele Dolfin组与礼拜堂组不变。p.256注6印本题名为La Rappresentanza del vero merito，列Pietro Loredan为provveditore和Legnano堡垒captain；区分正文所述赴任地点与脚注所列职务。注7确认为以Padua名义向Antonio Loredan所作无日期演说，In Padova是出版定位，不能推出其部队从Padua出发。p.264注6图像读作MSS. P.D. C2193/VII，S0 OCR保留原误读。
+
+**状态及下游影响。** 七条本次当前版均PASS：三条p.253拆分statement、一个对应历史statement的修订、两条p.256注释引文定位及一条p.264档案清单statement。p.264 statement的qualification另纠正了过时的“S3待审”表述：Zuane Udni仍按印本保留；该mention已有source-local S3组new-person:john-udney-d3b7a58444并映射units/persons/john-udney，未声称外部身份核验。p.253四条召回／目的关系的S6 pending原裁决不变，理由仍为无精确受控谓词；p.256被引演说未独立查阅，不新增正式边；p.264的rel-2198仍只formal记录档案位置，“Udni sought list”关系仍pending。未改S3、S4、S5、relations.csv或历史事件文件；本批只更新一条statement限定和逐ID复核清单。
+
+**批后状态与剩余量。** 100/100条已路由：7条当前PASS，93条精确历史复用且原开放发现保留。全书15,505条statement、27,285条mention；当前roster：PASS 2,857、已审待证696、历史映射但保留开放发现8,323、版本差异待核91、待历史／既有审读回映或当前复核3,538；未获当前PASS 12,648。下一批从10226开始。9,622历史事件仍已核平；S2仍未独立语义接收。
