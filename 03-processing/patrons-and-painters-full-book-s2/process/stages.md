@@ -16615,6 +16615,8 @@ p.283 L151–165保留Johann Wilhelm对荷兰艺术的收藏、Van Dyck/Rubens�
 **批后数量与剩余量。** 100/100条均已完成当前ID/版本复核并路由为PASS。全库仍为15,505条statement、12,448个candidate，mention增至27,297条。roster互斥状态：PASS 3,094、已审待证696、历史映射但开放发现8,323、版本差异待核86、待回映或当前复核3,306；未获当前PASS 12,411。尚待当前路由3,392条；另有9,019条已审待证或承接历史开放发现。9,622历史事件台账不变，S2仍未独立语义接收。下一批从10726开始。
 
 
+<a id="2026-11-02-s2-current-review-b092-ch10-p284-p290"></a>
+
 ### 2026-11-02 S2当前版本逐ID复核 B092：第10章印刷页284–290，顺序10726–10825
 
 **历史事件核平与复用。** 本批100个连续当前ID的`history_9622_event_count`均为0，历史重建成员均为`not_in_reconstructed_count`；因此没有9,622事件级结论可重复计入。清单旧映射均为`current_object_differs`，逐行当前对象哈希在本批开始时与roster快照一致。复用的是2026-10-02第十章p.284–290的既有S2逐页语义记录和原PDF校读，不把该过程改记成9,622独立审读。全历史事件中的两个`absent_current`旧ID已有明确撤销/拆分去向，见本文件`2026-11-02-s2-history-9622-reconciliation-current-ids-versions`记录；历史事件账本未改动。
@@ -16628,6 +16630,8 @@ p.283 L151–165保留Johann Wilhelm对荷兰艺术的收藏、Van Dyck/Rubens�
 **批后数量与剩余量。** B092完成100/100条当前ID/版本复核并路由PASS；其中1条statement按当前原文补齐term候选引用，并新增1条mention。全库为15,505条statement、27,298条mention、12,448个candidate。roster状态：PASS 3,194、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核3,206；未获当前PASS 12,311，尚待当前路由3,292条；另有9,019条已审待证或承接历史开放发现。历史9,622事件账本不变，S2仍未独立语义接收。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断0。下一批从10826开始。
 
 
+<a id="2026-11-02-s2-current-review-b093-ch10-p290-p295"></a>
+
 ### 2026-11-02 S2当前版本逐ID复核 B093：第10章印刷页290–295，顺序10826–10925
 
 **历史映射与复用。** 本批100条连续当前statement的`history_9622_event_count`均为0，均`not_in_reconstructed_count`，旧映射均为`current_object_differs`；不新增或重复计入9,622历史事件。当前statement哈希逐ID与本批开始时roster快照一致，6个S0 segment指纹及来源SHA匹配当前版；当前CHP-10.pdf SHA-256=c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb，与既有页图复核对应。复用2026-10-02第十章p.290–295逐页S2语义/原页记录，并复用p.293注文迁移脚本中对正文注1 Sirén引证的限定；不把这些后续过程归作9,622事件级结论。
@@ -16639,3 +16643,18 @@ p.283 L151–165保留Johann Wilhelm对荷兰艺术的收藏、Van Dyck/Rubens�
 **下游影响。** 本批61条statement标记为`relation_candidate=true`；另有`rel-2214`–`rel-2219`六条p.290–291注文正式边，回链到合并注释段的五个当前statement（顺序11272、11274–11275、11283–11284，均为`needs_crosswalk`且历史事件数0），不属于本批正文ID。六条正式边及S6裁决保持原样；连续处理到这些注释ID时再核当前S2版本与S6证据，不计作B093已复核。未新增关系边或改动`relations.csv`；其他历史开放发现与待证关系维持原状。关系一致性阻断0。
 
 **批后数量与剩余量。** B093完成100/100条当前ID/版本复核并路由PASS，无表内容增删。全库15,505条statement、27,298条mention、12,448个candidate。roster互斥状态：PASS 3,294、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核3,106；未获当前PASS 12,211，尚待当前路由3,192条；另有9,019条已审待证或承接历史开放发现。9,622历史账本不变，S2仍未独立语义接收。严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断0。下一批从10926开始。
+
+
+<a id="2026-11-02-s2-current-review-b094-ch10-p295-p299"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B094：第10章规范源段印刷页295–299（第11章开篇），顺序10926–11025
+
+**历史映射与版本复用。** 本批100条连续当前statement的`history_9622_event_count`均为0，均`not_in_reconstructed_count`；旧映射98条为`current_object_differs`、2条为`no_exact_review_mapping`，不增加或重复计入9,622条历史事件。启动时100条当前statement哈希逐ID等于roster快照，5个来源段、segment mention数量/指纹、原句与来源行均匹配；复用2026-10-02 p.295–299正文页级语义/页图审读及p.295–299注文迁移记录，不把这些复用当成9,622历史事件级的独立裁决。S0资产`02-sources/02-Markdown/10_CHP-10_intro.md` SHA-256=`f912dba9e5c8460538222c57d32c3734d0c23c72cb32a0871b50b6901ce9e27f`；规范段哈希：l304–316 `3ea63b6be08469c90ed3a0f6245fbe4d9f740b11617b55fe56e211cb9f80d064`，l318–330 `9b78eeb58e0f2a805f17499460a4cf76f21530f849917beb42329bbad5b2205c`，l332–343 `81af3bc3b79a7865e6b8e62785315511c00a9e128d9d8982e28cf3afc3b739ac`，l345–352 `1eb737b59f2af24ef4cca5e7814c6e3ba5d0dd521276689c9f690ae94ff54d3f`，l354–366 `052f44412749144ce984c01086091fe86db19f44be97dda9455894ac4620406b`。`CHP-10.pdf` SHA-256=`c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`。
+
+**当前原文与提及复核。** 本批按连续源序覆盖p.295 31条、p.296 25条、p.297 19条、p.298 14条、p.299 11条，共100/100条当前ID/版本。句段语义复用上述逐页审读，但候选词形与当前mention表另作复扫。新增4条精确嵌套mention并同步更新4条statement的`mentioned_candidate_ids`，不新建statement/candidate：`m-chp10-p295-cologne-in-title` → `cand-6300`，`Cologne` `[2947,2954)`；`m-chp10-p297-italy-schools` → `cand-3461`，`Italy` `[711,716)`；`m-chp10-p298-poland-royal-title` → `cand-7492`，`Poland` `[653,659)`；`m-chp10-p298-cleopatra-banquet-title` → `cand-4157`，`Cleopatra` `[1502,1511)`。前两候选沿用S3 `same`；后两仍`undecided`，分别保留政治头衔/地理类型边界和题名中图像人物的身份/类型待证。未改claim、predicate或`original_quote`。
+
+候选词形扫描中，p.295的`bamboccianti`已有精确mention `m-chp10-p295-bamboccianti`，映射到`cand-9114`；其S3已same至`units/terms/bamboccianti`，不与另一索引候选`cand-0173`制造同span重复。`the Four Seasons`已有`cand-9103`提及；其与前章未决候选`cand-3430`的身份边界留给S3，不重复占用同一span。`Canaletto`亦已有侄甥句mention。未把普通复数`churches`分配给索引中的具名教堂；`Catherine`在本段指Catherine the Great而非`cand-4149`所指圣徒，`Joseph`指Joseph Smith而非单名候选`cand-3428`。另记p.299正文/注文延续的同源页：`11_CHP-11_intro`的p.299 OCR片段已在`s2-coverage.csv`按文本全匹配及同页图像重复证据排除，规范S2由本批`chp-10:10_CHP-10_intro:l354-366`承载，当前roster无第二套重复ID。
+
+**校读、关系与下游。** PDF物理p.28页图读作`Chapter II`（第11章），首行大写drop cap `T`与`HE`连读为`THE`，下行应为`was an Englishman`；S0分别保留OCR `Chapter n`、`HE`与`Twas`，本次只记录S2校读，不改来源或`original_quote`。既有正式边`rel-1312`（Smith与Salumieri争议）、`rel-1369`（《Four Continents》题材）及`rel-1370`（ancien régime阐释）回查后端点、方向、范围和S2证据均不变；未改`relations.csv`或S6历史裁决。新增嵌套mention未改变四项相关S3决定；关系一致性阻断0。
+
+**批后数量与剩余量。** B094完成100/100条当前ID/版本复核并路由PASS。全库15,505条statement、27,302条mention、12,448个candidate。roster互斥状态：PASS 3,394、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核3,006；未获当前PASS 12,111，尚待当前路由3,092条；另有9,019条已审待证或承接历史开放发现。历史9,622事件账本不变，S2尚未独立语义接收。下一批从11026开始。

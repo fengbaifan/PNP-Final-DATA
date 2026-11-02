@@ -957,6 +957,7 @@ m-chp10-p295-german-patronage-index,chp-10:10_CHP-10_intro:l304-316,cand-1146,hi
 m-chp10-p295-venetian-painting,chp-10:10_CHP-10_intro:l304-316,cand-8094,contemporary Venetian painting,2872,2902,Artistic field in the comparison of German patrons.
 m-chp10-p295-clemens-august,chp-10:10_CHP-10_intro:l304-316,cand-0788,Clemens August,2909,2923,Named Archbishop-Elector of Cologne and frequent visitor to Venice.
 m-chp10-p295-archbishop-elector,chp-10:10_CHP-10_intro:l304-316,cand-9116,Archbishop-Elector of Cologne,2925,2954,Title given for Clemens August; preserved as a term rather than duplicated as another person candidate.
+m-chp10-p295-cologne-in-title,chp-10:10_CHP-10_intro:l304-316,cand-6300,Cologne,2947,2954,嵌套城市名；Clemens August头衔中的Cologne，标题候选与城市候选分开保留。
 m-chp10-p295-bavaria-elector,chp-10:10_CHP-10_intro:l304-316,cand-9113,the Elector of Bavaria,2978,3000,Unnamed younger brother of Clemens August; identity remains unresolved.
 m-chp10-p295-amigoni-bavaria-clause,chp-10:10_CHP-10_intro:l304-316,cand-0094,who had employed Amigoni,3002,3026,The source clause does not make clear whether 'who' refers to Clemens August or the Elector of Bavaria.
 m-chp10-p295-clemens-venice-visitor,chp-10:10_CHP-10_intro:l304-316,cand-0788,a frequent visitor to Venice,3037,3065,Footnote 5 remains pending in the consolidated notes segment.
@@ -1032,6 +1033,7 @@ m-chp10-p297-royal-palace-madrid,chp-10:10_CHP-10_intro:l332-343,cand-9139,"Roya
 Palace in Madrid",596,618,Building name crosses the OCR line boundary.
 m-chp10-p297-king-spain,chp-10:10_CHP-10_intro:l332-343,cand-9140,King of Spain,640,653,Unnamed ruler; no personal identity inferred.
 m-chp10-p297-school-commission,chp-10:10_CHP-10_intro:l332-343,cand-9141,commission pictures from all the different schools in Italy,657,716,Proposed group of works for different Italian schools.
+m-chp10-p297-italy-schools,chp-10:10_CHP-10_intro:l332-343,cand-3461,Italy,711,716,嵌套地点名；Juvarra委托方案涉及意大利画派，不增加书外事实。
 m-chp10-p297-venetian-work,chp-10:10_CHP-10_intro:l332-343,cand-8094,one work by a Venetian,753,775,One work in the Madrid list; Pittoni is named on the next OCR line.
 m-chp10-p297-pittoni,chp-10:10_CHP-10_intro:l332-343,cand-1950,Pittoni,777,784,Named Venetian artist in the list.
 m-chp10-p297-roman-four,chp-10:10_CHP-10_intro:l332-343,cand-9142,four Romans,800,811,Four Roman artists or works in the list; individual names are not given here.
@@ -1103,6 +1105,7 @@ m-chp10-p298-augustus-death,chp-10:10_CHP-10_intro:l345-352,cand-0148,Augustus I
 m-chp10-p298-bellotto-he-persuaded,chp-10:10_CHP-10_intro:l345-352,cand-0281,he was persuaded,599,615,Corefers to Bellotto in the changed-travel account.
 m-chp10-p298-warsaw,chp-10:10_CHP-10_intro:l345-352,cand-9155,Warsaw,627,633,Destination where Bellotto was persuaded to stop.
 m-chp10-p298-stanislas,chp-10:10_CHP-10_intro:l345-352,cand-2505,the new King of Poland Stanislas Poniatowski,637,681,Named ruler who persuaded Bellotto to stop in Warsaw.
+m-chp10-p298-poland-royal-title,chp-10:10_CHP-10_intro:l345-352,cand-7492,Poland,653,659,嵌套地名；原句为Stanislas的波兰国王头衔，不外推画作目的地；该候选S3身份/类型仍待证。
 m-chp10-p298-bellotto-his-death,chp-10:10_CHP-10_intro:l345-352,cand-0281,his death,710,719,Corefers to Bellotto; the source dates his death to 1780.
 m-chp10-p298-bellotto-monarch,chp-10:10_CHP-10_intro:l345-352,cand-2505,that art-loving and reforming monarch,745,782,Corefers to Stanislas Poniatowski; the evaluation is Haskell's.
 m-chp10-p298-bellotto-views,chp-10:10_CHP-10_intro:l345-352,cand-9156,a large number of views,783,806,Unidentified city-view group produced for the Polish monarch.
@@ -1126,6 +1129,7 @@ m-chp10-p298-venetian-art-catherine,chp-10:10_CHP-10_intro:l345-352,cand-8101,Ve
 m-chp10-p298-venetian-artists,chp-10:10_CHP-10_intro:l345-352,cand-8104,artists,1385,1392,Collective artists Haskell calls relatively minor in this context.
 m-chp10-p298-tiepolo,chp-10:10_CHP-10_intro:l345-352,cand-2577,Tiepolo,1481,1488,Artist named as creator of the purchased painting.
 m-chp10-p298-banquet-cleopatra,chp-10:10_CHP-10_intro:l345-352,cand-9162,Banquet of Cleopatra,1491,1511,Title as printed in italics; keep distinct from the separately indexed Labia Palace banquet unless S3 establishes identity.
+m-chp10-p298-cleopatra-banquet-title,chp-10:10_CHP-10_intro:l345-352,cand-4157,Cleopatra,1502,1511,嵌套人物名；Banquet of Cleopatra作品题名中的图像人物，候选身份/类型仍待S3裁决。
 m-chp10-p298-masterpiece,chp-10:10_CHP-10_intro:l345-352,cand-9162,This masterpiece,1513,1529,Corefers to Tiepolo's Banquet of Cleopatra.
 m-chp10-p298-augustus-acquisition,chp-10:10_CHP-10_intro:l345-352,cand-0149,Augustus III,1564,1576,Index entry with the 'F. Algarotti and' subentry; distinct S1 candidate from the broader Augustus III entry.
 m-chp10-p298-algarotti,chp-10:10_CHP-10_intro:l345-352,cand-0073,Francesco Algarotti,1580,1599,Named as the intermediary in the earlier acquisition.
