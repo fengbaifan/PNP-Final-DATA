@@ -2922,3 +2922,6 @@ p.213 `has_subject` 当前端点方向已修正为文章subject、未识别作�
 ### 2026-11-03 S2当前版本逐ID复核阶段B517–B519（10059–10358）
 
 核平300条：20条既有current PASS复用、280条pending finding保留；H9622事件288条且来源288/288匹配，当前ID映射hash为280 exact/8 changed，另12条无历史事件；20条差异或无历史事件项均有逐条页证。窗口关系45条：38条formal、7条pending，pending不升级。无新增PASS。全库15,512条statement、27,339条mention、PASS 8,709、pending 6,803；下一顺序10359，尚有5,154个顺序位置待核平。S2仍未独立语义接收。详见[阶段B517–B519记录](../process/stages.md#2026-11-03-s2-current-review-stage-b517-b519-order-10059-10358)。
+### 2026-11-03 S2当前版本逐ID复核阶段B520–B522（10359–10658）
+
+核平300条：155条既有current PASS复用、145条pending finding保留；H9622事件147条且来源147/147匹配，当前ID映射hash为145 exact/2 changed，另153条无历史事件，均保留既有状态。34条相关关系中33条formal、1条rejected，原状态未变。无新增PASS。全库15,512条statement、27,339条mention、PASS 8,709、pending 6,803；下一顺序10659，尚有4,854个顺序位置待核平。S2仍未独立语义接收。详见[阶段B520–B522记录](../process/stages.md#2026-11-03-s2-current-review-stage-b520-b522-order-10359-10658)。
