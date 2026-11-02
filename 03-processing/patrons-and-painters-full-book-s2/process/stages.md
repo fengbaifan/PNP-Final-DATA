@@ -20746,3 +20746,18 @@ H9622历史事件账本9,622行未改，SHA-256仍为`75ab12df478a81603592935356
 **关系与历史裁决影响。** 以source_span中的statement ID精确交叉核对，rel-1573、rel-1578、rel-1579、rel-2021、rel-2022、rel-2459、rel-2522、rel-2523共8条既有formal关系仍为formal，端点与来源范围未变。本窗口没有H9622历史裁决可更新，也未新增或改写关系、statement或mention；全部未触及pending关系状态。
 
 **批后进度。** 全库仍为15,512条statement、27,339条mention、current PASS 8,709、pending 6,803。连续顺序已核平至9158/15,512，下一条9159，尚有6,354个顺序位置待核平；本阶段不构成S2独立语义接收，最早未解决finding仍为1330。
+<a id="2026-11-03-s2-current-review-stage-b508-b510-order-9159-9458"></a>
+### 2026-11-03 S2当前版本逐ID复核阶段：B508–B510（顺序9159–9458）
+
+**范围与复用。** 连续核平300条第八章sec. ii当前statement。逐条实算当前`book-statements.jsonl`、源文件资产、S0 segment及segment mention集合指纹，300/300匹配。H9622历史事件0条；300条均不在历史事件账本内，不存在可比较hash或来源版本mismatch。现行逐ID状态为274条current PASS复用、26条pending finding保留；PASS页证和pending原因由B076–B079记录承接，不将“无旧事件”解释为语义通过。
+
+| 批次 | 当前顺序 | 核平 | 既有current PASS复用 | pending finding保留 | H9622事件 | 事件来源匹配 | 当前ID映射hash exact / changed | 无H9622事件 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| B508 | 9159–9258 | 100 | 100 | 0 | 0 | — | 0 / 0 | 100 |
+| B509 | 9259–9358 | 100 | 100 | 0 | 0 | — | 0 / 0 | 100 |
+| B510 | 9359–9458 | 100 | 74 | 26 | 0 | — | 0 / 0 | 100 |
+| **阶段合计** | **9159–9458** | **300** | **274** | **26** | **0** | — | **0 / 0** | **300** |
+
+**关系与历史裁决影响。** 以source_span中的statement ID精确交叉核对，本窗口49条既有关系包括44条formal和5条pending；formal边不改端点或范围。pending rel-1638（Luca Giordano presence）、rel-2024/2025/2026（Ricci作品完成、预期替换及含推断的到访）及rel-2607（手稿关系谓词待拆分）保持pending。历史S6去向及B079中26条未解S2 span/指代 finding原样保留；未增删或重新裁决关系、statement或mention。
+
+**批后进度。** 全库仍为15,512条statement、27,339条mention、current PASS 8,709、pending 6,803。连续顺序已核平至9458/15,512，下一条9459，尚有6,054个顺序位置待核平；本阶段不构成S2独立语义接收，最早未解决finding仍为1330。
