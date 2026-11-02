@@ -20859,3 +20859,22 @@ H9622历史事件账本9,622行未改，SHA-256仍为`75ab12df478a81603592935356
 **关系与历史裁决影响。** 按statement ID交叉核对，本窗口23条关系中22条formal、1条pending；rel-1528对作品当前作者归属保留来源限定并继续pending。既有formal关系的端点、谓词与证据范围未变。没有历史S6事件可更新，也未新增或更改statement、mention或关系裁决。
 
 **批后进度。** 全库仍为15,512条statement、27,339条mention、current PASS 8,709、pending 6,803。连续顺序已核平至11258/15,512，下一条11259，尚有4,254个顺序位置待核平；本阶段不构成S2独立语义接收，最早未解决finding仍为1330。
+
+<a id="2026-11-03-s2-current-review-stage-b529-b531-order-11259-11558"></a>
+
+### 2026-11-03 S2 current-version ID reconciliation stage B529–B531 (orders 11259–11558)
+
+**Current review and evidence reuse.** This continuous 300-row span is Chapter 10. All 300 rows already carried `reviewed_current_pass`; the stage reused those decisions after verifying the current statement hash, source asset hash, S0 segment hash, and segment mention count/fingerprint for every row. Fingerprint errors: 0. All 300 `review_evidence_ref` values resolve to the existing B097–B100 process anchors. The prior evidence distribution is B097=74, B098=100, B099=100, B100=26. Ninety `prior_review_ref` values use valid `stages.md#L...` line anchors; each target is a nonblank line within this process file. No prior evidence or source was replaced.
+
+| Batch | Current order | Rows | Existing PASS reused | Pending retained | New PASS | H9622 events | Prior evidence references |
+|---|---:|---:|---:|---:|---:|---:|---|
+| B529 | 11259–11358 | 100 | 100 | 0 | 0 | 0 | B097: 74; B098: 26 |
+| B530 | 11359–11458 | 100 | 100 | 0 | 0 | 0 | B098: 74; B099: 26 |
+| B531 | 11459–11558 | 100 | 100 | 0 | 0 | 0 | B099: 74; B100: 26 |
+| **Stage total** | **11259–11558** | **300** | **300** | **0** | **0** | **0** | **B097: 74; B098: 100; B099: 100; B100: 26** |
+
+The immutable H9622 event ledger has no event for these rows: all 300 retain `not_in_reconstructed_count`, and the ledger is unchanged. The roster's separate prior-review mapping remains as recorded (299 `current_object_differs`, 1 `no_exact_review_mapping`); these statuses were not rewritten as H9622 events. The existing page-level semantic decisions were reused because their evidence anchors resolve and the current statement/source/mention fingerprints match.
+
+**Relation and decision impact.** The 24 `relations.csv` rows that cite statements in this range are all `formal`: rel-1281, rel-1282, rel-1283, rel-1552, rel-1553, rel-1554, rel-1555, rel-1565, rel-1566, rel-1647, rel-1648, rel-2155, rel-2214, rel-2215, rel-2216, rel-2217, rel-2218, rel-2219, rel-2220, rel-2221, rel-2222, rel-2223, rel-2224, rel-2225. Their endpoints, predicates, scope, evidence, and S6 decisions remain unchanged. No statement, mention, candidate, alignment, KU, H9622 history, or relation row was modified.
+
+**Stage result.** The full roster remains 15,512 statements and 27,339 mentions; global current status remains PASS 8,709 and pending 6,803. The reconciliation cursor now reaches 11,558/15,512; next order 11,559, with 3,954 sequence positions remaining. The earliest unresolved finding remains 1,330. This reused PASS evidence does not constitute independent whole-book S2 acceptance.

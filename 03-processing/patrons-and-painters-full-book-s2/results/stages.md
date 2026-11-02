@@ -2931,3 +2931,7 @@ p.213 `has_subject` 当前端点方向已修正为文章subject、未识别作�
 ### 2026-11-03 S2当前版本逐ID复核阶段B526–B528（10959–11258）
 
 核平300条：300条既有current PASS复用、0条pending；H9622事件0条，300条均无历史事件，不能据此判作来源版本不匹配。23条相关关系中22条formal、rel-1528 pending，均维持原状态。无新增PASS。全库15,512条statement、27,339条mention、PASS 8,709、pending 6,803；下一顺序11259，尚有4,254个顺序位置待核平。S2仍未独立语义接收。详见[阶段B526–B528记录](../process/stages.md#2026-11-03-s2-current-review-stage-b526-b528-order-10959-11258)。
+
+### 2026-11-03 S2 current-version ID reconciliation stage B529–B531 (11259–11558)
+
+Reconciled 300 continuous Chapter 10 rows: 300 existing current PASS reused, 0 pending, 0 new PASS, 0 H9622 events. Current statement/source/segment/mention fingerprints passed 300/300; all prior evidence anchors resolve, including 90 line-number references. The 9,622-row H9622 ledger is unchanged. Twenty-four linked `relations.csv` records are formal and unchanged. Global S2 remains 15,512 statements, 27,339 mentions, PASS 8,709, pending 6,803; next order 11,559, with 3,954 sequence positions left to reconcile. S2 remains without independent whole-book acceptance. See [stage B529–B531 process record](../process/stages.md#2026-11-03-s2-current-review-stage-b529-b531-order-11259-11558).
