@@ -16506,3 +16506,15 @@ p.240的指示词“this”仍不识别具体作品，Mehus之子未具名；引
 **当前版原页复核。** 无历史事件的9827 `st-chp9-p255-wisdom-around-virgin`对照S0 L149及`CHP-9.pdf`物理第17页（印本p.255）：当前quote包含原句，claim将Wisdom明确记录为前三项之后另列的对象；`cand-8340`是本图像语境候选，不泛化为神学教义。既有`rel-1457`保持独立；`rel-1455`仍只覆盖Faith、Hope、Charity。另对9924 `st-chp9-p258-marco-held-doge-office`复核S0 L186及PDF物理第20页（印本p.258）。当前statement相较历史版只增加已存在S6裁决的说明；原文支持“1763年去世前数月任Doge”，不提供精确起止日期。`rel-2369 held_office`已为formal，时间范围及第259页任职方式疑点均未扩大。当前statement变化不改写旧event。
 
 **批次去向与交接。** 本批100条全部有去向：2条当前版本PASS（9827无历史事件、9924现版元数据变更后复核）；98条复用历史阅读并保留开放发现，其中77条完全精确、21条记录同一segment mention增量的逐ID归属核查。segment `chp-9:09_CHP-9_intro:l148-155`现有63条mention，span逐项匹配错误0；PDF SHA-256=`8d0adc954f824fa5c6f202571e03a6eb8475dd4125c91c41f79204a445b961ec`。未修改relation、alignment、KU、S5字段或9,622事件台账。当前15,505条statement、27,285条mention；roster互斥状态：PASS 2,844、已审待证696、历史映射但保留开放发现8,323、版本差异待核97、待历史/既有审读回映或当前复核3,545；未获当前PASS 12,661。下一批从9926开始；S2仍未独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b084-ch9-p258-p264"></a>
+### 2026-11-02 S2当前版本逐ID复核 B084：第9章引言p.258–264，顺序9926–10025
+
+**历史版本复用。** 连续顺序9926–10025共100条，statement ID唯一、无缺号。99条的最新9,622事件、当前statement哈希、S0来源segment、来源资产和mention集合均完全匹配；复用既有直接阅读并保留开放发现，不重复重读或升级当前PASS。另1条10010 `st-chp9-p262-note1-visconti-income-source`有唯一历史事件`H9622-05393`，来源segment/资产及mention集合未变，但当前claim与qualification经修订，保留旧statement hash与裁决并单独复核当前版本。
+
+**当前版注释与语义。** 对照当前S0 p.262注1 L226及`CHP-9.pdf`物理第24页（印本p.262）。原文先说Foscarini收入估算取自Pietro Visconti的一封信，继而说Visconti在1749年“was working there”，并指向p.259注3；这一语法不把1749年说成信件日期。当前claim将“估算来源”与“Visconti当时工作”分开，qualification明确该注未给信件日期、所引信件未独立核读，当前statement PASS。原书PDF SHA-256=`8d0adc954f824fa5c6f202571e03a6eb8475dd4125c91c41f79204a445b961ec`；S0 `09_CHP-9_intro.md` SHA-256=`9b63ad7d1e2326f0ca7448efcd490c9ae5fce8c237c4289161227fe55a8518c3`。segment `chp-9:09_CHP-9_intro:l218-229`的74条mention span逐一切片核对，错误0；当前引句可在S0原文定位。
+
+**历史关系裁决保持原状。** p.262 estimate→letter statement的S6裁决继续pending：现有受控谓词未能忠实表达“估算取自信件”，不强建formal边。`rel-2188 part_of`仍限第9章p.259注3所述出版物定位；第10章p.323注6支撑的`rel-2212 authored_by`与`rel-2213 addressed_to`保持formal，不把该信的跨章日期移到p.262注1。本批没有修改relations.csv、alignment、KU、S5或9,622历史事件内容。
+
+**批后状态与检查。** 全部100条完成路由：99条精确历史复用且开放发现保留；1条当前版本语义PASS。当前statement/mention总数15,505/27,285。roster互斥状态：当前PASS 2,845；已审待证696；历史映射但保留开放发现8,323；当前版本差异待核96；待历史/既有审读回映或当前复核3,545；未获当前PASS 12,660。下一批从顺序10026开始。9,622历史事件总账不改；S2仍未独立语义接收。
