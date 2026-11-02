@@ -17944,3 +17944,57 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **逐ID回链。** 连续100条中100条匹配9,622历史事件（100条statement精确、0条改版），另0条无历史事件；历史事件来源版本全部匹配并有证据回链。statement改版行均已有当前版PASS证据。提及核对：mention集合无差异，按segment归并，不重复计为statement级变化。
 
 **当前裁决及下游影响。** 0条保留当前PASS，100条保留历史开放审读；无自动清除旧发现。4条formal、0条pending、0条rejected关系保持原裁决；S3/S4决定不变。未改写业务表或9,622事件台账。下一批从8301开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b196-order-8301-8400"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B196：连续原文顺序8301–8400
+
+**逐ID回链。** 连续100条中94条匹配9,622历史事件（90条statement精确、4条改版），另6条无历史事件；94条历史事件均来源版本匹配并有证据回链。提及核对：1个segment级差异组（改映0、删除0、新增5），由6条历史行重复记录。statement改版行严格保留当前主审PASS或pending状态。
+
+**当前裁决及下游影响。** 当前PASS 10条，历史开放审读86条继续开放，当前主审pending 4条继续pending。4条citation-only statement继续pending：被引页未读，关系候选口径待统一，不升级formal edge。10条formal、0条pending、0条rejected关系保持原裁决；S3/S4决定不变。未改写statement、mention、candidate、alignment、KU、关系表或9,622事件台账。下一批从8401开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b197-order-8401-8500"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B197：连续原文顺序8401–8500
+
+**逐ID回链。** 连续100条中81条匹配9,622历史事件（69条statement精确、12条改版），另19条无历史事件；81条历史事件均来源版本匹配并有证据回链。提及核对：1个segment级差异组（改映0、删除0、新增5），由50条历史行重复记录。statement改版行严格保留当前主审PASS或pending状态。
+
+**当前裁决及下游影响。** 当前PASS 31条，历史开放审读66条继续开放，当前主审pending 3条继续pending。3条多目标citation继续pending：locator已核对，relation_candidate口径未统一，不新增formal edge。19条formal、0条pending、0条rejected关系保持原裁决；S3/S4决定不变。未改写statement、mention、candidate、alignment、KU、关系表或9,622事件台账。下一批从8501开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b198-order-8501-8600"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B198：连续原文顺序8501–8600
+
+**逐ID回链。** 连续100条中67条匹配9,622历史事件（64条statement精确、3条改版），另33条无历史事件；67条历史事件均来源版本匹配并有证据回链。提及核对：4个segment级差异组（改映0、删除0、新增20），由41条历史行重复记录。statement改版行严格保留当前主审PASS或pending状态。
+
+**当前裁决及下游影响。** 当前PASS 6条，历史开放审读93条继续开放，当前主审pending 1条继续pending。1条复合摘要仍合并风格评价、满意、请求与未成事实，保留pending。15条formal、0条pending、0条rejected关系保持原裁决；S3/S4决定不变。未改写statement、mention、candidate、alignment、KU、关系表或9,622事件台账。下一批从8601开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b199-order-8601-8700"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B199：连续原文顺序8601–8700
+
+**逐ID回链。** 连续100条中0条匹配9,622历史事件（0条statement精确、0条改版），另100条无历史事件；0条历史事件均来源版本匹配并有证据回链。提及核对：mention集合无历史差异。statement改版行严格保留当前主审PASS或pending状态。
+
+**当前裁决及下游影响。** 当前PASS 80条，历史开放审读0条继续开放，当前主审pending 20条继续pending。20条复合摘要／端点待证／跨页证据待闭合项依逐ID follow_up_note 保留pending。4条formal、0条pending、0条rejected关系保持原裁决；S3/S4决定不变。未改写statement、mention、candidate、alignment、KU、关系表或9,622事件台账。下一批从8701开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b200-order-8701-8800"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B200：连续原文顺序8701–8800
+
+**逐ID回链。** 连续100条中0条匹配9,622历史事件（0条statement精确、0条改版），另100条无历史事件；0条历史事件均来源版本匹配并有证据回链。提及核对：mention集合无历史差异。statement改版行严格保留当前主审PASS或pending状态。
+
+**当前裁决及下游影响。** 当前PASS 82条，历史开放审读0条继续开放，当前主审pending 18条继续pending。18条复合摘要拆分项依逐ID follow_up_note 保留pending。13条formal、0条pending、0条rejected关系保持原裁决；S3/S4决定不变。未改写statement、mention、candidate、alignment、KU、关系表或9,622事件台账。下一批从8801开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b201-order-8801-8900"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B201：连续原文顺序8801–8900
+
+**逐ID回链。** 连续100条中0条匹配9,622历史事件（0条statement精确、0条改版），另100条无历史事件；0条历史事件均来源版本匹配并有证据回链。提及核对：mention集合无历史差异。statement改版行严格保留当前主审PASS或pending状态。
+
+**当前裁决及下游影响。** 当前PASS 92条，历史开放审读0条继续开放，当前主审pending 8条继续pending。8条复合摘要及跨页证据项依逐ID follow_up_note 保留pending。3条formal、0条pending、0条rejected关系保持原裁决；S3/S4决定不变。未改写statement、mention、candidate、alignment、KU、关系表或9,622事件台账。下一批从8901开始；S2仍未全书独立语义接收。
