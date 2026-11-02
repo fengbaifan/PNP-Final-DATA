@@ -17260,3 +17260,16 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **跨批关联及影响。** B120顺序743 `st-chp1-secii-l48-60-07`的历史开放发现仍保留；仅将待办说明更新为其新链接脚注现已在B123当前PASS。脚注通过不替代正文statement的独立裁决，故该项仍pending。除逐ID roster和本过程记录外，本批不改statement、mention、S3对齐、KU、正式关系或9,622事件历史台账。
 
 **批后状态与剩余量。** B123完成100/100：98条精确历史复用且开放发现保留，1条当前版本差异完成核查但仍pending，1条新脚注statement当前PASS。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态：当前PASS 5,122、已审待证699、历史映射开放8,323、版本差异待核79、待回映／当前复核1,282。未获当前PASS 10,383；当前路由未结1,361（含版本差异79）。下一批从1101开始；9,622历史事件台账不变，S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b124-ch1-ch2-1101-1200"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B124：第一章第二节至第二章第一节，顺序1101–1200
+
+**历史核平与复用。** 连续顺序1101–1200共100条，均各有1条9,622历史事件。99条当前statement、来源S0版本及mention集合与历史读本精确匹配，直接复用既有阅读并保留原开放发现；唯一例外顺序1188为当前端点／mention修正，转入定点回核。
+
+**顺序1188：署名人物端点当前版本回核。** `st-chp2-seci-l9-10-plate-i-credit`的历史版本把主体误映为作品候选`cand-4108`；当前版本改为人物候选`cand-2677`，客体仍为作品候选`cand-2678`。当前S0段`chp-2:02_CHP-2_sec_i:l9-10`原文“Valentin: Allegory of Rome”支持人物署名与作品分立，mention `m-chp2-seci-l9-10-0001`当前span `[9,17)`精确切片为“Valentin”。两端点S3均已复用：`cand-2677`为`same → units/persons/valentin`，`cand-2678`为`same → units/works/valentin-allegory-of-rome`。
+
+直接复用[2026-11-01 Valentin图版署名端点独立回核](#2026-11-01-s2-current-review-valentin-plate-i-credit)：该独立复核已核当前statement与mention版本、印刷图版I原页及p.46身份语境。以其读取锚点`1c708bcb`复比，当前目标statement、mention、两条S3 alignment、segment和`rel-1026`对象均与锚点相同；CHP-2.pdf物理页2的SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`，PDF与对应S0分节文件亦自该锚点未变。故当前版本记PASS。作品→人物的formal `rel-1026 created_by`及其历史裁决继续不变；不另建重复边、不改statement或mention表，也不据本次当前PASS改写9,622历史事件行。
+
+**批后状态与剩余量。** B124完成100/100：99条精确历史复用、开放发现保留；1条当前差异依既有独立复核PASS。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态：当前PASS 5,123、已审待证699、历史映射开放8,323、版本差异待核78、待回映／当前复核1,282。未获当前PASS 10,382；当前路由未结1,360（含版本差异78）。下一批从1201开始；历史9,622事件台账不变，S2仍未全书独立语义接收。
