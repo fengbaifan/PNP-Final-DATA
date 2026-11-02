@@ -16518,3 +16518,17 @@ p.240的指示词“this”仍不识别具体作品，Mehus之子未具名；引
 **历史关系裁决保持原状。** p.262 estimate→letter statement的S6裁决继续pending：现有受控谓词未能忠实表达“估算取自信件”，不强建formal边。`rel-2188 part_of`仍限第9章p.259注3所述出版物定位；第10章p.323注6支撑的`rel-2212 authored_by`与`rel-2213 addressed_to`保持formal，不把该信的跨章日期移到p.262注1。本批没有修改relations.csv、alignment、KU、S5或9,622历史事件内容。
 
 **批后状态与检查。** 全部100条完成路由：99条精确历史复用且开放发现保留；1条当前版本语义PASS。当前statement/mention总数15,505/27,285。roster互斥状态：当前PASS 2,845；已审待证696；历史映射但保留开放发现8,323；当前版本差异待核96；待历史/既有审读回映或当前复核3,545；未获当前PASS 12,660。下一批从顺序10026开始。9,622历史事件总账不改；S2仍未独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b085-ch9-body-end-notes-p251-p252"></a>
+### 2026-11-02 S2当前版本逐ID复核 B085：第9章正文末段及注释段（S0源序），顺序10026–10125
+
+**连续范围与历史复用。** 本批按`09_CHP-9_intro.md`当前S0文件顺序，覆盖正文段`l240-249`、`l291-301`、`l303-311`、`l313-321`后进入合并注释段`l323-445`；因此印刷页从正文p.265回到注释p.251–252，是S0分节的连续源序。100条ID唯一无缺号。96条对应9,622历史事件，其中95条statement/source版本仍exact；59条mention集合也exact，24条只有同一Longhi mention的候选变化，另13条共有3个p.251注释mention新增。四条无历史事件，另有1条当前statement版本变化；旧event和旧哈希均保留。
+
+**mention变化及当前映射。** `m-chp9-p265-longhi`的surface“Pietro Longhi”及span未变，candidate由错误的作品`cand-1431`更正为人物`cand-1429`。p.265标题作品有独立mention `m-chp9-p265-fall-giants`→`cand-8613`；索引作品候选`cand-1431`另由S3同一到该壁画KU，不与人物KU混并。新增的S2 `st-chp9-p265-longhi-painted-fall-of-giants`经本批对照PDF物理第31页（印本p.265 L295）复核，`created_by`端点为壁画→Longhi；已有`rel-2372` formal保持不变，地点`cand-8614`仍undecided，不补located_at边。此前24条历史statement/source对象精确复用并保留开放发现；其工作候选与人物mention分开后没有新冲突。
+
+注释段的3个新增span分别是note2中的“the villa”“St Peter’s”及note3题名中的“Co: di N.N.”，均与当前S0切片及印本物理第13页（印刷p.251）相符。它们对应`st-chp9-p251-villa-restoration-note`、`st-chp9-p251-st-peters-poetic-influence-note`及`st-chp9-p251-anonymous-1708-source-citation`；其他共享该segment哈希的历史行不把这些新mention误作自身claim。匿名通信者仍为未识别对象；诗歌影响范围和匿名通信出版边分别继续pending，不生成formal边。
+
+**当前版直接复核。** 无历史事件的10054 `st-chp9-p265-longhi-painted-fall-of-giants`、10061/10062 Crespi信件作者与收件人statement、10113 Florio对《Le Grazie》的书目作者statement，以及当前版修订后的10117 Florio注4 cross-reference共5条，均逐项对照S0和原书扫描页复核PASS。印本p.251注2读作“Le Grazie”；S0 OCR“Le Crazie”保留，标题候选`cand-8229`沿用既有页图校正，不据此声称独立查阅1766年版本或诗页。注4当前statement仅增加对10113作者statement的related-statement链接，链接适当；S6对注4另建引用边的rejected裁决保留。既有`rel-1919 authored_by`、`rel-1920 addressed_to`及`rel-1755 authored_by`范围不变，原件/诗本均不称已独立查阅。
+
+**span与批后状态。** `l291-301`共49条mention、`l323-445`共329条mention，全部按当前S0逐条切片核对，错误0；4条新增无历史statement及10117当前statement的原句均可定位。当前PDF SHA-256=`8d0adc954f824fa5c6f202571e03a6eb8475dd4125c91c41f79204a445b961ec`；S0 Markdown SHA-256=`9b63ad7d1e2326f0ca7448efcd490c9ae5fce8c237c4289161227fe55a8518c3`。本批100条完成路由：5条当前PASS、95条精确statement/source复用并保留开放发现（含mention差异的单独映射说明）。全书当前statement/mention为15,505/27,285；roster状态：PASS 2,850、已审待证696、历史映射但保留开放发现8,323、版本差异待核95、待历史/既有审读回映或当前复核3,541；未获当前PASS 12,655。9,622历史事件账本不变；下一批从10126开始，S2仍未独立语义接收。
