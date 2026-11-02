@@ -17245,3 +17245,18 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **关系说明同步。** 当前statement的`relation_candidate_note`旧称“no S6 formal edge is created here”，但`relations.csv`已有同一来源范围的formal `rel-0299 uses_procedure`（Rosa→`units/procedures/exhibition-self-promotion`）。现将说明改为明确复用既有formal边，不新增、不改写该关系；同段泛称`cand-3574`仍与procedure分立。S3 alignment不变；既有关系历史裁决不变。
 
 **批后状态与剩余量。** B122结算100条：99条历史开放项复用保留；唯一当前差异statement依据既有独立PASS回映，修正其过时关系说明后当前PASS。全库PASS 5,121、已审待证698、历史映射开放8,323、版本差异待核80、待回映／当前复核1,283；未获当前PASS 10,384，待当前路由1,363。下一批从1001开始；9,622历史事件总账不变，S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b123-ch1-sec-ii-1001-1100"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B123：第一章第二节及脚注，顺序1001–1100
+
+**历史核平与效率分流。** 连续顺序1001–1100共100条；9,622历史事件台账中99条各有1条历史事件，另1条无历史事件。98条当前statement hash、来源S0版本和mention集合均与历史读本精确匹配，复用既有直接阅读并保留其开放发现；不重复通读原文，也不升级当前PASS。仅复核1条relation-note差异和1条此前无历史事件的新脚注statement。
+
+**顺序1030：未入9,622台账的当前statement。** `st-chp1-secii-p12-n1-cites-grassi-1957`在历史台账中无对应事件。核对当前statement引文与S0第1章L461，并直接查看`02-sources/01-book/CHP-1.pdf`物理页11（印刷p.12；SHA-256=`0b9a3ca88e6f09209bd20185948e18a68f527d0628e893940a7e3f07f6d22c86`）：脚注明载“L. Grassi published in 1957”，随后讨论Grassi所称的Cortona modelli，并另引Brigand 1962 p.251。核对第21章书目L546–547，唯一对应Grassi 1957文章候选`cand-11346`；S3既有`same`决定指向`units/archives/grassi-cortona-bozzetti-1957`。mention `m-chp1-secii-0430`的`L. Grassi`跨度及书目mention `m-chp21-bib-l538-575-006`的条目跨度均按当前segment精确切片。现有formal `rel-2150 cites`已指向同一篇书目文章，仅记录Haskell引注。故该statement当前PASS；claim仅限“引注及书目对应”，不称已读Grassi论文、不把Haskell转述当成论文内容或认可。
+
+**顺序1093：仅关系交接说明差异。** `st-chp1-secii-l657-n1-cites-malvasia-vol2-p27`相较历史读本只改变`qualifiers.relation_candidate_note`；claim、原引文、谓词、端点、S0来源和mentions均未变化。对照现有formal `rel-2095 cites`，确认新说明准确指出该边仍只记录Haskell引注、未独立查阅被引版页。差异复核完成，但历史开放发现仍未解决，故改记`reviewed_current_pending`，不升PASS；不改S6关系行。
+
+**跨批关联及影响。** B120顺序743 `st-chp1-secii-l48-60-07`的历史开放发现仍保留；仅将待办说明更新为其新链接脚注现已在B123当前PASS。脚注通过不替代正文statement的独立裁决，故该项仍pending。除逐ID roster和本过程记录外，本批不改statement、mention、S3对齐、KU、正式关系或9,622事件历史台账。
+
+**批后状态与剩余量。** B123完成100/100：98条精确历史复用且开放发现保留，1条当前版本差异完成核查但仍pending，1条新脚注statement当前PASS。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态：当前PASS 5,122、已审待证699、历史映射开放8,323、版本差异待核79、待回映／当前复核1,282。未获当前PASS 10,383；当前路由未结1,361（含版本差异79）。下一批从1101开始；9,622历史事件台账不变，S2仍未全书独立语义接收。
