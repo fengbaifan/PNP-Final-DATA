@@ -16613,3 +16613,16 @@ p.283 L151–165保留Johann Wilhelm对荷兰艺术的收藏、Van Dyck/Rubens�
 **mention增量及跨阶段影响。** 原有候选引用中6个对象缺段内精确mention；现补6条并逐一断言span：cand-8943 `scenes of Dido and Aeneas` `[411,436)`；cand-11966 `filled with figures of gods and goddesses` `[479,520)`；cand-8944 `an allegorical tribute` `[575,597)`；cand-11969 `Paymaster to the Forces` `[941,964)`；cand-11967三城组`Düsseldorf was with London and Paris one of the great centres` `[2594,2655)`；cand-11970 `the artists who surrounded him` `[351,381)`。不新增statement或candidate；全库mention由27,297条计数。对应6条S3 alignment的理由更新以记录当前S2锚点；6项decision仍为`undecided`，分别待跨章同类身份、术语/作品边界或类型判断，不据mention自动改为same/new或登记KU。rel-1517–1519、rel-2323、rel-2435、rel-2457/2458、rel-2531–2538等共18条明确回链的S6既有记录逐条复核：15 formal、3 rejected，均不改；其余未闭合候选不新增formal边。历史S6裁决及9,622台账不变，`relations.csv`不变；关系一致性阻断0。
 
 **批后数量与剩余量。** 100/100条均已完成当前ID/版本复核并路由为PASS。全库仍为15,505条statement、12,448个candidate，mention增至27,297条。roster互斥状态：PASS 3,094、已审待证696、历史映射但开放发现8,323、版本差异待核86、待回映或当前复核3,306；未获当前PASS 12,411。尚待当前路由3,392条；另有9,019条已审待证或承接历史开放发现。9,622历史事件台账不变，S2仍未独立语义接收。下一批从10726开始。
+
+
+### 2026-11-02 S2当前版本逐ID复核 B092：第10章印刷页284–290，顺序10726–10825
+
+**历史事件核平与复用。** 本批100个连续当前ID的`history_9622_event_count`均为0，历史重建成员均为`not_in_reconstructed_count`；因此没有9,622事件级结论可重复计入。清单旧映射均为`current_object_differs`，逐行当前对象哈希在本批开始时与roster快照一致。复用的是2026-10-02第十章p.284–290的既有S2逐页语义记录和原PDF校读，不把该过程改记成9,622独立审读。全历史事件中的两个`absent_current`旧ID已有明确撤销/拆分去向，见本文件`2026-11-02-s2-history-9622-reconciliation-current-ids-versions`记录；历史事件账本未改动。
+
+**当前来源与版本核对。** 100条行序连续；来源Markdown SHA-256=`f912dba9e5c8460538222c57d32c3734d0c23c72cb32a0871b50b6901ce9e27f`，`CHP-10.pdf` SHA-256=`c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`；所涉7个S0段指纹均匹配当前roster。100条原文引句/来源行核对0处不符；7段原有mention指纹与清单快照一致，跨度及候选外键有效。候选词形扫描提示7处未覆盖词形，经上下文审查，Annibale Carracci子项`drawings`、Schulenburg子项`portraits`（3处）、Salvator Rosa作品子项`Fortune`及Guicciardini作品子项`Histories`均为普通名词用法，不是这些候选的mention。
+
+**本批修订与语义边界。** 对p.288 L219“modern Italian painting”认定为艺术领域term `cand-11017`的另一处精确用例：该候选已有第5、7、20章同一字段用法，现新增mention `m-chp10-p288-italian-painting`，跨度`[237,253)`；同步将`cand-11017`加入statement `st-chp10-p288-project-prospects`的`mentioned_candidate_ids`。未新增candidate或statement；该候选S3 `new`决定和S4待登记状态不变，也不把相邻`Italian art`的地理候选`cand-3461`与term合并。其余复用第十章已有页面判断：p.285把Carriera相遇拆为7项，Rigaud/Watteau的钦慕有明文，另外5人只保留集体名单层级；p.289分别保留Haskell转述与脚注的来源限制，Petoni不并入Paltronieri/Pittoni，Vertue十项与1741年九项清单不因重名判同；p.286–288、p.290的委托、地点、方案、版本和作者评价继续保留原有模态与范围。本批在p.290只覆盖连续顺序中的前三条，后续statement留给B093。
+
+**下游影响。** 本批含58条`relation_candidate=true` statement；原有正式关系`rel-2446`（p.286 Powis House装饰）维持不变。p.285七条`met` statement仍是S2关系候选，本批未把它们写成正式关系，也未改动`relations.csv`或历史S6裁决；S6关系一致性阻断仍为0。候选、KU及S3决定均未改动，S2的1条term mention补记不等于身份裁决。
+
+**批后数量与剩余量。** B092完成100/100条当前ID/版本复核并路由PASS；其中1条statement按当前原文补齐term候选引用，并新增1条mention。全库为15,505条statement、27,298条mention、12,448个candidate。roster状态：PASS 3,194、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核3,206；未获当前PASS 12,311，尚待当前路由3,292条；另有9,019条已审待证或承接历史开放发现。历史9,622事件账本不变，S2仍未独立语义接收。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断0。下一批从10826开始。
