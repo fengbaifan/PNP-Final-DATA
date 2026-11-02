@@ -16775,3 +16775,33 @@ p.317开篇句按原语气记录“Venice似乎未变而欧洲已变”；印本
 **关系与影响检查。** 复核`rel-2609`–`rel-2620`的12条formal边及`rel-2621`–`rel-2622`的2条pending边：前者仍分别记录来源所报Canaletto归属、Streit馆藏、画面人物/地点、Streit笔记作者及书目引用；未将未独立查阅的Constable、Zimmermann或Streit原始笔记表述为外部核实。后两条`located_at`仍因无法区分Palazzo Foscari的居住关系与Campo di Rialto的营业地点而pending。本批没有关系裁决变化；关系一致性审计阻断0。
 
 **批后状态。** B100的100/100条均记为`reviewed_current_pass`：78条精确复用旧页语义审读，22条变化/新增对象完成当前原文重核；本批9,622历史事件0条。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态为当前PASS 3,994、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核2,406。未获当前PASS为11,511；尚待当前路由2,492（2,406条待回映/复核＋86条版本差异）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断0。S2仍未全书独立语义接收。下一批从顺序11626开始。
+
+
+<a id="2026-11-02-s2-current-review-b101-ch10-p317-p321"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B101：第十章印刷页317–321，顺序11626–11725
+
+**历史核平与版本复用。** 本批100条连续statement的`history_9622_event_count`均为0；不属于9,622条历史复核事件，不增加、删改或重计旧事件。将当前完整statement JSON对象与`d7adabfb`快照逐ID比较：79条对象完整相同，复用对应既有页级S2语义审读；18条同ID对象变化，3条为快照后新增，21条均直接按当前原文重核。旧页复用不替代当前ID/版本检查，也不等于历史事件级映射或全书独立接收。
+
+`CHP-10.pdf` SHA-256=`c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`；当前S0 `10_CHP-10_sec_ii.md` SHA-256=`25542734fde53358cde0a489f1c62ff3f021f32d68be733162b406d4d8a229f9`。五个连续源段覆盖本批100条及256条mention：
+
+| 当前规范源段 | statement | mention | 源段SHA-256 |
+|---|---:|---:|---|
+| `10_CHP-10_sec_ii:l119-131` | 19 | 57 | `a8e3ff5fca7f961532bea42166ba052a51643d887ed2b96b0ccfbc720ee160e0` |
+| `10_CHP-10_sec_ii:l133-142` | 24 | 67 | `57b6e165a2c8f95415fc2a8380d33ed655868ea9708af26e222398d11764fbb6` |
+| `10_CHP-10_sec_ii:l144-149` | 21 | 39 | `9fe4ff0e9fce9c9771d86d7d1263cae9647e95b5b350fe6371641dd3d2e61c7a` |
+| `10_CHP-10_sec_ii:l151-163` | 32 | 52 | `ca9b13f097c70411ec22b3ea274eca40603a0eb053de5ef9b7473fdee422a2f0` |
+| `10_CHP-10_sec_ii:l165-173` | 4 | 41 | `2c5d35a670267696a93aa11f9c12a5d3baf3edc64196ffc240d530413bddc06c` |
+
+**逐项语义判断。** 79条完整对象未变，复用2026-10-03印刷页317–321原页审读（本文件`#L4418`、`#L4422`、`#L4428`、`#L4434`、`#L4440`）；当前S0、100条`original_quote`、五个源段和256条mention跨度/指纹重新核对。21条变化/新增对象均直接重核当前表述与限定：
+
+- p.317三条变化：`st-chp10-p317-intellectual-revolution-in-england-and-france`与`st-chp10-p317-dialogo-publication-date-claim`的限定由“脚注待核”更新为对应脚注已转录/链接，但仍只报告Haskell的前瞻性解释及1744年说法，不称为外部事实核实；`st-chp10-p317-italian-intellectuals-travelled-abroad`将未具名群体、伦敦或巴黎的陈述保留为群体属性，不作每人实际旅行的正式关系。
+- p.318十一条变化/新增：`st-chp10-p318-voltaire-commented-on-intellectual-revival`保留Haskell对Voltaire的间接转述和约数；`st-chp10-p318-muratori-published-della-pubblica-felicita`保留书名/年代与Haskell的标题评价，候选`cand-1717`沿用既有跨章S3 `new`裁决，不改alignment；`st-chp10-p318-galiani-della-moneta-appeared-in-1750`不补版本、出版者或地点。将`st-chp10-p318-giannone-pilati-baretti-and-other-thinkers-expelled`拆分为Giannone、Pilati、Baretti和未具名其他思想者四条，其中Baretti、Pilati、未具名群体为本快照后新增；共同谓词只按原文“被逐出威尼斯共和国领土”记录，不补个人日期或具体经历。`st-chp10-p318-arcadia-and-french-critics-stimulated-debate`不补出未具名法国批评家；`st-chp10-p318-conti-extended-debate-into-visual-arts`按紧邻下句指代识别Antonio Conti并保留“some part”等限语；`st-chp10-p318-conti-among-italian-intellectuals-seeking-travel`记录该群体认为英法旅行必要，不推称所有成员实际出行；`st-chp10-p318-conti-visited-paris-in-1713`按原文记录Conti在巴黎的交往，未具名其他人物不补猜。p.318注释状态转为已转录，不等于独立查阅被引文献。
+- p.319三条变化：`st-chp10-p319-conti-described-as-amateur-scientist`仍是Haskell的描述而非外部资历核实；`st-chp10-p319-newton-showed-conti-confidential-notes`不补笔记题名、日期或保管地；`st-chp10-p319-conti-painters-fantasy-quoted-principles`保留Conti经Haskell转引的局部引文，并在p.320续接。脚注转录不升级为被引著作已核读。
+- p.320四条变化：`st-chp10-p320-zanetti-announced-colour-woodcut-process-to-conti`不补书信日期和技术细节；`st-chp10-p320-lodoli-brother-of-minori-osservanti`沿用原文修会名称；`st-chp10-p320-vico-autobiography-first-published-in-venice`将Venice保留为城市出版地点；`st-chp10-p320-lodoli-in-touch-with-montesquieu`不补接触日期或媒介。上述脚注由pending改作已转录/链接，未把引文升级为独立验证。p.321四条完整对象未变，沿用原页审读。
+
+印本在p.317段落开头标出Chapter 12，但当前S0源文件仍以`10_CHP-10_sec_ii`保存；本批按文件连续顺序复核，不挪动或重分类来源。除roster复核字段外，未改写statement、mention、candidate、alignment或relations表。
+
+**关系与影响检查。** `relations.csv`没有以本批100个statement ID或p.317–321原文范围为证据的S6边；未新增或改动formal、pending或rejected裁决。相关statement的关系候选标记按当前对象保留，不据此自动造边。Muratori候选既有跨章身份决定保持不变。本批原文中未具名思想者及未具名群体仍按原文粒度记录，不为形成关系而补造端点。关系一致性审计阻断0。
+
+**批后状态。** B101的100/100条均记为`reviewed_current_pass`：79条精确复用旧页语义审读，21条变化/新增对象完成当前原文重核；本批9,622历史事件0条。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态为当前PASS 4,094、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核2,306。未获当前PASS为11,411；尚待当前路由2,392（2,306条待回映/复核＋86条版本差异）。S2仍未全书独立语义接收。下一批从顺序11726开始。
