@@ -1,4 +1,4 @@
-﻿# 全书语义处理（S2）过程
+# 全书语义处理（S2）过程
 
 
 
@@ -16443,3 +16443,18 @@ p.240的指示词“this”仍不识别具体作品，Mehus之子未具名；引
 **批后进度与剩余量。** 当前15,505条statement、27,285条mention；当前版逐ID PASS 2,779，已审但仍待证606，历史ID已映射但开放发现未结8,323，当前版本差异待核101，仍待历史／既有审读回映或当前复核3,696。未获当前PASS共12,726条（以上类别互斥）。本批完成100条，下一连续批次从顺序9426开始；S2尚未独立语义接收。当前roster SHA-256=`9364caf630860f60e5719aae12d49ae08a03b51dd0f9088e93482a2a1ad7668b`。
 
 **必要核验。** B078的roster顺序9326–9425连续，100条均PASS、0 pending、历史事件0；本批52条新增mention的字符跨度均与当前分节source切片相等，两个重复span已复用而未保留；`audit_tables.py --strict-stage --summary`实际返回15,505 statements、27,285 mentions、`errors=[]`、`s2_missing=[]`。`audit_relation_consistency.py --dry-run`返回broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0。相对本次基线，alignment改动列仅为`resolution_note`；relations.csv未变化。`git diff --check`通过。以上检查与本批复核均不构成全书S2独立接收。
+
+<a id="2026-11-02-s2-current-review-b079-ch8-p222-p237-notes"></a>
+### 2026-11-02 S2当前版本逐ID复核 B079：CHP-8 p.222–237注释，顺序9426–9525
+
+**历史记录与版本核对。** 本批100条均无9,622历史复核事件。旧独立审读覆盖当前原文范围：2026-10-20记录的#901–975与#976–1045。逐ID比较当前完整statement对象与提交`9a2e2b83`的旧审读版本，88条完全一致，复用其原页阅读和语义判断；不继承旧批次“不接收”中已记录的问题为PASS。另12条与该版本不同，其中6条为p.222 n.2、p.227 nn.1–2、p.230 n.2及p.236 n.2的新增/修订，逐句核当前版；p.227 n.2另核Appendix 3第82行，标题明确为Giuseppe Torelli致Alessandro Marchesini的信，但原件及原信措辞未独立查阅。其余6条为p.237 n.3拆出的statement，复用2026-11-01针对当前拆分版的独立逐ID复核。旧版阅读仅作为可追溯证据，不因hash相同自动算PASS。
+
+**批次裁决。** 连续顺序9426–9525共100条均已有当前版去向：11 `reviewed_current_pass`、89 `reviewed_current_pending`。PASS为：9476（p.231 n.2，S2忠实记录Haskell所报Pitti No.582位置，Uffizi/Pitti冲突仍由S6 pending边承载）；9500（p.234 n.6，当前行的Letter 92定位与已登记的L288–289 Langetti/Fogolari交叉引用共同支持）；9510–9511（p.236 n.2，Orléans位置与Plate 39草图指涉）；9519（p.237 n.2，Silva违约后撤回赠画意图）；9520–9525（p.237 n.3六条，2026-11-01当前版独立复核通过）。PASS只表示本批S2断言和可追溯跨度成立，不把未读引文原件写成事实验证，也不改变S6状态。
+
+**待证与不复用边界。** 其余89条保留pending：roster逐ID记有待核候选—原文span/指代映射；严格同一行比较仅作定位提示，不能把不同段落中的指代或显式交叉引用机械判为缺实体。另有旧审读明确指出且当前仍未解决的问题：9426复合辞职、离任与携画；9431以四画组承载“这两幅及其他藏画”的位置；9440肖像作品端点缺失；9441 Memoria内容、作者、日期、家族保管合并；9442将照片副本当作归属建议对象；9443–9444缺Haskell接收者；9445 Ubaldi书目对象未识别；9469信件组与档案保管处类型/端点未分；9471两项引文及赞助限定混合；9477复制画位置与Franchi归属合并；9485 Trevisani送交Ferdinand的modello缺参与角色；9486档案付款定位与多位画家服务混在一条；9492自画像送往Florence缺目的地端点；9496库存、题材、目录误题和书信例证并列；9497 Cassana多组作品/人物与书目引文合并；9499《Conspiracy of Catiline》摹本判断与Pitti位置合并；9505 Letter 197与展览事件合并；9509 Gherardi报告的要求、完成、支付、礼物和赞许复合；9513库存、画家、Lucca位置、题记日期复合。另有其它候选跨度或范围尚未定，不以旧报告中的“核心claim相符”覆盖这些开放项。
+
+**关系及历史裁决影响。** `relations.csv`未修改。p.227两条MS 3299定位继续由`rel-1922`、`rel-1923`保持pending；`rel-1577`仍因Pitti/Uffizi矛盾pending，`rel-1575/1576`书目引用formal不变；`rel-1629`的Sgrilli引用formal已覆盖p.230 n.2及p.241 n.4；p.236 n.2的`rel-2039 model_for`与`rel-2040 located_at`均保持formal；`rel-1617`仍仅formal记录Haskell对Zanotti的引用。p.237另有八条关系候选仍为process-only pending。B079的9,622历史事件数为0；没有旧事件裁决需要改写或迁移。
+
+**批后进度与剩余量。** 当前15,505条statement、27,285条mention。当前版逐ID状态：PASS 2,790；已审待证695；历史已映射但开放发现8,323；版本差异待核101；待历史/既有审读回映或当前复核3,596。未获当前PASS共12,715条。B079本批完成100/100条当前裁决（11 PASS、89 pending）；连续原文下一批从顺序9526开始。S2仍未独立语义接收。 当前roster SHA-256=`3ab95245fb59a2fd5d0b7783e89a971f50cd2956fbf8f8eee7abcbb14c9e102d`。
+
+**必要核验。** roster顺序9426–9525连续且每行引用本节证据；B079历史事件0。source Markdown L382–441与statement source anchor、版本hash核对；candidate span定位对显式cross-reference分开检查。`audit_tables.py --strict-stage --summary`实际返回15,505条statement、27,285条mention、`errors=[]`、`s2_missing=[]`；保留S4 new登记待处理与S2语义质量警示。`audit_relation_consistency.py --dry-run`实际返回broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；另报告1,320个零关系KU和2个超连接KU作为诊断项。`git diff --check`通过。本批未改book-statements、mentions、alignment、relations或S6裁决。机械审计不替代语义裁决，也不构成全书S2独立接收。
