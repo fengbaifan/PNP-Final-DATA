@@ -17295,3 +17295,12 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **顺序1341：Toesca引注claim修正。** `st-chp2-seci-l95-106-citation-toesca`的唯一statement版本差异是`qualifiers`：旧版把注5的“I. Toesca”过度对应为第21章L1169的“L. Toesca”书目文章；当前版改为逐字报告两处首字母差异，并将该书目条目标为仅可能匹配、实际被引对象未定。直接查看`CHP-2.pdf`物理页10（印刷p.29注5）确认原文为“I. Toesca”，并查看`CHP-21Bibliography.pdf`物理页28（印刷p.438，L1169）确认书目作“Toesca, L.”；两处材料不支持无保留合并。当前statement claim通过原页核对，但引注目标身份仍待证，故状态为`reviewed_current_pending`。既有`rel-1983`继续pending，不建立formal citation；不改S3决定、候选或关系行。两PDF SHA-256分别为`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`、`1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`。
 
 **批后状态与剩余量。** B126完成100/100：87条statement／来源／mention集合精确历史复用，12条statement精确且共享mention差异有独立回核依据，1条Toesca版本差异审查完成但身份与关系仍pending。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态：当前PASS 5,123、已审待证700、历史映射开放8,323、版本差异待核77、待回映／当前复核1,282。未获当前PASS 10,382；当前路由未结1,359（含版本差异77）。下一批从1401开始；9,622事件台账不变，S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b127-ch2-1401-1500"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B127：第二章第一节注释、图版转录与第二节开篇，顺序1401–1500
+
+**历史核平与复用。** 本批连续顺序1401–1500共100条，100/100各有1条历史事件；当前statement hash及来源版本均与历史读本精确匹配。53条mention集合也精确匹配；另47条同属段`chp-2:02_CHP-2_sec_i:l124-157`，其segment级mention delta与B126相同：一条现有mention改映射，加两条author mention。它们不代表47条statement各自改变。三条mention已由[2026-11-01第2章作者mention独立复核](#2026-11-01-s2-independent-current-review-ch2-l124-157-author-mentions)逐项核过当前跨度、人物边界和候选映射：`cand-6369`保留De Rinaldis特定书目责任范围，`cand-12447`仅为Roger Hinks作者身份，`cand-12448`仍undecided并保留`bl-0034`。复用100条历史statement阅读并保留全部开放发现，不因共享段级delta重复审读或升级PASS。
+
+**关系及批后状态。** 相关引用边、作者责任边的既有S6裁决不变；Rosi人物身份不从引用关系推出。`book-statements.jsonl`、`mentions.csv`、S3对齐、KU、`relations.csv`及历史9,622事件台账均未改。B127完成100/100精确历史statement复用；全库15,505条statement、27,302条mention、12,448个candidate。roster状态保持：当前PASS 5,123、已审待证700、历史映射开放8,323、版本差异待核77、待回映／当前复核1,282；未获当前PASS 10,382，当前路由未结1,359。下一批从1501开始；S2仍未全书独立语义接收。
