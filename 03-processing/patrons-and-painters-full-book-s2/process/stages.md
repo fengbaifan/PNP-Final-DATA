@@ -20107,3 +20107,23 @@ S3受影响决定只补充锚点和边界说明、不改决定值：cand-6608继
 | **阶段合计** | **1001–1300** | **300/300** | **267** | **33** | **28** | **5** | **8,637 / 6,868** |
 
 本阶段后逐ID清单仍为15,505项，当前PASS 8,637、current pending 6,868，历史映射开放0。下一连续顺序1301；S2尚未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-stage-b404-b406-order-1301-1600"></a>
+### 2026-11-02 S2当前版本逐ID复核阶段：B404–B406（顺序1301–1600）
+
+本阶段按连续原文完成300项当前版本核平。每条先比对statement、来源segment、来源资产、segment mention集合及原审读引用；163条已有current PASS按匹配指纹复用，137条current pending逐项回到原书正文、脚注和相邻语境复核。原书依据为`CHP-2.pdf`（SHA-256 `317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`）及当前节录`02_CHP-2_sec_i.md`（SHA-256 `5eca92acb03fe9934be85c82a6ec6806d3c564002955e99bd317916f3c7c8dc6`）；关键段落核读印刷页29–31，并以PDF物理页10–11定位印刷页29–30。
+
+原pending中21条在核对原文断言边界、脚注及精确mention后转为当前PASS，116条保留pending，逐项开放理由仍列于`s2-current-review-roster.csv`。新增11条精确mention，更新9条statement；p.29、p.30及p.31三个segment的mention集合指纹已重算，按各H9622事件对应review snapshot重算53行历史mention差异。原先新增的Portoghesi与Faldi作者跨度和既有作者mention完全重叠，已删除重复行；两条引注statement改指既有作者mention `m-chp2-seci-l95-106-0075`、`m-chp2-seci-l95-106-0077`。因此本阶段净增11条mention，当前总数27,328。H9622事件ledger未改（SHA-256 `75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`），`relations.csv`未改（SHA-256 `dc964eb953c0e142c32b4e657925876bd6ed8af7ba0d5ceda7825211c7a3629a`）。
+
+转为当前PASS的21条statement：`st-chp2-seci-l95-106-other-paintings-part-of-collection`、`st-chp2-seci-l95-106-collection-holdings`、`st-chp2-seci-l95-106-thirteen-displayed`、`st-chp2-seci-l95-106-cambiaso-collection`、`st-chp2-seci-l95-106-carracci-collection`、`st-chp2-seci-l95-106-other-paintings-location`、`st-chp2-seci-l95-106-contemporary-art-level`、`st-chp2-seci-l95-106-essay-authored`、`st-chp2-seci-l95-106-essay-purpose`、`st-chp2-seci-l95-106-citation-faldi`、`st-chp2-seci-l95-106-citation-portoghesi`、`st-chp2-seci-l95-106-citation-salerno`、`st-chp2-seci-l95-106-hopf-untraceable`、`st-chp2-seci-l108-119-recognised-artistic-revolution`、`st-chp2-seci-l108-119-palace-paintings-by-andrea-del-sarto`、`st-chp2-seci-l108-119-palace-paintings-by-correggio`、`st-chp2-seci-l108-119-palace-paintings-by-raphael`、`st-chp2-seci-l108-119-palace-paintings-by-giulio-romano`、`st-chp2-seci-l108-119-palace-paintings-by-parmigianino`、`st-chp2-seci-l108-119-paul-v-and-scipione-patronage`、`st-chp2-seci-l124-157-giustiniani-friend-bizoni`。其中collection比较范围已恢复；作品组、地点与具体作品维持区分；Paul V与Scipione的共同主体不拆成未经原文分配的个人委托；未题名essay及其出版信息不外推；注5只记录Haskell的引文路径，不声称读过被引文章。`st-chp2-seci-l95-106-venetian-collection`仍因source-defined collective `cand-11569`身份/类型未定而pending；其余身份、复合断言、引用指向及端点未足的finding按roster逐项保留，不借S2强行裁决S3或S6。
+
+S3方面仅为12个受影响候选补记原文mention及身份/范围边界，既有decision值和KU登记不变；Venetian collective、未题名essay、investigators和term范围仍待证。S6未新增或修改关系，缺端点及需拆分的关系继续依原裁决保持pending。阶段复核脚本为`adjudicate_s2_review_ch2_1301_1600_20261102.py`。
+
+| 批次 | 连续顺序 | 阶段累计 | 既有PASS复用 | pending复核 | 新转PASS | 保留pending | 批后全库PASS / pending |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| B404 | 1301–1400 | 100/300 | 66 | 34 | 20 | 14 | 8,637 / 6,868 |
+| B405 | 1401–1500 | 200/300 | 78 | 22 | 1 | 21 | 8,637 / 6,868 |
+| B406 | 1501–1600 | 300/300 | 19 | 81 | 0 | 81 | 8,658 / 6,847 |
+| **阶段合计** | **1301–1600** | **300/300** | **163** | **137** | **21** | **116** | **8,658 / 6,847** |
+
+阶段结束后逐ID清单仍为15,505项，current PASS 8,658、pending 6,847，历史映射开放0。严格表审计`errors=[]`；关系一致性检查的broken target、invalid type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。此阶段结果不代表S2全书独立语义接收。下一连续顺序1601。
