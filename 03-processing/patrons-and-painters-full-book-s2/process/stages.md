@@ -16744,3 +16744,34 @@ p.310保留Haskell关于Schulenburg与Smith审美差异及“没有记录二人�
 **来源、提及与关系影响。** 100条original_quote均能在对应当前S0源段内按空白归一精确定位；13个segment共304条mention的当前指纹与roster一致，严格表审计确认span与候选外键无错误。没有更改book-statements、mentions、candidate、alignment或relations表。同一p.289表格上下文中的rel-1647/rel-1648仍为Ricci对Duke of Devonshire纪念物的formal contributed_by边，不转用于本批p.289末行；p.313注1所据rel-2309仍为pending，因为Pignatti和当前馆藏目录未核。关系一致性审计的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
 
 B099的100条全部记为reviewed_current_pass。批后roster互斥状态：当前PASS 3,894；已审待证696；历史映射开放发现8,323；版本差异待核86；待回映或当前复核2,506。尚待当前路由2,592条，其中本批后当前ID/版本复核待路由的条目从2,692降至2,592；未获当前PASS 11,611。严格表审计全库15,505条statement、27,302条mention、12,448个candidate，errors=[]、s2_missing=[]。S2尚未全书独立语义接收；下一批从当前顺序11526开始。
+
+
+<a id="2026-11-02-s2-current-review-b100-ch10-p313-p317"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B100：第十章印刷页313–317，顺序11526–11625
+
+**历史核平与版本复用。** 本批100条连续statement的`history_9622_event_count`均为0；不属于9,622条历史复核事件，不增加、删改或重计旧事件。将当前完整statement JSON对象与`d7adabfb`快照逐ID比较：78条对象完整相同，复用对应既有页级S2语义审读；19条同ID对象发生变化，3条为快照后新增，22条均直接按当前原文重新核读。复用页审读仅表示当前ID/版本与旧语义判断相接，不等于9,622事件级映射，也不等于全书独立接收。
+
+`CHP-10.pdf` SHA-256=`c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`；当前S0 `10_CHP-10_sec_ii.md` SHA-256=`25542734fde53358cde0a489f1c62ff3f021f32d68be733162b406d4d8a229f9`。五个连续源段覆盖本批全部100条及349条mention：
+
+| 当前规范源段 | statement | mention | 源段SHA-256 |
+|---|---:|---:|---|
+| `10_CHP-10_sec_ii:l72-81` | 5 | 75 | `33904e26e12604621ed232cec6d304fbd67037bf50e633717a375ba6e1f605e0` |
+| `10_CHP-10_sec_ii:l83-93` | 23 | 80 | `aff0d4d1ae3dfe47510086a0cd9524cf53a7a585e0a681200b08d1b2a909b478` |
+| `10_CHP-10_sec_ii:l95-106` | 38 | 59 | `a7b8312b42cdedc92fa755183840f9878b7ed889c480b980a755f7aef840c6c0` |
+| `10_CHP-10_sec_ii:l108-117` | 33 | 78 | `7ec8534f6a5d8a00a026f86d3825580aed692c791f583e86777c89c11055f685` |
+| `10_CHP-10_sec_ii:l119-131` | 1 | 57 | `a8e3ff5fca7f961532bea42166ba052a51643d887ed2b96b0ccfbc720ee160e0` |
+
+**逐项语义判断。** 78条精确对象按印刷页复用2026-10-03 p.313–317原页语义记录（分别见本文件`#L4386`、`#L4392`、`#L4400`、`#L4408`、`#L4418`）；当前S0来源、100条`original_quote`和349条mention跨度/指纹均重新核对。22条不继承旧对象结论，按当前引句和限定直接复核：
+
+- p.313：`st-chp10-p313-pittoni-schulenburg-commission-and-reputation`保留Pittoni声望与德国赞助人概述，不据注4无页码交叉引用识别具体国际委托；`st-chp10-p313-schulenburg-collection-history-and-genre-paintings`仍为未指明单件作品的馆藏概述。
+- p.314：`st-chp10-p314-piazzetta-chief-agent-for-schulenburg`按跨行句法读为Piazzetta代理购画，通常为佛兰德作品；`st-chp10-p314-schulenburg-owned-seven-ceruti-pictures`只保留七件Ceruti绘画及类别，作品题名未给；`st-chp10-p314-social-satire-interpretation-qualified`保留匿名解释和Haskell“almost certainly wrong”的概率判断；`st-chp10-p314-schulenburg-owned-views-and-landscapes-by-six-artists`保留Marieschi及其余艺术家分组，不混作一组具体作品。
+- p.315：复核Smith与Schulenburg馆藏概述、Carriera交往、Ricci“portrait and some paintings of Ricci”的作者/被绘者歧义及两馆藏的Marco Ricci/Zuccarelli未指明作品。`st-chp10-p315-neither-collection-had-tiepolo-paintings`当前版本拆出Smith馆藏的否定断言；另新增`st-chp10-p315-schulenburg-collection-had-no-tiepolo-painting`记录Schulenburg馆藏否定断言；两者均不生成正向所有权边。`st-chp10-p315-piazzetta-pittoni-guardi-not-particularly-favoured-by-smith`现只承载Piazzetta的限定偏好；新增`st-chp10-p315-pittoni-not-particularly-favoured-by-smith`与`st-chp10-p315-guardi-not-particularly-favoured-by-smith`分别承载另两人，均不推为Smith从未购藏。
+- p.315–316：`st-chp10-p315-streit-pictures-reflect-similarities-and-differences`保留“seem”；`st-chp10-p315-four-canalettos-two-scenes-linked-to-streits-life-fragment`与`st-chp10-p316-two-life-scenes-noted-about-streits-pictures`按跨页句闭合，两个场景仍是四幅中的子集，引用不称作独立查阅。
+- p.316：`st-chp10-p316-follower-paintings-record-doge-processions`不补出未具名画作或Doge；`st-chp10-p316-amigoni-painted-streit-portrait-and-ten-other-pictures`按原文区分肖像及另外十幅；`st-chp10-p316-nogari-found-genre-more-congenial`将“he”限定为Nogari，注4的“these paintings”指本句已述画组，不识别单件作品。
+
+p.317开篇句按原语气记录“Venice似乎未变而欧洲已变”；印本在此开始标作Chapter 12，但当前S0段仍属于`10_CHP-10_sec_ii`。按连续源序审核，不移动来源、不因标题错接或重分类。未改写statement、mention、candidate、alignment或relations表。
+
+**关系与影响检查。** 复核`rel-2609`–`rel-2620`的12条formal边及`rel-2621`–`rel-2622`的2条pending边：前者仍分别记录来源所报Canaletto归属、Streit馆藏、画面人物/地点、Streit笔记作者及书目引用；未将未独立查阅的Constable、Zimmermann或Streit原始笔记表述为外部核实。后两条`located_at`仍因无法区分Palazzo Foscari的居住关系与Campo di Rialto的营业地点而pending。本批没有关系裁决变化；关系一致性审计阻断0。
+
+**批后状态。** B100的100/100条均记为`reviewed_current_pass`：78条精确复用旧页语义审读，22条变化/新增对象完成当前原文重核；本批9,622历史事件0条。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态为当前PASS 3,994、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核2,406。未获当前PASS为11,511；尚待当前路由2,492（2,406条待回映/复核＋86条版本差异）。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断0。S2仍未全书独立语义接收。下一批从顺序11626开始。
