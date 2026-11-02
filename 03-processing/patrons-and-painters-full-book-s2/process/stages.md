@@ -17304,3 +17304,16 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **历史核平与复用。** 本批连续顺序1401–1500共100条，100/100各有1条历史事件；当前statement hash及来源版本均与历史读本精确匹配。53条mention集合也精确匹配；另47条同属段`chp-2:02_CHP-2_sec_i:l124-157`，其segment级mention delta与B126相同：一条现有mention改映射，加两条author mention。它们不代表47条statement各自改变。三条mention已由[2026-11-01第2章作者mention独立复核](#2026-11-01-s2-independent-current-review-ch2-l124-157-author-mentions)逐项核过当前跨度、人物边界和候选映射：`cand-6369`保留De Rinaldis特定书目责任范围，`cand-12447`仅为Roger Hinks作者身份，`cand-12448`仍undecided并保留`bl-0034`。复用100条历史statement阅读并保留全部开放发现，不因共享段级delta重复审读或升级PASS。
 
 **关系及批后状态。** 相关引用边、作者责任边的既有S6裁决不变；Rosi人物身份不从引用关系推出。`book-statements.jsonl`、`mentions.csv`、S3对齐、KU、`relations.csv`及历史9,622事件台账均未改。B127完成100/100精确历史statement复用；全库15,505条statement、27,302条mention、12,448个candidate。roster状态保持：当前PASS 5,123、已审待证700、历史映射开放8,323、版本差异待核77、待回映／当前复核1,282；未获当前PASS 10,382，当前路由未结1,359。下一批从1501开始；S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b128-ch2-sec-ii-1501-1600"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B128：第二章第二节，顺序1501–1600
+
+**历史记录核平与复用。** 本批连续顺序1501–1600共100条：97条有且仅有一条历史事件，当前statement、来源segment及该段mention集合均与历史版本精确匹配；逐ID复用既有直接阅读，不重复审读，并保留原有开放发现。另有两条无历史事件（1573、1575），一条当前statement与历史对象不同（1591）；来源和mention均未变。历史9,622事件台账不改写。
+
+**当前版定向复核。** 两条无历史记录均对照第2章S0第53–54行及原书印刷p.36（CHP-2.pdf物理p.17）核验：
+- st-chp2-secii-l52-60-andrew-intended-for-st-peters-niche-programme（1573）：原文先交代圣彼得大殿四圣人壁龛委托及受选雕塑家，再称Duquesnoy雕刻St Andrew。当前claim、candidate端点和原文相符；仅记录作品属于该委托语境，不指认具体壁龛或已安装。rel-2365 intended_for的既有formal裁决与此边界一致。
+- st-chp2-secii-l52-60-andrew-work-has-subject-saint（1575）：原文“carved a St Andrew”支持作品与被表现圣人分立；mention m-chp2-secii-l52-60-0018 [418,429)与m-chp2-secii-l52-60-0019 [420,429)分别覆盖作品名和嵌套圣人名，跨度与当前segment相符。不添加其他图像属性。rel-2364 has_subject继续沿用现有跨章身份消歧与formal裁决；S2本句只断言St Andrew。
+- st-chp2-secii-l52-60-programme-duration（1591）：复用2026-10-31独立当前版差异复核；该复核明确覆盖此statement，当前完整JSON对象、来源和mentions与复核版本一致，且核对p.36原页。修订版将Urban VIII仅作时间参照，移除其对象端点，relation_candidate=false；当前claim忠实保留“多年”及“几乎持续到其任期结束”，不推精确起止年。该statement无S6表行，历史事件仍保留，不恢复旧端点。
+
+**跨阶段影响与批后状态。** 本批未改S3身份组、KU或relations.csv；rel-2364、rel-2365既有formal裁决保持原范围，历史待证结论不因ID核平自动关闭。全库仍为15,505条statement、27,302条mention、12,448个candidate。roster互斥状态：当前PASS 5,126、已审待证700、历史映射开放8,323、版本差异待核76、待回映／当前复核1,280；未获当前PASS 10,379，当前路由未结1,356（含版本差异76）。下一批从1601开始；9,622事件台账不变，S2仍未全书独立语义接收。
