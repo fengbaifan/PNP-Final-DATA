@@ -17073,3 +17073,29 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **关系及历史裁决影响。** `cand-10258`的书名级S3 `new`决定及KU映射、第一版候选`cand-12462`及其S3/S4粒度均未改变；`relations.csv`没有以顺序12755 statement为依据的正式边，本批不新增、不删除、不改裁决。`cand-10258`相关字段证据和p.349 note 3既有过程状态不因代词映射而改写；历史开放项仍开放。本批未改statement、mention、candidate、alignment、enrichment、relations或9,622历史事件台账，只回映当前逐ID roster并记录过程与当前结果。
 
 **批后状态与剩余量。** 本批100/100完成：99条复用历史直接阅读并保留开放发现，1条回映既有当前版本PASS。全库15,505条statement、27,302条mention、12,448个candidate；当前PASS 4,484、已审待证697、历史映射开放8,323、版本差异待核82、待回映/当前复核1,919；未获当前PASS 11,021，当前路由未结2,001。核查发现顺序1–12725尚有654条路由未结（645条待回映、9条版本差异）；顺序12826–15505尚有2,680条，其中1,333条历史开放项可复用、1,274条待回映、73条版本差异。为保持原文顺序，下一批回到最早未处理顺序1。9,622历史事件总数不变；全书S2仍未独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b113-front-matter-1-100"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B113：书名页与两版序言，顺序1–100
+
+**当前ID与历史核平。** 顺序1–100连续覆盖当前S2 roster首批100条，全部原为`needs_crosswalk`，历史9,622事件命中为0；没有可复用的旧直接审读，不补造历史事件。100条statement规范hash、S0来源资产hash、S0 segment hash及segment mention-set hash均与roster当前版本一致。批后逐ID记为`reviewed_current_pass`，每条保留statement ID、当前版本hash和本记录引用。此PASS只表示本批当前statement准确表达原书，不表示S3身份、S4登记、S6关系已全书验收。
+
+**来源与校读依据。** 原始印本`02-sources/01-book/CHP-0Cover.pdf` SHA-256=`502a6dcf66b5c01b09209ad92abbf6b1a172488de1058750ca9db9b906b2d266`，已直接查看物理PDF页1–7，覆盖书名/版权/CIP、第二版序言、第一版序言。对应三份S0 Markdown资产hash：`00_01_Title_Copyright.md`=`75dfb1077cb870473ecb3a5576fe6b5ef5b2d244bfe43dc55d884d66ebfe1c32`；`00_02_Preface_2nd_Ed.md`=`8de19ec8cbf405958ad3c47f1cf4023a18a4fce8323e3e34b93ad36dfed3d7d0`；`00_03_Preface_1st_Ed.md`=`e793793f71fc5e9b9ba97a1c12fa50d497ec4de89f3c19f247c4a93228618c4a`。100条`original_quote`均落在各自声明的S0行范围。107条mention逐条按当前S0 segment字符偏移切片，surface完全相等，错误0。S0保持原样，OCR引句仍明确作为OCR来源，不冒称印本逐字校勘。
+
+| 当前S0段 | statement数 | mention数 | segment SHA-256 | mention-set SHA-256 |
+|---|---:|---:|---|---|
+| `00_01_Title_Copyright:l3-12` | 6 | 7 | `11f29ceeb14f079c9b5f2b1168a0c1d98b5c4934ad3d09889ab0b0df15f85329` | `18a8349625e56c51e015723d0d2c3052cdc32ac84699d1c9cffd50fc297d9b32` |
+| `00_01_Title_Copyright:l14-29` | 14 | 14 | `a534ca68ef97050c4c5287d66dd7086a020f2618d27e5a8a4167438aa678bc17` | `3b1826fbda057cce105dce7b25d27f49e78da828878c6941856ce5f2abef2712` |
+| `00_02_Preface_2nd_Ed:l3-8` | 13 | 6 | `e5d7bd5337ab4d00b55be362364effa920c7d845fac683b0db017e61a0f123f8` | `e21a6392d3e8c0e070d7a9e3f425d4c93cf2443f1ed8a3cd43964ccb298d2695` |
+| `00_02_Preface_2nd_Ed:l10-17` | 16 | 14 | `34e5cbe61f41dfe661be28b86e44bb279fda4adc75b0d373d9560c42f5767fa5` | `c745e1eb630eb777e63b654a5ab369c6371cad32997b1414ed3c5fe0fb8c9e41` |
+| `00_03_Preface_1st_Ed:l3-8` | 17 | 16 | `8944577715ae630432869a25801578dd86b91448e0b0880c449ea5efcd351afa` | `ed38780de902c46a1455c185a47ebe1ed2e9235f0a47d1aa24e222d25eaffab3` |
+| `00_03_Preface_1st_Ed:l10-17` | 12 | 16 | `1caebe49f2b5f4361352d1d35ae173890789645a01143860650a12ea6df25602` | `fa2de38c72f06b6be8a00c0968489ff3330db3fd1b7b827228a1458341c1825f` |
+| `00_03_Preface_1st_Ed:l19-29` | 22 | 34 | `e6cf252331b6e5f64eaf1518f9de020715a229a9a040834f1d0214f4b1ab73f0` | `1d5e3ec2b35ee830fd30bb653e373bf0e3efa318afde114663a6c8ebeaa2bd3a` |
+
+**原文与OCR判断变化。** 物理页3两处印有书名*Patrons and Painters*，S0第二版序言在对应两处漏出书名；这不改变顺序21–24关于1963年初版、研究文献变化及Haskell自我评价的claim。物理PDF页4印作“Ann Sutherland Harris”，S0当前OCR为“Aim”；候选`cand-3720`仍指向Ann Sutherland Harris，顺序42 PASS，mention的OCR surface不改。物理PDF页5印作“filled”，S0 OCR为“silled”；顺序53的“清单本会占去本书大半”仍获印本支持。物理PDF页7印作“Elizabeth Orna”，S0 OCR为“Oma”；顺序88及现有mention/候选`cand-3756`按已建立的印本校读保留。相同物理页的姓名印作“Professor Alessandro Marabottini Marabotti”，没有OCR在“Alessandro”后的逗号；顺序93仅记录作者致谢，cand-3714和已记录的复姓次序异文保持原样。以上OCR差异均写入本批逐ID证据注，不改S0、statement或mention；claim按原书物理页裁决。
+
+**语义边界与跨阶段影响。** 顺序1–20逐条忠实区分书名页版次、1980出版年、2006本件印次、出版地、印刷地、版权方与出版社，以及CIP所载书目/分类/ISBN，不把CIP当独立外部核验。顺序21–49保留第二版序言对初版、修订策略、被省略文献、图版发现、致谢和署名时间地点的作者归属。顺序50–100依照第一版序言逐项记录定义、范围、作者方法和致谢；source-defined群体及未具名批评、作品、图书馆集合均未补造成员或端点。涉及Italian edition 1966及组候选`cand-11812`–`cand-11817`的既有S3 `undecided`保持待定；本批不更改59个所涉候选的既有S3决定或S4 KU映射。
+
+回查这三份前置来源所对应的42条现有formal关系记录，涵盖`rel-0113`–`rel-0127`、`rel-0316`、`rel-0356`–`rel-0357`及`rel-1151`–`rel-1174`；作者、出版、署名致谢、支持与馆藏图书馆归属等证据范围与当前claim相容。特别是`rel-0356 part_of`（Warburg Institute Library）与`rel-1167 contributed_by`（Elizabeth Orna编索引）保留原范围；无formal边新增、撤销或改谓词，S6历史裁决与9,622事件台账均未改。`alignment.csv`与KU、statement、mention表本批未改。
+
+**批后状态与剩余量。** B113完成100/100当前PASS；当前全库15,505条statement、27,302条mention、12,448个candidate。roster互斥状态：当前PASS 4,584、已审待证697、历史映射开放8,323、版本差异待核82、待回映/当前复核1,819；未获当前PASS 10,921，当前路由未结1,901（1,819待回映/复核＋82版本差异）。顺序101–12725尚余554条当前路由（545待回映、9版本差异）；顺序12826–15505尚余2,680条，其中1,333条历史映射开放可复用、1,274条待回映、73条版本差异。下一批从顺序101开始，连续处理101–200。S2仍未全书独立语义接收。
