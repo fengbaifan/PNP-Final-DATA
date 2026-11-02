@@ -16626,3 +16626,16 @@ p.283 L151–165保留Johann Wilhelm对荷兰艺术的收藏、Van Dyck/Rubens�
 **下游影响。** 本批含58条`relation_candidate=true` statement；原有正式关系`rel-2446`（p.286 Powis House装饰）维持不变。p.285七条`met` statement仍是S2关系候选，本批未把它们写成正式关系，也未改动`relations.csv`或历史S6裁决；S6关系一致性阻断仍为0。候选、KU及S3决定均未改动，S2的1条term mention补记不等于身份裁决。
 
 **批后数量与剩余量。** B092完成100/100条当前ID/版本复核并路由PASS；其中1条statement按当前原文补齐term候选引用，并新增1条mention。全库为15,505条statement、27,298条mention、12,448个candidate。roster状态：PASS 3,194、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核3,206；未获当前PASS 12,311，尚待当前路由3,292条；另有9,019条已审待证或承接历史开放发现。历史9,622事件账本不变，S2仍未独立语义接收。严格表审计`errors=[]`、`s2_missing=[]`；关系一致性阻断0。下一批从10826开始。
+
+
+### 2026-11-02 S2当前版本逐ID复核 B093：第10章印刷页290–295，顺序10826–10925
+
+**历史映射与复用。** 本批100条连续当前statement的`history_9622_event_count`均为0，均`not_in_reconstructed_count`，旧映射均为`current_object_differs`；不新增或重复计入9,622历史事件。当前statement哈希逐ID与本批开始时roster快照一致，6个S0 segment指纹及来源SHA匹配当前版；当前CHP-10.pdf SHA-256=c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb，与既有页图复核对应。复用2026-10-02第十章p.290–295逐页S2语义/原页记录，并复用p.293注文迁移脚本中对正文注1 Sirén引证的限定；不把这些后续过程归作9,622事件级结论。
+
+**当前原文及候选词形核查。** 100条原句及来源行匹配0处错误；6段共349条mention的当前指纹与roster快照一致，现有span和候选外键通过。定向候选词形扫描有6个未覆盖词形，经上下文判断均不是遗漏对象：p.291“Duke of Richmond’s collection”不涉及Borghese；p.292、p.293的`prices`是普通名词，不是Canaletto、Carriera、Van Laer或Piazzetta的名字；p.293的`portraits`和`drawings`不是Schulenburg肖像或Carracci作品；p.294的`the theatre`是一般剧场语境，不指Barberini palace或Ottoboni子项。未因此新增mention。
+
+**跨页与注释边界。** B093完成p.290当前24条中的后21条；p.291 12条、p.292 21条、p.293 22条、p.294 23条及p.295正文1条，共100条。p.293第22条`st-chp10-p293-note1-siren-citation`是注1书目定位，不是新历史事实；`Sirén, pp.103 ff.`仅作引证，书目匹配仍为provisional、被引页未读，OCR重音只记S2。p.291正文所称书信年份1727与注3定位的1730年9月27日仍冲突，保留原两层来源、不消歧。p.290–295的购买/版本、作品、委托、地点、匿名人及作者评价维持既有范围和模态；未名实体与未定类型不补猜。p.295其余正文/注文位于后续连续顺序，未提前标完成。
+
+**下游影响。** 本批61条statement标记为`relation_candidate=true`；另有`rel-2214`–`rel-2219`六条p.290–291注文正式边，回链到合并注释段的五个当前statement（顺序11272、11274–11275、11283–11284，均为`needs_crosswalk`且历史事件数0），不属于本批正文ID。六条正式边及S6裁决保持原样；连续处理到这些注释ID时再核当前S2版本与S6证据，不计作B093已复核。未新增关系边或改动`relations.csv`；其他历史开放发现与待证关系维持原状。关系一致性阻断0。
+
+**批后数量与剩余量。** B093完成100/100条当前ID/版本复核并路由PASS，无表内容增删。全库15,505条statement、27,298条mention、12,448个candidate。roster互斥状态：PASS 3,294、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核3,106；未获当前PASS 12,211，尚待当前路由3,192条；另有9,019条已审待证或承接历史开放发现。9,622历史账本不变，S2仍未独立语义接收。严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断0。下一批从10926开始。
