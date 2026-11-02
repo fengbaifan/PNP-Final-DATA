@@ -17121,3 +17121,21 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **关系、S3身份及历史裁决影响。** 与目录L35–74同源的63条现有`relations.csv` formal边逐项按题注范围回查，创作者、题材对象、空间、所列收藏标签等与当前来源表述相容，全部保留原端点、谓词、时间和限定；无边新增、撤销或改写。顺序166 `st-fm-pl-p15-target-space`只记模型题注指向拱顶壁画的目标空间，不等于模型实物存于S. Ignazio；既有rel-1250记录壁画地点、rel-1251记录modello与壁画的对应，不将它们扩张成模型保管地点。该题注空间关系仍作为statement级候选，不由本次S2 PASS自动建S6边。序言末6条沿用B113已核对的页7证据及既有relation范围。`candidate`、`alignment.csv`、KU与S3决定均不改；姓名／题名身份、工作版本、含糊馆藏简称保持原有同一性决定或待定范围，不用题注自证实物身份。9,622条历史复核账本不改。
 
 **批后状态与剩余量。** B114完成100/100当前PASS。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态：当前PASS 4,684、已审待证697、历史映射开放8,323、版本差异待核82、待回映/当前复核1,719；未获当前PASS 10,821，当前路由未结1,801（待回映/复核1,719＋版本差异82）。顺序201–12725尚余454条当前路由（445待回映、9版本差异）；顺序12826–15505尚余2,680条，其中1,333条历史映射开放可复用、1,274条待回映、73条版本差异。下一连续批从顺序201开始。9,622历史事件台账已核平且未改；S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b115-front-matter-201-300"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B115：图版22a–37b，顺序201–300
+
+**历史核平及可复用阅读。** 本批100个当前statement均有`history_9622_event_count=0`，不属于9,622事件账本中的历史复核对象。复用已完成的章前材料直接阅读和逐项角色分析：图版清单`FM-S25` L66–81、`FM-S26` L82–111及图版项`FM-P22a–P37b`；本批只映射到当前连续ID，并定向查看原印本`CHP-0Cover.pdf`物理页10–11，不重做其余章前行段或图像阅读。相关前置依据见[章前处理过程](../../patrons-and-painters-front-matter/process/stages.md)、[逐段结果](../../patrons-and-painters-front-matter/results/stages.md)及[图版角色分析](../../patrons-and-painters-front-matter/results/entity-candidates.md)。
+
+本批跨章关系核查另用到当前statement `st-chp5-p136-neri-and-friends-immortalised-in-plate-22a`（印刷页136 L41）。该statement在9,622台账中有一条精确映射事件`H9622-03774`，当前ID/来源/mention集匹配，但状态仍为`prior_review_mapped_open`；它不是本批对象，也未据此标成当前PASS。其原文明确点名Vincenzo Neri和其他朋友被绘入Plate 22a，只能支持已记录的Neri角色，不明确切尔阔齐本人是否入画。
+
+**当前ID、版本和跨度。** 顺序201–300原状态均为`needs_crosswalk`；100条历史事件数全为0。当前statement规范hash、所引S0文件资产hash、两个segment hash和mention-set hash均与复核清单一致；100/100条`original_quote`可在声明的S0行内定位。`front-matter:00_05_List_of_Plates:l70-81`全段94条mention及`l83-118`全段134条mention的字符跨度均逐项切片等于surface form，合计228条、错误0。S0图版清单资产SHA-256=`96aa11521c311c17676147c3ec99fb47d7cf9042a13bc58768c3742553ac5f83`；印本`CHP-0Cover.pdf` SHA-256=`502a6dcf66b5c01b09209ad92abbf6b1a172488de1058750ca9db9b906b2d266`。100条当前statement均登记`reviewed_current_pass`；本批不改statement、mention、S0 OCR、候选表、alignment或9,622历史事件文件。
+
+**印本校读与语义范围。** 物理页10–11逐项确认图版22a–37b的署名、题名、括号标签、换行和页码列。S0 L76的`Women��s`、L79的`Biblioth��que`、L103的`Painter��s`保留为现有OCR表层；印本分别读作`Women's`、`Bibliothèque`、`Painter's`，这些异文不改变当前claim。L92的`Naples'`及L93的`Leeds'`尾随OCR符号不并入地名。图版25、29、33a、37a旁的184、200、216、232分别属于`FOLLOWING PAGE`栏，不并入题名、机构或作品日期；图版28b的Vienna 1678保留为原caption语境，但不擅定其日期角色。图版31b的Lamport Hall按跨行文本读取。
+
+各条claim限于题注所载：22a题名不证明切尔阔齐自画像或匿名友人身份；22b不承担起义史实；23a前置标签、23b的Williams Fund与24的Duke of Beaufort不据此判定类型／个人身份、赞助或法律产权；26a未命名画廊不与26b Palais Mazarin合并，26b的局部不等于整幅顶画；27、30、31的收藏者和肖像对象区分；28b将舞台设计、歌剧及1678时间语境分开；29的复制许可不证明拥有或委托；32仅保留神话题名和印出地点／机构；33a的`formerly`保留历史位置，33b是宫内画廊空间，不归给相邻作品；35a的1961是caption购买记录，基金及捐赠者未具名；36a Tuscany是头衔组成而非作品地点；37a家族成员不补造；37b作为局部复制题名，不另造一件现藏Uffizi的独立原作。
+
+**S3和关系影响。** 本批109个唯一statement端点候选的当前决定分布为`same` 92、`undecided` 15、`excluded` 1、`new` 1；本批不改S3决定或KU映射，身份、群体、爵号、标签及版本待定继续按原范围保留。核查图版清单L75–104已有49条关系行。发现`rel-0794 has_subject`此前把可能的自画像解释写成切尔阔齐本人入画的formal边；图版标题与创作者署名未明确识别被描绘者，而第5章p.136 L41只点名内里及其他友人。故将`rel-0794`由`formal`收窄为`pending / needs_evidence`，待直接人物识别依据；同一对象的`created_by`及Kunstsammlungen保管关系不受影响，Neri的`has_subject`关系继续由第5章原文单独支持。其余48条关系行状态不变；本批49行现为47 formal、2 pending，无新增或rejected边。既有formal裁决在前置过程和迁移期`frontmatter.relations`中保留作历史记录；当前权威`relations.csv`及作品卡关系展示已同步，不改迁移对照。全表现为2,649行（2,589 formal、57 pending、3 rejected）。
+
+**批后状态与剩余量。** B115完成100/100当前PASS。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态：当前PASS 4,784、已审待证697、历史映射开放8,323、版本差异待核82、待回映/当前复核1,619；未获当前PASS 10,721，当前路由未结1,701（1,619待回映/复核＋82版本差异）。连续顺序301–12725尚有354条当前路由（345待回映、9版本差异）；顺序12726–12825另有99条历史开放及1条当前PASS；顺序12826–15505尚余2,680条（1,333历史开放、1,274待回映、73版本差异）。9,622历史事件表不变；S2仍未完成全书独立语义接收。
