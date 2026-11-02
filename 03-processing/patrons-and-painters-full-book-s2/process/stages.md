@@ -20127,3 +20127,19 @@ S3方面仅为12个受影响候选补记原文mention及身份/范围边界，�
 | **阶段合计** | **1301–1600** | **300/300** | **163** | **137** | **21** | **116** | **8,658 / 6,847** |
 
 阶段结束后逐ID清单仍为15,505项，current PASS 8,658、pending 6,847，历史映射开放0。严格表审计`errors=[]`；关系一致性检查的broken target、invalid type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。此阶段结果不代表S2全书独立语义接收。下一连续顺序1601。
+
+<a id="2026-11-02-s2-current-review-stage-b407-b409-order-1601-1900"></a>
+### 2026-11-02 S2当前版本逐ID复核阶段：B407–B409（顺序1601–1900）
+
+本阶段完成300项当前版本核平：statement、来源segment、来源资产及段内mention集合指纹300/300匹配。239条current PASS复用；另61条current pending各有1条H9622事件，current statement与来源版本均与事件记录精确匹配，并能回链至既有原页复核。复用既有复核材料`s2-independent-review-chp1-2-4-20261020.md`（文件SHA-256 `0b5d023eaf5589c825fb6b9b12767b5d10b3ace3d465d6790b53ad6a50ed97b9`），不重复制作已完成的页面审读；该材料记录了CHP-2印刷页37–40（PDF物理页18–21）及相连脚注的逐statement核读。当前来源为`CHP-2.pdf`（SHA-256 `317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`）和`02_CHP-2_sec_ii.md`（SHA-256 `7efde367c2d7d600f599c17d09fbc4f57bf29aa6b7efb439859a1f45b8c863a9`）。
+
+61条原pending finding在statement、来源、mention及原页复核版本完全相同的条件下沿用，仍为pending；涉及主体/提及映射缺项、复合断言与重复statement、作品/地点及角色端点类型、未名群体身份边界和作者推测语气等，逐ID依据及去向见逐ID清单与上述复核材料。没有新增事实或当前S2语义改写，因此本阶段不改`book-statements.jsonl`、`mentions.csv`、`alignment.csv`、`relations.csv`或H9622事件ledger；只更新roster中的本阶段批次、复用结果与证据链接。既有pending不是PASS，准确指纹也不消除其语义缺口。
+
+| 批次 | 连续顺序 | 阶段累计 | 当前PASS复用 | 原pending复核记录复用 | 新转PASS | 保留pending | 批后全库PASS / pending |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| B407 | 1601–1700 | 100/300 | 48 | 52 | 0 | 52 | 8,658 / 6,847 |
+| B408 | 1701–1800 | 200/300 | 91 | 9 | 0 | 9 | 8,658 / 6,847 |
+| B409 | 1801–1900 | 300/300 | 100 | 0 | 0 | 0 | 8,658 / 6,847 |
+| **阶段合计** | **1601–1900** | **300/300** | **239** | **61** | **0** | **61** | **8,658 / 6,847** |
+
+阶段结束后仍为15,505条statement、27,328条mention，current PASS 8,658、pending 6,847，历史映射开放0。S2尚未全书独立语义接收。下一连续顺序1901。
