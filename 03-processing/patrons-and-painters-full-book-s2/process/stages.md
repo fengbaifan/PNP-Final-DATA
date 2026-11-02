@@ -1,4 +1,4 @@
-﻿# 全书语义处理（S2）过程
+# 全书语义处理（S2）过程
 
 
 
@@ -16712,3 +16712,35 @@ B097的100条全部记为`reviewed_current_pass`。全库仍为15,505条statemen
 p.299–310注文按脚注只记录原书所引档案、信件、出版物、目录与书页及其限定。p.299–302的年代、关系、身份与转述层次不借未读档案补足；p.303只把1726年5月21日账目所载《四季》寄往伦敦给Smith，保留不含金额且不证明付款/寄出的边界；p.304注4对采购三幅画的书信转述与正文1729年争端之间来源链不一致，保留不消歧；p.306–310书信和书目定位不升级为独立验证。S0、`original_quote`、statement、mention及candidate表均未改写。
 
 **关系/S6与批后状态。** 回查当前statement直接指向的8条正式边：`rel-1647`–`rel-1648`（p.289表格Duke of Devonshire条目所列Ricci贡献者）、`rel-2220`（Carriera账目与《四季》对象）、`rel-2221`（Smith致Carriera信定位）、`rel-2222`（Smith致Hill信的出版来源）及`rel-2223`–`rel-2225`（p.306三封信的馆藏定位）；端点、谓词和证据范围均符合现有S2，历史裁决不变。关系一致性审计阻断0。B098的100条全部记为`reviewed_current_pass`。全库仍为15,505条statement、27,302条mention、12,448个candidate；roster互斥状态：当前PASS 3,794、已审待证696、历史映射但开放发现8,323、版本差异待核86、待回映或当前复核2,606；未获当前PASS 11,711，尚待当前路由2,692；另有9,019条已审待证或承接历史开放发现。9,622历史事件已核平，S2仍未全书独立语义接收。下一批从11426开始。
+
+<a id="2026-11-02-s2-current-review-b099-ch10-p289-p302-plates-p310-p313"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B099：第十章p.289表格、p.302注4、图版49–56及p.310–313，顺序11426–11525
+
+**历史核平与复用范围。** 本批100条的history_9622_event_count均为0，历史9,622条事件及其旧裁决不变；当前ID、当前完整statement对象哈希、来源段/资产和mention指纹均与roster快照一致。与2026-10-07快照d7adabfb逐对象比较：70条完整statement对象相同，可复用对应既有页级S2语义审读；19条statement对象后来有改动，另11条在该快照后新增，均按当前版本重新核读，不继承旧对象字段判断。70条复用记录分别回指本文件的既有p.289表格、p.302注释、图版49–52、p.310–313正文及图版53–56审读段；p.311–313脚注版本核对另参见本文件第十章注释记录。复用旧页审读仅作当前ID/版本核对，不等于独立全书语义接收。
+
+CHP-10.pdf SHA-256为c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb，与既有页图审读所用扫描一致。四份当前Markdown来源SHA-256：10_CHP-10_sec_ii.md为25542734fde53358cde0a489f1c62ff3f021f32d68be733162b406d4d8a229f9；图版视觉转录为163e94e2ebaad7cdd6a5bc2e57842103749ddb37f410af0fabfad3a4ea5e2e65；p.289表格视觉转录为8cf5ec82dbf1d8040a860f7e386ec5b45d83059da643d5d12c0d0ef3d415a3d2；p.302注4视觉转录为459a405191b15071dadf62a6f984f543a81226599f71ba5cd91cd68239c44da0。十三个源段逐段哈希如下：
+
+| 当前原文源段 | statement | mention | 源段SHA-256 |
+|---|---:|---:|---|
+| 10_CHP-10_intro_notes_p289_visual-transcription:l1–12 | 3 | 41 | 0378a7dc2c28046644de5925a89c138e4048172fc7e3506bf25b6e644b270089 |
+| 10_CHP-10_intro_p302_note4_visual-transcription:l1–1 | 1 | 3 | 86c3578555ec197c2e6d5048f6c7f431f31a9974558a79809957744c9bdd88ce |
+| 10_CHP-10_intro_plates_visual-transcription:l1–4 | 7 | 11 | 78005ac3dc55c38003c3bb8df10a7c954400d4df4cb461baec2e541a2010fa81 |
+| 10_CHP-10_intro_plates_visual-transcription:l9–10 | 3 | 3 | 29a283034c5843e85df456fd77705216dd5fc3c68a09ddb53361bf7b26385450 |
+| 10_CHP-10_intro_plates_visual-transcription:l12–15 | 6 | 9 | db336a4bc83a676c21911c5d4972f214ab073ef15069d208aaf4cf8a537cdfee |
+| 10_CHP-10_sec_ii:l3–5 | 4 | 4 | 0ed00d7c5e58ddce2377dcd19f0e1c4b37a175c79004f7a230faa08e40b253a1 |
+| 10_CHP-10_sec_ii:l7–15 | 26 | 63 | d1ecabafafb97a33a1b33afebe2048844aac6d981489d52bc56291d668e4b225 |
+| 10_CHP-10_sec_ii:l17–32 | 29 | 76 | 2957e600499466b5cd0525022e699abc6f6b92fcc9e2add47b5b836319d52dd0 |
+| 10_CHP-10_sec_ii:l34–53 | 2 | 6 | 6e02d7f8f1f4d7611a368f7140091d4eb9f7acdf3c5b429b5771370b9a573740 |
+| 10_CHP-10_sec_ii:l55–56 | 1 | 2 | 8195057081b3e6703042c243e0f5e129f7cfce2bb387cae107c5047667eac34e |
+| 10_CHP-10_sec_ii:l58–60 | 2 | 5 | 93870f7a42f3835d9a9558283c685f216de44ace37caf1ce4dcc492082216852 |
+| 10_CHP-10_sec_ii:l62–70 | 1 | 6 | aa2a526899364c8eb56dd1f6e85986608de9a672532db30872db6062418796b5 |
+| 10_CHP-10_sec_ii:l72–81 | 15 | 75 | 33904e26e12604621ed232cec6d304fbd67037bf50e633717a375ba6e1f605e0 |
+
+**逐项判断。** p.289表格末行三项保留Canaletto?、Cimaroli?等印本问号及Walter Chrysler collection括号标签；“artists concerned”只支持表列关联，不扩成确定的创作、执行或委托角色。p.302注4保留匿名作者引述Cignani的原文归属层次，不将被引者与引文作者混同，也不声称已独立查阅《Galleria di Minerva》。图版49a/b、51、52a/b、53a/b、54、55a/b、56均按印本题注记录题名、印本归属、题注日期或地点；不从题注补造委托、所有权、实物身份或当前保管事实。Owen McSwiney/McSwiny保留各来源拼写，交S3判断身份。
+
+p.310保留Haskell关于Schulenburg与Smith审美差异及“没有记录二人关系密切”的原有限语。p.311–312保持来源对军旅、政治/家族群体、未具名人物和艺术活动的表述范围；来源概括、独立艺术家陈述及具体作品分别记录，不将1715–1716 Corfu防守并入现存1716 siege候选，不消除“probably”“apparently”等语气。p.312后来增加的艺术家肖像原子statement分别保留画家/雕塑家/版画家角色；Simonini战役画与其可能随军两项分开；Romano与Castiglione受雇于Gonzaga家族的断言分开；modello与p.311雕像不合并。p.313维持Guardi被要求复制的原作与未知复制品区分；Bassano Nativity当前端点使用作品候选cand-12428而非Jacopo Bassano的人物索引子项；土耳其题材画组仍不识别单幅作品或版画作者。上述改写/新增对象均已直接对照当前原句核验。未具名对象、集合身份和跨章同一性不在本批强行闭合。
+
+**来源、提及与关系影响。** 100条original_quote均能在对应当前S0源段内按空白归一精确定位；13个segment共304条mention的当前指纹与roster一致，严格表审计确认span与候选外键无错误。没有更改book-statements、mentions、candidate、alignment或relations表。同一p.289表格上下文中的rel-1647/rel-1648仍为Ricci对Duke of Devonshire纪念物的formal contributed_by边，不转用于本批p.289末行；p.313注1所据rel-2309仍为pending，因为Pignatti和当前馆藏目录未核。关系一致性审计的broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0。
+
+B099的100条全部记为reviewed_current_pass。批后roster互斥状态：当前PASS 3,894；已审待证696；历史映射开放发现8,323；版本差异待核86；待回映或当前复核2,506。尚待当前路由2,592条，其中本批后当前ID/版本复核待路由的条目从2,692降至2,592；未获当前PASS 11,611。严格表审计全库15,505条statement、27,302条mention、12,448个candidate，errors=[]、s2_missing=[]。S2尚未全书独立语义接收；下一批从当前顺序11526开始。
