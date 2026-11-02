@@ -18669,7 +18669,7 @@ L1301–1306是S0的错位OCR块，不对应本PDF新增的p.442图像。当前�
 <a id="2026-11-02-s2-current-review-b275-order-1237-1336"></a>
 ### 2026-11-02 S2当前版逐ID复核 B275：第2章，顺序1237–1336
 
-**提速与版本核平。** 本批整段复用第2章独立逐条审读提交 `2273e2743158401b841fb9bc7b7d1332836d400a`，只重核当前ID、statement、来源和mention版本并定位报告列明的待修项，没有重复通读无差异句段。100/100条当前statement对象与该审读版本一致；来源 `02_CHP-2_sec_i.md` SHA-256为`5eca92acb03fe9934be85c82a6ec6806d3c564002955e99bd317916f3c7c8dc6`；100/100条H9622历史事件及来源映射一致；191条segment mention与报告快照完全一致，变更、增删均为0。100条历史事件原裁决未改。
+**提速与版本核平。** 本批整段复用第2章独立逐条审读提交 `2273e2743158401b841fb9bc7b7d1332836d400a`，只重核当前ID、statement、来源和mention版本并定位报告列明的待修项，没有重复通读无差异句段。100/100条当前statement对象与该审读版本一致；来源 `02_CHP-2_sec_i.md` SHA-256为`5eca92acb03fe9934be85c82a6ec6806d3c564002955e99bd317916f3c7c8dc6`；100/100条H9622历史事件及来源映射一致。191条segment mention中，p.27的49条与p.28的57条逐字段一致；p.29的85条有2条仅surface_form恢复了来源换行，详见本文件的B275 mention比对更正。100条历史事件原裁决未改。
 
 **本批结算。** 顺序1237–1336共100条：71条当前PASS，29条pending。报告明确列出并在逐ID清单保留的待修项为：
 
@@ -18682,3 +18682,27 @@ L1301–1306是S0的错位OCR块，不对应本PDF新增的p.442图像。当前�
 **关系与历史裁决影响。** p.29脚注5只写“M. V. Brugnoli”及1957年，书目在p.417列有同作者同年的两篇不同文章，脚注本身不能确定指向哪一题名；当前两条S2 statement也说明标题级对应仍待证、未建立正式S6边。故将 `rel-1981`、`rel-1982` 从formal改为pending，保留行ID、两篇不同作品端点、谓词、来源定位和原决定说明；不合并或改动cand-4328/cand-4329及其S3/S4身份。另有 `rel-1983`仍pending；有书目两项直接依据的 `rel-1985`、`rel-1986`作者关系保持formal。关系表当前为formal 2,587、pending 59、rejected 3，共2,649项。预览后同步赞助人与画家总卡及两篇文章卡；总卡同时发现并同步了当前关系表已有的Zanotti合并引证投影与Famiglie待证投影，未改变这两项关系裁决。文章卡撤下两条formal反向投影。除rel-1981/1982状态复核外，本次未改statement、mention、alignment或H9622历史事件。
 
 **进度。** 全库当前PASS 7,114、已审待证763、历史映射开放7,628、版本差异待核0、待回映/当前复核0；尚未达当前PASS共8,391条。下一连续开放区段从顺序1337开始。S2未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b275-mention-correction"></a>
+### 2026-11-02 B275 mention比对口径更正
+
+更正B275原记录中“191条mention与报告快照完全一致”的表述。逐行比较提交`2273e2743158401b841fb9bc7b7d1332836d400a`与当前`mentions.csv`：p.27段49/49、p.28段57/57逐字段一致；p.29段85条中恰有2条仅`surface_form`不同：`m-chp2-seci-l95-106-0020`由`Piazza delPopolo`改为`Piazza del\nPopolo`，`m-chp2-seci-l95-106-0044`由`theCarracci`改为`the\nCarracci`。两项mention ID、候选ID、起止位置和注记均未变；逐项切取当前S0来源段，当前含换行的surface form与来源片段相同。故本批191条中189条逐字段相同，2条为来源换行形式校正；无mention增删、候选映射或语义端点变化。B275的71 PASS、29 pending判断不变，9,622历史事件不变。
+
+<a id="2026-11-02-s2-current-review-b276-order-1337-1436"></a>
+### 2026-11-02 S2当前版逐ID复核 B276：第2章，顺序1337–1436
+
+**历史ID与版本核平。** 本批连续100条均各有1条H9622事件，100/100来源版本匹配；99条此前开放的statement完整JSON与独立逐条复核提交`2273e2743158401b841fb9bc7b7d1332836d400a`相同。顺序1341的Toesca statement是已在B126核过的当前修订版，原文保留“I. Toesca”与书目“L. Toesca”异文，当前pending不重判；它与报告旧statement不同不属于待回映。当前`02_CHP-2_sec_i.md` SHA-256为`5eca92acb03fe9934be85c82a6ec6806d3c564002955e99bd317916f3c7c8dc6`。
+
+**mention复用口径。** p.29段当前85条mention与报告快照相比只有两项来源换行形式差异：`m-chp2-seci-l95-106-0020`（Piazza del／Popolo）及`m-chp2-seci-l95-106-0044`（the／Carracci）；ID、候选、字符范围和注记都不变，两项当前surface均与S0段切片相同。p.30段71条mention逐字段相同。p.25–31段当前85条mention较报告快照多出已于2026-11-01独立逐字核验的3项共享变更（de Rinaldis映射改至cand-6369、Roger Hinks新增cand-12447、Rosi新增cand-12448）；不把一个segment-level差异误计成48条statement变化。Rosi身份继续undecided并保留`bl-0034`。
+
+**本批待证。** 23条新确认pending，理由逐ID写入roster：
+
+- p.29：`st-chp2-seci-l95-106-citation-brugnoli-frescoes`（两篇同作者同年文章，题名指向未决）、`st-chp2-seci-l95-106-citation-faldi`、`st-chp2-seci-l95-106-citation-portoghesi`、`st-chp2-seci-l95-106-citation-salerno`（具体publication mention未锚）、`st-chp2-seci-l95-106-hopf-untraceable`（未名调查者群体缺mention）、`st-chp2-seci-l95-106-hopf-relevance`（Haskell对本章相关性的评价误读为对Vincenzo本人无意义）。
+- p.30：`st-chp2-seci-l108-119-recognised-artistic-revolution`（缺term mention锚）、`st-chp2-seci-l108-119-attention-focused-on-reformers`（Caravaggio、Carracci、followers范围压成单端点）、`st-chp2-seci-l108-119-old-master-paintings-location`及`st-chp2-seci-l108-119-palace-paintings-by-andrea-del-sarto`、`...-by-correggio`、`...-by-raphael`、`...-by-giulio-romano`、`...-by-parmigianino`（装饰施事/位置关系混合，非穷尽作品组cand-11567缺mention锚）、`st-chp2-seci-l108-119-paul-v-and-scipione-patronage`（组合主体cand-11582缺mention锚）。
+- p.25–31：`st-chp2-seci-l124-157-albani-study-andrians`、`st-chp2-seci-l124-157-albani-study-worship`、`st-chp2-seci-l124-157-darpino-copy-andrians`、`st-chp2-seci-l124-157-darpino-copy-worship`（“them”涵盖三幅画，当前四项仅列两幅）、`st-chp2-seci-l124-157-rubens-version-andrians`、`st-chp2-seci-l124-157-rubens-version-worship`（Rubens版本作品端点未识别，不能把Rubens本人当版本作品）、`st-chp2-seci-l124-157-cite-ortolani`（原文姓氏缺mention、题名与引注粒度未决）、`st-chp2-seci-l124-157-giustiniani-friend-bizoni`（缺Giustiniani局部mention锚，关系范围保持短句限定）。
+
+顺序1447的`st-chp2-seci-l124-157-colonna-sale-letter`不在本批，留给下一连续批核对。
+
+**关系与历史影响。** 本批未改statement、mention、候选、alignment、`relations.csv`或历史裁决。唯一标题匹配的`rel-1471`（Faldi）、`rel-1979`（Salerno）、`rel-1980`（Portoghesi）仍formal：其书目项有唯一对应，边只记录Haskell书内引注，不表示已读文章；对应S2行仍因本段publication mention锚问题保持pending。`rel-1982`（Brugnoli）和`rel-1983`（Toesca）继续pending，前者题名不唯一、后者首字母冲突。S6状态未变。
+
+**批次结算。** 连续顺序1337–1436共100条：76条新判当前PASS、23条新确认pending、1条既有Toesca pending沿用；本批净关闭99条历史映射开放项。全库当前PASS 7,190、已审待证786、历史映射开放7,529、版本差异待核0、待回映／当前复核0；尚未达当前PASS共8,315条。下一批从顺序1437开始。9,622条历史事件及原裁决未增删；S2仍未全书独立语义接收。
