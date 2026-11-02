@@ -20363,7 +20363,7 @@ H9622历史事件账本9,622行未改，SHA-256仍为`75ab12df478a81603592935356
 <a id="2026-11-03-s2-current-review-b434-order-1759-1858"></a>
 ### 2026-11-03 S2当前版本逐ID复核阶段 B434（顺序1759–1858）
 
-**范围与复用依据。** 连续处理100条当前statement，涉及第二章第二节的四个segment：`l118-125`、`l127-139`、`l141-145`、`l147-193`。本批100条当前roster均为`reviewed_current_pass`，其现行复核证据回链B407–B409阶段；本轮按其已有裁决核对当前statement、来源资产、segment及mention指纹，不重复阅读已经复核的原页。顺序1759–1800的42条来自B408，1801–1858的58条来自B409。
+**范围与复用依据。** 连续处理100条当前statement，涉及第二章第二节的四个segment：`l118-125`、`l127-139`、`l141-145`、`l147-193`。本批100条当前roster均为`reviewed_current_pass`，其现行复核证据回链B407–B409阶段；本轮按其已有裁决核对当前statement、来源资产、segment及mention指纹，不重复阅读已经复核的原页。当前roster既有批次标识为B408 49条（current_order 1759–1807）及B409 51条（1808–1858）。
 
 **当前版本与历史核平。** 100/100段落mention集合指纹与roster快照一致，来源资产SHA-256均匹配当前第二节Markdown版本；唯一statement hash与roster初始快照不同的是顺序1797。B407–B409阶段明确记录300/300 statement、segment、来源资产及mention集合当前指纹匹配，并复用其现行PASS；故1797沿用该后续版本PASS，不按较早H9622 hash误判为未审。H9622本批对应100个历史事件，来源版本100/100匹配；current statement hash为43 exact、57 changed、0 absent。历史事件裁决及ledger均未改写。
 
@@ -20372,3 +20372,15 @@ H9622历史事件账本9,622行未改，SHA-256仍为`75ab12df478a81603592935356
 | 1759–1858 | 100 | 100 | 0 | 0 | 100/100 | 43 / 57 / 0 |
 
 本批仅更新逐ID roster的当前批次、复用结果及本阶段证据入口；`book-statements.jsonl`、`mentions.csv`、候选、S3裁决、KU、`relations.csv`及H9622历史账本无变化，也没有新建正式关系。批后全库仍为15,512条statement、27,339条mention、current PASS 8,709、pending 6,803；下一连续顺序1859，最早未解决finding为1330。严格表审计的最终结果随阶段收口记录。
+<a id="2026-11-03-s2-current-review-b435-order-1859-1958"></a>
+### 2026-11-03 S2当前版本逐ID复核阶段 B435（顺序1859–1958）
+
+**范围与版本复用。** 连续核平100条当前statement，覆盖第二章第二节、图版视觉转录及第四节的五个segment。本批既有批次标识为B409 49条（current_order 1859–1907）及B410 51条（1908–1958）。指纹核平以B407–B409及B410–B412阶段记录为依据；两阶段均记录各自300/300条当前statement、来源segment、来源资产及mention集合指纹与现行审读相符。本批35条statement hash、42条mention集合指纹虽不同于roster初始快照，但当前PASS来自上述后续版本核对，不回退到旧快照，也不重复原页阅读。当前来源Markdown资产与S0段hash均逐项核对匹配。
+
+本批H9622对应100个历史事件，历史来源版本100/100匹配；current statement hash为64 exact、36 changed、0 absent。历史ledger与原裁决不变。100条均为既有current PASS复用；本批无新转PASS或pending，亦未改statement、mention、候选、alignment、KU或正式关系。
+
+| 连续顺序 | 条目 | 现行PASS复用 | 新转PASS | 保留pending | statement/mention相对初始roster快照有差异 | H9622来源匹配 | H9622 statement hash exact / changed / absent |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 1859–1958 | 100 | 100 | 0 | 0 | 35 / 42 | 100/100 | 64 / 36 / 0 |
+
+批后全库仍为15,512条statement、27,339条mention、current PASS 8,709、pending 6,803；下一连续顺序1959，最早未解决finding为1330。严格表审计与关系一致性审计的结果随阶段收口记录。
