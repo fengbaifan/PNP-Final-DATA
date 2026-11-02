@@ -2862,3 +2862,6 @@ p.213 `has_subject` 当前端点方向已修正为文章subject、未识别作�
 ### 2026-11-03：S2当前版逐ID复核阶段B457–B459（4059–4358）
 
 连续核平300条：B457 66条PASS复用、34条pending保留；B458 68条PASS复用、32条pending保留；B459 81条PASS复用、19条pending保留。共215条PASS复用、85条pending沿用原finding。H9622对应294个事件，来源294/294匹配，current statement hash为277 exact、17 changed；另6条无H9622事件但有当前版审读。全库S2仍为15,512 statements、27,339 mentions，PASS 8,709、pending 6,803；下一顺序4359。详见[阶段B457–B459记录](../process/stages.md#2026-11-03-s2-current-review-stage-b457-b459-order-4059-4358)。
+### 2026-11-03：S2当前版逐ID复核阶段B460–B462（4359–4658）
+
+连续核平300条：B460 70条PASS复用、30条pending保留；B461 76条PASS复用、24条pending保留；B462 63条PASS复用、37条pending保留。共209条PASS复用、91条pending沿用原finding。H9622对应296个事件且来源296/296匹配，hash为280 exact、16 changed；另4条无H9622事件且有现行PASS。顺序4644的初始statement hash差异已由B031逐页复核覆盖。全库S2仍为15,512 statements、27,339 mentions，PASS 8,709、pending 6,803；下一顺序4659。详见[阶段B460–B462记录](../process/stages.md#2026-11-03-s2-current-review-stage-b460-b462-order-4359-4658)。
