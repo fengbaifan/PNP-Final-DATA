@@ -1,4 +1,4 @@
-﻿# 全书语义处理（S2）过程
+# 全书语义处理（S2）过程
 
 
 
@@ -20334,3 +20334,28 @@ H9622历史事件账本9,622行未改，SHA-256仍为`75ab12df478a81603592935356
 本阶段没有新增current PASS，statement、mention、candidate、alignment、KU、`relations.csv`及H9622 ledger均未改；全库仍为15,512条statement、27,331条mention、PASS 8,677、pending 6,835。135条待证finding继续保留；最早未解决finding仍为顺序1330。逐ID清单已改为本阶段统一证据入口，原逐页证据链接逐行保留。下一连续原文顺序为1659。本阶段是历史—当前版本核平与既有审读复用，不构成新的语义接收。
 
 针对性验证：受控脚本全量核对300条statement/source/segment/mention指纹、历史事件与分段计数；输出计划SHA-256=`8e85b73feeea1551d3c1e5c567b7adc14dbaf8842abf09bbf2a792c234c4f41e`。
+
+<a id="2026-11-03-s2-current-review-stage-b433-order-1659-1758"></a>
+### 2026-11-03 S2当前版语义复核阶段 B433（当前顺序1659–1758）
+
+**范围与版本核平。** 连续复核100条当前statement：顺序1659–1758，覆盖第二章第二节各源段`l80-89`、`l91-104`、`l106-107`、`l109-113`、`l115-116`、`l118-125`。本轮集中重读印本p.39–40（PDF物理页20–21）；其余66条沿用已完成的当前版PASS。逐条核对前，statement、segment、source asset、mention集合指纹100/100吻合。原页PDF SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；第二节Markdown SHA-256=`7efde367c2d7d600f599c17d09fbc4f57bf29aa6b7efb439859a1f45b8c863a9`。旧finding与逐页入口见`s2-independent-review-chp1-2-4-20261020.md` Chapter 2 batches 14–17；本轮依据现行statement和p.39–40扫描重新裁定，不把旧记录自动改成PASS。
+
+| 当前顺序 | 核平量 | 既有PASS复用 | pending转PASS | 保留pending | H9622事件 | exact / changed / 无事件 |
+|---|---:|---:|---:|---:|---:|---:|
+| 1659–1758 | 100/100 | 66 | 32 | 2 | 98 | 36 / 62 / 2 |
+
+**32条转为当前PASS的语义处理。** 顺序1661–1665：将“Pietro受Marcello欢迎”与“Marcello是新型赞助人”拆成关系主张和人物评述；补明Marcello的`his/him`指代；保留Pietro向赞助人请求题材及Haskell“docile”评价；将Annibale与Pietro的能力比较归于Haskell。顺序1666–1668：修正《The Sacrifice of Polyxena》与《The Triumph of Bacchus》将作品标题误映为Pietro人物索引项的问题，新增作品候选`cand-12471`、`cand-12472`；《The Rape of the Sabines》沿用既有作品候选`cand-4477`。顺序1672、1676：将风格演变与“其他画家采纳”分开（采纳另由既有statement记录），把gallery限定为本段所述Castel Fusano乡间住宅内部，未与其他宅邸画廊合并。
+
+顺序1680、1682：准确记录Giulio于1626年获任枢机、Marcello成为教廷财务官；原文未命名任命者、任期或任命关系，故相关关系仍待证。顺序1686：将“the brothers”限为Giulio和Marcello，新增来源限定组`cand-12473`，不并入宽泛的Sacchetti家族`cand-4452`。顺序1687：把脚注所引《Vita di G. M. Bottalla》`cand-4565`与引语中未识别的chronicler分开；不再把Soprani误作说话者，所引页未独立查阅。顺序1689补全Marcello友谊／知密关系的原文终点“ill-health compelled him to retire to Naples”；顺序1691保留家族影响判断，不扩张家族成员或虚构影响对象。
+
+顺序1693–1694：明确两条statement跨p.39–40为同一句并相互链接；p.39扫描的`warmth and.breadth`保留点号歧义，不静默改成确定的“and breadth”。未名connoisseurs `cand-11886`及poets群体`cand-11887`由错误的`term`类型改为未定类型。顺序1696补记“A triumphant career lay ahead”并与Bernini专艺术家角色句分开。顺序1698保留“company of poets”为未名人群；顺序1699新建概念候选`cand-12474`“poetry”，与Urban诗作群`cand-4494`区分。顺序1703新建诗歌主题候选`cand-12475`，将“beauties of nature”与“simple country life”映射为主题而非作品或地点；Castel Gandolfo仍只是原文主题语境。顺序1705恢复“even Greek”。顺序1706为未名foreign diplomats增加未定类型候选`cand-12476`；侄辈身份仍未识别。
+
+顺序1715–1717分别记录1631年诗集插图、耶稣会制作以及罗马早期精印版本；为标题和年份均未提供的早期版本组新增archive候选`cand-12478`，不并入1631卷`cand-4498`。顺序1718按印本语境规范化claim为“throughout his career”，但保留S0表面`his.career`及扫描中的点号差异；mention span仍精确对应当前segment。顺序1719–1722保留关于Urban自我形象、王室赞助人比较（新增未定类型组`cand-12477`）、画像随统治时间变化及圣职肖像规范的作者判断，不转写为Urban真实性格或政治权力事实。
+
+本批新增8条mention：p.39的`him`、`his`指Marcello；p.40的`poetry`、`beauties of nature`、`simple country life`、`foreign diplomats`、`royal patrons`、`first fine editions`分别落到来源限定候选。Pietro现有mention已复用，未重复新增。候选`cand-12471`–`cand-12478`各新增`alignment.csv`行`aln-12800`–`aln-12807`，全部`undecided`；没有作跨章身份合并或S4登记。缺乏作品版本、群体成员或端点身份的S6关系不升级为formal。
+
+**仍待证的2条。** `st-chp2-secii-l91-104-baroque-flattery-interpretation`把“flattery是Baroque要素”与“Urban VIII给予其表达机会”并为一项，仍需拆开或确认原子化表达；`st-chp2-secii-l91-104-urban-portrait-appearance-continues-at-l119`在p.40页末中断，须继续核读p.41并建立准确续接。不得把未审页面信息提前并入。
+
+**历史裁决和关系影响。** H9622事件账本保持9,622行、SHA-256=`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`。本批100条中98条有历史事件且来源98/98匹配；当前statement hash为36 exact、62 changed、2条无重建历史事件。全局当前映射9,537个ID：8,972 exact、565 changed，来源9,537/9,537匹配。现有S3决定未改，仅新增8条undecided；`relations.csv`未改。本段已存在的`rel-2470`–`rel-2472`仍有效且不受本批改写statement影响；本批没有正式关系行以改写statement ID为证据引用。
+
+**阶段结果与验证。** 当前S2为15,512条statement、27,339条mention；逐ID当前PASS 8,709、pending 6,803。最早未解决finding仍为顺序1330；下一连续顺序1759。`python scripts/audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`python scripts/audit_relation_consistency.py`五类阻断均为0；`git diff --check`通过。S2仍未全书独立语义接收。

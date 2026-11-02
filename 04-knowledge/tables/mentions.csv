@@ -6360,9 +6360,9 @@ m-chp2-secii-l80-89-0015,chp-2:02_CHP-2_sec_ii:l80-89,cand-3126,ancient Rome,110
 m-chp2-secii-l80-89-0016,chp-2:02_CHP-2_sec_ii:l80-89,cand-4474,Greece,1126,1132,Ancient Greek world named alongside ancient Rome as an artistic subject.
 m-chp2-secii-l80-89-0017,chp-2:02_CHP-2_sec_ii:l80-89,cand-0342,Pietro da Cortona,1140,1157,"Pietro da Cortona, named as painter of three large canvases."
 m-chp2-secii-l80-89-0018,chp-2:02_CHP-2_sec_ii:l80-89,cand-2316,Sacchetti,1204,1213,"Marcello Sacchetti, identified by the surrounding patronage context."
-m-chp2-secii-l80-89-0019,chp-2:02_CHP-2_sec_ii:l80-89,cand-0357,The Sacrifice of Polyxena,1232,1257,Pietro da Cortona index sub-entry for the named canvas.
+m-chp2-secii-l80-89-0019,chp-2:02_CHP-2_sec_ii:l80-89,cand-12471,The Sacrifice of Polyxena,1232,1257,Work title in Haskell's p. 39 list; distinct from the Pietro da Cortona person index sub-entry cand-0357.
 m-chp2-secii-l80-89-0022,chp-2:02_CHP-2_sec_ii:l80-89,cand-0342,he,1233,1235,"Anaphoric reference to Pietro da Cortona, whose style is described as developing."
-m-chp2-secii-l80-89-0020,chp-2:02_CHP-2_sec_ii:l80-89,cand-0362,The Triumph of Bacchus,1259,1281,Pietro da Cortona index sub-entry for the named canvas.
+m-chp2-secii-l80-89-0020,chp-2:02_CHP-2_sec_ii:l80-89,cand-12472,The Triumph of Bacchus,1259,1281,Work title in Haskell's p. 39 list; distinct from the Pietro da Cortona person index sub-entry cand-0362.
 m-chp2-secii-l80-89-0021,chp-2:02_CHP-2_sec_ii:l80-89,cand-4477,The Rape of the Sabines,1305,1328,Third large canvas named in the sequence; it is not mapped to index entries for other artists with the same subject.
 m-chp2-secii-l80-89-0023,chp-2:02_CHP-2_sec_ii:l80-89,cand-4478,the Sacchetti orbit,1509,1528,Collective social and artistic circle; not a formal institution.
 m-chp2-secii-l80-89-0024,chp-2:02_CHP-2_sec_ii:l80-89,cand-2316,Marcello,1567,1575,"Marcello Sacchetti, who employed Pietro on the country-house decoration."
@@ -6397,7 +6397,7 @@ m-chp2-secii-l80-89-0053,chp-2:02_CHP-2_sec_ii:l80-89,cand-0209,the Pope,2531,25
 m-chp2-secii-l80-89-0052,chp-2:02_CHP-2_sec_ii:l80-89,cand-2314,he,2532,2534,Anaphoric reference to Marcello Sacchetti.
 m-chp2-secii-l80-89-0054,chp-2:02_CHP-2_sec_ii:l80-89,cand-3534,Naples,2645,2651,City to which Marcello retired and where Haskell says he died.
 m-chp2-secii-l80-89-0055,chp-2:02_CHP-2_sec_ii:l80-89,cand-4452,The Sacchettis,2668,2682,The family’s influence in matters of taste.
-m-chp2-secii-l80-89-0056,chp-2:02_CHP-2_sec_ii:l80-89,cand-4452,the brothers,2815,2827,"Giulio and Marcello Sacchetti, referenced collectively."
+m-chp2-secii-l80-89-0056,chp-2:02_CHP-2_sec_ii:l80-89,cand-12473,the brothers,2815,2827,The two brothers identified by the immediately preceding Giulio and Marcello references; keep distinct from broad family candidate cand-4452.
 m-chp2-secii-l80-89-0057,chp-2:02_CHP-2_sec_ii:l80-89,cand-0342,Pietro da Cortona,2878,2895,"Pietro, named inside the quotation about the brothers’ support."
 m-chp2-secii-l80-89-0058,chp-2:02_CHP-2_sec_ii:l80-89,cand-0342,Pietro da Cortona,2971,2988,"Pietro da Cortona, who joined Agostino Ciampelli at S. Bibiana."
 m-chp2-secii-l80-89-0059,chp-2:02_CHP-2_sec_ii:l80-89,cand-0744,Agostino Ciampelli,2996,3014,"Agostino Ciampelli, already named in the preceding S0 segment."
@@ -6456,7 +6456,7 @@ m-chp2-secii-l91-104-0047,chp-2:02_CHP-2_sec_ii:l91-104,cand-0295,Bernini,1992,1
 m-chp2-secii-l91-104-0048,chp-2:02_CHP-2_sec_ii:l91-104,cand-0307,Bernini,2001,2008,Index sub-entry covers Bernini’s busts and statues of Urban VIII.
 m-chp2-secii-l91-104-0049,chp-2:02_CHP-2_sec_ii:l91-104,cand-4499,many busts in bronze and marble,2019,2050,Group candidate for multiple unspecified bust versions.
 m-chp2-secii-l91-104-0050,chp-2:02_CHP-2_sec_ii:l91-104,cand-0232,the Pope,2054,2062,"Urban VIII, under the index entry for portraits and statues."
-m-chp2-secii-l91-104-0051,chp-2:02_CHP-2_sec_ii:l91-104,cand-0232,his.career,2074,2084,Urban VIII’s career; OCR punctuation is corrected against the printed page.
+m-chp2-secii-l91-104-0051,chp-2:02_CHP-2_sec_ii:l91-104,cand-0232,his.career,2074,2084,"S0 surface ‘his.career’ retained for exact segment alignment; p. 40 scan shows a dot-like mark, and the claim records the normalized reading ‘his career’."
 m-chp2-secii-l91-104-0052,chp-2:02_CHP-2_sec_ii:l91-104,cand-0232,"Urban
 VIII",2131,2141,Maffeo Barberini; the name is split by a line break at the printed page transition.
 m-chp2-secii-l91-104-0053,chp-2:02_CHP-2_sec_ii:l91-104,cand-0232,himself,2146,2153,Urban VIII’s self-image.
@@ -28008,3 +28008,11 @@ m-chp2-seci-20261102-bizoni-giustiniani,chp-2:02_CHP-2_sec_i:l124-157,cand-1200,
 m-chp1-secii-20261103-genealogy-gods,chp-1:01_CHP-1_sec_ii:l28-38,cand-2956,a genealogy of the gods,2262,2285,Book referent Mola asked to borrow; the source does not state that the loan was completed.
 m-chp1-secii-20261103-annotated-virgil,chp-1:01_CHP-1_sec_ii:l28-38,cand-2957,a Virgil with a commentary,2290,2316,Book referent Mola asked to borrow; Virgil author mention remains separately nested in the span; edition unidentified and loan completion unconfirmed.
 m-chp1-secii-20261103-roman-social-political-pattern,chp-1:01_CHP-1_sec_ii:l86-94,cand-11855,the shifting social and political pattern of Roman life in the seventeenth century,2772,2854,Exact referent of Haskell's causal interpretation; keep the source-derived term candidate unresolved at S3.
+m-chp2-secii-l80-89-0085,chp-2:02_CHP-2_sec_ii:l80-89,cand-2314,him,841,844,Anaphoric reference to Marcello Sacchetti in ‘re-create for him’; endpoint retained as an index candidate for S3.
+m-chp2-secii-l80-89-0086,chp-2:02_CHP-2_sec_ii:l80-89,cand-2314,his,797,800,Anaphoric reference to Marcello's dreams of the past in the aesthetic comparison; identity alignment remains for S3.
+m-chp2-secii-l91-104-0092,chp-2:02_CHP-2_sec_ii:l91-104,cand-12474,poetry,365,371,"Abstract literary practice, distinct from the Urban VIII poem corpus cand-4494."
+m-chp2-secii-l91-104-0093,chp-2:02_CHP-2_sec_ii:l91-104,cand-12475,beauties of nature,642,660,Poetic subject theme in the source's account of Urban VIII's poems.
+m-chp2-secii-l91-104-0094,chp-2:02_CHP-2_sec_ii:l91-104,cand-12475,simple country life,665,684,"Poetic subject theme; the nearby Castel Gandolfo villa is setting, not proof of composition."
+m-chp2-secii-l91-104-0095,chp-2:02_CHP-2_sec_ii:l91-104,cand-12476,foreign diplomats,859,876,Unnamed plural group in Urban VIII's audience arrangement; candidate type remains undecided.
+m-chp2-secii-l91-104-0096,chp-2:02_CHP-2_sec_ii:l91-104,cand-12477,royal patrons,2247,2260,Unnamed comparison group in Haskell's discussion of Bernini's portraits; type remains undecided.
+m-chp2-secii-l91-104-0097,chp-2:02_CHP-2_sec_ii:l91-104,cand-12478,first fine editions,1835,1854,Unnamed plural editions reported before the culminating 1631 volume; publication titles and dates are not supplied.
