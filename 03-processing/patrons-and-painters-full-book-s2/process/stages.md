@@ -16458,3 +16458,17 @@ p.240的指示词“this”仍不识别具体作品，Mehus之子未具名；引
 **批后进度与剩余量。** 当前15,505条statement、27,285条mention。当前版逐ID状态：PASS 2,790；已审待证695；历史已映射但开放发现8,323；版本差异待核101；待历史/既有审读回映或当前复核3,596。未获当前PASS共12,715条。B079本批完成100/100条当前裁决（11 PASS、89 pending）；连续原文下一批从顺序9526开始。S2仍未独立语义接收。 当前roster SHA-256=`3ab95245fb59a2fd5d0b7783e89a971f50cd2956fbf8f8eee7abcbb14c9e102d`。
 
 **必要核验。** roster顺序9426–9525连续且每行引用本节证据；B079历史事件0。source Markdown L382–441与statement source anchor、版本hash核对；candidate span定位对显式cross-reference分开检查。`audit_tables.py --strict-stage --summary`实际返回15,505条statement、27,285条mention、`errors=[]`、`s2_missing=[]`；保留S4 new登记待处理与S2语义质量警示。`audit_relation_consistency.py --dry-run`实际返回broken target、invalid relation type、missing inverse、weak evidence、unbaselined generic evidence-backed均为0；另报告1,320个零关系KU和2个超连接KU作为诊断项。`git diff --check`通过。本批未改book-statements、mentions、alignment、relations或S6裁决。机械审计不替代语义裁决，也不构成全书S2独立接收。
+<a id="2026-11-02-s2-current-review-b080-ch8-p237-p241-notes-ch9-p245-p247"></a>
+### 2026-11-02 S2当前版本逐ID复核 B080：第8章注释p.237–241及第9章引言p.245–247，顺序9526–9625
+
+**历史记录、对象版本与复用。** 连续顺序9526–9625共100条。前47条（9526–9572）无9,622历史事件；与按页既有审读提交核对，41条当前完整statement对象与相应审读快照完全一致：p.237 1条（`fa7641aa`）、p.238 6条（`28b781ef`）、p.239 11条（`ff23e73d`）、p.240 14条（`3803ed8c`）、p.241 9条（`565f5607`）。其余6条为2条后来新增引文statement和4条同ID当前版本变化，逐条核对现行S0行、当前statement及限定后裁决。没有用旧hash单独推导PASS。后53条（9573–9625）各有1条历史事件；53/53的当前statement哈希匹配、来源资产及segment匹配、mention变化均为空。沿用其精确历史阅读映射并保留开放发现，不重复阅读、不升级为当前PASS；历史事件台账不增删、不改写。
+
+当前来源资产SHA-256：CHP-8.pdf=`cb11451ac726f37ed5badf21a569af88f790f858f1c39eb63f2efb58a0fe4ac3`；S0 `08_CHP-8_sec_ii.md`=`5d9a17efc3835c30947b8c714c65649be10295661b6cca6b117f5902882bcef6`。第8章脚注segment `chp-8:08_CHP-8_sec_ii:l372-461` SHA-256=`62a4611253d2bf05494ef55b0511b53861b0947a05aee1c7a9fdbab976ecbc3f`；p.237–241对应当前S0 L441–461。六项版本差异处理：9527收窄引句并移除Crespi重复索引提及；9530将“March and April 1708”限作集合日期定位，不另造实体；9537核正印本注号5及Zanotti卷II；9538核正印本注号6。9526与9528是对Mostra p.29、Zanotti II p.44的新增书内引文定位，未声称查阅所引原件或书页。
+
+**逐ID裁决。** 前47条中46条 `reviewed_current_pass`、1条 `reviewed_current_pending`。通过项以当前原文限定Haskell陈述、引文位置、发言层及校读；不把书内所引信件、目录或二手文献写成已独立核验。9536（p.238 n.4）继续pending：原文“These pictures”的成员范围未定，保留群组及“现在／1941年时”的限定，不把Pisa位置映射到任何单件作品。后53条保留 `prior_review_mapped_open`，其既有开放发现状态不变。全批实际处理100/100条：46当前PASS、1当前pending、53条精确历史复用且仍开放。
+
+**关系与下游裁决影响。** 核对与本批statement或来源行直接关联的22条 `relations.csv` 记录：`rel-1523`–`rel-1525`、`rel-1616`–`rel-1618`、`rel-1621`、`rel-1623`–`rel-1629`、`rel-1630`、`rel-1631`、`rel-1633`、`rel-2392`–`rel-2395`及`rel-2543`，均保持formal；本批未改relations.csv、alignment、KU、S5字段或历史裁决。9536的Pisa群组位置不建立formal边；p.240十二幅借展组、p.241 Venetian artists群体类型及Gerini所追随的赞助实践仍按来源限制留待S3/S6处理，不从S2通过推导正式关系。
+
+**批后进度与剩余量。** 当前15,505条statement、27,285条mention。roster互斥状态：`reviewed_current_pass` 2,836；`reviewed_current_pending` 696；历史已映射但开放发现8,323；当前版本差异待核101；待既有审读回映或当前复核3,549。未获当前PASS共12,669条。B080完成顺序9526–9625；下一批从9626开始。9,622历史事件仍为9,622/9,622已核平；S2仍未独立语义接收。
+
+**必要核验。** B080顺序连续、100个ID唯一并均有批次证据；47条现引句均可在当前来源行定位；segment L372–461中的173条mention span逐项按S0切片核对，错误0。22条相关formal关系状态未变。`audit_tables.py --strict-stage --summary`返回15,505条statement、27,285条mention、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`返回broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0，另有1,320个零关系KU和2个超连接KU诊断项。`git diff --check`通过。机械审计与本批结果均不构成全书S2独立语义接收。
