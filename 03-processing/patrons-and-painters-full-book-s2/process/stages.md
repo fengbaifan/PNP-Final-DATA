@@ -18325,3 +18325,27 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **逐ID回链。** 连续100条中100条对应9,622历史事件（statement精确100、改版0），另0条无历史事件；100/100条历史事件来源版本匹配。提及核对：mention集合无历史差异。当前逐ID状态：prior_review_mapped_open 100；已记当前审读批次：S2-B112-CH14-P348-P351×25。历史开放发现继续保留；改版行按roster所引当前复核记录处理，不回写旧裁决。
 
 **下游影响。** 本批仅登记逐ID核平，不改statement、mention、候选、relations.csv或9,622事件台账；S3/S4及关系裁决保持原状。批次本身不构成全书S2独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b242-order-12901-13000"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B242：第14章 p.353–355，顺序12901–13000
+
+**逐ID回链。** 连续100条中98条对应9,622历史事件（statement精确97、改版1），98/98来源版本匹配；另2条无历史事件。mention差异为p.355同一segment组：新增m-chp14-p355-0091，重复记录于22条历史行，已与current statement关联核验。97条原历史审读开放项原样保留；两条无历史事件新增statement复用独立当前版PASS；改版statement也复用p.355当前版独立回核PASS。批后本批状态为当前PASS 3、历史开放97、待处理0。逐ID引用见roster。
+
+**证据与下游边界。** p.353 Neptune fountain／Mattielli及p.355 Caesar／Piazzetta两条当前对象与所引独立审读版本的statement、来源、mention指纹一致。p.355新增span [1772,1810)精确对应“the first edition of the Newtonianismo”；版次候选cand-12462与嵌套书名cand-10258分开。H9622-06678旧审读及原statement hash不改；rel-2071、rel-1758、rel-2558、rel-2651保持formal，rel-2044保持pending。未改statement/mention/候选/relations.csv或9,622事件台账；本批不构成全书S2接收。
+
+<a id="2026-11-02-s2-current-review-b243-order-13001-13100"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B243：第14章，顺序13001–13100
+
+**逐ID回链。** 连续100条全部对应历史事件，100条statement精确、0条改版，来源版本100/100匹配；chp-14:14_CHP-14_intro:l168-220（重复于6条历史行：改映1、删除0、新增2）。100条历史开放审读均原样保留，不升级PASS。
+
+**下游影响。** 只更新历史到当前ID／版本的回链及已有当前PASS证据引用；不改statement、mention、候选、relations.csv或9,622事件台账。rel-2301及rel-1758–rel-1760维持原formal范围；p.349 issue的relation候选继续process-only pending。S3/S4与其余历史裁决不变；本批不构成全书S2接收。
+
+<a id="2026-11-02-s2-current-review-b244-order-13101-13200"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B244：第14章，顺序13101–13200
+
+**逐ID回链。** 连续100条中97条对应历史事件（statement精确96、改版1），97/97来源版本匹配；另3条无历史事件。chp-14:14_CHP-14_intro:l168-220（重复于94条历史行：改映1、删除0、新增2）。同一段mention差异组续接B243：两批共100条历史行、只计1个segment差异组。4条直接受影响当前项已有逐ID独立复核锚点并PASS；96条历史开放发现原样保留。
+
+**下游影响。** 只更新历史到当前ID／版本的回链及已有当前PASS证据引用；不改statement、mention、候选、relations.csv或9,622事件台账。rel-2301及rel-1758–rel-1760维持原formal范围；p.349 issue的relation候选继续process-only pending。S3/S4与其余历史裁决不变；本批不构成全书S2接收。
