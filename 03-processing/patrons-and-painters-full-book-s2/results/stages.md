@@ -2831,3 +2831,7 @@ p.213 `has_subject` 当前端点方向已修正为文章subject、未识别作�
 ### 2026-11-03：S2当前版语义复核阶段B433（1659–1758）
 
 连续完成100条：66条既有PASS按当前版本指纹复用；p.39–40原页复核后32条pending转PASS，2条因复合判断与跨页断句继续pending。修正两条作品mention误指向人物索引的问题；将“the brothers”限于Giulio与Marcello；区分诗歌概念、诗作、诗歌主题和未名人群。新增8个来源限定候选及8条undecided对齐，未登记KU或新增正式边。H9622账本不变；本批98个历史事件来源全匹配，当前statement hash 36 exact、62 changed、2条无历史事件。全库S2为15,512 statements、27,339 mentions，PASS 8,709、pending 6,803。详细裁决与留待问题见[阶段B433记录](../process/stages.md#2026-11-03-s2-current-review-stage-b433-order-1659-1758)。严格表审计errors为空、S2缺项和未链接对齐均为0，关系一致性阻断为0。
+
+### 2026-11-03：S2当前版逐ID复核阶段B434（1759–1858）
+
+连续处理100条：100条既有current PASS按B407–B409阶段现行指纹核平后复用（B408覆盖42条、B409覆盖58条），不重复重读原页。segment、来源资产、mention指纹100/100一致；顺序1797虽与roster初始statement hash不同，但已有B407–B409当前版本核对PASS。H9622本批100个事件来源全匹配，statement hash 43 exact、57 changed、0 absent；历史账本、statement、mention、S3及关系数据均未改。全库S2维持15,512 statements、27,339 mentions，PASS 8,709、pending 6,803；下一顺序1859。详见[阶段B434记录](../process/stages.md#2026-11-03-s2-current-review-b434-order-1759-1858)。
