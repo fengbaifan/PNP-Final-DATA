@@ -17193,3 +17193,18 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **S3与S6影响。** 本批117个直接端点候选决定为`same` 107、`undecided` 9、`new` 1；无S3决定变化。9项未决中包括图版5作品版本和若干摄影供应者身份；National Gallery分支`cand-4201`保持`undecided`，无可用KU，相关照片关系不新增formal边。唯一`new`为地点`Glasgow`，保持其既有待登记去向。与本批图片来源行159–172直接相关的31条既有formal关系均回链无误、状态未变；`rel-0767 supplied_by`继续指向A. Villani e Figli，其scope已明确记录图版署名为“Villani”且身份依据S3。本批不改`relations.csv`、KU或关系裁决。第二版导言的问题句仍保持疑问，不作为已证结论。
 
 **批后状态与剩余量。** B118当前PASS 100/100；全库15,505条statement、27,302条mention、12,448个candidate。roster状态：当前PASS 5,084、已审待证697、历史映射且保留开放发现8,323、版本差异待核82、待回映／当前复核1,319；未获当前PASS 10,421，当前路由未结1,401。下一批从601开始；9,622条历史事件台账未改，S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b119-front-matter-and-ch1-601-700"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B119：第二版导言、脚注与第一章，顺序601–700
+
+**历史事件复用与当前复核。** 连续顺序601–700共100条：64条在9,622事件账本中各有1条最新历史复核，当前statement hash、来源版本和mention集合均精确匹配，直接复用旧阅读并保留原开放发现，不升级PASS；36条无历史事件，均集中于章前第二版导言及其脚注，复用此前对该连续原文及印本页xvii–xviii的完整语义阅读，完成当前逐ID复核。历史事件总账未改。
+
+**引文与mention核验。** 36条当前statement的原文引文均在声明行范围内。四个segment共82条mention跨度逐项切片错误0：`l174-185`（46条；mention-set=`193acfd7f2ea1e66479b0b9a4c4f86ba607a9ceeee2af3ee683ef71ee3c37368`）、`l187-188`（7条；`262ee4dc2af81d2bf5f58754bd88062397fab45e675eb703cdde4285897a7acb`）、`l190-196`（25条；`70f17cea22cfe8bd08f76f908cfab64ca0f8954024af5e8d5d9206035875b75c`）、`l198-198`（4条；`60c1ea0a50f8f39174cf41dc98ab62bb877634bd612b5d9e882d4449b860ee78`）。未改原文引句、mention映射或S0来源。
+
+**当前statement修订。** 顺序635 `st-fm-2ed-l198-01-montaiglon`与636 `st-fm-2ed-l198-02-gilmartin`的claim原有“cites the existing archive candidate for the Footnote ...”拼接错误。分别更正为“Footnote 1 cites Montaiglon, volume III, page 240”及“Footnote 2 cites Gilmartin”；限定说明保留引文语境、S3书目身份映射和未独立阅读被引原作的边界。两条statement均仍是脚注的`cites`候选；不凭引文claim增建formal关系。
+
+**S3与S6影响。** 36条当前PASS涉及27个端点候选：`same` 20、`undecided` 7，无S3变化。涉及原文L174–192的6条既有formal关系回链一致、状态不变；L198的两条脚注仍无对应formal S6边。第一章顺序637–700的64条历史开放裁决均保留原状；不重审未变化的claim，也不把历史开放项记为当前PASS。`relations.csv`、`alignment.csv`和KU均未修改。
+
+**批后状态与剩余量。** B119顺序601–700已逐ID结算：36条当前PASS，64条精确历史复用并保留开放发现；全库PASS 5,120、已审待证697、历史映射开放8,323、版本差异待核82、待回映／当前复核1,283。未获当前PASS 10,385；当前路由未结1,365。下一批从701开始；S2仍未全书独立语义接收。
