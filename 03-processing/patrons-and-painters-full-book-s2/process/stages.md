@@ -17078,7 +17078,7 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 
 ### 2026-11-02 S2当前版本逐ID复核 B113：书名页与两版序言，顺序1–100
 
-**当前ID与历史核平。** 顺序1–100连续覆盖当前S2 roster首批100条，全部原为`needs_crosswalk`，历史9,622事件命中为0；没有可复用的旧直接审读，不补造历史事件。100条statement规范hash、S0来源资产hash、S0 segment hash及segment mention-set hash均与roster当前版本一致。批后逐ID记为`reviewed_current_pass`，每条保留statement ID、当前版本hash和本记录引用。此PASS只表示本批当前statement准确表达原书，不表示S3身份、S4登记、S6关系已全书验收。
+**历史核平与既有阅读复用。** 顺序1–100连续覆盖当前S2 roster首批100条，全部原为`needs_crosswalk`，历史9,622事件命中为0，不补造历史事件。另复用既有章前材料处理任务对五份S0文件、282个物理行和`CHP-0Cover.pdf`全15页的直接阅读、逐段语义分析及扫描校读（详见章前材料process/stages.md与results/stages.md）；本批将该来源层成果逐条核回当前100个statement ID及当前版本，不把章前任务误计入9,622历史事件。100条statement规范hash、S0来源资产hash、S0 segment hash及segment mention-set hash均与roster当前版本一致。批后逐ID记为`reviewed_current_pass`，每条保留statement ID、当前版本hash和本记录引用。此PASS只表示本批当前statement准确表达原书，不表示S3身份、S4登记、S6关系已全书验收。
 
 **来源与校读依据。** 原始印本`02-sources/01-book/CHP-0Cover.pdf` SHA-256=`502a6dcf66b5c01b09209ad92abbf6b1a172488de1058750ca9db9b906b2d266`，已直接查看物理PDF页1–7，覆盖书名/版权/CIP、第二版序言、第一版序言。对应三份S0 Markdown资产hash：`00_01_Title_Copyright.md`=`75dfb1077cb870473ecb3a5576fe6b5ef5b2d244bfe43dc55d884d66ebfe1c32`；`00_02_Preface_2nd_Ed.md`=`8de19ec8cbf405958ad3c47f1cf4023a18a4fce8323e3e34b93ad36dfed3d7d0`；`00_03_Preface_1st_Ed.md`=`e793793f71fc5e9b9ba97a1c12fa50d497ec4de89f3c19f247c4a93228618c4a`。100条`original_quote`均落在各自声明的S0行范围。107条mention逐条按当前S0 segment字符偏移切片，surface完全相等，错误0。S0保持原样，OCR引句仍明确作为OCR来源，不冒称印本逐字校勘。
 
@@ -17099,3 +17099,25 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 回查这三份前置来源所对应的42条现有formal关系记录，涵盖`rel-0113`–`rel-0127`、`rel-0316`、`rel-0356`–`rel-0357`及`rel-1151`–`rel-1174`；作者、出版、署名致谢、支持与馆藏图书馆归属等证据范围与当前claim相容。特别是`rel-0356 part_of`（Warburg Institute Library）与`rel-1167 contributed_by`（Elizabeth Orna编索引）保留原范围；无formal边新增、撤销或改谓词，S6历史裁决与9,622事件台账均未改。`alignment.csv`与KU、statement、mention表本批未改。
 
 **批后状态与剩余量。** B113完成100/100当前PASS；当前全库15,505条statement、27,302条mention、12,448个candidate。roster互斥状态：当前PASS 4,584、已审待证697、历史映射开放8,323、版本差异待核82、待回映/当前复核1,819；未获当前PASS 10,921，当前路由未结1,901（1,819待回映/复核＋82版本差异）。顺序101–12725尚余554条当前路由（545待回映、9版本差异）；顺序12826–15505尚余2,680条，其中1,333条历史映射开放可复用、1,274条待回映、73条版本差异。下一批从顺序101开始，连续处理101–200。S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b114-front-matter-101-200"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B114：第一版序言末段与图版目录1–21，顺序101–200
+
+**历史核平及可复用的既有阅读。** 连续100个当前statement均无9,622历史事件，不能伪称历史账本复用；但这些句段属于已完成的独立章前材料处理任务。复用其对五份S0文件282个物理行和`CHP-0Cover.pdf`全部15页的完整阅读、逐段语义分析及印页校读，尤其复用`00_03_Preface_1st_Ed.md` L19–29与`00_05_List_of_Plates.md` L33–81（既有结果FM-S18/19、FM-S24/25及逐项FM-P01–P21角色分析）。本批工作是将既有来源层判断核回连续当前ID和版本，不重复整段全文／图像审阅；本次只对当前涉及的印本PDF物理页7、9、10做定向确认。既有完整依据见[章前处理过程](../../patrons-and-painters-front-matter/process/stages.md)、[逐段结果](../../patrons-and-painters-front-matter/results/stages.md)及[图版角色分析](../../patrons-and-painters-front-matter/results/entity-candidates.md)。
+
+**当前对象、引句与提及。** 顺序101–200均为当前`needs_crosswalk`且历史事件数为0。100条当前statement规范hash、两份S0文件资产hash、三个segment hash及mention-set hash全部匹配roster。100/100 `original_quote`在所声明来源行内定位；三个segment合计228条mention的字符跨度逐条切片完全等于surface form，错误0。原始印本`CHP-0Cover.pdf` SHA-256=`502a6dcf66b5c01b09209ad92abbf6b1a172488de1058750ca9db9b906b2d266`；序言及目录Markdown资产hash分别为`00_03_Preface_1st_Ed.md`=`e793793f71fc5e9b9ba97a1c12fa50d497ec4de89f3c19f247c4a93228618c4a`、`00_05_List_of_Plates.md`=`96aa11521c311c17676147c3ec99fb47d7cf9042a13bc58768c3742553ac5f83`。statement均记`reviewed_current_pass`；原statement、mention、source OCR及9,622历史事件表不改。
+
+| 当前S0段 | 本批statement | mention总数 | segment SHA-256 | mention-set SHA-256 |
+|---|---:|---:|---|---|
+| `00_03_Preface_1st_Ed:l19-29` | 6 | 34 | `e6cf252331b6e5f64eaf1518f9de020715a229a9a040834f1d0214f4b1ab73f0` | `1d5e3ec2b35ee830fd30bb653e373bf0e3efa318afde114663a6c8ebeaa2bd3a` |
+| `00_05_List_of_Plates:l32-65` | 62 | 100 | `5f82980ede7ea866a397dad977969665104f6e56444b00cf829bbb24c4426a8c` | `aaa23bf1be3f25316264f49de82e63ff60e2cd4c5f1db77dd12b2060a26b3b56` |
+| `00_05_List_of_Plates:l70-81` | 32 | 94 | `c8539b3476dce0eb2b84c6e8f27f363cfa15ea8fbe57a5bd9e7a330f16e6c0dd` | `224348c605f241fbf0c6a0b835bde4a7a2b0c138a370b817cc78eda670e26d1e` |
+
+**原文边界与OCR校正。** 顺序101–106记录同一序言末段：Marabottini与Haskell共同看作品、其款待、Pevsner引入赞助议题、Waterhouse读稿、Benedict Nicolson文字协助及1962署名；印本姓名格式沿用前批既有结论，不把致谢提升为未载角色。顺序107–200仅记录图版目录印出的署名、题名、地点／馆藏标签和题名中人物或场景；这不等于观看、鉴定或外部核验68组图版原作。版面与逐项候选边界重用FM-S24/25，不混并2a带限定的Caravaggio归属、Scipione Borghese双版本、21b同题《Madonna and Child》身份，也不把图版括号直接写成确定当前产权或赞助关系。
+
+定向图像比对确认：PDF物理页9将OCR `il a`校为印本图版`11 a`；目录L70／印本PDF页10将`Museum Boymans—van Beuningen`中的`104`确认是“following page”栏页码而非机构名，并把换行断开的Boymans读合；印本标图版21组following page为136，当前S0 OCR为126。三项均保留S0原文和mention跨度，S2 statement仅保留原书图版题注本身；页码差异没有被编码成作品事实。其他`View ofVilla`空格缺失及圆括号OCR成花括号等不影响对应statement claim。顺序110 `Attributed to Caravaggio`保留归属限定，顺序170只说题注关联机构，不声称独立核实现藏。
+
+**关系、S3身份及历史裁决影响。** 与目录L35–74同源的63条现有`relations.csv` formal边逐项按题注范围回查，创作者、题材对象、空间、所列收藏标签等与当前来源表述相容，全部保留原端点、谓词、时间和限定；无边新增、撤销或改写。顺序166 `st-fm-pl-p15-target-space`只记模型题注指向拱顶壁画的目标空间，不等于模型实物存于S. Ignazio；既有rel-1250记录壁画地点、rel-1251记录modello与壁画的对应，不将它们扩张成模型保管地点。该题注空间关系仍作为statement级候选，不由本次S2 PASS自动建S6边。序言末6条沿用B113已核对的页7证据及既有relation范围。`candidate`、`alignment.csv`、KU与S3决定均不改；姓名／题名身份、工作版本、含糊馆藏简称保持原有同一性决定或待定范围，不用题注自证实物身份。9,622条历史复核账本不改。
+
+**批后状态与剩余量。** B114完成100/100当前PASS。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态：当前PASS 4,684、已审待证697、历史映射开放8,323、版本差异待核82、待回映/当前复核1,719；未获当前PASS 10,821，当前路由未结1,801（待回映/复核1,719＋版本差异82）。顺序201–12725尚余454条当前路由（445待回映、9版本差异）；顺序12826–15505尚余2,680条，其中1,333条历史映射开放可复用、1,274条待回映、73条版本差异。下一连续批从顺序201开始。9,622历史事件台账已核平且未改；S2仍未全书独立语义接收。
