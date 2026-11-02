@@ -19978,3 +19978,32 @@ roster内历史映射开放状态现为0，但6,910条statement仍是current pen
 | **阶段合计** | **14326–14625** | **300/300** | **300** | **300 / 300 / 300** | **287 / 13** | **8,595 / 6,910 / 0** | **6,910** |
 
 本阶段只核验既有当前PASS与工作树版本完全一致，并继续采用历史对象差异和未精确映射的既存说明；不把映射差异升级成新结论。历史映射开放数保持0，6,910条current pending仍未获语义PASS。下一连续顺序14626。
+
+<a id="2026-11-02-s2-current-review-stage-b389-b391-order-14626-14925"></a>
+### 2026-11-02 S2当前版本逐ID复核阶段：B389–B391（顺序14626–14925）
+
+本阶段连续300个位置均为既有current PASS，复用B259–B262的原页语义审读。当前statement canonical hash、来源segment hash、来源文件SHA-256、mention count/hash与审读引用锚点均300/300匹配；未重复阅读、未新增PASS或改任何roster行。无精确H9622事件映射；既有状态为289条`current_object_differs`、11条`no_exact_review_mapping`，沿用先前当前版PASS。
+
+<a id="2026-11-02-s2-current-review-b389-order-14626-14725"></a>
+#### B389（第21章书目pp.412–415，顺序14626–14725）
+
+100/300个位置核平：100条current PASS及来源审阅证据保留；当前statement/source/mention指纹100/100匹配。既有历史映射状态93条current-object-differs、7条no-exact-review-mapping；直接审读记录为B259×75及B260×25。阶段累计100/300。
+
+<a id="2026-11-02-s2-current-review-b390-order-14726-14825"></a>
+#### B390（第21章书目pp.415–418，顺序14726–14825）
+
+200/300个位置核平：100条current PASS保留；statement/source/mention fingerprints及审读证据100/100匹配。既有历史映射状态97条current-object-differs、3条no-exact-review-mapping；直接审读记录为B260×75及B261×25。阶段累计200/300。
+
+<a id="2026-11-02-s2-current-review-b391-order-14826-14925"></a>
+#### B391（第21章书目pp.418–425，顺序14826–14925）
+
+300/300个位置核平：100条current PASS保留；statement/source/mention fingerprints及审读证据100/100匹配。既有历史映射状态99条current-object-differs、1条no-exact-review-mapping；直接审读记录为B261×75及B262×25。阶段累计300/300。
+
+| 批次 | 连续顺序 | 阶段累计 | 已有current PASS复用 | current statement/source/mention/evidence核对 | current-object-differs / no-exact-review-mapping | 批后全库PASS / pending / 历史映射开放 | 尚未PASS |
+|---|---:|---:|---:|---:|---:|---:|
+| B389 | 14626–14725 | 100/300 | 100 | 100 / 100 / 100 / 100 | 93 / 7 | 8,595 / 6,910 / 0 | 6,910 |
+| B390 | 14726–14825 | 200/300 | 100 | 100 / 100 / 100 / 100 | 97 / 3 | 8,595 / 6,910 / 0 | 6,910 |
+| B391 | 14826–14925 | 300/300 | 100 | 100 / 100 / 100 / 100 | 99 / 1 | 8,595 / 6,910 / 0 | 6,910 |
+| **阶段合计** | **14626–14925** | **300/300** | **300** | **300 / 300 / 300 / 300** | **289 / 11** | **8,595 / 6,910 / 0** | **6,910** |
+
+本阶段不重审已核读内容；只确认既有当前PASS仍绑定当前statement、来源和mention版本。状态映射开放继续为0；pending 6,910不变。下一连续顺序14926。
