@@ -2856,3 +2856,6 @@ p.213 `has_subject` 当前端点方向已修正为文章subject、未识别作�
 ### 2026-11-03：S2当前版逐ID复核阶段B451–B453（3459–3758）
 
 连续核平300条：B451、B452、B453各100条既有current PASS复用，均无H9622历史事件。B453的14项mention fingerprint行差异是B425已审过的同一mention说明修订，不新增span或finding。无pending保留或新转PASS；全库S2仍为15,512 statements、27,339 mentions，PASS 8,709、pending 6,803；下一顺序3759。详见[阶段B451–B453记录](../process/stages.md#2026-11-03-s2-current-review-stage-b451-b453-order-3459-3758)。
+### 2026-11-03：S2当前版逐ID复核阶段B454–B456（3759–4058）
+
+连续核平300条：B454 79条PASS复用、21条pending保留；B455 73条PASS复用、27条pending保留；B456 76条PASS复用、24条pending保留。共228条PASS复用、72条pending沿用原finding。H9622对应224个事件且来源224/224匹配，statement hash为222 exact、2 changed；另76条当前statement无H9622事件且已有当前版审读。statement/mention初始roster快照差异由B425、B025现行证据覆盖。全库S2仍为15,512 statements、27,339 mentions，PASS 8,709、pending 6,803；下一顺序4059。详见[阶段B454–B456记录](../process/stages.md#2026-11-03-s2-current-review-stage-b454-b456-order-3759-4058)。
