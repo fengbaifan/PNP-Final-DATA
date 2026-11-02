@@ -20175,3 +20175,19 @@ S3方面仅为12个受影响候选补记原文mention及身份/范围边界，�
 | **阶段合计** | **2201–2500** | **300/300** | **34** | **266** | **0** | **266** | **8,658 / 6,847** |
 
 阶段结束后仍为15,505条statement、27,328条mention，current PASS 8,658、pending 6,847，历史映射开放0。S2尚未全书独立语义接收。下一连续顺序2501。
+
+<a id="2026-11-02-s2-current-review-stage-b416-b418-order-2501-2800"></a>
+### 2026-11-02 S2当前版本逐ID复核阶段：B416–B418（顺序2501–2800）
+
+本阶段完成连续300项当前版本核平：statement、来源segment、来源资产及段内mention集合指纹300/300匹配。168条current PASS复用；132条current pending沿用B009与B010当前版逐页审读finding，其中B009 41条、B010 91条，不重复未变页面。原页审读记录已覆盖CHP-2印刷pp.57–62和CHP-3 p.63。当前来源文件为`CHP-2.pdf`（SHA-256 `317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`）、`CHP-3.pdf`（`362e08518334ae5cda65cc1758f92ef4de6874b5982bfb6600187d889dc6785d`）、`02_CHP-2_sec_vii.md`（`5f2ec3c85927ed4aded258d7a6b1801ccb3b8e0416f0f3f9e57ad7b2fae8dd4c`）、`02_CHP-2_sec_viii.md`（`95f938db89eb64a86bbc54065bf1e93e2d4849cd6ed5e6b02aedbe0f1e23350a`）、`03_CHP-3_intro.md`（`0537ac39d933f5a377f4a1f153ab9cbbf724a448ef76b7f19190d1f95c3e1fda`）、`03_CHP-3_sec_i.md`（`a18f48c7b8bf5b161fa13a7ce26ed2935e72d9a14d555f82dfc1d85f84314255`）及`03_CHP-3_sec_ii.md`（`cb17a400fc5a79d895e31fe4a112c83e010f5e5b859883852b3985b7010eb1e6`）。
+
+132条pending均有H9622事件且来源版本匹配：128条statement版本与历史末版精确，4条有版本差异，但已在B009/B010 current review记录中按现行statement核过。未因历史身份匹配或来源审读完成而自动关闭原finding。未新增来源事实或语义修订，故本阶段不改`book-statements.jsonl`、`mentions.csv`、`alignment.csv`、`relations.csv`或H9622事件ledger；只更新逐ID清单的当前阶段链接与finding复用状态。
+
+| 批次 | 连续顺序 | 阶段累计 | 当前PASS复用 | 原pending审读复用 | 新转PASS | 保留pending | 批后全库PASS / pending |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| B416 | 2501–2600 | 100/300 | 1 | 99 | 0 | 99 | 8,658 / 6,847 |
+| B417 | 2601–2700 | 200/300 | 67 | 33 | 0 | 33 | 8,658 / 6,847 |
+| B418 | 2701–2800 | 300/300 | 100 | 0 | 0 | 0 | 8,658 / 6,847 |
+| **阶段合计** | **2501–2800** | **300/300** | **168** | **132** | **0** | **132** | **8,658 / 6,847** |
+
+阶段结束后仍为15,505条statement、27,328条mention，current PASS 8,658、pending 6,847，历史映射开放0。S2尚未全书独立语义接收。下一连续顺序2801。
