@@ -20646,3 +20646,20 @@ H9622历史事件账本9,622行未改，SHA-256仍为`75ab12df478a81603592935356
 当前顺序窗口原批次标签为：B487含B313 72条、B055 2条、B314 26条；B488含B314 54条、B056 6条、B057 19条、B315 21条；B489含B057 16条、B315 58条、B316 25条、B058 1条。19条statement hash changed均已有current PASS及现行依据：顺序7079增补Richelieu death-event端点；7189–7190按p.183注2纠正Callari/d’Aumale locator及撤销错误OCR校正；7223–7277按p.185–186原页复核commission wording、Brienne引文和对应statement atomization；7340按p.188核对雕像在凡尔赛园地的偏远位置及端点。本批25条无H9622事件且当前PASS，均有独立当前版复核依据，不计作历史来源不匹配。其余256条当前statement hash exact。所有289条H9622事件的来源映射匹配；256条pending原finding保留。相关S6去向按B055–B058记录维持，本阶段未改S2语义表、relations.csv或历史ledger。
 
 批后全库仍为15,512条statement、27,339条mention、current PASS 8,709、pending 6,803。逐序已核平至7358/15,512；下一连续顺序7359，之后尚有8,154个顺序位置待处理，最早未解决finding仍为1330。S2尚未全书独立语义接收。
+<a id="2026-11-03-s2-current-review-stage-b490-b492-order-7359-7658"></a>
+### 2026-11-03 S2当前版本逐ID复核阶段：B490–B492（顺序7359–7658）
+
+**范围与复用。** 连续核平300条第七章当前statement。逐条实算当前`book-statements.jsonl`、source asset、S0 segment及segment mention集合指纹，300/300匹配；H9622历史事件依statement ID回连248条，来源版本248/248匹配。按当前statement映射计，202条与历史审读hash一致、22条不同；另76条无H9622历史事件。98条差异或无历史事件的statement均已是current PASS并有逐条原页证据，本批只复用状态和保留finding，不新判PASS。
+
+| 批次 | 当前顺序 | 核平 | 既有current PASS复用 | pending finding保留 | H9622事件 | 事件来源匹配 | 当前ID映射hash exact / changed | 无H9622事件 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| B490 | 7359–7458 | 100 | 18 | 82 | 114 | 114/114 | 82 / 11 | 7 |
+| B491 | 7459–7558 | 100 | 73 | 27 | 33 | 33/33 | 27 / 6 | 67 |
+| B492 | 7559–7658 | 100 | 7 | 93 | 101 | 101/101 | 93 / 5 | 2 |
+| **阶段合计** | **7359–7658** | **300** | **98** | **202** | **248** | **248/248** | **202 / 22** | **76** |
+
+22条历史statement hash changed为顺序7404、7405、7406、7408、7412、7414、7418、7425、7436、7445、7451、7459、7460、7462、7465、7466、7480、7560、7593、7596、7597、7634；逐行页证据和裁决变化保存在roster的原证据摘要及B058–B061记录。另有两个无H9622事件的当前statement hash较roster初始快照变化；与其余22条一起，24条当前hash差异均有现行页证据。76条无历史事件项全部已有当前版页证据，未被误记为历史来源不匹配。
+
+**关系与历史裁决影响。** 逐行审查涉及p.190肖像购藏及古物组、p.191 Del Carpio与Bernini相关statement、p.192 Giordano行程及引文定位，并回查对应B058–B061记录。`relations.csv`中rel-1383/1384/1385、rel-1331/1332/1333、rel-1738、rel-1862/1914、rel-2060/2061/2062、rel-2126、rel-1422仍为formal，端点、谓词及来源范围沿用原裁决；cand-6953古物组仍untyped/undecided且既有S6边拒绝保留，工作室/系列/收藏与群体缺口及process-only pending仍按原记录待证。没有新建或改写statement、mention、S3身份决定、KU、formal/pending/rejected关系或历史S6裁决；`relations.csv`、H9622事件表和statement表未被本阶段写回。
+
+**批后进度。** 全库仍为15,512条statement、27,339条mention、current PASS 8,709、pending 6,803。连续顺序已核平至7658/15,512，下一条7659，尚有7,854个顺序位置待核平；本阶段不是S2独立语义接收，最早未解决finding仍为1330。
