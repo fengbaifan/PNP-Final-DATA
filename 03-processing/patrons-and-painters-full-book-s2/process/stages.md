@@ -17317,3 +17317,21 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 - st-chp2-secii-l52-60-programme-duration（1591）：复用2026-10-31独立当前版差异复核；该复核明确覆盖此statement，当前完整JSON对象、来源和mentions与复核版本一致，且核对p.36原页。修订版将Urban VIII仅作时间参照，移除其对象端点，relation_candidate=false；当前claim忠实保留“多年”及“几乎持续到其任期结束”，不推精确起止年。该statement无S6表行，历史事件仍保留，不恢复旧端点。
 
 **跨阶段影响与批后状态。** 本批未改S3身份组、KU或relations.csv；rel-2364、rel-2365既有formal裁决保持原范围，历史待证结论不因ID核平自动关闭。全库仍为15,505条statement、27,302条mention、12,448个candidate。roster互斥状态：当前PASS 5,126、已审待证700、历史映射开放8,323、版本差异待核76、待回映／当前复核1,280；未获当前PASS 10,379，当前路由未结1,356（含版本差异76）。下一批从1601开始；9,622事件台账不变，S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b129-ch2-sec-ii-1601-1700"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B129：第二章第二节，顺序1601–1700
+
+**历史核平与复用。** 本批连续顺序1601–1700共100条：93条statement、来源segment及mention集合与历史读本精确匹配，复用原直接阅读并保留全部开放发现。另有3条statement对象变化（1608、1663、1671），来源及mention集合未变；4条无历史事件（1611、1612、1662、1670）。历史9,622事件台账保持不变。
+
+**第2章 p.37 当前版核验。** 对照S0第69行及CHP-2.pdf物理p.18：
+- st-chp2-secii-l62-69-berninimade-bibiana-statue（1608）：当前窄化版本只记录Haskell称Bernini制作圣比比亚娜像；句中Bernini mention m-chp2-secii-l62-69-0072 [2639,2646)，雕像 mention -0074 [2683,2704)，均与当前segment相符。rel-2001 created_by formal仍限于书内归属，不称外部作者核验。
+- st-chp2-secii-l62-69-bibiana-statue-intended-site（1611）：原文“to be placed behind the High Altar”支持预定位置。church、statue、altar mention分别为-0064 [2295,2326)、-0074 [2683,2704)、-0076 [2725,2739)。rel-2002 intended_site_of formal只记原定安置，不称已安装或现存位置。
+- st-chp2-secii-l62-69-bibiana-work-located-at-church（1612）：原文称S. Bibiana小教堂的重建与装饰；项目mention -0063 [2258,2326)，教堂mention -0064 [2295,2326)。rel-2000 located_at formal指工程地点，不指雕像位置。
+
+**第2章 p.39 当前版核验。** 对照S0第83、85行及CHP-2.pdf物理p.20：
+- st-chp2-secii-l80-89-country-house-decoration-at-castel-fusano（1662）：mention -0026 [1624,1687)指装饰undertaking，-0028 [1663,1676)指Castel Fusano，-0029 [1682,1687)指附近Ostia。rel-2472 located_at formal只记录Haskell所称项目地点；不合并为早先villa候选cand-4458，也不把Ostia当成该地点。
+- st-chp2-secii-l80-89-pietro-found-his-true-road（1670）：p.39同句将评价归于Pietro；当前claim保留Haskell的职业评价，Pietro mention -0039 [2131,2148)位于该句前段。relation_candidate=false，无S6边，不把原作者评价写成独立传记事实。
+- st-chp2-secii-l80-89-country-house-decoration-employed（1663）与st-chp2-secii-l80-89-pietro-interpreted-decoration-themes（1671）：复用2026-10-31独立当前版复核，过程记录明确覆盖两条当前statement，当前完整对象、来源和mentions相符。rel-2470 employed_by保留本项目范围，不推长期雇佣；rel-2471 designed_by保留Pietro的诠释／设计角色，不推为唯一施工者。
+
+**跨阶段影响与批后状态。** 当前candidate到KU的S3/S4映射与六条既有关系裁决rel-2000、rel-2001、rel-2002、rel-2470、rel-2471、rel-2472均未改；新旧决定未因本批核平而互相覆盖。全库仍为15,505条statement、27,302条mention、12,448个candidate。roster互斥状态：当前PASS 5,133、已审待证700、历史映射开放8,323、版本差异待核73、待回映／当前复核1,276；未获当前PASS 10,372，当前路由未结1,349（含版本差异73）。下一批从1701开始；9,622事件台账不变，S2仍未全书独立语义接收。
