@@ -16556,3 +16556,15 @@ p.240的指示词“this”仍不识别具体作品，Mehus之子未具名；引
 **判断与下游核对。** 六条当前statement均PASS：两条历史statement版本变化（10292、10324）及四条无精确历史回映的拆分statement（10293、10294、10321、10322）。10321、10322引句扩至含OCR原形Gcsuati的精确上下文，新增印本校读字段并补cand-1150 mention候选；claim分别限定为Massari建造者角色与新堂公共资金。cand-0737保持source-local教堂组/KU，cand-1150保持source-local机构组/KU，不声称外部身份；cand-8686仍undecided。rel-1508、rel-1509、rel-1510、rel-1511继续formal，范围分别为Longhena建造、Sardi建造、Gesuati委托新堂及Massari建造；未添加设计、竣工或资金提供者边。10322仍relation_candidate=false，public support无可识别实体端点；另一个“强调公共支持”statement的既有rejected裁决不变。未改S3、S4、S5、relations.csv或历史事件账本。
 
 **批后状态与剩余量。** 100/100条已路由：6条当前PASS，94条精确历史复用并保留开放发现。全书15,505条statement、27,286条mention；当前roster：PASS 2,863、已审待证696、历史映射但保留开放发现8,323、版本差异待核89、待历史／既有审读回映或当前复核3,534；未获当前PASS 12,642。下一批从10326开始。9,622历史事件仍已核平；S2仍未独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b088-ch9-sec-ii-p271-p275"></a>
+### 2026-11-02 S2当前版本逐ID复核 B088：第9章sec_ii p.271–275（S0文件序），顺序10326–10425
+
+**连续范围与历史核平。** 本批100条current_order连续且ID唯一，全部来自`09_CHP-9_sec_ii.md`的S0连续源序。99条对应9,622历史事件：97条statement、来源segment及mention集合与最新历史记录完全一致，复用原直接阅读并保留开放发现；另2条历史statement版本变化但来源版本相同，单独复核当前版。1条无精确历史复核映射的statement直接对照现版原页完成复核。旧statement哈希、review结论及9,622事件账本均未改写。
+
+**当前版原页复核。** 对照`CHP-9.pdf`物理页37（印本p.271）、39–40（印本p.273–274）。10327当前statement只记录Tiepolo在1737–1739年绘制St Dominic天顶壁画；旧版将其与Piazzetta作品合写的内容已拆分，当前引句对应p.271 L40，`rel-1512 created_by`仍formal。10329无唯一旧ID映射；p.271 L40–41中的“during which years”把Piazzetta的《Three Dominican Saints》祭坛画连到同一1737–1739年范围，三位圣徒只保留为原文名称，不作外部身份认定；`rel-1514 created_by`仍formal且范围只指该祭坛画。10395的“This”回指p.273所述Zompini方案，p.274 L71–72将其限定为对圣母的图像方案；`rel-2500 has_subject`仍formal，Rebecca、Abigail、Esther、Judith及未具名的Mother of the Maccabees继续是方案中的类型学提及，其S3身份仍undecided。
+
+**跨度与下游影响。** p.271、p.274相关segment中与上述候选集合相符的22条mention跨度逐项切片核对，错误0；三条statement的引句和source line均与当前S0一致。没有新增或删除mention，不改alignment、KU、enrichment、relations.csv或历史事件账本。10327旧版所涉被引信件未独立查阅的开放发现仍保留，不因本次拆分而清除。本批3条当前版复核PASS（2条版本变化、1条无精确历史映射）；其余97条精确复用历史阅读且保留原开放发现。
+
+**批后状态与剩余量。** 100/100条已完成当前ID与版本路由；其中3条当前PASS、97条历史复用开放发现未解决。全书15,505条statement、27,286条mention；当前roster：PASS 2,866、已审待证696、历史映射但保留开放发现8,323、版本差异待核87、待历史／既有审读回映或当前复核3,533；未获当前PASS 12,639。尚待当前路由3,620条（87条版本差异、3,533条历史／既有审读回映），另有9,019条已审待证或承接历史开放发现。下一批从10426开始。9,622历史事件均已核平；S2仍未独立语义接收。
