@@ -2818,3 +2818,7 @@ p.213 `has_subject` 当前端点方向已修正为文章subject、未识别作�
 ### 2026-11-03：S2当前版连续逐ID批次B428（1157–1256）
 
 完成100个原有statement ID的批次核平：95条当前版PASS直接复用，5条原pending经CHP-1印刷p.23及CHP-2印刷p.27原页复核，其中3条转PASS、2条保留pending；新增2条原子statement并均判PASS。写后全库15,512条statement、27,331条mention，PASS 8,674、pending 6,838。原agent脚注不再误认作De Rosis本人；Ferri与Luti分开记录；Paul V与Scipione的集体资源主张不归给单人；St Peter’s改造从集体资源句独立拆出；未名“family chapel”不再指认为Barberini；“these changes”不误连Paul V。`cand-4276`与Sixtus V小堂`cand-4277`的S3 `new`决定和组号均不变，相关说明均限定为来源支持的范围。`relations.csv`没有本批端点相关裁决行，未新增或改判关系。H9622账本未改；当前映射9,537个ID的hash对照为9,007 exact、530 changed，来源匹配9,537/9,537。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`，关系一致性五类阻断为0。两项仍待证的端点/集合范围保持pending；下一连续原文游标为当前顺序1259。详细证据、裁决变化及原页指纹见[B428过程记录](../process/stages.md#2026-11-03-s2-current-review-b428-order-1157-1256)。
+
+### 2026-11-03：S2当前版连续逐ID批次 B429（1259–1358）
+
+100条连续statement中92条PASS按当前statement、来源资产、segment和mention指纹复用；8条pending复核印刷p.29–30原文后，3条转PASS、5条仍pending。修正Cupid图像claim以保留“scornfully”及Giustiniani语境；将p.29跨页对比残句连至p.30完整statement并标为非关系比较；将Hopf相关性评价保留为Haskell的非关系性判断。作品身份、未名creator collective、Carracci/followers范围及三条注释目标关系保持待证；`rel-1981`–`rel-1983`仍pending。当前15,512 statements、27,331 mentions，PASS 8,677、pending 6,835；H9622历史台账不变，当前映射hash为9,004 exact、533 changed，来源9,537/9,537匹配。下一连续顺序1359，最早未解决finding为1330。验证与逐项证据见[B429过程记录](../process/stages.md#2026-11-03-s2-current-review-b429-order-1259-1358)。

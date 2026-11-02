@@ -20292,3 +20292,24 @@ H9622历史事件账本9,622行未改，SHA-256仍为`75ab12df478a81603592935356
 **下游及历史影响。** 关系审查检索`relations.csv`后，没有涉及本批statement或`cand-0393`、`cand-0394`、`cand-3135`、`cand-4276`、`cand-4277`的既有裁决行；本批未新增或改判S6关系。S3仅更新`cand-4276`与其比较对象`cand-4277`的来源说明，两个原`new`决定与各自组号均保持；没有合并对象、改变KU或扩写S5。H9622历史事件账本9,622行不改，SHA-256仍为`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`。全局当前roster仍将9,620条事件映射至9,537个ID（83条重复事件；另2个历史旧ID保持既定撤销／拆分去向）；当前statement hash为9,007 exact、530 changed，来源版本匹配9,537/9,537。历史账本快照与当前roster比较分开保存。
 
 **批次计数与定向验证。** 原有100个ID中95条PASS复用、5条pending原页回核；5项中3项转PASS、2项保留pending，并新增2条原子statement（均PASS）。批次写后为102条statement：100 PASS、2 pending。全库为15,512条statement、27,331条mention、PASS 8,674、pending 6,838。新增St Peter’s引文按原转录保留弯引号；提及表三条变更仅为Ferri、Luti及未名家族小堂的说明，既有字符跨度未变。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py`五类阻断均为0；`git diff --check`通过。当前roster首个仍开放的finding是顺序1252的集体资源端点，其后为1256的聚合term端点；这两项本批已审并有明确pending理由。连续原文新游标为当前顺序1259。此阶段不构成全书S2独立语义接收。
+
+<a id="2026-11-03-s2-current-review-b429-order-1259-1358"></a>
+### 2026-11-03 S2当前版本连续逐ID批次 B429（原顺序1259–1358）
+
+**范围与历史复用。** 本批连续100个当前statement ID。92条既有PASS在statement、来源资产、S0 segment及段内mention集合指纹核对后复用；8条既有pending回到原书印刷p.29–30（CHP-2.pdf物理页10–11）及相邻正文重审。100/100条均有一条H9622历史事件、来源版本匹配；审前91条statement hash与历史审读相同、9条为已登记变化。审前其中90条可精确对应历史对象与来源segment，10条已有差异处理记录。使用来源为`CHP-2.pdf`（SHA-256 `317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`）及`02_CHP-2_sec_i.md`（SHA-256 `5eca92acb03fe9934be85c82a6ec6806d3c564002955e99bd317916f3c7c8dc6`）。四个相关segment的当前hash及mention集合指纹均与roster相符；未增删mention。
+
+**逐项裁决与判断变化。**
+
+| 当前顺序／statement | 当前裁决 | 对象及后续去向 |
+|---|---|---|
+| 1330 `st-chp2-seci-l95-106-venetian-collection` | 保持pending。印刷p.29将additional paintings与Venetian High Renaissance masters并列；不把候选艺术家集体与艺术传统term `cand-4319`合并。 | `cand-11569`集体类型未定、`cand-11568`画作集合未识别；不建立formal creator边。 |
+| 1332 `st-chp2-seci-l95-106-cupid-iconography` | 修正claim，补回“scornfully”及“Giustiniani was so keenly fostering”的原文限定；由pending转PASS。 | 原书只给图像描述，没有作品题名或作者。`cand-4320`作品与`cand-4321`所绘Cupid的S3仍undecided；depicts关系不转formal。 |
+| 1339 `st-chp2-seci-l95-106-contrast-fragment` | 确认为p.29 L103未完句；添加至p.30完整比较statement的`linked_statement_ids`，并按作者比较判断改为非关系statement，由pending转PASS。 | 不从残句推断结论；作品集合`cand-4313`的身份仍待S3，不建立关系边。 |
+| 1343／1344 Brugnoli两条citation statement | 保持pending。p.29注5仅给M. V. Brugnoli与1957年；书目有同作者同年的两篇文章，注释无法确定指向其中哪篇或是否两篇。 | `rel-1981`、`rel-1982`继续pending；候选作品与KU不合并。 |
+| 1348 `st-chp2-seci-l95-106-citation-toesca` | 保持pending。原页为“I. Toesca”，书目为“L. Toesca”，注释无题名。 | `rel-1983`继续pending；不把可能匹配改成formal citation。 |
+| 1353 `st-chp2-seci-l95-106-hopf-relevance` | 保留“Haskell称Hopf所述作品对Marchese Vincenzo无关紧要”的作者评价；依据覆盖表对作者评价的非关系口径，将`relation_candidate`改为false，由pending转PASS。 | 未追查作品`cand-4336`仍S3 undecided；不新增S6边，也不把评价写成作品客观价值判断。 |
+| 1357 `st-chp2-seci-l108-119-attention-focused-on-reformers` | 保持pending。p.30明确列Caravaggio、Carracci集体及其追随者，statement保留全部对象范围。 | Carracci集体与followers端点未决；不只留下Caravaggio一条formal边。 |
+
+三项当前statement内容／关系口径修订后，本批历史statement hash为88 exact、12 changed；来源版本仍100/100匹配。未改候选类型与S3决定、alignment、`relations.csv`或历史事件ledger。针对Brugnoli及Toesca的既有三条S6裁决仍pending；其余本批未形成formal关系。全库statement仍15,512条、mention 27,331条；当前PASS 8,677、pending 6,835。H9622历史账本仍9,622行、SHA-256 `75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`；当前roster映射9,537个ID的hash对照为9,004 exact、533 changed，来源匹配9,537/9,537。下一连续原文游标为当前顺序1359，最早未解决finding为顺序1330。当前S2仍未全书独立语义接收。
+
+**针对性验证。** `audit_tables.py --strict-stage --summary`通过：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py`退出码0，五类关系阻断均为0。写前后核实`mentions.csv`、`alignment.csv`、`relations.csv`及H9622账本不变；roster仅更新本批100行，statement仅改3项。`git diff --check`退出码0。
