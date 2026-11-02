@@ -20582,3 +20582,19 @@ H9622历史事件账本9,622行未改，SHA-256仍为`75ab12df478a81603592935356
 当前顺序窗口原批次标签为：B475含B301 73条、B044 1条、B302 26条；B476含B302 71条、B045 4条、B303 25条；B477含B303 74条、B304 26条。6条历史statement hash changed均有既存当前版原页依据：顺序5928（De Rossi/Regulus，B044）保留Haskell的“masterpiece”评价限定及rel-2507范围；5931（Stoic historians）身份/概念映射仍pending；6025（Castro dispute）保留匿名行动者与既有关系否决；6026的Castro与Parma统属范围仍pending；6027仅表达历史上位于教皇领地，rel-1750 located_at维持formal；6034（Urban VIII）以原S0 OCR作quote，印本读法仅记在校勘字段。其余294条当前statement hash与历史记录exact；H9622的300条事件来源映射全匹配。251条pending原finding保持，未改写S2语义表、relations.csv或历史台账，S3/S6既有裁决未变。
 
 批后全库仍为15,512条statement、27,339条mention、current PASS 8,709、pending 6,803。逐序已核平至6158/15,512；下一连续顺序6159，之后尚有9,354个顺序位置待处理，最早未解决finding仍为1330。S2尚未全书独立语义接收。
+
+<a id="2026-11-03-s2-current-review-stage-b478-b480-order-6159-6458"></a>
+### 2026-11-03 S2当前版本逐ID复核阶段：B478–B480（顺序6159–6458）
+
+**范围与复用。** 连续核平300条第六章当前statement。当前源文件资产、S0 segment、statement和segment mention集合指纹均300/300匹配；复用既有current PASS或保留pending finding，不重读未变页面。逐行页证据及finding由B304–B307、B047/B048记录，roster继续保留既有入口。
+
+| 批次 | 当前顺序 | 核平 | 当前PASS复用 | pending原finding保留 | H9622事件 | 事件来源匹配 | statement hash exact / changed | 无H9622事件 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| B478 | 6159–6258 | 100 | 2 | 98 | 99 | 99/99 | 98 / 1 | 1 |
+| B479 | 6259–6358 | 100 | 0 | 100 | 100 | 100/100 | 100 / 0 | 0 |
+| B480 | 6359–6458 | 100 | 2 | 98 | 99 | 99/99 | 98 / 1 | 1 |
+| **阶段合计** | **6159–6458** | **300** | **4** | **296** | **298** | **298/298** | **296 / 2** | **2** |
+
+当前顺序窗口原批次标签为：B478含B304 74条、B305 24条、B047 2条；B479含B305 74条、B306 26条；B480含B306 72条、B048 2条、B307 26条。两条statement hash changed均有B047/B048现行印本复核：顺序6240的Alexander VII抗议claim已收窄并将三十年战争结束另拆为statement，抗议关系维持pending；6368的委托端点与“only important”限定已核对，rel-1851仍formal。其余296条hash exact。298条H9622事件来源全部匹配；2条无H9622事件有当前复核依据。296条pending finding继续保留；未改写S2语义表、relations.csv或历史ledger，S3/S6既有裁决不变。
+
+批后全库仍为15,512条statement、27,339条mention、current PASS 8,709、pending 6,803。逐序已核平至6458/15,512；下一连续顺序6459，之后尚有9,054个顺序位置待处理，最早未解决finding仍为1330。S2尚未全书独立语义接收。
