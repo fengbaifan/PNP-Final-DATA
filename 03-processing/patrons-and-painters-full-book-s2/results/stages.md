@@ -2976,3 +2976,7 @@ Reconciled 300 continuous Chapter 16 and Chapter 17 and Chapter 18 and Chapter 1
 ### 2026-11-03 S2 current-version ID reconciliation stage B559–B561 (14259–14558)
 
 Reconciled 300 continuous Chapter 19 and Chapter 20 rows: 285 existing current PASS reused, 15 current pending retained, 0 new PASS. H9622 maps 15 events (15 exact, 0 changed; source versions 15/15); historical outcomes remain unchanged. Current fingerprints passed 300/300. 31 linked relations remain unchanged (formal: 28; pending: 3). Global S2 remains 15,512 statements, 27,339 mentions, PASS 8,709, pending 6,803; next order 14,559, with 954 sequence positions left to reconcile. S2 remains without independent whole-book acceptance. See [stage B559–B561 process record](../process/stages.md#2026-11-03-s2-current-review-stage-b559-b561-order-14259-14558).
+
+### 2026-11-03 S2 current-version ID reconciliation stage B562–B564 (14559–14858)
+
+Reconciled 300 continuous Chapter 20 and Chapter 21 rows: 300 existing current PASS reused, 0 current pending retained, 0 new PASS. H9622 maps 0 events (0 exact, 0 changed; source versions 0/0); historical outcomes remain unchanged. Current fingerprints passed 300/300. 19 linked relations remain unchanged (formal: 19). Global S2 remains 15,512 statements, 27,339 mentions, PASS 8,709, pending 6,803; next order 14,859, with 654 sequence positions left to reconcile. S2 remains without independent whole-book acceptance. See [stage B562–B564 process record](../process/stages.md#2026-11-03-s2-current-review-stage-b562-b564-order-14559-14858).

@@ -21055,4 +21055,19 @@ Exact historical hashes map to current statuses: reviewed_current_pending=258. C
 
 Exact historical hashes map to current statuses: reviewed_current_pending=15. Changed historical hashes map to current statuses: . Historical hashes, outcomes, source versions, and event-ledger rows remain unchanged. Prior review-batch distribution: {prior_string}.{pnl}{pnl}**Relation and decision impact.** 31 `relations.csv` rows cite statements in this interval (formal: 28; pending: 3): formal: rel-1451, rel-1452, rel-1453, rel-1593, rel-1619, rel-1911, rel-1951, rel-1952, rel-1953, rel-1954, rel-2290, rel-2291, rel-2292, rel-2293, rel-2294, rel-2295, rel-2314, rel-2315, rel-2403, rel-2501, rel-2502, rel-2577, rel-2578, rel-2579, rel-2638, rel-2639, rel-2640, rel-2642; pending: rel-2296, rel-2297, rel-2641. All endpoints, predicates, scope, evidence, and S6 decisions remain unchanged. No relation row was modified.
 
-**Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 14,558/15,512; next order 14,559, with 954 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.
+**Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 14,558/15,512; next order 14,559, with 954 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.<a id="2026-11-03-s2-current-review-stage-b562-b564-order-14559-14858"></a>
+
+### 2026-11-03 S2 current-version ID reconciliation stage B562–B564 (orders 14559–14858)
+
+**Current review and historical-event reconciliation.** This continuous span covers Chapter 20 and Chapter 21. Current status is 300 `reviewed_current_pass` and 0 `reviewed_current_pending`; current statement, source asset, segment, and mention fingerprints pass 300/300. All 300 page-review evidence targets resolve across 300 rows. The 0 H9622 event references map to matching statement IDs, with source versions matching 0/0. Historical outcome distribution: .
+
+| Batch | Current order | PASS reused | Pending retained | H9622 events | Exact / changed | Source match | No event |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| B562 | 14559–14658 | 100 | 0 | 0 | 0 / 0 | 0/0 | 100 |
+| B563 | 14659–14758 | 100 | 0 | 0 | 0 / 0 | 0/0 | 100 |
+| B564 | 14759–14858 | 100 | 0 | 0 | 0 / 0 | 0/0 | 100 |
+| **Stage total** | **14559–14858** | **300** | **0** | **0** | **0 / 0** | **0/0** | **300** |
+
+Exact historical hashes map to current statuses: . Changed historical hashes map to current statuses: . Historical hashes, outcomes, source versions, and event-ledger rows remain unchanged. Prior review-batch distribution: {prior_string}.{pnl}{pnl}**Relation and decision impact.** 19 `relations.csv` rows cite statements in this interval (formal: 19): formal: rel-1477, rel-1561, rel-1562, rel-1588, rel-1784, rel-1962, rel-1985, rel-1986, rel-2008, rel-2083, rel-2087, rel-2210, rel-2240, rel-2243, rel-2287, rel-2383, rel-2620, rel-2637, rel-2638. All endpoints, predicates, scope, evidence, and S6 decisions remain unchanged. No relation row was modified.
+
+**Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 14,858/15,512; next order 14,859, with 654 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.
