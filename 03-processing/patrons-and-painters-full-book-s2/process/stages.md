@@ -18528,3 +18528,14 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **语义边界。** 条目均只表述Haskell的书目记录，不推称被引文献已读。沿用原页既有校读：p.419将Constable两项分开；p.420保持出版物题名与作者责任者的边界；p.421区分De Dominici全集与具体卷引文；p.422的出版物与作者`See`指引不升格为人物身份关系。候选及出版物版本边界不因当前版回映而改变。
 
 **关系与下游影响。** 本批100条均无`relation_candidate=true`，未命中待同步的直接正式关系statement；`relations.csv`、S3/S6裁决和候选均未改。全批100条当前PASS；全库PASS 5,878、已审待证699、历史映射开放8,323、待回映/当前复核605；连续顺序剩余605条，从14901开始。局部PASS不构成全书S2独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b262-order-14901-15000"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B262：第21章书目 L461–614，顺序14901–15000
+
+**逐ID结论与证据复用。** 100条均无9,622历史事件，当前statement hash与roster快照100/100一致。复用此前第21章书目印刷p.422–425（PDF物理页12–15）的逐页S2记录；当前PDF SHA-256 `1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`、Markdown SHA-256 `f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3`保持一致。100/100引句回链当前S0。四个segment共121条mention span，偏移错误0；L461–496的30条span已在B261复核并复用，新增三段91条span。
+
+**书目范围。** p.423为S0错位录入的Noemi Gabrieli条目保留既有独立页图addendum锚点，不伪造该页不存在的mention；Ghelli只记书目列名`M. E. Ghelli`。p.424保留Gualdo 1664与出版地/年1818的原书目格式，不解释日期含义。p.425三条Haskell作者归属只记录本书书目形式，不把文章内容当作已读证据。其他校读及书目候选边界沿用既有p.422–425逐页记录。
+
+**关系裁决影响。** 五条既有formal书目作者边维持来源限定：`rel-1478` Fogolari、`rel-1589` Gualdo Priorato、`rel-1636`与`rel-2242` Haskell 1960出版物、`rel-2391` Haskell 1959文章。本批唯一pending作者项为Ghelli（`cand-7121`仅为缩写`M. E. Ghelli`，`bl-0023`身份未决），不新增formal边。无statement、mention、候选、`relations.csv`或S3决定写回。全批100条当前PASS；全库PASS 5,978、已审待证699、历史映射开放8,323、待回映/当前复核505；连续顺序剩余505条，从15001开始。S2仍未全书独立语义接收。
