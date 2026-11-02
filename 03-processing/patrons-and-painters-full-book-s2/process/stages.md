@@ -18619,3 +18619,14 @@ L1301–1306是S0的错位OCR块，不对应本PDF新增的p.442图像。当前�
 **未决发现。** 以下7条均与报告版本精确相同，报告列为须修订问题，当前未改，保持pending：`st-chp1-secii-l62-71-09`（具体圆顶委托与家族一般评价合并）；`st-chp1-secii-l79-84-10`（未具名收件人与押金受益者角色混淆）；`st-chp1-secii-l86-94-06`（art dealing与art exhibitions候选范围不全）；`st-chp1-secii-l106-116-02f`、`-02h`、`-02j`（谓词所指授权/确认者与端点方向相反）；`-02l`（Francesco Barberini protector断言误指向Urban VIII）。
 
 **批次结算。** 737–836共100条：92条当前PASS、7条新确认pending、1条既有pending沿用。全库当前PASS 6,674、已审待证707、历史映射开放8,124、版本差异待核0、待回映/当前复核0；下一连续未收口区段从837开始。9,622条历史审读事件和原裁决未改；本批未改statement、mention、候选、S3或正式关系表，S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b271-order-837-936"></a>
+
+### 2026-11-02 S2当前版逐ID复核 B271：第1章，顺序837–936
+
+**证据复用与版本核对。** 本批100条statement完整JSON、100条mention记录及第1章逐条复核提交`2273e2743158401b841fb9bc7b7d1332836d400a`完全一致；唯一来源文件`01_CHP-1_sec_ii.md`字节哈希`1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`相同。既有报告逐条核读全章521条，但明确本章尚不接收；本批只重用已核版本和报告列明的问题，不重复阅读。
+
+**未决发现。** 报告列明的7条当前仍待修订，均保持pending：`st-chp1-secii-l118-127-01b`（gilders成员资格的限定与端点）；`st-chp1-secii-l118-127-03a`及`st-chp1-secii-l129-135-01`（未完片段与续段完整句重复，需排除/合并片段并保留完整锚）；`st-chp1-secii-l118-127-05`（Urban VIII brief财务利益与Academicians社会地位主张混合，受益端点不明）；`st-chp1-secii-l129-135-01e`（Queen Christina与Mola的马车记载须保留Haskell归属和可信度限定）；`st-chp1-secii-l137-146-02`（bentveughels称谓、群体与Schildersbent组织映射未核平）；`st-chp1-secii-l148-153-01a`（婚配对象为未具名家主的未具名妹妹，端点与mention待核）。
+
+**批次结算。** 837–936共100条：93条当前PASS，7条pending。全库当前PASS 6,767、已审待证714、历史映射开放8,024、版本差异待核0、待回映/当前复核0；下一连续未收口区段从937开始。历史9,622事件和原裁决未改，statement、mention、候选及正式关系表未改。逐条PASS不等于本章或全书S2接收。
