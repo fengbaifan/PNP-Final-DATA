@@ -27983,3 +27983,12 @@ m-chp1-secii-20261102-arragona-chancellor,chp-1:01_CHP-1_sec_ii:l79-84,cand-1184
 m-chp1-secii-20261102-bentveughels-colony,chp-1:01_CHP-1_sec_ii:l137-146,cand-11862,the colony of Dutch and Flemish artists living in Rome,758,812,Source definition of the bentveughels; keep distinct from the Schildersbent.
 m-chp1-secii-20261102-carlone-sister,chp-1:01_CHP-1_sec_ii:l148-153,cand-11870,his sister,120,130,Unnamed sister of the household master; no completed marriage is asserted.
 m-chp1-secii-20261102-rosa-would-be-patron,chp-1:01_CHP-1_sec_ii:l155-159,cand-2297,a would-be patron,2848,2865,Body-text role identified as Don Antonio Ruffo by the linked footnote.
+m-chp1-secii-20261102-gualandi-volume-i-p9,chp-1:01_CHP-1_sec_ii:l168-239,cand-6608,"Gualandi, I, p. 91",1278,1296,Printed p.9 n.2 locator for Gualandi volume I; cited contents not independently consulted.
+m-chp1-secii-20261102-gualandi-volume-i-p13,chp-1:01_CHP-1_sec_ii:l168-239,cand-6608,"Gualandi, I, p. 91",5627,5645,Printed p.13 n.4 locator for Gualandi volume I; cited contents not independently consulted.
+m-chp1-secii-20261102-ferri-laparelli-altarpiece,chp-1:01_CHP-1_sec_ii:l168-239,cand-3190,an altarpiece in Cortona for Annibale Laparclli,4383,4430,Exact footnote mention; source OCR spelling is retained in the span and corrected to Laparelli from CHP-1.pdf.
+m-chp1-secii-20261102-cortona-modelli-series,chp-1:01_CHP-1_sec_ii:l168-239,cand-11872,a series of modelli by Pietro da Cortona,2988,3028,Exact p.12 n.1 work-group anchor; Haskell reports the attribution as disputed.
+m-chp1-secii-20261102-procaccini-parents,chp-1:01_CHP-1_sec_ii:l168-239,cand-11866,Andrea Procaccini’s parents,8561,8588,Exact p.20 n.4 source-defined parent-group anchor; individual identities remain unnamed.
+m-chp2-seci-l82-93-20261102-joint-pope-ludovisi,chp-2:02_CHP-2_sec_i:l82-93,cand-11578,"The new Pope and his vigorous young nephew Ludovico
+Ludovisi",1312,1372,Exact joint-actor group anchor; do not assign separate agency to either person.
+m-chp2-seci-l82-93-20261102-pincio-hedonistic-society,chp-2:02_CHP-2_sec_i:l82-93,cand-11579,the most hedonistic society that Rome had known since the Renaissance,479,548,Exact source-defined unnamed social-collective anchor; membership and type remain open.
+m-chp2-seci-l95-106-20261102-caravaggio-canvases,chp-2:02_CHP-2_sec_i:l95-106,cand-4305,a series of canvases of effeminate young boys,370,415,"Exact anchor for the untitled, uncounted Caravaggio work group; distinct from the Giustiniani set."

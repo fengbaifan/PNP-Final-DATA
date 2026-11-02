@@ -20085,3 +20085,25 @@ S3方面，aln-11999由undecided改为same→units/works/ferri-sant-agnese-cupol
 | **阶段合计** | **701–1000** | **300/300** | **280** | **20** | **14** | **6** | **8,609 / 6,896** |
 
 本阶段结束后逐ID清单总数仍为15,505，当前PASS 8,609，current pending 6,896，历史映射开放0。映射清零及本批source-level PASS不等于S2全书独立语义接收。下一连续顺序1001。
+
+<a id="2026-11-02-s2-current-review-stage-b401-b403-order-1001-1300"></a>
+### 2026-11-02 S2当前版本逐ID复核阶段：B401–B403（顺序1001–1300）
+
+本阶段按连续原文推进300项，每100项为一个报告批次。改动前逐项核对当前statement、来源segment与Markdown资产、段内mention集合及原审读引用锚点；300/300均匹配。267条既有current PASS按当前指纹复用；33条current pending回到对应原书页面、注释和必要跨段上下文复核，28条转为当前PASS，5条保留pending。新增8条精确mention；16条statement更新原书页码、对象端点、跨段指代或作者限定。定向外键核对另发现p.13注4原statement引用了`mentions.csv`中不存在的旧mention ID；已删除失效ID，改由本批新增且经原文跨度核验的p.13 mention承载引文定位，并更新当前statement/history hash。三段mention指纹均已更新，并按历史review snapshot重算受影响的267行`history_9622_mention_delta`；16条变化statement的`history_9622_current_statement_match`及`prior_review_match`同步重算。H9622历史事件ledger未改（SHA-256 `75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`），`relations.csv`未改（SHA-256 `dc964eb953c0e142c32b4e657925876bd6ed8af7ba0d5ceda7825211c7a3629a`）。
+
+原书依据为`02-sources/01-book/CHP-1.pdf`（SHA-256 `0b9a3ca88e6f09209bd20185948e18a68f527d0628e893940a7e3f07f6d22c86`）、`CHP-2.pdf`（SHA-256 `317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`），对应当前节录`01_CHP-1_sec_ii.md`（SHA-256 `1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`）及`02_CHP-2_sec_i.md`（SHA-256 `5eca92acb03fe9934be85c82a6ec6806d3c564002955e99bd317916f3c7c8dc6`）。核对Gualandi卷I页91在p.9注2与p.13注4的不同引用语境；p.23注释页码由印刷p.23及PDF物理页22确认；p.27–29正文核对Maderno方案续句、Maffeo跨段代词、Scipione共同主体、Pincio社会场景及Caravaggio未具名画作组；p.28的“no doubt”按Haskell推测保留，不作为已证因果。
+
+28条pending转PASS的statement ID：`st-chp1-secii-p9-n2-cites-gualandi-i-p91`、`st-chp1-secii-p12-n1-grassi-cortona-series-claim`、`st-chp1-secii-p13-n1-ferri-laparelli-altarpiece-payment`、`st-chp1-secii-p13-n4-cites-gualandi-i-p91-gavasetti`、`st-chp1-secii-l657-n1-cites-malvasia-vol2-p27`、`st-chp1-secii-p19-n6-cerquozzi-passeri-citation`、`st-chp1-secii-notes-procaccini-parents`、`st-chp1-secii-l971-n1-cites-ruffo-correspondence-p172`、`st-chp1-secii-l971-n1-derosis-letter-addressed-to`、`st-chp1-secii-l971-n1-derosis-letter-authored-by`、`st-chp1-secii-l973-n2-cites-baldinucci-vol6-p579`、`st-chp1-secii-l974-n3-cites-ruffo-correspondence-p298`、`st-chp1-secii-l974-n3-ferri-letter-addressed-to`、`st-chp1-secii-l974-n3-ferri-letter-authored-by`、`st-chp1-secii-l978-980-n3-cites-pascoli-vol1-p233`、`st-chp2-seci-l71-80-maderno-nave-continuation`、`st-chp2-seci-l71-80-spoleto-bishopric`、`st-chp2-seci-l71-80-bologna-legate`、`st-chp2-seci-l71-80-arpino-picture-seizure`、`st-chp2-seci-l71-80-deposition-removal`、`st-chp2-seci-l71-80-domenichino-commission`、`st-chp2-seci-l71-80-domenichino-imprisonment`、`st-chp2-seci-l82-93-reni-commission`、`st-chp2-seci-l82-93-villa-social-setting`、`st-chp2-seci-l82-93-domenichino-supremacy`、`st-chp2-seci-l82-93-guercino-supremacy`、`st-chp2-seci-l82-93-agucchi-theory-development`、`st-chp2-seci-l95-106-canvases-by-caravaggio`。变化理由及逐条开放finding写在当前roster对应行。
+
+保留5条pending：`st-chp1-secii-l971-973-06`将De Rosis信件和Baldinucci引文合并并重复文献角色；`st-chp1-secii-l974-980-07`合并Ferri/Luti两项且把Ruffo错作patronage端点；`st-chp2-seci-l71-80-resources-st-peters`的“their”同时指Paul V与Scipione，缺共同主体候选；`st-chp2-seci-l71-80-smm-family-chapel-comparison`的S. Maria Maggiore家族身份未澄清；`st-chp2-seci-l71-80-scipione-art-change`的“these changes”缺正确term对象。不得据此强行建立formal关系。
+
+S3受影响决定只补充锚点和边界说明、不改决定值：cand-6608继续undecided，标明卷I定位与六卷书目集合cand-11348有别；cand-11348移除错误关联p.9注2的statement；cand-3190和cand-11872保留既有same，补入对应作品mention；cand-11866补父母组mention但身份与类型仍undecided；cand-11578、cand-11579补共同人物/未名社会群体mention但成员与类型仍undecided；cand-4305补Caravaggio未具名画作组mention但不与已有作品合并、继续undecided。未新建KU或S6关系。
+
+| 批次 | 连续顺序 | 阶段累计 | 既有PASS复用 | pending复核 | 新转PASS | 保留pending | 批后全库PASS / pending |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| B401 | 1001–1100 | 100/300 | 95 | 5 | 5 | 0 | 8,614 / 6,891 |
+| B402 | 1101–1200 | 200/300 | 88 | 12 | 10 | 2 | 8,624 / 6,881 |
+| B403 | 1201–1300 | 300/300 | 84 | 16 | 13 | 3 | 8,637 / 6,868 |
+| **阶段合计** | **1001–1300** | **300/300** | **267** | **33** | **28** | **5** | **8,637 / 6,868** |
+
+本阶段后逐ID清单仍为15,505项，当前PASS 8,637、current pending 6,868，历史映射开放0。下一连续顺序1301；S2尚未全书独立语义接收。
