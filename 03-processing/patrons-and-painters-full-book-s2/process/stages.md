@@ -18566,3 +18566,14 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **书目语义与关系影响。** 按现有页图记录保持书目条目边界、期刊信息及跨章引用的版本／页码差异；不据书目列举声称查阅被引作品。本批三条直接作者关系候选均与现有S6来源范围对应：`rel-1746`（Orlandi）、`rel-1745`（Pacichelli）和`rel-1506`（Palomino）均维持formal、方向及原证据跨度。跨章短引、卷次和页码不扩成额外关系；无候选身份、statement、mention或`relations.csv`写回。
 
 本批100/100当前PASS。全库当前版PASS 6,278、已审待证699、历史映射开放8,323、版本差异待核0、待回映/当前复核205；连续顺序剩余205条，下批从15301开始。9,622历史审读台账不变；S2仍未全书独立语义接收。
+<a id="2026-11-02-s2-current-review-b266-order-15301-15400"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B266：第21章书目 p.435–438，顺序15301–15400
+
+**逐ID结论与证据核验。** 本批100条均无9,622历史事件；复核后当前statement哈希已记入清单，其中8条补入页图OCR／扫描标记说明，其余statement正文、引句和断言未改。引句按空白规范化后100/100定位当前S0；Sgrilli条目唯一的原始定位差异来自跨行断开，页图确认文字一致。当前PDF SHA-256 `1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`、Markdown源SHA-256 `f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3`。四段共117条mention span，L1022–1057的29条沿用已有p.435逐页复核，其余88条逐条切片核验；偏移错误0。
+
+**原页与校读。** 直接核读PDF物理页26–28（印刷p.436–438）。已记录并保留原S0转录的页图校读：Shaftesbury、Skippon、Spezzaferro、Spon及Taylor条目旁的孤立扫描标记不并入书目；Silhouette作者印作`S[ilhouette, Étienne de]`，保留其异常括号和重音。其余已存在的statement级OCR校读（如`Urbano VIII`、数字页码、`Strocchi`、`L’Œil`及Teti/Tessier分条）经页图核对一致。8条补记只扩充`page_image_ocr_corrections`，原引句及主张保留。
+
+**关系与待证状态。** 六条直接作者候选中，五条既有formal边保持：`rel-1476`（Sagredo）、`rel-1747`（Saxl）、`rel-1637`（Sgrilli）、`rel-1294`（Spon）、`rel-1295`（Wheler）。Rava作者候选`cand-12453`仅有`A.`，按`bl-0049`保持undecided/pending，无人物KU、无formal边。未改候选、S3裁决或`relations.csv`。
+
+本批100/100当前PASS。全库当前版PASS 6,378、已审待证699、历史映射开放8,323、版本差异待核0、待回映/当前复核105；连续顺序剩余105条，下批从15401开始。9,622历史台账不变；局部PASS不构成全书S2独立语义接收。
