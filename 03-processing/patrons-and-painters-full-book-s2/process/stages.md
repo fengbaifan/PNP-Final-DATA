@@ -17053,3 +17053,23 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **其余关系与历史裁决。** 本批精确对应的formal关系记录均未改变：`rel-1543`/`rel-1544`（12月22日信的收信人/书内馆藏定位）、`rel-1546`/`rel-1547`（8月26日信的收信人/书内馆藏定位）、`rel-2054`（Monaco版画作者归属）、`rel-2418`（收据在Zanetti卷册中）及`rel-2419`（收据所涉买方）。它们的source scope保持原限；未查手稿、目录或版画原件。S3决定和S6历史表不变。
 
 **批后状态和剩余量。** 完成核平100/100：当前PASS 3（含1条当前历史版本差异、2条无历史事件），97条精确历史复用且开放发现不变。全库roster状态：当前PASS 4,483、已审待证697、历史映射开放8,323、版本差异待核83、待回映/当前复核1,919；未获当前PASS 11,022，当前路由剩余2,002。下一顺序12726；顺序12726–15505尚余2,780条（1,432条历史映射开放、1,274条待回映/当前复核、74条版本差异待核）。9,622历史事件总数不变；全书S2仍未独立语义接收。
+<a id="2026-11-02-s2-current-review-b112-ch14-p348-p351"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B112：第十四章 pp.348–351，顺序12726–12825
+
+**历史核平与复用。** 本批100条连续顺序均回链到一个9,622历史事件，事件ID各不重复，当前来源文件版本100/100相同；99条当前statement完整对象与历史快照相同，1条对象有变化。分段mention指纹58条与历史快照完全一致；另42条的差异都来自同一S0段新增的单条mention `m-s2-ch14-p349-20261101-001`，这是段级指纹差异重复出现在该段42条statement的历史映射中，并非新增42条mention。99条复用此前直接阅读，同时逐条保留历史开放发现，不把复用记作语义接收；历史事件、旧hash及旧裁决未改。
+
+**当前对象差异及既有PASS回映。** 顺序12755 `st-chp14-p349-left-italy-and-turin-mission` 对应H9622-06440。与历史基线statement逐字段比较，唯一对象差异是 `qualifiers.mentioned_candidate_ids` 增加 `cand-10258`；原claim、quote、predicate、主客体均未变。2026-11-01已依据 `CHP-14.pdf` 物理页3、当前S0段独立复核：p.349 “its”位于字符区间`[1067,1070)`，回指此前的“the book”，即书名级《Newtonianismo per le Dame》候选`cand-10258`，不是第一版候选`cand-12462`。本批把该既有当前版本PASS及其过程锚点回映到逐ID roster，不重复图像审读。历史H9622-06440的开放状态继续保留；引用证据见[2026-11-01 p.349指代及当前版差异记录](#2026-11-01-s2-current-delta-recompute-after-p349-referent)与[跨阶段记录](knowledge.md#s2-s3-s5-ch14-p349-newtonianismo-appearance-20261101)。
+
+**来源、引句及提及校验。** 100条statement覆盖4个连续S0段；statement规范hash、segment hash、原始Markdown asset SHA-256、mention-set hash均与当前源表相符；100/100 `original_quote`在各自source line范围可定位，四段共213条mention的span逐条切片命中，错误0。 S0 Markdown asset SHA-256=`d472c0aed1891f38546c3f73557c46583dcc7f744b0dbb764fc7a94cff71cdf7`。
+
+| 当前S0段 | statements | mentions | segment SHA-256 | mention-set SHA-256 |
+|---|---:|---:|---|---|
+| `14_CHP-14_intro:l14-21` | 14 | 57 | `ce0e6ab4903b86faca13d4dd31b3dfae459708033fcdaecf82415289de582baf` | `dd0b97f426df72c29538b317d88258f9474888ecf8bb3e39ed2ee3a4e5c5b26f` |
+| `14_CHP-14_intro:l23-33` | 42 | 54 | `1745cb7234b595f967f5d20f960d680c3f2635e0e1aafbeaecd6eff54fe6663b` | `a8ba5b44533226012d5fef5715ea1442413f574d19435221830ed295df966c46` |
+| `14_CHP-14_intro:l35-44` | 35 | 36 | `0635d34a1ddf42d11780ea7d9b7dfc5fb3517d98014efd29485a68a47acf0cd5` | `77bf40683f6e749f4fa0ac88a34984946b4505956fcb375b49bb70cdc8b8bf7b` |
+| `14_CHP-14_intro:l46-53` | 9 | 66 | `1ed2f5fd1a7de7206685730b3add411ca4b7ffc06f451ce9862d99544a843d28` | `5cd7e54eef8d19189e345b8b09cb55e94405d77e399589aee023289f561d0e89` |
+
+**关系及历史裁决影响。** `cand-10258`的书名级S3 `new`决定及KU映射、第一版候选`cand-12462`及其S3/S4粒度均未改变；`relations.csv`没有以顺序12755 statement为依据的正式边，本批不新增、不删除、不改裁决。`cand-10258`相关字段证据和p.349 note 3既有过程状态不因代词映射而改写；历史开放项仍开放。本批未改statement、mention、candidate、alignment、enrichment、relations或9,622历史事件台账，只回映当前逐ID roster并记录过程与当前结果。
+
+**批后状态与剩余量。** 本批100/100完成：99条复用历史直接阅读并保留开放发现，1条回映既有当前版本PASS。全库15,505条statement、27,302条mention、12,448个candidate；当前PASS 4,484、已审待证697、历史映射开放8,323、版本差异待核82、待回映/当前复核1,919；未获当前PASS 11,021，当前路由未结2,001。核查发现顺序1–12725尚有654条路由未结（645条待回映、9条版本差异）；顺序12826–15505尚有2,680条，其中1,333条历史开放项可复用、1,274条待回映、73条版本差异。为保持原文顺序，下一批回到最早未处理顺序1。9,622历史事件总数不变；全书S2仍未独立语义接收。
