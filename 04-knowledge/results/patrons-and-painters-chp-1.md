@@ -393,8 +393,8 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 | archive | [乔万尼·兰弗兰科致巴贝里尼枢机的信（1640-07-14）（Letter from Giovanni Lanfranco to Cardinal Barberini (1640-07-14)）](../units/archives/lanfranco-barberini-letter-1640.md) | 第一章；印刷页 11；OCR L408–425 | 文献身份通过来源链定位 |
 | archive | [《当今》（1627）（L'Hoggidi (1627)）](../units/archives/lhoggidi-1627.md) | 第一章；印刷页 3；OCR L45–47 | 版本待证 |
 | archive | [明尼蒂在奥古斯塔的委托条款刊录（1617）（Published Terms for Minnitti's Augusta Commission (1617)）](../units/archives/minnitti-augusta-terms-1617.md) | 第一章；印刷页 9；OCR L321–322 | 尚无配对 |
-| archive | [莫拉借阅的神谱书（题名未明）（Genealogy of the Gods Borrowed by Mola (title unidentified)）](../units/archives/mola-borrowed-genealogy-gods.md) | 第一章；印刷页 9；OCR L312–316 | 尚无配对 |
-| archive | [莫拉借阅的维吉尔注释本（版本未明）（Annotated Virgil Borrowed by Mola (edition unidentified)）](../units/archives/mola-borrowed-virgil-commentary.md) | 第一章；印刷页 9；OCR L312–316 | 尚无配对 |
+| archive | [莫拉请求借阅的神谱书（题名未明）（Genealogy of the Gods Mola Asked to Borrow (title unidentified)）](../units/archives/mola-borrowed-genealogy-gods.md) | 第一章；印刷页 9；OCR L312–316 | 尚无配对 |
+| archive | [莫拉请求借阅的维吉尔注释本（版本未明）（Annotated Virgil Mola Asked to Borrow (edition unidentified)）](../units/archives/mola-borrowed-virgil-commentary.md) | 第一章；印刷页 9；OCR L312–316 | 尚无配对 |
 | archive | [莫拉与潘菲利瓦尔蒙托内工程的合同条款（1657）（Contract Terms for Mola and Pamfili's Valmontone Project (1657)）](../units/archives/mola-pamfili-contract-1657.md) | 第一章；印刷页 13；OCR L505–506,514–519 | 尚无配对 |
 | archive | [保罗·内格里致圣托马索侯爵的信（1676-12-24）（Letter from Paolo Negri to the Marquis of S. Tommaso (1676-12-24)）](../units/archives/negri-san-tommaso-letter-1676.md) | 第一章；印刷页 21；OCR L889–900 | 尚无配对 |
 | archive | [弗朗切斯科·诺韦蒂致安东尼奥·鲁福的信（1670-03-22）（Letter from Francesco Novetti to Antonio Ruffo (1670-03-22)）](../units/archives/novetti-ruffo-letter-1670.md) | 第一章；印刷页 18；OCR L750–758 | 尚无配对 |
@@ -699,3 +699,9 @@ source_backed 保留来源支持基线；REV-026–030 已为八卡新增有范�
 当时第一章第一部分为部分完成。第六章、知识发现／涌现及页面仍后置；只有用户明确启动第二部分后，才基于已闭合范围的知识元和关系逐级开展 Topic → Theme → Dimension → Domain 的涌现分析。该阶段边界仍有效。
 
 2026-09-15章前收藏链复用了[卡尔皮奥侯爵](../units/persons/marchese-del-carpio.md)既有KU。依据实际读取的CEEH出版介绍，将旧出生地“那不勒斯”更正为“马德里”，保留旧来源并补出生地关系；[依据和未核范围](../../03-processing/patrons-and-painters-front-matter/process/knowledge.md#卡尔皮奥侯爵出生地更正)见章前过程。本次为共享实体单点更正，不表示第一章新增整体语义验收。
+
+### 2026-11-03：第一章第二节复合claim及借阅关系修订
+
+对印刷pp.9、12、15、18四项既有开放finding重新对照原页，将委托、求借书与图像选择，Pamfili特定委托与家族一般评价，艺术交易与展览，以及Urban VIII简令经济利益与学院成员社会地位判断分别拆开。四条原statement和五条新增原子statement当前均为PASS；新增3条精确mention。Pamfili家族、两部未识别书目、Urban VIII简令受益者与Academicians群体的未决身份或范围保持待证；S3决定不变。
+
+S6复核将`rel-1129/1130 borrowed_by`从formal改为pending：原文明确请求借阅，后文称据“these books”选择题材，但未说明借阅请求如何履行。`rel-0277 uses_procedure`保持formal，委托与创作边无变化。两张archive卡标题及借阅人字段同步改为请求语态；Virgil、Mola、四元素作品和图像志程序卡的相关摘要按同一证据边界修订。详见[第一章知识过程](../../03-processing/patrons-and-painters-chp-1/process/knowledge.md#s2-s6-ch1-p9-mola-borrow-request-20261103)和[全书S2阶段B427](../../03-processing/patrons-and-painters-full-book-s2/process/stages.md#2026-11-03-s2-current-review-ch1-composite-findings)。本阶段仅处理局部finding，不代表本章或全书S2独立接收。

@@ -19228,3 +19228,12 @@ Musée Fesch机构身份以英文Wikipedia页面pageprops及Wikidata Q2483597的
 检查当前 `relations.csv` 与 `sources.csv` 后，1,227条关系中有740条 `source_id` 为空。按 `source_file` 与来源登记 `url` 的规范化精确匹配：622条只对应一个来源ID，105条对应多个版本／来源记录，13条无精确URL记录。对这622条，既有 `migrate_relation_context.py` 预览确认没有其他字段改动；执行后与原表快照逐格比对，只有622个 `source_id` 单元格变化，行顺序、自然键和关系ID不变，所有新增ID均存在于来源表。多匹配及无匹配行保持空值。
 
 关系卡片写回前单卡预览显示新增来源登记ID在对应关系证据后展示；全库 `build_cards.py --render` 写回537个文件并通过逐文件字节核对，随后 `--check` 显示零差异。S7草案包重导出后，Guercino查询示例正常运行；完整同步闭包待本轮过程记录更新后重跑。此映射只建立来源登记连接，不证明该来源独立支持关系事实。
+
+<a id="s2-s6-ch1-p9-mola-borrow-request-20261103"></a>
+## S2/S6第一章p.9借阅请求关系边界更正（2026-11-03）
+
+第一章p.9原文先说Mola“asked to borrow”神谱与带注释Virgil，随后说他“Basing himself on these books and on friendly conversations”选择空气题材。后句支持他据这两部文献内容及交谈作选择，但原文没有说明律师是否实际出借，也没有交代请求如何履行。因此，REV-072先前将`rel-1129 borrowed_by`和`rel-1130 borrowed_by`记为formal的当前状态更正为pending；对象名称同步改为“莫拉请求借阅的……”并明确请求借阅者、受请求对象、未具名书目范围及出借完成未明。历史REV-072记录不改写，保留原裁决发生过程；本节及当前`relations.csv`为现行裁决。两部书的作者、题名、版本与出借完成状态仍未定，不按“these books”扩大S3身份配对。
+
+`rel-0277 uses_procedure`维持formal：Haskell明确说Mola据书和交谈选择Air题材；仅将说明修订为先请求借阅、后据文献内容择题，且不把借阅完成写成正式事实。现有Mola→《四元素》委托／创作关系不变。对应S2 statement拆分为`st-chp1-secii-l28-38-04`（委托）、`st-chp1-secii-l28-38-04a`（请求借阅）及`st-chp1-secii-l28-38-04b`（据书与交谈选题）；前一claim复用原formal边，`...04a`不因此生成借阅formal边。
+
+同步修订Virgil人物卡`enr-12164`、Mola人物卡与四元素作品卡的正文摘要、输入资料，以及图像志协商程序卡；两张archive卡将“借阅人／出借人”改为“请求借阅者／受请求的借阅对象”，并区分后续使用证据与借入关系裁决。Haskell后文确认Mola据两部文献和交谈选题，但不能将每一母题分配给某一具体书。未新增文献KU，也未更改既有candidate／alignment identity decisions；关系列表和卡片均保留未定书目对象。批次完整原页依据、来源哈希与四个finding去向见[全书S2阶段B427](../../patrons-and-painters-full-book-s2/process/stages.md#2026-11-03-s2-current-review-ch1-composite-findings)。

@@ -3,12 +3,12 @@ title: "维吉尔（Virgil）"
 name_en: "Virgil"
 type: person
 created: 2026-09-09
-updated: 2026-09-14
+updated: 2026-11-03
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L314–319
-  sentence_summary: 莫拉选择 Valmontone 神话题材时借阅带注释的 Virgil 著作。章内未给完整书名和版本，不能仅凭 Turnus 指涉将某版书目确定化。
+  sentence_summary: 莫拉曾请求借阅带注释的 Virgil 文本，随后据“这些书”及友人交谈选择Valmontone神话题材；原文未说明借阅请求如何履行，未给题名和版本。
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
@@ -41,16 +41,16 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 ### 描述
 
-**中文：** 莫拉选择 Valmontone 神话题材时借阅带注释的 Virgil 著作。章内未给完整书名和版本，不能仅凭 Turnus 指涉将某版书目确定化。
+**中文：** 莫拉曾请求借阅带注释的 Virgil 文本，随后据“这些书”及友人交谈选择Valmontone神话题材；原文未说明借阅请求如何履行，未给题名和版本，不能仅凭Turnus指涉确定具体书目。
 
-**English:** Mola borrowed an annotated Virgil for Valmontone's mythological subjects. The chapter supplies neither title nor edition; mentioning Turnus does not identify a particular bibliographic version.
+**English:** Mola asked to borrow an annotated Virgil text and later based his choices on “these books” and friendly conversations. The passage does not say how the loan request was fulfilled, and supplies no title or edition; Turnus alone does not identify a particular bibliographic version.
 
 ### 已有信息
 
 | 项目 | 内容 | 依据 |
 |---|---|---|
 | 名称／对应英文 | Virgil | S1 |
-| 著作线索 | Mola 借阅带注释的著作；题名与版本未给 | S1 |
+| 著作线索 | Mola请求借阅带注释的Virgil文本；原文随后称他据“这些书”及友人交谈选择题材，但未说明借阅请求如何履行；题名与版本未给 | S1 |
 
 ### 结构化信息
 

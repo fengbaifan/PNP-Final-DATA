@@ -1,4 +1,4 @@
-ku_id,type,canonical_name,name_en,source_task,card_path
+﻿ku_id,type,canonical_name,name_en,source_task,card_path
 units/archives/accademia-statutes-confirmed-1621,archive,圣路加学院章程（1621 年确认）,Statutes of the Accademia di S. Luca (confirmed in 1621),chp-1,04-knowledge/units/archives/accademia-statutes-confirmed-1621.md
 units/archives/adone-marino-poem,archive,《阿多涅》（Adone）,Adone,patrons-and-painters-full-book-s2,04-knowledge/units/archives/adone-marino-poem.md
 units/archives/aedes-barberinae-ad-quirinalem,archive,奎里纳尔山的巴贝里尼宫,Aedes Barberinae ad Quirinalem,front-matter,04-knowledge/units/archives/aedes-barberinae-ad-quirinalem.md
@@ -114,8 +114,8 @@ units/archives/mazarin-inventory-1661-de-cosnac-item-1240,archive,1661年马萨�
 units/archives/mazarin-inventory-manuscript-1653,archive,《马萨林枢机主教全部动产清单》（1653年原件）,Inventory of All the Movable Property of Cardinal Mazarin (1653 original manuscript),patrons-and-painters-full-book-s2,04-knowledge/units/archives/mazarin-inventory-manuscript-1653.md
 units/archives/mcswiny-ladies-gentlemen-taste-pamphlet,archive,致品味女士与先生的征订小册子（约1730年代）,Subscription Pamphlet Addressed ‘To the Ladies and Gentlemen of Taste’ (c. 1730s),patrons-and-painters-full-book-s2,04-knowledge/units/archives/mcswiny-ladies-gentlemen-taste-pamphlet.md
 units/archives/minnitti-augusta-terms-1617,archive,明尼蒂在奥古斯塔的委托条款刊录（1617）,Published Terms for Minnitti's Augusta Commission (1617),chp-1,04-knowledge/units/archives/minnitti-augusta-terms-1617.md
-units/archives/mola-borrowed-genealogy-gods,archive,莫拉借阅的神谱书（题名未明）,Genealogy of the Gods Borrowed by Mola (title unidentified),chp-1,04-knowledge/units/archives/mola-borrowed-genealogy-gods.md
-units/archives/mola-borrowed-virgil-commentary,archive,莫拉借阅的维吉尔注释本（版本未明）,Annotated Virgil Borrowed by Mola (edition unidentified),chp-1,04-knowledge/units/archives/mola-borrowed-virgil-commentary.md
+units/archives/mola-borrowed-genealogy-gods,archive,莫拉请求借阅的神谱书（题名未明）,Genealogy of the Gods Mola Asked to Borrow (title unidentified),chp-1,04-knowledge/units/archives/mola-borrowed-genealogy-gods.md
+units/archives/mola-borrowed-virgil-commentary,archive,莫拉请求借阅的维吉尔注释本（版本未明）,Annotated Virgil Mola Asked to Borrow (edition unidentified),chp-1,04-knowledge/units/archives/mola-borrowed-virgil-commentary.md
 units/archives/mola-pamfili-contract-1657,archive,莫拉与潘菲利瓦尔蒙托内工程的合同条款（1657）,Contract Terms for Mola and Pamfili's Valmontone Project (1657),chp-1,04-knowledge/units/archives/mola-pamfili-contract-1657.md
 units/archives/monaco-raccolta-112-stampe-1763,archive,圣史绘画112幅版画集（1763年版）,Collection of 112 Prints of Sacred-History Paintings (1763 edition),patrons-and-painters-full-book-s2,04-knowledge/units/archives/monaco-raccolta-112-stampe-1763.md
 units/archives/montaiglon-academy-correspondence,archive,罗马法国学院主管与王室建筑总监通信集（Correspondence of the Directors of the French Academy in Rome with the Superintendents,Correspondence of the Directors of the French Academy in Rome with the Superintendents of Buildings,front-matter,04-knowledge/units/archives/montaiglon-academy-correspondence.md

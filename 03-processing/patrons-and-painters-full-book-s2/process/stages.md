@@ -20249,3 +20249,27 @@ S3方面仅为12个受影响候选补记原文mention及身份/范围边界，�
 **仍待证项。** 同一当前版本范围中，顺序724仍有委托、求借书籍和图像选择的复合断言；顺序748将具体委托与家族对艺术家关系的一般评价并列；顺序797把艺术交易与展览活动合并且候选范围需分开；顺序843将未识别的Urban VIII简令与学院成员社会地位判断合并。四项保持pending，需按原文拆清claim及端点后再判，不以邻接PASS关闭。
 
 **计数与游标校正。** 本次完成2/2条跨页finding回核，2条转PASS；全库15,505条statement中current PASS 8,660、pending 6,845；顺序701–900现为196 PASS、4 pending。此前B425末句的“下一顺序3826”已被B281–B284既有记录覆盖：顺序3826–4225的400条均已逐ID审过，其中272 PASS、128 pending。当前不存在待首次逐ID核平的statement；后续工作应从最早仍开放的finding顺序724推进。S2仍未全书独立语义接收。
+
+<a id="2026-11-03-s2-current-review-ch1-composite-findings"></a>
+### 2026-11-03 S2第一章第二节四项复合finding裁决（B427）
+
+**范围与依据。** 接续B426已标出的四项开放finding：原逐ID顺序724、748、797、843。逐段对照`01_CHP-1.md`与分节转录，并查阅权威`CHP-1.pdf`印刷p.9（PDF物理页8）、p.12（物理页11）、p.15（物理页14）、p.18（物理页17）。原书PDF SHA-256=`0b9a3ca88e6f09209bd20185948e18a68f527d0628e893940a7e3f07f6d22c86`；全章OCR=`2c99c1b372f756b1482d746f5714fe930b538118792b52a3de0834f585d4f3fb`；第二节转录=`1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`。批次应用脚本：[adjudicate_s2_review_ch1_composite_findings_20261103.py](adjudicate_s2_review_ch1_composite_findings_20261103.py)。保留S0转录“his”与全章OCR／印刷页“Iris”的原始差异及原有校读说明，不改写来源文本。
+
+**逐项裁决。**
+
+| 原finding | 当前处置 | 端点、关系与未决范围 |
+|---|---|---|
+| `st-chp1-secii-l28-38-04`（原顺序724） | 原ID收窄为Camillo Pamfili委托Mola绘制《四元素》；新增`st-chp1-secii-l28-38-04a`记Mola向当地律师请求借阅神谱与带注释Virgil；新增`st-chp1-secii-l28-38-04b`记Mola据“these books”和友人交谈选择Air题材。三条均PASS。 | 委托复用既有`rel-0807`、`rel-0808`及独立支持的`rel-0034`，不重复建边。请求借阅与后来据书择题分开；`rel-1129/1130`转pending，因为原文没有明确说明请求如何履行。保留候选cand-2956/2957的未识别书目范围；`his`/`Iris`差异如上。 |
+| `st-chp1-secii-l62-71-09`（原顺序748） | 原ID仅记Pamfili家族对S. Agnese穹顶委托负责；新增`st-chp1-secii-l62-71-09b`单列Haskell对Pamfili家族与艺术家关系的一般评价。两条均PASS。 | 家族候选cand-3456仍为S3 undecided、未定类型；不把一般评价套到本次特定委托，不新增家族关系formal边。 |
+| `st-chp1-secii-l86-94-06`（原顺序797） | 原ID仅记Roman社会与政治变化关联艺术交易；新增`st-chp1-secii-l86-94-06b`单列艺术展览重要性。两条均PASS。 | 共用因果语境mention cand-11855；art dealing cand-3573与art exhibitions cand-3574保持不同范围及既有S3决定。保留注3前指，不把它当作本句作品端点。 |
+| `st-chp1-secii-l118-127-05`（原顺序843） | 原ID仅记Urban VIII未识别简令带来的经济利益；新增`st-chp1-secii-l118-127-05b`单列学院成员投诉显示其社会地位关切。两条均PASS。 | 未识别简令受益者与法律范围保持未定；学院成员群体不与Accademia机构合并，不新增缺端点关系。 |
+
+本批新增5条statement和3条精确mention：`m-chp1-secii-20261103-genealogy-gods`、`m-chp1-secii-20261103-annotated-virgil`、`m-chp1-secii-20261103-roman-social-political-pattern`；跨度均以当前segment原文核对。四个原statement finding关闭且保留原ID和历史finding说明，另五条拆分statement分别获当前版PASS。statement总数15,510，mention总数27,331；current PASS 8,669、pending 6,841。新statement沿来源顺序插入，current_order全量重排；最早仍待证项现为顺序1157 `st-chp1-secii-l971-973-06`。
+
+**下游与历史回核。** S3决定与组号未变，只同步相关证据说明；未新增KU或改变候选身份决定。Pamfili家族、两部未识别书目及Urban VIII简令的身份/范围缺口仍待证。S6 `rel-1129`、`rel-1130`由formal改为pending；程序关系`rel-0277`保持formal，只将说明限定为“请求借阅、随后据书和交谈择题”，不据此宣称借入完成。其余委员会托付边和历史裁决未变。Virgil人物卡的`enr-12164`及Mola人物卡、四元素作品卡、图像志协商程序和两张archive卡的相关表述同步收窄；原REV-072记录保留为历史，当前裁决见第一章`knowledge.md`新节。
+
+H9622历史事件账本9,622行未改，SHA-256仍为`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`。四个原statement各自保留1条历史事件，当前statement hash由exact转为changed；来源版本匹配不变。当前逐ID roster映射9,620条历史事件至9,537个当前ID（83条重复审读），另2个旧ID保持已有撤销／拆分去向；对这9,537个映射ID按当前statement hash计为9,010 exact、527 changed，当前来源匹配9,537/9,537。current roster数据与历史账本中记录的旧核平快照分开报告，不改写历史事件或其当时裁决。
+
+**针对性验证。** `audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py`五类阻断计数均为0。六张相关卡片的`build_cards.py --render`预检通过（15个表、96行、21条关系投影，写入4张关系视图发生变化的卡片）；五张卡预览无差异。莫拉人物卡预览仅显示一条本批无关的Bonatti教师关系来源ID投影差异；恢复原投影后保留该已知差异，不扩写本批范围。最终`git diff --check`已通过。
+
+本阶段只关闭四项局部S2 finding，不构成第一章或全书S2独立语义接收。下一项沿原文顺序处理1157；后续连续原文批次按一个完整阶段收口后再提交。

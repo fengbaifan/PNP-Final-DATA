@@ -2808,3 +2808,9 @@ S2保留statement原claim和original_quote，修正两条关系statement的对�
 ### 2026-10-31 第8章 p.212–213 Longhi引文端点纠正
 
 p.213 `has_subject` 当前端点方向已修正为文章subject、未识别作品object待证；补入p.212和p.213两条文章mention锚点，保留重叠的人物mention。未名画作仍pending，不新增S6正式边；p.212既有formal关系及历史裁决未改。statement 15,483条、mention 26,877条；9,622条统一复核数不变。针对性验证：S2严格表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断项0；当前代理核查不构成独立语义复核。详细依据及页图哈希见[过程记录](../process/stages.md)。
+
+### 2026-11-03：第一章第二节四项复合S2 finding及关联关系回核
+
+对原顺序724、748、797、843四项开放finding逐项对照原页并拆分复合claim；四个原ID及新增五条原子claim均取得当前版PASS，精确补3条mention。结果为15,510 statements、27,331 mentions、PASS 8,669、pending 6,841；下一个最早开放finding为1157。Pamfili家族、未识别书目、Urban VIII简令的端点/范围继续待证，S3身份决定不变。根据p.9对“请求借阅”与后续“据书择题”的区分，将`rel-1129/1130`由formal改pending；`rel-0277`仍formal但说明收窄。更新受影响的S5与六张相关卡片。H9622账本未改，四条既有事件仅在当前roster中标为当前statement版本changed。
+
+定向表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性五项阻断为0；六卡render预检通过，仅4张关系视图需写回；五张卡preview无差异，Mola卡仅保留已知的无关来源ID投影差异。详细原页依据、版本指纹、各claim去向与H9622逐ID影响见[阶段B427记录](../process/stages.md#2026-11-03-s2-current-review-ch1-composite-findings)及[第一章知识过程](../../patrons-and-painters-chp-1/process/knowledge.md#s2-s6-ch1-p9-mola-borrow-request-20261103)。本次定向修改不构成S2独立语义接收。

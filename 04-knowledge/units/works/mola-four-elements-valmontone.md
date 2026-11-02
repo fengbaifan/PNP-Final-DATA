@@ -3,7 +3,7 @@ title: "莫拉的瓦尔蒙托内《四元素》壁画方案（Mola’s Four Elem
 name_en: "Mola’s Four Elements fresco programme at Valmontone"
 type: work
 created: 2026-09-09
-updated: 2026-09-14
+updated: 2026-11-03
 evidence_status: source_backed
 relations:
   - {"relation_type":"located_at","target":"places/pamfili-country-house-valmontone.md","note":"四元素装饰所处的建筑，与作品已有城市层级定位并存。","evidence_ref":{"doc_id":"patrons-and-painters","source_file":"02-sources/02-Markdown/01_CHP-1.md","source_span":"lines 312–313; print pp. 9"},"review_status":"evidence_backed_relation","relation_source":"explicit","bidirectional_required":false}
@@ -13,7 +13,7 @@ relations:
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 9.'
   location: 第一章；印刷页 9；OCR L312–319
-  sentence_summary: Valmontone 四元素及空气方案由借书、学者咨询形成。
+  sentence_summary: Valmontone四元素及空气方案据未识别书籍内容和学者交谈形成；Mola曾请求借阅两部书籍，原文未说明请求如何履行。
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
@@ -60,7 +60,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 ### 描述
 
-**中文：** 莫拉为卡米洛·潘菲利在瓦尔蒙托内提出的《四元素》装饰方案，借神谱、维吉尔注释与学者咨询构思。工程曾局部实施并发生报酬争议；现存宫殿装饰由多位画家完成，不能整体归给莫拉。[S1–S4]
+**中文：** 莫拉为卡米洛·潘菲利在瓦尔蒙托内提出的《四元素》装饰方案，据未识别神谱、带注释的Virgil文本及学者交谈构思；他曾请求借阅两部书籍，原文未说明请求如何履行。工程曾局部实施并发生报酬争议；现存宫殿装饰由多位画家完成，不能整体归给莫拉。[S1–S4]
 
 **English:** Mola developed a Four Elements scheme for Camillo Pamfili at Valmontone using mythographic books, an annotated Virgil and learned consultation. Work was partly executed and became the subject of a payment dispute. The palace's surviving decoration is by several painters and cannot be attributed as a whole to Mola. [S1–S4]
 
@@ -73,7 +73,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 | 赞助人 | Camillo Pamfili | S1–S3 |
 | 地点 | Valmontone的Pamfili宫殿，与罗马同名宫分开 | S1–S4 |
 | 题材 | 本章四元素，含[空气方案](mola-air-valmontone.md)；S3另载四洲方案 | S1、S3 |
-| 输入资料 | 借阅神谱、带注释Virgil及学者意见；具体版本未核 | S1 |
+| 输入资料 | 两部未识别文献内容（Mola曾请求借阅，完成情况未明）及学者意见；题名与版本未核 | S1 |
 | 酬金方案 | 1300scudi；方案未获签署 | S3 |
 | 材料和付款条款 | 1657年材料分担；300定金＋1000分期，详[条款卡](../archives/mola-pamfili-contract-1657.md) | S2 |
 | 尺寸／整体技法细目 | 未从原工程或实物记录核定 | 不拼接各后续房间尺寸 |

@@ -3,12 +3,12 @@ title: "题材与图像志协商（Consultation over subjects and iconography）
 name_en: "Consultation over subjects and iconography"
 type: procedure
 created: 2026-09-09
-updated: 2026-09-14
+updated: 2026-11-03
 evidence_status: source_backed
 sources:
 - citation: 'Francis Haskell, Patrons and Painters, revised and enlarged ed. (New Haven and London: Yale University Press, 1980; this printing 2006), ch. 1, pp. 8, 9.'
   location: 第一章；印刷页 8, 9；OCR L274–277,288–330
-  sentence_summary: 委托人题材指示、Guercino 追问与 Mola 借书咨询显示多向协商。
+  sentence_summary: 委托人题材指示、Guercino 追问与 Mola 请求借阅并据书择题显示多向协商。
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/01_CHP-1.md
@@ -112,7 +112,7 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 
 ### 具体实例
 
-- Guercino追问细节、Mola借书求助，说明画家不是仅被动接受指令。[S1]
+- Guercino追问细节、Mola请求借阅并据书择题，说明画家不是仅被动接受指令。[S1]
 - Cortona、Rosa的偏好与Valentin收到的具体指示不同；不能概括成统一“完全自由”或“完全服从”。[S2]
 - [阿尔曼尼致Camillo Pamfili信](../archives/armanni-pamfili-letter-undated.md)，刊本I，pp.215–216，报告送去十一项Historie；首项是族谱树，另外十项未逐名列出。[S3]
 - 该信允许未具名画家另作更巧妙的表现，同时保留核心；本信不证明整套方案已实施，也不具名莫拉。[S3]
@@ -122,5 +122,5 @@ process_ref: 03-processing/patrons-and-painters-chp-1/process/knowledge.md#rev-0
 ### 关系记录
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← 程序使用者（`procedure_used_by`，反向投影） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | 借神谱、注释本 Virgil 并请教学者，选择四元素图像内容；原断言与证据见发出端卡片“皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 308–319; print pp. 9 |
+| ← 程序使用者（`procedure_used_by`，反向投影） | [皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）](../persons/pier-francesco-mola.md) | Mola先请求当地律师借给他神谱和带注释的Virgil文本；随后据“这些书”及友人交谈选择图像内容。原文未说明借阅请求如何履行；本边只记录题材与图像志协商；原断言与证据见发出端卡片“皮耶尔·弗朗切斯科·莫拉（Pier Francesco Mola）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 308–319; print pp. 9 |
 | ← 程序使用者（`procedure_used_by`，反向投影） | [圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）](../events/guercino-iconography-query-1665.md) | 询问衣色、会规载体、人物方位和照明是具体协商行为；原断言与证据见发出端卡片“圭尔奇诺西西里祭坛画图像询问（1665）（Guercino's Questions about a Sicilian Altarpiece (1665)）”：[来源](../../../02-sources/02-Markdown/01_CHP-1.md)；haskell-1980-rev-ed；lines 295–307; print pp. 9 |
