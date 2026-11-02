@@ -18517,3 +18517,14 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **书目内容与来源边界。** 仅记录Haskell列出的出版物、作者形式和书目导航，不声称已查阅被引作品。p.416的Bracciano交叉索引不合并两个候选，也不产生人物关系；Boschini书目作者归属保持来源限定。p.417将Brugnoli一条所列两篇文章分开，保留集合级/卷级对象差异及Bricarelli排版次序校读。p.418按页图分开S0中粘连的Canova/Cantalamessa条目，作者`See`指向只表示本地书目导航。
 
 **关系裁决影响。** 本批直接命中的四条既有formal作者边均维持原裁决：`rel-2240` Anthony Blunt、`rel-2243` Angelo Borzelli、`rel-1588` Marco Boschini、`rel-2383` Giuseppe Ceci；四条都只记录Haskell书目所载责任者归属。上一批已核的`rel-1477` Elena Bassi也保持formal，但不计入本批。本批不改S3身份、statement、mention或`relations.csv`。全批100条当前PASS；全库PASS 5,778、已审待证699、历史映射开放8,323、待回映/当前复核705；连续顺序剩余705条，从14801开始。9,622历史事件台账不变，S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b261-order-14801-14900"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B261：第21章书目 L295–496，顺序14801–14900
+
+**逐ID结论与证据复用。** 100条均无9,622历史事件、当前statement hash与roster快照100/100一致。复用既有逐页S2过程：印刷p.418–422（PDF物理页8–12）、规范源L295–496；来源PDF SHA-256 `1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`及Markdown SHA-256 `f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3`未变。100/100引句定位当前S0；5个segment共154条mention span逐切片，偏移错误0。L295–334的33条span已在B260核对并复用，新增四段121条span。
+
+**语义边界。** 条目均只表述Haskell的书目记录，不推称被引文献已读。沿用原页既有校读：p.419将Constable两项分开；p.420保持出版物题名与作者责任者的边界；p.421区分De Dominici全集与具体卷引文；p.422的出版物与作者`See`指引不升格为人物身份关系。候选及出版物版本边界不因当前版回映而改变。
+
+**关系与下游影响。** 本批100条均无`relation_candidate=true`，未命中待同步的直接正式关系statement；`relations.csv`、S3/S6裁决和候选均未改。全批100条当前PASS；全库PASS 5,878、已审待证699、历史映射开放8,323、待回映/当前复核605；连续顺序剩余605条，从14901开始。局部PASS不构成全书S2独立语义接收。
