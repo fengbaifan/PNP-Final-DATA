@@ -17355,3 +17355,16 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **现有审读覆盖核对。** B001独立复核范围为S0 L118–145的100条statement；此批重叠的21条已由B001修订后100/100独立PASS覆盖，181条mention跨度及端点修订均在过程记录中核对。B002覆盖S0 L147–193的85条statement；此批79条均有B002 current PASS记录。共享mention m-chp2-secii-l147-193-0057的历史差异就是Incisa引文备注更新：标题由Haskell书目p.426识别，原文章未独立查阅；变更已在B002记录中复核。当前statement哈希与roster快照一致，S3/S4映射和rel-2151 cites均未变。
 
 **批后状态。** 本批只核平并复用已有当前版结果；不改statement、mention、候选、对齐、KU、relations.csv或历史9,622事件。全库roster状态保持：当前PASS 5,133、已审待证700、历史映射开放8,323、版本差异待核73、待回映／当前复核1,276；未获当前PASS 10,372，当前路由未结1,349（含版本差异73）。下一批从1901开始；S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b132-ch2-sec-iv-1901-2000"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B132：第二章第二节尾部及第四节，顺序1901–2000
+
+**当前ID/版本核平。** 本批100条全部已有current PASS，并逐行回映至原复核证据，不覆盖已有review_batch_id：6条沿用B002 current PASS，53条沿用B003独立当前版PASS，41条沿用B004原文主审PASS。96条有历史事件、4条无历史事件；历史statement版本中25条与当前相同、71条不同。历史source均匹配。roster当前statement hash与建表快照相同的仅25条；其余75条对应B003/B004明确记录的当前claim/mention修订及其后回核，本批不把旧快照差异误作“未审”，也不再重复阅读原页。
+
+**分组证据及关系影响。**
+- B002的6条来自L147–193段。段级mention m-chp2-secii-l147-193-0057在历史对照中有变化；B002已将其备注限定为从Haskell书目p.426识别题名，并明确未查阅被引文章。B002对应S3/S4映射及rel-2151 cites未变。
+- B003的53条包含14条原对象复核和39条修订后独立回核；过程记录确认当前statement全部通过、107条mention跨度复核通过，relations.csv未改，未决身份/端点保持待证。
+- B004的41条属于更大的75条第2章L19–43及注释主审范围，状态是primary current source review pass，不能写作独立PASS。当前窗口中4条无历史事件为Valentin restraint comparison、found break harder、history-painting demand、influenced by Caravaggio；均有B004逐行回链。rel-2491/rel-2492保持p.46 L34所支持的既有formal范围。B004另外记载旧S6复合statement的pending决定不能自动套到拆分后的当前footnote statements；其逐条S6重审仍按原交接推进，本批未新增关系边。
+
+**批后状态。** 本批不新增PASS或改写roster证据字段；S3身份、KU、relations.csv及历史9,622事件不变。全库roster状态保持：当前PASS 5,133、已审待证700、历史映射开放8,323、版本差异待核73、待回映／当前复核1,276；未获当前PASS 10,372，当前路由未结1,349（含版本差异73）。下一批从2001开始；S2仍未全书独立语义接收。
