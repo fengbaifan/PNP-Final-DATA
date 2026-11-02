@@ -16484,3 +16484,15 @@ p.240的指示词“this”仍不识别具体作品，Mehus之子未具名；引
 **判断与下游影响。** 本批100条均完成路由：5条当前版PASS，95条精确历史复用并保留开放发现；未新增pending。`cand-8163`（Antonio Barbaro四兄弟组）仍S3 `undecided`，不因S2原句通过而确定成员或身份；对应待证关系不建立formal边。既有`rel-1423`–`rel-1427`五条formal关系端点和证据未改，`relations.csv`、alignment、KU、S5字段及9,622事件账本均不改写。两条历史内容变更记录继续保留`changed`状态。
 
 **批后状态与核验。** 当前statement/mention总数15,505/27,285。roster互斥状态：当前PASS 2,841；已审待证696；历史映射但保留开放发现8,323；当前版本差异待核99；待历史/既有审读回映或当前复核3,546；未获当前PASS 12,664。B081完成顺序9626–9725；下一批从9726开始。9,622历史事件分母不变，S2仍未独立语义接收。写后执行严格表审计、关系一致性审计、roster批次断言和`git diff --check`。
+
+
+<a id="2026-11-02-s2-current-review-b082-ch9-p251-p255"></a>
+### 2026-11-02 S2当前版本逐ID复核 B082：第9章引言p.251–255，顺序9726–9825
+
+**历史版本核平。** 连续顺序9726–9825共100条，ID唯一、无缺号，100条均有唯一9,622历史事件且来源版本匹配。97条的当前statement SHA、来源segment及mention集合均与最新历史事件完全一致，复用既有直接阅读并保留开放发现。另2条（9823–9824）当前statement及来源也与历史事件完全一致；其segment哈希记录有同一新增mention差异，但该mention定位在L153、属于`st-chp9-p255-tiepolo-contarini-henri-welcome`，不进入这两条L149 statement的候选集合或断言范围；逐项核对后仍复用旧阅读并保留开放发现。
+
+**改版statement当前复核。** 9825 `st-chp9-p255-theological-virtues-around-virgin`的历史对象含Faith、Hope、Charity与Wisdom合述；当前statement已改为只记录前三项，旧event `H9622-05180`、旧版hash与历史结论均保留。对照当前S0 L149和`CHP-9.pdf`物理第17页（印本p.255），现引“theological virtues, Faith, Hope and Charity”及claim准确，Wisdom在同句另列并由独立当前statement记录。`cand-8336`指三项美德集合，cand-8337–cand-8339为各项独立候选，未混成一个端点。当前行PASS；历史statement变化不被抹除。
+
+**mention差异及关系影响。** 历史segment mention哈希`644b9956513d1308253a1dddf64cb5716e1bf5283d589ff69b74133cb921d592`到当前`edc8876ee4c1e0c3a8c7d1d04510bcbeaba203af7d4b5732db3e0270255f7ac5`仅新增`m-chp9-p255-contarini-reception-fresco`；其跨度在S0 L153逐字匹配，不属L149美德statement。该candidate `cand-8367`已按跨章S3决定映射同一壁画KU；`rel-2041 created_by`继续formal，脚注定位`rel-2044 located_at`继续pending。美德边`rel-1455`仍只限Faith/Hope/Charity，Wisdom的独立边`rel-1457`保持不变。未改候选、对齐、KU或relations.csv。
+
+**批后状态与检查。** 本批100条全部完成路由：1条当前版本PASS、97条精确复用开放发现、2条精确statement/source复用且完成新增mention无关性核对；无新增pending。原书PDF SHA-256=`8d0adc954f824fa5c6f202571e03a6eb8475dd4125c91c41f79204a445b961ec`；当前S0 segment `l148-155`的63条mention span逐条切片核对，错误0。当前statement/mention总数15,505/27,285。roster互斥状态：当前PASS 2,842；已审待证696；历史映射但保留开放发现8,323；当前版本差异待核98；待历史/既有审读回映或当前复核3,546；未获当前PASS 12,663。下一批从顺序9826开始。9,622历史事件账本不增删改写；S2仍未独立语义接收。
