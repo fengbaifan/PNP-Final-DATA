@@ -18973,3 +18973,43 @@ pending逐ID理由已写入[s2-current-review-roster.csv](s2-current-review-rost
 **关系与历史裁决影响。** `rel-1772`–`rel-1776`、`rel-1992`–`rel-1995`保持现有formal范围；`rel-1773 has_subject`的来源题名直接可追，但S2顺序4695因Origin of Coral缺本地mention仍pending，关系裁决不改，待mention锚修复时复查证据联结。`rel-1996 acquired_by`继续pending，不把“may well”升级为已证取得；`rel-2645 friend_of`保持一条formal边并链接两项已PASS的S2证据；`rel-2646 trained_by`继续pending，保留“probably”。本批没有新增或撤销formal边，`relations.csv`及S6历史台账未改。
 
 **批次结算。** B289新PASS 43、pending 32、承接当前PASS 25。全库当前PASS 7,864、reviewed pending 1,229、历史映射开放6,412、版本差异待核0、待回映/当前复核0；共15,505条，7,641条尚未PASS。下一历史开放顺序4726。S2仍未全书独立语义接收。
+
+### 2026-11-02 S2当前版逐ID复核阶段：B290–B292（顺序4726–5025）
+
+本阶段按连续原文顺序完成300个位置；294条历史开放项均与当前statement/source版本精确匹配，另6条已有当前PASS沿用各自的当前版证据，其中含statement改版或历史快照后新增项。逐批复用可核平的历史阅读，保留有原文依据的pending。未改写 `book-statements.jsonl`、`mentions.csv`、`relations.csv` 或9,622条历史复核事件。具体mention差异逐段核对，不将segment hash变化误作本批每条statement均有缺口。
+
+<a id="2026-11-02-s2-current-review-b290-order-4726-4825"></a>
+#### B290（第4章，顺序4726–4825）
+
+100项中98条历史开放记录的H9622事件、statement及来源映射98/98精确；另2条已有当前PASS原样承接。所在登记段的mention集合新增Phocion题名mention `m-chp4-sec-ii-notes-p114-0056-phocion-title`（cand-10556）；逐项核对98条开放statement的`mentioned_candidate_ids`，无一使用该候选，因此该差异不构成这些statement的当前缺口。
+
+复用2026-10-20第4章p.99–118脚注/正文独立原文与印刷页复核记录，按逐ID findings裁决：新PASS 72、pending 26、承接PASS 2。pending顺序：4727、4730、4732、4734、4737、4742、4745、4749、4754–4755、4757–4759、4761–4762、4765、4769–4770、4787–4788、4793、4796–4797、4805、4811、4814。问题包括原文限定及复合断言、引文OCR/脚注号、引用页码与书目锚、匿名信件作者、未识别作品组及局部mention缺口；具体对象和修复去向记在逐ID清单。顺序4785–4786已复核PASS，不重复计为新PASS。
+
+关系核对命中22条S6记录。待证statement关联的`rel-1435 disputed_with`仍只表达原文明确的Lincei—Church冲突子句，不把复合statement中的教士赞助扩入边；`rel-2438 has_subject`及`rel-2440`、`rel-2441`等citation边的待修处属于statement引文锚/转录，印刷来源仍支持当前受限边。关系端点、方向和范围未见需变更证据；没有新增或撤销正式边，历史裁决不变。
+
+<a id="2026-11-02-s2-current-review-b291-order-4826-4925"></a>
+#### B291（第4章至第5章p.120脚注，顺序4826–4925）
+
+100项中96条历史开放记录的H9622事件、statement及来源映射96/96精确；另4条当前PASS原样承接。第4章长登记段新增Phocion mention形成的segment级差异，经96条开放statement候选映射核对均不相关。复用第4章p.107–118独立页审读；另复用第5章p.120注1当前ID复核。
+
+新PASS 85、pending 11、承接PASS 4。pending顺序：4829、4853–4854、4886、4893、4916、4918、4921、4923–4925。第4章问题为遗嘱引文漏译、Passeri页码错误、OCR未结构化校正及Claude/科尔托纳/巴托利作品与地点mention映射；第5章4923–4925所共用的注1引文仍有`anltalianchurch` OCR错误，其中4925另有谓词目标作品cand-2015与object模型cand-6013不一致。原S0 OCR不改，组身份和作品映射不强行补齐。
+
+20条相关S6记录核对后未发现需改变的端点、方向或历史裁决。`rel-2647 cites`仍保持pending，因标题与定位尚未核平；本批已PASS的statement不自动接收该S6边。其余现有边范围不变，无新增/撤销正式边。
+
+<a id="2026-11-02-s2-current-review-b292-order-4926-5025"></a>
+#### B292（第5章，顺序4926–5025）
+
+100条历史开放记录的H9622事件、statement、来源及mention版本100/100精确。复用第5章p.120–123的当前ID逐条复核：4929–5018共90条已逐条直接审读；4926–4928三条脚注沿用当前版注释复核；另将5019–5025七条超出原90条范围的statement逐条对照当前来源段和印刷p.123（PDF物理页4）。
+
+新PASS 90、pending 10、承接PASS 0。pending顺序：4926、4957、4963、4972、4986–4987、4995–4996、5002、5004。问题分别是p.120注1 OCR引文、p.121复合画商论断、p.122未名同乡artist/client群与mention/引语speaker、p.123 `T/I agreed`转录差异及Bolognese artists群组端点类型。未名群组保持待证；不虚构作品或成员。末7条中Carlo contemporaries对“understanding”的评价、Bernini转述、Lanfranco地域表述、Valguarnera来访/谈话/购画询问及Haskell的议价推断均与原文和限定相符；议价仍为作者推断。
+
+本批唯一匹配的S6关系`rel-2231 cites`仍有印刷p.120脚注作依据，范围只限Haskell所列Blunt文章；不因所引文章内容未独立阅读而扩展。关系状态与历史裁决未改。
+
+| 批次 | 连续顺序 | 新PASS | pending | 承接当前PASS | 批后全库PASS / pending / 历史开放 | 尚未PASS |
+|---|---:|---:|---:|---:|---:|---:|
+| B290 | 4726–4825 | 72 | 26 | 2 | 7,936 / 1,255 / 6,314 | 7,569 |
+| B291 | 4826–4925 | 85 | 11 | 4 | 8,021 / 1,266 / 6,218 | 7,484 |
+| B292 | 4926–5025 | 90 | 10 | 0 | 8,111 / 1,276 / 6,118 | 7,394 |
+| **阶段合计** | **4726–5025** | **247** | **47** | **6** | **8,111 / 1,276 / 6,118** | **7,394** |
+
+本阶段300个位置全部结算，294条历史开放记录全部完成当前版回映和裁决；历史开放数减少294，当前PASS净增247，pending净增47。没有statement、mention、关系表或H9622历史事件改写。严格表审计与针对性批次断言通过后，S2仍未全书独立语义接收；下一连续顺序5026。
