@@ -18539,3 +18539,12 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **书目范围。** p.423为S0错位录入的Noemi Gabrieli条目保留既有独立页图addendum锚点，不伪造该页不存在的mention；Ghelli只记书目列名`M. E. Ghelli`。p.424保留Gualdo 1664与出版地/年1818的原书目格式，不解释日期含义。p.425三条Haskell作者归属只记录本书书目形式，不把文章内容当作已读证据。其他校读及书目候选边界沿用既有p.422–425逐页记录。
 
 **关系裁决影响。** 五条既有formal书目作者边维持来源限定：`rel-1478` Fogolari、`rel-1589` Gualdo Priorato、`rel-1636`与`rel-2242` Haskell 1960出版物、`rel-2391` Haskell 1959文章。本批唯一pending作者项为Ghelli（`cand-7121`仅为缩写`M. E. Ghelli`，`bl-0023`身份未决），不新增formal边。无statement、mention、候选、`relations.csv`或S3决定写回。全批100条当前PASS；全库PASS 5,978、已审待证699、历史映射开放8,323、待回映/当前复核505；连续顺序剩余505条，从15001开始。S2仍未全书独立语义接收。
+<a id="2026-11-02-s2-current-review-b263-order-15001-15100"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B263：第21章书目 p.425–428，顺序15001–15100
+
+**逐ID结论与证据复用。** 本批100条均无9,622历史审读事件，当前statement规范哈希与清单快照100/100一致。复用既有逐页语义审读：L577–614（印刷p.425/PDF物理页15）、L616–656（p.426/页16）、L658–699（p.427/页17）及L701–754（p.428/页18）。当前PDF SHA-256 `1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`，Markdown源SHA-256 `f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3`，与既有逐页记录一致；100/100原引句可定位当前S0。四个segment共133条mention span，其中L577–614的31条已由B262核验并复用；新增102条逐条切片核验，偏移错误0。
+
+**书目语义与关系影响。** 四页只支持Haskell列出的书目责任者和出版信息，不表示本轮查阅被引作品。直接关系候选`st-chp21-bib-l701-754-entry-03`的`rel-2508 authored_by`保持formal，来源限定为p.428书目中的`Longhi, R.`；其S3映射仍为Roberto Longhi。`st-chp21-bib-l701-754-maclaren-authored-by`的作品端点已登记，人物候选`cand-7123`仍为undecided（仅“N. Maclaren”），依既有S6过程保留pending，不建formal边。本批其余98条无直接关系候选；未改statement、mention、候选、S3或`relations.csv`。
+
+本批100/100当前PASS。全库当前版PASS 6,078、已审待证699、历史映射开放8,323、版本差异待核0、待回映/当前复核405；连续顺序剩余405条，从15001–15100推进至15101开始。9,622历史事件台账不变；局部PASS不构成全书S2独立语义接收。
