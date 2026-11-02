@@ -2874,3 +2874,6 @@ p.213 `has_subject` 当前端点方向已修正为文章subject、未识别作�
 ### 2026-11-03 S2当前版本逐ID复核阶段B469–B471（5259–5558）
 
 核平300条：177条既有current PASS复用、123条pending原finding保留；H9622事件300条且来源300/300匹配，statement hash 298 exact/2 changed，无历史事件项。全库15,512条statement、27,339条mention、PASS 8,709、pending 6,803不变；下一顺序5559，之后9,954个顺序位置待核平。S2仍未独立语义接收。详见[阶段B469–B471记录](../process/stages.md#2026-11-03-s2-current-review-stage-b469-b471-order-5259-5558)。
+### 2026-11-03 S2当前版本逐ID复核阶段B472–B474（5559–5858）
+
+核平300条：189条既有current PASS复用、111条pending原finding保留；H9622事件334条且来源334/334匹配，statement hash 294 exact/4 changed，另2条无H9622事件。全库15,512条statement、27,339条mention、PASS 8,709、pending 6,803不变；下一顺序5859，之后9,654个顺序位置待核平。S2仍未独立语义接收。详见[阶段B472–B474记录](../process/stages.md#2026-11-03-s2-current-review-stage-b472-b474-order-5559-5858)。
