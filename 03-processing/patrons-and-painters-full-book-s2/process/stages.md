@@ -16658,3 +16658,17 @@ p.283 L151–165保留Johann Wilhelm对荷兰艺术的收藏、Van Dyck/Rubens�
 **校读、关系与下游。** PDF物理p.28页图读作`Chapter II`（第11章），首行大写drop cap `T`与`HE`连读为`THE`，下行应为`was an Englishman`；S0分别保留OCR `Chapter n`、`HE`与`Twas`，本次只记录S2校读，不改来源或`original_quote`。既有正式边`rel-1312`（Smith与Salumieri争议）、`rel-1369`（《Four Continents》题材）及`rel-1370`（ancien régime阐释）回查后端点、方向、范围和S2证据均不变；未改`relations.csv`或S6历史裁决。新增嵌套mention未改变四项相关S3决定；关系一致性阻断0。
 
 **批后数量与剩余量。** B094完成100/100条当前ID/版本复核并路由PASS。全库15,505条statement、27,302条mention、12,448个candidate。roster互斥状态：PASS 3,394、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核3,006；未获当前PASS 12,111，尚待当前路由3,092条；另有9,019条已审待证或承接历史开放发现。历史9,622事件账本不变，S2尚未独立语义接收。下一批从11026开始。
+
+<a id="2026-11-02-s2-current-review-b095-ch10-p299-p306"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B095：第10章印刷页299注4续文及300–306，顺序11026–11125
+
+**历史映射、快照与可复用审读。** 本批100条连续当前statement的`history_9622_event_count`均为0；旧映射97条为`current_object_differs`、3条为`no_exact_review_mapping`，不新增或重复计入9,622条事件。100条当前statement哈希与roster快照相同；8个规范S0段、来源Markdown资产及各段mention计数/指纹均与启动快照一致。原始PDF `CHP-10.pdf` SHA-256=`c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`，规范OCR `10_CHP-10_intro.md` SHA-256=`f912dba9e5c8460538222c57d32c3734d0c23c72cb32a0871b50b6901ce9e27f`。复用2026-10-02 p.299正文/注1–4与p.300–306正文及相应注文的逐页语义处理和原页审读；页图所据PDF及OCR版本均未变，不重复重读。该复用落实为本批当前ID的逐条复核，不宣称9,622事件级历史复核或全书独立语义接收。
+
+本批按原文顺序覆盖：p.299注4续文1条；p.300 12条；p.301 13条；p.302 16条；p.303 18条；p.304 19条；p.305 16条；p.306 5条，共100/100。规范段及哈希：`l354–366` `052f44412749144ce984c01086091fe86db19f44be97dda9455894ac4620406b`；`l368–380` `a58eea87703095acaf4a07377eb5d7100bd76a790c0f082e230997e995d686a6`；`l382–389` `81d50c04e66752729a137c595c19a54e93fa8ac153a2b324f8e1ac515a108784`；`l391–400` `568d746907dc3255fd514cb8dc7a85111c7ec06aad071737c515acce7c0b71ce`；`l402–409` `495f93b64c40367385d1b1489962a7d4395395a56aca6187c5e132f664343488`；`l411–421` `b5de1a06fe3c99db95c9cc9769167c842113032386060f53857acd55ef64b7e5`；`l423–433` `80631bd09f439079d273b40a48c4078bad34ee98d2db2c0aaf80784fb5df92fb`；`l435–443` `bcb35c916a114107fcee2fc774eb7c946773e3202b6f2265207b1fd083471a8a`。
+
+**当前语义、OCR与限定。** p.299注4续文区分Gori通信日期范围与Guicciardini《Histories》于1738年出版两项陈述；两条statement共用同一原文引句但断言不同，本批没有另造重复对象或把本书转述说成独立查验。p.300–301保留Smith售藏、领事任职、社交往来及对政府关系的自述/转述层次；未具名交往对象、馆藏、书目及被引档案不据此补猜。p.302–303保留Haskell关于Ricci作品、Turin系列、工作室购入及Marco Ricci委托比例的概率和备选解释；Carriera/Winter两版的正文与未注明日期书信之间的时间/结果张力仍不消解，Dingley索画不作已完成作品。p.304分别保留Palazzo Balbi和Mogliano乡间宅邸、约1727年承租与1731年购置，Canaletto工作起始时间和委托控制程度仍按原文限定；集合`cand-9210`类型未定所致陈列关系继续pending，租赁事实因关系类型表缺少精确谓词继续pending。p.305保留Tessin所报四年独家委托与Canaletto当时似乎几乎停止为Smith工作的张力；“视觉目录/广告”继续作为Haskell假说。p.306的Ricci工作室取得与购入旧大师仍为Haskell推断；Breval小雕像身份不由本批提前确定。
+
+复核p.305页图既有S2校读：S0 `contemporary Use`、`slum Use`读作印本`life`；p.306 `charactèristic`读作`characteristic`。只保留于S2校读说明，未改S0或`original_quote`。本批100条statement的原文引句均在所属规范段内可定位；8段共342条当前mention逐条按当前S0切片复核，跨度错误0。按本批statement源行扫描当前候选规范名并与mention位置交叉核对，没有发现需补登记的精确名称提及；既有同名、类型和范围边界均沿用原裁决。未改statement、mention、candidate、alignment或9,622事件账本。
+
+**关系影响与批后状态。** 复核正式边`rel-1482`–`rel-1485`（Smith住所、Palazzo Balbi及Mogliano乡间宅邸），`rel-1565`–`rel-1566`（James Adam书信作者/收件人）与跨章佐证`rel-2052`（Sebastiano Ricci受都灵宫廷聘用）；端点、谓词、证据范围和历史裁决均不变。关系一致性审计阻断0。B095的100条均记为`reviewed_current_pass`。全库仍为15,505条statement、27,302条mention、12,448个candidate；roster互斥状态：当前PASS 3,494、已审待证696、历史映射但开放发现8,323、版本差异待核86、待历史/既有审读回映或当前复核2,906；未获当前PASS 12,011，尚待当前路由2,992；另有9,019条已审待证或承接历史开放发现。9,622历史事件总账不变，S2仍未独立语义接收。下一批从11126开始。
