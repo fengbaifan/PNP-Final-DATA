@@ -17162,3 +17162,19 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **关系与历史裁决影响。** 回查图版目录L104–130对应的53条既有关系记录，52条`formal`、1条`pending`，裁决均不变。`rel-1574 has_subject`仍只表达图版37c题名所指的Arlotto Mainardi，不推为模特／坐者；图版37b的`rel-0706 held_by`保持pending，因为目录中的局部图版不足以确定所据原画版本。跨章关于《La Burla》Pitti与Uffizi地点冲突的`rel-1577 located_at`也继续pending；本批不以题注校字关闭该冲突。`relations.csv`、S3 alignment、KU映射和9,622历史事件表未改。
 
 **批后状态与剩余量。** B116完成连续顺序301–400共100/100当前PASS；下一条为401。全库15,505条statement、27,302条mention、12,448个candidate；roster状态：当前PASS 4,884、已审待证697、历史映射且保留开放发现8,323、版本差异待核82、待回映／当前复核1,519。未获当前PASS 10,621；当前路由未结1,601（待回映／复核1,519＋版本差异82）。顺序401–12725尚有254条当前路由（245待回映、9版本差异）；12726–12825为99条历史开放及1条PASS；12826–15505尚余2,680条（1,333历史开放、1,274待回映、73版本差异）。历史9,622事件总数不变；当前批次S2复核不构成全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b117-front-matter-401-500"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B117：图版53a–68b，顺序401–500
+
+**历史核平与可复用阅读。** 本批按当前原文顺序401–500复核100条statement；9,622事件台账中本批事件数为0，原status均为`needs_crosswalk`。复用已完成的章前图版目录全文语义阅读和角色判断，定向核读印本物理页12–13（印刷页xv–xvi）。B116的当前顺序301–400在本次排序校正后保持原ID和状态不变。
+
+**当前原文、页图与提及。** 本批100/100条当前`original_quote`均位于各自声明的S0源行范围内；两段完整mention集合`front-matter:00_05_List_of_Plates:l123-138`（125条）及`l140-172`（99条）共224条span按字符切片核验，错误0。两段及S0资产SHA-256分别为：`l123-138` segment=`99895d582375332bdf53442ec47932b60c932b147270c1583d8c187ef9f3be0e`、mention-set=`6a542812f2cfee1a2be94346fbb1770280164ca539639ca6ccb2a35714c470c2`；`l140-172` segment=`16b5be546aa8ed1bb7a59a16db3c2a20ec327a95d95da393a83d55584734b3e6`、mention-set=`4646d3ef57ce6143d43e0072563ef2ef81b10e1826c91c4e2737467862db061b`；List of Plates Markdown资产=`96aa11521c311c17676147c3ec99fb47d7cf9042a13bc58768c3742553ac5f83`，印本`CHP-0Cover.pdf`=`502a6dcf66b5c01b09209ad92abbf6b1a172488de1058750ca9db9b906b2d266`。沿用已有逐对象OCR说明：印本Prà della Valle与S0 OCR的Prato分开保存；John Strange的大写和Private Collection括号差异已有逐条`ocr_note`。印刷页xv的312、344及页xvi的360、400属于`FOLLOWING PAGE`栏，不并入题名或作品日期。
+
+**当前statement判断变化和来源修复。** 本批范围内修订`st-fm-pl-p57a-archive`的claim：将“final illustration in Gerusalemme Liberata, published in 1745”收窄为“plate 57a is the final plate of illustrations to Gerusalemme Liberata”；1745仍由单独statement记录为出版年份。原引文、来源行和mention集合不变。
+
+另查明两条图像供应statement的原行号与引文不支持其claim：`st-fm-photo-h14-p34`、`st-fm-photo-h14-p52b`旧source span为L144–164，引文误取图版61b的National Gallery of Victoria收藏题注，未覆盖Photographic Sources列表。依据印本页xvi的该节标题／默认供片说明L161–163及L168精确条目`National Gallery: 34, 52b`，两条当前statement统一改为L168及该精确引文，并把限定改为本版的照片供应署名，不推为创作者、委托、产权或现藏。S0原文件和mention表未改，snapshot statement hashes及历史事件未改。依当前源行重排完整review roster；两条修正后的图像供应statement现在分别为顺序552、553，仍为`needs_crosswalk`，不计入本批100条PASS，留待其真实连续位置回核。这样B117的401–500批次仍严格对应100条连续原文。
+
+**S3与关系影响。** 本批100条有103个唯一端点候选：`same` 87、`undecided` 16；S3决定和KU映射不变。图版目录L131–160对应的47条既有S6边均为`formal`，逐一回链后状态无变化，`relations.csv`未改。National Gallery摄影来源候选`cand-4201`仍为`undecided`，没有可用KU端点或formal关系边；不强行合并National Gallery分支，也不补造formal关系，相关端点随顺序552–553待后续身份裁决。
+
+**批后状态与剩余量。** B117完成当前连续顺序401–500共100/100 PASS；下一条为501。全库15,505条statement、27,302条mention、12,448个candidate；roster状态：当前PASS 4,984、已审待证697、历史映射且保留开放发现8,323、版本差异待核82、待回映／当前复核1,419。未获当前PASS 10,521；当前路由未结1,501（待回映／复核1,419＋版本差异82）。9,622历史事件台账未改；本批修订不构成全书独立语义接收。
