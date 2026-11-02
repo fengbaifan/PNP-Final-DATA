@@ -17139,3 +17139,26 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **S3和关系影响。** 本批109个唯一statement端点候选的当前决定分布为`same` 92、`undecided` 15、`excluded` 1、`new` 1；本批不改S3决定或KU映射，身份、群体、爵号、标签及版本待定继续按原范围保留。核查图版清单L75–104已有49条关系行。发现`rel-0794 has_subject`此前把可能的自画像解释写成切尔阔齐本人入画的formal边；图版标题与创作者署名未明确识别被描绘者，而第5章p.136 L41只点名内里及其他友人。故将`rel-0794`由`formal`收窄为`pending / needs_evidence`，待直接人物识别依据；同一对象的`created_by`及Kunstsammlungen保管关系不受影响，Neri的`has_subject`关系继续由第5章原文单独支持。其余48条关系行状态不变；本批49行现为47 formal、2 pending，无新增或rejected边。既有formal裁决在前置过程和迁移期`frontmatter.relations`中保留作历史记录；当前权威`relations.csv`及作品卡关系展示已同步，不改迁移对照。全表现为2,649行（2,589 formal、57 pending、3 rejected）。
 
 **批后状态与剩余量。** B115完成100/100当前PASS。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态：当前PASS 4,784、已审待证697、历史映射开放8,323、版本差异待核82、待回映/当前复核1,619；未获当前PASS 10,721，当前路由未结1,701（1,619待回映/复核＋82版本差异）。连续顺序301–12725尚有354条当前路由（345待回映、9版本差异）；顺序12726–12825另有99条历史开放及1条当前PASS；顺序12826–15505尚余2,680条（1,333历史开放、1,274待回映、73版本差异）。9,622历史事件表不变；S2仍未完成全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b116-front-matter-301-400"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B116：图版37b–52b，顺序301–400
+
+**历史核平与可复用阅读。** 本批100条当前statement在9,622事件台账中的事件数均为0，原roster状态均为`needs_crosswalk`；不能把它们计入历史事件分母。复用章前图版目录已经完成的直接语义阅读与逐项角色判断，并定向目视核读印本物理页11–12（印刷页xiv–xv），不重读整份图版目录。前置依据见[章前处理过程](../../patrons-and-painters-front-matter/process/stages.md)、[逐段结果](../../patrons-and-painters-front-matter/results/stages.md)和[图版候选与角色](../../patrons-and-painters-front-matter/results/entity-candidates.md)。
+
+**逐ID、原文和提及核验。** 100/100条当前原文引文均可定位到声明的S0源段行号；`front-matter:00_05_List_of_Plates:l83-118`覆盖48条statement和134条mention，`l123-138`覆盖52条statement和125条mention。共259条当前mention跨度按字符切片核验，错误0。S0 Markdown资产SHA-256=`96aa11521c311c17676147c3ec99fb47d7cf9042a13bc58768c3742553ac5f83`；印本`CHP-0Cover.pdf` SHA-256=`502a6dcf66b5c01b09209ad92abbf6b1a172488de1058750ca9db9b906b2d266`。两段S0哈希与当前roster一致：`l83-118` segment=`debb1d2752997be33db63891b529b946f6b4ca38c50cd059c3df7a52c847873f`、mention-set=`8693adc481677dfbb7b6bc861b715f1da9ee0084b81b3efbff8d502fa8c7d490`；`l123-138` segment=`99895d582375332bdf53442ec47932b60c932b147270c1583d8c187ef9f3be0e`、mention-set=`6a542812f2cfee1a2be94346fbb1770280164ca539639ca6ccb2a35714c470c2`。
+
+**当前statement校正及判断变化。** 共修订9条当前statement的`claim`／`qualification`；9条`original_quote`、mention记录及S0 OCR原文件均未改。逐项如下：
+
+- 图版42b四条（`st-fm-pl-p42b-city`、`credit`、`site`、`venice_allegory`）：以印刷页xiv为据，将当前claim中的`Niccolo`校为`Niccolò`，新增说明S0 OCR漏重音符号；地点仍依原题注记为`Ca’ Pesaro`和Venice，拟人化Venice仍与城市地点分开。
+- 图版45（`st-fm-pl-p45-museum`）：claim由`North 264 Carolina Museum of Art`更正为`North Carolina Museum of Art`。印本页xv将264排在独立`FOLLOWING PAGE`栏，且印本为`of`、OCR作`os`；既有`ocr_note`保留。
+- 图版49a（`st-fm-pl-p49a-museum`）：claim的馆名由`Bayerischen Staatsgemaldesammlungen`校为印本的`Bayerischen Staatsgemäldesammlungen`；既有馆名和页码OCR说明保留。
+- 图版50（`st-fm-pl-p50-city`）：claim由`Wurzburg`校为印本的`Würzburg`；既有OCR说明保留。
+- 图版49a（`st-fm-pl-p49a-territory`）：撤回“题注识别画面中的人物为普法尔茨王储”的超出标题证据表述，改为只记录“Crown Prince of the Palatinate”是标题中的头衔，不据此识别画中人物或场景地点；印本只读图版题名，未将图像本身当作已审证据。
+- 图版37c（`st-fm-pl-p37c-figure`）：印本页xiv确认现存题名文字无须改写；将过时的“身份仍待全局对齐”限定更新为当前S3已将Piovano Arlotto映射至Arlotto Mainardi，但题名关系只表示图像志对象，不指认现实模特或坐者。
+
+全部100条当前claim完成语义回查并登记`reviewed_current_pass`。当前statement规范哈希已同步更新；快照哈希、source ID／version、历史事件裁决及mention集合均保留。当前alignment表中98个唯一端点候选的决定分布为`same` 84、`undecided` 13、`new` 1；`cand-4167`仍指向`units/persons/arlotto-mainardi`，其余决定和KU映射不变。
+
+**关系与历史裁决影响。** 回查图版目录L104–130对应的53条既有关系记录，52条`formal`、1条`pending`，裁决均不变。`rel-1574 has_subject`仍只表达图版37c题名所指的Arlotto Mainardi，不推为模特／坐者；图版37b的`rel-0706 held_by`保持pending，因为目录中的局部图版不足以确定所据原画版本。跨章关于《La Burla》Pitti与Uffizi地点冲突的`rel-1577 located_at`也继续pending；本批不以题注校字关闭该冲突。`relations.csv`、S3 alignment、KU映射和9,622历史事件表未改。
+
+**批后状态与剩余量。** B116完成连续顺序301–400共100/100当前PASS；下一条为401。全库15,505条statement、27,302条mention、12,448个candidate；roster状态：当前PASS 4,884、已审待证697、历史映射且保留开放发现8,323、版本差异待核82、待回映／当前复核1,519。未获当前PASS 10,621；当前路由未结1,601（待回映／复核1,519＋版本差异82）。顺序401–12725尚有254条当前路由（245待回映、9版本差异）；12726–12825为99条历史开放及1条PASS；12826–15505尚余2,680条（1,333历史开放、1,274待回映、73版本差异）。历史9,622事件总数不变；当前批次S2复核不构成全书独立语义接收。
