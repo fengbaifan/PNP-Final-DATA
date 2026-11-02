@@ -16544,3 +16544,15 @@ p.240的指示词“this”仍不识别具体作品，Mehus之子未具名；引
 **状态及下游影响。** 七条本次当前版均PASS：三条p.253拆分statement、一个对应历史statement的修订、两条p.256注释引文定位及一条p.264档案清单statement。p.264 statement的qualification另纠正了过时的“S3待审”表述：Zuane Udni仍按印本保留；该mention已有source-local S3组new-person:john-udney-d3b7a58444并映射units/persons/john-udney，未声称外部身份核验。p.253四条召回／目的关系的S6 pending原裁决不变，理由仍为无精确受控谓词；p.256被引演说未独立查阅，不新增正式边；p.264的rel-2198仍只formal记录档案位置，“Udni sought list”关系仍pending。未改S3、S4、S5、relations.csv或历史事件文件；本批只更新一条statement限定和逐ID复核清单。
 
 **批后状态与剩余量。** 100/100条已路由：7条当前PASS，93条精确历史复用且原开放发现保留。全书15,505条statement、27,285条mention；当前roster：PASS 2,857、已审待证696、历史映射但保留开放发现8,323、版本差异待核91、待历史／既有审读回映或当前复核3,538；未获当前PASS 12,648。下一批从10226开始。9,622历史事件仍已核平；S2仍未独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b087-ch9-notes-plates-sec-ii-p267-p270"></a>
+### 2026-11-02 S2当前版本逐ID复核 B087：第9章注释末段、图版转录及sec_ii p.267–270（S0文件序），顺序10226–10325
+
+**连续范围与历史复用。** 按当前S0源序，本批100条无缺号：10226–10242为合并注释段l323-445的L431–445；10243–10246为p.260视觉注释转录；10247–10259为图版目录转录；10260–10325为sec_ii源段，从p.267延至印刷p.270。96条有9,622历史事件，其中94条当前statement对象与来源版本精确匹配；2条statement版本不同但来源仍匹配，按现版重核。另4条无历史事件。注释段17条历史事件中的3个p.251新增mention沿用B085已完成的原页与跨度校验。历史事件文件与历史哈希不改。
+
+**当前版原页及跨度复核。** 对照CHP-9.pdf物理页35（印刷p.269）和物理页36（p.270）。p.269 L21–22确认受欢迎使Scalzi原教堂显得过小，Longhena与Sardi受雇建造一座新堂。10292现仅留容量叙述并为relation_candidate=false；原教堂cand-8686仍S3 undecided，不把它和新堂合并。10293/10294分别记录两位建造者，既有rel-1508/1509 formal保持原范围，不推断设计或竣工。p.270 L35确认Gesuati开始雇Massari建造Zattere新堂，且融资largely来自public support。S0原OCR形式Gcsuati保留；本次新增mention m-chp9-p270-gesuati-employment-clause，surface及span精确对应S0字符2298–2305，并用印刷扫描校读为Gesuati。当前mention数因此从27,285增至27,286；同段54个mention变为55个，历史回映差异标记为两条mention记录说明更新及此新增span。两条既有mention上的“S3待审”旧说明也改为当前已作出的source-local S3组和KU映射状态。
+
+**判断与下游核对。** 六条当前statement均PASS：两条历史statement版本变化（10292、10324）及四条无精确历史回映的拆分statement（10293、10294、10321、10322）。10321、10322引句扩至含OCR原形Gcsuati的精确上下文，新增印本校读字段并补cand-1150 mention候选；claim分别限定为Massari建造者角色与新堂公共资金。cand-0737保持source-local教堂组/KU，cand-1150保持source-local机构组/KU，不声称外部身份；cand-8686仍undecided。rel-1508、rel-1509、rel-1510、rel-1511继续formal，范围分别为Longhena建造、Sardi建造、Gesuati委托新堂及Massari建造；未添加设计、竣工或资金提供者边。10322仍relation_candidate=false，public support无可识别实体端点；另一个“强调公共支持”statement的既有rejected裁决不变。未改S3、S4、S5、relations.csv或历史事件账本。
+
+**批后状态与剩余量。** 100/100条已路由：6条当前PASS，94条精确历史复用并保留开放发现。全书15,505条statement、27,286条mention；当前roster：PASS 2,863、已审待证696、历史映射但保留开放发现8,323、版本差异待核89、待历史／既有审读回映或当前复核3,534；未获当前PASS 12,642。下一批从10326开始。9,622历史事件仍已核平；S2仍未独立语义接收。

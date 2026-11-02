@@ -19959,13 +19959,14 @@ m-chp9-p270-dominicans,chp-9:09_CHP-9_sec_ii:l27-36,cand-0941,the Dominicans,208
 m-chp9-p270-piazzetta-2,chp-9:09_CHP-9_sec_ii:l27-36,cand-1901,Piazzetta,2130,2139,Reuse p.270 artist candidate.
 m-chp9-p270-glory,chp-9:09_CHP-9_sec_ii:l27-36,cand-1912,The Glory of St Dominic,2167,2190,Named frescoes/work as indexed on p.270.
 m-chp9-p270-giovanni-paolo,chp-9:09_CHP-9_sec_ii:l27-36,cand-0733,SS. Giovanni e Paolo,2221,2241,Church that contains the chapel named as the work's setting.
+m-chp9-p270-gesuati-employment-clause,chp-9:09_CHP-9_sec_ii:l27-36,cand-1150,Gcsuati,2298,2305,S0 OCR form in the p.270 construction clause; the p.270 scan reads Gesuati. Current source-local institution group: sg3-institution-cand-1150.
 m-chp9-p270-massari,chp-9:09_CHP-9_sec_ii:l27-36,cand-1562,Giorgio Massari,2332,2347,Reuse the p.270 index candidate.
-m-chp9-p270-gesuati-church,chp-9:09_CHP-9_sec_ii:l27-36,cand-0737,a complete new church,2357,2378,Use the p.270–272 index seed for S. Maria del Rosario; identity alignment remains an S3 task.
+m-chp9-p270-gesuati-church,chp-9:09_CHP-9_sec_ii:l27-36,cand-0737,a complete new church,2357,2378,This occurrence is aligned to source-local S3 group sg3-place-cand-0737 and KU units/places/s-maria-del-rosario-venice-church; no external site identity is asserted.
 m-chp9-p270-zattere,chp-9:09_CHP-9_sec_ii:l27-36,cand-8707,the Zattere,2382,2393,Site of the new Gesuati church.
 m-chp9-p270-scalzi-analogy,chp-9:09_CHP-9_sec_ii:l27-36,cand-2389,the Scalzi,2458,2468,Order used as a comparison for public-funding advocacy.
 m-chp9-p270-visitor,chp-9:09_CHP-9_sec_ii:l27-36,cand-8708,one visitor,2505,2516,Unnamed witness taken around the church in 1742; the report continues on p.271.
 m-chp9-p270-gesuati-father,chp-9:09_CHP-9_sec_ii:l27-36,cand-1150,one of the Gesuati fathers,2536,2562,Unnamed guide belonging to the order.
-m-chp9-p270-gesuati,chp-9:09_CHP-9_sec_ii:l27-36,cand-1150,the Gesuati,2543,2554,Another branch of the Order; retain the source's designation pending identity review.
+m-chp9-p270-gesuati,chp-9:09_CHP-9_sec_ii:l27-36,cand-1150,the Gesuati,2543,2554,This occurrence is aligned to source-local S3 group sg3-institution-cand-1150 and KU units/institutions/gesuati-order-source-local; no external order identity is asserted.
 m-chp9-p270-new-church-interior,chp-9:09_CHP-9_sec_ii:l27-36,cand-0737,the new church,2624,2638,Same new church; the visitor's description continues at p.271.
 m-chp9-p270-n07-manuscript-continuation,chp-9:09_CHP-9_sec_ii:l27-36,cand-8778,"Cl. VII, 1620",2726,2739,Continuation of the Marciana manuscript locator split across the source lines.
 m-chp9-p270-n07-dominicans-continuation,chp-9:09_CHP-9_sec_ii:l27-36,cand-0941,Domenicani Osservanti,2753,2774,The Italian note continuation identifies the Dominican Observants.
