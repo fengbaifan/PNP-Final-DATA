@@ -20007,3 +20007,32 @@ roster内历史映射开放状态现为0，但6,910条statement仍是current pen
 | **阶段合计** | **14626–14925** | **300/300** | **300** | **300 / 300 / 300 / 300** | **289 / 11** | **8,595 / 6,910 / 0** | **6,910** |
 
 本阶段不重审已核读内容；只确认既有当前PASS仍绑定当前statement、来源和mention版本。状态映射开放继续为0；pending 6,910不变。下一连续顺序14926。
+
+<a id="2026-11-02-s2-current-review-stage-b392-b394-order-14926-15225"></a>
+### 2026-11-02 S2当前版本逐ID复核阶段：B392–B394（顺序14926–15225）
+
+本阶段连续300个位置均为既有current PASS，复用B262–B265的原页语义审读。当前statement canonical hash、来源segment hash、来源文件SHA-256、mention count/hash及审读引用锚点均300/300匹配；未重复阅读、未新增PASS或改动roster行。300条均不在重建的H9622事件计数范围；既有历史映射为281条`current_object_differs`、19条`no_exact_review_mapping`，沿用先前当前版PASS。
+
+<a id="2026-11-02-s2-current-review-b392-order-14926-15025"></a>
+#### B392（第21章书目，顺序14926–15025）
+
+100/300个位置核平：100条既有current PASS保留；当前statement/source/mention/evidence锚点均100/100匹配。既有历史映射94条current-object-differs、6条no-exact-review-mapping；原页审读来源为B262×75及B263×25。阶段累计100/300。
+
+<a id="2026-11-02-s2-current-review-b393-order-15026-15125"></a>
+#### B393（第21章书目，顺序15026–15125）
+
+200/300个位置核平：100条既有current PASS保留；当前statement/source/mention/evidence锚点均100/100匹配。既有历史映射96条current-object-differs、4条no-exact-review-mapping；原页审读来源为B263×75及B264×25。阶段累计200/300。
+
+<a id="2026-11-02-s2-current-review-b394-order-15126-15225"></a>
+#### B394（第21章书目，顺序15126–15225）
+
+300/300个位置核平：100条既有current PASS保留；当前statement/source/mention/evidence锚点均100/100匹配。既有历史映射91条current-object-differs、9条no-exact-review-mapping；原页审读来源为B264×75及B265×25。阶段累计300/300。
+
+| 批次 | 连续顺序 | 阶段累计 | 已有current PASS复用 | 当前statement/source/mention/evidence核对 | current-object-differs / no-exact-review-mapping | 批后全库PASS / pending / 历史映射开放 | 尚未PASS |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| B392 | 14926–15025 | 100/300 | 100 | 100 / 100 / 100 / 100 | 94 / 6 | 8,595 / 6,910 / 0 | 6,910 |
+| B393 | 15026–15125 | 200/300 | 100 | 100 / 100 / 100 / 100 | 96 / 4 | 8,595 / 6,910 / 0 | 6,910 |
+| B394 | 15126–15225 | 300/300 | 100 | 100 / 100 / 100 / 100 | 91 / 9 | 8,595 / 6,910 / 0 | 6,910 |
+| **阶段合计** | **14926–15225** | **300/300** | **300** | **300 / 300 / 300 / 300** | **281 / 19** | **8,595 / 6,910 / 0** | **6,910** |
+
+历史映射开放数保持0；6,910条current pending仍未获语义PASS。下一连续顺序15226；S2尚未全书语义接收。
