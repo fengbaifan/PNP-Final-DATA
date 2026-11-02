@@ -9823,7 +9823,7 @@ Manini 仅登记为原书所列的简略生涯记述来源，不补题名、日�
 | `cand-4761` | `sg3-event-cand-4761` | 02_CHP-2_sec_iv.md:OCR L132–133; print p. 55 | `units/events/jesuit-statutes-centenary-reception-gesu-1639` | `st-chp2-seciv-l127-137-antonio-1639-jesuit-centenary-reception` |
 | `cand-4822` | `sg3-event-cand-4822` | 02_CHP-2_sec_iv.md:OCR L186; print p. 58；02_CHP-2_sec_iv.md:OCR L245; print p. 58 | `units/events/inondazione-del-tevere-performance-carnival-1638` | `st-chp2-seciv-l181-188-inondazione-performed-carnival-1638`；`st-chp2-seciv-l190-245-later-bernini-account` |
 | `cand-4823` | `sg3-event-cand-4823` | 02_CHP-2_sec_iv.md:OCR L186; print p. 58 | `units/events/prior-year-flood-said-to-inspire-bernini-play` | `st-chp2-seciv-l181-188-play-inspired-by-prior-year-flood` |
-| `cand-4965` | `sg3-event-cand-4965` | 02_CHP-2_sec_viii.md:OCR L12; print p. 62；07_CHP-7_sec_i.md:source-file line 301; print p. 192；07_CHP-7_sec_iv.md:OCR L7–8; print p. 193 | `units/events/thirty-years-war` | `st-chp2-sec-viii-l9-14-war-end-and-france-change-papal-situation`；`st-chp7-p172-cont-i15`；`st-chp7-p193-war-vienna` |
+| `cand-4965` | `sg3-event-cand-4965` | 02_CHP-2_sec_viii.md:OCR L12; print p. 62；07_CHP-7_sec_i.md:source-file line 301; print p. 172；07_CHP-7_sec_iv.md:OCR L7–8; print p. 193 | `units/events/thirty-years-war` | `st-chp2-sec-viii-l9-14-war-end-and-france-change-papal-situation`；`st-chp7-p172-cont-i15`；`st-chp7-p193-war-vienna` |
 | `cand-11879` | `sg3-event-cand-11879` | 02_CHP-2_sec_ii.md:OCR L22–23; print p. 33 | `units/events/henri-iv-reconciliation-1593` | `st-chp2-sec-ii-l20-28-protestant-advance-and-events` |
 | `cand-12301` | `sg3-event-cand-12301` | 02_CHP-2_sec_iv.md:OCR L60; print p. 48 | `units/events/guido-bentivoglio-nunciature-missions-flanders-paris` | `st-chp2-seciv-l54-63-guido-missions-shape-taste-and-writings`；`st-chp2-seciv-l54-63-guido-missions-provided-writing-material` |
 
@@ -9833,7 +9833,7 @@ Manini 仅登记为原书所列的简略生涯记述来源，不补题名、日�
 - `cand-4642`保留塔代奥“牵涉”街头斗殴与凶杀及“within three years”的模糊起点，不推定其责任或受害者。
 - `cand-4698`、`cand-4700`登记为布拉乔利尼诗歌系列所提事件题材，不补入战事／皈依过程或独立事实；`cand-4823`保留“1638演出前一年洪水”的相对时间，不反推具体年份。
 - `cand-4761`按原书登记安东尼奥枢机组织的1639年Gesù百年纪念招待会及萨基临时装饰；`cand-4822`登记狂欢节演出，并保留多梅尼科后来的记述作为另一来源陈述。
-- `cand-4965`以第2、7章的同一战争指称为跨章身份组；statement ID `st-chp7-p172-cont-i15` 的后缀写作 p172，但其来源文件行301位于 `[Page 192]` 标记之后，本卡按来源页标引 p192，相关S2定位须在关系裁决前定点核对。
+- `cand-4965`以第2、7章的同一战争指称为跨章身份组。`st-chp7-p172-cont-i15`来源文件第301行与当前CHP-7.pdf物理页6印刷p.172逐字对应；此前按p.192定位的判断于2026-11-02依据原页校正。只修正出处定位，不改写跨章身份决定；本statement的S2关系候选仍未登记为formal边。
 - `cand-11879`保留哈斯克尔关于1593年和解及其历史作用的表述；`cand-12301`保留本蒂沃格里奥于1621年前在佛兰德与巴黎使节任职约十四年的来源限定，不拆造未经记载的逐项日期。
 
 14张卡均含双语描述、原书定位、句意摘要及原文摘录；本批新增14条manifest、accepted和alignment映射。共21条相关S2关系候选仍待S6逐项裁决；未新增enrichment字段、外部身份依据或formal关系。

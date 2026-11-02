@@ -19,15 +19,15 @@ sources:
     source_span: OCR L12; print p. 62
 - citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press,
     1980; this printing 2006)'
-  location: 第7章；印刷页192；源文件页标L301
+  location: 第7章；印刷页172；源文件页标L301
   sentence_summary: 哈斯克尔称蒙特雷为支持西班牙一方而从其辖区征集人力与资金。
   original_quotes:
-  - source_span: source-file line 301; print p. 192
+  - source_span: source-file line 301; print p. 172
     text: he had drained his provinces of men and money to help the Spanish cause during the Thirty Years War
   evidence_ref:
     doc_id: patrons-and-painters
     source_file: 02-sources/02-Markdown/07_CHP-7_sec_i.md
-    source_span: source-file line 301; print p. 192
+    source_span: source-file line 301; print p. 172
 - citation: 'Francis Haskell, *Patrons and Painters*, revised and enlarged ed. (New Haven and London: Yale University Press,
     1980; this printing 2006)'
   location: 第7章；印刷页193；OCR L7–8
@@ -43,7 +43,7 @@ sources:
     source_file: 02-sources/02-Markdown/07_CHP-7_sec_iv.md
     source_span: OCR L7–8; print p. 193
 created: '2026-10-19'
-updated: '2026-10-19'
+updated: '2026-11-02'
 process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.md#s4-event-direct-endpoints-chp2-20261019
 ---
 

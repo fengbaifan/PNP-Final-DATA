@@ -17823,3 +17823,61 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **逐ID回链。** 连续100条对应历史情况：92条statement精确、6条改版、2条无历史事件。98条历史事件均与当前来源版本匹配并有事件证据回链；statement改版的6条均已有当前版PASS证据。既有当前审读批次：B053, B054。提及核对：1个segment级共享差异组（改映1、删除0、新增1条mention），由34条历史事件行重复记录；按segment核平，不按事件行重复计数。
 
 **当前裁决与下游影响。** 8条当前PASS，92条保留历史开放审读；旧开放发现保持开放，不由版本核平自动通过。本批既有关系8条formal、0条pending、0条rejected，裁决不变；S3/S4决定不变。未改写statement、mention、candidate、alignment、KU、关系表或9,622事件台账。下一批从7001开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b183-order-7001-7100"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B183：连续原文顺序7001–7100
+
+**逐ID回链。** 100条中93条匹配9,622历史事件（89条statement精确、4条改版），另7条无历史事件；历史事件来源全部匹配。改版statement均已有当前版PASS证据。提及差异：1个segment级差异组（改映0、删除0、新增1），涉及30条重复事件行，按segment归并，不按statement行重复计数。
+
+**当前裁决及下游影响。** 11条沿用当前PASS，89条保留历史开放审读；不因核平改变裁决。既有关系9 formal、0 pending，裁决不变；S3/S4不变。未改写业务表或9,622事件台账。下一批从7101开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b184-order-7101-7200"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B184：连续原文顺序7101–7200
+
+**逐ID回链。** 100条中98条匹配9,622历史事件（96条statement精确、2条改版），另2条无历史事件；历史事件来源全部匹配。改版statement均已有当前版PASS证据。提及差异：1个segment级差异组（改映0、删除0、新增1），涉及5条重复事件行，按segment归并，不按statement行重复计数。
+
+**当前裁决及下游影响。** 4条沿用当前PASS，96条保留历史开放审读；不因核平改变裁决。既有关系3 formal、0 pending，裁决不变；S3/S4不变。未改写业务表或9,622事件台账。下一批从7201开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b185-order-7201-7300"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B185：连续原文顺序7201–7300
+
+**逐ID回链。** 100条中78条匹配9,622历史事件（63条statement精确、15条改版），另22条无历史事件；历史事件来源全部匹配。改版statement均已有当前版PASS证据。提及差异：1个segment级差异组（改映2、删除0、新增0），涉及30条重复事件行，按segment归并，不按statement行重复计数。
+
+**当前裁决及下游影响。** 37条沿用当前PASS，63条保留历史开放审读；不因核平改变裁决。既有关系9 formal、0 pending，裁决不变；S3/S4不变。未改写业务表或9,622事件台账。下一批从7301开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b186-order-7301-7400"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B186：连续原文顺序7301–7400
+
+**逐ID回链。** 100条中99条匹配9,622历史事件（95条statement精确、4条改版），另1条无历史事件；历史事件来源全部匹配。改版statement均已有当前版PASS证据。提及差异：mention集合无差异，按segment归并，不按statement行重复计数。
+
+**当前裁决及下游影响。** 5条沿用当前PASS，95条保留历史开放审读；不因核平改变裁决。既有关系17 formal、1 pending，裁决不变；rel-1860继续pending；S3/S4不变。未改写业务表或9,622事件台账。下一批从7401开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b187-order-7401-7500"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B187：连续原文顺序7401–7500
+
+**逐ID回链。** 100条中68条匹配9,622历史事件（54条statement精确、14条改版），另32条无历史事件；历史事件来源全部匹配。改版statement均已有当前版PASS证据。提及差异：1个segment级差异组（改映1、删除0、新增2），涉及34条重复事件行，按segment归并，不按statement行重复计数。
+
+**当前裁决及下游影响。** 46条沿用当前PASS，54条保留历史开放审读；不因核平改变裁决。既有关系11 formal、0 pending，裁决不变；S3/S4不变。未改写业务表或9,622事件台账。下一批从7501开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b188-ch7-p172-7504"></a>
+
+### 2026-11-02 S2当前版逐ID复核 B188：第七章印刷p.172顺序7501–7600
+
+**顺序7504直接复核及判断变化。** `st-chp7-p172-cont-i15`无9,622历史事件，原状态为`needs_crosswalk`。不按旧批次序号套用B060：B060提交时同一statement ID位于旧roster顺序7493，且仍标为`needs_crosswalk`。现直接核对当前ID与原页后改为`reviewed_current_pass`。权威`CHP-7.pdf` SHA-256=`eebc3db682bd604e3f346f9908aa73977595daf925ac79ab2b3a92e437410212`；物理页6印明印刷页172，并含原引文“he had drained his provinces of men and money to help the Spanish cause during the Thirty Years War”。S0分节SHA-256=`f4deca5516d930080d5913f94c2d47593e5674e5918a0e8a6188adc1180b4ae3`，当前segment SHA-256=`ad9ae34a8e0247ade77cf812cd0d5943582c3fd615590da5064cef79c38ae28b`；statement快照与当前SHA-256均为`798b0907d01dede94b8ad03d1aeb52c5ec32fac0f502ffd4176b445ed059cd30`。claim保持Haskell归因，不补出未命名省份、数额或军事行动。
+
+statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；原句中的“he had drained”→cand-1693、“the Spanish cause”→cand-6622、“Thirty Years War”→cand-4965三处mention span均精确切自当前segment，segment的214条mention总哈希及数量未变。cand-6622的S3身份仍为`undecided`，cand-1693与cand-4965既有`new`决定及KU映射均不变。statement仍保留`relation_candidate=true`；`relations.csv`没有以该statement为证据的正式边，本次不创建formal edge，不改变S6。
+
+**来源定位更正。** 原`knowledge.md`索引／语义说明及三十年战争卡曾把该证据误标印刷p.192；原页图与S0第301行均证实为印刷p.172／PDF物理页6。已更正当前索引、语义说明和卡片source span，并将判断变化留在本记录。此定位修正不改写statement、mention、candidate、alignment、KU、relations或9,622历史事件账本。
+
+**本批其余ID与关系。** 顺序7501–7600共100条：59条历史事件来源匹配（55条statement精确、4条改版且均已有当前PASS），另41条无历史事件；59条历史行重复表示同一segment新增11条mention，按共享segment一次核平。顺序7504复核后本批45条当前PASS、55条历史开放审读继续pending。40条既有formal关系保持原裁决，无S3/S4变更。下一批从7601开始；S2仍未全书独立语义接收。
