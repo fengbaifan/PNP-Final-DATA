@@ -17410,3 +17410,13 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **当前review状态与下游裁决。** 95条已有当前主审记录（19条PASS、76条pending），另5条维持`prior_review_mapped_open`；所有原状态和逐ID待办保留。通过statement ID反查12条既有S6关系：11条formal（`rel-1967`–`rel-1972`、`rel-1990`、`rel-2460`、`rel-2461`、`rel-2483`、`rel-2515`）及1条pending（`rel-2644`）。formal范围仍受原S6过程记录限制；`rel-2644`仍不主张当前馆藏。既有S3/S4身份决定与关系历史裁决不因历史回映改变；未新增或改写任何关系、statement、mention或候选。
 
 **批后状态。** B136完成100/100当前ID／版本和历史事件映射：89条历史事件已核平，5条精确旧审读保留开放状态，11条无历史事件沿用现有当前审读。新增PASS 0、pending转PASS 0。全库roster状态保持：当前PASS 5,133、已审待证700、历史映射开放8,323、版本差异待核73、待回映／当前复核1,276；未获当前PASS 10,372，当前路由未结1,349。下一批从2401开始；9,622历史事件数不变，S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b137-ch2-sec-iv-2401-2500"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B137：第二章第四节及第七节开篇，顺序2401–2500
+
+**历史ID／版本与mention核平。** 连续100条中93条有一条9,622历史事件且来源版本全部匹配：84条statement精确、9条改版；另7条无历史事件。共有90条历史行反映同一注释segment的一条mention改映及两条新增，另2条反映第七节segment的一条共享mention改映，1条mention集合无变化；按segment共同差异处理，不计成90次statement级修改。顺序2442的p.52注1覆盖修正已有独立roster记录与当前主审PASS，不重复处理。
+
+**独立当前证据回映。** 顺序2475 `st-chp2-seciv-l190-245-arcadian-shepherds-louvre-location`原为`needs_crosswalk`，现回映至2026-11-01独立当前版题名提及复核并记为`reviewed_current_pass`。逐字比较确认当前statement JSON行与复核提交`1c708bcb`相同；CHP-2.pdf哈希、S0 segment哈希及相关mention行均与复核记录一致。S2 claim只记Haskell所报的历史Louvre位置，既有formal `rel-1991 located_at`不表示现今馆藏。同一独立复核涉及的顺序2341与2474不随题名映射一并升级：2341仍待补该claim的诗作／作者提及映射，2474仍待拆分不同作品的日期断言。
+
+**S3/S6影响与批后状态。** statement ID反查5条既有formal边：`rel-1991`、`rel-2152`、`rel-2153`、`rel-2506`、`rel-2516`；关系范围与历史裁决不变，alignment与KU不变。本批100条当前状态为10条PASS、90条pending、0条待回链；新增PASS 1（顺序2475），pending转PASS 0。全库roster更新为当前PASS 5,134、已审待证700、历史映射开放8,323、版本差异待核73、待回映／当前复核1,275；未获当前PASS 10,371，当前路由未结1,348。下一批从2501开始；9,622历史事件台账不变，S2仍未全书独立语义接收。
