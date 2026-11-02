@@ -20036,3 +20036,32 @@ roster内历史映射开放状态现为0，但6,910条statement仍是current pen
 | **阶段合计** | **14926–15225** | **300/300** | **300** | **300 / 300 / 300 / 300** | **281 / 19** | **8,595 / 6,910 / 0** | **6,910** |
 
 历史映射开放数保持0；6,910条current pending仍未获语义PASS。下一连续顺序15226；S2尚未全书语义接收。
+
+<a id="2026-11-02-s2-current-review-stage-b395-b397-order-15226-15505"></a>
+### 2026-11-02 S2当前版本逐ID复核收尾阶段：B395–B397（顺序15226–15505）
+
+本阶段覆盖逐ID清单末尾连续280个位置，均为既有current PASS，复用B265–B268的原页语义审读。statement canonical hash、来源segment hash、来源文件SHA-256、mention count/hash及审读引用锚点均280/280匹配；未重复阅读、未新增PASS或改动roster行。280条均不在重建的H9622事件计数范围；既有历史映射为268条`current_object_differs`、12条`no_exact_review_mapping`，沿用原当前版PASS。
+
+<a id="2026-11-02-s2-current-review-b395-order-15226-15325"></a>
+#### B395（第21章书目，顺序15226–15325）
+
+100/280个位置核平：100条既有current PASS保留；当前statement/source/mention/evidence锚点均100/100匹配。既有历史映射98条current-object-differs、2条no-exact-review-mapping；原页审读来源为B265×75及B266×25。阶段累计100/280。
+
+<a id="2026-11-02-s2-current-review-b396-order-15326-15425"></a>
+#### B396（第21章书目，顺序15326–15425）
+
+200/280个位置核平：100条既有current PASS保留；当前statement/source/mention/evidence锚点均100/100匹配。既有历史映射91条current-object-differs、9条no-exact-review-mapping；原页审读来源为B266×75及B267×25。阶段累计200/280。
+
+<a id="2026-11-02-s2-current-review-b397-order-15426-15505"></a>
+#### B397（第21章书目注释与交叉索引，顺序15426–15505）
+
+280/280个位置核平：80条既有current PASS保留；当前statement/source/mention/evidence锚点均80/80匹配。既有历史映射79条current-object-differs、1条no-exact-review-mapping；原页审读来源为B267×75及B268×5。阶段累计280/280。
+
+| 批次 | 连续顺序 | 阶段累计 | 已有current PASS复用 | 当前statement/source/mention/evidence核对 | current-object-differs / no-exact-review-mapping | 批后全库PASS / pending / 历史映射开放 | 尚未PASS |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| B395 | 15226–15325 | 100/280 | 100 | 100 / 100 / 100 / 100 | 98 / 2 | 8,595 / 6,910 / 0 | 6,910 |
+| B396 | 15326–15425 | 200/280 | 100 | 100 / 100 / 100 / 100 | 91 / 9 | 8,595 / 6,910 / 0 | 6,910 |
+| B397 | 15426–15505 | 280/280 | 80 | 80 / 80 / 80 / 80 | 79 / 1 | 8,595 / 6,910 / 0 | 6,910 |
+| **阶段合计** | **15226–15505** | **280/280** | **280** | **280 / 280 / 280 / 280** | **268 / 12** | **8,595 / 6,910 / 0** | **6,910** |
+
+逐ID清单15,505个当前ID的历史映射核平已完成，`prior_review_mapped_open`为0；这只表示可追溯映射状态收口，不代表pending finding已解决。全库仍有6,910条current pending未获语义PASS，S2尚未全书独立语义接收。此后按原文从头推进未PASS连续区间；下一批从最早current pending位置开始。
