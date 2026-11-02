@@ -20065,3 +20065,23 @@ roster内历史映射开放状态现为0，但6,910条statement仍是current pen
 | **阶段合计** | **15226–15505** | **280/280** | **280** | **280 / 280 / 280 / 280** | **268 / 12** | **8,595 / 6,910 / 0** | **6,910** |
 
 逐ID清单15,505个当前ID的历史映射核平已完成，`prior_review_mapped_open`为0；这只表示可追溯映射状态收口，不代表pending finding已解决。全库仍有6,910条current pending未获语义PASS，S2尚未全书独立语义接收。此后按原文从头推进未PASS连续区间；下一批从最早current pending位置开始。
+
+<a id="2026-11-02-s2-current-review-stage-b398-b400-order-701-1000"></a>
+### 2026-11-02 S2当前版本逐ID复核阶段：B398–B400（顺序701–1000）
+
+本阶段连续300个位置完成核平。改动前逐项复核current statement、来源segment、Markdown资产、segment mention集合和原审读锚点，300/300匹配；其中280条已有current PASS复用，20条current pending逐项回到原文及注释核读。20条各有1条H9622事件，来源版本20/20匹配，历史statement版本19 exact、1 changed（743）；本阶段不改9,622事件ledger。原文核读后14条改为当前PASS，6条保留pending。新增7条精确mention，更新9条statement内容/端点/脚注锚点，并将5个受影响segment的当前mention指纹及112条历史事件行的mention差异按各事件的review snapshot重算；本批H9622当前statement比较为289 exact、11 changed。
+
+当前依据为权威原书02-sources/01-book/CHP-1.pdf（SHA-256 0b9a3ca88e6f09209bd20185948e18a68f527d0628e893940a7e3f07f6d22c86）和当前节录02-sources/02-Markdown/01_CHP-1_sec_ii.md（SHA-256 1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268）。各项原pending及其变化记录如下：743的“no certain examples”由p.12正文与注1限定后通过；771区分Arragona、未名Duke及未名ducal chancellor，保留“建议不证明付款发生”；825、827、829分别纠正Paul V、Gregory XV、Urban VIII与Accademia的主体/对象方向；831将Barberini的保护角色对象改为Accademia，Urban VIII保留为任命语境；846补录gilders为主体、Accademia为对象的S2 relation candidate，保留“seem”及1645边界，不产生S6 formal边；868明确这是Haskell对Queen Christina故事可信程度的限定；893补录bentveughels的准确群体定义；915补录“his sister”但不推断婚姻；948恢复Rosa“set out to try”的限定；961补录“a would-be patron”并由注释指向Don Antonio Ruffo；965将footnote_segment及footnote_refs从正文段纠正到实际注释段，正文页语境和关联statement不变；993按p.8注1通过source-level statement，grantor和居所仍未名。
+
+六条保留pending：724仍将Pamfili委托、Mola借书请求与Air图像学合并，待拆分；748仍混合S. Agnese委托与Pamfili对艺术家的总体关系，新增“this commission”精确指代mention但未拆分断言；797将art dealing与exhibitions并列为不同活动，待拆分；843把未识别brief带来的财务收益与Academicians的社会地位判断合并，brief及范围未证；862–863分别是跨segment句子的残片与重叠完成，保留相互链接，未强行合并或排除。未名Duke、ducal chancellor、Costaguti家主之妹及bentveughels群体身份/类型边界继续待证。
+
+S3方面，aln-11999由undecided改为same→units/works/ferri-sant-agnese-cupola：新增的“this commission” mention与p.12同段Ferri穹顶壁画陈述、既有作品卡同类型且同来源范围；与彩色modello候选cand-11835分开。该身份映射不消除statement 748的复合断言pending。aln-12002/12003的s2_mentions=none分别改为His Highness及ducal chancellor的精确span，身份仍未名，保持undecided；aln-12025/12033补记新mention，cand-11862群体/term边界及cand-11870未名女性身份仍未决；aln-2632补记“a would-be patron”，cand-2297到Antonio Ruffo的same及cand-2965到Rosa-Ruffo letter archive的既有same不变。S6方面未改relations.csv：rel-0034（Pamfili patron_of Mola，pp.7/9/13）及rel-2150（p.12 n.1 cites Grassi）维持原裁决；本阶段未新增formal边，未名关系端点仍不得据S2候选直接定边。H9622 ledger SHA-256仍为75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89。
+
+| 批次 | 连续顺序 | 阶段累计 | 既有PASS复用 | pending复核 | 新转PASS | 保留pending | 批后全库PASS / pending |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| B398 | 701–800 | 100/300 | 95 | 5 | 2 | 3 | 8,597 / 6,908 |
+| B399 | 801–900 | 200/300 | 90 | 10 | 7 | 3 | 8,604 / 6,901 |
+| B400 | 901–1000 | 300/300 | 95 | 5 | 5 | 0 | 8,609 / 6,896 |
+| **阶段合计** | **701–1000** | **300/300** | **280** | **20** | **14** | **6** | **8,609 / 6,896** |
+
+本阶段结束后逐ID清单总数仍为15,505，当前PASS 8,609，current pending 6,896，历史映射开放0。映射清零及本批source-level PASS不等于S2全书独立语义接收。下一连续顺序1001。

@@ -27976,3 +27976,10 @@ m-chp10-p281-paymaster-office,chp-10:10_CHP-10_intro:l125-139,cand-11969,Paymast
 m-chp10-p281-three-city-centres-group,chp-10:10_CHP-10_intro:l125-139,cand-11967,Düsseldorf was with London and Paris one of the great centres,2594,2655,Source-defined grouping of the three cities in Haskell’s qualified claim; candidate type remains unresolved.
 m-chp10-p282-wilhelm-surrounding-artists-group,chp-10:10_CHP-10_intro:l141-149,cand-11970,the artists who surrounded him,351,381,Unnamed source-local artist group around Johann Wilhelm; its members and boundary are not inferred.
 m-chp10-p288-italian-painting,chp-10:10_CHP-10_intro:l218-227,cand-11017,Italian painting,237,253,Names Italian painting as an artistic field; consistent with existing field-level occurrences of this term. The existing S3 new decision and pending S4 registration are unchanged.
+m-chp1-secii-20261102-pamfili-this-commission,chp-1:01_CHP-1_sec_ii:l62-71,cand-11836,this commission,1083,1098,Anaphoric reference to Ciro Ferri's S. Agnese cupola commission.
+m-chp1-secii-20261102-arragona-highness,chp-1:01_CHP-1_sec_ii:l79-84,cand-11839,His Highness,1286,1298,The unnamed Duke addressed in Arragona's letter; identity unresolved.
+m-chp1-secii-20261102-arragona-agent,chp-1:01_CHP-1_sec_ii:l79-84,cand-3476,the Mantuan agent in Rome,1343,1368,Appositive description of Fabrizio Arragona.
+m-chp1-secii-20261102-arragona-chancellor,chp-1:01_CHP-1_sec_ii:l79-84,cand-11840,a ducal chancellor,1372,1390,"Unnamed letter addressee, distinct from the Duke called His Highness."
+m-chp1-secii-20261102-bentveughels-colony,chp-1:01_CHP-1_sec_ii:l137-146,cand-11862,the colony of Dutch and Flemish artists living in Rome,758,812,Source definition of the bentveughels; keep distinct from the Schildersbent.
+m-chp1-secii-20261102-carlone-sister,chp-1:01_CHP-1_sec_ii:l148-153,cand-11870,his sister,120,130,Unnamed sister of the household master; no completed marriage is asserted.
+m-chp1-secii-20261102-rosa-would-be-patron,chp-1:01_CHP-1_sec_ii:l155-159,cand-2297,a would-be patron,2848,2865,Body-text role identified as Don Antonio Ruffo by the linked footnote.
