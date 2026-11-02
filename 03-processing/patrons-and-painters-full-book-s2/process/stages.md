@@ -17420,3 +17420,14 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **独立当前证据回映。** 顺序2475 `st-chp2-seciv-l190-245-arcadian-shepherds-louvre-location`原为`needs_crosswalk`，现回映至2026-11-01独立当前版题名提及复核并记为`reviewed_current_pass`。逐字比较确认当前statement JSON行与复核提交`1c708bcb`相同；CHP-2.pdf哈希、S0 segment哈希及相关mention行均与复核记录一致。S2 claim只记Haskell所报的历史Louvre位置，既有formal `rel-1991 located_at`不表示现今馆藏。同一独立复核涉及的顺序2341与2474不随题名映射一并升级：2341仍待补该claim的诗作／作者提及映射，2474仍待拆分不同作品的日期断言。
 
 **S3/S6影响与批后状态。** statement ID反查5条既有formal边：`rel-1991`、`rel-2152`、`rel-2153`、`rel-2506`、`rel-2516`；关系范围与历史裁决不变，alignment与KU不变。本批100条当前状态为10条PASS、90条pending、0条待回链；新增PASS 1（顺序2475），pending转PASS 0。全库roster更新为当前PASS 5,134、已审待证700、历史映射开放8,323、版本差异待核73、待回映／当前复核1,275；未获当前PASS 10,371，当前路由未结1,348。下一批从2501开始；9,622历史事件台账不变，S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b138-ch2-sec-vii-2501-2600"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B138：第二章第七节及第八节开篇，顺序2501–2600
+
+**历史ID、版本与提及核平。** 连续100条中99条匹配9,622历史事件，且来源段版本全部一致：95条当前statement与历史版本精确，4条statement已改版；另1条（顺序2536）无历史事件。99条历史记录的segment mention集合均精确一致，无mention差异。本批历史台账未改写。
+
+**复用原审及单条门槛纠正。** 本批100条均已有B009/B010当前主审记录，覆盖印刷pp.57–62及第二章第七节。99条原结论继续保留pending：95条精确复用旧审读并保留开放发现，4条改版仍按原页主审中记录的限定待决，不因事件回映自动通过。顺序2536 `st-chp2-secvii-l21-30-francesco-velasquez-friendship`复用B010印刷p.60 L28当前原页审读；Francesco、Velasquez、Rome的相关提及均有当前候选映射，statement端点完整。B010后续校正规则确认`qualifiers.mentioned_candidate_ids`并非每条statement必须重复填写的门槛，因此仅因该冗余数组缺失而pending的本条改为主审PASS。既有`rel-1501 friend_of`范围仍限于1650年罗马访问。肖像作者归属不确定的`rel-1507 created_by`仍为pending，不随友谊statement升级。
+
+**下游影响与批后状态。** 通过本批statement ID反查13条既有关系：12条formal（`rel-1501`、`rel-1502`、`rel-1503`、`rel-1965`、`rel-1966`、`rel-2078`、`rel-2269`、`rel-2270`、`rel-2271`、`rel-2355`–`rel-2357`）和1条pending（`rel-1507`），裁决均不变；S3/S4身份决定不变。本批100条当前结果为1 PASS、99 pending；仅roster顺序2536裁决行更新，未改statement、mention、candidate、关系表或9,622历史事件台账。全库roster：当前PASS 5,135、已审待证699、历史映射开放8,323、版本差异待核73、待回映／当前复核1,275；未获当前PASS 10,370，当前路由待处理1,348。下一批顺序2601–2700；S2仍未全书独立语义接收。
