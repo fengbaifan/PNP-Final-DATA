@@ -17025,3 +17025,31 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **关系与历史裁决影响。** 本批statement对象、原文及mention集合均无版本变化。三条可直接回链的relations.csv formal边不变：`rel-2371`（Zatta辩护信作者归属，边依据为书目记录，刊本内容未据此声称已读）；`rel-1319`（Pietro Monaco致John Strange之信的作者）；`rel-1320`（该信的收信人）。对其余关系候选，保留原S6记录和开放状态，不由精确历史复用替代关系审查。本批未改relations.csv、candidate、alignment或S6台账。
 
 **批后进度。** 完成当前顺序核平100/100；其中历史精确复用且开放发现保留100，当前PASS 0。全库roster状态不变：当前PASS 4,480、已审待证697、历史映射开放8,323、版本差异待核84、待回映/当前复核1,921；未获当前PASS 11,025，当前路由剩余2,005。下一顺序为12626；连续顺序12626–15505尚余2,880条（1,529条历史映射开放、1,276条待回映/当前复核、75条版本差异待核）。9,622历史事件总数未变；S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b111-ch13-notes-plates-ch14"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B111：第十三章注释与图版、第十四章开篇，顺序12626–12725
+
+**历史核平。** 本批100条连续roster顺序覆盖不同S0来源段。98条各对应一个9,622历史事件：其中97条current statement/source/mention对象精确匹配历史版，历史直接阅读可复用但所有开放发现继续保留；1条statement对象变化、来源版本与mention集合未变，须依当前statement复核。另2条无历史事件，分别为p.341 note 4的卷册内收据关系及p.344 note 8的单独馆藏定位，不能纳入历史分母。历史事件本身及旧statement hash/裁决均未改。
+
+**两条无历史事件及一个版本差异。** 顺序12640 `st-chp13-p341-receipt-within-zanetti-volume`：对照物理页10/印刷p.341 note 4，注释先定位Zanetti卷册，随后说明其中记载一件1736年收据；当前statement只记录收据与卷册的从属关系，不补叶码或声称查阅原件，当前PASS。对应`rel-2418 part_of`保持formal。
+
+顺序12666 `st-chp13-p344-note8-letter-located-in-marucelliana`：对照物理页13/印刷p.344 note 8，确有Marucelliana、Florence、MSS. B. VIII, 13的馆藏定位。当前statement限定为Haskell所载位置/架号，不声称核验现藏状态，当前PASS；`rel-1547 located_at`保持formal。
+
+顺序12667 `st-chp13-p344-notes-note8-zanetti-gori-letter-1752-08-26`有历史版本差异。旧statement以泛化predicate记录“定位出一封Gori来信”并把地点和收信人合在同一陈述；当前版按判断变化将本statement收窄为原文明确的`addressed_to`，库房及架号另由顺序12666独立成statement。原印本note 8明确写“Letter of 26 August 1752 to A. F. Gori”；对象和来源段相符，mention delta为空，故当前statement PASS。旧事件H9622-06256及其历史开放裁决原样保留；S6的`rel-1546 addressed_to`保持formal。**这项PASS只针对脚注收信人，不关闭正文跨p.344–345引语范围的历史开放发现**：`st-chp13-p344-zanetti-1752-incomplete_letter_fragment`与`st-chp13-p345-zanetti-1752-quote-continuation`仍`prior_review_mapped_open`。
+
+**其余原文与来源指纹。** 另外97条statement对象、来源文件、段和mention集合完全匹配历史事件；本批所有100条原句均在所列来源行范围内。覆盖7个S0段、354条mention：
+
+| 当前S0段 | statement | mention | source asset SHA-256 | segment SHA-256 | mention-set SHA-256 |
+|---|---:|---:|---|---|---|
+| `13_CHP-13_intro:l179-251` | 45 | 265 | `c0b93d35aab60ec8261eb14db1e2f1b4d9ec7cae9709e19f236ccddbd12996a8` | `f592d5913122cf2c4c2e7db9a39b8016c82dbc232a869018793ef11096faacb9` | `3726520251aee812bf41c7e6449836242afac93d9ec1f95f3f097f726c444bea` |
+| `13_CHP-13_intro_plates_visual-transcription:l1-3` | 8 | 0 | `73d5fad85a4b84f11508ef0cad9590bded516b69ed2ce203dc3afaf3079906bd` | `e850d580c38fac4b1b81942181e3f9178edb4cd5895e8c898a233241fec4c0a6` | `4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945` |
+| `13_CHP-13_intro_plates_visual-transcription:l5-7` | 5 | 0 | `73d5fad85a4b84f11508ef0cad9590bded516b69ed2ce203dc3afaf3079906bd` | `1b5abe8e58810383ba144c7b09ecbf9163a9498fdd47c1075ed9e3f39c2d6a5f` | `4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945` |
+| `13_CHP-13_intro_plates_visual-transcription:l9-11` | 4 | 0 | `73d5fad85a4b84f11508ef0cad9590bded516b69ed2ce203dc3afaf3079906bd` | `b11181a8baf8d5a7823aa49c4efaa5789a7dc5072573de31ea3f1a897a40b398` | `4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945` |
+| `13_CHP-13_intro_plates_visual-transcription:l13-14` | 3 | 0 | `73d5fad85a4b84f11508ef0cad9590bded516b69ed2ce203dc3afaf3079906bd` | `c94a01a03e255bfe93938f5742e5fba3dce5678b92c04c16e21c1e17b7f873be` | `4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945` |
+| `14_CHP-14_intro:l3-12` | 20 | 32 | `d472c0aed1891f38546c3f73557c46583dcc7f744b0dbb764fc7a94cff71cdf7` | `e40875f46c7c918079fc127c7bc9aa957e4a8d285b0dc03cb55f0435b240cf18` | `c4aa9c876de3eb23a31eb482890f17d1b17cca892f854d618f9ffe93a84a5801` |
+| `14_CHP-14_intro:l14-21` | 15 | 57 | `d472c0aed1891f38546c3f73557c46583dcc7f744b0dbb764fc7a94cff71cdf7` | `ce0e6ab4903b86faca13d4dd31b3dfae459708033fcdaecf82415289de582baf` | `dd0b97f426df72c29538b317d88258f9474888ecf8bb3e39ed2ee3a4e5c5b26f` |
+
+**其余关系与历史裁决。** 本批精确对应的formal关系记录均未改变：`rel-1543`/`rel-1544`（12月22日信的收信人/书内馆藏定位）、`rel-1546`/`rel-1547`（8月26日信的收信人/书内馆藏定位）、`rel-2054`（Monaco版画作者归属）、`rel-2418`（收据在Zanetti卷册中）及`rel-2419`（收据所涉买方）。它们的source scope保持原限；未查手稿、目录或版画原件。S3决定和S6历史表不变。
+
+**批后状态和剩余量。** 完成核平100/100：当前PASS 3（含1条当前历史版本差异、2条无历史事件），97条精确历史复用且开放发现不变。全库roster状态：当前PASS 4,483、已审待证697、历史映射开放8,323、版本差异待核83、待回映/当前复核1,919；未获当前PASS 11,022，当前路由剩余2,002。下一顺序12726；顺序12726–15505尚余2,780条（1,432条历史映射开放、1,274条待回映/当前复核、74条版本差异待核）。9,622历史事件总数不变；全书S2仍未独立语义接收。
