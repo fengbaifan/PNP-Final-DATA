@@ -17208,3 +17208,16 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **S3与S6影响。** 36条当前PASS涉及27个端点候选：`same` 20、`undecided` 7，无S3变化。涉及原文L174–192的6条既有formal关系回链一致、状态不变；L198的两条脚注仍无对应formal S6边。第一章顺序637–700的64条历史开放裁决均保留原状；不重审未变化的claim，也不把历史开放项记为当前PASS。`relations.csv`、`alignment.csv`和KU均未修改。
 
 **批后状态与剩余量。** B119顺序601–700已逐ID结算：36条当前PASS，64条精确历史复用并保留开放发现；全库PASS 5,120、已审待证697、历史映射开放8,323、版本差异待核82、待回映／当前复核1,283。未获当前PASS 10,385；当前路由未结1,365。下一批从701开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b120-ch1-sec-ii-701-800"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B120：第一章第二节，顺序701–800
+
+**历史事件复用。** 本批连续顺序701–800共100条，均对应1条历史复核事件；100/100当前来源版本匹配且mention delta为空。99条当前statement对象与历史版完全一致，直接复用原阅读并保留`directly_read_with_open_findings_unless_separate_pass`状态，不升级PASS。
+
+**唯一statement差异。** 顺序743 `st-chp1-secii-l48-60-07`的当前claim、原引文、谓词、候选引用、S0来源版本及mention均与历史读本一致；差异仅为在`linked_statement_ids`和`footnote_statement_ids`加入新脚注statement `st-chp1-secii-p12-n1-cites-grassi-1957`。该脚注statement当前仍为`needs_crosswalk`，且旧审读记录明确该新增statement未独立复核。因此确认本次只是链接元数据变化，不改写statement主张；保留该行的历史开放发现，当前记`reviewed_current_pending`，不判PASS。原句“no certain examples”是该限定性否定判断的一部分；它不提出肯定的人物—作品关系。
+
+**关系与对齐影响。** 此变化不改S3端点或S6候选。新链接脚注已有`rel-2150 cites` formal记录，范围仅为Haskell书内引注、不表示已读被引论文；该边状态不变。其余99条历史对象精确复用，未改关系裁决或alignment。
+
+**批后状态与剩余量。** B120的100条均已核平：99条精确历史复用且保留开放发现，1条链接元数据差异完成核查但因关联脚注尚未当前复核而保留pending。全库当前PASS 5,120、已审待证698、历史映射开放8,323、版本差异待核81、待回映／当前复核1,283；未获当前PASS 10,385，待当前路由1,364。下一批从801开始；历史9,622事件账本不变，S2仍未全书独立语义接收。
