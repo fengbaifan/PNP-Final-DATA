@@ -20313,3 +20313,24 @@ H9622历史事件账本9,622行未改，SHA-256仍为`75ab12df478a81603592935356
 三项当前statement内容／关系口径修订后，本批历史statement hash为88 exact、12 changed；来源版本仍100/100匹配。未改候选类型与S3决定、alignment、`relations.csv`或历史事件ledger。针对Brugnoli及Toesca的既有三条S6裁决仍pending；其余本批未形成formal关系。全库statement仍15,512条、mention 27,331条；当前PASS 8,677、pending 6,835。H9622历史账本仍9,622行、SHA-256 `75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`；当前roster映射9,537个ID的hash对照为9,004 exact、533 changed，来源匹配9,537/9,537。下一连续原文游标为当前顺序1359，最早未解决finding为顺序1330。当前S2仍未全书独立语义接收。
 
 **针对性验证。** `audit_tables.py --strict-stage --summary`通过：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py`退出码0，五类关系阻断均为0。写前后核实`mentions.csv`、`alignment.csv`、`relations.csv`及H9622账本不变；roster仅更新本批100行，statement仅改3项。`git diff --check`退出码0。
+
+
+<a id="2026-11-03-s2-current-review-stage-b430-b432-order-1359-1658"></a>
+### 2026-11-03 S2当前版本连续逐ID核平阶段 B430–B432（顺序1359–1658）
+
+**范围与复用。** 本阶段完成300/300个连续当前statement ID的版本核平。对照当前statement、来源资产、S0 segment及段内mention集合指纹，300/300匹配；165条既有current PASS复用原逐页审读，135条已有pending finding保留原裁决和逐项理由，不重读未变页面。三个100条子批次只用于阶段内计数，阶段完成后一次性收口。
+
+来源覆盖第二章第一节、图版视觉转录及第二节现有审读范围。权威 `CHP-2.pdf` SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；第一节转录=`5eca92acb03fe9934be85c82a6ec6806d3c564002955e99bd317916f3c7c8dc6`；一般图版转录=`6cb9a15d372adec12c6ff34283991fdbfb6d62f9d326240c5624b26636ab3fa9`；plate 3转录=`c35feb7762a65ac277d6b9b7df265bcc47c9ad8fb5748cc540d1fbcf8a59aee5`；第二节转录=`7efde367c2d7d600f599c17d09fbc4f57bf29aa6b7efb439859a1f45b8c863a9`。当前来源和原页判断回链B404–B407既有逐页审读及2026-10-20独立复核记录。
+
+**H9622核平。** 本阶段300条中296条有历史事件，来源版本296/296匹配；当前statement hash为293 exact、3 changed。三条changed为顺序1439 `st-chp2-seci-l124-157-giustiniani-friend-bizoni`、1598 `st-chp2-secii-l52-60-programme-duration`、1615 `st-chp2-secii-l62-69-berninimade-bibiana-statue`，均已有当前来源审读记录；另4条不在重建后的9,622事件计数中。不可变事件ledger保持9,622行、SHA-256=`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`。全局当前映射仍为9,537个ID、9,004 exact、533 changed，来源9,537/9,537匹配。
+
+| 子批 | 连续顺序 | 核平量 | current PASS复用 | pending保留 | H9622事件 | exact / changed / 无历史事件 |
+|---|---:|---:|---:|---:|---:|---:|
+| B430 | 1359–1458 | 100/300 | 91 | 9 | 100 | 99 / 1 / 0 |
+| B431 | 1459–1558 | 100/300 | 43 | 57 | 100 | 100 / 0 / 0 |
+| B432 | 1559–1658 | 100/300 | 31 | 69 | 96 | 94 / 2 / 4 |
+| **阶段合计** | **1359–1658** | **300/300** | **165** | **135** | **296** | **293 / 3 / 4** |
+
+本阶段没有新增current PASS，statement、mention、candidate、alignment、KU、`relations.csv`及H9622 ledger均未改；全库仍为15,512条statement、27,331条mention、PASS 8,677、pending 6,835。135条待证finding继续保留；最早未解决finding仍为顺序1330。逐ID清单已改为本阶段统一证据入口，原逐页证据链接逐行保留。下一连续原文顺序为1659。本阶段是历史—当前版本核平与既有审读复用，不构成新的语义接收。
+
+针对性验证：受控脚本全量核对300条statement/source/segment/mention指纹、历史事件与分段计数；输出计划SHA-256=`8e85b73feeea1551d3c1e5c567b7adc14dbaf8842abf09bbf2a792c234c4f41e`。

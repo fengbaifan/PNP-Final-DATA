@@ -2822,3 +2822,8 @@ p.213 `has_subject` 当前端点方向已修正为文章subject、未识别作�
 ### 2026-11-03：S2当前版连续逐ID批次 B429（1259–1358）
 
 100条连续statement中92条PASS按当前statement、来源资产、segment和mention指纹复用；8条pending复核印刷p.29–30原文后，3条转PASS、5条仍pending。修正Cupid图像claim以保留“scornfully”及Giustiniani语境；将p.29跨页对比残句连至p.30完整statement并标为非关系比较；将Hopf相关性评价保留为Haskell的非关系性判断。作品身份、未名creator collective、Carracci/followers范围及三条注释目标关系保持待证；`rel-1981`–`rel-1983`仍pending。当前15,512 statements、27,331 mentions，PASS 8,677、pending 6,835；H9622历史台账不变，当前映射hash为9,004 exact、533 changed，来源9,537/9,537匹配。下一连续顺序1359，最早未解决finding为1330。验证与逐项证据见[B429过程记录](../process/stages.md#2026-11-03-s2-current-review-b429-order-1259-1358)。
+
+
+### 2026-11-03：S2当前版连续逐ID核平阶段B430–B432（1359–1658）
+
+完成300/300条连续当前statement版本核平：165条current PASS复用，135条既有pending finding保留，新增PASS为0。300条statement、source、segment及mention集合指纹全匹配。H9622事件296条，来源296/296匹配，statement hash 293 exact、3 changed，另4条无历史事件；不可变9,622行账本未改。全库仍为15,512条statement、27,331条mention，PASS 8,677、pending 6,835；最早未解决finding为顺序1330，下一连续顺序1659。S3、KU、S6关系及alignment未改。详见[阶段B430–B432记录](../process/stages.md#2026-11-03-s2-current-review-stage-b430-b432-order-1359-1658)。
