@@ -18780,3 +18780,60 @@ L1301–1306是S0的错位OCR块，不对应本PDF新增的p.442图像。当前�
 **关系与身份边界。** 直接按本批5个statement ID反查`relations.csv`没有对应的已登记formal边；`lost-capture`的关系候选仍因赠予者身份及断言拆分问题待证。相关S3候选不合并、不改号；未改`relations.csv`、S3/S4、statement或mention表。
 
 **批次结算。** 顺序2381–2480共100项：5条历史开放项完成当前版回映并保留pending（新增PASS 0）；25条既有PASS及70条既有pending不变。全库PASS 7,304、已审待证952、历史映射开放7,249、版本差异待核0、待回映/当前复核0；尚未达到PASS 8,201/15,505。下一历史开放顺序为3826（2481–3825已有当前裁决，跳过复审）。S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b281-order-3826-3925"></a>
+### 2026-11-02 S2当前版逐ID复核 B281：第4章连续顺序3826–3925
+
+**提速与历史版本核平。** 连续100项此前均为历史映射开放；100/100各有1条H9622事件，statement、segment、source asset哈希均精确，mention集合100/100无变化。复用独立复核提交`2273e2743158401b841fb9bc7b7d1332836d400a`第4章批次（一）至（五）的原页/页图逐条核读，不重复阅读未变材料。旧审读范围为章首物理p.1、脚注p.1、sec_i物理p.1–2/印刷p.95及p.96/物理p.3；末段只覆盖当前连续批次中的27/33条statement。逐ID状态及pending理由在[当前版复核清单](s2-current-review-roster.csv)。
+
+| 登记段 | 本批PASS | pending | 主要保留事项 |
+|---|---:|---:|---|
+| intro L3–8 | 2 | 9 | OCR“religious orders”mention、复合claim/作品端点、court范围、长quote与缺页锚。|
+| intro脚注L10–13 | 0 | 11 | statement级publication/person/letter mentions缺失，Longhi行动者错位及条件性身份未决。|
+| sec_i L3–4 | 5 | 5 | 收藏归属与评价、跨页风格定义、派系复合/OCR、审美属性误作关系待修。|
+| sec_i L6–18 | 28 | 13 | 重复claim、脚注复合日期、antique范围、gallery评价、Orsini爵位/成长、ninfe与Röthlisberger识别重复。|
+| sec_i L20–24（本段前27/33条） | 20 | 7 | 德国服役背景重复、Norway请求只作存疑报告、两卷诗错映单卷、Spanish faction身份待S3、心理推测不formal化。|
+
+**S3/S6与历史裁决影响。** 跨章`cand-5510` Spanish faction身份未解决，不并组；人物、作品组和未具名群体沿用原身份边界。本批直接关联的S6记录只有`rel-2011 authored_by`：它保持formal且范围仅限已命名的1649年`Rime e Satire`档案，依据为注5及既有S6过程记录；不将该单卷边扩展到正文所说的两卷。S2的`poetry-volumes`、风格和文学史家引用行仍pending。其他历史关系裁决未变；未改`relations.csv`、statement/mention表、S3/S4或H9622事件台账。
+
+**批次结算。** 顺序3826–3925共100项：55条PASS、45条按逐ID所列缺口pending；历史映射开放减少100。全库PASS 7,359、已审待证997、历史映射开放7,149、版本差异待核0、待回映/当前复核0；尚未达到PASS 8,146/15,505。下一历史开放顺序3926（同一登记段余下6条从此继续）。S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b282-order-3926-4025"></a>
+### 2026-11-02 S2当前版逐ID复核 B282：第4章连续顺序3926–4025
+
+**提速与历史版本核平。** 连续100项中96条历史映射开放项各有1条H9622事件；statement、segment、source asset与mention集合96/96精确一致，复用独立审读提交`2273e2743158401b841fb9bc7b7d1332836d400a`第4章批次（五）至（八）的原页/页图核读。另4条既有当前PASS原样沿用：两条书内档案定位无H9622重建事件，另两条已在B025对当前statement复审。当前段共30行，而旧批次（八）记29条；按当前roster逐ID覆盖，分母差异保留，不把历史计数改成现行覆盖。96条开放项中78条PASS、18条保留pending。逐ID依据见[当前版复核清单](s2-current-review-roster.csv)。
+
+| 登记段 | 新PASS | pending | 沿用PASS | 主要未决点 |
+|---|---:|---:|---:|---|
+| sec_i L20–24余段（印刷p.96） | 5 | 1 | 0 | “delighted to oblige”是画家群体评价，与Paolo肖像意愿拆开。|
+| sec_i L26–33（印刷p.97） | 35 | 5 | 0 | 制模续句重复并误归“pleasure”、Arundel OCR、ideal-correspondent不作formal边、Christina跨页引语、Demonts出处/肖像状态混并。|
+| sec_i L35–40（印刷p.98） | 18 | 6 | 0 | Christina续句漏子断言/mention、奉承暗示端点、社交聚会谓词过强及两条群体评价漏mention。|
+| sec_i L42–67（印刷p.96–98） | 20 | 6 | 4 | Norway对象错配、两卷诗与单一出版物混指、Fondo/引文OCR纠错未对齐。|
+
+**S3/S6与历史裁决影响。** `cand-5510`等待决身份不作合并。本批反查到7条直接关联S6记录：`rel-2011`保持formal且只限1649年单一`Rime e Satire`档案，不扩展为两卷诗；`rel-2123`与`rel-2124`继续只记录书内newsletter/fonds位置，不表示现行馆藏层级；`rel-2466`、`rel-2467`、`rel-2476`继续按第4章页97限定作品组/被表现者；`rel-2477`作者归属仍pending。S2 pending行不被这些相邻formal边覆盖。未改`relations.csv`、S3/S4、statement/mention表或H9622事件台账。
+
+**批次结算。** 顺序3926–4025共100项：96条历史开放项回映为78条PASS、18条pending；4条既有PASS沿用。全库PASS 7,437、已审待证1,015、历史映射开放7,053、版本差异待核0、待回映/当前复核0；尚未达到PASS 8,068/15,505。下一历史开放顺序4026。S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b283-order-4026-4125"></a>
+### 2026-11-02 S2当前版逐ID复核 B283：第4章连续顺序4026–4125
+
+**历史版本核平。** 本批100条均为历史映射开放项；100/100各唯一对应1条H9622事件。statement完整对象、来源segment、Markdown源文件SHA-256、段级mention集合逐项精确一致；mention_delta 100/100均为空。逐条复用独立复核提交`2273e2743158401b841fb9bc7b7d1332836d400a`第4章批次（八）至（十三）的原文/页图审读，不重复阅读未变化材料。H9622事件、历史审读哈希与原裁决未改。
+
+**逐段裁决。** 当前逐ID结论与每条pending理由见[当前版复核清单](s2-current-review-roster.csv)。
+
+| 顺序/来源 | PASS | pending |
+|---|---:|---:|
+| 4026，sec_i L42–67注98 | 0 | 1 |
+| 4027–4040，sec_ii L3–8 | 11 | 3 |
+| 4041–4057，sec_ii L10–13 | 10 | 7 |
+| 4058–4084，sec_ii L15–22 | 15 | 12 |
+| 4085–4115，sec_ii L24–31 | 25 | 6 |
+| 4116–4125，sec_ii L33–44（本批前10项） | 6 | 4 |
+| **合计** | **67** | **33** |
+
+未决条目顺序为：4026、4027、4034、4036、4041、4042、4043、4046、4051、4056、4057、4059、4062、4063、4064、4068、4069、4070、4071、4072、4073、4074、4081、4087、4088、4091、4099、4100、4105、4117、4118、4119、4121。问题包括复合claim未分层、未名亲属/群组身份或类型未定、patronage及收入用途缺精确mention跨度、脚注来源误混正文mention、cand-1391/1392作品标题错配、`Roman remains`误映Rome城、习惯性`would`被压成已发生事件，以及collection/group关系端点未定。来源claim和语气限定按原审读保留；存在缺口的statement不以邻接PASS或历史旧裁决替代。跨页`veneration-fragment`与`veneration-closure`双向续句本批一并核实，p.101末句“and historical interest”闭合准确，先前待续核点解除。
+
+**S6关系与历史裁决。** 精确statement crosswalk命中`rel-2407`（Haskell书内引用Vermeule 1956，formal；仅记引文）。同时核对邻近脚注裁决：`rel-1614`、`rel-2106`、`rel-2107`、`rel-2438`、`rel-2440`均仍formal且source scope未变：它们仅记录书内引注或Haskell/Rinehart目录中的portrait entry；`rel-2438`不把inventory portrait并成Bernini caricature或Dati frontispiece。以上关系不验证被引内容或正文历史事实。未改`relations.csv`、statement/mention表、S3/S4、S6历史决定或H9622事件台账。
+
+**批次结算。** 顺序4026–4125共100项：67条当前PASS，33条依逐ID问题pending；历史映射开放减少100。全库当前PASS 7,504、已审待证1,048、历史映射开放6,953、版本差异待核0、待回映/当前复核0；尚有8,001/15,505条未达PASS。下一历史开放顺序为4126。9,622历史事件和旧裁决未改；S2仍未全书独立语义接收。
