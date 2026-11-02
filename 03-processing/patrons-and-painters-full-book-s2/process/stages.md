@@ -20238,3 +20238,14 @@ S3方面仅为12个受影响候选补记原文mention及身份/范围边界，�
 | B425 | 3401–3825 | 425/425 | 425 | 0 | 0 | 0 | 0 |
 
 验证：本批425条状态均为`reviewed_current_pass`，review evidence指向B018–B022；严格阶段表审计`errors=[]`、`s2_missing=[]`，关系一致性阻断项0，`git diff --check`通过。全库仍为15,505条statement、27,328条mention、current PASS 8,658、pending 6,847；历史事件未映射数仍为0。S2尚未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-followup-ch1-p18-p19-orders-862-863"></a>
+### 2026-11-02 S2待证项回核：第一章第二节印刷页18–19跨页句（顺序862–863）
+
+**范围与原文核对。** 本阶段只回核B399遗留的两条跨segment待证项；701–900其余198条复用各自既有当前版本记录，其中194条PASS、4条开放finding原裁决不变。权威`CHP-1.pdf` SHA-256为`0b9a3ca88e6f09209bd20185948e18a68f527d0628e893940a7e3f07f6d22c86`。印刷p.18（PDF物理页17）句末为“Roman society often seems to have”；印刷p.19（PDF物理页18）紧接“been prepared to accept artists at their own valuation.”。当前S0的前段摘录与后段摘录分别止于、始于该页界，`original_quote`与原页相符；statement 862与863的`linked_statement_ids`互相回链，没有跨度重叠，也没有另一条独立完整句重复登记。该情况与本节其他已接受的跨段句片段—续句记录一致，故不删除或合并来源锚点。
+
+**裁决变化。** 顺序862 `st-chp1-secii-l118-127-03a`与顺序863 `st-chp1-secii-l129-135-01`的开放问题均为页界是否造成错误重叠。原页确认它们是同一句的连续两段；原finding关闭，两项改为`reviewed_current_pass`，并保留双向链接。二者均无实体端点、mention或关系候选；未改statement/mention/S3 alignment/KU/`relations.csv`，也未改变H9622历史事件。历史事件2/2仍精确对应当前statement与来源版本。
+
+**仍待证项。** 同一当前版本范围中，顺序724仍有委托、求借书籍和图像选择的复合断言；顺序748将具体委托与家族对艺术家关系的一般评价并列；顺序797把艺术交易与展览活动合并且候选范围需分开；顺序843将未识别的Urban VIII简令与学院成员社会地位判断合并。四项保持pending，需按原文拆清claim及端点后再判，不以邻接PASS关闭。
+
+**计数与游标校正。** 本次完成2/2条跨页finding回核，2条转PASS；全库15,505条statement中current PASS 8,660、pending 6,845；顺序701–900现为196 PASS、4 pending。此前B425末句的“下一顺序3826”已被B281–B284既有记录覆盖：顺序3826–4225的400条均已逐ID审过，其中272 PASS、128 pending。当前不存在待首次逐ID核平的statement；后续工作应从最早仍开放的finding顺序724推进。S2仍未全书独立语义接收。
