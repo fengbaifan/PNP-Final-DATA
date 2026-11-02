@@ -21126,3 +21126,24 @@ Exact historical hashes map to current statuses: . Changed historical hashes map
 两条 `absent_current` 均有明确撤换去向：H9622-01597（`st-chp2-seciv-l190-245-rest-flight-owned-by-rospigliosi`）因错挂到p.58注8而撤销；相关所有权与作者陈述分别由当前statement `st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned`、`st-chp2-seciv-l171-179-rest-flight-attributed-to-poussin`承接，两条当前状态均为pending，不继承旧PASS。H9622-05790（`st-chp13-p332-copyright-effects-on-local-and-export-books`）因合并不同市场判断而拆为 `st-chp13-p332-copyright-effects-on-local-books` 与 `st-chp13-p332-luxury-export-editions-gained`；两条现行statement有各自当前复核，不继承旧ID的历史裁决。
 
 **边界。** 本次完成的是历史9,622条复核记录与当前ID、来源版本的核平；全书S2独立语义接收仍未完成，6,803条当前pending及各自开放finding继续保留。
+
+
+<a id="2026-11-03-s2-current-review-b572-order-1330-1429-pronoun-scope"></a>
+### 2026-11-03 S2 当前版逐ID复核阶段 B572（基线顺序 1330–1429）
+
+**范围与复用。** 以变更前当前清单的连续原文顺序 1330–1429 为本批，100 条原有 statement 中复用 87 条指纹一致的当前 PASS；其余 13 条均有既有原页证据和待证理由，本轮只对可由同页指代范围解决的 4 条作出新裁决，另 9 条维持 pending。因新增两条同一页注释的关系候选，现行源序 roster 在原 1402 与 1406 附近分别插入记录；基线 1330–1429 映射到当前顺序 1330–1431 共 102 条，下一窗口为当前顺序 1432–1531。
+
+| B572 组成 | 数量 | 裁决 |
+|---|---:|---|
+| 基线当前 PASS | 87 | 指纹相同，复用 |
+| 基线 pending | 13 | 4 转当前 PASS；9 保持 pending |
+| 原页支持的新增 statement | 2 | 当前 PASS，`relation_candidate=true` |
+| 当前 roster 覆盖 | 102 | 93 PASS、9 pending |
+
+**原页依据与判断变化。** 直接核对 `02-sources/01-book/CHP-2.pdf` 印刷 p.25（PDF 第6页扫描图）及当前 Markdown L50、L129。p.25正文在注4前连续列出 Titian 的 *The Worship of Venus*、*The Andrians*、*Bacchus and Ariadne*；注4中 Cavaliere d’Arpino 的 “copied them” 与 Albani 的 “must have studied them” 均回指这三幅。原四条逐件断言只覆盖前两幅，本轮补入 `st-chp2-seci-l124-157-darpino-copy-bacchus` 与 `st-chp2-seci-l124-157-albani-study-bacchus`，并将对应四条现有断言转为当前 PASS。Albani 的 “must have” 仍标作 Haskell 推论；d’Arpino 的复制仍标作 Haskell 对 Baglione 手稿的转述，手稿没有被独立查阅。新增记录保留原引文、印刷页、PDF页、`related_segment`、前文行号和三条画作转移 statement 链接；没有为复数代词伪造一个指向单件作品的 mention span，提及表保持 27,339 行。
+
+**保留的 9 个 finding。** `venetian-collection` 的集体创作者候选尚未定型；两条 Brugnoli 同年引文不能唯一映射到书目题名；Toesca 注释与书目姓名首字母不同；Carracci 与 followers 的群体端点未决；old-master paintings 的组级端点及 Maffeo 装饰宫殿的关系角色尚未拆清；Rubens 两个版本作品仍缺独立作品端点；Ortolani 引文题名和粒度未定。这些问题分别留给候选类型/身份或后续引文裁决，不以局部证据强行通过。
+
+**下游与历史影响。** 当前 S3 对齐未改：Albani `cand-0021` 仍为 `same`，d’Arpino `cand-0121` 仍为 `undecided`，Bacchus and Ariadne `cand-4250` 仍为 `new`、待 S4 登记。`relations.csv`、`alignment.csv` 与 H9622 不可变事件账本均未改；没有 S6 边因本批升级，相关原关系/引文裁决不作扩展。四条历史审读事件保留原版本与原裁决；新增两条无 H9622 历史事件。旧拒绝、pending 与来源证据不被回写覆盖。
+
+**批后状态与核对。** 当前 statement / roster 为 15,514 条且 ID 一一对应，源序 1–15,514 连续，statement 指纹 15,514/15,514 匹配；mention 仍为 27,339。当前 PASS 8,715、pending 6,799。H9622 9,622 行及 SHA-256 `75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89` 未变；当前 roster 仍映射 9,620 个历史事件至 9,537 个 ID（含 83 次重复审读，另 2 个旧 ID 有撤销/拆分去向）。计划哈希：`4bcb1b0ad5b531882c07bfdf25e79ddea48a4548f61a7d39f3a417113a9ecd9b`。本批不等于全书 S2 独立语义接收；6,799 条 pending 仍需按其缺口分流处理。

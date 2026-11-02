@@ -2996,3 +2996,8 @@ Reconciled 54 continuous Chapter 21 rows: 54 existing current PASS reused, 0 cur
 ### 2026-11-03 H9622历史-ID与版本核平全表收尾
 
 全表15,512/15,512当前statement、来源资产、段落与mention指纹通过。H9622账本9,622行保持不变：9,620条历史审读映射至9,537个当前ID（含83次重复审读），另2个撤换ID各有明确撤销／拆分去向；来源版本匹配9,622/9,622。按当前ID汇总的历史hash为8,972 exact、565 changed。当前S2仍为PASS 8,709、pending 6,803；本收尾不代表独立全书语义接收。详见[全表核平审计](../process/stages.md#{anchor})。
+
+
+### B572：第2章 p.25 注4指代范围修订
+
+基线连续原文 1330–1429 共 100 条：87 条现有 PASS 复用、4 条 pending 转 PASS、9 条 pending 保留；补录 *Bacchus and Ariadne* 的 Albani-study 与 d’Arpino-copy 两条原文关系候选。当前源序窗口扩为 1330–1431（102 条：93 PASS、9 pending），下一窗口 1432–1531。全库当前为 15,514 条 statement、8,715 PASS、6,799 pending；27,339 条 mention 不变。H9622 历史账本、S3 alignment 与正式 relations 均未改。详见[B572 原页与指代裁决](../process/stages.md#2026-11-03-s2-current-review-b572-order-1330-1429-pronoun-scope)。
