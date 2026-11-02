@@ -20273,3 +20273,22 @@ H9622历史事件账本9,622行未改，SHA-256仍为`75ab12df478a81603592935356
 **针对性验证。** `audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py`五类阻断计数均为0。六张相关卡片的`build_cards.py --render`预检通过（15个表、96行、21条关系投影，写入4张关系视图发生变化的卡片）；五张卡预览无差异。莫拉人物卡预览仅显示一条本批无关的Bonatti教师关系来源ID投影差异；恢复原投影后保留该已知差异，不扩写本批范围。最终`git diff --check`已通过。
 
 本阶段只关闭四项局部S2 finding，不构成第一章或全书S2独立语义接收。下一项沿原文顺序处理1157；后续连续原文批次按一个完整阶段收口后再提交。
+
+<a id="2026-11-03-s2-current-review-b428-order-1157-1256"></a>
+### 2026-11-03 S2当前版本连续逐ID批次 B428（原顺序1157–1256）
+
+**范围、复用与原文依据。** B427之后按当前roster原顺序处理100个既有statement ID（1157–1256）。其中95条current PASS的statement、来源段和mention指纹一致，直接复用已有当前版原页审读，不重复阅读；5条current pending依次为`st-chp1-secii-l971-973-06`、`st-chp1-secii-l974-980-07`、`st-chp2-seci-l71-80-resources-st-peters`、`st-chp2-seci-l71-80-smm-family-chapel-comparison`、`st-chp2-seci-l71-80-scipione-art-change`，对照原页重新裁决。权威`CHP-1.pdf` SHA-256=`0b9a3ca88e6f09209bd20185948e18a68f527d0628e893940a7e3f07f6d22c86`，印刷p.23为PDF物理页22；权威`CHP-2.pdf` SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`，印刷p.27为PDF物理页8。对应分节转录SHA-256分别为`1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`和`5eca92acb03fe9934be85c82a6ec6806d3c564002955e99bd317916f3c7c8dc6`。批次应用与指纹保护见[adjudicate_s2_current_review_b428_order_1157_1256_20261103.py](adjudicate_s2_current_review_b428_order_1157_1256_20261103.py)。
+
+**逐项裁决与判断变化。**
+
+| statement | 原文复核后的当前决定 | 对象、关系与待证去向 |
+|---|---|---|
+| `st-chp1-secii-l971-973-06`（1157） | 原复合脚注claim收窄为：印刷p.23注1附在前文匿名agent对Rosa的评价后；注2是独立的Baldinucci引文。当前PASS。 | 正文仅称“an agent”；注1所引De Rosis书信不证明agent就是De Rosis。清除推定的人物端点，不新增持续通信关系。|
+| `st-chp1-secii-l974-980-07`（1162） | 原Ferri与Luti复合脚注拆分：原ID现只记录Ciro Ferri及其书信中先称不收预付款、随后以事务众多作限定的claim；新增`st-chp1-secii-l974-980-07b`单列Haskell引Pascoli对Benedetto Luti的记述。两条当前PASS。 | Ferri范围为原文行974–978，Luti为978–980；保留Haskell的有限比较语气，不把任何一人说成Rosa的追随者，也不建立形式关系。复用既有Ferri、Luti、Rosa候选及mention。|
+| `st-chp2-seci-l71-80-resources-st-peters`（1251） | 原Paul V单人主语纠正为原文“their main resources”所指Paul V与Scipione的集体主张；清除单人人物主语，保留St Peter’s对象，继续pending。 | 当前没有范围相同的联合行动者端点，不拆造合并人物或个人委托边。相邻独立关系从句另拆为新增`st-chp2-seci-l71-80-st-peters-transformation`，仅陈述大殿因中殿与立面完成而已被改造，当前PASS；不猜测施工者、委托人或赞助人。|
+| `st-chp2-seci-l71-80-smm-family-chapel-comparison`（1252） | 原“Barberini family chapel”归属撤回。印刷p.27只写“the family chapel”；claim改为未指明家族的圣母大殿家族小堂与Sixtus V小堂的丰盛、色彩比较，当前PASS。 | `cand-4276`改用中性名称“Family chapel at S. Maria Maggiore (family attribution unspecified)”并同步mention说明；`aln-4460`仍为`new`、组号`sg3-place-cand-4276`。`cand-4277`仍指Sixtus V小堂，说明改为它与未名家族小堂构成原文比较，`aln-4461`仍为`new`、组号`sg3-place-cand-4277`；两个对象未合并。|
+| `st-chp2-seci-l71-80-scipione-art-change`（1256） | 清除错误的Paul V对象端点。当前句“these changes”回指前述建筑、绘画、雕塑变化清单；Scipione对变化的角色保留为pending。 | 目前没有与该前述集合范围一致的term端点；不把时期标记Paul V当作关系对象，不建formal边。|
+
+**下游及历史影响。** 关系审查检索`relations.csv`后，没有涉及本批statement或`cand-0393`、`cand-0394`、`cand-3135`、`cand-4276`、`cand-4277`的既有裁决行；本批未新增或改判S6关系。S3仅更新`cand-4276`与其比较对象`cand-4277`的来源说明，两个原`new`决定与各自组号均保持；没有合并对象、改变KU或扩写S5。H9622历史事件账本9,622行不改，SHA-256仍为`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`。全局当前roster仍将9,620条事件映射至9,537个ID（83条重复事件；另2个历史旧ID保持既定撤销／拆分去向）；当前statement hash为9,007 exact、530 changed，来源版本匹配9,537/9,537。历史账本快照与当前roster比较分开保存。
+
+**批次计数与定向验证。** 原有100个ID中95条PASS复用、5条pending原页回核；5项中3项转PASS、2项保留pending，并新增2条原子statement（均PASS）。批次写后为102条statement：100 PASS、2 pending。全库为15,512条statement、27,331条mention、PASS 8,674、pending 6,838。新增St Peter’s引文按原转录保留弯引号；提及表三条变更仅为Ferri、Luti及未名家族小堂的说明，既有字符跨度未变。`audit_tables.py --strict-stage --summary`：`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py`五类阻断均为0；`git diff --check`通过。当前roster首个仍开放的finding是顺序1252的集体资源端点，其后为1256的聚合term端点；这两项本批已审并有明确pending理由。连续原文新游标为当前顺序1259。此阶段不构成全书S2独立语义接收。

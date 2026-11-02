@@ -2814,3 +2814,7 @@ p.213 `has_subject` 当前端点方向已修正为文章subject、未识别作�
 对原顺序724、748、797、843四项开放finding逐项对照原页并拆分复合claim；四个原ID及新增五条原子claim均取得当前版PASS，精确补3条mention。结果为15,510 statements、27,331 mentions、PASS 8,669、pending 6,841；下一个最早开放finding为1157。Pamfili家族、未识别书目、Urban VIII简令的端点/范围继续待证，S3身份决定不变。根据p.9对“请求借阅”与后续“据书择题”的区分，将`rel-1129/1130`由formal改pending；`rel-0277`仍formal但说明收窄。更新受影响的S5与六张相关卡片。H9622账本未改，四条既有事件仅在当前roster中标为当前statement版本changed。
 
 定向表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；关系一致性五项阻断为0；六卡render预检通过，仅4张关系视图需写回；五张卡preview无差异，Mola卡仅保留已知的无关来源ID投影差异。详细原页依据、版本指纹、各claim去向与H9622逐ID影响见[阶段B427记录](../process/stages.md#2026-11-03-s2-current-review-ch1-composite-findings)及[第一章知识过程](../../patrons-and-painters-chp-1/process/knowledge.md#s2-s6-ch1-p9-mola-borrow-request-20261103)。本次定向修改不构成S2独立语义接收。
+
+### 2026-11-03：S2当前版连续逐ID批次B428（1157–1256）
+
+完成100个原有statement ID的批次核平：95条当前版PASS直接复用，5条原pending经CHP-1印刷p.23及CHP-2印刷p.27原页复核，其中3条转PASS、2条保留pending；新增2条原子statement并均判PASS。写后全库15,512条statement、27,331条mention，PASS 8,674、pending 6,838。原agent脚注不再误认作De Rosis本人；Ferri与Luti分开记录；Paul V与Scipione的集体资源主张不归给单人；St Peter’s改造从集体资源句独立拆出；未名“family chapel”不再指认为Barberini；“these changes”不误连Paul V。`cand-4276`与Sixtus V小堂`cand-4277`的S3 `new`决定和组号均不变，相关说明均限定为来源支持的范围。`relations.csv`没有本批端点相关裁决行，未新增或改判关系。H9622账本未改；当前映射9,537个ID的hash对照为9,007 exact、530 changed，来源匹配9,537/9,537。严格表审计`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`，关系一致性五类阻断为0。两项仍待证的端点/集合范围保持pending；下一连续原文游标为当前顺序1259。详细证据、裁决变化及原页指纹见[B428过程记录](../process/stages.md#2026-11-03-s2-current-review-b428-order-1157-1256)。
