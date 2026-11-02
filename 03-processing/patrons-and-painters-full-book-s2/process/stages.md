@@ -18653,3 +18653,15 @@ L1301–1306是S0的错位OCR块，不对应本PDF新增的p.442图像。当前�
 **关系影响。** 核对`relations.csv`：本来源文件当前唯一正式边`rel-0081`是印刷p.19正文行132–133的`honourer_of`，与本批脚注行无关；p.13和p.19脚注发现没有对应的正式边被本批修订。S3、KU、关系裁决及正式关系表均未改，历史S6决定不变。
 
 **批次结算。** 范围100条：96条新判当前PASS，3条新确认pending，1条既有pending沿用；因此当前台账新增闭环99条。全库当前版PASS 6,955、已审待证723、历史映射开放7,827、版本差异待核0、待回映/当前复核0；尚未达PASS共8,550条，下一连续区段从顺序1137开始。逐条状态见`s2-current-review-roster.csv`。本批只更新复核台账及过程/结果记录；S2尚未全书独立接收。
+
+<a id="2026-11-02-s2-current-review-b274-order-1137-1236"></a>
+
+### 2026-11-02 S2当前版逐ID复核 B274：第1章末段及第2章，顺序1137–1236
+
+**历史记录与当前快照。** 本批100条各对应1条H9622历史事件，来源版本100/100匹配，历史mention差异99条为空、1条为已登记的Valentin端点修订。99条当前开放statement与独立复核提交`2273e2743158401b841fb9bc7b7d1332836d400a`完整JSON相同；另一条顺序1188 `st-chp2-seci-l9-10-plate-i-credit`在此前B124已独立回核当前版本。六段共361条mention：360条与报告快照逐字段相同；唯一变化是`m-chp2-seci-l9-10-0001`从作品候选`cand-2678`更正为人物候选`cand-2677`，当前span仍精确为“Valentin”`[9,17)`，由B124和2026-11-01独立原页复核通过。三份来源文件版本与复核快照相同：`01_CHP-1_sec_ii.md`=`1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`；`02_CHP-2_intro.md`=`4e93f8f73b981ff35a8b95df2f379e787c55fce396fee21d971dd7831b192e74`；`02_CHP-2_sec_i.md`=`5eca92acb03fe9934be85c82a6ec6806d3c564002955e99bd317916f3c7c8dc6`。逐段span及哈希见当前复核清单。
+
+**复用与待证。** 88条新判当前PASS，直接复用同版本逐条审读；顺序1188既有PASS沿用。11条保持pending：顺序1138 `st-chp1-secii-notes-procaccini-parents`把父母身份、职业评价及未阻止儿子从业合为一条，parent group `cand-11866`又缺本段mention；另顺序1149–1158共10条p.23 statement（`st-chp1-secii-l971-n1-cites-ruffo-correspondence-p172`、`st-chp1-secii-l971-n1-derosis-letter-addressed-to`、`st-chp1-secii-l971-n1-derosis-letter-authored-by`、`st-chp1-secii-l971-973-06`、`st-chp1-secii-l973-n2-cites-baldinucci-vol6-p579`、`st-chp1-secii-l974-n3-cites-ruffo-correspondence-p298`、`st-chp1-secii-l974-n3-ferri-letter-addressed-to`、`st-chp1-secii-l974-n3-ferri-letter-authored-by`、`st-chp1-secii-l974-980-07`、`st-chp1-secii-l978-980-n3-cites-pascoli-vol1-p233`）仍缺`qualifiers.printed_page`和`qualifiers.print_page`，须补印刷p.23或按schema说明无需该字段；其中`l971-973-06`与`l974-980-07`另有合并引文/错误人际端点问题。对应H9622事件均保留，待明确修订后再关闭。
+
+**报告总括项与关系影响。** 独立报告提及第2章85条citation false标签需按`cites`类型复核；本批第2章仅含2条`cites` statement，二者当前均为`relation_candidate=true`，本批没有该总括项所指的false-cites记录。顺序1188的当前端点与mention修订已核到S3：`cand-2677`仍same→人物Valentin，`cand-2678`仍same→作品Allegory of Rome；旧候选`cand-4108`仍指向同一作品KU。正式边`rel-1026 created_by`保持作品→人物、限于图版I，以图版目录署名为证；其历史裁决未变。其他待证摘要均未写入relations.csv；本批未改候选、alignment、relations.csv或历史S6裁决。
+
+**批次结算。** 顺序1137–1236共100条：88条新判PASS、11条新确认pending、1条既有PASS沿用；本批使当前开放台账净减少99条。全库当前版PASS 7,043、已审待证734、历史映射开放7,728、版本差异待核0、待回映/当前复核0；尚未达PASS共8,462条，下一连续未审区段从顺序1237开始。9,622历史事件台账未增删；S2仍未全书独立接收。
