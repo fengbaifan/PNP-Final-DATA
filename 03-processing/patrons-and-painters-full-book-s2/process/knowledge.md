@@ -19012,3 +19012,10 @@ S6复用rel-1617 formal cites边并扩展p.237 p.44证据；8项pending为早年
 ### 2026-11-01 第3章 p.82 注1：Molinos《Guida Spirituale》定位候选复用
 
 B022核对《CHP-3》印本p.82正文与脚注1：脚注紧随明确标作Molinos《Guida Spirituale》的引文，给出Book I, chapter 16, verse 117。旧候选`cand-5472`误标为“biblical book”；S2已把它改记为该书的引文定位，版次、译本和原件均未查明。与已有文本级候选`cand-1681`、`cand-5255`具有同一题名、作者和引用语境，均指向既有KU `units/archives/guida-spirituale-molinos-text`。因此将`aln-5653`由`undecided`改为`same`，复用现有archive KU，不新建登记。此项只处理身份对齐；statement中的`cites`没有对应formal关系行，留待S6，不新增关系或宣称已查阅原书。
+
+<a id="s6-chp2-brugnoli-citations-reassessment-20261102"></a>
+### 2026-11-02 第2章 Brugnoli 1957脚注指向：历史关系裁决复核
+
+第2章p.29注5（`02_CHP-2_sec_i.md` L104；印本p.29）只记“M. V. Brugnoli”与1957年。书目p.417（`21_CHP-21Bibliography.md` L266–268）列同作者同年两篇不同文章：Castello文章与Albani/Domenichino壁画文章。原脚注没有题名，当前S2 statement的qualifier也将各自题名对应标为tentative/待核；两篇文章未独立查阅。
+
+复核发现此前 `rel-1981`、`rel-1982` 已将两项具体标题分别登记为formal `cites`，与S2“未建立正式S6边”的记录冲突。现保留关系行、端点、谓词、来源范围、候选和S3/S4身份，但把两项当前状态降为pending；原formal决定及其被修正理由保留在本条历史记录。候选 `cand-4328`、`cand-4329`仍为两篇不同文章，不合并身份。`rel-1983` Toesca引文仍pending；书目直接列出两项作者形式的 `rel-1985`、`rel-1986`继续formal。当前关系总数不变（2,649）；状态由2,589 formal/57 pending/3 rejected调整为2,587 formal/59 pending/3 rejected。无statement、mention、alignment或H9622历史事件修改；待脚注到具体题名有直接证据后再审。

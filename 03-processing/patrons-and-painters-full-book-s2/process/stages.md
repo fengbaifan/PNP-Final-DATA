@@ -18665,3 +18665,20 @@ L1301–1306是S0的错位OCR块，不对应本PDF新增的p.442图像。当前�
 **报告总括项与关系影响。** 独立报告提及第2章85条citation false标签需按`cites`类型复核；本批第2章仅含2条`cites` statement，二者当前均为`relation_candidate=true`，本批没有该总括项所指的false-cites记录。顺序1188的当前端点与mention修订已核到S3：`cand-2677`仍same→人物Valentin，`cand-2678`仍same→作品Allegory of Rome；旧候选`cand-4108`仍指向同一作品KU。正式边`rel-1026 created_by`保持作品→人物、限于图版I，以图版目录署名为证；其历史裁决未变。其他待证摘要均未写入relations.csv；本批未改候选、alignment、relations.csv或历史S6裁决。
 
 **批次结算。** 顺序1137–1236共100条：88条新判PASS、11条新确认pending、1条既有PASS沿用；本批使当前开放台账净减少99条。全库当前版PASS 7,043、已审待证734、历史映射开放7,728、版本差异待核0、待回映/当前复核0；尚未达PASS共8,462条，下一连续未审区段从顺序1237开始。9,622历史事件台账未增删；S2仍未全书独立接收。
+
+<a id="2026-11-02-s2-current-review-b275-order-1237-1336"></a>
+### 2026-11-02 S2当前版逐ID复核 B275：第2章，顺序1237–1336
+
+**提速与版本核平。** 本批整段复用第2章独立逐条审读提交 `2273e2743158401b841fb9bc7b7d1332836d400a`，只重核当前ID、statement、来源和mention版本并定位报告列明的待修项，没有重复通读无差异句段。100/100条当前statement对象与该审读版本一致；来源 `02_CHP-2_sec_i.md` SHA-256为`5eca92acb03fe9934be85c82a6ec6806d3c564002955e99bd317916f3c7c8dc6`；100/100条H9622历史事件及来源映射一致；191条segment mention与报告快照完全一致，变更、增删均为0。100条历史事件原裁决未改。
+
+**本批结算。** 顺序1237–1336共100条：71条当前PASS，29条pending。报告明确列出并在逐ID清单保留的待修项为：
+
+- p.27：`st-chp2-seci-l71-80-scipione-art-change`、`st-chp2-seci-l71-80-smm-family-chapel-comparison`、`st-chp2-seci-l71-80-resources-st-peters`、`st-chp2-seci-l71-80-spoleto-bishopric`、`st-chp2-seci-l71-80-bologna-legate`、`st-chp2-seci-l71-80-domenichino-commission`、`st-chp2-seci-l71-80-domenichino-imprisonment`、`st-chp2-seci-l71-80-deposition-removal`、`st-chp2-seci-l71-80-arpino-picture-seizure`、`st-chp2-seci-l71-80-maderno-nave-continuation`。
+- p.28：`st-chp2-seci-l82-93-agucchi-theory-development`、`st-chp2-seci-l82-93-reni-commission`、`st-chp2-seci-l82-93-domenichino-supremacy`、`st-chp2-seci-l82-93-guercino-supremacy`、`st-chp2-seci-l82-93-villa-social-setting`。
+- p.29：`st-chp2-seci-l95-106-citation-brugnoli-castello`、`st-chp2-seci-l95-106-contrast-fragment`、`st-chp2-seci-l95-106-cupid-iconography`、`st-chp2-seci-l95-106-collection-holdings`、`st-chp2-seci-l95-106-canvases-by-caravaggio`、`st-chp2-seci-l95-106-thirteen-displayed`、`st-chp2-seci-l95-106-other-paintings-location`、`st-chp2-seci-l95-106-essay-authored`、`st-chp2-seci-l95-106-essay-purpose`、`st-chp2-seci-l95-106-contemporary-art-level`、`st-chp2-seci-l95-106-cambiaso-collection`、`st-chp2-seci-l95-106-carracci-collection`、`st-chp2-seci-l95-106-venetian-collection`、`st-chp2-seci-l95-106-other-paintings-part-of-collection`。
+
+其余71条与既有逐条审读版本、来源及mention集完全一致，报告未列为待修项，复用原文审读。具体保留理由逐ID写入当前复核清单 `s2-current-review-roster.csv`。
+
+**关系与历史裁决影响。** p.29脚注5只写“M. V. Brugnoli”及1957年，书目在p.417列有同作者同年的两篇不同文章，脚注本身不能确定指向哪一题名；当前两条S2 statement也说明标题级对应仍待证、未建立正式S6边。故将 `rel-1981`、`rel-1982` 从formal改为pending，保留行ID、两篇不同作品端点、谓词、来源定位和原决定说明；不合并或改动cand-4328/cand-4329及其S3/S4身份。另有 `rel-1983`仍pending；有书目两项直接依据的 `rel-1985`、`rel-1986`作者关系保持formal。关系表当前为formal 2,587、pending 59、rejected 3，共2,649项。预览后同步赞助人与画家总卡及两篇文章卡；总卡同时发现并同步了当前关系表已有的Zanotti合并引证投影与Famiglie待证投影，未改变这两项关系裁决。文章卡撤下两条formal反向投影。除rel-1981/1982状态复核外，本次未改statement、mention、alignment或H9622历史事件。
+
+**进度。** 全库当前PASS 7,114、已审待证763、历史映射开放7,628、版本差异待核0、待回映/当前复核0；尚未达当前PASS共8,391条。下一连续开放区段从顺序1337开始。S2未全书独立语义接收。

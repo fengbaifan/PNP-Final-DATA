@@ -55,7 +55,6 @@ process_ref: 03-processing/patrons-and-painters-full-book-s2/process/knowledge.m
 
 | 方向与关系 | 关联知识元 | 语境与证据 |
 |---|---|---|
-| ← cited_by（`cited_by`，反向投影） | [《赞助人与画家》（Patrons and Painters）](patrons-and-painters.md) | S6 statement st-chp2-seci-l95-106-citation-brugnoli-frescoes; object candidate cand-4329; S3 identity group archive-group-brugnoli-albani-domenichino-bassano-1957. Haskell citation only.；角色：被引文献；范围：Note 5 names M. V. Brugnoli among 1957 articles; the bibliography separately lists this second title. Reuses the existing archive unit; article unread.；原断言与证据见发出端卡片“《赞助人与画家》（Patrons and Painters）”：[来源](../../../02-sources/02-Markdown/02_CHP-2_sec_i.md)；haskell-1980-rev-ed；Chapter 2, printed p. 29 n. 5, Markdown L104, PDF p. 10; S2 statement: st-chp2-seci-l95-106-citation-brugnoli-frescoes |
 | → 作者（`authored_by`） | [M. V. 布鲁尼奥利（M. V. Brugnoli）](../persons/m-v-brugnoli.md) | Bibliography-backed structural authorship; source statement st-chp21-bib-l243-293-entry-16. S3 person group linked in this batch. No external identity expansion.；角色：书目责任者；范围：Bibliography places the second quoted title under Brugnoli, M. V.; this reuses the same source-defined person group. Initials are not expanded; article unread.；证据：[来源](../../../02-sources/02-Markdown/21_CHP-21Bibliography.md)；haskell-1980-rev-ed；Chapter 21, printed p. 417, Markdown L266–L268.; S2 statement: st-chp21-bib-l243-293-entry-16; author form: Brugnoli, M. V. |
 
-第2章的书内引注已裁为 formal（`rel-1982`）；书目责任者关系也已按原书作者形式登记。文章及其内容未独立查阅。
+第2章注5只称Brugnoli的1957年文章，无法在书目所列两篇文章中确定本文是否为该脚注目标；对应`rel-1982`现为pending，待题名级引证证据。本文与另一篇文章仍分别登记；书目责任者关系保持formal。文章及其内容未独立查阅。
