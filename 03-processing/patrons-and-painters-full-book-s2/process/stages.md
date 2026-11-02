@@ -16836,3 +16836,32 @@ p.317开篇句按原语气记录“Venice似乎未变而欧洲已变”；印本
 **关系与影响检查。** 本批statement ID直接对应的现行S6边为`rel-2540`（Moscheni委托Longhi绘制Lodoli肖像）和`rel-2544`（Lodoli肖像画另行制成版画），均维持formal；端点、关系方向、来源范围和“不推定日期/版次/刻工”的限定与当前正文相符。没有相应pending或rejected裁决，也未改relations表。其他p.323注文边不引用本批正文statement。关系一致性审计阻断0。
 
 **批后状态。** B102的100/100条均记为`reviewed_current_pass`：88条复用精确旧页语义审读，12条变化对象按当前文本重核；本批9,622历史事件0条。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态为当前PASS 4,194、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核2,206。未获当前PASS为11,311；尚待当前路由2,292（2,206条待回映/复核＋86条版本差异）。S2仍未全书独立语义接收。下一批从顺序11826开始。
+
+
+<a id="2026-11-02-s2-current-review-b103-ch10-p325-p328"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B103：第十章印刷页325–328，顺序11826–11925
+
+**历史核平与版本复用。** 本批100条连续statement的`history_9622_event_count`均为0；不属于9,622条历史复核事件，旧事件总账不变。与`d7adabfb`完整statement JSON对象逐ID比较：4条完整对象未变，复用p.325既有页审读；55条同ID对象变化、41条快照后新增，共96条按当前原文、引句、候选端点与限定直接复核。页审读复用只覆盖精确对象；不把新增对象或变动对象伪称为旧版已审，也不等于独立全书接收。
+
+`CHP-10.pdf` SHA-256=`c4dc87df223967525a92edae8d28dc5307ce45787eb7b5e337f079c33dcfadbb`；当前S0 `10_CHP-10_sec_ii.md` SHA-256=`25542734fde53358cde0a489f1c62ff3f021f32d68be733162b406d4d8a229f9`。四个连续源段覆盖本批100条及153条mention：
+
+| 当前规范源段 | statement | mention | 源段SHA-256 |
+|---|---:|---:|---|
+| `10_CHP-10_sec_ii:l203-208` | 17 | 34 | `16e22c3f4e71979566b340ab472f5e56f67b2e3a0397bca82fa54ab3def9e5a6` |
+| `10_CHP-10_sec_ii:l210-222` | 32 | 47 | `a1fa6e3f087678b633dc4f2a33ff371c3852bd3923ee85b85ee787a4c259484b` |
+| `10_CHP-10_sec_ii:l224-239` | 35 | 47 | `0932b9d6e7b24dc84a8fad20a510cdf979f7af80a8055204c687917e86f684e4` |
+| `10_CHP-10_sec_ii:l241-246` | 16 | 25 | `151bd8d05048bb8c096b06a1a31bc9a54ddd07f47b8e99fc0c8919b624799ce5` |
+
+**逐项语义判断。** 4条完整对象复用2026-10-03 p.325原页语义审读（本文件`#L4478`）；p.326–327和p.328旧页图/文字记录见`#L4488`、`#L4498`，但本批96条变动/新增对象均逐项回到当前statement与S0原文。
+
+- p.325的13条变化对象涵盖Gozzi寓言、Tiepolo在Villa Valmarana的乡村场景、Maggiotto与Longhi/Zompini比较、Gozzi提出公开展示德行图像、Memmo在Padua实施相似方案，以及Pisani改革纲领。保留“seem to anticipate”作为Haskell解释，不写成Millet影响链；保留未具名寓言画家/受信人和Pisani反对对象跨页接到p.326的Inquisitori di Stato；孟默方案沿用候选`cand-1650`与第15章交叉引用，不新增事实；Pisani自利动机仍是作者评价。
+- p.326的32条变化/新增对象记录Pisani于1780年当选、支持与政府监视、Gozzi致敬、三组入职诗集/宣传册题名、寓意版画和名片图像、Boscarati被Pisani接纳为“official painter”、Riviera早年委托的四幅哲学/教育寓意画及其版画/说明册。分别保留Haskell报告、名片未定读法、Temple“presumably Justice”、Inquisitors对图像的意图判断、Boscarati或Pisani顾问展示作品的两个备选说法；不把误解假说写成无政治含义的定论。注1列出的“presso”印记不自行判为出版者，题名只表示场合、未独立核书；`rel-2462`–`rel-2464`的`published_by`继续pending，`rel-2465`的馆藏`located_at`继续pending，`rel-2648`–`rel-2649`的`has_subject`继续pending。注2只作为Ambri第6章书目指引，不称已读。
+- p.327的35条变化/新增对象区分Procuratie Nuove外展出的未具名政治图像、Pisani委托Giampiccoli制作的Campo di S. Maria Formosa景观、其拉丁题铭及撤回；不把两组作品混同。后者既有`rel-2351`–`rel-2354`仍分别记录委托、书内创作者归属、描绘地点和题铭内容，保持formal；不匹配具体存世印张或Pisani宫邸。宫中宴会按相对时间、未具名密探、被报告的图像、菜单诗句、推测的不安及流传俗语分开；“四日后Inquisitors行动”与Pisani被捕是不同statement，不补逮捕日期/指控。注3将早于1780的Dall’Acqua版画、Haskell对“专为Pisani入职而委托”说法的否定、作品或印张可能于1780展出、Moschini的说法、Riviera说明册版本与伦敦拍卖版本分别记录；严格保留pictures/prints择一未决与“good reason to believe”的语气，不补commission或展出对象身份。被引图书馆藏品、目录和Moschini/Zannandreis页码均未独立查阅。
+- p.328的16条变化/新增对象区分《Il Filosofo dell’Alpi》标题、Rousseau影响说、该诗对Zuccarelli成功“partly responsible”的因果限定、Smith雇用及数位评论者的赞语。Zanetti与Biffi的信/日记、Baretti、Venturi等引文均只作为Haskell转引，未称独立核读；保留Biffi的友谊与书信关系为原文断言，不自动写入关系表；Rousseau之死后的日记、Biffi自我认同推论和诗作影响链相互区分。 OCR的`Use/life`及跨页`II Filosofo`/`Il Filosofo`按既有页图校读说明留在S2，不修改S0。
+
+本批除roster的逐ID复核字段外，未改statement、mention、candidate或alignment表。提及`cand-1650`及各已存在端点仅核对当前对象与现有决定，不重新作S3身份裁决。
+
+**关系与影响检查。** 本批直接关联的4条formal边`rel-2351`–`rel-2354`端点、方向和证据范围均符合当前p.327 Giampiccoli景观/题铭statement，维持formal；6条pending边`rel-2462`–`rel-2465`、`rel-2648`–`rel-2649`保持原端点和待证理由，不因当前原文转录或statement拆分而升级。无rejected边变化；relations表未改。关系一致性审计阻断0。
+
+**批后状态。** B103的100/100条均记为`reviewed_current_pass`：4条精确复用旧页语义审读，96条当前变化/新增对象逐项重核，其中55条变化、41条新增；本批9,622历史事件0条。全库15,505条statement、27,302条mention、12,448个candidate；roster互斥状态为当前PASS 4,294、已审待证696、历史映射开放8,323、版本差异待核86、待回映或当前复核2,106。未获当前PASS为11,211；尚待当前路由2,192（2,106条待回映/复核＋86条版本差异）。S2仍未全书独立语义接收。下一批从顺序11926开始。
