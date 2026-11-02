@@ -18349,3 +18349,13 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **逐ID回链。** 连续100条中97条对应历史事件（statement精确96、改版1），97/97来源版本匹配；另3条无历史事件。chp-14:14_CHP-14_intro:l168-220（重复于94条历史行：改映1、删除0、新增2）。同一段mention差异组续接B243：两批共100条历史行、只计1个segment差异组。4条直接受影响当前项已有逐ID独立复核锚点并PASS；96条历史开放发现原样保留。
 
 **下游影响。** 只更新历史到当前ID／版本的回链及已有当前PASS证据引用；不改statement、mention、候选、relations.csv或9,622事件台账。rel-2301及rel-1758–rel-1760维持原formal范围；p.349 issue的relation候选继续process-only pending。S3/S4与其余历史裁决不变；本批不构成全书S2接收。
+
+<a id="2026-11-02-s2-current-review-b245-order-13201-13300"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B245：第15章 p.362，顺序13201–13300
+
+**逐ID回链。** 连续100条中97条对应9,622历史事件（statement精确97、改版0），来源版本97/97匹配；另3条无历史事件。1个segment级mention差异组（m-chp15-p362-0019“family palace”注记变化，重复于48条历史行）保留在历史回链中；其候选为宫邸而非S. Maria di Sala乡间别墅，不与本批3条构件mention混同。批后当前PASS 3、历史开放97、待处理0。
+
+**原页核读与OCR判断。** `CHP-15.pdf`物理页2页眉可见印为362（PDF SHA-256 357e830cc4e880909edd62975bfcd06ade1c2b432d8866229831025fe86f2885）；正文原文：“A convex bay in the centre projects from the main block, which is joined by lower two-storey wings to small, square pavilions at each end.” 对应S0第24行和4条精确mention：`The villa` [2712,2721)、`main block` [2922,2932)、`lower two-storey wings` [2953,2975)、`small, square pavilions` [2979,3002)。S0第16行的`[Page 302]`为页眉OCR误读；扫描页为362，故既有`printed_page=362`与关系来源p.362正确，撤回误判，不改写不可变的S0转录。
+
+**关系与历史影响。** `rel-1714`、`rel-1715`、`rel-1716`的part_of方向、端点、formal状态和p.362 L24来源均与原页相符；不改关系或S3/S4身份决定。三条新statement不属于可映射的9,622历史事件；其余97条旧审读及48条mention差异记录原样保留。statement、mention、relations.csv与历史事件台账均未写回；本批局部PASS不代表全书S2独立接收。
