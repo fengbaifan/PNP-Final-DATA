@@ -16970,7 +16970,7 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 
 **历史核平与当前ID。** 连续100条中98条各对应一个9,622历史复核事件；statement ID与对象、来源版本、S0段、segment mention-set均精确匹配，98条原裁决仍有开放发现，故直接复用历史阅读、保留`prior_review_mapped_open`，不升级PASS。另2条（顺序12416、12423）无历史事件、原状态`needs_crosswalk`；沿用第13章p.342既有页级语义处理记录（[S2结果阶段](../results/stages.md#L805)与[S3/S4/S5/S6端点记录](knowledge.md#s3-s4-s5-s6-chp13-p342-tessin-bathsheba-gai-20261027)），并直接查看当前statement、S0引句、mention跨度及权威印本页，逐ID建立当前复核去向。历史事件账本仍为9,622条；这2条不计入其中。
 
-**来源及指纹。** `13_CHP-13_intro.md` SHA-256=`c0b93d35aab60ec8261eb14db1e2f1b4d9ec7cae9709e19f236ccddbd12996a8`；`CHP-13.pdf` SHA-256=`da49addcf425e7473770ba02db64284d1189934cf38f2b773f0672f052fca2bc`。物理页11（印刷p.342）扫描原文明确包含“a figure by the sculptor Gai”及Tessin引述“une Bathsheba de Giovanni da Bologna qui m’appartient”。本批四个连续S0段共100条statement、313条mention；当前statement/段/mention-set hashes及100条原句对来源行范围核验通过。
+**来源及指纹。** `13_CHP-13_intro.md` SHA-256=`c0b93d35aab60ec8261eb14db1e2f1b4d9ec7cae9709e19f236ccddbd12996a8`；`CHP-13.pdf` SHA-256=`da49addcf425e7473770ba02db64284d1189934cf38f2b773f0672f052fca2bc`。物理页11（印刷p.342）扫描原文明确包含“a figure by the sculptor Gai”及Tessin引述“une Bathsheba de Giovanni da Bologna qui m’appartient”。本批覆盖四个S0段（正文连续片段及对应注释段）共100条statement、313条mention；当前statement/段/mention-set hashes及100条原句对来源行范围核验通过。
 
 | 当前S0段 | statement | mention | segment SHA-256 | mention-set SHA-256 |
 |---|---:|---:|---|---|
@@ -16986,3 +16986,24 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **关联S6裁决。** 原p.342端点记录的6项裁决均保留：`rel-2427` commissioned_by、`rel-2428` created_by（Gai来源归属）、`rel-2429` pendant_of（意图配对）及`rel-2430` owned_by（Tessin引文中的所有权主张）四条formal边不变；Tessin称Gai为“un demi-Michel Ange”的关系类型和Giovanni da Bologna人物身份/作者归属两项继续pending。未新增或撤销关系，候选、alignment、CU及历史裁决表未改写。
 
 **批后状态。** 本批完成核平100/100：98条历史开放项复用保留、2条无历史事件statement完成当前PASS。当前全库roster状态：PASS 4,478、已审待证697、历史映射开放8,323、版本差异待核84、待回映/当前复核1,923；未获当前PASS 11,027，当前路由剩余2,007。下一连续顺序为12426；顺序12426–15505尚余3,080条（1,727条历史映射开放、1,278条待回映/当前复核、75条版本差异待核）。全书S2仍未独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b109-ch13-p342-p344-gori-letters"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B109：第十三章p.342–344两封Gori书信，顺序12426–12525
+
+**历史核平与当前版本。** 连续100条中98条各有一个9,622历史事件；当前statement对象、来源段与mention指纹均与历史版本精确一致，历史来源匹配且mention delta为空。98条沿用历史直接阅读并继续`prior_review_mapped_open`，逐条保留原开放发现。另2条当前statement不在9,622事件账本：顺序12437为p.342 L105的1752年12月22日书信作者归属；顺序12498为p.344 L121的1752年8月26日书信作者归属。两条均有既有页级S2迁移与归属处理记录，本批再核对当前ID、引句、链接注释和权威印本页，记为当前statement语义PASS；不补造历史事件。
+
+**原页依据与文献区分。** `13_CHP-13_intro.md` SHA-256=`c0b93d35aab60ec8261eb14db1e2f1b4d9ec7cae9709e19f236ccddbd12996a8`；`CHP-13.pdf` SHA-256=`da49addcf425e7473770ba02db64284d1189934cf38f2b773f0672f052fca2bc`。已对照物理页11/印刷p.342正文及注6、物理页13/印刷p.344正文及注8：p.342的“With the greatest effort and expense”由Haskell归于Zanetti所写，注6定位1752年12月22日致A. F. Gori的信，MSS. B. VIII, 13, p. 400；p.344的“Every day I realise more”也由Haskell归于Zanetti，注8定位1752年8月26日致A. F. Gori的另一封信，MSS. B. VIII, 13。两候选`cand-10210`/`cand-10218`分别沿用不同S3 `new`组及独立archive KU；本批明确不合并两封信。两份手稿和馆藏目录均未实际查阅；当前归属PASS仅表示准确记录Haskell的报告。
+
+**来源段和指纹。** 本批覆盖四个S0段（正文连续片段及对应注释段）共100条statement、254条mention；全部statement hash、源段hash、Markdown源资产hash、当前mention集合fingerprint和`original_quote`来源行范围核验通过。
+
+| 当前S0段 | statement | mention | segment SHA-256 | mention-set SHA-256 |
+|---|---:|---:|---|---|
+| `13_CHP-13_intro:l98-105` | 15 | 78 | `784beac28408e154b50a6afebd080e5c3de774cd0bd6bc8093bfbee712c4c0a0` | `c2ffc04853fbdb16e1303080535372faea30d6e0204b26d2064dd6565a77efff` |
+| `13_CHP-13_intro:l107-114` | 29 | 62 | `743ef09cf9ff747cb574bdd900aabff98a8567d461a268ca362c5aa3dfd5ef71` | `a19c3e051bb812c8186d9c22ddd3b9690dc25adb685f27a1f59b536f9b2a55af` |
+| `13_CHP-13_intro:l116-122` | 32 | 57 | `2eee99ac3f4b0588c8491bc9a2987eb8817d8e07774747df9d898967e4fcc16b` | `af9e4a7b97aee002af3bff263f6f7cfdb584720f273f1f40c2c201dc86e86506` |
+| `13_CHP-13_intro:l161-171` | 24 | 57 | `3b428ba03ee1060eafa7b250f5ad4831613f35cc4ab909b49703bf20a35bd37c` | `aa0584fcdf8957485a3166bca47a038345b4db21ee17c9c2b43aa0fecc5506f0` |
+
+**关联关系与历史裁决。** 两封信各自的书内作者归属边保持formal且严格按Haskell报告限定：12月22日信`rel-1542`，8月26日信`rel-1545`。同两组的收信人边`rel-1543`、`rel-1546`，以及仅表示书内所报馆藏/架号的`located_at`边`rel-1544`、`rel-1547`均保持formal、未改；未由此宣称实际查阅手稿或验证当前保管状态。两archive KU、候选与S3决定均不变，relations.csv及9,622历史事件表未改。
+
+**批后状态。** 本批完成核平100/100：98条历史开放项复用且保留原开放发现，2条无历史事件statement当前PASS。全库roster状态为当前PASS 4,480、已审待证697、历史映射开放8,323、版本差异待核84、待回映/当前复核1,921；未获当前PASS 11,025，当前路由剩余2,005。下一连续顺序为12526；顺序12526–15505尚余2,980条（1,629条历史映射开放、1,276条待回映/当前复核、75条版本差异待核）。9,622历史事件总数不变；全书S2仍未独立语义接收。
