@@ -17178,3 +17178,18 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **S3与关系影响。** 本批100条有103个唯一端点候选：`same` 87、`undecided` 16；S3决定和KU映射不变。图版目录L131–160对应的47条既有S6边均为`formal`，逐一回链后状态无变化，`relations.csv`未改。National Gallery摄影来源候选`cand-4201`仍为`undecided`，没有可用KU端点或formal关系边；不强行合并National Gallery分支，也不补造formal关系，相关端点随顺序552–553待后续身份裁决。
 
 **批后状态与剩余量。** B117完成当前连续顺序401–500共100/100 PASS；下一条为501。全库15,505条statement、27,302条mention、12,448个candidate；roster状态：当前PASS 4,984、已审待证697、历史映射且保留开放发现8,323、版本差异待核82、待回映／当前复核1,419。未获当前PASS 10,521；当前路由未结1,501（待回映／复核1,419＋版本差异82）。9,622历史事件台账未改；本批修订不构成全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b118-front-matter-501-600"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B118：图版68b、摄影来源及第二版导言，顺序501–600
+
+**历史核平与可复用阅读。** 本批连续顺序501–600共100条；在9,622条历史事件中均无对应事件，建表状态均为`needs_crosswalk`，因此不计入历史事件分母。复用已完成的章前图版目录与第二版导言语义阅读；以既有15页印本核读为底，定向回查照片来源印刷页xvi及第二版导言印刷p.7。本批100条当前ID均按各自现行statement与来源段核对。
+
+**引文、来源及mention。** 本批引文定位100/100；`front-matter:00_05_List_of_Plates:l140-172`含95条statement、99条mention，`l174-185`含5条statement、46条mention，145条跨度逐项切片错误0。两段当前S0 SHA-256分别为`16b5be546aa8ed1bb7a59a16db3c2a20ec327a95d95da393a83d55584734b3e6`、`196034c189e7cee9583b761a80a78bb584f556ad3d4e930cfde6ddc98206e601`；对应mention-set哈希为`4646d3ef57ce6143d43e0072563ef2ef81b10e1826c91c4e2737467862db061b`、`193acfd7f2ea1e66479b0b9a4c4f86ba607a9ceeee2af3ee683ef71ee3c37368`。源Markdown资产SHA-256=`96aa11521c311c17676147c3ec99fb47d7cf9042a13bc58768c3742553ac5f83`；印本`CHP-0Cover.pdf` SHA-256=`502a6dcf66b5c01b09209ad92abbf6b1a172488de1058750ca9db9b906b2d266`。
+
+**当前statement修订。** 对`st-fm-photo-h24-location`和`st-fm-photo-h24-p28a`各修订claim与qualification：S0仅印作“Villani, Bologna”；claim现保留来源原名，qualification说明S3已将候选`cand-3617`对齐至[A. Villani e Figli](../../../04-knowledge/units/institutions/a-villani-e-figli.md)。照片来源位置仍只作清单标签，不推为当前地址、拍摄地点或原作所在地；图版28a仍只记录本版供片署名，不推成创作、委托、产权或现藏。两条原引文、source lines 172及mention记录不变；S3身份沿用既有决定，不改变alignment。
+
+**S3与S6影响。** 本批117个直接端点候选决定为`same` 107、`undecided` 9、`new` 1；无S3决定变化。9项未决中包括图版5作品版本和若干摄影供应者身份；National Gallery分支`cand-4201`保持`undecided`，无可用KU，相关照片关系不新增formal边。唯一`new`为地点`Glasgow`，保持其既有待登记去向。与本批图片来源行159–172直接相关的31条既有formal关系均回链无误、状态未变；`rel-0767 supplied_by`继续指向A. Villani e Figli，其scope已明确记录图版署名为“Villani”且身份依据S3。本批不改`relations.csv`、KU或关系裁决。第二版导言的问题句仍保持疑问，不作为已证结论。
+
+**批后状态与剩余量。** B118当前PASS 100/100；全库15,505条statement、27,302条mention、12,448个candidate。roster状态：当前PASS 5,084、已审待证697、历史映射且保留开放发现8,323、版本差异待核82、待回映／当前复核1,319；未获当前PASS 10,421，当前路由未结1,401。下一批从601开始；9,622条历史事件台账未改，S2仍未全书独立语义接收。
