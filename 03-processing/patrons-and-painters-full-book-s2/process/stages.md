@@ -21025,4 +21025,19 @@ The 253 exact historical statements remain pending with their open findings. For
 
 Exact historical hashes map to current statuses: reviewed_current_pending=291. Changed historical hashes map to current statuses: reviewed_current_pass=4. Historical hashes, outcomes, source versions, and event-ledger rows remain unchanged. Prior review-batch distribution: {prior_string}.{pnl}{pnl}**Relation and decision impact.** 47 `relations.csv` rows cite statements in this interval (formal: 45; pending: 2): formal: rel-0397, rel-0398, rel-1288, rel-1289, rel-1290, rel-1291, rel-1292, rel-1365, rel-1461, rel-1462, rel-1590, rel-1591, rel-1592, rel-1594, rel-1595, rel-1596, rel-1597, rel-1598, rel-1599, rel-1600, rel-1601, rel-1650, rel-1658, rel-1659, rel-1660, rel-1661, rel-1701, rel-1763, rel-1848, rel-1849, rel-1850, rel-1943, rel-1944, rel-2017, rel-2018, rel-2047, rel-2051, rel-2079, rel-2080, rel-2082, rel-2370, rel-2404, rel-2586, rel-2587, rel-2588; pending: rel-1847, rel-2019. All endpoints, predicates, scope, evidence, and S6 decisions remain unchanged. No relation row was modified.
 
-**Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 13,958/15,512; next order 13,959, with 1,554 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.
+**Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 13,958/15,512; next order 13,959, with 1,554 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.<a id="2026-11-03-s2-current-review-stage-b556-b558-order-13959-14258"></a>
+
+### 2026-11-03 S2 current-version ID reconciliation stage B556–B558 (orders 13959–14258)
+
+**Current review and historical-event reconciliation.** This continuous span covers Chapter 16 and Chapter 17 and Chapter 18 and Chapter 19. Current status is 42 `reviewed_current_pass` and 258 `reviewed_current_pending`; current statement, source asset, segment, and mention fingerprints pass 300/300. All 300 page-review evidence targets resolve across 300 rows. The 281 H9622 event references map to matching statement IDs, with source versions matching 281/281. Historical outcome distribution: directly_read_with_open_findings_unless_separate_pass_record=281.
+
+| Batch | Current order | PASS reused | Pending retained | H9622 events | Exact / changed | Source match | No event |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| B556 | 13959–14058 | 19 | 81 | 93 | 81 / 12 | 93/93 | 7 |
+| B557 | 14059–14158 | 11 | 89 | 98 | 89 / 9 | 98/98 | 2 |
+| B558 | 14159–14258 | 12 | 88 | 90 | 88 / 2 | 90/90 | 10 |
+| **Stage total** | **13959–14258** | **42** | **258** | **281** | **258 / 23** | **281/281** | **19** |
+
+Exact historical hashes map to current statuses: reviewed_current_pending=258. Changed historical hashes map to current statuses: reviewed_current_pass=23. Historical hashes, outcomes, source versions, and event-ledger rows remain unchanged. Prior review-batch distribution: {prior_string}.{pnl}{pnl}**Relation and decision impact.** 25 `relations.csv` rows cite statements in this interval (formal: 24; pending: 1): formal: rel-1567, rel-1796, rel-1797, rel-1798, rel-1842, rel-1911, rel-1915, rel-1916, rel-1917, rel-1918, rel-2003, rel-2004, rel-2005, rel-2006, rel-2048, rel-2122, rel-2302, rel-2303, rel-2304, rel-2305, rel-2306, rel-2307, rel-2308, rel-2432; pending: rel-2007. All endpoints, predicates, scope, evidence, and S6 decisions remain unchanged. No relation row was modified.
+
+**Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 14,258/15,512; next order 14,259, with 1,254 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.
