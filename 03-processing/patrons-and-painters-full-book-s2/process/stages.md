@@ -16472,3 +16472,15 @@ p.240的指示词“this”仍不识别具体作品，Mehus之子未具名；引
 **批后进度与剩余量。** 当前15,505条statement、27,285条mention。roster互斥状态：`reviewed_current_pass` 2,836；`reviewed_current_pending` 696；历史已映射但开放发现8,323；当前版本差异待核101；待既有审读回映或当前复核3,549。未获当前PASS共12,669条。B080完成顺序9526–9625；下一批从9626开始。9,622历史事件仍为9,622/9,622已核平；S2仍未独立语义接收。
 
 **必要核验。** B080顺序连续、100个ID唯一并均有批次证据；47条现引句均可在当前来源行定位；segment L372–461中的173条mention span逐项按S0切片核对，错误0。22条相关formal关系状态未变。`audit_tables.py --strict-stage --summary`返回15,505条statement、27,285条mention、`errors=[]`、`s2_missing=[]`；`audit_relation_consistency.py --dry-run`返回broken target、invalid relation type、missing inverse、weak evidence及unbaselined generic evidence-backed均为0，另有1,320个零关系KU和2个超连接KU诊断项。`git diff --check`通过。机械审计与本批结果均不构成全书S2独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b081-ch9-p247-p251"></a>
+### 2026-11-02 S2当前版本逐ID复核 B081：第9章引言p.247–251，顺序9626–9725
+
+**历史记录核平与复用。** 连续顺序9626–9725共100条，statement ID唯一、无缺号。95条（9630–9648、9650、9652、9654–9657、9660–9725）各对应唯一9,622历史事件；95/95的最新历史statement SHA-256与当前版本相同，S0 segment、来源Markdown及原书来源资产版本匹配，mention集合增删均为空。逐ID复用原直接阅读结论并保留开放发现，不重读、不升级当前PASS。另两条（9649、9658）有历史事件但当前statement对象已修订；事件所指旧版裁决保留，当前来源和mention集合未变，另行复核当前statement。三条（9651、9653、9659）无对应历史事件，也纳入当前版复核。
+
+**当前版原页核读。** 复核5条statement及对应S0原文：`st-chp9-p248-facade-design-and-building`（Haskell将S. Maria del Giglio立面设计归于Antonio Barbaro）；`st-chp9-p248-facade-apotheosis-of-antonio`（“himself”依句内先行项指Antonio）；`st-chp9-p248-facade-apotheosis-of-brothers`（原文明说其兄弟，但未命名四人）；`st-chp9-p249-tempio-comparison`（将该立面的人本颂扬与Tempio Malatestiano比较）；`st-chp9-p249-tempio-located-at-rimini`（仅按原文记Tempio位于Rimini）。五条引句均在当前S0找到；对照`CHP-9.pdf`物理第6页（印本p.248）和第11页（印本p.249），句义与拆分边界相符。p.249原页为“of a single religious symbol”，S0 OCR的“os”保留在来源层；本批没有改写来源。两段S0 segment `l38-46`（58条mention）及`l77-88`（38条mention）共96条span逐一切片核对，错误0。S0 Markdown SHA-256=`9b63ad7d1e2326f0ca7448efcd490c9ae5fce8c237c4289161227fe55a8518c3`；当前原书PDF SHA-256=`8d0adc954f824fa5c6f202571e03a6eb8475dd4125c91c41f79204a445b961ec`。
+
+**判断与下游影响。** 本批100条均完成路由：5条当前版PASS，95条精确历史复用并保留开放发现；未新增pending。`cand-8163`（Antonio Barbaro四兄弟组）仍S3 `undecided`，不因S2原句通过而确定成员或身份；对应待证关系不建立formal边。既有`rel-1423`–`rel-1427`五条formal关系端点和证据未改，`relations.csv`、alignment、KU、S5字段及9,622事件账本均不改写。两条历史内容变更记录继续保留`changed`状态。
+
+**批后状态与核验。** 当前statement/mention总数15,505/27,285。roster互斥状态：当前PASS 2,841；已审待证696；历史映射但保留开放发现8,323；当前版本差异待核99；待历史/既有审读回映或当前复核3,546；未获当前PASS 12,664。B081完成顺序9626–9725；下一批从9726开始。9,622历史事件分母不变，S2仍未独立语义接收。写后执行严格表审计、关系一致性审计、roster批次断言和`git diff --check`。
