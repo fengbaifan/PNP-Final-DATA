@@ -20878,3 +20878,22 @@ The immutable H9622 event ledger has no event for these rows: all 300 retain `no
 **Relation and decision impact.** The 24 `relations.csv` rows that cite statements in this range are all `formal`: rel-1281, rel-1282, rel-1283, rel-1552, rel-1553, rel-1554, rel-1555, rel-1565, rel-1566, rel-1647, rel-1648, rel-2155, rel-2214, rel-2215, rel-2216, rel-2217, rel-2218, rel-2219, rel-2220, rel-2221, rel-2222, rel-2223, rel-2224, rel-2225. Their endpoints, predicates, scope, evidence, and S6 decisions remain unchanged. No statement, mention, candidate, alignment, KU, H9622 history, or relation row was modified.
 
 **Stage result.** The full roster remains 15,512 statements and 27,339 mentions; global current status remains PASS 8,709 and pending 6,803. The reconciliation cursor now reaches 11,558/15,512; next order 11,559, with 3,954 sequence positions remaining. The earliest unresolved finding remains 1,330. This reused PASS evidence does not constitute independent whole-book S2 acceptance.
+
+<a id="2026-11-03-s2-current-review-stage-b532-b534-order-11559-11858"></a>
+
+### 2026-11-03 S2 current-version ID reconciliation stage B532–B534 (orders 11559–11858)
+
+**Current review and evidence reuse.** This continuous 300-row span is Chapter 10. All 300 rows already carried `reviewed_current_pass`; the stage reused those decisions after verifying the current statement hash, source asset hash, S0 segment hash, and segment mention count/fingerprint for every row. Fingerprint errors: 0. All 300 `review_evidence_ref` values resolve to the existing B100–B103 process anchors. Ninety prior-review evidence references are line-number links; their target lines resolve within this process file. Prior evidence counts are B100=74, B101=100, B102=100, B103=26.
+
+| Batch | Current order | Rows | Existing PASS reused | Pending retained | New PASS | H9622 events | Prior evidence references |
+|---|---:|---:|---:|---:|---:|---:|---|
+| B532 | 11559–11658 | 100 | 100 | 0 | 0 | 0 | B100: 74; B101: 26 |
+| B533 | 11659–11758 | 100 | 100 | 0 | 0 | 0 | B101: 74; B102: 26 |
+| B534 | 11759–11858 | 100 | 100 | 0 | 0 | 0 | B102: 74; B103: 26 |
+| **Stage total** | **11559–11858** | **300** | **300** | **0** | **0** | **0** | **B100: 74; B101: 100; B102: 100; B103: 26** |
+
+There is no corresponding event for these rows in the immutable H9622 ledger: all 300 retain `not_in_reconstructed_count`, the prior-review mapping remains `current_object_differs`, and the ledger is unchanged. This older mapping was not rewritten as a historical event; current PASS is supported by the linked current-page review evidence and matching current fingerprints.
+
+**Relation and decision impact.** Fourteen `relations.csv` rows cite statements in this interval: 12 formal (rel-2540, rel-2544, rel-2609, rel-2610, rel-2611, rel-2612, rel-2613, rel-2614, rel-2615, rel-2616, rel-2617, rel-2618) and two pending (`rel-2621`, `rel-2622`). All endpoints, predicates, scope, evidence, and S6 decisions are unchanged. In particular, the two pending relationships remain pending. No statement, mention, candidate, alignment, KU, H9622 history, or relation row was modified.
+
+**Stage result.** The full roster remains 15,512 statements and 27,339 mentions; global current status remains PASS 8,709 and pending 6,803. The reconciliation cursor now reaches 11,858/15,512; next order 11,859, with 3,654 sequence positions remaining. The earliest unresolved finding remains 1,330. Reused PASS evidence does not constitute independent whole-book S2 acceptance.
