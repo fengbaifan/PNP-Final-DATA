@@ -2988,3 +2988,11 @@ Reconciled 300 continuous Chapter 21 rows: 300 existing current PASS reused, 0 c
 ### 2026-11-03 S2 current-version ID reconciliation stage B568–B570 (15159–15458)
 
 Reconciled 300 continuous Chapter 21 rows: 300 existing current PASS reused, 0 current pending retained, 0 new PASS. H9622 maps 0 events (0 exact, 0 changed; source versions 0/0); historical outcomes remain unchanged. Current fingerprints passed 300/300. 23 linked relations remain unchanged (formal: 23). Global S2 remains 15,512 statements, 27,339 mentions, PASS 8,709, pending 6,803; next order 15,459, with 54 sequence positions left to reconcile. S2 remains without independent whole-book acceptance. See [stage B568–B570 process record](../process/stages.md#2026-11-03-s2-current-review-stage-b568-b570-order-15159-15458).
+
+### 2026-11-03 S2 current-version ID reconciliation stage B571–B571 (15459–15512)
+
+Reconciled 54 continuous Chapter 21 rows: 54 existing current PASS reused, 0 current pending retained, 0 new PASS. H9622 maps 0 events (0 exact, 0 changed; source versions 0/0); historical outcomes remain unchanged. Current fingerprints passed 54/54. 2 linked relations remain unchanged (formal: 2). Global S2 remains 15,512 statements, 27,339 mentions, PASS 8,709, pending 6,803; next order 15,513, with 0 sequence positions left to reconcile. S2 remains without independent whole-book acceptance. See [stage B571–B571 process record](../process/stages.md#2026-11-03-s2-current-review-stage-b571-b571-order-15459-15512).
+
+### 2026-11-03 H9622历史-ID与版本核平全表收尾
+
+全表15,512/15,512当前statement、来源资产、段落与mention指纹通过。H9622账本9,622行保持不变：9,620条历史审读映射至9,537个当前ID（含83次重复审读），另2个撤换ID各有明确撤销／拆分去向；来源版本匹配9,622/9,622。按当前ID汇总的历史hash为8,972 exact、565 changed。当前S2仍为PASS 8,709、pending 6,803；本收尾不代表独立全书语义接收。详见[全表核平审计](../process/stages.md#{anchor})。

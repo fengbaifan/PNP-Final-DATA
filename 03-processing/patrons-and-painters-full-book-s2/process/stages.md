@@ -21100,4 +21100,29 @@ Exact historical hashes map to current statuses: . Changed historical hashes map
 
 Exact historical hashes map to current statuses: . Changed historical hashes map to current statuses: . Historical hashes, outcomes, source versions, and event-ledger rows remain unchanged. Prior review-batch distribution: {prior_string}.{pnl}{pnl}**Relation and decision impact.** 23 `relations.csv` rows cite statements in this interval (formal: 23): formal: rel-1294, rel-1295, rel-1476, rel-1506, rel-1637, rel-1745, rel-1746, rel-1747, rel-1984, rel-1989, rel-2012, rel-2079, rel-2080, rel-2081, rel-2241, rel-2244, rel-2250, rel-2288, rel-2289, rel-2290, rel-2384, rel-2385, rel-2386. All endpoints, predicates, scope, evidence, and S6 decisions remain unchanged. No relation row was modified.
 
-**Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 15,458/15,512; next order 15,459, with 54 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.
+**Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 15,458/15,512; next order 15,459, with 54 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.<a id="2026-11-03-s2-current-review-stage-b571-b571-order-15459-15512"></a>
+
+### 2026-11-03 S2 current-version ID reconciliation stage B571–B571 (orders 15459–15512)
+
+**Current review and historical-event reconciliation.** This continuous span covers Chapter 21. Current status is 54 `reviewed_current_pass` and 0 `reviewed_current_pending`; current statement, source asset, segment, and mention fingerprints pass 54/54. All 54 page-review evidence targets resolve across 54 rows. The 0 H9622 event references map to matching statement IDs, with source versions matching 0/0. Historical outcome distribution: .
+
+| Batch | Current order | PASS reused | Pending retained | H9622 events | Exact / changed | Source match | No event |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| B571 | 15459–15512 | 54 | 0 | 0 | 0 / 0 | 0/0 | 54 |
+| **Stage total** | **15459–15512** | **54** | **0** | **0** | **0 / 0** | **0/0** | **54** |
+
+Exact historical hashes map to current statuses: . Changed historical hashes map to current statuses: . Historical hashes, outcomes, source versions, and event-ledger rows remain unchanged. Prior review-batch distribution: {prior_string}.{pnl}{pnl}**Relation and decision impact.** 2 `relations.csv` rows cite statements in this interval (formal: 2): formal: rel-2268, rel-2619. All endpoints, predicates, scope, evidence, and S6 decisions remain unchanged. No relation row was modified.
+
+**Stage result.** Global current S2 status remains PASS 8,709 and pending 6,803 over 15,512 statements and 27,339 mentions. Reconciliation reaches 15,512/15,512; next order 15,513, with 0 sequence positions remaining. The earliest unresolved finding remains 1,330. This stage does not constitute independent whole-book S2 acceptance.
+
+<a id="2026-11-03-s2-current-review-roster-full-reconciliation-audit"></a>
+
+### 2026-11-03 H9622历史-ID与版本核平全表审计
+
+**当前版本覆盖。** 逐ID roster 与当前 `book-statements.jsonl` 均为15,512条，statement ID一一对应，`current_order`连续覆盖1–15,512。statement、来源资产、S0 segment及segment mention集合指纹全表通过15,512/15,512；来源文件共68个。当前状态为8,709 `reviewed_current_pass`、6,803 `reviewed_current_pending`。
+
+**H9622映射。** 不可变历史账本保留9,622行（SHA-256 `75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`）。当前roster按statement ID累计映射9,620条历史事件至9,537个当前statement ID，包含83次重复审读；两项不在当前statement集合的旧ID各对应1条事件。历史事件账本的逐事件 `current_statement_match` 为9,121 `exact`、499 `changed`、2 `absent_current`，来源版本均匹配9,622/9,622。按当前ID汇总的roster交叉表则为8,972 `exact`、565 `changed`，来源匹配9,537/9,537；两组hash数按事件行与当前ID分别计数，口径不同。历史裁决、审读hash及账本未改写。
+
+两条 `absent_current` 均有明确撤换去向：H9622-01597（`st-chp2-seciv-l190-245-rest-flight-owned-by-rospigliosi`）因错挂到p.58注8而撤销；相关所有权与作者陈述分别由当前statement `st-chp2-seciv-l171-179-bellori-nota-reports-poussin-work-owned`、`st-chp2-seciv-l171-179-rest-flight-attributed-to-poussin`承接，两条当前状态均为pending，不继承旧PASS。H9622-05790（`st-chp13-p332-copyright-effects-on-local-and-export-books`）因合并不同市场判断而拆为 `st-chp13-p332-copyright-effects-on-local-books` 与 `st-chp13-p332-luxury-export-editions-gained`；两条现行statement有各自当前复核，不继承旧ID的历史裁决。
+
+**边界。** 本次完成的是历史9,622条复核记录与当前ID、来源版本的核平；全书S2独立语义接收仍未完成，6,803条当前pending及各自开放finding继续保留。
