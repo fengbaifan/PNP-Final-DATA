@@ -16944,3 +16944,22 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **相关关系与台账影响。** 第13章p.333代理人—出版规格及p.334周刊编辑两个关系候选继续process-only pending；`relations.csv`无二者formal边。跨p.334/p.336记录的`rel-1310`（`member_of`）和p.336的`rel-2055`（`designed_by`）均与相关statement精确对应，原状态formal且未变化。本批未改relations.csv、S3决定、candidate或历史裁决表。
 
 **批后状态及核验。** 本批完成100/100条逐ID核平：1条当前PASS、1条当前待证、98条复用历史直接阅读且保留开放发现。`audit_tables.py --strict-stage --summary`结果`errors=[]`、`s2_missing=[]`；关系一致性阻断项为0。历史9,622事件数不变。本批只写roster及本过程/结果记录；S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b107-ch13-p336-p339"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B107：第十三章p.336–339，顺序12226–12325
+
+**历史事件和当前版本。** 本批100条连续statement各有一个9,622历史事件。对当前ID、statement对象、来源版本、S0段、segment mention-set及原句范围逐项核对：100/100均与历史直接阅读版本精确匹配，历史来源版本全部匹配，mention delta全为空，原句均落在声明的S0来源行范围内。无statement或mention新增、修订、删除；无需重做历史阅读。100条继续标记`prior_review_mapped_open`并保留各自`prior_review_ref`及原开放发现，不能从复用映射升级成当前PASS。
+
+**来源覆盖。** `13_CHP-13_intro.md` SHA-256=`c0b93d35aab60ec8261eb14db1e2f1b4d9ec7cae9709e19f236ccddbd12996a8`。四个连续来源段覆盖印刷p.336–339，共100条statement、218条mention：
+
+| 当前S0段 | statement | mention | segment SHA-256 | mention-set SHA-256 |
+|---|---:|---:|---|---|
+| `13_CHP-13_intro:l41-50` | 16 | 51 | `575ec0ac309dcec132ec190a56e047e1d634a0407f4a40453f06764329833fde` | `b01ed347ee47433c6846122eb21f711a79ffe2cc8dce0430215c7d0b1157c8b0` |
+| `13_CHP-13_intro:l52-59` | 30 | 47 | `7ef0d455d825a64771a87aa0ebbd3e7b14cd82f3b0e88c56f8c7919de474e986` | `6a0f372d700d0661c73e10d6ffe5300c061411eec93dd6c10e3a1a4dd8c94e82` |
+| `13_CHP-13_intro:l61-68` | 28 | 58 | `620218f342bfa723e9e5b399102e36d0579adbbe358d6df0df7048a2f1669f83` | `1083592ebb82dac7577a3668edcc68e33dd3d1834f1e24e8edce6e7620f6287f` |
+| `13_CHP-13_intro:l70-77` | 26 | 62 | `43172602cf35b362d91811b6735bfb843abe37e012116206f32184edd14580bb` | `11f24291971e889c7e1c6d199f302febf9edf730f6193a7641fb479fda7a25fa` |
+
+**相关关系及历史裁决。** 本批当前statement对象和引句均未变，故不改S3、S6或历史事件。关系表中可追溯到本段的两条formal边保持不变：`rel-1310`（Scuola di S. Rocco成员及Guardiano，跨p.334/p.336记录，未推断连续任期）和`rel-2055`（Piazzetta为Platnerus书设计frontispiece，p.336）。未发现其他p.336–339来源跨度需要改写的relations.csv记录；其余关系候选留在各自S6审查阶段，不由本批历史复用自动裁决。
+
+**批后状态与剩余量。** 本批完成核平100/100；当前PASS=0，历史直接审读精确复用且开放发现保留=100。S2逐ID全库状态不因复用而改变：当前PASS 4,476、已审待证697、历史映射开放8,323、版本差异待核84、待回映/当前复核1,925；当前路由剩余2,009。下一连续顺序为12326；顺序12326–15505尚余3,180条，其中1,825条为历史映射开放、1,280条待回映/当前复核、75条版本差异待核。历史总账9,622条不变，S2仍未全书独立语义接收。
