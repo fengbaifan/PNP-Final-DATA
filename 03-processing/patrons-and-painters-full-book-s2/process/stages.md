@@ -18506,3 +18506,14 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **书目语义与版本边界。** 所有出版物statement均限于“书目列出/署名”，不声称已独立阅读被引作品。p.413保留Barozzi—Berchet的两卷本集合及其与已有卷级候选的分立，并按页图拆开被OCR粘连的Bartolozzi/Bartsch条目。p.414保留S0漏录Bellori《Nota delli Musei…》的页图附录记录，不伪造mention；Beckford出版信息和Betcherman页码继续以原页校读限定。p.415继续区分Blunt 1945年图书与同年期刊文章、不同年份期刊文章及其容器。
 
 **关系及待证裁决。** 六个直接关系statement的既有去向核对后不变：`rel-1477`、`rel-1784`、`rel-1561`维持书内来源限定的formal；`rel-1562 authored_by`维持其既有外部证据支持的formal（本批未重新核查外部来源）；Bellori《Nota》责任归属维持pending（书目方括号和现有谓词不足以断言作者）；Berthier作者候选`cand-12451`仍待身份核实，不建formal边。无S3身份决定、statement、mention或`relations.csv`写回。全批100条当前PASS；全库PASS 5,678、已审待证699、历史映射开放8,323、待回映/当前复核805；连续顺序剩余805条，从14701开始。S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b260-order-14701-14800"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B260：第21章书目 L165–334，顺序14701–14800
+
+**逐ID结论与证据复用。** 100条均无9,622历史事件，且100/100当前statement hash与roster快照一致。复用既有第21章书目p.415–418逐页S2过程及校读（规范源L165–334；PDF物理页5–8）：PDF SHA-256 `1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`，Markdown SHA-256 `f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3`。B259已核的L165–205 segment仍同版，26条mention span复用；另外三段97条mention span逐条切片，偏移错误0。全批100/100当前引句定位S0，segment哈希均匹配。
+
+**书目内容与来源边界。** 仅记录Haskell列出的出版物、作者形式和书目导航，不声称已查阅被引作品。p.416的Bracciano交叉索引不合并两个候选，也不产生人物关系；Boschini书目作者归属保持来源限定。p.417将Brugnoli一条所列两篇文章分开，保留集合级/卷级对象差异及Bricarelli排版次序校读。p.418按页图分开S0中粘连的Canova/Cantalamessa条目，作者`See`指向只表示本地书目导航。
+
+**关系裁决影响。** 四项既有formal来源限定作者边均维持原状：`rel-1477` Elena Bassi、`rel-2240` Anthony Blunt、`rel-2243` Angelo Borzelli、`rel-1588` Marco Boschini、`rel-2383` Giuseppe Ceci（其中五条对应statement；本批直接命中为`rel-2240`、`rel-2243`、`rel-1588`、`rel-2383`，`rel-1477`为前批B259已核）。本批不改S3身份、statement、mention或`relations.csv`。全批100条当前PASS；全库PASS 5,778、已审待证699、历史映射开放8,323、待回映/当前复核705；连续顺序剩余705条，从14801开始。9,622历史事件台账不变，S2仍未全书独立语义接收。
