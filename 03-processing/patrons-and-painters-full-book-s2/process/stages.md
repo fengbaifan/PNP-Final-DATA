@@ -18548,3 +18548,12 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **书目语义与关系影响。** 四页只支持Haskell列出的书目责任者和出版信息，不表示本轮查阅被引作品。直接关系候选`st-chp21-bib-l701-754-entry-03`的`rel-2508 authored_by`保持formal，来源限定为p.428书目中的`Longhi, R.`；其S3映射仍为Roberto Longhi。`st-chp21-bib-l701-754-maclaren-authored-by`的作品端点已登记，人物候选`cand-7123`仍为undecided（仅“N. Maclaren”），依既有S6过程保留pending，不建formal边。本批其余98条无直接关系候选；未改statement、mention、候选、S3或`relations.csv`。
 
 本批100/100当前PASS。全库当前版PASS 6,078、已审待证699、历史映射开放8,323、版本差异待核0、待回映/当前复核405；连续顺序剩余405条，从15001–15100推进至15101开始。9,622历史事件台账不变；局部PASS不构成全书S2独立语义接收。
+<a id="2026-11-02-s2-current-review-b264-order-15101-15200"></a>
+
+### 2026-11-02 S2逐ID当前版复核 B264：第21章书目 p.428–431，顺序15101–15200
+
+**逐ID结论与证据复用。** 本批100条均无9,622历史事件，当前statement规范哈希与清单快照100/100一致。复用既有逐页审读：L701–754（p.428/PDF物理页18）、L756–806（p.429/页19）、L808–844（p.430/页20）、L846–881（p.431/页21）。当前PDF SHA-256 `1c6131359d4641f6a0b6e05330a6687634a630c4aacac9c21aeacc4a1392a512`，Markdown源SHA-256 `f69ccf85eda80949e835db205addb5e89c8521a60e3632db1d7bf7c62e4d38b3`与原记录一致；引句定位100/100。四段共130条mention span，L701–754的37条与B263重叠并复用，新增93条逐条核验，偏移错误0。
+
+**书目语义与关系影响。** 保持逐页审读中的印本校读、作者指引目标和版本边界；书目归属仅描述Haskell的列目，不表示独立查阅被引作品。本批8条直接关系候选中，七条既有formal边维持原谓词和方向：`rel-1785`、`rel-1787`（Mazarin authored_by），`rel-1786`（Morbio published_by），`rel-1788`（Chéruel compiled_by），`rel-1789`（Chéruel published_by），`rel-2241`（Monconys authored_by）、`rel-2244`（Neri authored_by）。Maresca条目`st-chp21-bib-l756-806-author-maresca`的作品映射保留；作者`cand-7389`仅有首字母A.，按`bl-0051`维持undecided与pending，不建人物KU或formal边。无statement、mention、候选、S3决定或`relations.csv`写回。
+
+本批100/100当前PASS。全库当前版PASS 6,178、已审待证699、历史映射开放8,323、版本差异待核0、待回映/当前复核305；连续顺序剩余305条，下批从15201开始。9,622历史台账不变；S2仍未全书独立语义接收。
