@@ -18630,3 +18630,14 @@ L1301–1306是S0的错位OCR块，不对应本PDF新增的p.442图像。当前�
 **未决发现。** 报告列明的7条当前仍待修订，均保持pending：`st-chp1-secii-l118-127-01b`（gilders成员资格的限定与端点）；`st-chp1-secii-l118-127-03a`及`st-chp1-secii-l129-135-01`（未完片段与续段完整句重复，需排除/合并片段并保留完整锚）；`st-chp1-secii-l118-127-05`（Urban VIII brief财务利益与Academicians社会地位主张混合，受益端点不明）；`st-chp1-secii-l129-135-01e`（Queen Christina与Mola的马车记载须保留Haskell归属和可信度限定）；`st-chp1-secii-l137-146-02`（bentveughels称谓、群体与Schildersbent组织映射未核平）；`st-chp1-secii-l148-153-01a`（婚配对象为未具名家主的未具名妹妹，端点与mention待核）。
 
 **批次结算。** 837–936共100条：93条当前PASS，7条pending。全库当前PASS 6,767、已审待证714、历史映射开放8,024、版本差异待核0、待回映/当前复核0；下一连续未收口区段从937开始。历史9,622事件和原裁决未改，statement、mention、候选及正式关系表未改。逐条PASS不等于本章或全书S2接收。
+
+
+<a id="2026-11-02-s2-current-review-b272-order-937-1036"></a>
+
+### 2026-11-02 S2当前版逐ID复核 B272：第1章，顺序937–1036
+
+**证据复用与版本差异。** 本批100条中98条当前statement完整JSON与第1章逐条复核提交`2273e2743158401b841fb9bc7b7d1332836d400a`一致；另2条已经在B122/B123核为当前PASS，分别涉及Rosa展览procedure端点/关联及第12页脚注引用Grassi 1957，沿用当前结论，不重复复核。唯一segment mention增量为`m-s2-chp1-p22-20261029-procedure`，已在B122逐条核对并映射到对应PASS statement；没有遗漏未审mention。来源`01_CHP-1_sec_ii.md`与报告提交字节一致。既有独立报告覆盖第1章521条逐读，但该章整体未接收。
+
+**未决发现。** 6条与报告版本相同且仍未修订，保持pending：`st-chp1-secii-l905-916-01j`遗漏“try”并需保留未证明限制已解除的限定；`st-chp1-secii-l927-943-03f`及`st-chp1-secii-p22-n1-cites-rosa-letter`缺特定信件、收件人与prospective patron的mention锚；`st-chp1-secii-p12-n1-grassi-cortona-series-claim`未正确保留争议性归属候选；`st-chp1-secii-p8-n1-piola-obtains-alternative-residence`地点未具名，继续待证、不推断住所；`st-chp1-secii-p9-n2-cites-gualandi-i-p91`卷页引文与出版物候选/mention映射不一致。
+
+**批次结算。** 937–1036共100条：94条当前PASS（92条本批新复用，2条已有当前PASS沿用），6条pending。全库当前PASS 6,859、已审待证720、历史映射开放7,926、版本差异待核0、待回映/当前复核0；下一连续未收口区段从1037开始。历史9,622事件及原裁决未改；statement和mention表未改，S2仍未全书独立接收。
