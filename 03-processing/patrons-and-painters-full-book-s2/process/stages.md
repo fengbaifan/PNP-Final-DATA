@@ -18608,3 +18608,14 @@ L1301–1306是S0的错位OCR块，不对应本PDF新增的p.442图像。当前�
 **未决项。** 顺序724 `st-chp1-secii-l28-38-04`（p.9，行312–319）仍把Pamfili委托、Mola向律师求借参考资料及其选择Air题材合并在一条断言中；当前statement与报告版本完全一致，尚未拆分。该行保持`reviewed_current_pending`，不推定资料已借出、不生成额外关系。待按原句拆分并复核对应端点后再关闭。
 
 **批次结算。** 637–736共100条：99条`reviewed_current_pass`，1条`reviewed_current_pending`。全库当前15,505条statement、27,302条mention；逐ID互斥状态为PASS 6,582、已审待证700、历史映射开放8,223、版本差异待核0、待回映/当前复核0。9,622条历史审读事件及原裁决未改；历史核平完成与全书S2独立语义接收是两个不同状态。下一连续区段从顺序737开始。具体ID状态见`s2-current-review-roster.csv`。
+
+
+<a id="2026-11-02-s2-current-review-b270-order-737-836"></a>
+
+### 2026-11-02 S2当前版逐ID复核 B270：第1章，顺序737–836
+
+**证据复用与版本核对。** 本批99条statement完整JSON与第1、2、4章逐条复核提交`2273e2743158401b841fb9bc7b7d1332836d400a`一致；对应segment的156条mention逐字段相同，来源`01_CHP-1_sec_ii.md`字节哈希`1b5890ce028c421718abcb28e4c6dc4070be1bc71597a96247b32ebee42e2268`一致。另1条顺序743 `st-chp1-secii-l48-60-07`先前已单独复核为pending；它只改变脚注关联字段，原claim、quote、候选与mentions未变，保留原批次和pending决定，不重复处理。既有报告本身逐条审读全章521条但明确未接收。
+
+**未决发现。** 以下7条均与报告版本精确相同，报告列为须修订问题，当前未改，保持pending：`st-chp1-secii-l62-71-09`（具体圆顶委托与家族一般评价合并）；`st-chp1-secii-l79-84-10`（未具名收件人与押金受益者角色混淆）；`st-chp1-secii-l86-94-06`（art dealing与art exhibitions候选范围不全）；`st-chp1-secii-l106-116-02f`、`-02h`、`-02j`（谓词所指授权/确认者与端点方向相反）；`-02l`（Francesco Barberini protector断言误指向Urban VIII）。
+
+**批次结算。** 737–836共100条：92条当前PASS、7条新确认pending、1条既有pending沿用。全库当前PASS 6,674、已审待证707、历史映射开放8,124、版本差异待核0、待回映/当前复核0；下一连续未收口区段从837开始。9,622条历史审读事件和原裁决未改；本批未改statement、mention、候选、S3或正式关系表，S2仍未全书独立语义接收。
