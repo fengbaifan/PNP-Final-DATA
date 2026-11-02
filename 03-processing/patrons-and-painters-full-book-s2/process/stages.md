@@ -17998,3 +17998,38 @@ statement主体cand-1693（Monterey）、客体cand-4965（三十年战争）；
 **逐ID回链。** 连续100条中0条匹配9,622历史事件（0条statement精确、0条改版），另100条无历史事件；0条历史事件均来源版本匹配并有证据回链。提及核对：mention集合无历史差异。statement改版行严格保留当前主审PASS或pending状态。
 
 **当前裁决及下游影响。** 当前PASS 92条，历史开放审读0条继续开放，当前主审pending 8条继续pending。8条复合摘要及跨页证据项依逐ID follow_up_note 保留pending。3条formal、0条pending、0条rejected关系保持原裁决；S3/S4决定不变。未改写statement、mention、candidate、alignment、KU、关系表或9,622事件台账。下一批从8901开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b202-order-8901-9000"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B202：chp-8，顺序8901–9000
+
+连续100条均为既有当前原文PASS并有逐ID证据（主审批次：S2-B073-CH8-P223-P226, S2-B074-CH8-P226-P229）；均无9,622历史事件，statement、来源段及mention集合在当前审核快照中无待核版本差异，复用PASS，不重复阅读。0条formal、0条pending关系保持原裁决；S3/S4不变。本批无statement、mention、candidate、alignment、KU、关系表或历史台账改写。下一批从9001开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b203-order-9001-9100"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B203：chp-8，顺序9001–9100
+
+连续100条均为既有当前原文PASS并有逐ID证据（主审批次：S2-B074-CH8-P226-P229, S2-B075-CH8-P229-P233-PL37-40）；均无9,622历史事件，statement、来源段及mention集合在当前审核快照中无待核版本差异，复用PASS，不重复阅读。7条formal、0条pending关系保持原裁决；S3/S4不变。本批无statement、mention、candidate、alignment、KU、关系表或历史台账改写。下一批从9101开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b204-order-9101-9200"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B204：chp-8，顺序9101–9200
+
+连续100条均为既有当前原文PASS并有逐ID证据（主审批次：S2-B075-CH8-P229-P233-PL37-40, S2-B076-CH8-P233-P236）；均无9,622历史事件，statement、来源段及mention集合在当前审核快照中无待核版本差异，复用PASS，不重复阅读。7条formal、3条pending关系保持原裁决（rel-2024, rel-2025, rel-2026继续pending）；S3/S4不变。本批无statement、mention、candidate、alignment、KU、关系表或历史台账改写。下一批从9201开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b205-order-9201-9300"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B205：chp-8，顺序9201–9300
+
+连续100条均为既有当前原文PASS并有逐ID证据（主审批次：S2-B076-CH8-P233-P236, S2-B077-CH8-P236-P239）；均无9,622历史事件，statement、来源段及mention集合在当前审核快照中无待核版本差异，复用PASS，不重复阅读。25条formal、0条pending关系保持原裁决；S3/S4不变。本批无statement、mention、candidate、alignment、KU、关系表或历史台账改写。下一批从9301开始；S2仍未全书独立语义接收。
+
+
+<a id="2026-11-02-s2-current-review-b206-order-9301-9400"></a>
+
+### 2026-11-02 S2逐ID历史／当前版本核平 B206：chp-8，顺序9301–9400
+
+连续100条均为既有当前原文PASS并有逐ID证据（主审批次：S2-B077-CH8-P236-P239, S2-B078-CH8-P239-P241-NOTES-P215-P222）；均无9,622历史事件，statement、来源段及mention集合在当前审核快照中无待核版本差异，复用PASS，不重复阅读。10条formal、1条pending关系保持原裁决（rel-1638继续pending）；S3/S4不变。本批无statement、mention、candidate、alignment、KU、关系表或历史台账改写。下一批从9401开始；S2仍未全书独立语义接收。
