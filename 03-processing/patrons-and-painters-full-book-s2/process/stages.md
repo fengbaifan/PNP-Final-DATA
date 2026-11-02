@@ -16963,3 +16963,26 @@ p.328–330注释记录《Il Filosofo dell’Alpi》的题名/署名/翻译/印�
 **相关关系及历史裁决。** 本批当前statement对象和引句均未变，故不改S3、S6或历史事件。关系表中可追溯到本段的两条formal边保持不变：`rel-1310`（Scuola di S. Rocco成员及Guardiano，跨p.334/p.336记录，未推断连续任期）和`rel-2055`（Piazzetta为Platnerus书设计frontispiece，p.336）。未发现其他p.336–339来源跨度需要改写的relations.csv记录；其余关系候选留在各自S6审查阶段，不由本批历史复用自动裁决。
 
 **批后状态与剩余量。** 本批完成核平100/100；当前PASS=0，历史直接审读精确复用且开放发现保留=100。S2逐ID全库状态不因复用而改变：当前PASS 4,476、已审待证697、历史映射开放8,323、版本差异待核84、待回映/当前复核1,925；当前路由剩余2,009。下一连续顺序为12326；顺序12326–15505尚余3,180条，其中1,825条为历史映射开放、1,280条待回映/当前复核、75条版本差异待核。历史总账9,622条不变，S2仍未全书独立语义接收。
+
+<a id="2026-11-02-s2-current-review-b108-ch13-p339-p342"></a>
+
+### 2026-11-02 S2当前版本逐ID复核 B108：第十三章p.339–342，顺序12326–12425
+
+**历史核平与当前ID。** 连续100条中98条各对应一个9,622历史复核事件；statement ID与对象、来源版本、S0段、segment mention-set均精确匹配，98条原裁决仍有开放发现，故直接复用历史阅读、保留`prior_review_mapped_open`，不升级PASS。另2条（顺序12416、12423）无历史事件、原状态`needs_crosswalk`；沿用第13章p.342既有页级语义处理记录（[S2结果阶段](../results/stages.md#L805)与[S3/S4/S5/S6端点记录](knowledge.md#s3-s4-s5-s6-chp13-p342-tessin-bathsheba-gai-20261027)），并直接查看当前statement、S0引句、mention跨度及权威印本页，逐ID建立当前复核去向。历史事件账本仍为9,622条；这2条不计入其中。
+
+**来源及指纹。** `13_CHP-13_intro.md` SHA-256=`c0b93d35aab60ec8261eb14db1e2f1b4d9ec7cae9709e19f236ccddbd12996a8`；`CHP-13.pdf` SHA-256=`da49addcf425e7473770ba02db64284d1189934cf38f2b773f0672f052fca2bc`。物理页11（印刷p.342）扫描原文明确包含“a figure by the sculptor Gai”及Tessin引述“une Bathsheba de Giovanni da Bologna qui m’appartient”。本批四个连续S0段共100条statement、313条mention；当前statement/段/mention-set hashes及100条原句对来源行范围核验通过。
+
+| 当前S0段 | statement | mention | segment SHA-256 | mention-set SHA-256 |
+|---|---:|---:|---|---|
+| `13_CHP-13_intro:l70-77` | 3 | 62 | `43172602cf35b362d91811b6735bfb843abe37e012116206f32184edd14580bb` | `11f24291971e889c7e1c6d199f302febf9edf730f6193a7641fb479fda7a25fa` |
+| `13_CHP-13_intro:l79-88` | 49 | 85 | `661b04d02c9cbf2feda5e28e972bcb16c5375d173d775de71709151c87e2d073` | `31be39bf90f692f6e5d2f82d4d3811da53fc81d7f8bfd359623342c5f7e6235a` |
+| `13_CHP-13_intro:l90-96` | 33 | 88 | `2aedb9d5ab3791a325d38e6b2a6b963d39fe6faab03ddf8930abde4740e74a95` | `a6082fb7d407b4916dd48fae7998266e669b00a11c9f549eb7bc4aae2ebce2e5` |
+| `13_CHP-13_intro:l98-105` | 15 | 78 | `784beac28408e154b50a6afebd080e5c3de774cd0bd6bc8093bfbee712c4c0a0` | `c2ffc04853fbdb16e1303080535372faea30d6e0204b26d2064dd6565a77efff` |
+
+**两条无历史事件statement的裁决边界。** 顺序12416 `st-chp13-p342-bathsheba-attributed-to-giovanni-da-bologna`：statement准确记录Tessin引文中的来源归属，mention `m-s2-ch13-p342-032`（`une Bathsheba`）、`-033`（`Giovanni da Bologna`）及所有权语句`-034`的跨度与S0相符，故当前S2语义PASS。作品候选`cand-10083`沿用既有S3 `new`及S4 KU；人物`cand-10084`仍为S3 `undecided`。不把来源里的作者称名直接归并Giambologna，不为该人物建立KU或formal creator边；该身份端点/作者归属关系继续pending。
+
+顺序12423 `st-chp13-p342-venus-figure-attributed-to-gai`：印本原句称commissioned figure “by the sculptor Gai”，mention `m-s2-ch13-p342-027`跨度精确；候选`cand-1099`已有S3/S4到Antonio Gai KU的`new`映射。statement仅记录Haskell在委托语境中的归属，不断言雕像已经执行或存世，故当前S2语义PASS。
+
+**关联S6裁决。** 原p.342端点记录的6项裁决均保留：`rel-2427` commissioned_by、`rel-2428` created_by（Gai来源归属）、`rel-2429` pendant_of（意图配对）及`rel-2430` owned_by（Tessin引文中的所有权主张）四条formal边不变；Tessin称Gai为“un demi-Michel Ange”的关系类型和Giovanni da Bologna人物身份/作者归属两项继续pending。未新增或撤销关系，候选、alignment、CU及历史裁决表未改写。
+
+**批后状态。** 本批完成核平100/100：98条历史开放项复用保留、2条无历史事件statement完成当前PASS。当前全库roster状态：PASS 4,478、已审待证697、历史映射开放8,323、版本差异待核84、待回映/当前复核1,923；未获当前PASS 11,027，当前路由剩余2,007。下一连续顺序为12426；顺序12426–15505尚余3,080条（1,727条历史映射开放、1,278条待回映/当前复核、75条版本差异待核）。全书S2仍未独立语义接收。
