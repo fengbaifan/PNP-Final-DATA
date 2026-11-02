@@ -2853,3 +2853,6 @@ p.213 `has_subject` 当前端点方向已修正为文章subject、未识别作�
 ### 2026-11-03：S2当前版逐ID复核阶段B448–B450（3159–3458）
 
 连续核平300条：B448、B449、B450各100条current PASS按B422–B425现行指纹证据复用，均无H9622历史事件。没有pending保留或新转PASS；全库S2仍为15,512 statements、27,339 mentions，PASS 8,709、pending 6,803；下一顺序3459。详见[阶段B448–B450记录](../process/stages.md#2026-11-03-s2-current-review-stage-b448-b450-order-3159-3458)。
+### 2026-11-03：S2当前版逐ID复核阶段B451–B453（3459–3758）
+
+连续核平300条：B451、B452、B453各100条既有current PASS复用，均无H9622历史事件。B453的14项mention fingerprint行差异是B425已审过的同一mention说明修订，不新增span或finding。无pending保留或新转PASS；全库S2仍为15,512 statements、27,339 mentions，PASS 8,709、pending 6,803；下一顺序3759。详见[阶段B451–B453记录](../process/stages.md#2026-11-03-s2-current-review-stage-b451-b453-order-3459-3758)。
