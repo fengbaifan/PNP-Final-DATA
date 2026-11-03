@@ -7449,7 +7449,7 @@ m-chp2-seciv-l79-89-0024,chp-2:02_CHP-2_sec_iv:l79-89,cand-0198,the Barberini,13
 m-chp2-seciv-l79-89-0025,chp-2:02_CHP-2_sec_iv:l79-89,cand-4667,Apollo,1389,1395,"Mythological figure represented with laurel and bee-marked harp, second occurrence."
 m-chp2-seciv-l79-89-0026,chp-2:02_CHP-2_sec_iv:l79-89,cand-0209,the poet-Pope,1484,1497,"Urban VIII, identified through the immediate Barberini and papal context; the source uses this epithet here."
 m-chp2-seciv-l79-89-0027,chp-2:02_CHP-2_sec_iv:l79-89,cand-4189,the Temple of Immortality,1527,1552,"Allegorical setting approached by the Heroes, second occurrence."
-m-chp2-seciv-l79-89-0028,chp-2:02_CHP-2_sec_iv:l79-89,cand-0209,his ancestors,1603,1616,Ancestors of the poet-Pope; Haskell does not name them individually.
+m-chp2-seciv-l79-89-0028,chp-2:02_CHP-2_sec_iv:l79-89,cand-0209,his,1603,1606,B577: only the possessive his refers to the poet-Pope; the unnamed ancestors are not Urban VIII himself.
 m-chp2-seciv-l79-89-0029,chp-2:02_CHP-2_sec_iv:l79-89,cand-2318,Andrea Sacchi,1860,1873,"Andrea Sacchi, whose prospects for commissions Cardinal Francesco promoted."
 m-chp2-seciv-l79-89-0030,chp-2:02_CHP-2_sec_iv:l79-89,cand-0199,Cardinal Francesco,1902,1920,Cardinal Francesco Barberini; the surname continues at the beginning of L86.
 m-chp2-seciv-l79-89-0031,chp-2:02_CHP-2_sec_iv:l79-89,cand-0199,Barberini,1921,1930,"Cardinal Francesco Barberini, whose name is split across L85–L86."
@@ -26896,7 +26896,7 @@ m-s2-chp2-surface-672b5a5107268bc7,chp-2:02_CHP-2_sec_iv:l65-77,cand-4288,old ma
 m-s2-chp2-surface-0a863f3599f300e8,chp-2:02_CHP-2_sec_iv:l65-77,cand-11478,Ducal collection,2005,2021,Unidentified ducal collection from which Enzo procured Dosso works; keep distinct from the Urbino collection candidate pending S3.
 m-s2-chp2-surface-bdf3238451e9297f,chp-2:02_CHP-2_sec_iv:l79-89,cand-0240,palace,633,639,The new Barberini palace recommended for decoration.
 m-s2-chp2-surface-8368f7a27b51b1e8,chp-2:02_CHP-2_sec_iv:l79-89,cand-0240,palace,1838,1844,Definite reference to the Barberini palace in the ongoing decoration account.
-m-s2-chp2-surface-b0dcd7e8da3b23dc,chp-2:02_CHP-2_sec_iv:l79-89,cand-0840,subject,2159,2166,An explicitly named proposed subject in the patronal art discussion.
+m-s2-chp2-surface-b0dcd7e8da3b23dc,chp-2:02_CHP-2_sec_iv:l79-89,cand-4672,subject,2159,2166,"B577: subject refers to the Divine Wisdom iconographic theme here, not the Contracts index subentry subject."
 m-s2-chp2-surface-2c7200d4adcfe9da,chp-2:02_CHP-2_sec_vii:l21-30,cand-2709,Velasquez,1836,1845,"The Spanish painter, not same-name work or event index subentries."
 m-s2-chp2-surface-db426204019481e6,chp-2:02_CHP-2_sec_vii:l38-54,cand-3126,Rome,843,847,Exact city substring; the locator's longer phrase collides with unrelated index subentries.
 m-s2-chp2-surface-a9a1dc82a6c94ec8,chp-2:02_CHP-2_sec_vii:l5-19,cand-0840,subject,2770,2777,The commemorative subject selected by the cardinals from the Anabasis.
@@ -28034,3 +28034,6 @@ m-chp2-secii-l10-18-0038,chp-2:02_CHP-2_sec_ii:l10-18,cand-11878,those of his pr
 m-chp2-secii-l10-18-0039,chp-2:02_CHP-2_sec_ii:l10-18,cand-11583,people come from every country,1995,2025,Printed p.32 L15. Source-defined visitor group in Contarini’s quotation; the tribute and motherland language remains rhetorical.
 m-chp2-secii-l20-28-0034,chp-2:02_CHP-2_sec_ii:l20-28,cand-11879,reconciliation of Henri IV in 1593,511,545,Printed p.33 L22–23. Haskell names this as one of two events he says proved barriers to Protestant advance.
 m-chp2-secii-l20-28-0035,chp-2:02_CHP-2_sec_ii:l20-28,cand-11880,these overwhelming victories,779,807,"Printed p.33 L23. Source-defined set referring to two distinct events, Henri IV’s reconciliation and the Battle of the White Hill; candidate type remains open."
+m-s2-b577-divine-sanction,chp-2:02_CHP-2_sec_iv:l79-89,cand-11888,the divine sanction given to the sovereigns of this world,1221,1278,B577 source-exact p.50 L84 anchor; interpretation/source-defined scheme remains bounded by Haskell’s wording.
+m-s2-b577-larger-scheme,chp-2:02_CHP-2_sec_iv:l79-89,cand-11889,the much larger scheme of decoration that was to follow,940,995,B577 source-exact p.50 L84 anchor; interpretation/source-defined scheme remains bounded by Haskell’s wording.
+m-s2-b577-advisers-fresco-context,chp-2:02_CHP-2_sec_iv:l79-89,cand-4003,the fresco,2869,2879,B577 claim-span repair: the fresco named in the biblical-text sentence is the work context for the advisers’ interpretation; not an additional relation claim.

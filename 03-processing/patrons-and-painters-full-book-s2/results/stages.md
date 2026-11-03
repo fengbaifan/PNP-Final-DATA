@@ -3018,3 +3018,7 @@ Reviewed 100 continuous current statements: reused 94 current PASS, promoted 3 p
 ### 2026-11-03 S2 current semantic review stage B576 (1960–2059)
 
 Reviewed 100 continuous current statements: reused 77 current PASS, promoted 18 pending to PASS, retained 5 pending. Updated 22 statements, adding no statement or mention. Two adjacent pre-existing PASS windows (200 statements) were reused after fingerprint checks. Corrected cand-1479 to person and aln-1814 to same with the existing Carlo Maderno KU. Full-book totals: 15518 statements, 27357 mentions, 8812 PASS, 6706 pending. Formal relations and immutable H9622 outcomes were preserved. See [B576 process record](../process/stages.md#2026-11-03-s2-current-review-b576-order-1960-2059) and [targeted S3 record](../process/knowledge.md#s3-targeted-cand-1479-maderno-20261103).
+
+### 2026-11-03 B577当前结果
+
+连续2060–2159的100条完成本轮处置：88 PASS、12 pending，含71条pending转PASS。Camassei两件作品候选与其作者分开；3条新增mention及2条span／指代修正；rel-2456 formal退回pending。全书15,518 statements、27,360 mentions，PASS 8,883、pending 6,635。下一窗口2160–2259；非独立接收。详见[过程](../process/stages.md#2026-11-03-s2-current-review-b577-order-2060-2159)与[当前交接结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。

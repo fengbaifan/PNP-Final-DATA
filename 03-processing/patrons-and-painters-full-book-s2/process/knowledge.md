@@ -19026,3 +19026,17 @@ B022核对《CHP-3》印本p.82正文与脚注1：脚注紧随明确标作Molino
 M.csv#16主项为“Maderno, Carlo”，子项“plans for Barberini palace”及页码47–48是索引定位，不是work身份。第2章p.47称Carlo Maderno为罗马主要建筑师，并记Taddeo接洽他；p.48记Maderno于1629年去世后由Bernini接替。独立原页复核也指出原suggested_type=work错误。此次将cand-1479类型更正为person；Barberini palace仍为独立候选cand-0240。
 
 cand-1479与cand-1477、cand-4873的索引规范名相同。cand-1477、cand-4873已组成new-person:carlo-maderno-530c4fdfa7并登记至units/persons/carlo-maderno。故aln-1814裁为same并复用该KU；此为书内全名、页码和人物角色的比较，不声称外部身份验证。人物卡已补入p.47–48来源证据和cand-1479入口。设计归属与关系候选不因身份same而自动formal；2051、2055及2061仍按各自pending状态处理。
+
+
+<a id="s3-s6-camassei-work-types-guido-career-20261103"></a>
+### 2026-11-03 B577：Camassei作品身份与Guido关系定向修正
+
+S1/S3：沿用候选保存的C.csv#9/#10锚点，实际核读Camassei主项下的God creating the Angels、Parnassus两个子项。印刷p.50、Markdown L83–84明确称two ceiling frescoes，且将画家、两件作品及Barberini宫殿分开。cand-0485/cand-0486原误标person，aln-0820/aln-0821误same至units/persons/andrea-camassei。两项改为work，保留索引锚点；在全量KU清单中未找到同粒度作品，S3改new、ku_id清空、旧KU移至legacy_ku_id。该比较是书内对象身份判断，不是外部作品版本验证；本批不新建KU。两项分别进入bl-0100/bl-0101，status=undecided，待S4登记，相关新作品关系仍不formal。受影响的2166号statement保持原复核状态，留下一窗口。
+
+S2：逐页核读CHP-2.pdf物理33–36页（印刷48–51）。his ancestors缩为his的教皇指代，祖先群体不冒充Urban VIII；subject从Contracts子项改映Wisdom题材；新增divine sanction、later larger scheme和adviser句中the fresco三个精确span。修正Guido austerity的因果误读；保留角色、作者评价、意图和图像解释各自范围。
+
+S6：rel-2456由formal退回pending。原记录为{"relation_id": "rel-2456", "subject_ku_id": "units/persons/cardinal-bentivoglio", "object_ku_id": "units/institutions/church-as-patron-in-venice-haskell-account", "predicate": "member_of", "time": "", "role": "宗教机构成员归属", "scope": "Haskell所述成功的教会生涯；不推定加入日期、具体修会或未记载职务。", "origin": "book", "status": "formal", "source_id": "haskell-1980-rev-ed", "source_span": "Chapter 2, printed p. 48 L59; S2 statement st-chp2-seciv-l54-63-guido-career-in-church", "source_file": "02-sources/02-Markdown/02_CHP-2_sec_iv.md", "note": "原文明确称Guido在Church拥有成功的career；按现有Church机构卡与rel-1436、rel-1437的entered the Church用例记录成员归属，不添加起止日期。"}。p.48的successful career in the Church是职业概述，不可直接套用其他人物entered the Church的member_of用例。本批不裁定Guido不存在成员身份，只撤回该句对该条正式边的充分支持。其他关系逐条保留，Giovanni三场景creator_of、书信authored_by、Sacchi主题与经文来源等已有正式边范围均不变。该条关系的两端卡须随后按既有renderer预览并定向同步。
+
+逐ID裁决及版本证据见[本批S2过程](stages.md#2026-11-03-s2-current-review-b577-order-2060-2159)。本批为主审修复与自查，不称独立语义接收。
+
+本批状态同步已完成：rel-2456在人物卡明确标为待证，原formal反向投影从机构卡移除；卡内只保留必要事实范围，完整裁决留本过程。两卡预览回查无差异。candidate-backlog新增bl-0100、bl-0101并明确undecided；S3 new与待S4登记分别表达，不增加KU。

@@ -483,8 +483,8 @@ cand-0481,C.csv#5,"Calandrucci, Giacinto","192, 197",person,open,C.csv,,,,,
 cand-0482,C.csv#6,"Callot, Jacques","95, 133, 343",person,open,C.csv,,,,,
 cand-0483,C.csv#7,"Callot, Jacques",213,person,open,C.csv,Fiera dell' Impruneta,,,,
 cand-0484,C.csv#8,"Camassei, Andrea","10n, 50, 51, 56, 57, 61, 121, 131",person,open,C.csv,,,,,
-cand-0485,C.csv#9,"Camassei, Andrea",50,person,open,C.csv,God creating the Angels,,,,
-cand-0486,C.csv#10,"Camassei, Andrea",50,person,open,C.csv,Parnassus,,,,
+cand-0485,C.csv#9,God creating the Angels,50,work,open,C.csv,God creating the Angels,"B577: printed p.50 explicitly distinguishes Andrea Camassei from the two ceiling frescoes 'God creating the Angels' and the other named subject. The original index headword Camassei, Andrea and subentry are retained by index_entry_id/sub_entry; do not align the work to the creator.",,,chp-2:02_CHP-2_sec_iv:l79-89#L83-84
+cand-0486,C.csv#10,Parnassus,50,work,open,C.csv,Parnassus,"B577: printed p.50 explicitly distinguishes Andrea Camassei from the two ceiling frescoes 'Parnassus' and the other named subject. The original index headword Camassei, Andrea and subentry are retained by index_entry_id/sub_entry; do not align the work to the creator.",,,chp-2:02_CHP-2_sec_iv:l79-89#L83-84
 cand-0487,C.csv#11,"Camassei, Andrea","50, 51",person,open,C.csv,work in Barberini palace,,,,
 cand-0488,C.csv#12,"Cambiaso, Luca",29,person,open,C.csv,,,,,
 cand-0489,C.csv#13,"Camerata, Giuseppe",260n,person,open,C.csv,,,,,

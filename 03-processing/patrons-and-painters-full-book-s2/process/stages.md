@@ -21274,3 +21274,126 @@ Exact historical hashes map to current statuses: . Changed historical hashes map
 **批后状态。** 全书15,518条statement、27,357条mention；PASS 8,812、pending 6,706。下一连续窗口为2060–2159；该窗口PASS 17、pending 83，其中2061仍pending。本阶段不等同全书S2独立语义接收。
 
 **针对性验证。** [B576预检与写入脚本](adjudicate_s2_current_review_b576_order_1960_2059_20261103.py)的基线及来源指纹核验通过。`audit_tables.py --strict-stage --summary`返回15,518条statement、27,357条mention、`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py --dry-run`五类关系阻断均为0，另报告1,320个零关系KU与2个超连接KU诊断项。Carlo Maderno卡片按单卡预检并渲染1张，写后字节核验通过，再次预览无差异；未投影关系行。`git diff --check`通过。结构审计中的S4 2,522项登记待办及全书S2仍待独立语义接收，均保持原状态。
+
+
+<a id="2026-11-03-s2-current-review-b577-order-2060-2159"></a>
+### 2026-11-03 S2 当前版逐ID语义复核 B577（2060–2159）
+
+连续100条：17条既有PASS核对当前statement／来源资产／S0段／mention-set指纹后复用；83条pending逐条对照印刷p.48–51与原页，本次71条转PASS、12条保留pending。statement修订82条；未新增statement；mention新增3条并修正2条，现有提及逐项按segment切片断言surface form。2069、2073保留Ferrara与Papacy语境，2083补齐Ferrara→Rome职位端点；2108移除相邻句的Enzo、Guido误映射。2093扩展引文至明确的宫殿先行词；2143补入原文“the fresco”精确span。
+
+来源版本：CHP-2.pdf SHA-256=317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e；sec_iv Markdown SHA-256=9f50e1396234faff664211d70a1231ef145bccdc24e91c088f1237d55ca34dbf。原始PDF和S0不改写。H9622历史事件账本9,622条、SHA-256=75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89，只刷新roster当前版本指纹，不改历史事件、review hash、来源版本或原裁决。
+
+S1/S3纠正两幅Camassei天顶画误作画家的身份；S6撤回仅由宽泛career概述推导的rel-2456 formal状态。比较、角色与历史裁决见[知识过程](knowledge.md#s3-s6-camassei-work-types-guido-career-20261103)。没有由本批创建KU或新增formal边。
+
+| 顺位 | statement ID | 当前决定 | claim-specific candidates | 判读与范围 |
+|---:|---|---|---|---|
+| 2060 | `st-chp2-seciv-l54-63-palace-facade-and-forecourt-description` | PASS | cand-0240 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2061 | `st-chp2-seciv-l54-63-bernini-succeeds-maderno-with-borromini` | PASS | cand-0296,cand-1479,cand-0407,cand-0240 | Bernini接替Maderno、Borromini协助及原方案延续分别保留；复用已纠正的Maderno人物身份。 |
+| 2062 | `st-chp2-seciv-l54-63-palace-decoration-underway-1633` | PASS | cand-0240 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2063 | `st-chp2-seciv-l54-63-palace-nearly-complete-1633` | PASS | cand-0240 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2064 | `st-chp2-seciv-l54-63-bentivoglio-family-advises-taddeo` | PASS | cand-4651,cand-0239 | ready to advise仅为可咨询状态；未指明的教皇联系留作叙述，不声称实际咨询发生。 |
+| 2065 | `st-chp2-seciv-l54-63-bentivoglio-family-origin-and-standing` | PENDING | cand-4651,cand-1017 | 正文称来自Ferrara，注1说明Bologna起源与Ferrara支系；保留两层出处，不裁成唯一家族起源。 |
+| 2066 | `st-chp2-seciv-l54-63-taddeo-disinterest-in-arts` | PASS | cand-0239 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2067 | `st-chp2-seciv-l54-63-taddeo-no-special-favourites` | PASS | cand-0239,cand-4500 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2068 | `st-chp2-seciv-l54-63-enzo-benefits-from-papal-appeasement` | PASS | cand-0290,cand-4655 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2069 | `st-chp2-seciv-l54-63-enzo-rallies-to-church-cause` | PASS | `cand-0290`, `cand-4654`, `cand-1017`, `cand-4223` | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2070 | `st-chp2-seciv-l54-63-enzo-younger-brother-of-ippolito` | PASS | cand-0290,cand-0293 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2071 | `st-chp2-seciv-l54-63-ferrara-devolves-to-papacy-1598` | PENDING | cand-1017,cand-4223 | Ferrara是城市地点；政治归属转移的行动主体／政体端点未确定，不能把城市当作政体。 |
+| 2072 | `st-chp2-seciv-l54-63-guido-benefits-from-papal-appeasement` | PASS | cand-0291,cand-4655 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2073 | `st-chp2-seciv-l54-63-guido-rallies-to-church-cause` | PASS | `cand-0291`, `cand-4654`, `cand-1017`, `cand-4223` | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2074 | `st-chp2-seciv-l54-63-guido-younger-brother-of-ippolito` | PASS | cand-0291,cand-0293 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2075 | `st-chp2-seciv-l54-63-ippolito-supports-cesare-deste-succession-claim` | PENDING | cand-0293,cand-4650,cand-1017 | 支持对象是未单独识别的继承主张；Cesare只是主张人，不是被支持主张这一宾语。 |
+| 2076 | `st-chp2-seciv-l54-63-guido-career-in-church` | PASS | cand-0291,cand-4654 | 成功的教会生涯是作者概述，不能直接推出member_of；rel-2456降为pending。 |
+| 2077 | `st-chp2-seciv-l54-63-guido-made-cardinal-1621` | PASS | cand-0291 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2078 | `st-chp2-seciv-l54-63-guido-nuncio-service-flanders-paris` | PASS | cand-0291,cand-4652 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2079 | `st-chp2-seciv-l54-63-guido-nuncio-service-paris` | PASS | cand-0291,cand-4653 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2080 | `st-chp2-seciv-l54-63-guido-missions-provided-writing-material` | PASS | cand-0291,cand-12301,cand-12302 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2081 | `st-chp2-seciv-l54-63-guido-missions-shape-taste-and-writings` | PASS | cand-0291,cand-12301,cand-4652,cand-4653 | 外交使节活动影响品味／政治同情是Haskell的因果解释，保留为非正式边断言。 |
+| 2082 | `st-chp2-seciv-l54-63-enzo-ferrara-rome-ambassador` | PASS | cand-0290,cand-1017,cand-4490,cand-12303 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2083 | `st-chp2-seciv-l54-63-enzo-post-created-by-pope` | PENDING | `cand-0290`, `cand-4656`, `cand-12303`, `cand-1017`, `cand-4490` | 特设外交职位缺正式名称，现有term类型尚待裁决；不把职位等同任职人或外交事件。 |
+| 2084 | `st-chp2-seciv-l54-63-enzo-fond-of-art-and-adventurous-taste` | PASS | cand-0290 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2085 | `st-chp2-seciv-l54-63-guido-fond-of-art-and-adventurous-taste` | PASS | cand-0291 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2086 | `st-chp2-seciv-l54-63-guido-relative-austerity-life` | PASS | cand-0291 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2087 | `st-chp2-seciv-l54-63-haskell-characterizes-guido-portrait` | PASS | cand-0961,cand-0291,cand-0198 | 肖像形容和时代比较保留Haskell评价，不生成肖像—人物／家族的新事实关系。 |
+| 2088 | `st-chp2-seciv-l54-63-van-dyck-paints-guido-portrait-1623` | PASS | cand-0958,cand-0961,cand-0291 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2089 | `st-chp2-seciv-l65-77-guido-relative-austerity-explained` | PASS | cand-0291,cand-0398,cand-2088 | relative because限定清苦程度而非解释清苦的成因；保留多年居住大宫殿的反衬。 |
+| 2090 | `st-chp2-seciv-l65-77-borghese-palace-decoration-by-artists` | PASS | cand-0398,cand-2124 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2091 | `st-chp2-seciv-l65-77-borghese-palace-decoration-by-gentileschi` | PASS | cand-0398,cand-1135 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2092 | `st-chp2-seciv-l65-77-borghese-palace-decoration-by-tassi` | PASS | cand-0398,cand-2542 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2093 | `st-chp2-seciv-l65-77-borghese-palace-decoration-by-unnamed-artists` | PENDING | cand-0398,cand-12305 | 其他装饰者为未具名群体，成员与类型边界仍待决。 |
+| 2094 | `st-chp2-seciv-l65-77-bentivoglio-palace-sale-before-guido-death` | PASS | cand-4651,cand-0398,cand-0291 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2095 | `st-chp2-seciv-l65-77-enzo-buys-borghese-palace-1619` | PASS | cand-0290,cand-0398 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2096 | `st-chp2-seciv-l65-77-guido-admires-claude-and-patronage` | PASS | cand-0291,cand-0767 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2097 | `st-chp2-seciv-l65-77-guido-collection-includes-crucifixion` | PASS | cand-0291,cand-0959,cand-0961 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2098 | `st-chp2-seciv-l65-77-urban-commissions-two-claude-pictures` | PASS | cand-0209,cand-0767,cand-0291 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2099 | `st-chp2-seciv-l65-77-urban-commissions-two-location-views` | PASS | cand-0209,cand-0767,cand-4657,cand-4492,cand-4491 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2100 | `st-chp2-seciv-l65-77-claude-romantic-treatment-reported` | PASS | cand-0767,cand-0209,cand-4657,cand-4492,cand-4491 | 保留作者对浪漫化处理及Urban perhaps hoped的推测，不提升为已证实的委托意图。 |
+| 2101 | `st-chp2-seciv-l65-77-claude-appeals-to-guido-taste` | PASS | cand-0767,cand-0291 | 对Claude画风契合Guido趣味的作者解释，不是无条件品味关系。 |
+| 2102 | `st-chp2-seciv-l65-77-enzo-sends-giovanni-to-decorate-palace` | PASS | cand-0290,cand-2350,cand-0398 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2103 | `st-chp2-seciv-l65-77-giovanni-letter-authored-by` | PASS | cand-4664,cand-2350 | 信件责任者由Haskell叙述支持；不补日期、收信人或手稿档号，rel-2415范围不变。 |
+| 2104 | `st-chp2-seciv-l65-77-giovanni-letter-describes-guido-tour` | PASS | cand-4664,cand-0291,cand-2350,cand-0398 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2105 | `st-chp2-seciv-l65-77-giovanni-paints-amphitrite-scene` | PASS | cand-2350,cand-4662,cand-0398 | Giovanni—Amphitrite场景创作关系；现有rel-2413范围不变。 |
+| 2106 | `st-chp2-seciv-l65-77-giovanni-paints-europa-scene` | PASS | cand-2350,cand-4663,cand-0398 | Giovanni—Europa场景创作关系；现有rel-2414范围不变。 |
+| 2107 | `st-chp2-seciv-l65-77-giovanni-paints-proserpina-scene` | PASS | cand-2350,cand-4661,cand-0398 | Giovanni—Proserpina场景创作关系；现有rel-2412范围不变。 |
+| 2108 | `st-chp2-seciv-l65-77-bentivoglio-family-papal-art-patronage` | PENDING | `cand-4651`, `cand-12304`, `cand-4288` | 历任教皇为未具名集合，购画与聘用两类行为分别保留，集合身份仍待决。 |
+| 2109 | `st-chp2-seciv-l65-77-enzo-despoils-ferrara-for-scipione` | PASS | cand-0290,cand-1017,cand-0394 | deliberate trickery／despoiling保留为Haskell归责，不与1608年购画事实混写。 |
+| 2110 | `st-chp2-seciv-l65-77-enzo-procures-dosso-works-1608` | PENDING | cand-0290,cand-4658,cand-11478,cand-0394 | Dosso Dossis指作品而非购入画家；具体作品组及Ducal collection范围未明。 |
+| 2111 | `st-chp2-seciv-l65-77-enzo-in-charge-of-ludovisi-palaces` | PASS | cand-0290,cand-4660,cand-1455 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2112 | `st-chp2-seciv-l65-77-taddeo-turns-to-enzo-under-urban` | PASS | cand-0239,cand-0290,cand-0209 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2113 | `st-chp2-seciv-l65-77-tassi-gentileschi-frescoes-1611-1612` | PASS | cand-0398,cand-2542,cand-1135,cand-0394 | 1611和1612保留为作品组的两个年份，不一一分配给Tassi和Gentileschi；Scipione为宫殿业主语境。 |
+| 2114 | `st-chp2-seciv-l65-77-haskell-rejects-passeri-patron-attribution` | PASS | cand-1856,cand-0291,cand-2542,cand-1135,cand-0398 | 记录Haskell否定Passeri归属，不写成Guido委托这些壁画。 |
+| 2115 | `st-chp2-seciv-l65-77-bentivoglio-sells-palace-to-lante` | PASS | cand-4651,cand-4659,cand-0398 | 卖方Bentivoglio、买方Lante、资产palace三角色分开。 |
+| 2116 | `st-chp2-seciv-l65-77-mazarin-acquires-palace-from-lante` | PASS | cand-1588,cand-4659,cand-0398 | Mazarin为买方、Lante为前业主／出让方、palace为资产。 |
+| 2117 | `st-chp2-seciv-l79-89-camassei-described-as-umbrian-follower-of-domenichino` | PASS | cand-0484,cand-0932 | follower不证明亲授师生关系；保留Umbrian与作者风格归类。 |
+| 2118 | `st-chp2-seciv-l79-89-camassei-employed-and-resident-in-borghese-palace` | PASS | cand-4651,cand-0484,cand-0398 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2119 | `st-chp2-seciv-l79-89-filippo-recommends-camassei-to-unidentified-marchese` | PASS | cand-0105,cand-0484,cand-4665 | Filippo推荐Camassei，受推荐者Marchese未具名，不擅认Taddeo。 |
+| 2120 | `st-chp2-seciv-l79-89-bentivoglio-recommends-camassei-to-barberini` | PASS | cand-4651,cand-0484,cand-0198 | Bentivoglio为推荐方、Camassei为被推荐画家、Barberini为接收方。 |
+| 2121 | `st-chp2-seciv-l79-89-camassei-decorates-borghese-room-with-cupid-psyche-scenes` | PASS | cand-0484,cand-4666,cand-0398 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2122 | `st-chp2-seciv-l79-89-cupid-psyche-decoration-instant-success` | PASS | cand-4666 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2123 | `st-chp2-seciv-l79-89-camassei-begins-working-for-sacchetti` | PASS | cand-0484,cand-4452 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2124 | `st-chp2-seciv-l79-89-camassei-career-seems-assured` | PASS | cand-0484 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2125 | `st-chp2-seciv-l79-89-camassei-given-god-creating-angels-fresco` | PASS | cand-0484,cand-0485,cand-0240 | God creating the Angels是受派绘制的作品，不是Camassei本人；不推定授予人。 |
+| 2126 | `st-chp2-seciv-l79-89-camassei-given-parnassus-fresco` | PASS | cand-0484,cand-0486,cand-0240 | Parnassus是独立天顶画，不是Camassei本人或Parnassus概念。 |
+| 2127 | `st-chp2-seciv-l79-89-apollo-identified-with-poet-pope` | PENDING | cand-4667,cand-0486,cand-0209 | Apollo是画中神话形象而非Urban VIII本人，现有person类型边界未决；只保留图像比附。 |
+| 2128 | `st-chp2-seciv-l79-89-camassei-frescoes-style-and-admiration` | PASS | cand-0485,cand-0486 | 两幅画共有的风格／接受描述，不建立两作品互为关系。 |
+| 2129 | `st-chp2-seciv-l79-89-god-creating-angels-iconographic-hierarchy` | PASS | cand-0485,cand-11888 | 作品与divine sanction概念分开；图像解释保留Haskell主体和原文支持范围。 |
+| 2130 | `st-chp2-seciv-l79-89-great-hopes-held-out-to-camassei` | PASS | cand-0484 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2131 | `st-chp2-seciv-l79-89-parnassus-heroes-interpreted-as-pope-ancestors` | PENDING | cand-0486,cand-0209,cand-4189 | his只指poet-Pope，ancestors是未具名祖先群体；不能把教皇本人当作祖先或画中Heroes。 |
+| 2132 | `st-chp2-seciv-l79-89-parnassus-references-barberini-as-cultural-protectors` | PASS | cand-0486,cand-0198 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2133 | `st-chp2-seciv-l79-89-two-camassei-frescoes-foreshadow-larger-scheme` | PASS | cand-0485,cand-0486,cand-11889 | 两幅已纠正作品与未具名后续装饰方案分开；不提前认同Cortona单幅画或Bracciolini程序。 |
+| 2134 | `st-chp2-seciv-l79-89-francesco-barberini-presses-sacchi-claims-at-st-peters` | PENDING | cand-0199,cand-2318,cand-0713 | St Peter’s明确为场所线索，泛称Churches索引候选的具体空间身份仍留S3。 |
+| 2135 | `st-chp2-seciv-l79-89-sacchi-receives-first-large-scale-work` | PASS | cand-2318,cand-4003,cand-4668,cand-0240 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2136 | `st-chp2-seciv-l79-89-divine-wisdom-claimed-as-new-artistic-subject` | PASS | cand-4672,cand-4003 | 未曾表现的主张指Divine Wisdom题材概念；不是宣称作品实体首次出现。 |
+| 2137 | `st-chp2-seciv-l79-89-divine-wisdom-fresco-derived-from-wisdom-of-solomon` | PASS | cand-4003,cand-4672,cand-4669 | 作品、智慧概念和Wisdom of Solomon文献分开；rel-2495范围不变，未读原典。 |
+| 2138 | `st-chp2-seciv-l79-89-divine-wisdom-theme-selectors-unidentified` | PENDING | cand-4003,cand-4672,cand-4673 | Roman theologians是未具名选择者群体，不指定个人，也不并入artist’s advisers。 |
+| 2139 | `st-chp2-seciv-l79-89-haskell-doubts-sacchi-devised-far-fetched-theme` | PASS | cand-4003,cand-4672,cand-2318 | almost inconceivable是Haskell判断，不是否定Sacchi作者身份的既成事实。 |
+| 2140 | `st-chp2-seciv-l79-89-unidentified-explanation-frames-barberini-rule-as-divinely-chosen` | PASS | cand-4003,cand-4672,cand-0198,cand-4654 | 保留未具名解释者及政治神学引文，不记为Barberini实际神授权力的正式事实。 |
+| 2141 | `st-chp2-seciv-l79-89-divine-wisdom-artwork-personifies-concept` | PASS | cand-4003,cand-4672 | work与term分开，既有rel-2497主题边范围不变。 |
+| 2142 | `st-chp2-seciv-l79-89-divine-wisdom-compared-with-raphael-stanze-frescoes` | PASS | cand-4003,cand-4670,cand-2098,cand-4671 | 保留作者与Raphael壁画的雄心比较，不制造两个作品组间的事实边。 |
+| 2143 | `st-chp2-seciv-l79-89-advisers-transform-wisdom-into-princely-exaltation` | PENDING | cand-4674,cand-4669,cand-4003,cand-4672,cand-0198 | artist’s advisers的群体身份与类型未定，且被转化对象是经文解释，不是作品被物理改动。 |
+| 2144 | `st-chp2-seciv-l79-89-divine-wisdom-central-figure-description-continues` | PASS | cand-4003,cand-4672 | p.50句子续至p.51，沿用continuation入口，不将女像、概念或太阳混同。 |
+| 2145 | `st-chp2-seciv-l79-89-wisdom-of-solomon-calls-princes-to-honour-wisdom` | PASS | cand-4669,cand-4672 | Haskell转述经文劝诫；rel-2496范围不变，未声称独立核对经文章节。 |
+| 2146 | `st-chp2-seciv-l91-94-bees-are-barberini-family-insignia` | PASS | cand-4676,cand-0198 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2147 | `st-chp2-seciv-l91-94-bees-feature-in-surrounding-friezes` | PASS | cand-4676,cand-4692,cand-4003 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2148 | `st-chp2-seciv-l91-94-divine-wisdom-fresco-not-illusionistic` | PASS | cand-4003 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2149 | `st-chp2-seciv-l91-94-fresco-covers-ceiling-without-illusionistic-scene` | PASS | cand-4003,cand-4668 | 既有PASS的statement、source、segment与mention指纹核平后复用。 |
+| 2150 | `st-chp2-seciv-l91-94-fresco-implications-rarely-understood` | PASS | cand-4003 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2151 | `st-chp2-seciv-l91-94-laurel-features-in-surrounding-friezes` | PASS | cand-4677,cand-4692,cand-4003 | laurel—friezes与主画的局部语境分开，现有rel-2274范围不变。 |
+| 2152 | `st-chp2-seciv-l91-94-laurel-is-barberini-family-insignia` | PASS | cand-4677,cand-0198 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2153 | `st-chp2-seciv-l91-94-love-and-fear-control-lust-and-wrath` | PASS | cand-4672,cand-4681,cand-4682,cand-4683,cand-4684 | Wisdom发令，Love与Fear为执行者，Lust与Wrath为受控激情；不配成一对一关系。 |
+| 2154 | `st-chp2-seciv-l91-94-sacchi-finds-conventional-flattery-difficult` | PASS | cand-2318 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2155 | `st-chp2-seciv-l91-94-sacchi-painting-technique-and-colour-described` | PASS | cand-2318,cand-4003 | 技法和色彩是作者视觉描述，不转成画家—作品事实边。 |
+| 2156 | `st-chp2-seciv-l91-94-sacchi-treats-cosmic-conceit-with-severity` | PASS | cand-2318,cand-4003 | 无同时代可比对象是Haskell比较评价，不是独立事实证明。 |
+| 2157 | `st-chp2-seciv-l91-94-sacchi-work-judged-to-lack-urgency-and-sublimity` | PASS | cand-2318,cand-4003 | urgency、passion与sublimity保留作者批评语气，不泛化为人物客观属性。 |
+| 2158 | `st-chp2-seciv-l91-94-sun-conventional-emblem-for-wisdom` | PASS | cand-4675,cand-4672 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+| 2159 | `st-chp2-seciv-l91-94-sun-is-barberini-family-insignia` | PASS | cand-4675,cand-0198 | 按此claim独立核对候选、具体角色、时间与语气；没有复制整个segment的mention集合。 |
+
+批后：statement 15,518；mention 27,359；PASS 8,883（57.24%）；pending 6,635。本窗口88 PASS／12 pending。关系表{'formal': 2584, 'pending': 62, 'rejected': 3}；backlog 101项，其中新增2项明确undecided。下一连续窗口2160–2259。本批未构成全书独立语义接收。
+
+工具与可恢复写入：[B577脚本](adjudicate_s2_current_review_b577_order_2060_2159_20261103.py)先产生含逐ID差异、输入／输出哈希与来源指纹的review-plan.json；apply仅接受该计划且输入未漂移，写前保留原始字节备份，非目标JSONL行保持逐字节不变。后续审计及定向卡片同步结果另在本节追加。
+
+**B577写后验证。** 严格表审计`python scripts/audit_tables.py --strict-stage --summary`通过：statement 15,518、mention 27,360、`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`，S4登记待办2,524项、backlog 101项且均显式处置，非全书收口。关系一致性`--dry-run`五类阻断均为0；1,320个零关系KU和2个超连接KU仍为既有诊断，不作为通过与否替代语义判断。
+
+rel-2456的卡内注记已缩为事实范围限定，完整撤回理由保留在knowledge过程与applied.json的post_apply记录。Guido人物卡与Church机构卡经逐卡差异预览、选定两卡预检及事务渲染写回；人物卡显示待证，机构卡去除原formal反向投影，两卡updated写为实际日期2026-11-03。写后再次逐卡预览均无差异；未刷新页面或分类索引。
+
+全表15,518条当前statement、S0 segment/source与mention-set指纹逐项核平通过；82条变化均在2060–2159窗口内，其他JSONL行与写前文本一致。当前窗口272条mention跨度及12条pending候选映射逐项回切原文，跨度与claim行映射错误均为0。H9622原账本SHA-256保持75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89，当前ID版本匹配为8,731 exact／806 changed（共9,537个当前ID）。无mention的合法段按空集合指纹处理；核平不提升任何pending的语义状态。全表状态8,883 PASS／6,635 pending，关系表2,584 formal／62 pending／3 rejected；`git diff --check`通过。来源、历史事件及KU数量不变。验证工件保存在本批恢复目录的verification.json、review-plan.json、applied.json；此为主审修复与机械核对，不称独立正式接收。
