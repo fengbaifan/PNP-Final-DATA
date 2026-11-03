@@ -3022,3 +3022,7 @@ Reviewed 100 continuous current statements: reused 77 current PASS, promoted 18 
 ### 2026-11-03 B577当前结果
 
 连续2060–2159的100条完成本轮处置：88 PASS、12 pending，含71条pending转PASS。Camassei两件作品候选与其作者分开；3条新增mention及2条span／指代修正；rel-2456 formal退回pending。全书15,518 statements、27,360 mentions，PASS 8,883、pending 6,635。下一窗口2160–2259；非独立接收。详见[过程](../process/stages.md#2026-11-03-s2-current-review-b577-order-2060-2159)与[当前交接结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。
+
+### 2026-11-03 B578当前结果
+
+连续2160–2259的100条完成本轮处置：98 PASS、2 pending；94条由pending转PASS。S2新增8条原文mention，修复两幅穹顶画的共同主语与宫廷端点，并区分Sinigaglia主教辖区、城市及未具名侄辈。新增2项source-derived候选及2条S3 undecided alignment；既有关系表无改动。全书15,518 statements、27,368 mentions，PASS 8,977、pending 6,541。下一连续窗口2260–2359；本批非独立接收。详见[过程](../process/stages.md#2026-11-03-s2-current-review-b578-order-2160-2259)与[当前交接结果](../../../04-knowledge/results/patrons-and-painters-full-book-s2.md)。

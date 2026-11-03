@@ -6524,7 +6524,7 @@ m-chp2-seciv-l106-112-0038,chp-2:02_CHP-2_sec_iv:l106-112,cand-0203,the Cardinal
 m-chp2-seciv-l106-112-0039,chp-2:02_CHP-2_sec_iv:l106-112,cand-4734,the Barberini tapestry works,2238,2266,Organization/production site type remains unresolved.
 m-chp2-seciv-l106-112-0040,chp-2:02_CHP-2_sec_iv:l106-112,cand-2208,His painting,2268,2280,"Romanelli's painting, evaluated by Haskell."
 m-chp2-seciv-l106-112-0041,chp-2:02_CHP-2_sec_iv:l106-112,cand-0209,the Pope,2388,2396,Urban VIII in this Barberini court context.
-m-chp2-seciv-l106-112-0042,chp-2:02_CHP-2_sec_iv:l106-112,cand-0203,his nephew,2401,2411,The nephew refers to Cardinal Francesco Barberini.
+m-chp2-seciv-l106-112-0042,chp-2:02_CHP-2_sec_iv:l106-112,cand-12480,his nephew,2401,2411,Haskell identifies one unnamed nephew of Urban VIII; the source does not establish that he is Francesco Barberini.
 m-chp2-seciv-l106-112-0043,chp-2:02_CHP-2_sec_iv:l106-112,cand-0007,the Accademia di S. Luca,2539,2563,Uses the index candidate whose page range includes p.53.
 m-chp2-seciv-l106-112-0044,chp-2:02_CHP-2_sec_iv:l106-112,cand-0203,Cardinal [Francesco] Barberini,2582,2612,Brackets are the source's editorial identification.
 m-chp2-seciv-l106-112-0045,chp-2:02_CHP-2_sec_iv:l106-112,cand-0007,that body,2638,2647,Anaphoric reference to the Accademia di S. Luca.
@@ -28037,3 +28037,11 @@ m-chp2-secii-l20-28-0035,chp-2:02_CHP-2_sec_ii:l20-28,cand-11880,these overwhelm
 m-s2-b577-divine-sanction,chp-2:02_CHP-2_sec_iv:l79-89,cand-11888,the divine sanction given to the sovereigns of this world,1221,1278,B577 source-exact p.50 L84 anchor; interpretation/source-defined scheme remains bounded by Haskell’s wording.
 m-s2-b577-larger-scheme,chp-2:02_CHP-2_sec_iv:l79-89,cand-11889,the much larger scheme of decoration that was to follow,940,995,B577 source-exact p.50 L84 anchor; interpretation/source-defined scheme remains bounded by Haskell’s wording.
 m-s2-b577-advisers-fresco-context,chp-2:02_CHP-2_sec_iv:l79-89,cand-4003,the fresco,2869,2879,B577 claim-span repair: the fresco named in the biblical-text sentence is the work context for the advisers’ interpretation; not an additional relation claim.
+m-s2-b578-minor-commissions,chp-2:02_CHP-2_sec_iv:l91-94,cand-11890,minor commissions,2486,2503,P.51 exact source phrase for Camassei’s unnamed commission group.
+m-s2-b578-vaster-setting,chp-2:02_CHP-2_sec_iv:l91-94,cand-11889,decoration of a much vaster setting,1763,1798,P.51 exact source phrase for the larger decorative scheme/setting.
+m-s2-b578-bracciolini-departure,chp-2:02_CHP-2_sec_iv:l96-104,cand-4693,hurriedly left him,135,153,P.52 exact departure phrase; “him” resolves to Maffeo in the claim context.
+m-s2-b578-clement-death,chp-2:02_CHP-2_sec_iv:l96-104,cand-4694,Clement VIII died in 1605,86,111,P.52 exact date-bearing event phrase.
+m-s2-b578-sinigaglia-see,chp-2:02_CHP-2_sec_iv:l96-104,cand-12479,Bishop of Sinigaglia,883,903,P.52 exact office/see phrase; the named ecclesiastical see is distinct from the city candidate.
+m-s2-b578-rubens-cycle-creator,chp-2:02_CHP-2_sec_iv:l106-112,cand-2293,Rubens,1311,1317,P.53 exact creator mention for the cycle; work identity remains source-scoped.
+m-s2-b578-antonio-cardinalate,chp-2:02_CHP-2_sec_iv:l114-125,cand-4738,was made Cardinal in 1627,675,700,P.54 exact appointment-event phrase.
+m-s2-b578-urbino-devolution,chp-2:02_CHP-2_sec_iv:l114-125,cand-2670,devolution of Urbino to the papacy,1495,1529,P.54 exact event phrase; not a specific artwork acquisition.

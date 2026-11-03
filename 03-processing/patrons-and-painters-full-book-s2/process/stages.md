@@ -21397,3 +21397,125 @@ S1/S3纠正两幅Camassei天顶画误作画家的身份；S6撤回仅由宽泛ca
 rel-2456的卡内注记已缩为事实范围限定，完整撤回理由保留在knowledge过程与applied.json的post_apply记录。Guido人物卡与Church机构卡经逐卡差异预览、选定两卡预检及事务渲染写回；人物卡显示待证，机构卡去除原formal反向投影，两卡updated写为实际日期2026-11-03。写后再次逐卡预览均无差异；未刷新页面或分类索引。
 
 全表15,518条当前statement、S0 segment/source与mention-set指纹逐项核平通过；82条变化均在2060–2159窗口内，其他JSONL行与写前文本一致。当前窗口272条mention跨度及12条pending候选映射逐项回切原文，跨度与claim行映射错误均为0。H9622原账本SHA-256保持75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89，当前ID版本匹配为8,731 exact／806 changed（共9,537个当前ID）。无mention的合法段按空集合指纹处理；核平不提升任何pending的语义状态。全表状态8,883 PASS／6,635 pending，关系表2,584 formal／62 pending／3 rejected；`git diff --check`通过。来源、历史事件及KU数量不变。验证工件保存在本批恢复目录的verification.json、review-plan.json、applied.json；此为主审修复与机械核对，不称独立正式接收。
+
+<a id="2026-11-03-s2-current-review-b578-order-2160-2259"></a>
+### 2026-11-03 S2 当前版逐ID语义复核 B578（2160–2259）
+
+连续100条完成本轮处置：4条既有PASS在当前statement/source及原页核平后复核；96条原pending逐条核读印刷pp.51–55及对应注释，94条转PASS、2条保留pending。窗口结果98 PASS／2 PENDING。全批新增8条精确mention；statement变更95条。B577已审的2146–2159共14条与l91–94同段；本批在段内补入两个与其claim不重叠的p.51 mention后刷新整段mention指纹，原14条statement/source哈希及decision均不变，保留既有PASS。
+
+来源版本：CHP-2.pdf SHA-256=317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e；sec_iv Markdown SHA-256=9f50e1396234faff664211d70a1231ef145bccdc24e91c088f1237d55ca34dbf。原始PDF、来源Markdown与S0段落不改写。历史H9622事件账本9,622条、SHA-256=75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89保持不变；roster只刷新当前statement和mention版本指纹及本窗口决定。
+
+S1/S3：补入cand-12479（Sinigaglia主教辖区／教座，区别于城市cand-4702）与cand-12480（Urban VIII未具名侄辈）；分别新增aln-12808、aln-12809，decision=undecided，等待跨章身份核对。cand-4690的教皇耶稣会顾问组与cand-4726的壁画Hercules寓意图像类型仍未决，不强行归类。
+
+S2重点修正：Sacchi与Cortona的两幅天顶画共同反映新宫廷文学兴趣，改映cand-4003及cand-4687至cand-4730；教皇赞助语境不误映为Papal court实体；Romanelli的“Pope’s nephew”保留为单一但未具名人物；Urbino城市、政治实体和教皇国分开。Senigaglia see、Antonio侄辈及相关历史范围按来源表述保存，不用邻文猜定身份。
+
+S6影响核查：relations.csv无改动。直接命中的既有formal裁决仍为rel-2272（太阳主题）、rel-2275/2276（蜂／月桂主题）、rel-2277（Divine Providence）、rel-2278（巨人图像）、rel-2279（Sinigaglia地点）、rel-2285（Antonio兄弟的Capuchin membership）、rel-2286（Bracciolini任秘书）；候选和来源范围一致，未新增formal关系。S3未决端点尚不生成正式边。
+
+逐ID判读与候选去向如下；来源页与具体claim在当前statement内可追溯。待证项不计入PASS。
+
+| 顺位 | statement ID | 当前决定 | claim-specific candidates | 判读与范围 |
+|---:|---|---|---|---|
+| 2160 | `st-chp2-seciv-l91-94-wisdom-attributes-personified-as-maidens` | PASS | `cand-4003,cand-4672,cand-4678,cand-4679,cand-4680` | Eternity、Sanctity、Purity 是画中 Wisdom 的拟人属性；“and so on”表示例举不尽。 |
+| 2161 | `st-chp2-seciv-l91-94-wisdom-figure-emits-sun` | PASS | `cand-4003,cand-4675` | 作品、女性形象和胸前显现的太阳分开；保留已有太阳主题边 rel-2272。 |
+| 2162 | `st-chp2-seciv-l91-94-antonio-only-barberini-family-champion` | PASS | `cand-4003,cand-0187,cand-0198,cand-0199` | Antonio 是 Francesco 的弟弟及该壁画在 Barberini 家族中的唯一公开支持者；不把两人合并。 |
+| 2163 | `st-chp2-seciv-l91-94-bracciolini-called-in-to-devise-family-programme` | PASS | `cand-0209,cand-0440,cand-4686,cand-0198` | Bracciolini 是受召拟定家族颂扬方案的诗人；program 与作品、家族和作者分别映射。 |
+| 2164 | `st-chp2-seciv-l91-94-camassei-continues-to-receive-minor-commissions` | PASS | `cand-0484,cand-11890` | “minor commissions”组与此前小房间的两幅已命名壁画分开；为其补入精确原文提及。 |
+| 2165 | `st-chp2-seciv-l91-94-camassei-failure-qualified-by-minor-commissions` | PASS | `cand-0484,cand-4685` | “relative failure”由持续获得小型委托限定，不写成职业失败或停止受聘。 |
+| 2166 | `st-chp2-seciv-l91-94-camassei-small-room-work-judged-insufficient-for-great-hall` | PASS | `cand-0484,cand-4685,cand-4691` | 小房间、主接待厅和Camassei分别保留；这是 Haskell 对适配度的判断。 |
+| 2167 | `st-chp2-seciv-l91-94-cardinal-francesco-backs-cortona` | PASS | `cand-0199,cand-0350` | Cardinal Francesco 对 Cortona 的支持按原文报告，不扩成具体作品委托。 |
+| 2168 | `st-chp2-seciv-l91-94-cortona-already-engaged-on-chapel-frescoes` | PASS | `cand-0350,cand-4689,cand-4688,cand-0240` | chapel 是 Barberini 宫内空间，frescoes 是作品；未补出具体壁画标题。 |
+| 2169 | `st-chp2-seciv-l91-94-cortona-position-established` | PASS | `cand-0350` | “position firmly established”是作者对地位的总结，不构成可单独识别的对象关系。 |
+| 2170 | `st-chp2-seciv-l91-94-cortona-starts-great-ceiling-end-1632` | PASS | `cand-0350,cand-4687,cand-4685` | 将 Cortona、主厅穹顶作品、主厅空间和约 1632 年开工及六七年工期分开记录。 |
+| 2171 | `st-chp2-seciv-l91-94-decoration-begins-in-larger-reception-room` | PASS | `cand-11889,cand-4685,cand-4003` | 较大的装饰工程在主接待厅开始；不把该厅等同先前小房间或 Camassei 的画。 |
+| 2172 | `st-chp2-seciv-l91-94-divine-wisdom-fresco-admired-in-rome` | PASS | `cand-4003,cand-4490` | 作品受欢迎是 Haskell 的叙述，范围限定为罗马某些圈子。 |
+| 2173 | `st-chp2-seciv-l91-94-great-ceiling-designed-as-secular-record-of-ambitions` | PASS | `cand-4687,cand-0198` | “为家族抱负作世俗记录”是设计意图，不推成已实现的政治成果。 |
+| 2174 | `st-chp2-seciv-l91-94-great-hall-proposals-described-as-grandiose` | PASS | `cand-4685` | “grandiose / most spectacular”保留为 Haskell 对方案的比较评价。 |
+| 2175 | `st-chp2-seciv-l91-94-great-room-originally-planned-for-camassei` | PASS | `cand-4685,cand-0484,cand-0240` | 计划把主厅委给 Camassei；计划不等于最终执行。 |
+| 2176 | `st-chp2-seciv-l91-94-jesuit-advisers-back-cortona` | PENDING | `cand-4690,cand-0350,cand-0209` | 原文支持 Cortona 获教皇的 Jesuit advisers 支持，但 cand-4690 所指未具正式组织身份、成员也未具名，类型边界未决；不并入 Society of Jesus。 |
+| 2177 | `st-chp2-seciv-l91-94-taddeo-described-as-camassei-protector` | PASS | `cand-0239,cand-0484` | protégé 表示保护／扶持语境，不单凭此词建立亲授师生关系。 |
+| 2178 | `st-chp2-seciv-l91-94-barberini-at-peak-of-fortunes` | PASS | `cand-0198` | 印刷p.51核读：claim与原句角色、时间和语气范围相符；候选仅覆盖本claim及必要指代，不扩张到同段其他提及。 |
+| 2179 | `st-chp2-seciv-l91-94-bracciolini-accompanies-maffeo-travel-continuation` | PASS | `cand-0440,cand-0209,cand-4653` | 秘书服务与同行赴巴黎分别保留；巴黎在下一 S0 句段续出，按 continuation 指针核读印刷 pp.51–52。 |
+| 2180 | `st-chp2-seciv-l91-94-bracciolini-character-judged-mean-and-bad-poet` | PASS | `cand-0440` | mean character、bad poet 是 Haskell 的评价，不转成外部事实属性。 |
+| 2181 | `st-chp2-seciv-l91-94-bracciolini-has-reason-to-flatter-barberini` | PASS | `cand-0440,cand-0198` | 保留 Haskell 对奉承动机的归因，不声称当事人自述。 |
+| 2182 | `st-chp2-seciv-l91-94-bracciolini-programme-executed-by-cortona-for-family-glory` | PASS | `cand-4686,cand-4687,cand-0440,cand-0350,cand-0198` | 方案作者 Bracciolini、执行者 Cortona、作品和受颂家族各自区分。 |
+| 2183 | `st-chp2-seciv-l91-94-bracciolini-serves-maffeo-as-secretary` | PASS | `cand-0440,cand-0209` | 印刷p.51核读：claim与原句角色、时间和语气范围相符；候选仅覆盖本claim及必要指代，不扩张到同段其他提及。 |
+| 2184 | `st-chp2-seciv-l96-104-appeal-letters-to-family` | PASS | `cand-4695,cand-0198,cand-0440` | 信件投向 Barberini 家族但未列出个人收件人；不推定由Urban单独收信。 |
+| 2185 | `st-chp2-seciv-l96-104-bracciolini-departs-maffeo` | PASS | `cand-0440,cand-0209,cand-4693,cand-4694,cand-0031` | “left him”指 Maffeo；1605 年离开事件与 Clement VIII 之死作为同段时间语境分开。 |
+| 2186 | `st-chp2-seciv-l96-104-bracciolini-regrets-departure` | PASS | `cand-0440,cand-4693` | 1623 年后悔针对先前离开 Maffeo 的行为；保留 Haskell 的心理叙述。 |
+| 2187 | `st-chp2-seciv-l96-104-clement-death` | PASS | `cand-4694,cand-0031` | 仅记录 Clement VIII 于1605年死亡，不添加死因或其他背景。 |
+| 2188 | `st-chp2-seciv-l96-104-appeal-to-urban` | PASS | `cand-0440,cand-0209,cand-4695` | 引文中的“Urban”由上下文指 Urban VIII；以 Bracciolini 的求情为信件语境。 |
+| 2189 | `st-chp2-seciv-l96-104-appeal-not-taken-seriously` | PASS | `cand-4695` | “no one”没有可识别收件人；记录作者对请求未获认真对待的概述。 |
+| 2190 | `st-chp2-seciv-l96-104-poem-publication-and-honours` | PASS | `cand-0440,cand-4796` | 出版在前、荣誉随后；不把时间相继改写为出版直接导致授勋，也不猜授予者。 |
+| 2191 | `st-chp2-seciv-l96-104-antonio-bishop-sinigaglia` | PASS | `cand-0186,cand-12479,cand-4702` | 新候选 cand-12479 表示主教辖区／教座，和同名城市 cand-4702 区分；其 S3 身份仍 undecided。 |
+| 2192 | `st-chp2-seciv-l96-104-antonio-capuchin` | PASS | `cand-0186,cand-3405` | 重复核读 Capuchin 身份与既有 rel-2285 一致；不新增重复正式边。 |
+| 2193 | `st-chp2-seciv-l96-104-bee-emblem-ceiling-theme` | PASS | `cand-4721,cand-4687,cand-2318` | Bees 是 Cortona 穹顶的主题，Sacchi 是被比较的前作作者；rel-2275 范围不变。 |
+| 2194 | `st-chp2-seciv-l96-104-bracciolini-complaint-letters` | PASS | `cand-0440,cand-4696,cand-4702,cand-4703` | 投诉信与1623年求情信分开；地点为 Sinigaglia，未补收件人或馆藏。 |
+| 2195 | `st-chp2-seciv-l96-104-bracciolini-cortona-plan-ceiling` | PASS | `cand-4686,cand-4687,cand-0440,cand-0350` | Bracciolini 与 Cortona 共同规划天顶装饰；planning 不等于对每项图像解释的共同作者身份。 |
+| 2196 | `st-chp2-seciv-l96-104-bracciolini-return-to-rome` | PASS | `cand-0440,cand-4490` | 印刷p.52核读：claim与原句角色、时间和语气范围相符；候选仅覆盖本claim及必要指代，不扩张到同段其他提及。 |
+| 2197 | `st-chp2-seciv-l96-104-bracciolini-secretary-to-antonio` | PASS | `cand-0440,cand-0209,cand-0186` | 任命秘书的行动者、受任人及 Antonio 分开；既有 rel-2286 的任职边未改变。 |
+| 2198 | `st-chp2-seciv-l96-104-bracciolini-stranded-sinigaglia` | PASS | `cand-0440,cand-4702,cand-4703` | Sinigaglia 和亚得里亚海岸是地点说明；不把“little port”当作新的地点对象。 |
+| 2199 | `st-chp2-seciv-l96-104-later-poem-series` | PASS | `cand-0440,cand-4697,cand-0198` | 诗组及其献给家族成员的范围保留；不虚构具体诗名或成员名单。 |
+| 2200 | `st-chp2-seciv-l96-104-laurel-emblem-ceiling-theme` | PASS | `cand-4722,cand-4687,cand-2318` | Laurel 主题与作品分开，Sacchi 只作为前作对照；rel-2276 范围不变。 |
+| 2201 | `st-chp2-seciv-l96-104-series-subject-bulgaria` | PASS | `cand-4697,cand-4700` | “conversion of Bulgaria”是诗组题材；不宣称本句独立证明历史转换事件细节。 |
+| 2202 | `st-chp2-seciv-l96-104-series-subject-capture` | PASS | `cand-4697,cand-4698` | “capture of La Rochelle”是诗组题材；不把诗作与历史事件合并。 |
+| 2203 | `st-chp2-seciv-l96-104-urban-not-entirely-forgiving` | PASS | `cand-0209,cand-0440` | “not entirely forgiven”是 Haskell 对 Urban 与 Bracciolini 关系的叙述。 |
+| 2204 | `st-chp2-seciv-l96-104-central-providence-composition` | PASS | `cand-4687,cand-4704,cand-4705,cand-4706,cand-4707,cand-4708,cand-4709,cand-4710,cand-4711,cand-4712,cand-4713` | 逐一保留 Providence、Present、Future、Time、Fates、Virtues、Immortality、Faith、Hope、Charity 的图像角色，不把寓意直接写成现实人物。 |
+| 2205 | `st-chp2-seciv-l96-104-abundance-younger-antonio` | PASS | `cand-4720,cand-0187` | Abundance=Cardinal Antonio 是被报告的图像解释；“granaries he built”不指向未识别的具体粮仓。 |
+| 2206 | `st-chp2-seciv-l96-104-hercules-taddeo-allusion` | PENDING | `cand-4726,cand-0239,cand-4490` | 原文把 Hercules 作为壁画中的寓意图像人物，指向 Taddeo 的罗马治理；cand-4726 的类型仍不能忠实表达图像角色，不能把 Hercules 当作 Taddeo 或历史人物，留待 S3 类型裁决。 |
+| 2207 | `st-chp2-seciv-l96-104-religion-rome-tribute` | PASS | `cand-4687,cand-0198,cand-4714,cand-4715` | Religion 与 Rome 是寓意形象，Barberini family 是受颂对象；不映射为现实宗教机构。 |
+| 2208 | `st-chp2-seciv-l96-104-subsidiary-themes-papal-government` | PASS | `cand-4687,cand-0209,cand-4717,cand-4718,cand-4719` | 原文说四项副题材但只列举三项；只映射 fight against Vices、learning、plenty，不补第四项。 |
+| 2209 | `st-chp2-seciv-l96-104-ceiling-baroque-characterization` | PASS | `cand-4687,cand-4723` | “opens a new chapter”是 Haskell 的艺术史评价，不等同一个新组织或创作事件。 |
+| 2210 | `st-chp2-seciv-l96-104-ceiling-single-fresco` | PASS | `cand-4687` | 印刷p.52核读：claim与原句角色、时间和语气范围相符；候选仅覆盖本claim及必要指代，不扩张到同段其他提及。 |
+| 2211 | `st-chp2-seciv-l96-104-grandeur-awe-effect` | PASS | `cand-4687` | 印刷p.52核读：claim与原句角色、时间和语气范围相符；候选仅覆盖本claim及必要指代，不扩张到同段其他提及。 |
+| 2212 | `st-chp2-seciv-l96-104-painted-frame-defied` | PASS | `cand-4687` | painted frame“appears”被有意越界，保留视觉解释，不说物理画框损坏。 |
+| 2213 | `st-chp2-seciv-l96-104-giants-conflict-continuation` | PASS | `cand-4687,cand-4724,cand-0209` | 巨人群带来冲突印象；访客卷入教皇对邪恶的战争是修辞，不是实际战争事件。 |
+| 2214 | `st-chp2-seciv-l96-104-montagu-interpretation-as-end` | PASS | `cand-1687` | 这是 Haskell 注释转述 Montagu 的学术解释，不当作普遍规律。 |
+| 2215 | `st-chp2-seciv-l96-104-montagu-reports-four-ages` | PASS | `cand-1687,cand-4725` | Four Ages 是至少一位未具名观察者的可能读法，保留“可能”和转述层级。 |
+| 2216 | `st-chp2-seciv-l96-104-montagu-reports-rosichino-teti` | PASS | `cand-1687,cand-4687,cand-2260,cand-2561` | 区分 Montagu、Rosichino、Girolamo Teti 三层学术归述及其不同读法。 |
+| 2217 | `st-chp2-seciv-l96-104-vitzthum-further-citation` | PASS | `cand-4728,cand-4727` | 仅记录注释指向 Vitzthum 1961 文献；不把引文指针当作该文支持的独立证据。 |
+| 2218 | `st-chp2-seciv-l106-112-borghese-ludovisi-subjects` | PASS | `cand-4729,cand-4348` | Borghese 与 Ludovisi 是家族赞助语境，不改成某两位未具名枢机个人。 |
+| 2219 | `st-chp2-seciv-l106-112-papal-theme-novelty` | PASS | `cand-4686` | 主题新颖性是对17世纪教皇赞助语境的比较判断；Papal court 候选不是 papal patronage 本身，故撤掉错配对象。 |
+| 2220 | `st-chp2-seciv-l106-112-ceilings-literary-interests` | PASS | `cand-4003,cand-4687,cand-4730` | 原文的主语是 Sacchi 与 Cortona 两幅穹顶画；分别映射 cand-4003/cand-4687，宾语为新宫廷 cand-4730，不能把 Bracciolini 的单个方案当作宫廷兴趣。 |
+| 2221 | `st-chp2-seciv-l106-112-ceiling-clarity-and-allusions` | PASS | `cand-0350,cand-4687` | 总体清晰与隐晦典故是对 Cortona 天顶画的双重视觉评价。 |
+| 2222 | `st-chp2-seciv-l106-112-cortona-literary-display` | PASS | `cand-0350,cand-4687` | 显示效果与文学兴趣是 Haskell 对 Cortona 综合能力的解释。 |
+| 2223 | `st-chp2-seciv-l106-112-court-humanist-comparison` | PASS | `cand-4730,cand-4731` | 宫廷兴趣与文艺复兴人文主义者作比较，不构成二者身份或机构隶属。 |
+| 2224 | `st-chp2-seciv-l106-112-court-painters-adopt-synthesis` | PASS | `cand-4732,cand-4736` | “well over a century”描述艺术综合被宫廷画家群体采用的持续期；不虚构固定组织成员。 |
+| 2225 | `st-chp2-seciv-l106-112-princely-flattery-comparison` | PASS | `cand-4686,cand-0350,cand-0440` | 方案将王侯奉承推至作者所见极端；不额外添加未被本句指称的家族候选。 |
+| 2226 | `st-chp2-seciv-l106-112-francesco-saw-rubens-cycle` | PASS | `cand-0203,cand-4733,cand-2293,cand-1631,cand-1295,cand-4653` | Francesco 受 Rubens 周期影响是 Haskell 的高可能判断；Rubens 为作者，cand-4733 的确切作品身份仍未证实。 |
+| 2227 | `st-chp2-seciv-l106-112-domenichino-hears-ceiling-comparison` | PASS | `cand-0932,cand-4687` | Domenichino 明确依据 hearsay；只记录他对教皇穹顶适宜性的判断。 |
+| 2228 | `st-chp2-seciv-l106-112-haskell-accepts-domenichino-reading` | PASS | `cand-0932,cand-4687` | “few to quarrel”是 Haskell 对 Domenichino 读法的评价，不代表独立统计现代学者。 |
+| 2229 | `st-chp2-seciv-l106-112-francesco-controls-academy` | PASS | `cand-0203,cand-0007` | Francesco 对学院的控制按 Haskell 原文记录，不补控制开始或结束年份。 |
+| 2230 | `st-chp2-seciv-l106-112-francesco-employs-romanelli` | PASS | `cand-0203,cand-2208,cand-0350` | employment 及 pupilage 有原文支持，但“many obligations”未列具体教堂或作品。 |
+| 2231 | `st-chp2-seciv-l106-112-francesco-funds-academy-church` | PASS | `cand-0203,cand-4735,cand-0350,cand-0007` | 资助对象是 Accademia 教堂重建，Cortona 是建筑工程作者；不误写成资助 Cortona 本人。 |
+| 2232 | `st-chp2-seciv-l106-112-romanelli-academy-prince-1638` | PASS | `cand-2208,cand-0007,cand-2209,cand-0203` | Romanelli 在1638年获任 Accademia di S. Luca Principe，且是按 Francesco 命令；职务与人物分开。 |
+| 2233 | `st-chp2-seciv-l106-112-romanelli-ambition-papal-service` | PASS | `cand-2208,cand-0350,cand-0209` | “aimed to supplant”是未实现的个人抱负，不写成实际继任。 |
+| 2234 | `st-chp2-seciv-l106-112-romanelli-church-paintings` | PASS | `cand-2208,cand-0203` | 教堂与祭坛／穹顶画为未逐一具名的委托范围；不虚构单件作品。 |
+| 2235 | `st-chp2-seciv-l106-112-romanelli-few-admirers` | PASS | `cand-2208,cand-0209,cand-12480` | 新增 cand-12480 只指来源中未具名的单一侄辈；身份与跨章对应保持 S3 undecided，不猜 Francesco 或 Antonio。 |
+| 2236 | `st-chp2-seciv-l106-112-romanelli-in-charge-tapestry-works` | PASS | `cand-2208,cand-4734` | tapestry works 保留为 Romanelli 管理的作坊／生产机构候选；具体组织边界未获原文说明。 |
+| 2237 | `st-chp2-seciv-l106-112-romanelli-painting-assessed` | PASS | `cand-2208` | 疲软、乏力而非真正古典是 Haskell 对 Romanelli 绘画变化的评价。 |
+| 2238 | `st-chp2-seciv-l106-112-romanelli-reliable-rewarded` | PASS | `cand-2208` | 可靠与获得年金荣誉均按作者概述记录，不补金额和授予人。 |
+| 2239 | `st-chp2-seciv-l106-112-romanelli-style-assessment` | PASS | `cand-2208,cand-0350` | 色彩和手法继承及缺少才气是作者比较；“follower”不单独证明正式师承。 |
+| 2240 | `st-chp2-seciv-l114-125-temperament-and-taste` | PASS | `` | 这是作者关于气质与审美的概括性判断；无具名实体端点，不另造候选。 |
+| 2241 | `st-chp2-seciv-l114-125-antonio-character-judgement` | PASS | `cand-0187` | 贪婪与野心是 Haskell 对 Antonio 资格的讽刺评价，不写成客观资格清单。 |
+| 2242 | `st-chp2-seciv-l114-125-antonio-greed-appeased-by-income` | PASS | `cand-0187,cand-11892` | 收入缓和贪欲是作者的心理解释；收入来源组与逐项官职分开。 |
+| 2243 | `st-chp2-seciv-l114-125-antonio-income-comparison` | PASS | `cand-0187,cand-4739,cand-4740` | Cardinals Borghese/Ludovisi 只按姓氏候选保留；收入比较为 Haskell 的不确定判断。 |
+| 2244 | `st-chp2-seciv-l114-125-antonio-income-from-posts` | PASS | `cand-0187,cand-11892` | 印刷p.54核读：claim与原句角色、时间和语气范围相符；候选仅覆盖本claim及必要指代，不扩张到同段其他提及。 |
+| 2245 | `st-chp2-seciv-l114-125-antonio-made-cardinal-1627` | PASS | `cand-4738,cand-0187` | 将1627年枢机任命事件、Antonio本人及19岁年龄分开。 |
+| 2246 | `st-chp2-seciv-l114-125-antonio-nephew-and-brother` | PASS | `cand-0187,cand-0209` | “youngest of the Pope’s nephews”是排行描述，不代表他是 Urban VIII 唯一侄辈。 |
+| 2247 | `st-chp2-seciv-l114-125-conclave-reacts-to-appointment` | PASS | `cand-4737,cand-0187` | Conclave elder members 是未具名群体；记录其震惊反应，不推定人员名单。 |
+| 2248 | `st-chp2-seciv-l114-125-francesco-antonio-sibling` | PASS | `cand-0187,cand-0203` | Antonio 为 Francesco 的弟弟；不将兄弟身份与作者的艺术评价合并。 |
+| 2249 | `st-chp2-seciv-l114-125-francesco-characterized-as-learned` | PASS | `cand-0203` | 印刷p.54核读：claim与原句角色、时间和语气范围相符；候选仅覆盖本claim及必要指代，不扩张到同段其他提及。 |
+| 2250 | `st-chp2-seciv-l114-125-francesco-favourite-cortona` | PASS | `cand-0203,cand-0350` | Francesco 选择 Cortona 为喜爱画家，richly coloured/extrovert 保留为作者描述。 |
+| 2251 | `st-chp2-seciv-l114-125-francesco-favourite-romanelli` | PASS | `cand-0203,cand-2208,cand-0350` | Francesco 选择 Romanelli 为喜爱画家；Cortona 是其师／风格参照，不能合并成同一画家。 |
+| 2252 | `st-chp2-seciv-l114-125-francesco-scholarly-network` | PASS | `cand-0203,cand-11894` | “half the scholars”是夸张性范围，保留未具名学者群，不按字面折半。 |
+| 2253 | `st-chp2-seciv-l114-125-sacchi-supported-by-antonio` | PASS | `cand-2323,cand-0187` | Sacchi 主要依靠 Antonio 支持，保留“almost entirely”，不提升为唯一资助者。 |
+| 2254 | `st-chp2-seciv-l114-125-sacchi-temperament-and-raphael` | PASS | `cand-2323,cand-2098` | Sacchi 对 Raphael 的敬仰和不愿竞争是作者心理描述，不表示真实师生关系。 |
+| 2255 | `st-chp2-seciv-l114-125-antonio-ambition-thwarted` | PASS | `cand-0187,cand-0203,cand-0209,cand-4490` | Francesco 与 Urban VIII 被说成阻挠 Antonio 抱负；被送离罗马的频率仅为“as often as possible”。 |
+| 2256 | `st-chp2-seciv-l114-125-antonio-appearance` | PASS | `cand-0187` | 外貌与风度照录作者描写，不把 dandy/bon vivant 提升为独立身份。 |
+| 2257 | `st-chp2-seciv-l114-125-antonio-family-enthusiasm` | PASS | `cand-0187,cand-0198` | Antonio 分享 Barberini 家族对学问和艺术的兴趣；家族集体与个人分开。 |
+| 2258 | `st-chp2-seciv-l114-125-antonio-opportunity-urbino` | PASS | `cand-0187,cand-2670` | 1631年 devolution 是 Antonio 开始介入艺术赞助的机会语境，不等于某幅画已被购得。 |
+| 2259 | `st-chp2-seciv-l114-125-urban-claims-urbino` | PASS | `cand-0209,cand-4741,cand-4648,cand-1833` | 原文用“city”称指，但后续明确为等待并入教皇国的政治领土；保留 city=place、Urbino state=institution、Papal States=institution 三层，不声称已完成并入。 |
+
+批后：statement 15,518；mention 27,368；PASS 8,977（57.85%）；pending 6,541。下一连续窗口2260–2359。该主审批次不构成全书独立语义接收。
+
+工具与可恢复写入：[B578裁决脚本](adjudicate_s2_current_review_b578_order_2160_2259_20261103.py)先生成含输入／输出哈希、逐ID决定和来源指纹的review-plan.json；apply仅接受计划及输入未漂移，写前保留原始字节备份。关系表、H9622历史事件账本均非写入对象。
