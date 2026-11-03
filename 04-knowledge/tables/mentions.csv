@@ -6021,6 +6021,9 @@ m-chp2-secii-l30-40-0039,chp-2:02_CHP-2_sec_ii:l30-40,cand-0999,Palazzo Farnese,
 m-chp2-secii-l30-40-0040,chp-2:02_CHP-2_sec_ii:l30-40,cand-3126,Rome,2788,2792,Palazzo Farnese 所在城市，原句明言 Rome。
 m-chp2-secii-l30-40-0041,chp-2:02_CHP-2_sec_ii:l30-40,cand-4236,Pantheon,2949,2957,以万神殿被剥取青铜说明工程材料来源。
 m-chp2-secii-l30-40-0042,chp-2:02_CHP-2_sec_ii:l30-40,cand-4234,the whole project,2976,2993,指前文所述巴尔达基诺工程。
+m-chp2-secii-l30-40-0044,chp-2:02_CHP-2_sec_ii:l30-40,cand-11881,decorative sculpture and small-scale busts,1207,1249,Source phrase anchoring Bernini's prior-work group; not an individually titled sculpture.
+m-chp2-secii-l30-40-0045,chp-2:02_CHP-2_sec_ii:l30-40,cand-11882,his first monumental works,1295,1321,Source phrase anchoring Bernini's first monumental-work group; individual works remain unnamed here.
+m-chp2-secii-l30-40-0046,chp-2:02_CHP-2_sec_ii:l30-40,cand-11584,early Christian tombs,2583,2604,Source-defined plural tomb group at risk from the baldacchino foundations; distinct from the supposed tomb of St Peter.
 m-chp2-secii-l42-50-0001,chp-2:02_CHP-2_sec_ii:l42-50,cand-0295,Bernini’s,23,32,Gian Lorenzo Bernini; source uses the possessive in reference to the baldacchino.
 m-chp2-secii-l42-50-0002,chp-2:02_CHP-2_sec_ii:l42-50,cand-4234,baldacchino,52,63,The monumental St Peter’s work introduced in the preceding segment.
 m-chp2-secii-l42-50-0003,chp-2:02_CHP-2_sec_ii:l42-50,cand-3135,the church,221,231,"St Peter’s Basilica, whose general view the work is said not to impede."
@@ -26852,6 +26855,7 @@ m-s2-chp2-surface-f92cf6f4789639b0,chp-2:02_CHP-2_sec_ii:l147-193,cand-11475,Sac
 m-s2-surface-aa308142dfbf4048,chp-2:02_CHP-2_sec_ii:l42-50,cand-4910,Christ,1209,1215,
 m-s2-chp2-surface-02bf8050f629a2ca,chp-2:02_CHP-2_sec_ii:l42-50,cand-5634,botany,1719,1725,Named disciplinary term in the botanical observation.
 m-s2-chp2-surface-583612bd4448284b,chp-2:02_CHP-2_sec_ii:l52-60,cand-4231,St Peter,1138,1146,"The apostle Peter, not Guercino's indexed work titled St Peter."
+m-chp2-secii-l52-60-0090,chp-2:02_CHP-2_sec_ii:l52-60,cand-11587,the relics associated with the saints concerned,683,730,Source-defined unspecified relic group available for feast-day display and stone reproductions; members remain unidentified.
 m-s2-chp2-surface-b15dee633402886a,chp-2:02_CHP-2_sec_ii:l80-89,cand-2098,Raphael,248,255,Person reference in the comparison of artistic qualities.
 m-s2-chp2-surface-880141ed10c5d715,chp-2:02_CHP-2_sec_ii:l80-89,cand-2630,Titian,295,301,Person reference in the same comparison.
 m-s2-chp2-surface-bb6a03baba7ca7a8,chp-2:02_CHP-2_sec_iv:l139-152,cand-5634,botany,1678,1684,Named disciplinary term in the description of the Barberini palace library.
@@ -27138,6 +27142,9 @@ m-chp2-secii-l3-8-ambitious-nephew,chp-2:02_CHP-2_sec_ii:l3-8,cand-12291,ambitio
 m-chp2-secii-l3-8-papabile-cardinal,chp-2:02_CHP-2_sec_ii:l3-8,cand-12292,onepapabile cardinal,1082,1102,The S0 OCR joins ‘one papabile’; the page image confirms the spaced reading. Mention span follows S0; source asset is unchanged.
 m-chp2-secii-l3-8-contemporaries-successors,chp-2:02_CHP-2_sec_ii:l3-8,cand-12293,his contemporaries and by his successors,1797,1837,Collective audience to whom Haskell attributes the judgment; individual members are not identified.
 m-chp2-secii-l42-50-contemporaries-response,chp-2:02_CHP-2_sec_ii:l42-50,cand-12294,contemporaries,94,108,Unnamed contemporary audience to whom Haskell attributes a response to the baldacchino’s visual effect.
+m-chp2-secii-l42-50-0070,chp-2:02_CHP-2_sec_ii:l42-50,cand-4397,Iconographically,233,249,The adverb introduces the baldacchino's source-defined iconographic scheme; it does not identify a separate work.
+m-chp2-secii-l42-50-0071,chp-2:02_CHP-2_sec_ii:l42-50,cand-11585,a form,915,921,"Anaphoric mention of the twisted-column architectural form, not Bernini's physical columns."
+m-chp2-secii-l42-50-0072,chp-2:02_CHP-2_sec_ii:l42-50,cand-3104,his enterprises,2242,2257,"The possessive refers to Urban VIII, the Pope named in the preceding source line; exact anchor for this relation candidate."
 m-chp2-secii-l80-89-pietro-patrons,chp-2:02_CHP-2_sec_ii:l80-89,cand-12295,his patrons,540,551,Unnamed plural patron group from whom Haskell says Pietro asked for subjects; members are not enumerated.
 m-chp2-secii-l118-125-urban-public-monuments,chp-2:02_CHP-2_sec_ii:l118-125,cand-12296,grander and more public monuments,274,307,Open group of grander public monuments to Urban VIII; individual works and group membership are unspecified.
 m-chp2-secii-l127-139-peretti-plan,chp-2:02_CHP-2_sec_ii:l127-139,cand-12297,similar plans,2677,2690,Open event candidate for Peretti's source-described plan; its exact content is not supplied.

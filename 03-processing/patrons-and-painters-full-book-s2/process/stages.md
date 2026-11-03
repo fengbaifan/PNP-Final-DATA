@@ -21176,3 +21176,28 @@ Exact historical hashes map to current statuses: . Changed historical hashes map
 **相关关系、S3与历史裁决。** `alignment.csv`、`entity-candidates.csv`、`relations.csv` 均未改写；本批没有改动同一性决定，也未将S2 relation candidate升级为S6边。按印刷页及来源定位核查，p.31现存正式关系 `rel-2281 appointed_by` 仍由未修改的 `st-chp2-sec-ii-l3-8-antonio-brother-cardinal` 与原有外部身份/日期依据支持；p.33注1的 `rel-1568`–`rel-1570` 对应其他statement，均保持原formal裁决。四条新增statement均无H9622历史事件；H9622不可变账本SHA-256 `75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89` 未变。25条旧statement的当前hash变化如实标记为历史版本 `changed`，当前ID级汇总由8,972 exact / 565 changed更新为8,947 exact / 590 changed；来源版本仍匹配9,622/9,622。
 
 **批后状态及可复现记录。** 当前statement与roster均15,518条、ID一一对应，`current_order`连续覆盖1–15,518；当前statement哈希和各segment mention数量/哈希全表通过。mention共27,350条；全局当前 PASS 8,743、pending 6,775。批次脚本为 `adjudicate_s2_current_review_b573_order_1432_1531_20261103.py`，基线HEAD `791eb62b79b81e127cd3f98ac9db76cd1d7e30e3`，dry-run/apply计划SHA-256 `4fdd1d016c782cd62c80bc742da82e84aa8680779417ea7942e664ce97102a8d`，脚本SHA-256 `ca0851d4f0f3236b1444ae1b059fbf167b139315c11714c80fdbe08da7fe2472`。本批不构成全书S2独立语义接收；8条pending仍按缺口保留，下一连续窗口从当前顺序1536开始。
+<a id="2026-11-03-s2-current-review-b574-order-1536-1659"></a>
+### 2026-11-03 S2 当前版语义修复阶段 B574（当前顺序1536–1659）
+
+**阶段范围与复用。** 连续覆盖124条当前statement，源序1536–1659，对应第二章第二节印刷p.34–38。33条原有PASS在statement、来源、segment及mention指纹核平后复用；91条pending逐项对照现行statement与原页finding处理，其中48条在本阶段修订/补齐后转为当前PASS，43条保留pending。B433已复核的1659项只处理其已记录的过窄诗作候选映射，不重复宣称重审原页。
+
+**原文和当前版本依据。** 权威 `CHP-2.pdf` SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；第二节Markdown SHA-256=`7efde367c2d7d600f599c17d09fbc4f57bf29aa6b7efb439859a1f45b8c863a9`。核读来源行L30–78及印刷p.34–38（PDF物理页15–19）；此前逐页视觉核读记录见`s2-independent-review-chp1-2-4-20261020.md` Chapter 2 batches 10–14，B430–B432核平当前ID 1536–1658的指纹，B433记录1659–1660。原页finding只在当前ID、source、segment及mention版本一致处复用；本阶段的claim/mention修订不冒充对修订版的独立验收。
+
+**本阶段裁决。** 补入7条精确mention：Bernini既有雕塑/半身像组、首批纪念性作品组、早期基督教墓群、扭柱形式/图像方案、四圣遗物组，以及以“his enterprises”锚定Urban VIII的代词指涉。修正Bernini首次纪念作品的时间范围、Urban/Bernini引语及Haskell后续评价、匿名观察者对立面铭文的嵌套讽刺、Cross改案发生在开工后的时序；恢复completed programme的整体结构评价和Passeri引语者。将“中央区域”从整座St Peter’s端点分离，将Matilda遗体从Matilda人物端点分离。针对Marino诗歌的推测移除不相同一的特定诗组映射，开放范围继续pending。
+
+**同段指纹维护。** p.34新mention改变了整段mention集合；顺序1535的既有PASS与本批共享该段，只同步其段内mention数量/hash及历史mention差异，statement和裁决未变。
+
+仍pending的43项包括：未名任职者、Maderno候选类型/`aln-1813`冲突、未登记的中央空间、双重障碍与复合叙述、Matilda遗体端点、未名受众或社会群体、作品/地点类型与版本、关系角色拆分、未界定诗歌总体及其它原findings。相关候选、S3 alignment、KU和S6关系没有被强行更改。
+
+| 阶段量 | 数量 | 结果 |
+|---|---:|---|
+| 当前连续statement | 124 | 1536–1659 |
+| 原有PASS复用 | 33 | 当前指纹一致 |
+| pending转当前PASS | 48 | 修订后逐项按原页定位核对 |
+| 保留pending | 43 | 原因和后续去向保留 |
+| 新增精确mention | 7 | 当前S0 segment偏移逐一核实 |
+| statement当前hash更新 | 117 | 历史review hash不改写 |
+
+**下游关系与历史裁决。** 逐条对照`relations.csv`中链接本窗口statement的16条关系（`rel-1997, rel-1998, rel-1999, rel-2000, rel-2001, rel-2002, rel-2363, rel-2364, rel-2365, rel-2431, rel-2631, rel-2632, rel-2633, rel-2634, rel-2635, rel-2636`；状态`{"formal": 16}`）及原文范围；formal端点、谓词和状态均仍受修订后当前claim支持。未改正式边、端点、谓词或状态；缺少遗体端点的转移关系继续pending。`alignment.csv`、`entity-candidates.csv`及H9622不可变事件账本均未改。H9622当前statement/mention指纹重算为exact/changed，历史裁决及事件数量不回写。本阶段不构成全书S2独立语义接收。
+
+**批后状态与复核。** 当前statement 15518条、mention 27357条；PASS 8791（56.65%），pending 6727（43.35%）。H9622当前映射hash匹配计数：`{"exact": 8835, "changed": 702}`。新增mention及statement mappings逐项以当前源行、精确span和同segment候选存在性断言；全roster statement hash、连续序、受影响segment mention计数/hash重算通过。脚本`adjudicate_s2_current_review_b574_order_1536_1659_20261103.py`，基线HEAD `af3f3ba7084b0066febe9d388b5c4a8b1b1eb634`，计划哈希由dry-run输出记录。后续按B574保留的原页finding继续处理，不重复已PASS条目。
