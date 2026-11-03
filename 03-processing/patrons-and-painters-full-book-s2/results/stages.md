@@ -3010,3 +3010,7 @@ Reconciled 54 continuous Chapter 21 rows: 54 existing current PASS reused, 0 cur
 ### 2026-11-03 S2 current semantic repair stage B574 (1536–1659)
 
 Reviewed 124 continuous current statements: reused 33 current PASS, promoted 48 pending to PASS, retained 43 pending, and added 7 exact mentions. Current full-book totals: 15518 statements, 27357 mentions, 8791 PASS, 6727 pending. S3 alignment, candidate registry, formal relations, and immutable H9622 outcomes were not changed. See [B574 process record](../process/stages.md#2026-11-03-s2-current-review-b574-order-1536-1659).
+
+### 2026-11-03 S2 current semantic review stage B575 (1660–1759)
+
+Reviewed 100 continuous current statements: reused 94 current PASS, promoted 3 pending to PASS, and retained 3 pending. Updated 2 statements, adding no statements or mentions. Current full-book totals: 15518 statements, 27357 mentions, 8794 PASS, 6724 pending. S3 alignments, formal relations, and immutable H9622 outcomes were preserved. See [B575 process record](../process/stages.md#2026-11-03-s2-current-review-b575-order-1660-1759).

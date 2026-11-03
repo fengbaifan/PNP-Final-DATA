@@ -21201,3 +21201,27 @@ Exact historical hashes map to current statuses: . Changed historical hashes map
 **下游关系与历史裁决。** 逐条对照`relations.csv`中链接本窗口statement的16条关系（`rel-1997, rel-1998, rel-1999, rel-2000, rel-2001, rel-2002, rel-2363, rel-2364, rel-2365, rel-2431, rel-2631, rel-2632, rel-2633, rel-2634, rel-2635, rel-2636`；状态`{"formal": 16}`）及原文范围；formal端点、谓词和状态均仍受修订后当前claim支持。未改正式边、端点、谓词或状态；缺少遗体端点的转移关系继续pending。`alignment.csv`、`entity-candidates.csv`及H9622不可变事件账本均未改。H9622当前statement/mention指纹重算为exact/changed，历史裁决及事件数量不回写。本阶段不构成全书S2独立语义接收。
 
 **批后状态与复核。** 当前statement 15518条、mention 27357条；PASS 8791（56.65%），pending 6727（43.35%）。H9622当前映射hash匹配计数：`{"exact": 8835, "changed": 702}`。新增mention及statement mappings逐项以当前源行、精确span和同segment候选存在性断言；全roster statement hash、连续序、受影响segment mention计数/hash重算通过。脚本`adjudicate_s2_current_review_b574_order_1536_1659_20261103.py`，基线HEAD `af3f3ba7084b0066febe9d388b5c4a8b1b1eb634`，计划哈希由dry-run输出记录。后续按B574保留的原页finding继续处理，不重复已PASS条目。
+
+<a id="2026-11-03-s2-current-review-b575-order-1660-1759"></a>
+### 2026-11-03 S2 当前版逐ID语义复核阶段 B575（当前顺序1660–1759）
+
+**范围与复用。** 连续核平100条当前statement，顺序1660–1759，覆盖第二章第二节p.38–41附近的来源段及图版题注。94条已有PASS在当前statement、来源资产、segment与mention指纹一致后复用；6条pending逐项回到已有原页finding和当前S3/mention状态，3条转为PASS，3条保持pending。复用PASS不重复视觉阅读，保留其原复核证据入口。
+
+**原文、版本与历史核平。** 权威`CHP-2.pdf` SHA-256=`317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e`；第二节Markdown SHA-256=`7efde367c2d7d600f599c17d09fbc4f57bf29aa6b7efb439859a1f45b8c863a9`。窗口100/100当前statement指纹与roster一致；H9622中98条事件均匹配当前来源版本，窗口原statement hash为41 exact、57 changed、2条无历史事件。p.39–40 finding复用B433对印刷页的逐页核读；本阶段依当前原文句段和既有扫描结论只处理未决ID，不重读已PASS页或复制相同finding。
+
+**三条pending转PASS。** 顺序1661：S3既有`aln-0367=same`已把Cardinal Aldobrandini对应到Pietro Aldobrandini；修正S2 qualification中“身份仍待S3”的过期说明，保留作品与Ferrara端点边界，不改S3决定。顺序1664：claim仅记Marcello鼓励Pietro复制Raphael与Titian；与顺序1662的focal-point／Baroque解释分开，不宣称Marcello创立Baroque。顺序1729：portrait-group与Urban VIII映射已有精确原文mention；补入其`mentioned_candidate_ids`，claim只限p.40可见的外貌断句，保留L119续接segment/statement，不把后续页文字并入。
+
+**三条继续pending。** 顺序1662：鼓励复制、历史focal point和“Raphael设计＋Titian色彩”作为Baroque foundation存在不同命题，后者缺少安全的来源限定组合端点；保留作者判断，不臆造movement起源。顺序1663：every artist为作者的普遍概括，候选群体目前suggested type=`term`且无稳妥群体端点；不强改类型。顺序1713：flattery是Baroque要素与Urban VIII给予表达机会是相邻的两项判断；先拆清原子性，暂不追加关系或端点。
+
+| 当前范围 | 完成情况 |
+|---|---:|
+| 连续当前statement | 100（1660–1759） |
+| 既有PASS指纹复用 | 94 |
+| pending转PASS | 3 |
+| 保留pending | 3（1662、1663、1713） |
+| 新增statement／mention | 0／0 |
+| statement字段修订 | 2 |
+
+**关系与历史裁决影响。** 对照`relations.csv`中本窗口来源statement所支撑的`rel-2470`（p.39 L83 employed_by）、`rel-2471`（L85 designed_by）、`rel-2472`（L83 located_at）；三条均保持formal，端点、谓词、来源范围及状态不变，关联statement仍为PASS。无其他正式关系行以本窗口statement为来源；S6关系表、S3 alignment与候选表均未改。H9622历史事件账本保持9,622行、SHA-256=`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`，历史review hash和裁决未回写；仅当前statement hash映射由窗口内两条statement更新为changed，窗口事件仍98/98来源匹配。
+
+**批后状态与下一批。** 全书当前statement 15,518条、mention 27,357条；PASS 8,794（56.67%），pending 6,724（43.33%）。H9622当前ID级statement hash为exact 8,833、changed 704。下一连续窗口为1760–1859；全书仍有6,724条pending。修订针对当前版，并非独立复核已修订版本。
