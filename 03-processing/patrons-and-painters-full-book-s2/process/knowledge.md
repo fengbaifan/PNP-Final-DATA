@@ -19019,3 +19019,10 @@ B022核对《CHP-3》印本p.82正文与脚注1：脚注紧随明确标作Molino
 第2章p.29注5（`02_CHP-2_sec_i.md` L104；印本p.29）只记“M. V. Brugnoli”与1957年。书目p.417（`21_CHP-21Bibliography.md` L266–268）列同作者同年两篇不同文章：Castello文章与Albani/Domenichino壁画文章。原脚注没有题名，当前S2 statement的qualifier也将各自题名对应标为tentative/待核；两篇文章未独立查阅。
 
 复核发现此前 `rel-1981`、`rel-1982` 已将两项具体标题分别登记为formal `cites`，与S2“未建立正式S6边”的记录冲突。现保留关系行、端点、谓词、来源范围、候选和S3/S4身份，但把两项当前状态降为pending；原formal决定及其被修正理由保留在本条历史记录。候选 `cand-4328`、`cand-4329`仍为两篇不同文章，不合并身份。`rel-1983` Toesca引文仍pending；书目直接列出两项作者形式的 `rel-1985`、`rel-1986`继续formal。当前关系总数不变（2,649）；状态由2,589 formal/57 pending/3 rejected调整为2,587 formal/59 pending/3 rejected。无statement、mention、alignment或H9622历史事件修改；待脚注到具体题名有直接证据后再审。
+
+<a id="s3-targeted-cand-1479-maderno-20261103"></a>
+### S1/S3定向修正：cand-1479 Carlo Maderno（2026-11-03）
+
+M.csv#16主项为“Maderno, Carlo”，子项“plans for Barberini palace”及页码47–48是索引定位，不是work身份。第2章p.47称Carlo Maderno为罗马主要建筑师，并记Taddeo接洽他；p.48记Maderno于1629年去世后由Bernini接替。独立原页复核也指出原suggested_type=work错误。此次将cand-1479类型更正为person；Barberini palace仍为独立候选cand-0240。
+
+cand-1479与cand-1477、cand-4873的索引规范名相同。cand-1477、cand-4873已组成new-person:carlo-maderno-530c4fdfa7并登记至units/persons/carlo-maderno。故aln-1814裁为same并复用该KU；此为书内全名、页码和人物角色的比较，不声称外部身份验证。人物卡已补入p.47–48来源证据和cand-1479入口。设计归属与关系候选不因身份same而自动formal；2051、2055及2061仍按各自pending状态处理。

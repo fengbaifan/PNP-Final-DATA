@@ -3588,7 +3588,7 @@ cand-1475,M.csv#12,Macerata,"223, 224, 225",place,open,M.csv,,,,,
 cand-1476,M.csv#13,Macerata,"223, 224, 225",place,open,M.csv,Buonaccorsi palace,,,,
 cand-1477,M.csv#14,"Maderno, Carlo","27, 34, 47, 48, 71, 74, 75, 396",person,open,M.csv,,"S3 cross-chapter review (2026-10-17): cand-1477 and cand-4873 remain one person group, new-person:carlo-maderno-530c4fdfa7, on the identical full name in chapter 2, chapter 3, and the Postscript, with index M.csv#14 as the chapter-spanning locator. In chapter 2 p.27 the name occurs in the nave-plan passage; the adjacent pronoun about moving to Spoleto and becoming bishop refers to another person and is not attributed to Maderno. No exact existing person KU matched; no external identity source was accessed.",,,
 cand-1478,M.csv#15,"Maderno, Carlo",34,work,open,M.csv,facade of St Peter's,,,,
-cand-1479,M.csv#16,"Maderno, Carlo","47, 48",work,open,M.csv,plans for Barberini palace,,,,
+cand-1479,M.csv#16,"Maderno, Carlo","47, 48",person,open,M.csv,plans for Barberini palace,"B576 targeted S1 correction: M.csv#16 subentry 'plans for Barberini palace' is a locator for the person Maderno, Carlo, not a work identity. Haskell calls Carlo Maderno the leading architect in Rome on p.47 and states on p.48 that Maderno died in 1629 and Bernini replaced him. The palace remains cand-0240.",,,chp-2:02_CHP-2_sec_iv:l45-52#L52;chp-2:02_CHP-2_sec_iv:l54-63#L56
 cand-1480,M.csv#17,"Maderno, Carlo",71,place,open,M.csv,work on S. Andrea della Valle,,,,
 cand-1481,M.csv#18,Madrid,,place,open,M.csv,,,,,
 cand-1482,M.csv#19,Madrid,190,place,open,M.csv,Palace of the Alcazar,,,,

@@ -3014,3 +3014,7 @@ Reviewed 124 continuous current statements: reused 33 current PASS, promoted 48 
 ### 2026-11-03 S2 current semantic review stage B575 (1660–1759)
 
 Reviewed 100 continuous current statements: reused 94 current PASS, promoted 3 pending to PASS, and retained 3 pending. Updated 2 statements, adding no statements or mentions. Current full-book totals: 15518 statements, 27357 mentions, 8794 PASS, 6724 pending. S3 alignments, formal relations, and immutable H9622 outcomes were preserved. See [B575 process record](../process/stages.md#2026-11-03-s2-current-review-b575-order-1660-1759).
+
+### 2026-11-03 S2 current semantic review stage B576 (1960–2059)
+
+Reviewed 100 continuous current statements: reused 77 current PASS, promoted 18 pending to PASS, retained 5 pending. Updated 22 statements, adding no statement or mention. Two adjacent pre-existing PASS windows (200 statements) were reused after fingerprint checks. Corrected cand-1479 to person and aln-1814 to same with the existing Carlo Maderno KU. Full-book totals: 15518 statements, 27357 mentions, 8812 PASS, 6706 pending. Formal relations and immutable H9622 outcomes were preserved. See [B576 process record](../process/stages.md#2026-11-03-s2-current-review-b576-order-1960-2059) and [targeted S3 record](../process/knowledge.md#s3-targeted-cand-1479-maderno-20261103).

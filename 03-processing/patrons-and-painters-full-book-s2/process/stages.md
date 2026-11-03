@@ -21225,3 +21225,52 @@ Exact historical hashes map to current statuses: . Changed historical hashes map
 **关系与历史裁决影响。** 对照`relations.csv`中本窗口来源statement所支撑的`rel-2470`（p.39 L83 employed_by）、`rel-2471`（L85 designed_by）、`rel-2472`（L83 located_at）；三条均保持formal，端点、谓词、来源范围及状态不变，关联statement仍为PASS。无其他正式关系行以本窗口statement为来源；S6关系表、S3 alignment与候选表均未改。H9622历史事件账本保持9,622行、SHA-256=`75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89`，历史review hash和裁决未回写；仅当前statement hash映射由窗口内两条statement更新为changed，窗口事件仍98/98来源匹配。
 
 **批后状态与下一批。** 全书当前statement 15,518条、mention 27,357条；PASS 8,794（56.67%），pending 6,724（43.33%）。H9622当前ID级statement hash为exact 8,833、changed 704。下一连续窗口为1760–1859；全书仍有6,724条pending。修订针对当前版，并非独立复核已修订版本。
+
+<a id="2026-11-03-s2-current-review-b576-order-1960-2059"></a>
+### 2026-11-03 S2 当前版逐ID语义复核阶段 B576（当前顺序1960–2059）
+
+**窗口与复用。** 连续100条：77条已有PASS经当前statement、来源资产、S0 segment与mention-set指纹核平后复用；23条pending回到第2章印刷p.47–48原文、既有扫描核读和B005 finding，其中18条转PASS、5条保留pending。相邻窗口1760–1859与1860–1959共200条已有PASS也经指纹核平后复用，不重复阅读或另造批次。
+
+**原文与版本。** 权威CHP-2.pdf SHA-256=317531003e6aeba7d0a956d660eb7552e846fe35b6c7e8e1a4a0a5aa97e8ac5e；当前sec_iv Markdown SHA-256=9f50e1396234faff664211d70a1231ef145bccdc24e91c088f1237d55ca34dbf。对应segment为chp-2:02_CHP-2_sec_iv:l45-52及l54-63。窗口100/100 statement、来源资产、segment与mention集合指纹通过；mention表已有候选跨度逐条回切segment并匹配surface form，没有新增mention行。
+
+**逐条通过与映射。** 下表给出18条pending转PASS的当前ID和claim-specific mention候选；roster逐行保留原证据入口和判断变化：
+
+| 序位 | statement ID | 本次裁决与映射 |
+|---:|---|---|
+| 2026 | st-chp2-seciv-l45-52-taddeo-age-and-election-context | PASS；cand-0239、cand-0209。 |
+| 2033 | st-chp2-seciv-l45-52-taddeo-dynastic-role | PASS；cand-0239、cand-0198、cand-3462；王朝是预期角色语境，不是实际亲缘边。 |
+| 2034 | st-chp2-seciv-l45-52-taddeo-lieutenant-general | PASS；cand-0239、cand-4644；保留约略时间。 |
+| 2035 | st-chp2-seciv-l45-52-taddeo-marriage | PASS；cand-0239、cand-4639、cand-4638；女方未具名。 |
+| 2037 | st-chp2-seciv-l45-52-taddeo-palestrina-purchase | PASS；cand-0239、cand-4215；保留“两年后”限定。 |
+| 2038 | st-chp2-seciv-l45-52-taddeo-prefect-title | PASS；cand-0239、cand-4645、cand-4490；1631职位statement的formal证据不变。 |
+| 2039 | st-chp2-seciv-l45-52-taddeo-succeeds-father-command | PASS；cand-0239、cand-4640、cand-4644；父亲和日期不推定。 |
+| 2040 | st-chp2-seciv-l45-52-della-rovere-prior-prefecture | PASS；cand-4646、cand-4645、cand-4648；保留家族范围。 |
+| 2041 | st-chp2-seciv-l45-52-taddeo-income-ranking | PASS；cand-0239、cand-3461；Italy为比较范围。 |
+| 2046 | st-chp2-seciv-l45-52-urban-viii-intended-assertion-of-rights | PASS；cand-0209、cand-0239；只记录Urban VIII意图。 |
+| 2047 | st-chp2-seciv-l45-52-francesco-transfer-sforza-palace-in-1626 | PASS；cand-3035、cand-0239、cand-4620；Sforza palace明确为转让资产，不建formal edge。 |
+| 2049 | st-chp2-seciv-l45-52-barberini-new-palace-plan | PASS；cand-0198、cand-0240、cand-4620；新建计划与既有宫殿分开。 |
+| 2050 | st-chp2-seciv-l45-52-bernini-restored-s-bibiana | PASS；cand-0296、cand-4441；沿用p.47扫描校读only restored。 |
+| 2052 | st-chp2-seciv-l45-52-taddeo-approached-maderno | PASS；cand-0239、cand-1479、cand-4490、cand-0209；S1/S3定向修正后person端点清楚。 |
+| 2056 | st-chp2-seciv-l54-63-barberini-palace-largest-private-palace | PASS；cand-0240、cand-4490；Rome为比较范围。 |
+| 2057 | st-chp2-seciv-l54-63-barberini-supremacy-symbolized | PASS；cand-0240、cand-0198；Haskell政治解释保留为非formal claim。 |
+| 2058 | st-chp2-seciv-l54-63-facade-precedents-around-rome | PASS；cand-0240、cand-4490；保留façade/villa比较和almost only限定。 |
+| 2059 | st-chp2-seciv-l54-63-new-era-periodization | PASS；mention数组为空；不造event端点。 |
+
+**S1/S3定向修正。** 独立逐页复核指出cand-1479将Carlo Maderno错标为work。本批核回M.csv#16：主项“Maderno, Carlo”，子项“plans for Barberini palace”是索引定位，页码47–48；p.47原文称Carlo Maderno为“the leading architect in Rome”，p.48称其1629年去世后由Bernini接替。故entity-candidates.csv只将suggested_type从work改为person，并写入原页source ref。M.csv#14主项同为“Maderno, Carlo”，cand-1477和cand-4873已归入new-person:carlo-maderno-530c4fdfa7并登记至units/persons/carlo-maderno；因此aln-1814从undecided改为same，复用该KU，不合并palace或方案，也未使用外部标识。人物卡补入p.47–48身份依据和cand-1479入口。2061号Bernini接替Maderno statement仍pending，留待下一窗口独立复核。
+
+**保留pending的五项。** 2042提出/抵抗precedence claims的主体不明；移除无据Urban VIII asserting-agent及错误关系端点。2048已拆清Sforza family卖方、Francesco买方、Valmontone地点，但property未被识别为独立资产端点。2051保留Maderno与更可能的未具名collaborator/adviser两种归属。2053未识别所购surrounding-land地块，已移除错误的palace购买对象。2055是同一跨页设计归属不确定；类型修正不替原文选定设计者。以上关系端点缺口继续pending，不补造S6 formal edge。
+
+**相关关系和历史裁决。** aln-1814由undecided转same；其余alignment及S6裁决未改。relations.csv中3条本窗口formal关系rel-2491、rel-2492、rel-2524保持端点、predicate、scope、evidence与状态不变；rel-2524仍由2038号Prefect of Rome statement支持，relations.csv逐字节未变。H9622账本保持9,622行、SHA-256=75ab12df478a816035929353565b0301d55959c6bb13d9b511af072c4c931c89；本窗口95个历史事件的source version均95/95匹配，批前hash为42 exact/53 changed。原始review hash、历史裁决与事件账本不回写，只刷新roster当前hash匹配。
+
+| 阶段量 | 数量 | 结果 |
+|---|---:|---|
+| 连续当前statement | 100（1960–2059） | 100/100指纹核平 |
+| 既有当前PASS复用 | 77 | 不重读 |
+| pending转当前PASS | 18 | 补映/定向修正后通过 |
+| 保留pending | 5 | 缺失行为主体、作品或地块端点 |
+| statement字段修订 | 22 | 未新增statement或mention |
+| 相邻窗口PASS复用 | 200（1760–1959） | 已有证据与指纹一致 |
+
+**批后状态。** 全书15,518条statement、27,357条mention；PASS 8,812、pending 6,706。下一连续窗口为2060–2159；该窗口PASS 17、pending 83，其中2061仍pending。本阶段不等同全书S2独立语义接收。
+
+**针对性验证。** [B576预检与写入脚本](adjudicate_s2_current_review_b576_order_1960_2059_20261103.py)的基线及来源指纹核验通过。`audit_tables.py --strict-stage --summary`返回15,518条statement、27,357条mention、`errors=[]`、`s2_missing=[]`、`alignments_unlinked=0`；`audit_relation_consistency.py --dry-run`五类关系阻断均为0，另报告1,320个零关系KU与2个超连接KU诊断项。Carlo Maderno卡片按单卡预检并渲染1张，写后字节核验通过，再次预览无差异；未投影关系行。`git diff --check`通过。结构审计中的S4 2,522项登记待办及全书S2仍待独立语义接收，均保持原状态。
